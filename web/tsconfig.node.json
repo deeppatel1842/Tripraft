@@ -1,0 +1,11 @@
+{
+  "//": "TypeScript Configuration for Node.js - Specific configuration for build tools and Node.js scripts. Handles configuration files like vite.config.ts, tailwind.config.js, and other build-time scripts.",
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["vite.config.ts"]
+}

@@ -1,0 +1,15 @@
+{
+  "_comment": "Prettier Configuration File - Defines code formatting rules for consistent styling across the Travel Planner project. Ensures uniform indentation, quotes, semicolons, and line breaks for better code readability and team collaboration.",
+  "semi": true,
+  "trailingComma": "es5",
+  "singleQuote": true,
+  "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "arrowParens": "avoid",
+  "endOfLine": "lf"
+}
