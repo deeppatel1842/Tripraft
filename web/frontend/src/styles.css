@@ -1,0 +1,6 @@
+:root{
+  --bg:#f7fafc;
+  --text:#0f172a;
+}
+body{margin:0;font-family:Inter,system-ui,Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}
+.app-root{max-width:900px;margin:48px auto;padding:24px}

@@ -1,1 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+env/
+venv/
+.venv/
+.env
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
 wayfinder/
