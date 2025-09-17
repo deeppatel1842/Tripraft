@@ -8,25 +8,12 @@ export default function App() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    let mounted = true
-    
-    // Fetch app config
-    fetch('/api/config')
-      .then((r) => (r.ok ? r.json() : null))
-      .then((cfg) => {
-        if (mounted && cfg && cfg.APP_NAME) setAppName(cfg.APP_NAME)
-      })
-      .catch(() => {
-        // keep default
-      })
-
-    // Listen for auth state changes
+    // This useEffect is correct and handles the initial login check
     const unsubscribe = authService.onAuthStateChanged(async (firebaseUser) => {
       if (firebaseUser) {
         try {
           const idToken = await firebaseUser.getIdToken()
           const result = await authService.verifyWithBackend(idToken)
-          
           if (result.success) {
             setUser(result.user)
           } else {
@@ -41,11 +28,7 @@ export default function App() {
       }
       setLoading(false)
     })
-
-    return () => { 
-      mounted = false
-      unsubscribe()
-    }
+    return () => unsubscribe()
   }, [])
 
   const handleLoginSuccess = (userData) => {
@@ -53,27 +36,12 @@ export default function App() {
   }
 
   const handleLogout = async () => {
-    try {
-      await authService.signOut()
-      setUser(null)
-    } catch (error) {
-      console.error('Error signing out:', error)
-    }
+    await authService.signOut()
+    setUser(null)
   }
 
   if (loading) {
-    return (
-      <div className="app-root" style={{ 
-        display: 'flex', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
-        height: '100vh',
-        background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-        color: '#ffffff'
-      }}>
-        <div>Loading...</div>
-      </div>
-    )
+    return <div>Loading...</div>
   }
 
   if (!user) {

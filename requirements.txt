@@ -20,3 +20,4 @@ gunicorn==20.1.0
 
 #firebase-sdk
 firebase-admin==6.2.0
+flask_cors==3.0.10

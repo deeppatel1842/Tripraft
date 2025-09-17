@@ -7,9 +7,10 @@ import firebase_admin
 from firebase_admin import credentials, auth, firestore
 from dotenv import load_dotenv
 
-# Load environment variables from root directory
-root_dir = os.path.join(os.path.dirname(__file__), '..', '..', '..', '..')
-load_dotenv(os.path.join(root_dir, '.env'))
+# # Load environment variables from root directory
+# root_dir = os.path.join(os.path.dirname(__file__), '..', '..', '..')
+# load_dotenv(os.path.join(root_dir, '.env'))
+load_dotenv()
 
 class FirebaseAdmin:
     def __init__(self):

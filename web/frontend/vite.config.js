@@ -6,7 +6,7 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   // Load environment variables from root directory
-  envDir: path.resolve(__dirname, '../..'),
+  // envDir: path.resolve(__dirname, '../..'),
   server: {
     port: 5173,
     proxy: {
