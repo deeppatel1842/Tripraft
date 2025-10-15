@@ -12,5 +12,5 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Use environment variables with fallback
-APP_NAME = os.environ.get('APP_NAME', 'TravelApp')
+APP_NAME = os.environ.get('APP_NAME', 'Tripraft')
 DEFAULT_API_PREFIX = '/api'
