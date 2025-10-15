@@ -97,7 +97,6 @@ class AuthService {
     }
   }
 
-  // Apple Authenticatio
 
   // Sign Out
   async signOut() {

@@ -1,0 +1,266 @@
+/* AnimatedBackground.css - Based on demo.html */
+
+:root {
+  --animation-cycle: 24s;
+  --bg-dark: #0c1222;
+  --sky-color: #0e1a33;
+  --accent-color: white;
+  --glow-effect: 0 0 24px rgba(200, 193, 207, 0.35);
+}
+
+/* Stage Container */
+.animated-stage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #667eea, #764ba2);
+  z-index: 1;
+}
+
+/* Stars Background */
+.animated-stars {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(1px 1px at 12% 22%, rgba(255, 255, 255, 0.7) 50%, transparent 51%),
+    radial-gradient(1px 1px at 44% 12%, rgba(255, 255, 255, 0.5) 50%, transparent 51%),
+    radial-gradient(1px 1px at 66% 18%, rgba(255, 255, 255, 0.6) 50%, transparent 51%),
+    radial-gradient(1px 1px at 78% 8%, rgba(255, 255, 255, 0.35) 50%, transparent 51%),
+    radial-gradient(1px 1px at 32% 30%, rgba(255, 255, 255, 0.4) 50%, transparent 51%),
+    radial-gradient(1px 1px at 86% 28%, rgba(255, 255, 255, 0.55) 50%, transparent 51%);
+  animation: twinkle 6s ease-in-out infinite alternate;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+@keyframes twinkle {
+  from { opacity: 0.35; }
+  to { opacity: 0.9; }
+}
+
+/* Horizon Line */
+.animated-horizon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 14%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  filter: blur(0.2px);
+  z-index: 2;
+}
+
+/* Base Sprite Styles */
+.animated-sprite {
+  position: absolute;
+  will-change: transform, opacity;
+  user-select: none;
+  filter: drop-shadow(var(--glow-effect));
+  opacity: 0;
+  z-index: 3;
+}
+
+/* 1. Map Animation (0-9%) - ends before lets-go starts */
+.animated-map {
+  width: min(280px, 30vw);
+  left: 6%;
+  bottom: 10%;
+  animation: map-sequence var(--animation-cycle) linear infinite;
+}
+
+@keyframes map-sequence {
+  0% { opacity: 0; transform: translateX(-40%) scale(0.9) rotate(-6deg); }
+  4% { opacity: 1; transform: translateX(0%) scale(1.05) rotate(2deg); }
+  8% { opacity: 1; transform: translateX(0%) scale(1) rotate(0deg); }
+  9% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* 2. Let's Go Animation (10-20%) */
+.animated-letsgo {
+  width: min(320px, 34vw);
+  left: 50%;
+  top: 8%;
+  transform: translate(-50%, -20px) scale(0.9) rotate(-3deg);
+  animation: letsgo-sequence var(--animation-cycle) linear infinite;
+}
+
+@keyframes letsgo-sequence {
+  0%, 9.9% { opacity: 0; }
+  10% { opacity: 0; transform: translate(-50%, -20px) scale(0.9) rotate(-3deg); }
+  13% { opacity: 1; transform: translate(-50%, 0) scale(1.07) rotate(2deg); }
+  18% { opacity: 1; transform: translate(-50%, 0) scale(1) rotate(0); }
+  20% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* 3. Man with Bag Animation (18-32%) */
+.animated-bagman {
+  width: min(300px, 30vw);
+  bottom: 6%;
+  right: -32%;
+  animation: bagman-sequence var(--animation-cycle) ease-out infinite;
+}
+
+@keyframes bagman-sequence {
+  0%, 17.9% { opacity: 0; right: -32%; }
+  18% { opacity: 1; right: -22%; }
+  28% { opacity: 1; right: 8%; }
+  32% { opacity: 0; right: 8%; }
+  100% { opacity: 0; }
+}
+
+/* 4. Plane Takeoff Animation (30-40%) */
+.animated-plane {
+  width: min(240px, 24vw);
+  bottom: 16%;
+  left: -25%;
+  animation: plane-sequence var(--animation-cycle) linear infinite;
+}
+
+@keyframes plane-sequence {
+  0%, 29.9% { opacity: 0; transform: translate(0, 0) rotate(0deg); }
+  30% { opacity: 1; }
+  36% { transform: translate(60vw, -28vh) rotate(-12deg); opacity: 1; }
+  40% { transform: translate(105vw, -52vh) rotate(-18deg); opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* 5. Tourist with Map Animation (38-50%) */
+.animated-tourist {
+  width: min(280px, 28vw);
+  left: -30%;
+  bottom: 7%;
+  animation: tourist-sequence var(--animation-cycle) ease-out infinite;
+}
+
+@keyframes tourist-sequence {
+  0%, 37.9% { opacity: 0; left: -30%; }
+  38% { opacity: 1; left: -18%; }
+  48% { opacity: 1; left: 10%; }
+  50% { opacity: 0; left: 10%; }
+  100% { opacity: 0; }
+}
+
+/* 6. Confusion Animation (48-58%) */
+.animated-confuse {
+  width: min(220px, 22vw);
+  left: 30%;
+  top: 16%;
+  animation: confuse-sequence var(--animation-cycle) linear infinite;
+}
+
+@keyframes confuse-sequence {
+  0%, 47.9% { opacity: 0; transform: translate(0, 0); }
+  48% { opacity: 1; }
+  54% { transform: translate(4px, 0); }
+  56% { transform: translate(-4px, 0); }
+  58% { opacity: 0; transform: translate(0, 0); }
+  100% { opacity: 0; }
+}
+
+/* 7. Content Animation (56-68%) */
+.animated-content {
+  width: min(340px, 34vw);
+  left: 10%;
+  top: 10%;
+  animation: content-sequence var(--animation-cycle) ease-in-out infinite;
+}
+
+@keyframes content-sequence {
+  0%, 55.9% { opacity: 0; transform: scale(0.9); }
+  56% { opacity: 1; transform: scale(1.03); }
+  62% { opacity: 1; transform: scale(1); }
+  68% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* Brand Text Animation (56-68%) - Aligned with content box */
+.animated-brand {
+  position: absolute;
+  left: 50%;
+  top: 24%;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  font-size: clamp(18px, 2.8vw, 32px);
+  color: var(--accent-color);
+  text-shadow: 0 3px 14px rgba(168, 85, 247, 0.5);
+  opacity: 0;
+  transform: translate(-50%, 0);
+  animation: brand-sequence var(--animation-cycle) ease-in-out infinite;
+  z-index: 4;
+  white-space: nowrap;
+}
+
+@keyframes brand-sequence {
+  0%, 55.9% { opacity: 0; transform: translate(-50%, 8px); }
+  56% { opacity: 1; transform: translate(-50%, 0); }
+  66% { opacity: 1; transform: translate(-50%, 0); }
+  68% { opacity: 0; }
+  100% { opacity: 0; }
+}
+ 
+/* 8. Happy/Celebration Animation (66-78%) */
+.animated-happy {
+  width: min(280px, 28vw);
+  right: 14%;
+  bottom: 18%;
+  animation: happy-sequence var(--animation-cycle) ease-in-out infinite;
+}
+
+@keyframes happy-sequence {
+  0%, 65.9% { opacity: 0; transform: scale(0.95); }
+  66% { opacity: 1; transform: scale(1.06); }
+  72% { opacity: 1; transform: scale(1); }
+  78% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* 9. Student Animation (76-92%) */
+.animated-student {
+  width: min(280px, 28vw);
+  left: -30%;
+  bottom: 6%;
+  animation: student-sequence var(--animation-cycle) ease-out infinite;
+}
+
+@keyframes student-sequence {
+  0%, 75.9% { opacity: 0; left: -30%; }
+  76% { opacity: 1; left: -18%; }
+  88% { opacity: 1; left: 14%; }
+  92% { opacity: 0; left: 14%; }
+  100% { opacity: 0; }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .animated-sprite {
+    filter: drop-shadow(0 0 12px rgba(168, 85, 247, 0.25));
+  }
+  
+  .animated-brand {
+    left: 50%;
+    transform: translateX(-50%) translateY(8px);
+  }
+}
+
+@media (max-width: 480px) {
+  .animated-map,
+  .animated-letsgo,
+  .animated-bagman,
+  .animated-plane,
+  .animated-tourist,
+  .animated-confuse,
+  .animated-content,
+  .animated-happy,
+  .animated-student {
+    width: min(200px, 40vw);
+  }
+  
+  .animated-brand {
+    font-size: clamp(18px, 5vw, 28px);
+  }
+}

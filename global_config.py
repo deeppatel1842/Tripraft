@@ -1,8 +1,16 @@
 """Global configuration constants for the repository.
 
-Use environment-specific values in `backend/config.py` or `frontend` env variables.
-Keep only non-sensitive defaults here.
+DEPRECATED: This file is deprecated. Please use web/backend/config.py instead.
+All configuration should be loaded from environment variables via .env file.
+
+For backward compatibility, these values are kept but should be migrated.
 """
 
-APP_NAME = 'Wayfinder123'
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Use environment variables with fallback
+APP_NAME = os.environ.get('APP_NAME', 'TravelApp')
 DEFAULT_API_PREFIX = '/api'

@@ -245,15 +245,44 @@
 # #         return jsonify({'error': str(exc)}), 500
 
 
-from flask import Blueprint, jsonify, request, g # <-- Import g
+from flask import Blueprint, jsonify, request, g
 from web.backend.services.firebase.auth_service import auth_service
-from web.backend.utils.login_middleware import login_required # <-- Import your new decorator
+from web.backend.utils.login_middleware import login_required
 import logging
 
 logger = logging.getLogger(__name__)
 auth_bp = Blueprint('auth', __name__)
 
-# ... your /verify route can stay the same ...
+@auth_bp.route('/ping')
+def ping():
+    return jsonify({'auth': 'pong'})
+
+@auth_bp.route('/verify', methods=['POST'])
+def verify_token():
+    """Verify Firebase ID token and return user info."""
+    try:
+        data = request.get_json(silent=True) or {}
+        id_token = data.get('idToken') or data.get('token') or data.get('id_token')
+
+        if not id_token:
+            return jsonify({'error': 'ID token is required'}), 400
+
+        user_info = auth_service.verify_token(id_token)
+
+        if user_info:
+            # Create or update user profile in Firestore (best-effort)
+            try:
+                auth_service.create_user_profile(user_info['uid'], user_info)
+            except Exception:
+                logger.exception('Failed to create/update user profile')
+
+            return jsonify({'success': True, 'user': user_info}), 200
+        else:
+            return jsonify({'error': 'Token verification failed'}), 401
+
+    except Exception as exc:
+        logger.exception('Unexpected error in verify_token: %s', exc)
+        return jsonify({'error': str(exc)}), 500
 
 # --- PROTECTED ROUTES ---
 

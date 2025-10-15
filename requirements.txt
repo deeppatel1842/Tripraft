@@ -6,6 +6,10 @@ python-dotenv==1.0.0
 redis==4.5.5
 gunicorn==20.1.0
 
+# Scientific Computing (IMPORTANT: Keep these versions compatible!)
+numpy>=1.21.6,<1.28.0
+scipy>=1.9.0,<1.14.0
+
 # Frontend (Node) - listed as guidance; install via npm/yarn in `frontend/`
 # react@^18.2.0
 # react-dom@^18.2.0
@@ -17,6 +21,7 @@ gunicorn==20.1.0
 # Notes:
 # - For Python: create a virtualenv, then `pip install -r backend/requirements.txt` or `pip install -r app-requirements.txt`
 # - For Node: run `npm install` inside the `frontend/` directory.
+# - NumPy must be <1.28.0 for binary compatibility with SciPy <1.14.0
 
 #firebase-sdk
 firebase-admin==6.2.0

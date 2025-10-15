@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripCraft - AI Powered Travel Planner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        /* Inspiring Background Image for Hero Section */
+        .hero-section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1542052125340-a309bbd30c04?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+        }
+        /* Card Hover Effect */
+        .feature-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+        
+        /* Scroll Animation Styles (Fade In Up) */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .hero-title-anim { animation: fadeInUp 0.8s ease-out; }
+        .hero-subtitle-anim { animation: fadeInUp 0.8s ease-out 0.2s; animation-fill-mode: backwards; }
+        .hero-form-anim { animation: fadeInUp 0.8s ease-out 0.4s; animation-fill-mode: backwards; }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="bg-white/80 backdrop-blur-md fixed top-0 left-0 right-0 z-50 border-b border-gray-200">
+        <div class="container mx-auto px-4 sm:px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-gray-800">
+                    <i class="fas fa-paper-plane mr-2 text-violet-600"></i>TripCraft
+                </div>
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="home_UI.html#features" class="text-gray-600 hover:text-violet-600 transition">Features</a>
+                    <a href="places_explorer.html" class="text-gray-600 hover:text-violet-600 transition">Places</a>
+                    <a href="trip_plan_UI.html" class="text-gray-600 hover:text-violet-600 transition">AI Planner</a>
+                    <a href="group_trip.html" class="text-gray-600 hover:text-violet-600 transition">Group Planner</a>
+                    <a href="expense_Ui.html" class="text-gray-600 hover:text-violet-600 transition">Expense Management</a>
+                    <a href="home_UI.html#pricing" class="text-gray-600 hover:text-violet-600 transition">Pricing</a>
+                    <a href="home_UI.html#contact" class="text-gray-600 hover:text-violet-600 transition">Contact</a>
+                </nav>
+                <div class="flex items-center space-x-4">
+                    <button class="hidden sm:block text-gray-600 font-medium hover:text-violet-600 transition">Log In</button>
+                    <button class="bg-violet-600 text-white px-5 py-2 rounded-full hover:bg-violet-700 transition shadow-lg shadow-violet-600/20 font-semibold">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <section class="hero-section min-h-[90vh] flex items-center justify-center relative overflow-hidden">
+            <div class="text-center px-6 md:px-4 z-10 max-w-6xl mx-auto">
+                <h1 class="text-4xl sm:text-5xl md:text-7xl font-black mb-4 text-white leading-tight hero-title-anim">Craft Your Next Adventure with AI</h1>
+                <p class="text-base md:text-xl mb-12 max-w-3xl mx-auto text-gray-100 hero-subtitle-anim">Get a personalized, day-by-day itinerary in seconds, tailored to your style and budget.</p>
+                <div class="bg-white/30 backdrop-blur-sm p-3 sm:p-4 rounded-2xl max-w-2xl mx-auto border border-white/30 hero-form-anim">
+                    <form class="flex items-center">
+                        <i class="fas fa-plane text-violet-600 mx-3 hidden sm:block"></i>
+                        <input type="text" placeholder="Where do you want to go? e.g., 'A week in Rome for a history lover'" class="w-full bg-transparent text-gray-800 placeholder-gray-700 focus:outline-none text-base sm:text-lg py-2">
+                        <button class="bg-violet-600 text-white px-4 sm:px-8 py-3 rounded-xl ml-3 sm:ml-4 hover:bg-violet-700 transition shrink-0 font-semibold text-sm sm:text-base shadow-lg shadow-violet-600/20">Generate My Trip</button>
+                    </form>
+                </div>
+            </div>
+            <div class="absolute inset-0 bg-black/40"></div>
+        </section>
+
+        <section id="features" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900 reveal">All the Tools You Need in One Place</h2>
+                <p class="text-gray-600 mb-12 md:mb-16 max-w-2xl mx-auto reveal">From intelligent planning to collaborative tools, we've got your entire trip covered.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+                    <div class="feature-card bg-slate-50 p-6 md:p-8 rounded-2xl text-left reveal">
+                        <div class="bg-violet-100 text-violet-600 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-robot text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900">AI Trip Planner</h3>
+                        <p class="text-gray-600 text-sm">Get a personalized itinerary in seconds. Just tell us your preferences and let our AI do the magic.</p>
+                    </div>
+                    <div class="feature-card bg-slate-50 p-6 md:p-8 rounded-2xl text-left reveal" style="transition-delay: 0.1s;">
+                        <div class="bg-violet-100 text-violet-600 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-user text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900">Solo Planner</h3>
+                        <p class="text-gray-600 text-sm">Organize your solo adventures with a powerful and intuitive drag-and-drop interface.</p>
+                    </div>
+                    <div class="feature-card bg-slate-50 p-6 md:p-8 rounded-2xl text-left reveal" style="transition-delay: 0.2s;">
+                        <div class="bg-violet-100 text-violet-600 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-users text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900">Group Trip Planner</h3>
+                        <p class="text-gray-600 text-sm">Collaborate with friends, suggest ideas, and vote on destinations to plan the perfect group getaway.</p>
+                    </div>
+                    <div class="feature-card bg-slate-50 p-6 md:p-8 rounded-2xl text-left reveal" style="transition-delay: 0.3s;">
+                        <div class="bg-violet-100 text-violet-600 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-wallet text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900">Expense Management</h3>
+                        <p class="text-gray-600 text-sm">Track spending, split bills, and manage your budget effortlessly. No more awkward money talks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-planner" class="py-16 md:py-24">
+            <div class="container mx-auto px-4 sm:px-6">
+                <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+                    <div class="lg:w-1/2 reveal">
+                        <span class="font-semibold text-violet-600 text-sm uppercase tracking-wider">MEET YOUR AI TRAVEL AGENT</span>
+                        <h2 class="text-3xl md:text-4xl font-bold my-4 text-gray-900">Craft Your Dream Trip with AI</h2>
+                        <p class="text-gray-600 mb-8">Tired of endless research? Describe your perfect vacation—interests, budget, and travel style—and our AI will generate a custom day-by-day itinerary complete with bookings and recommendations.</p>
+                        <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-100">
+                            <textarea id="ai-prompt" rows="4" class="w-full p-3 bg-slate-50 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-500 text-gray-800" placeholder="e.g., 'A 7-day romantic getaway in Italy for a couple who loves history, food, and wine. Budget is around $3000.'"></textarea>
+                            <button class="bg-violet-600 text-white w-full py-3 rounded-lg mt-4 font-semibold hover:bg-violet-700 transition shadow-lg shadow-violet-600/20">Generate My Plan</button>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 reveal">
+                        <img src="https://placehold.co/600x450/e0e7ff/4c1d95?text=AI+Itinerary+Mockup" alt="AI Itinerary Mockup" class="rounded-2xl shadow-2xl w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6">
+                <div class="flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-16">
+                    <div class="lg:w-1/2 reveal">
+                        <span class="font-semibold text-violet-600 text-sm uppercase tracking-wider">PLANNING TOGETHER, MADE EASY</span>
+                        <h2 class="text-3xl md:text-4xl font-bold my-4 text-gray-900">The Ultimate Group Trip Experience</h2>
+                        <p class="text-gray-600 mb-8">No more messy group chats. Our collaborative platform lets everyone contribute ideas, share links, and vote on the final plan. Democracy in travel planning is finally here!</p>
+                        <div class="space-y-4">
+                            <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex items-center justify-between">
+                                <div>
+                                    <p class="font-semibold text-gray-800">Hotel Option: The Grand Budapest</p>
+                                    <p class="text-sm text-gray-500">Suggested by: Anna</p>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <span class="text-gray-600 font-medium text-sm">12 Votes</span>
+                                    <button class="bg-violet-600 text-white w-9 h-9 sm:w-10 sm:h-10 rounded-full hover:bg-violet-700 transition flex items-center justify-center"><i class="fas fa-check"></i></button>
+                                </div>
+                            </div>
+                            <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl flex items-center justify-between">
+                                <div>
+                                    <p class="font-semibold text-gray-800">Activity: Hiking in the Alps</p>
+                                    <p class="text-sm text-gray-500">Suggested by: Mark</p>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <span class="text-gray-600 font-medium text-sm">8 Votes</span>
+                                    <button class="bg-gray-200 text-gray-600 w-9 h-9 sm:w-10 sm:h-10 rounded-full hover:bg-gray-300 transition flex items-center justify-center"><i class="fas fa-check"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="mt-8 bg-violet-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-violet-700 transition shadow-lg shadow-violet-600/20">Start a Group Plan</button>
+                    </div>
+                    <div class="lg:w-1/2 reveal">
+                        <img src="https://placehold.co/600x500/c7d2fe/5b21b6?text=Group+Collaboration+UI" alt="Group Collaboration UI" class="rounded-2xl shadow-2xl w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 md:py-24">
+            <div class="container mx-auto px-4 sm:px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900 reveal">Travel More, Worry Less About Money</h2>
+                <p class="mb-12 max-w-2xl mx-auto text-gray-600 reveal">Our integrated expense tracker helps you stay on budget. Add expenses on the go, see who paid for what, and settle up with a single click.</p>
+                <div class="bg-white shadow-2xl border border-gray-100 p-8 md:p-12 rounded-2xl max-w-4xl mx-auto reveal">
+                    <div class="flex flex-col md:flex-row justify-between items-stretch text-center md:text-left space-y-8 md:space-y-0">
+                        <div class="flex-1">
+                            <p class="text-gray-500 text-sm">Trip Budget</p>
+                            <p class="text-3xl sm:text-4xl font-bold text-gray-800">$2,500.00</p>
+                        </div>
+                        <div class="w-full md:w-px h-px md:h-20 bg-gray-200 my-4 md:my-0 md:mx-4"></div>
+                        <div class="flex-1">
+                            <p class="text-gray-500 text-sm">Total Spent</p>
+                            <p class="text-3xl sm:text-4xl font-bold text-green-600">$1,845.50</p>
+                        </div>
+                        <div class="w-full md:w-px h-px md:h-20 bg-gray-200 my-4 md:my-0 md:mx-4"></div>
+                        <div class="flex-1">
+                            <p class="text-gray-500 text-sm">You Owe Mark</p>
+                            <p class="text-3xl sm:text-4xl font-bold text-red-500">$52.75</p>
+                        </div>
+                    </div>
+                    <a href="expense_Ui.html" class="mt-10 inline-block bg-gray-900 text-white font-bold px-8 py-3 rounded-full hover:bg-gray-800 transition shadow-lg">Manage Expenses</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="pricing" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900 reveal">Find the Perfect Plan for Your Journey</h2>
+                <p class="mb-12 max-w-2xl mx-auto text-gray-600 reveal">Choose a plan that fits your travel style, from a simple weekend trip to a full-scale world tour.</p>
+                <div class="flex flex-col md:flex-row justify-center items-stretch gap-8 max-w-4xl mx-auto">
+                    <div class="bg-slate-50 border border-gray-200 rounded-3xl p-8 flex-1 flex flex-col justify-between reveal">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800 mb-2">Free Plan</h3>
+                            <p class="text-gray-500 mb-6">Perfect for a quick trip or weekend getaway.</p>
+                            <div class="mb-8">
+                                <span class="text-5xl font-extrabold text-gray-900">$0</span>
+                                <span class="text-gray-500 font-medium">/month</span>
+                            </div>
+                            <ul class="text-left space-y-4 text-gray-600 mb-8">
+                                <li class="flex items-center"><i class="fas fa-check-circle text-violet-600 mr-2"></i> Up to 3 Trips</li>
+                                <li class="flex items-center"><i class="fas fa-check-circle text-violet-600 mr-2"></i> Basic AI Itinerary Planning</li>
+                                <li class="flex items-center"><i class="fas fa-check-circle text-violet-600 mr-2"></i> Limited Collaboration Features</li>
+                                <li class="flex items-center"><i class="fas fa-check-circle text-violet-600 mr-2"></i> Ad-Supported Experience</li>
+                            </ul>
+                        </div>
+                        <button class="bg-gray-200 text-gray-700 font-bold w-full py-3 rounded-full hover:bg-gray-300 transition">Get Started for Free</button>
+                    </div>
+        
+                    <div class="bg-violet-600 text-white rounded-3xl p-8 flex-1 flex flex-col justify-between shadow-2xl shadow-violet-600/30 md:scale-[1.05] reveal" style="transition-delay: 0.1s;">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Pro Traveler</h3>
+                            <p class="opacity-80 mb-6">Unlock unlimited planning power.</p>
+                            <div class="mb-8">
+                                <span class="text-5xl font-extrabold">$5.99</span>
+                                <span class="opacity-80 font-medium">/month</span>
+                            </div>
+                            <ul class="text-left space-y-4 text-violet-100 mb-8">
+                                <li class="flex items-center"><i class="fas fa-check-circle text-white mr-2"></i> Unlimited Trips & Itineraries</li>
+                                <li class="flex items-center"><i class="fas fa-check-circle text-white mr-2"></i> Advanced AI Trip Planning</li>
+                                <li class="flex items-center"><i class="fas fa-check-circle text-white mr-2"></i> Full Collaboration Suite</li>
+                                <li class="flex items-center"><i class="fas fa-check-circle text-white mr-2"></i> No Ads, Ever</li>
+                            </ul>
+                        </div>
+                        <button class="bg-white text-violet-600 font-bold w-full py-3 rounded-full hover:bg-gray-100 transition shadow-lg">Upgrade Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="bg-gray-900 text-white py-12">
+            <div class="container mx-auto px-4 sm:px-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 text-white"><i class="fas fa-paper-plane mr-2 text-violet-400"></i>TripCraft</h3>
+                        <p class="text-gray-400 text-sm">Your journey, simplified.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-4 text-gray-200">Product</h4>
+                        <ul class="space-y-2 text-gray-400 text-sm">
+                            <li><a href="home_UI.html#features" class="hover:text-white transition">Features</a></li>
+                            <li><a href="home_UI.html#pricing" class="hover:text-white transition">Pricing</a></li>
+                            <li><a href="#" class="hover:text-white transition">Updates</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-4 text-gray-200">Company</h4>
+                        <ul class="space-y-2 text-gray-400 text-sm">
+                            <li><a href="#" class="hover:text-white transition">About Us</a></li>
+                            <li><a href="#" class="hover:text-white transition">Careers</a></li>
+                            <li><a href="home_UI.html#contact" class="hover:text-white transition">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-4 text-gray-200">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook fa-lg"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter fa-lg"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm">
+                    <p>© 2024 TripCraft. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        // Simple smooth scroll for anchor links
+        document.querySelectorAll('a[href^="home_UI.html#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href').split('#')[1];
+                e.preventDefault();
+                document.getElementById(targetId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Scroll Animation Logic (Intersection Observer)
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    // Stop observing once visible to prevent re-triggering
+                    observer.unobserve(entry.target); 
+                }
+            });
+        }, {
+            // Trigger animation when 10% of the element is visible
+            threshold: 0.1 
+        });
+
+        const elementsToReveal = document.querySelectorAll('.reveal');
+        elementsToReveal.forEach(el => observer.observe(el));
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripCraft - AI Trip Planner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect, useRef } = React;
+
+        // Helper component for SVG icons
+        const Icon = ({ name, className }) => {
+            const icons = {
+                menu: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><line x1="4" x2="20" y1="12" y2="12" /><line x1="4" x2="20" y1="6" y2="6" /><line x1="4" x2="20" y1="18" y2="18" /></svg>,
+                user: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>,
+                mapPin: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" /><circle cx="12" cy="10" r="3" /></svg>,
+                calendar: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>,
+                plane: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 5.2 5.2c.3.3.8.4 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>,
+                utensils: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3z"/></svg>,
+                clock: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>,
+                hourglass: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M6 22h12"/><path d="M6 2h12"/><path d="M12 2v6l-4 4 4 4v6"/></svg>,
+                car: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><path d="M7 17h10"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>,
+                moon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>,
+                leaf: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M11 20A7 7 0 0 1 4 13V6a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H6a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H7"/><path d="M18 13a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1h-1a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1z"/></svg>,
+                museum: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M22 18v3H2v-3"/><path d="m20 18-2-4H6l-2 4"/><path d="M4 14h16"/><path d="M2.5 10h19"/><path d="M6 10v4h4v-4"/><path d="M14 10v4h4v-4"/></svg>,
+                shoppingBag: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>,
+                fish: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M6.5 12c.9 1.6 1.5 2.5 1.5 3.5 0 1.2-1.4 2.5-3 2.5s-3-1.3-3-2.5c0-1 .6-1.9 1.5-3.5"/><path d="M18.5 12c-.9 1.6-1.5 2.5-1.5 3.5 0 1.2 1.4 2.5 3 2.5s3-1.3 3-2.5c0-1-.6-1.9-1.5-3.5"/><path d="M15 12 9 4l1 7h4l1-7Z"/><path d="m17.9 13.3-1.4-3.3"/><path d="m6.1 13.3 1.4-3.3"/></svg>,
+                golf: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="10"/><path d="M12 2a4 4 0 0 0-4 4v1"/><path d="M12 22a4 4 0 0 1-4-4v-1"/><path d="M22 12a4 4 0 0 1-4 4h-1"/><path d="M2 12a4 4 0 0 0 4 4h1"/></svg>,
+                sun: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>,
+                star: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>,
+                lightbulb: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 9 4a6 6 0 0 0-1 11.5"/><path d="M12 14v6"/><path d="M8 22h8"/></svg>,
+                clipboardCheck: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>,
+                messageCircle: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>,
+                x: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>,
+                send: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>,
+            };
+            return icons[name] || null;
+        };
+
+        const otherTopPlacesData = [
+            { name: "Seaport Village", rating: 4.6, reviewCount: 30809 },
+            { name: "SeaWorld San Diego", rating: 4.4, reviewCount: 52455 },
+            { name: "San Diego Air & Space Museum", rating: 4.6, reviewCount: 5724 },
+            { name: "Tijuana Cultural Center", rating: 4.7, reviewCount: 21877 }
+        ];
+
+        // Data from the provided JSON file
+        const mockPlans = [
+            {
+                title: "SAN DIEGO EXPLORER",
+                itinerary: [
+                    {
+                        day: 1, title: "Exploring Balboa Park Area", stops: [
+                            { arrivalTime: "09:09", name: "Balboa Park", icon: "leaf", color: "text-green-600", hours: "00:00 - 23:59", visitDuration: "~150 minutes", travelToNext: "~3 minutes", coords: [32.7341479, -117.144553], lunch: false, endOfDay: false },
+                            { arrivalTime: "11:42", name: "Japanese Friendship Garden & Museum", icon: "leaf", color: "text-pink-600", hours: "10:00 - 18:00", visitDuration: "~90 minutes", travelToNext: "~14 minutes", coords: [32.730148, -117.1499785], lunch: true, endOfDay: false },
+                            { arrivalTime: "14:26", name: "Gaslamp Quarter", icon: "mapPin", color: "text-yellow-600", hours: "00:00 - 23:59", visitDuration: "~90 minutes", travelToNext: null, coords: [32.71193, -117.160326], lunch: false, endOfDay: true },
+                        ]
+                    },
+                    {
+                        day: 2, title: "Exploring Cabrillo National Monument Area", stops: [
+                            { arrivalTime: "09:24", name: "Cabrillo National Monument", icon: "museum", color: "text-indigo-600", hours: "09:00 - 17:00", visitDuration: "~105 minutes", travelToNext: "~12 minutes", coords: [32.6722558, -117.2416094], lunch: false, endOfDay: false },
+                            { arrivalTime: "11:21", name: "Sunset Cliffs Natural Park", icon: "sun", color: "text-orange-600", hours: "00:00 - 23:59", visitDuration: "~90 minutes", travelToNext: "~18 minutes", coords: [32.715915, -117.2551679], lunch: true, endOfDay: false },
+                            { arrivalTime: "14:09", name: "Old Town San Diego", icon: "mapPin", color: "text-amber-600", hours: "10:00 - 17:00", visitDuration: "~90 minutes", travelToNext: null, coords: [32.7558268, -117.1972614], lunch: false, endOfDay: true },
+                        ]
+                    },
+                    {
+                        day: 3, title: "Exploring Torrey Pines State Natural Reserve Area", stops: [
+                            { arrivalTime: "09:36", name: "Birch Aquarium", icon: "fish", color: "text-teal-500", hours: "09:00 - 17:00", visitDuration: "~120 minutes", travelToNext: "~10 minutes", coords: [32.8658136, -117.250639], lunch: false, endOfDay: false },
+                            { arrivalTime: "11:46", name: "Torrey Pines State Natural Reserve", icon: "leaf", color: "text-lime-600", hours: "Open 24 hours", visitDuration: "~105 minutes", travelToNext: null, coords: [32.9209345, -117.2514443], lunch: true, endOfDay: true },
+                        ]
+                    }
+                ],
+                highRankedPlaces: otherTopPlacesData
+            },
+            {
+                title: "SAN DIEGO & BEYOND (WITH DAY TRIP)",
+                itinerary: [
+                    {
+                        day: 1, title: "Exploring Balboa Park Area", stops: [
+                            { arrivalTime: "09:09", name: "Balboa Park", icon: "leaf", color: "text-green-600", hours: "00:00 - 23:59", visitDuration: "~150 minutes", travelToNext: "~3 minutes", coords: [32.7341479, -117.144553], lunch: false, endOfDay: false },
+                            { arrivalTime: "11:42", name: "Japanese Friendship Garden & Museum", icon: "leaf", color: "text-pink-600", hours: "10:00 - 18:00", visitDuration: "~90 minutes", travelToNext: "~14 minutes", coords: [32.730148, -117.1499785], lunch: true, endOfDay: false },
+                            { arrivalTime: "14:26", name: "Gaslamp Quarter", icon: "mapPin", color: "text-yellow-600", hours: "00:00 - 23:59", visitDuration: "~90 minutes", travelToNext: null, coords: [32.71193, -117.160326], lunch: false, endOfDay: true },
+                        ]
+                    },
+                    {
+                        day: 2, title: "Day Trip to Regional Area", stops: [
+                            { arrivalTime: "11:43", name: "Mission San Juan Capistrano", icon: "museum", color: "text-orange-800", hours: "09:00 - 17:00", visitDuration: "~120 minutes", travelToNext: "~5 minutes", coords: [33.5020225, -117.6626899], lunch: true, endOfDay: false },
+                            { arrivalTime: "14:48", name: "Dana Wharf Sportfishing & Whale Watching", icon: "fish", color: "text-cyan-600", hours: "06:00 - 20:00", visitDuration: "~90 minutes", travelToNext: "~1 minutes", coords: [33.4600104, -117.6921466], lunch: false, endOfDay: false },
+                            { arrivalTime: "16:19", name: "Doheny State Beach", icon: "sun", color: "text-yellow-500", hours: "06:00 - 22:00", visitDuration: "~90 minutes", travelToNext: null, coords: [33.4625361, -117.6856965], lunch: false, endOfDay: true },
+                        ]
+                    },
+                    {
+                        day: 3, title: "Exploring Cabrillo National Monument Area", stops: [
+                            { arrivalTime: "09:24", name: "Cabrillo National Monument", icon: "museum", color: "text-indigo-600", hours: "09:00 - 17:00", visitDuration: "~105 minutes", travelToNext: "~12 minutes", coords: [32.6722558, -117.2416094], lunch: false, endOfDay: false },
+                            { arrivalTime: "11:21", name: "Sunset Cliffs Natural Park", icon: "sun", color: "text-orange-600", hours: "00:00 - 23:59", visitDuration: "~90 minutes", travelToNext: "~18 minutes", coords: [32.715915, -117.2551679], lunch: true, endOfDay: false },
+                            { arrivalTime: "14:09", name: "Old Town San Diego", icon: "mapPin", color: "text-amber-600", hours: "10:00 - 17:00", visitDuration: "~90 minutes", travelToNext: null, coords: [32.7558268, -117.1972614], lunch: false, endOfDay: true },
+                        ]
+                    }
+                ],
+                highRankedPlaces: otherTopPlacesData
+            }
+        ];
+        const mockTips = [ { title: "Pack Layers", description: "San Diego weather can change quickly. Bring layers like a light jacket or sweater, even in summer.", category: "Packing" }, { title: "Book in Advance", description: "For popular attractions like the San Diego Zoo or SeaWorld, book tickets online to save time and money.", category: "Booking" }, { title: "Explore Neighborhoods", description: "Go beyond the main tourist spots. Neighborhoods like North Park, South Park, and Little Italy have great food and local culture.", category: "Exploring" }, { title: "Public Transit", description: "Consider using the San Diego Trolley to get around downtown, Old Town, and to the border.", category: "Transport" }, ];
+        const mockChecklist = [ { id: 1, text: "Book flights and accommodation", category: "Pre-Booking" }, { id: 2, text: "Arrange for pet/house sitter", category: "Home" }, { id: 3, text: "Pack passport / ID", category: "Documents" }, { id: 4, text: "Pack comfortable walking shoes", category: "Clothing" }, { id: 5, text: "Download offline maps", category: "Tech" }, { id: 6, text: "Charge all electronics", category: "Tech" }, { id: 7, text: "Inform bank/credit card companies of travel", category: "Finance" }, ];
+
+        const App = () => {
+            const [plans, setPlans] = useState(mockPlans);
+            const [activeTab, setActiveTab] = useState('plans');
+            const [isLoading, setIsLoading] = useState(false);
+            const [generatingStep, setGeneratingStep] = useState("");
+            const [isMapScriptLoaded, setMapScriptLoaded] = useState(false);
+            
+            // Load Leaflet CSS and JS
+            useEffect(() => {
+                // Load CSS
+                if (!document.getElementById('leaflet-css')) {
+                    const link = document.createElement('link');
+                    link.id = 'leaflet-css';
+                    link.rel = 'stylesheet';
+                    link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+                    link.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
+                    link.crossOrigin = '';
+                    document.head.appendChild(link);
+                }
+                
+                const onScriptLoad = () => {
+                    // Use a small delay to ensure the script is fully parsed and initialized
+                    setTimeout(() => setMapScriptLoaded(true), 100);
+                };
+
+                // If script is already loaded and initialized
+                if (window.L && typeof window.L.map === 'function') {
+                    onScriptLoad();
+                    return;
+                }
+
+                // Find or create script tag
+                let script = document.getElementById('leaflet-js');
+                if (!script) {
+                    script = document.createElement('script');
+                    script.id = 'leaflet-js';
+                    script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+                    script.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
+                    script.crossOrigin = '';
+                    document.body.appendChild(script);
+                }
+                
+                script.addEventListener('load', onScriptLoad);
+
+                return () => {
+                    if (script) {
+                        script.removeEventListener('load', onScriptLoad);
+                    }
+                }
+            }, []);
+
+            const TabContent = () => {
+                if (isLoading) return <GeneratingPlan currentStep={generatingStep} />;
+                
+                switch (activeTab) {
+                    case 'plans':
+                        return (
+                            <div>
+                                {isMapScriptLoaded ? <TripMap plans={plans} /> : 
+                                    <div className="mt-8 h-96 w-full rounded-2xl shadow-lg border border-gray-200 z-10 bg-gray-200 flex items-center justify-center">
+                                        <div className="w-12 h-12 border-4 border-gray-400 border-dashed rounded-full animate-spin"></div>
+                                        <p className="ml-4 text-gray-500 font-medium">Loading Map...</p>
+                                    </div>
+                                }
+                                <div className="mt-8 grid grid-cols-1 xl:grid-cols-2 gap-8 items-start">
+                                    {plans.map((plan, index) => (<TripPlanCard key={index} plan={plan} />))}
+                                </div>
+                            </div>
+                        );
+                    case 'tips': return <TripTips />;
+                    case 'checklist': return <Checklist />;
+                    default: return null;
+                }
+            };
+
+            return (
+                <div className="bg-gray-100 font-sans text-gray-800 min-h-screen">
+                    <Header />
+                    <main className="p-4 sm:p-6 md:p-8 max-w-screen-2xl mx-auto">
+                        <TripFormProvider setIsLoading={setIsLoading} setGeneratingStep={setGeneratingStep} setPlans={setPlans} />
+                        {!isLoading && <TabNavigation activeTab={activeTab} setActiveTab={setActiveTab} />}
+                        <TabContent />
+                    </main>
+                    <AiChat />
+                </div>
+            );
+        }
+
+        const Header = () => (
+            <header className="bg-white/80 backdrop-blur-lg shadow-sm sticky top-0 z-20">
+                <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 md:px-8">
+                    <div className="flex justify-between items-center py-4">
+                        <div class="text-2xl font-bold text-gray-800">
+                            <a href="home_UI.html" class="hover:text-violet-600 transition"><i class="fas fa-paper-plane mr-2 text-violet-600"></i>TripCraft</a>
+                        </div>
+                        <nav class="hidden md:flex items-center space-x-8">
+                            <a href="home_UI.html#features" class="text-gray-600 hover:text-violet-600 transition">Features</a>
+                            <a href="places_explorer.html" class="text-gray-600 hover:text-violet-600 transition">Places</a>
+                            <a href="#" class="text-violet-600 hover:text-violet-600 transition font-bold">AI Planner</a>
+                            <a href="group_trip.html" class="text-gray-600 hover:text-violet-600 transition">Group Planner</a>
+                            <a href="expense_Ui.html" class="text-gray-600 hover:text-violet-600 transition">Expense Management</a>
+                            <a href="home_UI.html#pricing" class="text-gray-600 hover:text-violet-600 transition">Pricing</a>
+                            <a href="home_UI.html#contact" class="text-gray-600 hover:text-violet-600 transition">Contact</a>
+                        </nav>
+                        <div className="flex items-center space-x-4">
+                            <button className="hidden md:block text-sm font-medium text-gray-600 hover:text-blue-600">My Trips</button>
+                            <Icon name="user" className="h-6 w-6 text-gray-500" />
+                            <button className="md:hidden"><Icon name="menu" className="h-6 w-6 text-gray-600" /></button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        );
+
+        const TripFormProvider = ({ setIsLoading, setGeneratingStep, setPlans }) => {
+            const handleGenerate = () => {
+                setIsLoading(true);
+                setPlans([]);
+                const generationSteps = [ "Analyzing destination: San Diego...", "Factoring in your preferences: 3 days, Moderate pacing.", "Searching for top-rated attractions...", "Mapping out daily routes for optimal travel time...", "Cross-referencing opening hours and visit durations...", "Building Day 1: Balboa Park Area...", "Building Day 2: Cabrillo National Monument Area...", "Building Day 3: Torrey Pines Reserve...", "Generating an alternative plan with a day trip...", "Finalizing your personalized itineraries...", "Done! Your trip plans are ready." ];
+                let i = 0;
+                const intervalId = setInterval(() => {
+                    if (i < generationSteps.length) {
+                        setGeneratingStep(generationSteps[i++]);
+                    } else {
+                        clearInterval(intervalId);
+                        setTimeout(() => { setPlans(mockPlans); setIsLoading(false); }, 1000);
+                    }
+                }, 350);
+            };
+            return (
+                <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-4">
+                        <div>
+                            <label htmlFor="city" className="block text-sm font-medium text-gray-700 mb-1">City Name</label>
+                            <input type="text" id="city" defaultValue="San Diego" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"/>
+                        </div>
+                        <div>
+                            <label htmlFor="days" className="block text-sm font-medium text-gray-700 mb-1">Number of Days</label>
+                            <input type="number" id="days" defaultValue="3" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"/>
+                        </div>
+                        <div>
+                            <label htmlFor="pacing" className="block text-sm font-medium text-gray-700 mb-1">Pacing</label>
+                            <select id="pacing" defaultValue="M" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                                <option value="R">Relaxed</option><option value="M">Moderate</option><option value="P">Packed</option>
+                            </select>
+                        </div>
+                        <div className="md:col-span-2 lg:col-span-1">
+                            <label htmlFor="exclude" className="block text-sm font-medium text-gray-700 mb-1">Types to Exclude <span className="text-gray-400">(optional)</span></label>
+                            <input type="text" id="exclude" placeholder="museums, parks" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"/>
+                        </div>
+                        <div className="md:col-span-2 lg:col-span-1">
+                            <label htmlFor="require" className="block text-sm font-medium text-gray-700 mb-1">Places to Require <span className="text-gray-400">(optional)</span></label>
+                            <input type="text" id="require" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"/>
+                        </div>
+                        <div className="flex items-end">
+                            <button onClick={handleGenerate} className="w-full bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-0.5">
+                                Generate Plan
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
+        const TabNavigation = ({ activeTab, setActiveTab }) => {
+            const tabs = [ { id: 'plans', name: 'Trip Plans', icon: 'mapPin' }, { id: 'tips', name: 'Trip Tips', icon: 'lightbulb' }, { id: 'checklist', name: 'Checklist', icon: 'clipboardCheck' }, ];
+            return (
+                <div className="mt-8 border-b border-gray-200">
+                    <nav className="-mb-px flex space-x-6" aria-label="Tabs">
+                        {tabs.map((tab) => (
+                            <button key={tab.id} onClick={() => setActiveTab(tab.id)} className={`${ activeTab === tab.id ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300' } whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm flex items-center space-x-2`} >
+                                <Icon name={tab.icon} className="h-5 w-5" />
+                                <span>{tab.name}</span>
+                            </button>
+                        ))}
+                    </nav>
+                </div>
+            );
+        };
+
+        const GeneratingPlan = ({ currentStep }) => (
+            <div className="mt-8 bg-white p-8 rounded-2xl shadow-lg border border-gray-200 flex flex-col items-center justify-center h-96 text-center">
+                <div className="w-16 h-16 border-4 border-blue-500 border-dashed rounded-full animate-spin mb-6"></div>
+                <h2 className="text-2xl font-bold text-gray-800 mb-4">Crafting Your Adventure...</h2>
+                <p className="text-gray-600 text-lg transition-opacity duration-300 ease-in-out h-6">{currentStep}</p>
+            </div>
+        );
+
+        const TripMap = ({ plans }) => {
+            const mapRef = useRef(null);
+            const mapInstance = useRef(null);
+
+            useEffect(() => {
+                if (window.L && mapRef.current && !mapInstance.current) {
+                    mapInstance.current = window.L.map(mapRef.current).setView([32.8, -117.2], 10);
+                    window.L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    }).addTo(mapInstance.current);
+                }
+
+                if (mapInstance.current && plans.length > 0) {
+                    // Clear existing layers
+                    mapInstance.current.eachLayer(layer => {
+                        if (layer instanceof window.L.Marker || layer instanceof window.L.Polyline) {
+                            mapInstance.current.removeLayer(layer);
+                        }
+                    });
+
+                    const dayColors = ['#4A90E2', '#50E3C2', '#F5A623']; // Day 1, 2, 3
+                    const allCoords = [];
+
+                    plans.forEach((plan, planIndex) => {
+                        plan.itinerary.forEach(dayPlan => {
+                            const dayCoords = dayPlan.stops.map(stop => stop.coords);
+                            allCoords.push(...dayCoords);
+                            const color = dayColors[dayPlan.day - 1];
+
+                            // Add markers
+                            dayPlan.stops.forEach(stop => {
+                                const iconHtml = `<div style="background-color: ${color}; width: 24px; height: 24px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.3);"></div>`;
+                                const customIcon = window.L.divIcon({
+                                    html: iconHtml,
+                                    className: '',
+                                    iconSize: [24, 24],
+                                    iconAnchor: [12, 12],
+                                });
+                                window.L.marker(stop.coords, { icon: customIcon })
+                                    .addTo(mapInstance.current)
+                                    .bindPopup(`<b>${stop.name}</b><br>${plan.title}`);
+                            });
+                            
+                            // Add polylines
+                            if (dayCoords.length > 1) {
+                                window.L.polyline(dayCoords, { 
+                                    color,
+                                    weight: planIndex === 0 ? 4 : 4,
+                                    opacity: 0.8,
+                                    dashArray: planIndex === 0 ? '1' : '5, 5'
+                                }).addTo(mapInstance.current);
+                            }
+                        });
+                    });
+
+                    if (allCoords.length > 0) {
+                        const bounds = window.L.latLngBounds(allCoords);
+                        mapInstance.current.fitBounds(bounds, { padding: [50, 50] });
+                    }
+                }
+            }, [plans]);
+
+            return (
+                <div className="mt-8">
+                    <div ref={mapRef} className="h-96 w-full rounded-2xl shadow-lg border border-gray-200 z-10"></div>
+                </div>
+            );
+        };
+
+        const TripPlanCard = ({ plan }) => (
+            <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 flex flex-col">
+                <h2 className="text-2xl font-bold text-gray-900 tracking-tight mb-4">🗺️ {plan.title}</h2>
+                <div className="mb-6"><Itinerary itinerary={plan.itinerary} /></div>
+                <div className="mt-auto"><HighRankedPlaces places={plan.highRankedPlaces} /></div>
+                <button className="w-full mt-6 bg-green-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-green-700 transition-colors duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5">Choose This Plan</button>
+            </div>
+        );
+
+        const Itinerary = ({ itinerary }) => (
+            <div className="space-y-6">
+                {itinerary.map((dayPlan) => (
+                    <div key={dayPlan.day}>
+                        <h3 className="text-lg font-semibold text-gray-800 pb-2 mb-3 border-b border-gray-200">Day {dayPlan.day}: {dayPlan.title}</h3>
+                        <ul className="-mb-8">
+                            {dayPlan.stops.map((stop, stopIndex) => (
+                                <ItineraryStop key={stopIndex} stop={stop} isLast={stopIndex === dayPlan.stops.length - 1} />
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+            </div>
+        );
+
+        const ItineraryStop = ({ stop, isLast }) => (
+            <li>
+                <div className="relative pb-6">
+                    {!isLast && <span className="absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true" />}
+                    <div className="relative flex space-x-3 items-start">
+                        <div>
+                            <span className="h-8 w-8 rounded-full bg-gray-100 flex items-center justify-center ring-4 ring-white">
+                                <Icon name={stop.icon} className={`h-5 w-5 ${stop.color}`} />
+                            </span>
+                        </div>
+                        <div className="min-w-0 flex-1 pt-0.5">
+                            <div className="flex justify-between items-center">
+                                <p className="text-md font-semibold text-gray-800">{stop.name}</p>
+                                <p className="text-sm font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded-md">{stop.arrivalTime}</p>
+                            </div>
+                            <div className="mt-2 text-gray-600 space-y-1 text-sm">
+                                <div className="flex items-center space-x-2">
+                                    <Icon name="clock" className="h-4 w-4 text-gray-400" /><span>Hours: {stop.hours}</span>
+                                </div>
+                                <div className="flex items-center space-x-2">
+                                    <Icon name="hourglass" className="h-4 w-4 text-gray-400" /><span>Visit: {stop.visitDuration}</span>
+                                </div>
+                                {stop.lunch && <div className="flex items-center space-x-2 text-green-700 font-medium"><Icon name="utensils" className="h-4 w-4" /><span>Lunch Break (~60 minutes)</span></div>}
+                                {stop.travelToNext && <div className="flex items-center space-x-2 mt-2 text-blue-700"><Icon name="car" className="h-4 w-4" /><span>Travel: {stop.travelToNext} to next stop</span></div>}
+                                {stop.endOfDay && <div className="flex items-center space-x-2 mt-2 text-indigo-700 font-medium"><Icon name="moon" className="h-4 w-4" /><span>End of day</span></div>}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        );
+
+        const HighRankedPlaces = ({ places }) => (
+            <div className="bg-gray-50 p-4 rounded-lg border">
+                <h4 className="font-bold text-md mb-3">🤔 Other Places to Consider</h4>
+                <div className="space-y-3">
+                    {places.map((place, index) => (
+                        <div key={index} className="flex justify-between items-center text-sm">
+                            <p className="font-semibold text-gray-700 flex-grow truncate pr-4">{place.name}</p>
+                            <div className="flex items-center space-x-2 flex-shrink-0">
+                                <div className="flex items-center text-yellow-500"><Icon name="star" className="h-4 w-4 fill-current"/><span className="font-bold ml-1">{place.rating}</span></div>
+                                <span className="text-gray-500 text-xs">({place.reviewCount.toLocaleString()})</span>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        );
+
+        const TripTips = () => (
+            <div className="mt-8 bg-white p-6 rounded-2xl shadow-lg border border-gray-200">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Trip Tips for San Diego</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {mockTips.map((tip, index) => (
+                        <div key={index} className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                            <p className="font-bold text-blue-800">{tip.title}</p>
+                            <p className="text-blue-700 text-sm mt-1">{tip.description}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        );
+
+        const Checklist = () => {
+            const [checkedItems, setCheckedItems] = useState({});
+            const handleCheck = (id) => { setCheckedItems(prev => ({ ...prev, [id]: !prev[id] })); };
+            return (
+                <div className="mt-8 bg-white p-6 rounded-2xl shadow-lg border border-gray-200">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Pre-Trip Checklist</h2>
+                    <div className="space-y-3">
+                        {mockChecklist.map((item) => (
+                            <div key={item.id} className="flex items-center">
+                                <input id={`checklist-${item.id}`} type="checkbox" checked={!!checkedItems[item.id]} onChange={() => handleCheck(item.id)} className="h-5 w-5 rounded border-gray-300 text-blue-600 focus:ring-blue-500" />
+                                <label htmlFor={`checklist-${item.id}`} className={`ml-3 text-sm text-gray-700 ${checkedItems[item.id] ? 'line-through text-gray-400' : ''}`}>
+                                    {item.text}
+                                </label>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            );
+        };
+
+        const AiChat = () => {
+            const [isOpen, setIsOpen] = useState(false);
+            const [messages, setMessages] = useState([ { id: 1, text: "Hello! I'm TripGenie's AI assistant. How can I help you plan your perfect trip to San Diego?", sender: 'ai' } ]);
+            const [inputValue, setInputValue] = useState('');
+            const chatEndRef = useRef(null);
+            useEffect(() => { chatEndRef.current?.scrollIntoView({ behavior: 'smooth' }); }, [messages]);
+            const handleSend = () => {
+                if (inputValue.trim()) {
+                    const newMessages = [...messages, { id: Date.now(), text: inputValue, sender: 'user' }];
+                    setMessages(newMessages);
+                    setInputValue('');
+                    setTimeout(() => { setMessages(prev => [...prev, { id: Date.now() + 1, text: "That's a great question! Let me look into that for you...", sender: 'ai' }]); }, 1000);
+                }
+            };
+            return (
+                <div className="fixed bottom-6 right-6 z-30">
+                    <div className={`${isOpen ? 'opacity-100' : 'opacity-0 invisible'} transition-opacity duration-300 mb-2 w-80 h-96 bg-white rounded-2xl shadow-2xl flex flex-col`}>
+                        <div className="p-3 bg-blue-600 text-white rounded-t-2xl flex justify-between items-center">
+                            <h3 className="font-bold text-lg">AI Assistant</h3>
+                            <button onClick={() => setIsOpen(false)} className="hover:bg-blue-700 p-1 rounded-full"><Icon name="x" className="h-5 w-5" /></button>
+                        </div>
+                        <div className="flex-1 p-4 overflow-y-auto">
+                            <div className="space-y-4">
+                                {messages.map(msg => (
+                                    <div key={msg.id} className={`flex ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}>
+                                        <div className={`max-w-[80%] p-3 rounded-xl ${msg.sender === 'user' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'}`}>
+                                            {msg.text}
+                                        </div>
+                                    </div>
+                                ))}
+                                <div ref={chatEndRef} />
+                            </div>
+                        </div>
+                        <div className="p-3 border-t flex">
+                            <input type="text" value={inputValue} onChange={(e) => setInputValue(e.target.value)} onKeyPress={(e) => e.key === 'Enter' && handleSend()} placeholder="Ask me anything..." className="w-full px-3 py-2 border rounded-l-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+                            <button onClick={handleSend} className="bg-blue-600 text-white px-4 rounded-r-lg hover:bg-blue-700"><Icon name="send" className="h-5 w-5"/></button>
+                        </div>
+                    </div>
+                    <button onClick={() => setIsOpen(!isOpen)} className="w-16 h-16 bg-blue-600 text-white rounded-full shadow-lg flex items-center justify-center hover:bg-blue-700 transition-transform transform hover:scale-110" >
+                        <Icon name={isOpen ? "x" : "messageCircle"} className="h-8 w-8" />
+                    </button>
+                </div>
+            );
+        };
+
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+</body>
+</html>

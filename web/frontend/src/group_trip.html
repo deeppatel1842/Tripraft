@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Trip Planner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #007BFF;
+            --secondary-color: #6C757D;
+            --light-gray: #F8F9FA;
+            --dark-gray: #343A40;
+            --border-color: #DEE2E6;
+            --success-color: #28A745;
+            --danger-color: #DC3545;
+            --white-color: #FFFFFF;
+            --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--light-gray);
+            margin: 0;
+            padding: 20px;
+            color: var(--dark-gray);
+        }
+
+        .planner-container {
+            max-width: 1200px;
+            margin: auto;
+            background: var(--white-color);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        /* Header Styles */
+        .trip-header {
+            padding: 20px 30px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .trip-info h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .trip-info p {
+            margin: 5px 0 0;
+            color: var(--secondary-color);
+            font-size: 16px;
+        }
+
+        .trip-actions {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .active-members {
+            display: flex;
+            align-items: center;
+        }
+
+        .active-members .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 2px solid var(--white-color);
+            margin-left: -12px;
+            object-fit: cover;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .active-members .avatar:first-child {
+            margin-left: 0;
+        }
+
+        .action-btn {
+            background-color: var(--light-gray);
+            border: 1px solid var(--border-color);
+            color: var(--dark-gray);
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        .action-btn:hover {
+            background-color: var(--border-color);
+        }
+        
+        .action-btn.primary {
+            background-color: var(--primary-color);
+            color: var(--white-color);
+            border-color: var(--primary-color);
+        }
+        
+        .action-btn.primary:hover {
+            background-color: #0056b3;
+        }
+
+        /* View Toggler */
+        .view-toggler {
+            padding: 15px 30px;
+            background-color: #fdfdfd;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            gap: 10px;
+        }
+
+        .toggle-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            background: transparent;
+            color: var(--secondary-color);
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .toggle-btn.active {
+            background-color: var(--primary-color);
+            color: var(--white-color);
+        }
+
+        /* Main Content */
+        .trip-content {
+            padding: 30px;
+        }
+
+        .map-view {
+            display: none;
+            text-align: center;
+        }
+        
+        .map-view img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Itinerary Section */
+        .itinerary-day {
+            margin-bottom: 30px;
+        }
+
+        .day-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .day-header h2 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .places-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Place Card */
+        .place-card {
+            background: var(--white-color);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .place-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .place-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .place-info {
+            padding: 15px;
+        }
+
+        .place-info h3 {
+            margin: 0 0 5px 0;
+            font-size: 18px;
+        }
+
+        .place-info p {
+            margin: 0;
+            font-size: 14px;
+            color: var(--secondary-color);
+        }
+
+        /* Voting Section */
+        .voting-section {
+            padding: 15px;
+            background-color: var(--light-gray);
+            border-top: 1px solid var(--border-color);
+        }
+
+        .vote-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .vote-buttons button {
+            background: none;
+            border: 1px solid var(--border-color);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        .vote-buttons .upvote:hover { background-color: #e4f8e9; color: var(--success-color); }
+        .vote-buttons .downvote:hover { background-color: #fde8e9; color: var(--danger-color); }
+
+        .vote-count {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .vote-note-form input {
+            width: calc(100% - 22px);
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .view-history {
+            background: none;
+            border: none;
+            color: var(--primary-color);
+            cursor: pointer;
+            text-align: left;
+            padding: 0;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .view-history:hover { text-decoration: underline; }
+
+        .vote-history-list {
+            font-size: 13px;
+            max-height: 100px;
+            overflow-y: auto;
+            background-color: var(--white-color);
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            display: none; /* Hidden by default */
+        }
+        
+        .vote-history-list div {
+            padding: 5px 0;
+            border-bottom: 1px dashed #eee;
+        }
+        .vote-history-list div:last-child { border-bottom: none; }
+        
+        .vote-history-list strong { color: var(--dark-gray); }
+        .vote-history-list span { color: var(--secondary-color); font-style: italic; }
+
+        /* Add Place Card */
+        .add-place-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px dashed var(--border-color);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background-color 0.2s, border-color 0.2s;
+            min-height: 200px;
+            color: var(--secondary-color);
+        }
+
+        .add-place-card:hover {
+            background-color: #f0f7ff;
+            border-color: var(--primary-color);
+        }
+
+        .add-place-content {
+            text-align: center;
+        }
+
+        .add-place-content i {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        .trip-footer {
+            padding: 20px 30px;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .finalize-btn {
+            background-color: var(--success-color);
+            color: var(--white-color);
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .finalize-btn:hover {
+            background-color: #218838;
+        }
+
+    </style>
+</head>
+<body>
+    <header style="background-color: var(--white-color); padding: 15px 30px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center;">
+        <div style="font-size: 24px; font-weight: bold; color: #1e293b;">
+            <a href="home_UI.html" style="text-decoration: none; color: inherit;"><i class="fa-solid fa-paper-plane" style="color: #6d28d9;"></i> TripCraft</a>
+        </div>
+        <nav style="display: flex; gap: 20px;">
+            <a href="home_UI.html#features" style="text-decoration: none; color: #6c757d; font-weight: 500;">Features</a>
+            <a href="places_explorer.html" style="text-decoration: none; color: #6c757d; font-weight: 500;">Places</a>
+            <a href="trip_plan_UI.html" style="text-decoration: none; color: #6c757d; font-weight: 500;">AI Planner</a>
+            <a href="#" style="text-decoration: none; color: #007BFF; font-weight: bold;">Group Planner</a>
+            <a href="expense_Ui.html" style="text-decoration: none; color: #6c757d; font-weight: 500;">Expense Management</a>
+            <a href="home_UI.html#pricing" style="text-decoration: none; color: #6c757d; font-weight: 500;">Pricing</a>
+            <a href="home_UI.html#contact" style="text-decoration: none; color: #6c757d; font-weight: 500;">Contact</a>
+        </nav>
+        <div style="display: flex; gap: 10px;">
+            <button style="background: none; border: 1px solid #dee2e6; padding: 8px 16px; border-radius: 8px; cursor: pointer;">Log In</button>
+            <button style="background-color: #007BFF; color: white; border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer;">Sign Up</button>
+        </div>
+    </header>
+
+    <div class="planner-container">
+        <header class="trip-header">
+            <div class="trip-info">
+                <h1>Paris Adventure 2025</h1>
+                <p><i class="fa-solid fa-calendar-days"></i> Oct 26, 2025 - Oct 30, 2025</p>
+            </div>
+            <div class="trip-actions">
+                <div class="active-members">
+                    <span>Active:</span>
+                    <img src="https://i.pravatar.cc/150?img=1" alt="Member 1" class="avatar">
+                    <img src="https://i.pravatar.cc/150?img=2" alt="Member 2" class="avatar">
+                    <img src="https://i.pravatar.cc/150?img=3" alt="Member 3" class="avatar">
+                    <img src="https://i.pravatar.cc/150?img=4" alt="Member 4" class="avatar">
+                </div>
+                <button class="action-btn"><i class="fa-solid fa-file-pdf"></i> Export PDF</button>
+                <button class="action-btn primary"><i class="fa-solid fa-share-nodes"></i> Share Plan</button>
+            </div>
+        </header>
+
+        <div class="view-toggler">
+            <button id="plan-btn" class="toggle-btn active"><i class="fa-solid fa-list-check"></i> Trip Plan</button>
+            <button id="map-btn" class="toggle-btn"><i class="fa-solid fa-map-location-dot"></i> Map</button>
+        </div>
+
+        <main class="trip-content">
+            <div id="plan-view">
+                <section class="itinerary-day">
+                    <div class="day-header">
+                        <h2>Day 1: October 26, 2025</h2>
+                        <button class="action-btn"><i class="fa-solid fa-plus"></i> Add Date/Time</button>
+                    </div>
+                    <div class="places-list">
+                        <div class="place-card">
+                            <img src="https://images.unsplash.com/photo-1502602898657-3e91760c0341?q=80&w=2070" alt="Eiffel Tower">
+                            <div class="place-info">
+                                <h3>Eiffel Tower</h3>
+                                <p>Iconic landmark of Paris</p>
+                            </div>
+                            <div class="voting-section">
+                                <div class="vote-actions">
+                                    <div class="vote-count">Votes: <span class="count">12</span></div>
+                                    <div class="vote-buttons">
+                                        <button class="upvote"><i class="fa-solid fa-thumbs-up"></i></button>
+                                        <button class="downvote"><i class="fa-solid fa-thumbs-down"></i></button>
+                                    </div>
+                                </div>
+                                <div class="vote-note-form">
+                                    <input type="text" placeholder="Add a short note...">
+                                </div>
+                                <button class="view-history" onclick="toggleHistory('history1')">View Vote History</button>
+                                <div class="vote-history-list" id="history1">
+                                    <div><strong>Alex:</strong> <span>"Must see!"</span></div>
+                                    <div><strong>Maria:</strong> <span>"A bit cliche, but I'm in."</span></div>
+                                    <div><strong>John:</strong> <span>"Let's go at night."</span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="place-card">
+                            <img src="https://images.unsplash.com/photo-1555992828-5237acb8e144?q=80&w=1974" alt="Louvre Museum">
+                            <div class="place-info">
+                                <h3>Louvre Museum</h3>
+                                <p>Home of the Mona Lisa</p>
+                            </div>
+                            <div class="voting-section">
+                                <div class="vote-actions">
+                                    <div class="vote-count">Votes: <span class="count">8</span></div>
+                                    <div class="vote-buttons">
+                                        <button class="upvote"><i class="fa-solid fa-thumbs-up"></i></button>
+                                        <button class="downvote"><i class="fa-solid fa-thumbs-down"></i></button>
+                                    </div>
+                                </div>
+                                <div class="vote-note-form">
+                                    <input type="text" placeholder="Add a short note...">
+                                </div>
+                                <button class="view-history" onclick="toggleHistory('history2')">View Vote History</button>
+                                <div class="vote-history-list" id="history2">
+                                    <div><strong>Alex:</strong> <span>"Yes! I want to see the art."</span></div>
+                                    <div><strong>Chloe:</strong> <span>"Might take too long?"</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="add-place-card">
+                           <div class="add-place-content">
+                               <i class="fa-solid fa-plus"></i>
+                               <p>Add New Place</p>
+                           </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+            <div id="map-view" class="map-view">
+                <img src="https://media.wired.com/photos/59269cd37034dc5f91bec0f1/master/w_2560%2Cc_limit/GoogleMapTA.jpg" alt="Map of Paris">
+            </div>
+        </main>
+        
+        <footer class="trip-footer">
+            <button class="finalize-btn"><i class="fa-solid fa-check-circle"></i> Finalize Trip Plan</button>
+        </footer>
+    </div>
+
+    <script>
+        const planBtn = document.getElementById('plan-btn');
+        const mapBtn = document.getElementById('map-btn');
+        const planView = document.getElementById('plan-view');
+        const mapView = document.getElementById('map-view');
+
+        planBtn.addEventListener('click', () => {
+            planView.style.display = 'block';
+            mapView.style.display = 'none';
+            planBtn.classList.add('active');
+            mapBtn.classList.remove('active');
+        });
+
+        mapBtn.addEventListener('click', () => {
+            planView.style.display = 'none';
+            mapView.style.display = 'block';
+            mapBtn.classList.add('active');
+            planBtn.classList.remove('active');
+        });
+
+        function toggleHistory(historyId) {
+            const historyList = document.getElementById(historyId);
+            if (historyList.style.display === 'block') {
+                historyList.style.display = 'none';
+            } else {
+                historyList.style.display = 'block';
+            }
+        }
+    </script>
+
+</body>
+</html>
