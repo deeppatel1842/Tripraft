@@ -99,17 +99,43 @@
 
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { AuthProvider } from './context/AuthContext';
+import { GroupPlannerProvider } from './context/GroupPlannerContext';
+import ProtectedRoute from './components/ProtectedRoute';
 import HomePage from './components/page/HomePage';
 import PlacesExplorer from './components/page/PlacesExplorer';
 import TripPlanner from './components/page/TripPlanner';
+import ExpensePage from './components/page/ExpensePage';
+import Analytics from './components/page/Analytics';
+import Login from './components/page/Login';
+import Signup from './components/page/Signup';
+import AuthPage from './components/page/AuthPage';
+import SmartInvitationHandler from './components/page/SmartInvitationHandler';
+import GroupPlannerDemo from './components/Group_planner/GroupPlannerDemo';
 
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/places" element={<PlacesExplorer />} />
-      <Route path="/trip-planner" element={<TripPlanner />} />
-    </Routes>
+    <AuthProvider>
+      <GroupPlannerProvider>
+        <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/places" element={<PlacesExplorer />} />
+        <Route path="/trip-planner" element={<TripPlanner />} />
+        <Route path="/analytics" element={<Analytics />} />
+        <Route path="/expenses" element={<ExpensePage />} />
+        <Route path="/group-trip" element={<GroupPlannerDemo />} />
+        <Route path="/invitation/:invitationId" element={<SmartInvitationHandler />} />
+        <Route path="/invitations/:invitationId" element={<SmartInvitationHandler />} />
+        <Route path="/accept-invitation" element={<SmartInvitationHandler />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/auth" element={<AuthPage />} />
+      </Routes>
+      {/* React Query DevTools - only shows in development */}
+      <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
+      </GroupPlannerProvider>
+    </AuthProvider>
   );
 }

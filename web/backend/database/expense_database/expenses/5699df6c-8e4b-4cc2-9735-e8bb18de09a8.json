@@ -1,0 +1,27 @@
+{
+  "id": "5699df6c-8e4b-4cc2-9735-e8bb18de09a8",
+  "expense_id": "5699df6c-8e4b-4cc2-9735-e8bb18de09a8",
+  "description": "dinner",
+  "amount": 150.0,
+  "paid_by": "R0aghH2MVAh1Pf8CH2UQZN3wIjN2",
+  "group_id": "86795592-6dc1-4929-b8bb-d5a66eb024c2",
+  "category": "Transport",
+  "split_type": "equal",
+  "currency": "USD",
+  "date": "2025-11-19",
+  "notes": null,
+  "image_url": null,
+  "splits": [
+    {
+      "user_id": "R0aghH2MVAh1Pf8CH2UQZN3wIjN2",
+      "amount": 75.0
+    },
+    {
+      "user_id": "iJol3n5TFrVHdH79hS32WLCI2EK2",
+      "amount": 75.0
+    }
+  ],
+  "created_at": "2025-11-20T21:10:10.710027",
+  "updated_at": "2025-11-20T21:10:33.595154",
+  "is_deleted": false
+}

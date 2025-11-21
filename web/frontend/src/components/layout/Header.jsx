@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import GlobalConfig from '../../config/globalConfig';
+import UserAvatar from '../common/UserAvatar';
 import '../css/Header.css';
 
 const Header = ({ onLoginClick, onSignUpClick, isAuthenticated, user, onLogout }) => {
   const [appName, setAppName] = useState(GlobalConfig.APP_NAME);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     // Load app name from config (could be from backend API)
@@ -18,6 +20,24 @@ const Header = ({ onLoginClick, onSignUpClick, isAuthenticated, user, onLogout }
 
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
+  };
+
+  const handleLoginClick = () => {
+    closeMobileMenu();
+    if (onLoginClick) {
+      onLoginClick();
+    } else {
+      navigate('/login');
+    }
+  };
+
+  const handleSignUpClick = () => {
+    closeMobileMenu();
+    if (onSignUpClick) {
+      onSignUpClick();
+    } else {
+      navigate('/signup');
+    }
   };
 
   return (
@@ -45,18 +65,18 @@ const Header = ({ onLoginClick, onSignUpClick, isAuthenticated, user, onLogout }
             {/* Mobile Auth Buttons */}
             <div className="mobile-auth-buttons">
               {isAuthenticated ? (
-                <>
-                  <span className="user-name-mobile">Hi, {user?.name || user?.email}</span>
-                  <button className="btn-logout" onClick={() => { onLogout(); closeMobileMenu(); }}>
-                    Logout
+                <div className="user-profile-mobile">
+                  <UserAvatar user={user} size="medium" showName={true} />
+                  <button className="btn-logout-mobile" onClick={() => { onLogout(); closeMobileMenu(); }}>
+                    <i className="fas fa-sign-out-alt"></i> Logout
                   </button>
-                </>
+                </div>
               ) : (
                 <>
-                  <button className="btn-login-mobile" onClick={() => { onLoginClick(); closeMobileMenu(); }}>
+                  <button className="btn-login-mobile" onClick={handleLoginClick}>
                     Log In
                   </button>
-                  <button className="btn-signup" onClick={() => { onSignUpClick(); closeMobileMenu(); }}>
+                  <button className="btn-signup" onClick={handleSignUpClick}>
                     Sign Up
                   </button>
                 </>
@@ -66,18 +86,18 @@ const Header = ({ onLoginClick, onSignUpClick, isAuthenticated, user, onLogout }
           
           <div className="auth-buttons desktop-auth">
             {isAuthenticated ? (
-              <>
-                <span className="user-name">Hi, {user?.name || user?.email}</span>
+              <div className="user-profile-desktop">
+                <UserAvatar user={user} size="medium" showName={true} />
                 <button className="btn-logout" onClick={onLogout}>
-                  Logout
+                  <i className="fas fa-sign-out-alt"></i> Logout
                 </button>
-              </>
+              </div>
             ) : (
               <>
-                <button className="btn-login" onClick={onLoginClick}>
+                <button className="btn-login" onClick={handleLoginClick}>
                   Log In
                 </button>
-                <button className="btn-signup" onClick={onSignUpClick}>
+                <button className="btn-signup" onClick={handleSignUpClick}>
                   Sign Up
                 </button>
               </>

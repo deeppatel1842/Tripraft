@@ -348,3 +348,61 @@ body {
 html {
   scroll-padding-top: 5rem;
 }
+
+/* User Profile Styles */
+.user-profile-desktop,
+.user-profile-mobile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-profile-desktop {
+  padding: 0.5rem;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.user-profile-desktop:hover {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.user-profile-mobile {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+.btn-logout,
+.btn-logout-mobile {
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-logout:hover,
+.btn-logout-mobile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.btn-logout-mobile {
+  width: 100%;
+  justify-content: center;
+  margin-top: 0.5rem;
+}

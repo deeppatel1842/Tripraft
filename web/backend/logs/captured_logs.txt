@@ -1,0 +1,3569 @@
+Log Capture Started: 2025-11-20T15:39:44.810522
+================================================================================
+
+[2025-11-20 15:39:45,953] INFO in app: Firebase Admin SDK initialized successfully
+[2025-11-20 15:39:45,953] INFO in app:    Using production Firestore (~200ms latency)
+[2025-11-20 15:39:46,667] INFO in app: ✅ Rate limiting enabled with Redis storage
+2025-11-20 15:39:46,667 - api.app - INFO - ✅ Rate limiting enabled with Redis storage
+[2025-11-20 15:39:46,668] INFO in app: [OK] Response compression enabled (gzip, level 6)
+2025-11-20 15:39:46,668 - api.app - INFO - [OK] Response compression enabled (gzip, level 6)
+[2025-11-20 15:39:46,668] WARNING in app: [WARN] Places database not found - Places API will not be available
+2025-11-20 15:39:46,668 - api.app - WARNING - [WARN] Places database not found - Places API will not be available
+[2025-11-20 15:39:46,690] INFO in app: Health & Performance Monitoring registered at /api/health
+2025-11-20 15:39:46,690 - api.app - INFO - Health & Performance Monitoring registered at /api/health
+[2025-11-20 15:39:46,699] INFO in app: Places API blueprints registered with prefix: /api/v1
+2025-11-20 15:39:46,699 - api.app - INFO - Places API blueprints registered with prefix: /api/v1
+[2025-11-20 15:39:46,724] INFO in app: Expense Management System blueprint registered at /api/expense
+2025-11-20 15:39:46,724 - api.app - INFO - Expense Management System blueprint registered at /api/expense
+[2025-11-20 15:39:46,754] INFO in app: ✅ Group Planner blueprint registered at /api/group-planner (Phase 1)
+2025-11-20 15:39:46,754 - api.app - INFO - ✅ Group Planner blueprint registered at /api/group-planner (Phase 1)
+[2025-11-20 15:39:46,756] INFO in app: Flask application created successfully
+2025-11-20 15:39:46,756 - api.app - INFO - Flask application created successfully
+
+============================================================
+START TripRaft Backend Server
+============================================================
+Environment: development
+Server: http://0.0.0.0:5000
+Health Check: http://0.0.0.0:5000/health
+============================================================
+
+ * Serving Flask app 'api.app'
+ * Debug mode: on
+[2025-11-20 15:39:48,825] INFO in app: Firebase Admin SDK initialized successfully
+[2025-11-20 15:39:48,825] INFO in app:    Using production Firestore (~200ms latency)
+[2025-11-20 15:39:49,275] INFO in app: ✅ Rate limiting enabled with Redis storage
+2025-11-20 15:39:49,275 - api.app - INFO - ✅ Rate limiting enabled with Redis storage
+[2025-11-20 15:39:49,275] INFO in app: [OK] Response compression enabled (gzip, level 6)
+2025-11-20 15:39:49,275 - api.app - INFO - [OK] Response compression enabled (gzip, level 6)
+[2025-11-20 15:39:49,276] WARNING in app: [WARN] Places database not found - Places API will not be available
+2025-11-20 15:39:49,276 - api.app - WARNING - [WARN] Places database not found - Places API will not be available
+[2025-11-20 15:39:49,299] INFO in app: Health & Performance Monitoring registered at /api/health
+2025-11-20 15:39:49,299 - api.app - INFO - Health & Performance Monitoring registered at /api/health
+[2025-11-20 15:39:49,309] INFO in app: Places API blueprints registered with prefix: /api/v1
+2025-11-20 15:39:49,309 - api.app - INFO - Places API blueprints registered with prefix: /api/v1
+[2025-11-20 15:39:49,337] INFO in app: Expense Management System blueprint registered at /api/expense
+2025-11-20 15:39:49,337 - api.app - INFO - Expense Management System blueprint registered at /api/expense
+[2025-11-20 15:39:49,383] INFO in app: ✅ Group Planner blueprint registered at /api/group-planner (Phase 1)
+2025-11-20 15:39:49,383 - api.app - INFO - ✅ Group Planner blueprint registered at /api/group-planner (Phase 1)
+[2025-11-20 15:39:49,385] INFO in app: Flask application created successfully
+2025-11-20 15:39:49,385 - api.app - INFO - Flask application created successfully
+ * Debugger is active!
+⚠️ SLOW OPERATION: GET /invitations took 1633ms (threshold: 1000ms)
+⚠️  HIGH [GET expense.get_user_groups] Firestore Ops: 26 total (R:26 W:0 D:0 S:0)
+
+============================================================
+START TripRaft Backend Server
+============================================================
+Environment: development
+Server: http://0.0.0.0:5000
+Health Check: http://0.0.0.0:5000/health
+============================================================
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m2.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (0 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m290.88ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763681992477
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763681992477
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (0 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.07ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1636.07ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763681994936
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763681994936
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (0 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m5.01ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.55ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/expenses/user
+[96mQuery:[0m personal_only=true
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.99ms[0m
+[1m[94m================================================================================[0m
+
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (0 groups) [summary mode]
+   Duration: 3.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m11.00ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/user/profile
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/expenses/user
+[96mQuery:[0m personal_only=true
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m15.64ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mPOST[0m /api/expense/user/profile
+[96mBody:[0m {'username': 'rdcoding1842', 'display_name': '', 'profile_picture': None}
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.00ms[0m
+[1mMessage:[0m User already exists
+[1m[94m================================================================================[0m
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m845.89ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mPOST[0m /api/expense/groups
+[96mBody:[0m {'name': 'dvsd', 'description': 'Created by Deep Patel', 'currency': 'USD'}
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+🗑️  Invalidated user groups cache for R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+
+================================================================================
+📊 FIRESTORE API CALLS - POST /api/expense/groups
+================================================================================
+   Reads:      0
+   Writes:     3
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      3 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m201[0m
+[1mDuration:[0m [93m277.29ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682001557
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682001557
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+❌ Cache MISS for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 [summary mode]
+✅ Cached user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 436.25ms | Firestore Reads: 2
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups
+================================================================================
+   Reads:      26
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      26 operations - ⚠️  HIGH
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m439.80ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682002479
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.91ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682002479
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.00ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mQuery:[0m _t=1763682002520
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.53ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/settlements/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.14ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.51ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682002523
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.94ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mQuery:[0m _t=1763682002520
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+❌ Cache MISS for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/settlements/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+❌ Cache MISS for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682002523
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+❌ Cache MISS for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 2.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m7.07ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cached group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 135.47ms | Firestore Reads: 1
+✅ Cached group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 335.82ms | Firestore Reads: 1
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m513.14ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cached group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 423.46ms | Firestore Reads: 1
+❌ Cache MISS for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/settlements/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m512.49ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cached group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (1 members)
+
+      🔥 Firebase: get_group_expenses(c2082fec-4ba7-4369-958e-f9787b7de1b6, limit=50, offset=0)
+         ✅ Retrieved 0 expenses (has_more=False)
+🔍 Fetching display names for 1 users
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 1/1 hits (100.0% hit rate)
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 2681.71ms
+   Data: 1 members, 0 expenses, 0 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 2.682s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+================================================================================
+   Reads:      3
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      3 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m2686.72ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (0 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.00ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mPOST[0m /api/expense/invitations
+[96mBody:[0m {'group_id': 'c2082fec-4ba7-4369-958e-f9787b7de1b6', 'email': 'pateldeep1842@gmail.com'}
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m201[0m
+[1mDuration:[0m [93m421.13ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682011582
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.13ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682011582
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+✅ Cache HIT for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (1 members)
+
+      🔥 Firebase: get_group_expenses(c2082fec-4ba7-4369-958e-f9787b7de1b6, limit=50, offset=0)
+         ✅ Retrieved 0 expenses (has_more=False)
+🔍 Fetching display names for 1 users
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 1/1 hits (100.0% hit rate)
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1854.30ms
+   Data: 1 members, 0 expenses, 0 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.854s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+⚠️ SLOW OPERATION: GET /invitations took 4663ms (threshold: 1000ms)
+⚠️ SLOW OPERATION: GET /invitations took 4589ms (threshold: 1000ms)
+[1mDuration:[0m [93m1857.29ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mQuery:[0m _t=1763682013921
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.99ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mQuery:[0m _t=1763682013921
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m157.71ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m3.00ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682017704
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/605e184e-bac1-4262-a63d-9e899f2188a9/full
+[96mQuery:[0m _t=1763682017705
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682017704
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/605e184e-bac1-4262-a63d-9e899f2188a9/full
+[96mQuery:[0m _t=1763682017705
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+🚀 GET FULL GROUP DATA - 605e184e-bac1-4262-a63d-9e899f2188a9
+⚠️  HIGH [GET expense.get_user_groups] Firestore Ops: 26 total (R:26 W:0 D:0 S:0)
+================================================================================
+User ID: iJol3n5TFrVHdH79hS32WLCI2EK2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: 605e184e-bac1-4262-a63d-9e899f2188a9
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (0 groups) [summary mode]
+   Duration: 2.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m7.70ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cache HIT for group details: 605e184e-bac1-4262-a63d-9e899f2188a9
+   Duration: 4.00ms | Firestore Reads: 0
+✅ Cache HIT for group members: 605e184e-bac1-4262-a63d-9e899f2188a9 (2 members)
+
+      🔥 Firebase: get_group_expenses(605e184e-bac1-4262-a63d-9e899f2188a9, limit=50, offset=0)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (0 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m3.55ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+         ✅ Retrieved 0 expenses (has_more=False)
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4668.27ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4594.28ms[0m
+[1m[94m================================================================================[0m
+
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: pateldeep1842
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations/feb82f9f-87d2-48fe-b331-54115f098fde/accept
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mPOST[0m /api/expense/invitations/feb82f9f-87d2-48fe-b331-54115f098fde/accept
+[96mBody:[0m (no content)
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cached full group data: 605e184e-bac1-4262-a63d-9e899f2188a9
+   Duration: 7804.41ms
+   Data: 2 members, 0 expenses, 0 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 7.804s
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m7811.11ms[0m
+[1m[94m================================================================================[0m
+
+🗑️  Invalidated cache: group_members:c2082fec-4ba7-4369-958e-f9787b7de1b6
+🗑️  Invalidated cache: group_details:c2082fec-4ba7-4369-958e-f9787b7de1b6
+🗑️  Invalidated cache: group_full:c2082fec-4ba7-4369-958e-f9787b7de1b6:R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+✅ Invalidated 3/4 cache keys for group c2082fec-4ba7-4369-958e-f9787b7de1b6
+❌ Cache MISS for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cached group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 430.94ms | Firestore Reads: 1
+
+================================================================================
+📊 FIRESTORE API CALLS - POST /api/expense/invitations/feb82f9f-87d2-48fe-b331-54115f098fde/accept
+================================================================================
+   Reads:      5
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      5 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m5358.99ms[0m
+[1mSuccess:[0m True
+[1mMessage:[0m Invitation accepted successfully
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682030884
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+⚠️  HIGH [GET expense.get_user_groups] Firestore Ops: 14 total (R:14 W:0 D:0 S:0)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682030884
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682030881
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.53ms[0m
+[1m[94m================================================================================[0m
+
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+❌ Cache MISS for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682030881
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+❌ Cache MISS for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 [summary mode]
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cached group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (2 members)
+
+      🔥 Firebase: get_group_expenses(c2082fec-4ba7-4369-958e-f9787b7de1b6, limit=50, offset=0)
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m809.64ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cached user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 589.62ms | Firestore Reads: 2
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups
+================================================================================
+   Reads:      26
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      26 operations - ⚠️  HIGH
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m593.54ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682032108
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.60ms[0m
+[1m[94m================================================================================[0m
+
+         ✅ Retrieved 0 expenses (has_more=False)
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m861.24ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682032108
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+❌ Cache MISS for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 [summary mode]
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.00ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cached user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 734.71ms | Firestore Reads: 2
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups
+================================================================================
+   Reads:      14
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      14 operations - ⚠️  HIGH
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m738.70ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: pateldeep1842
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 2717.65ms
+   Data: 2 members, 0 expenses, 0 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 2.718s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+================================================================================
+   Reads:      4
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      4 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m2725.15ms[0m
+[1m[94m================================================================================[0m
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m997.52ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682034483
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682034483
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 0.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.53ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m849.94ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations/group/605e184e-bac1-4262-a63d-9e899f2188a9
+[96mQuery:[0m _t=1763682036277
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682036275
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.22ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682036276
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 1.06ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.87ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations/group/605e184e-bac1-4262-a63d-9e899f2188a9
+[96mQuery:[0m _t=1763682036277
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682036275
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682036276
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 2.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m11.53ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cache HIT for group details: 605e184e-bac1-4262-a63d-9e899f2188a9
+   Duration: 3.07ms | Firestore Reads: 0
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 3.94ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m11.92ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m133.25ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/settlements/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mQuery:[0m _t=1763682037099
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682037101
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.53ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 0.89ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m6.39ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.17ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/settlements/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682037101
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mQuery:[0m _t=1763682037099
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: iJol3n5TFrVHdH79hS32WLCI2EK2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 2.96ms | Firestore Reads: 0
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 2.14ms | Firestore Reads: 0
+✅ Cache HIT for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (2 members)
+
+      🔥 Firebase: get_group_expenses(c2082fec-4ba7-4369-958e-f9787b7de1b6, limit=50, offset=0)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 0.96ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m3.02ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m235.12ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+         ✅ Retrieved 0 expenses (has_more=False)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m283.50ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/expenses
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.04ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mPOST[0m /api/expense/expenses
+[96mBody:[0m {'group_id': 'c2082fec-4ba7-4369-958e-f9787b7de1b6', 'description': 'dinner', 'amount': 100, 'currency': 'USD', 'category': 'Food', 'date': '2025-11-20', 'paid_by': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'split_type': 'EQUAL', 'splits': [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50}]}
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+⏱️  START: CREATE EXPENSE
+
+================================================================================
+📝 CREATE EXPENSE - START
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+Request Data: {'group_id': 'c2082fec-4ba7-4369-958e-f9787b7de1b6', 'description': 'dinner', 'amount': 100, 'currency': 'USD', 'category': 'Food', 'date': '2025-11-20', 'paid_by': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'split_type': 'EQUAL', 'splits': [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50}]}
+Idempotency-Key: auto:cae80c515af9b6ab
+✅ Validation passed
+   Description: dinner
+   Amount: 100
+   Category: Food
+   Splits received: [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50}]
+   Paid by (from request): R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+   Split Type: EQUAL
+   Group ID: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Group ID: c2082fec-4ba7-4369-958e-f9787b7de1b6
+
+👥 GROUP EXPENSE - Firebase + Local Storage
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+   Group Name: dvsd
+   Group Members: 2
+
+🧮 CALCULATING SPLITS
+   Input splits: [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50}]
+      calculate_splits called:
+         Amount: $100
+         Split type: 'EQUAL' (normalized: 'equal')
+         Split data: [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50}]
+         Equal split (cents): [5000, 5000] for 2 people
+         Sum check: 10000 cents = 10000 cents ✅
+         ✅ Calculated 2 splits
+            1. User R0aghH2MVAh1Pf8CH2UQZN3wIjN2: $50.0
+            2. User iJol3n5TFrVHdH79hS32WLCI2EK2: $50.0
+   Calculated splits: [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50.0, 'share': None, 'percentage': None}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50.0, 'share': None, 'percentage': None}]
+   Number of splits: 2
+   Expense ID: 2e018109-b1b1-46d2-8174-12aaeaed6c64
+   Date: 2025-11-20
+   Paid by: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+
+💾 SAVING EXPENSE
+   Final expense object:
+   - Amount: $100.0
+   - Splits: [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50.0, 'share': None, 'percentage': None}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50.0, 'share': None, 'percentage': None}]
+   - Split count: 2
+   ⚡ OPTIMISTIC MODE: Creating expense instantly...
+
+      🔥 Firebase: create_expense (OPTIMIZED)
+         Description: dinner
+         Amount: $100.0
+         Splits received: 2
+         Using provided Expense ID: 2e018109-b1b1-46d2-8174-12aaeaed6c64
+         ✅ Prepared expense with 2 splits
+   ✅ Response ready (Firebase syncing in background)
+   ✅ Saved to local storage
+   ✅ Keeping formatted balance cache (smart ?_t will handle freshness)
+
+📧 STARTING ASYNC EMAIL NOTIFICATIONS
+   ✅ Email notifications started in background (non-blocking)
+         ✅ Batched write complete: 3 documents
+            Batch duration: 174ms
+            (Sequential would take ~9000ms)
+         ✅ Firebase expense created in 174ms
+================================================================================
+
+🧮 Calculating updated balances for optimistic response...
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: pateldeep1842
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+✅ Added balance data to response (2 members)
+✅ IDEMPOTENCY: Cached response for auto:cae80c515af9b6ab (24h TTL)
+✅ IDEMPOTENCY: Released lock for auto:cae80c515af9b6ab
+✅ COMPLETE: CREATE EXPENSE - 0.361s
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m201[0m
+[1mDuration:[0m [93m363.95ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682039377
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1761.46ms
+   Data: 2 members, 0 expenses, 0 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.762s
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1769.45ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682039377
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682039376
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m5.55ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682039376
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.12ms | Firestore Reads: 0
+✅ Cache HIT for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (2 members)
+
+      🔥 Firebase: get_group_expenses(c2082fec-4ba7-4369-958e-f9787b7de1b6, limit=50, offset=0)
+         Expense: dinner
+            Amount: $100.0
+            Splits: 2
+         ✅ Retrieved 1 expenses (has_more=False)
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: pateldeep1842
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1645.49ms
+   Data: 2 members, 1 expenses, 0 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.645s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1649.27ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/expenses/2e018109-b1b1-46d2-8174-12aaeaed6c64
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mPUT[0m /api/expense/expenses/2e018109-b1b1-46d2-8174-12aaeaed6c64
+[96mBody:[0m {'type': 'expense', 'description': 'dinner', 'amount': 150, 'category': 'Entertainment', 'date': '2025-11-03', 'paidBy': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'splitWith': ['R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'iJol3n5TFrVHdH79hS32WLCI2EK2']}
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+⏱️  START: UPDATE EXPENSE
+
+================================================================================
+✏️  UPDATE EXPENSE - 2e018109-b1b1-46d2-8174-12aaeaed6c64
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+   Local storage lookup: Found
+   Expense: dinner
+   Amount: $100.0
+   Paid by: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+   Group ID: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Is payer: True
+   Is in split: True
+   Update data: {'type': 'expense', 'description': 'dinner', 'amount': 150, 'category': 'Entertainment', 'date': '2025-11-03', 'paidBy': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'splitWith': ['R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'iJol3n5TFrVHdH79hS32WLCI2EK2']}
+   Transformed data: {'type': 'expense', 'description': 'dinner', 'amount': 150, 'category': 'Entertainment', 'date': '2025-11-03', 'paid_by': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'splits': [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 75.0}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 75.0}]}
+   💰 Financial change detected - balance recalculation needed
+
+⚡ OPTIMISTIC UPDATE: Updating instantly...
+   🔄 Updating local storage...
+   🗑️  Invalidated formatted balance cache (financial change)
+   ✅ Instant update complete (Firebase syncing in background)
+✅ UPDATE COMPLETE
+================================================================================
+
+✅ COMPLETE: UPDATE EXPENSE - 0.020s
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m24.60ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m2.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 1.11ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.40ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682056833
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682056832
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.75ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682056833
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.00ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682056832
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+✅ Cache HIT for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (2 members)
+
+      🔥 Firebase: get_group_expenses(c2082fec-4ba7-4369-958e-f9787b7de1b6, limit=50, offset=0)
+         Expense: dinner
+            Amount: $150
+            Splits: 2
+         ✅ Retrieved 1 expenses (has_more=False)
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m939.04ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: pateldeep1842
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1507.74ms
+   Data: 2 members, 1 expenses, 0 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.508s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1511.80ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 0.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.00ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 2.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.00ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/settlements
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.01ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 0.56ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.30ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mPOST[0m /api/expense/settlements
+[96mBody:[0m {'from_user': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'to_user': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50, 'group_id': 'c2082fec-4ba7-4369-958e-f9787b7de1b6', 'notes': None, 'expected_amount': 75}
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+💸 CREATE SETTLEMENT WITH VALIDATION
+================================================================================
+From: iJol3n5TFrVHdH79hS32WLCI2EK2
+To: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+Amount: $50.0
+Expected: $75
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+Group: dvsd (c2082fec-4ba7-4369-958e-f9787b7de1b6)
+
+🔥 PRE-WARMING BALANCE CACHE
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: pateldeep1842
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+   ✅ Cache pre-warmed
+
+🔍 VALIDATING CURRENT DEBT (using incremental balances)
+   From balance: $-75.00
+   Currently owed by payer: $75.00
+   ✅ Validation passed
+   Applied: $50.00
+   Remaining: $25.00
+
+⚡ OPTIMISTIC SETTLEMENT MODE
+
+⚡ OPTIMISTIC SETTLEMENT: Instant balance update...
+   ✅ Settlement document created
+   ✅ Balance updated instantly
+🗑️  Invalidated cache: group_members:c2082fec-4ba7-4369-958e-f9787b7de1b6
+🗑️  Invalidated cache: group_details:c2082fec-4ba7-4369-958e-f9787b7de1b6
+🗑️  Invalidated cache: group_full:c2082fec-4ba7-4369-958e-f9787b7de1b6:R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🗑️  Invalidated cache: group_full:c2082fec-4ba7-4369-958e-f9787b7de1b6:iJol3n5TFrVHdH79hS32WLCI2EK2
+✅ Invalidated 4/4 cache keys for group c2082fec-4ba7-4369-958e-f9787b7de1b6
+   ✅ Cache invalidation complete (batch operation)
+   ✅ Settlement created instantly (1523ms)
+
+🗑️  SELECTIVE CACHE INVALIDATION (Phase 2.7)
+   ✅ Invalidated 3 balance caches
+   ℹ️  Kept intact: group_details, group_members, expenses
+   📈 Expected reload: ~200ms (91% faster)
+✅ SETTLEMENT COMPLETE - 1526ms
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - POST /api/expense/settlements
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m201[0m
+[1mDuration:[0m [93m1709.76ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682069728
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m2.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682069729
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682069728
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+❌ Cache MISS for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cached group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 155.71ms | Firestore Reads: 1
+❌ Cache MISS for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682069729
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.96ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cached group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (2 members)
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: pateldeep1842
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 2765.10ms
+   Data: 2 members, 1 expenses, 1 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 2.765s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+================================================================================
+   Reads:      6
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      6 operations - ℹ️  MEDIUM
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m2770.10ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682073041
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.69ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682073040
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/settlements/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682073041
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.08ms | Firestore Reads: 0
+✅ Cache HIT for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (2 members)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682073040
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/settlements/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 2.00ms | Firestore Reads: 0
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 2.01ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m9.00ms[0m
+[1m[94m================================================================================[0m
+
+✅ Cache HIT for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (2 members)
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: pateldeep1842
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1368.23ms
+   Data: 2 members, 1 expenses, 1 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.368s
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1372.25ms[0m
+[1m[94m================================================================================[0m
+
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: pateldeep1842
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1507.99ms
+   Data: 2 members, 1 expenses, 1 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.508s
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1516.99ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.87ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 1.57ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m6.27ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mQuery:[0m _t=1763682079131
+Error in background email queue: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+❌ INVARIANT VIOLATION: Balance sum = $75.00, expected $0.00
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m835.64ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mQuery:[0m _t=1763682079131
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m138.26ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m6.00ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/members/iJol3n5TFrVHdH79hS32WLCI2EK2
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mDELETE[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/members/iJol3n5TFrVHdH79hS32WLCI2EK2
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+🗑️  Invalidated cache: group_members:c2082fec-4ba7-4369-958e-f9787b7de1b6
+🗑️  Invalidated cache: group_details:c2082fec-4ba7-4369-958e-f9787b7de1b6
+🗑️  Invalidated cache: group_full:c2082fec-4ba7-4369-958e-f9787b7de1b6:R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+✅ Invalidated 3/3 cache keys for group c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Invalidated cache after removing member iJol3n5TFrVHdH79hS32WLCI2EK2 from group: c2082fec-4ba7-4369-958e-f9787b7de1b6
+
+================================================================================
+📊 FIRESTORE API CALLS - DELETE /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/members/iJol3n5TFrVHdH79hS32WLCI2EK2
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m858.16ms[0m
+[1mSuccess:[0m True
+[1mMessage:[0m Member removed successfully
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682085418
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682085418
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+❌ Cache MISS for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cached group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 130.50ms | Firestore Reads: 1
+❌ Cache MISS for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cached group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (1 members)
+🔍 Fetching display names for 1 users
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+Error updating balance for expense: ❌ INVARIANT VIOLATION: Balance sum = $75.00, expected $0.00
+📊 Display name cache: 1/1 hits (100.0% hit rate)
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1939.11ms
+   Data: 1 members, 1 expenses, 1 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.939s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+================================================================================
+   Reads:      3
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      3 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1943.11ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/expenses/2e018109-b1b1-46d2-8174-12aaeaed6c64
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.07ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mDELETE[0m /api/expense/expenses/2e018109-b1b1-46d2-8174-12aaeaed6c64
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+⏱️  START: DELETE EXPENSE
+
+================================================================================
+🗑️  DELETE EXPENSE - 2e018109-b1b1-46d2-8174-12aaeaed6c64
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+   Local storage lookup: Found
+   Expense: dinner
+   Amount: $150.0
+   Paid by: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+   Group ID: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Is group admin: True
+   Is payer: True
+   Is in split: True
+   Can delete: True
+
+💾 DELETING FROM STORAGE (OPTIMIZED)
+   Local storage: ✅ Deleted
+   📤 Firebase deletion queued (non-blocking)
+
+📧 SCHEDULING DELETE NOTIFICATIONS (instant queue)
+   ✅ Email queueing started (non-blocking)
+✅ EXPENSE DELETED SUCCESSFULLY
+================================================================================
+
+✅ COMPLETE: DELETE EXPENSE - 0.434s
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m436.52ms[0m
+[1mSuccess:[0m True
+[1mMessage:[0m Expense deleted
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682092420
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682092420
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682092422
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.52ms[0m
+[1m[94m================================================================================[0m
+
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 0.52ms | Firestore Reads: 0
+✅ Cache HIT for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (1 members)
+
+      🔥 Firebase: get_group_expenses(c2082fec-4ba7-4369-958e-f9787b7de1b6, limit=50, offset=0)
+         ✅ Retrieved 0 expenses (has_more=False)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682092422
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.87ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m5.00ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+   📤 Firebase: ✅ Deleted (background)
+🔍 Fetching display names for 1 users
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 1/1 hits (100.0% hit rate)
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1481.63ms
+   Data: 1 members, 0 expenses, 1 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.482s
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1487.65ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682094375
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.53ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682094375
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 0.94ms | Firestore Reads: 0
+✅ Cache HIT for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (1 members)
+
+      🔥 Firebase: get_group_expenses(c2082fec-4ba7-4369-958e-f9787b7de1b6, limit=50, offset=0)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682094376
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+         ✅ Retrieved 0 expenses (has_more=False)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682094376
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 0.95ms | Firestore Reads: 0
+✅ Cache HIT for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (1 members)
+
+      🔥 Firebase: get_group_expenses(c2082fec-4ba7-4369-958e-f9787b7de1b6, limit=50, offset=0)
+         ✅ Retrieved 0 expenses (has_more=False)
+🔍 Fetching display names for 1 users
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 1/1 hits (100.0% hit rate)
+🔍 Fetching display names for 1 users
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1455.26ms
+   Data: 1 members, 0 expenses, 1 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.455s
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1458.38ms[0m
+[1m[94m================================================================================[0m
+
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 1/1 hits (100.0% hit rate)
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1401.59ms
+   Data: 1 members, 0 expenses, 1 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.402s
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1404.66ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 0.91ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m6.50ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+⚠️  HIGH [GET expense.get_user_groups] Firestore Ops: 26 total (R:26 W:0 D:0 S:0)
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m5.94ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/invitations/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mQuery:[0m _t=1763682099534
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682099536
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/settlements/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/invitations/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mQuery:[0m _t=1763682099534
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 1.55ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m8.07ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.55ms | Firestore Reads: 0
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682099536
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+   Duration: 1.95ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m7.11ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 0.90ms | Firestore Reads: 0
+✅ Cache HIT for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (1 members)
+
+      🔥 Firebase: get_group_expenses(c2082fec-4ba7-4369-958e-f9787b7de1b6, limit=50, offset=0)
+         ✅ Retrieved 0 expenses (has_more=False)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m173.90ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/settlements/group/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 0.92ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m5.02ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mDELETE[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m823.51ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.08ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m296.67ms[0m
+[1mSuccess:[0m True
+[1mMessage:[0m Group deleted
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682100935
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682100935
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+❌ Cache MISS for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 [summary mode]
+🔍 Fetching display names for 1 users
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 1/1 hits (100.0% hit rate)
+✅ No groups found for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (353.00ms, 1 Firestore read)
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups
+================================================================================
+   Reads:      26
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      26 operations - ⚠️  HIGH
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m356.57ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1900.41ms
+   Data: 1 members, 0 expenses, 1 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.900s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1906.63ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682101828
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.19ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682101813
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+⚠️  HIGH [GET expense.get_user_groups] Firestore Ops: 26 total (R:26 W:0 D:0 S:0)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6/full
+[96mQuery:[0m _t=1763682101828
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+================================================================================
+🚀 GET FULL GROUP DATA - c2082fec-4ba7-4369-958e-f9787b7de1b6
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+✅ Cache HIT for group members: c2082fec-4ba7-4369-958e-f9787b7de1b6 (1 members)
+
+      🔥 Firebase: get_group_expenses(c2082fec-4ba7-4369-958e-f9787b7de1b6, limit=50, offset=0)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682101813
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (0 groups) [summary mode]
+   Duration: 1.01ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m5.53ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+         ✅ Retrieved 0 expenses (has_more=False)
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682102689
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.53ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary&_t=1763682102689
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (0 groups) [summary mode]
+   Duration: 0.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m3.52ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+🔍 Fetching display names for 1 users
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 1/1 hits (100.0% hit rate)
+✅ Cached full group data: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1569.86ms
+   Data: 1 members, 0 expenses, 1 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.570s
+================================================================================
+
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1574.39ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.99ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m4.00ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m0.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mOPTIONS[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m1.00ms[0m
+[1m[94m================================================================================[0m
+
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mDELETE[0m /api/expense/groups/c2082fec-4ba7-4369-958e-f9787b7de1b6
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+
+[1m[94m================================================================================[0m
+[1m[96m→ INCOMING REQUEST[0m
+[1m[94m================================================================================[0m
+[92mGET[0m /api/expense/groups
+[96mQuery:[0m mode=summary
+[96mOrigin:[0m http://localhost:5173
+[96mUser-Agent:[0m Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (0 groups) [summary mode]
+   Duration: 1.00ms | Firestore Reads: 0
+
+[1m[92m← RESPONSE[0m
+[1mStatus:[0m [92m200[0m
+[1mDuration:[0m [93m3.59ms[0m
+[1mSuccess:[0m True
+[1m[94m================================================================================[0m
+
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6
+   Duration: 1.00ms | Firestore Reads: 0
+✅ Cache HIT for group details: c2082fec-4ba7-4369-958e-f9787b7de1b6

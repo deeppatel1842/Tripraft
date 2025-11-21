@@ -1,0 +1,284 @@
+/* Settlement History - Transaction Style */
+.settlement-history {
+  margin-top: 2rem;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.settlement-history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.settlement-history-header h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-icon {
+  font-size: 1.25rem;
+}
+
+.settlement-count {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.625rem;
+  border-radius: 12px;
+  min-width: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(16, 185, 129, 0.2);
+}
+
+/* Loading State */
+.loading-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: #6b7280;
+  gap: 0.75rem;
+}
+
+.spinner {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid #e5e7eb;
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 2px dashed #d1d5db;
+}
+
+.empty-icon {
+  font-size: 3rem;
+  opacity: 0.4;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.empty-state p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+.empty-state small {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+/* Error State */
+.error-state {
+  text-align: center;
+  padding: 2rem;
+  background: #fee2e2;
+  border-radius: 12px;
+  color: #dc2626;
+}
+
+.retry-button {
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.retry-button:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
+
+/* Settlements List - Table Style */
+.settlements-list {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.settlements-table-header {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1.5fr 1fr;
+  gap: 1rem;
+  padding: 0.875rem 1.25rem;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.settlement-item {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1.5fr 1fr;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #f3f4f6;
+  transition: all 0.15s;
+  align-items: center;
+}
+
+.settlement-item:last-child {
+  border-bottom: none;
+}
+
+.settlement-item:hover {
+  background: #f9fafb;
+}
+
+/* Description Column */
+.settlement-description {
+  font-size: 0.95rem;
+  color: #1f2937;
+  font-weight: 500;
+}
+
+/* Category Column */
+.settlement-category {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.625rem;
+  background: #fef3c7;
+  color: #92400e;
+  border-radius: 4px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  width: fit-content;
+}
+
+/* Date Column */
+.settlement-date {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Added By Column */
+.settlement-added-by {
+  font-size: 0.875rem;
+  color: #1f2937;
+  font-weight: 500;
+}
+
+/* Split With Column */
+.settlement-split-with {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Amount Column */
+.settlement-amount {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #10b981;
+  text-align: right;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .settlements-table-header {
+    display: none;
+  }
+
+  .settlement-item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .settlement-description {
+    order: 1;
+    font-weight: 600;
+  }
+
+  .settlement-amount {
+    order: 2;
+    text-align: left;
+    font-size: 1.125rem;
+  }
+
+  .settlement-added-by::before {
+    content: "Paid by: ";
+    color: #9ca3af;
+    font-weight: 400;
+  }
+
+  .settlement-split-with::before {
+    content: "To: ";
+    color: #9ca3af;
+    font-weight: 400;
+  }
+
+  .settlement-category {
+    order: 3;
+  }
+
+  .settlement-date {
+    order: 6;
+    font-size: 0.8125rem;
+  }
+
+  .settlement-added-by {
+    order: 4;
+  }
+
+  .settlement-split-with {
+    order: 5;
+  }
+}
+
+/* Scrollbar for long lists */
+.settlements-list {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.settlements-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.settlements-list::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
+.settlements-list::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
+
+.settlements-list::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}

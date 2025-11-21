@@ -1,5 +1,5 @@
 {
-  "name": "wayfinder-frontend",
+  "name": "tripraft-frontend",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -9,13 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.90.10",
+    "@tanstack/react-query-devtools": "^5.90.2",
     "@vitejs/plugin-react": "^5.0.2",
     "firebase": "^10.4.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.545.0",
+    "qrcode": "^1.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.9.1"
   },
   "devDependencies": {
+    "baseline-browser-mapping": "^2.8.28",
     "vite": "^5.0.0"
   }
 }

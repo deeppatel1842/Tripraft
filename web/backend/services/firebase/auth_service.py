@@ -23,13 +23,15 @@ class AuthService:
         if verification fails.
         """
         if not id_token:
-            logger.debug('verify_token called without id_token')
+            # # logger.debug('verify_token called without id_token')
+            pass  # Placeholder for commented log
             return None
 
         try:
-            decoded = self.firebase.verify_id_token(id_token)
+            decoded = self.firebase.verify_id_token(id_token, clock_skew_seconds=60)
             if not decoded:
-                logger.debug('verify_id_token returned no decoded token')
+                # # logger.debug('verify_id_token returned no decoded token')
+                pass  # Placeholder for commented log
                 return None
 
             return {

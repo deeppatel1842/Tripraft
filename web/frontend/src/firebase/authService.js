@@ -1,14 +1,11 @@
 /**
- * Firebase authentication service
+ * Firebase authentication service - Email/Password Only
  */
 import { initializeApp } from 'firebase/app';
 import {
   getAuth,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
-  signInWithPopup,
-  GoogleAuthProvider,
-  OAuthProvider,
   signOut,
   onAuthStateChanged,
   updateProfile
@@ -26,28 +23,45 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
-const googleProvider = new GoogleAuthProvider();
 
-googleProvider.setCustomParameters({
-  prompt: 'select_account'
-});
+// Export app instance for other Firebase services (Firestore, Storage, etc.)
+export { app };
 
 class AuthService {
   constructor() {
     this.auth = auth;
-    this.googleProvider = googleProvider;
   }
 
   // Email/Password Authentication
   async signInWithEmail(email, password) {
+    console.log('\n' + '='.repeat(60));
+    console.log('🔐 FIREBASE SIGN IN WITH EMAIL');
+    console.log('='.repeat(60));
+    console.log('📧 Email:', email);
+    
     try {
+      console.log('🔍 Calling Firebase signInWithEmailAndPassword...');
       const result = await signInWithEmailAndPassword(this.auth, email, password);
+      console.log('✅ Firebase authentication successful!');
+      console.log('👤 User ID:', result.user.uid);
+      console.log('📧 Email:', result.user.email);
+      console.log('✉️ Email Verified:', result.user.emailVerified);
+      
+      const token = await result.user.getIdToken();
+      console.log('🎟️ Token obtained (length:', token.length, 'chars)');
+      console.log('='.repeat(60) + '\n');
+      
       return {
         success: true,
         user: result.user,
-        token: await result.user.getIdToken()
+        token: token
       };
     } catch (error) {
+      console.log('❌ Firebase authentication failed!');
+      console.log('❌ Error code:', error.code);
+      console.log('❌ Error message:', error.message);
+      console.log('='.repeat(60) + '\n');
+      
       return {
         success: false,
         error: error.code,
@@ -57,20 +71,44 @@ class AuthService {
   }
 
   async signUpWithEmail(email, password, displayName = '') {
+    console.log('\n' + '='.repeat(60));
+    console.log('📝 FIREBASE SIGN UP WITH EMAIL');
+    console.log('='.repeat(60));
+    console.log('📧 Email:', email);
+    console.log('👤 Display Name:', displayName || 'Not provided');
+    
     try {
+      console.log('🔍 Creating user account...');
       const result = await createUserWithEmailAndPassword(this.auth, email, password);
+      console.log('✅ Account created successfully!');
+      console.log('👤 User ID:', result.user.uid);
       
       // Update display name if provided
       if (displayName) {
+        console.log('📝 Updating display name...');
         await updateProfile(result.user, { displayName });
+        console.log('✅ Display name updated!');
+        
+        // Reload user to get updated data
+        await result.user.reload();
+        console.log('🔄 User data reloaded with display name:', result.user.displayName);
       }
+      
+      const token = await result.user.getIdToken();
+      console.log('🎟️ Token obtained (length:', token.length, 'chars)');
+      console.log('='.repeat(60) + '\n');
       
       return {
         success: true,
         user: result.user,
-        token: await result.user.getIdToken()
+        token: token
       };
     } catch (error) {
+      console.log('❌ Sign up failed!');
+      console.log('❌ Error code:', error.code);
+      console.log('❌ Error message:', error.message);
+      console.log('='.repeat(60) + '\n');
+      
       return {
         success: false,
         error: error.code,
@@ -78,32 +116,22 @@ class AuthService {
       };
     }
   }
-
-  // Google Authentication
-  async signInWithGoogle() {
-    try {
-      const result = await signInWithPopup(this.auth, this.googleProvider);
-      return {
-        success: true,
-        user: result.user,
-        token: await result.user.getIdToken()
-      };
-    } catch (error) {
-      return {
-        success: false,
-        error: error.code,
-        message: error.message
-      };
-    }
-  }
-
 
   // Sign Out
   async signOut() {
+    console.log('\n' + '='.repeat(60));
+    console.log('� SIGNING OUT');
+    console.log('='.repeat(60));
+    
     try {
       await signOut(this.auth);
+      console.log('✅ Sign out successful!');
+      console.log('='.repeat(60) + '\n');
       return { success: true };
     } catch (error) {
+      console.log('❌ Sign out failed!');
+      console.log('❌ Error:', error.message);
+      console.log('='.repeat(60) + '\n');
       return {
         success: false,
         error: error.code,

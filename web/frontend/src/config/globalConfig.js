@@ -9,7 +9,7 @@
 
 const GlobalConfig = {
   // Brand Configuration - can be overridden via backend API
-  APP_NAME: import.meta.env.VITE_APP_NAME || 'TravelApp',
+  APP_NAME: import.meta.env.VITE_APP_NAME || 'Tripraft',
   APP_DESCRIPTION: import.meta.env.VITE_APP_DESCRIPTION || 'AI-powered travel planning platform',
   APP_TAGLINE: import.meta.env.VITE_APP_TAGLINE || 'Discover. Plan. Explore.',
   

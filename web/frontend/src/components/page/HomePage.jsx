@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { useAuth } from '../../context/AuthContext';
 import Header from '../layout/Header';
 import Footer from '../layout/Footer';
 import AnimatedBackground from '../animation/AnimatedBackground';
@@ -8,6 +9,7 @@ import '../css/HomePage.css';
 const HomePage = () => {
   const [destination, setDestination] = useState('');
   const navigate = useNavigate();
+  const { currentUser, signOut } = useAuth();
 
   useEffect(() => {
     // Scroll Animation Logic (Intersection Observer)
@@ -36,9 +38,22 @@ const HomePage = () => {
     navigate('/trip-planner');
   };
 
+  const handleLogout = async () => {
+    try {
+      await signOut();
+      navigate('/');
+    } catch (error) {
+      console.error('Logout error:', error);
+    }
+  };
+
   return (
     <div className="home-page">
-      <Header />
+      <Header 
+        isAuthenticated={!!currentUser} 
+        user={currentUser} 
+        onLogout={handleLogout} 
+      />
       <main className="main-content">
         {/* Hero Section */}
         <section className="hero-section">

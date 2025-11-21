@@ -20,4 +20,10 @@ class RedisClient:
         return self.get_client().set(key, value, ex=ex)
 
 
+# Singleton instance
 redis_client = RedisClient()
+
+# Export function for rate limiting
+def get_redis_client():
+    """Get the Redis client instance for rate limiting"""
+    return redis_client.get_client()

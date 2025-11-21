@@ -69,10 +69,11 @@ class FirebaseAdmin:
             self.initialize()
         return self._auth
     
-    def verify_id_token(self, id_token):
-        """Verify Firebase ID token."""
+    def verify_id_token(self, id_token, clock_skew_seconds=60):
+        """Verify Firebase ID token with clock skew tolerance."""
         try:
-            decoded_token = self.auth.verify_id_token(id_token)
+            # Add clock skew tolerance to handle slight time differences
+            decoded_token = self.auth.verify_id_token(id_token, clock_skew_seconds=clock_skew_seconds)
             return decoded_token
         except Exception as e:
             print(f"Error verifying ID token: {str(e)}")

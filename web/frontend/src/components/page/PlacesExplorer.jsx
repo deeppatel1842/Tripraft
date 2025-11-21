@@ -1,50 +1,78 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
+import { useAuth } from '../../context/AuthContext';
 import Header from '../layout/Header';
 import Footer from '../layout/Footer';
 import PlaceCard from './PlaceCard';
+import placesService from '../../services/placesService';
 import '../css/PlacesExplorer.css';
 
+// Debounce helper
+const useDebounce = (value, delay) => {
+  const [debouncedValue, setDebouncedValue] = useState(value);
+
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedValue(value);
+    }, delay);
+
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [value, delay]);
+
+  return debouncedValue;
+};
+
 const PlacesExplorer = () => {
+  const { currentUser, signOut } = useAuth();
   const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
   const sortDropdownRef = useRef(null);
-  const distancePanelRef = useRef(null);
   
   const [places, setPlaces] = useState([]);
   const [filteredPlaces, setFilteredPlaces] = useState([]);
-  const [cityQuery, setCityQuery] = useState(searchParams.get('city') || 'San Diego');
+  const [cityQuery, setCityQuery] = useState(searchParams.get('city') || 'Los Angeles');
   const [loading, setLoading] = useState(false);
   const [filteringLoading, setFilteringLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [cacheHit, setCacheHit] = useState(false);
   const [lastSearchedCity, setLastSearchedCity] = useState('');
   const [selectedPlace, setSelectedPlace] = useState(null);
+  const [pagination, setPagination] = useState(null);
+  const [availableCities, setAvailableCities] = useState([]);
   
   // Filter and Sort States
   const [sortBy, setSortBy] = useState(searchParams.get('sort') || 'rank_score');
-  const [distanceFilter, setDistanceFilter] = useState(parseInt(searchParams.get('distance')) || 120);
   
   // Dropdown states
   const [showSortDropdown, setShowSortDropdown] = useState(false);
-  const [showDistancePanel, setShowDistancePanel] = useState(false);
 
   useEffect(() => {
+    // Load available cities on mount
+    loadAvailableCities();
+    
     // Load initial data from URL if city is in params
     const cityParam = searchParams.get('city');
     if (cityParam) {
-      fetchPlaces(cityParam);
+      fetchPlacesByCity(cityParam);
     }
   }, []);
+
+  const loadAvailableCities = async () => {
+    try {
+      // Load cities from USA (most populated in our database)
+      const cities = await placesService.getCitiesByCountry('usa');
+      setAvailableCities(cities);
+    } catch (error) {
+      console.error('Error loading cities:', error);
+    }
+  };
 
   // Close dropdowns when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (sortDropdownRef.current && !sortDropdownRef.current.contains(event.target)) {
         setShowSortDropdown(false);
-      }
-      if (distancePanelRef.current && !distancePanelRef.current.contains(event.target)) {
-        setShowDistancePanel(false);
       }
     };
 
@@ -58,39 +86,31 @@ const PlacesExplorer = () => {
       const params = new URLSearchParams();
       params.set('city', lastSearchedCity);
       if (sortBy !== 'rank_score') params.set('sort', sortBy);
-      if (distanceFilter !== 120) params.set('distance', distanceFilter.toString());
       setSearchParams(params);
     }
-  }, [sortBy, distanceFilter, lastSearchedCity]);
+  }, [sortBy, lastSearchedCity]);
 
-  // Apply filters and sorting whenever places or filter options change
   // Apply filters and sorting whenever places or filter options change
   useEffect(() => {
     if (places.length > 0) {
       applyFiltersAndSort();
     }
-  }, [places, sortBy, distanceFilter]);
+  }, [places, sortBy]);
 
-  const applyFiltersAndSort = () => {
+  const applyFiltersAndSort = useCallback(() => {
     // Show glass loading effect
     setFilteringLoading(true);
     
-    setTimeout(() => {
+    requestAnimationFrame(() => {
       let filtered = [...places];
-
-      // Filter by distance
-      filtered = filtered.filter(place => {
-        const distance = place.distance_to_query || 0;
-        return distance <= distanceFilter;
-      });
 
       // Sort by selected criteria
       filtered.sort((a, b) => {
         switch (sortBy) {
           case 'rating':
             return (b.rating || 0) - (a.rating || 0);
-          case 'review_count':
-            return (b.userRatingCount || 0) - (a.userRatingCount || 0);
+          case 'name':
+            return (a.displayName?.text || '').localeCompare(b.displayName?.text || '');
           case 'rank_score':
           default:
             return (b.rank_score || 0) - (a.rank_score || 0);
@@ -99,59 +119,93 @@ const PlacesExplorer = () => {
 
       setFilteredPlaces(filtered);
       setFilteringLoading(false);
-    }, 1000); // 1 second delay for glass effect
-  };
+    });
+  }, [places, sortBy]);
 
   const getSortLabel = () => {
     switch(sortBy) {
       case 'rating': return 'Highest Rating';
-      case 'review_count': return 'Most Reviews';
-      default: return 'Trending';
+      case 'name': return 'Alphabetical';
+      default: return 'Best Rated';
     }
   };
 
-  const fetchPlaces = async (city) => {
-    if (!city || city.trim() === '') {
+  const fetchPlacesByCity = async (cityInput) => {
+    if (!cityInput || cityInput.trim() === '') {
       setError('Please enter a city name');
       return;
     }
 
     setLoading(true);
     setError(null);
-    setCacheHit(false);
     
     try {
-      const response = await fetch(`http://localhost:5000/api/places/search?city=${encodeURIComponent(city)}`, {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to fetch places');
-      }
-
-      const data = await response.json();
+      // Normalize city name to match our database IDs (lowercase, hyphenated)
+      const cityId = cityInput.toLowerCase().replace(/\s+/g, '-');
       
-      setPlaces(data.places || []);
-      setCacheHit(data.cache_hit || false);
-      setLastSearchedCity(city);
+      // Try to fetch places by city ID (limit to 20)
+      const result = await placesService.getPlacesByCity(cityId, 20, 0);
+      
+      if (result.places && result.places.length > 0) {
+        // Places are already transformed and filtered in the service
+        setPlaces(result.places);
+        setPagination(result.pagination);
+        setLastSearchedCity(cityInput);
+      } else {
+        // If no results, try searching by name
+        await searchPlacesByName(cityInput);
+      }
     } catch (err) {
       console.error('Error fetching places:', err);
-      setError(err.message);
-      setPlaces([]);
+      // Try search as fallback
+      await searchPlacesByName(cityInput);
     } finally {
       setLoading(false);
     }
   };
 
+  const searchPlacesByName = async (query) => {
+    try {
+      const result = await placesService.searchPlaces(query, 20, 0);
+      
+      if (result.places && result.places.length > 0) {
+        // Places are already transformed and filtered in the service
+        setPlaces(result.places);
+        setPagination(result.pagination);
+        setLastSearchedCity(query);
+      } else {
+        setError(`No places found for "${query}". Try searching for a city like "Los Angeles", "New York", or "San Francisco".`);
+        setPlaces([]);
+      }
+    } catch (err) {
+      console.error('Error searching places:', err);
+      setError(err.message || 'An error occurred while searching places');
+      setPlaces([]);
+    }
+  };
+
   const handleCitySearch = (e) => {
     e.preventDefault();
-    fetchPlaces(cityQuery);
+    fetchPlacesByCity(cityQuery);
   };
 
   const handlePlaceClick = (place) => {
+    console.log('=== PLACE CLICKED ===');
+    console.log('Place name:', place.displayName?.text || place.name);
+    console.log('Full place object:', place);
+    console.log('Photos object:', place.photos);
+    console.log('Photos type:', typeof place.photos);
+    
+    if (place.photos) {
+      console.log('Wikimedia commons:', place.photos.wikimedia_commons);
+      if (place.photos.wikimedia_commons) {
+        console.log('Thumbnail:', place.photos.wikimedia_commons.thumbnail);
+        console.log('Gallery:', place.photos.wikimedia_commons.gallery);
+        console.log('Gallery length:', place.photos.wikimedia_commons.gallery?.length);
+      }
+    }
+    console.log('===================');
+    
     setSelectedPlace(place);
   };
 
@@ -159,13 +213,13 @@ const PlacesExplorer = () => {
     setSelectedPlace(null);
   };
 
-  const getMapUrl = (placeId) => {
-    return `https://www.google.com/maps/search/?api=1&query=Google&query_place_id=${placeId}`;
-  };
-
   return (
     <div className="places-explorer-page">
-      <Header />
+      <Header 
+        isAuthenticated={!!currentUser}
+        user={currentUser}
+        onLogout={signOut}
+      />
       
       <div className="places-explorer-container">
         <div className="places-hero">
@@ -219,6 +273,12 @@ const PlacesExplorer = () => {
 
         {!loading && places.length > 0 && (
           <>
+            {/* Database Info Badge */}
+            <div className="cache-status cache-hit">
+              <i className="fas fa-database"></i>
+              <span>Showing {pagination?.total || places.length} places from our curated database</span>
+            </div>
+
             {/* Filters and Sort Controls */}
             <div className="filters-section">
               <div className="filters-container">
@@ -228,7 +288,6 @@ const PlacesExplorer = () => {
                     className="filter-button"
                     onClick={() => {
                       setShowSortDropdown(!showSortDropdown);
-                      setShowDistancePanel(false);
                     }}
                   >
                     <i className="fas fa-arrow-down-arrow-up"></i>
@@ -247,8 +306,8 @@ const PlacesExplorer = () => {
                       >
                         <i className="fas fa-circle-dot"></i>
                         <div>
-                          <div className="option-title">Trending</div>
-                          <div className="option-subtitle">Expert ranking algorithm</div>
+                          <div className="option-title">Best Rated</div>
+                          <div className="option-subtitle">Top quality destinations</div>
                         </div>
                       </div>
                       <div 
@@ -261,58 +320,21 @@ const PlacesExplorer = () => {
                         <i className="fas fa-circle-dot"></i>
                         <div>
                           <div className="option-title">Highest Rating</div>
-                          <div className="option-subtitle">Top rated places</div>
+                          <div className="option-subtitle">By rating score</div>
                         </div>
                       </div>
                       <div 
-                        className={`dropdown-option ${sortBy === 'review_count' ? 'active' : ''}`}
+                        className={`dropdown-option ${sortBy === 'name' ? 'active' : ''}`}
                         onClick={() => {
-                          setSortBy('review_count');
+                          setSortBy('name');
                           setShowSortDropdown(false);
                         }}
                       >
                         <i className="fas fa-circle-dot"></i>
                         <div>
-                          <div className="option-title">Most Reviews</div>
-                          <div className="option-subtitle">Most popular destinations</div>
+                          <div className="option-title">Alphabetical</div>
+                          <div className="option-subtitle">Sort by name</div>
                         </div>
-                      </div>
-                    </div>
-                  )}
-                </div>
-
-                {/* Distance Button with Panel */}
-                <div className="filter-button-wrapper" ref={distancePanelRef}>
-                  <button 
-                    className="filter-button"
-                    onClick={() => {
-                      setShowDistancePanel(!showDistancePanel);
-                      setShowSortDropdown(false);
-                    }}
-                  >
-                    <i className="fas fa-map-marker-alt"></i>
-                    Distance
-                    <i className="fas fa-chevron-down"></i>
-                  </button>
-                  
-                  {showDistancePanel && (
-                    <div className="filter-panel">
-                      <div className="panel-header">
-                        <span>Distance Range</span>
-                        <span className="distance-value">{distanceFilter === 120 ? 'All' : `${distanceFilter} km`}</span>
-                      </div>
-                      <input 
-                        type="range" 
-                        min="10" 
-                        max="120" 
-                        step="10"
-                        value={distanceFilter} 
-                        onChange={(e) => setDistanceFilter(Number(e.target.value))}
-                        className="distance-slider"
-                      />
-                      <div className="slider-labels">
-                        <span>10 km</span>
-                        <span>120 km</span>
                       </div>
                     </div>
                   )}
@@ -323,12 +345,10 @@ const PlacesExplorer = () => {
                   className="clear-filters-btn"
                   onClick={() => {
                     setSortBy('rank_score');
-                    setDistanceFilter(120);
                     setShowSortDropdown(false);
-                    setShowDistancePanel(false);
                   }}
                 >
-                  Clear filters
+                  Reset sorting
                 </button>
               </div>
             </div>
@@ -360,7 +380,7 @@ const PlacesExplorer = () => {
                     <PlaceCard 
                       key={place.id || index} 
                       place={place}
-                      animationDelay={`${(index % 4) * 0.1}s`}
+                      animationDelay={`${(index % 8) * 0.05}s`}
                       onClick={() => handlePlaceClick(place)}
                       isExpertChoice={true}
                       rank={index + 1}
@@ -385,7 +405,7 @@ const PlacesExplorer = () => {
                       <PlaceCard 
                         key={place.id || index} 
                         place={place}
-                        animationDelay={`${(index % 4) * 0.1}s`}
+                        animationDelay={`${(index % 8) * 0.05}s`}
                         onClick={() => handlePlaceClick(place)}
                         isExpertChoice={false}
                       />
@@ -399,134 +419,316 @@ const PlacesExplorer = () => {
       </div>
 
       {selectedPlace && (
-        <div className="modal-overlay" onClick={closeModal}>
+        <div className="modal-overlay show" onClick={closeModal}>
+          <button className="modal-close" onClick={closeModal} aria-label="Close details">
+            <i className="fas fa-times" aria-hidden="true"></i>
+          </button>
+          
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <button className="modal-close" onClick={closeModal}>
-              <i className="fas fa-times"></i>
-            </button>
+            {/* Photo Gallery - Only show if we have at least 1 real photo */}
+            {(() => {
+              // Count real photos
+              const photos = selectedPlace.photos;
+              const realPhotos = [];
+              
+              // New structure: wikimedia_commons
+              if (photos?.wikimedia_commons?.thumbnail?.url && photos.wikimedia_commons.thumbnail.url.trim() !== '') {
+                realPhotos.push(photos.wikimedia_commons.thumbnail.url);
+              }
+              if (photos?.wikimedia_commons?.gallery && Array.isArray(photos.wikimedia_commons.gallery)) {
+                photos.wikimedia_commons.gallery.forEach(img => {
+                  if (img?.url && img.url.trim() !== '') realPhotos.push(img.url);
+                });
+              }
+              
+              // Old structure: primary and gallery
+              if (photos?.primary?.url && photos.primary.url.trim() !== '') {
+                realPhotos.push(photos.primary.url);
+              }
+              if (photos?.gallery && Array.isArray(photos.gallery)) {
+                photos.gallery.forEach(img => {
+                  if (img?.url && img.url.trim() !== '') realPhotos.push(img.url);
+                });
+              }
+              
+              console.log('Real photos count:', realPhotos.length);
+              console.log('Real photos URLs:', realPhotos);
+              
+              // Only show images if we have at least one real photo
+              if (realPhotos.length === 0) {
+                console.log('No real photos - hiding gallery');
+                return null; // No images to display
+              }
+              
+              // Show gallery grid if we have 2+ photos
+              if (realPhotos.length >= 2) {
+                return (
+                  <div className="modal-gallery-grid">
+                    <div className="gallery-main-image">
+                      <img 
+                        src={realPhotos[0]} 
+                        alt={selectedPlace.displayName?.text || selectedPlace.name}
+                      />
+                    </div>
+                    <div className="gallery-side-images">
+                      <img 
+                        src={realPhotos[1] || 'https://placehold.co/512x300/7c3aed/ffffff?text=Place+Image'} 
+                        alt={`${selectedPlace.displayName?.text || selectedPlace.name} - View 2`}
+                      />
+                      <img 
+                        src={realPhotos[2] || 'https://placehold.co/512x300/6d28d9/ffffff?text=Place+Image'} 
+                        alt={`${selectedPlace.displayName?.text || selectedPlace.name} - View 3`}
+                      />
+                    </div>
+                  </div>
+                );
+              } else {
+                // Show single image if we have exactly 1 photo
+                return (
+                  <div className="modal-single-image">
+                    <img 
+                      src={realPhotos[0]}
+                      alt={selectedPlace.displayName?.text || selectedPlace.name}
+                    />
+                  </div>
+                );
+              }
+            })()}
             
             <div className="modal-header">
-              <img 
-                src={selectedPlace.thumbnailUrl || 'https://placehold.co/600x400/e2e8f0/4a5568?text=No+Image'} 
-                alt={selectedPlace.displayName?.text}
-                className="modal-image"
-              />
-              <div className="modal-title-section">
-                <h2>{selectedPlace.displayName?.text}</h2>
-                <div className="modal-rating-info">
-                  <span className="modal-rating">
-                    <i className="fas fa-star"></i> {selectedPlace.rating ? selectedPlace.rating.toFixed(1) : 'N/A'}
-                  </span>
-                  {selectedPlace.userRatingCount && (
-                    <span className="modal-review-count">
-                      ({selectedPlace.userRatingCount.toLocaleString()} reviews)
-                    </span>
-                  )}
-                </div>
-              </div>
+              <h2 id="modalTitle">{selectedPlace.displayName?.text || selectedPlace.name}</h2>
+              {(selectedPlace.city_name || selectedPlace.state_name) && (
+                <p className="modal-location">
+                  <i className="fas fa-map-marker-alt"></i>
+                  {selectedPlace.city_name && selectedPlace.state_name 
+                    ? `${selectedPlace.city_name}, ${selectedPlace.state_name}` 
+                    : selectedPlace.city_name || selectedPlace.state_name}
+                </p>
+              )}
             </div>
 
             <div className="modal-body">
-              {/* Generative Summary Section */}
-              {selectedPlace.generativeSummary?.overview?.text && (
+              {/* About Section */}
+              <div className="modal-section">
+                <h3><i className="fas fa-info-circle"></i> About</h3>
+                <p className="modal-description">
+                  {selectedPlace.summary || 
+                   selectedPlace.generativeSummary?.overview?.text || 
+                   selectedPlace.reviewSummary?.text?.text || 
+                   'Discover this amazing destination and create unforgettable memories.'}
+                </p>
+              </div>
+
+              {/* Expert Tip Section */}
+              {selectedPlace.place_tip && (
                 <div className="modal-section">
-                  <h3><i className="fas fa-info-circle"></i> About</h3>
-                  <p className="modal-description">
-                    {selectedPlace.generativeSummary.overview.text}
-                  </p>
+                  <h3><i className="fas fa-lightbulb"></i> Expert Tip</h3>
+                  <div className="modal-tip">
+                    <i className="fas fa-lightbulb"></i>
+                    <p>{selectedPlace.place_tip}</p>
+                  </div>
                 </div>
               )}
 
-              {/* Review Summary Section */}
-              {selectedPlace.reviewSummary?.text?.text && (
-                <div className="modal-section">
-                  <h3><i className="fas fa-comments"></i> What People Say</h3>
-                  <p className="modal-description review-summary">
-                    {selectedPlace.reviewSummary.text.text}
-                  </p>
+              {/* Quick Facts Section */}
+              <div className="modal-section">
+                <h3><i className="fas fa-list-check"></i> Quick Facts</h3>
+                <div className="info-grid">
+                  {selectedPlace.duration && (
+                    <div className="info-item">
+                      <i className="fas fa-clock"></i>
+                      <div className="info-item-content">
+                        <span className="info-item-label">Duration</span>
+                        <span className="info-item-value">{selectedPlace.duration}</span>
+                      </div>
+                    </div>
+                  )}
+                  
+                  {selectedPlace.cost && (
+                    <div className="info-item">
+                      <i className="fas fa-dollar-sign"></i>
+                      <div className="info-item-content">
+                        <span className="info-item-label">Cost</span>
+                        <span className="info-item-value">{selectedPlace.cost}</span>
+                      </div>
+                    </div>
+                  )}
+                  
+                  {selectedPlace.best_time && (
+                    <div className="info-item">
+                      <i className="fas fa-calendar-alt"></i>
+                      <div className="info-item-content">
+                        <span className="info-item-label">Best Time</span>
+                        <span className="info-item-value">{selectedPlace.best_time}</span>
+                      </div>
+                    </div>
+                  )}
+                  
+                  {selectedPlace.advance_booking && (
+                    <div className="info-item">
+                      <i className="fas fa-ticket-alt"></i>
+                      <div className="info-item-content">
+                        <span className="info-item-label">Booking</span>
+                        <span className="info-item-value">{selectedPlace.advance_booking}</span>
+                      </div>
+                    </div>
+                  )}
                 </div>
-              )}
+              </div>
 
-              {/* If neither summary exists */}
-              {!selectedPlace.generativeSummary?.overview?.text && !selectedPlace.reviewSummary?.text?.text && (
+              {/* Special Features */}
+              {(selectedPlace.sunrise_view || selectedPlace.sunset_view) && (
                 <div className="modal-section">
-                  <h3><i className="fas fa-info-circle"></i> About</h3>
-                  <p className="modal-description">
-                    No description available for this place.
-                  </p>
-                </div>
-              )}
-
-              {selectedPlace.regularOpeningHours?.weekdayDescriptions && (
-                <div className="modal-section">
-                  <h3><i className="fas fa-clock"></i> Opening Hours</h3>
-                  <ul className="opening-hours-list">
-                    {selectedPlace.regularOpeningHours.weekdayDescriptions.map((day, idx) => (
-                      <li key={idx}>{day}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
-              {(selectedPlace.goodForChildren || selectedPlace.paymentOptions) && (
-                <div className="modal-section">
-                  <h3><i className="fas fa-check-circle"></i> Amenities</h3>
-                  <div className="amenities-grid">
-                    {selectedPlace.goodForChildren && (
-                      <div className="amenity-tag">
-                        <i className="fas fa-child"></i> Good for Children
+                  <h3><i className="fas fa-sun"></i> Special Features</h3>
+                  <div className="special-features-grid">
+                    {selectedPlace.sunrise_view && (
+                      <div className="feature-tag sunrise">
+                        <i className="fas fa-sunrise"></i> Sunrise View
                       </div>
                     )}
-                    {selectedPlace.paymentOptions?.acceptsCreditCards && (
-                      <div className="amenity-tag">
-                        <i className="fas fa-credit-card"></i> Credit Cards
-                      </div>
-                    )}
-                    {selectedPlace.paymentOptions?.acceptsDebitCards && (
-                      <div className="amenity-tag">
-                        <i className="fas fa-credit-card"></i> Debit Cards
-                      </div>
-                    )}
-                    {selectedPlace.paymentOptions?.acceptsNfc && (
-                      <div className="amenity-tag">
-                        <i className="fas fa-mobile-alt"></i> NFC Payments
-                      </div>
-                    )}
-                    {selectedPlace.paymentOptions?.acceptsCashOnly && (
-                      <div className="amenity-tag">
-                        <i className="fas fa-money-bill-wave"></i> Cash Only
+                    {selectedPlace.sunset_view && (
+                      <div className="feature-tag sunset">
+                        <i className="fas fa-sunset"></i> Sunset View
                       </div>
                     )}
                   </div>
                 </div>
               )}
 
-              <div className="modal-actions">
-                {selectedPlace.websiteUri && (
-                  <a 
-                    href={selectedPlace.websiteUri} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="modal-button primary"
-                  >
-                    <i className="fas fa-globe"></i> Visit Website
-                  </a>
+              {/* Location & Actions */}
+              <div className="modal-section modal-actions-section">
+                <h3><i className="fas fa-map-pin"></i> Location & Links</h3>
+                {selectedPlace.formattedAddress && (
+                  <p className="modal-address">
+                    <strong>Address:</strong> {selectedPlace.formattedAddress}
+                  </p>
                 )}
-                <a 
-                  href={getMapUrl(selectedPlace.id)} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="modal-button secondary"
-                >
-                  <i className="fas fa-map-marker-alt"></i> View in Map
-                </a>
+                <div className="modal-actions">
+                  {(selectedPlace.website || selectedPlace.websiteUri) && (
+                    <a 
+                      href={selectedPlace.website || selectedPlace.websiteUri} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="modal-action-button primary"
+                    >
+                      <i className="fas fa-globe"></i> Visit Website
+                    </a>
+                  )}
+                </div>
               </div>
+
             </div>
+
+            {/* Photo Attribution - Only show if we have real photos with URLs */}
+            {(() => {
+              const photos = selectedPlace.photos;
+              
+              // Check if we have any real photo URLs (non-empty strings)
+              const hasRealPhotos = 
+                (photos?.wikimedia_commons?.thumbnail?.url && photos.wikimedia_commons.thumbnail.url.trim() !== '') ||
+                (photos?.wikimedia_commons?.gallery && Array.isArray(photos.wikimedia_commons.gallery) && 
+                  photos.wikimedia_commons.gallery.some(img => img?.url && img.url.trim() !== '')) ||
+                (photos?.primary?.url && photos.primary.url.trim() !== '') ||
+                (photos?.gallery && Array.isArray(photos.gallery) && 
+                  photos.gallery.some(img => img?.url && img.url.trim() !== ''));
+              
+              console.log('Has real photos for attribution:', hasRealPhotos);
+              
+              // Only show attribution if we have real photos
+              if (!hasRealPhotos) {
+                console.log('No real photos - hiding attribution');
+                return null;
+              }
+              
+              return (
+                <div className="modal-section photo-attribution-section">
+                  <details className="attribution-details" open>
+                    <summary>
+                      <i className="fas fa-camera"></i> Photo Attribution
+                    </summary>
+                    <ul className="attribution-list">
+                      {/* NEW STRUCTURE: Wikimedia Commons thumbnail */}
+                      {selectedPlace.photos.wikimedia_commons?.thumbnail?.attribution && (
+                        <li>
+                          "{selectedPlace.photos.wikimedia_commons.thumbnail.attribution.title}" by{' '}
+                          {selectedPlace.photos.wikimedia_commons.thumbnail.attribution.author}
+                          {selectedPlace.photos.wikimedia_commons.thumbnail.attribution.license && (
+                            <>
+                              {' '}(
+                              <a 
+                                href={selectedPlace.photos.wikimedia_commons.thumbnail.attribution.license_url} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                              >
+                                {selectedPlace.photos.wikimedia_commons.thumbnail.attribution.license}
+                              </a>
+                              )
+                            </>
+                          )}
+                        </li>
+                      )}
+                      
+                      {/* NEW STRUCTURE: Wikimedia Commons gallery */}
+                      {selectedPlace.photos.wikimedia_commons?.gallery && 
+                       selectedPlace.photos.wikimedia_commons.gallery.length > 0 && 
+                       selectedPlace.photos.wikimedia_commons.gallery.map((photo, idx) => (
+                        photo?.attribution && (
+                          <li key={`wmc-${idx}`}>
+                            "{photo.attribution.title}" by{' '}
+                            {photo.attribution.author}
+                            {photo.attribution.license && (
+                              <>
+                                {' '}(
+                                <a 
+                                  href={photo.attribution.license_url} 
+                                  target="_blank" 
+                                  rel="noopener noreferrer"
+                                >
+                                  {photo.attribution.license}
+                                </a>
+                                )
+                              </>
+                            )}
+                          </li>
+                        )
+                      ))}
+                      
+                      {/* OLD STRUCTURE: Primary photo */}
+                      {selectedPlace.photos.primary?.attribution && (
+                        <li>
+                          "{selectedPlace.photos.primary.title || 'Primary Photo'}" 
+                          {selectedPlace.photos.primary.attribution.includes('by') 
+                            ? ` ${selectedPlace.photos.primary.attribution}` 
+                            : ` - ${selectedPlace.photos.primary.attribution}`}
+                          {selectedPlace.photos.primary.license && ` (${selectedPlace.photos.primary.license})`}
+                        </li>
+                      )}
+                      
+                      {/* OLD STRUCTURE: Gallery photos */}
+                      {selectedPlace.photos.gallery && 
+                       selectedPlace.photos.gallery.length > 0 && 
+                       selectedPlace.photos.gallery.map((photo, idx) => {
+                         // Extract author from attribution string (e.g., "Wikimedia Commons - Frank Schulenburg")
+                         const attributionParts = photo?.attribution?.split(' - ') || [];
+                         const author = attributionParts.length > 1 ? attributionParts[attributionParts.length - 1] : photo?.attribution;
+                         
+                         return photo?.attribution && (
+                           <li key={`gallery-${idx}`}>
+                             "{photo.title || `Gallery Image ${idx + 1}`}" by {author}
+                             {photo.license && (
+                               <> (<a href="#" target="_blank" rel="noopener noreferrer">{photo.license}</a>)</>
+                             )}
+                           </li>
+                         );
+                       })}
+                    </ul>
+                  </details>
+                </div>
+              );
+            })()}
           </div>
         </div>
       )}
-
-    
 
       <Footer />
     </div>

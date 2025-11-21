@@ -1,0 +1,28 @@
+{
+  "id": "081fec19-ee49-4d5a-b6e8-496d8b99ce0e",
+  "expense_id": "081fec19-ee49-4d5a-b6e8-496d8b99ce0e",
+  "description": "sc",
+  "amount": 120.0,
+  "paid_by": "iJol3n5TFrVHdH79hS32WLCI2EK2",
+  "group_id": "8fc48420-eda8-46f6-b3b5-343f51de3b18",
+  "category": "Bills",
+  "split_type": "equal",
+  "currency": "USD",
+  "date": "2025-11-10",
+  "notes": null,
+  "image_url": null,
+  "splits": [
+    {
+      "user_id": "R0aghH2MVAh1Pf8CH2UQZN3wIjN2",
+      "amount": 60.0
+    },
+    {
+      "user_id": "iJol3n5TFrVHdH79hS32WLCI2EK2",
+      "amount": 60.0
+    }
+  ],
+  "created_at": "2025-11-20T18:34:20.362971",
+  "updated_at": "2025-11-20T18:34:35.953677",
+  "is_deleted": true,
+  "deleted_at": "2025-11-20T18:35:00.061747"
+}

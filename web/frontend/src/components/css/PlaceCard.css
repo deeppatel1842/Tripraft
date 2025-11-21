@@ -1,22 +1,20 @@
+/* Place Card - Compact Modern Design */
 .place-card {
-  background: white;
-  border-radius: 0.875rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
   transform: translateY(20px);
-  animation: fadeInUp 0.5s ease-out forwards;
+  animation: fadeInUp 0.4s ease-out forwards;
   cursor: pointer;
   position: relative;
-}
-
-@media (min-width: 1024px) {
-  .place-card {
-    border-radius: 1rem;
-  }
+  will-change: transform;
+  content-visibility: auto;
+  border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
 @keyframes fadeInUp {
@@ -27,421 +25,285 @@
 }
 
 .place-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(124, 58, 237, 0.15);
+  border-color: rgba(124, 58, 237, 0.1);
 }
 
-/* Expert Badge - Icon Only */
-.expert-badge {
-  position: absolute;
-  top: 0.625rem;
-  left: 0.625rem;
-  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
-  color: #78350f;
-  padding: 0.4rem;
-  border-radius: 50%;
-  font-size: 0.875rem;
-  font-weight: 700;
-  box-shadow: 0 4px 6px -1px rgba(251, 191, 36, 0.4);
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
-}
-
-@media (min-width: 768px) {
-  .expert-badge {
-    top: 0.75rem;
-    left: 0.75rem;
-    padding: 0.5rem;
-    font-size: 1rem;
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .expert-badge {
-    width: 2.75rem;
-    height: 2.75rem;
-    font-size: 1.125rem;
-  }
-}
-
-.expert-badge i {
-  font-size: 1rem;
-  animation: pulse 2s ease-in-out infinite;
-}
-
-@media (min-width: 768px) {
-  .expert-badge i {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .expert-badge i {
-    font-size: 1.25rem;
-  }
-}
-
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-}
-
-.place-image-container {
+/* Card Image Wrapper - More Compact */
+.card-image-wrapper {
   position: relative;
   height: 12rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   overflow: hidden;
 }
 
 @media (min-width: 640px) {
-  .place-image-container {
+  .card-image-wrapper {
     height: 13rem;
   }
 }
 
-@media (min-width: 768px) {
-  .place-image-container {
+@media (min-width: 1440px) {
+  .card-image-wrapper {
     height: 14rem;
   }
 }
 
-@media (min-width: 1440px) {
-  .place-image-container {
-    height: 16rem;
-  }
-}
-
-.place-image {
+.card-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.place-card:hover .place-image {
-  transform: scale(1.05);
+.place-card:hover .card-image {
+  transform: scale(1.08);
 }
 
-.place-rating-badge {
+/* Crown Badge - Refined Design */
+.card-badge {
   position: absolute;
-  top: 0.625rem;
-  right: 0.625rem;
-  background: rgba(255, 255, 255, 0.95);
-  color: #111827;
-  padding: 0.3rem 0.625rem;
-  border-radius: 9999px;
-  font-size: 0.813rem;
-  font-weight: 600;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   display: flex;
   align-items: center;
-  gap: 0.25rem;
-  backdrop-filter: blur(8px);
+  justify-content: center;
+  font-weight: 700;
+}
+
+.card-badge.crown {
+  top: 0.875rem;
+  left: 0.875rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  border-radius: 50%;
+  color: #b8860b;
+  font-size: 1.15rem;
+  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4);
+  z-index: 10;
+  animation: crownPulse 2.5s ease-in-out infinite;
+  border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 @media (min-width: 768px) {
-  .place-rating-badge {
-    top: 0.75rem;
-    right: 0.75rem;
-    padding: 0.375rem 0.75rem;
-    font-size: 0.875rem;
+  .card-badge.crown {
+    width: 2.75rem;
+    height: 2.75rem;
+    font-size: 1.25rem;
   }
 }
 
-@media (min-width: 1440px) {
-  .place-rating-badge {
-    padding: 0.4rem 0.875rem;
-    font-size: 0.9375rem;
+@keyframes crownPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 6px 16px rgba(255, 215, 0, 0.6);
   }
 }
 
-.place-rating-badge .rating-value {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-}
 
-.place-rating-badge i {
-  color: #fbbf24;
-  font-size: 0.7rem;
-}
-
-@media (min-width: 768px) {
-  .place-rating-badge i {
-    font-size: 0.75rem;
-  }
-}
-
-.place-content {
-  padding: 1rem;
+/* Card Content - More Compact */
+.card-content {
+  padding: 1.125rem 1.25rem;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
 
 @media (min-width: 768px) {
-  .place-content {
-    padding: 1.25rem;
+  .card-content {
+    padding: 1.25rem 1.5rem;
   }
 }
 
 @media (min-width: 1440px) {
-  .place-content {
-    padding: 1.5rem;
+  .card-content {
+    padding: 1.5rem 1.75rem;
   }
 }
 
-.place-name {
-  font-size: 1.0625rem;
+/* Card Title - Better Typography */
+.card-title {
+  font-size: 1.125rem;
   font-weight: 700;
-  color: #111827;
+  color: #1e293b;
   margin: 0 0 0.5rem 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 @media (min-width: 768px) {
-  .place-name {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .place-name {
-    font-size: 1.25rem;
+  .card-title {
+    font-size: 1.2rem;
   }
 }
 
 @media (min-width: 1440px) {
-  .place-name {
-    font-size: 1.375rem;
+  .card-title {
+    font-size: 1.3rem;
   }
 }
 
-.place-review-count {
-  color: #6b7280;
-  font-size: 0.75rem;
-  margin: 0 0 0.625rem 0;
+/* Card Location - Refined Style */
+.card-location {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-bottom: 0.625rem;
   display: flex;
   align-items: center;
   gap: 0.375rem;
-}
-
-@media (min-width: 768px) {
-  .place-review-count {
-    font-size: 0.813rem;
-    margin: 0 0 0.75rem 0;
-  }
-}
-
-@media (min-width: 1440px) {
-  .place-review-count {
-    font-size: 0.875rem;
-  }
-}
-
-.place-review-count i {
-  color: #7c3aed;
-  font-size: 0.813rem;
-}
-
-@media (min-width: 768px) {
-  .place-review-count i {
-    font-size: 0.875rem;
-  }
-}
-
-.place-description {
-  color: #4b5563;
-  font-size: 0.813rem;
-  line-height: 1.5;
-  margin: 0 0 0.875rem 0;
-  flex-grow: 1;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-@media (min-width: 768px) {
-  .place-description {
-    font-size: 0.875rem;
-    margin: 0 0 1rem 0;
-  }
-}
-
-@media (min-width: 1440px) {
-  .place-description {
-    font-size: 0.9375rem;
-    line-height: 1.6;
-  }
-}
-
-.place-stars {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-  margin-bottom: 0.875rem;
-}
-
-@media (min-width: 768px) {
-  .place-stars {
-    margin-bottom: 1rem;
-  }
-}
-
-.star {
-  width: 1.125rem;
-  height: 1.125rem;
-}
-
-@media (min-width: 768px) {
-  .star {
-    width: 1.25rem;
-    height: 1.25rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .star {
-    width: 1.375rem;
-    height: 1.375rem;
-  }
-}
-
-.star-filled {
-  color: #f59e0b;
-}
-
-.star-empty {
-  color: #d1d5db;
-}
-
-.place-types {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.375rem;
-}
-
-@media (min-width: 768px) {
-  .place-types {
-    gap: 0.5rem;
-  }
-}
-
-.type-tag {
-  background-color: #e5e7eb;
-  color: #4b5563;
-  font-size: 0.7rem;
-  padding: 0.25rem 0.5rem;
-  border-radius: 9999px;
-  text-transform: capitalize;
   font-weight: 500;
 }
 
 @media (min-width: 768px) {
-  .type-tag {
-    font-size: 0.75rem;
-    padding: 0.25rem 0.625rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .type-tag {
-    font-size: 0.813rem;
-    padding: 0.3rem 0.75rem;
-  }
-}
-
-.place-footer {
-  padding: 0 1rem 1rem 1rem;
-}
-
-@media (min-width: 768px) {
-  .place-footer {
-    padding: 0 1.25rem 1.25rem 1.25rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .place-footer {
-    padding: 0 1.5rem 1.5rem 1.5rem;
-  }
-}
-
-.view-details-button {
-  display: block;
-  width: 100%;
-  text-align: center;
-  background: #7c3aed;
-  color: white;
-  font-weight: 600;
-  font-size: 0.813rem;
-  padding: 0.5rem 0.875rem;
-  border-radius: 0.5rem;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-@media (min-width: 768px) {
-  .view-details-button {
-    font-size: 0.875rem;
-    padding: 0.625rem 1rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .view-details-button {
+  .card-location {
     font-size: 0.9375rem;
-    padding: 0.75rem 1.25rem;
   }
 }
 
-.view-details-button:hover {
-  background: #6d28d9;
+.card-location i {
+  color: #8b5cf6;
+  font-size: 0.875rem;
+}
+
+/* Card Description - More Compact */
+.card-description {
+  font-size: 0.875rem;
+  color: #64748b;
+  line-height: 1.5;
+  margin-bottom: 0.875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  flex-grow: 1;
+}
+
+@media (min-width: 768px) {
+  .card-description {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Card Tags - Gradient Style */
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-tag {
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+  color: #475569;
+  padding: 0.3rem 0.75rem;
+  border-radius: 0.875rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.01em;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.card-tag:hover {
+  background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
   transform: translateY(-1px);
 }
 
-.view-details-button i {
-  margin-right: 0.375rem;
+@media (min-width: 768px) {
+  .card-tag {
+    padding: 0.35rem 0.875rem;
+    font-size: 0.8125rem;
+  }
 }
 
-/* Small mobile devices (< 375px) */
-@media (max-width: 374px) {
-  .place-card {
-    border-radius: 0.75rem;
-  }
+/* Card Footer - More Compact */
+.card-footer {
+  padding: 0 1.25rem 1.125rem 1.25rem;
+  margin-top: auto;
+}
 
-  .place-image-container {
-    height: 11rem;
+@media (min-width: 768px) {
+  .card-footer {
+    padding: 0 1.5rem 1.25rem 1.5rem;
   }
+}
 
-  .place-content {
+@media (min-width: 1440px) {
+  .card-footer {
+    padding: 0 1.75rem 1.5rem 1.75rem;
+  }
+}
+
+/* Card Button - Gradient & Modern */
+.card-button {
+  width: 100%;
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 0.875rem;
+  padding: 0.75rem;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+  letter-spacing: 0.02em;
+}
+
+@media (min-width: 768px) {
+  .card-button {
     padding: 0.875rem;
+    font-size: 1rem;
+  }
+}
+
+.card-button:hover {
+  background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.4);
+}
+
+.card-button:active {
+  transform: translateY(0);
+}
+
+.card-button i {
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments for small devices */
+@media (max-width: 374px) {
+  .card-image-wrapper {
+    height: 10rem;
   }
 
-  .place-name {
+  .card-content {
+    padding: 1rem 1.125rem;
+  }
+
+  .card-title {
     font-size: 1rem;
   }
 
-  .place-description {
-    font-size: 0.75rem;
+  .card-description {
+    font-size: 0.8125rem;
   }
 
-  .view-details-button {
-    font-size: 0.75rem;
-    padding: 0.5rem;
+  .card-button {
+    padding: 0.625rem;
+    font-size: 0.875rem;
   }
 }

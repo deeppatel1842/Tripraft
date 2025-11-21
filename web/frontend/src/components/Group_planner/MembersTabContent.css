@@ -1,0 +1,133 @@
+.mtc-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.mtc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mtc-member-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.mtc-member-card:hover {
+  border-color: #d1d5db;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.mtc-member-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+/* Avatar styles are now handled by UserAvatar component */
+.mtc-member-left > div:first-child {
+  flex-shrink: 0;
+}
+
+.mtc-member-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.mtc-member-name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111827;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mtc-badge-you {
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  background: #6366f1;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.mtc-badge-owner {
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  background: #f59e0b;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.mtc-member-email {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.mtc-remove-btn {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 2px 6px rgba(239, 68, 68, 0.3);
+}
+
+.mtc-remove-btn:hover {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+}
+
+.mtc-remove-btn:active {
+  transform: translateY(0);
+}
+
+.mtc-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 48px 20px;
+  text-align: center;
+}
+
+.mtc-empty-icon {
+  font-size: 48px;
+  opacity: 0.5;
+}
+
+.mtc-empty-text {
+  font-size: 14px;
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.demo-member-delete:hover {
+  color: #991b1b;
+}

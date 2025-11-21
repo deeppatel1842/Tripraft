@@ -1,0 +1,268 @@
+.pc-container {
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.pc-container:hover {
+  border-color: #d1d5db;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.pc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 16px;
+  gap: 12px;
+}
+
+.pc-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #111827;
+  margin: 0;
+  flex: 1;
+  line-height: 1.4;
+}
+
+.pc-delete-btn {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.pc-delete-btn:hover {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.pc-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.pc-option-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pc-option-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.pc-option-text {
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+  flex: 1;
+}
+
+.pc-vote-count {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+  background: #f3f4f6;
+  padding: 2px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.pc-bar-wrapper {
+  width: 100%;
+  height: 8px;
+  background-color: #e5e7eb;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pc-bar-fill {
+  height: 100%;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 6px;
+}
+
+.pc-percentage {
+  font-size: 11px;
+  font-weight: 600;
+  color: #6b7280;
+  text-align: right;
+}
+
+.pc-voters-container {
+  margin-top: 6px;
+}
+
+.pc-voters-btn {
+  background: none;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 0;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pc-voters-btn:hover {
+  opacity: 0.8;
+}
+
+.pc-voters-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+  padding: 8px;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.pc-voter-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  background: white;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.pc-voter-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.pc-voter-name {
+  color: #374151;
+  font-weight: 500;
+}
+
+.pc-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  min-height: 28px;
+  align-items: center;
+}
+
+.pc-vote-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.pc-vote-btn {
+  background: white;
+  border: 2px solid;
+  border-radius: 6px;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.pc-vote-btn:hover {
+  background-color: #f0f9ff;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pc-vote-btn:active {
+  transform: translateY(0);
+}
+
+.pc-voted-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #10b981;
+  font-size: 13px;
+  font-weight: 600;
+  background: #ecfdf5;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.pc-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 8px;
+  border-top: 1px solid #f3f4f6;
+}
+
+.pc-total-votes {
+  font-size: 11px;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.demo-btn-sm {
+  background: #fff;
+  color: var(--gray-700);
+  border: 1px solid var(--gray-300);
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.demo-btn-sm:hover {
+  background: var(--gray-100);
+  border-color: var(--gray-400);
+}
+
+.demo-btn-sm.primary {
+  background: var(--indigo-600);
+  color: #fff;
+  border-color: var(--indigo-600);
+}
+
+.demo-btn-sm.primary:hover {
+  background: var(--indigo-700);
+}
+
+.demo-btn-delete {
+  background: none;
+  border: none;
+  color: var(--red-600);
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.demo-btn-delete:hover {
+  color: #991b1b;
+}

@@ -1,0 +1,177 @@
+/* LoginPromptModal - Isolated styles that won't affect other components */
+
+.login-prompt-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: loginPromptFadeIn 0.2s ease-out;
+  backdrop-filter: blur(4px);
+}
+
+@keyframes loginPromptFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.login-prompt-modal {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  max-width: 480px;
+  width: 90%;
+  max-height: 90vh;
+  overflow: auto;
+  animation: loginPromptSlideUp 0.3s ease-out;
+}
+
+@keyframes loginPromptSlideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.login-prompt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 28px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.login-prompt-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.login-prompt-close {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #6b7280;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: all 0.2s;
+  line-height: 1;
+}
+
+.login-prompt-close:hover {
+  background-color: #f3f4f6;
+  color: #1a202c;
+}
+
+.login-prompt-body {
+  padding: 32px 28px;
+  text-align: center;
+}
+
+.login-prompt-icon {
+  color: #667eea;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-prompt-icon svg {
+  filter: drop-shadow(0 4px 8px rgba(102, 126, 234, 0.2));
+}
+
+.login-prompt-message {
+  font-size: 1.1rem;
+  color: #4b5563;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.login-prompt-footer {
+  display: flex;
+  gap: 12px;
+  padding: 20px 28px;
+  border-top: 1px solid #e5e7eb;
+  justify-content: flex-end;
+}
+
+.login-prompt-btn-cancel,
+.login-prompt-btn-login {
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+  outline: none;
+}
+
+.login-prompt-btn-cancel {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.login-prompt-btn-cancel:hover {
+  background-color: #e5e7eb;
+}
+
+.login-prompt-btn-login {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.login-prompt-btn-login:hover {
+  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+  transform: translateY(-1px);
+}
+
+.login-prompt-btn-login:active {
+  transform: translateY(0);
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+  .login-prompt-modal {
+    width: 95%;
+    margin: 20px;
+  }
+
+  .login-prompt-header,
+  .login-prompt-body,
+  .login-prompt-footer {
+    padding: 20px;
+  }
+
+  .login-prompt-header h2 {
+    font-size: 1.25rem;
+  }
+
+  .login-prompt-message {
+    font-size: 1rem;
+  }
+
+  .login-prompt-footer {
+    flex-direction: column-reverse;
+  }
+
+  .login-prompt-btn-cancel,
+  .login-prompt-btn-login {
+    width: 100%;
+  }
+}

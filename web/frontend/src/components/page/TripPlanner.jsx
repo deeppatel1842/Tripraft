@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { useAuth } from '../../context/AuthContext';
 import Header from '../layout/Header';
 import Footer from '../layout/Footer';
 import TripMap from '../tripPlanner/TripMap';
@@ -10,6 +11,7 @@ import TripForm from '../tripPlanner/TripForm';
 import '../css/TripPlanner.css';
 
 const TripPlanner = () => {
+  const { currentUser, signOut } = useAuth();
   const [plans, setPlans] = useState([]);
   const [activeTab, setActiveTab] = useState('plans');
   const [isLoading, setIsLoading] = useState(false);
@@ -304,7 +306,11 @@ const TripPlanner = () => {
 
   return (
     <div className="trip-planner">
-      <Header />
+      <Header 
+        isAuthenticated={!!currentUser}
+        user={currentUser}
+        onLogout={signOut}
+      />
       <main className="trip-planner-main">
         <TripForm onGenerate={handleGenerate} />
         {!isLoading && plans.length > 0 && (

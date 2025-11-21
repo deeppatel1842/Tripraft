@@ -1,0 +1,28 @@
+{
+  "id": "2357a2d6-af48-44c5-bc31-c2adbae5d782",
+  "expense_id": "2357a2d6-af48-44c5-bc31-c2adbae5d782",
+  "description": "dinner",
+  "amount": 150.0,
+  "paid_by": "R0aghH2MVAh1Pf8CH2UQZN3wIjN2",
+  "group_id": "5ee6b084-9b1c-4ad3-a462-9767ed195882",
+  "category": "Bills",
+  "split_type": "equal",
+  "currency": "USD",
+  "date": "2025-11-18",
+  "notes": null,
+  "image_url": null,
+  "splits": [
+    {
+      "user_id": "R0aghH2MVAh1Pf8CH2UQZN3wIjN2",
+      "amount": 75.0
+    },
+    {
+      "user_id": "iJol3n5TFrVHdH79hS32WLCI2EK2",
+      "amount": 75.0
+    }
+  ],
+  "created_at": "2025-11-20T21:29:51.009209",
+  "updated_at": "2025-11-20T21:30:30.935710",
+  "is_deleted": true,
+  "deleted_at": "2025-11-20T21:30:52.254070"
+}

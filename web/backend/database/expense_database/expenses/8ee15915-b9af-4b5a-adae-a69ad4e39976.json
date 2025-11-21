@@ -1,0 +1,31 @@
+{
+  "id": "8ee15915-b9af-4b5a-adae-a69ad4e39976",
+  "expense_id": "8ee15915-b9af-4b5a-adae-a69ad4e39976",
+  "description": "sa",
+  "amount": 100.0,
+  "paid_by": "R0aghH2MVAh1Pf8CH2UQZN3wIjN2",
+  "group_id": "d580b95d-3bb9-490f-adf8-4ceab82127e7",
+  "category": "food",
+  "split_type": "equal",
+  "currency": "USD",
+  "date": "2025-11-20",
+  "notes": null,
+  "image_url": null,
+  "splits": [
+    {
+      "user_id": "R0aghH2MVAh1Pf8CH2UQZN3wIjN2",
+      "amount": 50.0,
+      "share": null,
+      "percentage": null
+    },
+    {
+      "user_id": "iJol3n5TFrVHdH79hS32WLCI2EK2",
+      "amount": 50.0,
+      "share": null,
+      "percentage": null
+    }
+  ],
+  "created_at": "2025-11-20T01:55:36.126497",
+  "updated_at": "2025-11-20T01:55:36.126497",
+  "is_deleted": false
+}

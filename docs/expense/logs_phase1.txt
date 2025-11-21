@@ -1,0 +1,1762 @@
+(wayfinder) PS C:\Users\Kashyap\Documents\Deep\Travel\web\backend> python run.py
+[2025-11-19 13:35:34,503] INFO in app: Firebase Admin SDK initialized successfully
+[2025-11-19 13:35:34,503] INFO in app:    Using production Firestore (~200ms latency)
+[2025-11-19 13:35:34,504] INFO in app: ✅ Response compression enabled (gzip, level 6)
+2025-11-19 13:35:34,504 - api.app - INFO - ✅ Response compression enabled (gzip, level 6)
+[2025-11-19 13:35:34,504] WARNING in app: ⚠️  Places database not found - Places API will not be available    
+2025-11-19 13:35:34,504 - api.app - WARNING - ⚠️  Places database not found - Places API will not be available
+[2025-11-19 13:35:35,089] INFO in app: Health & Performance Monitoring registered at /api/health
+2025-11-19 13:35:35,089 - api.app - INFO - Health & Performance Monitoring registered at /api/health
+[2025-11-19 13:35:35,096] INFO in app: Places API blueprints registered with prefix: /api/v1        
+2025-11-19 13:35:35,096 - api.app - INFO - Places API blueprints registered with prefix: /api/v1    
+[2025-11-19 13:35:35,201] INFO in app: Expense Management System blueprint registered at /api/expense
+2025-11-19 13:35:35,201 - api.app - INFO - Expense Management System blueprint registered at /api/expense
+[2025-11-19 13:35:35,232] INFO in app: ✅ Group Planner blueprint registered at /api/group-planner (Phase 1)    
+2025-11-19 13:35:35,232 - api.app - INFO - ✅ Group Planner blueprint registered at /api/group-planner (Phase 1)
+[2025-11-19 13:35:35,234] INFO in app: Flask application created successfully
+2025-11-19 13:35:35,234 - api.app - INFO - Flask application created successfully
+
+============================================================
+🚀 TripRaft Backend Server
+============================================================
+Environment: development
+Server: http://0.0.0.0:5000
+Health Check: http://0.0.0.0:5000/health
+============================================================
+
+ * Serving Flask app 'api.app'
+ * Debug mode: on
+[2025-11-19 13:35:37,049] INFO in app: Firebase Admin SDK initialized successfully
+[2025-11-19 13:35:37,050] INFO in app:    Using production Firestore (~200ms latency)
+[2025-11-19 13:35:37,050] INFO in app: ✅ Response compression enabled (gzip, level 6)
+2025-11-19 13:35:37,050 - api.app - INFO - ✅ Response compression enabled (gzip, level 6)
+[2025-11-19 13:35:37,051] WARNING in app: ⚠️  Places database not found - Places API will not be available
+2025-11-19 13:35:37,051 - api.app - WARNING - ⚠️  Places database not found - Places API will not be available
+[2025-11-19 13:35:37,489] INFO in app: Health & Performance Monitoring registered at /api/health
+2025-11-19 13:35:37,489 - api.app - INFO - Health & Performance Monitoring registered at /api/health
+[2025-11-19 13:35:37,497] INFO in app: Places API blueprints registered with prefix: /api/v1
+2025-11-19 13:35:37,497 - api.app - INFO - Places API blueprints registered with prefix: /api/v1
+[2025-11-19 13:35:37,617] INFO in app: Expense Management System blueprint registered at /api/expense
+2025-11-19 13:35:37,617 - api.app - INFO - Expense Management System blueprint registered at /api/expense
+[2025-11-19 13:35:37,657] INFO in app: ✅ Group Planner blueprint registered at /api/group-planner (Phase 1)
+2025-11-19 13:35:37,657 - api.app - INFO - ✅ Group Planner blueprint registered at /api/group-planner (Phase 1)
+[2025-11-19 13:35:37,660] INFO in app: Flask application created successfully
+2025-11-19 13:35:37,660 - api.app - INFO - Flask application created successfully
+
+============================================================
+🚀 TripRaft Backend Server
+============================================================
+Environment: development
+Server: http://0.0.0.0:5000
+Health Check: http://0.0.0.0:5000/health
+============================================================
+
+ * Debugger is active!
+
+================================================================================
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/expenses/user
+→ INCOMING REQUEST
+Query: personal_only=true
+================================================================================
+Origin: http://localhost:5173
+OPTIONS /api/expense/groups
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+Query: mode=summary
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 5.00ms
+
+← RESPONSE
+Status: 200
+Duration: 5.53ms
+================================================================================
+
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/user/profile
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/expenses/user
+Query: personal_only=true
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+→ INCOMING REQUEST
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+POST /api/expense/user/profile
+Body: {'username': 'rdcoding1842', 'display_name': '', 'profile_picture': None}
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+================================================================================
+GET /api/expense/groups
+Query: mode=summary
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+
+← RESPONSE
+Status: 200
+Status: 200
+Duration: 355.45ms
+Duration: 418.88ms
+Message: User already exists
+✅ Cache HIT for user groups: R0aghH2MVAh1Pf8CH2UQZN3wIjN2 (1 groups) [summary mode]
+================================================================================
+
+   Duration: 3.93ms | Firestore Reads: 0
+Success: True
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 361.44ms
+Success: True
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/invitations
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+
+================================================================================
+OPTIONS /api/expense/invitations/group/37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+→ INCOMING REQUEST
+Origin: http://localhost:5173
+================================================================================
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+GET /api/expense/invitations
+
+← RESPONSEOrigin: http://localhost:5173
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+Status: 200
+Duration: 2.01ms
+================================================================================
+
+
+================================================================================
+
+================================================================================
+→ INCOMING REQUEST
+→ INCOMING REQUEST
+================================================================================
+================================================================================
+OPTIONS /api/expense/groups/37eeadbe-803e-4e61-b127-91f0ff0b1b1b/full
+OPTIONS /api/expense/settlements/group/37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+Origin: http://localhost:5173
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+
+← RESPONSE
+Status: 200
+Duration: 3.99ms
+Status: 200
+================================================================================
+
+Duration: 3.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/invitations/group/37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for group details: 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+   Duration: 1.00ms | Firestore Reads: 0
+
+================================================================================
+
+================================================================================
+→ INCOMING REQUEST
+→ INCOMING REQUEST
+================================================================================
+================================================================================
+GET /api/expense/groups/37eeadbe-803e-4e61-b127-91f0ff0b1b1b/full
+GET /api/expense/settlements/group/37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+Origin: http://localhost:5173
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+🚀 GET FULL GROUP DATA - 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+✅ Cache HIT for group details: 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+✅ Cache HIT for full group data: 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+   Duration: 1.00ms | Firestore Reads: 0
+   Duration: 1.00ms | Firestore Reads: 0
+✅ COMPLETE: GET FULL GROUP DATA - 0.005s
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 15.00ms
+
+← RESPONSE================================================================================
+
+
+Status: 200
+Duration: 16.00ms
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 517.26ms
+Success: True
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 1526.30ms
+Success: True
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/invitations
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 720.99ms
+Success: True
+================================================================================
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/groups
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 1.13ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+POST /api/expense/groups
+Body: {'name': 'check', 'description': 'Created by Deep Patel', 'currency': 'USD'}
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+�️  Invalidated user groups cache for R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+
+================================================================================
+📊 FIRESTORE API CALLS - POST /api/expense/groups
+================================================================================
+   Reads:      0
+   Writes:     3
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      3 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 201
+Duration: 300.98ms
+Success: True
+================================================================================
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/invitations/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.00ms
+================================================================================
+
+
+================================================================================
+
+================================================================================
+
+================================================================================→ INCOMING REQUEST
+================================================================================
+→ INCOMING REQUEST
+
+================================================================================
+GET /api/expense/invitations/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+OPTIONS /api/expense/settlements/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+Origin: http://localhost:5173
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+→ INCOMING REQUEST
+
+← RESPONSE
+================================================================================
+Status: 200
+OPTIONS /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+Duration: 4.00ms
+Origin: http://localhost:5173
+================================================================================
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+❌ Cache MISS for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+
+← RESPONSE
+Status: 200
+Duration: 8.00ms
+================================================================================
+
+✅ Cached group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 155.91ms | Firestore Reads: 1
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/settlements/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 0.99ms | Firestore Reads: 0
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+🚀 GET FULL GROUP DATA - 9270789f-f60d-42a6-a582-9fad98ef1ee5
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+❌ Cache MISS for full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1.01ms | Firestore Reads: 0
+❌ Cache MISS for group members: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+================================================================================
+   Reads:      1
+   Writes:     0
+
+← RESPONSE   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+Status: 200
+
+← RESPONSE
+Duration: 181.25ms
+Status: 200
+Success: True
+Duration: 431.99ms
+================================================================================
+
+Success: True
+================================================================================
+
+✅ Cached group members: 9270789f-f60d-42a6-a582-9fad98ef1ee5 (1 members)
+
+      🔥 Firebase: get_group_expenses(9270789f-f60d-42a6-a582-9fad98ef1ee5, limit=50, offset=0)
+         ✅ Retrieved 0 expenses (has_more=False)
+🔍 Fetching display names for 1 users
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 1/1 hits (100.0% hit rate)
+✅ Cached full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1354.38ms
+   Data: 1 members, 0 expenses, 0 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.355s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+================================================================================
+   Reads:      2
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      2 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 1361.37ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/invitations
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+POST /api/expense/invitations
+Body: {'group_id': '9270789f-f60d-42a6-a582-9fad98ef1ee5', 'email': 'pateldeep1842@gmail.com'}
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 0.00ms | Firestore Reads: 0
+
+← RESPONSE
+Status: 201
+Duration: 362.06ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+🚀 GET FULL GROUP DATA - 9270789f-f60d-42a6-a582-9fad98ef1ee5
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+✅ Cache HIT for full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1.00ms | Firestore Reads: 0
+✅ COMPLETE: GET FULL GROUP DATA - 0.002s
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 7.02ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/invitations/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 1.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/invitations/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1.00ms | Firestore Reads: 0
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 164.98ms
+================================================================================
+================================================================================
+
+================================================================================
+→ INCOMING REQUEST
+→ INCOMING REQUEST
+================================================================================
+================================================================================
+OPTIONS /api/expense/groups
+OPTIONS /api/expense/user/profile
+Query: mode=summary
+Origin: http://localhost:5173
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+
+← RESPONSE
+Status: 200
+Status: 200
+Duration: 4.00ms
+Duration: 2.00ms
+================================================================================
+
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/expenses/user
+Query: personal_only=true
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 5.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+POST /api/expense/user/profile
+Body: {'username': 'pateldeep1842', 'display_name': '', 'profile_picture': None}
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 6.00ms
+Message: User already exists
+================================================================================
+
+
+================================================================================
+
+================================================================================
+→ INCOMING REQUEST
+→ INCOMING REQUEST
+================================================================================
+================================================================================
+GET /api/expense/groups
+GET /api/expense/expenses/user
+Query: mode=summary
+Query: personal_only=true
+Origin: http://localhost:5173
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+❌ Cache MISS for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 [summary mode]
+
+← RESPONSE
+Status: 200
+Duration: 11.08ms
+Success: True
+================================================================================
+
+✅ Cached user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (1 groups) [summary mode]
+   Duration: 485.67ms | Firestore Reads: 2
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups
+================================================================================
+   Reads:      2
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      2 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 496.77ms
+Success: True
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/invitations
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.00ms
+================================================================================
+
+
+================================================================================
+
+================================================================================
+→ INCOMING REQUEST
+
+================================================================================→ INCOMING REQUEST
+
+================================================================================
+OPTIONS /api/expense/invitations
+================================================================================
+Origin: http://localhost:5173
+OPTIONS /api/expense/groups/37eeadbe-803e-4e61-b127-91f0ff0b1b1b/full
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+Origin: http://localhost:5173
+→ INCOMING REQUEST
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+================================================================================
+
+← RESPONSE
+Status: 200
+GET /api/expense/invitations
+Origin: http://localhost:5173
+Duration: 4.00ms
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+================================================================================
+
+← RESPONSE
+
+Status: 200
+Duration: 4.00ms
+================================================================================
+
+
+================================================================================
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+
+OPTIONS /api/expense/settlements/group/37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+Origin: http://localhost:5173
+→ INCOMING REQUEST
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+================================================================================
+
+← RESPONSE
+Status: 200
+Duration: 4.68ms
+================================================================================
+
+OPTIONS /api/expense/invitations/group/37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 8.62ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+
+================================================================================
+GET /api/expense/groups/37eeadbe-803e-4e61-b127-91f0ff0b1b1b/full
+→ INCOMING REQUEST
+================================================================================
+Origin: http://localhost:5173
+GET /api/expense/settlements/group/37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+🚀 GET FULL GROUP DATA - 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+================================================================================
+User ID: iJol3n5TFrVHdH79hS32WLCI2EK2
+✅ Cache HIT for group details: 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+   Duration: 1.00ms | Firestore Reads: 0
+❌ Cache MISS for full group data: 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+✅ Cache HIT for group details: 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+
+← RESPONSE
+   Duration: 1.00ms | Firestore Reads: 0
+Status: 200
+Duration: 10.00ms
+================================================================================
+
+✅ Cache HIT for group members: 37eeadbe-803e-4e61-b127-91f0ff0b1b1b (2 members)
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/invitations/group/37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for group details: 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+   Duration: 1.00ms | Firestore Reads: 0
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: c v
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+
+← RESPONSE
+Status: 200
+Duration: 243.76ms
+Success: True
+================================================================================
+
+✅ Cached full group data: 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+   Duration: 479.74ms
+   Data: 2 members, 1 expenses, 1 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 0.483s
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 489.45ms
+================================================================================
+
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1.00ms | Firestore Reads: 0
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/invitations
+================================================================================
+   Reads:      2
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      2 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 1037.55ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/invitations
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 5.61ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/invitations/2c8abb56-1758-4904-a345-c23926ec4279/accept
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 1.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+POST /api/expense/invitations/2c8abb56-1758-4904-a345-c23926ec4279/accept
+Body: (no content)
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+🗑️  Invalidated cache: group_members:9270789f-f60d-42a6-a582-9fad98ef1ee5
+🗑️  Invalidated cache: group_details:9270789f-f60d-42a6-a582-9fad98ef1ee5
+🗑️  Invalidated cache: group_full:9270789f-f60d-42a6-a582-9fad98ef1ee5:R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+✅ Invalidated 3/4 cache keys for group 9270789f-f60d-42a6-a582-9fad98ef1ee5
+❌ Cache MISS for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+✅ Cached group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 214.87ms | Firestore Reads: 1
+
+================================================================================
+📊 FIRESTORE API CALLS - POST /api/expense/invitations/2c8abb56-1758-4904-a345-c23926ec4279/accept
+================================================================================
+   Reads:      5
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      5 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 3312.73ms
+Success: True
+Message: Invitation accepted successfully
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/groups
+Query: mode=summary
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/groups
+Query: mode=summary
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+❌ Cache MISS for user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 [summary mode]
+✅ Cached user groups: iJol3n5TFrVHdH79hS32WLCI2EK2 (2 groups) [summary mode]
+   Duration: 356.73ms | Firestore Reads: 3
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups
+================================================================================
+   Reads:      4
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      4 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 368.72ms
+================================================================================
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/invitations/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.00ms
+================================================================================
+
+
+================================================================================
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+→ INCOMING REQUEST
+OPTIONS /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+================================================================================
+Origin: http://localhost:5173
+GET /api/expense/invitations/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+Origin: http://localhost:5173
+
+← RESPONSE
+Status: 200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+Duration: 3.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/settlements/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+Origin: http://localhost:5173
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 5.00ms | Firestore Reads: 0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 6.00ms
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 143.77ms
+Success: True
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+🚀 GET FULL GROUP DATA - 9270789f-f60d-42a6-a582-9fad98ef1ee5
+================================================================================
+User ID: iJol3n5TFrVHdH79hS32WLCI2EK2
+❌ Cache MISS for full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1.00ms | Firestore Reads: 0
+❌ Cache MISS for group members: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/settlements/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1.00ms | Firestore Reads: 0
+
+← RESPONSE
+Status: 200
+Duration: 221.51ms
+Success: True
+================================================================================
+
+✅ Cached group members: 9270789f-f60d-42a6-a582-9fad98ef1ee5 (2 members)
+
+      🔥 Firebase: get_group_expenses(9270789f-f60d-42a6-a582-9fad98ef1ee5, limit=50, offset=0)
+         ✅ Retrieved 0 expenses (has_more=False)
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: c v
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+✅ Cached full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1584.92ms
+   Data: 2 members, 0 expenses, 0 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.585s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+================================================================================
+   Reads:      4
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      4 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 1591.90ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/expenses
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 1.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+POST /api/expense/expenses
+Body: {'group_id': '9270789f-f60d-42a6-a582-9fad98ef1ee5', 'description': 's', 'amount': 100, 'currency': 'USD', 'category': 'Food', 'date': '2025-11-19', 'paid_by': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'split_type': 'EQUAL', 'splits': [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50}]}
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+⏱️  START: CREATE EXPENSE
+
+================================================================================
+📝 CREATE EXPENSE - START
+================================================================================
+User ID: iJol3n5TFrVHdH79hS32WLCI2EK2
+Request Data: {'group_id': '9270789f-f60d-42a6-a582-9fad98ef1ee5', 'description': 's', 'amount': 100, 'currency': 'USD', 'category': 'Food', 'date': '2025-11-19', 'paid_by': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'split_type': 'EQUAL', 'splits': [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50}]}
+Idempotency-Key: auto:3008d13d324514ce
+✅ Validation passed
+   Description: s
+   Amount: 100
+   Category: Food
+   Splits received: [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50}]
+   Paid by (from request): iJol3n5TFrVHdH79hS32WLCI2EK2
+   Split Type: EQUAL
+   Group ID: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Group ID: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+
+👥 GROUP EXPENSE - Firebase + Local Storage
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 0.54ms | Firestore Reads: 0
+   Group Name: check
+   Group Members: 2
+
+🧮 CALCULATING SPLITS
+   Input splits: [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50}]
+      calculate_splits called:
+         Amount: $100
+         Split type: 'EQUAL' (normalized: 'equal')
+         Split data: [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50}]
+         Equal split (cents): [5000, 5000] for 2 people
+         Sum check: 10000 cents = 10000 cents ✅
+         ✅ Calculated 2 splits
+            1. User R0aghH2MVAh1Pf8CH2UQZN3wIjN2: $50.0
+            2. User iJol3n5TFrVHdH79hS32WLCI2EK2: $50.0
+   Calculated splits: [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50.0, 'share': None, 'percentage': None}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50.0, 'share': None, 'percentage': None}]
+   Number of splits: 2
+   Expense ID: 80094d82-b075-4e76-8df7-8f672664270f
+   Date: 2025-11-19
+   Paid by: iJol3n5TFrVHdH79hS32WLCI2EK2
+
+💾 SAVING EXPENSE
+   Final expense object:
+   - Amount: $100.0
+   - Splits: [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 50.0, 'share': None, 'percentage': None}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50.0, 'share': None, 'percentage': None}]
+   - Split count: 2
+   ⚡ OPTIMISTIC MODE: Creating expense instantly...
+
+      🔥 Firebase: create_expense (OPTIMIZED)
+         Description: s
+   ✅ Response ready (Firebase syncing in background)
+         Amount: $100.0
+         Splits received: 2
+         Using provided Expense ID: 80094d82-b075-4e76-8df7-8f672664270f
+         ✅ Prepared expense with 2 splits
+   ✅ Saved to local storage
+   ✅ Keeping formatted balance cache (smart ?_t will handle freshness)
+
+📧 STARTING ASYNC EMAIL NOTIFICATIONS
+   ✅ Email notifications started in background (non-blocking)
+================================================================================
+
+🧮 Calculating updated balances for optimistic response...
+         ✅ Batched write complete: 3 documents
+            Batch duration: 147ms
+            (Sequential would take ~9000ms)
+         ✅ Firebase expense created in 149ms
+✅ Added balance data to response (2 members)
+✅ IDEMPOTENCY: Cached response for auto:3008d13d324514ce (24h TTL)
+✅ IDEMPOTENCY: Released lock for auto:3008d13d324514ce
+✅ COMPLETE: CREATE EXPENSE - 0.235s
+
+← RESPONSE
+Status: 201
+Duration: 241.21ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+Query: _t=1763588289052
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.01ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+Query: _t=1763588289052
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+🚀 GET FULL GROUP DATA - 9270789f-f60d-42a6-a582-9fad98ef1ee5
+================================================================================
+User ID: iJol3n5TFrVHdH79hS32WLCI2EK2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1.00ms | Firestore Reads: 0
+✅ Cache HIT for group members: 9270789f-f60d-42a6-a582-9fad98ef1ee5 (2 members)
+
+      🔥 Firebase: get_group_expenses(9270789f-f60d-42a6-a582-9fad98ef1ee5, limit=50, offset=0)
+         Expense: s
+            Amount: $100.0
+            Splits: 2
+         ✅ Retrieved 1 expenses (has_more=False)
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: c v
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+✅ Cached full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1622.00ms
+   Data: 2 members, 1 expenses, 0 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.625s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 1632.66ms
+================================================================================
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/expenses/80094d82-b075-4e76-8df7-8f672664270f
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+PUT /api/expense/expenses/80094d82-b075-4e76-8df7-8f672664270f
+Body: {'type': 'expense', 'description': 's', 'amount': 150, 'category': 'food', 'date': '2025-11-19', 'paidBy': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'splitWith': ['R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'iJol3n5TFrVHdH79hS32WLCI2EK2']}
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+⏱️  START: UPDATE EXPENSE
+
+================================================================================
+✏️  UPDATE EXPENSE - 80094d82-b075-4e76-8df7-8f672664270f
+================================================================================
+User ID: iJol3n5TFrVHdH79hS32WLCI2EK2
+   Local storage lookup: Found
+   Expense: s
+   Amount: $100.0
+   Paid by: iJol3n5TFrVHdH79hS32WLCI2EK2
+   Group ID: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Is payer: True
+   Is in split: True
+   Update data: {'type': 'expense', 'description': 's', 'amount': 150, 'category': 'food', 'date': '2025-11-19', 'paidBy': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'splitWith': ['R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'iJol3n5TFrVHdH79hS32WLCI2EK2']}
+   Transformed data: {'type': 'expense', 'description': 's', 'amount': 150, 'category': 'food', 'date': '2025-11-19', 'paid_by': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'splits': [{'user_id': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'amount': 75.0}, {'user_id': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 75.0}]}
+   💰 Financial change detected - balance recalculation needed
+
+⚡ OPTIMISTIC UPDATE: Updating instantly...
+   🔄 Updating local storage...
+   🗑️  Invalidated formatted balance cache (financial change)
+   ✅ Instant update complete (Firebase syncing in background)
+✅ UPDATE COMPLETE
+================================================================================
+
+✅ COMPLETE: UPDATE EXPENSE - 0.030s
+
+← RESPONSE
+Status: 200
+Duration: 34.66ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+Query: _t=1763588321203
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+Query: _t=1763588321203
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+🚀 GET FULL GROUP DATA - 9270789f-f60d-42a6-a582-9fad98ef1ee5
+================================================================================
+User ID: iJol3n5TFrVHdH79hS32WLCI2EK2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 0.82ms | Firestore Reads: 0
+✅ Cache HIT for group members: 9270789f-f60d-42a6-a582-9fad98ef1ee5 (2 members)
+
+      🔥 Firebase: get_group_expenses(9270789f-f60d-42a6-a582-9fad98ef1ee5, limit=50, offset=0)
+         Expense: s
+            Amount: $150
+            Splits: 2
+         ✅ Retrieved 1 expenses (has_more=False)
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: c v
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+✅ Cached full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1384.84ms
+   Data: 2 members, 1 expenses, 0 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.395s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 1405.58ms
+================================================================================
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/settlements
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 42.92ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+POST /api/expense/settlements
+Body: {'from_user': 'R0aghH2MVAh1Pf8CH2UQZN3wIjN2', 'to_user': 'iJol3n5TFrVHdH79hS32WLCI2EK2', 'amount': 50, 'group_id': '9270789f-f60d-42a6-a582-9fad98ef1ee5', 'notes': None, 'expected_amount': 75}
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+💸 CREATE SETTLEMENT WITH VALIDATION
+================================================================================
+From: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+To: iJol3n5TFrVHdH79hS32WLCI2EK2
+Amount: $50.0
+Expected: $75
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 2.00ms | Firestore Reads: 0
+Group: check (9270789f-f60d-42a6-a582-9fad98ef1ee5)
+
+🔍 VALIDATING CURRENT DEBT (using incremental balances)
+   From balance: $-75.00
+   Currently owed by payer: $75.00
+   ✅ Validation passed
+   Applied: $50.00
+   Remaining: $25.00
+
+⚡ OPTIMISTIC SETTLEMENT MODE
+
+⚡ OPTIMISTIC SETTLEMENT: Instant balance update...
+   ✅ Settlement document created
+   ✅ Balance updated instantly
+   ✅ Keeping formatted balance cache (smart ?_t will handle freshness)
+🗑️  Invalidated cache: group_members:9270789f-f60d-42a6-a582-9fad98ef1ee5
+🗑️  Invalidated cache: group_details:9270789f-f60d-42a6-a582-9fad98ef1ee5
+🗑️  Invalidated cache: group_full:9270789f-f60d-42a6-a582-9fad98ef1ee5:iJol3n5TFrVHdH79hS32WLCI2EK2
+✅ Invalidated 3/4 cache keys for group 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   ✅ Settlement created instantly (1204ms)
+   🗑️  Invalidated formatted balance cache
+✅ SETTLEMENT COMPLETE - 1205ms
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - POST /api/expense/settlements
+================================================================================
+   Reads:      1
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      1 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 201
+Duration: 1211.99ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/settlements/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.06ms
+================================================================================
+
+
+================================================================================
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+→ INCOMING REQUEST
+OPTIONS /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+================================================================================
+Origin: http://localhost:5173
+GET /api/expense/settlements/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+Origin: http://localhost:5173
+
+← RESPONSEUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+Status: 200
+Duration: 3.00ms
+================================================================================
+
+❌ Cache MISS for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+✅ Cached group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 144.54ms | Firestore Reads: 1
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+🚀 GET FULL GROUP DATA - 9270789f-f60d-42a6-a582-9fad98ef1ee5
+================================================================================
+User ID: iJol3n5TFrVHdH79hS32WLCI2EK2
+❌ Cache MISS for full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1.00ms | Firestore Reads: 0
+❌ Cache MISS for group members: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/settlements/group/9270789f-f60d-42a6-a582-9fad98ef1ee5
+================================================================================
+   Reads:      2
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      2 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 578.58ms
+================================================================================
+
+✅ Cached group members: 9270789f-f60d-42a6-a582-9fad98ef1ee5 (2 members)
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: c v
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+✅ Cached full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 976.45ms
+   Data: 2 members, 1 expenses, 1 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 0.977s
+================================================================================
+
+
+================================================================================
+📊 FIRESTORE API CALLS - GET /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+================================================================================
+   Reads:      4
+   Writes:     0
+   Deletes:    0
+   Snapshots:  0
+   ────────────────────────────────────────────────────────────────────────────
+   TOTAL:      4 operations - ✅ LOW
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 984.24ms
+================================================================================
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/expenses/80094d82-b075-4e76-8df7-8f672664270f
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 1.71ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+DELETE /api/expense/expenses/80094d82-b075-4e76-8df7-8f672664270f
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+⏱️  START: DELETE EXPENSE
+
+================================================================================
+🗑️  DELETE EXPENSE - 80094d82-b075-4e76-8df7-8f672664270f
+================================================================================
+User ID: iJol3n5TFrVHdH79hS32WLCI2EK2
+   Local storage lookup: Found
+   Expense: s
+   Amount: $150.0
+   Paid by: iJol3n5TFrVHdH79hS32WLCI2EK2
+   Group ID: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Is group admin: False
+   Is payer: True
+   Is in split: True
+   Can delete: True
+
+💾 DELETING FROM STORAGE
+   Local storage: ✅ Deleted
+   ✅ Keeping formatted balance cache (smart ?_t will handle freshness)
+   📤 Deleting from Firebase...
+🔄 Last expense deleted - triggering full recalc to clear settlements
+   Firebase: ✅ Deleted
+
+📧 SCHEDULING DELETE NOTIFICATIONS (async)
+   ✅ Notification emails queued (sending in background)
+✅ EXPENSE DELETED SUCCESSFULLY
+================================================================================
+
+✅ COMPLETE: DELETE EXPENSE - 2.749s
+
+← RESPONSE
+Status: 200
+Duration: 2755.46ms
+Success: True
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+Message: Expense deleted
+   Duration: 1.00ms | Firestore Reads: 0
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+Query: _t=1763588364665
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.00ms
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+GET /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/full
+Query: _t=1763588364665
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+🚀 GET FULL GROUP DATA - 9270789f-f60d-42a6-a582-9fad98ef1ee5
+================================================================================
+User ID: iJol3n5TFrVHdH79hS32WLCI2EK2
+🔄 Cache bypass requested (_t parameter) - fetching fresh data
+❌ Cache MISS for full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1.00ms | Firestore Reads: 0
+✅ Cache HIT for group members: 9270789f-f60d-42a6-a582-9fad98ef1ee5 (2 members)
+
+      🔥 Firebase: get_group_expenses(9270789f-f60d-42a6-a582-9fad98ef1ee5, limit=50, offset=0)
+         ✅ Retrieved 0 expenses (has_more=False)
+🔍 Fetching display names for 2 users
+   ✅ Cache HIT for user iJol3n5TFrVHdH79hS32WLCI2EK2: c v
+   ✅ Cache HIT for user R0aghH2MVAh1Pf8CH2UQZN3wIjN2: rdcoding1842
+📊 Display name cache: 2/2 hits (100.0% hit rate)
+✅ Cached full group data: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1576.37ms
+   Data: 2 members, 0 expenses, 1 settlements
+✅ COMPLETE: GET FULL GROUP DATA - 1.578s
+================================================================================
+
+
+← RESPONSE
+Status: 200
+Duration: 1583.36ms
+================================================================================
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/members/iJol3n5TFrVHdH79hS32WLCI2EK2
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 404
+Duration: 3.54ms
+Success: False
+Message: Endpoint not found
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5/members/iJol3n5TFrVHdH79hS32WLCI2EK2
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 404
+Duration: 0.96ms
+Success: False
+Message: Endpoint not found
+================================================================================
+
+
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/invitations/group/37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+← RESPONSE
+Status: 200
+Duration: 2.14ms
+================================================================================
+
+
+================================================================================
+
+================================================================================
+================================================================================
+
+→ INCOMING REQUEST
+================================================================================
+→ INCOMING REQUEST
+→ INCOMING REQUEST
+================================================================================
+OPTIONS /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5
+
+================================================================================
+================================================================================
+Origin: http://localhost:5173
+OPTIONS /api/expense/groups/37eeadbe-803e-4e61-b127-91f0ff0b1b1b/full
+OPTIONS /api/expense/settlements/group/37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+→ INCOMING REQUEST
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+Origin: http://localhost:5173
+Origin: http://localhost:5173
+
+← RESPONSE================================================================================
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+Status: 200
+
+← RESPONSE
+← RESPONSEGET /api/expense/invitations/group/37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+
+Origin: http://localhost:5173
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+Duration: 5.84ms
+Status: 200
+================================================================================
+
+Duration: 6.91ms
+Status: 200
+================================================================================
+
+Duration: 7.09ms
+================================================================================
+
+✅ Cache HIT for group details: 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+   Duration: 3.98ms | Firestore Reads: 0
+
+← RESPONSE
+Status: 200
+Duration: 159.21ms
+Success: True
+================================================================================
+
+
+================================================================================
+
+================================================================================
+
+================================================================================
+→ INCOMING REQUEST
+→ INCOMING REQUEST
+================================================================================
+→ INCOMING REQUEST
+================================================================================
+================================================================================
+GET /api/expense/settlements/group/37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+GET /api/expense/groups/37eeadbe-803e-4e61-b127-91f0ff0b1b1b/full
+Origin: http://localhost:5173
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+DELETE /api/expense/groups/9270789f-f60d-42a6-a582-9fad98ef1ee5
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+
+================================================================================
+🚀 GET FULL GROUP DATA - 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+✅ Cache HIT for group details: 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+================================================================================
+User ID: R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+   Duration: 4.00ms | Firestore Reads: 0
+✅ Cache HIT for full group data: 37eeadbe-803e-4e61-b127-91f0ff0b1b1b
+   Duration: 1.01ms | Firestore Reads: 0
+✅ COMPLETE: GET FULL GROUP DATA - 0.006s
+================================================================================
+
+
+← RESPONSE
+Status: 200
+
+← RESPONSE
+Duration: 17.89ms
+Status: 200
+================================================================================
+Duration: 17.89ms
+
+================================================================================
+
+✅ Cache HIT for group details: 9270789f-f60d-42a6-a582-9fad98ef1ee5
+   Duration: 1.00ms | Firestore Reads: 0
+🗑️  Invalidated user groups cache for R0aghH2MVAh1Pf8CH2UQZN3wIjN2
+
+← RESPONSE
+Status: 200
+Duration: 554.47ms
+Success: True
+Message: Group deleted
+================================================================================

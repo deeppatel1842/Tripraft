@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-11-20T15:42:03.860751",
+  "statistics": {
+    "uptime_seconds": 139.0531075000763,
+    "total_requests": 0,
+    "cache": {
+      "hits": 104,
+      "misses": 30,
+      "hit_rate": 77.61194029850746
+    },
+    "performance": {
+      "GET FULL GROUP DATA": {
+        "avg_ms": 2210.125,
+        "min_ms": 1368.0,
+        "max_ms": 7804.0,
+        "count": 16
+      },
+      "CREATE EXPENSE": {
+        "avg_ms": 361.0,
+        "min_ms": 361.0,
+        "max_ms": 361.0,
+        "count": 1
+      },
+      "UPDATE EXPENSE": {
+        "avg_ms": 20.0,
+        "min_ms": 20.0,
+        "max_ms": 20.0,
+        "count": 1
+      },
+      "DELETE EXPENSE": {
+        "avg_ms": 434.0,
+        "min_ms": 434.0,
+        "max_ms": 434.0,
+        "count": 1
+      }
+    }
+  },
+  "log_file": "C:\\Users\\Kashyap\\Documents\\Deep\\Travel\\web\\backend\\logs\\captured_logs.txt"
+}
