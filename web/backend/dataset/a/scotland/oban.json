@@ -1,0 +1,1118 @@
+{
+  "country": "Scotland",
+  "state": "Oban",
+  "cities": [
+    {
+      "city": "Oban",
+      "nearest_airport": "Glasgow Airport",
+      "places": [
+        {
+          "name": "McCaig’s Tower",
+          "ai_summary": "A prominent landmark overlooking Oban, offering panoramic views of the town, harbor, and surrounding islands.",
+          "name_english": "McCaig’s Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "08:10 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera for the stunning views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.4156,
+            "longitude": -5.4745
+          },
+          "address": "McCaig’s Tower, Oban, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Landmark",
+            "Scenic",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Oban Distillery",
+          "ai_summary": "One of Scotland’s oldest distilleries, offering guided tours and tastings of their renowned single malt whisky.",
+          "name_english": "Oban Distillery",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 05:00 PM",
+            "Tuesday": "10:00 AM - 05:00 PM",
+            "Wednesday": "10:00 AM - 05:00 PM",
+            "Thursday": "10:00 AM - 05:00 PM",
+            "Friday": "10:00 AM - 05:00 PM",
+            "Saturday": "10:00 AM - 05:00 PM",
+            "Sunday": "10:00 AM - 05:00 PM",
+            "notes": "Tours may require advanced booking."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try the exclusive distillery-only bottlings.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 56.4125,
+            "longitude": -5.4714
+          },
+          "address": "Oban Distillery, Stafford Street, Oban, United Kingdom",
+          "official_website": "https://www.malts.com/en-gb/distilleries/oban",
+          "tags": [
+            "Whisky",
+            "Culture",
+            "Tour"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Oban.ogg",
+              "thumbnail": {
+                "url": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Oban",
+                  "author": "Mutt Lunker",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Oban.ogg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Pronunciation of \"Oban\"."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Oban Bay & Waterfront",
+          "ai_summary": "The scenic bay and waterfront area of Oban, ideal for leisurely walks, with views of the islands and ferries.",
+          "name_english": "Oban Bay & Waterfront",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50 AM",
+          "sunset_time": "08:05 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-3 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Enjoy a walk along the esplanade and visit the local shops.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.4117,
+            "longitude": -5.4719
+          },
+          "address": "Oban Bay, Oban, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Scenic",
+            "Walk",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Argyll and Bute - Oban railway station - 20240521063638.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Argyll_and_Bute_-_Oban_railway_station_-_20240521063638.jpg/960px-Argyll_and_Bute_-_Oban_railway_station_-_20240521063638.jpg",
+                "width": 800,
+                "height": 515,
+                "attribution": {
+                  "title": "Argyll and Bute - Oban railway station - 20240521063638",
+                  "author": "Gillfoto",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Argyll_and_Bute_-_Oban_railway_station_-_20240521063638.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Argyll and Bute, Oban railway station."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Dunollie Museum, Castle & Grounds",
+          "ai_summary": "A historic site featuring a museum, castle ruins, and beautiful grounds, offering insights into the local heritage.",
+          "name_english": "Dunollie Museum, Castle & Grounds",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 05:00 PM",
+            "Tuesday": "10:00 AM - 05:00 PM",
+            "Wednesday": "10:00 AM - 05:00 PM",
+            "Thursday": "10:00 AM - 05:00 PM",
+            "Friday": "10:00 AM - 05:00 PM",
+            "Saturday": "10:00 AM - 05:00 PM",
+            "Sunday": "10:00 AM - 05:00 PM",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Explore the castle grounds and enjoy a picnic.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.4172,
+            "longitude": -5.4742
+          },
+          "address": "Dunollie Castle, Oban, United Kingdom",
+          "official_website": "http://www.dunollie.org",
+          "tags": [
+            "History",
+            "Museum",
+            "Castle"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:046CupolaSPietro.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "046CupolaSPietro",
+                  "author": "MarkusMark",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Città del Vaticano - Cupola della Basilica di S. Pietro"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ganavan Sands",
+          "ai_summary": "A beautiful sandy beach located a short distance from Oban, perfect for a relaxing day by the sea.",
+          "name_english": "Ganavan Sands",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a picnic and enjoy the stunning coastal views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.4194,
+            "longitude": -5.4871
+          },
+          "address": "Ganavan Sands, Oban, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Scenic",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Air Force Ensign of the United Kingdom.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Air_Force_Ensign_of_the_United_Kingdom.svg/960px-Air_Force_Ensign_of_the_United_Kingdom.svg.png",
+                "width": 800,
+                "height": 400,
+                "attribution": {
+                  "title": "Air Force Ensign of the United Kingdom",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Air_Force_Ensign_of_the_United_Kingdom.svg",
+                  "credit": null,
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Caledonian MacBrayne Ferry Terminal",
+          "ai_summary": "The main ferry terminal in Oban, providing access to the Hebridean Islands and other west coast destinations.",
+          "name_english": "Caledonian MacBrayne Ferry Terminal",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies by destination",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check ferry schedules for specific departure times."
+          },
+          "suggested_duration": "Varies",
+          "best_time_to_visit": "Depends on travel plans",
+          "place_tip": "Book ferry tickets in advance during peak season.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 56.4111,
+            "longitude": -5.4711
+          },
+          "address": "Caledonian MacBrayne, Oban, United Kingdom",
+          "official_website": "https://www.calmac.co.uk",
+          "tags": [
+            "Transport",
+            "Ferry",
+            "Travel"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Argyll and Bute UK location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Argyll_and_Bute_UK_location_map.svg/960px-Argyll_and_Bute_UK_location_map.svg.png",
+                "width": 800,
+                "height": 829,
+                "attribution": {
+                  "title": "Argyll and Bute UK location map",
+                  "author": "Nilfanion, created using Ordnance Survey data",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Argyll_and_Bute_UK_location_map.svg",
+                  "credit": "Ordnance Survey OpenData.\n\nAdministrative borders and coastline data from Boundary-Line product.\nAll other geographic data from Meridian 2 product.\nInset derived from Inset derived from File:Scotland location map.svg by NordNordWest.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank map of Argyll and Bute, UK with the following information shown:\n\nAdministrative borders\nCoastline, lakes and rivers\nRoads and railways\nUrban areas\nEquirectangular map projection on WGS 84 datum, with N/S stretched 175%\nGeographic limits:\n\nWest: 7.2W\nEast: 4.5W\nNorth: 56.8N\nSouth: 55.2N"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "St Columba’s Cathedral",
+          "ai_summary": "A stunning cathedral in Oban, known for its impressive architecture and beautiful stained glass windows.",
+          "name_english": "St Columba’s Cathedral",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 AM - 05:00 PM",
+            "Tuesday": "09:00 AM - 05:00 PM",
+            "Wednesday": "09:00 AM - 05:00 PM",
+            "Thursday": "09:00 AM - 05:00 PM",
+            "Friday": "09:00 AM - 05:00 PM",
+            "Saturday": "09:00 AM - 05:00 PM",
+            "Sunday": "09:00 AM - 05:00 PM",
+            "notes": "Check for service times and special events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Attend a service for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.4119,
+            "longitude": -5.4717
+          },
+          "address": "St Columba’s Cathedral, Oban, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "Architecture",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cathedral of St John the Divine - Ard-eaglais Eòin an Diadhair - geograph.org.uk - 1004403.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cathedral_of_St_John_the_Divine_-_Ard-eaglais_E%C3%B2in_an_Diadhair_-_geograph.org.uk_-_1004403.jpg",
+                "width": 425,
+                "height": 640,
+                "attribution": {
+                  "title": "Cathedral of St John the Divine - Ard-eaglais Eòin an Diadhair - geograph.org.uk - 1004403",
+                  "author": "James Yardley",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_St_John_the_Divine_-_Ard-eaglais_Eòin_an_Diadhair_-_geograph.org.uk_-_1004403.jpg",
+                  "credit": "From geograph.org.uk",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Cathedral of St John the Divine / Ard-eaglais Eòin an Diadhair St John's Cathedral is surrounded by town buildings and less well known than St Columba's which enjoys a prominent position on the waterfront. It was constructed between 1863 and 1968 and this interior view shows the unusual steel girders which support the central tower."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Pulpit Hill Viewpoint",
+          "ai_summary": "A popular viewpoint in Oban, offering breathtaking views of the town, bay, and islands.",
+          "name_english": "Pulpit Hill Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Bring binoculars for birdwatching.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.4151,
+            "longitude": -5.4712
+          },
+          "address": "Pulpit Hill, Oban, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Viewpoint",
+            "Scenic",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Oban War & Peace Museum",
+          "ai_summary": "A local museum in Oban, showcasing the town’s history, culture, and maritime heritage.",
+          "name_english": "Oban War & Peace Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 AM - 05:00 PM",
+            "Tuesday": "10:00 AM - 05:00 PM",
+            "Wednesday": "10:00 AM - 05:00 PM",
+            "Thursday": "10:00 AM - 05:00 PM",
+            "Friday": "10:00 AM - 05:00 PM",
+            "Saturday": "10:00 AM - 05:00 PM",
+            "Sunday": "10:00 AM - 05:00 PM",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check for special exhibits and events.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.4115,
+            "longitude": -5.4718
+          },
+          "address": "Oban War & Peace Museum, Oban, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Argyll and Bute - Oban railway station - 20240521063638.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Argyll_and_Bute_-_Oban_railway_station_-_20240521063638.jpg/960px-Argyll_and_Bute_-_Oban_railway_station_-_20240521063638.jpg",
+                "width": 800,
+                "height": 515,
+                "attribution": {
+                  "title": "Argyll and Bute - Oban railway station - 20240521063638",
+                  "author": "Gillfoto",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Argyll_and_Bute_-_Oban_railway_station_-_20240521063638.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Argyll and Bute, Oban railway station."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Dunstaffnage Castle & Chapel",
+          "ai_summary": "A historic castle and chapel located a short drive from Oban, offering guided tours and scenic views.",
+          "name_english": "Dunstaffnage Castle & Chapel",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 05:00 PM",
+            "Tuesday": "10:00 AM - 05:00 PM",
+            "Wednesday": "10:00 AM - 05:00 PM",
+            "Thursday": "10:00 AM - 05:00 PM",
+            "Friday": "10:00 AM - 05:00 PM",
+            "Saturday": "10:00 AM - 05:00 PM",
+            "Sunday": "10:00 AM - 05:00 PM",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Explore the castle grounds and enjoy the coastal views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.4178,
+            "longitude": -5.5161
+          },
+          "address": "Dunstaffnage Castle, Oban, United Kingdom",
+          "official_website": "http://www.dunstaffnagecastle.co.uk",
+          "tags": [
+            "Castle",
+            "History",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Air Force Ensign of the United Kingdom.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Air_Force_Ensign_of_the_United_Kingdom.svg/960px-Air_Force_Ensign_of_the_United_Kingdom.svg.png",
+                "width": 800,
+                "height": 400,
+                "attribution": {
+                  "title": "Air Force Ensign of the United Kingdom",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Air_Force_Ensign_of_the_United_Kingdom.svg",
+                  "credit": null,
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Corran Esplanade",
+          "ai_summary": "A scenic esplanade in Oban, perfect for a leisurely stroll, with views of the bay and surrounding islands.",
+          "name_english": "Corran Esplanade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the local shops and cafes along the way.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.4118,
+            "longitude": -5.4715
+          },
+          "address": "Corran Esplanade, Oban, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Scenic",
+            "Walk",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Easdale Island & Slate Islands",
+          "ai_summary": "A group of small islands near Oban, known for their slate quarries and beautiful coastal scenery.",
+          "name_english": "Easdale Island & Slate Islands",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:20 PM",
+          "cost": "Ferry Fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check ferry schedules for specific departure times."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning or afternoon",
+          "place_tip": "Explore the island by foot and visit the local cafes.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 56.3923,
+            "longitude": -5.5631
+          },
+          "address": "Easdale Island, Oban, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Island",
+            "Scenic",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Argyll and Bute UK location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Argyll_and_Bute_UK_location_map.svg/960px-Argyll_and_Bute_UK_location_map.svg.png",
+                "width": 800,
+                "height": 829,
+                "attribution": {
+                  "title": "Argyll and Bute UK location map",
+                  "author": "Nilfanion, created using Ordnance Survey data",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Argyll_and_Bute_UK_location_map.svg",
+                  "credit": "Ordnance Survey OpenData.\n\nAdministrative borders and coastline data from Boundary-Line product.\nAll other geographic data from Meridian 2 product.\nInset derived from Inset derived from File:Scotland location map.svg by NordNordWest.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank map of Argyll and Bute, UK with the following information shown:\n\nAdministrative borders\nCoastline, lakes and rivers\nRoads and railways\nUrban areas\nEquirectangular map projection on WGS 84 datum, with N/S stretched 175%\nGeographic limits:\n\nWest: 7.2W\nEast: 4.5W\nNorth: 56.8N\nSouth: 55.2N"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Kerrera Island Walks",
+          "ai_summary": "Walking trails on Kerrera Island, offering stunning views of the surrounding sea and islands.",
+          "name_english": "Kerrera Island Walks",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:35 AM",
+          "sunset_time": "08:25 PM",
+          "cost": "Ferry Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check ferry schedules for specific departure times."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning or afternoon",
+          "place_tip": "Wear comfortable shoes for walking.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 56.4074,
+            "longitude": -5.4878
+          },
+          "address": "Kerrera Island, Oban, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Island",
+            "Hiking",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Argyll and Bute UK location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Argyll_and_Bute_UK_location_map.svg/960px-Argyll_and_Bute_UK_location_map.svg.png",
+                "width": 800,
+                "height": 829,
+                "attribution": {
+                  "title": "Argyll and Bute UK location map",
+                  "author": "Nilfanion, created using Ordnance Survey data",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Argyll_and_Bute_UK_location_map.svg",
+                  "credit": "Ordnance Survey OpenData.\n\nAdministrative borders and coastline data from Boundary-Line product.\nAll other geographic data from Meridian 2 product.\nInset derived from Inset derived from File:Scotland location map.svg by NordNordWest.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank map of Argyll and Bute, UK with the following information shown:\n\nAdministrative borders\nCoastline, lakes and rivers\nRoads and railways\nUrban areas\nEquirectangular map projection on WGS 84 datum, with N/S stretched 175%\nGeographic limits:\n\nWest: 7.2W\nEast: 4.5W\nNorth: 56.8N\nSouth: 55.2N"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Loch Etive & Connel Bridge",
+          "ai_summary": "A scenic loch and bridge area near Oban, popular for photography and nature walks.",
+          "name_english": "Loch Etive & Connel Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Bring a camera for the stunning landscapes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.4071,
+            "longitude": -5.4699
+          },
+          "address": "Loch Etive, Oban, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Scenic",
+            "Photography",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Argyll and Bute UK location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Argyll_and_Bute_UK_location_map.svg/960px-Argyll_and_Bute_UK_location_map.svg.png",
+                "width": 800,
+                "height": 829,
+                "attribution": {
+                  "title": "Argyll and Bute UK location map",
+                  "author": "Nilfanion, created using Ordnance Survey data",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Argyll_and_Bute_UK_location_map.svg",
+                  "credit": "Ordnance Survey OpenData.\n\nAdministrative borders and coastline data from Boundary-Line product.\nAll other geographic data from Meridian 2 product.\nInset derived from Inset derived from File:Scotland location map.svg by NordNordWest.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank map of Argyll and Bute, UK with the following information shown:\n\nAdministrative borders\nCoastline, lakes and rivers\nRoads and railways\nUrban areas\nEquirectangular map projection on WGS 84 datum, with N/S stretched 175%\nGeographic limits:\n\nWest: 7.2W\nEast: 4.5W\nNorth: 56.8N\nSouth: 55.2N"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Sea Life Adventures (Seafari)",
+          "ai_summary": "Boat tours from Oban, offering wildlife watching and scenic cruises around the Hebridean Islands.",
+          "name_english": "Sea Life Adventures (Seafari)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies by tour",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 AM - 05:00 PM",
+            "Tuesday": "09:00 AM - 05:00 PM",
+            "Wednesday": "09:00 AM - 05:00 PM",
+            "Thursday": "09:00 AM - 05:00 PM",
+            "Friday": "09:00 AM - 05:00 PM",
+            "Saturday": "09:00 AM - 05:00 PM",
+            "Sunday": "09:00 AM - 05:00 PM",
+            "notes": "Advance booking recommended, especially in peak season."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Dress warmly and bring a camera.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 56.4113,
+            "longitude": -5.4713
+          },
+          "address": "Oban, United Kingdom",
+          "official_website": "https://www.sea-life-adventures.co.uk",
+          "tags": [
+            "Wildlife",
+            "Boat Tour",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Argyll and Bute UK location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Argyll_and_Bute_UK_location_map.svg/960px-Argyll_and_Bute_UK_location_map.svg.png",
+                "width": 800,
+                "height": 829,
+                "attribution": {
+                  "title": "Argyll and Bute UK location map",
+                  "author": "Nilfanion, created using Ordnance Survey data",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Argyll_and_Bute_UK_location_map.svg",
+                  "credit": "Ordnance Survey OpenData.\n\nAdministrative borders and coastline data from Boundary-Line product.\nAll other geographic data from Meridian 2 product.\nInset derived from Inset derived from File:Scotland location map.svg by NordNordWest.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank map of Argyll and Bute, UK with the following information shown:\n\nAdministrative borders\nCoastline, lakes and rivers\nRoads and railways\nUrban areas\nEquirectangular map projection on WGS 84 datum, with N/S stretched 175%\nGeographic limits:\n\nWest: 7.2W\nEast: 4.5W\nNorth: 56.8N\nSouth: 55.2N"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Arduaine Garden",
+          "ai_summary": "A beautiful coastal garden located south of Oban, featuring a wide variety of plants and stunning sea views.",
+          "name_english": "Arduaine Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "08:35 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 05:00 PM",
+            "Tuesday": "10:00 AM - 05:00 PM",
+            "Wednesday": "10:00 AM - 05:00 PM",
+            "Thursday": "10:00 AM - 05:00 PM",
+            "Friday": "10:00 AM - 05:00 PM",
+            "Saturday": "10:00 AM - 05:00 PM",
+            "Sunday": "10:00 AM - 05:00 PM",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Check out the rhododendron collection in spring.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.3921,
+            "longitude": -5.5634
+          },
+          "address": "Arduaine Garden, Oban, United Kingdom",
+          "official_website": "https://www.nts.org.uk/visit/places/arduain-garden",
+          "tags": [
+            "Garden",
+            "Scenic",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Argyll and Bute UK location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Argyll_and_Bute_UK_location_map.svg/960px-Argyll_and_Bute_UK_location_map.svg.png",
+                "width": 800,
+                "height": 829,
+                "attribution": {
+                  "title": "Argyll and Bute UK location map",
+                  "author": "Nilfanion, created using Ordnance Survey data",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Argyll_and_Bute_UK_location_map.svg",
+                  "credit": "Ordnance Survey OpenData.\n\nAdministrative borders and coastline data from Boundary-Line product.\nAll other geographic data from Meridian 2 product.\nInset derived from Inset derived from File:Scotland location map.svg by NordNordWest.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank map of Argyll and Bute, UK with the following information shown:\n\nAdministrative borders\nCoastline, lakes and rivers\nRoads and railways\nUrban areas\nEquirectangular map projection on WGS 84 datum, with N/S stretched 175%\nGeographic limits:\n\nWest: 7.2W\nEast: 4.5W\nNorth: 56.8N\nSouth: 55.2N"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Kilchurn Castle (nearby)",
+          "ai_summary": "A picturesque ruin of a castle located on the banks of Loch Awe, a short drive from Oban.",
+          "name_english": "Kilchurn Castle (nearby)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "08:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Bring a picnic and enjoy the views over Loch Awe.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.3972,
+            "longitude": -5.1959
+          },
+          "address": "Kilchurn Castle, Dalmally, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Castle",
+            "Scenic",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ailsa Craig2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Ailsa_Craig2.jpg",
+                "width": 640,
+                "height": 480,
+                "attribution": {
+                  "title": "Ailsa Craig2",
+                  "author": "John Phillips",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ailsa_Craig2.jpg",
+                  "credit": "From geograph.org.uk",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Ailsa Craig"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Inveraray Castle (day trip)",
+          "ai_summary": "A stunning castle located in Inveraray, about 30 minutes' drive from Oban, set in beautiful gardens.",
+          "name_english": "Inveraray Castle (day trip)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "08:45 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 05:00 PM",
+            "Tuesday": "10:00 AM - 05:00 PM",
+            "Wednesday": "10:00 AM - 05:00 PM",
+            "Thursday": "10:00 AM - 05:00 PM",
+            "Friday": "10:00 AM - 05:00 PM",
+            "Saturday": "10:00 AM - 05:00 PM",
+            "Sunday": "10:00 AM - 05:00 PM",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Explore the gardens and enjoy the views of Loch Fyne.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.2084,
+            "longitude": -5.0957
+          },
+          "address": "Inveraray Castle, Inveraray, United Kingdom",
+          "official_website": "https://www.inveraray-castle.com",
+          "tags": [
+            "Castle",
+            "Garden",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Argyll and Bute UK location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Argyll_and_Bute_UK_location_map.svg/960px-Argyll_and_Bute_UK_location_map.svg.png",
+                "width": 800,
+                "height": 829,
+                "attribution": {
+                  "title": "Argyll and Bute UK location map",
+                  "author": "Nilfanion, created using Ordnance Survey data",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Argyll_and_Bute_UK_location_map.svg",
+                  "credit": "Ordnance Survey OpenData.\n\nAdministrative borders and coastline data from Boundary-Line product.\nAll other geographic data from Meridian 2 product.\nInset derived from Inset derived from File:Scotland location map.svg by NordNordWest.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank map of Argyll and Bute, UK with the following information shown:\n\nAdministrative borders\nCoastline, lakes and rivers\nRoads and railways\nUrban areas\nEquirectangular map projection on WGS 84 datum, with N/S stretched 175%\nGeographic limits:\n\nWest: 7.2W\nEast: 4.5W\nNorth: 56.8N\nSouth: 55.2N"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Seil Island Clachan Bridge",
+          "ai_summary": "The famous bridge on Seil Island, part of the Slate Islands, known for its picturesque setting.",
+          "name_english": "Seil Island Clachan Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "08:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Take a walk around the island and enjoy the coastal views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.3075,
+            "longitude": -5.6158
+          },
+          "address": "Seil Island, Oban, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Bridge",
+            "Island",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:An Cala, Seil (21762529624).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/An_Cala%2C_Seil_%2821762529624%29.jpg/960px-An_Cala%2C_Seil_%2821762529624%29.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "An Cala, Seil (21762529624)",
+                  "author": "Tom Parnell from Scottish Borders, Scotland",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:An_Cala,_Seil_(21762529624).jpg",
+                  "credit": "An Cala, Seil",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "An Cala, Seil"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Tralee Beach",
+          "ai_summary": "A beautiful sandy beach located near Oban, ideal for a relaxing day by the sea.",
+          "name_english": "Tralee Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:55 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a picnic and enjoy the stunning coastal views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 56.4192,
+            "longitude": -5.4873
+          },
+          "address": "Tralee Beach, Oban, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Scenic",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cathedral of St John the Divine - Ard-eaglais Eòin an Diadhair - geograph.org.uk - 1004403.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cathedral_of_St_John_the_Divine_-_Ard-eaglais_E%C3%B2in_an_Diadhair_-_geograph.org.uk_-_1004403.jpg",
+                "width": 425,
+                "height": 640,
+                "attribution": {
+                  "title": "Cathedral of St John the Divine - Ard-eaglais Eòin an Diadhair - geograph.org.uk - 1004403",
+                  "author": "James Yardley",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_St_John_the_Divine_-_Ard-eaglais_Eòin_an_Diadhair_-_geograph.org.uk_-_1004403.jpg",
+                  "credit": "From geograph.org.uk",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Cathedral of St John the Divine / Ard-eaglais Eòin an Diadhair St John's Cathedral is surrounded by town buildings and less well known than St Columba's which enjoys a prominent position on the waterfront. It was constructed between 1863 and 1968 and this interior view shows the unusual steel girders which support the central tower."
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

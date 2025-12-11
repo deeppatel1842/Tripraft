@@ -1,0 +1,762 @@
+{
+  "country": "New Zealand",
+  "state": "Waikato",
+  "cities": [
+    {
+      "city": "Hamilton",
+      "nearest_airport": "Hamilton Airport",
+      "places": [
+        {
+          "name": "Hamilton Gardens",
+          "ai_summary": "A collection of themed gardens showcasing different cultures and styles, perfect for a relaxing stroll.",
+          "name_english": "Hamilton Gardens",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:10 AM",
+          "sunset_time": "8:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "7:30 AM - 8:00 PM",
+            "Tuesday": "7:30 AM - 8:00 PM",
+            "Wednesday": "7:30 AM - 8:00 PM",
+            "Thursday": "7:30 AM - 8:00 PM",
+            "Friday": "7:30 AM - 8:00 PM",
+            "Saturday": "7:30 AM - 8:00 PM",
+            "Sunday": "7:30 AM - 8:00 PM",
+            "notes": "Open year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the Italian Renaissance Garden.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -37.787,
+            "longitude": 175.3188
+          },
+          "address": "Hungerford Crescent, Hamilton, New Zealand",
+          "official_website": "https://hamiltongardens.co.nz",
+          "tags": [
+            "Nature",
+            "Culture",
+            "Relaxation"
+          ],
+          "state": "Waikato",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:View_to_Hamilton_from_the_Mountain_(6577549603).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/View_to_Hamilton_from_the_Mountain_%286577549603%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "View to Hamilton from the Mountain (6577549603)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/59724445@N07\">V. L.</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:View_to_Hamilton_from_the_Mountain_(6577549603).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Hamilton, ON"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Waitomo Caves",
+          "ai_summary": "A network of caves famous for their glowworms, underground rivers, and limestone formations.",
+          "name_english": "Waitomo Caves",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 55",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Book a guided tour to learn about the glowworms.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -38.2617,
+            "longitude": 175.1034
+          },
+          "address": "39 Waitomo Village Rd, Waitomo Caves, New Zealand",
+          "official_website": "https://www.waitomo.com",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Unique"
+          ],
+          "state": "Waikato",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Glowworm_Grotto,_Waitomo_Glowworm_Cave.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Glowworm_Grotto%2C_Waitomo_Glowworm_Cave.jpg/960px-Glowworm_Grotto%2C_Waitomo_Glowworm_Cave.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Glowworm Grotto, Waitomo Glowworm Cave",
+                  "author": "Michael Willison",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Glowworm_Grotto,_Waitomo_Glowworm_Cave.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "Tourists on a boat gliding through the Glowworm Grotto. The boatman pulls the boat along by an overhead wire. Photograph taken 1960s or 1970s."
+                }
+              }
+            }
+          },
+          "rank_score": 0.858
+        },
+        {
+          "name": "Hobbiton Movie Set",
+          "ai_summary": "A famous movie set from The Lord of the Rings and The Hobbit trilogies, offering guided tours and stunning landscapes.",
+          "name_english": "Hobbiton Movie Set",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:30 PM",
+          "cost": "Entry fee: NZD 89",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:30 PM",
+            "Tuesday": "9:00 AM - 5:30 PM",
+            "Wednesday": "9:00 AM - 5:30 PM",
+            "Thursday": "9:00 AM - 5:30 PM",
+            "Friday": "9:00 AM - 5:30 PM",
+            "Saturday": "9:00 AM - 5:30 PM",
+            "Sunday": "9:00 AM - 5:30 PM",
+            "notes": "Tours run every 30 minutes."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Enjoy a drink at The Green Dragon Inn after the tour.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -37.8722,
+            "longitude": 175.6811
+          },
+          "address": "501 Buckland Rd, Matamata, New Zealand",
+          "official_website": "https://www.hobbitontours.com",
+          "tags": [
+            "Film",
+            "Culture",
+            "Scenic"
+          ],
+          "state": "Waikato",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Waterhouse_Lake_Front.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Waterhouse_Lake_Front.jpg/960px-Waterhouse_Lake_Front.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Waterhouse Lake Front",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Harsh.gavhane&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Harsh.gavhane (page does not exist)\">Harsh.gavhane</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Waterhouse_Lake_Front.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "This is a small Waterhouse opposite to the Green Dragon Inn."
+                }
+              }
+            }
+          },
+          "rank_score": 0.858
+        },
+        {
+          "name": "Zealong Tea Estate",
+          "ai_summary": "New Zealand's only commercial tea plantation, offering tea tastings and beautiful garden walks.",
+          "name_english": "Zealong Tea Estate",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:20 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Tea tasting: NZD 30",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 4:00 PM",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try the High Tea experience for a special treat.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -37.787,
+            "longitude": 175.3188
+          },
+          "address": "495 Gordonton Rd, Hamilton, New Zealand",
+          "official_website": "https://zealong.com",
+          "tags": [
+            "Food",
+            "Nature",
+            "Culture"
+          ],
+          "state": "Waikato",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Te Aroha Mineral Spas",
+          "ai_summary": "Relaxing mineral spas set in a beautiful garden landscape, offering a range of spa treatments.",
+          "name_english": "Te Aroha Mineral Spas",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:45 PM",
+          "cost": "Spa treatments: NZD 85",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Booking recommended for treatments."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t forget to explore the Te Aroha Domain gardens.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -37.3947,
+            "longitude": 175.6488
+          },
+          "address": "11-17 Boundary St, Te Aroha, New Zealand",
+          "official_website": "https://tearohaspa.co.nz",
+          "tags": [
+            "Wellness",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Waikato",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cadman_Bath_House_(former)_Te_Aroha.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cadman_Bath_House_%28former%29_Te_Aroha.jpg/960px-Cadman_Bath_House_%28former%29_Te_Aroha.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cadman Bath House (former) Te Aroha",
+                  "author": "Ulrich Lange, Bochum, Germany",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cadman_Bath_House_(former)_Te_Aroha.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Cadman Bath House (former), Te Aroha, Waikato Region, New Zealand\n<p>Whitaker Street, Te Aroha Hot Springs Domain, Te Aroha\n</p>\nNZ Historic Places Trust, list number 761"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Mount Te Aroha",
+          "ai_summary": "A prominent mountain offering hiking trails with stunning views of the Waikato region.",
+          "name_english": "Mount Te Aroha",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best climbed in the early morning or late afternoon."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear sturdy shoes and take plenty of water.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -37.3947,
+            "longitude": 175.6488
+          },
+          "address": "Te Aroha, New Zealand",
+          "official_website": "https://www.doc.govt.nz",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Scenic"
+          ],
+          "state": "Waikato",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cadman_Bath_House_(former)_Te_Aroha.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cadman_Bath_House_%28former%29_Te_Aroha.jpg/960px-Cadman_Bath_House_%28former%29_Te_Aroha.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cadman Bath House (former) Te Aroha",
+                  "author": "Ulrich Lange, Bochum, Germany",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cadman_Bath_House_(former)_Te_Aroha.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Cadman Bath House (former), Te Aroha, Waikato Region, New Zealand\n<p>Whitaker Street, Te Aroha Hot Springs Domain, Te Aroha\n</p>\nNZ Historic Places Trust, list number 761"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Nikau Cave & Cafe",
+          "ai_summary": "A stunning cave with a café at the entrance, offering guided tours to see the glowworms and unique rock formations.",
+          "name_english": "Nikau Cave & Cafe",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 50",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try the homemade cakes at the café.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -37.8715,
+            "longitude": 175.6811
+          },
+          "address": "State Highway 2, Te Puke, New Zealand",
+          "official_website": "https://nikaucave.co.nz",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Food"
+          ],
+          "state": "Waikato",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Waikato Museum",
+          "ai_summary": "A regional museum in Hamilton, showcasing the art, history, and culture of the Waikato region.",
+          "name_english": "Waikato Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry by donation",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check out the interactive science exhibits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -37.787,
+            "longitude": 175.3188
+          },
+          "address": "1 Grantham St, Hamilton, New Zealand",
+          "official_website": "https://waikatomuseum.co.nz",
+          "tags": [
+            "Culture",
+            "History",
+            "Art"
+          ],
+          "state": "Waikato",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:WaikatoMuseum.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/WaikatoMuseum.jpg/960px-WaikatoMuseum.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "WaikatoMuseum",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nzwj&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nzwj (page does not exist)\">Nzwj</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:WaikatoMuseum.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Waikato Museum, viewed from Memorial Park, Hamilton East."
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Hakarimata Summit Track",
+          "ai_summary": "A popular hiking track leading to the summit of the Hakarimata Range, offering panoramic views.",
+          "name_english": "Hakarimata Summit Track",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best hiked in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take warm clothes, it can be chilly at the summit.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -37.6372,
+            "longitude": 175.0026
+          },
+          "address": "Hakarimata Rd, Ngaruawahia, New Zealand",
+          "official_website": "https://www.doc.govt.nz",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Scenic"
+          ],
+          "state": "Waikato",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hakarimata_summit_tower.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Hakarimata_summit_tower.jpg/960px-Hakarimata_summit_tower.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Hakarimata summit tower",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Johnragla&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Johnragla (page does not exist)\">Johnragla</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hakarimata_summit_tower.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "374m summit sign was in place in 2015, but not 2017"
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Coromandel Peninsula (partially)",
+          "ai_summary": "A stunning peninsula known for its beautiful beaches, forests, and the famous Hot Water Beach.",
+          "name_english": "Coromandel Peninsula (partially)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored with a rental car."
+          },
+          "suggested_duration": "1-3 days",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the Coromandel Town for local arts and crafts.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.8369,
+            "longitude": 175.6682
+          },
+          "address": "Coromandel Peninsula, New Zealand",
+          "official_website": "https://www.coromandelpeninsula.co.nz",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Beaches"
+          ],
+          "state": "Waikato",
+          "photos": {},
+          "rank_score": 0.842
+        },
+        {
+          "name": "Ruakuri Cave",
+          "ai_summary": "A spectacular cave known for its stunning limestone formations and glowworm displays.",
+          "name_english": "Ruakuri Cave",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 55",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for the cave tour.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -37.3547,
+            "longitude": 175.0833
+          },
+          "address": "State Highway 37, Waitomo, New Zealand",
+          "official_website": "https://www.waitomo.com",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Unique"
+          ],
+          "state": "Waikato",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Glowworm_Grotto,_Waitomo_Glowworm_Cave.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Glowworm_Grotto%2C_Waitomo_Glowworm_Cave.jpg/960px-Glowworm_Grotto%2C_Waitomo_Glowworm_Cave.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Glowworm Grotto, Waitomo Glowworm Cave",
+                  "author": "Michael Willison",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Glowworm_Grotto,_Waitomo_Glowworm_Cave.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "Tourists on a boat gliding through the Glowworm Grotto. The boatman pulls the boat along by an overhead wire. Photograph taken 1960s or 1970s."
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Aranui Cave",
+          "ai_summary": "A beautiful cave known for its impressive stalactites, stalagmites, and glowworm displays.",
+          "name_english": "Aranui Cave",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 50",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine your visit with Ruakuri Cave for a complete experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -37.3547,
+            "longitude": 175.0833
+          },
+          "address": "State Highway 37, Waitomo, New Zealand",
+          "official_website": "https://www.waitomo.com",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Unique"
+          ],
+          "state": "Waikato",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Blue Spring (Te Waihou Walkway)",
+          "ai_summary": "A stunning natural spring with crystal clear blue water, located along the Te Waihou Walkway.",
+          "name_english": "Blue Spring (Te Waihou Walkway)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning for the best light."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera, the scenery is breathtaking.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -37.9624,
+            "longitude": 175.978
+          },
+          "address": "Te Waihou Walkway, Putaruru, New Zealand",
+          "official_website": "https://www.doc.govt.nz",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Photography"
+          ],
+          "state": "Waikato",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:MARTA_Indian_Creek_Station.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/MARTA_Indian_Creek_Station.JPG/960px-MARTA_Indian_Creek_Station.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "MARTA Indian Creek Station",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gman197002&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gman197002 (page does not exist)\">Gman197002</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:MARTA_Indian_Creek_Station.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "MARTA's Indian Creek Station"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Classic Car Museum (Hamilton)",
+          "ai_summary": "A must-visit for car enthusiasts, showcasing a vast collection of classic and vintage cars.",
+          "name_english": "Classic Car Museum (Hamilton)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 15",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the guided tours for detailed information on the cars.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -37.787,
+            "longitude": 175.3188
+          },
+          "address": "420 Victoria St, Hamilton, New Zealand",
+          "official_website": "https://classiccar.co.nz",
+          "tags": [
+            "Museum",
+            "History",
+            "Cars"
+          ],
+          "state": "Waikato",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:10_The_High.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/10_The_High.jpg/960px-10_The_High.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "10 The High",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Atlantacitizen\" class=\"extiw\" title=\"w:User:Atlantacitizen\">w:User:Atlantacitizen</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:10_The_High.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The <a href=\"https://en.wikipedia.org/wiki/High_Museum_of_Art\" class=\"extiw\" title=\"w:High Museum of Art\">High Museum of Art</a> in <a href=\"https://en.wikipedia.org/wiki/Atlanta,_Georgia\" class=\"extiw\" title=\"w:Atlanta, Georgia\">Atlanta, Georgia</a>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        }
+      ]
+    }
+  ]
+}

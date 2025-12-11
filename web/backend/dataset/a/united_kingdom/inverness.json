@@ -1,0 +1,1135 @@
+{
+  "country": "United Kingdom",
+  "state": "Inverness",
+  "cities": [
+    {
+      "city": "Inverness",
+      "nearest_airport": "Inverness Airport",
+      "places": [
+        {
+          "name": "Inverness Castle Viewpoint",
+          "ai_summary": "A historic castle offering panoramic views of Inverness and the surrounding Highlands.",
+          "name_english": "Inverness Castle Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50 AM",
+          "sunset_time": "07:55 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Visit during sunset for breathtaking views of the Highlands.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4778,
+            "longitude": -4.2247
+          },
+          "address": "Castle St, Inverness IV2 3EG, United Kingdom",
+          "official_website": "https://www.inverness-castle.com/",
+          "tags": [
+            "castle",
+            "views",
+            "history"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Castle of Inverness.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Castle_of_Inverness.JPG/960px-Castle_of_Inverness.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Castle of Inverness",
+                  "author": "Tou-x",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Castle_of_Inverness.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "shows the Castle of Inverness."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ness Islands",
+          "ai_summary": "A tranquil retreat with scenic walking trails and lush greenery along the River Ness.",
+          "name_english": "Ness Islands",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and Autumn",
+          "place_tip": "Bring a picnic and enjoy the serene surroundings.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4716,
+            "longitude": -4.2314
+          },
+          "address": "Ness Islands, Inverness, United Kingdom",
+          "official_website": "https://www.visitinverness.com/ness-islands",
+          "tags": [
+            "nature",
+            "walking",
+            "scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Inverness Cathedral",
+          "ai_summary": "A beautiful Gothic-style cathedral located on the banks of the River Ness.",
+          "name_english": "Inverness Cathedral",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free (Donations welcome)",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "1:00 PM - 5:00 PM",
+            "notes": "Closed during private events."
+          },
+          "suggested_duration": "30-60 minutes",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Admire the stained glass windows and peaceful atmosphere.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4719,
+            "longitude": -4.2272
+          },
+          "address": "Ardross St, Inverness IV3 5NS, United Kingdom",
+          "official_website": "https://www.invernesscathedral.org/",
+          "tags": [
+            "cathedral",
+            "architecture",
+            "history"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Victorian Market",
+          "ai_summary": "A charming covered market with a variety of shops, cafes, and local produce.",
+          "name_english": "Victorian Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:30 PM",
+            "Tuesday": "9:00 AM - 5:30 PM",
+            "Wednesday": "9:00 AM - 5:30 PM",
+            "Thursday": "9:00 AM - 5:30 PM",
+            "Friday": "9:00 AM - 5:30 PM",
+            "Saturday": "9:00 AM - 5:30 PM",
+            "Sunday": "Closed",
+            "notes": "Check individual shop hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the local shops and enjoy a bite at the cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4772,
+            "longitude": -4.2241
+          },
+          "address": "18-20 Academy St, Inverness IV1 1LU, United Kingdom",
+          "official_website": "https://www.inverness-victorian-market.com/",
+          "tags": [
+            "shopping",
+            "food",
+            "local produce"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Inverness Castle 8.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Inverness_Castle_8.JPG",
+                "width": 640,
+                "height": 480,
+                "attribution": {
+                  "title": "Inverness Castle 8",
+                  "author": "QuintusPetillius",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Inverness_Castle_8.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Inverness Castle, Inverness, Scotland in March 2011"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Old High Church",
+          "ai_summary": "The oldest church in Inverness, known for its historic significance and architecture.",
+          "name_english": "Old High Church",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Open for services and special events."
+          },
+          "suggested_duration": "30-45 minutes",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Check the schedule for concerts and events.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4774,
+            "longitude": -4.2275
+          },
+          "address": "High St, Inverness IV2 3EG, United Kingdom",
+          "official_website": "https://www.oldhighststephens.com/",
+          "tags": [
+            "church",
+            "history",
+            "architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Inverness, Tollbooth Steeple - geograph.org.uk - 3651915.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Inverness%2C_Tollbooth_Steeple_-_geograph.org.uk_-_3651915.jpg/960px-Inverness%2C_Tollbooth_Steeple_-_geograph.org.uk_-_3651915.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Inverness, Tollbooth Steeple - geograph.org.uk - 3651915",
+                  "author": "Dr Neil Clifton",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Inverness,_Tollbooth_Steeple_-_geograph.org.uk_-_3651915.jpg",
+                  "credit": "Geograph Britain and Ireland",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Inverness:  Tollbooth Steeple"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Leakey’s Bookshop",
+          "ai_summary": "A delightful second-hand bookshop with a cozy atmosphere and a great selection of books.",
+          "name_english": "Leakey’s Bookshop",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:30 AM - 5:00 PM",
+            "Tuesday": "9:30 AM - 5:00 PM",
+            "Wednesday": "9:30 AM - 5:00 PM",
+            "Thursday": "9:30 AM - 5:00 PM",
+            "Friday": "9:30 AM - 5:00 PM",
+            "Saturday": "9:30 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Special hours during holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Browse the shelves and enjoy a coffee in the reading nook.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.477,
+            "longitude": -4.2245
+          },
+          "address": "63-67 Church St, Inverness IV1 1ES, United Kingdom",
+          "official_website": "https://www.leakeysbookshop.com/",
+          "tags": [
+            "bookshop",
+            "reading",
+            "cozy"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Scotland.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/960px-Flag_of_Scotland.svg.png",
+                "width": 800,
+                "height": 480,
+                "attribution": {
+                  "title": "Flag of Scotland",
+                  "author": "none known",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Scotland.svg",
+                  "credit": "http://kbolino.freeshell.org/svg/scotland.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Scotland. Ratio 3:5. The blue used is \"royal\" blue (Pantone 300), following the Scottish Parliament's recommendation of 2003. See also the traditional colour: Flag of Scotland (traditional).svg: ."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "River Ness Walk",
+          "ai_summary": "A scenic walk along the River Ness, offering beautiful views and a chance to see local wildlife.",
+          "name_english": "River Ness Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "08:05 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed on foot or by bike."
+          },
+          "suggested_duration": "1-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Look out for otters and other wildlife along the way.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.471,
+            "longitude": -4.227
+          },
+          "address": "River Ness, Inverness, United Kingdom",
+          "official_website": "https://www.visitinverness.com/river-ness-walk",
+          "tags": [
+            "walking",
+            "scenic",
+            "wildlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Eden Court Theatre",
+          "ai_summary": "The largest arts venue in the Highlands, hosting a variety of performances and events.",
+          "name_english": "Eden Court Theatre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Varies by event",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Check schedule for performances."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Book tickets in advance for popular shows.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 57.4775,
+            "longitude": -4.2278
+          },
+          "address": "Eden Court, Inverness IV2 3TR, United Kingdom",
+          "official_website": "https://www.eden-court.co.uk/",
+          "tags": [
+            "theatre",
+            "arts",
+            "events"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Inverness, Tollbooth Steeple - geograph.org.uk - 3651915.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Inverness%2C_Tollbooth_Steeple_-_geograph.org.uk_-_3651915.jpg/960px-Inverness%2C_Tollbooth_Steeple_-_geograph.org.uk_-_3651915.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Inverness, Tollbooth Steeple - geograph.org.uk - 3651915",
+                  "author": "Dr Neil Clifton",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Inverness,_Tollbooth_Steeple_-_geograph.org.uk_-_3651915.jpg",
+                  "credit": "Geograph Britain and Ireland",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Inverness:  Tollbooth Steeple"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Inverness Museum & Art Gallery",
+          "ai_summary": "A museum showcasing the history and art of the Inverness area, including the Jacobite risings.",
+          "name_english": "Inverness Museum & Art Gallery",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don't miss the exhibit on the Battle of Culloden.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4771,
+            "longitude": -4.2249
+          },
+          "address": "Castle Wynd, Inverness IV2 3EB, United Kingdom",
+          "official_website": "https://www.highlifehighland.com/invernessmuseum/",
+          "tags": [
+            "museum",
+            "art",
+            "history"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Scotland.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/960px-Flag_of_Scotland.svg.png",
+                "width": 800,
+                "height": 480,
+                "attribution": {
+                  "title": "Flag of Scotland",
+                  "author": "none known",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Scotland.svg",
+                  "credit": "http://kbolino.freeshell.org/svg/scotland.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Scotland. Ratio 3:5. The blue used is \"royal\" blue (Pantone 300), following the Scottish Parliament's recommendation of 2003. See also the traditional colour: Flag of Scotland (traditional).svg: ."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Culloden Battlefield (NTS)",
+          "ai_summary": "The site of the last battle fought on British soil, now a memorial and visitor center.",
+          "name_english": "Culloden Battlefield (NTS)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Visit the battlefield and the visitor center for a full experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4748,
+            "longitude": -4.1133
+          },
+          "address": "Culloden Moor, Inverness IV2 5EU, United Kingdom",
+          "official_website": "https://www.nts.org.uk/visit/places/culloden",
+          "tags": [
+            "history",
+            "battlefield",
+            "memorial"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:\"The End of the 'Forty Five' Rebellion\".jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/%22The_End_of_the_%27Forty_Five%27_Rebellion%22.jpg",
+                "width": 600,
+                "height": 433,
+                "attribution": {
+                  "title": "\"The End of the 'Forty Five' Rebellion\"",
+                  "author": "William Hole",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:\"The_End_of_the_'Forty_Five'_Rebellion\".jpg",
+                  "credit": "This file was found on this website. This is the original link from where the file was taken.",
+                  "usage_terms": "Public domain",
+                  "description": "The End of the 'Forty Five' Rebellion, by William Brasse Hole, published in The Art Journal in 1882.This image depicts the final chapter of the 1745 Jacobite Rebellion which was led by Charles Edward Stuart. The image shows the fatigue, hunger and despair of the wounded soldiers."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Clava Cairns",
+          "ai_summary": "A prehistoric burial site with impressive stone circles and cairns, dating back over 4,000 years.",
+          "name_english": "Clava Cairns",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:35 AM",
+          "sunset_time": "08:10 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Take a guided tour to learn about the history and significance.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4772,
+            "longitude": -4.0867
+          },
+          "address": "Clava Cairns, Inverness IV2 5EU, United Kingdom",
+          "official_website": "https://www.historicenvironment.scot/visit-a-place/places/clava-cairns/",
+          "tags": [
+            "history",
+            "archaeology",
+            "scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Fort George",
+          "ai_summary": "An 18th-century fortress with well-preserved buildings and stunning views over the Moray Firth.",
+          "name_english": "Fort George",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "08:20 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:30 AM - 5:30 PM",
+            "Tuesday": "9:30 AM - 5:30 PM",
+            "Wednesday": "9:30 AM - 5:30 PM",
+            "Thursday": "9:30 AM - 5:30 PM",
+            "Friday": "9:30 AM - 5:30 PM",
+            "Saturday": "9:30 AM - 5:30 PM",
+            "Sunday": "9:30 AM - 5:30 PM",
+            "notes": "Last admission 1 hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Explore the ramparts and enjoy the views over the firth.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.5781,
+            "longitude": -4.0258
+          },
+          "address": "Fort George, Ardersier, Inverness IV2 7TD, United Kingdom",
+          "official_website": "https://www.historicenvironment.scot/visit-a-place/places/fort-george/",
+          "tags": [
+            "fortress",
+            "history",
+            "views"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Fort George railway station (site), Highland (geograph 5410757).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Fort_George_railway_station_%28site%29%2C_Highland_%28geograph_5410757%29.jpg/960px-Fort_George_railway_station_%28site%29%2C_Highland_%28geograph_5410757%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Fort George railway station (site), Highland (geograph 5410757)",
+                  "author": "Nigel Thompson",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Fort_George_railway_station_(site),_Highland_(geograph_5410757).jpg",
+                  "credit": "From geograph.org.uk",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Fort George railway station (site), HighlandOpened in 1899 by the Highland Railway as the terminus of a short branch from Gollanfield, this station closed to passengers in 1943 and completely in 1958."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Loch Ness Cruise & Urquhart Castle",
+          "ai_summary": "A scenic cruise on Loch Ness with views of the famous Urquhart Castle.",
+          "name_english": "Loch Ness Cruise & Urquhart Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Varies by cruise",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Book in advance during peak season."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring and Autumn",
+          "place_tip": "Keep an eye out for Nessie, the Loch Ness Monster!",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 57.3229,
+            "longitude": -4.4244
+          },
+          "address": "Loch Ness, Drumnadrochit, Inverness IV63 6TU, United Kingdom",
+          "official_website": "https://www.cruiselochness.com/",
+          "tags": [
+            "cruise",
+            "loch ness",
+            "urquhart castle"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Caledonian Canal & Muirtown Locks",
+          "ai_summary": "A picturesque canal with locks, offering walks and bike rides along its banks.",
+          "name_english": "Caledonian Canal & Muirtown Locks",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "08:05 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed on foot or by bike."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Watch the boats navigate the locks - a great photo opportunity.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4751,
+            "longitude": -4.2244
+          },
+          "address": "Muirtown, Inverness IV3 8HA, United Kingdom",
+          "official_website": "https://www.visitscotland.com/info/see-do/caledonian-canal-p246821",
+          "tags": [
+            "canal",
+            "walking",
+            "biking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Inverness Castle 8.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Inverness_Castle_8.JPG",
+                "width": 640,
+                "height": 480,
+                "attribution": {
+                  "title": "Inverness Castle 8",
+                  "author": "QuintusPetillius",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Inverness_Castle_8.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Inverness Castle, Inverness, Scotland in March 2011"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Craig Phadrig Hillfort",
+          "ai_summary": "An ancient hillfort with stunning views over Inverness and the Moray Firth.",
+          "name_english": "Craig Phadrig Hillfort",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Wear sturdy shoes for the walk up the hill.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4776,
+            "longitude": -4.2273
+          },
+          "address": "Craig Phadrig, Inverness IV3 8LA, United Kingdom",
+          "official_website": "https://www.historicenvironment.scot/visit-a-place/places/craig-phadrig/",
+          "tags": [
+            "hillfort",
+            "history",
+            "views"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Inverness IMG 3426 (14723100748).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Inverness_IMG_3426_%2814723100748%29.jpg/960px-Inverness_IMG_3426_%2814723100748%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Inverness IMG 3426 (14723100748)",
+                  "author": "Reading Tom from Reading, UK",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Inverness_IMG_3426_(14723100748).jpg",
+                  "credit": "IMG_3426",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "IMG_3426"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Merkinch Local Nature Reserve",
+          "ai_summary": "A nature reserve with a variety of habitats, walking trails, and birdwatching opportunities.",
+          "name_english": "Merkinch Local Nature Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "07:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Bring binoculars for birdwatching.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4759,
+            "longitude": -4.2271
+          },
+          "address": "Merkinch, Inverness IV3 8HA, United Kingdom",
+          "official_website": "https://www.highlifehighland.com/merkinch-local-nature-reserve/",
+          "tags": [
+            "nature reserve",
+            "walking",
+            "birdwatching"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Scotland.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/960px-Flag_of_Scotland.svg.png",
+                "width": 800,
+                "height": 480,
+                "attribution": {
+                  "title": "Flag of Scotland",
+                  "author": "none known",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Scotland.svg",
+                  "credit": "http://kbolino.freeshell.org/svg/scotland.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Scotland. Ratio 3:5. The blue used is \"royal\" blue (Pantone 300), following the Scottish Parliament's recommendation of 2003. See also the traditional colour: Flag of Scotland (traditional).svg: ."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Whin Park",
+          "ai_summary": "A public park with beautiful gardens, a pond, and walking paths, perfect for a leisurely stroll.",
+          "name_english": "Whin Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "07:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Enjoy a peaceful walk and relax by the pond.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4773,
+            "longitude": -4.2274
+          },
+          "address": "Whin Park, Inverness, United Kingdom",
+          "official_website": "https://www.highlifehighland.com/whin-park/",
+          "tags": [
+            "park",
+            "gardens",
+            "walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Inverness, Tollbooth Steeple - geograph.org.uk - 3651915.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Inverness%2C_Tollbooth_Steeple_-_geograph.org.uk_-_3651915.jpg/960px-Inverness%2C_Tollbooth_Steeple_-_geograph.org.uk_-_3651915.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Inverness, Tollbooth Steeple - geograph.org.uk - 3651915",
+                  "author": "Dr Neil Clifton",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Inverness,_Tollbooth_Steeple_-_geograph.org.uk_-_3651915.jpg",
+                  "credit": "Geograph Britain and Ireland",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Inverness:  Tollbooth Steeple"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Tomnahurich Hill",
+          "ai_summary": "A hill offering panoramic views of Inverness, Loch Ness, and the surrounding countryside.",
+          "name_english": "Tomnahurich Hill",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "08:05 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit at sunrise or sunset for stunning views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4779,
+            "longitude": -4.2248
+          },
+          "address": "Tomnahurich Hill, Inverness, United Kingdom",
+          "official_website": "https://www.visitinverness.com/tomnahurich-hill",
+          "tags": [
+            "hill",
+            "views",
+            "walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Castle of Inverness.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Castle_of_Inverness.JPG/960px-Castle_of_Inverness.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Castle of Inverness",
+                  "author": "Tou-x",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Castle_of_Inverness.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "shows the Castle of Inverness."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Beauly Priory (nearby)",
+          "ai_summary": "The ruins of a 13th-century priory set in a tranquil location by the River Beauly.",
+          "name_english": "Beauly Priory (nearby)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50 AM",
+          "sunset_time": "07:55 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the ruins and enjoy a peaceful walk by the river.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.4431,
+            "longitude": -4.4331
+          },
+          "address": "Beauly Priory, Beauly, Inverness IV4 7BX, United Kingdom",
+          "official_website": "https://www.historicenvironment.scot/visit-a-place/places/beauly-priory/",
+          "tags": [
+            "ruins",
+            "history",
+            "scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cabrich.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Cabrich.JPG/960px-Cabrich.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cabrich",
+                  "author": "Iain Maclennan",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cabrich.JPG",
+                  "credit": "Transferred from en.wikipedia to Commons by Common Good using CommonsHelper.",
+                  "usage_terms": "Public domain",
+                  "description": "A photograph of Cabrich."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Chanonry Point Dolphin Watching (nearby)",
+          "ai_summary": "A popular spot for dolphin watching, with stunning views over the Moray Firth.",
+          "name_english": "Chanonry Point Dolphin Watching (nearby)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "08:05 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Bring binoculars and be patient for dolphin sightings.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.5665,
+            "longitude": -4.0862
+          },
+          "address": "Chanonry Point, Fortrose IV10 8SD, United Kingdom",
+          "official_website": "https://www.visitscotland.com/info/see-do/chanonry-point-p246821",
+          "tags": [
+            "dolphin watching",
+            "scenic",
+            "nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Chanonry Lighthouse Fortrose and Rosemarkie - Black Isle, Ross and Cromarty, Scotland (4622320141).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Chanonry_Lighthouse_Fortrose_and_Rosemarkie_-_Black_Isle%2C_Ross_and_Cromarty%2C_Scotland_%284622320141%29.jpg/960px-Chanonry_Lighthouse_Fortrose_and_Rosemarkie_-_Black_Isle%2C_Ross_and_Cromarty%2C_Scotland_%284622320141%29.jpg",
+                "width": 800,
+                "height": 566,
+                "attribution": {
+                  "title": "Chanonry Lighthouse Fortrose and Rosemarkie - Black Isle, Ross and Cromarty, Scotland (4622320141)",
+                  "author": "Dave Conner from Inverness, Scotland",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Chanonry_Lighthouse_Fortrose_and_Rosemarkie_-_Black_Isle,_Ross_and_Cromarty,_Scotland_(4622320141).jpg",
+                  "credit": "Chanonry Lighthouse Fortrose and Rosemarkie - Black Isle, Ross and Cromarty, Scotland\n\nUploaded by Vclaw",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Chanonry Lighthouse, originally a 'one-man station', is situated on the Black Isle, south of Rosemarkie, as the moray Firth narrows between Chanonry Point and Fort George. \nThe establishment of a light on Chanonry Point was first proposed in 1834 and again in 1837 by the Commissioners' Engineer, Alan Stevenson, but it was not until 1843 that the motion to erect such a lighthouse was approved by the Commissioners. In May 1843 the Commissioners made representations to Trinity House who duly approved the proposed seamark in July 1843. \nThe cost of building the lighthouse and lightkeepers' dwellings was £3,570 and the light was first exhibited on the night of 15 May 1846. \nWhen the station was manned, the lightkeeper, in addition to his normal lightkeeping duties, was the \"Observer\" of Munlochy Shoal, Middle Bank East, Craigmee, Riff Bank East and Navitty Bank Lighted buoys. \nThe station was automated in 1984 and is now remotely monitored from the Northern Lighthouse Board’s offices in Edinburgh. \n\nwww.nlb.org.uk/ourlights/history/chanonry.htm"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

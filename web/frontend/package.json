@@ -6,11 +6,14 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {
+    "@tanstack/query-sync-storage-persister": "^5.90.13",
     "@tanstack/react-query": "^5.90.10",
     "@tanstack/react-query-devtools": "^5.90.2",
+    "@tanstack/react-query-persist-client": "^5.90.13",
     "@vitejs/plugin-react": "^5.0.2",
     "firebase": "^10.4.0",
     "leaflet": "^1.9.4",
@@ -21,7 +24,13 @@
     "react-router-dom": "^7.9.1"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
     "baseline-browser-mapping": "^2.8.28",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
     "vite": "^5.0.0"
   }
 }

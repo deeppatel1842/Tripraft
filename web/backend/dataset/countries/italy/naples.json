@@ -1,0 +1,1173 @@
+{
+  "country": "Italy",
+  "state": "Naples",
+  "cities": [
+    {
+      "city": "Naples",
+      "nearest_airport": "Naples International Airport",
+      "places": [
+        {
+          "name": "Mount Vesuvius",
+          "ai_summary": "An iconic volcano known for its eruption in 79 AD that buried Pompeii and Herculaneum, offering hiking trails and panoramic views.",
+          "name_english": "Mount Vesuvius",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "€10 per person",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 4:00 PM",
+            "Tuesday": "9:00 AM - 4:00 PM",
+            "Wednesday": "9:00 AM - 4:00 PM",
+            "Thursday": "9:00 AM - 4:00 PM",
+            "Friday": "9:00 AM - 4:00 PM",
+            "Saturday": "9:00 AM - 4:00 PM",
+            "Sunday": "9:00 AM - 4:00 PM",
+            "notes": "Weather conditions may affect access."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for the hike.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 40.8214,
+            "longitude": 14.4265
+          },
+          "address": "Mount Vesuvius, Naples, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Natural",
+            "Hiking",
+            "Scenic"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:340th Bombardment Group B-25 Mitchell covered with ash from Mount Vesuvius.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/340th_Bombardment_Group_B-25_Mitchell_covered_with_ash_from_Mount_Vesuvius.jpg/800px-340th_Bombardment_Group_B-25_Mitchell_covered_with_ash_from_Mount_Vesuvius.jpg",
+                "width": 800,
+                "height": 859,
+                "attribution": {
+                  "title": "340th Bombardment Group B-25 Mitchell covered with ash from Mount Vesuvius",
+                  "author": "United States Army Air Force",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:340th_Bombardment_Group_B-25_Mitchell_covered_with_ash_from_Mount_Vesuvius.jpg",
+                  "credit": "National Archives and Records Administration, College Park, MD  http://www.warwingsart.com/12thAirForce/Vesuvius.html",
+                  "usage_terms": "Public domain",
+                  "description": "Original Caption (included on image): Crew member cleaning the ashes and cinders off the wing of a North American B-25 of the 340th Bomb Group. This was caused by the eruption of Mt. Vesuvius on 23 March 1944."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8035
+        },
+        {
+          "name": "Pompeii Archaeological Site",
+          "ai_summary": "A UNESCO World Heritage Site showcasing the preserved ruins of the ancient Roman city buried by Mount Vesuvius in 79 AD.",
+          "name_english": "Pompeii",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€16 per person",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Hire a guide to fully appreciate the history.",
+          "advanced_booking": "Highly recommended",
+          "coordinates": {
+            "latitude": 40.7485,
+            "longitude": 14.5009
+          },
+          "address": "Pompeii, Naples, Italy",
+          "official_website": "https://www.pompeiisites.org",
+          "tags": [
+            "Historical",
+            "Cultural",
+            "UNESCO"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Citrus store at Pompeii.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Citrus_store_at_Pompeii.JPG/960px-Citrus_store_at_Pompeii.JPG",
+                "width": 800,
+                "height": 488,
+                "attribution": {
+                  "title": "Citrus store at Pompeii",
+                  "author": "No machine-readable author provided. David Shay assumed (based on copyright claims).",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Citrus_store_at_Pompeii.JPG",
+                  "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Citrus store at Pompei, Italy. Picture taken by David Shay."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7977
+        },
+        {
+          "name": "Naples National Archaeological Museum",
+          "ai_summary": "One of the most important archaeological museums in the world, housing artifacts from Pompeii and Herculaneum.",
+          "name_english": "Naples Archaeological Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€12 per person",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 7:30 PM",
+            "Wednesday": "9:00 AM - 7:30 PM",
+            "Thursday": "9:00 AM - 7:30 PM",
+            "Friday": "9:00 AM - 7:30 PM",
+            "Saturday": "9:00 AM - 7:30 PM",
+            "Sunday": "9:00 AM - 7:30 PM",
+            "notes": "Check for special exhibitions."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the Secret Cabinet collection.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 40.8522,
+            "longitude": 14.2681
+          },
+          "address": "Piazza Museo, Naples, Italy",
+          "official_website": "https://www.museoarcheologiconapoli.it",
+          "tags": [
+            "Cultural",
+            "Museum",
+            "Historical"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Basilica della Santissima Annunziata Maggiore. 0047.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Basilica_della_Santissima_Annunziata_Maggiore._0047.JPG/960px-Basilica_della_Santissima_Annunziata_Maggiore._0047.JPG",
+                "width": 800,
+                "height": 531,
+                "attribution": {
+                  "title": "Basilica della Santissima Annunziata Maggiore. 0047",
+                  "author": "Giuseppe Guida",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Basilica_della_Santissima_Annunziata_Maggiore._0047.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "La navata."
+                }
+              }
+            }
+          },
+          "rank_score": 0.805
+        },
+        {
+          "name": "Castel dell’Ovo",
+          "ai_summary": "A seaside castle with a rich history, offering stunning views of the Bay of Naples and the city.",
+          "name_english": "Egg Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "05:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Access may be restricted during events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Explore the marina area nearby.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 40.8354,
+            "longitude": 14.2462
+          },
+          "address": "Via Eldorado, 3, 80132 Napoli NA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Scenic",
+            "Free"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7585
+        },
+        {
+          "name": "Castel Nuovo (Maschio Angioino)",
+          "ai_summary": "A medieval castle and symbol of Naples, featuring a museum and offering panoramic views from its towers.",
+          "name_english": "New Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "05:50 PM",
+          "cost": "€10 per person",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Last admission 1 hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the museum inside for historical artifacts.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 40.8411,
+            "longitude": 14.2611
+          },
+          "address": "Via Vittorio Emanuele III, 80133 Napoli NA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Museum",
+            "Scenic"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.777
+        },
+        {
+          "name": "Piazza del Plebiscito",
+          "ai_summary": "The main public square in Naples, known for its impressive architecture and as a venue for events and concerts.",
+          "name_english": "Plebiscite Square",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Events may cause temporary closures."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Check the schedule for events and concerts.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 40.8359,
+            "longitude": 14.2488
+          },
+          "address": "Piazza del Plebiscito, 80132 Napoli NA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Historical",
+            "Free"
+          ],
+          "state": "Naples",
+          "photos": {},
+          "rank_score": 0.7517
+        },
+        {
+          "name": "Royal Palace of Naples",
+          "ai_summary": "A historic palace with opulent rooms and a rich collection of art and artifacts, reflecting the history of Naples.",
+          "name_english": "Royal Palace",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€12 per person",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 8:00 PM",
+            "Tuesday": "9:00 AM - 8:00 PM",
+            "Wednesday": "9:00 AM - 8:00 PM",
+            "Thursday": "9:00 AM - 8:00 PM",
+            "Friday": "9:00 AM - 8:00 PM",
+            "Saturday": "9:00 AM - 8:00 PM",
+            "Sunday": "9:00 AM - 8:00 PM",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the Palatine Library inside.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 40.8371,
+            "longitude": 14.2466
+          },
+          "address": "Piazza del Plebiscito, 1, 80132 Napoli NA, Italy",
+          "official_website": "https://www.polomusealenapoli.beniculturali.it",
+          "tags": [
+            "Cultural",
+            "Historical",
+            "Museum"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aiga railtransportation 25.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Aiga_railtransportation_25.svg/800px-Aiga_railtransportation_25.svg.png",
+                "width": 800,
+                "height": 1203,
+                "attribution": {
+                  "title": "Aiga railtransportation 25",
+                  "author": "AIGA",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aiga_railtransportation_25.svg",
+                  "credit": "This image is from a collection commissioned by the United States Department of Transportation and designed by AIGA. It is copyright-free, and is available here.",
+                  "usage_terms": "Public domain",
+                  "description": "SVG version from aiga rail transportation .svg archive copy at the Wayback Machine."
+                }
+              }
+            }
+          },
+          "rank_score": 0.791
+        },
+        {
+          "name": "Naples Underground (Napoli Sotterranea)",
+          "ai_summary": "A fascinating tour through the underground tunnels and chambers of Naples, revealing the city's ancient Greek and Roman roots.",
+          "name_english": "Naples Underground",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€10 per person",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Tours in English available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Bring a light jacket, it can be cool underground.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 40.8415,
+            "longitude": 14.2488
+          },
+          "address": "Piazza San Gaetano, 68, 80138 Napoli NA, Italy",
+          "official_website": "http://www.napolisotterranea.org",
+          "tags": [
+            "Historical",
+            "Cultural",
+            "Tour"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Napoli - Palazzo Colonna di Stigliano.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Napoli_-_Palazzo_Colonna_di_Stigliano.jpg/960px-Napoli_-_Palazzo_Colonna_di_Stigliano.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Napoli - Palazzo Colonna di Stigliano",
+                  "author": "Armando Mancini",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Napoli_-_Palazzo_Colonna_di_Stigliano.jpg",
+                  "credit": "Flickr: Napoli - Palazzo Colonna di Stigliano",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Napoli - Facciata Palazzo Colonna di Stigliano (Zevallos) in Via Toledo"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7625
+        },
+        {
+          "name": "Catacombs of San Gennaro",
+          "ai_summary": "Ancient Christian burial sites with fascinating frescoes and architecture, offering a glimpse into early Christian history in Naples.",
+          "name_english": "Catacombs of San Gennaro",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€9 per person",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Guided tours only."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Wear comfortable shoes and bring water.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 40.8533,
+            "longitude": 14.2631
+          },
+          "address": "Via Capodimonte, 13, 80136 Napoli NA, Italy",
+          "official_website": "http://www.catacombesangennaro.it",
+          "tags": [
+            "Historical",
+            "Cultural",
+            "Tour"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7765
+        },
+        {
+          "name": "Spaccanapoli Street",
+          "ai_summary": "A famous street in the historic center of Naples, known for its vibrant atmosphere, shops, and restaurants.",
+          "name_english": "Spaccanapoli",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Busy street, caution advised."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Try the local street food.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 40.8392,
+            "longitude": 14.2528
+          },
+          "address": "Spaccanapoli, 80134 Napoli NA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Street",
+            "Free"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7585
+        },
+        {
+          "name": "San Carlo Theatre",
+          "ai_summary": "The oldest continuously active opera house in the world, renowned for its opera performances and stunning architecture.",
+          "name_english": "San Carlo Theatre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Check schedule for performances."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book tickets in advance for performances.",
+          "advanced_booking": "Highly recommended",
+          "coordinates": {
+            "latitude": 40.8413,
+            "longitude": 14.2531
+          },
+          "address": "Via San Carlo, 98, 80132 Napoli NA, Italy",
+          "official_website": "http://www.teatrosancarlo.it",
+          "tags": [
+            "Cultural",
+            "Historical",
+            "Performance"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.773
+        },
+        {
+          "name": "Galleria Umberto I",
+          "ai_summary": "A public shopping gallery with an impressive glass dome, featuring shops, restaurants, and a beautiful interior.",
+          "name_english": "Umberto I Gallery",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 10:00 PM",
+            "Tuesday": "9:00 AM - 10:00 PM",
+            "Wednesday": "9:00 AM - 10:00 PM",
+            "Thursday": "9:00 AM - 10:00 PM",
+            "Friday": "9:00 AM - 10:00 PM",
+            "Saturday": "9:00 AM - 10:00 PM",
+            "Sunday": "9:00 AM - 10:00 PM",
+            "notes": "Shops may have varying hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Enjoy a coffee at one of the historic cafes.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 40.8392,
+            "longitude": 14.2536
+          },
+          "address": "Via Giuseppe Verdi, 80132 Napoli NA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Shopping",
+            "Cultural",
+            "Free"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Facciata Bartolomeo.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Facciata_Bartolomeo.jpg/960px-Facciata_Bartolomeo.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Facciata Bartolomeo",
+                  "author": "Baku",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Facciata_Bartolomeo.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Facciata di Santa Maria delle Grazie detta la Graziella, Napoli"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7645
+        },
+        {
+          "name": "Via Toledo",
+          "ai_summary": "A major street in Naples known for its shopping, dining, and vibrant street life.",
+          "name_english": "Toledo Street",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Very busy street, caution advised."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Explore the side streets for hidden gems.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 40.8375,
+            "longitude": 14.2538
+          },
+          "address": "Via Toledo, 80132 Napoli NA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Shopping",
+            "Cultural",
+            "Free"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Milano - Teatro alla Scala 3924.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Milano_-_Teatro_alla_Scala_3924.jpg/960px-Milano_-_Teatro_alla_Scala_3924.jpg",
+                "width": 800,
+                "height": 450,
+                "attribution": {
+                  "title": "Milano - Teatro alla Scala 3924",
+                  "author": "Lucalari84",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Milano_-_Teatro_alla_Scala_3924.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Museo teatrale alla Scala"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7505
+        },
+        {
+          "name": "Santa Chiara Monastery",
+          "ai_summary": "A beautiful medieval monastery with a stunning cloister and a rich history, located in the heart of Naples.",
+          "name_english": "Santa Chiara",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€6 per person",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:30 PM",
+            "Tuesday": "9:00 AM - 5:30 PM",
+            "Wednesday": "9:00 AM - 5:30 PM",
+            "Thursday": "9:00 AM - 5:30 PM",
+            "Friday": "9:00 AM - 5:30 PM",
+            "Saturday": "9:00 AM - 5:30 PM",
+            "Sunday": "9:00 AM - 5:30 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the museum and the archaeological area.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 40.8552,
+            "longitude": 14.2656
+          },
+          "address": "Via Santa Chiara, 49, 80134 Napoli NA, Italy",
+          "official_website": "http://www.santachiara.beniculturali.it",
+          "tags": [
+            "Historical",
+            "Cultural",
+            "Museum"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Anna Capuana3.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Anna_Capuana3.jpg/960px-Anna_Capuana3.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Anna Capuana3",
+                  "author": "Baku",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Anna_Capuana3.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Esterno di Sant'Anna a Capuana (Napoli)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.773
+        },
+        {
+          "name": "Certosa di San Martino",
+          "ai_summary": "A former monastery turned museum, offering stunning views of Naples and a rich collection of art and artifacts.",
+          "name_english": "Certosa di San Martino",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "€8 per person",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 5:30 PM",
+            "Wednesday": "9:00 AM - 5:30 PM",
+            "Thursday": "9:00 AM - 5:30 PM",
+            "Friday": "9:00 AM - 5:30 PM",
+            "Saturday": "9:00 AM - 5:30 PM",
+            "Sunday": "9:00 AM - 5:30 PM",
+            "notes": "Last admission 1 hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the Carthusian Monastery complex.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 40.8555,
+            "longitude": 14.2278
+          },
+          "address": "Salita San Martino, 5, 80129 Napoli NA, Italy",
+          "official_website": "http://www.certossasanmartino.beniculturali.it",
+          "tags": [
+            "Historical",
+            "Cultural",
+            "Museum"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Soccorso Arenella.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Soccorso_Arenella.jpg/960px-Soccorso_Arenella.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Soccorso Arenella",
+                  "author": "Baku",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Soccorso_Arenella.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Churh of Santa Maria del Soccorso all'Arenella (Naples)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        },
+        {
+          "name": "Museo di Capodimonte",
+          "ai_summary": "An art museum located in a grand palace, featuring works by Caravaggio, Titian, and other masters.",
+          "name_english": "Capodimonte Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€12 per person",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 7:30 PM",
+            "Wednesday": "9:00 AM - 7:30 PM",
+            "Thursday": "9:00 AM - 7:30 PM",
+            "Friday": "9:00 AM - 7:30 PM",
+            "Saturday": "9:00 AM - 7:30 PM",
+            "Sunday": "9:00 AM - 7:30 PM",
+            "notes": "Check for special exhibitions."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the surrounding park area.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 40.8533,
+            "longitude": 14.2399
+          },
+          "address": "Via Miano, 2, 80131 Napoli NA, Italy",
+          "official_website": "https://www.museodicapodimonte.beniculturali.it",
+          "tags": [
+            "Cultural",
+            "Museum",
+            "Art"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Chiesa Raff4.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Chiesa_Raff4.jpg/960px-Chiesa_Raff4.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Chiesa Raff4",
+                  "author": "Baku",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Chiesa_Raff4.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Chiesa della Concezione a Materdei, salita San Raffaele (Napoli)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8015
+        },
+        {
+          "name": "Lungomare Caracciolo",
+          "ai_summary": "A scenic waterfront promenade in Naples, perfect for a leisurely stroll, with views of the Bay of Naples and Mount Vesuvius.",
+          "name_english": "Caracciolo Seafront",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Very popular, especially in the evenings."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Enjoy gelato from a nearby vendor.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 40.8351,
+            "longitude": 14.2468
+          },
+          "address": "Lungomare Caracciolo, 80122 Napoli NA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Walking",
+            "Free"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aiga railtransportation 25.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Aiga_railtransportation_25.svg/800px-Aiga_railtransportation_25.svg.png",
+                "width": 800,
+                "height": 1203,
+                "attribution": {
+                  "title": "Aiga railtransportation 25",
+                  "author": "AIGA",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aiga_railtransportation_25.svg",
+                  "credit": "This image is from a collection commissioned by the United States Department of Transportation and designed by AIGA. It is copyright-free, and is available here.",
+                  "usage_terms": "Public domain",
+                  "description": "SVG version from aiga rail transportation .svg archive copy at the Wayback Machine."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7865
+        },
+        {
+          "name": "Quartieri Spagnoli",
+          "ai_summary": "A vibrant neighborhood in Naples known for its narrow streets, historic buildings, and lively atmosphere.",
+          "name_english": "Spanish Quarters",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Very lively, especially in the evenings."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local tapas bars.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 40.8392,
+            "longitude": 14.2532
+          },
+          "address": "Quartieri Spagnoli, 80134 Napoli NA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Neighborhood",
+            "Free"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Facciata Bartolomeo.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Facciata_Bartolomeo.jpg/960px-Facciata_Bartolomeo.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Facciata Bartolomeo",
+                  "author": "Baku",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Facciata_Bartolomeo.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Facciata di Santa Maria delle Grazie detta la Graziella, Napoli"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7585
+        },
+        {
+          "name": "Piazza del Gesù Nuovo",
+          "ai_summary": "A beautiful square in Naples, known for its stunning church and as a lively meeting place.",
+          "name_english": "Piazza del Gesù Nuovo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Very busy, especially on weekends."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the church of Gesù Nuovo.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 40.8416,
+            "longitude": 14.2511
+          },
+          "address": "Piazza del Gesù Nuovo, 80134 Napoli NA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Historical",
+            "Free"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ChiesaPietroPaoloGreciNaples.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ChiesaPietroPaoloGreciNaples.jpg/960px-ChiesaPietroPaoloGreciNaples.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "ChiesaPietroPaoloGreciNaples",
+                  "author": "IlSistemone",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ChiesaPietroPaoloGreciNaples.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Chiesa dei Santi Pietro e Paolo dei Greci di Napoli - Particolare dell'interno"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7617
+        },
+        {
+          "name": "Castel Sant’Elmo",
+          "ai_summary": "A medieval fortress with a star-shaped design, offering panoramic views of Naples and the bay.",
+          "name_english": "Saint Elmo Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "€10 per person",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:30 PM",
+            "Tuesday": "9:00 AM - 7:30 PM",
+            "Wednesday": "9:00 AM - 7:30 PM",
+            "Thursday": "9:00 AM - 7:30 PM",
+            "Friday": "9:00 AM - 7:30 PM",
+            "Saturday": "9:00 AM - 7:30 PM",
+            "Sunday": "9:00 AM - 7:30 PM",
+            "notes": "Last admission 1 hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Explore the surrounding area for great views.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 40.8392,
+            "longitude": 14.2278
+          },
+          "address": "Via Tito Angelini, 22, 80129 Napoli NA, Italy",
+          "official_website": "http://www.castelsantelmo.beniculturali.it",
+          "tags": [
+            "Historical",
+            "Scenic",
+            "Museum"
+          ],
+          "state": "Naples",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon BHF brunswick.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/BSicon_BHF_brunswick.svg/800px-BSicon_BHF_brunswick.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon BHF brunswick",
+                  "author": "|author=Useddenim",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_BHF_brunswick.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Brunswick icon"
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,931 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Blue Lagoon (Nacula Island)",
+          "ai_summary": "A stunning lagoon with crystal-clear waters, perfect for swimming, snorkeling, and relaxing on the pristine beaches.",
+          "name_english": "Blue Lagoon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring snorkeling gear to explore the underwater beauty.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.9,
+            "lng": 177.4
+          },
+          "address": "Blue Lagoon, Nacula Island, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Beach",
+            "Snorkeling",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Adriatic Plate.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Adriatic_Plate.jpg/800px-Adriatic_Plate.jpg",
+                "width": 800,
+                "height": 767,
+                "attribution": {
+                  "title": "Adriatic Plate",
+                  "author": "Mediterranian_Sea_16.61811E_38.99124N.jpg: of the modification : Eric Gaba (Sting)\nderivative work: דקי (talk) 17:52, 29 December 2011 (UTC)",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Adriatic_Plate.jpg",
+                  "credit": "Mediterranian_Sea_16.61811E_38.99124N.jpg (July 2012). \"Present kinematics of Central and Northern Italy from continuous GPS measurements\". Journal of Geodynamics 58: 62-72. Elsevier. ISSN 0264-3707. Retrieved on 12 March 2012.plate boundary map preview",
+                  "usage_terms": "Public domain",
+                  "description": "boundaries of the Adriatic plate"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Sawa-i-Lau Caves (Sacred Site)",
+          "ai_summary": "A mystical cave system with turquoise waters, steeped in Fijian legend and perfect for adventurous exploration.",
+          "name_english": "Sawa-i-Lau Caves",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Guided tours available for an additional fee."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a waterproof camera to capture the cave's beauty.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.9,
+            "lng": 177.4
+          },
+          "address": "Sawa-i-Lau Caves, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Caves",
+            "Adventure",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Naviti Island Snorkeling",
+          "ai_summary": "A snorkeling paradise with vibrant coral reefs and abundant marine life, ideal for underwater enthusiasts.",
+          "name_english": "Naviti Island Snorkeling",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Best visited during high tide for optimal snorkeling."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Hire a local guide to discover the best spots.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.9,
+            "lng": 177.4
+          },
+          "address": "Naviti Island, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Snorkeling",
+            "Marine",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Drawaqa Island (Manta Ray Sightings)",
+          "ai_summary": "A renowned spot for manta ray sightings, offering a unique opportunity to swim with these gentle giants.",
+          "name_english": "Drawaqa Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "06:00-18:00",
+            "tue": "06:00-18:00",
+            "wed": "06:00-18:00",
+            "thu": "06:00-18:00",
+            "fri": "06:00-18:00",
+            "sat": "06:00-18:00",
+            "sun": "06:00-18:00",
+            "notes": "Best visited during the manta ray season (May to October)."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring underwater camera gear for amazing photos.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 177.4
+          },
+          "address": "Drawaqa Island, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Manta Rays",
+            "Snorkeling",
+            "Marine Life"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Barefoot Manta Island Resort",
+          "ai_summary": "A luxurious resort offering stunning beachfront views, world-class amenities, and close proximity to manta ray habitats.",
+          "name_english": "Barefoot Manta Island Resort",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Reservations recommended for dining and activities."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Indulge in the spa services for a complete relaxation.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 177.4
+          },
+          "address": "Barefoot Manta Island Resort, Yasawa Islands, Fiji",
+          "official_website": "https://www.barefootmanta.com/",
+          "tags": [
+            "Resort",
+            "Luxury",
+            "Beach"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Waya Island Hike",
+          "ai_summary": "A scenic hike offering panoramic views of the Yasawa Islands, lush landscapes, and a chance to experience Fijian village life.",
+          "name_english": "Waya Island Hike",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best started early in the morning to avoid heat."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear sturdy shoes and bring plenty of water.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 177.3
+          },
+          "address": "Waya Island, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Village Tour"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Octopus Resort Beach",
+          "ai_summary": "A beautiful beach known for its soft white sand, clear blue waters, and vibrant coral reefs just offshore.",
+          "name_english": "Octopus Resort Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during the day for swimming and snorkeling."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring your own snorkeling gear or rent from the resort.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 177.3
+          },
+          "address": "Octopus Resort Beach, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Beach",
+            "Snorkeling",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Adriatic Plate.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Adriatic_Plate.jpg/800px-Adriatic_Plate.jpg",
+                "width": 800,
+                "height": 767,
+                "attribution": {
+                  "title": "Adriatic Plate",
+                  "author": "Mediterranian_Sea_16.61811E_38.99124N.jpg: of the modification : Eric Gaba (Sting)\nderivative work: דקי (talk) 17:52, 29 December 2011 (UTC)",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Adriatic_Plate.jpg",
+                  "credit": "Mediterranian_Sea_16.61811E_38.99124N.jpg (July 2012). \"Present kinematics of Central and Northern Italy from continuous GPS measurements\". Journal of Geodynamics 58: 62-72. Elsevier. ISSN 0264-3707. Retrieved on 12 March 2012.plate boundary map preview",
+                  "usage_terms": "Public domain",
+                  "description": "boundaries of the Adriatic plate"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Sunset View at Paradise Cove Resort",
+          "ai_summary": "A stunning viewpoint to witness the sunset over the Yasawa Islands, often accompanied by a vibrant sky and calm seas.",
+          "name_english": "Sunset View at Paradise Cove Resort",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Arrive early to secure a good viewing spot."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring a camera to capture the stunning views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 177.3
+          },
+          "address": "Paradise Cove Resort, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Sunset",
+            "Viewpoint",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:050529 Barcelona 060 edited.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/050529_Barcelona_060_edited.jpg/960px-050529_Barcelona_060_edited.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "050529 Barcelona 060 edited",
+                  "author": "Sergi Larripa (User:SergiL)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:050529_Barcelona_060_edited.jpg",
+                  "credit": "050529 Barcelona 060.jpg",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Barceloneta Beach, in Barcelona."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Botaira Beach (Secluded)",
+          "ai_summary": "A hidden gem with fewer crowds, offering a peaceful beach experience surrounded by nature.",
+          "name_english": "Botaira Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during the day for a quiet retreat."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Pack a picnic and enjoy a day in solitude.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 177.2
+          },
+          "address": "Botaira Beach, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Beach",
+            "Secluded",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Somoci Sandbank",
+          "ai_summary": "A picturesque sandbank ideal for a day trip, offering stunning views, swimming, and snorkeling opportunities.",
+          "name_english": "Somoci Sandbank",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during low tide for walking on the sandbank."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring water and snacks, as facilities are limited.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.7,
+            "lng": 177.2
+          },
+          "address": "Somoci Sandbank, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Sandbank",
+            "Snorkeling",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Nanuya Lailai Island",
+          "ai_summary": "A beautiful island with pristine beaches, clear waters, and excellent snorkeling and diving spots.",
+          "name_english": "Nanuya Lailai Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during the day for beach activities."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Explore the island's trails for a chance to see wildlife.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.7,
+            "lng": 177.1
+          },
+          "address": "Nanuya Lailai Island, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Island",
+            "Beach",
+            "Snorkeling"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Manta Ray Channel Swim (Seasonal)",
+          "ai_summary": "An exhilarating experience swimming with manta rays in their natural habitat, available during the manta season.",
+          "name_english": "Manta Ray Channel Swim",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "06:00-18:00",
+            "tue": "06:00-18:00",
+            "wed": "06:00-18:00",
+            "thu": "06:00-18:00",
+            "fri": "06:00-18:00",
+            "sat": "06:00-18:00",
+            "sun": "06:00-18:00",
+            "notes": "Available from May to October, weather permitting."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Listen to your guide's safety briefing and instructions.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "lat": -16.7,
+            "lng": 177.1
+          },
+          "address": "Manta Ray Channel, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Manta Rays",
+            "Swimming",
+            "Marine Life"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Yasawa Flyer Ferry Ride",
+          "ai_summary": "A scenic ferry ride offering breathtaking views of the Yasawa Islands, with stops at popular islands and resorts.",
+          "name_english": "Yasawa Flyer Ferry Ride",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Advance booking is highly recommended."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Bring a light jacket, as it can be cool on the water.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "lat": -16.7,
+            "lng": 177.1
+          },
+          "address": "Yasawa Flyer, Yasawa Islands, Fiji",
+          "official_website": "https://www.fijiferry.com/",
+          "tags": [
+            "Ferry",
+            "Scenic",
+            "Island Hopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Traditional Fijian Village Tour",
+          "ai_summary": "An immersive cultural experience visiting a traditional Fijian village, learning about their customs, and enjoying local cuisine.",
+          "name_english": "Traditional Fijian Village Tour",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Cultural sensitivity is appreciated; dress modestly."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Participate in the kava ceremony for an authentic experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.7,
+            "lng": 177.1
+          },
+          "address": "Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Culture",
+            "Village Tour",
+            "Cuisine"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Abomey 2006 1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Abomey_2006_1.jpg/960px-Abomey_2006_1.jpg",
+                "width": 800,
+                "height": 532,
+                "attribution": {
+                  "title": "Abomey 2006 1",
+                  "author": "Joachim Huber",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Abomey_2006_1.jpg",
+                  "credit": "originally posted to Flickr as DSC_0285",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Abomey, Benin"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Tavewa Island Boat Stop",
+          "ai_summary": "A popular stop for boats and ferries, offering beautiful views and access to nearby snorkeling spots.",
+          "name_english": "Tavewa Island Boat Stop",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during the day; check ferry schedules."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Great spot for photos; arrive early to avoid crowds.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.7,
+            "lng": 177.1
+          },
+          "address": "Tavewa Island Boat Stop, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Boat Stop",
+            "Snorkeling",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Beach Volleyball at Coralview Resort",
+          "ai_summary": "Enjoy a game of beach volleyball at Coralview Resort, a fun activity for all skill levels.",
+          "name_english": "Beach Volleyball at Coralview Resort",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Check with the resort for availability and equipment rental."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "A great way to meet other travelers and have fun.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.7,
+            "lng": 177.1
+          },
+          "address": "Coralview Resort, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Beach Volleyball",
+            "Resort",
+            "Fitness"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Soso Bay Mangrove Kayaking",
+          "ai_summary": "Explore the mangroves of Soso Bay by kayak, a serene and eco-friendly way to discover the area.",
+          "name_english": "Soso Bay Mangrove Kayaking",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Best visited during high tide; guided tours available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear a hat and sunscreen; bring water and snacks.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.7,
+            "lng": 177.1
+          },
+          "address": "Soso Bay, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Kayaking",
+            "Mangroves",
+            "Eco-Tourism"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Underwater Photography Reef Site",
+          "ai_summary": "A must-visit for underwater photographers, this reef site offers stunning coral formations and diverse marine life.",
+          "name_english": "Underwater Photography Reef Site",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Best visited with a guide who knows the area."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring your own underwater photography equipment.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.7,
+            "lng": 177.1
+          },
+          "address": "Reef Site, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Photography",
+            "Snorkeling",
+            "Marine Life"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:960308-N-3093M-010 Navy Photographic Diver.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/960308-N-3093M-010_Navy_Photographic_Diver.jpg/960px-960308-N-3093M-010_Navy_Photographic_Diver.jpg",
+                "width": 800,
+                "height": 526,
+                "attribution": {
+                  "title": "960308-N-3093M-010 Navy Photographic Diver",
+                  "author": "U.S. Navy photo by Photographer’s Mate 2nd Class Andrew McKaskle.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:960308-N-3093M-010_Navy_Photographic_Diver.jpg",
+                  "credit": "This image was released by the United States Navy with the ID 960308-N-3093M-010 (next).\nThis tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.\n\n\nالعربية ∙ বাংলা ∙ \nBahaso Jambi ∙ \nDeutsch ∙ Deutsch (Sie-Form) ∙ English ∙ español ∙ euskara ∙ فارسی ∙ français ∙ italiano ∙ 日本語 ∙ 한국어 ∙ македонски ∙ മലയാളം ∙ Plattdüütsch ∙ Nederlands ∙ polski ∙ پښتو ∙ português ∙ русский ∙ slovenščina ∙ svenska ∙ Türkçe ∙ українська ∙ 简体中文 ∙ 繁體中文 ∙ +/−",
+                  "usage_terms": "Public domain",
+                  "description": "960308-N-3093M-010\nKEY WEST, FL (March 8, 1996) Photographer’s Mate 3rd Class Paul Goodknight video tapes off the coast of Key West, FL. U.S. Navy photo by Photographer’s Mate 2nd Class Andrew McKaskle. (RELEASED)"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Coconut Crab Encounter",
+          "ai_summary": "Get up close with the fascinating coconut crab, the world's largest terrestrial arthropod, in its natural habitat.",
+          "name_english": "Coconut Crab Encounter",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "07:00-19:00",
+            "tue": "07:00-19:00",
+            "wed": "07:00-19:00",
+            "thu": "07:00-19:00",
+            "fri": "07:00-19:00",
+            "sat": "07:00-19:00",
+            "sun": "07:00-19:00",
+            "notes": "Best visited with a guide; do not disturb the crabs."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Listen to your guide and maintain a safe distance.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.7,
+            "lng": 177.1
+          },
+          "address": "Coconut Crab Habitat, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Wildlife",
+            "Nature",
+            "Eco-Tourism"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Common Indian spices.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Common_Indian_spices.jpg/960px-Common_Indian_spices.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Common Indian spices",
+                  "author": "PilotChicago",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Common_Indian_spices.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Common Indian spices. Turmeric powder, mustard seeds, chili powder, cumin seeds"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Sunset on Blue Lagoon Beach",
+          "ai_summary": "A breathtaking sunset view from the famous Blue Lagoon Beach, a perfect way to end the day.",
+          "name_english": "Sunset on Blue Lagoon Beach",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Arrive early to find a good spot on the beach."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring a beach towel and relax while watching the sunset.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.9,
+            "lng": 177.4
+          },
+          "address": "Blue Lagoon Beach, Yasawa Islands, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Sunset",
+            "Beach",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        }
+      ]
+    }
+  ]
+}

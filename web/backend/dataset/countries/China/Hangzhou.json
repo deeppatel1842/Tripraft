@@ -1,0 +1,1173 @@
+{
+  "country": "China",
+  "state": "Hangzhou",
+  "cities": [
+    {
+      "city": "Hangzhou",
+      "nearest_airport": "Hangzhou Xiaoshan International Airport (HGH)",
+      "places": [
+        {
+          "name": "West Lake (Xi Hu)",
+          "ai_summary": "A UNESCO World Heritage Site, West Lake is a serene and picturesque freshwater lake surrounded by temples, pagodas, and gardens.",
+          "name_english": "West Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited early morning or during sunset."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Rent a bike to explore the lake’s surroundings.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.243,
+            "longitude": 120.15
+          },
+          "address": "West Lake, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "UNESCO",
+            "Scenic"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20100326 Tombs of Yue Fei and Yue Yun.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/20100326_Tombs_of_Yue_Fei_and_Yue_Yun.jpg/960px-20100326_Tombs_of_Yue_Fei_and_Yue_Yun.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "20100326 Tombs of Yue Fei and Yue Yun",
+                  "author": "Windmemories",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20100326_Tombs_of_Yue_Fei_and_Yue_Yun.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Tombs of Yue Fei and Yue Yun"
+                }
+              }
+            }
+          },
+          "rank_score": 0.829
+        },
+        {
+          "name": "Leifeng Pagoda",
+          "ai_summary": "A historic pagoda offering panoramic views of West Lake and the surrounding area, steeped in Chinese folklore.",
+          "name_english": "Leifeng Pagoda",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00 - 17:30",
+            "Tuesday": "08:00 - 17:30",
+            "Wednesday": "08:00 - 17:30",
+            "Thursday": "08:00 - 17:30",
+            "Friday": "08:00 - 17:30",
+            "Saturday": "08:00 - 17:30",
+            "Sunday": "08:00 - 17:30",
+            "notes": "Evenings are ideal for sunset views."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Climb to the top for the best views of West Lake.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.232,
+            "longitude": 120.149
+          },
+          "address": "15 Nanshan Rd, Xihu District, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Pagoda",
+            "Scenic"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2014.11.21.184406 Leifeng Pagoda night Xihu Hangzhou.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2014.11.21.184406_Leifeng_Pagoda_night_Xihu_Hangzhou.jpg/960px-2014.11.21.184406_Leifeng_Pagoda_night_Xihu_Hangzhou.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "2014.11.21.184406 Leifeng Pagoda night Xihu Hangzhou",
+                  "author": "Hermann Luyken",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2014.11.21.184406_Leifeng_Pagoda_night_Xihu_Hangzhou.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Leifeng Pagoda at night - Xihu (West Lake), Hangzhou, Zhejiang, China, 21.11.2014"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7845
+        },
+        {
+          "name": "Lingyin Temple",
+          "ai_summary": "One of the largest and most famous Buddhist temples in China, surrounded by lush forests and ancient grottoes.",
+          "name_english": "Lingyin Temple",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "07:00 - 18:00",
+            "Tuesday": "07:00 - 18:00",
+            "Wednesday": "07:00 - 18:00",
+            "Thursday": "07:00 - 18:00",
+            "Friday": "07:00 - 18:00",
+            "Saturday": "07:00 - 18:00",
+            "Sunday": "07:00 - 18:00",
+            "notes": "Guided tours are available for a deeper understanding of the temple’s history."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine your visit with a hike to Feilai Peak nearby.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.235,
+            "longitude": 120.117
+          },
+          "address": "1 Fayun Ln, Xihu District, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "Buddhist",
+            "Historic"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Applications-ristretto.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Applications-ristretto.svg/800px-Applications-ristretto.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Applications-ristretto",
+                  "author": "Sebastian Kraft",
+                  "license": "GPL",
+                  "license_url": "http://www.gnu.org/licenses/gpl.html",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Applications-ristretto.svg",
+                  "credit": "Available here and here.",
+                  "usage_terms": "GNU General Public License",
+                  "description": "Tango icon for Ristretto image viewer."
+                }
+              }
+            }
+          },
+          "rank_score": 0.806
+        },
+        {
+          "name": "Broken Bridge",
+          "ai_summary": "A picturesque bridge with a broken arch, offering a unique view of the lake and surrounding hills, especially beautiful in the snow.",
+          "name_english": "Broken Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited at sunrise or sunset for stunning views."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Visit in winter to see the snow-covered bridge.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.242,
+            "longitude": 120.153
+          },
+          "address": "Broken Bridge, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Photography",
+            "Historic"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20190720吴山广场站工地.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/20190720%E5%90%B4%E5%B1%B1%E5%B9%BF%E5%9C%BA%E7%AB%99%E5%B7%A5%E5%9C%B0.jpg/960px-20190720%E5%90%B4%E5%B1%B1%E5%B9%BF%E5%9C%BA%E7%AB%99%E5%B7%A5%E5%9C%B0.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "20190720吴山广场站工地",
+                  "author": "MasaneMiyaPA",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20190720吴山广场站工地.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "​吴山广场站工地"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7807
+        },
+        {
+          "name": "Three Pools Mirroring the Moon",
+          "ai_summary": "A scenic spot on West Lake featuring three small islands with ancient pagodas, best viewed from the lake.",
+          "name_english": "Three Pools Mirroring the Moon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed from a boat on the lake."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Take a boat tour for the best experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.239,
+            "longitude": 120.157
+          },
+          "address": "Three Pools Mirroring the Moon, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Photography",
+            "UNESCO"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7685
+        },
+        {
+          "name": "Hefang Street",
+          "ai_summary": "A bustling pedestrian street with a mix of traditional and modern shops, restaurants, and teahouses, reflecting the local culture.",
+          "name_english": "Hefang Street",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 22:00",
+            "Tuesday": "10:00 - 22:00",
+            "Wednesday": "10:00 - 22:00",
+            "Thursday": "10:00 - 22:00",
+            "Friday": "10:00 - 22:00",
+            "Saturday": "10:00 - 22:00",
+            "Sunday": "10:00 - 22:00",
+            "notes": "Evenings are lively with street performances."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon or Evening",
+          "place_tip": "Try local snacks and visit traditional medicine shops.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.246,
+            "longitude": 120.155
+          },
+          "address": "Hefang Street, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Shopping",
+            "Food",
+            "Culture"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:China edcp relief location map.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/China_edcp_relief_location_map.jpg/960px-China_edcp_relief_location_map.jpg",
+                "width": 800,
+                "height": 637,
+                "attribution": {
+                  "title": "China edcp relief location map",
+                  "author": "Uwe Dedering",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:China_edcp_relief_location_map.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Location map of China.\nEquiDistantConicProjection :\nCentral  parallel :\n\n* N: 36.0° N\n\nCentral meridian :\n\n* E: 104.0° E\n\nStandard parallels :\n\n* 1: 30.0° N\n* 2: 42.0° N\n\nLatitudes on the central meridian :\n\n* top: 57.0° N\n* center: 37.29° N\n* bottom: 17.96° N\n\nMade with Natural Earth. Free vector and raster map data @ naturalearthdata.com."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7695
+        },
+        {
+          "name": "Xixi National Wetland Park",
+          "ai_summary": "A unique urban wetland park with rich biodiversity, featuring lakes, marshland, and a network of walking trails.",
+          "name_english": "Xixi National Wetland Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "07:00 - 18:00",
+            "Tuesday": "07:00 - 18:00",
+            "Wednesday": "07:00 - 18:00",
+            "Thursday": "07:00 - 18:00",
+            "Friday": "07:00 - 18:00",
+            "Saturday": "07:00 - 18:00",
+            "Sunday": "07:00 - 18:00",
+            "notes": "Best visited in the early morning for bird watching."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for walking on the trails.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.224,
+            "longitude": 120.139
+          },
+          "address": "Xixi Wetland, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ancient hangzhou.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ancient_hangzhou.JPG/960px-Ancient_hangzhou.JPG",
+                "width": 800,
+                "height": 548,
+                "attribution": {
+                  "title": "Ancient hangzhou",
+                  "author": "The original uploader was Hamham at Chinese Wikipedia.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_hangzhou.JPG",
+                  "credit": "Transferred from zh.wikipedia to Commons by Shizhao using CommonsHelper.",
+                  "usage_terms": "Public domain",
+                  "description": "​南宋杭州皇宫图，扫描自《咸淳临安志》。"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7887
+        },
+        {
+          "name": "China National Tea Museum",
+          "ai_summary": "The only national tea museum in China, showcasing the history and culture of tea with beautiful tea gardens.",
+          "name_english": "China National Tea Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 16:30",
+            "Tuesday": "09:00 - 16:30",
+            "Wednesday": "09:00 - 16:30",
+            "Thursday": "09:00 - 16:30",
+            "Friday": "09:00 - 16:30",
+            "Saturday": "09:00 - 16:30",
+            "Sunday": "09:00 - 16:30",
+            "notes": "Closed on Mondays. Check for seasonal tea picking experiences."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the tea tasting sessions.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.224,
+            "longitude": 120.139
+          },
+          "address": "China National Tea Museum, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Culture",
+            "Tea"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:China Silk Museum, 2017-11-12 01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/China_Silk_Museum%2C_2017-11-12_01.jpg/960px-China_Silk_Museum%2C_2017-11-12_01.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "China Silk Museum, 2017-11-12 01",
+                  "author": "Siyuwj",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:China_Silk_Museum,_2017-11-12_01.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "中国丝绸博物馆"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Longjing Tea Fields",
+          "ai_summary": "Famous for its high-quality green tea, these terraces offer a scenic landscape and a glimpse into the tea production process.",
+          "name_english": "Longjing Tea Fields",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning for tea picking experiences."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit a tea house for a tasting session.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.233,
+            "longitude": 120.126
+          },
+          "address": "Longjing Village, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Tea",
+            "Scenic"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Applications-ristretto.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Applications-ristretto.svg/800px-Applications-ristretto.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Applications-ristretto",
+                  "author": "Sebastian Kraft",
+                  "license": "GPL",
+                  "license_url": "http://www.gnu.org/licenses/gpl.html",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Applications-ristretto.svg",
+                  "credit": "Available here and here.",
+                  "usage_terms": "GNU General Public License",
+                  "description": "Tango icon for Ristretto image viewer."
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        },
+        {
+          "name": "Hu Xueyan’s Former Residence",
+          "ai_summary": "The former residence of a famous Chinese businessman, showcasing traditional architecture and beautiful gardens.",
+          "name_english": "Hu Xueyan’s Former Residence",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Guided tours are available to explore the residence."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the gardens and enjoy the traditional tea service.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.253,
+            "longitude": 120.155
+          },
+          "address": "Hu Xueyan’s Former Residence, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.759
+        },
+        {
+          "name": "Qiantang River Bridge",
+          "ai_summary": "A major bridge in Hangzhou, offering great views of the Qiantang River and the city, especially at sunset.",
+          "name_english": "Qiantang River Bridge",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for sunset views."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Walk or cycle across the bridge for the best experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.247,
+            "longitude": 120.173
+          },
+          "address": "Qiantang River Bridge, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Photography",
+            "Historic"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:201608 Jiefang Road HGH.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/201608_Jiefang_Road_HGH.jpg/960px-201608_Jiefang_Road_HGH.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "201608 Jiefang Road HGH",
+                  "author": "MNXANL",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:201608_Jiefang_Road_HGH.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "201608 Jiefang Road HGH"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7387
+        },
+        {
+          "name": "Hangzhou Botanical Garden",
+          "ai_summary": "A large and diverse botanical garden featuring a wide variety of plants, flowers, and themed gardens.",
+          "name_english": "Hangzhou Botanical Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "07:00 - 18:00",
+            "Tuesday": "07:00 - 18:00",
+            "Wednesday": "07:00 - 18:00",
+            "Thursday": "07:00 - 18:00",
+            "Friday": "07:00 - 18:00",
+            "Saturday": "07:00 - 18:00",
+            "Sunday": "07:00 - 18:00",
+            "notes": "Best visited in spring for the blooming flowers."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or Afternoon",
+          "place_tip": "Join a guided tour to learn about the various plant species.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.239,
+            "longitude": 120.155
+          },
+          "address": "Hangzhou Botanical Garden, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Gardens",
+            "Photography"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:China edcp relief location map.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/China_edcp_relief_location_map.jpg/960px-China_edcp_relief_location_map.jpg",
+                "width": 800,
+                "height": 637,
+                "attribution": {
+                  "title": "China edcp relief location map",
+                  "author": "Uwe Dedering",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:China_edcp_relief_location_map.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Location map of China.\nEquiDistantConicProjection :\nCentral  parallel :\n\n* N: 36.0° N\n\nCentral meridian :\n\n* E: 104.0° E\n\nStandard parallels :\n\n* 1: 30.0° N\n* 2: 42.0° N\n\nLatitudes on the central meridian :\n\n* top: 57.0° N\n* center: 37.29° N\n* bottom: 17.96° N\n\nMade with Natural Earth. Free vector and raster map data @ naturalearthdata.com."
+                }
+              }
+            }
+          },
+          "rank_score": 0.779
+        },
+        {
+          "name": "Prince Bay Park",
+          "ai_summary": "A scenic park by the West Lake, featuring beautiful gardens, pavilions, and a peaceful atmosphere.",
+          "name_english": "Prince Bay Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Ideal for a peaceful walk or a picnic."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Visit the flower garden and the pavilion by the lake.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.239,
+            "longitude": 120.152
+          },
+          "address": "Prince Bay Park, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Parks",
+            "Scenic"
+          ],
+          "state": "Hangzhou",
+          "photos": {},
+          "rank_score": 0.759
+        },
+        {
+          "name": "Grand Canal Hangzhou",
+          "ai_summary": "A UNESCO World Heritage Site, this ancient canal is famous for its historical significance and scenic views.",
+          "name_english": "Grand Canal Hangzhou",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored by boat."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Take a boat tour to appreciate the canal’s beauty.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.246,
+            "longitude": 120.173
+          },
+          "address": "Grand Canal, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "UNESCO",
+            "Canal",
+            "Scenic"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:201608 Jiefang Road HGH.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/201608_Jiefang_Road_HGH.jpg/960px-201608_Jiefang_Road_HGH.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "201608 Jiefang Road HGH",
+                  "author": "MNXANL",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:201608_Jiefang_Road_HGH.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "201608 Jiefang Road HGH"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7905
+        },
+        {
+          "name": "Song Dynasty Town Theme Park",
+          "ai_summary": "A cultural theme park that recreates the Song Dynasty era with traditional architecture, performances, and activities.",
+          "name_english": "Song Dynasty Town Theme Park",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Check the schedule for performance times."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Participate in the interactive activities for a fun experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.239,
+            "longitude": 120.175
+          },
+          "address": "Song Dynasty Town, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Theme Park",
+            "Culture",
+            "History"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1-10Villa at 6, Jiurenhecun.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/1-10Villa_at_6%2C_Jiurenhecun.jpg",
+                "width": 512,
+                "height": 341,
+                "attribution": {
+                  "title": "1-10Villa at 6, Jiurenhecun",
+                  "author": "Laohangzhou",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1-10Villa_at_6,_Jiurenhecun.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Traditional villa and portal — at 6, Jiurenhecun, Hangzhou (formerly transliterated as Hangchow).\nA protected Hang Zhou Historic House — in the city of Hangzhou, in Eastern China.\nConstructed between 1911 and 1949, it is two-story brick-stone structured villa with slope-roof, the typical villa style at that time."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7177
+        },
+        {
+          "name": "Feilai Peak",
+          "ai_summary": "A famous peak in Hangzhou with a rich history and cultural significance, offering stunning views of the West Lake.",
+          "name_english": "Feilai Peak",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Combine your visit with Lingyin Temple.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.235,
+            "longitude": 120.115
+          },
+          "address": "Feilai Peak, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Scenic"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Applications-ristretto.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Applications-ristretto.svg/800px-Applications-ristretto.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Applications-ristretto",
+                  "author": "Sebastian Kraft",
+                  "license": "GPL",
+                  "license_url": "http://www.gnu.org/licenses/gpl.html",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Applications-ristretto.svg",
+                  "credit": "Available here and here.",
+                  "usage_terms": "GNU General Public License",
+                  "description": "Tango icon for Ristretto image viewer."
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        },
+        {
+          "name": "Six Harmonies Pagoda",
+          "ai_summary": "An ancient pagoda with a rich history, offering panoramic views of the Qiantang River and the surrounding area.",
+          "name_english": "Six Harmonies Pagoda",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00 - 17:30",
+            "Tuesday": "08:00 - 17:30",
+            "Wednesday": "08:00 - 17:30",
+            "Thursday": "08:00 - 17:30",
+            "Friday": "08:00 - 17:30",
+            "Saturday": "08:00 - 17:30",
+            "Sunday": "08:00 - 17:30",
+            "notes": "Evenings are ideal for sunset views."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Climb to the top for the best views of the Qiantang River.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.223,
+            "longitude": 120.173
+          },
+          "address": "Six Harmonies Pagoda, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Pagoda",
+            "Scenic"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aiga railtransportation 25.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Aiga_railtransportation_25.svg/800px-Aiga_railtransportation_25.svg.png",
+                "width": 800,
+                "height": 1203,
+                "attribution": {
+                  "title": "Aiga railtransportation 25",
+                  "author": "AIGA",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aiga_railtransportation_25.svg",
+                  "credit": "This image is from a collection commissioned by the United States Department of Transportation and designed by AIGA. It is copyright-free, and is available here.",
+                  "usage_terms": "Public domain",
+                  "description": "SVG version from aiga rail transportation .svg archive copy at the Wayback Machine."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7565
+        },
+        {
+          "name": "Guo’s Villa",
+          "ai_summary": "A historic villa with beautiful gardens and a rich collection of Chinese art and antiques.",
+          "name_english": "Guo’s Villa",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Guided tours are available to explore the villa."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the art collection and the beautiful gardens.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.253,
+            "longitude": 120.155
+          },
+          "address": "Guo’s Villa, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Art",
+            "Gardens"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Allah-green.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Allah-green.svg/800px-Allah-green.svg.png",
+                "width": 800,
+                "height": 835,
+                "attribution": {
+                  "title": "Allah-green",
+                  "author": "The original uploader was Mr100percent at  Wikipedia.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Allah-green.svg",
+                  "credit": "Converted to SVG from File:Islam.png, originally from en:Image:Ift32.gif, uploaded to the English Wikipedia by Mr100percent on 4 February 2003.    Originally described as \"Copied from Public Domain artwork\".",
+                  "usage_terms": "Public domain",
+                  "description": "Calligraphic name of Allah in Arabic, copied from Public Domain artwork"
+                }
+              }
+            }
+          },
+          "rank_score": 0.753
+        },
+        {
+          "name": "Yue Fei Temple",
+          "ai_summary": "A temple dedicated to the famous Chinese general Yue Fei, featuring traditional architecture and serene gardens.",
+          "name_english": "Yue Fei Temple",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00 - 17:30",
+            "Tuesday": "08:00 - 17:30",
+            "Wednesday": "08:00 - 17:30",
+            "Thursday": "08:00 - 17:30",
+            "Friday": "08:00 - 17:30",
+            "Saturday": "08:00 - 17:30",
+            "Sunday": "08:00 - 17:30",
+            "notes": "Evenings are ideal for a peaceful visit."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the temple complex and the surrounding gardens.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.253,
+            "longitude": 120.157
+          },
+          "address": "Yue Fei Temple, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "Historic",
+            "Culture"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20190720吴山广场站工地.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/20190720%E5%90%B4%E5%B1%B1%E5%B9%BF%E5%9C%BA%E7%AB%99%E5%B7%A5%E5%9C%B0.jpg/960px-20190720%E5%90%B4%E5%B1%B1%E5%B9%BF%E5%9C%BA%E7%AB%99%E5%B7%A5%E5%9C%B0.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "20190720吴山广场站工地",
+                  "author": "MasaneMiyaPA",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20190720吴山广场站工地.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "​吴山广场站工地"
+                }
+              }
+            }
+          },
+          "rank_score": 0.773
+        },
+        {
+          "name": "Baochu Pagoda",
+          "ai_summary": "A historic pagoda with beautiful views of the West Lake, surrounded by lush greenery.",
+          "name_english": "Baochu Pagoda",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00 - 17:30",
+            "Tuesday": "08:00 - 17:30",
+            "Wednesday": "08:00 - 17:30",
+            "Thursday": "08:00 - 17:30",
+            "Friday": "08:00 - 17:30",
+            "Saturday": "08:00 - 17:30",
+            "Sunday": "08:00 - 17:30",
+            "notes": "Best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Climb to the top for a panoramic view of West Lake.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.253,
+            "longitude": 120.155
+          },
+          "address": "Baochu Pagoda, Hangzhou, China",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Pagoda",
+            "Scenic"
+          ],
+          "state": "Hangzhou",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aiga railtransportation 25.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Aiga_railtransportation_25.svg/800px-Aiga_railtransportation_25.svg.png",
+                "width": 800,
+                "height": 1203,
+                "attribution": {
+                  "title": "Aiga railtransportation 25",
+                  "author": "AIGA",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aiga_railtransportation_25.svg",
+                  "credit": "This image is from a collection commissioned by the United States Department of Transportation and designed by AIGA. It is copyright-free, and is available here.",
+                  "usage_terms": "Public domain",
+                  "description": "SVG version from aiga rail transportation .svg archive copy at the Wayback Machine."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7425
+        }
+      ]
+    }
+  ]
+}

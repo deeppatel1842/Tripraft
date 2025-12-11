@@ -1,0 +1,756 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "country": "Belgium",
+          "state": "Antwerp",
+          "cities": [
+            {
+              "city": "Antwerp",
+              "nearest_airport": "Antwerp International Airport (ANR)",
+              "top_places": [
+                {
+                  "name": "Cathedral of Our Lady",
+                  "ai_summary": "A stunning Gothic cathedral known for its impressive architecture and art, including works by Rubens.",
+                  "name_english": "Cathedral of Our Lady",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "€6",
+                  "rating_tourist_priority": 4.8,
+                  "rating_traveler_experience": 4.7,
+                  "opening_hours": {
+                    "mon": "10:00-17:00",
+                    "tue": "10:00-17:00",
+                    "wed": "10:00-17:00",
+                    "thu": "10:00-17:00",
+                    "fri": "10:00-17:00",
+                    "sat": "10:00-15:00",
+                    "sun": "13:00-16:00",
+                    "notes": "Closed during religious services."
+                  },
+                  "suggested_duration": "1–2 hours",
+                  "best_time_to_visit": "Morning",
+                  "place_tip": "Don’t miss the Rubens paintings inside.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2205,
+                    "lng": 4.4003
+                  },
+                  "address": "Groenplaats 21, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.dekathedraal.be/",
+                  "tags": [
+                    "Religion",
+                    "Architecture",
+                    "Art",
+                    "History"
+                  ]
+                },
+                {
+                  "name": "MAS - Museum aan de Stroom",
+                  "ai_summary": "A modern museum showcasing Antwerp’s history and its connection to the world through innovative exhibits.",
+                  "name_english": "Museum aan de Stroom",
+                  "sunrise_view": false,
+                  "sunset_view": true,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "19:00",
+                  "cost": "€10",
+                  "rating_tourist_priority": 4.7,
+                  "rating_traveler_experience": 4.6,
+                  "opening_hours": {
+                    "mon": "Closed",
+                    "tue": "10:00-17:00",
+                    "wed": "10:00-17:00",
+                    "thu": "10:00-17:00",
+                    "fri": "10:00-17:00",
+                    "sat": "10:00-17:00",
+                    "sun": "10:00-17:00",
+                    "notes": "Rooftop terrace open until 22:00."
+                  },
+                  "suggested_duration": "2–3 hours",
+                  "best_time_to_visit": "Afternoon",
+                  "place_tip": "Visit the rooftop for panoramic views of the city.",
+                  "advanced_booking": "Recommended",
+                  "coordinates": {
+                    "lat": 51.2289,
+                    "lng": 4.4043
+                  },
+                  "address": "Hanzestedenplaats 1, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.mas.be/",
+                  "tags": [
+                    "Museum",
+                    "History",
+                    "Culture",
+                    "Viewpoint"
+                  ]
+                },
+                {
+                  "name": "Antwerp Zoo",
+                  "ai_summary": "One of the oldest zoos in the world, featuring a wide variety of animals and beautiful gardens.",
+                  "name_english": "Antwerp Zoo",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "€25",
+                  "rating_tourist_priority": 4.6,
+                  "rating_traveler_experience": 4.5,
+                  "opening_hours": {
+                    "mon": "10:00-18:00",
+                    "tue": "10:00-18:00",
+                    "wed": "10:00-18:00",
+                    "thu": "10:00-18:00",
+                    "fri": "10:00-18:00",
+                    "sat": "10:00-18:00",
+                    "sun": "10:00-18:00",
+                    "notes": "Special events may extend hours."
+                  },
+                  "suggested_duration": "3–4 hours",
+                  "best_time_to_visit": "Morning",
+                  "place_tip": "Bring comfortable shoes for walking.",
+                  "advanced_booking": "Recommended",
+                  "coordinates": {
+                    "lat": 51.2172,
+                    "lng": 4.4211
+                  },
+                  "address": "Koningin Astridplein 20-26, 2018 Antwerp, Belgium",
+                  "official_website": "https://www.zooantwerpen.be/",
+                  "tags": [
+                    "Zoo",
+                    "Nature",
+                    "Family",
+                    "Education"
+                  ]
+                },
+                {
+                  "name": "Rubenshuis",
+                  "ai_summary": "The former home and studio of the famous painter Peter Paul Rubens, now a museum dedicated to his life and work.",
+                  "name_english": "Rubens House",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "€8",
+                  "rating_tourist_priority": 4.7,
+                  "rating_traveler_experience": 4.6,
+                  "opening_hours": {
+                    "mon": "Closed",
+                    "tue": "10:00-17:00",
+                    "wed": "10:00-17:00",
+                    "thu": "10:00-17:00",
+                    "fri": "10:00-17:00",
+                    "sat": "10:00-17:00",
+                    "sun": "10:00-17:00",
+                    "notes": "Guided tours available."
+                  },
+                  "suggested_duration": "1–2 hours",
+                  "best_time_to_visit": "Afternoon",
+                  "place_tip": "Don’t miss the garden area.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2145,
+                    "lng": 4.4068
+                  },
+                  "address": "Wapper 9-11, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.rubenshuis.be/",
+                  "tags": [
+                    "Art",
+                    "History",
+                    "Culture",
+                    "Museum"
+                  ]
+                },
+                {
+                  "name": "Grote Markt",
+                  "ai_summary": "The central square of Antwerp, surrounded by historic buildings, cafes, and the iconic Brabo Fountain.",
+                  "name_english": "Grote Markt",
+                  "sunrise_view": false,
+                  "sunset_view": true,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "19:00",
+                  "cost": "Free",
+                  "rating_tourist_priority": 4.8,
+                  "rating_traveler_experience": 4.7,
+                  "opening_hours": {
+                    "mon": "Open 24 hours",
+                    "tue": "Open 24 hours",
+                    "wed": "Open 24 hours",
+                    "thu": "Open 24 hours",
+                    "fri": "Open 24 hours",
+                    "sat": "Open 24 hours",
+                    "sun": "Open 24 hours",
+                    "notes": "Best enjoyed in the evening."
+                  },
+                  "suggested_duration": "1 hour",
+                  "best_time_to_visit": "Evening",
+                  "place_tip": "Enjoy a drink at one of the nearby cafes.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2211,
+                    "lng": 4.3997
+                  },
+                  "address": "Grote Markt, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.visitantwerpen.be/",
+                  "tags": [
+                    "Square",
+                    "Culture",
+                    "History",
+                    "Food"
+                  ]
+                },
+                {
+                  "name": "Antwerp Central Station",
+                  "ai_summary": "A stunning example of railway architecture, known for its grand facade and beautiful interior.",
+                  "name_english": "Antwerp Central Station",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "Free",
+                  "rating_tourist_priority": 4.7,
+                  "rating_traveler_experience": 4.6,
+                  "opening_hours": {
+                    "mon": "04:00-01:00",
+                    "tue": "04:00-01:00",
+                    "wed": "04:00-01:00",
+                    "thu": "04:00-01:00",
+                    "fri": "04:00-01:00",
+                    "sat": "04:00-01:00",
+                    "sun": "04:00-01:00",
+                    "notes": "Check train schedules for exact times."
+                  },
+                  "suggested_duration": "30 minutes",
+                  "best_time_to_visit": "Anytime",
+                  "place_tip": "Look up at the dome while waiting for your train.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2194,
+                    "lng": 4.4211
+                  },
+                  "address": "Koning Astridplein, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.antwerp-central-station.com/",
+                  "tags": [
+                    "Architecture",
+                    "Transport",
+                    "History"
+                  ]
+                },
+                {
+                  "name": "Meir",
+                  "ai_summary": "Antwerp's main shopping street, featuring a mix of high-street brands, luxury boutiques, and historic buildings.",
+                  "name_english": "Meir",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "Free",
+                  "rating_tourist_priority": 4.5,
+                  "rating_traveler_experience": 4.4,
+                  "opening_hours": {
+                    "mon": "10:00-18:00",
+                    "tue": "10:00-18:00",
+                    "wed": "10:00-18:00",
+                    "thu": "10:00-18:00",
+                    "fri": "10:00-18:00",
+                    "sat": "10:00-18:00",
+                    "sun": "Closed",
+                    "notes": "Extended hours for some shops on Fridays."
+                  },
+                  "suggested_duration": "1-2 hours",
+                  "best_time_to_visit": "Afternoon",
+                  "place_tip": "Visit the Stadsfeestzaal for a unique shopping experience.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2206,
+                    "lng": 4.4216
+                  },
+                  "address": "Meir, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.meirantwerpen.be/",
+                  "tags": [
+                    "Shopping",
+                    "Architecture",
+                    "Food"
+                  ]
+                },
+                {
+                  "name": "St. Anna's Tunnel",
+                  "ai_summary": "A pedestrian tunnel under the River Scheldt, connecting Antwerp with the suburb of Zwijndrecht.",
+                  "name_english": "St. Anna's Tunnel",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "€2.50",
+                  "rating_tourist_priority": 4.6,
+                  "rating_traveler_experience": 4.5,
+                  "opening_hours": {
+                    "mon": "05:30-23:30",
+                    "tue": "05:30-23:30",
+                    "wed": "05:30-23:30",
+                    "thu": "05:30-23:30",
+                    "fri": "05:30-23:30",
+                    "sat": "07:00-23:30",
+                    "sun": "07:00-23:30",
+                    "notes": "Bicycle and pedestrian access only."
+                  },
+                  "suggested_duration": "30 minutes",
+                  "best_time_to_visit": "Anytime",
+                  "place_tip": "Enjoy the views of the river and city from the tunnel.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2164,
+                    "lng": 4.4074
+                  },
+                  "address": "Sint-Annastraat, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.sintannastunnel.be/",
+                  "tags": [
+                    "Tunnel",
+                    "History",
+                    "Transport"
+                  ]
+                },
+                {
+                  "name": "Plantin-Moretus Museum",
+                  "ai_summary": "A museum dedicated to the history of printing, located in the former home and workshop of the Plantin-Moretus family.",
+                  "name_english": "Plantin-Moretus Museum",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "€8",
+                  "rating_tourist_priority": 4.7,
+                  "rating_traveler_experience": 4.6,
+                  "opening_hours": {
+                    "mon": "Closed",
+                    "tue": "10:00-17:00",
+                    "wed": "10:00-17:00",
+                    "thu": "10:00-17:00",
+                    "fri": "10:00-17:00",
+                    "sat": "10:00-17:00",
+                    "sun": "10:00-17:00",
+                    "notes": "Guided tours available."
+                  },
+                  "suggested_duration": "1–2 hours",
+                  "best_time_to_visit": "Afternoon",
+                  "place_tip": "Check out the original printing presses.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2194,
+                    "lng": 4.4044
+                  },
+                  "address": "Vrijdagmarkt 22, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.plantinmoretusmuseum.be/",
+                  "tags": [
+                    "Museum",
+                    "History",
+                    "Culture",
+                    "Education"
+                  ]
+                },
+                {
+                  "name": "Museum aan de Stroom (MAS)",
+                  "ai_summary": "A modern museum showcasing Antwerp’s history and its connection to the world through innovative exhibits.",
+                  "name_english": "Museum aan de Stroom (MAS)",
+                  "sunrise_view": false,
+                  "sunset_view": true,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "19:00",
+                  "cost": "€10",
+                  "rating_tourist_priority": 4.7,
+                  "rating_traveler_experience": 4.6,
+                  "opening_hours": {
+                    "mon": "Closed",
+                    "tue": "10:00-17:00",
+                    "wed": "10:00-17:00",
+                    "thu": "10:00-17:00",
+                    "fri": "10:00-17:00",
+                    "sat": "10:00-17:00",
+                    "sun": "10:00-17:00",
+                    "notes": "Rooftop terrace open until 22:00."
+                  },
+                  "suggested_duration": "2–3 hours",
+                  "best_time_to_visit": "Afternoon",
+                  "place_tip": "Visit the rooftop for panoramic views of the city.",
+                  "advanced_booking": "Recommended",
+                  "coordinates": {
+                    "lat": 51.2289,
+                    "lng": 4.4043
+                  },
+                  "address": "Hanzestedenplaats 1, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.mas.be/",
+                  "tags": [
+                    "Museum",
+                    "History",
+                    "Culture",
+                    "Viewpoint"
+                  ]
+                },
+                {
+                  "name": "Kasteel van Lierre",
+                  "ai_summary": "A medieval castle located in the suburb of Lier, known for its impressive architecture and beautiful gardens.",
+                  "name_english": "Lier Castle",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "€10",
+                  "rating_tourist_priority": 4.5,
+                  "rating_traveler_experience": 4.4,
+                  "opening_hours": {
+                    "mon": "Closed",
+                    "tue": "10:00-17:00",
+                    "wed": "10:00-17:00",
+                    "thu": "10:00-17:00",
+                    "fri": "10:00-17:00",
+                    "sat": "10:00-17:00",
+                    "sun": "10:00-17:00",
+                    "notes": "Guided tours available."
+                  },
+                  "suggested_duration": "1–2 hours",
+                  "best_time_to_visit": "Afternoon",
+                  "place_tip": "Explore the castle grounds and gardens.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.1833,
+                    "lng": 4.5706
+                  },
+                  "address": "Kasteelstraat 1, 2500 Lier, Belgium",
+                  "official_website": "https://www.kasteelvanlier.be/",
+                  "tags": [
+                    "Castle",
+                    "History",
+                    "Architecture",
+                    "Garden"
+                  ]
+                },
+                {
+                  "name": "Havenhuis",
+                  "ai_summary": "The Port House of Antwerp, an architectural masterpiece by Zaha Hadid, symbolizing the city's port heritage.",
+                  "name_english": "Port House",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "Free",
+                  "rating_tourist_priority": 4.6,
+                  "rating_traveler_experience": 4.5,
+                  "opening_hours": {
+                    "mon": "08:00-18:00",
+                    "tue": "08:00-18:00",
+                    "wed": "08:00-18:00",
+                    "thu": "08:00-18:00",
+                    "fri": "08:00-18:00",
+                    "sat": "Closed",
+                    "sun": "Closed",
+                    "notes": "Check for special events or exhibitions."
+                  },
+                  "suggested_duration": "1 hour",
+                  "best_time_to_visit": "Morning",
+                  "place_tip": "Take photos from the rooftop terrace.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2193,
+                    "lng": 4.4048
+                  },
+                  "address": "Havenhuis, 2030 Antwerp, Belgium",
+                  "official_website": "https://www.portofantwerp.com/en/port-house",
+                  "tags": [
+                    "Architecture",
+                    "Museum",
+                    "History"
+                  ]
+                },
+                {
+                  "name": "ZOO Antwerpen",
+                  "ai_summary": "A historic zoo in the heart of Antwerp, home to a wide variety of animals and a beautiful botanical garden.",
+                  "name_english": "Antwerp Zoo",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "€25",
+                  "rating_tourist_priority": 4.6,
+                  "rating_traveler_experience": 4.5,
+                  "opening_hours": {
+                    "mon": "10:00-18:00",
+                    "tue": "10:00-18:00",
+                    "wed": "10:00-18:00",
+                    "thu": "10:00-18:00",
+                    "fri": "10:00-18:00",
+                    "sat": "10:00-18:00",
+                    "sun": "10:00-18:00",
+                    "notes": "Special events may extend hours."
+                  },
+                  "suggested_duration": "3–4 hours",
+                  "best_time_to_visit": "Morning",
+                  "place_tip": "Visit the zoo's aquarium and reptile house.",
+                  "advanced_booking": "Recommended",
+                  "coordinates": {
+                    "lat": 51.2172,
+                    "lng": 4.4211
+                  },
+                  "address": "Koningin Astridplein 20-26, 2018 Antwerp, Belgium",
+                  "official_website": "https://www.zooantwerpen.be/",
+                  "tags": [
+                    "Zoo",
+                    "Nature",
+                    "Family",
+                    "Education"
+                  ]
+                },
+                {
+                  "name": "Rubenshuis",
+                  "ai_summary": "The former home and studio of the famous painter Peter Paul Rubens, now a museum dedicated to his life and work.",
+                  "name_english": "Rubens House",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "€8",
+                  "rating_tourist_priority": 4.7,
+                  "rating_traveler_experience": 4.6,
+                  "opening_hours": {
+                    "mon": "Closed",
+                    "tue": "10:00-17:00",
+                    "wed": "10:00-17:00",
+                    "thu": "10:00-17:00",
+                    "fri": "10:00-17:00",
+                    "sat": "10:00-17:00",
+                    "sun": "10:00-17:00",
+                    "notes": "Guided tours available."
+                  },
+                  "suggested_duration": "1–2 hours",
+                  "best_time_to_visit": "Afternoon",
+                  "place_tip": "Don’t miss the garden area.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2145,
+                    "lng": 4.4068
+                  },
+                  "address": "Wapper 9-11, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.rubenshuis.be/",
+                  "tags": [
+                    "Art",
+                    "History",
+                    "Culture",
+                    "Museum"
+                  ]
+                },
+                {
+                  "name": "Grote Markt",
+                  "ai_summary": "The central square of Antwerp, surrounded by historic buildings, cafes, and the iconic Brabo Fountain.",
+                  "name_english": "Grote Markt",
+                  "sunrise_view": false,
+                  "sunset_view": true,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "19:00",
+                  "cost": "Free",
+                  "rating_tourist_priority": 4.8,
+                  "rating_traveler_experience": 4.7,
+                  "opening_hours": {
+                    "mon": "Open 24 hours",
+                    "tue": "Open 24 hours",
+                    "wed": "Open 24 hours",
+                    "thu": "Open 24 hours",
+                    "fri": "Open 24 hours",
+                    "sat": "Open 24 hours",
+                    "sun": "Open 24 hours",
+                    "notes": "Best enjoyed in the evening."
+                  },
+                  "suggested_duration": "1 hour",
+                  "best_time_to_visit": "Evening",
+                  "place_tip": "Enjoy a drink at one of the nearby cafes.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2211,
+                    "lng": 4.3997
+                  },
+                  "address": "Grote Markt, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.visitantwerpen.be/",
+                  "tags": [
+                    "Square",
+                    "Culture",
+                    "History",
+                    "Food"
+                  ]
+                },
+                {
+                  "name": "Antwerp Central Station",
+                  "ai_summary": "A stunning example of railway architecture, known for its grand facade and beautiful interior.",
+                  "name_english": "Antwerp Central Station",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "Free",
+                  "rating_tourist_priority": 4.7,
+                  "rating_traveler_experience": 4.6,
+                  "opening_hours": {
+                    "mon": "04:00-01:00",
+                    "tue": "04:00-01:00",
+                    "wed": "04:00-01:00",
+                    "thu": "04:00-01:00",
+                    "fri": "04:00-01:00",
+                    "sat": "04:00-01:00",
+                    "sun": "04:00-01:00",
+                    "notes": "Check train schedules for exact times."
+                  },
+                  "suggested_duration": "30 minutes",
+                  "best_time_to_visit": "Anytime",
+                  "place_tip": "Look up at the dome while waiting for your train.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2194,
+                    "lng": 4.4211
+                  },
+                  "address": "Koning Astridplein, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.antwerp-central-station.com/",
+                  "tags": [
+                    "Architecture",
+                    "Transport",
+                    "History"
+                  ]
+                },
+                {
+                  "name": "Meir",
+                  "ai_summary": "Antwerp's main shopping street, featuring a mix of high-street brands, luxury boutiques, and historic buildings.",
+                  "name_english": "Meir",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "Free",
+                  "rating_tourist_priority": 4.5,
+                  "rating_traveler_experience": 4.4,
+                  "opening_hours": {
+                    "mon": "10:00-18:00",
+                    "tue": "10:00-18:00",
+                    "wed": "10:00-18:00",
+                    "thu": "10:00-18:00",
+                    "fri": "10:00-18:00",
+                    "sat": "10:00-18:00",
+                    "sun": "Closed",
+                    "notes": "Extended hours for some shops on Fridays."
+                  },
+                  "suggested_duration": "1-2 hours",
+                  "best_time_to_visit": "Afternoon",
+                  "place_tip": "Visit the Stadsfeestzaal for a unique shopping experience.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2206,
+                    "lng": 4.4216
+                  },
+                  "address": "Meir, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.meirantwerpen.be/",
+                  "tags": [
+                    "Shopping",
+                    "Architecture",
+                    "Food"
+                  ]
+                },
+                {
+                  "name": "St. Anna's Tunnel",
+                  "ai_summary": "A pedestrian tunnel under the River Scheldt, connecting Antwerp with the suburb of Zwijndrecht.",
+                  "name_english": "St. Anna's Tunnel",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "€2.50",
+                  "rating_tourist_priority": 4.6,
+                  "rating_traveler_experience": 4.5,
+                  "opening_hours": {
+                    "mon": "05:30-23:30",
+                    "tue": "05:30-23:30",
+                    "wed": "05:30-23:30",
+                    "thu": "05:30-23:30",
+                    "fri": "05:30-23:30",
+                    "sat": "07:00-23:30",
+                    "sun": "07:00-23:30",
+                    "notes": "Bicycle and pedestrian access only."
+                  },
+                  "suggested_duration": "30 minutes",
+                  "best_time_to_visit": "Anytime",
+                  "place_tip": "Enjoy the views of the river and city from the tunnel.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2164,
+                    "lng": 4.4074
+                  },
+                  "address": "Sint-Annastraat, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.sintannastunnel.be/",
+                  "tags": [
+                    "Tunnel",
+                    "History",
+                    "Transport"
+                  ]
+                },
+                {
+                  "name": "Plantin-Moretus Museum",
+                  "ai_summary": "A museum dedicated to the history of printing, located in the former home and workshop of the Plantin-Moretus family.",
+                  "name_english": "Plantin-Moretus Museum",
+                  "sunrise_view": false,
+                  "sunset_view": false,
+                  "sunrise_time": "N/A",
+                  "sunset_time": "N/A",
+                  "cost": "€8",
+                  "rating_tourist_priority": 4.7,
+                  "rating_traveler_experience": 4.6,
+                  "opening_hours": {
+                    "mon": "Closed",
+                    "tue": "10:00-17:00",
+                    "wed": "10:00-17:00",
+                    "thu": "10:00-17:00",
+                    "fri": "10:00-17:00",
+                    "sat": "10:00-17:00",
+                    "sun": "10:00-17:00",
+                    "notes": "Guided tours available."
+                  },
+                  "suggested_duration": "1–2 hours",
+                  "best_time_to_visit": "Afternoon",
+                  "place_tip": "Check out the original printing presses.",
+                  "advanced_booking": "Not required",
+                  "coordinates": {
+                    "lat": 51.2194,
+                    "lng": 4.4044
+                  },
+                  "address": "Vrijdagmarkt 22, 2000 Antwerp, Belgium",
+                  "official_website": "https://www.plantinmoretusmuseum.be/",
+                  "tags": [
+                    "Museum",
+                    "History",
+                    "Culture",
+                    "Education"
+                  ]
+                }
+              ]
+            }
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "1 dubrovnik pano - edit1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/1_dubrovnik_pano_-_edit1.jpg/960px-1_dubrovnik_pano_-_edit1.jpg",
+                "width": 960,
+                "height": 384,
+                "attribution": {
+                  "title": "1 dubrovnik pano - edit1.jpg",
+                  "author": "Chensiyuan Edit by: Bammesk",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1_dubrovnik_pano_-_edit1.jpg"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

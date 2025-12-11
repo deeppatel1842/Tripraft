@@ -1,7 +1,15 @@
 /**
- * Firestore Real-Time Listener Service
+ * Expense Group Firestore Listener Service (Legacy)
  * 
- * Provides real-time updates for Group Planner using Firestore client SDK.
+ * NOTE: This is a simplified listener for the GroupPlannerContext to display
+ * expense groups. For full expense management features, use expenseFirestoreListener.js
+ * 
+ * Collections:
+ * - expense_groups (Expense Management - NOT Group Planner's travel_groups)
+ * - expense_group_members (Expense Management memberships)
+ * 
+ * Group Planner (travel_groups, travel_places, travel_polls) uses API calls,
+ * not Firestore listeners.
  * 
  * Benefits:
  * - Zero API calls - Direct Firestore connection
@@ -9,22 +17,18 @@
  * - Free reads - Snapshot listeners don't count
  * - Auto reconnection - Built into Firebase SDK
  * - Offline support - Works with Firebase cache
- * 
- * Architecture:
- * - Listens to travel_groups/{groupId} for group changes
- * - Listens to group_members collection for membership changes
- * - Automatically updates React state via callbacks
  */
 
 import { getFirestore, doc, collection, onSnapshot, query, where } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import { app } from '../firebase/authService';
 
-class FirestoreListenerService {
+class ExpenseGroupListenerService {
   constructor() {
     this.db = null;
     this.auth = null;
     this.listeners = new Map(); // Track active listeners for cleanup
+    this.deletedGroups = new Set(); // Track groups being deleted to suppress permission errors
     this.initialized = false;
   }
 
@@ -33,7 +37,7 @@ class FirestoreListenerService {
    */
   initialize() {
     if (this.initialized) {
-      console.log('ℹ️ [FIRESTORE] Already initialized');
+      console.log('ℹ️ [EXPENSE-GROUP-LISTENER] Already initialized');
       return;
     }
 
@@ -43,19 +47,19 @@ class FirestoreListenerService {
       this.initialized = true;
       
       const currentUser = this.auth.currentUser;
-      console.log('✅ [FIRESTORE] Listener service initialized');
-      console.log('📡 [FIRESTORE] Direct connection to Firestore established (authenticated)');
-      console.log('👤 [FIRESTORE] Current user:', currentUser ? {
+      console.log('✅ [EXPENSE-GROUP-LISTENER] Listener service initialized');
+      console.log('📡 [EXPENSE-GROUP-LISTENER] Direct connection to Firestore established');
+      console.log('👤 [EXPENSE-GROUP-LISTENER] Current user:', currentUser ? {
         uid: currentUser.uid,
         email: currentUser.email,
         emailVerified: currentUser.emailVerified
       } : 'NOT AUTHENTICATED');
       
       if (!currentUser) {
-        console.warn('⚠️ [FIRESTORE] WARNING: No user authenticated! Listeners may fail.');
+        console.warn('⚠️ [EXPENSE-GROUP-LISTENER] WARNING: No user authenticated! Listeners may fail.');
       }
     } catch (error) {
-      console.error('❌ [FIRESTORE] Initialization failed:', error);
+      console.error('❌ [EXPENSE-GROUP-LISTENER] Initialization failed:', error);
       throw error;
     }
   }
@@ -75,33 +79,34 @@ class FirestoreListenerService {
     
     // Clean up existing listener if any
     if (this.listeners.has(listenerKey)) {
-      console.log('🔄 [FIRESTORE] Replacing existing user groups listener');
+      console.log('🔄 [EXPENSE-GROUP-LISTENER] Replacing existing user groups listener');
       this.listeners.get(listenerKey)();
     }
 
-    console.log('🎧 [FIRESTORE] Setting up listener for user groups:', userId);
+    console.log('🎧 [EXPENSE-GROUP-LISTENER] Setting up listener for user groups:', userId);
 
     try {
       // Query for groups where user is a member
-      const membersRef = collection(this.db, 'group_members');
+      const membersRef = collection(this.db, 'expense_group_members');
       const q = query(membersRef, where('user_id', '==', userId));
 
       const unsubscribe = onSnapshot(
         q,
         async (snapshot) => {
-          console.log('🔔 [FIRESTORE] User groups snapshot received');
-          console.log('📊 [FIRESTORE] Members found:', snapshot.size);
+          console.log('🔔 [EXPENSE-GROUP-LISTENER] User groups snapshot received');
+          console.log('📊 [EXPENSE-GROUP-LISTENER] Members found:', snapshot.size);
 
-          // Get all group IDs where user is a member
+          // Get all group IDs where user is an active member
           const groupIds = [];
           snapshot.forEach(doc => {
             const data = doc.data();
-            if (data.group_id) {
+            // Only include active members
+            if (data.group_id && data.is_active !== false) {
               groupIds.push(data.group_id);
             }
           });
 
-          console.log('📋 [FIRESTORE] User is member of groups:', groupIds);
+          console.log('📋 [EXPENSE-GROUP-LISTENER] User is member of groups:', groupIds);
 
           // Now fetch the actual group documents
           if (groupIds.length > 0) {
@@ -110,13 +115,25 @@ class FirestoreListenerService {
             const groupListeners = [];
 
             for (const groupId of groupIds) {
-              const groupRef = doc(this.db, 'travel_groups', groupId);
+              const groupRef = doc(this.db, 'expense_groups', groupId);
               
               const groupUnsubscribe = onSnapshot(
                 groupRef,
                 (groupDoc) => {
                   if (groupDoc.exists()) {
                     const data = groupDoc.data();
+                    
+                    // Skip inactive (deleted) groups
+                    if (data.is_active === false) {
+                      // Remove from groupsData if it was previously there
+                      if (groupsData[groupId]) {
+                        delete groupsData[groupId];
+                        onUpdate({...groupsData});
+                        console.log('🗑️ [EXPENSE-GROUP-LISTENER] Group removed (deleted):', groupId);
+                      }
+                      return;
+                    }
+                    
                     groupsData[groupId] = {
                       ...data,
                       id: groupDoc.id,
@@ -125,11 +142,11 @@ class FirestoreListenerService {
                     
                     // Call update callback with current groups data
                     onUpdate(groupsData);
-                    console.log('✅ [FIRESTORE] Group updated:', groupId);
+                    console.log('✅ [EXPENSE-GROUP-LISTENER] Group updated:', groupId);
                   }
                 },
                 (error) => {
-                  console.error('❌ [FIRESTORE] Group listener error:', error);
+                  console.error('❌ [EXPENSE-GROUP-LISTENER] Group listener error:', error);
                   if (onError) onError(error);
                 }
               );
@@ -148,12 +165,12 @@ class FirestoreListenerService {
 
           } else {
             // No groups - user is not a member of any groups
-            console.log('ℹ️ [FIRESTORE] User is not a member of any groups');
+            console.log('ℹ️ [EXPENSE-GROUP-LISTENER] User is not a member of any groups');
             onUpdate({});
           }
         },
         (error) => {
-          console.error('❌ [FIRESTORE] User groups listener error:', error);
+          console.error('❌ [EXPENSE-GROUP-LISTENER] User groups listener error:', error);
           if (onError) onError(error);
         }
       );
@@ -162,7 +179,7 @@ class FirestoreListenerService {
       return unsubscribe;
 
     } catch (error) {
-      console.error('❌ [FIRESTORE] Failed to set up user groups listener:', error);
+      console.error('❌ [EXPENSE-GROUP-LISTENER] Failed to set up user groups listener:', error);
       if (onError) onError(error);
       return () => {}; // Return no-op unsubscribe
     }
@@ -183,20 +200,20 @@ class FirestoreListenerService {
     
     // Clean up existing listener if any
     if (this.listeners.has(listenerKey)) {
-      console.log('🔄 [FIRESTORE] Replacing existing group listener');
+      console.log('🔄 [EXPENSE-GROUP-LISTENER] Replacing existing group listener');
       this.listeners.get(listenerKey)();
     }
 
-    console.log('🎧 [FIRESTORE] Setting up listener for group:', groupId);
+    console.log('🎧 [EXPENSE-GROUP-LISTENER] Setting up listener for group:', groupId);
 
     try {
-      const groupRef = doc(this.db, 'travel_groups', groupId);
+      const groupRef = doc(this.db, 'expense_groups', groupId);
 
       const unsubscribe = onSnapshot(
         groupRef,
         (snapshot) => {
           if (snapshot.exists()) {
-            console.log('🔔 [FIRESTORE] Group snapshot received:', groupId);
+            console.log('🔔 [EXPENSE-GROUP-LISTENER] Group snapshot received:', groupId);
             const data = snapshot.data();
             const groupData = {
               ...data,
@@ -204,19 +221,24 @@ class FirestoreListenerService {
               group_id: snapshot.id,
             };
             onUpdate(groupData);
-            console.log('✅ [FIRESTORE] Group data updated:', {
+            console.log('✅ [EXPENSE-GROUP-LISTENER] Group data updated:', {
               places: data.places?.length || 0,
               polls: data.polls?.length || 0,
               checklist: data.checklist?.length || 0,
               members: data.members?.length || 0,
             });
           } else {
-            console.log('⚠️ [FIRESTORE] Group not found:', groupId);
+            console.log('⚠️ [EXPENSE-GROUP-LISTENER] Group not found:', groupId);
             if (onError) onError(new Error('Group not found'));
           }
         },
         (error) => {
-          console.error('❌ [FIRESTORE] Group listener error:', error);
+          // Silently ignore permission errors for groups being deleted
+          if (error.code === 'permission-denied' && this.deletedGroups.has(groupId)) {
+            console.log(`ℹ️ [EXPENSE-GROUP-LISTENER] Ignoring permission error for deleted group ${groupId}`);
+            return;
+          }
+          console.error('❌ [EXPENSE-GROUP-LISTENER] Group listener error:', error);
           if (onError) onError(error);
         }
       );
@@ -225,7 +247,7 @@ class FirestoreListenerService {
       return unsubscribe;
 
     } catch (error) {
-      console.error('❌ [FIRESTORE] Failed to set up group listener:', error);
+      console.error('❌ [EXPENSE-GROUP-LISTENER] Failed to set up group listener:', error);
       if (onError) onError(error);
       return () => {}; // Return no-op unsubscribe
     }
@@ -237,7 +259,7 @@ class FirestoreListenerService {
   stopListeningToUserGroups(userId) {
     const listenerKey = `user_groups_${userId}`;
     if (this.listeners.has(listenerKey)) {
-      console.log('🔥 [FIRESTORE] Stopping user groups listener:', userId);
+      console.log('🔥 [EXPENSE-GROUP-LISTENER] Stopping user groups listener:', userId);
       this.listeners.get(listenerKey)();
       this.listeners.delete(listenerKey);
     }
@@ -245,30 +267,51 @@ class FirestoreListenerService {
 
   /**
    * Stop listening to a specific group
+   * @param {string} groupId - Group ID to stop listening to
+   * @param {boolean} isDeleting - Whether the group is being deleted (suppresses future permission errors)
    */
-  stopListeningToGroup(groupId) {
+  stopListeningToGroup(groupId, isDeleting = false) {
     const listenerKey = `group_${groupId}`;
+    
+    // Track that this group is being deleted to suppress future permission errors
+    if (isDeleting) {
+      this.deletedGroups.add(groupId);
+      console.log('🔥 [EXPENSE-GROUP-LISTENER] Marked group as deleted to suppress permission errors:', groupId);
+      
+      // Clean up deletedGroups after 30 seconds to prevent memory leak
+      setTimeout(() => {
+        this.deletedGroups.delete(groupId);
+      }, 30000);
+    }
+    
     if (this.listeners.has(listenerKey)) {
-      console.log('🔥 [FIRESTORE] Stopping group listener:', groupId);
+      console.log('🔥 [EXPENSE-GROUP-LISTENER] Stopping group listener:', groupId);
       this.listeners.get(listenerKey)();
       this.listeners.delete(listenerKey);
     }
+  }
+  
+  /**
+   * Check if a group is being deleted (used to suppress permission errors)
+   */
+  isGroupDeleted(groupId) {
+    return this.deletedGroups.has(groupId);
   }
 
   /**
    * Clean up all active listeners
    */
   cleanup() {
-    console.log('🧹 [FIRESTORE] Cleaning up all listeners');
-    console.log('📊 [FIRESTORE] Active listeners:', this.listeners.size);
+    console.log('🧹 [EXPENSE-GROUP-LISTENER] Cleaning up all listeners');
+    console.log('📊 [EXPENSE-GROUP-LISTENER] Active listeners:', this.listeners.size);
     
     this.listeners.forEach((unsubscribe, key) => {
-      console.log('🔥 [FIRESTORE] Stopping listener:', key);
+      console.log('🔥 [EXPENSE-GROUP-LISTENER] Stopping listener:', key);
       unsubscribe();
     });
     
     this.listeners.clear();
-    console.log('✅ [FIRESTORE] All listeners stopped');
+    console.log('✅ [EXPENSE-GROUP-LISTENER] All listeners stopped');
   }
 
   /**
@@ -286,6 +329,6 @@ class FirestoreListenerService {
   }
 }
 
-// Export singleton instance
-const firestoreListenerService = new FirestoreListenerService();
+// Export singleton instance (kept as firestoreListenerService for backward compatibility)
+const firestoreListenerService = new ExpenseGroupListenerService();
 export default firestoreListenerService;

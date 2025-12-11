@@ -1,0 +1,1090 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Zion National Park",
+          "ai_summary": "A stunning national park known for its towering sandstone cliffs and diverse ecosystems.",
+          "name_english": "Zion National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "06:15 PM",
+          "cost": "$35 per vehicle",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Hike the Angels Landing trail for breathtaking views.",
+          "advanced_booking": "Recommended for shuttle tickets",
+          "coordinates": {
+            "lat": 37.2982,
+            "lng": -113.0263
+          },
+          "address": "Zion National Park, Springdale, Utah, USA",
+          "official_website": "https://www.nps.gov/zion/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1903 painting of Zion Canyon by Dellenbaugh.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1903_painting_of_Zion_Canyon_by_Dellenbaugh.jpg",
+                "width": 800,
+                "height": 432,
+                "attribution": {
+                  "title": "1903 painting of Zion Canyon by Dellenbaugh",
+                  "author": "Frederick S. Dellenbaugh",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1903_painting_of_Zion_Canyon_by_Dellenbaugh.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Bryce Canyon National Park",
+          "ai_summary": "Famous for its unique geological formations called hoodoos.",
+          "name_english": "Bryce Canyon National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50 AM",
+          "sunset_time": "06:20 PM",
+          "cost": "$35 per vehicle",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit Sunrise Point for the best views of the hoodoos.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 37.593,
+            "lng": -112.1871
+          },
+          "address": "Bryce Canyon National Park, Bryce, Utah, USA",
+          "official_website": "https://www.nps.gov/brca/",
+          "tags": [
+            "Nature",
+            "Geology",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bryce Amphitheater from Sunrise Point Highres 2013.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bryce_Amphitheater_from_Sunrise_Point_Highres_2013.jpg/960px-Bryce_Amphitheater_from_Sunrise_Point_Highres_2013.jpg",
+                "width": 800,
+                "height": 271,
+                "attribution": {
+                  "title": "Bryce Amphitheater from Sunrise Point Highres 2013",
+                  "author": "Tuxyso",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bryce_Amphitheater_from_Sunrise_Point_Highres_2013.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Arches National Park",
+          "ai_summary": "Home to over 2,000 natural stone arches and stunning desert landscapes.",
+          "name_english": "Arches National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "$30 per vehicle",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Fall",
+          "place_tip": "Don't miss the Delicate Arch hike at sunset.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.7331,
+            "lng": -109.5925
+          },
+          "address": "Arches National Park, Moab, Utah, USA",
+          "official_website": "https://www.nps.gov/arch/",
+          "tags": [
+            "Nature",
+            "Geology",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:16 21 1705 arches.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/16_21_1705_arches.jpg/960px-16_21_1705_arches.jpg",
+                "width": 800,
+                "height": 534,
+                "attribution": {
+                  "title": "16 21 1705 arches",
+                  "author": "Dsdugan",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:16_21_1705_arches.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Monument Valley Navajo Tribal Park",
+          "ai_summary": "Iconic red sandstone formations and a key symbol of the American West.",
+          "name_english": "Monument Valley Navajo Tribal Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "06:10 PM",
+          "cost": "$20 per vehicle",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1 day",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Take the Valley Drive for a scenic tour of the monuments.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 36.9989,
+            "lng": -113.227
+          },
+          "address": "Monument Valley, UT 84536, USA",
+          "official_website": "https://www.navajonationparks.org/htm/monumentvalley.htm",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Canyonlands National Park",
+          "ai_summary": "A vast park with canyons, mesas, and buttes carved by the Colorado River.",
+          "name_english": "Canyonlands National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "$30 per vehicle",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Visit the Island in the Sky for breathtaking views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.3275,
+            "lng": -109.8783
+          },
+          "address": "Canyonlands National Park, Moab, Utah, USA",
+          "official_website": "https://www.nps.gov/cany/index.htm",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Canyonlands NP Grand View Point Overlook.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Canyonlands_NP_Grand_View_Point_Overlook.jpg/960px-Canyonlands_NP_Grand_View_Point_Overlook.jpg",
+                "width": 800,
+                "height": 450,
+                "attribution": {
+                  "title": "Canyonlands NP Grand View Point Overlook",
+                  "author": "Myrabella",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Canyonlands_NP_Grand_View_Point_Overlook.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Temple Square",
+          "ai_summary": "A 10-acre complex in the heart of Salt Lake City, showcasing the city's history and the headquarters of the LDS Church.",
+          "name_english": "Temple Square",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "9:00 AM - 9:00 PM",
+            "tue": "9:00 AM - 9:00 PM",
+            "wed": "9:00 AM - 9:00 PM",
+            "thu": "9:00 AM - 9:00 PM",
+            "fri": "9:00 AM - 9:00 PM",
+            "sat": "9:00 AM - 9:00 PM",
+            "sun": "9:00 AM - 9:00 PM",
+            "notes": "Closed on Christmas Day"
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Join a free guided tour to learn about the history and architecture.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 40.7608,
+            "lng": -111.891
+          },
+          "address": "50 N Temple, Salt Lake City, UT 84150, USA",
+          "official_website": "https://www.templesquare.com/",
+          "tags": [
+            "History",
+            "Culture",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Christus statue temple square salt lake city.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Christus_statue_temple_square_salt_lake_city.jpg/960px-Christus_statue_temple_square_salt_lake_city.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Christus statue temple square salt lake city",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Christus_statue_temple_square_salt_lake_city.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Capitol Reef National Park",
+          "ai_summary": "Known for its unique Waterpocket Fold and diverse landscapes.",
+          "name_english": "Capitol Reef National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "$20 per vehicle",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Explore the Fruita Historic District for a glimpse into the past.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.3672,
+            "lng": -111.261
+          },
+          "address": "Capitol Reef National Park, Torrey, Utah, USA",
+          "official_website": "https://www.nps.gov/care/index.htm",
+          "tags": [
+            "Nature",
+            "History",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Big Thomson Mesa, Capitol Reef National Park, Utah.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Big_Thomson_Mesa%2C_Capitol_Reef_National_Park%2C_Utah.jpg/960px-Big_Thomson_Mesa%2C_Capitol_Reef_National_Park%2C_Utah.jpg",
+                "width": 800,
+                "height": 532,
+                "attribution": {
+                  "title": "Big Thomson Mesa, Capitol Reef National Park, Utah",
+                  "author": "This image was taken by the NASA Expedition 20 crew",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Big_Thomson_Mesa,_Capitol_Reef_National_Park,_Utah.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Park City Mountain Resort",
+          "ai_summary": "A premier ski resort in the winter and a mountain biking paradise in the summer.",
+          "name_english": "Park City Mountain Resort",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Varies by season and activity",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "9:00 AM - 4:00 PM",
+            "tue": "9:00 AM - 4:00 PM",
+            "wed": "9:00 AM - 4:00 PM",
+            "thu": "9:00 AM - 4:00 PM",
+            "fri": "9:00 AM - 4:00 PM",
+            "sat": "9:00 AM - 4:00 PM",
+            "sun": "9:00 AM - 4:00 PM",
+            "notes": "Hours vary by season. Check the official website for details."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Winter for skiing, Summer for mountain biking",
+          "place_tip": "Try the Alpine Slide for a thrilling ride down the mountain.",
+          "advanced_booking": "Recommended for ski passes and rentals in winter",
+          "coordinates": {
+            "lat": 40.6454,
+            "lng": -111.498
+          },
+          "address": "Park City Mountain Resort, 1345 Lowell Ave, Park City, UT 84060, USA",
+          "official_website": "https://www.parkcitymountain.com/",
+          "tags": [
+            "Skiing",
+            "Snowboarding",
+            "Mountain Biking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Alpine Slide at Mountain side Resort in Park City, Utah.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Alpine_Slide_at_Mountain_side_Resort_in_Park_City%2C_Utah.jpg/960px-Alpine_Slide_at_Mountain_side_Resort_in_Park_City%2C_Utah.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Alpine Slide at Mountain side Resort in Park City, Utah",
+                  "author": "Rockclaw1030",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Alpine_Slide_at_Mountain_side_Resort_in_Park_City,_Utah.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Great Salt Lake",
+          "ai_summary": "The largest saltwater lake in the Western Hemisphere, famous for its high salinity and buoyancy.",
+          "name_english": "Great Salt Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Visit Antelope Island for the best views and wildlife watching.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 41.0934,
+            "lng": -112.1008
+          },
+          "address": "Great Salt Lake, Utah, USA",
+          "official_website": "https://stateparks.utah.gov/parks/great-salt-lake/",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Wildlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:02162008 Interstate80NWUtah.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/02162008_Interstate80NWUtah.JPG/960px-02162008_Interstate80NWUtah.JPG",
+                "width": 800,
+                "height": 536,
+                "attribution": {
+                  "title": "02162008 Interstate80NWUtah",
+                  "author": "DR04",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:02162008_Interstate80NWUtah.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Grand Staircase-Escalante National Monument",
+          "ai_summary": "A vast and remote area with stunning geological features and diverse ecosystems.",
+          "name_english": "Grand Staircase-Escalante National Monument",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "06:10 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited with a high-clearance vehicle."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Explore the slot canyons and rock formations.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 37.5271,
+            "lng": -111.5838
+          },
+          "address": "Grand Staircase-Escalante National Monument, Utah, USA",
+          "official_website": "https://www.blm.gov/learn/interpretive-centers/grand-staircase-escalante",
+          "tags": [
+            "Nature",
+            "Geology",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Big Honkin' Hoodoo - Flickr - snowpeak.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Big_Honkin%27_Hoodoo_-_Flickr_-_snowpeak.jpg/960px-Big_Honkin%27_Hoodoo_-_Flickr_-_snowpeak.jpg",
+                "width": 800,
+                "height": 834,
+                "attribution": {
+                  "title": "Big Honkin' Hoodoo - Flickr - snowpeak",
+                  "author": "John Fowler from Placitas, NM, USA",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Big_Honkin'_Hoodoo_-_Flickr_-_snowpeak.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Moab",
+          "ai_summary": "A city in eastern Utah, known as a base for exploring Arches and Canyonlands National Parks.",
+          "name_english": "Moab",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Visit the Moab Giants Dinosaur Park for a family-friendly activity.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.5733,
+            "lng": -109.5498
+          },
+          "address": "Moab, Utah, USA",
+          "official_website": "https://www.discovermoab.com/",
+          "tags": [
+            "City",
+            "Basecamp",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Al-Balu' Moabite Stele on display at the Jordan Museum.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Al-Balu%27_Moabite_Stele_on_display_at_the_Jordan_Museum.jpg/960px-Al-Balu%27_Moabite_Stele_on_display_at_the_Jordan_Museum.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Al-Balu' Moabite Stele on display at the Jordan Museum",
+                  "author": "Makeandtoss",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Al-Balu'_Moabite_Stele_on_display_at_the_Jordan_Museum.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Bonneville Salt Flats",
+          "ai_summary": "A unique desert area with a vast expanse of hard, flat salt crust.",
+          "name_english": "Bonneville Salt Flats",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:05 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Visit the salt flats after a rain for stunning reflections.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 40.7402,
+            "lng": -113.3879
+          },
+          "address": "Bonneville Salt Flats, Utah, USA",
+          "official_website": "https://www.blm.gov/visit/bonneville-salt-flats",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Unique Landscapes"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bonneville Salt Flats (17235453660).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bonneville_Salt_Flats_%2817235453660%29.jpg/960px-Bonneville_Salt_Flats_%2817235453660%29.jpg",
+                "width": 800,
+                "height": 532,
+                "attribution": {
+                  "title": "Bonneville Salt Flats (17235453660)",
+                  "author": "Bureau  of Land Management",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bonneville_Salt_Flats_(17235453660).jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Natural Bridges National Monument",
+          "ai_summary": "Home to the world's first internationally recognized Dark Sky Park.",
+          "name_english": "Natural Bridges National Monument",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:35 AM",
+          "sunset_time": "06:05 PM",
+          "cost": "$20 per vehicle",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1 day",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Join a ranger-led tour to learn about the park's geology and ecology.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 37.487,
+            "lng": -110.1895
+          },
+          "address": "Natural Bridges National Monument, Utah, USA",
+          "official_website": "https://www.nps.gov/nabr/index.htm",
+          "tags": [
+            "Nature",
+            "Stargazing",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Snowbird Ski Resort",
+          "ai_summary": "A popular ski resort located in the Wasatch Range of the Rocky Mountains.",
+          "name_english": "Snowbird Ski Resort",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "05:55 PM",
+          "cost": "Varies by season and activity",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "9:00 AM - 4:00 PM",
+            "tue": "9:00 AM - 4:00 PM",
+            "wed": "9:00 AM - 4:00 PM",
+            "thu": "9:00 AM - 4:00 PM",
+            "fri": "9:00 AM - 4:00 PM",
+            "sat": "9:00 AM - 4:00 PM",
+            "sun": "9:00 AM - 4:00 PM",
+            "notes": "Hours vary by season. Check the official website for details."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Winter for skiing, Summer for hiking and tram rides",
+          "place_tip": "Take the Aerial Tram for stunning views of the Wasatch Range.",
+          "advanced_booking": "Recommended for ski passes and rentals in winter",
+          "coordinates": {
+            "lat": 40.5823,
+            "lng": -111.6549
+          },
+          "address": "Snowbird Ski Resort, 9385 S Snowbird Center Dr, Snowbird, UT 84092, USA",
+          "official_website": "https://www.snowbird.com/",
+          "tags": [
+            "Skiing",
+            "Snowboarding",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lake Powell",
+          "ai_summary": "A man-made reservoir on the Colorado River, known for its stunning blue water and red rock scenery.",
+          "name_english": "Lake Powell",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "05:45 PM",
+          "cost": "$30 per vehicle",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Take a boat tour to explore the lake and its many coves.",
+          "advanced_booking": "Recommended for boat rentals and tours",
+          "coordinates": {
+            "lat": 37.0682,
+            "lng": -111.499
+          },
+          "address": "Lake Powell, Utah, USA",
+          "official_website": "https://www.nps.gov/glca/index.htm",
+          "tags": [
+            "Nature",
+            "Water Activities",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox current red Americas.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ambox_current_red_Americas.svg/800px-Ambox_current_red_Americas.svg.png",
+                "width": 800,
+                "height": 644,
+                "attribution": {
+                  "title": "Ambox current red Americas",
+                  "author": "andrybak",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_current_red_Americas.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Dinosaur National Monument",
+          "ai_summary": "Famous for its dinosaur fossils and stunning canyon views.",
+          "name_english": "Dinosaur National Monument",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "05:40 PM",
+          "cost": "$20 per vehicle",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Visit the Quarry Exhibit Hall to see real dinosaur fossils.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 40.441,
+            "lng": -109.5343
+          },
+          "address": "Dinosaur National Monument, Utah, USA",
+          "official_website": "https://www.nps.gov/dino/index.htm",
+          "tags": [
+            "Nature",
+            "Paleontology",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bones on Quarry.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Bones_on_Quarry.jpg/960px-Bones_on_Quarry.jpg",
+                "width": 800,
+                "height": 329,
+                "attribution": {
+                  "title": "Bones on Quarry",
+                  "author": "Carpenter, Kenneth",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bones_on_Quarry.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Cedar Breaks National Monument",
+          "ai_summary": "A stunning amphitheater-like formation with colorful rock layers and bristlecone pines.",
+          "name_english": "Cedar Breaks National Monument",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "$10 per vehicle",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1 day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Drive the Cedar Canyon Scenic Byway for breathtaking views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 37.593,
+            "lng": -112.1871
+          },
+          "address": "Cedar Breaks National Monument, Brian Head, Utah, USA",
+          "official_website": "https://www.nps.gov/cebr/index.htm",
+          "tags": [
+            "Nature",
+            "Geology",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cebr view northeast.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Cebr_view_northeast.jpg/960px-Cebr_view_northeast.jpg",
+                "width": 800,
+                "height": 364,
+                "attribution": {
+                  "title": "Cebr view northeast",
+                  "author": "en:User:Bob Palin",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cebr_view_northeast.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Antelope Island State Park",
+          "ai_summary": "The largest island in the Great Salt Lake, known for its wildlife and stunning views.",
+          "name_english": "Antelope Island State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "$15 per vehicle",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1 day",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Look out for bison and antelope while driving the scenic loop.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 41.0831,
+            "lng": -112.203
+          },
+          "address": "Antelope Island State Park, Syracuse, Utah, USA",
+          "official_website": "https://stateparks.utah.gov/parks/antelope-island/",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2015-10-27 14 35 29 View northeast across Antelope Island, Utah from an aircraft departing Salt Lake City International Airport.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/2015-10-27_14_35_29_View_northeast_across_Antelope_Island%2C_Utah_from_an_aircraft_departing_Salt_Lake_City_International_Airport.jpg/960px-2015-10-27_14_35_29_View_northeast_across_Antelope_Island%2C_Utah_from_an_aircraft_departing_Salt_Lake_City_International_Airport.jpg",
+                "width": 800,
+                "height": 442,
+                "attribution": {
+                  "title": "2015-10-27 14 35 29 View northeast across Antelope Island, Utah from an aircraft departing Salt Lake City International Airport",
+                  "author": "Famartin",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2015-10-27_14_35_29_View_northeast_across_Antelope_Island,_Utah_from_an_aircraft_departing_Salt_Lake_City_International_Airport.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Kodachrome Basin State Park",
+          "ai_summary": "Known for its colorful sandstone formations and unique geological features.",
+          "name_english": "Kodachrome Basin State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "06:10 PM",
+          "cost": "$10 per vehicle",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1 day",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Explore the park's trails for stunning views of the rock formations.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 37.5008,
+            "lng": -112.1958
+          },
+          "address": "Kodachrome Basin State Park, Cannonville, Utah, USA",
+          "official_website": "https://stateparks.utah.gov/parks/kodachrome-basin/",
+          "tags": [
+            "Nature",
+            "Geology",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Box Canyon Kodachrome Basin SP.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Box_Canyon_Kodachrome_Basin_SP.jpg/960px-Box_Canyon_Kodachrome_Basin_SP.jpg",
+                "width": 800,
+                "height": 635,
+                "attribution": {
+                  "title": "Box Canyon Kodachrome Basin SP",
+                  "author": "Rblinehan1929",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Box_Canyon_Kodachrome_Basin_SP.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Utah Olympic Park",
+          "ai_summary": "A venue for the 2002 Winter Olympics, now a popular year-round destination for sports and recreation.",
+          "name_english": "Utah Olympic Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "05:50 PM",
+          "cost": "$20 per vehicle",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "9:00 AM - 5:00 PM",
+            "tue": "9:00 AM - 5:00 PM",
+            "wed": "9:00 AM - 5:00 PM",
+            "thu": "9:00 AM - 5:00 PM",
+            "fri": "9:00 AM - 5:00 PM",
+            "sat": "9:00 AM - 5:00 PM",
+            "sun": "9:00 AM - 5:00 PM",
+            "notes": "Hours vary by season. Check the official website for details."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Winter for skiing, Summer for zip-lining and bobsledding",
+          "place_tip": "Try the zip-line for a thrilling ride with a view.",
+          "advanced_booking": "Recommended for ski passes and summer activities",
+          "coordinates": {
+            "lat": 40.6433,
+            "lng": -111.498
+          },
+          "address": "Utah Olympic Park, 3419 Olympic Pkwy, Park City, UT 84098, USA",
+          "official_website": "https://utaholympiclegacy.org/utah-olympic-park/",
+          "tags": [
+            "Sports",
+            "Recreation",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "160622 Improving the photographic skills of Wikimedians.pdf",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/160622_Improving_the_photographic_skills_of_Wikimedians.pdf/page1-960px-160622_Improving_the_photographic_skills_of_Wikimedians.pdf.jpg",
+                "width": 960,
+                "height": 720,
+                "attribution": {
+                  "title": "160622 Improving the photographic skills of Wikimedians.pdf",
+                  "author": "Poco a poco",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:160622_Improving_the_photographic_skills_of_Wikimedians.pdf"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

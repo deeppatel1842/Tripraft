@@ -1,0 +1,1135 @@
+{
+  "country": "Canada",
+  "state": "British Columbia",
+  "cities": [
+    {
+      "city": "British Columbia",
+      "nearest_airport": "Vancouver International Airport (YVR)",
+      "places": [
+        {
+          "name": "Stanley Park",
+          "ai_summary": "Stanley Park is a world-renowned urban park offering scenic views, walking trails, and cultural landmarks.",
+          "name_english": "Stanley Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:50",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Rent a bike to explore the seawall.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.3043,
+            "longitude": -123.1443
+          },
+          "address": "Stanley Park, Vancouver, British Columbia, Canada",
+          "official_website": "https://vancouver.ca/parks-recreation-culture/stanley-park.aspx",
+          "tags": [
+            "Park",
+            "Nature",
+            "Trails"
+          ],
+          "state": "British Columbia",
+          "photos": {},
+          "rank_score": 0.894
+        },
+        {
+          "name": "Whistler Blackcomb",
+          "ai_summary": "Whistler Blackcomb is a premier ski resort offering world-class skiing, snowboarding, and year-round activities.",
+          "name_english": "Whistler Blackcomb",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:55",
+          "cost": "Paid",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "08:30-16:00",
+            "Tuesday": "08:30-16:00",
+            "Wednesday": "08:30-16:00",
+            "Thursday": "08:30-16:00",
+            "Friday": "08:30-16:00",
+            "Saturday": "08:30-16:00",
+            "Sunday": "08:30-16:00",
+            "notes": "Hours vary by season."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Book lift tickets in advance to save money.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 50.1163,
+            "longitude": -122.9574
+          },
+          "address": "Whistler, British Columbia, Canada",
+          "official_website": "https://www.whistlerblackcomb.com/",
+          "tags": [
+            "Ski Resort",
+            "Adventure",
+            "Winter Sports"
+          ],
+          "state": "British Columbia",
+          "photos": {},
+          "rank_score": 0.868
+        },
+        {
+          "name": "Capilano Suspension Bridge",
+          "ai_summary": "The Capilano Suspension Bridge is a popular attraction offering breathtaking views of the Capilano River and surrounding forest.",
+          "name_english": "Capilano Suspension Bridge",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Check for seasonal events like the Canyon Lights."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Wear comfortable shoes for walking.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 49.3429,
+            "longitude": -123.1149
+          },
+          "address": "3735 Capilano Rd, North Vancouver, British Columbia, Canada",
+          "official_website": "https://www.capbridge.com/",
+          "tags": [
+            "Bridge",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Capilano_Suspension_Bridge,_Vancouver,_Canada_(July_2016)_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Capilano_Suspension_Bridge%2C_Vancouver%2C_Canada_%28July_2016%29_1.jpg/960px-Capilano_Suspension_Bridge%2C_Vancouver%2C_Canada_%28July_2016%29_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Capilano Suspension Bridge, Vancouver, Canada (July 2016) 1",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Msaynevirta&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Msaynevirta (page does not exist)\">Markus Säynevirta</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Capilano_Suspension_Bridge,_Vancouver,_Canada_(July_2016)_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Capilano Suspension Bridge in Vancouver, Canada. Photographed in July 2016."
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "Butchart Gardens",
+          "ai_summary": "Butchart Gardens is a stunning garden destination featuring a variety of plants, flowers, and themed gardens.",
+          "name_english": "Butchart Gardens",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "2–4 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit the Sunken Garden and the Rose Garden.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 48.565,
+            "longitude": -123.138
+          },
+          "address": "800 Benvenuto Ave, Brentwood Bay, British Columbia, Canada",
+          "official_website": "https://www.butchartgardens.com/",
+          "tags": [
+            "Garden",
+            "Nature",
+            "Flowers"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lieu_historique_national_du_Canada_des_Jardins-Butchart_2012-09-15_18-27-50.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Lieu_historique_national_du_Canada_des_Jardins-Butchart_2012-09-15_18-27-50.jpg/960px-Lieu_historique_national_du_Canada_des_Jardins-Butchart_2012-09-15_18-27-50.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lieu historique national du Canada des Jardins-Butchart 2012-09-15 18-27-50",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:W4nn3s&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:W4nn3s (page does not exist)\">w4nn3s</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lieu_historique_national_du_Canada_des_Jardins-Butchart_2012-09-15_18-27-50.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Lieu historique national du Canada des Jardins-Butchart"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Granville Island",
+          "ai_summary": "Granville Island is a vibrant shopping district known for its public market, artisan shops, and waterfront dining.",
+          "name_english": "Granville Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-19:00",
+            "Tuesday": "09:00-19:00",
+            "Wednesday": "09:00-19:00",
+            "Thursday": "09:00-19:00",
+            "Friday": "09:00-21:00",
+            "Saturday": "09:00-21:00",
+            "Sunday": "09:00-19:00",
+            "notes": "Market hours may vary."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Fall",
+          "place_tip": "Try the fresh seafood at the market.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.2715,
+            "longitude": -123.1349
+          },
+          "address": "Granville Island, Vancouver, British Columbia, Canada",
+          "official_website": "https://granvilleisland.com/",
+          "tags": [
+            "Shopping",
+            "Food",
+            "Artisan"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Granville_Island_view_from_Granville_Bridge_in_2010.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Granville_Island_view_from_Granville_Bridge_in_2010.jpg/960px-Granville_Island_view_from_Granville_Bridge_in_2010.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Granville Island view from Granville Bridge in 2010",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jmabel\" title=\"User:Jmabel\">Joe Mabel</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Granville_Island_view_from_Granville_Bridge_in_2010.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Granville Island view from Granville Bridge in 2010"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Pacific Rim National Park Reserve",
+          "ai_summary": "Pacific Rim National Park Reserve is a protected area showcasing the rugged coastline, rainforests, and diverse wildlife of the Pacific Northwest.",
+          "name_english": "Pacific Rim National Park Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor Centre hours vary."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Explore the tide pools at low tide.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 48.5742,
+            "longitude": -125.1994
+          },
+          "address": "Pacific Rim National Park Reserve, British Columbia, Canada",
+          "official_website": "https://www.pc.gc.ca/en/pn-np/bc/pacificrim",
+          "tags": [
+            "National Park",
+            "Nature",
+            "Wildlife"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Looking_back_over_Long_Beach_(48832887943).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Looking_back_over_Long_Beach_%2848832887943%29.jpg/960px-Looking_back_over_Long_Beach_%2848832887943%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Looking back over Long Beach (48832887943)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46207792@N00\">dvs</a> from Vermont, USA",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Looking_back_over_Long_Beach_(48832887943).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Looking back over Long Beach"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Yoho National Park",
+          "ai_summary": "Yoho National Park is a stunning natural area featuring waterfalls, mountains, and emerald lakes, located in the Canadian Rockies.",
+          "name_english": "Yoho National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40",
+          "sunset_time": "19:05",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor Centre hours vary."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Don't miss the Emerald Lake and Takakkaw Falls.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 51.498,
+            "longitude": -116.5052
+          },
+          "address": "Yoho National Park, British Columbia, Canada",
+          "official_website": "https://www.pc.gc.ca/en/pn-np/bc/yoho",
+          "tags": [
+            "National Park",
+            "Nature",
+            "Hiking"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Takakkaw_Falls_-_panoramio_(1).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Takakkaw_Falls_-_panoramio_%281%29.jpg/960px-Takakkaw_Falls_-_panoramio_%281%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Takakkaw Falls - panoramio (1)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161020125601/http://www.panoramio.com/user/4331828?with_photo_id=56976724\">Jack Borno</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Takakkaw_Falls_-_panoramio_(1).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Takakkaw Falls"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Grouse Mountain",
+          "ai_summary": "Grouse Mountain is a year-round destination for outdoor activities, offering skiing, snowboarding, hiking, and stunning views of Vancouver.",
+          "name_english": "Grouse Mountain",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:50",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-22:00",
+            "Tuesday": "09:00-22:00",
+            "Wednesday": "09:00-22:00",
+            "Thursday": "09:00-22:00",
+            "Friday": "09:00-22:00",
+            "Saturday": "09:00-22:00",
+            "Sunday": "09:00-22:00",
+            "notes": "Hours vary by season."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Take the Skyride for panoramic views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.3664,
+            "longitude": -123.0051
+          },
+          "address": "6400 Nancy Greene Way, North Vancouver, British Columbia, Canada",
+          "official_website": "https://www.grousemountain.com/",
+          "tags": [
+            "Mountain",
+            "Skiing",
+            "Hiking"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Grouse_Mountain_Gondola.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Grouse_Mountain_Gondola.JPG/960px-Grouse_Mountain_Gondola.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Grouse Mountain Gondola",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Pburka\" class=\"extiw\" title=\"wikipedia:User:Pburka\">Pburka</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Grouse_Mountain_Gondola.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "A <a href=\"https://en.wikipedia.org/wiki/gondola\" class=\"extiw\" title=\"en:gondola\">gondola</a> at <a href=\"https://en.wikipedia.org/wiki/Grouse_Mountain\" class=\"extiw\" title=\"en:Grouse Mountain\">Grouse Mountain</a>.\nPhotographed by <a href=\"https://en.wikipedia.org/wiki/User:Pburka\" class=\"extiw\" title=\"en:User:Pburka\">User:Pburka</a>, 2002."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Inner Harbour (Victoria)",
+          "ai_summary": "The Inner Harbour in Victoria is a picturesque waterfront area featuring historic buildings, shops, and restaurants.",
+          "name_english": "Inner Harbour (Victoria)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55",
+          "sunset_time": "18:40",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored on foot."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit the Royal BC Museum and the BC Legislature.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 48.4235,
+            "longitude": -123.3656
+          },
+          "address": "Victoria, British Columbia, Canada",
+          "official_website": "https://www.tourismvictoria.com/",
+          "tags": [
+            "Harbour",
+            "Culture",
+            "Sightseeing"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aerial_photo_of_Victoria,_BC,_on_Vancouver_Island,_Canada.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Aerial_photo_of_Victoria%2C_BC%2C_on_Vancouver_Island%2C_Canada.jpg/960px-Aerial_photo_of_Victoria%2C_BC%2C_on_Vancouver_Island%2C_Canada.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Aerial photo of Victoria, BC, on Vancouver Island, Canada",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/84263554@N00\">Ron Reiring</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_photo_of_Victoria,_BC,_on_Vancouver_Island,_Canada.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Victoria, BC, on Vancouver Island, Canada"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Royal BC Museum",
+          "ai_summary": "The Royal BC Museum in Victoria offers an in-depth look at the natural and human history of British Columbia.",
+          "name_english": "Royal BC Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00-17:00",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Check out the First Peoples Gallery.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 48.422,
+            "longitude": -123.3656
+          },
+          "address": "675 Belleville St, Victoria, British Columbia, Canada",
+          "official_website": "https://royalbcmuseum.bc.ca/",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Main_entrance_to_Royal_British_Columbia_Museum,_Victoria,_British_Columbia_02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Main_entrance_to_Royal_British_Columbia_Museum%2C_Victoria%2C_British_Columbia_02.jpg/960px-Main_entrance_to_Royal_British_Columbia_Museum%2C_Victoria%2C_British_Columbia_02.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Main entrance to Royal British Columbia Museum, Victoria, British Columbia 02",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Podzemnik\" title=\"User:Podzemnik\">Michal Klajban</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Main_entrance_to_Royal_British_Columbia_Museum,_Victoria,_British_Columbia_02.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Main entrance to Royal British Columbia Museum, Victoria, British Columbia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Gastown",
+          "ai_summary": "Gastown is a historic district in Vancouver, known for its cobblestone streets, unique shops, and the famous Gastown Steam Clock.",
+          "name_english": "Gastown",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:50",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored on foot."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the shops and enjoy the local cuisine.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.2846,
+            "longitude": -123.1139
+          },
+          "address": "Gastown, Vancouver, British Columbia, Canada",
+          "official_website": "https://www.gastown.org/",
+          "tags": [
+            "Historic",
+            "Shopping",
+            "Dining"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:8185_HDR_2012-07-16_Gastown_HDR_04_2012-07-16_Gastown_HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/8185_HDR_2012-07-16_Gastown_HDR_04_2012-07-16_Gastown_HDR.jpg/960px-8185_HDR_2012-07-16_Gastown_HDR_04_2012-07-16_Gastown_HDR.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "8185 HDR 2012-07-16 Gastown HDR 04 2012-07-16 Gastown HDR",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Anthonymaw&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Anthonymaw (page does not exist)\">Anthony Maw, Vancouver, Canada</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:8185_HDR_2012-07-16_Gastown_HDR_04_2012-07-16_Gastown_HDR.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Gassy Jack Statue in Vancouver's historic Gastown District"
+                }
+              }
+            }
+          },
+          "rank_score": 0.87
+        },
+        {
+          "name": "Vancouver Aquarium",
+          "ai_summary": "The Vancouver Aquarium is a marine science centre and a popular family-friendly attraction in Stanley Park.",
+          "name_english": "Vancouver Aquarium",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:55",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00-17:00",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Hours may vary during holidays."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don't miss the dolphin and sea otter shows.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 49.3043,
+            "longitude": -123.1439
+          },
+          "address": "845 Avison Way, Vancouver, British Columbia, Canada",
+          "official_website": "https://www.vanaqua.org/",
+          "tags": [
+            "Aquarium",
+            "Family",
+            "Marine Life"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vancouver_Aquarium_entrance.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Vancouver_Aquarium_entrance.jpg/960px-Vancouver_Aquarium_entrance.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vancouver Aquarium entrance",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/47022937@N03\">GoToVan</a> from Vancouver, Canada",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vancouver_Aquarium_entrance.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Aquarium Nov 24th, 2013"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Sea-to-Sky Highway",
+          "ai_summary": "The Sea-to-Sky Highway is a scenic drive between Vancouver and Whistler, offering breathtaking views of the coast and mountains.",
+          "name_english": "Sea-to-Sky Highway",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Drive carefully and enjoy the viewpoints."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Stop at Shannon Falls and the Britannia Mine Museum.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.4344,
+            "longitude": -123.1558
+          },
+          "address": "Sea-to-Sky Highway, British Columbia, Canada",
+          "official_website": "https://www.seatoskyhighway.com/",
+          "tags": [
+            "Scenic Drive",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "British Columbia",
+          "photos": {},
+          "rank_score": 0.818
+        },
+        {
+          "name": "Robson Street",
+          "ai_summary": "Robson Street is a famous shopping street in Vancouver, known for its retail stores, restaurants, and vibrant atmosphere.",
+          "name_english": "Robson Street",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:50",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00-21:00",
+            "Tuesday": "09:00-21:00",
+            "Wednesday": "09:00-21:00",
+            "Thursday": "09:00-21:00",
+            "Friday": "09:00-21:00",
+            "Saturday": "09:00-21:00",
+            "Sunday": "09:00-21:00",
+            "notes": "Hours may vary by store."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the side streets for unique boutiques.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.2827,
+            "longitude": -123.1207
+          },
+          "address": "Robson Street, Vancouver, British Columbia, Canada",
+          "official_website": "https://www.robsonstreet.ca/",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Entertainment"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Robson_Street_night_view_2012.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Robson_Street_night_view_2012.jpg/960px-Robson_Street_night_view_2012.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Robson Street night view 2012",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67458569@N00\">Colin Knowles</a> from Vancouver",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Robson_Street_night_view_2012.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Robson Street from Cloud 9 Restaurant, Empire Hotel, Vancouver, British Columbia, Canada."
+                }
+              }
+            }
+          },
+          "rank_score": 0.794
+        },
+        {
+          "name": "Canada Place",
+          "ai_summary": "Canada Place is a national historic site and iconic landmark in Vancouver, featuring a distinctive sail-like design.",
+          "name_english": "Canada Place",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed from the waterfront."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Take a walk along the waterfront promenade.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.2896,
+            "longitude": -123.1139
+          },
+          "address": "Canada Place, Vancouver, British Columbia, Canada",
+          "official_website": "https://www.canadaplace.ca/",
+          "tags": [
+            "Landmark",
+            "Sightseeing",
+            "History"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Victoria_Montage_2020.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Victoria_Montage_2020.jpg/960px-Victoria_Montage_2020.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Victoria Montage 2020",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Allice_Hunter\" title=\"User:Allice Hunter\"><span style=\"font-family:Candara; color:blue;\"> <i><b>Allice Hunter</b></i></span></a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Victoria_Montage_2020.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "This is a montage of Victoria, BC for 2020"
+                }
+              }
+            }
+          },
+          "rank_score": 0.91
+        },
+        {
+          "name": "Okanagan Valley",
+          "ai_summary": "Okanagan Valley is a region in British Columbia known for its wineries, orchards, and stunning lake views.",
+          "name_english": "Okanagan Valley",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "19:30",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Check individual wineries and orchards for hours."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Fall",
+          "place_tip": "Visit during the grape harvest for the best experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 49.8851,
+            "longitude": -119.4945
+          },
+          "address": "Okanagan Valley, British Columbia, Canada",
+          "official_website": "https://www.tourismkelowna.com/",
+          "tags": [
+            "Wine Region",
+            "Nature",
+            "Food"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kelowna_Vineyards_(114204).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kelowna_Vineyards_%28114204%29.jpg/960px-Kelowna_Vineyards_%28114204%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kelowna Vineyards (114204)",
+                  "author": "Mack Male",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kelowna_Vineyards_(114204).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Vineyards near Kelowna, BC"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Haida Gwaii",
+          "ai_summary": "Haida Gwaii, formerly the Queen Charlotte Islands, is an archipelago known for its Indigenous culture, history, and stunning natural beauty.",
+          "name_english": "Haida Gwaii",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:50",
+          "sunset_time": "18:40",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Access by ferry or plane."
+          },
+          "suggested_duration": "3–5 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Explore the Gwaii Haanas National Park Reserve.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "latitude": 53.2398,
+            "longitude": -132.1207
+          },
+          "address": "Haida Gwaii, British Columbia, Canada",
+          "official_website": "https://www.haidagwaii.ca/",
+          "tags": [
+            "Islands",
+            "Culture",
+            "Nature"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Gwaii_Haanas_(26924832433).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Gwaii_Haanas_%2826924832433%29.jpg/960px-Gwaii_Haanas_%2826924832433%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Gwaii Haanas (26924832433)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/56846157@N00\">Christine Rondeau</a> from Vancouver, Canada",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Gwaii_Haanas_(26924832433).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Gwaii Haanas"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Glacier National Park (Canada)",
+          "ai_summary": "Glacier National Park in British Columbia is known for its stunning glaciers, rugged mountains, and diverse ecosystems.",
+          "name_english": "Glacier National Park (Canada)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20",
+          "sunset_time": "19:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor Centre hours vary."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Take a guided tour to see the glaciers up close.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 51.299,
+            "longitude": -117.1836
+          },
+          "address": "Glacier National Park, British Columbia, Canada",
+          "official_website": "https://www.pc.gc.ca/en/pn-np/bc/glacier",
+          "tags": [
+            "National Park",
+            "Nature",
+            "Glaciers"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Glacier_np_canada.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Glacier_np_canada.JPG/960px-Glacier_np_canada.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Glacier np canada",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sesivany&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sesivany (page does not exist)\">Sesivany</a>/Jiri Eischmann",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Glacier_np_canada.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Mountains of Glacier National Park of Canada"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Kootenay National Park",
+          "ai_summary": "Kootenay National Park is known for its hot springs, stunning mountain scenery, and diverse wildlife.",
+          "name_english": "Kootenay National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25",
+          "sunset_time": "19:20",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor Centre hours vary."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Relax in the Radium Hot Springs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.8101,
+            "longitude": -115.9938
+          },
+          "address": "Kootenay National Park, British Columbia, Canada",
+          "official_website": "https://www.pc.gc.ca/en/pn-np/bc/kootenay",
+          "tags": [
+            "National Park",
+            "Nature",
+            "Hot Springs"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Stanley_Valley.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Stanley_Valley.jpg/960px-Stanley_Valley.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Stanley Valley",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:The_Cosmonaut\" title=\"User:The Cosmonaut\">The Cosmonaut</a>",
+                  "license": "CC BY-SA 2.5 ca",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Stanley_Valley.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5 ca",
+                  "description": "Stanley Valley and Mount Whymper viewed from the Stanley Glacier Trail."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Mount Robson Provincial Park",
+          "ai_summary": "Mount Robson Provincial Park is home to the highest peak in the Canadian Rockies and offers stunning mountain scenery and hiking opportunities.",
+          "name_english": "Mount Robson Provincial Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "19:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor Centre hours vary."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Hike the Berg Lake Trail for stunning views.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 53.2519,
+            "longitude": -119.078
+          },
+          "address": "Mount Robson Provincial Park, British Columbia, Canada",
+          "official_website": "https://www.pc.gc.ca/en/pn-np/bc/robson",
+          "tags": [
+            "Provincial Park",
+            "Nature",
+            "Hiking"
+          ],
+          "state": "British Columbia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Mount_Robson_panorama_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Mount_Robson_panorama_%28cropped%29.jpg/960px-Mount_Robson_panorama_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Mount Robson panorama (cropped)",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:The_Cosmonaut\" title=\"User:The Cosmonaut\">The Cosmonaut</a>",
+                  "license": "CC BY-SA 2.5 ca",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mount_Robson_panorama_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5 ca",
+                  "description": "Mount Robson panorama."
+                }
+              }
+            }
+          },
+          "rank_score": 0.858
+        }
+      ]
+    }
+  ]
+}

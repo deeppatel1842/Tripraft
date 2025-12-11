@@ -1,0 +1,1152 @@
+{
+  "country": "Poland",
+  "state": "Lublin",
+  "cities": [
+    {
+      "city": "Lublin",
+      "nearest_airport": "Lublin Airport",
+      "places": [
+        {
+          "name": "Lublin Castle",
+          "ai_summary": "A historic castle featuring a museum, Holy Trinity Chapel, and panoramic views of the city.",
+          "name_english": "Lublin Castle",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Tickets can be purchased online."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the Holy Trinity Chapel for its stunning frescoes.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.2475,
+            "longitude": 22.5701
+          },
+          "address": "Lublin Castle, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Culture",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Old Town Lublin",
+          "ai_summary": "A picturesque historic district with cobblestone streets, colorful buildings, and vibrant cafes.",
+          "name_english": "Old Town Lublin",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for a lively atmosphere."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the local cafes and try traditional Polish dishes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.247,
+            "longitude": 22.5667
+          },
+          "address": "Old Town, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Culture",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Entrance to Dom Słów.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Entrance_to_Dom_S%C5%82%C3%B3w.jpg/960px-Entrance_to_Dom_S%C5%82%C3%B3w.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Entrance to Dom Słów",
+                  "author": "LynxFelix",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Entrance_to_Dom_Słów.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Entrance to Dom Słów"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Trinitarian Tower",
+          "ai_summary": "A historic tower offering panoramic views of Lublin and the surrounding area.",
+          "name_english": "Trinitarian Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "5:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Last entry one hour before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit early to avoid crowds and enjoy the view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2472,
+            "longitude": 22.57
+          },
+          "address": "Trinitarian Tower, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Architecture",
+            "Views"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Henio.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Henio.jpg",
+                "width": 368,
+                "height": 500,
+                "attribution": {
+                  "title": "Henio",
+                  "author": "Street photographer in Lublin",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Henio.jpg",
+                  "credit": "Private. Picture taken by street photographer in Lublin. Original exist at my Mom's home.",
+                  "usage_terms": "Public domain",
+                  "description": "Henio Zytomirski at the entrance to P.K.O bank in Lublin"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Krakowska Gate",
+          "ai_summary": "A historic gate and a prominent symbol of Lublin, offering exhibitions and a view from the top.",
+          "name_english": "Krakowska Gate",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Check for temporary exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Climb to the top for a great view of the Old Town.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2469,
+            "longitude": 22.5703
+          },
+          "address": "Krakowska Gate, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Architecture",
+            "Views"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lublin Krakowska Gate, Poland, 2019, 02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Lublin_Krakowska_Gate%2C_Poland%2C_2019%2C_02.jpg/960px-Lublin_Krakowska_Gate%2C_Poland%2C_2019%2C_02.jpg",
+                "width": 800,
+                "height": 1372,
+                "attribution": {
+                  "title": "Lublin Krakowska Gate, Poland, 2019, 02",
+                  "author": "Kgbo",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lublin_Krakowska_Gate,_Poland,_2019,_02.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Lublin Krakowska Gate, Poland, 2019"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Majdanek Concentration Camp Memorial",
+          "ai_summary": "A sobering memorial and museum at the site of the former Nazi concentration camp.",
+          "name_english": "Majdanek Concentration Camp Memorial",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Guided tours available in multiple languages."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take a guided tour for a more in-depth understanding of the site.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.2461,
+            "longitude": 22.5702
+          },
+          "address": "Majdanek, Lublin, Poland",
+          "official_website": "https://www.majdanek.eu",
+          "tags": [
+            "History",
+            "Memorial",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CzewaKatedra3.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/CzewaKatedra3.JPG/800px-CzewaKatedra3.JPG",
+                "width": 800,
+                "height": 1069,
+                "attribution": {
+                  "title": "CzewaKatedra3",
+                  "author": "Reytan",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CzewaKatedra3.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Crown Tribunal",
+          "ai_summary": "A historic building housing a museum with exhibits on the history of Lublin and the Crown Tribunal.",
+          "name_english": "Crown Tribunal",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Closed on Mondays. Check for temporary exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the museum to learn about the unique history of the Crown Tribunal.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2473,
+            "longitude": 22.5705
+          },
+          "address": "Crown Tribunal, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Museum",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Henio.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Henio.jpg",
+                "width": 368,
+                "height": 500,
+                "attribution": {
+                  "title": "Henio",
+                  "author": "Street photographer in Lublin",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Henio.jpg",
+                  "credit": "Private. Picture taken by street photographer in Lublin. Original exist at my Mom's home.",
+                  "usage_terms": "Public domain",
+                  "description": "Henio Zytomirski at the entrance to P.K.O bank in Lublin"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Dominican Church & Monastery",
+          "ai_summary": "A historic church and monastery complex with beautiful architecture and a peaceful garden.",
+          "name_english": "Dominican Church & Monastery",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Mondays. Donations appreciated."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Enjoy the tranquility of the garden and the stunning interior of the church.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2468,
+            "longitude": 22.5704
+          },
+          "address": "Dominican Monastery, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Religion",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CzewaKatedra3.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/CzewaKatedra3.JPG/800px-CzewaKatedra3.JPG",
+                "width": 800,
+                "height": 1069,
+                "attribution": {
+                  "title": "CzewaKatedra3",
+                  "author": "Reytan",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CzewaKatedra3.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lublin Open Air Village Museum",
+          "ai_summary": "An open-air museum showcasing traditional Polish village life with historic buildings and exhibits.",
+          "name_english": "Lublin Open Air Village Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Closed on Mondays. Guided tours available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Join a guided tour to learn about traditional Polish village life.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.2465,
+            "longitude": 22.5706
+          },
+          "address": "Open Air Village Museum, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Mapa Pow Lubelski.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Mapa_Pow_Lubelski.png",
+                "width": 296,
+                "height": 383,
+                "attribution": {
+                  "title": "Mapa Pow Lubelski",
+                  "author": "No machine-readable author provided. Qqerim assumed (based on copyright claims).",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mapa_Pow_Lubelski.png",
+                  "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Map of Lublin county, Lublin voivodship\n\nMapa powiatu lubelskiego, województwo lubelskie"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Holy Trinity Chapel",
+          "ai_summary": "A beautiful chapel known for its stunning frescoes and historic significance.",
+          "name_english": "Holy Trinity Chapel",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Mondays. Donations appreciated."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Take your time to admire the intricate frescoes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2474,
+            "longitude": 22.5702
+          },
+          "address": "Holy Trinity Chapel, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Religion",
+            "Art"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pomnik więźniów Zamku Lubelskiego.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Pomnik_wi%C4%99%C5%BAni%C3%B3w_Zamku_Lubelskiego.jpg/960px-Pomnik_wi%C4%99%C5%BAni%C3%B3w_Zamku_Lubelskiego.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Pomnik więźniów Zamku Lubelskiego",
+                  "author": "Bronislaw Wesolowski mailto:alians98@wp.pl",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pomnik_więźniów_Zamku_Lubelskiego.jpg",
+                  "credit": "Bronislaw Wesolowski mailto:alians98@wp.pl",
+                  "usage_terms": "Public domain",
+                  "description": "A monument commemorating the prisoners were shot in 1939-12-23 Lublin Castle."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Plac Litewski",
+          "ai_summary": "A central square in Lublin, great for a leisurely stroll and people-watching.",
+          "name_english": "Plac Litewski",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for a lively atmosphere."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy a coffee at one of the outdoor cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2471,
+            "longitude": 22.5707
+          },
+          "address": "Plac Litewski, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "Culture",
+            "Leisure",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Poland.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/800px-Flag_of_Poland.svg.png",
+                "width": 800,
+                "height": 500,
+                "attribution": {
+                  "title": "Flag of Poland",
+                  "author": "See below.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Poland.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Poland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lublin Cathedral",
+          "ai_summary": "A magnificent cathedral known for its impressive architecture and beautiful interior.",
+          "name_english": "Lublin Cathedral",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Mondays. Donations appreciated."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Don't miss the chance to see the stunning interior.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2466,
+            "longitude": 22.5708
+          },
+          "address": "Lublin Cathedral, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Religion",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Grodzka Gate – NN Theatre",
+          "ai_summary": "A historic gate and theatre offering cultural events and a glimpse into Lublin's past.",
+          "name_english": "Grodzka Gate – NN Theatre",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Closed on Mondays. Check schedule for events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Check the schedule for interesting cultural events.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2464,
+            "longitude": 22.5709
+          },
+          "address": "Grodzka Gate, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Culture",
+            "Theatre"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Henio.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Henio.jpg",
+                "width": 368,
+                "height": 500,
+                "attribution": {
+                  "title": "Henio",
+                  "author": "Street photographer in Lublin",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Henio.jpg",
+                  "credit": "Private. Picture taken by street photographer in Lublin. Original exist at my Mom's home.",
+                  "usage_terms": "Public domain",
+                  "description": "Henio Zytomirski at the entrance to P.K.O bank in Lublin"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Saska Kępa Gardens",
+          "ai_summary": "A beautiful park in Lublin, perfect for a relaxing walk or a picnic.",
+          "name_english": "Saska Kępa Gardens",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the late afternoon or early evening."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Bring a book and enjoy a peaceful afternoon in the gardens.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.246,
+            "longitude": 22.571
+          },
+          "address": "Saska Kępa, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "Nature",
+            "Leisure",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CzewaKatedra3.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/CzewaKatedra3.JPG/800px-CzewaKatedra3.JPG",
+                "width": 800,
+                "height": 1069,
+                "attribution": {
+                  "title": "CzewaKatedra3",
+                  "author": "Reytan",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CzewaKatedra3.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Czartoryski Palace",
+          "ai_summary": "A historic palace with beautiful gardens, now a museum showcasing Polish art and history.",
+          "name_english": "Czartoryski Palace",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Closed on Mondays. Check for temporary exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the gardens and don't miss the museum inside.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2458,
+            "longitude": 22.5711
+          },
+          "address": "Czartoryski Palace, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Art",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Regional Museum of Lublin",
+          "ai_summary": "A museum dedicated to the history and culture of Lublin and the surrounding region.",
+          "name_english": "Regional Museum of Lublin",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Closed on Mondays. Check for temporary exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the ethnographic section for a glimpse into traditional life in the region.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2462,
+            "longitude": 22.5712
+          },
+          "address": "Regional Museum of Lublin, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Amber hoard from Basonia.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Amber_hoard_from_Basonia.jpg/960px-Amber_hoard_from_Basonia.jpg",
+                "width": 800,
+                "height": 390,
+                "attribution": {
+                  "title": "Amber hoard from Basonia.label QS:Lfr,\"Trésor d'ambre de Basonia.\"label QS:Len,\"Amber hoard from Basonia.\"label QS:Lpl,\"Skarb bursztynu z Basoni.\"label QS:Lde,\"Bernsteinhort von Basonia.\"",
+                  "author": "Anonymous (Poland)Unknown author",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Amber_hoard_from_Basonia.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Old Theatre",
+          "ai_summary": "A historic theatre building in Lublin, now used for various cultural performances and events.",
+          "name_english": "Old Theatre",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Closed on Mondays. Check schedule for performances."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Check the schedule for interesting performances or events.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2463,
+            "longitude": 22.5713
+          },
+          "address": "Old Theatre, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "Culture",
+            "Theatre",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lublin Krakowska Gate, Poland, 2019, 02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Lublin_Krakowska_Gate%2C_Poland%2C_2019%2C_02.jpg/960px-Lublin_Krakowska_Gate%2C_Poland%2C_2019%2C_02.jpg",
+                "width": 800,
+                "height": 1372,
+                "attribution": {
+                  "title": "Lublin Krakowska Gate, Poland, 2019, 02",
+                  "author": "Kgbo",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lublin_Krakowska_Gate,_Poland,_2019,_02.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Lublin Krakowska Gate, Poland, 2019"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lithuanian Square",
+          "ai_summary": "A historic square in Lublin, known for its beautiful architecture and vibrant atmosphere.",
+          "name_english": "Lithuanian Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for a lively atmosphere."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy the vibrant atmosphere and consider dining at a local restaurant.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2461,
+            "longitude": 22.5714
+          },
+          "address": "Lithuanian Square, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "Culture",
+            "Leisure",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CzewaKatedra3.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/CzewaKatedra3.JPG/800px-CzewaKatedra3.JPG",
+                "width": 800,
+                "height": 1069,
+                "attribution": {
+                  "title": "CzewaKatedra3",
+                  "author": "Reytan",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CzewaKatedra3.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Under the Clock Museum",
+          "ai_summary": "A small museum located under the clock tower, featuring exhibits on the history of Lublin.",
+          "name_english": "Under the Clock Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Closed on Mondays. Check for temporary exhibitions."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "A quick visit to learn more about the history of Lublin.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2465,
+            "longitude": 22.5715
+          },
+          "address": "Under the Clock Tower, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "History",
+            "Museum",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Entrance to Dom Słów.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Entrance_to_Dom_S%C5%82%C3%B3w.jpg/960px-Entrance_to_Dom_S%C5%82%C3%B3w.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Entrance to Dom Słów",
+                  "author": "LynxFelix",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Entrance_to_Dom_Słów.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Entrance to Dom Słów"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Stary Rynek Market",
+          "ai_summary": "A historic market square in Lublin, great for shopping and experiencing local culture.",
+          "name_english": "Stary Rynek Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning for fresh produce and local goods."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local delicacies and buy some souvenirs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2467,
+            "longitude": 22.5716
+          },
+          "address": "Stary Rynek, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "Shopping",
+            "Culture",
+            "Food"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Poland.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/800px-Flag_of_Poland.svg.png",
+                "width": 800,
+                "height": 500,
+                "attribution": {
+                  "title": "Flag of Poland",
+                  "author": "See below.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Poland.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Poland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Bystrzyca River Walk",
+          "ai_summary": "A scenic walking path along the Bystrzyca River, perfect for a leisurely stroll or a bike ride.",
+          "name_english": "Bystrzyca River Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "A great spot for jogging, cycling, or a peaceful walk by the river.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.2469,
+            "longitude": 22.572
+          },
+          "address": "Bystrzyca River, Lublin, Poland",
+          "official_website": "https://www.lublin.eu",
+          "tags": [
+            "Nature",
+            "Leisure",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CzewaKatedra3.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/CzewaKatedra3.JPG/800px-CzewaKatedra3.JPG",
+                "width": 800,
+                "height": 1069,
+                "attribution": {
+                  "title": "CzewaKatedra3",
+                  "author": "Reytan",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CzewaKatedra3.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

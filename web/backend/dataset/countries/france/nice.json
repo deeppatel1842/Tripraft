@@ -1,0 +1,1192 @@
+{
+  "country": "France",
+  "state": "Nice",
+  "cities": [
+    {
+      "city": "Nice",
+      "nearest_airport": "Nice Côte d'Azur Airport (NCE)",
+      "places": [
+        {
+          "name": "Promenade des Anglais",
+          "ai_summary": "A famous seafront promenade offering stunning views of the Mediterranean and a lively atmosphere.",
+          "name_english": "Promenade of the English",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunrise or sunset for breathtaking views."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Rent a bike or take a leisurely stroll along the promenade.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.695,
+            "longitude": 7.265
+          },
+          "address": "Promenade des Anglais, Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Seafront",
+            "Walking",
+            "Landmark"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OOjs UI icon edit-ltr-progressive.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/800px-OOjs_UI_icon_edit-ltr-progressive.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "OOjs UI icon edit-ltr-progressive",
+                  "author": "https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg",
+                  "credit": "lib/oojs-ui/themes/mediawiki/images/icons/",
+                  "usage_terms": "Public domain",
+                  "description": "An icon from the OOjs UI MediaWiki lib."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8195
+        },
+        {
+          "name": "Castle Hill (Colline du Château)",
+          "ai_summary": "A historic hilltop park with panoramic views of Nice, waterfalls, and ruins of an old castle.",
+          "name_english": "Castle Hill",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00 - 18:00",
+            "Tuesday": "08:00 - 18:00",
+            "Wednesday": "08:00 - 18:00",
+            "Thursday": "08:00 - 18:00",
+            "Friday": "08:00 - 18:00",
+            "Saturday": "08:00 - 18:00",
+            "Sunday": "08:00 - 18:00",
+            "notes": "Best visited in the morning to avoid crowds."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take the elevator or climb the stairs for a rewarding view.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.694,
+            "longitude": 7.279
+          },
+          "address": "Colline du Château, Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Viewpoint",
+            "History"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8085
+        },
+        {
+          "name": "Old Town (Vieux Nice)",
+          "ai_summary": "A charming historic district with narrow streets, colorful buildings, and vibrant markets.",
+          "name_english": "Old Nice",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Shops and cafes may have specific opening hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the local markets and try some socca, a local specialty.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.697,
+            "longitude": 7.276
+          },
+          "address": "Vieux Nice, Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Shopping",
+            "Cultural"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Exhibition in Palais Lascaris, Nice.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Exhibition_in_Palais_Lascaris%2C_Nice.JPG/960px-Exhibition_in_Palais_Lascaris%2C_Nice.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Exhibition in Palais Lascaris, Nice",
+                  "author": "Lascaris",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Exhibition_in_Palais_Lascaris,_Nice.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Exhibition in Palais Lascaris, Nice"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8195
+        },
+        {
+          "name": "Place Masséna",
+          "ai_summary": "The main square of Nice, featuring a beautiful fountain, gardens, and vibrant street life.",
+          "name_english": "Massena Square",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Evening visits offer a chance to see the square beautifully lit."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Check out the nearby shops and cafes.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.695,
+            "longitude": 7.265
+          },
+          "address": "Place Masséna, Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Square",
+            "Fountain",
+            "Shopping"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Place-Masséna 01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Place-Mass%C3%A9na_01.jpg/960px-Place-Mass%C3%A9na_01.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Place-Masséna 01",
+                  "author": "Magali M from Nice, France",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Place-Masséna_01.jpg",
+                  "credit": "Place-Masséna_01 on flickr",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "La place Masséna, vue en direction du Vieux-Nice"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7717
+        },
+        {
+          "name": "Nice Cathedral",
+          "ai_summary": "An impressive cathedral known for its stunning baroque architecture and beautiful interior artworks.",
+          "name_english": "Cathedral of Saint Mary Major",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00 - 19:00",
+            "Tuesday": "08:00 - 19:00",
+            "Wednesday": "08:00 - 19:00",
+            "Thursday": "08:00 - 19:00",
+            "Friday": "08:00 - 19:00",
+            "Saturday": "08:00 - 19:00",
+            "Sunday": "08:00 - 19:00",
+            "notes": "Closed for visits during religious services."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Respect the dress code: shoulders and knees should be covered.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.696,
+            "longitude": 7.275
+          },
+          "address": "3 Place Rossetti, 06300 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Religious",
+            "Architecture",
+            "History"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Exhibition in Palais Lascaris, Nice.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Exhibition_in_Palais_Lascaris%2C_Nice.JPG/960px-Exhibition_in_Palais_Lascaris%2C_Nice.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Exhibition in Palais Lascaris, Nice",
+                  "author": "Lascaris",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Exhibition_in_Palais_Lascaris,_Nice.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Exhibition in Palais Lascaris, Nice"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7652
+        },
+        {
+          "name": "Cours Saleya Market",
+          "ai_summary": "A vibrant market in the heart of Nice, known for its fresh produce, flowers, and local specialties.",
+          "name_english": "Cours Saleya",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00 - 15:00",
+            "Tuesday": "06:00 - 15:00",
+            "Wednesday": "06:00 - 15:00",
+            "Thursday": "06:00 - 15:00",
+            "Friday": "06:00 - 15:00",
+            "Saturday": "06:00 - 15:00",
+            "Sunday": "Closed",
+            "notes": "Arrive early for the best selection of fresh produce."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local delicacies at the market stalls.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.695,
+            "longitude": 7.273
+          },
+          "address": "Cours Saleya, 06300 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Market",
+            "Food",
+            "Culture"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Neuf Lignes Obliques Nice IMG 1246.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Neuf_Lignes_Obliques_Nice_IMG_1246.jpg/960px-Neuf_Lignes_Obliques_Nice_IMG_1246.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "Neuf Lignes Obliques Nice IMG 1246",
+                  "author": "Alexander Migl",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Neuf_Lignes_Obliques_Nice_IMG_1246.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Neuf Lignes Obliques in Nice"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7975
+        },
+        {
+          "name": "Museum of Modern and Contemporary Art (MAMAC)",
+          "ai_summary": "A museum showcasing an extensive collection of modern and contemporary art, including works by Yves Klein.",
+          "name_english": "Museum of Modern and Contemporary Art",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€10",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Free admission on the first Sunday of each month."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the rooftop terrace for a great view of Nice.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.697,
+            "longitude": 7.271
+          },
+          "address": "Place Yves Klein, 06300 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Art",
+            "Culture"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7825
+        },
+        {
+          "name": "Marc Chagall National Museum",
+          "ai_summary": "A museum dedicated to the works of Marc Chagall, featuring his famous stained glass windows.",
+          "name_english": "National Marc Chagall Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€8",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Free admission on Wednesdays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Morning",
+          "place_tip": "Don't miss the biblical message stained glass windows.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.698,
+            "longitude": 7.267
+          },
+          "address": "Place Charles Léandri, 06300 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Art",
+            "Culture"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon FLUG.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/BSicon_FLUG.svg/800px-BSicon_FLUG.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon FLUG",
+                  "author": "DarkEvil",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_FLUG.svg",
+                  "credit": "Own work based on: Airplane icon.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Copy of Airplane icon.svg for Wikipedia:Railway line template"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7685
+        },
+        {
+          "name": "Russian Orthodox Cathedral",
+          "ai_summary": "A stunning cathedral with striking Russian architecture, colorful domes, and beautiful interior mosaics.",
+          "name_english": "Cathedral of Saint Nicholas",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€10",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Closed on Thursdays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Attend a service to experience the cathedral's spiritual atmosphere.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.695,
+            "longitude": 7.276
+          },
+          "address": "Av. Nicolas II, 06000 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Religious",
+            "Architecture",
+            "History"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7692
+        },
+        {
+          "name": "Parc Phoenix",
+          "ai_summary": "A large park featuring a botanical garden, zoo, and a lake with pedal boats, perfect for a family day out.",
+          "name_english": "Phoenix Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:00",
+          "cost": "€5",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Last entry one hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a picnic to enjoy in the park.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.688,
+            "longitude": 7.218
+          },
+          "address": "405 Prom. des Anglais, 06200 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Family",
+            "Botanical Garden"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Art-gallery-2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Art-gallery-2.jpg",
+                "width": 85,
+                "height": 70,
+                "attribution": {
+                  "title": "Art-gallery-2",
+                  "author": "Goldenrowley (talk) (Uploads)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Art-gallery-2.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "another art gallery framing symbol - small Aztec structure - I made this"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Cimiez Monastery and Gardens",
+          "ai_summary": "A serene monastery with beautiful gardens, offering a glimpse into the monastic life and stunning views of Nice.",
+          "name_english": "Monastery of Cimiez",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "The gardens are free to visit, but the monastery has restricted access."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the archaeological site nearby for a dose of history.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.695,
+            "longitude": 7.265
+          },
+          "address": "18 Rue de l'Abbaye, 06000 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Monastery",
+            "Gardens",
+            "History"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bar du Palais de la Méditerranée (Nice) en mars 2022.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bar_du_Palais_de_la_M%C3%A9diterran%C3%A9e_%28Nice%29_en_mars_2022.JPG/960px-Bar_du_Palais_de_la_M%C3%A9diterran%C3%A9e_%28Nice%29_en_mars_2022.JPG",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Bar du Palais de la Méditerranée (Nice) en mars 2022",
+                  "author": "Benoît Prieur",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bar_du_Palais_de_la_Méditerranée_(Nice)_en_mars_2022.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Bar du Palais de la Méditerranée (Nice) en mars 2022."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7625
+        },
+        {
+          "name": "Opera de Nice",
+          "ai_summary": "A beautiful opera house known for its stunning architecture and vibrant cultural scene.",
+          "name_english": "Nice Opera",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "Closed",
+            "notes": "Check the schedule for performance times."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book tickets in advance for popular performances.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 43.696,
+            "longitude": 7.275
+          },
+          "address": "4 Rue Saint-François de Paule, 06300 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Opera",
+            "Culture",
+            "Architecture"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:046CupolaSPietro.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "046CupolaSPietro",
+                  "author": "MarkusMark",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Città del Vaticano - Cupola della Basilica di S. Pietro"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7475
+        },
+        {
+          "name": "Blue Beach",
+          "ai_summary": "A popular beach known for its beautiful blue waters, pebbly shore, and vibrant beach clubs.",
+          "name_english": "Plage Bleue",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:30",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00 - 19:00",
+            "Tuesday": "09:00 - 19:00",
+            "Wednesday": "09:00 - 19:00",
+            "Thursday": "09:00 - 19:00",
+            "Friday": "09:00 - 19:00",
+            "Saturday": "09:00 - 19:00",
+            "Sunday": "09:00 - 19:00",
+            "notes": "Beach clubs may have additional charges for sunbeds and umbrellas."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Bring your own snorkeling gear to explore the underwater life.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.695,
+            "longitude": 7.271
+          },
+          "address": "Promenade des Anglais, 06000 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Beach",
+            "Swimming",
+            "Relaxation"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Place-Masséna 01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Place-Mass%C3%A9na_01.jpg/960px-Place-Mass%C3%A9na_01.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Place-Masséna 01",
+                  "author": "Magali M from Nice, France",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Place-Masséna_01.jpg",
+                  "credit": "Place-Masséna_01 on flickr",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "La place Masséna, vue en direction du Vieux-Nice"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7137
+        },
+        {
+          "name": "Mont Boron Park",
+          "ai_summary": "A scenic park offering hiking trails, picnic areas, and panoramic views of Nice and the Mediterranean.",
+          "name_english": "Mont Boron",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Wear comfortable shoes for hiking.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.688,
+            "longitude": 7.308
+          },
+          "address": "Mont Boron, 06300 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Hiking",
+            "Views"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Arc de triomphe frontsimple.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Arc_de_triomphe_frontsimple.jpg",
+                "width": 450,
+                "height": 291,
+                "attribution": {
+                  "title": "Arc de triomphe frontsimple",
+                  "author": "Kevin J. Rice [2]",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Arc_de_triomphe_frontsimple.jpg",
+                  "credit": "[1]",
+                  "usage_terms": "Public domain",
+                  "description": "Simple front-on view of the Arc de Triomphe.Picture taken from the East looking West, in the morning."
+                }
+              }
+            }
+          },
+          "rank_score": 0.77
+        },
+        {
+          "name": "Avenue Jean Médecin",
+          "ai_summary": "The main shopping street in Nice, lined with boutiques, department stores, and cafes.",
+          "name_english": "Jean Médecin Avenue",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 - 19:00",
+            "Tuesday": "09:00 - 19:00",
+            "Wednesday": "09:00 - 19:00",
+            "Thursday": "09:00 - 19:00",
+            "Friday": "09:00 - 19:00",
+            "Saturday": "09:00 - 19:00",
+            "Sunday": "Closed",
+            "notes": "Check individual store hours, especially on Sundays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Look for local boutiques for unique souvenirs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.7,
+            "longitude": 7.258
+          },
+          "address": "Avenue Jean Médecin, Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Shopping",
+            "Street",
+            "Cafes"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ATP Nice 2010 - 001.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ATP_Nice_2010_-_001.jpg/960px-ATP_Nice_2010_-_001.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "ATP Nice 2010 - 001",
+                  "author": "Axou",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ATP_Nice_2010_-_001.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Tournoi ATP de Nice 2010 - Court Central"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7545
+        },
+        {
+          "name": "Place Garibaldi",
+          "ai_summary": "A historic square in Nice, featuring beautiful architecture, cafes, and a lively atmosphere.",
+          "name_english": "Garibaldi Square",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Evenings are lively with many restaurants and bars open."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local gelato at one of the nearby parlors.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.696,
+            "longitude": 7.275
+          },
+          "address": "Place Garibaldi, 06300 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Square",
+            "Historic",
+            "Dining"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Exhibition in Palais Lascaris, Nice.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Exhibition_in_Palais_Lascaris%2C_Nice.JPG/960px-Exhibition_in_Palais_Lascaris%2C_Nice.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Exhibition in Palais Lascaris, Nice",
+                  "author": "Lascaris",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Exhibition_in_Palais_Lascaris,_Nice.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Exhibition in Palais Lascaris, Nice"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7607
+        },
+        {
+          "name": "Musée Matisse",
+          "ai_summary": "A museum dedicated to the works of Henri Matisse, located in the villa where he lived.",
+          "name_english": "Matisse Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€10",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Free admission on the first Sunday of each month."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine your visit with a stroll in the nearby gardens.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.694,
+            "longitude": 7.267
+          },
+          "address": "164 Av. des Arènes de Cimiez, 06000 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Art",
+            "Culture"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OOjs UI icon edit-ltr-progressive.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/800px-OOjs_UI_icon_edit-ltr-progressive.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "OOjs UI icon edit-ltr-progressive",
+                  "author": "https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg",
+                  "credit": "lib/oojs-ui/themes/mediawiki/images/icons/",
+                  "usage_terms": "Public domain",
+                  "description": "An icon from the OOjs UI MediaWiki lib."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7685
+        },
+        {
+          "name": "Castle of Bellet Vineyards",
+          "ai_summary": "A vineyard located in the hills of Nice, offering wine tours and tastings in a picturesque setting.",
+          "name_english": "Bellet Castle Vineyards",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:30",
+          "cost": "€15",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Reservations recommended for wine tastings."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Enjoy a picnic in the vineyard with a bottle of local wine.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 43.694,
+            "longitude": 7.239
+          },
+          "address": "Castle of Bellet, 06200 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Vineyard",
+            "Wine Tasting",
+            "Scenic"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Arc de triomphe frontsimple.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Arc_de_triomphe_frontsimple.jpg",
+                "width": 450,
+                "height": 291,
+                "attribution": {
+                  "title": "Arc de triomphe frontsimple",
+                  "author": "Kevin J. Rice [2]",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Arc_de_triomphe_frontsimple.jpg",
+                  "credit": "[1]",
+                  "usage_terms": "Public domain",
+                  "description": "Simple front-on view of the Arc de Triomphe.Picture taken from the East looking West, in the morning."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7525
+        },
+        {
+          "name": "Cimiez Roman Ruins",
+          "ai_summary": "The ruins of an ancient Roman city, featuring well-preserved mosaics and an amphitheater.",
+          "name_english": "Roman Ruins of Cimiez",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:00",
+          "cost": "€10",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "Last entry one hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine your visit with the nearby Matisse Museum.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.694,
+            "longitude": 7.265
+          },
+          "address": "Avenue des Arènes de Cimiez, 06000 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Archaeological",
+            "Culture"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Neuf Lignes Obliques Nice IMG 1246.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Neuf_Lignes_Obliques_Nice_IMG_1246.jpg/960px-Neuf_Lignes_Obliques_Nice_IMG_1246.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "Neuf Lignes Obliques Nice IMG 1246",
+                  "author": "Alexander Migl",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Neuf_Lignes_Obliques_Nice_IMG_1246.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Neuf Lignes Obliques in Nice"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7755
+        },
+        {
+          "name": "Phoenix Park Botanical Garden",
+          "ai_summary": "A botanical garden located within Phoenix Park, featuring a wide variety of plants and flowers.",
+          "name_english": "Botanical Garden of Phoenix Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:00",
+          "cost": "€5",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Last entry one hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Join a guided tour to learn about the different plant species.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.688,
+            "longitude": 7.218
+          },
+          "address": "405 Prom. des Anglais, 06200 Nice, France",
+          "official_website": "N/A",
+          "tags": [
+            "Botanical Garden",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Nice",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Art-gallery-2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Art-gallery-2.jpg",
+                "width": 85,
+                "height": 70,
+                "attribution": {
+                  "title": "Art-gallery-2",
+                  "author": "Goldenrowley (talk) (Uploads)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Art-gallery-2.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "another art gallery framing symbol - small Aztec structure - I made this"
+                }
+              }
+            }
+          },
+          "rank_score": 0.755
+        }
+      ]
+    }
+  ]
+}

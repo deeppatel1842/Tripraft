@@ -1,0 +1,1152 @@
+{
+  "country": "Spain",
+  "state": "Palma de Mallorca",
+  "cities": [
+    {
+      "city": "Palma de Mallorca",
+      "nearest_airport": "Palma de Mallorca Airport",
+      "places": [
+        {
+          "name": "La Seu Cathedral (Palma Cathedral)",
+          "ai_summary": "A magnificent Gothic cathedral overlooking the sea, known for its stunning architecture and Gaudí's contributions.",
+          "name_english": "Palma Cathedral",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:15",
+          "sunset_time": "19:30",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 - 18:15",
+            "Tuesday": "10:00 - 18:15",
+            "Wednesday": "10:00 - 18:15",
+            "Thursday": "10:00 - 18:15",
+            "Friday": "10:00 - 18:15",
+            "Saturday": "10:00 - 14:15",
+            "Sunday": "Closed",
+            "notes": "Hours may vary during religious services."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Book tickets online to avoid queues.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 39.567,
+            "longitude": 2.65
+          },
+          "address": "Plaça de la Seu, s/n, 07001 Palma, Spain",
+          "official_website": "https://www.catedraldemallorca.org",
+          "tags": [
+            "History",
+            "Architecture",
+            "Religion"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cathedral de Mallorca (35210686464).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cathedral_de_Mallorca_%2835210686464%29.jpg/960px-Cathedral_de_Mallorca_%2835210686464%29.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "Cathedral de Mallorca (35210686464)",
+                  "author": "Sergiy Galyonkin from Raleigh, USA",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cathedral_de_Mallorca_(35210686464).jpg",
+                  "credit": "Cathedral de Mallorca",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Cathedral de Mallorca"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Palau de l’Almudaina",
+          "ai_summary": "A historic royal palace blending Islamic and Gothic styles, offering insights into Mallorca's rich history.",
+          "name_english": "Almudaina Palace",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:45",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 14:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the gardens for great photo opportunities.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.568,
+            "longitude": 2.65
+          },
+          "address": "Carrer del Palau Reial, s/n, 07001 Palma, Spain",
+          "official_website": "https://www.patrimonionacional.es",
+          "tags": [
+            "History",
+            "Architecture",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:046CupolaSPietro.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "046CupolaSPietro",
+                  "author": "MarkusMark",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Città del Vaticano - Cupola della Basilica di S. Pietro"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Castell de Bellver",
+          "ai_summary": "A unique circular castle offering panoramic views of Palma and the bay, with a fascinating history.",
+          "name_english": "Bellver Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:15",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 14:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Don't miss the view from the top of the castle.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.569,
+            "longitude": 2.617
+          },
+          "address": "Camí de l'Escullera, s/n, 07014 Palma, Spain",
+          "official_website": "https://www.castelldebellver.com",
+          "tags": [
+            "History",
+            "Architecture",
+            "Views"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bellver-portal.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bellver-portal.jpg/960px-Bellver-portal.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "Bellver-portal",
+                  "author": null,
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bellver-portal.jpg",
+                  "credit": null,
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Paseo Marítimo",
+          "ai_summary": "A lively promenade along the coast, perfect for a stroll, with views of the marina and the cathedral.",
+          "name_english": "Seafront Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Enjoy a bike ride or a walk, and stop by the marina.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.565,
+            "longitude": 2.644
+          },
+          "address": "Passeig Marítim, 07014 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "Leisure",
+            "Views",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of the Balearic Islands.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Flag_of_the_Balearic_Islands.svg/960px-Flag_of_the_Balearic_Islands.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of the Balearic Islands",
+                  "author": null,
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Balearic_Islands.svg",
+                  "credit": "Own work using: Open Clip Art Library.",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Flag of the Balearic Islands, Spain"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Arab Baths (Banys Àrabs)",
+          "ai_summary": "The only preserved public baths from the Moorish period in Mallorca, offering a glimpse into the island's Islamic history.",
+          "name_english": "Arab Baths",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "Closed",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Combine with a visit to the nearby Plaza de Cort.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.57,
+            "longitude": 2.646
+          },
+          "address": "Carrer de la Almoina, 07001 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "History",
+            "Culture",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A coloured voting box.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/A_coloured_voting_box.svg/800px-A_coloured_voting_box.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "A coloured voting box",
+                  "author": "Resizia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A_coloured_voting_box.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A yellow coloured voting box."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Plaça Major",
+          "ai_summary": "The main square in Palma, surrounded by historic buildings, shops, and cafes, and often hosting local events.",
+          "name_english": "Main Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning or early evening."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning or evening",
+          "place_tip": "Check out the local market if you're there on a Thursday or Saturday.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.57,
+            "longitude": 2.646
+          },
+          "address": "Plaça Major, 07001 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Shopping",
+            "Dining"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cathedral de Mallorca (35210686464).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cathedral_de_Mallorca_%2835210686464%29.jpg/960px-Cathedral_de_Mallorca_%2835210686464%29.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "Cathedral de Mallorca (35210686464)",
+                  "author": "Sergiy Galyonkin from Raleigh, USA",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cathedral_de_Mallorca_(35210686464).jpg",
+                  "credit": "Cathedral de Mallorca",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Cathedral de Mallorca"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Es Baluard Museum",
+          "ai_summary": "A modern and contemporary art museum located in a historic fortress, offering stunning views and cultural insights.",
+          "name_english": "Es Baluard Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 19:00",
+            "Wednesday": "10:00 - 19:00",
+            "Thursday": "10:00 - 19:00",
+            "Friday": "10:00 - 19:00",
+            "Saturday": "10:00 - 19:00",
+            "Sunday": "10:00 - 15:00",
+            "notes": "Check for temporary exhibitions and events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine with a visit to the nearby Santa Catalina district.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.57,
+            "longitude": 2.645
+          },
+          "address": "Carrer de la Mar, 07015 Palma, Spain",
+          "official_website": "https://www.esbaluard.org",
+          "tags": [
+            "Art",
+            "Culture",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Santa Catalina Market & District",
+          "ai_summary": "A vibrant market and neighborhood known for its local produce, tapas bars, and lively atmosphere.",
+          "name_english": "Santa Catalina Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "07:00 - 15:00",
+            "Tuesday": "07:00 - 15:00",
+            "Wednesday": "07:00 - 15:00",
+            "Thursday": "07:00 - 15:00",
+            "Friday": "07:00 - 15:00",
+            "Saturday": "07:00 - 15:00",
+            "Sunday": "Closed",
+            "notes": "Best visited in the morning for fresh produce."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local delicacies at the market stalls.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.57,
+            "longitude": 2.644
+          },
+          "address": "Carrer de la Mar, 07013 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "Food",
+            "Culture",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cathedral de Mallorca (35210686464).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cathedral_de_Mallorca_%2835210686464%29.jpg/960px-Cathedral_de_Mallorca_%2835210686464%29.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "Cathedral de Mallorca (35210686464)",
+                  "author": "Sergiy Galyonkin from Raleigh, USA",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cathedral_de_Mallorca_(35210686464).jpg",
+                  "credit": "Cathedral de Mallorca",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Cathedral de Mallorca"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "La Lonja de Palma",
+          "ai_summary": "A stunning example of Gothic architecture, this former fish market is now a cultural venue.",
+          "name_english": "La Lonja",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 14:00",
+            "Wednesday": "10:00 - 14:00",
+            "Thursday": "10:00 - 14:00",
+            "Friday": "10:00 - 14:00",
+            "Saturday": "10:00 - 14:00",
+            "Sunday": "Closed",
+            "notes": "Check for exhibitions and events."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Look out for art exhibitions and cultural events.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.57,
+            "longitude": 2.646
+          },
+          "address": "Carrer de la Lonja, 07001 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "Architecture",
+            "Culture",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cathedral de Mallorca (35210686464).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cathedral_de_Mallorca_%2835210686464%29.jpg/960px-Cathedral_de_Mallorca_%2835210686464%29.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "Cathedral de Mallorca (35210686464)",
+                  "author": "Sergiy Galyonkin from Raleigh, USA",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cathedral_de_Mallorca_(35210686464).jpg",
+                  "credit": "Cathedral de Mallorca",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Cathedral de Mallorca"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Parc de la Mar",
+          "ai_summary": "A beautiful park by the sea, perfect for a leisurely stroll, with views of the cathedral and the bay.",
+          "name_english": "Park of the Sea",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Bring a picnic and enjoy the views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.565,
+            "longitude": 2.645
+          },
+          "address": "Avinguda de Gabriel Roca, 07014 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "Leisure",
+            "Views",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A coloured voting box.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/A_coloured_voting_box.svg/800px-A_coloured_voting_box.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "A coloured voting box",
+                  "author": "Resizia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A_coloured_voting_box.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A yellow coloured voting box."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Fundació Miró Mallorca",
+          "ai_summary": "A museum dedicated to the works of Joan Miró, set in a beautiful building with stunning views and gardens.",
+          "name_english": "Miró Foundation",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 15:00",
+            "notes": "Check for temporary exhibitions and events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine with a visit to the nearby Bellver Castle.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.569,
+            "longitude": 2.617
+          },
+          "address": "Carrer de Saridakis, 29, 07015 Palma, Spain",
+          "official_website": "https://www.fundaciomiro-baleares.org",
+          "tags": [
+            "Art",
+            "Culture",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bellver-portal.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bellver-portal.jpg/960px-Bellver-portal.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "Bellver-portal",
+                  "author": null,
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bellver-portal.jpg",
+                  "credit": null,
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ca’n Joan de S’Aigo (Historic Cafe)",
+          "ai_summary": "A historic cafe famous for its ice cream and traditional Mallorcan pastries, located in the heart of Palma.",
+          "name_english": "Ca’n Joan de S’Aigo",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00",
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Sunday": "08:00 - 14:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try the 'Ensaimada' and almond ice cream.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.57,
+            "longitude": 2.646
+          },
+          "address": "Carrer de Sant Nicolau, 15, 07001 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "Food",
+            "Culture",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of the Balearic Islands.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Flag_of_the_Balearic_Islands.svg/960px-Flag_of_the_Balearic_Islands.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of the Balearic Islands",
+                  "author": null,
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Balearic_Islands.svg",
+                  "credit": "Own work using: Open Clip Art Library.",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Flag of the Balearic Islands, Spain"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Royal Carthusian Monastery of Valldemossa (excursion)",
+          "ai_summary": "A beautiful monastery set in the Tramuntana mountains, known for its historical significance and stunning surroundings.",
+          "name_english": "Valldemossa Charterhouse",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:30",
+          "sunset_time": "19:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:30 - 17:15",
+            "Tuesday": "09:30 - 17:15",
+            "Wednesday": "09:30 - 17:15",
+            "Thursday": "09:30 - 17:15",
+            "Friday": "09:30 - 17:15",
+            "Saturday": "09:30 - 17:15",
+            "Sunday": "Closed",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the beautiful village of Valldemossa.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.634,
+            "longitude": 2.626
+          },
+          "address": "Carretera de Valldemossa, km 16, 07170 Valldemossa, Spain",
+          "official_website": null,
+          "tags": [
+            "History",
+            "Architecture",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Símbolo del Metro de Palma.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/S%C3%ADmbolo_del_Metro_de_Palma.svg/800px-S%C3%ADmbolo_del_Metro_de_Palma.svg.png",
+                "width": 800,
+                "height": 548,
+                "attribution": {
+                  "title": "Símbolo del Metro de Palma",
+                  "author": "Andreuvv",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Símbolo_del_Metro_de_Palma.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Logo of the Palma de Mallorca Metro (Spain)."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Serra de Tramuntana Scenic Drive",
+          "ai_summary": "A breathtaking drive through the Tramuntana mountain range, offering stunning views of the mountains and the sea.",
+          "name_english": "Tramuntana Scenic Drive",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best driven in a car with good suspension."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Take your time and enjoy the numerous viewpoints.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.634,
+            "longitude": 2.626
+          },
+          "address": "Ma-10, 07110 Sóller, Spain",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Driving"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Parc Bit logo.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Parc_Bit_logo.jpg/960px-Parc_Bit_logo.jpg",
+                "width": 800,
+                "height": 379,
+                "attribution": {
+                  "title": "Parc Bit logo",
+                  "author": "Fundació Bit",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Parc_Bit_logo.jpg",
+                  "credit": "http://www.parcbit.es/wparcbitfront/",
+                  "usage_terms": "Public domain",
+                  "description": "Used logo as of 2013."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Portixol Promenade",
+          "ai_summary": "A lovely promenade by the beach, ideal for a walk or a bike ride, with views of the sea and the city.",
+          "name_english": "Portixol Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Enjoy the beach bars and restaurants along the promenade.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.573,
+            "longitude": 2.634
+          },
+          "address": "Passeig de Portixol, 07006 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "Leisure",
+            "Views",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A coloured voting box.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/A_coloured_voting_box.svg/800px-A_coloured_voting_box.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "A coloured voting box",
+                  "author": "Resizia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A_coloured_voting_box.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A yellow coloured voting box."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Playa de Palma",
+          "ai_summary": "A popular beach destination with a long sandy beach, clear waters, and a lively atmosphere.",
+          "name_english": "Palma Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the summer months."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Try the water sports available at the beach.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.553,
+            "longitude": 2.738
+          },
+          "address": "Playa de Palma, 07610 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Leisure",
+            "Water Sports"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aena Mallorca.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Aena_Mallorca.svg/960px-Aena_Mallorca.svg.png",
+                "width": 800,
+                "height": 196,
+                "attribution": {
+                  "title": "Aena Mallorca",
+                  "author": "Aena",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aena_Mallorca.svg",
+                  "credit": "Aena; own work",
+                  "usage_terms": "Public domain",
+                  "description": "Aena's official logo for Palma de Mallorca Airport."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Pueblo Español",
+          "ai_summary": "An open-air museum showcasing replicas of famous Spanish buildings and monuments, set in a beautiful garden.",
+          "name_english": "Spanish Village",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 14:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the events and exhibitions held in the village.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.57,
+            "longitude": 2.646
+          },
+          "address": "Carrer de la Almoina, 07001 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Architecture",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:035 2015 06 02 Castell de Bellver.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/035_2015_06_02_Castell_de_Bellver.jpg/960px-035_2015_06_02_Castell_de_Bellver.jpg",
+                "width": 800,
+                "height": 474,
+                "attribution": {
+                  "title": "035 2015 06 02 Castell de Bellver",
+                  "author": "Friedrich Haag",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:035_2015_06_02_Castell_de_Bellver.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "This is a photo of a monument listed in the Spanish heritage register of Bienes de Interés Cultural under the reference RI-51-0000411.\n\n\n\nDesignation: Bellver Castle\nLocation: Carrer Camilo José Cela\nPlace: Palma de Mallorca, Majorca, Balearic Islands\nConstruction time: 1300\nDescription: The Castell de Bellver regarded as unique in Spain and Europe. Because unlike most fortifications, it is circular.\nThe castle is built around a courtyard, and the two surrounding the courtyard floors are rounded.\nThe arcades of the ground floor are Romanesque. The portico of the upper floor is Gothic.\nThe whole complex looks from the outside fortified sealed and impregnable.\nCategory: Residential building"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Basilica de Sant Francesc",
+          "ai_summary": "A beautiful Gothic church known for its stunning interior and the adjacent cloister.",
+          "name_english": "Saint Francis Basilica",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 14:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don't miss the cloister and the beautiful altar.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.57,
+            "longitude": 2.646
+          },
+          "address": "Carrer de Sant Francesc, 07001 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "Architecture",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A coloured voting box.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/A_coloured_voting_box.svg/800px-A_coloured_voting_box.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "A coloured voting box",
+                  "author": "Resizia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A_coloured_voting_box.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A yellow coloured voting box."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Plaza de Cort & City Hall",
+          "ai_summary": "The main square in Palma, featuring the impressive City Hall building and a lively atmosphere.",
+          "name_english": "Cort Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning or early evening."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Morning or evening",
+          "place_tip": "Check out the local events and exhibitions in the square.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.57,
+            "longitude": 2.646
+          },
+          "address": "Plaça de Cort, 07001 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "History",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Avinguda Jaume III Shopping",
+          "ai_summary": "A major shopping avenue in Palma, featuring a mix of high-street brands, boutiques, and cafes.",
+          "name_english": "Jaume III Avenue",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free to explore",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 20:00",
+            "Tuesday": "10:00 - 20:00",
+            "Wednesday": "10:00 - 20:00",
+            "Thursday": "10:00 - 20:00",
+            "Friday": "10:00 - 20:00",
+            "Saturday": "10:00 - 20:00",
+            "Sunday": "Closed",
+            "notes": "Check individual store hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the side streets for unique boutiques and shops.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.57,
+            "longitude": 2.646
+          },
+          "address": "Avinguda de Jaume III, 07001 Palma, Spain",
+          "official_website": null,
+          "tags": [
+            "Shopping",
+            "Leisure",
+            "Dining"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:035 2015 06 02 Castell de Bellver.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/035_2015_06_02_Castell_de_Bellver.jpg/960px-035_2015_06_02_Castell_de_Bellver.jpg",
+                "width": 800,
+                "height": 474,
+                "attribution": {
+                  "title": "035 2015 06 02 Castell de Bellver",
+                  "author": "Friedrich Haag",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:035_2015_06_02_Castell_de_Bellver.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "This is a photo of a monument listed in the Spanish heritage register of Bienes de Interés Cultural under the reference RI-51-0000411.\n\n\n\nDesignation: Bellver Castle\nLocation: Carrer Camilo José Cela\nPlace: Palma de Mallorca, Majorca, Balearic Islands\nConstruction time: 1300\nDescription: The Castell de Bellver regarded as unique in Spain and Europe. Because unlike most fortifications, it is circular.\nThe castle is built around a courtyard, and the two surrounding the courtyard floors are rounded.\nThe arcades of the ground floor are Romanesque. The portico of the upper floor is Gothic.\nThe whole complex looks from the outside fortified sealed and impregnable.\nCategory: Residential building"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

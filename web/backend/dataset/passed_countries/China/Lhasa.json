@@ -1,0 +1,996 @@
+{
+  "country": "China",
+  "state": "Lhasa",
+  "cities": [
+    {
+      "city": "Lhasa",
+      "nearest_airport": "Lhasa Gonggar Airport (LXA)",
+      "places": [
+        {
+          "name": "Potala Palace",
+          "ai_summary": "A UNESCO World Heritage Site and the winter palace of the Dalai Lama, showcasing Tibetan architecture and culture.",
+          "name_english": "Potala Palace",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "09:00 - 16:00",
+            "Tuesday": "09:00 - 16:00",
+            "Wednesday": "09:00 - 16:00",
+            "Thursday": "09:00 - 16:00",
+            "Friday": "09:00 - 16:00",
+            "Saturday": "09:00 - 16:00",
+            "Sunday": "09:00 - 16:00",
+            "notes": "Tickets are limited; early booking is essential."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Climb slowly to adjust to the altitude.",
+          "advanced_booking": "Highly recommended",
+          "coordinates": {
+            "latitude": 29.657,
+            "longitude": 91.117
+          },
+          "address": "35 Beijing Middle Rd, Chengguan District, Lhasa, China",
+          "official_website": "N/A",
+          "tags": [
+            "UNESCO",
+            "Cultural",
+            "Historic"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Potala_Palace_HQ.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Potala_Palace_HQ.jpg/960px-Potala_Palace_HQ.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Potala Palace HQ",
+                  "author": "Lhasa Government",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Potala_Palace_HQ.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Potala Palace in Lhasa. In the distant background: <a href=\"https://en.wikipedia.org/wiki/Nyangrain_Subdistrict\" class=\"extiw\" title=\"w:Nyangrain Subdistrict\">Nyangrain Subdistrict</a>.<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.974
+        },
+        {
+          "name": "Jokhang Temple",
+          "ai_summary": "The spiritual heart of Tibetan Buddhism, this temple is a pilgrimage site filled with rich history and vibrant rituals.",
+          "name_english": "Jokhang Temple",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Best visited early morning to witness the pilgrims."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the Barkhor Street market nearby.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.653,
+            "longitude": 91.132
+          },
+          "address": "Jokhang Temple, Chengguan District, Lhasa, China",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "Cultural",
+            "Spiritual"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Jokhang_Temple_in_Tibet.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Jokhang_Temple_in_Tibet.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Jokhang Temple in Tibet",
+                  "author": "onwardtibet.org",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Jokhang_Temple_in_Tibet.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "The Jokhang Temple in Tibet."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Barkhor Street",
+          "ai_summary": "A bustling market street circling the Jokhang Temple, filled with shops, street food, and traditional Tibetan culture.",
+          "name_english": "Barkhor Street",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Evenings are lively with street vendors and performers."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bargain for souvenirs and try local snacks.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.653,
+            "longitude": 91.132
+          },
+          "address": "Barkhor Street, Chengguan District, Lhasa, China",
+          "official_website": "N/A",
+          "tags": [
+            "Market",
+            "Shopping",
+            "Cultural"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:LhasaBarskor.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/LhasaBarskor.jpg/960px-LhasaBarskor.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "LhasaBarskor",
+                  "author": "Taken by <a href=\"//commons.wikimedia.org/wiki/User:Fanghong\" title=\"User:Fanghong\">Fanghong</a>",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:LhasaBarskor.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "Barkor Street in <a href=\"//commons.wikimedia.org/wiki/Lhasa\" class=\"mw-redirect\" title=\"Lhasa\">Lhasa</a>, <a href=\"//commons.wikimedia.org/wiki/Tibet\" class=\"mw-redirect\" title=\"Tibet\">Tibet</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Norbulingka Palace",
+          "ai_summary": "The summer palace of the Dalai Lamas, featuring beautiful gardens and traditional Tibetan architecture.",
+          "name_english": "Norbulingka Palace",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Closed during the winter months."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don't miss the beautiful artwork and murals.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.662,
+            "longitude": 91.113
+          },
+          "address": "Norbulingka Rd, Chengguan District, Lhasa, China",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Cultural",
+            "UNESCO"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Norbulingka_on_a_sunny_day.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Norbulingka_on_a_sunny_day.jpg/960px-Norbulingka_on_a_sunny_day.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Norbulingka on a sunny day",
+                  "author": "travel oriented",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Norbulingka_on_a_sunny_day.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Norbulingka (literally \"The Jewelled Park\") is a palace and surrounding park built from 1755.It served as the traditional summer residence of the successive Dalai Lamas from the 1780s up until the 14th Dalai Lama's exile in 1959."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Sera Monastery",
+          "ai_summary": "One of the great monasteries of Tibet, known for its debating monks and beautiful architecture.",
+          "name_english": "Sera Monastery",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Best time to visit is during the monk debates in the afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Respect the monks and the religious practices.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.605,
+            "longitude": 91.36
+          },
+          "address": "Sera Monastery, Lhasa, Tibet, China",
+          "official_website": "N/A",
+          "tags": [
+            "Monastery",
+            "Cultural",
+            "Historic"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Sera_Mey.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sera_Mey.jpg/960px-Sera_Mey.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Sera Mey",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/evanosherow\">Evanosherow</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sera_Mey.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Sera Mey, Sera Monastery, India"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Drepung Monastery",
+          "ai_summary": "Once the largest monastery in the world, Drepung is known for its impressive architecture and rich history.",
+          "name_english": "Drepung Monastery",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "The monastery is vast; a guided tour is recommended."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for walking.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.628,
+            "longitude": 91.1
+          },
+          "address": "Drepung Monastery, Lhasa, Tibet, China",
+          "official_website": "N/A",
+          "tags": [
+            "Monastery",
+            "Cultural",
+            "Historic"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Drepung_monastery.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Drepung_monastery.jpg/960px-Drepung_monastery.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Drepung monastery",
+                  "author": "Dbachmann",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Drepung_monastery.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.814
+        },
+        {
+          "name": "Ramoche Temple",
+          "ai_summary": "An important temple in Tibetan Buddhism, known for its stunning architecture and sacred relics.",
+          "name_english": "Ramoche Temple",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Smaller and less crowded than Jokhang Temple."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine with a visit to Jokhang Temple.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.653,
+            "longitude": 91.134
+          },
+          "address": "Ramoche Temple, Chengguan District, Lhasa, China",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "Cultural",
+            "Historic"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ramoche-Tempel_Schuh_2007.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Ramoche-Tempel_Schuh_2007.JPG/960px-Ramoche-Tempel_Schuh_2007.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ramoche-Tempel Schuh 2007",
+                  "author": "<a href=\"https://de.wikipedia.org/wiki/Benutzer:Dieter_Schuh\" class=\"extiw\" title=\"de:Benutzer:Dieter Schuh\">Dieter Schuh</a> 18:55, 30. Sep. 2009 (CEST)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ramoche-Tempel_Schuh_2007.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Ramoche_Temple\" class=\"extiw\" title=\"en:Ramoche Temple\">Ramoche Temple</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.718
+        },
+        {
+          "name": "Namtso Lake",
+          "ai_summary": "A stunning high-altitude lake, known for its breathtaking beauty and spiritual significance.",
+          "name_english": "Namtso Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "19:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day for stunning views."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring water and snacks; facilities are limited.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 30.785,
+            "longitude": 90.35
+          },
+          "address": "Namtso Lake, Damxung County, Lhasa, Tibet, China",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Spiritual"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Namtso-and-holy-rock.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Namtso-and-holy-rock.jpg/960px-Namtso-and-holy-rock.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Namtso-and-holy-rock",
+                  "author": "Peter Vigier",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Namtso-and-holy-rock.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "View on the lake Namtso (Nam-tso/Nam co) and the holy rock"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Yamdrok Lake",
+          "ai_summary": "A beautiful turquoise lake, sacred in Tibetan Buddhism, offering stunning views and photo opportunities.",
+          "name_english": "Yamdrok Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "19:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "The lake is best viewed from the Kambala Pass."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the nearby Pelkor Chode Monastery.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 28.967,
+            "longitude": 90.36
+          },
+          "address": "Yamdrok Lake, Tibet, China",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Spiritual"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Yamzho_Yumco.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Yamzho_Yumco.jpg/960px-Yamzho_Yumco.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Yamzho Yumco",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Kkkwylin&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Kkkwylin (page does not exist)\">Kkkwylin</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Yamzho_Yumco.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Taken at 5 p.m. on March 19, 2022"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Ganden Monastery",
+          "ai_summary": "An important Tibetan Buddhist monastery, known for its stunning views and rich history.",
+          "name_english": "Ganden Monastery",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "The monastery is located on a hill; prepare for a hike."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Enjoy the panoramic views of the Lhasa valley.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.648,
+            "longitude": 91.726
+          },
+          "address": "Ganden Monastery, Lhasa, Tibet, China",
+          "official_website": "N/A",
+          "tags": [
+            "Monastery",
+            "Cultural",
+            "Historic"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ganden_monastery.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Ganden_monastery.jpg/960px-Ganden_monastery.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ganden monastery",
+                  "author": "Dbachmann",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ganden_monastery.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Tibet Museum",
+          "ai_summary": "A museum showcasing the history, culture, and art of Tibet, offering valuable insights for visitors.",
+          "name_english": "Tibet Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Closed on the first Monday of every month."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check out the thangka paintings and Buddha statues.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.645,
+            "longitude": 91.117
+          },
+          "address": "Tibet Museum, Chengguan District, Lhasa, China",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Cultural",
+            "Historic"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:TibetanMuseum.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/TibetanMuseum.jpg/960px-TibetanMuseum.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "TibetanMuseum",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Fanghong\" title=\"User:Fanghong\">Fanghong</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:TibetanMuseum.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<a href=\"//commons.wikimedia.org/wiki/Tibet\" class=\"mw-redirect\" title=\"Tibet\">Tibetan</a> <a href=\"//commons.wikimedia.org/wiki/Museum\" title=\"Museum\">Museum</a> in <a href=\"//commons.wikimedia.org/wiki/Lhasa\" class=\"mw-redirect\" title=\"Lhasa\">Lhasa</a>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Lhasa River Viewpoint",
+          "ai_summary": "A scenic viewpoint along the Lhasa River, offering beautiful views and a peaceful atmosphere.",
+          "name_english": "Lhasa River Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day for photography."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the nearby Lhasa Great Mosque.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.645,
+            "longitude": 91.134
+          },
+          "address": "Lhasa River Viewpoint, Chengguan District, Lhasa, China",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lhasa_de_Sela_29r.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Lhasa_de_Sela_29r.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lhasa de Sela 29r",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Vonvon\" title=\"User:Vonvon\">Vonvon</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lhasa_de_Sela_29r.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Singer Lhasa de Sela in concert in Stuttgart, Sommerfestival der Kulturen, 2005-07-21"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Ani Tsankhung Nunnery",
+          "ai_summary": "A serene nunnery offering a glimpse into the spiritual life of Tibetan Buddhist nuns.",
+          "name_english": "Ani Tsankhung Nunnery",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Smaller and quieter than other religious sites."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Be respectful and quiet; it's a place of worship.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.645,
+            "longitude": 91.13
+          },
+          "address": "Ani Tsankhung Nunnery, Chengguan District, Lhasa, China",
+          "official_website": "N/A",
+          "tags": [
+            "Nunnery",
+            "Cultural",
+            "Spiritual"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:TIB-lhasa-anisangkhung-eing.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/TIB-lhasa-anisangkhung-eing.jpg/960px-TIB-lhasa-anisangkhung-eing.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "TIB-lhasa-anisangkhung-eing",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.wikivoyage-old.org/shared/User%3ABgabel\">Bgabel</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:TIB-lhasa-anisangkhung-eing.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Nonnenkloster Ani Sangkhung, Lhasa"
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Tashilhunpo Monastery (Shigatse Trip)",
+          "ai_summary": "The seat of the Panchen Lama, this monastery is known for its impressive architecture and spiritual significance.",
+          "name_english": "Tashilhunpo Monastery (Shigatse Trip)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Located in Shigatse, about 90 km from Lhasa."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the Kumbum Stupa and the Panchen Lama's tomb.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.267,
+            "longitude": 88.882
+          },
+          "address": "Tashilhunpo Monastery, Shigatse, Tibet, China",
+          "official_website": "N/A",
+          "tags": [
+            "Monastery",
+            "Cultural",
+            "Historic"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Shigatse_Dzong_5.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Shigatse_Dzong_5.jpg/960px-Shigatse_Dzong_5.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Shigatse Dzong 5",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E9%92%89%E9%92%89\" class=\"mw-redirect\" title=\"User:钉钉\">钉钉</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Shigatse_Dzong_5.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Shigatse Dzong"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Lalu Wetlands National Nature Reserve",
+          "ai_summary": "A beautiful wetland area, home to diverse wildlife and plant species, offering a peaceful retreat from the city.",
+          "name_english": "Lalu Wetlands National Nature Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring binoculars for bird watching.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.645,
+            "longitude": 91.142
+          },
+          "address": "Lalu Wetlands National Nature Reserve, Chengguan District, Lhasa, China",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Scenic"
+          ],
+          "state": "Lhasa",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Chakpori Hill",
+          "ai_summary": "A hill offering panoramic views of Lhasa and the Potala Palace, popular for photography and sightseeing.",
+          "name_english": "Chakpori Hill",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "The hill can be steep; wear good walking shoes."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the hilltop stupa and enjoy the views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.646,
+            "longitude": 91.14
+          },
+          "address": "Chakpori Hill, Chengguan District, Lhasa, China",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:309Blick_auf_Chokpori.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/309Blick_auf_Chokpori.jpg/960px-309Blick_auf_Chokpori.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "309Blick auf Chokpori",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:RThiele&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:RThiele (page does not exist)\">RThiele</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:309Blick_auf_Chokpori.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Chokpori, seen from Potala"
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Lhasa Great Mosque",
+          "ai_summary": "The largest mosque in Lhasa, showcasing traditional Islamic architecture and offering a peaceful place for reflection.",
+          "name_english": "Lhasa Great Mosque",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Respect the prayer times and dress modestly."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit during the prayer times for a spiritual experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.645,
+            "longitude": 91.135
+          },
+          "address": "Lhasa Great Mosque, Chengguan District, Lhasa, China",
+          "official_website": "N/A",
+          "tags": [
+            "Mosque",
+            "Cultural",
+            "Historic"
+          ],
+          "state": "Lhasa",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lhasa-Potala-Ausblick-06-2014-gje.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Lhasa-Potala-Ausblick-06-2014-gje.jpg/960px-Lhasa-Potala-Ausblick-06-2014-gje.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lhasa-Potala-Ausblick-06-2014-gje",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Gerd_Eichmann\" title=\"User:Gerd Eichmann\">Gerd Eichmann</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lhasa-Potala-Ausblick-06-2014-gje.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "View of Lhasa from Potala Palace"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        }
+      ]
+    }
+  ]
+}

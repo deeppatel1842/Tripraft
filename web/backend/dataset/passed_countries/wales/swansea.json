@@ -1,0 +1,893 @@
+{
+  "country": "Wales",
+  "state": "Swansea",
+  "cities": [
+    {
+      "city": "Swansea",
+      "nearest_airport": "Cardiff Airport",
+      "places": [
+        {
+          "name": "Swansea Bay",
+          "ai_summary": "A picturesque bay offering stunning views, sandy beaches, and a variety of water sports activities.",
+          "name_english": "Swansea Bay",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during low tide."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take a walk along the promenade for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.6167,
+            "longitude": -3.9469
+          },
+          "address": "Swansea Bay, Swansea, United Kingdom",
+          "official_website": "https://www.visitswanseabay.com/",
+          "tags": [
+            "Bay",
+            "Beach",
+            "Water Sports",
+            "Relaxation"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Swansea_bay.jpeg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Swansea_bay.jpeg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "<div class=\"fn\">\nSwansea bay</div>",
+                  "author": "<div class=\"fn value\">\n<p>Bartlett, William Henry, 1809-1854, artist.\n</p>\nArmytage, James Charles, d. 1897, engraver.</div>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Swansea_bay.jpeg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "<div class=\"description\">\nA view of showing Swansea bay and a town. Ships are sailing in the sea and a lighthouse can be seen in the background.</div>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Mumbles Pier",
+          "ai_summary": "A historic pier with arcades, cafes, and stunning views of Swansea Bay.",
+          "name_english": "Mumbles Pier",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 21:00",
+            "Tuesday": "09:00 - 21:00",
+            "Wednesday": "09:00 - 21:00",
+            "Thursday": "09:00 - 21:00",
+            "Friday": "09:00 - 21:00",
+            "Saturday": "09:00 - 21:00",
+            "Sunday": "09:00 - 21:00",
+            "notes": "Hours may vary seasonally."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy fish and chips at the nearby cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5732,
+            "longitude": -3.9985
+          },
+          "address": "Mumbles Pier, Swansea, United Kingdom",
+          "official_website": "https://www.mumbles-pier.co.uk/",
+          "tags": [
+            "Pier",
+            "Historic",
+            "Family",
+            "Seaside"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Horsetrain_1870.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Horsetrain_1870.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Horsetrain 1870",
+                  "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Horsetrain_1870.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Horse-powered train on the <a href=\"https://en.wikipedia.org/wiki/Swansea_and_Mumbles_Railway\" class=\"extiw\" title=\"en:Swansea and Mumbles Railway\">en:Swansea and Mumbles Railway</a>, Wales"
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Gower Peninsula",
+          "ai_summary": "A stunning peninsula known for its breathtaking beaches, cliffs, and countryside, perfect for hiking and exploring.",
+          "name_english": "Gower Peninsula",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture the stunning landscapes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5863,
+            "longitude": -4.0803
+          },
+          "address": "Gower Peninsula, Swansea, United Kingdom",
+          "official_website": "https://www.visitswanseabay.com/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Beaches",
+            "Scenic"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Rhossili.beach.arp.750pix.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Rhossili.beach.arp.750pix.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Rhossili.beach.arp.750pix",
+                  "author": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/User:Arpingstone\" class=\"extiw\" title=\"wikipedia:User:Arpingstone\">Arpingstone</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Rhossili.beach.arp.750pix.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Rhossili Beach on the Gower Peninsula of South Wales."
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Swansea Marina",
+          "ai_summary": "A vibrant marina with a mix of leisure and residential facilities, offering boat trips and waterfront dining.",
+          "name_english": "Swansea Marina",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check for specific venue opening times."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Take a boat trip for a different perspective of the bay.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.6204,
+            "longitude": -3.9335
+          },
+          "address": "Swansea Marina, Swansea, United Kingdom",
+          "official_website": "https://www.swanseamarina.com/",
+          "tags": [
+            "Marina",
+            "Boat Trips",
+            "Dining",
+            "Leisure"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:SwanseaMarina.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/SwanseaMarina.jpg/960px-SwanseaMarina.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "SwanseaMarina",
+                  "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/w/index.php?title=User:SimonMorrison~commonswiki&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:SimonMorrison~commonswiki (page does not exist)\">SimonMorrison~commonswiki</a> assumed (based on copyright claims).",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:SwanseaMarina.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "Another shot of the Marina taken from a fouth story flat on Trawler Road by Simon Morrison"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Clyne Gardens",
+          "ai_summary": "Beautifully landscaped gardens with a variety of plants, trees, and a pond, ideal for a peaceful stroll.",
+          "name_english": "Clyne Gardens",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in spring and summer."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the rock garden and the pond area.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.6056,
+            "longitude": -3.9869
+          },
+          "address": "Clyne Gardens, Swansea, United Kingdom",
+          "official_website": "https://www.swansea.gov.uk/clynegardens",
+          "tags": [
+            "Gardens",
+            "Nature",
+            "Relaxation",
+            "Scenic"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Clynejapangardenearlyspring.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Clynejapangardenearlyspring.jpg/960px-Clynejapangardenearlyspring.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Clynejapangardenearlyspring",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wiccasha&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wiccasha (page does not exist)\">Wiccasha</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Clynejapangardenearlyspring.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "The Japanese Pond at Clyne Gardens in early spring"
+                }
+              }
+            }
+          },
+          "rank_score": 0.726
+        },
+        {
+          "name": "Dylan Thomas Centre",
+          "ai_summary": "A cultural and heritage centre dedicated to the life and works of the Welsh poet Dylan Thomas.",
+          "name_english": "Dylan Thomas Centre",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Check for special event openings."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the exhibitions and attend a poetry reading if available.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.6201,
+            "longitude": -3.9436
+          },
+          "address": "Dylan Thomas Centre, Swansea, United Kingdom",
+          "official_website": "https://www.dylanthomas.com/",
+          "tags": [
+            "Museum",
+            "Cultural",
+            "Poetry",
+            "Heritage"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Canolfan_Dylan_Thomas,_Abertawe.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Canolfan_Dylan_Thomas%2C_Abertawe.JPG/960px-Canolfan_Dylan_Thomas%2C_Abertawe.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Canolfan Dylan Thomas, Abertawe",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Ham\" class=\"mw-redirect\" title=\"User:Ham\">Ham</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Canolfan_Dylan_Thomas,_Abertawe.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "This is a photo of <a href=\"https://en.wikipedia.org/wiki/Listed_building#England_and_Wales\" class=\"extiw\" title=\"en:Listed building\">listed building</a> number"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Glynn Vivian Art Gallery",
+          "ai_summary": "An art gallery showcasing a wide range of artworks, including paintings, sculptures, and decorative arts.",
+          "name_english": "Glynn Vivian Art Gallery",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "Check for special exhibitions and events."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don't miss the café with views over the park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.6206,
+            "longitude": -3.9431
+          },
+          "address": "Glynn Vivian Art Gallery, Swansea, United Kingdom",
+          "official_website": "https://www.glynnvivian.com/",
+          "tags": [
+            "Art Gallery",
+            "Culture",
+            "Swansea",
+            "Exhibitions"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Glynn_Vivian_Art_Gallery,_Swansea,_close-up.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Glynn_Vivian_Art_Gallery%2C_Swansea%2C_close-up.jpg/810px-Glynn_Vivian_Art_Gallery%2C_Swansea%2C_close-up.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Glynn Vivian Art Gallery, Swansea, close-up",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Sionk\" class=\"extiw\" title=\"en:User:Sionk\">Sionk</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Glynn_Vivian_Art_Gallery,_Swansea,_close-up.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Glynn Vivian Art Gallery, Alexandra Road, Swansea, a Grade II* building dating from 1911"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Swansea Museum",
+          "ai_summary": "Wales' oldest museum, featuring exhibits on Swansea's history, archaeology, and natural history.",
+          "name_english": "Swansea Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "Check for special exhibitions and events."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the Egyptian mummy and the local history exhibits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.6203,
+            "longitude": -3.9434
+          },
+          "address": "Swansea Museum, Swansea, United Kingdom",
+          "official_website": "https://www.swansea.gov.uk/museum",
+          "tags": [
+            "Museum",
+            "History",
+            "Archaeology",
+            "Swansea"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Swansea_Museum_-_geograph.org.uk_-_1485806.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Swansea_Museum_-_geograph.org.uk_-_1485806.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Swansea Museum - geograph.org.uk - 1485806",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/3972\">Colin Smith</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Swansea_Museum_-_geograph.org.uk_-_1485806.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Swansea Museum, near to Swansea/Abertawe, Great Britain.\n<p>Wales' oldest museum is in Victoria Street. Dylan Thomas is quoted as having said that Swansea Museum is \"the museum that should have been in a museum\".<br>\n</p>\n<span class=\"nowrap\">&lt;a title=\"<a rel=\"nofollow\" class=\"external free\" href=\"http://www.swansea.gov.uk/index.cfm?articleid=24590\">http://www.swansea.gov.uk/index.cfm?articleid=24590</a>\" rel=\"nofollow\" href=\"<a rel=\"nofollow\" class=\"external free\" href=\"http://www.swansea.gov.uk/index.cfm?articleid=24590\">http://www.swansea.gov.uk/index.cfm?articleid=24590</a>\"&gt;Link&lt;/a&gt;&lt;img style=\"padding-left:2px;\" alt=\"External link\" title=\"External link - shift click to open in new window\" src=\"<a rel=\"nofollow\" class=\"external free\" href=\"http://s0.geograph.org.uk/img/external.png\">http://s0.geograph.org.uk/img/external.png</a>\" width=\"10\" height=\"10\"/&gt;</span>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Plantasia Tropical Zoo",
+          "ai_summary": "An indoor tropical rainforest housing a variety of animals, plants, and interactive exhibits.",
+          "name_english": "Plantasia Tropical Zoo",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Check out the feeding times for a more interactive experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.617,
+            "longitude": -3.9437
+          },
+          "address": "Plantasia Tropical Zoo, Swansea, United Kingdom",
+          "official_website": "https://www.plantasia.co.uk/",
+          "tags": [
+            "Zoo",
+            "Tropical",
+            "Family",
+            "Education"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Plantasia,_Parc_Tawe_-_geograph.org.uk_-_372376.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Plantasia%2C_Parc_Tawe_-_geograph.org.uk_-_372376.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Plantasia, Parc Tawe - geograph.org.uk - 372376",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/6895\">David Luther Thomas</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Plantasia,_Parc_Tawe_-_geograph.org.uk_-_372376.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Plantasia, Parc Tawe Plantasia is the pyramidal glasshouse in the centre of the photograph and is located within the Parc Tawe retail and leisure park. The photograph was taken on a busy saturday morning.\nMost of the local population were doing their shopping in the morning, allowing the afternoon to be free to watch Wales beating England in the Six Nations rugby!"
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Singleton Park",
+          "ai_summary": "A large park with beautiful gardens, a lake, and sports facilities, perfect for a leisurely day out.",
+          "name_english": "Singleton Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check for specific facility opening times."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the botanical gardens within the park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.605,
+            "longitude": -3.9733
+          },
+          "address": "Singleton Park, Swansea, United Kingdom",
+          "official_website": "https://www.swansea.gov.uk/singletonpark",
+          "tags": [
+            "Park",
+            "Gardens",
+            "Lake",
+            "Sports"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Singleton_Park.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Singleton_Park.jpg/960px-Singleton_Park.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Singleton Park",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kulmalukko\" title=\"User:Kulmalukko\">Tiia Monto</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Singleton_Park.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Singleton Park in Swansea."
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Liberty Stadium (exterior)",
+          "ai_summary": "The home of Swansea City AFC and the Ospreys, notable for its impressive architecture.",
+          "name_english": "Liberty Stadium (exterior)",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Exterior viewing only; check for event days."
+          },
+          "suggested_duration": "0.5 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Catch a game for a lively atmosphere.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.6433,
+            "longitude": -3.935
+          },
+          "address": "Liberty Stadium, Swansea, United Kingdom",
+          "official_website": "https://www.libertystadium.com/",
+          "tags": [
+            "Stadium",
+            "Sports",
+            "Architecture",
+            "Swansea"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:New_Morfa_Stadium_-_geograph.org.uk_-_32243.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/New_Morfa_Stadium_-_geograph.org.uk_-_32243.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "New Morfa Stadium - geograph.org.uk - 32243",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/860\">Nigel Davies</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:New_Morfa_Stadium_-_geograph.org.uk_-_32243.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "New Morfa Stadium. Swansea's new Football &amp; Rugby 'Liberty Stadium' next to the River Tawe, near the Morfa retail park."
+                }
+              }
+            }
+          },
+          "rank_score": 0.678
+        },
+        {
+          "name": "Blackpill Lido (seasonal)",
+          "ai_summary": "An outdoor swimming pool and lido with stunning sea views, ideal for a summer's day.",
+          "name_english": "Blackpill Lido (seasonal)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Open seasonally; check dates before planning your visit."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Arrive early to secure a good spot.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5856,
+            "longitude": -3.9987
+          },
+          "address": "Blackpill Lido, Swansea, United Kingdom",
+          "official_website": "https://www.swansea.gov.uk/blackpilllido",
+          "tags": [
+            "Lido",
+            "Swimming",
+            "Beach",
+            "Seasonal"
+          ],
+          "state": "Swansea",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Kilvey Hill Viewpoint",
+          "ai_summary": "A popular viewpoint offering panoramic views of Swansea, the bay, and across to Devon on a clear day.",
+          "name_english": "Kilvey Hill Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited at sunrise or sunset."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise",
+          "place_tip": "Bring a picnic and enjoy the view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.634,
+            "longitude": -3.9015
+          },
+          "address": "Kilvey Hill Viewpoint, Swansea, United Kingdom",
+          "official_website": "https://www.visitswanseabay.com/",
+          "tags": [
+            "Viewpoint",
+            "Nature",
+            "Photography",
+            "Scenic"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:SwanseaMarina.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/SwanseaMarina.jpg/960px-SwanseaMarina.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "SwanseaMarina",
+                  "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/w/index.php?title=User:SimonMorrison~commonswiki&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:SimonMorrison~commonswiki (page does not exist)\">SimonMorrison~commonswiki</a> assumed (based on copyright claims).",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:SwanseaMarina.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "Another shot of the Marina taken from a fouth story flat on Trawler Road by Simon Morrison"
+                }
+              }
+            }
+          },
+          "rank_score": 0.806
+        },
+        {
+          "name": "Oxwich Bay",
+          "ai_summary": "A beautiful sandy beach located on the Gower Peninsula, popular for swimming, sunbathing, and water sports.",
+          "name_english": "Oxwich Bay",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the summer months."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the rock pools at low tide.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5861,
+            "longitude": -4.0867
+          },
+          "address": "Oxwich Bay, Swansea, United Kingdom",
+          "official_website": "https://www.visitswanseabay.com/",
+          "tags": [
+            "Beach",
+            "Water Sports",
+            "Swimming",
+            "Sunbathing"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OxwichBay.jos.500pix.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/OxwichBay.jos.500pix.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "OxwichBay.jos.500pix",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Jamieo\" class=\"extiw\" title=\"wikipedia:User:Jamieo\">Jamieo</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OxwichBay.jos.500pix.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Oxwich Bay on the Gower Peninsula of South Wales.<br>\nTaken by Jamie O'Shaughnessy September 5, 2003 and released to the public domain."
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Caswell Bay",
+          "ai_summary": "A popular beach on the Gower Peninsula, known for its clear waters, sandy shore, and great surf.",
+          "name_english": "Caswell Bay",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Lifeguarded during the summer months."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Ideal for surfing and bodyboarding.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5852,
+            "longitude": -4.0073
+          },
+          "address": "Caswell Bay, Swansea, United Kingdom",
+          "official_website": "https://www.visitswanseabay.com/",
+          "tags": [
+            "Beach",
+            "Surfing",
+            "Swimming",
+            "Sunbathing"
+          ],
+          "state": "Swansea",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CaswellBay.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/CaswellBay.JPG/960px-CaswellBay.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "CaswellBay",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Lukeas09\" class=\"extiw\" title=\"en:User:Lukeas09\">Lukeas09</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Lukeas09\" class=\"extiw\" title=\"en:User talk:Lukeas09\">talk</a>)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CaswellBay.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Caswell_Bay\" class=\"extiw\" title=\"en:Caswell Bay\">Caswell Bay</a> in <a href=\"https://en.wikipedia.org/wiki/Swansea\" class=\"extiw\" title=\"en:Swansea\">Swansea</a>, <a href=\"https://en.wikipedia.org/wiki/Wales\" class=\"extiw\" title=\"en:Wales\">Wales</a> in <a href=\"https://en.wikipedia.org/wiki/2008\" class=\"extiw\" title=\"en:2008\">2008</a>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        }
+      ]
+    }
+  ]
+}

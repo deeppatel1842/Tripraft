@@ -1,0 +1,719 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Seljalandsfoss Waterfall",
+          "ai_summary": "A stunning waterfall where visitors can walk behind the cascading water for a unique perspective.",
+          "name_english": "Seljalandsfoss Waterfall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:30",
+          "sunset_time": "16:00",
+          "cost": "$5",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear waterproof clothing to stay dry behind the falls.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 63.615,
+            "lng": -19.989
+          },
+          "address": "Seljalandsfoss, South Coast, Iceland",
+          "official_website": null,
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Skógafoss Waterfall",
+          "ai_summary": "A majestic waterfall with a 60-meter drop, offering breathtaking views and a staircase leading to the top.",
+          "name_english": "Skogafoss Waterfall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:35",
+          "sunset_time": "16:05",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Climb the stairs for panoramic views of the waterfall and surrounding area.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 63.532,
+            "lng": -19.511
+          },
+          "address": "Skógafoss, South Coast, Iceland",
+          "official_website": null,
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2008-05-24 35 Skógafoss.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2008-05-24_35_Sk%C3%B3gafoss.jpg/960px-2008-05-24_35_Sk%C3%B3gafoss.jpg",
+                "width": 800,
+                "height": 1412,
+                "attribution": {
+                  "title": "2008-05-24 35 Skógafoss",
+                  "author": "Hansueli Krapf",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2008-05-24_35_Skógafoss.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Skógafoss"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Reynisfjara Black Sand Beach",
+          "ai_summary": "A dramatic black sand beach with basalt columns, sea stacks, and powerful waves, offering a unique coastal experience.",
+          "name_english": "Reynisfjara Black Sand Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:40",
+          "sunset_time": "16:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Be cautious of the strong waves and sneaker waves.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 63.404,
+            "lng": -19.045
+          },
+          "address": "Reynisfjara, South Coast, Iceland",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Eyjafjallajökull Volcano seen from Reynisfjara Beach.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Eyjafjallaj%C3%B6kull_Volcano_seen_from_Reynisfjara_Beach.jpg/960px-Eyjafjallaj%C3%B6kull_Volcano_seen_from_Reynisfjara_Beach.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Eyjafjallajökull Volcano seen from Reynisfjara Beach",
+                  "author": "Strwiki2017",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Eyjafjallajökull_Volcano_seen_from_Reynisfjara_Beach.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "A view of Eyjafjallajökull Volcano as seen from Reynisfjara Beach. Parking lot in the foreground."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Vík í Mýrdal",
+          "ai_summary": "A charming village surrounded by black sand beaches, cliffs, and stunning landscapes, offering a peaceful retreat.",
+          "name_english": "Vik i Myrdal",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:45",
+          "sunset_time": "16:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the church on the hill for panoramic views of the village and coastline.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 63.418,
+            "lng": -19.006
+          },
+          "address": "Vík í Mýrdal, South Coast, Iceland",
+          "official_website": null,
+          "tags": [
+            "Village",
+            "Nature",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Church of light.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Church_of_light.jpg/960px-Church_of_light.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Church of light",
+                  "author": "AstroAnthony",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Church_of_light.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Photomontage - The Víkurkirkja church at Vik in Iceland on a clear night. The aurora was shot separately in Iceland (see File:Flames in the sky.jpg)."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Jökulsárlón Glacier Lagoon",
+          "ai_summary": "A breathtaking glacier lagoon filled with floating icebergs, offering boat tours and stunning views of the surrounding glaciers.",
+          "name_english": "Jokulsarlon Glacier Lagoon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:50",
+          "sunset_time": "16:20",
+          "cost": "$40",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "09:00-18:00",
+            "tue": "09:00-18:00",
+            "wed": "09:00-18:00",
+            "thu": "09:00-18:00",
+            "fri": "09:00-18:00",
+            "sat": "09:00-18:00",
+            "sun": "09:00-18:00",
+            "notes": "Boat tours available during summer months."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take a boat tour to get up close to the icebergs.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 64.048,
+            "lng": -16.179
+          },
+          "address": "Jökulsárlón, South Coast, Iceland",
+          "official_website": "https://www.jokulsarlon.is/",
+          "tags": [
+            "Glacier",
+            "Nature",
+            "Boat Tour"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:IcelandStub.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/IcelandStub.svg/800px-IcelandStub.svg.png",
+                "width": 800,
+                "height": 550,
+                "attribution": {
+                  "title": "IcelandStub",
+                  "author": "PavelD",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:IcelandStub.svg",
+                  "credit": "Map shape is from Image:Iceland blue.png, colors and dimensions are from Image:Flag of Iceland.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Map of Iceland with flag."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Diamond Beach",
+          "ai_summary": "A stunning black sand beach littered with ice chunks from the nearby glacier lagoon, creating a diamond-like sparkle on the sand.",
+          "name_english": "Diamond Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:55",
+          "sunset_time": "16:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit at sunrise for a magical experience with fewer crowds.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.044,
+            "lng": -16.178
+          },
+          "address": "Diamond Beach, South Coast, Iceland",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:IcelandStub.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/IcelandStub.svg/800px-IcelandStub.svg.png",
+                "width": 800,
+                "height": 550,
+                "attribution": {
+                  "title": "IcelandStub",
+                  "author": "PavelD",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:IcelandStub.svg",
+                  "credit": "Map shape is from Image:Iceland blue.png, colors and dimensions are from Image:Flag of Iceland.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Map of Iceland with flag."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Vatnajökull National Park",
+          "ai_summary": "A vast national park featuring glaciers, waterfalls, and volcanic landscapes, offering numerous hiking trails and stunning vistas.",
+          "name_english": "Vatnajokull National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:00",
+          "sunset_time": "16:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor center hours may vary."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Explore the hiking trails for breathtaking views of glaciers and waterfalls.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.135,
+            "lng": -16.965
+          },
+          "address": "Vatnajökull National Park, South Coast, Iceland",
+          "official_website": "https://www.vatnajokulsthjodgardur.is/",
+          "tags": [
+            "National Park",
+            "Nature",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:David Nutter by Gage Skidmore 2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/David_Nutter_by_Gage_Skidmore_2.jpg/960px-David_Nutter_by_Gage_Skidmore_2.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "David Nutter by Gage Skidmore 2",
+                  "author": "Gage Skidmore",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:David_Nutter_by_Gage_Skidmore_2.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "David Nutter at the 2015 San Diego Comic Con International in San Diego, California."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Fjaðrárgljúfur Canyon",
+          "ai_summary": "A magnificent canyon with steep walls and a winding river, offering stunning views and hiking opportunities.",
+          "name_english": "Fjaðrárgljúfur Canyon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:05",
+          "sunset_time": "16:35",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Walk along the canyon's edge for breathtaking views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 63.771,
+            "lng": -18.172
+          },
+          "address": "Fjaðrárgljúfur, South Coast, Iceland",
+          "official_website": null,
+          "tags": [
+            "Canyon",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mýrdalsjökull Glacier",
+          "ai_summary": "A large glacier offering stunning views, hiking, and snowmobiling opportunities.",
+          "name_english": "Mýrdalsjökull Glacier",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:10",
+          "sunset_time": "16:40",
+          "cost": "$100",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Guided tours recommended."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Book a guided tour for a safe and informative experience.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "lat": 63.645,
+            "lng": -19.045
+          },
+          "address": "Mýrdalsjökull, South Coast, Iceland",
+          "official_website": "https://www.glacierguides.is/",
+          "tags": [
+            "Glacier",
+            "Nature",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2008-05-24 32 Myrdalssandur with Myrdalsjökull.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/2008-05-24_32_Myrdalssandur_with_Myrdalsj%C3%B6kull.jpg/960px-2008-05-24_32_Myrdalssandur_with_Myrdalsj%C3%B6kull.jpg",
+                "width": 800,
+                "height": 154,
+                "attribution": {
+                  "title": "2008-05-24 32 Myrdalssandur with Myrdalsjökull",
+                  "author": "Hansueli Krapf",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2008-05-24_32_Myrdalssandur_with_Myrdalsjökull.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Myrdalssandur with Myrdalsjökull"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Dyrhólaós Lagoon",
+          "ai_summary": "A scenic lagoon with rich birdlife, stunning views of the coastline, and the famous Dyrhólaey Arch.",
+          "name_english": "Dyrhólaós Lagoon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:15",
+          "sunset_time": "16:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring binoculars for birdwatching and a camera for the stunning views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 63.416,
+            "lng": -18.973
+          },
+          "address": "Dyrhólaós, South Coast, Iceland",
+          "official_website": null,
+          "tags": [
+            "Lagoon",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Hella Lava Caves",
+          "ai_summary": "A fascinating lava cave system with unique rock formations, offering guided tours and a glimpse into Iceland's volcanic activity.",
+          "name_english": "Hella Lava Caves",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:20",
+          "sunset_time": "16:50",
+          "cost": "$15",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "10:00-17:00",
+            "tue": "10:00-17:00",
+            "wed": "10:00-17:00",
+            "thu": "10:00-17:00",
+            "fri": "10:00-17:00",
+            "sat": "10:00-17:00",
+            "sun": "10:00-17:00",
+            "notes": "Guided tours only."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Wear warm clothing and sturdy shoes for the cave tour.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 63.775,
+            "lng": -20.121
+          },
+          "address": "Hella Lava Caves, South Coast, Iceland",
+          "official_website": null,
+          "tags": [
+            "Cave",
+            "Nature",
+            "Geology"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Laufskálavarða Stone Cairns",
+          "ai_summary": "A historic site with ancient stone cairns, offering insights into Icelandic history and culture.",
+          "name_english": "Laufskálavarða Stone Cairns",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:25",
+          "sunset_time": "16:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Take time to read the information signs and explore the area.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 63.615,
+            "lng": -19.973
+          },
+          "address": "Laufskálavarða, South Coast, Iceland",
+          "official_website": null,
+          "tags": [
+            "Historical Site",
+            "Culture",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Vík Church Hill Viewpoint",
+          "ai_summary": "A scenic viewpoint near Vík í Mýrdal, offering panoramic views of the village, coastline, and Reynisdrangar sea stacks.",
+          "name_english": "Vik Church Hill Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:30",
+          "sunset_time": "17:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit during sunset for a breathtaking view of the sun setting over the sea stacks.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 63.418,
+            "lng": -19.007
+          },
+          "address": "Vík Church Hill, South Coast, Iceland",
+          "official_website": null,
+          "tags": [
+            "Viewpoint",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Church of light.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Church_of_light.jpg/960px-Church_of_light.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Church of light",
+                  "author": "AstroAnthony",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Church_of_light.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Photomontage - The Víkurkirkja church at Vik in Iceland on a clear night. The aurora was shot separately in Iceland (see File:Flames in the sky.jpg)."
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

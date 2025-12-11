@@ -1,0 +1,981 @@
+{
+  "country": "Sweden",
+  "state": "Rebro",
+  "cities": [
+    {
+      "city": "Örebro",
+      "nearest_airport": "Örebro Airport",
+      "places": [
+        {
+          "name": "Örebro Castle",
+          "ai_summary": "A historic castle in the heart of Örebro, offering guided tours, exhibitions, and stunning views of the surrounding area.",
+          "name_english": "Örebro Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Join a guided tour to learn about the castle’s history.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 59.274,
+            "longitude": 15.213
+          },
+          "address": "Kansligatan 1, 702 10 Örebro, Sweden",
+          "official_website": "https://www.orebrocastle.se",
+          "tags": [
+            "Castle",
+            "History",
+            "Architecture"
+          ],
+          "state": "Rebro",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Örebro_slott.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%C3%96rebro_slott.jpg/960px-%C3%96rebro_slott.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Örebro slott",
+                  "author": "<table border=\"3\"><tbody><tr><td>\n<table border=\"0\" cellpadding=\"2\" style=\"background:#dfd3c7;\"><tbody><tr><td>\n<p>This image was produced by me, David Castor (<a href=\"//commons.wikimedia.org/wiki/User:Dcastor\" class=\"mw-userlink\" title=\"User:Dcastor\">user:dcastor</a>). The pictures I submit to the Wikipedia Project are released to the public domain. This gives you the right to use them in any way you like, without any kind of notification. This said, I would still appreciate to be mentioned as the originator whenever you think it complies well with your use of the picture. A <a rel=\"nofollow\" class=\"external text\" href=\"mailto:epost@pastorcastor.se\">message</a> to me  about how it has been used would also be welcome. You are obviously not required to respond to these wishes of mine, just in a friendly manner encouraged to. (All my photos are placed in <a href=\"//commons.wikimedia.org/wiki/Category:Images_by_David_Castor\" title=\"Category:Images by David Castor\">Category:Images by David Castor</a> or a subcategory thereof.)\n</p>\n</td><td>\n<p><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:David_Castor_Wikimedia.jpg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/David_Castor_Wikimedia.jpg/250px-David_Castor_Wikimedia.jpg\" decoding=\"async\" width=\"170\" height=\"128\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/David_Castor_Wikimedia.jpg/330px-David_Castor_Wikimedia.jpg 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/David_Castor_Wikimedia.jpg/500px-David_Castor_Wikimedia.jpg 2x\" data-file-width=\"3081\" data-file-height=\"2325\"></a></span>\n</p>\n</td></tr></tbody></table>\n</td></tr></tbody></table>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%C3%96rebro_slott.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/%C3%96rebro_Castle\" class=\"extiw\" title=\"en:Örebro Castle\">Örebro Castle</a> in the city of <a href=\"https://en.wikipedia.org/wiki/%C3%96rebro\" class=\"extiw\" title=\"en:Örebro\">Örebro</a>, Sweden."
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Wadköping Open-Air Museum",
+          "ai_summary": "A charming open-air museum showcasing historic buildings, artisan shops, and cultural exhibits.",
+          "name_english": "Wadköping Open-Air Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 16:00",
+            "Tuesday": "10:00 - 16:00",
+            "Wednesday": "10:00 - 16:00",
+            "Thursday": "10:00 - 16:00",
+            "Friday": "10:00 - 16:00",
+            "Saturday": "10:00 - 16:00",
+            "Sunday": "10:00 - 16:00",
+            "notes": "Hours may vary during special events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the artisan shops for unique souvenirs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.275,
+            "longitude": 15.214
+          },
+          "address": "Borgmästargatan 1, 702 10 Örebro, Sweden",
+          "official_website": "https://www.wadkoping.se",
+          "tags": [
+            "Museum",
+            "Culture",
+            "History"
+          ],
+          "state": "Rebro",
+          "photos": {},
+          "rank_score": 0.786
+        },
+        {
+          "name": "Stadsparken (City Park)",
+          "ai_summary": "The main park in Örebro, perfect for a leisurely stroll, picnics, and enjoying nature.",
+          "name_english": "City Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "07:00 - 21:00",
+            "Tuesday": "07:00 - 21:00",
+            "Wednesday": "07:00 - 21:00",
+            "Thursday": "07:00 - 21:00",
+            "Friday": "07:00 - 21:00",
+            "Saturday": "08:00 - 21:00",
+            "Sunday": "08:00 - 21:00",
+            "notes": "Open year-round, but hours may vary in winter."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Check out the park's beautiful rose garden.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.273,
+            "longitude": 15.215
+          },
+          "address": "Stadsparken, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Park",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Rebro",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Oset & Rynningeviken Nature Reserve",
+          "ai_summary": "A scenic nature reserve ideal for hiking, bird watching, and experiencing Swedish wildlife.",
+          "name_english": "Oset & Rynningeviken Nature Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00 - 20:00",
+            "Tuesday": "06:00 - 20:00",
+            "Wednesday": "06:00 - 20:00",
+            "Thursday": "06:00 - 20:00",
+            "Friday": "06:00 - 20:00",
+            "Saturday": "07:00 - 20:00",
+            "Sunday": "07:00 - 20:00",
+            "notes": "Open year-round, but may have limited access in winter."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Bring binoculars for bird watching.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.276,
+            "longitude": 15.217
+          },
+          "address": "Oset, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Nature Reserve",
+            "Hiking",
+            "Bird Watching"
+          ],
+          "state": "Rebro",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Oset_Örebro_2.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Oset_%C3%96rebro_2.JPG/960px-Oset_%C3%96rebro_2.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Oset Örebro 2",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peterappelros&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Peterappelros (page does not exist)\">Peterappelros</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Oset_%C3%96rebro_2.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "From the nature park \"Oset\", Örebro, Sweden"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Olaus Petri Church",
+          "ai_summary": "A beautiful church known for its impressive architecture and peaceful surroundings.",
+          "name_english": "Olaus Petri Church",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "12:00 - 15:00",
+            "Wednesday": "12:00 - 15:00",
+            "Thursday": "12:00 - 15:00",
+            "Friday": "12:00 - 15:00",
+            "Saturday": "10:00 - 14:00",
+            "Sunday": "10:00 - 14:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Attend a concert or service for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.272,
+            "longitude": 15.211
+          },
+          "address": "Olaus Petri Kyrka, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Church",
+            "Architecture",
+            "History"
+          ],
+          "state": "Rebro",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Örebro_Olaus_Petri_kyrka_staty.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/%C3%96rebro_Olaus_Petri_kyrka_staty.JPG/960px-%C3%96rebro_Olaus_Petri_kyrka_staty.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Örebro Olaus Petri kyrka staty",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Edaen\" title=\"User:Edaen\">Edaen</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%C3%96rebro_Olaus_Petri_kyrka_staty.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Olaus Petri kyrka i Örebro, staty av bröderna Olaus och Laurentius Petri av Nils Sjögren"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Örebro Art Gallery",
+          "ai_summary": "An art gallery featuring a diverse collection of contemporary and historical art.",
+          "name_english": "Örebro Art Gallery",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check the gallery's schedule for special exhibitions.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.274,
+            "longitude": 15.21
+          },
+          "address": "Kyrkogatan 1, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Art Gallery",
+            "Culture",
+            "History"
+          ],
+          "state": "Rebro",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Gustavsvik Water Park (Lost City)",
+          "ai_summary": "A popular water park with slides, pools, and a tropical beach atmosphere.",
+          "name_english": "Gustavsvik Water Park",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Hours may vary for special events or maintenance."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Arrive early to avoid crowds.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.273,
+            "longitude": 15.218
+          },
+          "address": "Gustavsvik, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Water Park",
+            "Family",
+            "Entertainment"
+          ],
+          "state": "Rebro",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Gustavsvik.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Gustavsvik.jpg/960px-Gustavsvik.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Gustavsvik",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sebastian_F&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sebastian F (page does not exist)\">Sebastian F</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Gustavsvik.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Gustavsvik of Örebro, Sweden"
+                }
+              }
+            }
+          },
+          "rank_score": 0.718
+        },
+        {
+          "name": "Conventum Conference Center",
+          "ai_summary": "A modern conference center hosting events, exhibitions, and concerts.",
+          "name_english": "Conventum Conference Center",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Varies by event",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Open for events, hours may vary."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Depends on events",
+          "place_tip": "Check the event calendar on their website.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.274,
+            "longitude": 15.212
+          },
+          "address": "Conventum, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Conference Center",
+            "Events",
+            "Concerts"
+          ],
+          "state": "Rebro",
+          "photos": {},
+          "rank_score": 0.682
+        },
+        {
+          "name": "Svampen Water Tower",
+          "ai_summary": "A water tower and lookout point offering panoramic views of Örebro.",
+          "name_english": "Svampen Water Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "19:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.1,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "10:00 - 16:00",
+            "Sunday": "10:00 - 16:00",
+            "notes": "Closed during winter months."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit at sunset for a stunning view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.275,
+            "longitude": 15.219
+          },
+          "address": "Svampen, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Water Tower",
+            "Viewpoint",
+            "Photography"
+          ],
+          "state": "Rebro",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Svampen_from_Bergkällebacken,_Örebro.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Svampen_from_Bergk%C3%A4llebacken%2C_%C3%96rebro.jpg/960px-Svampen_from_Bergk%C3%A4llebacken%2C_%C3%96rebro.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Svampen from Bergkällebacken, Örebro",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:DimiTalen\" title=\"User:DimiTalen\">DimiTalen</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Svampen_from_Bergk%C3%A4llebacken,_%C3%96rebro.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Svampen from Bergkällebacken, Örebro"
+                }
+              }
+            }
+          },
+          "rank_score": 0.706
+        },
+        {
+          "name": "Nora Wooden Town (Day Trip)",
+          "ai_summary": "A picturesque town known for its well-preserved wooden houses and charming streets.",
+          "name_english": "Nora Wooden Town",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:15",
+          "sunset_time": "19:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "10:00 - 16:00",
+            "Sunday": "10:00 - 16:00",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "4-6 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the side streets for unique photo opportunities.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.445,
+            "longitude": 15.022
+          },
+          "address": "Nora, Sweden",
+          "official_website": null,
+          "tags": [
+            "Historic Town",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Rebro",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:La2-nora.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/La2-nora.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "La2-nora",
+                  "author": "This photo (C) Lars Aronsson",
+                  "license": "CC SA 1.0",
+                  "license_url": "http://creativecommons.org/licenses/sa/1.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:La2-nora.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons ShareAlike 1.0 Generic",
+                  "description": "in the ArbetSam database."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Botanical Garden Örebro",
+          "ai_summary": "A beautiful botanical garden featuring a wide variety of plants and flowers.",
+          "name_english": "Botanical Garden Örebro",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Don't miss the tropical greenhouse.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.274,
+            "longitude": 15.22
+          },
+          "address": "Botaniska Trädgården, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Botanical Garden",
+            "Nature",
+            "Flowers"
+          ],
+          "state": "Rebro",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Järntorget Square",
+          "ai_summary": "A central square in Örebro, surrounded by shops, restaurants, and historic buildings.",
+          "name_english": "Järntorget Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "06:00 - 22:00",
+            "Tuesday": "06:00 - 22:00",
+            "Wednesday": "06:00 - 22:00",
+            "Thursday": "06:00 - 22:00",
+            "Friday": "06:00 - 22:00",
+            "Saturday": "07:00 - 22:00",
+            "Sunday": "07:00 - 22:00",
+            "notes": "Open year-round, but may have limited access during events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Great spot for people-watching and enjoying local life.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.273,
+            "longitude": 15.216
+          },
+          "address": "Järntorget, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Square",
+            "Shopping",
+            "Dining"
+          ],
+          "state": "Rebro",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Järntorget_2009.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/J%C3%A4rntorget_2009.jpg/960px-J%C3%A4rntorget_2009.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Järntorget 2009",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Holger.Ellgaard\" title=\"User:Holger.Ellgaard\">Holger.Ellgaard</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:J%C3%A4rntorget_2009.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Järntorget i Gamla stan, Stockholm"
+                }
+              }
+            }
+          },
+          "rank_score": 0.718
+        },
+        {
+          "name": "Karlslunds Herrgård",
+          "ai_summary": "A historic manor house with beautiful gardens, now serving as a hotel and restaurant.",
+          "name_english": "Karlslunds Herrgård",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Varies by service",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00",
+            "Friday": "08:00 - 20:00",
+            "Saturday": "09:00 - 21:00",
+            "Sunday": "09:00 - 21:00",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Enjoy a meal in the garden during summer.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.276,
+            "longitude": 15.222
+          },
+          "address": "Karlslunds Herrgård, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Manor House",
+            "Restaurant",
+            "Gardens"
+          ],
+          "state": "Rebro",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Stora Holmen Island Park",
+          "ai_summary": "A tranquil island park in Lake Hjälmaren, ideal for picnics, walking, and bird watching.",
+          "name_english": "Stora Holmen Island Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00 - 20:00",
+            "Tuesday": "06:00 - 20:00",
+            "Wednesday": "06:00 - 20:00",
+            "Thursday": "06:00 - 20:00",
+            "Friday": "06:00 - 20:00",
+            "Saturday": "07:00 - 20:00",
+            "Sunday": "07:00 - 20:00",
+            "notes": "Open year-round, but may have limited access in winter."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Bring a picnic and enjoy the serene environment.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.276,
+            "longitude": 15.224
+          },
+          "address": "Stora Holmen, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Island Park",
+            "Nature",
+            "Bird Watching"
+          ],
+          "state": "Rebro",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Tysslingen Bird Lake",
+          "ai_summary": "A renowned bird lake perfect for birdwatching, especially during migration periods.",
+          "name_english": "Tysslingen Bird Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00 - 20:00",
+            "Tuesday": "06:00 - 20:00",
+            "Wednesday": "06:00 - 20:00",
+            "Thursday": "06:00 - 20:00",
+            "Friday": "06:00 - 20:00",
+            "Saturday": "07:00 - 20:00",
+            "Sunday": "07:00 - 20:00",
+            "notes": "Open year-round, but may have limited access in winter."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Visit during spring or autumn for the best birdwatching.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.276,
+            "longitude": 15.226
+          },
+          "address": "Tysslingen, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Bird Lake",
+            "Bird Watching",
+            "Nature"
+          ],
+          "state": "Rebro",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "OpenArt Sculpture Exhibition (Biennial)",
+          "ai_summary": "A unique outdoor sculpture exhibition held every two years, featuring contemporary artworks.",
+          "name_english": "OpenArt Sculpture Exhibition",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Check the website for specific dates and events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine your visit with a walk in the nearby park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.274,
+            "longitude": 15.228
+          },
+          "address": "OpenArt, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Sculpture",
+            "Art Exhibition",
+            "Culture"
+          ],
+          "state": "Rebro",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Giant_spider_strikes_again!.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Giant_spider_strikes_again%21.jpg/960px-Giant_spider_strikes_again%21.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Giant spider strikes again!",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/20683202@N00\">John Talbot</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Giant_spider_strikes_again!.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/en:Louise_Bourgeois\" class=\"extiw\" title=\"w:en:Louise Bourgeois\">Maman</a> near the  <a href=\"https://en.wikipedia.org/wiki/en:Notre-Dame_Cathedral_Basilica\" class=\"extiw\" title=\"w:en:Notre-Dame Cathedral Basilica\">Notre-Dame Cathedral Basilica</a>. <a href=\"https://en.wikipedia.org/wiki/en:National_Gallery_of_Canada\" class=\"extiw\" title=\"w:en:National Gallery of Canada\">National Gallery of Canada</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Orebro University Campus Walk",
+          "ai_summary": "A pleasant walk around the Örebro University campus, known for its modern architecture and green spaces.",
+          "name_english": "Orebro University Campus Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "07:00 - 19:00",
+            "Tuesday": "07:00 - 19:00",
+            "Wednesday": "07:00 - 19:00",
+            "Thursday": "07:00 - 19:00",
+            "Friday": "07:00 - 19:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Open year-round, but may have limited access in winter."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Explore the library and student art exhibitions.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.275,
+            "longitude": 15.23
+          },
+          "address": "Örebro University, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "University",
+            "Campus",
+            "Architecture"
+          ],
+          "state": "Rebro",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Risbergska_Police_Car_2_2025.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Risbergska_Police_Car_2_2025.jpg/960px-Risbergska_Police_Car_2_2025.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Risbergska Police Car 2 2025",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Listz3\" title=\"User:Listz3\">Listz3</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Risbergska_Police_Car_2_2025.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Police car at Campus Risbergska, 5 days after the shooting."
+                }
+              }
+            }
+          },
+          "rank_score": 0.682
+        },
+        {
+          "name": "Olausson Glassworks",
+          "ai_summary": "A traditional glassworks offering demonstrations and a chance to purchase unique glass art.",
+          "name_english": "Olausson Glassworks",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Varies by product",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Watch a glassblowing demonstration if available.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.274,
+            "longitude": 15.231
+          },
+          "address": "Olausson Glasbruk, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Glassworks",
+            "Artisan",
+            "Shopping"
+          ],
+          "state": "Rebro",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Carl_Fredrik_Adelcrantz1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Carl_Fredrik_Adelcrantz1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Carl Fredrik Adelcrantz</i></div></div><div style=\"display: none;\">label QS:Len,\"Carl Fredrik Adelcrantz\"</div></div>",
+                  "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Alexander_Roslin\" class=\"extiw\" title=\"w:en:Alexander Roslin\"><span title=\"Swedish painter (1718–1793)\">Alexander Roslin</span></a></bdi>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Carl_Fredrik_Adelcrantz1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Senior Surveyor to the Royal Household and architect"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "City Harbor Promenade",
+          "ai_summary": "A scenic promenade along the harbor, perfect for a leisurely walk and enjoying the view.",
+          "name_english": "City Harbor Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "06:00 - 22:00",
+            "Tuesday": "06:00 - 22:00",
+            "Wednesday": "06:00 - 22:00",
+            "Thursday": "06:00 - 22:00",
+            "Friday": "06:00 - 22:00",
+            "Saturday": "07:00 - 22:00",
+            "Sunday": "07:00 - 22:00",
+            "notes": "Open year-round, but may have limited access during events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy the sunset over the water.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.273,
+            "longitude": 15.232
+          },
+          "address": "City Harbor, 702 10 Örebro, Sweden",
+          "official_website": null,
+          "tags": [
+            "Promenade",
+            "Harbor",
+            "Walking"
+          ],
+          "state": "Rebro",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:The_Colors_of_Sunset_in_the_City_(30441903175).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/The_Colors_of_Sunset_in_the_City_%2830441903175%29.jpg/960px-The_Colors_of_Sunset_in_the_City_%2830441903175%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "The Colors of Sunset in the City (30441903175)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/55856449@N04\">Susanne Nilsson</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:The_Colors_of_Sunset_in_the_City_(30441903175).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "The Colors of Sunset in the City"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        }
+      ]
+    }
+  ]
+}

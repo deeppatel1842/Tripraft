@@ -1,0 +1,859 @@
+{
+  "country": "New Zealand",
+  "state": "Gisborne",
+  "cities": [
+    {
+      "city": "Gisborne",
+      "nearest_airport": "Gisborne Airport",
+      "places": [
+        {
+          "name": "Titirangi Reserve",
+          "ai_summary": "A scenic reserve offering panoramic views of Gisborne, with walking trails and a historic observatory.",
+          "name_english": "Titirangi Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:10 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture the stunning views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.6623,
+            "longitude": 178.0176
+          },
+          "address": "Titirangi Dr, Gisborne, New Zealand",
+          "official_website": "https://www.gisborne.govt.nz",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Hiking"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Gisborne_nz_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Gisborne_nz_1.jpg/900px-Gisborne_nz_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Gisborne nz 1",
+                  "author": "Dramatic",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Gisborne_nz_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "Eastwoodhill Arboretum",
+          "ai_summary": "The National Arboretum of New Zealand, featuring a vast collection of trees and plants from around the world.",
+          "name_english": "Eastwoodhill Arboretum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:45 PM",
+          "cost": "Entry fee: NZD 15",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Wear comfortable shoes for walking.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.501,
+            "longitude": 177.911
+          },
+          "address": "2392 Wharekopae Rd, Ngatapa, Gisborne, New Zealand",
+          "official_website": "https://www.eastwoodhill.org.nz",
+          "tags": [
+            "Nature",
+            "Education",
+            "Relaxation"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Arboretum.westonbirt.750pix.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Arboretum.westonbirt.750pix.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Arboretum.westonbirt.750pix",
+                  "author": "Dodo",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Arboretum.westonbirt.750pix.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Rere Falls",
+          "ai_summary": "A picturesque waterfall surrounded by lush greenery, perfect for picnics and photography.",
+          "name_english": "Rere Falls",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:15 AM",
+          "sunset_time": "8:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Pack a picnic to enjoy by the falls.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.5333,
+            "longitude": 177.8833
+          },
+          "address": "Rere Falls Rd, Gisborne, New Zealand",
+          "official_website": "https://www.gisbornenz.com",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Relaxation"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Rere_Rockslide.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Rere_Rockslide.JPG/960px-Rere_Rockslide.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Rere Rockslide",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jmc226&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jmc226 (page does not exist)\">Jmc226</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Rere_Rockslide.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Sliding down the epic <a rel=\"nofollow\" class=\"external text\" href=\"http://www.stokedforsaturday.com/2013/12/natures-slip-slide-rere-rockslide/\">Rere Rockslide</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Tolaga Bay Wharf",
+          "ai_summary": "A historic wharf with stunning coastal views, great for fishing and leisurely walks.",
+          "name_english": "Tolaga Bay Wharf",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:20 AM",
+          "sunset_time": "8:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Fishing permits required for fishing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try fishing off the wharf for a local experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.3667,
+            "longitude": 178.335
+          },
+          "address": "Tolaga Bay, Gisborne, New Zealand",
+          "official_website": "https://www.gisbornenz.com",
+          "tags": [
+            "History",
+            "Nature",
+            "Fishing"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tolaga_bay_town.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Tolaga_bay_town.jpg/960px-Tolaga_bay_town.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tolaga bay town",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Air55\" title=\"User:Air55\">Air55</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tolaga_bay_town.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "View of Tolaga Bay, New Zealand."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Rere Rockslide",
+          "ai_summary": "A natural rockslide and popular swimming spot with stunning turquoise waters.",
+          "name_english": "Rere Rockslide",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:25 AM",
+          "sunset_time": "8:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during summer."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring your swimsuit and a towel.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.5333,
+            "longitude": 177.8833
+          },
+          "address": "Rere Rockslide, Gisborne, New Zealand",
+          "official_website": "https://www.gisbornenz.com",
+          "tags": [
+            "Nature",
+            "Swimming",
+            "Adventure"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Rere_Rockslide.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Rere_Rockslide.JPG/960px-Rere_Rockslide.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Rere Rockslide",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jmc226&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jmc226 (page does not exist)\">Jmc226</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Rere_Rockslide.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Sliding down the epic <a rel=\"nofollow\" class=\"external text\" href=\"http://www.stokedforsaturday.com/2013/12/natures-slip-slide-rere-rockslide/\">Rere Rockslide</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Te Urewera National Park (partially)",
+          "ai_summary": "A stunning national park with walking tracks, lakes, and native bush, home to diverse wildlife.",
+          "name_english": "Te Urewera National Park (partially)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "8:55 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check weather conditions before visiting."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Take insect repellent and plenty of water.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.7833,
+            "longitude": 176.75
+          },
+          "address": "Te Urewera National Park, Gisborne, New Zealand",
+          "official_website": "https://www.doc.govt.nz",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Wildlife"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lake_Waikaremoana,_Urewera,_New_Zealand,_13th._Dec_2010_-_Flickr_-_PhillipC.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Lake_Waikaremoana%2C_Urewera%2C_New_Zealand%2C_13th._Dec_2010_-_Flickr_-_PhillipC.jpg/960px-Lake_Waikaremoana%2C_Urewera%2C_New_Zealand%2C_13th._Dec_2010_-_Flickr_-_PhillipC.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lake Waikaremoana, Urewera, New Zealand, 13th. Dec 2010 - Flickr - PhillipC",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/42033648@N00\">Phillip Capper</a> from Wellington, New Zealand",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lake_Waikaremoana,_Urewera,_New_Zealand,_13th._Dec_2010_-_Flickr_-_PhillipC.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "En route Wellington to Gisborne in an Eagle Airways Beech 1900D"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "St Mary's Church Tikitiki",
+          "ai_summary": "A historic church known for its stunning architecture and beautiful stained glass windows.",
+          "name_english": "St Mary's Church Tikitiki",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Respect the sacredness of the site; photography may be restricted.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.7333,
+            "longitude": 178.3333
+          },
+          "address": "Tikitiki, Gisborne, New Zealand",
+          "official_website": "https://www.gisborne.govt.nz",
+          "tags": [
+            "History",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:St_Mary's_Church,_Tikitiki_07.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/St_Mary%27s_Church%2C_Tikitiki_07.jpg/960px-St_Mary%27s_Church%2C_Tikitiki_07.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "St Mary's Church, Tikitiki 07",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26223114@N02\">Kristina D.C. Hoeppner</a> from Wellington, New Zealand",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:St_Mary%27s_Church,_Tikitiki_07.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "St Mary's Church, Tikitiki"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Mahia Peninsula",
+          "ai_summary": "A scenic peninsula with beautiful beaches, walking tracks, and the iconic Mahia Beach.",
+          "name_english": "Mahia Peninsula",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:35 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during summer."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the walking tracks for stunning coastal views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -39.0333,
+            "longitude": 177.3833
+          },
+          "address": "Mahia Peninsula, Gisborne, New Zealand",
+          "official_website": "https://www.gisbornenz.com",
+          "tags": [
+            "Nature",
+            "Beaches",
+            "Scenic"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Māhia_Peninsula_landsat.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/M%C4%81hia_Peninsula_landsat.jpg/960px-M%C4%81hia_Peninsula_landsat.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Māhia Peninsula landsat",
+                  "author": "<b>Photograph: </b> NASA",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:M%C4%81hia_Peninsula_landsat.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/NASA_World_Wind\" class=\"extiw\" title=\"en:NASA World Wind\">en:NASA World Wind</a> landsat composite image of <a href=\"https://en.wikipedia.org/wiki/New_Zealand\" class=\"extiw\" title=\"en:New Zealand\">en:New Zealand</a>'s <a href=\"https://en.wikipedia.org/wiki/Mahia_Peninsula\" class=\"extiw\" title=\"en:Mahia Peninsula\">en:Mahia Peninsula</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.846
+        },
+        {
+          "name": "Cook Landing Site National Historic Reserve",
+          "ai_summary": "A historic site commemorating Captain Cook's landing, with a monument and scenic views.",
+          "name_english": "Cook Landing Site National Historic Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:40 AM",
+          "sunset_time": "9:05 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Site of historical significance."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the monument and enjoy the coastal views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.7833,
+            "longitude": 178.3333
+          },
+          "address": "Cook Landing Site, Gisborne, New Zealand",
+          "official_website": "https://www.gisborne.govt.nz",
+          "tags": [
+            "History",
+            "Scenic",
+            "Culture"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Captain_Cook_memorial,_Gisborne.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Captain_Cook_memorial%2C_Gisborne.jpg/960px-Captain_Cook_memorial%2C_Gisborne.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Captain Cook memorial, Gisborne",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Pseudopanax\" class=\"extiw\" title=\"en:User:Pseudopanax\">Pseudopanax</a> at <a class=\"external text\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Captain_Cook_memorial,_Gisborne.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Captain Cook memorial at the landing site, Gisborne. NZHPT Category I, registration number <a rel=\"nofollow\" class=\"external text\" href=\"https://www.heritage.org.nz/the-list/details/3473\">3473</a>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.77
+        },
+        {
+          "name": "Gray's Bush Scenic Reserve",
+          "ai_summary": "A scenic reserve with native bush, walking tracks, and birdwatching opportunities.",
+          "name_english": "Gray's Bush Scenic Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:45 AM",
+          "sunset_time": "9:10 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring binoculars for birdwatching.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.7333,
+            "longitude": 177.8833
+          },
+          "address": "Gray's Bush Scenic Reserve, Gisborne, New Zealand",
+          "official_website": "https://www.gisborne.govt.nz",
+          "tags": [
+            "Nature",
+            "Birdwatching",
+            "Scenic"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Summit_Road_&_Kennedys_Bush_Scenic_Reserve.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Summit_Road_%26_Kennedys_Bush_Scenic_Reserve.jpg/960px-Summit_Road_%26_Kennedys_Bush_Scenic_Reserve.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Summit Road & Kennedys Bush Scenic Reserve",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/32189463@N00\">Melissa Hutchison</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Summit_Road_%26_Kennedys_Bush_Scenic_Reserve.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Kennedys Bush Scenic Reserve from the Summit Road. Port Hills, Christchurch. Sept 2009. Cass Peak is the hill in the background with the radar dome on it."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Gisborne Railbike Adventure",
+          "ai_summary": "An exciting railbike tour through scenic landscapes, including rivers, forests, and farmland.",
+          "name_english": "Gisborne Railbike Adventure",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:55 PM",
+          "cost": "Tour price: NZD 149",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Advanced booking recommended."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Wear layers, as it can be cool on the railbike.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -38.6623,
+            "longitude": 178.0176
+          },
+          "address": "Gisborne Railbike, Gisborne, New Zealand",
+          "official_website": "https://www.gisbornerailbike.co.nz",
+          "tags": [
+            "Adventure",
+            "Scenic",
+            "Cycling"
+          ],
+          "state": "Gisborne",
+          "photos": {},
+          "rank_score": 0.798
+        },
+        {
+          "name": "Wainui Beach",
+          "ai_summary": "A popular beach with golden sand, great for swimming, surfing, and sunbathing.",
+          "name_english": "Wainui Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:50 AM",
+          "sunset_time": "9:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during summer."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check surf conditions before swimming.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.6623,
+            "longitude": 178.0176
+          },
+          "address": "Wainui Beach, Gisborne, New Zealand",
+          "official_website": "https://www.gisbornenz.com",
+          "tags": [
+            "Beach",
+            "Surfing",
+            "Swimming"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Wainui_Beach_late_afternoon.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Wainui_Beach_late_afternoon.jpg/960px-Wainui_Beach_late_afternoon.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Wainui Beach late afternoon",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Pseudopanax\" class=\"extiw\" title=\"en:User:Pseudopanax\">Pseudopanax</a> at <a class=\"external text\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Wainui_Beach_late_afternoon.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Wainui_Beach\" class=\"extiw\" title=\"en:Wainui Beach\">Wainui Beach</a> late afternoon."
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Dive Tatapouri (Reef Ecology Tour)",
+          "ai_summary": "An underwater adventure exploring the rich marine life and coral reefs of Tatapouri Bay.",
+          "name_english": "Dive Tatapouri (Reef Ecology Tour)",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:50 PM",
+          "cost": "Tour price: NZD 199",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Advanced booking required."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Bring a waterproof camera for underwater photos.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -38.6623,
+            "longitude": 178.0176
+          },
+          "address": "Dive Tatapouri, Gisborne, New Zealand",
+          "official_website": "https://www.dive.tatapouri.nz",
+          "tags": [
+            "Adventure",
+            "Marine Life",
+            "Diving"
+          ],
+          "state": "Gisborne",
+          "photos": {},
+          "rank_score": 0.778
+        },
+        {
+          "name": "Morere Hot Springs",
+          "ai_summary": "Natural hot springs set in a lush rainforest, offering a relaxing and rejuvenating experience.",
+          "name_english": "Morere Hot Springs",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:55 PM",
+          "cost": "Entry fee: NZD 10",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a towel and swimwear.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.6333,
+            "longitude": 177.8833
+          },
+          "address": "Morere Hot Springs, Gisborne, New Zealand",
+          "official_website": "https://www.morerehotsprings.co.nz",
+          "tags": [
+            "Relaxation",
+            "Nature",
+            "Hot Springs"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:KetetahiSpring1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/KetetahiSpring1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "KetetahiSpring1",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Mozasaur\" class=\"extiw\" title=\"w:User:Mozasaur\">Mozasaur</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"w:\"> Wikipedia</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:KetetahiSpring1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Distant view of Ketetahi Hot Springs; photo by <a rel=\"nofollow\" class=\"external text\" href=\"http://www.paulmoss.org\">Paul Moss</a>, uploaded by the Photographer / Author."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Te Poho-o-Rawiri Marae",
+          "ai_summary": "A significant Māori cultural site with a beautiful marae and stunning views of the bay.",
+          "name_english": "Te Poho-o-Rawiri Marae",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:55 AM",
+          "sunset_time": "9:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Respect the cultural significance of the site."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Join a guided tour to learn about the Māori culture and history.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.6623,
+            "longitude": 178.0176
+          },
+          "address": "Te Poho-o-Rawiri Marae, Gisborne, New Zealand",
+          "official_website": "https://www.gisborne.govt.nz",
+          "tags": [
+            "Culture",
+            "History",
+            "Scenic"
+          ],
+          "state": "Gisborne",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Gisborne_nz_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Gisborne_nz_1.jpg/900px-Gisborne_nz_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Gisborne nz 1",
+                  "author": "Dramatic",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Gisborne_nz_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        }
+      ]
+    }
+  ]
+}

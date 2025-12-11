@@ -1,0 +1,1173 @@
+{
+  "country": "Turkey",
+  "state": "Istanbul Province",
+  "cities": [
+    {
+      "city": "Istanbul",
+      "nearest_airport": "Istanbul Airport",
+      "places": [
+        {
+          "name": "Hagia Sophia",
+          "ai_summary": "A historic architectural marvel, the Hagia Sophia has served as a cathedral, mosque, and now a museum, showcasing Byzantine and Ottoman influences.",
+          "name_english": "Hagia Sophia",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Closed during prayer times on Fridays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Visit early morning to avoid crowds.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0086,
+            "longitude": 28.9802
+          },
+          "address": "Sultan Ahmet, Ayasofya Meydanı, Fatih, Istanbul, Turkey",
+          "official_website": "https://ayasofyamuzesi.gov.tr",
+          "tags": [
+            "History",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hagia_Sophia_(228968325).jpeg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/960px-Hagia_Sophia_%28228968325%29.jpeg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "<div class=\"fn\">\nHagia Sophia</div>",
+                  "author": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/adliwahid\">Adli Wahid</a></div>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_(228968325).jpeg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<div class=\"description\">\nHagia Sophia</div>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.814
+        },
+        {
+          "name": "Blue Mosque (Sultan Ahmed Mosque)",
+          "ai_summary": "An iconic mosque known for its stunning blue tiles, the Sultan Ahmed Mosque is a masterpiece of Ottoman architecture.",
+          "name_english": "Blue Mosque",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:30 AM - 6:30 PM",
+            "Tuesday": "8:30 AM - 6:30 PM",
+            "Wednesday": "8:30 AM - 6:30 PM",
+            "Thursday": "8:30 AM - 6:30 PM",
+            "Friday": "8:30 AM - 6:30 PM",
+            "Saturday": "8:30 AM - 6:30 PM",
+            "Sunday": "8:30 AM - 6:30 PM",
+            "notes": "Closed during prayer times."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Autumn",
+          "place_tip": "Wear modest clothing to enter the mosque.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0054,
+            "longitude": 28.9768
+          },
+          "address": "Sultan Ahmet, Atmeydanı Cd. No:7, Fatih, Istanbul, Turkey",
+          "official_website": "https://sultanahmetcamii.gov.tr",
+          "tags": [
+            "Religion",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Istanbul_(34223582516)_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Istanbul_%2834223582516%29_%28cropped%29.jpg/960px-Istanbul_%2834223582516%29_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Istanbul (34223582516) (cropped)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/43355249@N00\">Pedro Szekely</a> from Los Angeles, USA",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Istanbul_(34223582516)_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Blue Mosque, Istanbul, Turkey"
+                }
+              }
+            }
+          },
+          "rank_score": 0.842
+        },
+        {
+          "name": "Topkapi Palace Museum",
+          "ai_summary": "Once the residence of Ottoman sultans, the Topkapi Palace is now a museum showcasing imperial collections and stunning architecture.",
+          "name_english": "Topkapi Palace Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:15 PM",
+          "cost": "200 TRY",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Closed on Tuesdays."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Don’t miss the Harem section for an additional fee.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 41.0115,
+            "longitude": 28.9834
+          },
+          "address": "Cankurtaran, Topkapı Sarayı, Fatih, Istanbul, Turkey",
+          "official_website": "https://topkapisarayi.gov.tr",
+          "tags": [
+            "History",
+            "Museum",
+            "Culture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Topkapı_-_01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Topkap%C4%B1_-_01.jpg/960px-Topkap%C4%B1_-_01.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Topkapı - 01",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kadellar\" title=\"User:Kadellar\">Carlos Delgado</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Topkap%C4%B1_-_01.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Topkapı  Palace, Istanbul, Turkey."
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Grand Bazaar",
+          "ai_summary": "One of the largest and oldest covered markets in the world, the Grand Bazaar is a vibrant maze of shops and stalls selling everything from carpets to jewelry.",
+          "name_english": "Grand Bazaar",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Closed on Sundays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Bargain for the best prices.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0082,
+            "longitude": 28.9681
+          },
+          "address": "Beyazıt, Kalpakçılar Cd. No:22, Fatih, Istanbul, Turkey",
+          "official_website": "https://grandbazaaristanbul.org",
+          "tags": [
+            "Shopping",
+            "Culture",
+            "History"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Istanbul_asv2021-11_img41_Grand_Bazaar.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Istanbul_asv2021-11_img41_Grand_Bazaar.jpg/960px-Istanbul_asv2021-11_img41_Grand_Bazaar.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Istanbul asv2021-11 img41 Grand Bazaar",
+                  "author": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+                  "license": "FAL",
+                  "license_url": "http://artlibre.org/licence/lal/en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Istanbul_asv2021-11_img41_Grand_Bazaar.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Free Art License",
+                  "description": "Grand Bazaar in Istanbul, Turkey"
+                }
+              }
+            }
+          },
+          "rank_score": 0.82
+        },
+        {
+          "name": "Basilica Cistern",
+          "ai_summary": "An ancient underground water reservoir, the Basilica Cistern is known for its stunning columns and eerie atmosphere.",
+          "name_english": "Basilica Cistern",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:00 PM",
+          "cost": "30 TRY",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:30 PM",
+            "Tuesday": "9:00 AM - 5:30 PM",
+            "Wednesday": "9:00 AM - 5:30 PM",
+            "Thursday": "9:00 AM - 5:30 PM",
+            "Friday": "9:00 AM - 5:30 PM",
+            "Saturday": "9:00 AM - 5:30 PM",
+            "Sunday": "9:00 AM - 5:30 PM",
+            "notes": "Closed on Sundays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Look for the Medusa heads.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0085,
+            "longitude": 28.979
+          },
+          "address": "Alemdar, Yerebatan Cd. 1/3, Fatih, Istanbul, Turkey",
+          "official_website": "https://yerebatan.com",
+          "tags": [
+            "History",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cisterna_Basílica,_Estambul,_Turquía,_2024-09-28,_DD_58-60_HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Cisterna_Bas%C3%ADlica%2C_Estambul%2C_Turqu%C3%ADa%2C_2024-09-28%2C_DD_58-60_HDR.jpg/960px-Cisterna_Bas%C3%ADlica%2C_Estambul%2C_Turqu%C3%ADa%2C_2024-09-28%2C_DD_58-60_HDR.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cisterna Basílica, Estambul, Turquía, 2024-09-28, DD 58-60 HDR",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cisterna_Bas%C3%ADlica,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_58-60_HDR.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "View of the <a href=\"https://en.wikipedia.org/wiki/Basilica_Cistern\" class=\"extiw\" title=\"en:Basilica Cistern\">Basilica Cistern</a>, <a href=\"https://en.wikipedia.org/wiki/Istanbul\" class=\"extiw\" title=\"en:Istanbul\">Istanbul</a>, Turkey. The Basilica Cistern, or Cisterna Basilica is the largest of several hundred ancient <a href=\"https://en.wikipedia.org/wiki/cistern\" class=\"extiw\" title=\"en:cistern\">cisterns</a> that lie beneath the city. This subterranean cistern was called Basilica because it was located under a large public square, the Stoa Basilica, on the <a href=\"https://en.wikipedia.org/wiki/Seven_hills_of_Istanbul\" class=\"extiw\" title=\"en:Seven hills of Istanbul\">First Hill of Constantinople</a>. The cistern, built in the 6th century during the reign of <a href=\"https://en.wikipedia.org/wiki/Byzantine_Empire\" class=\"extiw\" title=\"en:Byzantine Empire\">Byzantine</a> emperor Justinian I, provided a water filtration system for the Great Palace of Constantinople and other buildings on the First Hill, and continued to provide water to the Topkapı Palace after the Ottoman conquest in 1453 and into modern times. Today it is kept with little water, for public access inside the space."
+                }
+              }
+            }
+          },
+          "rank_score": 0.804
+        },
+        {
+          "name": "Spice Bazaar (Egyptian Bazaar)",
+          "ai_summary": "A colorful and aromatic market, the Spice Bazaar is the perfect place to buy Turkish delights, spices, and souvenirs.",
+          "name_english": "Spice Bazaar",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Closed on Sundays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Try the Turkish delights.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0152,
+            "longitude": 28.9768
+          },
+          "address": "Rüstem Paşa, Erzak Ambarı Sk. No:92, Fatih, Istanbul, Turkey",
+          "official_website": "https://misirdabazari.gov.tr",
+          "tags": [
+            "Shopping",
+            "Food",
+            "Culture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Spice_Bazaar_Istanbul_Feb_2020,_img_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Spice_Bazaar_Istanbul_Feb_2020%2C_img_2.jpg/960px-Spice_Bazaar_Istanbul_Feb_2020%2C_img_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Spice Bazaar Istanbul Feb 2020, img 2",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Robot8A\" title=\"User:Robot8A\">Robot8A</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Spice_Bazaar_Istanbul_Feb_2020,_img_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Istanbul, Turkey, February 2020"
+                }
+              }
+            }
+          },
+          "rank_score": 0.708
+        },
+        {
+          "name": "Galata Tower",
+          "ai_summary": "A medieval stone tower, the Galata Tower offers a panoramic view of Istanbul and the Golden Horn.",
+          "name_english": "Galata Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:30 PM",
+          "cost": "100 TRY",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 8:00 PM",
+            "Tuesday": "9:00 AM - 8:00 PM",
+            "Wednesday": "9:00 AM - 8:00 PM",
+            "Thursday": "9:00 AM - 8:00 PM",
+            "Friday": "9:00 AM - 8:00 PM",
+            "Saturday": "9:00 AM - 8:00 PM",
+            "Sunday": "9:00 AM - 8:00 PM",
+            "notes": "Last entrance one hour before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Book tickets online to skip the line.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 41.0258,
+            "longitude": 28.9742
+          },
+          "address": "Karaköy, Galata Kulesi, 34421 Beyoğlu/İstanbul, Turkey",
+          "official_website": "https://galatatower.gov.tr",
+          "tags": [
+            "History",
+            "Viewpoint",
+            "Architecture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Galata_tower_01_23.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Galata_tower_01_23.jpg/960px-Galata_tower_01_23.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Galata tower 01 23",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:GrandEscogriffe\" title=\"User:GrandEscogriffe\">GrandEscogriffe</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Galata_tower_01_23.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Photograph of the eastern side of Galata tower, Istanbul, with perspective correction."
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Dolmabahçe Palace",
+          "ai_summary": "A magnificent palace that served as the main administrative center of the Ottoman Empire in the 19th century, showcasing European-style architecture.",
+          "name_english": "Dolmabahçe Palace",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:00 PM",
+          "cost": "300 TRY",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 4:30 PM",
+            "Tuesday": "9:00 AM - 4:30 PM",
+            "Wednesday": "9:00 AM - 4:30 PM",
+            "Thursday": "9:00 AM - 4:30 PM",
+            "Friday": "9:00 AM - 4:30 PM",
+            "Saturday": "9:00 AM - 4:30 PM",
+            "Sunday": "9:00 AM - 4:30 PM",
+            "notes": "Closed on Mondays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Visit the harem section for an additional fee.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 41.0392,
+            "longitude": 28.3619
+          },
+          "address": "Vişnezade, Dolmabahçe Cd. No:1, Beşiktaş, Istanbul, Turkey",
+          "official_website": "https://dolmabahcepalace.gov.tr",
+          "tags": [
+            "History",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Dolmabahce_Istanbul_Turkey.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Dolmabahce_Istanbul_Turkey.jpg/960px-Dolmabahce_Istanbul_Turkey.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Dolmabahce Istanbul Turkey",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/21162417@N07\">flowcomm</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Dolmabahce_Istanbul_Turkey.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Dolmabahçe Palace seen from Bosphorus in Istanbul, Turkey"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Süleymaniye Mosque",
+          "ai_summary": "An Ottoman imperial mosque located on the Third Hill of Istanbul, it is the largest mosque in the city and a stunning example of Islamic architecture.",
+          "name_english": "Süleymaniye Mosque",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Closed during prayer times."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Respect the dress code: women should cover their hair, and both men and women should wear modest clothing.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0162,
+            "longitude": 28.956
+          },
+          "address": "Süleymaniye, 34116 Fatih/İstanbul, Turkey",
+          "official_website": "https://suleymaniyemosque.gov.tr",
+          "tags": [
+            "Religion",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:SüleymaniyeMosqueIstanbul_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/S%C3%BCleymaniyeMosqueIstanbul_%28cropped%29.jpg/960px-S%C3%BCleymaniyeMosqueIstanbul_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "SüleymaniyeMosqueIstanbul (cropped)",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hunanuk&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Hunanuk (page does not exist)\">Hunanuk</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniyeMosqueIstanbul_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Süleymaniye Mosque in Istanbul"
+                }
+              }
+            }
+          },
+          "rank_score": 0.826
+        },
+        {
+          "name": "Chora Church (Kariye Museum)",
+          "ai_summary": "A medieval Greek Orthodox church, now a museum, known for its stunning mosaics and frescoes.",
+          "name_english": "Chora Church",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:00 PM",
+          "cost": "75 TRY",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Closed on Wednesdays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Don’t miss the stunning mosaics in the apse.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0379,
+            "longitude": 28.9499
+          },
+          "address": "Kariye Camii, Derviş Ali Efendi Sk. No: 1, Edirnekapı, Fatih, Istanbul, Turkey",
+          "official_website": "https://kariye.gov.tr",
+          "tags": [
+            "History",
+            "Religion",
+            "Art"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2014_Pammakaristos_Church_(1).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/2014_Pammakaristos_Church_%281%29.jpg/960px-2014_Pammakaristos_Church_%281%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2014 Pammakaristos Church (1)",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chris06&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chris06 (page does not exist)\">Chris06</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2014_Pammakaristos_Church_(1).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Pammakaristos Church, Istanbul"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Istiklal Street",
+          "ai_summary": "A famous pedestrian street in the heart of Istanbul, Istiklal Street is lined with shops, cafes, and restaurants, and is known for its vibrant atmosphere.",
+          "name_english": "Istiklal Street",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "Some shops may be closed on Sundays."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local street food.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0369,
+            "longitude": 28.9854
+          },
+          "address": "Beyoğlu, Istiklal Cd. No: 1, 34430 Beyoğlu/İstanbul, Turkey",
+          "official_website": "https://istiklalcaddesi.gov.tr",
+          "tags": [
+            "Shopping",
+            "Food",
+            "Culture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Istiklal_Avenue_in_Istanbul_-_Turkey.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Istiklal_Avenue_in_Istanbul_-_Turkey.jpg/960px-Istiklal_Avenue_in_Istanbul_-_Turkey.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Istiklal Avenue in Istanbul - Turkey",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Mark_Ahsmann\" title=\"User:Mark Ahsmann\">Mark Ahsmann</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Istiklal_Avenue_in_Istanbul_-_Turkey.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Istiklal Avenue in the Beyoğlu (Pera) district of Istanbul, Turkey."
+                }
+              }
+            }
+          },
+          "rank_score": 0.794
+        },
+        {
+          "name": "Taksim Square",
+          "ai_summary": "A major public space in Istanbul, Taksim Square is known for its Republic Monument, and as a transportation hub and cultural center.",
+          "name_english": "Taksim Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "Always open."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the Atatürk Cultural Center.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0369,
+            "longitude": 28.9855
+          },
+          "address": "Taksim, 34437 Beyoğlu/İstanbul, Turkey",
+          "official_website": "https://taksimsquare.gov.tr",
+          "tags": [
+            "Culture",
+            "History",
+            "Public Space"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Istanbul_Taksim_Square_(54515155507).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Istanbul_Taksim_Square_%2854515155507%29.jpg/960px-Istanbul_Taksim_Square_%2854515155507%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Istanbul Taksim Square (54515155507)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46191841@N00\">Jorge Franganillo</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Istanbul_Taksim_Square_(54515155507).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Istanbul (Turkey)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Bosphorus Cruise",
+          "ai_summary": "A cruise on the Bosphorus Strait offers a unique perspective of Istanbul, with views of palaces, bridges, and the city's skyline.",
+          "name_english": "Bosphorus Cruise",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:30 PM",
+          "cost": "50 TRY",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Check the schedule for departure times."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Book in advance for the best spots.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 41.0351,
+            "longitude": 29.0052
+          },
+          "address": "Kabataş, 34437 Beyoğlu/İstanbul, Turkey",
+          "official_website": "https://istanbul.com/bosphorus-cruise",
+          "tags": [
+            "Tour",
+            "Sightseeing",
+            "Nature"
+          ],
+          "state": "Istanbul Province",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Archaeological Museums",
+          "ai_summary": "Istanbul Archaeological Museums is a group of three archaeological museums located in Istanbul, Turkey. The museums contain artifacts from the ancient civilizations of the Aegean, Cyprus, and Anatolia.",
+          "name_english": "Archaeological Museums",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:00 PM",
+          "cost": "50 TRY",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Closed on Mondays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the Ancient Orient Museum section.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0085,
+            "longitude": 28.9818
+          },
+          "address": "Cankurtaran, 34122 Fatih/İstanbul, Turkey",
+          "official_website": "https://istanbularkeoloji.gov.tr",
+          "tags": [
+            "History",
+            "Museum",
+            "Culture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Istanbularcheology.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Istanbularcheology.jpg/960px-Istanbularcheology.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Istanbularcheology",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Metuboy&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Metuboy (page does not exist)\">Metuboy</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Istanbularcheology.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Istanbul Archaeology Museums"
+                }
+              }
+            }
+          },
+          "rank_score": 0.83
+        },
+        {
+          "name": "Princes' Islands",
+          "ai_summary": "A group of nine islands in the Sea of Marmara, known for their beautiful beaches, historic mansions, and as a peaceful retreat from the city.",
+          "name_english": "Princes' Islands",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "6:00 AM - 8:00 PM",
+            "Tuesday": "6:00 AM - 8:00 PM",
+            "Wednesday": "6:00 AM - 8:00 PM",
+            "Thursday": "6:00 AM - 8:00 PM",
+            "Friday": "6:00 AM - 8:00 PM",
+            "Saturday": "6:00 AM - 8:00 PM",
+            "Sunday": "6:00 AM - 8:00 PM",
+            "notes": "Ferries operate between 6:00 AM and 8:00 PM."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Rent a bike to explore the islands.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.8671,
+            "longitude": 29.1139
+          },
+          "address": "Büyükada, Adalar/İstanbul, Turkey",
+          "official_website": "https://buyukada.gov.tr",
+          "tags": [
+            "Nature",
+            "History",
+            "Leisure"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BuyukadaMainSquare.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/BuyukadaMainSquare.jpg/960px-BuyukadaMainSquare.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "BuyukadaMainSquare",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Metuboy&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Metuboy (page does not exist)\">Metuboy</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BuyukadaMainSquare.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Statue of Mustafa Kemal Atatürk with the inscription \"Yurtta Sulh Cihanda Sulh\" in Büyükada, the largest of the Prince Islands in the Sea of Marmara, to the southeast of Istanbul, Turkey."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Miniaturk",
+          "ai_summary": "A miniature park situated in Istanbul, Turkey. It is one of the largest miniature parks in the world, featuring models of famous Turkish landmarks.",
+          "name_english": "Miniaturk",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "50 TRY",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Closed on Mondays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the café for a great view of the park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0582,
+            "longitude": 28.9494
+          },
+          "address": "Sütlüce, 34445 Beyoğlu/İstanbul, Turkey",
+          "official_website": "https://miniaturk.gov.tr",
+          "tags": [
+            "Tourism",
+            "Park",
+            "Culture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Miniatürk_genel_görünüm.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Miniat%C3%BCrk_genel_g%C3%B6r%C3%BCn%C3%BCm.JPG/960px-Miniat%C3%BCrk_genel_g%C3%B6r%C3%BCn%C3%BCm.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Miniatürk genel görünüm",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:VikiPicture\" title=\"User:VikiPicture\">VikiPicture</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Miniat%C3%BCrk_genel_g%C3%B6r%C3%BCn%C3%BCm.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Miniatürk genel görünüm"
+                }
+              }
+            }
+          },
+          "rank_score": 0.852
+        },
+        {
+          "name": "Rumeli Fortress",
+          "ai_summary": "A fortress built by the Ottoman Sultan Mehmed II in 1452, located on the European side of the Bosphorus Strait, offering stunning views and historical insights.",
+          "name_english": "Rumeli Fortress",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "50 TRY",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Closed on Wednesdays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Explore the towers and enjoy the view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0392,
+            "longitude": 29.0352
+          },
+          "address": "Rumeli Hisarı, 34470 Sarıyer/İstanbul, Turkey",
+          "official_website": "https://rumelihisari.gov.tr",
+          "tags": [
+            "History",
+            "Architecture",
+            "Viewpoint"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Istanbul,_Turkey_-_53686764072.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Istanbul%2C_Turkey_-_53686764072.jpg/960px-Istanbul%2C_Turkey_-_53686764072.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Istanbul, Turkey - 53686764072",
+                  "author": "flowcomm",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Istanbul,_Turkey_-_53686764072.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Rumelihisarı in Istanbul, Turkey"
+                }
+              }
+            }
+          },
+          "rank_score": 0.748
+        },
+        {
+          "name": "Maiden's Tower",
+          "ai_summary": "A tower located on a small islet at the southern entrance of the Bosphorus strait, it has served various purposes throughout history and offers a panoramic view of Istanbul.",
+          "name_english": "Maiden's Tower",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:30 PM",
+          "cost": "50 TRY",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Closed on Mondays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Enjoy a drink at the café with a view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0084,
+            "longitude": 29.0274
+          },
+          "address": "Salhane, 34668 Üsküdar/İstanbul, Turkey",
+          "official_website": "https://kizkulesi.gov.tr",
+          "tags": [
+            "History",
+            "Viewpoint",
+            "Architecture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Istanbul_Kız_Kulesi_(54511155871)_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Istanbul_K%C4%B1z_Kulesi_%2854511155871%29_%28cropped%29.jpg/960px-Istanbul_K%C4%B1z_Kulesi_%2854511155871%29_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Istanbul Kız Kulesi (54511155871) (cropped)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46191841@N00\">Jorge Franganillo</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Istanbul_K%C4%B1z_Kulesi_(54511155871)_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Istanbul (Turkey)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.77
+        },
+        {
+          "name": "Ortaköy Mosque",
+          "ai_summary": "A beautiful mosque located by the Bosphorus, known for its stunning architecture and picturesque setting.",
+          "name_english": "Ortaköy Mosque",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Closed during prayer times."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Try the kumpir (stuffed baked potato) from a nearby vendor.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.045,
+            "longitude": 29.0294
+          },
+          "address": "Ortaköy, Mecidiye Sk. No: 1, Beşiktaş, Istanbul, Turkey",
+          "official_website": "https://ortakoymosque.gov.tr",
+          "tags": [
+            "Religion",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Istanbul_asv2020-02_img60_Ortaköy_Mosque.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Istanbul_asv2020-02_img60_Ortak%C3%B6y_Mosque.jpg/960px-Istanbul_asv2020-02_img60_Ortak%C3%B6y_Mosque.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Istanbul asv2020-02 img60 Ortaköy Mosque",
+                  "author": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+                  "license": "FAL",
+                  "license_url": "http://artlibre.org/licence/lal/en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Istanbul_asv2020-02_img60_Ortak%C3%B6y_Mosque.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Free Art License",
+                  "description": "Ortaköy Mosque in Istanbul, Turkey"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Balat Neighborhood",
+          "ai_summary": "A historic neighborhood in Istanbul, known for its colorful houses, old churches, and synagogues, reflecting the city's diverse cultural heritage.",
+          "name_english": "Balat Neighborhood",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "Always open."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the Ahrida Synagogue and the Bulgarian St. Stephen Church.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 41.0382,
+            "longitude": 28.9497
+          },
+          "address": "Balat, 34087 Fatih/İstanbul, Turkey",
+          "official_website": "https://balat.gov.tr",
+          "tags": [
+            "History",
+            "Culture",
+            "Neighborhood"
+          ],
+          "state": "Istanbul Province",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Balat_houses.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Balat_houses.jpg/960px-Balat_houses.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Balat houses",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Antoloji\" title=\"User:Antoloji\">Antoloji</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Balat_houses.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Colorful Balat houses in Istanbul"
+                }
+              }
+            }
+          },
+          "rank_score": 0.712
+        }
+      ]
+    }
+  ]
+}

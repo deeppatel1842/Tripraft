@@ -1,0 +1,1174 @@
+{
+  "country": "USA",
+  "state": "Montana",
+  "cities": [
+    {
+      "city": "Montana",
+      "nearest_airport": "Bozeman Yellowstone International Airport (BZN)",
+      "places": [
+        {
+          "name": "Glacier National Park",
+          "ai_summary": "A stunning national park known for its rugged mountains, pristine lakes, and diverse wildlife.",
+          "name_english": "Glacier National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Drive the Going-to-the-Sun Road for breathtaking views.",
+          "advanced_booking": "Recommended for camping",
+          "coordinates": {
+            "latitude": 48.759,
+            "longitude": -113.787
+          },
+          "address": "Glacier National Park, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "National Park",
+            "Nature",
+            "Hiking"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2015-06-19 Glacier National Park (U.S.) 8625.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/2015-06-19_Glacier_National_Park_%28U.S.%29_8625.jpg/960px-2015-06-19_Glacier_National_Park_%28U.S.%29_8625.jpg",
+                "width": 800,
+                "height": 583,
+                "attribution": {
+                  "title": "2015-06-19 Glacier National Park (U.S.) 8625",
+                  "author": "Please attribute as: \"Wikipedia / Tobias Klenze\" (user page link optional). Remember that you must also mention the license (and link to it). So for example, if this picture is licensed under CC-BY-SA 4.0, the following is correct: Image: Wikipedia / Tobias Klenze / CC-BY-SA 4.0. The license must be a link!",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2015-06-19_Glacier_National_Park_(U.S.)_8625.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "A marmot in front of Hidden Lake and Reynolds Mountain in Glacier National Park, USA."
+                }
+              }
+            }
+          },
+          "rank_score": 0.805
+        },
+        {
+          "name": "Yellowstone National Park",
+          "ai_summary": "The first national park in the world, famous for its geothermal features like Old Faithful and diverse wildlife.",
+          "name_english": "Yellowstone National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "3-4 days",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Visit early in the morning to avoid crowds at popular spots like Old Faithful.",
+          "advanced_booking": "Highly recommended for lodging",
+          "coordinates": {
+            "latitude": 44.428,
+            "longitude": -110.588
+          },
+          "address": "Yellowstone National Park, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "National Park",
+            "Geothermal",
+            "Wildlife"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Abronia ammophila.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Abronia_ammophila.jpg/960px-Abronia_ammophila.jpg",
+                "width": 800,
+                "height": 511,
+                "attribution": {
+                  "title": "Abronia ammophila",
+                  "author": "National Park Service",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Abronia_ammophila.jpg",
+                  "credit": "Yellowstone sand verbena from National Park Service.",
+                  "usage_terms": "Public domain",
+                  "description": "Yellowstone sand verbena (Abronia ammophila) at Yellowstone National Park"
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "Big Sky Resort",
+          "ai_summary": "A premier ski resort offering world-class skiing, snowboarding, and year-round outdoor activities.",
+          "name_english": "Big Sky Resort",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Varies by activity",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Hours may vary by season."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Take a guided snowmobile tour for a unique experience.",
+          "advanced_booking": "Recommended for ski passes",
+          "coordinates": {
+            "latitude": 45.284,
+            "longitude": -111.401
+          },
+          "address": "Big Sky Resort, Big Sky, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Ski Resort",
+            "Adventure",
+            "Outdoor"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Boyne Resorts.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Boyne_Resorts.png",
+                "width": 282,
+                "height": 45,
+                "attribution": {
+                  "title": "Boyne Resorts",
+                  "author": "Boyne Resorts",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Boyne_Resorts.png",
+                  "credit": "http://cypressmountain.com/system/files/images/Logo_BoyneResorts_0.jpg",
+                  "usage_terms": "Public domain",
+                  "description": "w:Boyne Resorts logo"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7805
+        },
+        {
+          "name": "Flathead Lake",
+          "ai_summary": "The largest natural lake in Montana, known for its stunning scenery and recreational opportunities.",
+          "name_english": "Flathead Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Public access points have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Explore the lake by kayak or paddleboard for a unique perspective.",
+          "advanced_booking": "N/A",
+          "coordinates": {
+            "latitude": 48.207,
+            "longitude": -114.109
+          },
+          "address": "Flathead Lake, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Lake",
+            "Nature",
+            "Recreation"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox current red.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ambox_current_red.svg/800px-Ambox_current_red.svg.png",
+                "width": 800,
+                "height": 644,
+                "attribution": {
+                  "title": "Ambox current red",
+                  "author": "ViperSnake151, penubag, Tkg. d2007 (clock)",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_current_red.svg",
+                  "credit": "self-made, inspired by Gnome globe current event.svg, using Information icon3.svg and Earth clip art.svg",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "A current event icon in the Ambox style. This image is used to show Outdated topics in various Wiki articles."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7915
+        },
+        {
+          "name": "Little Bighorn Battlefield National Monument",
+          "ai_summary": "A historic site commemorating the Battle of Little Bighorn, with a museum and guided tours.",
+          "name_english": "Little Bighorn Battlefield National Monument",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45 AM",
+          "sunset_time": "08:45 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "07:00 - 19:00",
+            "Tuesday": "07:00 - 19:00",
+            "Wednesday": "07:00 - 19:00",
+            "Thursday": "07:00 - 19:00",
+            "Friday": "07:00 - 19:00",
+            "Saturday": "07:00 - 19:00",
+            "Sunday": "07:00 - 19:00",
+            "notes": "Visitor center hours may vary."
+          },
+          "suggested_duration": "1 day",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Join a guided tour for in-depth historical insights.",
+          "advanced_booking": "Recommended for guided tours",
+          "coordinates": {
+            "latitude": 45.467,
+            "longitude": -106.371
+          },
+          "address": "Little Bighorn Battlefield, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Historic Site",
+            "National Monument",
+            "Museum"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Battle of the Little Bighorn Reenactment 2013 (Crow Agency, Montana) 010.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Battle_of_the_Little_Bighorn_Reenactment_2013_%28Crow_Agency%2C_Montana%29_010.jpg/960px-Battle_of_the_Little_Bighorn_Reenactment_2013_%28Crow_Agency%2C_Montana%29_010.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Battle of the Little Bighorn Reenactment 2013 (Crow Agency, Montana) 010",
+                  "author": "Leonard J. DeFrancisci",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Battle_of_the_Little_Bighorn_Reenactment_2013_(Crow_Agency,_Montana)_010.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Battle of Little Bighorn Reenactment at the banks of the Little Bighorn River between the Crow Agency and Garryowen, Montana."
+                }
+              }
+            }
+          },
+          "rank_score": 0.763
+        },
+        {
+          "name": "Museum of the Rockies",
+          "ai_summary": "A premier natural history museum with extensive dinosaur fossils and exhibits on the region's history.",
+          "name_english": "Museum of the Rockies",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Closed on Thanksgiving and Christmas."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don't miss the planetarium shows and dinosaur exhibits.",
+          "advanced_booking": "N/A",
+          "coordinates": {
+            "latitude": 45.676,
+            "longitude": -110.974
+          },
+          "address": "600 W Kagy Blvd, Bozeman, MT 59715, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "History",
+            "Science"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Allenypterus montanus (Restoration).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Allenypterus_montanus_%28Restoration%29.jpg/960px-Allenypterus_montanus_%28Restoration%29.jpg",
+                "width": 800,
+                "height": 419,
+                "attribution": {
+                  "title": "Allenypterus montanus (Restoration)",
+                  "author": "DiBgd",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Allenypterus_montanus_(Restoration).jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Allenypterus montanus, целакант из раннего карбона США"
+                }
+              }
+            }
+          },
+          "rank_score": 0.791
+        },
+        {
+          "name": "Grizzly and Wolf Discovery Center",
+          "ai_summary": "A wildlife park and education center featuring grizzly bears, wolves, and other native species.",
+          "name_english": "Grizzly and Wolf Discovery Center",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Hours may vary seasonally."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Attend a feeding session or educational program for an enhanced experience.",
+          "advanced_booking": "N/A",
+          "coordinates": {
+            "latitude": 44.671,
+            "longitude": -110.588
+          },
+          "address": "201 S Canyon St, West Yellowstone, MT 59758, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Wildlife",
+            "Education",
+            "Nature"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:-conservationlands15 Social Media Takeover, July 15th, Wild and Scenic Rivers (19863603006).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/-conservationlands15_Social_Media_Takeover%2C_July_15th%2C_Wild_and_Scenic_Rivers_%2819863603006%29.jpg/960px--conservationlands15_Social_Media_Takeover%2C_July_15th%2C_Wild_and_Scenic_Rivers_%2819863603006%29.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "-conservationlands15 Social Media Takeover, July 15th, Wild and Scenic Rivers (19863603006)",
+                  "author": "Bureau  of Land Management",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:-conservationlands15_Social_Media_Takeover,_July_15th,_Wild_and_Scenic_Rivers_(19863603006).jpg",
+                  "credit": "#conservationlands15 Social Media Takeover, July 15th, Wild and Scenic Rivers",
+                  "usage_terms": "Public domain",
+                  "description": "Our July #conservationlands15 Bucket List Location: Take a step back in time and paddle through history along the BLM Upper Missouri Wild and Scenic River in Montana\n“The hills and river Clifts which we passed today exhibit a most romantic appearance…. The bluffs of the river rise to hight of from 2 to 300 feet and in most places nearly perpendicular; they are formed of remarkable white sandstone which is sufficiently soft to give way readily to the impression of water…” Meriwether Lewis,  May 31, 1805.\nYou can camp in the same locations as the 1805 Lewis and Clark expedition on your multi-day canoe expedition down the “Big Muddy”.  The river is a relatively easy paddle with current and riffles but no major rapids. Along the way, camp under the shade of spreading cottonwoods and try your luck catching a paddlefish – some weigh over 100 pounds.  The Breaks Country surrounding the river offers opportunities for scrambles and cross country hikes to the bluffs above.  \nThe unique geology and harsh landscapes that were extensively described by Lewis and Clark are in a condition that has changed little since the passage of the expedition.   Historic homesteads dot the river banks, and remnants of the steamboat era remain in inscriptions that were etched on the rock walls.  \n\nPhoto by Bob Wick, BLM"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7845
+        },
+        {
+          "name": "Virginia City and Nevada City",
+          "ai_summary": "Historic gold rush towns with well-preserved 19th-century buildings and museums.",
+          "name_english": "Virginia City and Nevada City",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Varies by activity",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Hours may vary; some attractions may be seasonal."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Explore the museums and take a guided tour to learn about the gold rush history.",
+          "advanced_booking": "N/A",
+          "coordinates": {
+            "latitude": 45.282,
+            "longitude": -111.949
+          },
+          "address": "Virginia City, MT 59755, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Historic Site",
+            "Gold Rush",
+            "Museum"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Red pog.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/800px-Red_pog.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Red pog",
+                  "author": "Andux",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Red_pog.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Shiny red button/marker widget. Used to mark the location of something such as a tourist attraction."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7447
+        },
+        {
+          "name": "Lewis and Clark Caverns State Park",
+          "ai_summary": "A state park featuring limestone caves with stunning rock formations and guided tours.",
+          "name_english": "Lewis and Clark Caverns State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Cave tours are available seasonally."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Wear comfortable shoes for the cave tour and bring a light jacket.",
+          "advanced_booking": "Recommended for cave tours",
+          "coordinates": {
+            "latitude": 45.676,
+            "longitude": -111.978
+          },
+          "address": "Lewis and Clark Caverns, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "State Park",
+            "Caves",
+            "Nature"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:-conservationlands15 Social Media Takeover, July 15th, Wild and Scenic Rivers (19863603006).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/-conservationlands15_Social_Media_Takeover%2C_July_15th%2C_Wild_and_Scenic_Rivers_%2819863603006%29.jpg/960px--conservationlands15_Social_Media_Takeover%2C_July_15th%2C_Wild_and_Scenic_Rivers_%2819863603006%29.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "-conservationlands15 Social Media Takeover, July 15th, Wild and Scenic Rivers (19863603006)",
+                  "author": "Bureau  of Land Management",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:-conservationlands15_Social_Media_Takeover,_July_15th,_Wild_and_Scenic_Rivers_(19863603006).jpg",
+                  "credit": "#conservationlands15 Social Media Takeover, July 15th, Wild and Scenic Rivers",
+                  "usage_terms": "Public domain",
+                  "description": "Our July #conservationlands15 Bucket List Location: Take a step back in time and paddle through history along the BLM Upper Missouri Wild and Scenic River in Montana\n“The hills and river Clifts which we passed today exhibit a most romantic appearance…. The bluffs of the river rise to hight of from 2 to 300 feet and in most places nearly perpendicular; they are formed of remarkable white sandstone which is sufficiently soft to give way readily to the impression of water…” Meriwether Lewis,  May 31, 1805.\nYou can camp in the same locations as the 1805 Lewis and Clark expedition on your multi-day canoe expedition down the “Big Muddy”.  The river is a relatively easy paddle with current and riffles but no major rapids. Along the way, camp under the shade of spreading cottonwoods and try your luck catching a paddlefish – some weigh over 100 pounds.  The Breaks Country surrounding the river offers opportunities for scrambles and cross country hikes to the bluffs above.  \nThe unique geology and harsh landscapes that were extensively described by Lewis and Clark are in a condition that has changed little since the passage of the expedition.   Historic homesteads dot the river banks, and remnants of the steamboat era remain in inscriptions that were etched on the rock walls.  \n\nPhoto by Bob Wick, BLM"
+                }
+              }
+            }
+          },
+          "rank_score": 0.777
+        },
+        {
+          "name": "Bighorn Canyon National Recreation Area",
+          "ai_summary": "A scenic area with a deep canyon, river, and opportunities for boating, fishing, and hiking.",
+          "name_english": "Bighorn Canyon National Recreation Area",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Take a boat tour for a unique view of the canyon.",
+          "advanced_booking": "N/A",
+          "coordinates": {
+            "latitude": 44.735,
+            "longitude": -108.634
+          },
+          "address": "Bighorn Canyon, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Recreation Area",
+            "Canyon",
+            "Nature"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bighorn Canyon North District Snow.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Bighorn_Canyon_North_District_Snow.jpg",
+                "width": 640,
+                "height": 480,
+                "attribution": {
+                  "title": "Bighorn Canyon North District Snow",
+                  "author": "National Park Service, Bighorn Canyon National Recreation Area",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bighorn_Canyon_North_District_Snow.jpg",
+                  "credit": "http://www.nps.gov/bica/photosmultimedia/index.htm",
+                  "usage_terms": "Public domain",
+                  "description": "Snow on the Bighorn Canyon in the North District of Bighorn Canyon National Recreation Area, Montana"
+                }
+              }
+            }
+          },
+          "rank_score": 0.801
+        },
+        {
+          "name": "Whitefish Mountain Resort",
+          "ai_summary": "A year-round resort offering skiing, snowboarding, mountain biking, and hiking.",
+          "name_english": "Whitefish Mountain Resort",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Varies by activity",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Hours vary by season and activity."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Try the zip line tour for an adrenaline-pumping experience.",
+          "advanced_booking": "Recommended for ski passes and activities",
+          "coordinates": {
+            "latitude": 48.485,
+            "longitude": -114.346
+          },
+          "address": "Whitefish Mountain Resort, Whitefish, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Resort",
+            "Skiing",
+            "Snowboarding",
+            "Mountain Biking"
+          ],
+          "state": "Montana",
+          "photos": {},
+          "rank_score": 0.759
+        },
+        {
+          "name": "Missoula Art Museum",
+          "ai_summary": "An art museum featuring contemporary and modern art, with a focus on regional artists.",
+          "name_english": "Missoula Art Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Check out the museum shop for unique art pieces and souvenirs.",
+          "advanced_booking": "N/A",
+          "coordinates": {
+            "latitude": 46.857,
+            "longitude": -113.993
+          },
+          "address": "335 N Pattee St, Missoula, MT 59802, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Art",
+            "Culture"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Fred T. Sterling House.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Fred_T._Sterling_House.jpg/960px-Fred_T._Sterling_House.jpg",
+                "width": 800,
+                "height": 536,
+                "attribution": {
+                  "title": "Fred T. Sterling House",
+                  "author": "Joseph Thiebes",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Fred_T._Sterling_House.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Fred T. Sterling House"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7925
+        },
+        {
+          "name": "Gates of the Mountains",
+          "ai_summary": "A scenic area with limestone cliffs and a river, offering boat tours and hiking trails.",
+          "name_english": "Gates of the Mountains",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Varies by activity",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Boat tours are seasonal."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Take the boat tour for a unique view of the cliffs and wildlife.",
+          "advanced_booking": "Recommended for boat tours",
+          "coordinates": {
+            "latitude": 46.593,
+            "longitude": -112.596
+          },
+          "address": "Gates of the Mountains, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic Area",
+            "Nature",
+            "Hiking"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7695
+        },
+        {
+          "name": "Makoshika State Park",
+          "ai_summary": "The largest state park in Montana, known for its badlands terrain, dinosaur fossils, and hiking trails.",
+          "name_english": "Makoshika State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Visitor center hours may vary."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Explore the park's unique rock formations and look for dinosaur fossils.",
+          "advanced_booking": "N/A",
+          "coordinates": {
+            "latitude": 47.058,
+            "longitude": -105.665
+          },
+          "address": "Makoshika State Park, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "State Park",
+            "Badlands",
+            "Dinosaur Fossils"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:-conservationlands15 Social Media Takeover, July 15th, Wild and Scenic Rivers (19863603006).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/-conservationlands15_Social_Media_Takeover%2C_July_15th%2C_Wild_and_Scenic_Rivers_%2819863603006%29.jpg/960px--conservationlands15_Social_Media_Takeover%2C_July_15th%2C_Wild_and_Scenic_Rivers_%2819863603006%29.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "-conservationlands15 Social Media Takeover, July 15th, Wild and Scenic Rivers (19863603006)",
+                  "author": "Bureau  of Land Management",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:-conservationlands15_Social_Media_Takeover,_July_15th,_Wild_and_Scenic_Rivers_(19863603006).jpg",
+                  "credit": "#conservationlands15 Social Media Takeover, July 15th, Wild and Scenic Rivers",
+                  "usage_terms": "Public domain",
+                  "description": "Our July #conservationlands15 Bucket List Location: Take a step back in time and paddle through history along the BLM Upper Missouri Wild and Scenic River in Montana\n“The hills and river Clifts which we passed today exhibit a most romantic appearance…. The bluffs of the river rise to hight of from 2 to 300 feet and in most places nearly perpendicular; they are formed of remarkable white sandstone which is sufficiently soft to give way readily to the impression of water…” Meriwether Lewis,  May 31, 1805.\nYou can camp in the same locations as the 1805 Lewis and Clark expedition on your multi-day canoe expedition down the “Big Muddy”.  The river is a relatively easy paddle with current and riffles but no major rapids. Along the way, camp under the shade of spreading cottonwoods and try your luck catching a paddlefish – some weigh over 100 pounds.  The Breaks Country surrounding the river offers opportunities for scrambles and cross country hikes to the bluffs above.  \nThe unique geology and harsh landscapes that were extensively described by Lewis and Clark are in a condition that has changed little since the passage of the expedition.   Historic homesteads dot the river banks, and remnants of the steamboat era remain in inscriptions that were etched on the rock walls.  \n\nPhoto by Bob Wick, BLM"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7525
+        },
+        {
+          "name": "C.M. Russell Museum Complex",
+          "ai_summary": "A museum dedicated to the works of Charles Marion Russell, featuring paintings, sculptures, and artifacts.",
+          "name_english": "C.M. Russell Museum Complex",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the museum shop for unique art and cultural gifts.",
+          "advanced_booking": "N/A",
+          "coordinates": {
+            "latitude": 47.477,
+            "longitude": -111.29
+          },
+          "address": "400 13th St N, Great Falls, MT 59401, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Art",
+            "Culture"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:046CupolaSPietro.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "046CupolaSPietro",
+                  "author": "MarkusMark",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Città del Vaticano - Cupola della Basilica di S. Pietro"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7965
+        },
+        {
+          "name": "Beartooth Highway",
+          "ai_summary": "A scenic byway known for its stunning mountain views, especially beautiful in the summer and fall.",
+          "name_english": "Beartooth Highway",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30 AM",
+          "sunset_time": "09:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Road conditions may vary; check before traveling."
+          },
+          "suggested_duration": "1 day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Stop at the many pullouts for breathtaking photos and views.",
+          "advanced_booking": "N/A",
+          "coordinates": {
+            "latitude": 45.02,
+            "longitude": -109.446
+          },
+          "address": "Beartooth Highway, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic Byway",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:4th Av Downtown Billings, Montana.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/4th_Av_Downtown_Billings%2C_Montana.JPG/960px-4th_Av_Downtown_Billings%2C_Montana.JPG",
+                "width": 800,
+                "height": 573,
+                "attribution": {
+                  "title": "4th Av Downtown Billings, Montana",
+                  "author": "Sara goth",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:4th_Av_Downtown_Billings,_Montana.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "4th Av Downtown Billings, Montana"
+                }
+              }
+            }
+          },
+          "rank_score": 0.821
+        },
+        {
+          "name": "Pictograph Cave State Park",
+          "ai_summary": "A state park featuring ancient rock art, hiking trails, and a visitor center.",
+          "name_english": "Pictograph Cave State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Visitor center hours may vary."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Take a guided tour to learn about the history and significance of the rock art.",
+          "advanced_booking": "Recommended for guided tours",
+          "coordinates": {
+            "latitude": 45.756,
+            "longitude": -108.542
+          },
+          "address": "Pictograph Cave State Park, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "State Park",
+            "Rock Art",
+            "Hiking"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Montana.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Montana.svg/800px-Flag_of_Montana.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Montana",
+                  "author": "N.a",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Montana.svg",
+                  "credit": "xrmap flag collection, specifically \"usa_montana.svg\" in flags-2.7-src.tar.bz2",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Montana"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7385
+        },
+        {
+          "name": "National Bison Range",
+          "ai_summary": "A wildlife refuge dedicated to the conservation of bison and other native species.",
+          "name_english": "National Bison Range",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "07:00 - 19:00",
+            "Tuesday": "07:00 - 19:00",
+            "Wednesday": "07:00 - 19:00",
+            "Thursday": "07:00 - 19:00",
+            "Friday": "07:00 - 19:00",
+            "Saturday": "07:00 - 19:00",
+            "Sunday": "07:00 - 19:00",
+            "notes": "Visitor center hours may vary."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Drive the scenic loop for the best chance to see bison and other wildlife.",
+          "advanced_booking": "N/A",
+          "coordinates": {
+            "latitude": 47.366,
+            "longitude": -114.042
+          },
+          "address": "National Bison Range, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Wildlife Refuge",
+            "Nature",
+            "Conservation"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Red pog.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/800px-Red_pog.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Red pog",
+                  "author": "Andux",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Red_pog.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Shiny red button/marker widget. Used to mark the location of something such as a tourist attraction."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7802
+        },
+        {
+          "name": "Helena Cathedral",
+          "ai_summary": "A stunning example of Gothic Revival architecture, located in the state capital, Helena.",
+          "name_english": "Helena Cathedral",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Attend a service or concert for a unique experience of the cathedral's acoustics.",
+          "advanced_booking": "N/A",
+          "coordinates": {
+            "latitude": 46.588,
+            "longitude": -112.043
+          },
+          "address": "530 N Ewing St, Helena, MT 59601, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Cathedral",
+            "Architecture",
+            "History"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Atlas Block.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atlas_Block.jpg/800px-Atlas_Block.jpg",
+                "width": 800,
+                "height": 872,
+                "attribution": {
+                  "title": "Atlas Block",
+                  "author": "Montanabw",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Atlas_Block.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Atlas Block, Last Chance Gulch, downtown building part of Helena Historic District on National Register of Historic Places, Helena, Montana"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7732
+        },
+        {
+          "name": "Wild Horse Island State Park",
+          "ai_summary": "A state park located on an island in Flathead Lake, known for its wild horses and hiking trails.",
+          "name_english": "Wild Horse Island State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Access by boat or swim; no developed facilities."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Bring water and snacks, and wear sturdy shoes for hiking.",
+          "advanced_booking": "N/A",
+          "coordinates": {
+            "latitude": 48.207,
+            "longitude": -114.109
+          },
+          "address": "Wild Horse Island State Park, Montana, USA",
+          "official_website": "N/A",
+          "tags": [
+            "State Park",
+            "Wildlife",
+            "Hiking"
+          ],
+          "state": "Montana",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:-conservationlands15 Social Media Takeover, July 15th, Wild and Scenic Rivers (19863603006).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/-conservationlands15_Social_Media_Takeover%2C_July_15th%2C_Wild_and_Scenic_Rivers_%2819863603006%29.jpg/960px--conservationlands15_Social_Media_Takeover%2C_July_15th%2C_Wild_and_Scenic_Rivers_%2819863603006%29.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "-conservationlands15 Social Media Takeover, July 15th, Wild and Scenic Rivers (19863603006)",
+                  "author": "Bureau  of Land Management",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:-conservationlands15_Social_Media_Takeover,_July_15th,_Wild_and_Scenic_Rivers_(19863603006).jpg",
+                  "credit": "#conservationlands15 Social Media Takeover, July 15th, Wild and Scenic Rivers",
+                  "usage_terms": "Public domain",
+                  "description": "Our July #conservationlands15 Bucket List Location: Take a step back in time and paddle through history along the BLM Upper Missouri Wild and Scenic River in Montana\n“The hills and river Clifts which we passed today exhibit a most romantic appearance…. The bluffs of the river rise to hight of from 2 to 300 feet and in most places nearly perpendicular; they are formed of remarkable white sandstone which is sufficiently soft to give way readily to the impression of water…” Meriwether Lewis,  May 31, 1805.\nYou can camp in the same locations as the 1805 Lewis and Clark expedition on your multi-day canoe expedition down the “Big Muddy”.  The river is a relatively easy paddle with current and riffles but no major rapids. Along the way, camp under the shade of spreading cottonwoods and try your luck catching a paddlefish – some weigh over 100 pounds.  The Breaks Country surrounding the river offers opportunities for scrambles and cross country hikes to the bluffs above.  \nThe unique geology and harsh landscapes that were extensively described by Lewis and Clark are in a condition that has changed little since the passage of the expedition.   Historic homesteads dot the river banks, and remnants of the steamboat era remain in inscriptions that were etched on the rock walls.  \n\nPhoto by Bob Wick, BLM"
+                }
+              }
+            }
+          },
+          "rank_score": 0.756
+        }
+      ]
+    }
+  ]
+}

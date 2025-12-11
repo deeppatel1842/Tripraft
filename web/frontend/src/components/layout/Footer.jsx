@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import GlobalConfig from '../../config/globalConfig';
 import '../css/Footer.css';
 
@@ -32,7 +33,7 @@ const Footer = () => {
             <h4 className="footer-heading">Product</h4>
             <ul className="footer-links">
               <li><a href="#features" onClick={(e) => { e.preventDefault(); scrollToSection('features'); }}>Features</a></li>
-              <li><a href="#pricing" onClick={(e) => { e.preventDefault(); scrollToSection('pricing'); }}>Pricing</a></li>
+              <li><Link to="/pricing">Pricing</Link></li>
               <li><a href="#" onClick={(e) => e.preventDefault()}>Updates</a></li>
             </ul>
           </div>
@@ -40,9 +41,9 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-heading">Company</h4>
             <ul className="footer-links">
-              <li><a href="#" onClick={(e) => e.preventDefault()}>About Us</a></li>
+              <li><Link to="/about">About Us</Link></li>
               <li><a href="#" onClick={(e) => e.preventDefault()}>Careers</a></li>
-              <li><a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
           

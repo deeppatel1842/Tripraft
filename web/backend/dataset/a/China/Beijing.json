@@ -1,0 +1,1092 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "The Great Wall of China (Mutianyu Section)",
+          "ai_summary": "The Mutianyu section of the Great Wall combines well-preserved wall architecture with dramatic mountain scenery and fewer crowds than Badaling.",
+          "name_english": "Mutianyu Great Wall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:50",
+          "sunset_time": "17:20",
+          "cost": "Paid",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "07:30 - 17:30",
+            "tue": "07:30 - 17:30",
+            "wed": "07:30 - 17:30",
+            "thu": "07:30 - 17:30",
+            "fri": "07:30 - 17:30",
+            "sat": "07:30 - 17:30",
+            "sun": "07:30 - 17:30",
+            "notes": "Cable car and toboggan services may operate on seasonal schedules."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Early morning",
+          "place_tip": "Arrive early to avoid afternoon tour buses and take the cable car up to save time.",
+          "advanced_booking": "Recommended for weekends",
+          "coordinates": {
+            "lat": 40.4319,
+            "lng": 116.5704
+          },
+          "address": "Mutianyu, Huairou District, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "World Heritage",
+            "Hiking",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:China-Grosse Mauer-118-Bogen-2012-gje.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/China-Grosse_Mauer-118-Bogen-2012-gje.jpg/960px-China-Grosse_Mauer-118-Bogen-2012-gje.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "China-Grosse Mauer-118-Bogen-2012-gje",
+                  "author": "Gerd Eichmann",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:China-Grosse_Mauer-118-Bogen-2012-gje.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Forbidden City (Palace Museum)",
+          "ai_summary": "The Forbidden City is the imperial palace complex at the center of Beijing, housing extensive collections of Chinese art and cultural artifacts.",
+          "name_english": "Forbidden City",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "08:30 - 17:00",
+            "tue": "08:30 - 17:00",
+            "wed": "08:30 - 17:00",
+            "thu": "08:30 - 17:00",
+            "fri": "08:30 - 17:00",
+            "sat": "08:30 - 17:00",
+            "sun": "08:30 - 17:00",
+            "notes": "Closed on certain public holidays; timed-entry tickets used during peak season."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Buy tickets online with a specific entry time and allow time to explore the surrounding Tiananmen and Jingshan Park.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 39.9163,
+            "lng": 116.3972
+          },
+          "address": "4 Jingshan Front St, Dongcheng, Beijing, China",
+          "official_website": "https://en.dpm.org.cn/",
+          "tags": [
+            "Museum",
+            "Historic",
+            "Palace"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Beijing 2006 2-48.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Beijing_2006_2-48.jpg/960px-Beijing_2006_2-48.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Beijing 2006 2-48",
+                  "author": "G41rn8",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Beijing_2006_2-48.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Tiananmen Square",
+          "ai_summary": "One of the largest public squares in the world, Tiananmen Square is a civic and historic focal point surrounded by monuments and government buildings.",
+          "name_english": "Tiananmen Square",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:55",
+          "sunset_time": "17:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Security checks may cause delays."
+          },
+          "suggested_duration": "30-60 minutes",
+          "best_time_to_visit": "Morning or evening",
+          "place_tip": "Combine with a visit to the Forbidden City and the National Museum of China.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.9087,
+            "lng": 116.3975
+          },
+          "address": "Tiananmen Square, Dongcheng, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Public Square",
+            "Monument"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:200401-beijing-tianan-square-overview.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/200401-beijing-tianan-square-overview.jpg/960px-200401-beijing-tianan-square-overview.jpg",
+                "width": 800,
+                "height": 269,
+                "attribution": {
+                  "title": "200401-beijing-tianan-square-overview",
+                  "author": "Nowozin at English Wikipedia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:200401-beijing-tianan-square-overview.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Summer Palace",
+          "ai_summary": "A vast imperial garden centered on Kunming Lake and Longevity Hill, the Summer Palace blends landscaping with historic pavilions and halls.",
+          "name_english": "Summer Palace",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "17:25",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "06:30 - 18:00",
+            "tue": "06:30 - 18:00",
+            "wed": "06:30 - 18:00",
+            "thu": "06:30 - 18:00",
+            "fri": "06:30 - 18:00",
+            "sat": "06:30 - 18:00",
+            "sun": "06:30 - 18:00",
+            "notes": "Boat rides and guided garden tours available seasonally."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Walk the Long Corridor and take a boat ride on Kunming Lake.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.9996,
+            "lng": 116.2755
+          },
+          "address": "19 Xinjiangongmen Rd, Haidian, Beijing, China",
+          "official_website": "http://www.summerpalace-china.com/",
+          "tags": [
+            "Park",
+            "Palace",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20090530 Beijing Summer Palace 8638.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/20090530_Beijing_Summer_Palace_8638.jpg/960px-20090530_Beijing_Summer_Palace_8638.jpg",
+                "width": 800,
+                "height": 1203,
+                "attribution": {
+                  "title": "20090530 Beijing Summer Palace 8638",
+                  "author": "Jakub Hałun",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20090530_Beijing_Summer_Palace_8638.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Temple of Heaven",
+          "ai_summary": "An example of Ming dynasty ceremonial architecture set in a large park, the Temple of Heaven was used by emperors for annual prayer rituals.",
+          "name_english": "Temple of Heaven",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "06:00 - 19:00",
+            "tue": "06:00 - 19:00",
+            "wed": "06:00 - 19:00",
+            "thu": "06:00 - 19:00",
+            "fri": "06:00 - 19:00",
+            "sat": "06:00 - 19:00",
+            "sun": "06:00 - 19:00",
+            "notes": "Park area is open early for local exercise groups."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit early to see locals practicing tai chi and to avoid crowds.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.8822,
+            "lng": 116.4066
+          },
+          "address": "Tiantan Rd, Dongcheng, Beijing, China",
+          "official_website": "https://www.templeofheaven.com/",
+          "tags": [
+            "Historic",
+            "Park",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:China Beijing adm location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/China_Beijing_adm_location_map.svg/960px-China_Beijing_adm_location_map.svg.png",
+                "width": 800,
+                "height": 803,
+                "attribution": {
+                  "title": "China Beijing adm location map",
+                  "author": "NordNordWest and OpenStreetMap contributors",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:China_Beijing_adm_location_map.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Beihai Park",
+          "ai_summary": "A historic imperial garden with a large lake, Beihai Park is a peaceful green space near central Beijing with temples and historic structures.",
+          "name_english": "Beihai Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:50",
+          "sunset_time": "17:20",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "06:30 - 18:00",
+            "tue": "06:30 - 18:00",
+            "wed": "06:30 - 18:00",
+            "thu": "06:30 - 18:00",
+            "fri": "06:30 - 18:00",
+            "sat": "06:30 - 18:00",
+            "sun": "06:30 - 18:00",
+            "notes": "Boat rentals available on the lake."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a walk to Jingshan Park for city views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.9256,
+            "lng": 116.3906
+          },
+          "address": "1 Wenjin St, Xicheng, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Lake",
+            "Historic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Beihai Park, Beijing3.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Beihai_Park%2C_Beijing3.JPG",
+                "width": 500,
+                "height": 333,
+                "attribution": {
+                  "title": "Beihai Park, Beijing3",
+                  "author": "Fan Yang",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Beihai_Park,_Beijing3.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Jingshan Park",
+          "ai_summary": "Located immediately north of the Forbidden City, Jingshan Park’s hilltop provides one of the best panoramic views of central Beijing.",
+          "name_english": "Jingshan Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:55",
+          "sunset_time": "17:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "06:00 - 20:00",
+            "tue": "06:00 - 20:00",
+            "wed": "06:00 - 20:00",
+            "thu": "06:00 - 20:00",
+            "fri": "06:00 - 20:00",
+            "sat": "06:00 - 20:00",
+            "sun": "06:00 - 20:00",
+            "notes": "Great for sunrise views over the Forbidden City."
+          },
+          "suggested_duration": "30-60 minutes",
+          "best_time_to_visit": "Sunrise",
+          "place_tip": "Climb early for unobstructed views of the Forbidden City and skyline.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.9162,
+            "lng": 116.3965
+          },
+          "address": "Jingshan, Dongcheng, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Viewpoint",
+            "Park",
+            "Panorama"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Beijing Jingshan Park.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Beijing_Jingshan_Park.JPG/960px-Beijing_Jingshan_Park.JPG",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Beijing Jingshan Park",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Beijing_Jingshan_Park.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "798 Art District",
+          "ai_summary": "A contemporary art zone housed in converted industrial factories, 798 is Beijing’s creative hub with galleries, cafes and boutiques.",
+          "name_english": "798 Art District",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "17:30",
+          "cost": "Free to enter galleries (some exhibits paid)",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "10:00 - 19:00",
+            "tue": "10:00 - 19:00",
+            "wed": "10:00 - 19:00",
+            "thu": "10:00 - 19:00",
+            "fri": "10:00 - 19:00",
+            "sat": "10:00 - 19:00",
+            "sun": "10:00 - 19:00",
+            "notes": "Hours vary by gallery; many cafes open late."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Wear comfortable shoes and leave time to explore side galleries and cafes.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.9859,
+            "lng": 116.497
+          },
+          "address": "Dashanzi Art District, Chaoyang, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Art",
+            "Culture",
+            "Galleries"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:798ArtZone2009.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/798ArtZone2009.jpg/960px-798ArtZone2009.jpg",
+                "width": 800,
+                "height": 541,
+                "attribution": {
+                  "title": "798ArtZone2009",
+                  "author": "Johndhackensacker3d",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:798ArtZone2009.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "National Museum of China",
+          "ai_summary": "One of the largest museums in the world, focusing on Chinese history and art, located on the eastern side of Tiananmen Square.",
+          "name_english": "National Museum of China",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid (many exhibitions free)",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "09:00 - 17:00",
+            "tue": "09:00 - 17:00",
+            "wed": "09:00 - 17:00",
+            "thu": "09:00 - 17:00",
+            "fri": "09:00 - 17:00",
+            "sat": "09:00 - 17:00",
+            "sun": "09:00 - 17:00",
+            "notes": "Online reservation often required for special exhibitions."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check the rotating exhibitions and reserve tickets in advance if needed.",
+          "advanced_booking": "Recommended for special exhibits",
+          "coordinates": {
+            "lat": 39.9042,
+            "lng": 116.3996
+          },
+          "address": "16 E Chang'an Ave, Dongcheng, Beijing, China",
+          "official_website": "http://en.chnmuseum.cn/",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:62684-Beijing-Tiananmen-Square (28609003992).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/62684-Beijing-Tiananmen-Square_%2828609003992%29.jpg/960px-62684-Beijing-Tiananmen-Square_%2828609003992%29.jpg",
+                "width": 800,
+                "height": 448,
+                "attribution": {
+                  "title": "62684-Beijing-Tiananmen-Square (28609003992)",
+                  "author": "xiquinhosilva",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:62684-Beijing-Tiananmen-Square_(28609003992).jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Wangfujing Street",
+          "ai_summary": "A major shopping street known for malls, boutiques and a popular night market featuring Chinese street food specialties.",
+          "name_english": "Wangfujing",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "17:30",
+          "cost": "Free to explore",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "10:00 - 22:00",
+            "tue": "10:00 - 22:00",
+            "wed": "10:00 - 22:00",
+            "thu": "10:00 - 22:00",
+            "fri": "10:00 - 22:00",
+            "sat": "10:00 - 22:00",
+            "sun": "10:00 - 22:00",
+            "notes": "Night market opens in the evening; be mindful of crowds."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try local snacks at the night market but be cautious if you have dietary restrictions.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.9139,
+            "lng": 116.4136
+          },
+          "address": "Wangfujing, Dongcheng, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Shopping",
+            "Food",
+            "Night Market"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Beijing Wangfujing 20170806.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Beijing_Wangfujing_20170806.jpg/960px-Beijing_Wangfujing_20170806.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Beijing Wangfujing 20170806",
+                  "author": "Hal 0005",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Beijing_Wangfujing_20170806.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Hutongs of Beijing (Nanluoguxiang)",
+          "ai_summary": "Nanluoguxiang is a charming lane within Beijing's traditional hutongs, lined with shops, cafes, and preserved courtyard homes.",
+          "name_english": "Nanluoguxiang Hutong",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "17:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Small shops open mostly in the afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore side alleys for quieter, more authentic scenes and small teahouses.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.9371,
+            "lng": 116.4039
+          },
+          "address": "Nanluoguxiang, Dongcheng, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Neighborhood",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2016-09-04 Beijing Nanluoguxiang anagoria 23.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/2016-09-04_Beijing_Nanluoguxiang_anagoria_23.jpg/960px-2016-09-04_Beijing_Nanluoguxiang_anagoria_23.jpg",
+                "width": 800,
+                "height": 450,
+                "attribution": {
+                  "title": "2016-09-04 Beijing Nanluoguxiang anagoria 23",
+                  "author": "Anagoria",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2016-09-04_Beijing_Nanluoguxiang_anagoria_23.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lama Temple (Yonghe Temple)",
+          "ai_summary": "A well-preserved Tibetan Buddhist monastery known for its ornate architecture and large Buddha statues.",
+          "name_english": "Yonghe Temple",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "09:00 - 16:30",
+            "tue": "09:00 - 16:30",
+            "wed": "09:00 - 16:30",
+            "thu": "09:00 - 16:30",
+            "fri": "09:00 - 16:30",
+            "sat": "09:00 - 16:30",
+            "sun": "09:00 - 16:30",
+            "notes": "Respectful attire required; photography may be restricted inside halls."
+          },
+          "suggested_duration": "45-90 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Observe prayer rituals quietly and avoid flash photography.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.9553,
+            "lng": 116.4167
+          },
+          "address": "12 Yonghegong St, Dongcheng, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Religious",
+            "Historic",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20130915-Beijing-Yonghegong Lama Temple-Statue of Tsong-kha-pa.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/20130915-Beijing-Yonghegong_Lama_Temple-Statue_of_Tsong-kha-pa.JPG/960px-20130915-Beijing-Yonghegong_Lama_Temple-Statue_of_Tsong-kha-pa.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "20130915-Beijing-Yonghegong Lama Temple-Statue of Tsong-kha-pa",
+                  "author": "Rewindat(Pan Xuan)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20130915-Beijing-Yonghegong_Lama_Temple-Statue_of_Tsong-kha-pa.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Olympic Park & Bird’s Nest Stadium",
+          "ai_summary": "The 2008 Olympic Park features iconic stadium architecture like the Bird's Nest and the Water Cube, plus large public spaces and museums.",
+          "name_english": "Olympic Park",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "17:30",
+          "cost": "Paid for stadium tours",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "09:00 - 18:00",
+            "tue": "09:00 - 18:00",
+            "wed": "09:00 - 18:00",
+            "thu": "09:00 - 18:00",
+            "fri": "09:00 - 18:00",
+            "sat": "09:00 - 18:00",
+            "sun": "09:00 - 18:00",
+            "notes": "Events may change opening times."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check event schedules and book stadium tours ahead of time.",
+          "advanced_booking": "Recommended for tours",
+          "coordinates": {
+            "lat": 39.9911,
+            "lng": 116.3965
+          },
+          "address": "Olympic Green, Chaoyang, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Modern",
+            "Architecture",
+            "Sport"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2000-09-23 GracieByDownedCyprus.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/2000-09-23_GracieByDownedCyprus.jpg/960px-2000-09-23_GracieByDownedCyprus.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2000-09-23 GracieByDownedCyprus",
+                  "author": "Paul Schultz from Kenmore, USA",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2000-09-23_GracieByDownedCyprus.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Beijing Zoo & Panda House",
+          "ai_summary": "Home to a wide range of animals including giant pandas, the Beijing Zoo is a family-friendly attraction with botanical displays.",
+          "name_english": "Beijing Zoo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.0,
+          "opening_hours": {
+            "mon": "07:30 - 17:00",
+            "tue": "07:30 - 17:00",
+            "wed": "07:30 - 17:00",
+            "thu": "07:30 - 17:00",
+            "fri": "07:30 - 17:00",
+            "sat": "07:30 - 17:00",
+            "sun": "07:30 - 17:00",
+            "notes": "Panda viewing times can be busy; arrive early."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the nearby Beijing Aquarium if interested.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.9407,
+            "lng": 116.3319
+          },
+          "address": "No.137 Xizhimenwai Street, Xicheng, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Zoo",
+            "Family",
+            "Wildlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Beijing Zoo - Oct 2009 - IMG 1213.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Beijing_Zoo_-_Oct_2009_-_IMG_1213.jpg/960px-Beijing_Zoo_-_Oct_2009_-_IMG_1213.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Beijing Zoo - Oct 2009 - IMG 1213",
+                  "author": "Daderot",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Beijing_Zoo_-_Oct_2009_-_IMG_1213.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Panjiayuan Antique Market",
+          "ai_summary": "A sprawling weekend market specializing in antiques, crafts and collectibles — a favorite for treasure hunters and photographers.",
+          "name_english": "Panjiayuan Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free to browse",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "09:00 - 18:00",
+            "wed": "09:00 - 18:00",
+            "thu": "09:00 - 18:00",
+            "fri": "09:00 - 18:00",
+            "sat": "09:00 - 18:00",
+            "sun": "09:00 - 18:00",
+            "notes": "Most lively on weekends; bargain respectfully."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring cash for small purchases and be ready to haggle politely.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.8841,
+            "lng": 116.4344
+          },
+          "address": "Panjiayuan, Chaoyang, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Market",
+            "Antiques",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2016-09-10 Beijing Panjiayuan market 34 anagoria.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/2016-09-10_Beijing_Panjiayuan_market_34_anagoria.jpg/960px-2016-09-10_Beijing_Panjiayuan_market_34_anagoria.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2016-09-10 Beijing Panjiayuan market 34 anagoria",
+                  "author": "Anagoria",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2016-09-10_Beijing_Panjiayuan_market_34_anagoria.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Houhai Lake",
+          "ai_summary": "A popular nightlife and dining area around interconnected lakes with hutongs, bars and boat rides.",
+          "name_english": "Houhai",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:55",
+          "sunset_time": "17:15",
+          "cost": "Free to enter",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Evening is liveliest for bars and restaurants."
+          },
+          "suggested_duration": "1-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Stroll the lakeside and try local restaurants; boat rides are scenic at dusk.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.943,
+            "lng": 116.3854
+          },
+          "address": "Houhai, Xicheng, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Lakeside",
+            "Nightlife",
+            "Dining"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Beijinghouhaiboat.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Beijinghouhaiboat.jpg/960px-Beijinghouhaiboat.jpg",
+                "width": 800,
+                "height": 532,
+                "attribution": {
+                  "title": "Beijinghouhaiboat",
+                  "author": "Cygnus78",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Beijinghouhaiboat.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Prince Gong Mansion",
+          "ai_summary": "A well-preserved Qing dynasty mansion offering gardens, courtyards and exhibitions on aristocratic life in imperial Beijing.",
+          "name_english": "Prince Gong's Mansion",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "09:00 - 17:00",
+            "tue": "09:00 - 17:00",
+            "wed": "09:00 - 17:00",
+            "thu": "09:00 - 17:00",
+            "fri": "09:00 - 17:00",
+            "sat": "09:00 - 17:00",
+            "sun": "09:00 - 17:00",
+            "notes": "Quiet, historically rich site near the Houhai area."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Pair with a walk through nearby hutongs for a full historic experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.9392,
+            "lng": 116.383
+          },
+          "address": "No.17 Qianhai East St, Xicheng, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Museum",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Capital Museum",
+          "ai_summary": "A modern museum dedicated to the history and culture of Beijing and the surrounding region with rotating exhibitions.",
+          "name_english": "Capital Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "mon": "09:00 - 17:00",
+            "tue": "09:00 - 17:00",
+            "wed": "09:00 - 17:00",
+            "thu": "09:00 - 17:00",
+            "fri": "09:00 - 17:00",
+            "sat": "09:00 - 17:00",
+            "sun": "09:00 - 17:00",
+            "notes": "Closed on some national holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Good alternative to the busier national museum for local history exhibitions.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.8883,
+            "lng": 116.3188
+          },
+          "address": "16 Fuxing Rd, Xicheng, Beijing, China",
+          "official_website": "http://www.capitalmuseum.org.cn/",
+          "tags": [
+            "Museum",
+            "Culture",
+            "Local History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Capital Change.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Capital_Change.jpg/960px-Capital_Change.jpg",
+                "width": 960,
+                "height": 1084,
+                "attribution": {
+                  "title": "Capital Change.jpg",
+                  "author": "Maps.interlude",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Capital_Change.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Zhongshan Park",
+          "ai_summary": "A compact, well-kept park with historic pavilions close to the Forbidden City, popular for strolls and local gatherings.",
+          "name_english": "Zhongshan Park",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.1,
+          "rating_traveler_experience": 4.0,
+          "opening_hours": {
+            "mon": "06:30 - 19:00",
+            "tue": "06:30 - 19:00",
+            "wed": "06:30 - 19:00",
+            "thu": "06:30 - 19:00",
+            "fri": "06:30 - 19:00",
+            "sat": "06:30 - 19:00",
+            "sun": "06:30 - 19:00",
+            "notes": "Small park — pair with Forbidden City visit."
+          },
+          "suggested_duration": "30-60 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Enter from the east gate to reach pavilion viewpoints quickly.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.917,
+            "lng": 116.3974
+          },
+          "address": "Zhongshan Park, Dongcheng, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Historic",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Sun Wen Memorial Park 140501.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Sun_Wen_Memorial_Park_140501.jpg/960px-Sun_Wen_Memorial_Park_140501.jpg",
+                "width": 800,
+                "height": 448,
+                "attribution": {
+                  "title": "Sun Wen Memorial Park 140501",
+                  "author": "Sdee",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sun_Wen_Memorial_Park_140501.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Beijing Botanical Garden",
+          "ai_summary": "Large botanical gardens featuring themed plant collections, greenhouses and seasonal flower displays on the western edge of the city.",
+          "name_english": "Beijing Botanical Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:40",
+          "sunset_time": "17:10",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.1,
+          "opening_hours": {
+            "mon": "08:00 - 17:00",
+            "tue": "08:00 - 17:00",
+            "wed": "08:00 - 17:00",
+            "thu": "08:00 - 17:00",
+            "fri": "08:00 - 17:00",
+            "sat": "08:00 - 17:00",
+            "sun": "08:00 - 17:00",
+            "notes": "Best in spring when flowers are in bloom."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring mornings",
+          "place_tip": "Check the greenhouse schedules for special exhibits.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.9993,
+            "lng": 116.1879
+          },
+          "address": "Xiangshan, Haidian, Beijing, China",
+          "official_website": "N/A",
+          "tags": [
+            "Botanical",
+            "Nature",
+            "Family"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Beijing Botanical Garden - Oct 09 - IMG 1193.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Beijing_Botanical_Garden_-_Oct_09_-_IMG_1193.jpg/960px-Beijing_Botanical_Garden_-_Oct_09_-_IMG_1193.jpg",
+                "width": 960,
+                "height": 720,
+                "attribution": {
+                  "title": "Beijing Botanical Garden - Oct 09 - IMG 1193.jpg",
+                  "author": "Daderot",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Beijing_Botanical_Garden_-_Oct_09_-_IMG_1193.jpg"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

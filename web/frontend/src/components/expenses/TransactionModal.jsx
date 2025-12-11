@@ -47,12 +47,34 @@ const TransactionModal = ({
       const splitWithValue = editingTransaction.splitWith || 
         (editingTransaction.splits ? editingTransaction.splits.map(s => s.user_id) : []);
       
+      // 🔧 FIX: Format date to yyyy-MM-dd for HTML date input
+      // Backend may return ISO format like "2025-11-26T00:00:00", expense_date field, or Firestore Timestamp
+      let dateValue = editingTransaction.date || editingTransaction.expense_date || new Date().toISOString();
+      
+      // Handle Firestore Timestamp objects
+      if (dateValue && typeof dateValue === 'object' && dateValue.toDate) {
+        dateValue = dateValue.toDate().toISOString().split('T')[0];
+      } else if (dateValue && typeof dateValue === 'object' && dateValue.seconds) {
+        // Firestore Timestamp as plain object
+        dateValue = new Date(dateValue.seconds * 1000).toISOString().split('T')[0];
+      } else if (typeof dateValue === 'string' && dateValue.includes('T')) {
+        // ISO format - extract just the date part
+        dateValue = dateValue.split('T')[0];
+      } else if (typeof dateValue === 'string' && dateValue.includes(' ')) {
+        // Datetime with space - extract just the date part
+        dateValue = dateValue.split(' ')[0];
+      }
+      // Ensure valid format, fallback to today
+      if (!dateValue || !/^\d{4}-\d{2}-\d{2}$/.test(dateValue)) {
+        dateValue = new Date().toISOString().split('T')[0];
+      }
+      
       setFormData({
         type: isIncome ? 'income' : 'expense',
         description: editingTransaction.description || '',
         amount: editingTransaction.amount || '',
         category: editingTransaction.category || 'Food',
-        date: editingTransaction.date || new Date().toISOString().split('T')[0],
+        date: dateValue,
         paidBy: paidByValue,
         splitWith: splitWithValue
       });
@@ -60,7 +82,8 @@ const TransactionModal = ({
       console.log('📝 Editing transaction loaded:', {
         id: editingTransaction.id,
         paidBy: paidByValue,
-        splitWith: splitWithValue
+        splitWith: splitWithValue,
+        date: dateValue
       });
     } else if (mode === 'group' && members && members.length > 0) {
       const firstMemberId = getMemberId(members[0]);

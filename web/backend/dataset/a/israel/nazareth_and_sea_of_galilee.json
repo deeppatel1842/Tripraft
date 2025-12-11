@@ -1,0 +1,907 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Basilica of the Annunciation",
+          "ai_summary": "A significant Christian site believed to be the location where the Angel Gabriel announced the birth of Jesus to Mary.",
+          "name_english": "Basilica of the Annunciation",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Closed during religious services."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit early to avoid crowds and enjoy the serene atmosphere.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.704,
+            "longitude": 35.297
+          },
+          "address": "Nazareth, Israel",
+          "official_website": "https://www.basilicanazareth.org/",
+          "tags": [
+            "Religion",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20230113- DSC9611.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/20230113-_DSC9611.jpg/960px-20230113-_DSC9611.jpg",
+                "width": 800,
+                "height": 802,
+                "attribution": {
+                  "title": "20230113- DSC9611",
+                  "author": "NataliaLazy",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20230113-_DSC9611.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Basilica of Annunciation in Nazareth, a stain-glass window"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Nazareth Village",
+          "ai_summary": "A reconstructed first-century village offering a glimpse into the life and times of Jesus.",
+          "name_english": "Nazareth Village",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Guided tours are available at specific times."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Book a guided tour to fully experience the village.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 32.7017,
+            "longitude": 35.3035
+          },
+          "address": "Nazareth, Israel",
+          "official_website": "https://www.nazarethvillage.com/",
+          "tags": [
+            "History",
+            "Culture",
+            "Education"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:127779 nazareth - the white mosque - jamaa al abyad PikiWiki Israel.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/127779_nazareth_-_the_white_mosque_-_jamaa_al_abyad_PikiWiki_Israel.jpg/960px-127779_nazareth_-_the_white_mosque_-_jamaa_al_abyad_PikiWiki_Israel.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "127779 nazareth - the white mosque - jamaa al abyad PikiWiki Israel",
+                  "author": "Unknown authorUnknown author",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:127779_nazareth_-_the_white_mosque_-_jamaa_al_abyad_PikiWiki_Israel.jpg",
+                  "credit": "Shlomo Roded via the PikiWiki - Israel free image collection project",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "Name: Nazareth - The White Mosque - Jama'a Al AbyadDescription: The White Mosque - meaning purity and truth - serves the Muslim population of the city, about 75 percent of whose residents are Muslims and the rest are Christians according to the distribution of the various sects. It is located in the heart of the old city near the market and is the oldest of the mosques in Nazareth. It was built in the early 19th century and in the courtyard is buried the builder of the \"Al Fahum\" mosque."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mount Precipice",
+          "ai_summary": "A scenic hill offering panoramic views of Nazareth and the Jezreel Valley, associated with biblical events.",
+          "name_english": "Mount Precipice",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunrise or sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Bring a camera to capture the stunning views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.6947,
+            "longitude": 35.2922
+          },
+          "address": "Nazareth, Israel",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Religion",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Charles de Foucauld avec son neveu et filleul Charles de Blic à Barbirey.tif",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Charles_de_Foucauld_avec_son_neveu_et_filleul_Charles_de_Blic_%C3%A0_Barbirey.tif/lossless-page1-800px-Charles_de_Foucauld_avec_son_neveu_et_filleul_Charles_de_Blic_%C3%A0_Barbirey.tif.png",
+                "width": 800,
+                "height": 1130,
+                "attribution": {
+                  "title": "Charles de Foucauld avec son neveu et filleul Charles de Blic à Barbirey",
+                  "author": "Unknown authorUnknown author",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Charles_de_Foucauld_avec_son_neveu_et_filleul_Charles_de_Blic_à_Barbirey.tif",
+                  "credit": "Photographie",
+                  "usage_terms": "Public domain",
+                  "description": "Photographie du Père Charles de Foucauld (1858-1916) avec son neveu et filleul Charles de Blic (1887-1965), au château de Barbirey"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Sea of Galilee",
+          "ai_summary": "A freshwater lake surrounded by historic and religious sites, offering boat rides and serene views.",
+          "name_english": "Sea of Galilee",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunrise or sunset."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take a boat ride to fully experience the lake.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8333,
+            "longitude": 35.5833
+          },
+          "address": "Sea of Galilee, Israel",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Religion",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ArTiberias.ogg",
+              "thumbnail": {
+                "url": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "ArTiberias",
+                  "author": "Ramallite at English Wikipedia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ArTiberias.ogg",
+                  "credit": "Transferred from en.wikipedia to Commons by Faigl.ladislav using CommonsHelper.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Pronunciation of \"Lake of Tiberias\" in Arabic"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Capernaum",
+          "ai_summary": "An ancient village on the Sea of Galilee, known as the home of Jesus during his ministry.",
+          "name_english": "Capernaum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the ancient synagogue and the church built over St. Peter’s house.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8803,
+            "longitude": 35.5733
+          },
+          "address": "Capernaum, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ancient synagogue remains.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Ancient_synagogue_remains.JPG/960px-Ancient_synagogue_remains.JPG",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Ancient synagogue remains",
+                  "author": "Yourway-to-israel",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_synagogue_remains.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A photo from Capernaum at the ancient synagogue area"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Tabgha",
+          "ai_summary": "The traditional site of the Miracle of the Loaves and Fishes, featuring beautiful mosaics.",
+          "name_english": "Tabgha",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the stunning mosaics in the church.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8833,
+            "longitude": 35.5667
+          },
+          "address": "Tabgha, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Art"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ancient synagogue remains.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Ancient_synagogue_remains.JPG/960px-Ancient_synagogue_remains.JPG",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Ancient synagogue remains",
+                  "author": "Yourway-to-israel",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_synagogue_remains.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A photo from Capernaum at the ancient synagogue area"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mount of Beatitudes",
+          "ai_summary": "The site where Jesus is believed to have delivered the Sermon on the Mount, featuring a beautiful church and gardens.",
+          "name_english": "Mount of Beatitudes",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Closed during religious services."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the beautiful gardens and enjoy the view over the Sea of Galilee.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8333,
+            "longitude": 35.5667
+          },
+          "address": "Mount of Beatitudes, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Accademia - Giambattista tiepolo - Esaltazione della croce, 1740-45 ca.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Accademia_-_Giambattista_tiepolo_-_Esaltazione_della_croce%2C_1740-45_ca.jpg/960px-Accademia_-_Giambattista_tiepolo_-_Esaltazione_della_croce%2C_1740-45_ca.jpg",
+                "width": 800,
+                "height": 784,
+                "attribution": {
+                  "title": "Italian:  L'esaltazione della Croce e sant' Elena Discovery of the True Crosstitle QS:P1476,it:\"L'esaltazione della Croce e sant' Elena \"label QS:Lit,\"L'esaltazione della Croce e sant' Elena \"label QS:Lde,\"Die Auffindung des wahren Kreuzes\"label QS:Luk,\"Свята Олена знаходить Істинний Хрест\"label QS:Len,\"Discovery of the True Cross\"label QS:Lru,\"Святая Елена находит Истинный Крест\"label QS:Lfr,\"Exaltation de la Croix (Tiepolo)\"",
+                  "author": "Giovanni Battista Tiepolo",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Accademia_-_Giambattista_tiepolo_-_Esaltazione_della_croce,_1740-45_ca.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The Fest of the Cross and St. Helena  by Giambattista Tiepolo, Gallerie dell'Accademia in Venice.\nOil on canvas, (1740-45). Diameter 500 cm. Acquisition 1913 - Coll. Generoso Anes of Toledo.\nInventory number: Cat.789"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Yardenit",
+          "ai_summary": "A popular baptismal site on the Jordan River, believed to be near the location of Jesus' baptism.",
+          "name_english": "Yardenit",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a change of clothes if you plan to be baptized.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.6833,
+            "longitude": 35.5667
+          },
+          "address": "Yardenit, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Archaeological site icon (red).svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Archaeological_site_icon_%28red%29.svg/800px-Archaeological_site_icon_%28red%29.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Archaeological site icon (red)",
+                  "author": "Edgars2007",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Archaeological_site_icon_(red).svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Archaeological site icon"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Magdala",
+          "ai_summary": "An archaeological site with remains of an ancient synagogue and other structures from the time of Jesus.",
+          "name_english": "Magdala",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the ancient synagogue and the church built over the site.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8833,
+            "longitude": 35.57
+          },
+          "address": "Magdala, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Archaeology"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ancient synagogue remains.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Ancient_synagogue_remains.JPG/960px-Ancient_synagogue_remains.JPG",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Ancient synagogue remains",
+                  "author": "Yourway-to-israel",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_synagogue_remains.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A photo from Capernaum at the ancient synagogue area"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Hamat Tiberias",
+          "ai_summary": "A national park featuring ancient ruins, a museum, and hot springs on the shores of the Sea of Galilee.",
+          "name_english": "Hamat Tiberias",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the ancient ruins and enjoy a dip in the hot springs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.7942,
+            "longitude": 35.5706
+          },
+          "address": "Hamat Tiberias, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Arbel",
+          "ai_summary": "A national park with stunning views of the Sea of Galilee, hiking trails, and ancient ruins.",
+          "name_english": "Arbel",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunrise or sunset."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Sunrise",
+          "place_tip": "Wear sturdy shoes for hiking and bring water.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.7833,
+            "longitude": 35.5667
+          },
+          "address": "Arbel, Israel",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Religion",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Blank.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Blank.png",
+                "width": 3,
+                "height": 2,
+                "attribution": {
+                  "title": "Blank",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Blank.png",
+                  "credit": null,
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ein Gev",
+          "ai_summary": "A kibbutz and beach area on the Sea of Galilee, offering water sports and a scenic promenade.",
+          "name_english": "Ein Gev",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunrise or sunset."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Enjoy water sports or relax on the beach.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.6833,
+            "longitude": 35.5833
+          },
+          "address": "Ein Gev, Israel",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Religion",
+            "Beach"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Afikim 2014 July 04.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Afikim_2014_July_04.JPG/960px-Afikim_2014_July_04.JPG",
+                "width": 800,
+                "height": 450,
+                "attribution": {
+                  "title": "Afikim 2014 July 04",
+                  "author": "Talmoryair",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Afikim_2014_July_04.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Afikim"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Jordan Park",
+          "ai_summary": "A park at the confluence of the Jordan River and the Sea of Galilee, featuring walking trails and birdwatching.",
+          "name_english": "Jordan Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunrise or sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring binoculars for birdwatching.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.6833,
+            "longitude": 35.5667
+          },
+          "address": "Jordan Park, Israel",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Religion",
+            "Park"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Archaeological site icon (red).svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Archaeological_site_icon_%28red%29.svg/800px-Archaeological_site_icon_%28red%29.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Archaeological site icon (red)",
+                  "author": "Edgars2007",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Archaeological_site_icon_(red).svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Archaeological site icon"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ginosar",
+          "ai_summary": "A kibbutz and archaeological site near the Sea of Galilee, known for the Ancient Boat Museum.",
+          "name_english": "Ginosar",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the Ancient Boat Museum and the nearby beach.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8833,
+            "longitude": 35.5833
+          },
+          "address": "Ginosar, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Archaeology"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Capernaum.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Capernaum.jpg/960px-Capernaum.jpg",
+                "width": 800,
+                "height": 572,
+                "attribution": {
+                  "title": "Capernaum",
+                  "author": "Sergey Serous",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Capernaum.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Capernaum - The Greek orthodox monastery"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Kursi",
+          "ai_summary": "The site of the ancient city of Gergesa, associated with the miracle of the swine, featuring a church and ruins.",
+          "name_english": "Kursi",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the ruins and enjoy the view of the Sea of Galilee.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8833,
+            "longitude": 35.5833
+          },
+          "address": "Kursi, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Archaeology"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Al-Samakiyya.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Al-Samakiyya.png/800px-Al-Samakiyya.png",
+                "width": 800,
+                "height": 490,
+                "attribution": {
+                  "title": "Al-Samakiyya",
+                  "author": "Beagles postcards",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Al-Samakiyya.png",
+                  "credit": "scanned postcard",
+                  "usage_terms": "Public domain",
+                  "description": "Al-Samakiyya"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Bet She’an",
+          "ai_summary": "An ancient city with well-preserved Roman ruins, including a theater, baths, and temples.",
+          "name_english": "Bet She’an",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the ancient theater and the Byzantine bathhouse.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.495,
+            "longitude": 35.3035
+          },
+          "address": "Bet She’an, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Archaeology"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag map of Palestine.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Flag_map_of_the_Palestinian_territories.svg/800px-Flag_map_of_the_Palestinian_territories.svg.png",
+                "width": 800,
+                "height": 906,
+                "attribution": {
+                  "title": "Flag map of the Palestinian territories",
+                  "author": "User:AnonMoos",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_map_of_Palestine.svg",
+                  "credit": "SVG conversion of File:Palestina-pahýl.png, based on PD files File:1947-UN-Partition-Plan-1949-Armistice-Comparison.svg and File:Flag of Palestine.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Stub image for the State of Palestine."
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

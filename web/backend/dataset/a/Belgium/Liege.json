@@ -1,0 +1,1112 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Liège-Guillemins Train Station (Calatrava Design)",
+          "ai_summary": "Liège-Guillemins Train Station is a modern architectural masterpiece designed by Santiago Calatrava. It serves as a major transport hub and a symbol of contemporary design in Liège.",
+          "name_english": "Liège-Guillemins Train Station",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight or evening illuminations."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Capture photos of the station’s unique design, especially at sunset.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6269,
+            "lng": 5.5669
+          },
+          "address": "Place des Guillemins, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/liege-guillemins",
+          "tags": [
+            "Landmark",
+            "Architecture",
+            "Transport",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:13-12-26-Gare de Liège-Guillemins by Santiago Calatrava-20.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/13-12-26-Gare_de_Li%C3%A8ge-Guillemins_by_Santiago_Calatrava-20.jpg/960px-13-12-26-Gare_de_Li%C3%A8ge-Guillemins_by_Santiago_Calatrava-20.jpg",
+                "width": 800,
+                "height": 236,
+                "attribution": {
+                  "title": "13-12-26-Gare de Liège-Guillemins by Santiago Calatrava-20",
+                  "author": "Ralf Roletschek",
+                  "license": "GFDL 1.2",
+                  "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:13-12-26-Gare_de_Liège-Guillemins_by_Santiago_Calatrava-20.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Montagne de Bueren (374 Steps View)",
+          "ai_summary": "Montagne de Bueren is a historic staircase with 374 steps leading to a panoramic view of Liège. It is a challenging climb but offers rewarding vistas of the city.",
+          "name_english": "Montagne de Bueren",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours for safety."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Spring and Autumn",
+          "place_tip": "Take breaks during the climb and enjoy the murals along the way.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6469,
+            "lng": 5.5736
+          },
+          "address": "Montagne de Bueren, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/montagne-de-bueren",
+          "tags": [
+            "Landmark",
+            "Viewpoint",
+            "History",
+            "Fitness"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Liège Cathedral (St. Paul’s)",
+          "ai_summary": "Liège Cathedral, also known as St. Paul’s Cathedral, is a Romanesque-Gothic cathedral in Liège, Belgium. It is the principal church of the Diocese of Liège and a notable example of religious architecture.",
+          "name_english": "Liège Cathedral",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Check for mass times and special events."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Weekdays",
+          "place_tip": "Respect the religious nature of the site; quiet contemplation is encouraged.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6058,
+            "lng": 5.5709
+          },
+          "address": "Place de la Cathédrale, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/liege-cathedral",
+          "tags": [
+            "Historical",
+            "Architecture",
+            "Religion",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:046CupolaSPietro.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "046CupolaSPietro",
+                  "author": "MarkusMark",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Palace of the Prince-Bishops",
+          "ai_summary": "The Palace of the Prince-Bishops is a historic palace in Liège, Belgium, that served as the residence of the Prince-Bishops of Liège. It is an important example of civil Gothic architecture.",
+          "name_english": "Palace of the Prince-Bishops",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Guided tours available; check schedule in advance."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Explore the gardens and the surrounding area for a complete experience.",
+          "advanced_booking": "Recommended for guided tours",
+          "coordinates": {
+            "lat": 50.6052,
+            "lng": 5.5703
+          },
+          "address": "Place du Palais, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/palace-of-the-prince-bishops",
+          "tags": [
+            "Historical",
+            "Architecture",
+            "Museum",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox current red Asia Australia.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ambox_current_red_Asia_Australia.svg/800px-Ambox_current_red_Asia_Australia.svg.png",
+                "width": 800,
+                "height": 644,
+                "attribution": {
+                  "title": "Ambox current red Asia Australia",
+                  "author": "andrybak",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_current_red_Asia_Australia.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Curtius Museum",
+          "ai_summary": "The Curtius Museum is a museum in Liège, Belgium, dedicated to the history and archaeology of the Liège region. Housed in a beautiful mansion, it features a range of exhibits from prehistory to the modern era.",
+          "name_english": "Curtius Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "€5",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00-17:00",
+            "wed": "10:00-17:00",
+            "thu": "10:00-17:00",
+            "fri": "10:00-17:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Don’t miss the archaeological garden and the stunning views from the museum.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6056,
+            "lng": 5.5701
+          },
+          "address": "Rue des Engagés 1, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/curtius-museum",
+          "tags": [
+            "Museum",
+            "History",
+            "Archaeology",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "La Boverie Museum & Park",
+          "ai_summary": "La Boverie Museum is an art museum in Liège, Belgium, located in a beautiful park by the Meuse River. The museum features a collection of fine arts, including works by Belgian and international artists.",
+          "name_english": "La Boverie Museum & Park",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "€8",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00-18:00",
+            "wed": "10:00-18:00",
+            "thu": "10:00-18:00",
+            "fri": "10:00-18:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Check for temporary exhibitions and events."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Enjoy a stroll in the park and along the river after visiting the museum.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6051,
+            "lng": 5.5707
+          },
+          "address": "Parc de la Boverie, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/la-boverie-museum-park",
+          "tags": [
+            "Museum",
+            "Art",
+            "Park",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Buenos Aires-Plaza Congreso-Pensador de Rodin.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Buenos_Aires-Plaza_Congreso-Pensador_de_Rodin.jpg/960px-Buenos_Aires-Plaza_Congreso-Pensador_de_Rodin.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Buenos Aires-Plaza Congreso-Pensador de Rodin",
+                  "author": "Fabián Minetti",
+                  "license": "Copyrighted free use",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Buenos_Aires-Plaza_Congreso-Pensador_de_Rodin.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Outremeuse District",
+          "ai_summary": "The Outremeuse District is a vibrant and culturally rich area in Liège, Belgium, located on the Meuse River's left bank. It is known for its lively atmosphere, diverse architecture, and cultural events.",
+          "name_english": "Outremeuse District",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Explore the area on foot or by bike."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the local shops, cafes, and the Sunday market for an authentic experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6054,
+            "lng": 5.5705
+          },
+          "address": "Outremeuse, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/outremeuse-district",
+          "tags": [
+            "District",
+            "Culture",
+            "Shopping",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Acte de naissance de Marie-Alexandrine Petitjean - 14 07 1879 - Wamont.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Acte_de_naissance_de_Marie-Alexandrine_Petitjean_-_14_07_1879_-_Wamont.jpg/960px-Acte_de_naissance_de_Marie-Alexandrine_Petitjean_-_14_07_1879_-_Wamont.jpg",
+                "width": 800,
+                "height": 512,
+                "attribution": {
+                  "title": "Acte de naissance de Marie-Alexandrine Petitjean - 14 07 1879 - Wamont",
+                  "author": "acte officiel de naissance Wamont - Brabant flamand (province de Liège à l'époque)",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Acte_de_naissance_de_Marie-Alexandrine_Petitjean_-_14_07_1879_-_Wamont.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Place Saint-Lambert",
+          "ai_summary": "Place Saint-Lambert is a central square in Liège, Belgium, known for its historical significance and vibrant atmosphere. It is surrounded by notable buildings and is a hub of activity in the city.",
+          "name_english": "Place Saint-Lambert",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "A great place to start a walking tour of Liège."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Look for the statue of Charlemagne and the beautiful surrounding architecture.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6039,
+            "lng": 5.5704
+          },
+          "address": "Place Saint-Lambert, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/place-saint-lambert",
+          "tags": [
+            "Square",
+            "History",
+            "Architecture",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Belgium location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Belgium_location_map.svg/960px-Belgium_location_map.svg.png",
+                "width": 800,
+                "height": 696,
+                "attribution": {
+                  "title": "Belgium location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Belgium_location_map.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Archeoforum de Liège",
+          "ai_summary": "The Archeoforum de Liège is an archaeological site and museum in the heart of Liège, Belgium. It showcases the archaeological heritage of the Liège region, from prehistoric to medieval times.",
+          "name_english": "Archeoforum de Liège",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "€6",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00-17:00",
+            "wed": "10:00-17:00",
+            "thu": "10:00-17:00",
+            "fri": "10:00-17:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Guided tours available; check schedule in advance."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the interactive exhibits and attend a guided tour for in-depth knowledge.",
+          "advanced_booking": "Recommended for guided tours",
+          "coordinates": {
+            "lat": 50.6053,
+            "lng": 5.5702
+          },
+          "address": "Place de la République Française 1, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/archeoforum-liege",
+          "tags": [
+            "Museum",
+            "Archaeology",
+            "History",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Belgieluik.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Belgieluik.png",
+                "width": 398,
+                "height": 335,
+                "attribution": {
+                  "title": "Belgieluik",
+                  "author": "User 'Morwen'",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Belgieluik.png"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Museum of Walloon Life",
+          "ai_summary": "The Museum of Walloon Life is a museum in Liège, Belgium, dedicated to the preservation and promotion of Walloon culture and heritage. It features a range of exhibits, including traditional costumes, tools, and crafts.",
+          "name_english": "Museum of Walloon Life",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "€4",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00-17:00",
+            "wed": "10:00-17:00",
+            "thu": "10:00-17:00",
+            "fri": "10:00-17:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Check for special events and exhibitions."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Engage with the interactive exhibits and attend a workshop if available.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6059,
+            "lng": 5.5706
+          },
+          "address": "Rue de la Régence 1, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/museum-of-walloon-life",
+          "tags": [
+            "Museum",
+            "Culture",
+            "History",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Coat of arms of Wallonia.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Coat_of_arms_of_Wallonia.svg/800px-Coat_of_arms_of_Wallonia.svg.png",
+                "width": 800,
+                "height": 869,
+                "attribution": {
+                  "title": "Coat of arms of Wallonia",
+                  "author": null,
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Wallonia.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Liège Opera House",
+          "ai_summary": "Liège Opera House is a historic opera house located in the city of Liège, Belgium. It is known for its impressive architecture and vibrant cultural program, including opera, ballet, and concerts.",
+          "name_english": "Liège Opera House",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Varies by event",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "Closed",
+            "wed": "10:00-18:00",
+            "thu": "10:00-18:00",
+            "fri": "10:00-18:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Check the schedule for performances and book tickets in advance."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "During a performance",
+          "place_tip": "Explore the nearby area for dining options before or after the show.",
+          "advanced_booking": "Required for performances",
+          "coordinates": {
+            "lat": 50.6057,
+            "lng": 5.5708
+          },
+          "address": "Place de l'Opéra 1, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/liege-opera-house",
+          "tags": [
+            "Culture",
+            "Music",
+            "Theater",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Carré Nightlife Area",
+          "ai_summary": "Carré is a vibrant nightlife area in Liège, Belgium, known for its dense concentration of bars, clubs, and restaurants. It is a popular destination for both locals and tourists seeking entertainment and nightlife.",
+          "name_english": "Carré Nightlife Area",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free to explore; varies by venue",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best experienced at night; check individual venues for specific hours."
+          },
+          "suggested_duration": "3–4 hours",
+          "best_time_to_visit": "Evenings and weekends",
+          "place_tip": "Explore different venues and enjoy the diverse nightlife options.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6055,
+            "lng": 5.5703
+          },
+          "address": "Carré, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/carre-nightlife-area",
+          "tags": [
+            "Nightlife",
+            "Entertainment",
+            "Dining",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20150307-LouisianaSupremeCourt.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/20150307-LouisianaSupremeCourt.jpg/960px-20150307-LouisianaSupremeCourt.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "20150307-LouisianaSupremeCourt",
+                  "author": "Bobak Ha'Eri",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20150307-LouisianaSupremeCourt.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Sunday La Batte Market (Along Meuse River)",
+          "ai_summary": "Sunday La Batte Market is a popular weekly market in Liège, Belgium, held along the Meuse River. It features a wide variety of stalls selling local produce, crafts, and food specialties.",
+          "name_english": "Sunday La Batte Market",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "07:00",
+          "sunset_time": null,
+          "cost": "Free to explore; varies by purchase",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "Closed",
+            "wed": "Closed",
+            "thu": "Closed",
+            "fri": "Closed",
+            "sat": "Closed",
+            "sun": "08:00-14:00",
+            "notes": "Best to arrive early for the freshest produce and best selection."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Sunday mornings",
+          "place_tip": "Bring cash and reusable bags; try the local delicacies.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.605,
+            "lng": 5.5701
+          },
+          "address": "Quai de la Batte, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/sunday-la-batte-market",
+          "tags": [
+            "Market",
+            "Shopping",
+            "Food",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Lacinq1991.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Lacinq1991.jpg",
+                "width": 222,
+                "height": 195,
+                "attribution": {
+                  "title": "Lacinq1991.jpg",
+                  "author": "Unknown authorUnknown author",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lacinq1991.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Cité Miroir Cultural Center",
+          "ai_summary": "Cité Miroir is a cultural center in Liège, Belgium, dedicated to contemporary art, culture, and creativity. It hosts a variety of events, exhibitions, and performances throughout the year.",
+          "name_english": "Cité Miroir Cultural Center",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Varies by event",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00-18:00",
+            "wed": "10:00-18:00",
+            "thu": "10:00-18:00",
+            "fri": "10:00-18:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Check the schedule for events and exhibitions."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Participate in a workshop or attend an exhibition for a full experience.",
+          "advanced_booking": "Recommended for workshops and events",
+          "coordinates": {
+            "lat": 50.6058,
+            "lng": 5.5709
+          },
+          "address": "Parvis de la Cité Miroir, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/cite-miroir-cultural-center",
+          "tags": [
+            "Culture",
+            "Art",
+            "Exhibitions",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Belgique - Bruxelles - Noord Building - 01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Belgique_-_Bruxelles_-_Noord_Building_-_01.jpg/960px-Belgique_-_Bruxelles_-_Noord_Building_-_01.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Belgique - Bruxelles - Noord Building - 01",
+                  "author": "EmDee",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Noord_Building_-_01.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Saint-Jacques Church",
+          "ai_summary": "Saint-Jacques Church is a historic church located in the city of Liège, Belgium. It is known for its beautiful architecture and significant religious heritage.",
+          "name_english": "Saint-Jacques Church",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Check for mass times and special events."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Weekdays",
+          "place_tip": "Admire the stained glass windows and the intricate altar.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.605,
+            "lng": 5.57
+          },
+          "address": "Rue Saint-Jacques, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/saint-jacques-church",
+          "tags": [
+            "Historical",
+            "Architecture",
+            "Religion",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Aquarium-Museum of Liège",
+          "ai_summary": "The Aquarium-Museum of Liège is a unique museum in Liège, Belgium, combining an aquarium and a natural history museum. It features a wide range of exhibits, including live aquatic animals and preserved specimens.",
+          "name_english": "Aquarium-Museum of Liège",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "€10",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Last admission 1 hour before closing."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Attend a feeding session or a guided tour for an enhanced experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6052,
+            "lng": 5.5704
+          },
+          "address": "Rue de la Science 10, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/aquarium-museum-liege",
+          "tags": [
+            "Museum",
+            "Science",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Blaschka 1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Blaschka_1.jpg/960px-Blaschka_1.jpg",
+                "width": 800,
+                "height": 500,
+                "attribution": {
+                  "title": "Blaschka 1",
+                  "author": "Lucarelli",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Blaschka_1.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Parc de la Boverie",
+          "ai_summary": "Parc de la Boverie is a beautiful park located in Liège, Belgium, along the Meuse River. It is known for its landscaped gardens, walking paths, and recreational areas.",
+          "name_english": "Parc de la Boverie",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Ideal for a leisurely stroll, picnic, or outdoor activities."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Explore the different themed gardens and enjoy the views of the river.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6051,
+            "lng": 5.5707
+          },
+          "address": "Parc de la Boverie, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/parc-de-la-boverie",
+          "tags": [
+            "Park",
+            "Nature",
+            "Recreation",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20150803 liege111.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/20150803_liege111.jpg/960px-20150803_liege111.jpg",
+                "width": 800,
+                "height": 536,
+                "attribution": {
+                  "title": "20150803 liege111",
+                  "author": "Jean Housen",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20150803_liege111.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Val Saint-Lambert Crystal Factory",
+          "ai_summary": "The Val Saint-Lambert Crystal Factory is a renowned crystal manufacturer in Belgium, located in the Liège province. The factory offers guided tours showcasing the art of crystal making.",
+          "name_english": "Val Saint-Lambert Crystal Factory",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "€10",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Advance booking recommended for factory tours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the factory shop for exclusive crystal pieces.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 50.6054,
+            "lng": 5.5708
+          },
+          "address": "Rue de la Cristallerie 1, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/val-saint-lambert-crystal-factory",
+          "tags": [
+            "Factory",
+            "Shopping",
+            "Craftsmanship",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Pont des Arches Bridge",
+          "ai_summary": "Pont des Arches is a historic bridge in Liège, Belgium, known for its beautiful arches and scenic views. It is a popular spot for photography and leisurely walks.",
+          "name_english": "Pont des Arches Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited at sunrise or sunset for stunning views."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Bring a camera and enjoy the view of the Meuse River.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6058,
+            "lng": 5.5702
+          },
+          "address": "Pont des Arches, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/pont-des-arches",
+          "tags": [
+            "Bridge",
+            "Photography",
+            "Scenic",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:\"Sur le Pont d'Avignon on y danse\" is the famous song, but now we see only many tourist just standing there - panoramio.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%22Sur_le_Pont_d%27Avignon_on_y_danse%22_is_the_famous_song%2C_but_now_we_see_only_many_tourist_just_standing_there_-_panoramio.jpg/960px-%22Sur_le_Pont_d%27Avignon_on_y_danse%22_is_the_famous_song%2C_but_now_we_see_only_many_tourist_just_standing_there_-_panoramio.jpg",
+                "width": 800,
+                "height": 414,
+                "attribution": {
+                  "title": "\"Sur le Pont d'Avignon on y danse\" is the famous song, but now we see only many tourist just standing there - panoramio",
+                  "author": "Henk Monster",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:\"Sur_le_Pont_d'Avignon_on_y_danse\"_is_the_famous_song,_but_now_we_see_only_many_tourist_just_standing_there_-_panoramio.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Guillemins Area Café Strip",
+          "ai_summary": "The Guillemins Area Café Strip is a popular location in Liège, Belgium, known for its vibrant café culture and proximity to the Liège-Guillemins Train Station. It’s an ideal spot for relaxation and people-watching.",
+          "name_english": "Guillemins Area Café Strip",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Varies by café",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best enjoyed in the evening; check individual café hours."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Evenings",
+          "place_tip": "Try the local pastries and enjoy a coffee while watching the trains.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 50.6265,
+            "lng": 5.5685
+          },
+          "address": "Guillemins Area, 4000 Liège, Belgium",
+          "official_website": "https://www.visitezliege.be/en/guillemins-area-cafe-strip",
+          "tags": [
+            "Cafes",
+            "Dining",
+            "People-watching",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Adolphe Pégoud.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Adolphe_P%C3%A9goud.jpg/960px-Adolphe_P%C3%A9goud.jpg",
+                "width": 800,
+                "height": 584,
+                "attribution": {
+                  "title": "Adolphe Pégoud",
+                  "author": "Unknown authorUnknown author",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Adolphe_Pégoud.jpg"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

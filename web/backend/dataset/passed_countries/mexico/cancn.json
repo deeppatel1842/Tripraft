@@ -1,0 +1,1116 @@
+{
+  "country": "Mexico",
+  "state": "Cancn",
+  "cities": [
+    {
+      "city": "Cancún",
+      "nearest_airport": "Cancún International Airport",
+      "places": [
+        {
+          "name": "Playa Delfines",
+          "ai_summary": "A serene beach known for its turquoise waters, white sands, and the iconic Cancún sign, perfect for relaxation.",
+          "name_english": "Dolphin Beach",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited early morning to avoid crowds."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a hat and sunscreen for sun protection.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 21.0548,
+            "longitude": -86.7902
+          },
+          "address": "Playa Delfines, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Beach",
+            "Relaxation",
+            "Photography"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Skyline_cancun_mexico._(24209557802).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Skyline_cancun_mexico._%2824209557802%29.jpg/960px-Skyline_cancun_mexico._%2824209557802%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Skyline cancun mexico. (24209557802)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91997239@N08\">alyssa BLACK.</a> from toronto, canada",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Skyline_cancun_mexico._(24209557802).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "skyline | cancun | mexico."
+                }
+              }
+            }
+          },
+          "rank_score": 0.842
+        },
+        {
+          "name": "Isla Mujeres",
+          "ai_summary": "A picturesque island offering pristine beaches, snorkeling, and a laid-back atmosphere, accessible via a short ferry ride.",
+          "name_english": "Island of Women",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Ferry Fee",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Ferry schedules vary; check in advance."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Rent a golf cart to explore the island.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 21.2092,
+            "longitude": -86.7314
+          },
+          "address": "Isla Mujeres, Mexico",
+          "official_website": "",
+          "tags": [
+            "Island",
+            "Snorkeling",
+            "Relaxation"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Birds_eye_view_of_Isla_Mujeres_(4257542920).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Birds_eye_view_of_Isla_Mujeres_%284257542920%29.jpg/960px-Birds_eye_view_of_Isla_Mujeres_%284257542920%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Birds eye view of Isla Mujeres (4257542920)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24401970@N03\">Šarūnas Burdulis</a> from USA",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Birds_eye_view_of_Isla_Mujeres_(4257542920).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Most of the Isla can be seen below (7km out of the total 8km in length). Punta Sur -- southernmost point of the island is at the top of the photo. What's missing from the photo is the \"downtown\" and Playa Norte."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Cenote Dos Ojos",
+          "ai_summary": "A stunning cenote featuring crystal-clear waters, ideal for snorkeling and diving enthusiasts.",
+          "name_english": "Two Eyes Cenote",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring water shoes for better grip.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 20.3076,
+            "longitude": -87.3986
+          },
+          "address": "Cenote Dos Ojos, Tulum, Mexico",
+          "official_website": "",
+          "tags": [
+            "Cenote",
+            "Snorkeling",
+            "Adventure"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cenote_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Cenote_2.jpg/960px-Cenote_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cenote 2",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/23401669@N00\">Son of Groucho</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cenote_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Cenote"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Museo Subacuático de Arte (Underwater Museum)",
+          "ai_summary": "An extraordinary museum featuring submerged sculptures, promoting coral life and offering a unique snorkeling experience.",
+          "name_english": "Underwater Museum of Art",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Advance booking recommended for snorkeling tours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear a swimsuit and bring a towel.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 21.1522,
+            "longitude": -86.8458
+          },
+          "address": "Museo Subacuático de Arte, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Museum",
+            "Snorkeling",
+            "Art"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:DSCN0626_(14108251890).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/DSCN0626_%2814108251890%29.jpg/960px-DSCN0626_%2814108251890%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "DSCN0626 (14108251890)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/61322584@N07\">allenran 917</a> from Tampa, USA",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:DSCN0626_(14108251890).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "DSCN0626"
+                }
+              }
+            }
+          },
+          "rank_score": 0.77
+        },
+        {
+          "name": "Chichen Itzá (day trip)",
+          "ai_summary": "A UNESCO World Heritage site and one of the New Seven Wonders of the World, featuring the iconic pyramid El Castillo.",
+          "name_english": "Chichen Itza",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Guided tours available; book in advance."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Early morning",
+          "place_tip": "Bring water, snacks, and a hat.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 20.6843,
+            "longitude": -88.5678
+          },
+          "address": "Chichen Itza, Yucatan, Mexico",
+          "official_website": "",
+          "tags": [
+            "Archaeological Site",
+            "UNESCO",
+            "History"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Chichen_Itza_3.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/960px-Chichen_Itza_3.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Chichen Itza 3",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Dschwen\" title=\"User:Dschwen\">Daniel Schwen</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "El Castillo (pyramid of Kukulcán) in Chichén Itzá"
+                }
+              }
+            }
+          },
+          "rank_score": 0.938
+        },
+        {
+          "name": "El Rey Ruins",
+          "ai_summary": "Ancient Mayan ruins located in the hotel zone of Cancún, offering a glimpse into the region's historical heritage.",
+          "name_english": "El Rey Ruins",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "N/A",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to Playa Delfines.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 21.1603,
+            "longitude": -86.8475
+          },
+          "address": "El Rey Ruins, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Ruins",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:El_Rey_archaeological_site.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/El_Rey_archaeological_site.jpg/960px-El_Rey_archaeological_site.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "El Rey archaeological site",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:In_Vitrio\" title=\"User:In Vitrio\">In Vitrio</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:El_Rey_archaeological_site.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "El Rey, Cancun, Quintana Roo, Mexico."
+                }
+              }
+            }
+          },
+          "rank_score": 0.814
+        },
+        {
+          "name": "La Isla Shopping Village",
+          "ai_summary": "An open-air shopping center in Cancún, featuring a variety of shops, restaurants, and a scenic view of the lagoon.",
+          "name_english": "La Isla Shopping Village",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Check for individual store hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy dinner at one of the lagoon-side restaurants.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 21.1619,
+            "longitude": -86.8515
+          },
+          "address": "La Isla Shopping Village, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Leisure"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Skyline_cancun_mexico._(24209557802).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Skyline_cancun_mexico._%2824209557802%29.jpg/960px-Skyline_cancun_mexico._%2824209557802%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Skyline cancun mexico. (24209557802)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91997239@N08\">alyssa BLACK.</a> from toronto, canada",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Skyline_cancun_mexico._(24209557802).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "skyline | cancun | mexico."
+                }
+              }
+            }
+          },
+          "rank_score": 0.718
+        },
+        {
+          "name": "Xcaret Park (near Playa del Carmen)",
+          "ai_summary": "A large eco-archaeological park featuring natural attractions, Mayan ruins, and cultural performances.",
+          "name_english": "Xcaret Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00 AM",
+          "sunset_time": "09:30 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:30 AM - 10:30 PM",
+            "Tuesday": "8:30 AM - 10:30 PM",
+            "Wednesday": "8:30 AM - 10:30 PM",
+            "Thursday": "8:30 AM - 10:30 PM",
+            "Friday": "8:30 AM - 10:30 PM",
+            "Saturday": "8:30 AM - 10:30 PM",
+            "Sunday": "8:30 AM - 10:30 PM",
+            "notes": "Plan your visit to see the night show."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes and bring a swimsuit.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 20.5746,
+            "longitude": -87.0739
+          },
+          "address": "Xcaret Park, Playa del Carmen, Mexico",
+          "official_website": "",
+          "tags": [
+            "Eco-park",
+            "Adventure",
+            "Culture"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:The_Beach_at_Xcaret_Park.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/The_Beach_at_Xcaret_Park.jpg/960px-The_Beach_at_Xcaret_Park.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "The Beach at Xcaret Park",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:FeldBum\" title=\"User:FeldBum\">FeldBum</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:The_Beach_at_Xcaret_Park.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The Beach at Xcaret Park, in Quintana Roo"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Cenote Ik Kil",
+          "ai_summary": "A popular cenote near Chichen Itza, known for its stunning beauty and swimming opportunities.",
+          "name_english": "Ik Kil Cenote",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Get there early to avoid crowds."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a swimsuit and towel; lockers available for rent.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 20.6843,
+            "longitude": -88.5678
+          },
+          "address": "Cenote Ik Kil, Yucatan, Mexico",
+          "official_website": "",
+          "tags": [
+            "Cenote",
+            "Swimming",
+            "Nature"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cenote_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Cenote_2.jpg/960px-Cenote_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cenote 2",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/23401669@N00\">Son of Groucho</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cenote_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Cenote"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Puerto Morelos Reef Park",
+          "ai_summary": "A protected marine park featuring a coral reef, ideal for snorkeling and diving.",
+          "name_english": "Puerto Morelos Reef National Park",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Best visited with a guide; snorkeling gear rental available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring biodegradable sunscreen to protect the reef.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 20.8458,
+            "longitude": -86.8742
+          },
+          "address": "Puerto Morelos Reef Park, Mexico",
+          "official_website": "",
+          "tags": [
+            "Marine Park",
+            "Snorkeling",
+            "Diving"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Puerto-Morelos-plaza.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Puerto-Morelos-plaza.jpg/960px-Puerto-Morelos-plaza.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Puerto-Morelos-plaza",
+                  "author": "Luis Fernández García",
+                  "license": "CC BY-SA 2.5 es",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5/es/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Puerto-Morelos-plaza.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5 es",
+                  "description": "Plaza de Puerto Morelos (Quintana Roo, México)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Parque de las Palapas",
+          "ai_summary": "A vibrant park in the heart of Cancún, known for its local food stalls, handicrafts market, and cultural events.",
+          "name_english": "Palapas Park",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Evenings are lively with food and music."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local tacos and churros.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 21.1619,
+            "longitude": -86.8515
+          },
+          "address": "Parque de las Palapas, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Park",
+            "Food",
+            "Culture"
+          ],
+          "state": "Cancn",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Tulum Ruins (day trip)",
+          "ai_summary": "Well-preserved ancient Mayan ruins located on a cliff overlooking the Caribbean Sea.",
+          "name_english": "Tulum Ruins",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Combine with a visit to a nearby cenote."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera for stunning photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 20.2115,
+            "longitude": -87.4659
+          },
+          "address": "Tulum Ruins, Tulum, Mexico",
+          "official_website": "",
+          "tags": [
+            "Archaeological Site",
+            "Mayan Ruins",
+            "History"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tulum_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tulum_2.jpg/960px-Tulum_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tulum 2",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Popo_le_Chien\" title=\"User:Popo le Chien\">Popo le Chien</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tulum_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Tulum's Templo del Dios Viento (Temple of Wind God, left) and Castillo (castle, right)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.842
+        },
+        {
+          "name": "Playa Tortugas",
+          "ai_summary": "A popular beach in Cancún, known for its calm waters, ideal for swimming and water sports.",
+          "name_english": "Turtle Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "07:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Lifeguards on duty during the day."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local beach clubs for food and drinks.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 21.1603,
+            "longitude": -86.8475
+          },
+          "address": "Playa Tortugas, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Beach",
+            "Swimming",
+            "Water Sports"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Skyline_cancun_mexico._(24209557802).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Skyline_cancun_mexico._%2824209557802%29.jpg/960px-Skyline_cancun_mexico._%2824209557802%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Skyline cancun mexico. (24209557802)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91997239@N08\">alyssa BLACK.</a> from toronto, canada",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Skyline_cancun_mexico._(24209557802).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "skyline | cancun | mexico."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Mercado 28",
+          "ai_summary": "A famous market in Cancún, ideal for souvenirs, local crafts, and authentic Mexican food.",
+          "name_english": "Market 28",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "9:00 AM - 9:00 PM",
+            "Tuesday": "9:00 AM - 9:00 PM",
+            "Wednesday": "9:00 AM - 9:00 PM",
+            "Thursday": "9:00 AM - 9:00 PM",
+            "Friday": "9:00 AM - 9:00 PM",
+            "Saturday": "9:00 AM - 9:00 PM",
+            "Sunday": "9:00 AM - 9:00 PM",
+            "notes": "Bargaining is common; cash recommended."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don't miss the food court for local delicacies.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 21.1619,
+            "longitude": -86.8515
+          },
+          "address": "Mercado 28, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Market",
+            "Shopping",
+            "Food"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Mercado_28,_Cancún_2014.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Mercado_28%2C_Canc%C3%BAn_2014.jpg/960px-Mercado_28%2C_Canc%C3%BAn_2014.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Mercado 28, Cancún 2014",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/79721788@N00\">David Stanley</a> from Nanaimo, Canada",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mercado_28,_Canc%C3%BAn_2014.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "The largest souvenir market in Cancun Centro is Mercado 28 with a few atmospheric outdoor restaurants and some kiosks selling sharply discounted bus tours."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Coco Bongo Club",
+          "ai_summary": "A world-renowned nightclub in Cancún, famous for its vibrant shows, music, and party atmosphere.",
+          "name_english": "Coco Bongo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Cover Charge",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Shows and events vary by night."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Night",
+          "place_tip": "Book VIP tickets for the best experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 21.1619,
+            "longitude": -86.8515
+          },
+          "address": "Coco Bongo, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Nightclub",
+            "Entertainment",
+            "Music"
+          ],
+          "state": "Cancn",
+          "photos": {},
+          "rank_score": 0.826
+        },
+        {
+          "name": "Ventura Park",
+          "ai_summary": "An amusement park in Cancún, offering a variety of rides, water slides, and family-friendly attractions.",
+          "name_english": "Ventura Park",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Check for ride maintenance schedules."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear sunscreen and stay hydrated.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 21.1619,
+            "longitude": -86.8515
+          },
+          "address": "Ventura Park, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Amusement Park",
+            "Family",
+            "Rides"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Jesse_Ventura_2024_(3x4_cropped_b).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Jesse_Ventura_2024_%283x4_cropped_b%29.jpg/960px-Jesse_Ventura_2024_%283x4_cropped_b%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Jesse Ventura 2024 (3x4 cropped b)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/22007612@N05\">Gage Skidmore</a> from Surprise, AZ, United States of America",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Jesse_Ventura_2024_(3x4_cropped_b).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "<p>Former Governor Jesse Ventura speaking with supporters of Robert F. Kennedy, Jr. at a campaign rally at the Fox Tucson Theatre in Tucson, Arizona.\n</p>\nPlease attribute to Gage Skidmore if used elsewhere."
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Museo Maya de Cancún",
+          "ai_summary": "A museum dedicated to the Mayan civilization, featuring artifacts, exhibits, and a cenote.",
+          "name_english": "Maya Museum of Cancún",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 8:00 PM",
+            "Tuesday": "9:00 AM - 8:00 PM",
+            "Wednesday": "9:00 AM - 8:00 PM",
+            "Thursday": "9:00 AM - 8:00 PM",
+            "Friday": "9:00 AM - 8:00 PM",
+            "Saturday": "9:00 AM - 8:00 PM",
+            "Sunday": "9:00 AM - 8:00 PM",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the nearby El Rey Ruins.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 21.1603,
+            "longitude": -86.8475
+          },
+          "address": "Museo Maya de Cancún, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Museum",
+            "Mayan Culture",
+            "History"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Museo_Maya_de_Cancun.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Museo_Maya_de_Cancun.jpg/960px-Museo_Maya_de_Cancun.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Museo Maya de Cancun",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/79721788@N00\">David Stanley</a> from Nanaimo, Canada",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Museo_Maya_de_Cancun.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "In 2012 the outstanding Museo Maya de Cancun opened in the Zona Hotelera on Boulevard Kukulkan at Cancun, Mexico."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Avenida Kukulkan",
+          "ai_summary": "The main boulevard in Cancún, lined with hotels, restaurants, and shops, leading to the hotel zone.",
+          "name_english": "Kukulkan Boulevard",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Traffic can be heavy; use public transport or walk."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit the luxury shops and enjoy fine dining.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 21.1619,
+            "longitude": -86.8515
+          },
+          "address": "Avenida Kukulkan, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Boulevard",
+            "Shopping",
+            "Dining"
+          ],
+          "state": "Cancn",
+          "photos": {},
+          "rank_score": 0.698
+        },
+        {
+          "name": "Scenic Tower Cancun",
+          "ai_summary": "An iconic tower in Cancún offering panoramic views of the hotel zone, Caribbean Sea, and Nichupté Lagoon.",
+          "name_english": "Cancun Scenic Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "9:00 AM - 10:00 PM",
+            "Tuesday": "9:00 AM - 10:00 PM",
+            "Wednesday": "9:00 AM - 10:00 PM",
+            "Thursday": "9:00 AM - 10:00 PM",
+            "Friday": "9:00 AM - 10:00 PM",
+            "Saturday": "9:00 AM - 10:00 PM",
+            "Sunday": "9:00 AM - 10:00 PM",
+            "notes": "Check for maintenance closures."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Bring a camera for stunning photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 21.1619,
+            "longitude": -86.8515
+          },
+          "address": "Scenic Tower Cancun, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Observation Deck",
+            "Photography",
+            "Sightseeing"
+          ],
+          "state": "Cancn",
+          "photos": {},
+          "rank_score": 0.814
+        },
+        {
+          "name": "Playa Forum",
+          "ai_summary": "A lively beach area in Cancún, popular for its nightlife, restaurants, and proximity to the hotel zone.",
+          "name_english": "Forum Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "07:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Lifeguards on duty during the day."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the beach clubs and enjoy the nightlife.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 21.1619,
+            "longitude": -86.8515
+          },
+          "address": "Playa Forum, Cancún, Mexico",
+          "official_website": "",
+          "tags": [
+            "Beach",
+            "Nightlife",
+            "Dining"
+          ],
+          "state": "Cancn",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Sears_Building.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Sears_Building.jpg/960px-Sears_Building.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Sears Building",
+                  "author": "<ul><li>CliNKer*</li></ul>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sears_Building.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Sears Building, Mexico City"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        }
+      ]
+    }
+  ]
+}

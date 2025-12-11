@@ -1,0 +1,846 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Savusavu Bay (Hidden Paradise)",
+          "ai_summary": "A serene bay known as Fiji's hidden paradise, offering stunning views, water activities, and a tranquil atmosphere.",
+          "name_english": "Savusavu Bay",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a picnic to enjoy by the bay.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Savusavu Bay, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Waisali Rainforest Reserve",
+          "ai_summary": "A lush rainforest reserve featuring diverse flora and fauna, hiking trails, and a peaceful retreat into nature.",
+          "name_english": "Waisali Rainforest Reserve",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "05:45",
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Guided tours available upon request."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear sturdy shoes and bring insect repellent.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Waisali Rainforest Reserve, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Rainforest"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Vuadomo Waterfall",
+          "ai_summary": "A picturesque waterfall surrounded by lush greenery, perfect for a refreshing swim and nature photography.",
+          "name_english": "Vuadomo Waterfall",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "05:45",
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Best visited during the dry season."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring swimwear for a dip in the waterfall pool.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Vuadomo Waterfall, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Waterfalls",
+            "Nature",
+            "Swimming"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Namena Marine Reserve (Diving)",
+          "ai_summary": "A protected marine area offering some of the best diving spots in Fiji, with vibrant coral reefs and diverse marine life.",
+          "name_english": "Namena Marine Reserve",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Advance booking for diving tours is essential."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Bring your own diving gear or rent from local operators.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Namena Marine Reserve, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Diving",
+            "Marine Life",
+            "Coral Reefs"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Koro Sun Resort Area",
+          "ai_summary": "A beautiful resort area offering luxury accommodations, a golf course, and access to stunning beaches and coral reefs.",
+          "name_english": "Koro Sun Resort Area",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Reservations recommended for accommodations and golf."
+          },
+          "suggested_duration": "2–3 days",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Try the local cuisine at the resort's restaurant.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Koro Sun Resort Area, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Resorts",
+            "Beaches",
+            "Golf"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Adriatic Plate.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Adriatic_Plate.jpg/800px-Adriatic_Plate.jpg",
+                "width": 800,
+                "height": 767,
+                "attribution": {
+                  "title": "Adriatic Plate",
+                  "author": "Mediterranian_Sea_16.61811E_38.99124N.jpg: of the modification : Eric Gaba (Sting)\nderivative work: דקי (talk) 17:52, 29 December 2011 (UTC)",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Adriatic_Plate.jpg",
+                  "credit": "Mediterranian_Sea_16.61811E_38.99124N.jpg (July 2012). \"Present kinematics of Central and Northern Italy from continuous GPS measurements\". Journal of Geodynamics 58: 62-72. Elsevier. ISSN 0264-3707. Retrieved on 12 March 2012.plate boundary map preview",
+                  "usage_terms": "Public domain",
+                  "description": "boundaries of the Adriatic plate"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Nakawaga Waterfall Hike",
+          "ai_summary": "A scenic hike leading to a stunning waterfall, offering opportunities for swimming and picnicking in a natural setting.",
+          "name_english": "Nakawaga Waterfall Hike",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "05:45",
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during the dry season."
+          },
+          "suggested_duration": "3–4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take plenty of water and snacks for the hike.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Nakawaga Waterfall, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Hiking",
+            "Waterfalls",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Wasali Nature Reserve",
+          "ai_summary": "A nature reserve known for its rich biodiversity, offering walking trails and birdwatching opportunities.",
+          "name_english": "Wasali Nature Reserve",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "05:45",
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Guided tours available on request."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring binoculars for birdwatching.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Wasali Nature Reserve, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Nature",
+            "Birdwatching",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Savusavu Hot Springs",
+          "ai_summary": "Natural hot springs located near Savusavu, offering a unique bathing experience in a beautiful setting.",
+          "name_english": "Savusavu Hot Springs",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "06:00-18:00",
+            "tue": "06:00-18:00",
+            "wed": "06:00-18:00",
+            "thu": "06:00-18:00",
+            "fri": "06:00-18:00",
+            "sat": "06:00-18:00",
+            "sun": "06:00-18:00",
+            "notes": "Bring your own towel and toiletries."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Combine your visit with a trip to the nearby waterfall.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Savusavu Hot Springs, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Hot Springs",
+            "Relaxation",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Labasa Town & Market",
+          "ai_summary": "The largest town in Vanua Levu, known for its vibrant market, shops, and local eateries.",
+          "name_english": "Labasa Town",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "Closed",
+            "notes": "Best visited in the morning for fresh produce."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local delicacies at the market.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.4,
+            "lng": 179.4
+          },
+          "address": "Labasa Town, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Shopping",
+            "Local Culture",
+            "Food"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2007 Flag of Orkney.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/2007_Flag_of_Orkney.svg/960px-2007_Flag_of_Orkney.svg.png",
+                "width": 800,
+                "height": 582,
+                "attribution": {
+                  "title": "2007 Flag of Orkney",
+                  "author": "Rab Knight from en.wikipedia",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2007_Flag_of_Orkney.svg",
+                  "credit": "Transferred from en.wikipedia to Commons.\n\n(Original text: self-made (using Inkscape))",
+                  "usage_terms": "Public domain",
+                  "description": "2007 Flag of Orkney  My own vector of the official flag of the Isles of Orkney, Scotland, created using Inkscape. This version is based upon the official version designed by Duncan Tullock of Birsay and voted for by the people of Orkney and approved by the Court of the Lord Lyon in 2007 from a short list of 5 designs. It is a Nordic Cross, in keeping with the flag's unofficial predecesor the Cross of St Magnus, and for which, according to Mr Tullock, \"Orkney has always been represented by red, so that was an obvious choice. The yellow symbolizes the royal standards of both Scotland and Norway and blue is for Scotland, and also for the sea that surrounds us\"."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Labasa Sugar Mill Tour",
+          "ai_summary": "A tour of the historic Labasa Sugar Mill, showcasing the sugar production process and local history.",
+          "name_english": "Labasa Sugar Mill",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Advance booking recommended for tours."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Learn about the history of sugar production in Fiji.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.4,
+            "lng": 179.4
+          },
+          "address": "Labasa Sugar Mill, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "History",
+            "Education",
+            "Local Industry"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Nukubati Island (Private Resort)",
+          "ai_summary": "A luxurious private island resort offering exclusive accommodations, fine dining, and pristine beaches.",
+          "name_english": "Nukubati Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Expensive",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Reservations required for accommodations and dining."
+          },
+          "suggested_duration": "3–5 days",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Indulge in a spa treatment at the resort.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Nukubati Island, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Luxury",
+            "Private Island",
+            "Beaches"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Wailevu East Marine Park",
+          "ai_summary": "A marine park known for its coral reefs and marine biodiversity, popular for snorkeling and diving.",
+          "name_english": "Wailevu East Marine Park",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Advance booking for snorkeling/diving tours is recommended."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Bring underwater camera for photography.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Wailevu East Marine Park, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Marine Park",
+            "Snorkeling",
+            "Diving"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Vuya Village Visit",
+          "ai_summary": "A cultural visit to Vuya Village, offering insights into the local Fijian lifestyle and traditions.",
+          "name_english": "Vuya Village",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "05:45",
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "Closed",
+            "notes": "Respect local customs and dress modestly."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Participate in a kava ceremony if offered.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Vuya Village, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Culture",
+            "Village Visit",
+            "Traditions"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Snake Temple (Labasa)",
+          "ai_summary": "A unique temple in Labasa known for its resident snakes and cultural significance.",
+          "name_english": "Snake Temple",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Best visited with a local guide."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Do not disturb the snakes; observe from a distance.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.4,
+            "lng": 179.4
+          },
+          "address": "Snake Temple, Labasa, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Culture",
+            "Temples",
+            "Wildlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Palmlea Farms Eco Lodge",
+          "ai_summary": "An eco-friendly lodge offering farm stays, organic produce, and a chance to experience rural Fijian life.",
+          "name_english": "Palmlea Farms Eco Lodge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Moderate",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Reservations recommended for farm tours and meals."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the fresh organic fruits and vegetables.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Palmlea Farms Eco Lodge, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Eco Tourism",
+            "Farm Stay",
+            "Organic"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Bua Bay Scenic Drive",
+          "ai_summary": "A scenic drive offering breathtaking views of Bua Bay, lush landscapes, and opportunities to explore remote beaches.",
+          "name_english": "Bua Bay Scenic Drive",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Drive carefully and respect local traffic rules."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Stop at viewpoints for photos.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Bua Bay, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Scenic Drive",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Koro Island Viewpoint (by boat)",
+          "ai_summary": "A viewpoint accessible by boat, offering panoramic views of Koro Island and the surrounding ocean.",
+          "name_english": "Koro Island Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Boat tours can be arranged through local operators."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture the views.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Koro Island Viewpoint, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Viewpoint",
+            "Boat Tours",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Savarekareka Mission Ruins",
+          "ai_summary": "The ruins of an old mission station, offering a glimpse into Fiji's historical architecture and missionary history.",
+          "name_english": "Savarekareka Mission Ruins",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "05:45",
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited with a local guide."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for exploring the ruins.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Savarekareka Mission Ruins, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "History",
+            "Ruins",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Boat Cruise Around Savusavu Bay",
+          "ai_summary": "A relaxing boat cruise around Savusavu Bay, offering opportunities for snorkeling, swimming, and enjoying the coastal scenery.",
+          "name_english": "Boat Cruise Around Savusavu Bay",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "08:00-17:00",
+            "tue": "08:00-17:00",
+            "wed": "08:00-17:00",
+            "thu": "08:00-17:00",
+            "fri": "08:00-17:00",
+            "sat": "08:00-17:00",
+            "sun": "08:00-17:00",
+            "notes": "Advance booking for the cruise is recommended."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a hat and sunscreen for sun protection.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Savusavu Bay, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Boat Tours",
+            "Snorkeling",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Sunset from Savusavu Marina",
+          "ai_summary": "Enjoy a picturesque sunset view from Savusavu Marina, a perfect way to end a day in paradise.",
+          "name_english": "Sunset from Savusavu Marina",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best viewed from the marina or nearby restaurants."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Arrive early to secure a good viewing spot.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": -16.8,
+            "lng": 179.4
+          },
+          "address": "Savusavu Marina, Vanua Levu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Sunset",
+            "Scenic",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        }
+      ]
+    }
+  ]
+}

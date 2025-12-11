@@ -1,0 +1,1173 @@
+{
+  "country": "Finland",
+  "state": "Tampere",
+  "cities": [
+    {
+      "city": "Tampere",
+      "nearest_airport": "Tampere-Pirkkala Airport (TMP)",
+      "places": [
+        {
+          "name": "Pyynikki Observation Tower & Café",
+          "ai_summary": "A historic observation tower offering panoramic views of Tampere, complemented by a cozy café serving famous doughnuts.",
+          "name_english": "Pyynikki Observation Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "16:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00-20:00",
+            "Tuesday": "09:00-20:00",
+            "Wednesday": "09:00-20:00",
+            "Thursday": "09:00-20:00",
+            "Friday": "09:00-20:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Best visited during clear weather for optimal views."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the café's signature doughnuts while enjoying the view.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.4978,
+            "longitude": 23.7609
+          },
+          "address": "Pyynikki, Tampere, Finland",
+          "official_website": "https://www.visitpyynikki.fi/",
+          "tags": [
+            "Observation",
+            "Café",
+            "Scenic"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pyynikki_tower.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Pyynikki_tower.jpg/960px-Pyynikki_tower.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pyynikki tower",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kulmalukko\" title=\"User:Kulmalukko\">Tiia Monto</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pyynikki_tower.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Pyynikki observation tower in Tampere, Finland."
+                }
+              }
+            }
+          },
+          "rank_score": 0.898
+        },
+        {
+          "name": "Tampere Cathedral",
+          "ai_summary": "A stunning cathedral known for its unique architecture, frescoes, and serene atmosphere.",
+          "name_english": "Tampere Cathedral",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-16:00",
+            "Tuesday": "09:00-16:00",
+            "Wednesday": "09:00-16:00",
+            "Thursday": "09:00-16:00",
+            "Friday": "09:00-16:00",
+            "Saturday": "10:00-14:00",
+            "Sunday": "Closed",
+            "notes": "Check for special events and services."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Admire the frescoes by Hugo Simberg inside the cathedral.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.4981,
+            "longitude": 23.7718
+          },
+          "address": "Tampere Cathedral, Tampere, Finland",
+          "official_website": "https://www.visittampere.fi/",
+          "tags": [
+            "Cathedral",
+            "History",
+            "Architecture"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tampereen_tuomiokirkko_kesä_2004_IMG_2328.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tampereen_tuomiokirkko_kes%C3%A4_2004_IMG_2328.jpg/960px-Tampereen_tuomiokirkko_kes%C3%A4_2004_IMG_2328.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tampereen tuomiokirkko kesä 2004 IMG 2328",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Mikko_Paananen\" title=\"User:Mikko Paananen\">Mikko Paananen</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tampereen_tuomiokirkko_kes%C3%A4_2004_IMG_2328.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Tampere Cathedral, Tampere, Finland"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Näsinneula Tower (Särkänniemi Park)",
+          "ai_summary": "The tallest observation tower in Finland, offering breathtaking views and a revolving restaurant at the top.",
+          "name_english": "Näsinneula Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "16:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "11:00-22:00",
+            "Tuesday": "11:00-22:00",
+            "Wednesday": "11:00-22:00",
+            "Thursday": "11:00-22:00",
+            "Friday": "11:00-22:00",
+            "Saturday": "11:00-22:00",
+            "Sunday": "11:00-22:00",
+            "notes": "Reservations recommended for the revolving restaurant."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy a meal at the revolving restaurant for a unique dining experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 61.512,
+            "longitude": 23.763
+          },
+          "address": "Särkänniemi, Tampere, Finland",
+          "official_website": "https://www.sarkanniemi.fi/",
+          "tags": [
+            "Observation",
+            "Tower",
+            "Dining"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Näsinneula2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/N%C3%A4sinneula2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Näsinneula2",
+                  "author": "Nironen",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:N%C3%A4sinneula2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.878
+        },
+        {
+          "name": "Vapriikki Museum Centre",
+          "ai_summary": "A versatile museum centre housed in a former factory, featuring exhibitions on the history, nature, and culture of Tampere.",
+          "name_english": "Vapriikki Museum Centre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00-18:00",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Closed on Mondays from September to May."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Check out the special exhibitions and the museum shop.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.4975,
+            "longitude": 23.7567
+          },
+          "address": "Vapriikinaukio 2, 33100 Tampere, Finland",
+          "official_website": "https://www.vapriikki.fi/",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vapriikki.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Vapriikki.jpg/960px-Vapriikki.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vapriikki",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kulmalukko\" title=\"User:Kulmalukko\">Tiia Monto</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vapriikki.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "This is a photo of a monument in Finland identified by the URL <a rel=\"nofollow\" class=\"external text\" href=\"http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=5021\">5021</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Finlayson Factory Area",
+          "ai_summary": "A historic industrial area turned cultural hub, featuring museums, galleries, shops, and restaurants.",
+          "name_english": "Finlayson Factory Area",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "10:00-16:00",
+            "Sunday": "Closed",
+            "notes": "Some attractions may have separate opening hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the area on foot to fully appreciate the historical architecture.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.4985,
+            "longitude": 23.7602
+          },
+          "address": "Finlaysoninkuja 2, 33100 Tampere, Finland",
+          "official_website": "https://www.finlaysonarea.fi/",
+          "tags": [
+            "History",
+            "Culture",
+            "Shopping"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tampere_-_Finlayson.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Tampere_-_Finlayson.jpg/960px-Tampere_-_Finlayson.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tampere - Finlayson",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kulmalukko\" class=\"mw-userlink\" title=\"User:Kulmalukko\">Tiia Monto</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tampere_-_Finlayson.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Building Finlayson on the street Satakunnankatu in Tampere."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Moomin Museum",
+          "ai_summary": "A unique museum dedicated to the Moomin characters and stories, featuring original artwork and interactive exhibits.",
+          "name_english": "Moomin Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Advance booking recommended for guided tours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the special exhibitions and the museum shop.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 61.4987,
+            "longitude": 23.7623
+          },
+          "address": "Keskustori 2, 33100 Tampere, Finland",
+          "official_website": "https://www.moominmuseo.fi/",
+          "tags": [
+            "Museum",
+            "Art",
+            "Literature"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Muumimuseon_sisäänkäynti_Tampere-talossa.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Muumimuseon_sis%C3%A4%C3%A4nk%C3%A4ynti_Tampere-talossa.jpg/960px-Muumimuseon_sis%C3%A4%C3%A4nk%C3%A4ynti_Tampere-talossa.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Muumimuseon sisäänkäynti Tampere-talossa",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iljanne&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iljanne (page does not exist)\">Iljanne</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Muumimuseon_sis%C3%A4%C3%A4nk%C3%A4ynti_Tampere-talossa.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Entrance to the Moomin Museum, inside the Tampere Hall"
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "Tampere Market Hall",
+          "ai_summary": "A vibrant market hall offering a variety of local foods, delicacies, and handicrafts in a historic setting.",
+          "name_english": "Tampere Market Hall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-18:00",
+            "Tuesday": "08:00-18:00",
+            "Wednesday": "08:00-18:00",
+            "Thursday": "08:00-18:00",
+            "Friday": "08:00-18:00",
+            "Saturday": "09:00-16:00",
+            "Sunday": "Closed",
+            "notes": "Some vendors may have shorter hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Try the local delicacies and explore the unique handicrafts.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.4992,
+            "longitude": 23.7606
+          },
+          "address": "Pirkankatu 6, 33100 Tampere, Finland",
+          "official_website": "https://www.tampereenmarkkinahalli.fi/",
+          "tags": [
+            "Market",
+            "Food",
+            "Shopping"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tampere_market_hall.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Tampere_market_hall.jpg/960px-Tampere_market_hall.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tampere market hall",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Cryonic07\" title=\"User:Cryonic07\">Cryonic07</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tampere_market_hall.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Tampere Market Hall in Tampere, Finland"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Tampere Art Museum",
+          "ai_summary": "An art museum showcasing Finnish and international contemporary art, with a focus on works from the 21st century.",
+          "name_english": "Tampere Art Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Check for special exhibitions and events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the museum shop for unique art-related gifts.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.4989,
+            "longitude": 23.7627
+          },
+          "address": "Puutarhakatu 34, 33100 Tampere, Finland",
+          "official_website": "https://www.tampereartmuseum.fi/",
+          "tags": [
+            "Art",
+            "Museum",
+            "Culture"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tampere_-_Amuri.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tampere_-_Amuri.jpg/960px-Tampere_-_Amuri.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tampere - Amuri",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kulmalukko\" title=\"User:Kulmalukko\">Tiia Monto</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tampere_-_Amuri.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Amuri district in Tampere, view from Näsinneula tower."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Särkänniemi Amusement Park",
+          "ai_summary": "A popular amusement park featuring rides, games, and attractions for all ages, including a zoo and an aquarium.",
+          "name_english": "Särkänniemi Amusement Park",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Opening hours vary by season; check the website for details."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Visit the aquarium and the planetarium shows.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.5111,
+            "longitude": 23.7639
+          },
+          "address": "Särkänniemi, 33100 Tampere, Finland",
+          "official_website": "https://www.sarkanniemi.fi/",
+          "tags": [
+            "Amusement Park",
+            "Family",
+            "Attractions"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Särkänniemi_collage.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/S%C3%A4rk%C3%A4nniemi_collage.jpg/960px-S%C3%A4rk%C3%A4nniemi_collage.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Särkänniemi collage",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kulmalukko\" class=\"mw-userlink\" title=\"User:Kulmalukko\">Tiia Monto</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:S%C3%A4rk%C3%A4nniemi_collage.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Collage of the pictures taken on 17 July 2013 in Särkänniemi park area, Tampere, Finland.\n<p>First row: Doghill park and Näsinneula tower &amp; Trombi ride.\nSecond row: Half Pipe ride &amp; Angry Birds Land.\n</p>\nThird row: Cow in Doghill &amp; Tornado ride."
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Hatanpää Arboretum",
+          "ai_summary": "A beautiful arboretum and park featuring a wide variety of trees, plants, and flowers, as well as walking paths and a café.",
+          "name_english": "Hatanpää Arboretum",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00-22:00",
+            "Tuesday": "06:00-22:00",
+            "Wednesday": "06:00-22:00",
+            "Thursday": "06:00-22:00",
+            "Friday": "06:00-22:00",
+            "Saturday": "06:00-22:00",
+            "Sunday": "06:00-22:00",
+            "notes": "Best visited in spring and summer when the flowers are in bloom."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a picnic and enjoy the serene surroundings.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.4875,
+            "longitude": 23.7431
+          },
+          "address": "Hatanpään puistotie 1, 33100 Tampere, Finland",
+          "official_website": "https://www.tampere.fi/hatanpaa",
+          "tags": [
+            "Park",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hatanpään_arboretum1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Hatanp%C3%A4%C3%A4n_arboretum1.jpg/960px-Hatanp%C3%A4%C3%A4n_arboretum1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Hatanpään arboretum1",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Cryonic07\" title=\"User:Cryonic07\">Cryonic07</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hatanp%C3%A4%C3%A4n_arboretum1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Hatanpään arboretum, a botanical garden in <a href=\"https://en.wikipedia.org/wiki/Tampere\" class=\"extiw\" title=\"en:Tampere\">Tampere</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Pyhäjärvi Lakeside Walk",
+          "ai_summary": "A scenic lakeside walk offering beautiful views of Lake Pyhäjärvi, with opportunities for swimming, fishing, and picnicking.",
+          "name_english": "Pyhäjärvi Lakeside Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "22:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in summer; check local guidelines for swimming and fishing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or evening",
+          "place_tip": "Enjoy the sunset by the lake for a memorable experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.5008,
+            "longitude": 23.758
+          },
+          "address": "Pyhäjärvi, Tampere, Finland",
+          "official_website": "https://www.visittampere.fi/en/pyhajarvi-lakeside-walk",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Outdoor Activities"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pihtipudas_gata.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Pihtipudas_gata.JPG/960px-Pihtipudas_gata.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pihtipudas gata",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Raphael_Saulus&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Raphael Saulus (page does not exist)\">Raphael Saulus</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pihtipudas_gata.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Keskustie street in Pihtipudas, Finland."
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Pispala Wooden Houses District",
+          "ai_summary": "A charming district featuring traditional wooden houses, narrow streets, and beautiful views of the city and lakes.",
+          "name_english": "Pispala Wooden Houses District",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "22:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited on foot; be respectful of the residents."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the Pispala Church and enjoy the views from the hilltop.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.4853,
+            "longitude": 23.7586
+          },
+          "address": "Pispala, Tampere, Finland",
+          "official_website": "https://www.visittampere.fi/en/pispala-wooden-houses-district",
+          "tags": [
+            "History",
+            "Architecture",
+            "Scenic"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pispala_Pyhäjärveltä_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Pispala_Pyh%C3%A4j%C3%A4rvelt%C3%A4_1.jpg/960px-Pispala_Pyh%C3%A4j%C3%A4rvelt%C3%A4_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pispala Pyhäjärveltä 1",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kallerna\" title=\"User:Kallerna\">kallerna</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pispala_Pyh%C3%A4j%C3%A4rvelt%C3%A4_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Pispala seen from frozen Lake Pyhäjärvi."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Sara Hildén Art Museum",
+          "ai_summary": "An art museum featuring a diverse collection of contemporary art, with a focus on Finnish artists and thematic exhibitions.",
+          "name_english": "Sara Hildén Art Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Check for special exhibitions and events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the museum shop for unique art-related gifts.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.4989,
+            "longitude": 23.7627
+          },
+          "address": "Puutarhakatu 34, 33100 Tampere, Finland",
+          "official_website": "https://www.sarahildenartmuseum.fi/",
+          "tags": [
+            "Art",
+            "Museum",
+            "Culture"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:SaraHilden.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/SaraHilden.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "SaraHilden",
+                  "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:SaraHilden.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Photograph of the Finnish patron Sara Hildén (1905–1993)."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Näsijärvi Lake Cruise",
+          "ai_summary": "A scenic cruise on Lake Näsijärvi, offering beautiful views of the surrounding nature and islands.",
+          "name_english": "Näsijärvi Lake Cruise",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "22:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00-18:00",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Check the schedule for cruise times and availability."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a camera to capture the stunning landscapes.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 61.512,
+            "longitude": 23.763
+          },
+          "address": "Särkänniemi, 33100 Tampere, Finland",
+          "official_website": "https://www.sarkanniemi.fi/en/nasijarvi-lake-cruise",
+          "tags": [
+            "Cruise",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Näsinneula_view_11.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/N%C3%A4sinneula_view_11.jpg/960px-N%C3%A4sinneula_view_11.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Näsinneula view 11",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kallerna\" title=\"User:Kallerna\">kallerna</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:N%C3%A4sinneula_view_11.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "View to <a href=\"https://en.wikipedia.org/wiki/Tampere\" class=\"extiw\" title=\"w:Tampere\">Tampere</a>, Finland from <a href=\"https://en.wikipedia.org/wiki/N%C3%A4sinneula\" class=\"extiw\" title=\"w:Näsinneula\">Näsinneula</a> observation tower."
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Spy Museum Tampere",
+          "ai_summary": "A unique museum dedicated to the world of espionage, featuring interactive exhibits and real spy gadgets.",
+          "name_english": "Spy Museum Tampere",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Advance booking recommended for guided tours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the interactive exhibits and the spy gadget collection.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 61.4981,
+            "longitude": 23.7623
+          },
+          "address": "Keskustori 2, 33100 Tampere, Finland",
+          "official_website": "https://www.spymuseum.fi/",
+          "tags": [
+            "Museum",
+            "Interactive",
+            "History"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Spy_Museum_entrance.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Spy_Museum_entrance.JPG/960px-Spy_Museum_entrance.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Spy Museum entrance",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Catlemur\" title=\"User:Catlemur\">Catlemur</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Spy_Museum_entrance.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Spy Museum entrance, Tampere, Finland."
+                }
+              }
+            }
+          },
+          "rank_score": 0.754
+        },
+        {
+          "name": "Tampere Theatre",
+          "ai_summary": "A prominent theatre in Tampere offering a variety of performances, including plays, musicals, and concerts.",
+          "name_english": "Tampere Theatre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "18:00-20:00",
+            "Wednesday": "18:00-20:00",
+            "Thursday": "18:00-20:00",
+            "Friday": "18:00-20:00",
+            "Saturday": "14:00-20:00",
+            "Sunday": "Closed",
+            "notes": "Check the schedule for performance times and ticket availability."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book tickets in advance for popular performances.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 61.4987,
+            "longitude": 23.7623
+          },
+          "address": "Keskustori 2, 33100 Tampere, Finland",
+          "official_website": "https://www.tampereen-teatteri.fi/",
+          "tags": [
+            "Theatre",
+            "Performing Arts",
+            "Culture"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tampere_destroyed_in_Civil_War.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Tampere_destroyed_in_Civil_War.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tampere destroyed in Civil War",
+                  "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tampere_destroyed_in_Civil_War.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Tammela district of the City of Tampere after the Finnish Civil War in 1918"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Duck Bay Café",
+          "ai_summary": "A cozy café located by the lake, offering a variety of snacks, meals, and drinks, with a beautiful view of the water.",
+          "name_english": "Duck Bay Café",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "22:00",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00-18:00",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Seasonal opening hours; check the website for details."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or afternoon",
+          "place_tip": "Try the local pastries and enjoy the lakeside view.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.5111,
+            "longitude": 23.7639
+          },
+          "address": "Särkänniemi, 33100 Tampere, Finland",
+          "official_website": "https://www.sarkanniemi.fi/en/duck-bay-cafe",
+          "tags": [
+            "Café",
+            "Dining",
+            "Scenic"
+          ],
+          "state": "Tampere",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Hiking in Kauppi Forest",
+          "ai_summary": "Enjoy hiking in the beautiful Kauppi Forest, featuring well-marked trails, diverse flora, and fauna, and peaceful nature.",
+          "name_english": "Hiking in Kauppi Forest",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "22:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in spring, summer, and autumn."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Explore the different trails and enjoy the tranquility of the forest.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.5008,
+            "longitude": 23.758
+          },
+          "address": "Kauppi, Tampere, Finland",
+          "official_website": "https://www.visittampere.fi/en/hiking-in-kauppi-forest",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Outdoor Activities"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Benin_nigeria_-explorenigeria.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Benin_nigeria_-explorenigeria.jpg/960px-Benin_nigeria_-explorenigeria.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Benin nigeria -explorenigeria",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Odunayodeji\" title=\"User:Odunayodeji\">Odunayodeji</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Benin_nigeria_-explorenigeria.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "A beautiful plantation along Benin road Nigeria #explorenigeria"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Pyynikki Beach",
+          "ai_summary": "A popular beach area by Lake Pyhäjärvi, offering swimming, sunbathing, and beach volleyball in a beautiful natural setting.",
+          "name_english": "Pyynikki Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "22:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "06:00-22:00",
+            "Tuesday": "06:00-22:00",
+            "Wednesday": "06:00-22:00",
+            "Thursday": "06:00-22:00",
+            "Friday": "06:00-22:00",
+            "Saturday": "06:00-22:00",
+            "Sunday": "06:00-22:00",
+            "notes": "Best visited in summer; check local guidelines for swimming."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or evening",
+          "place_tip": "Enjoy a swim in the lake and relax on the beach.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.4978,
+            "longitude": 23.7609
+          },
+          "address": "Pyynikki, Tampere, Finland",
+          "official_website": "https://www.visittampere.fi/en/pyynikki-beach",
+          "tags": [
+            "Beach",
+            "Swimming",
+            "Outdoor Activities"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tampere_city_hall.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Tampere_city_hall.jpg/960px-Tampere_city_hall.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tampere city hall",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Stane\" class=\"extiw\" title=\"en:User:Stane\">Stane</a>",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tampere_city_hall.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "Depicted place:  <a href=\"https://en.wikipedia.org/wiki/en:Tampere_City_Hall\" class=\"extiw\" title=\"w:en:Tampere City Hall\"><span title=\"building in Tampere, Finland\">Tampere Old City Hall</span></a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Pispala Viewpoint",
+          "ai_summary": "A scenic viewpoint in the Pispala district, offering panoramic views of Tampere, Lake Pyhäjärvi, and the surrounding areas.",
+          "name_english": "Pispala Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "22:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited at sunrise or sunset for stunning views."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Bring a camera and enjoy the breathtaking views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 61.4853,
+            "longitude": 23.7586
+          },
+          "address": "Pispala, Tampere, Finland",
+          "official_website": "https://www.visittampere.fi/en/pispala-viewpoint",
+          "tags": [
+            "Scenic",
+            "Viewpoint",
+            "Photography"
+          ],
+          "state": "Tampere",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tampereen_taistelun_aikana_tuhoutunutta_Tammelan_kaupunginosaa_(26696844330).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Tampereen_taistelun_aikana_tuhoutunutta_Tammelan_kaupunginosaa_%2826696844330%29.jpg/960px-Tampereen_taistelun_aikana_tuhoutunutta_Tammelan_kaupunginosaa_%2826696844330%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tampereen taistelun aikana tuhoutunutta Tammelan kaupunginosaa (26696844330)",
+                  "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tampereen_taistelun_aikana_tuhoutunutta_Tammelan_kaupunginosaa_(26696844330).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Destroyed parts of the Tammela district after the Battle of Tampere. The picture was shot from the street Ilmarinkatu 16. Tammela school in the background."
+                }
+              }
+            }
+          },
+          "rank_score": 0.822
+        }
+      ]
+    }
+  ]
+}

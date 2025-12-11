@@ -1,0 +1,1010 @@
+{
+  "country": "Kenya",
+  "state": "Tsavo East & West",
+  "cities": [
+    {
+      "city": "Tsavo East",
+      "nearest_airport": "Voi Airport",
+      "places": [
+        {
+          "name": "Mzima Springs (Crystal Pools, Tsavo West)",
+          "ai_summary": "A serene spot with crystal-clear pools, home to hippos, crocodiles, and a variety of bird species.",
+          "name_english": "Mzima Springs",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture the wildlife and scenery.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.975,
+            "longitude": 38.073
+          },
+          "address": "Tsavo West, Kenya",
+          "official_website": "https://example.com/mzima-springs",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Shetani Lava Flow",
+          "ai_summary": "A dramatic black lava field formed by volcanic activity, offering a unique landscape for exploration.",
+          "name_english": "Shetani Lava Flow",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear sturdy shoes for walking on uneven terrain.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.0,
+            "longitude": 38.1
+          },
+          "address": "Tsavo West, Kenya",
+          "official_website": "https://example.com/shetani-lava-flow",
+          "tags": [
+            "Nature",
+            "Geology",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Coat of Arms of Taita Taveta County.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Coat_of_Arms_of_Taita_Taveta_County.png",
+                "width": 300,
+                "height": 311,
+                "attribution": {
+                  "title": "Coat of Arms of Taita Taveta County",
+                  "author": "Nairobi123",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Taita_Taveta_County.png",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Coat of Arms of Taita Taveta County"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ngulia Rhino Sanctuary",
+          "ai_summary": "A protected area within Tsavo West, dedicated to the conservation of the endangered black rhino.",
+          "name_english": "Ngulia Rhino Sanctuary",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:20 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Advance booking recommended for guided tours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring binoculars for better wildlife viewing.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -3.05,
+            "longitude": 38.15
+          },
+          "address": "Tsavo West, Kenya",
+          "official_website": "https://example.com/ngulia-rhino-sanctuary",
+          "tags": [
+            "Wildlife",
+            "Conservation",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Africa stub icon.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Africa_stub_icon.svg/800px-Africa_stub_icon.svg.png",
+                "width": 800,
+                "height": 1017,
+                "attribution": {
+                  "title": "Africa stub icon",
+                  "author": "The original uploader was Otis at Czech Wikipedia.",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Africa_stub_icon.svg",
+                  "credit": "Transferred from cs.wikipedia to Commons.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Obrázek pro pahýl Afriky, zkopírovaný z anglické wikipedie (pod licencí GNU FDL)"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Poacher’s Lookout Viewpoint",
+          "ai_summary": "A viewpoint offering a panoramic sight of the Tsavo plains, often used for spotting wildlife.",
+          "name_english": "Poacher’s Lookout Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited early morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Carry water and snacks, as facilities are limited.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.1,
+            "longitude": 38.2
+          },
+          "address": "Tsavo West, Kenya",
+          "official_website": "https://example.com/poachers-lookout",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Roaring Rocks",
+          "ai_summary": "A rocky outcrop with a unique echo phenomenon, where sounds are amplified, creating a 'roaring' effect.",
+          "name_english": "Roaring Rocks",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visit during the day to experience the echo."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Daytime",
+          "place_tip": "Test the echo with a friend for a fun experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.05,
+            "longitude": 38.25
+          },
+          "address": "Tsavo West, Kenya",
+          "official_website": "https://example.com/roaring-rocks",
+          "tags": [
+            "Nature",
+            "Geology",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:020 The lion king Snyggve in the Serengeti National Park Photo by Giles Laurent.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/960px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+                "width": 800,
+                "height": 534,
+                "attribution": {
+                  "title": "020 The lion king Snyggve in the Serengeti National Park Photo by Giles Laurent",
+                  "author": "Giles Laurent",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+                  "credit": "Own work, from gileslaurent.com",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Wild lion (Panthera leo) Snyggve (also known as Bob Junior), son of C-Boy, laying on a lava rock in the Serengeti National Park. Standing on top of the lava rock allows the lion to have a clear view of its territory."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Aruba Dam (Tsavo East)",
+          "ai_summary": "A dam on the Voi River, popular for bird watching and scenic views.",
+          "name_english": "Aruba Dam",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Bring binoculars for bird watching.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.2,
+            "longitude": 38.3
+          },
+          "address": "Tsavo East, Kenya",
+          "official_website": "https://example.com/aruba-dam",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mudanda Rock (Elephant Viewing)",
+          "ai_summary": "A rock formation offering a natural vantage point for elephant viewing, especially during the dry season.",
+          "name_english": "Mudanda Rock",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Best visited in the dry season (June to October)."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Carry water and snacks, as facilities are limited.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.3,
+            "longitude": 38.4
+          },
+          "address": "Tsavo East, Kenya",
+          "official_website": "https://example.com/mudanda-rock",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lugard Falls on Galana River",
+          "ai_summary": "Waterfalls on the Galana River, known for their scenic beauty and as a habitat for various bird species.",
+          "name_english": "Lugard Falls",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed after the rains (April to June)."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a picnic to enjoy the scenery.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.4,
+            "longitude": 38.5
+          },
+          "address": "Tsavo East, Kenya",
+          "official_website": "https://example.com/lugard-falls",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Yatta Plateau (World’s Longest Lava Flow)",
+          "ai_summary": "A geological wonder, this plateau is the world's longest lava flow, offering a unique landscape and ecosystem.",
+          "name_english": "Yatta Plateau",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during the cooler parts of the day."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Carry enough water, as it can be hot and dry.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.5,
+            "longitude": 38.6
+          },
+          "address": "Tsavo East, Kenya",
+          "official_website": "https://example.com/yatta-plateau",
+          "tags": [
+            "Nature",
+            "Geology",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Tsavo Railway & ‘Man-Eaters’ History",
+          "ai_summary": "Historical site featuring the remains of the old railway and stories of the infamous 'Man-Eaters' of Tsavo.",
+          "name_english": "Tsavo Railway",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Guided tours available, covering the railway history and the Man-Eaters legend."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine with a visit to the nearby Tsavo East attractions.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -3.6,
+            "longitude": 38.7
+          },
+          "address": "Tsavo East, Kenya",
+          "official_website": "https://example.com/tsavo-railway",
+          "tags": [
+            "History",
+            "Adventure",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Colonel Patterson with Tsavo-Lion.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Colonel_Patterson_with_Tsavo-Lion.jpg/960px-Colonel_Patterson_with_Tsavo-Lion.jpg",
+                "width": 800,
+                "height": 544,
+                "attribution": {
+                  "title": "Colonel Patterson with Tsavo-Lion",
+                  "author": "Field Museum",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Colonel_Patterson_with_Tsavo-Lion.jpg",
+                  "credit": "http://news.nationalgeographic.com/2017/04/man-eating-lions-teeth-kenya/",
+                  "usage_terms": "Public domain",
+                  "description": "The first of the two Tsavo man-eating lions (FMNH 23970) shot by Lt. Col. Patterson."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Birding along Tsavo River",
+          "ai_summary": "A prime spot for birdwatching, with a diverse range of bird species found along the riverine ecosystem.",
+          "name_english": "Birding along Tsavo River",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Bring binoculars and a bird guidebook.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.7,
+            "longitude": 38.8
+          },
+          "address": "Tsavo East, Kenya",
+          "official_website": "https://example.com/birding-tsavo-river",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Taita Hills Salt Lick Sanctuary",
+          "ai_summary": "A sanctuary at the Taita Hills where animals come to lick salt, an essential mineral for their diet.",
+          "name_english": "Taita Hills Salt Lick Sanctuary",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Best visited in the dry season (June to October)."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Observe quietly from a distance to avoid disturbing the animals.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.8,
+            "longitude": 38.9
+          },
+          "address": "Taita Hills, Kenya",
+          "official_website": "https://example.com/taita-hills-salt-lick",
+          "tags": [
+            "Wildlife",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Coat of Arms of Taita Taveta County.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Coat_of_Arms_of_Taita_Taveta_County.png",
+                "width": 300,
+                "height": 311,
+                "attribution": {
+                  "title": "Coat of Arms of Taita Taveta County",
+                  "author": "Nairobi123",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Taita_Taveta_County.png",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Coat of Arms of Taita Taveta County"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lumo Community Wildlife Sanctuary",
+          "ai_summary": "A community-managed wildlife sanctuary promoting conservation and offering wildlife viewing opportunities.",
+          "name_english": "Lumo Community Wildlife Sanctuary",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Guided tours available, with a focus on community conservation efforts."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Support local conservation by visiting this community-run sanctuary.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -3.9,
+            "longitude": 39.0
+          },
+          "address": "Lumo, Kenya",
+          "official_website": "https://example.com/lumo-sanctuary",
+          "tags": [
+            "Wildlife",
+            "Conservation",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Mzima Springs Hippos & Crocs",
+          "ai_summary": "A popular spot within Mzima Springs to see hippos and crocodiles in their natural habitat.",
+          "name_english": "Mzima Springs Hippos & Crocs",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Guided tours available, especially for wildlife viewing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Stay quiet and at a distance to avoid disturbing the animals.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.975,
+            "longitude": 38.073
+          },
+          "address": "Tsavo West, Kenya",
+          "official_website": "https://example.com/mzima-springs-hippos-crocs",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Kudu & Lesser Kudu Tracking",
+          "ai_summary": "An adventurous activity offering the chance to track and observe the elusive kudu and lesser kudu in their natural habitat.",
+          "name_english": "Kudu & Lesser Kudu Tracking",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Best done with a guide, who can help track the animals."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Be patient and quiet for a successful tracking experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -3.05,
+            "longitude": 38.15
+          },
+          "address": "Tsavo West, Kenya",
+          "official_website": "https://example.com/kudu-tracking",
+          "tags": [
+            "Wildlife",
+            "Adventure",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Satao Area Elephant Herds",
+          "ai_summary": "A region in Tsavo East known for large herds of elephants, offering a spectacular wildlife viewing experience.",
+          "name_english": "Satao Area Elephant Herds",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the dry season (June to October)."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a good camera for photography.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.2,
+            "longitude": 38.3
+          },
+          "address": "Tsavo East, Kenya",
+          "official_website": "https://example.com/satao-area-elephant-herds",
+          "tags": [
+            "Wildlife",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Palm Thickets of Tsavo East",
+          "ai_summary": "Dense thickets of palm trees in Tsavo East, providing a unique habitat and landscape.",
+          "name_english": "Palm Thickets of Tsavo East",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored on foot or by bicycle."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Watch out for wildlife while exploring the thickets.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.3,
+            "longitude": 38.4
+          },
+          "address": "Tsavo East, Kenya",
+          "official_website": "https://example.com/palm-thickets-tsavo-east",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:020 The lion king Snyggve in the Serengeti National Park Photo by Giles Laurent.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/960px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+                "width": 800,
+                "height": 534,
+                "attribution": {
+                  "title": "020 The lion king Snyggve in the Serengeti National Park Photo by Giles Laurent",
+                  "author": "Giles Laurent",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+                  "credit": "Own work, from gileslaurent.com",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Wild lion (Panthera leo) Snyggve (also known as Bob Junior), son of C-Boy, laying on a lava rock in the Serengeti National Park. Standing on top of the lava rock allows the lion to have a clear view of its territory."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Sundowner on Voi Plains",
+          "ai_summary": "Experience a breathtaking sunset over the Voi Plains, a perfect way to end a day of exploration.",
+          "name_english": "Sundowner on Voi Plains",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed with a picnic and a drink."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Find a good spot early for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.4,
+            "longitude": 38.5
+          },
+          "address": "Voi Plains, Kenya",
+          "official_website": "https://example.com/sundowner-voi-plains",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Night Skies & Milky Way Photography",
+          "ai_summary": "Tsavo's remote location offers stunning views of the night sky, perfect for astrophotography.",
+          "name_english": "Night Skies & Milky Way Photography",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed away from park gates and artificial lights."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Night",
+          "place_tip": "Bring a tripod and camera with manual settings for astrophotography.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -3.5,
+            "longitude": 38.6
+          },
+          "address": "Tsavo East, Kenya",
+          "official_website": "https://example.com/night-skies-tsavo",
+          "tags": [
+            "Photography",
+            "Nature",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        }
+      ]
+    }
+  ]
+}

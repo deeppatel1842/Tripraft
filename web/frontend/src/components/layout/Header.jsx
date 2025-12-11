@@ -59,8 +59,10 @@ const Header = ({ onLoginClick, onSignUpClick, isAuthenticated, user, onLogout }
             <Link to="/trip-planner" className="nav-link" onClick={closeMobileMenu}>AI Planner</Link>
             <Link to="/group-trip" className="nav-link" onClick={closeMobileMenu}>Group Planner</Link>
             <Link to="/expenses" className="nav-link" onClick={closeMobileMenu}>Expense Management</Link>
-            <Link to="/#pricing" className="nav-link" onClick={closeMobileMenu}>Pricing</Link>
-            <Link to="/#contact" className="nav-link" onClick={closeMobileMenu}>Contact</Link>
+            <Link to="/pricing" className="nav-link" onClick={closeMobileMenu}>Pricing</Link>
+            <Link to="/about" className="nav-link" onClick={closeMobileMenu}>About</Link>
+            <Link to="/contact" className="nav-link" onClick={closeMobileMenu}>Contact</Link>
+           
             
             {/* Mobile Auth Buttons */}
             <div className="mobile-auth-buttons">

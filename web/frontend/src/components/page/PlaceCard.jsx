@@ -9,7 +9,7 @@ const PlaceCard = memo(({ place, animationDelay, onClick, isExpertChoice, rank }
   };
 
   const getPlaceholderImage = () => {
-    return 'https://placehold.co/600x400/e2e8f0/4a5568?text=Image+Not+Available';
+    return 'https://placehold.co/600x400/6366f1/ffffff?text=Coming+Soon&font=roboto';
   };
 
   const getDescription = () => {

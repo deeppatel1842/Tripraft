@@ -108,6 +108,10 @@ import PlacesExplorer from './components/page/PlacesExplorer';
 import TripPlanner from './components/page/TripPlanner';
 import ExpensePage from './components/page/ExpensePage';
 import Analytics from './components/page/Analytics';
+import ExpenseAnalytics from './components/page/ExpenseAnalytics';
+import About from './components/page/About';
+import Contact from './components/page/Contact';
+import Pricing from './components/page/Pricing';
 import Login from './components/page/Login';
 import Signup from './components/page/Signup';
 import AuthPage from './components/page/AuthPage';
@@ -121,10 +125,14 @@ export default function App() {
       <GroupPlannerProvider>
         <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/pricing" element={<Pricing/>} />
         <Route path="/places" element={<PlacesExplorer />} />
         <Route path="/trip-planner" element={<TripPlanner />} />
         <Route path="/analytics" element={<Analytics />} />
         <Route path="/expenses" element={<ExpensePage />} />
+        <Route path="/admin/analysis" element={<ExpenseAnalytics />} />
         <Route path="/group-trip" element={<GroupPlannerDemo />} />
         <Route path="/invitation/:invitationId" element={<SmartInvitationHandler />} />
         <Route path="/invitations/:invitationId" element={<SmartInvitationHandler />} />

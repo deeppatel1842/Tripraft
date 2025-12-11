@@ -1,0 +1,1116 @@
+{
+  "country": "Denmark",
+  "state": "Copenhagen",
+  "cities": [
+    {
+      "city": "Copenhagen",
+      "nearest_airport": "Copenhagen Airport (CPH)",
+      "places": [
+        {
+          "name": "Nyhavn Harbour",
+          "ai_summary": "A historic waterfront and entertainment district, known for its colorful buildings and vibrant atmosphere.",
+          "name_english": "Nyhavn Harbour",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours or early evening."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Take a canal tour for a unique perspective.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.68,
+            "longitude": 12.588
+          },
+          "address": "Nyhavn, 1051 Copenhagen, Denmark",
+          "official_website": "N/A",
+          "tags": [
+            "Harbor",
+            "Historic",
+            "Scenic"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Nyhavn-2023.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Nyhavn-2023.jpg/960px-Nyhavn-2023.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Nyhavn-2023",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mahendra&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mahendra (page does not exist)\">Mahendra</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Nyhavn-2023.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Colourful facade and old boats along the Nyhavn Canal, 2023"
+                }
+              }
+            }
+          },
+          "rank_score": 0.818
+        },
+        {
+          "name": "Tivoli Gardens",
+          "ai_summary": "One of the world's oldest amusement parks, featuring rides, gardens, and live entertainment.",
+          "name_english": "Tivoli Gardens",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "11:00 - 23:00",
+            "Tuesday": "11:00 - 23:00",
+            "Wednesday": "11:00 - 23:00",
+            "Thursday": "11:00 - 23:00",
+            "Friday": "11:00 - 00:00",
+            "Saturday": "11:00 - 00:00",
+            "Sunday": "11:00 - 23:00",
+            "notes": "Hours may vary during special events."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Don’t miss the evening light shows.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 55.673,
+            "longitude": 12.568
+          },
+          "address": "Vesterbrogade 3, 1630 Copenhagen, Denmark",
+          "official_website": "https://www.tivoli.dk/",
+          "tags": [
+            "Amusement Park",
+            "Gardens",
+            "Entertainment"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tivoli_Gardens_4.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tivoli_Gardens_4.jpg/960px-Tivoli_Gardens_4.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tivoli Gardens 4",
+                  "author": "European Commission",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tivoli_Gardens_4.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Tivoli Gardens"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Christiansborg Palace",
+          "ai_summary": "A historic palace housing the Danish Parliament, Supreme Court, and Prime Minister's Office.",
+          "name_english": "Christiansborg Palace",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the tower for panoramic views of the city.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 55.676,
+            "longitude": 12.579
+          },
+          "address": "Prins Jørgens Gård 1, 1218 Copenhagen, Denmark",
+          "official_website": "https://www.christiansborg.dk/",
+          "tags": [
+            "Palace",
+            "Historic",
+            "Government"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Christiansborg_Slot_Copenhagen_2014_01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Christiansborg_Slot_Copenhagen_2014_01.jpg/960px-Christiansborg_Slot_Copenhagen_2014_01.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Christiansborg Slot Copenhagen 2014 01",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Julian_Herzog\" title=\"User:Julian Herzog\">Julian Herzog</a> (<a rel=\"nofollow\" class=\"external text\" href=\"http://julianherzog.com\">Website</a>)<br>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Christiansborg_Slot_Copenhagen_2014_01.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Christiansborg_Slot\" class=\"extiw\" title=\"en:Christiansborg Slot\">Christiansborg Slot</a> in Copenhagen Slotsholmen (\"Christiansborg Palace\")."
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Amalienborg Palace",
+          "ai_summary": "The residence of the Danish royal family, featuring a museum and daily changing of the guard ceremony.",
+          "name_english": "Amalienborg Palace",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 16:00",
+            "Tuesday": "10:00 - 16:00",
+            "Wednesday": "10:00 - 16:00",
+            "Thursday": "10:00 - 16:00",
+            "Friday": "10:00 - 16:00",
+            "Saturday": "10:00 - 16:00",
+            "Sunday": "10:00 - 16:00",
+            "notes": "Hours may vary during royal events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Arrive early to watch the changing of the guard.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.684,
+            "longitude": 12.593
+          },
+          "address": "Amalienborg Slotsplads 5, 1257 Copenhagen, Denmark",
+          "official_website": "https://www.kongernessamling.dk/amalienborg/",
+          "tags": [
+            "Palace",
+            "Royal",
+            "Museum"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Amalienborg_Palace_-_aerial_view.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Amalienborg_Palace_-_aerial_view.jpg/960px-Amalienborg_Palace_-_aerial_view.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Amalienborg Palace - aerial view",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/75483412@N08\">Rob Deutscher</a> from Melbourne, Australia",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Amalienborg_Palace_-_aerial_view.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "<a href=\"//commons.wikimedia.org/wiki/Amalienborg\" title=\"Amalienborg\">Amalienborg</a> Palace with the equestrian statue of King <a href=\"//commons.wikimedia.org/wiki/Frederik_V_of_Denmark\" title=\"Frederik V of Denmark\">Frederik V</a>, <a href=\"//commons.wikimedia.org/wiki/Copenhagen_Opera_House\" title=\"Copenhagen Opera House\">Copenhagen Opera House</a> in the background, and the <a href=\"//commons.wikimedia.org/wiki/%C3%98resund_bridge\" title=\"Øresund bridge\">Øresund Bridge</a> in distant horizon seen from the top of <a href=\"//commons.wikimedia.org/wiki/Marmorkirken\" class=\"mw-redirect\" title=\"Marmorkirken\">Marmorkirken</a>, Copenhagen, Denmark."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Rosenborg Castle & King’s Garden",
+          "ai_summary": "A Renaissance castle housing the Danish crown jewels, surrounded by beautiful gardens.",
+          "name_english": "Rosenborg Castle",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 16:00",
+            "Tuesday": "10:00 - 16:00",
+            "Wednesday": "10:00 - 16:00",
+            "Thursday": "10:00 - 16:00",
+            "Friday": "10:00 - 16:00",
+            "Saturday": "10:00 - 16:00",
+            "Sunday": "10:00 - 16:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the gardens for a relaxing stroll.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 55.686,
+            "longitude": 12.577
+          },
+          "address": "Øster Voldgade 4A, 1350 Copenhagen, Denmark",
+          "official_website": "https://www.kongernessamling.dk/rosenborg/",
+          "tags": [
+            "Castle",
+            "Gardens",
+            "Historic"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Rosenborg_cph.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Rosenborg_cph.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Rosenborg cph",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Elgaard\" title=\"User:Elgaard\">Elgaard</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Rosenborg_cph.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "The Little Mermaid Statue",
+          "ai_summary": "A famous bronze statue depicting a mermaid, based on Hans Christian Andersen's fairy tale.",
+          "name_english": "The Little Mermaid Statue",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed during daylight."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit early to avoid crowds.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.689,
+            "longitude": 12.599
+          },
+          "address": "Langelinie, 2100 Copenhagen, Denmark",
+          "official_website": "N/A",
+          "tags": [
+            "Statue",
+            "Historic",
+            "Scenic"
+          ],
+          "state": "Copenhagen",
+          "photos": {},
+          "rank_score": 0.814
+        },
+        {
+          "name": "National Museum of Denmark",
+          "ai_summary": "The largest museum of cultural history in Denmark, featuring exhibits from the Stone Age to the Viking Age and beyond.",
+          "name_english": "National Museum of Denmark",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on Mondays from September to April."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the Viking Ship exhibit.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.676,
+            "longitude": 12.57
+          },
+          "address": "Ny Vestergade 10, 1471 Copenhagen, Denmark",
+          "official_website": "https://www.natmus.dk/",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "state": "Copenhagen",
+          "photos": {},
+          "rank_score": 0.83
+        },
+        {
+          "name": "Round Tower (Rundetaarn)",
+          "ai_summary": "A 17th-century tower with a spiral ramp leading to an observatory, offering panoramic views of Copenhagen.",
+          "name_english": "Round Tower (Rundetaarn)",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the observatory for sunset views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.676,
+            "longitude": 12.583
+          },
+          "address": "Købmagergade 52A, 1150 Copenhagen, Denmark",
+          "official_website": "https://rundetaarn.dk/",
+          "tags": [
+            "Tower",
+            "Historic",
+            "Viewpoint"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Copenhagen_-_Rundetårn_-_2013.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Copenhagen_-_Rundet%C3%A5rn_-_2013.jpg/960px-Copenhagen_-_Rundet%C3%A5rn_-_2013.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Copenhagen - Rundetårn - 2013",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Avda\" title=\"User:Avda\">Avda</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Copenhagen_-_Rundet%C3%A5rn_-_2013.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Copenhagen - Rundetårn - 2013"
+                }
+              }
+            }
+          },
+          "rank_score": 0.738
+        },
+        {
+          "name": "Church of Our Saviour (Spiral Staircase)",
+          "ai_summary": "A baroque church famous for its corkscrew-shaped tower with an external spiral staircase.",
+          "name_english": "Church of Our Saviour (Spiral Staircase)",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Climb the tower for a unique view of the city.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.675,
+            "longitude": 12.57
+          },
+          "address": "Sankt Annae Gade 29, 1416 Copenhagen, Denmark",
+          "official_website": "https://www.our-saviour.dk/",
+          "tags": [
+            "Church",
+            "Historic",
+            "Viewpoint"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Copenhagen_-_Church_of_Our_Saviour_-_2013.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Copenhagen_-_Church_of_Our_Saviour_-_2013.jpg/960px-Copenhagen_-_Church_of_Our_Saviour_-_2013.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Copenhagen - Church of Our Saviour - 2013",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Avda\" title=\"User:Avda\">Avda</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Copenhagen_-_Church_of_Our_Saviour_-_2013.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Copenhagen - Church of Our Saviour - 2013"
+                }
+              }
+            }
+          },
+          "rank_score": 0.814
+        },
+        {
+          "name": "Designmuseum Danmark",
+          "ai_summary": "A museum dedicated to Danish design, featuring decorative arts, industrial design, and crafts.",
+          "name_english": "Designmuseum Danmark",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on Mondays from September to April."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the furniture and textile exhibits.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.683,
+            "longitude": 12.577
+          },
+          "address": "Bredgade 40, 1260 Copenhagen, Denmark",
+          "official_website": "https://designmuseum.dk/",
+          "tags": [
+            "Museum",
+            "Design",
+            "Art"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Designmuseum_Danmark.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Designmuseum_Danmark.jpg/960px-Designmuseum_Danmark.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Designmuseum Danmark",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/68904533@N07\">Patti Manolis</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Designmuseum_Danmark.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Designmuseum Danmark"
+                }
+              }
+            }
+          },
+          "rank_score": 0.702
+        },
+        {
+          "name": "Ny Carlsberg Glyptotek",
+          "ai_summary": "An art museum founded by the Carlsberg brewery, featuring works by Danish and international artists.",
+          "name_english": "Ny Carlsberg Glyptotek",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on Mondays from September to April."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the impressionist paintings.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.692,
+            "longitude": 12.57
+          },
+          "address": "Dantes Plads 7, 1556 Copenhagen, Denmark",
+          "official_website": "https://www.glyptoteket.dk/",
+          "tags": [
+            "Museum",
+            "Art",
+            "Culture"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Glyptoteket_palme.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Glyptoteket_palme.JPG/960px-Glyptoteket_palme.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Glyptoteket palme",
+                  "author": "Gunnar Bach Pedersen",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Glyptoteket_palme.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Glyptoteket, Palmehaven med Vandmoderen af Kai Nielsen"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Copenhagen Zoo",
+          "ai_summary": "A popular zoo in Frederiksberg, home to a wide variety of animals and a famous elephant house.",
+          "name_english": "Copenhagen Zoo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00 - 16:00",
+            "Tuesday": "09:00 - 16:00",
+            "Wednesday": "09:00 - 16:00",
+            "Thursday": "09:00 - 16:00",
+            "Friday": "09:00 - 16:00",
+            "Saturday": "09:00 - 16:00",
+            "Sunday": "09:00 - 16:00",
+            "notes": "Hours may vary during winter months."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the elephant house and the tropical zoo.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.67,
+            "longitude": 12.56
+          },
+          "address": "Roskildevej 32, 2000 Frederiksberg, Denmark",
+          "official_website": "https://www.copenhagenzoo.dk/",
+          "tags": [
+            "Zoo",
+            "Animals",
+            "Family"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:København_Zoo_(2005-06-30).jpeg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/K%C3%B8benhavn_Zoo_%282005-06-30%29.jpeg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "København Zoo (2005-06-30)",
+                  "author": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/da:User:Hansjorn\" class=\"extiw\" title=\"w:da:User:Hansjorn\">Hansjorn</a> at <a href=\"https://en.wikipedia.org/wiki/da:\" class=\"extiw\" title=\"w:da:\">Danish Wikipedia</a>.",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B8benhavn_Zoo_(2005-06-30).jpeg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Zoologisk Have. København. Hovedindgang\n©2005 <a href=\"https://da.wikipedia.org/wiki/Bruger:Hansjorn\" class=\"extiw\" title=\"da:Bruger:Hansjorn\">Hans Jørn Storgaard Andersen</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Frederiksberg Gardens",
+          "ai_summary": "A beautiful and expansive garden area in Frederiksberg, perfect for a leisurely stroll or a picnic.",
+          "name_english": "Frederiksberg Gardens",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during spring and summer."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the Frederiksberg Palace located within the gardens.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.67,
+            "longitude": 12.532
+          },
+          "address": "Frederiksberg, 2000 Copenhagen, Denmark",
+          "official_website": "N/A",
+          "tags": [
+            "Gardens",
+            "Park",
+            "Scenic"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Frederiksberg_Have_-_Palace.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Frederiksberg_Have_-_Palace.jpg/960px-Frederiksberg_Have_-_Palace.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Frederiksberg Have - Palace",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/56959502@N00\">malouette</a> from Frederiksberg / Copenhagen, Denmark",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Frederiksberg_Have_-_Palace.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Frederiksberg Park with Frederiksberg Palace in the Frederiksberg district of Copenhagen, Denmark"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Kastellet Star Fortress",
+          "ai_summary": "A well-preserved star-shaped fortress and a popular park area, offering great views and historical insights.",
+          "name_english": "Kastellet Star Fortress",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the ramparts for panoramic views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.686,
+            "longitude": 12.593
+          },
+          "address": "Kastellet, 2100 Copenhagen, Denmark",
+          "official_website": "N/A",
+          "tags": [
+            "Fortress",
+            "Historic",
+            "Park"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kastellet_aerial.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Kastellet_aerial.jpg/960px-Kastellet_aerial.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kastellet aerial",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33200530@N04\">CucombreLibre</a> from New York, NY, USA",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kastellet_aerial.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Kastellet in Copenhagen, Denmark"
+                }
+              }
+            }
+          },
+          "rank_score": 0.774
+        },
+        {
+          "name": "Torvehallerne Food Market",
+          "ai_summary": "A popular food market with a variety of stalls selling fresh produce, gourmet foods, and local delicacies.",
+          "name_english": "Torvehallerne Food Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 19:00",
+            "Tuesday": "10:00 - 19:00",
+            "Wednesday": "10:00 - 19:00",
+            "Thursday": "10:00 - 19:00",
+            "Friday": "10:00 - 19:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "Hours may vary for individual vendors."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Lunch or early afternoon",
+          "place_tip": "Try the smørrebrød and Danish pastries.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.685,
+            "longitude": 12.57
+          },
+          "address": "Frederiksborggade 21, 1360 Copenhagen, Denmark",
+          "official_website": "https://torvehallernekbh.dk/",
+          "tags": [
+            "Food Market",
+            "Shopping",
+            "Culinary"
+          ],
+          "state": "Copenhagen",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Freetown Christiania",
+          "ai_summary": "A unique and controversial neighborhood known for its alternative lifestyle, art, and music scenes.",
+          "name_english": "Freetown Christiania",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Respect the local rules and photography restrictions.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.674,
+            "longitude": 12.585
+          },
+          "address": "Christiania, 1440 Copenhagen, Denmark",
+          "official_website": "N/A",
+          "tags": [
+            "Neighborhood",
+            "Cultural",
+            "Art"
+          ],
+          "state": "Copenhagen",
+          "photos": {},
+          "rank_score": 0.702
+        },
+        {
+          "name": "Copenhagen Opera House",
+          "ai_summary": "A modern architectural masterpiece, home to the Royal Danish Opera.",
+          "name_english": "Copenhagen Opera House",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check the schedule for performances and tours.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 55.676,
+            "longitude": 12.588
+          },
+          "address": "Eholmsvej 20, 1432 Copenhagen, Denmark",
+          "official_website": "https://kglteater.dk/en/",
+          "tags": [
+            "Opera",
+            "Theater",
+            "Architecture"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Copenhagen_Opera_House_2014_04.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Copenhagen_Opera_House_2014_04.jpg/960px-Copenhagen_Opera_House_2014_04.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Copenhagen Opera House 2014 04",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Julian_Herzog\" title=\"User:Julian Herzog\">Julian Herzog</a> (<a rel=\"nofollow\" class=\"external text\" href=\"http://julianherzog.com\">Website</a>)<br>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Copenhagen_Opera_House_2014_04.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "The <a href=\"https://en.wikipedia.org/wiki/Copenhagen_Opera_House\" class=\"extiw\" title=\"en:Copenhagen Opera House\">Copenhagen Opera House</a> (Operaen) in <a href=\"https://en.wikipedia.org/wiki/Copenhagen\" class=\"extiw\" title=\"en:Copenhagen\">Copenhagen</a> <a href=\"https://en.wikipedia.org/wiki/Holmen,_Copenhagen\" class=\"extiw\" title=\"en:Holmen, Copenhagen\">Holmen</a>, Denmark."
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Botanical Garden",
+          "ai_summary": "A large garden in the heart of Copenhagen, featuring a wide variety of plants, flowers, and trees.",
+          "name_english": "Botanical Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:30 - 18:00",
+            "Tuesday": "08:30 - 18:00",
+            "Wednesday": "08:30 - 18:00",
+            "Thursday": "08:30 - 18:00",
+            "Friday": "08:30 - 18:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the Palm House and the herb garden.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.684,
+            "longitude": 12.573
+          },
+          "address": "Gothersgade 128, 1123 Copenhagen, Denmark",
+          "official_website": "https://www.snm.ku.dk/english/botanical-garden/",
+          "tags": [
+            "Garden",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Palm_House,_Copenhagen_Botanical_Garden.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Palm_House%2C_Copenhagen_Botanical_Garden.jpg/960px-Palm_House%2C_Copenhagen_Botanical_Garden.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Palm House, Copenhagen Botanical Garden",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/11742539@N03\">Eoghan OLionnain</a> from Brussels, Belgium",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Palm_House,_Copenhagen_Botanical_Garden.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "The Palm House in Copenhagen Botanical Garden in Copenhagen, Denmark"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Louisiana Museum of Modern Art (day trip)",
+          "ai_summary": "A modern art museum located north of Copenhagen, featuring works by Danish and international artists in a stunning seaside setting.",
+          "name_english": "Louisiana Museum of Modern Art",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "11:00 - 18:00",
+            "Wednesday": "11:00 - 18:00",
+            "Thursday": "11:00 - 18:00",
+            "Friday": "11:00 - 18:00",
+            "Saturday": "11:00 - 18:00",
+            "Sunday": "11:00 - 18:00",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the sculpture park and the museum café.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 56.033,
+            "longitude": 12.57
+          },
+          "address": "Gl. Strandvej 13, 3050 Humlebæk, Denmark",
+          "official_website": "https://www.louisiana.dk/",
+          "tags": [
+            "Museum",
+            "Art",
+            "Sculpture Park"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Outside_Louisiana_Museum_of_Modern_Art.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Outside_Louisiana_Museum_of_Modern_Art.jpg/960px-Outside_Louisiana_Museum_of_Modern_Art.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Outside Louisiana Museum of Modern Art",
+                  "author": "Lars Plougmann",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Outside_Louisiana_Museum_of_Modern_Art.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Photo of the outside of the Louisiana Museum in Denmark."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Superkilen Park",
+          "ai_summary": "A public park in Nørrebro, featuring a unique design with elements from around the world.",
+          "name_english": "Superkilen Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the various art installations and the skate park.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 55.694,
+            "longitude": 12.554
+          },
+          "address": "Nørrebrogade 208, 2200 Copenhagen, Denmark",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Public Space",
+            "Art"
+          ],
+          "state": "Copenhagen",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Superkilen_hill-top_view.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Superkilen_hill-top_view.jpg/960px-Superkilen_hill-top_view.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Superkilen hill-top view",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/76299679@N06\">Emily</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Superkilen_hill-top_view.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Superkilen, Copenhagen, Denmark"
+                }
+              }
+            }
+          },
+          "rank_score": 0.718
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1121 @@
+{
+  "country": "United Kingdom",
+  "state": "Cardiff",
+  "cities": [
+    {
+      "city": "Cardiff",
+      "nearest_airport": "Cardiff Airport",
+      "places": [
+        {
+          "name": "Cardiff Castle",
+          "ai_summary": "A historic castle and Victorian Gothic mansion located in the heart of Cardiff. It features Roman foundations, medieval walls, and lavish interiors.",
+          "name_english": "Cardiff Castle",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Climb the Norman Keep for panoramic views of the city.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.4816,
+            "longitude": -3.1819
+          },
+          "address": "Castle St, Cardiff CF10 3RB, United Kingdom",
+          "official_website": "https://www.cardiffcastle.com/",
+          "tags": [
+            "History",
+            "Castle",
+            "Architecture",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aerial view of Cardiff Castle.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Aerial_view_of_Cardiff_Castle.jpg/960px-Aerial_view_of_Cardiff_Castle.jpg",
+                "width": 800,
+                "height": 499,
+                "attribution": {
+                  "title": "Aerial view of Cardiff Castle",
+                  "author": "Clint Budd",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Cardiff_Castle.jpg",
+                  "credit": "Flickr",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Aerial view of Cardiff Castle, Cardiff, Wales"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Principality Stadium",
+          "ai_summary": "A world-class sports and entertainment venue, home to the Welsh national rugby team. The stadium features a retractable roof and hosts major events.",
+          "name_english": "Principality Stadium",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Tour times vary; check website for availability."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Book a stadium tour to explore behind the scenes, including the players' tunnel and locker rooms.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.4782,
+            "longitude": -3.1827
+          },
+          "address": "Westgate St, Cardiff CF10 1NS, United Kingdom",
+          "official_website": "https://www.principalitystadium.wales/",
+          "tags": [
+            "Sports",
+            "Entertainment",
+            "Landmark",
+            "Events"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "National Museum Cardiff",
+          "ai_summary": "A cultural treasure trove featuring art, natural history, and geology exhibits. Highlights include Impressionist paintings and a fascinating dinosaur collection.",
+          "name_english": "National Museum Cardiff",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on Mondays except for bank holidays."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the Evolution of Wales gallery, which takes you on a journey through 4.6 billion years of history.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4856,
+            "longitude": -3.1725
+          },
+          "address": "Cathays Park, Cardiff CF10 3NP, United Kingdom",
+          "official_website": "https://museum.wales/cardiff/",
+          "tags": [
+            "Museum",
+            "Art",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Cardiff Bay",
+          "ai_summary": "A vibrant waterfront area with shops, restaurants, and attractions. Enjoy scenic walks, boat trips, and the iconic Wales Millennium Centre.",
+          "name_english": "Cardiff Bay",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "21:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Some attractions and restaurants may have varying hours."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "Late afternoon to evening",
+          "place_tip": "Take a boat tour of the bay for a unique perspective of the city and its waterfront attractions.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4634,
+            "longitude": -3.1828
+          },
+          "address": "Cardiff Bay, Cardiff CF10 4PZ, United Kingdom",
+          "official_website": "https://www.cardiffbay.co.uk/",
+          "tags": [
+            "Waterfront",
+            "Shopping",
+            "Dining",
+            "Attractions"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Caernarfon castle interior.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Caernarfon_castle_interior.jpg/960px-Caernarfon_castle_interior.jpg",
+                "width": 800,
+                "height": 591,
+                "attribution": {
+                  "title": "Caernarfon castle interior",
+                  "author": null,
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Caernarfon_castle_interior.jpg",
+                  "credit": null,
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Wales Millennium Centre",
+          "ai_summary": "An iconic arts centre known for its stunning architecture and diverse cultural events, including opera, ballet, and concerts.",
+          "name_english": "Wales Millennium Centre",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "20:30",
+          "cost": "Varies by event",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Check schedule for event times and ticket prices."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening for performances",
+          "place_tip": "Explore the building's unique design and catch a show for an unforgettable cultural experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.4634,
+            "longitude": -3.1775
+          },
+          "address": "Dumballs Rd, Cardiff CF10 5AL, United Kingdom",
+          "official_website": "https://www.wmc.org.uk/",
+          "tags": [
+            "Arts",
+            "Culture",
+            "Architecture",
+            "Events"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cader Idris Sculpture, April 2018 (1).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cader_Idris_Sculpture%2C_April_2018_%281%29.jpg/960px-Cader_Idris_Sculpture%2C_April_2018_%281%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cader Idris Sculpture, April 2018 (1)",
+                  "author": "No Swan So Fine",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cader_Idris_Sculpture,_April_2018_(1).jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cader Idris Sculpture, April 2018"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Roath Park",
+          "ai_summary": "A picturesque park featuring a lake, gardens, and a lighthouse. Ideal for leisurely walks, picnics, and enjoying nature.",
+          "name_english": "Roath Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "20:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Gardens and conservatory have specific opening times."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the Roath Park Conservatory to see a variety of plants and flowers in a beautiful setting.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4823,
+            "longitude": -3.1735
+          },
+          "address": "Lake Rd W, Cardiff CF23 5PG, United Kingdom",
+          "official_website": "https://www.cardiff.gov.uk/roathpark",
+          "tags": [
+            "Park",
+            "Nature",
+            "Lake",
+            "Gardens"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Bute Park",
+          "ai_summary": "A large urban park located near the city centre, featuring gardens, woodlands, and the River Taff. Great for walking, cycling, and relaxation.",
+          "name_english": "Bute Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:50",
+          "sunset_time": "20:50",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Some facilities may have specific opening times."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Anytime, year-round",
+          "place_tip": "Explore the park's many trails and don't miss the beautiful arboretum.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4825,
+            "longitude": -3.1791
+          },
+          "address": "North Rd, Cardiff CF10 3DX, United Kingdom",
+          "official_website": "https://www.cardiff.gov.uk/butepark",
+          "tags": [
+            "Park",
+            "Nature",
+            "Walking",
+            "Cycling"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OOjs UI icon edit-ltr-progressive.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/800px-OOjs_UI_icon_edit-ltr-progressive.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "OOjs UI icon edit-ltr-progressive",
+                  "author": "https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg",
+                  "credit": "lib/oojs-ui/themes/mediawiki/images/icons/",
+                  "usage_terms": "Public domain",
+                  "description": "An icon from the OOjs UI MediaWiki lib."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "St Fagans National Museum of History",
+          "ai_summary": "An open-air museum chronicling the historical lifestyle, culture, and architecture of the Welsh people. It features original buildings and exhibits.",
+          "name_english": "St Fagans National Museum of History",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:30 - 17:00",
+            "Tuesday": "09:30 - 17:00",
+            "Wednesday": "09:30 - 17:00",
+            "Thursday": "09:30 - 17:00",
+            "Friday": "09:30 - 17:00",
+            "Saturday": "09:30 - 17:00",
+            "Sunday": "09:30 - 17:00",
+            "notes": "Last entry at 16:00. Closed on December 25th and January 1st."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Wear comfortable shoes for walking around the extensive grounds.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.485,
+            "longitude": -3.2154
+          },
+          "address": "St Fagans, Cardiff CF5 6XB, United Kingdom",
+          "official_website": "https://museum.wales/stfagans/",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CardiffWest2024Constituency.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/CardiffWest2024Constituency.svg/800px-CardiffWest2024Constituency.svg.png",
+                "width": 800,
+                "height": 888,
+                "attribution": {
+                  "title": "CardiffWest2024Constituency",
+                  "author": "DankJae",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CardiffWest2024Constituency.svg",
+                  "credit": "This vector image includes elements that have been taken or adapted from this file:",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Map of the constituency of Cardiff West, to be used for the next election to the UK Parliament from 2024."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Llandaff Cathedral",
+          "ai_summary": "A stunning medieval cathedral known for its impressive architecture, beautiful stained glass, and serene gardens.",
+          "name_english": "Llandaff Cathedral",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Check for service times and special events."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Take time to explore the surrounding gardens and the nearby Llandaff village.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4901,
+            "longitude": -3.2077
+          },
+          "address": "The Cathedral Close, Cardiff CF5 2LA, United Kingdom",
+          "official_website": "https://llandaffcathedral.org.uk/",
+          "tags": [
+            "Religion",
+            "Architecture",
+            "History",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:11 High Street, Llandaff (Jan 2023).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/11_High_Street%2C_Llandaff_%28Jan_2023%29.jpg/960px-11_High_Street%2C_Llandaff_%28Jan_2023%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "11 High Street, Llandaff (Jan 2023)",
+                  "author": "Seth Whales",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:11_High_Street,_Llandaff_(Jan_2023).jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "11 High Street, Llandaff, Cardiff"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Penarth Pier",
+          "ai_summary": "A beautiful Victorian pier offering stunning views of the Bristol Channel. It's a great spot for a leisurely stroll and enjoying the seaside atmosphere.",
+          "name_english": "Penarth Pier",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:40",
+          "sunset_time": "20:40",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "The pier is open all year round, but some facilities may be seasonal."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Visit the nearby beach and enjoy some fish and chips from a local vendor.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4402,
+            "longitude": -3.2078
+          },
+          "address": "Penarth Pier, Penarth CF64 3AU, United Kingdom",
+          "official_website": "https://www.visitpenarth.co.uk/penarth-pier",
+          "tags": [
+            "Seaside",
+            "Walking",
+            "Views",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Castell Coch",
+          "ai_summary": "A fairy-tale castle nestled in the woods, known for its stunning architecture and beautiful interior rooms.",
+          "name_english": "Castell Coch",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Last entry 30 minutes before closing. Closed on December 24th, 25th, and 26th."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Explore the beautiful grounds and enjoy the views from the castle terrace.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.5773,
+            "longitude": -3.2674
+          },
+          "address": "Castle Rd, Tongwynlais, Cardiff CF15 7JS, United Kingdom",
+          "official_website": "https://www.castellcoch.com/",
+          "tags": [
+            "Castle",
+            "Architecture",
+            "History",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cross Keys Hotel, Nantgarw - geograph.org.uk - 371363.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Cross_Keys_Hotel%2C_Nantgarw_-_geograph.org.uk_-_371363.jpg",
+                "width": 640,
+                "height": 480,
+                "attribution": {
+                  "title": "Cross Keys Hotel, Nantgarw - geograph.org.uk - 371363",
+                  "author": "Roger Cornfoot",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cross_Keys_Hotel,_Nantgarw_-_geograph.org.uk_-_371363.jpg",
+                  "credit": "From geograph.org.uk",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Cross Keys Hotel, Nantgarw"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Techniquest",
+          "ai_summary": "An interactive science and discovery centre, great for families. It features hands-on exhibits, a planetarium, and science shows.",
+          "name_english": "Techniquest",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:30",
+            "Wednesday": "10:00 - 17:30",
+            "Thursday": "10:00 - 17:30",
+            "Friday": "10:00 - 17:30",
+            "Saturday": "10:00 - 17:30",
+            "Sunday": "10:00 - 17:30",
+            "notes": "Last admission 1 hour before closing. Closed on December 25th and January 1st."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Check the schedule for live science demonstrations and planetarium shows.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.482,
+            "longitude": -3.1794
+          },
+          "address": "Cardiff CF10 5BZ, United Kingdom",
+          "official_website": "https://www.techniquest.org/",
+          "tags": [
+            "Science",
+            "Family",
+            "Education",
+            "Interactive"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Mermaid Quay",
+          "ai_summary": "A popular waterfront destination with a variety of restaurants, bars, and shops. Enjoy dining with a view of the water.",
+          "name_english": "Mermaid Quay",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "20:15",
+          "cost": "Varies by restaurant",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 23:00",
+            "Tuesday": "09:00 - 23:00",
+            "Wednesday": "09:00 - 23:00",
+            "Thursday": "09:00 - 23:00",
+            "Friday": "09:00 - 23:00",
+            "Saturday": "09:00 - 23:00",
+            "Sunday": "09:00 - 23:00",
+            "notes": "Individual restaurant hours may vary."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening for dining",
+          "place_tip": "Try to get a table at a restaurant with a view of the water for a memorable dining experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4614,
+            "longitude": -3.1798
+          },
+          "address": "Mermaid Quay, Cardiff CF10 5BZ, United Kingdom",
+          "official_website": "https://www.mermaidquay.co.uk/",
+          "tags": [
+            "Dining",
+            "Shopping",
+            "Waterfront",
+            "Entertainment"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cader Idris Sculpture, April 2018 (1).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cader_Idris_Sculpture%2C_April_2018_%281%29.jpg/960px-Cader_Idris_Sculpture%2C_April_2018_%281%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cader Idris Sculpture, April 2018 (1)",
+                  "author": "No Swan So Fine",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cader_Idris_Sculpture,_April_2018_(1).jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cader Idris Sculpture, April 2018"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Norwegian Church Arts Centre",
+          "ai_summary": "A cultural venue and former church, now an arts centre. It hosts exhibitions, concerts, and community events.",
+          "name_english": "Norwegian Church Arts Centre",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Check schedule for event times and possible admission fees."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the exhibitions and enjoy a coffee at the café with a view of the waterfront.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4611,
+            "longitude": -3.1792
+          },
+          "address": "The Norwegian Church, Cardiff CF10 5BZ, United Kingdom",
+          "official_website": "https://www.norwegianchurchcardiff.com/",
+          "tags": [
+            "Arts",
+            "Culture",
+            "History",
+            "Events"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ATW 153327 at Blaenau Ffestiniog 2004-18-06.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/ATW_153327_at_Blaenau_Ffestiniog_2004-18-06.jpg/960px-ATW_153327_at_Blaenau_Ffestiniog_2004-18-06.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "ATW 153327 at Blaenau Ffestiniog 2004-18-06",
+                  "author": "Chris McKenna (Thryduulf)",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ATW_153327_at_Blaenau_Ffestiniog_2004-18-06.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Arriva Trains Wales Class 153 DMU 153327 stands at the standard-gage platform of Blaenau Ffestiniog. The photo was taken from the narrow-gage platform for the Ffestiniog Railway."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Victorian Arcades",
+          "ai_summary": "Historic shopping arcades featuring a variety of shops, cafes, and boutiques. A great place to experience Cardiff's Victorian architecture.",
+          "name_english": "Victorian Arcades",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:30 - 17:30",
+            "Tuesday": "09:30 - 17:30",
+            "Wednesday": "09:30 - 17:30",
+            "Thursday": "09:30 - 17:30",
+            "Friday": "09:30 - 17:30",
+            "Saturday": "09:30 - 17:30",
+            "Sunday": "Closed",
+            "notes": "Individual shop hours may vary. Closed on bank holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime, but quieter on weekdays",
+          "place_tip": "Look out for unique gifts and enjoy a coffee in one of the charming cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.481,
+            "longitude": -3.1794
+          },
+          "address": "Cardiff CF10 1AE, United Kingdom",
+          "official_website": "https://www.cardiff.gov.uk/",
+          "tags": [
+            "Shopping",
+            "Architecture",
+            "History",
+            "Cafes"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cardiff au pays de Galles (1974-1996).svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cardiff_au_pays_de_Galles_%281974-1996%29.svg/960px-Cardiff_au_pays_de_Galles_%281974-1996%29.svg.png",
+                "width": 800,
+                "height": 957,
+                "attribution": {
+                  "title": "Cardiff au pays de Galles (1974-1996)",
+                  "author": "Sémhur",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cardiff_au_pays_de_Galles_(1974-1996).svg",
+                  "credit": "File:Districts du pays de Galles (1974-1996).svg",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "La cité de Cardiff dans le découpage des districts du pays de Galles."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Cardiff Central Market",
+          "ai_summary": "A bustling indoor market offering a wide range of local produce, crafts, and goods. A great place to experience Cardiff's local culture.",
+          "name_english": "Cardiff Central Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:30",
+            "Tuesday": "09:00 - 17:30",
+            "Wednesday": "09:00 - 17:30",
+            "Thursday": "09:00 - 17:30",
+            "Friday": "09:00 - 17:30",
+            "Saturday": "09:00 - 17:30",
+            "Sunday": "Closed",
+            "notes": "Some stalls may close earlier. Closed on bank holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Try some local delicacies and explore the variety of goods on offer.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4813,
+            "longitude": -3.1791
+          },
+          "address": "Cardiff CF10 1AE, United Kingdom",
+          "official_website": "https://www.cardiff.gov.uk/",
+          "tags": [
+            "Market",
+            "Shopping",
+            "Food",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cardiff Centenary Walk.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Cardiff_Centenary_Walk.jpg/800px-Cardiff_Centenary_Walk.jpg",
+                "width": 800,
+                "height": 802,
+                "attribution": {
+                  "title": "Cardiff Centenary Walk",
+                  "author": "Seth Whales",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cardiff_Centenary_Walk.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Waymarker on the Cardiff Centenary Walk, Cardiff, Wales"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Senedd Cymru",
+          "ai_summary": "The Welsh Parliament building, known for its striking modern architecture. It's located on the waterfront and is surrounded by a beautiful park.",
+          "name_english": "Senedd Cymru",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Check for public tour availability and times."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Take a stroll around the waterfront and enjoy the views of the building and the bay.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4545,
+            "longitude": -3.1695
+          },
+          "address": "Cardiff Bay, Cardiff CF99 1SN, United Kingdom",
+          "official_website": "https://senedd.wales/",
+          "tags": [
+            "Government",
+            "Architecture",
+            "History",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Wales.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_of_Wales.svg/800px-Flag_of_Wales.svg.png",
+                "width": 800,
+                "height": 480,
+                "attribution": {
+                  "title": "Flag of Wales",
+                  "author": "Unknown  Vector graphics by Tobias Jakobs",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Wales.svg",
+                  "credit": "Open Clipart Library",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Wales"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Gorsedd Gardens",
+          "ai_summary": "A public park featuring beautiful gardens, sculptures, and the iconic Welsh Dragon. It's a peaceful spot in the city centre.",
+          "name_english": "Gorsedd Gardens",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:55",
+          "sunset_time": "20:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Some features may be closed at night."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime, but best in spring and summer",
+          "place_tip": "Visit the nearby National Museum Cardiff for a full day of culture and history.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4821,
+            "longitude": -3.1792
+          },
+          "address": "Cardiff CF10 3NP, United Kingdom",
+          "official_website": "https://www.cardiff.gov.uk/gorseddgardens",
+          "tags": [
+            "Gardens",
+            "Sculptures",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cardiff Centenary Walk.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Cardiff_Centenary_Walk.jpg/800px-Cardiff_Centenary_Walk.jpg",
+                "width": 800,
+                "height": 802,
+                "attribution": {
+                  "title": "Cardiff Centenary Walk",
+                  "author": "Seth Whales",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cardiff_Centenary_Walk.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Waymarker on the Cardiff Centenary Walk, Cardiff, Wales"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Museum of Cardiff",
+          "ai_summary": "A museum dedicated to the history and culture of Cardiff, featuring interactive exhibits and collections.",
+          "name_english": "Museum of Cardiff",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on Mondays and Tuesdays. Check for holiday hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the interactive exhibits and don't miss the Cardiff Story gallery.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4815,
+            "longitude": -3.1791
+          },
+          "address": "Cardiff CF10 3NP, United Kingdom",
+          "official_website": "https://museum.wales/cardiff/",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture",
+            "Interactive"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Taff Trail",
+          "ai_summary": "A scenic trail following the River Taff, ideal for walking and cycling. It passes through beautiful landscapes and parks.",
+          "name_english": "Taff Trail",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "21:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Some sections may be closed in winter; check local advice."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Anytime, but spring and summer are best",
+          "place_tip": "Start at the northern end in Brecon Beacons for a more challenging walk or cycle.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4825,
+            "longitude": -3.1791
+          },
+          "address": "Cardiff CF10 3NP, United Kingdom",
+          "official_website": "https://www.cardiff.gov.uk/tafftrail",
+          "tags": [
+            "Walking",
+            "Cycling",
+            "Nature",
+            "Scenery"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cardiff (25553306414) (cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Cardiff_%2825553306414%29_%28cropped%29.jpg/960px-Cardiff_%2825553306414%29_%28cropped%29.jpg",
+                "width": 800,
+                "height": 1237,
+                "attribution": {
+                  "title": "Cardiff (25553306414) (cropped)",
+                  "author": "Alex Liivet from Chester, United Kingdom",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cardiff_(25553306414)_(cropped).jpg",
+                  "credit": "Cardiff",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "80 metre tower completed in 1967. Was the tallest in Wales for many years."
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

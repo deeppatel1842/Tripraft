@@ -1,0 +1,1154 @@
+{
+  "country": "New Zealand",
+  "state": "Auckland",
+  "cities": [
+    {
+      "city": "Auckland",
+      "nearest_airport": "Auckland Airport",
+      "places": [
+        {
+          "name": "Sky Tower",
+          "ai_summary": "An iconic observation and telecommunications tower offering panoramic views of Auckland and thrilling adventure activities like skywalking and skyjumping.",
+          "name_english": "Sky Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:15 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Entry fee: NZD 32",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 10:00 PM",
+            "Tuesday": "9:00 AM - 10:00 PM",
+            "Wednesday": "9:00 AM - 10:00 PM",
+            "Thursday": "9:00 AM - 10:00 PM",
+            "Friday": "9:00 AM - 10:00 PM",
+            "Saturday": "9:00 AM - 10:00 PM",
+            "Sunday": "9:00 AM - 10:00 PM",
+            "notes": "Extended hours during holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book tickets online to avoid queues and enjoy the sunset view.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -36.8485,
+            "longitude": 174.7633
+          },
+          "address": "Victoria Street West, Auckland, New Zealand",
+          "official_website": "https://www.skytower.co.nz",
+          "tags": [
+            "Landmark",
+            "Viewpoint",
+            "Adventure"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:01_Auckland_New_Zealand-1000137.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/01_Auckland_New_Zealand-1000137.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "01 Auckland New Zealand-1000137",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:QFSE_Media\" title=\"User:QFSE Media\">QFSE Media</a>",
+                  "license": "CC BY-SA 3.0 nz",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/nz/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:01_Auckland_New_Zealand-1000137.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 nz",
+                  "description": "Auckland CBD with Skytower"
+                }
+              }
+            }
+          },
+          "rank_score": 0.898
+        },
+        {
+          "name": "Auckland War Memorial Museum",
+          "ai_summary": "A museum showcasing New Zealand’s natural history, cultural heritage, and military history, located in the Auckland Domain park.",
+          "name_english": "Auckland Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 25",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Special exhibits may have extended hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the Maori cultural exhibits for a deeper understanding of New Zealand’s heritage.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.8605,
+            "longitude": 174.7772
+          },
+          "address": "Parnell, Auckland, New Zealand",
+          "official_website": "https://www.aucklandmuseum.com",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Auckland_War_Memorial_Museum_Front_View_2023.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Auckland_War_Memorial_Museum_Front_View_2023.jpg/960px-Auckland_War_Memorial_Museum_Front_View_2023.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Auckland War Memorial Museum Front View 2023",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Iswzo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Iswzo (page does not exist)\">Iswzo</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Auckland_War_Memorial_Museum_Front_View_2023.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The front view of the Auckland War Memorial Museum in 2023"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Waiheke Island",
+          "ai_summary": "A picturesque island known for its vineyards, beaches, and outdoor activities, just a short ferry ride from Auckland.",
+          "name_english": "Waiheke Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:10 AM",
+          "sunset_time": "8:35 PM",
+          "cost": "Ferry ticket: NZD 42",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Ferry schedules vary; check in advance."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Rent a bike or join a wine tour to explore the island.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -36.7969,
+            "longitude": 175.1081
+          },
+          "address": "Waiheke Island, Auckland, New Zealand",
+          "official_website": "https://www.waiheke.co.nz",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Relaxation"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Waiheke_landsat_7_27_August_2002.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Waiheke_landsat_7_27_August_2002.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Waiheke landsat 7 27 August 2002",
+                  "author": "NASA image created by Jesse Allen, using Landsat data provided by the United States Geological Survey.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Waiheke_landsat_7_27_August_2002.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Landsat 7 image of Auckland, New Zealand, from NASA's Earth Observatory - cropped to show just Waiheke Island.\n<p>Original caption (for full image - and not entirely accurate):\nAuckland, New Zealand’s largest city, is located on the country’s North Island. Nearly a third of New Zealand’s population lives in Auckland—just over one million people. This natural-color (photo-like) image of Auckland was acquired on August 27, 2002, by NASA’s Landsat 7 satellite. The most densely developed areas appear white and gray, while suburban areas appear grayish green—a mixture of houses, streets, and lawns. The city spreads out across various peninsulas surrounding Tamaki Strait and other bays and inlets.\n</p><p>The city has been built up around the Auckland Volcanic Field; within a 20-kilometer (12.4-mile) radius of the heart of the city, there are 49 volcanoes, most of them small cones less than 150 meters (492 feet) high. Many of them have been protected as parks or non-residential development, such as ball fields, and so they stand out as green circles of vegetation against the surrounding gray and white cityscape. A few of the most distinct of these urban volcanoes are labeled in this image: Mt. Eden, One Tree Hill, and Mt. Wellington. Among the largest of the volcanoes is Rangitoto Island, which sits offshore of the city between the waters of Tamaki Strait and Hauraki Gulf.\n</p><p>The last eruption in this volcanic field appears to have occurred about 600 years ago. The nature of volcanic activity in the area is different from the subduction-driven volcanism elsewhere on the North Island, such as at Mount Ruapehu. It results from the city’s location above a mantle plume, a hot spot about 100 kilometers below ground where temperatures are high enough to melt rock. The melted rock has a low viscosity, and it flows easily up through the overlying rock.\n</p><p>References:\n</p>\n<ul><li>Smith, I., and Allen, S. (n.d.). Volcanic Hazards: Auckland Volcanic Field. New Zealand Volcanoes: Booklet 5: Auckland Volcanic Field. Produced by the Volcanic Hazards Working Group of the Civil Defence Scientific Advisory Committee. Accessed March 2, 2009.</li>\n<li>Wikipedia. (2009, March 1). Auckland. Accessed March 2, 2009.</li></ul>\n<p>NASA image created by Jesse Allen, using Landsat data provided by the United States Geological Survey. Caption by Rebecca Lindsey.\n</p>\nInstrument: Landsat 7 - ETM+"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Waitematā Harbour",
+          "ai_summary": "A stunning natural harbour offering scenic views, sailing, and waterfront dining in the heart of Auckland.",
+          "name_english": "Waitematā Harbour",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:20 AM",
+          "sunset_time": "8:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed at sunrise or sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Take a scenic cruise or stroll along the waterfront for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.8485,
+            "longitude": 174.742
+          },
+          "address": "Waitematā Harbour, Auckland, New Zealand",
+          "official_website": "https://www.aucklandnz.com/explore/waitemata-harbour",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Waterfront"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:AucklandHarbourBridge.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/AucklandHarbourBridge.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "AucklandHarbourBridge",
+                  "author": "Sperling~commonswiki",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:AucklandHarbourBridge.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Rangitoto Island",
+          "ai_summary": "A volcanic island and iconic symbol of Auckland, featuring a rugged landscape, hiking trails, and stunning views from the summit.",
+          "name_english": "Rangitoto Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:05 AM",
+          "sunset_time": "8:40 PM",
+          "cost": "Ferry ticket: NZD 40",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Ferry schedules vary; check in advance."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Hike to the summit for panoramic views of Auckland and the Hauraki Gulf.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -36.8406,
+            "longitude": 174.742
+          },
+          "address": "Rangitoto Island, Auckland, New Zealand",
+          "official_website": "https://www.rangitoto.co.nz",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Volcano"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Rangitoto09f.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Rangitoto09f.jpg/960px-Rangitoto09f.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Rangitoto09f",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bruce_Hayward&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bruce Hayward (page does not exist)\">Bruce Hayward</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Rangitoto09f.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Oblique aerial of Rangitoto Volcano from the south."
+                }
+              }
+            }
+          },
+          "rank_score": 0.938
+        },
+        {
+          "name": "Viaduct Harbour",
+          "ai_summary": "A vibrant waterfront area with restaurants, bars, and shops, known for its stunning marina and views of the Auckland skyline.",
+          "name_english": "Viaduct Harbour",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for dining and nightlife."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy a meal at one of the waterfront restaurants for a memorable experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.8432,
+            "longitude": 174.763
+          },
+          "address": "Viaduct Harbour, Auckland, New Zealand",
+          "official_website": "https://www.aucklandnz.com/explore/viaduct-harbour",
+          "tags": [
+            "Food",
+            "Nightlife",
+            "Scenic"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Viaduct_Basin_Auckland_01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Viaduct_Basin_Auckland_01.jpg/960px-Viaduct_Basin_Auckland_01.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Viaduct Basin Auckland 01",
+                  "author": "<p><a href=\"https://en.wikipedia.org/wiki/User:Ingolfson\" class=\"extiw\" title=\"wikipedia:User:Ingolfson\">Ingolfson</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a><br>\n</p>\n(<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">Uploader.</bdi></i></span>)",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Viaduct_Basin_Auckland_01.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Viaduct_Basin\" class=\"extiw\" title=\"en:Viaduct Basin\">Viaduct Basin</a> in <a href=\"https://en.wikipedia.org/wiki/Auckland_City\" class=\"extiw\" title=\"en:Auckland City\">Auckland City</a>, <a href=\"https://en.wikipedia.org/wiki/New_Zealand\" class=\"extiw\" title=\"en:New Zealand\">New Zealand</a>. View south-westwards over the 'Lighter Basin'."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Auckland Domain",
+          "ai_summary": "A large public park in the city center, featuring the Auckland War Memorial Museum, beautiful gardens, and walking paths.",
+          "name_english": "Auckland Domain",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:15 AM",
+          "sunset_time": "8:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "The museum has separate hours and an entry fee."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the Wintergardens and the fernery for a unique plant experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.8558,
+            "longitude": 174.7762
+          },
+          "address": "Auckland Domain, Auckland, New Zealand",
+          "official_website": "https://www.aucklanddomain.co.nz",
+          "tags": [
+            "Park",
+            "Museum",
+            "Nature"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Auckland_Museum_And_Bird_Of_Prey_Kaitiaki.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Auckland_Museum_And_Bird_Of_Prey_Kaitiaki.jpg/960px-Auckland_Museum_And_Bird_Of_Prey_Kaitiaki.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Auckland Museum And Bird Of Prey Kaitiaki",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Ingolfson\" title=\"User:Ingolfson\">Ingolfson</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Auckland_Museum_And_Bird_Of_Prey_Kaitiaki.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "The rear of the <a href=\"https://en.wikipedia.org/wiki/Auckland_War_Memorial_Museum\" class=\"extiw\" title=\"en:Auckland War Memorial Museum\">Auckland Museum</a> in <a href=\"https://en.wikipedia.org/wiki/Auckland_City\" class=\"extiw\" title=\"en:Auckland City\">Auckland City</a>, <a href=\"https://en.wikipedia.org/wiki/New_Zealand\" class=\"extiw\" title=\"en:New Zealand\">New Zealand</a>, seen from the southwest. Standing in the <a href=\"https://en.wikipedia.org/wiki/Auckland_Domain\" class=\"extiw\" title=\"en:Auckland Domain\">Auckland Domain</a> in front is a large bird-of-prey artwork, <i>Kaitiaki</i> by <a href=\"https://en.wikipedia.org/wiki/Fred_Graham_(sculptor)\" class=\"extiw\" title=\"en:Fred Graham (sculptor)\">Fred Graham</a>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Auckland Art Gallery Toi o Tāmaki",
+          "ai_summary": "The largest art gallery in New Zealand, featuring an extensive collection of national and international art, located in a stunning heritage building.",
+          "name_english": "Auckland Art Gallery",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:00 PM",
+          "cost": "Free entry, some exhibitions may have a fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the Toi o Tāmaki exhibition for contemporary Maori and Pacific art.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.8485,
+            "longitude": 174.7633
+          },
+          "address": "Corner Kitchener and Wellesley Streets, Auckland, New Zealand",
+          "official_website": "https://www.aucklandartgallery.com",
+          "tags": [
+            "Art",
+            "Culture",
+            "Gallery"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:AAG_Clock_Tower_2013.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/AAG_Clock_Tower_2013.jpg/960px-AAG_Clock_Tower_2013.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "AAG Clock Tower 2013",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Amyaag&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Amyaag (page does not exist)\">Amyaag</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:AAG_Clock_Tower_2013.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "The Gallery building, showing the clock tower"
+                }
+              }
+            }
+          },
+          "rank_score": 0.826
+        },
+        {
+          "name": "Mount Eden (Maungawhau)",
+          "ai_summary": "A dormant volcano and one of Auckland's highest points, offering stunning views of the city and its harbours.",
+          "name_english": "Mount Eden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Respect the local Maori culture; this is a sacred site."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "The walk to the summit is steep; wear comfortable shoes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.898,
+            "longitude": 174.7645
+          },
+          "address": "Mount Eden, Auckland, New Zealand",
+          "official_website": "https://www.aucklandnz.com/explore/mount-eden",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Viewpoint"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Mount_Eden_from_Maungawhau_(Mount_Eden).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mount_Eden_from_Maungawhau_%28Mount_Eden%29.jpg/960px-Mount_Eden_from_Maungawhau_%28Mount_Eden%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Mount Eden from Maungawhau (Mount Eden)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27345927@N07\">russellstreet</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mount_Eden_from_Maungawhau_(Mount_Eden).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "A view of Mount Eden suburb from Maungawhau (Mount Eden)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.862
+        },
+        {
+          "name": "One Tree Hill (Maungakiekie)",
+          "ai_summary": "A significant cultural site and one of Auckland's most iconic landmarks, featuring a solitary tree atop a volcanic cone.",
+          "name_english": "One Tree Hill",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:10 AM",
+          "sunset_time": "8:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "The tree is a sacred symbol; please do not climb it."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the Stardome Observatory nearby for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -37.0008,
+            "longitude": 174.785
+          },
+          "address": "One Tree Hill, Auckland, New Zealand",
+          "official_website": "https://www.aucklandnz.com/explore/one-tree-hill",
+          "tags": [
+            "Culture",
+            "Landmark",
+            "Viewpoint"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:One_Tree_Hill,_Auckland,_March_2015.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/One_Tree_Hill%2C_Auckland%2C_March_2015.jpg/960px-One_Tree_Hill%2C_Auckland%2C_March_2015.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "One Tree Hill, Auckland, March 2015",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Techno246&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Techno246 (page does not exist)\">Techno246</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:One_Tree_Hill,_Auckland,_March_2015.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Aerial shot of <a href=\"https://en.wikipedia.org/wiki/One_Tree_Hill_(New_Zealand)\" class=\"extiw\" title=\"en:One Tree Hill (New Zealand)\">One Tree Hill</a> with Auckland City in the backdrop."
+                }
+              }
+            }
+          },
+          "rank_score": 0.926
+        },
+        {
+          "name": "Piha Beach",
+          "ai_summary": "A popular west coast beach known for its black sand, surf waves, and stunning sunsets, located within the Waitakere Ranges.",
+          "name_english": "Piha Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:25 AM",
+          "sunset_time": "8:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day for safety."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late afternoon for sunset",
+          "place_tip": "Check the surf conditions before swimming; it can be dangerous.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.8985,
+            "longitude": 174.6655
+          },
+          "address": "Piha Beach, Auckland, New Zealand",
+          "official_website": "https://www.aucklandnz.com/explore/piha-beach",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Surfing"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Piha_and_Lion_Rock.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Piha_and_Lion_Rock.JPG/960px-Piha_and_Lion_Rock.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Piha and Lion Rock",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Follash&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Follash (page does not exist)\">Follash</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Piha_and_Lion_Rock.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "View from above of Piha Beach and Lion Rock"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Kelly Tarlton's Sea Life Aquarium",
+          "ai_summary": "An underwater world featuring a variety of marine life, including sharks, rays, and penguins, with unique viewing tunnels.",
+          "name_english": "Kelly Tarlton's Sea Life Aquarium",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 38",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:30 AM - 5:00 PM",
+            "Tuesday": "9:30 AM - 5:00 PM",
+            "Wednesday": "9:30 AM - 5:00 PM",
+            "Thursday": "9:30 AM - 5:00 PM",
+            "Friday": "9:30 AM - 5:00 PM",
+            "Saturday": "9:30 AM - 5:00 PM",
+            "Sunday": "9:30 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Book tickets online for a discount and skip-the-line access.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -36.8485,
+            "longitude": 174.8103
+          },
+          "address": "Auckland, New Zealand",
+          "official_website": "https://www.sealife.co.nz",
+          "tags": [
+            "Aquarium",
+            "Family",
+            "Marine Life"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Entrance_to_Kelly_Tarlton's_Sea_Life_Aquarium.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Entrance_to_Kelly_Tarlton%27s_Sea_Life_Aquarium.jpg/960px-Entrance_to_Kelly_Tarlton%27s_Sea_Life_Aquarium.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Entrance to Kelly Tarlton's Sea Life Aquarium",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jonathan_Harker&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jonathan Harker (page does not exist)\">Jonathan Harker</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Entrance_to_Kelly_Tarlton%27s_Sea_Life_Aquarium.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Entrance to Kelly Tarlton's Sea Life Aquarium on Tamaki Drive, Auckland, New Zealand"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Devonport",
+          "ai_summary": "A charming seaside village with a rich maritime history, beautiful beaches, and stunning views of the Auckland skyline.",
+          "name_english": "Devonport",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:10 AM",
+          "sunset_time": "8:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Take the ferry from Auckland for a scenic trip across the harbour.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.8419,
+            "longitude": 174.7645
+          },
+          "address": "Devonport, Auckland, New Zealand",
+          "official_website": "https://www.aucklandnz.com/explore/devonport",
+          "tags": [
+            "Village",
+            "History",
+            "Scenic"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Devonport_Naval_Base,_Southeast_Base.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Devonport_Naval_Base%2C_Southeast_Base.jpg/960px-Devonport_Naval_Base%2C_Southeast_Base.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Devonport Naval Base, Southeast Base",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Ingolfson\" title=\"User:Ingolfson\">Ingolfson</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Devonport_Naval_Base,_Southeast_Base.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Part of the <a href=\"https://en.wikipedia.org/wiki/Devonport_Naval_Base\" class=\"extiw\" title=\"en:Devonport Naval Base\">Devonport Naval Base</a>, in the <a href=\"https://en.wikipedia.org/wiki/Devonport,_New_Zealand\" class=\"extiw\" title=\"en:Devonport, New Zealand\">Devonport</a>, <a href=\"https://en.wikipedia.org/wiki/Auckland\" class=\"extiw\" title=\"en:Auckland\">Auckland</a>, <a href=\"https://en.wikipedia.org/wiki/New_Zealand\" class=\"extiw\" title=\"en:New Zealand\">New Zealand</a>. The Navy Hospital is visible to the upper left (building flying the flag)."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Waitakere Ranges Regional Park",
+          "ai_summary": "A stunning regional park with native rainforest, waterfalls, and walking tracks, located just outside of Auckland.",
+          "name_english": "Waitakere Ranges",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check track conditions before visiting."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the Arataki Visitor Centre for information and stunning views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.9523,
+            "longitude": 174.6071
+          },
+          "address": "Waitakere Ranges, Auckland, New Zealand",
+          "official_website": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/waitakere-ranges.aspx",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Waterfalls"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Waitakere_Ranges_from_Scenic_Drive.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Waitakere_Ranges_from_Scenic_Drive.jpg/960px-Waitakere_Ranges_from_Scenic_Drive.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Waitakere Ranges from Scenic Drive",
+                  "author": "Robin Capper",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Waitakere_Ranges_from_Scenic_Drive.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Waitakere Ranges from Scenic Drive"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "MOTAT (Museum of Transport and Technology)",
+          "ai_summary": "A fascinating museum dedicated to transport and technology, featuring interactive exhibits and a large collection of vehicles and aircraft.",
+          "name_english": "MOTAT",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 20",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the vintage aircraft and the interactive science exhibits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.895,
+            "longitude": 174.7105
+          },
+          "address": "MOTAT, Auckland, New Zealand",
+          "official_website": "https://www.motat.org.nz",
+          "tags": [
+            "Museum",
+            "Technology",
+            "Transport"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Auckland_MOTAT_Tram_893_(20240204)_(53532450251).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Auckland_MOTAT_Tram_893_%2820240204%29_%2853532450251%29.jpg/960px-Auckland_MOTAT_Tram_893_%2820240204%29_%2853532450251%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Auckland MOTAT Tram 893 (20240204) (53532450251)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/141079007@N04\">Takeshi Aida</a> from Hong Kong, Hong Kong",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Auckland_MOTAT_Tram_893_(20240204)_(53532450251).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Auckland MOTAT Tram 893 (20240204)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Cornwall Park",
+          "ai_summary": "A large park in the city with walking paths, gardens, and the One Tree Hill Domain, offering great views and a peaceful escape.",
+          "name_english": "Cornwall Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:15 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "The park is open, but some facilities may have reduced hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the Stardome Observatory for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.8912,
+            "longitude": 174.7762
+          },
+          "address": "Cornwall Park, Auckland, New Zealand",
+          "official_website": "https://www.cornwallpark.co.nz",
+          "tags": [
+            "Park",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Auckland",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Wynyard Quarter",
+          "ai_summary": "A revitalized waterfront area with a mix of residential, commercial, and recreational spaces, known for its vibrant atmosphere and events.",
+          "name_english": "Wynyard Quarter",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for dining and nightlife."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Check out the Silo Park for events and food trucks.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.8432,
+            "longitude": 174.743
+          },
+          "address": "Wynyard Quarter, Auckland, New Zealand",
+          "official_website": "https://www.aucklandnz.com/explore/wynyard-quarter",
+          "tags": [
+            "Food",
+            "Nightlife",
+            "Scenic"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Wynyard_Quarter_Tank_Farm_In_The_1950s.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Wynyard_Quarter_Tank_Farm_In_The_1950s.jpg/960px-Wynyard_Quarter_Tank_Farm_In_The_1950s.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Wynyard Quarter Tank Farm In The 1950s",
+                  "author": "The <a href=\"https://en.wikipedia.org/wiki/National_Library_of_New_Zealand\" class=\"extiw\" title=\"en:National Library of New Zealand\">National Library of New Zealand (Alexander Turnbull Library)</a> states specifically that the author is unknown. See relevance of this below.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Wynyard_Quarter_Tank_Farm_In_The_1950s.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Looking east over what will one day become <a href=\"https://en.wikipedia.org/wiki/Wynyard_Quarter\" class=\"extiw\" title=\"en:Wynyard Quarter\">Wynyard Quarter</a> in the foreground, then still the 'Tank Farm' or 'Western Reclamation' in <a href=\"https://en.wikipedia.org/wiki/Auckland_City\" class=\"extiw\" title=\"en:Auckland City\">Auckland City</a>, <a href=\"https://en.wikipedia.org/wiki/New_Zealand\" class=\"extiw\" title=\"en:New Zealand\">New Zealand</a> in the 1950s. Coordinates approximate, but reasonably exact in the north-south axis, and likely somewhere above Point Erin."
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "SkyCity Auckland",
+          "ai_summary": "A major entertainment complex in Auckland's CBD, featuring a casino, hotels, restaurants, and the Sky Tower.",
+          "name_english": "SkyCity Auckland",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:30 PM",
+          "cost": "Free entry, charges apply for attractions and dining",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Individual venue hours may vary."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit the Sky Tower for stunning views and dining options.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.8485,
+            "longitude": 174.7633
+          },
+          "address": "SkyCity Auckland, Federal Street, Auckland, New Zealand",
+          "official_website": "https://www.skycityauckland.co.nz",
+          "tags": [
+            "Entertainment",
+            "Dining",
+            "Casino"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:01_Auckland_New_Zealand-1000137.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/01_Auckland_New_Zealand-1000137.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "01 Auckland New Zealand-1000137",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:QFSE_Media\" title=\"User:QFSE Media\">QFSE Media</a>",
+                  "license": "CC BY-SA 3.0 nz",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/nz/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:01_Auckland_New_Zealand-1000137.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 nz",
+                  "description": "Auckland CBD with Skytower"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Auckland Zoo",
+          "ai_summary": "A well-maintained zoo featuring a wide variety of animals from New Zealand and around the world, with a focus on conservation and education.",
+          "name_english": "Auckland Zoo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 24",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:30 AM - 5:00 PM",
+            "Tuesday": "9:30 AM - 5:00 PM",
+            "Wednesday": "9:30 AM - 5:00 PM",
+            "Thursday": "9:30 AM - 5:00 PM",
+            "Friday": "9:30 AM - 5:00 PM",
+            "Saturday": "9:30 AM - 5:00 PM",
+            "Sunday": "9:30 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Check out the Kiwi Encounter and the free-flight bird show.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -36.901,
+            "longitude": 174.742
+          },
+          "address": "Auckland Zoo, Motions Road, Auckland, New Zealand",
+          "official_website": "https://www.aucklandzoo.co.nz",
+          "tags": [
+            "Zoo",
+            "Family",
+            "Conservation"
+          ],
+          "state": "Auckland",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Tiritiri Matangi Island",
+          "ai_summary": "A wildlife sanctuary and birdwatcher's paradise, Tiritiri Matangi Island is home to many rare and endangered species.",
+          "name_english": "Tiritiri Matangi Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:50 PM",
+          "cost": "Ferry ticket: NZD 55",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Ferry schedules vary; check in advance."
+          },
+          "suggested_duration": "Full-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Join a guided tour for the best wildlife viewing opportunities.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -36.8406,
+            "longitude": 175.118
+          },
+          "address": "Tiritiri Matangi Island, Auckland, New Zealand",
+          "official_website": "https://www.tiritirimatangi.org.nz",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Birdwatching"
+          ],
+          "state": "Auckland",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tiritri_Matangi_lighthouse_and_macrocarpa_tree.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tiritri_Matangi_lighthouse_and_macrocarpa_tree.jpg/960px-Tiritri_Matangi_lighthouse_and_macrocarpa_tree.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tiritri Matangi lighthouse and macrocarpa tree",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Avenue\" title=\"User:Avenue\">Avenue</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tiritri_Matangi_lighthouse_and_macrocarpa_tree.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Tiritiri Matangi lighthouse and the nearby macrocarpa tree.\n<p><br>Tiritiri Matangi lighthouse is located near the southeastern end of Tiritiri Matangi Island, a wildlife sanctuary in New Zealand's Hauraki Gulf. It was once the most powerful lighthouse in the southern hemisphere.\n</p>\n<br>Macrocarpa trees (<i>Cupressus macrocarpa</i>) have been widely planted around New Zealand, especially on farms. The island was farmed for many years before becoming a nature reserve."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        }
+      ]
+    }
+  ]
+}

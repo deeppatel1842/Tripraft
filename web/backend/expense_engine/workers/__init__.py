@@ -1,8 +1,5 @@
-"""
-Background Workers for Expense Engine
-Handles asynchronous tasks like email notifications, cleanup, etc.
-"""
-
-__all__ = ['EmailWorker', 'get_email_worker']
+"""Background workers"""
 
 from .email_worker import EmailWorker, get_email_worker
+
+__all__ = ['EmailWorker', 'get_email_worker']

@@ -1,0 +1,1177 @@
+{
+  "country": "United Arab Emirates",
+  "state": "Dubai",
+  "cities": [
+    {
+      "city": "Dubai",
+      "nearest_airport": "Dubai International Airport",
+      "places": [
+        {
+          "name": "Burj Khalifa",
+          "ai_summary": "The tallest building in the world, Burj Khalifa offers breathtaking views from its observation decks and luxurious dining options.",
+          "name_english": "Burj Khalifa",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:45 PM",
+          "cost": "149 AED",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:00 AM - 11:00 PM",
+            "Tuesday": "8:00 AM - 11:00 PM",
+            "Wednesday": "8:00 AM - 11:00 PM",
+            "Thursday": "8:00 AM - 11:00 PM",
+            "Friday": "8:00 AM - 11:00 PM",
+            "Saturday": "8:00 AM - 11:00 PM",
+            "Sunday": "8:00 AM - 11:00 PM",
+            "notes": "Last entry 45 minutes before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book tickets online to skip the queue.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 25.1972,
+            "longitude": 55.2744
+          },
+          "address": "1 Sheikh Mohammed bin Rashid Blvd, Downtown Dubai, UAE",
+          "official_website": "https://www.burjkhalifa.ae",
+          "tags": [
+            "Landmark",
+            "Observation Deck",
+            "Luxury"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Burj_Khalifa_%28worlds_tallest_building%29_and_the_Dubai_skyline_%2825781049892%29.jpg/960px-Burj_Khalifa_%28worlds_tallest_building%29_and_the_Dubai_skyline_%2825781049892%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Burj Khalifa (worlds tallest building) and the Dubai skyline (25781049892)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/138133176@N07\">imran shahabuddin</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Burj Khalifa (worlds tallest building) and the Dubai skyline"
+                }
+              }
+            }
+          },
+          "rank_score": 0.878
+        },
+        {
+          "name": "Dubai Mall",
+          "ai_summary": "One of the largest malls in the world, Dubai Mall features shopping, dining, and entertainment, including an aquarium and ice rink.",
+          "name_english": "Dubai Mall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 12:00 AM",
+            "Tuesday": "10:00 AM - 12:00 AM",
+            "Wednesday": "10:00 AM - 12:00 AM",
+            "Thursday": "10:00 AM - 12:00 AM",
+            "Friday": "10:00 AM - 12:00 AM",
+            "Saturday": "10:00 AM - 12:00 AM",
+            "Sunday": "10:00 AM - 12:00 AM",
+            "notes": "Extended hours during holidays."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the fountain show in the evening.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.1988,
+            "longitude": 55.2796
+          },
+          "address": "Financial Center Road, Downtown Dubai, UAE",
+          "official_website": "https://www.thedubaimall.com",
+          "tags": [
+            "Shopping",
+            "Entertainment",
+            "Dining"
+          ],
+          "state": "Dubai",
+          "photos": {},
+          "rank_score": 0.842
+        },
+        {
+          "name": "Palm Jumeirah",
+          "ai_summary": "An artificial archipelago, Palm Jumeirah is known for its palm-shaped layout, luxury hotels, and upscale restaurants.",
+          "name_english": "Palm Jumeirah",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for the views."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Take the monorail for a scenic view of the Palm.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.1106,
+            "longitude": 55.1381
+          },
+          "address": "Palm Jumeirah, Dubai, UAE",
+          "official_website": "https://www.palmjumeirah.com",
+          "tags": [
+            "Island",
+            "Luxury",
+            "Dining"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Artificial_Archipelagos,_Dubai,_United_Arab_Emirates_ISS022-E-024940_lrg_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Artificial_Archipelagos%2C_Dubai%2C_United_Arab_Emirates_ISS022-E-024940_lrg_%28cropped%29.jpg/960px-Artificial_Archipelagos%2C_Dubai%2C_United_Arab_Emirates_ISS022-E-024940_lrg_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Artificial Archipelagos, Dubai, United Arab Emirates ISS022-E-024940 lrg (cropped)",
+                  "author": "Member of the <a href=\"https://en.wikipedia.org/wiki/Expedition_22\" class=\"extiw\" title=\"en:Expedition 22\">Expedition 22</a> crew.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Artificial_Archipelagos,_Dubai,_United_Arab_Emirates_ISS022-E-024940_lrg_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "The municipality of Dubai is the largest city of the Persian Gulf emirate of the same name, and has built a global reputation for large-scale developments and architectural works. Among the most visible of these developments—particularly from the perspective of astronauts on board the International Space Station—are three human-made archipelagos. The two Palm Islands (Palm Jumeirah and Palm Jebel Ali) appear as stylized palm trees when viewed from above. The World Islands evoke a rough map of the world from an air- or space-borne perspective. Palm Jumeirah and the World Islands are highlighted in this astronaut photograph.\n<p>Palm Jumeirah (image lower left) was begun in 2001 and required more than 50 million cubic meters of dredged sand to raise the islands above the Persian Gulf sea level. Construction of the Palm Jumeirah islands was completed in 2006; the islands are now being developed for residential and commercial housing and infrastructure. Creation of the 300 World Islands (image upper right) was begun in 2003 and completed in 2008, using 320 million cubic meters of sand and 37 million tonnes of rock for the surrounding 27-kilometer-long protective breakwater. Little to no infrastructure development of The World is apparent in this astronaut photograph.\n</p>\nAlso visible at the lower edge of the astronaut photograph is another notable structure—the Burj Khalifa (image lower right and rotated 90 degrees in inset). Burj Khalifa stands 800 meters (2,600 feet) high, and it is currently the world’s tallest structure. The astronaut photograph captures enough detail to make out the tapering outline of the building as well as its dark, needle-like shadow pointing towards the northeast."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Dubai Marina",
+          "ai_summary": "A vibrant waterfront community, Dubai Marina is famous for its skyscrapers, luxury yachts, and lively nightlife.",
+          "name_english": "Dubai Marina",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for the nightlife."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit the Marina Walk for dining and shopping.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.0782,
+            "longitude": 54.3213
+          },
+          "address": "Dubai Marina, Dubai, UAE",
+          "official_website": "https://www.dubaimarina.com",
+          "tags": [
+            "Marina",
+            "Nightlife",
+            "Dining"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Dubai_Marina_Skyline.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Dubai_Marina_Skyline.jpg/960px-Dubai_Marina_Skyline.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Dubai Marina Skyline",
+                  "author": "Norlando Pobre",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Dubai_Marina_Skyline.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "The skyscrapers of <a href=\"https://en.wikipedia.org/wiki/Dubai_Marina\" class=\"extiw\" title=\"w:Dubai Marina\">Dubai Marina</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.81
+        },
+        {
+          "name": "Desert Safari",
+          "ai_summary": "Experience the thrill of dune bashing, camel riding, and sandboarding in the Dubai Desert Conservation Reserve.",
+          "name_english": "Desert Safari",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "250 AED",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "6:00 AM - 9:00 PM",
+            "Tuesday": "6:00 AM - 9:00 PM",
+            "Wednesday": "6:00 AM - 9:00 PM",
+            "Thursday": "6:00 AM - 9:00 PM",
+            "Friday": "6:00 AM - 9:00 PM",
+            "Saturday": "6:00 AM - 9:00 PM",
+            "Sunday": "6:00 AM - 9:00 PM",
+            "notes": "Advance booking is essential."
+          },
+          "suggested_duration": "6-7 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Wear comfortable clothing and closed shoes.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 24.9924,
+            "longitude": 55.3283
+          },
+          "address": "Dubai Desert Conservation Reserve, Dubai, UAE",
+          "official_website": "https://www.dubaidesertsafari.com",
+          "tags": [
+            "Desert",
+            "Adventure",
+            "Nature"
+          ],
+          "state": "Dubai",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Dubai Miracle Garden",
+          "ai_summary": "A stunning garden featuring over 50 million flowers, Dubai Miracle Garden is a floral wonderland with themed gardens and structures.",
+          "name_english": "Dubai Miracle Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:15 PM",
+          "cost": "55 AED",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 9:00 PM",
+            "Tuesday": "9:00 AM - 9:00 PM",
+            "Wednesday": "9:00 AM - 9:00 PM",
+            "Thursday": "9:00 AM - 9:00 PM",
+            "Friday": "9:00 AM - 9:00 PM",
+            "Saturday": "9:00 AM - 9:00 PM",
+            "Sunday": "9:00 AM - 9:00 PM",
+            "notes": "Seasonal attraction, check opening dates."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit during the week to avoid crowds.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.0402,
+            "longitude": 55.247
+          },
+          "address": "Al Barsha South, Dubai, UAE",
+          "official_website": "https://www.dubaimiraclegarden.com",
+          "tags": [
+            "Garden",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Miracle_Garden_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Miracle_Garden_1.jpg/960px-Miracle_Garden_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Miracle Garden 1",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dayneferrera&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dayneferrera (page does not exist)\">Dayneferrera</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Miracle_Garden_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Dubai Miracle Garden"
+                }
+              }
+            }
+          },
+          "rank_score": 0.826
+        },
+        {
+          "name": "Jumeirah Beach",
+          "ai_summary": "A popular public beach, Jumeirah Beach offers white sand, clear waters, and views of the Burj Al Arab.",
+          "name_english": "Jumeirah Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Bring your own beach equipment and refreshments.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.2048,
+            "longitude": 55.2694
+          },
+          "address": "Jumeirah Beach, Dubai, UAE",
+          "official_website": "https://www.jumeirahbeach.com",
+          "tags": [
+            "Beach",
+            "Relaxation",
+            "Water Sports"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Beach_@_Jumeirah_Beach_Residence_@_Dubai_Marina_(15852332215).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Beach_%40_Jumeirah_Beach_Residence_%40_Dubai_Marina_%2815852332215%29.jpg/960px-Beach_%40_Jumeirah_Beach_Residence_%40_Dubai_Marina_%2815852332215%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Beach @ Jumeirah Beach Residence @ Dubai Marina (15852332215)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/22539273@N00\">Guilhem Vellut</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Beach_@_Jumeirah_Beach_Residence_@_Dubai_Marina_(15852332215).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "This illustation is part of the Images from UAE in Lens Competition"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Burj Al Arab",
+          "ai_summary": "An iconic luxury hotel, Burj Al Arab is known for its distinctive sail-shaped silhouette and opulent interior.",
+          "name_english": "Burj Al Arab",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:45 PM",
+          "cost": "Free (outside view)",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Advance booking required for dining and tours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy afternoon tea at the hotel for a luxurious experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 25.1413,
+            "longitude": 55.1853
+          },
+          "address": "Jumeirah St, Umm Suqeim, Dubai, UAE",
+          "official_website": "https://www.jumeirah.com/en/stay/dubai/burj-al-arab",
+          "tags": [
+            "Hotel",
+            "Luxury",
+            "Dining"
+          ],
+          "state": "Dubai",
+          "photos": {},
+          "rank_score": 0.826
+        },
+        {
+          "name": "Dubai Frame",
+          "ai_summary": "A futuristic structure, Dubai Frame offers a museum and an observation deck with panoramic views of the city.",
+          "name_english": "Dubai Frame",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "50 AED",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 9:00 PM",
+            "Tuesday": "9:00 AM - 9:00 PM",
+            "Wednesday": "9:00 AM - 9:00 PM",
+            "Thursday": "9:00 AM - 9:00 PM",
+            "Friday": "9:00 AM - 9:00 PM",
+            "Saturday": "9:00 AM - 9:00 PM",
+            "Sunday": "9:00 AM - 9:00 PM",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Visit the museum exhibits before heading to the observation deck.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.7922,
+            "longitude": 55.2788
+          },
+          "address": "Zabeel Park, Gate 4, Dubai, UAE",
+          "official_website": "https://www.thedubaiframe.com",
+          "tags": [
+            "Landmark",
+            "Museum",
+            "Observation Deck"
+          ],
+          "state": "Dubai",
+          "photos": {},
+          "rank_score": 0.77
+        },
+        {
+          "name": "Museum of the Future",
+          "ai_summary": "An architectural marvel, the Museum of the Future showcases innovative and futuristic concepts and designs.",
+          "name_english": "Museum of the Future",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "145 AED",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 AM - 8:00 PM",
+            "Tuesday": "10:00 AM - 8:00 PM",
+            "Wednesday": "10:00 AM - 8:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 8:00 PM",
+            "Saturday": "10:00 AM - 8:00 PM",
+            "Sunday": "10:00 AM - 8:00 PM",
+            "notes": "Closed on Tuesdays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Book the 'Future Heroes' experience for an interactive adventure.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 25.2765,
+            "longitude": 55.3915
+          },
+          "address": "Sheikh Zayed Road, Dubai, UAE",
+          "official_website": "https://museumofthefuture.ae",
+          "tags": [
+            "Museum",
+            "Innovation",
+            "Architecture"
+          ],
+          "state": "Dubai",
+          "photos": {},
+          "rank_score": 0.798
+        },
+        {
+          "name": "Global Village",
+          "ai_summary": "A seasonal cultural and entertainment destination, Global Village features pavilions from different countries, offering food, crafts, and performances.",
+          "name_english": "Global Village",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "15 AED",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "4:00 PM - 12:00 AM",
+            "Tuesday": "4:00 PM - 12:00 AM",
+            "Wednesday": "4:00 PM - 12:00 AM",
+            "Thursday": "4:00 PM - 12:00 AM",
+            "Friday": "4:00 PM - 12:00 AM",
+            "Saturday": "4:00 PM - 12:00 AM",
+            "Sunday": "4:00 PM - 12:00 AM",
+            "notes": "Open from late October to early April."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the street food and visit the cultural shows.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.8693,
+            "longitude": 55.3075
+          },
+          "address": "Sheikh Mohammed Bin Zayed Road, Dubai, UAE",
+          "official_website": "https://globalvillage.ae",
+          "tags": [
+            "Cultural",
+            "Entertainment",
+            "Shopping"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Global_village_Dubai6.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Global_village_Dubai6.jpg/960px-Global_village_Dubai6.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Global village Dubai6",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Philosographer&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Philosographer (page does not exist)\">Philosographer</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Global_village_Dubai6.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Global village Dubai6"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Dubai Creek",
+          "ai_summary": "A historic waterway, Dubai Creek offers a glimpse into the city's past with its traditional dhows and bustling souks.",
+          "name_english": "Dubai Creek",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored by taking an abra ride."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Visit the Dubai Museum and Al Fahidi Historical District nearby.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.2674,
+            "longitude": 55.3095
+          },
+          "address": "Dubai Creek, Dubai, UAE",
+          "official_website": "https://www.dubaicreek.ae",
+          "tags": [
+            "Historic",
+            "Culture",
+            "Waterway"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:The_view_of_Dubai_Creek.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/The_view_of_Dubai_Creek.jpg/960px-The_view_of_Dubai_Creek.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "The view of Dubai Creek",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Phil6007&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Phil6007 (page does not exist)\">Phil6007</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:The_view_of_Dubai_Creek.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "This image was taken in Dubai Creek!"
+                }
+              }
+            }
+          },
+          "rank_score": 0.738
+        },
+        {
+          "name": "Al Seef District",
+          "ai_summary": "A charming waterfront promenade, Al Seef District blends the old and new Dubai with its shops, restaurants, and cultural spaces.",
+          "name_english": "Al Seef District",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "06:55 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Best visited in the cooler months."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the side streets for unique shops and galleries.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.2674,
+            "longitude": 55.3075
+          },
+          "address": "Al Seef, Dubai, UAE",
+          "official_website": "https://www.alseef.ae",
+          "tags": [
+            "Cultural",
+            "Shopping",
+            "Dining"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Dubai_skyline_2015_(crop).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Dubai_skyline_2015_%28crop%29.jpg/960px-Dubai_skyline_2015_%28crop%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Dubai skyline 2015 (crop)",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tim.Reckmann&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tim.Reckmann (page does not exist)\">Tim.Reckmann</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Dubai_skyline_2015_(crop).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Skyline of Downtown Dubai with Burj Khalifa from a Helicopter (crop of File:Dubai skyline 2015.jpg)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Dubai Aquarium & Underwater Zoo",
+          "ai_summary": "Located in Dubai Mall, this is one of the largest suspended aquariums in the world, home to thousands of aquatic animals.",
+          "name_english": "Dubai Aquarium & Underwater Zoo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "100 AED",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 12:00 AM",
+            "Tuesday": "10:00 AM - 12:00 AM",
+            "Wednesday": "10:00 AM - 12:00 AM",
+            "Thursday": "10:00 AM - 12:00 AM",
+            "Friday": "10:00 AM - 12:00 AM",
+            "Saturday": "10:00 AM - 12:00 AM",
+            "Sunday": "10:00 AM - 12:00 AM",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the underwater tunnel for a 270-degree view of the aquarium.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.1984,
+            "longitude": 55.2793
+          },
+          "address": "Dubai Mall, Downtown Dubai, UAE",
+          "official_website": "https://www.thedubaiaquarium.com",
+          "tags": [
+            "Aquarium",
+            "Underwater Zoo",
+            "Family"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Dubai_Aquarium1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Dubai_Aquarium1.jpg/960px-Dubai_Aquarium1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Dubai Aquarium1",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Maxim_Gavrilyuk\" title=\"User:Maxim Gavrilyuk\">Maxim Gavrilyuk</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Dubai_Aquarium1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Dubai Mall Aquarium"
+                }
+              }
+            }
+          },
+          "rank_score": 0.794
+        },
+        {
+          "name": "Madinat Jumeirah Souk",
+          "ai_summary": "A traditional Arabian market, the Souk Madinat Jumeirah offers a variety of goods, from spices to textiles, in a picturesque setting.",
+          "name_english": "Madinat Jumeirah Souk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Best visited in the evening for the ambiance."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bargain for souvenirs and try the local street food.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.1852,
+            "longitude": 55.2708
+          },
+          "address": "Madinat Jumeirah, Dubai, UAE",
+          "official_website": "https://www.jumeirah.com/en/stay/dubai/madinat-jumeirah",
+          "tags": [
+            "Shopping",
+            "Culture",
+            "Dining"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Madinat_Jumeirah_(C).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Madinat_Jumeirah_%28C%29.jpg/960px-Madinat_Jumeirah_%28C%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Madinat Jumeirah (C)",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Donaldytong\" title=\"User:Donaldytong\">Donaldytong</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Madinat_Jumeirah_(C).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Madinat_Jumeirah\" class=\"extiw\" title=\"en:Madinat Jumeirah\">Madinat Jumeirah</a> Waterways"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Gold & Spice Souks",
+          "ai_summary": "Located in the heart of Dubai's old city, the Gold and Spice Souks are traditional markets offering a variety of spices, textiles, and gold jewelry.",
+          "name_english": "Gold & Spice Souks",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Best visited in the morning to avoid crowds."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Look for the Dubai Frame in the distance as a landmark.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.2637,
+            "longitude": 55.3047
+          },
+          "address": "Al Ras, Deira, Dubai, UAE",
+          "official_website": "https://www.visitdubai.com/en/places-to-visit/gold-and-spice-souks",
+          "tags": [
+            "Shopping",
+            "Culture",
+            "Market"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Dubai_Gold_Souk_on_31_May_2007_Pict_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Dubai_Gold_Souk_on_31_May_2007_Pict_1.jpg/960px-Dubai_Gold_Souk_on_31_May_2007_Pict_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Dubai Gold Souk on 31 May 2007 Pict 1",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/Category:Images_by_Imre_Solt\" title=\"Category:Images by Imre Solt\">Imre Solt</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Dubai_Gold_Souk_on_31_May_2007_Pict_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "This is a photo showing the Dubai Gold Souk in <a href=\"https://en.wikipedia.org/wiki/Deira,_Dubai\" class=\"extiw\" title=\"w:Deira, Dubai\">Deira</a>, <a href=\"https://en.wikipedia.org/wiki/Dubai\" class=\"extiw\" title=\"w:Dubai\">Dubai</a>, <a href=\"https://en.wikipedia.org/wiki/United_Arab_Emirates\" class=\"extiw\" title=\"w:United Arab Emirates\">United Arab Emirates</a> on 31 May 2007."
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Bluewaters Island",
+          "ai_summary": "A modern island destination, Bluewaters Island is home to Ain Dubai, the world's largest observation wheel, and offers dining and entertainment options.",
+          "name_english": "Bluewaters Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Ain Dubai operates from 12:00 PM to 8:00 PM."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Take a ride on Ain Dubai for stunning views of the city.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.3606,
+            "longitude": 55.0483
+          },
+          "address": "Bluewaters Island, Dubai, UAE",
+          "official_website": "https://www.bluewatersdubai.com",
+          "tags": [
+            "Island",
+            "Entertainment",
+            "Dining"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:The_Ain_Dubai.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/The_Ain_Dubai.jpg/960px-The_Ain_Dubai.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "The Ain Dubai",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Roxy3115&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Roxy3115 (page does not exist)\">Roxy3115</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:The_Ain_Dubai.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Calm evening view of Ain Dubai with colorful lightings in entire Bluewaters area."
+                }
+              }
+            }
+          },
+          "rank_score": 0.794
+        },
+        {
+          "name": "IMG Worlds of Adventure",
+          "ai_summary": "The world's largest indoor theme park, IMG Worlds of Adventure offers a variety of rides and attractions based on popular cartoon and comic characters.",
+          "name_english": "IMG Worlds of Adventure",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "299 AED",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "11:00 AM - 10:00 PM",
+            "Tuesday": "11:00 AM - 10:00 PM",
+            "Wednesday": "11:00 AM - 10:00 PM",
+            "Thursday": "11:00 AM - 10:00 PM",
+            "Friday": "11:00 AM - 10:00 PM",
+            "Saturday": "11:00 AM - 10:00 PM",
+            "Sunday": "11:00 AM - 10:00 PM",
+            "notes": "Advance booking recommended on weekends."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the Marvel and Cartoon Network zones.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 25.0583,
+            "longitude": 55.2088
+          },
+          "address": "Sheikh Mohammed Bin Zayed Rd, Dubai, UAE",
+          "official_website": "https://www.imgworlds.com",
+          "tags": [
+            "Theme Park",
+            "Entertainment",
+            "Family"
+          ],
+          "state": "Dubai",
+          "photos": {},
+          "rank_score": 0.83
+        },
+        {
+          "name": "Sky Views Glass Bridge",
+          "ai_summary": "A thrilling glass bridge experience, Sky Views Glass Bridge is located in the Address Sky View hotel and offers stunning views of the city.",
+          "name_english": "Sky Views Glass Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:50 PM",
+          "cost": "75 AED",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Combine your visit with the Sky Lounge for refreshments.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 25.1975,
+            "longitude": 55.2769
+          },
+          "address": "Address Sky View, Sheikh Mohammed bin Rashid Blvd, Dubai, UAE",
+          "official_website": "https://www.skyviewsdubai.com",
+          "tags": [
+            "Observation Deck",
+            "Adventure",
+            "Luxury"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Langkawi_sky_bridge.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Langkawi_sky_bridge.jpg/960px-Langkawi_sky_bridge.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Langkawi sky bridge",
+                  "author": "Flickr user \"The Dilly Lama\"",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Langkawi_sky_bridge.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "The Langkawi Sky Bridge, Malaysia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Al Fahidi Historical District",
+          "ai_summary": "A glimpse into Dubai's past, Al Fahidi Historical District features preserved heritage buildings and museums.",
+          "name_english": "Al Fahidi Historical District",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:00 AM - 8:00 PM",
+            "Tuesday": "8:00 AM - 8:00 PM",
+            "Wednesday": "8:00 AM - 8:00 PM",
+            "Thursday": "8:00 AM - 8:00 PM",
+            "Friday": "8:00 AM - 8:00 PM",
+            "Saturday": "8:00 AM - 8:00 PM",
+            "Sunday": "8:00 AM - 8:00 PM",
+            "notes": "Best visited in the cooler hours of the day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Join a guided tour to learn about the history and culture.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.2637,
+            "longitude": 55.2972
+          },
+          "address": "Al Fahidi St, Dubai, UAE",
+          "official_website": "https://www.dubaiculture.gov.ae",
+          "tags": [
+            "Historic",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Al_Bastakiya_of_Dubai.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Al_Bastakiya_of_Dubai.jpg/960px-Al_Bastakiya_of_Dubai.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Al Bastakiya of Dubai",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Phil6007&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Phil6007 (page does not exist)\">Phil6007</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Al_Bastakiya_of_Dubai.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "This image was taken in Dubai!"
+                }
+              }
+            }
+          },
+          "rank_score": 0.754
+        },
+        {
+          "name": "Dubai Opera",
+          "ai_summary": "An architectural masterpiece, Dubai Opera is a multi-format theatre and concert hall located in the Downtown Dubai area.",
+          "name_english": "Dubai Opera",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies by event",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "7:30 PM - 10:30 PM",
+            "Wednesday": "7:30 PM - 10:30 PM",
+            "Thursday": "7:30 PM - 10:30 PM",
+            "Friday": "7:30 PM - 10:30 PM",
+            "Saturday": "7:30 PM - 10:30 PM",
+            "Sunday": "7:30 PM - 10:30 PM",
+            "notes": "Check the schedule for performance timings."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book tickets in advance for popular shows.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 25.7672,
+            "longitude": 55.3601
+          },
+          "address": "Sheikh Mohammed bin Rashid Blvd, Dubai, UAE",
+          "official_website": "https://www.dubaiopera.com",
+          "tags": [
+            "Culture",
+            "Entertainment",
+            "Architecture"
+          ],
+          "state": "Dubai",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "The View at The Palm",
+          "ai_summary": "An observation deck at the Palm Tower, The View at The Palm offers 360-degree views of Palm Jumeirah, the Arabian Gulf, and Dubai's skyline.",
+          "name_english": "The View at The Palm",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:55 PM",
+          "cost": "75 AED",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 9:00 PM",
+            "Tuesday": "9:00 AM - 9:00 PM",
+            "Wednesday": "9:00 AM - 9:00 PM",
+            "Thursday": "9:00 AM - 9:00 PM",
+            "Friday": "9:00 AM - 9:00 PM",
+            "Saturday": "9:00 AM - 9:00 PM",
+            "Sunday": "9:00 AM - 9:00 PM",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Visit the observation deck during sunset for stunning views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.0804,
+            "longitude": 55.1384
+          },
+          "address": "The Palm Tower, Palm Jumeirah, Dubai, UAE",
+          "official_website": "https://www.theviewpalm.com",
+          "tags": [
+            "Observation Deck",
+            "Luxury",
+            "Sightseeing"
+          ],
+          "state": "Dubai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Artificial_Archipelagos,_Dubai,_United_Arab_Emirates_ISS022-E-024940_lrg_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Artificial_Archipelagos%2C_Dubai%2C_United_Arab_Emirates_ISS022-E-024940_lrg_%28cropped%29.jpg/960px-Artificial_Archipelagos%2C_Dubai%2C_United_Arab_Emirates_ISS022-E-024940_lrg_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Artificial Archipelagos, Dubai, United Arab Emirates ISS022-E-024940 lrg (cropped)",
+                  "author": "Member of the <a href=\"https://en.wikipedia.org/wiki/Expedition_22\" class=\"extiw\" title=\"en:Expedition 22\">Expedition 22</a> crew.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Artificial_Archipelagos,_Dubai,_United_Arab_Emirates_ISS022-E-024940_lrg_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "The municipality of Dubai is the largest city of the Persian Gulf emirate of the same name, and has built a global reputation for large-scale developments and architectural works. Among the most visible of these developments—particularly from the perspective of astronauts on board the International Space Station—are three human-made archipelagos. The two Palm Islands (Palm Jumeirah and Palm Jebel Ali) appear as stylized palm trees when viewed from above. The World Islands evoke a rough map of the world from an air- or space-borne perspective. Palm Jumeirah and the World Islands are highlighted in this astronaut photograph.\n<p>Palm Jumeirah (image lower left) was begun in 2001 and required more than 50 million cubic meters of dredged sand to raise the islands above the Persian Gulf sea level. Construction of the Palm Jumeirah islands was completed in 2006; the islands are now being developed for residential and commercial housing and infrastructure. Creation of the 300 World Islands (image upper right) was begun in 2003 and completed in 2008, using 320 million cubic meters of sand and 37 million tonnes of rock for the surrounding 27-kilometer-long protective breakwater. Little to no infrastructure development of The World is apparent in this astronaut photograph.\n</p>\nAlso visible at the lower edge of the astronaut photograph is another notable structure—the Burj Khalifa (image lower right and rotated 90 degrees in inset). Burj Khalifa stands 800 meters (2,600 feet) high, and it is currently the world’s tallest structure. The astronaut photograph captures enough detail to make out the tapering outline of the building as well as its dark, needle-like shadow pointing towards the northeast."
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        }
+      ]
+    }
+  ]
+}

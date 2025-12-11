@@ -1,0 +1,998 @@
+{
+  "country": "Ukraine",
+  "state": "Carpathian Mountains",
+  "cities": [
+    {
+      "city": "Yaremche",
+      "nearest_airport": "Ivano-Frankivsk International Airport",
+      "places": [
+        {
+          "name": "Probiy Waterfall",
+          "ai_summary": "A stunning natural attraction, Probiy Waterfall is a must-visit for its scenic beauty and the nearby souvenir market.",
+          "name_english": "Probiy Waterfall",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Wear non-slip shoes as the area can be wet.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.4489,
+            "longitude": 24.5547
+          },
+          "address": "Yaremche, Ivano-Frankivsk Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Waterfall",
+            "Scenic"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Probij-2.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Probij-2.JPG/960px-Probij-2.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Probij-2",
+                  "author": "<a href=\"https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%87:MSha\" class=\"extiw\" title=\"uk:Користувач:MSha\">MSha</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Probij-2.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Водоспад Пробій (Яремче)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Bukovel Ski Resort",
+          "ai_summary": "A premier ski destination in Ukraine, Bukovel offers world-class slopes, cozy accommodations, and year-round activities.",
+          "name_english": "Bukovel Ski Resort",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "8:00 AM - 10:00 PM",
+            "Tuesday": "8:00 AM - 10:00 PM",
+            "Wednesday": "8:00 AM - 10:00 PM",
+            "Thursday": "8:00 AM - 10:00 PM",
+            "Friday": "8:00 AM - 10:00 PM",
+            "Saturday": "8:00 AM - 10:00 PM",
+            "Sunday": "8:00 AM - 10:00 PM",
+            "notes": "Hours may vary during off-season."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Book ski passes online to save time.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 48.3461,
+            "longitude": 24.4454
+          },
+          "address": "Bukovel, Ivano-Frankivsk Oblast, Ukraine",
+          "official_website": "https://bukovel.com",
+          "tags": [
+            "Adventure",
+            "Skiing",
+            "Resort"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ВП_Буковель_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/%D0%92%D0%9F_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D0%B5%D0%BB%D1%8C_2.jpg/960px-%D0%92%D0%9F_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D0%B5%D0%BB%D1%8C_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "ВП Буковель 2",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/ru:User:%D0%92%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA\" class=\"extiw\" title=\"w:ru:User:Водник\">Водник</a> at <a href=\"https://en.wikipedia.org/wiki/ru:\" class=\"extiw\" title=\"w:ru:\">Russian Wikipedia</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%9F_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D0%B5%D0%BB%D1%8C_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.874
+        },
+        {
+          "name": "Hoverla Mountain",
+          "ai_summary": "The highest peak in Ukraine, Hoverla Mountain is a popular hiking destination offering breathtaking views of the Carpathians.",
+          "name_english": "Hoverla Mountain",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check weather conditions before hiking."
+          },
+          "suggested_duration": "4-6 hours",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Bring plenty of water and snacks for the hike.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.1602,
+            "longitude": 24.4994
+          },
+          "address": "Hoverla, Zakarpattia Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Зимовий_виднокрай.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/%D0%97%D0%B8%D0%BC%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B2%D0%B8%D0%B4%D0%BD%D0%BE%D0%BA%D1%80%D0%B0%D0%B9.jpg/960px-%D0%97%D0%B8%D0%BC%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B2%D0%B8%D0%B4%D0%BD%D0%BE%D0%BA%D1%80%D0%B0%D0%B9.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Зимовий виднокрай",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Robert-Erik\" title=\"User:Robert-Erik\">Robert-Erik</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%B8%D0%BC%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B2%D0%B8%D0%B4%D0%BD%D0%BE%D0%BA%D1%80%D0%B0%D0%B9.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Січнева Говерла з  полонини Плеханівка, яка  знаходиться  на Кукульському  хребті."
+                }
+              }
+            }
+          },
+          "rank_score": 0.898
+        },
+        {
+          "name": "Synevyr Lake",
+          "ai_summary": "Known as the 'Blue Eye of the Carpathians', Synevyr Lake is famous for its stunning color and surrounding nature trails.",
+          "name_english": "Synevyr Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed in the morning for calm waters."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Autumn",
+          "place_tip": "Visit early to avoid crowds and enjoy the sunrise over the lake.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.7569,
+            "longitude": 23.8502
+          },
+          "address": "Synevyr, Zakarpattia Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Lake",
+            "Scenic"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ранкові_промені_на_Синевирі.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/%D0%A0%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%96_%D0%BF%D1%80%D0%BE%D0%BC%D0%B5%D0%BD%D1%96_%D0%BD%D0%B0_%D0%A1%D0%B8%D0%BD%D0%B5%D0%B2%D0%B8%D1%80%D1%96.jpg/960px-%D0%A0%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%96_%D0%BF%D1%80%D0%BE%D0%BC%D0%B5%D0%BD%D1%96_%D0%BD%D0%B0_%D0%A1%D0%B8%D0%BD%D0%B5%D0%B2%D0%B8%D1%80%D1%96.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ранкові промені на Синевирі",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Misha_Reme\" title=\"User:Misha Reme\">Misha Reme</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%96_%D0%BF%D1%80%D0%BE%D0%BC%D0%B5%D0%BD%D1%96_%D0%BD%D0%B0_%D0%A1%D0%B8%D0%BD%D0%B5%D0%B2%D0%B8%D1%80%D1%96.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Synevyr National Nature Park, Ukraine"
+                }
+              }
+            }
+          },
+          "rank_score": 0.826
+        },
+        {
+          "name": "Hutsul Village of Verkhovyna",
+          "ai_summary": "Experience the traditional Hutsul culture in the village of Verkhovyna, known for its unique architecture and vibrant crafts.",
+          "name_english": "Hutsul Village of Verkhovyna",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Respect local customs and traditions."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Try to visit during a local festival for a richer experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.4042,
+            "longitude": 24.6866
+          },
+          "address": "Verkhovyna, Ivano-Frankivsk Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Village",
+            "Scenic"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Verkhovyna4.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Verkhovyna4.JPG/960px-Verkhovyna4.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Verkhovyna4",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:On_tour\" title=\"User:On tour\">On tour</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Verkhovyna4.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Панорама Верховини"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Kosiv Traditional Market",
+          "ai_summary": "A vibrant market in Kosiv, perfect for experiencing local life and purchasing handmade crafts and souvenirs.",
+          "name_english": "Kosiv Traditional Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "7:00 AM - 5:00 PM",
+            "Wednesday": "7:00 AM - 5:00 PM",
+            "Thursday": "7:00 AM - 5:00 PM",
+            "Friday": "7:00 AM - 5:00 PM",
+            "Saturday": "7:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Don't forget to bargain for the best prices.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.5256,
+            "longitude": 24.7069
+          },
+          "address": "Kosiv, Ivano-Frankivsk Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Market",
+            "Shopping",
+            "Culture"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Anti-terrorist_operation_in_eastern_Ukraine_(War_Ukraine)_(27843153986).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Anti-terrorist_operation_in_eastern_Ukraine_%28War_Ukraine%29_%2827843153986%29.jpg/960px-Anti-terrorist_operation_in_eastern_Ukraine_%28War_Ukraine%29_%2827843153986%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Anti-terrorist operation in eastern Ukraine (War Ukraine) (27843153986)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/140624011@N02\">Ministry of Defense of Ukraine</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Anti-terrorist_operation_in_eastern_Ukraine_(War_Ukraine)_(27843153986).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "<p>Так починалось АТО на Сході України\n</p>\nФото: Володимир Вовкогон"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Pysanka Museum",
+          "ai_summary": "Dedicated to the art of Pysanka (Ukrainian Easter eggs), this museum in Kolomyia is a colorful and cultural gem.",
+          "name_english": "Pysanka Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "100 UAH",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Guided tours available in English and Ukrainian."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Join a workshop to learn how to make your own Pysanka.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 48.5345,
+            "longitude": 24.7109
+          },
+          "address": "Kolomyia, Ivano-Frankivsk Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Museum",
+            "Culture",
+            "Art"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Dragobrat Ski Resort",
+          "ai_summary": "A hidden gem for skiing enthusiasts, Dragobrat offers pristine slopes and a more laid-back atmosphere.",
+          "name_english": "Dragobrat Ski Resort",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Limited night skiing available."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Accommodations are limited, book in advance.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 48.1887,
+            "longitude": 24.3833
+          },
+          "address": "Dragobrat, Zakarpattia Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Skiing",
+            "Adventure",
+            "Resort"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Svydovec,_Drahobrat,_Gorgany.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Svydovec%2C_Drahobrat%2C_Gorgany.jpg/960px-Svydovec%2C_Drahobrat%2C_Gorgany.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Svydovec, Drahobrat, Gorgany",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Bar%C3%A1nek\" title=\"User:Daniel Baránek\">Daniel Baránek</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Svydovec,_Drahobrat,_Gorgany.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Вид з вершини <a href=\"https://en.wikipedia.org/wiki/uk:%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B8%D1%86%D1%8F\" class=\"extiw\" title=\"w:uk:Близниця\">Близниця</a> (1881 м, найвища гора масиву <a href=\"https://en.wikipedia.org/wiki/uk:%D0%A1%D0%B2%D0%B8%D0%B4%D0%BE%D0%B2%D0%B5%D1%86%D1%8C\" class=\"extiw\" title=\"w:uk:Свидовець\">Свидовець</a>) в півночному напрямку, на зону відпочинку <a href=\"https://en.wikipedia.org/wiki/uk:%D0%94%D1%80%D0%B0%D0%B3%D0%BE%D0%B1%D1%80%D0%B0%D1%82\" class=\"extiw\" title=\"w:uk:Драгобрат\">Драгобрат</a>. Ліворуч гора <a href=\"https://en.wikipedia.org/wiki/uk:%D0%94%D1%80%D0%B0%D0%B3%D0%BE%D0%B1%D1%80%D0%B0%D1%82_(%D0%B3%D0%BE%D1%80%D0%B0)\" class=\"extiw\" title=\"w:uk:Драгобрат (гора)\">Драгобрат</a>. На задньому плані <a href=\"https://en.wikipedia.org/wiki/uk:%D2%90%D0%BE%D1%80%D2%91%D0%B0%D0%BD%D0%B8\" class=\"extiw\" title=\"w:uk:Ґорґани\">Ґорґани</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Carpathian Wooden Churches",
+          "ai_summary": "These UNESCO-listed churches are masterpieces of wooden architecture, reflecting the unique cultural heritage of the region.",
+          "name_english": "Carpathian Wooden Churches",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visit during the day for the best experience."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Respect the sanctity of these sites, dress modestly.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.7651,
+            "longitude": 23.4569
+          },
+          "address": "Carpathian Mountains, Ukraine",
+          "official_website": null,
+          "tags": [
+            "UNESCO",
+            "Culture",
+            "Architecture"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:TrypilliaVillage.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/TrypilliaVillage.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "TrypilliaVillage",
+                  "author": "Photograph by Luba Petrusha in 2006, uploaded to en-Wikipedia using the handle <a href=\"https://en.wikipedia.org/wiki/User:Lubap\" class=\"extiw\" title=\"en:User:Lubap\">Lubap</a>; uploaded to Commons by <a href=\"//commons.wikimedia.org/wiki/User:Janmad\" class=\"mw-userlink\" title=\"User:Janmad\">Janmad</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:TrypilliaVillage.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Painting of Trypillia Village, Ukraine"
+                }
+              }
+            }
+          },
+          "rank_score": 0.862
+        },
+        {
+          "name": "Hutsul Museum in Verkhovyna",
+          "ai_summary": "This museum offers a deep dive into the Hutsul culture, showcasing traditional crafts, music, and lifestyle.",
+          "name_english": "Hutsul Museum in Verkhovyna",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "50 UAH",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 4:00 PM",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "Closed",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Combine with a visit to the village for a full experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.4042,
+            "longitude": 24.6866
+          },
+          "address": "Verkhovyna, Ivano-Frankivsk Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Museum",
+            "Culture",
+            "History"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hutsul_famy_from_Verkhovyna,_Ukraine.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Hutsul_famy_from_Verkhovyna%2C_Ukraine.jpg/927px-Hutsul_famy_from_Verkhovyna%2C_Ukraine.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Hutsul famy from Verkhovyna, Ukraine",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q11708985\" class=\"extiw\" title=\"d:Q11708985\"><span title=\"Polish officer\">Henryk Gąsiorowski</span></a></bdi>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hutsul_famy_from_Verkhovyna,_Ukraine.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Hutsuls (Ukrainian highlanders) from Verkhovyna, southern part of Ivano-Frankivsk oblast (province), western Ukraine. old prewar photo."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Tatariv Eco Trails",
+          "ai_summary": "Explore the pristine nature of the Carpathians on these eco-friendly trails in Tatariv, suitable for all hiking levels.",
+          "name_english": "Tatariv Eco Trails",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Take only memories, leave only footprints."
+          },
+          "suggested_duration": "2-5 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Check trail maps in advance and choose a suitable route.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.3031,
+            "longitude": 24.5631
+          },
+          "address": "Tatariv, Ivano-Frankivsk Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Eco-Tourism"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Rakhiv Geographical Center of Europe",
+          "ai_summary": "Visit the point that marks the geographical center of Europe, located in the town of Rakhiv.",
+          "name_english": "Rakhiv Geographical Center of Europe",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "A small monument, can be visited quickly."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Combine with a visit to the Rakhiv town center.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.1655,
+            "longitude": 24.2932
+          },
+          "address": "Rakhiv, Zakarpattia Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Landmark",
+            "History",
+            "Scenic"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Centre_of_Europe.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Centre_of_Europe.jpg/960px-Centre_of_Europe.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Centre of Europe",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Wizzard\" class=\"mw-userlink\" title=\"User:Wizzard\">Wizzard</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Centre_of_Europe.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The changing geographic centre of Europe (see <a href=\"https://en.wikipedia.org/wiki/Geographical_centre_of_Europe\" class=\"extiw\" title=\"en:Geographical centre of Europe\">article</a>). Sources: United Nations Cartographic Section for political boundaries, ESRI for populated places, Wikipedia for the coordinates of the centre of Europe. Map projection: Lambert conformal conic (ETRS 1989)."
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Mount Pip Ivan Observatory",
+          "ai_summary": "An important historical and astronomical site, the Pip Ivan Observatory offers stunning views and a glimpse into the past.",
+          "name_english": "Mount Pip Ivan Observatory",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00 AM",
+          "sunset_time": "09:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "The road to the observatory is steep and may require a 4x4 vehicle."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Bring binoculars for a closer look at the stars.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.1733,
+            "longitude": 24.4875
+          },
+          "address": "Mount Pip Ivan, Zakarpattia Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "History",
+            "Scenic",
+            "Astronomy"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pop_Iwan.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Pop_Iwan.jpg/960px-Pop_Iwan.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pop Iwan",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Rafik_k\" title=\"User:Rafik k\">Rafał Kozubek</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pop_Iwan.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Pop Ivan (Chornohora range)."
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Yasinya Mountain Village",
+          "ai_summary": "A picturesque village in the Carpathians, Yasinya is known for its beautiful landscapes and traditional wooden houses.",
+          "name_english": "Yasinya Mountain Village",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Respect the privacy of local residents."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the village on foot to fully appreciate its beauty.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.2736,
+            "longitude": 24.5631
+          },
+          "address": "Yasinya, Ivano-Frankivsk Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Village",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Ivano-Frankivsk City Square",
+          "ai_summary": "The central square of Ivano-Frankivsk, a vibrant area with shops, cafes, and historical significance.",
+          "name_english": "Ivano-Frankivsk City Square",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "A great place to start exploring the city."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the nearby shops and cafes for local products and cuisine.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.9222,
+            "longitude": 24.7111
+          },
+          "address": "Ivano-Frankivsk, Ukraine",
+          "official_website": null,
+          "tags": [
+            "City Square",
+            "Shopping",
+            "Culture"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ratush-01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ratush-01.jpg/960px-Ratush-01.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ratush-01",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Igor_KOSOVYCH&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Igor KOSOVYCH (page does not exist)\">Igor KOSOVYCH</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ratush-01.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Ратуша (мур.) і пам'ятний знак ватажкові опришків В. Баюраку, <a href=\"https://uk.wikipedia.org/wiki/%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA\" class=\"extiw\" title=\"uk:Івано-Франківськ\">Івано-Франківськ</a>, вул. Галицька, 4а"
+                }
+              }
+            }
+          },
+          "rank_score": 0.718
+        },
+        {
+          "name": "Dzembronya Ridge Hike",
+          "ai_summary": "A challenging hike offering stunning views of the Carpathians, the Dzembronya Ridge is for experienced hikers.",
+          "name_english": "Dzembronya Ridge Hike",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00 AM",
+          "sunset_time": "09:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Only for experienced hikers, check weather conditions."
+          },
+          "suggested_duration": "6-8 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Start early to complete the hike before sunset.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.1733,
+            "longitude": 24.3833
+          },
+          "address": "Dzembronya, Ivano-Frankivsk Oblast, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Hiking",
+            "Adventure",
+            "Scenic"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {},
+          "rank_score": 0.778
+        },
+        {
+          "name": "Carpathian Steam Train",
+          "ai_summary": "Experience a unique journey on the Carpathian Steam Train, offering scenic views and a glimpse into the region's history.",
+          "name_english": "Carpathian Steam Train",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Advance booking recommended, especially in peak season."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring and Autumn",
+          "place_tip": "Check the train schedule in advance and arrive early.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 47.9667,
+            "longitude": 24.1667
+          },
+          "address": "Viseu, Romania",
+          "official_website": null,
+          "tags": [
+            "Train Journey",
+            "Scenic",
+            "History"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20000_Nautilus_engines.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/20000_Nautilus_engines.jpg/960px-20000_Nautilus_engines.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">Nautilus engines</div></div>",
+                  "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Alphonse_de_Neuville\" class=\"extiw\" title=\"w:en:Alphonse de Neuville\"><span title=\"French painter (1835-1885)\">Alphonse de Neuville</span></a></bdi> / <bdi><a href=\"https://en.wikipedia.org/wiki/en:Henri_Th%C3%A9ophile_Hildibrand\" class=\"extiw\" title=\"w:en:Henri Théophile Hildibrand\"><span title=\"French graphic designer (1824–1897)\">Henri Théophile Hildibrand</span></a></bdi>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20000_Nautilus_engines.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Carpathian Folk Crafts Route",
+          "ai_summary": "Discover the rich tradition of folk crafts in the Carpathians, with opportunities to see artisans at work and purchase unique souvenirs.",
+          "name_english": "Carpathian Folk Crafts Route",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Support local artisans by purchasing handmade crafts."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit workshops and studios to see the crafts being made.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 48.7569,
+            "longitude": 23.8502
+          },
+          "address": "Carpathian Mountains, Ukraine",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Shopping",
+            "Artisan"
+          ],
+          "state": "Carpathian Mountains",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ukrania_quae_et_Terra_Cosaccorum_cum_vicinis_Walachiae,_Moldoviae,_Johann_Baptiste_Homann_(Nuremberg,_1720).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Ukrania_quae_et_Terra_Cosaccorum_cum_vicinis_Walachiae%2C_Moldoviae%2C_Johann_Baptiste_Homann_%28Nuremberg%2C_1720%29.jpg/960px-Ukrania_quae_et_Terra_Cosaccorum_cum_vicinis_Walachiae%2C_Moldoviae%2C_Johann_Baptiste_Homann_%28Nuremberg%2C_1720%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ukrania quae et Terra Cosaccorum cum vicinis Walachiae, Moldoviae, Johann Baptiste Homann (Nuremberg, 1720)",
+                  "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Johann_Homann\" class=\"extiw\" title=\"w:en:Johann Homann\"><span title=\"German geographer and cartographer\">Johann Homann</span></a></bdi>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ukrania_quae_et_Terra_Cosaccorum_cum_vicinis_Walachiae,_Moldoviae,_Johann_Baptiste_Homann_(Nuremberg,_1720).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Ukrania quae et Terra Cosaccorum cum vicinis Walachiae, Moldoviae, Johann Baptiste Homann (Nuremberg, 1720)<br>\n<p>«<i>Україна або козацька земля з прилеглими провінціями Валахії, Молдавії і Малої Татарії, зображена Йоганом-Баптистом Гоманном</i>».<br>\nВідома за скороченою назвою «<i>Terra Cosaccorum</i>». <a href=\"https://uk.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0%D0%BD%D0%BD-%D0%91%D0%B0%D0%BF%D1%82%D0%B8%D1%81%D1%82_%D0%93%D0%BE%D0%BC%D0%B0%D0%BD%D0%BD\" class=\"extiw\" title=\"uk:Йоганн-Баптист Гоманн\">Йоган Баптист Гоманн</a> акумулював усі відомі на початок 1700-х років досягнення науковців, географів, знання істориків і дані про поточну ситуацію в Україні, щоб зробити цю карту. На мапі позначене місце <a href=\"https://uk.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0\" class=\"extiw\" title=\"uk:Полтавська битва\">Полтавської битви 1709 року</a>; землі <a href=\"https://uk.wikipedia.org/wiki/%D0%97%D0%B0%D0%B4%D1%83%D0%BD%D0%B0%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D0%A1%D1%96%D1%87\" class=\"extiw\" title=\"uk:Задунайська Січ\">Задунайської Січі</a>, які у 1711 році були передані Туреччині, позначені у складі Кримського ханства; вказане будівництво Перекопського валу тощо. В картуші території названо на латинський манер <i>Vkraina</i>, а вже на самій карті позначено <i>Ukraina</i>.\n</p>\nIt is known by the abbreviated name \"Terra Cosaccorum\". Johann Baptist Hohmann accumulated all the achievements of scientists, geographers, historians and data about the current situation in Ukraine known at the beginning of the 1700s to make this map. The site of the Battle of Poltava in 1709 is marked on the map; the lands of Transdanubian Sich, which were transferred to Turkey in 1711, are marked as part of the Crimean Khanate; the specified construction of the Perekop Wall, etc. In the cartouche, the territory is named Vkraina in the Latin manner, and already on the map itself it is marked as Ukraina."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        }
+      ]
+    }
+  ]
+}

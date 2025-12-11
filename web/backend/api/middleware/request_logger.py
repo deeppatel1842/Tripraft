@@ -17,6 +17,7 @@ class Colors:
     GREEN = '\033[92m'
     YELLOW = '\033[93m'
     RED = '\033[91m'
+    ORANGE = '\033[38;5;208m'
     END = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
@@ -65,9 +66,26 @@ def log_response(response):
     
     status_color = Colors.GREEN if response.status_code < 400 else Colors.RED
     
+    # Duration color based on speed
+    if duration < 200:
+        duration_color = Colors.GREEN
+    elif duration < 500:
+        duration_color = Colors.YELLOW
+    else:
+        duration_color = Colors.RED
+    
     print(f"\n{Colors.BOLD}{status_color}← RESPONSE{Colors.END}")
     print(f"{Colors.BOLD}Status:{Colors.END} {status_color}{response.status_code}{Colors.END}")
-    print(f"{Colors.BOLD}Duration:{Colors.END} {Colors.YELLOW}{duration:.2f}ms{Colors.END}")
+    print(f"{Colors.BOLD}Duration:{Colors.END} {duration_color}{duration:.2f}ms{Colors.END}")
+    
+    # Show Firestore stats if available
+    try:
+        from expense_engine.firestore_counter import get_request_stats
+        stats = get_request_stats()
+        if stats and stats.get('total', 0) > 0:
+            print(f"{Colors.BOLD}Firestore:{Colors.END} {Colors.ORANGE}{stats['reads']}R {stats['writes']}W {stats['deletes']}D{Colors.END}")
+    except Exception:
+        pass
     
     # Try to show response data (if JSON)
     try:

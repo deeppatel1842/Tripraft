@@ -1,0 +1,1173 @@
+{
+  "country": "Kenya",
+  "state": "Lamu Archipelago",
+  "cities": [
+    {
+      "city": "Lamu",
+      "nearest_airport": "Manda Airport",
+      "places": [
+        {
+          "name": "Lamu Old Town (UNESCO)",
+          "ai_summary": "A historic Swahili settlement and UNESCO World Heritage Site, showcasing traditional architecture and vibrant culture.",
+          "name_english": "Lamu Old Town",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored with a local guide."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for walking through narrow streets.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.271,
+            "longitude": 40.902
+          },
+          "address": "Lamu, Kenya",
+          "official_website": "https://example.com/lamu-old-town",
+          "tags": [
+            "History",
+            "Culture",
+            "UNESCO"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8135
+        },
+        {
+          "name": "Lamu Museum & Swahili House",
+          "ai_summary": "A museum showcasing the rich Swahili heritage and traditional coastal lifestyles of Lamu.",
+          "name_english": "Lamu Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the Swahili House for a glimpse into traditional living.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.272,
+            "longitude": 40.903
+          },
+          "address": "Lamu, Kenya",
+          "official_website": "https://example.com/lamu-museum",
+          "tags": [
+            "Culture",
+            "History",
+            "Museum"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Africa location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Africa_location_map.svg/960px-Africa_location_map.svg.png",
+                "width": 800,
+                "height": 755,
+                "attribution": {
+                  "title": "Africa location map",
+                  "author": "Eric Gaba (Sting - fr:Sting)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Africa_location_map.svg",
+                  "credit": "Based upon Africa map blank.svg created by myself\nSources of data:\n\nVMap-0\nSudan/South Sudan 2011-07 border: Map Library (data of 2011-07-09)\nNGDC World Data Bank II",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank administrative map of political Africa as in 2011-07, for geo-location purposes. On English Wikipedia, in \"{{Location map Africa}}\" to set marker along curved latitude/longitude lines."
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Lamu Fort",
+          "ai_summary": "A historic fort built in the 19th century, now serving as a cultural and community center.",
+          "name_english": "Lamu Fort",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:20 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Guided tours available upon request."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Climb to the top for panoramic views of the town.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.273,
+            "longitude": 40.904
+          },
+          "address": "Lamu, Kenya",
+          "official_website": "https://example.com/lamu-fort",
+          "tags": [
+            "History",
+            "Culture",
+            "Landmark"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7657
+        },
+        {
+          "name": "Donkey Sanctuary",
+          "ai_summary": "A sanctuary dedicated to the rescue and rehabilitation of donkeys, offering a unique interaction experience.",
+          "name_english": "Donkey Sanctuary",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 4:00 PM",
+            "Tuesday": "9:00 AM - 4:00 PM",
+            "Wednesday": "9:00 AM - 4:00 PM",
+            "Thursday": "9:00 AM - 4:00 PM",
+            "Friday": "9:00 AM - 4:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Donations appreciated for the care of the animals."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Bring carrots or apples to feed the donkeys.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.27,
+            "longitude": 40.901
+          },
+          "address": "Lamu, Kenya",
+          "official_website": "https://example.com/donkey-sanctuary",
+          "tags": [
+            "Animals",
+            "Nature",
+            "Conservation"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Africa location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Africa_location_map.svg/960px-Africa_location_map.svg.png",
+                "width": 800,
+                "height": 755,
+                "attribution": {
+                  "title": "Africa location map",
+                  "author": "Eric Gaba (Sting - fr:Sting)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Africa_location_map.svg",
+                  "credit": "Based upon Africa map blank.svg created by myself\nSources of data:\n\nVMap-0\nSudan/South Sudan 2011-07 border: Map Library (data of 2011-07-09)\nNGDC World Data Bank II",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank administrative map of political Africa as in 2011-07, for geo-location purposes. On English Wikipedia, in \"{{Location map Africa}}\" to set marker along curved latitude/longitude lines."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7582
+        },
+        {
+          "name": "Shela Village & Dune Walk",
+          "ai_summary": "A picturesque village with stunning dunes, offering a glimpse into the local way of life and beautiful landscapes.",
+          "name_english": "Shela Village",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Respect the local customs and dress modestly."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Take a guided walk to learn about the flora and fauna.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.267,
+            "longitude": 40.903
+          },
+          "address": "Shela, Lamu, Kenya",
+          "official_website": "https://example.com/shela-village",
+          "tags": [
+            "Culture",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.816
+        },
+        {
+          "name": "Shela Beach (Endless Sands)",
+          "ai_summary": "A beautiful, unspoiled beach with endless white sands, perfect for relaxation and water activities.",
+          "name_english": "Shela Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Bring your own supplies as there are no facilities."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Check the tide times for the best beach experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.265,
+            "longitude": 40.905
+          },
+          "address": "Shela, Lamu, Kenya",
+          "official_website": "https://example.com/shela-beach",
+          "tags": [
+            "Beach",
+            "Relaxation",
+            "Water Sports"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8012
+        },
+        {
+          "name": "Manda Island & Manda Bay",
+          "ai_summary": "An island and bay area known for their stunning natural beauty, rich marine life, and archaeological sites.",
+          "name_english": "Manda Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:12 AM",
+          "sunset_time": "06:32 PM",
+          "cost": "Boat fee applicable",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Access by boat only; private and shared boats available."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring snorkeling gear to explore the marine life.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.259,
+            "longitude": 40.898
+          },
+          "address": "Manda Island, Lamu, Kenya",
+          "official_website": "https://example.com/manda-island",
+          "tags": [
+            "Island",
+            "Nature",
+            "Marine Life"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7845
+        },
+        {
+          "name": "Takwa Ruins (Manda)",
+          "ai_summary": "The ruins of a 15th-century Swahili town, offering a glimpse into the region's historical architecture and layout.",
+          "name_english": "Takwa Ruins",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:11 AM",
+          "sunset_time": "06:33 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Guided tours recommended for better understanding."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Wear a hat and sunscreen; it can get very hot.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.253,
+            "longitude": 40.895
+          },
+          "address": "Manda, Lamu, Kenya",
+          "official_website": "https://example.com/takwa-ruins",
+          "tags": [
+            "History",
+            "Archaeology",
+            "UNESCO"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag map of Kenya.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_map_of_Kenya.svg/800px-Flag_map_of_Kenya.svg.png",
+                "width": 800,
+                "height": 1018,
+                "attribution": {
+                  "title": "Flag map of Kenya",
+                  "author": "Darwinek",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_map_of_Kenya.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Flag-map of Kenya"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7525
+        },
+        {
+          "name": "Kiwayu Marine National Reserve",
+          "ai_summary": "A protected marine area known for its coral reefs, mangroves, and diverse marine species.",
+          "name_english": "Kiwayu Marine National Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:08 AM",
+          "sunset_time": "06:38 PM",
+          "cost": "Conservation fee applicable",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Best visited with a guide; snorkeling and diving gear recommended."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Respect the marine life; do not touch or step on coral reefs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.242,
+            "longitude": 40.883
+          },
+          "address": "Kiwayu, Lamu, Kenya",
+          "official_website": "https://example.com/kiwayu-marine-reserve",
+          "tags": [
+            "Marine Life",
+            "Nature",
+            "Conservation"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Kenya.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/800px-Flag_of_Kenya.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Kenya",
+                  "author": "User:Pumbaa80",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg",
+                  "credit": "http://www.kenyarchives.go.ke/flag_specifications.htm",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Kenya"
+                }
+              }
+            }
+          },
+          "rank_score": 0.791
+        },
+        {
+          "name": "Dhow Sailing at Sunset",
+          "ai_summary": "Experience the magic of Lamu's coastline aboard a traditional dhow, with stunning sunset views.",
+          "name_english": "Dhow Sailing",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "06:14 AM",
+          "sunset_time": "06:50 PM",
+          "cost": "Varies by operator",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "5:00 PM - 8:00 PM",
+            "Tuesday": "5:00 PM - 8:00 PM",
+            "Wednesday": "5:00 PM - 8:00 PM",
+            "Thursday": "5:00 PM - 8:00 PM",
+            "Friday": "5:00 PM - 8:00 PM",
+            "Saturday": "5:00 PM - 8:00 PM",
+            "Sunday": "5:00 PM - 8:00 PM",
+            "notes": "Book in advance, especially during peak season."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring a light jacket; it can get cool on the water.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -2.284,
+            "longitude": 40.903
+          },
+          "address": "Lamu, Kenya",
+          "official_website": "https://example.com/dhow-sailing",
+          "tags": [
+            "Adventure",
+            "Photography",
+            "Culture"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Another Dhow.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Another_Dhow.JPG/960px-Another_Dhow.JPG",
+                "width": 800,
+                "height": 448,
+                "attribution": {
+                  "title": "Another Dhow",
+                  "author": "SajjadF",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Another_Dhow.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Dhow seen in the Indian Ocean"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8095
+        },
+        {
+          "name": "Riyadha Mosque & Maulidi Festival",
+          "ai_summary": "A significant mosque in Lamu, known for its unique architecture and the annual Maulidi Festival celebrating the Prophet's birthday.",
+          "name_english": "Riyadha Mosque",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Respect the prayer times; non-Muslims may not be allowed during prayers."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit during the Maulidi Festival for a unique cultural experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.27,
+            "longitude": 40.902
+          },
+          "address": "Lamu, Kenya",
+          "official_website": "https://example.com/riyadha-mosque",
+          "tags": [
+            "Religion",
+            "Culture",
+            "Architecture"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Africa location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Africa_location_map.svg/960px-Africa_location_map.svg.png",
+                "width": 800,
+                "height": 755,
+                "attribution": {
+                  "title": "Africa location map",
+                  "author": "Eric Gaba (Sting - fr:Sting)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Africa_location_map.svg",
+                  "credit": "Based upon Africa map blank.svg created by myself\nSources of data:\n\nVMap-0\nSudan/South Sudan 2011-07 border: Map Library (data of 2011-07-09)\nNGDC World Data Bank II",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank administrative map of political Africa as in 2011-07, for geo-location purposes. On English Wikipedia, in \"{{Location map Africa}}\" to set marker along curved latitude/longitude lines."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7822
+        },
+        {
+          "name": "Matondoni Dhow Boat Yards",
+          "ai_summary": "Traditional dhow-building yards where you can see craftsmen at work and learn about the art of dhow sailing.",
+          "name_english": "Matondoni Dhow Boat Yards",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Best visited in the morning when the craftsmen are most active."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Ask questions and take photos; the craftsmen are usually very welcoming.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.265,
+            "longitude": 40.898
+          },
+          "address": "Matondoni, Lamu, Kenya",
+          "official_website": "https://example.com/matondoni-dhow-yards",
+          "tags": [
+            "Culture",
+            "History",
+            "Craftsmanship"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7715
+        },
+        {
+          "name": "Swahili Doors & Coral-Rag Architecture",
+          "ai_summary": "Explore the unique Swahili architecture of Lamu, characterized by intricately carved doors and coral stone buildings.",
+          "name_english": "Swahili Doors",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:09 AM",
+          "sunset_time": "06:37 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed on a walking tour of Lamu Old Town."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Look for the 'Lamu Smile' door carvings, a local signature.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.27,
+            "longitude": 40.903
+          },
+          "address": "Lamu, Kenya",
+          "official_website": "https://example.com/swahili-doors",
+          "tags": [
+            "Architecture",
+            "Culture",
+            "Photography"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Africa location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Africa_location_map.svg/960px-Africa_location_map.svg.png",
+                "width": 800,
+                "height": 755,
+                "attribution": {
+                  "title": "Africa location map",
+                  "author": "Eric Gaba (Sting - fr:Sting)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Africa_location_map.svg",
+                  "credit": "Based upon Africa map blank.svg created by myself\nSources of data:\n\nVMap-0\nSudan/South Sudan 2011-07 border: Map Library (data of 2011-07-09)\nNGDC World Data Bank II",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank administrative map of political Africa as in 2011-07, for geo-location purposes. On English Wikipedia, in \"{{Location map Africa}}\" to set marker along curved latitude/longitude lines."
+                }
+              }
+            }
+          },
+          "rank_score": 0.813
+        },
+        {
+          "name": "Mangrove Creek Kayaking",
+          "ai_summary": "Kayak through the serene mangrove creeks of Lamu, a great way to explore the coastal ecosystem and spot wildlife.",
+          "name_english": "Mangrove Creek Kayaking",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:07 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Kayak rental fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Best experienced with a guide; wear a life jacket."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Keep noise to a minimum to avoid scaring wildlife.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.278,
+            "longitude": 40.895
+          },
+          "address": "Lamu, Kenya",
+          "official_website": "https://example.com/mangrove-creek-kayaking",
+          "tags": [
+            "Adventure",
+            "Nature",
+            "Wildlife"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.792
+        },
+        {
+          "name": "Kipungani Channel Sandbars",
+          "ai_summary": "Visit the stunning sandbars of Kipungani Channel, a perfect spot for swimming, sunbathing, and picnicking.",
+          "name_english": "Kipungani Channel Sandbars",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:06 AM",
+          "sunset_time": "06:36 PM",
+          "cost": "Boat fee applicable",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Access by boat only; bring your own food and drinks."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear reef-safe sunscreen and bring a hat.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.285,
+            "longitude": 40.898
+          },
+          "address": "Kipungani, Lamu, Kenya",
+          "official_website": "https://example.com/kipungani-sandbars",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {},
+          "rank_score": 0.7985
+        },
+        {
+          "name": "Kizingitini Fishing Village",
+          "ai_summary": "A traditional fishing village where you can experience the local way of life and enjoy fresh seafood.",
+          "name_english": "Kizingitini Fishing Village",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:04 AM",
+          "sunset_time": "06:34 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Respect the local customs and fishing practices."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the fresh seafood at local eateries.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.289,
+            "longitude": 40.895
+          },
+          "address": "Kizingitini, Lamu, Kenya",
+          "official_website": "https://example.com/kizingitini-village",
+          "tags": [
+            "Culture",
+            "Fishing",
+            "Food"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Kenya.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/800px-Flag_of_Kenya.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Kenya",
+                  "author": "User:Pumbaa80",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg",
+                  "credit": "http://www.kenyarchives.go.ke/flag_specifications.htm",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Kenya"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7775
+        },
+        {
+          "name": "Peponi Terrace Sea Views",
+          "ai_summary": "A scenic viewpoint offering breathtaking views of the sea and surrounding islands, ideal for photography and relaxation.",
+          "name_english": "Peponi Terrace",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:03 AM",
+          "sunset_time": "06:33 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited at sunrise or sunset for stunning views."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Bring a camera and a light jacket for the breeze.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.276,
+            "longitude": 40.899
+          },
+          "address": "Peponi, Lamu, Kenya",
+          "official_website": "https://example.com/peponi-terrace",
+          "tags": [
+            "Viewpoint",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Africa location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Africa_location_map.svg/960px-Africa_location_map.svg.png",
+                "width": 800,
+                "height": 755,
+                "attribution": {
+                  "title": "Africa location map",
+                  "author": "Eric Gaba (Sting - fr:Sting)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Africa_location_map.svg",
+                  "credit": "Based upon Africa map blank.svg created by myself\nSources of data:\n\nVMap-0\nSudan/South Sudan 2011-07 border: Map Library (data of 2011-07-09)\nNGDC World Data Bank II",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank administrative map of political Africa as in 2011-07, for geo-location purposes. On English Wikipedia, in \"{{Location map Africa}}\" to set marker along curved latitude/longitude lines."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7927
+        },
+        {
+          "name": "Shell Collecting at Low Tide",
+          "ai_summary": "A popular activity in Lamu, where you can collect beautiful shells along the beach during low tide.",
+          "name_english": "Shell Collecting",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:02 AM",
+          "sunset_time": "06:32 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best done in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Low tide",
+          "place_tip": "Bring a bag for collecting shells and wear water shoes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.264,
+            "longitude": 40.906
+          },
+          "address": "Lamu, Kenya",
+          "official_website": "https://example.com/shell-collecting",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Activity"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7665
+        },
+        {
+          "name": "Amu Waterfront Promenade",
+          "ai_summary": "A beautiful waterfront area in Lamu, perfect for a leisurely stroll, with views of the harbor and traditional dhows.",
+          "name_english": "Amu Waterfront Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:01 AM",
+          "sunset_time": "06:31 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Enjoy the sea breeze and watch the fishermen at work."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Stop by the local cafes for a refreshing drink.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.27,
+            "longitude": 40.904
+          },
+          "address": "Lamu, Kenya",
+          "official_website": "https://example.com/amu-promenade",
+          "tags": [
+            "Leisure",
+            "Photography",
+            "Culture"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Africa location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Africa_location_map.svg/960px-Africa_location_map.svg.png",
+                "width": 800,
+                "height": 755,
+                "attribution": {
+                  "title": "Africa location map",
+                  "author": "Eric Gaba (Sting - fr:Sting)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Africa_location_map.svg",
+                  "credit": "Based upon Africa map blank.svg created by myself\nSources of data:\n\nVMap-0\nSudan/South Sudan 2011-07 border: Map Library (data of 2011-07-09)\nNGDC World Data Bank II",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank administrative map of political Africa as in 2011-07, for geo-location purposes. On English Wikipedia, in \"{{Location map Africa}}\" to set marker along curved latitude/longitude lines."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7915
+        },
+        {
+          "name": "Stargazing on the Dunes",
+          "ai_summary": "Experience breathtaking views of the night sky filled with stars, away from the city lights.",
+          "name_english": "Stargazing on the Dunes",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed on clear nights; bring a blanket and telescope if possible."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Night",
+          "place_tip": "Visit a local guide for a stargazing tour for enhanced experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -2.265,
+            "longitude": 40.902
+          },
+          "address": "Lamu, Kenya",
+          "official_website": "https://example.com/stargazing-dunes",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Photography"
+          ],
+          "state": "Lamu Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8285
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1192 @@
+{
+  "country": "Singapore",
+  "state": "Marina Bay",
+  "cities": [
+    {
+      "city": "Marina Bay",
+      "nearest_airport": "Changi Airport",
+      "places": [
+        {
+          "name": "Marina Bay Sands SkyPark Observation Deck",
+          "ai_summary": "An iconic observation deck offering panoramic views of Singapore’s skyline, Marina Bay, and the surrounding landmarks.",
+          "name_english": "Marina Bay Sands SkyPark Observation Deck",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:30 AM - 10:00 PM",
+            "Tuesday": "09:30 AM - 10:00 PM",
+            "Wednesday": "09:30 AM - 10:00 PM",
+            "Thursday": "09:30 AM - 10:00 PM",
+            "Friday": "09:30 AM - 11:00 PM",
+            "Saturday": "09:30 AM - 11:00 PM",
+            "Sunday": "09:30 AM - 10:00 PM",
+            "notes": "Best visited during sunset for stunning views."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring a camera to capture the breathtaking views.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 1.2834,
+            "longitude": 103.8607
+          },
+          "address": "Marina Bay Sands, Singapore",
+          "official_website": "https://www.marinabaysands.com",
+          "tags": [
+            "Skyline",
+            "Landmark",
+            "Observation"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aerial of the roof top pool Marina Bay Sands Hotel (36592484922) (2).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Aerial_of_the_roof_top_pool_Marina_Bay_Sands_Hotel_%2836592484922%29_%282%29.jpg/960px-Aerial_of_the_roof_top_pool_Marina_Bay_Sands_Hotel_%2836592484922%29_%282%29.jpg",
+                "width": 800,
+                "height": 449,
+                "attribution": {
+                  "title": "Aerial of the roof top pool Marina Bay Sands Hotel (36592484922) (2)",
+                  "author": "dronepicr",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_of_the_roof_top_pool_Marina_Bay_Sands_Hotel_(36592484922)_(2).jpg",
+                  "credit": "Aerial of the roof top pool Marina Bay Sands Hotel",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Aerial of the roof top pool Marina Bay Sands Hotel"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8095
+        },
+        {
+          "name": "Gardens by the Bay",
+          "ai_summary": "A futuristic garden featuring the iconic Supertree Grove, Cloud Forest, and Flower Dome, showcasing nature and technology.",
+          "name_english": "Gardens by the Bay",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "05:00 AM - 02:00 AM",
+            "Tuesday": "05:00 AM - 02:00 AM",
+            "Wednesday": "05:00 AM - 02:00 AM",
+            "Thursday": "05:00 AM - 02:00 AM",
+            "Friday": "05:00 AM - 02:00 AM",
+            "Saturday": "05:00 AM - 02:00 AM",
+            "Sunday": "05:00 AM - 02:00 AM",
+            "notes": "Individual attractions may have different timings."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the evening light show at the Supertree Grove.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 1.2816,
+            "longitude": 103.8636
+          },
+          "address": "Gardens by the Bay, Singapore",
+          "official_website": "https://www.gardensbythebay.com.sg",
+          "tags": [
+            "Nature",
+            "Technology",
+            "Landmark"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cloud Forest, Gardens by the Bay, Singapore.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cloud_Forest%2C_Gardens_by_the_Bay%2C_Singapore.jpg/960px-Cloud_Forest%2C_Gardens_by_the_Bay%2C_Singapore.jpg",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Cloud Forest, Gardens by the Bay, Singapore",
+                  "author": "Basile Morin",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cloud_Forest,_Gardens_by_the_Bay,_Singapore.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cloud Forest from the entrance of the site, Gardens by the Bay, Singapore, a sunny day"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8092
+        },
+        {
+          "name": "Helix Bridge",
+          "ai_summary": "A pedestrian bridge linking Marina Centre with Marina South, known for its unique double-helix structure and stunning night illumination.",
+          "name_english": "Helix Bridge",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "Best viewed at night when it's illuminated."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Walk the bridge in the evening for a romantic experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 1.2914,
+            "longitude": 103.8652
+          },
+          "address": "Helix Bridge, Singapore",
+          "official_website": "https://www.visitsingapore.com",
+          "tags": [
+            "Architecture",
+            "Bridge",
+            "Landmark"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Benjamin Sheares Bridge Oct 05.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Benjamin_Sheares_Bridge_Oct_05.JPG/960px-Benjamin_Sheares_Bridge_Oct_05.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Benjamin Sheares Bridge Oct 05",
+                  "author": null,
+                  "license": "Copyrighted free use",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Benjamin_Sheares_Bridge_Oct_05.JPG",
+                  "credit": null,
+                  "usage_terms": "Copyrighted free use",
+                  "description": null
+                }
+              }
+            }
+          },
+          "rank_score": 0.7882
+        },
+        {
+          "name": "Merlion Park",
+          "ai_summary": "A famous park in Singapore, home to the iconic Merlion statue, which is a half-lion, half-fish creature that symbolizes Singapore's origin as a fishing village.",
+          "name_english": "Merlion Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "The park is always open, but the Merlion statue's water spouting is turned off during maintenance."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Visit early in the morning to avoid crowds and enjoy a peaceful view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 1.2873,
+            "longitude": 103.8542
+          },
+          "address": "1 Fullerton Rd, Singapore",
+          "official_website": "https://www.visitsingapore.com",
+          "tags": [
+            "Symbol",
+            "Park",
+            "Landmark"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aerial Panorama of Merlion Park and its surrounds.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Aerial_Panorama_of_Merlion_Park_and_its_surrounds.jpg/960px-Aerial_Panorama_of_Merlion_Park_and_its_surrounds.jpg",
+                "width": 800,
+                "height": 510,
+                "attribution": {
+                  "title": "Aerial Panorama of Merlion Park and its surrounds",
+                  "author": "Bob T",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_Panorama_of_Merlion_Park_and_its_surrounds.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Aerial Panorama of Merlion Park and its surrounds"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8022
+        },
+        {
+          "name": "ArtScience Museum",
+          "ai_summary": "A museum located within the Marina Bay Sands resort, dedicated to exploring the intersection of art, science, culture, and technology.",
+          "name_english": "ArtScience Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 07:00 PM",
+            "Tuesday": "10:00 AM - 07:00 PM",
+            "Wednesday": "10:00 AM - 07:00 PM",
+            "Thursday": "10:00 AM - 07:00 PM",
+            "Friday": "10:00 AM - 09:00 PM",
+            "Saturday": "10:00 AM - 09:00 PM",
+            "Sunday": "10:00 AM - 07:00 PM",
+            "notes": "Last entry is one hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the museum's website for current exhibitions and events.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 1.859,
+            "longitude": 103.867
+          },
+          "address": "6 Bayfront Ave, Singapore",
+          "official_website": "https://www.marinabaysands.com/museum",
+          "tags": [
+            "Museum",
+            "Art",
+            "Science"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ArtScience Museum, Marina Bay Sands, Singapore.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/ArtScience_Museum%2C_Marina_Bay_Sands%2C_Singapore.jpg/960px-ArtScience_Museum%2C_Marina_Bay_Sands%2C_Singapore.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "ArtScience Museum, Marina Bay Sands, Singapore",
+                  "author": "Basile Morin",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ArtScience_Museum,_Marina_Bay_Sands,_Singapore.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "ArtScience Museum, Marina Bay Sands, in the late afternoon, in front of the skyline of the Central Business District, Singapore. Architect : Moshe Safdie."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7735
+        },
+        {
+          "name": "Esplanade – Theatres on the Bay",
+          "ai_summary": "A performing arts center located in Marina Bay, known for its durian-shaped design and a wide range of artistic performances.",
+          "name_english": "Esplanade – Theatres on the Bay",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Varies by performance",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00 AM - 12:00 AM",
+            "Tuesday": "08:00 AM - 12:00 AM",
+            "Wednesday": "08:00 AM - 12:00 AM",
+            "Thursday": "08:00 AM - 12:00 AM",
+            "Friday": "08:00 AM - 12:00 AM",
+            "Saturday": "08:00 AM - 12:00 AM",
+            "Sunday": "08:00 AM - 12:00 AM",
+            "notes": "Box office hours may vary. Check the website for performance schedules."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book tickets in advance for popular shows.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 1.2905,
+            "longitude": 103.859
+          },
+          "address": "1 Esplanade Dr, Singapore",
+          "official_website": "https://www.esplanade.com",
+          "tags": [
+            "Arts",
+            "Theatre",
+            "Culture"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          },
+          "rank_score": 0.768
+        },
+        {
+          "name": "Marina Bay Waterfront Promenade",
+          "ai_summary": "A scenic walkway along the Marina Bay, offering stunning views of the bay, the city skyline, and the Marina Bay Sands.",
+          "name_english": "Marina Bay Waterfront Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "The promenade is always open, providing a beautiful walking route at any time."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "A great spot for a leisurely walk, jogging, or cycling.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 1.2833,
+            "longitude": 103.8607
+          },
+          "address": "Marina Bay, Singapore",
+          "official_website": "https://www.visitsingapore.com",
+          "tags": [
+            "Scenic",
+            "Walkway",
+            "Landmark"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aerial of the roof top pool Marina Bay Sands Hotel (36592484922) (2).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Aerial_of_the_roof_top_pool_Marina_Bay_Sands_Hotel_%2836592484922%29_%282%29.jpg/960px-Aerial_of_the_roof_top_pool_Marina_Bay_Sands_Hotel_%2836592484922%29_%282%29.jpg",
+                "width": 800,
+                "height": 449,
+                "attribution": {
+                  "title": "Aerial of the roof top pool Marina Bay Sands Hotel (36592484922) (2)",
+                  "author": "dronepicr",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_of_the_roof_top_pool_Marina_Bay_Sands_Hotel_(36592484922)_(2).jpg",
+                  "credit": "Aerial of the roof top pool Marina Bay Sands Hotel",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Aerial of the roof top pool Marina Bay Sands Hotel"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8055
+        },
+        {
+          "name": "Marina Barrage",
+          "ai_summary": "A dam in Singapore built across the Marina Channel, known for its green roof and as a recreational area with stunning views of the city skyline.",
+          "name_english": "Marina Barrage",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 AM - 09:00 PM",
+            "Tuesday": "09:00 AM - 09:00 PM",
+            "Wednesday": "09:00 AM - 09:00 PM",
+            "Thursday": "09:00 AM - 09:00 PM",
+            "Friday": "09:00 AM - 09:00 PM",
+            "Saturday": "09:00 AM - 09:00 PM",
+            "Sunday": "09:00 AM - 09:00 PM",
+            "notes": "The barrage is open to visitors, but the water playground and other facilities have specific opening hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Visit the rooftop for a panoramic view of the city and the sea.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 1.2841,
+            "longitude": 103.865
+          },
+          "address": "8 Marina Gardens Dr, Singapore",
+          "official_website": "https://www.pub.gov.sg",
+          "tags": [
+            "Recreation",
+            "Landmark",
+            "Nature"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aerial of the roof top pool Marina Bay Sands Hotel (36592484922) (2).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Aerial_of_the_roof_top_pool_Marina_Bay_Sands_Hotel_%2836592484922%29_%282%29.jpg/960px-Aerial_of_the_roof_top_pool_Marina_Bay_Sands_Hotel_%2836592484922%29_%282%29.jpg",
+                "width": 800,
+                "height": 449,
+                "attribution": {
+                  "title": "Aerial of the roof top pool Marina Bay Sands Hotel (36592484922) (2)",
+                  "author": "dronepicr",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_of_the_roof_top_pool_Marina_Bay_Sands_Hotel_(36592484922)_(2).jpg",
+                  "credit": "Aerial of the roof top pool Marina Bay Sands Hotel",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Aerial of the roof top pool Marina Bay Sands Hotel"
+                }
+              }
+            }
+          },
+          "rank_score": 0.788
+        },
+        {
+          "name": "Red Dot Design Museum",
+          "ai_summary": "A museum dedicated to contemporary design, showcasing innovative designs and ideas from around the world.",
+          "name_english": "Red Dot Design Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 07:00 PM",
+            "Tuesday": "10:00 AM - 07:00 PM",
+            "Wednesday": "10:00 AM - 07:00 PM",
+            "Thursday": "10:00 AM - 07:00 PM",
+            "Friday": "10:00 AM - 09:00 PM",
+            "Saturday": "10:00 AM - 09:00 PM",
+            "Sunday": "10:00 AM - 07:00 PM",
+            "notes": "Closed on certain public holidays. Check the website for details."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the museum shop for unique design items.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 1.284,
+            "longitude": 103.859
+          },
+          "address": "4, 6, 8 Marina Blvd, Singapore",
+          "official_website": "https://www.red-dot-design-museum.sg",
+          "tags": [
+            "Museum",
+            "Design",
+            "Innovation"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          },
+          "rank_score": 0.749
+        },
+        {
+          "name": "Fullerton Bay Hotel Rooftop View",
+          "ai_summary": "A luxury hotel offering a rooftop view that provides a stunning panorama of the Marina Bay area, especially beautiful at sunset.",
+          "name_english": "Fullerton Bay Hotel Rooftop View",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Dining or Entry Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "12:00 PM - 10:00 PM",
+            "Tuesday": "12:00 PM - 10:00 PM",
+            "Wednesday": "12:00 PM - 10:00 PM",
+            "Thursday": "12:00 PM - 10:00 PM",
+            "Friday": "12:00 PM - 11:00 PM",
+            "Saturday": "12:00 PM - 11:00 PM",
+            "Sunday": "12:00 PM - 10:00 PM",
+            "notes": "Reservations recommended for the rooftop dining."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy a meal or a drink while taking in the breathtaking views.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 1.2839,
+            "longitude": 103.8606
+          },
+          "address": "80 Collyer Quay, Singapore",
+          "official_website": "https://www.fullertonbayhotel.com",
+          "tags": [
+            "Luxury",
+            "Dining",
+            "Viewpoint"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bread Street Kitchen, Singapore.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Bread_Street_Kitchen%2C_Singapore.jpg/960px-Bread_Street_Kitchen%2C_Singapore.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bread Street Kitchen, Singapore",
+                  "author": "Actuall7",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bread_Street_Kitchen,_Singapore.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Bread Street Kitchen, Singapore"
+                }
+              }
+            }
+          },
+          "rank_score": 0.777
+        },
+        {
+          "name": "Spectra Light & Water Show",
+          "ai_summary": "A stunning show at Marina Bay Sands, featuring a dazzling display of water jets, lasers, and projections, telling a story about the wonders of Asia.",
+          "name_english": "Spectra Light & Water Show",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "07:30 PM - 08:00 PM",
+            "Tuesday": "07:30 PM - 08:00 PM",
+            "Wednesday": "07:30 PM - 08:00 PM",
+            "Thursday": "07:30 PM - 08:00 PM",
+            "Friday": "07:30 PM - 08:00 PM",
+            "Saturday": "07:30 PM - 08:00 PM",
+            "Sunday": "07:30 PM - 08:00 PM",
+            "notes": "Showtimes may vary. Check the Marina Bay Sands website for the schedule."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Arrive early to secure a good viewing spot.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 1.2833,
+            "longitude": 103.8607
+          },
+          "address": "Marina Bay Sands, Singapore",
+          "official_website": "https://www.marinabaysands.com/spectra",
+          "tags": [
+            "Show",
+            "Light",
+            "Water"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1 singapore flyer view 2012.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/1_singapore_flyer_view_2012.jpg/960px-1_singapore_flyer_view_2012.jpg",
+                "width": 800,
+                "height": 378,
+                "attribution": {
+                  "title": "1 singapore flyer view 2012",
+                  "author": "chensiyuan",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1_singapore_flyer_view_2012.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "singapore flyer view of marina bay 2012"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7797
+        },
+        {
+          "name": "Singapore River Cruise",
+          "ai_summary": "A relaxing cruise along the Singapore River, offering unique views of the city's historic and modern landmarks.",
+          "name_english": "Singapore River Cruise",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Ticketed",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 AM - 09:00 PM",
+            "Tuesday": "09:00 AM - 09:00 PM",
+            "Wednesday": "09:00 AM - 09:00 PM",
+            "Thursday": "09:00 AM - 09:00 PM",
+            "Friday": "09:00 AM - 09:00 PM",
+            "Saturday": "09:00 AM - 09:00 PM",
+            "Sunday": "09:00 AM - 09:00 PM",
+            "notes": "Cruise timings and availability may vary. Check the website for details."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Choose a cruise that offers dinner for a complete experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 1.2865,
+            "longitude": 103.8501
+          },
+          "address": "Clarke Quay, Singapore",
+          "official_website": "https://www.singapore-river-cruise.com",
+          "tags": [
+            "Cruise",
+            "River",
+            "Sightseeing"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7335
+        },
+        {
+          "name": "The Shoppes at Marina Bay Sands",
+          "ai_summary": "A luxury shopping mall at Marina Bay Sands, featuring a wide range of high-end brands, dining options, and a beautiful canal running through it.",
+          "name_english": "The Shoppes at Marina Bay Sands",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Varies by store",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:30 AM - 11:00 PM",
+            "Tuesday": "10:30 AM - 11:00 PM",
+            "Wednesday": "10:30 AM - 11:00 PM",
+            "Thursday": "10:30 AM - 11:00 PM",
+            "Friday": "10:30 AM - 11:00 PM",
+            "Saturday": "10:30 AM - 11:00 PM",
+            "Sunday": "10:30 AM - 11:00 PM",
+            "notes": "Some stores may have different opening hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Take a break at the food court for a variety of dining options.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 1.2833,
+            "longitude": 103.8607
+          },
+          "address": "2 Bayfront Ave, Singapore",
+          "official_website": "https://www.marinabaysands.com/shopping",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Luxury"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1 singapore flyer view 2012.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/1_singapore_flyer_view_2012.jpg/960px-1_singapore_flyer_view_2012.jpg",
+                "width": 800,
+                "height": 378,
+                "attribution": {
+                  "title": "1 singapore flyer view 2012",
+                  "author": "chensiyuan",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1_singapore_flyer_view_2012.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "singapore flyer view of marina bay 2012"
+                }
+              }
+            }
+          },
+          "rank_score": 0.751
+        },
+        {
+          "name": "Downtown Core Skyline",
+          "ai_summary": "The Downtown Core of Singapore is the city's central business district, featuring a stunning skyline of modern skyscrapers and historic buildings.",
+          "name_english": "Downtown Core Skyline",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "The skyline can be viewed at any time, but guided tours are available during the day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Visit the Marina Bay Sands SkyPark for an elevated view of the skyline.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 1.2834,
+            "longitude": 103.8607
+          },
+          "address": "Downtown Core, Singapore",
+          "official_website": "https://www.visitsingapore.com",
+          "tags": [
+            "Skyline",
+            "Business District",
+            "Landmark"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ArtScience Museum, Marina Bay Sands, Singapore.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/ArtScience_Museum%2C_Marina_Bay_Sands%2C_Singapore.jpg/960px-ArtScience_Museum%2C_Marina_Bay_Sands%2C_Singapore.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "ArtScience Museum, Marina Bay Sands, Singapore",
+                  "author": "Basile Morin",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ArtScience_Museum,_Marina_Bay_Sands,_Singapore.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "ArtScience Museum, Marina Bay Sands, in the late afternoon, in front of the skyline of the Central Business District, Singapore. Architect : Moshe Safdie."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7915
+        },
+        {
+          "name": "Marina Bay City Gallery",
+          "ai_summary": "A gallery showcasing the history, present, and future of Marina Bay, featuring interactive exhibits and stunning scale models.",
+          "name_english": "Marina Bay City Gallery",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 AM - 09:00 PM",
+            "Tuesday": "09:00 AM - 09:00 PM",
+            "Wednesday": "09:00 AM - 09:00 PM",
+            "Thursday": "09:00 AM - 09:00 PM",
+            "Friday": "09:00 AM - 09:00 PM",
+            "Saturday": "09:00 AM - 09:00 PM",
+            "Sunday": "09:00 AM - 09:00 PM",
+            "notes": "Closed on certain public holidays. Check the website for details."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Engage with the interactive exhibits for a deeper understanding of Marina Bay's development.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 1.2841,
+            "longitude": 103.8607
+          },
+          "address": "10 Bayfront Ave, Singapore",
+          "official_website": "https://www.marinabaycitygallery.sg",
+          "tags": [
+            "Gallery",
+            "History",
+            "Interactive"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aerial of the roof top pool Marina Bay Sands Hotel (36592484922) (2).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Aerial_of_the_roof_top_pool_Marina_Bay_Sands_Hotel_%2836592484922%29_%282%29.jpg/960px-Aerial_of_the_roof_top_pool_Marina_Bay_Sands_Hotel_%2836592484922%29_%282%29.jpg",
+                "width": 800,
+                "height": 449,
+                "attribution": {
+                  "title": "Aerial of the roof top pool Marina Bay Sands Hotel (36592484922) (2)",
+                  "author": "dronepicr",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_of_the_roof_top_pool_Marina_Bay_Sands_Hotel_(36592484922)_(2).jpg",
+                  "credit": "Aerial of the roof top pool Marina Bay Sands Hotel",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Aerial of the roof top pool Marina Bay Sands Hotel"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7485
+        },
+        {
+          "name": "Bay East Garden",
+          "ai_summary": "A tranquil garden located at the eastern part of Marina Bay, featuring a wide variety of plants, flowers, and scenic waterfront views.",
+          "name_english": "Bay East Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "05:00 AM - 12:00 AM",
+            "Tuesday": "05:00 AM - 12:00 AM",
+            "Wednesday": "05:00 AM - 12:00 AM",
+            "Thursday": "05:00 AM - 12:00 AM",
+            "Friday": "05:00 AM - 12:00 AM",
+            "Saturday": "05:00 AM - 12:00 AM",
+            "Sunday": "05:00 AM - 12:00 AM",
+            "notes": "The garden is open 24 hours, but the best time to visit is during the day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "A perfect spot for a morning walk or a picnic with a view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 1.2849,
+            "longitude": 103.865
+          },
+          "address": "Marina Gardens Dr, Singapore",
+          "official_website": "https://www.nparks.gov.sg",
+          "tags": [
+            "Garden",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:The Singapore Flyer – Aerial view of Singapore.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/The_Singapore_Flyer_%E2%80%93_Aerial_view_of_Singapore.jpg/960px-The_Singapore_Flyer_%E2%80%93_Aerial_view_of_Singapore.jpg",
+                "width": 800,
+                "height": 534,
+                "attribution": {
+                  "title": "The Singapore Flyer – Aerial view of Singapore",
+                  "author": "William Cho",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:The_Singapore_Flyer_–_Aerial_view_of_Singapore.jpg",
+                  "credit": "originally posted to Flickr as The Singapore Flyer – Aerial",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Aerial view of the Kallang river. My first ride..."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7805
+        },
+        {
+          "name": "Marina Bay Street Circuit (F1)",
+          "ai_summary": "A street circuit around Marina Bay for the Formula One Singapore Grand Prix, known for its stunning city backdrop and challenging layout.",
+          "name_english": "Marina Bay Street Circuit (F1)",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Varies by event",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "Access may be restricted during events. Check the website for the F1 schedule."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Experience the thrill of the F1 night race if visiting in September.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 1.2914,
+            "longitude": 103.864
+          },
+          "address": "Marina Bay, Singapore",
+          "official_website": "https://www.formula1.com",
+          "tags": [
+            "Sports",
+            "F1",
+            "Event"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1 - F1 Stand Area 2.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/1_-_F1_Stand_Area_2.JPG/960px-1_-_F1_Stand_Area_2.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "1 - F1 Stand Area 2",
+                  "author": "Aran Ho Yeow Yong",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1_-_F1_Stand_Area_2.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "The Singapore Street Circuit Audience Stand"
+                }
+              }
+            }
+          },
+          "rank_score": 0.759
+        },
+        {
+          "name": "Singapore Flyer",
+          "ai_summary": "A giant Ferris wheel offering breathtaking views of Singapore's skyline, Marina Bay, and beyond.",
+          "name_english": "Singapore Flyer",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Ticketed",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:30 AM - 10:30 PM",
+            "Tuesday": "08:30 AM - 10:30 PM",
+            "Wednesday": "08:30 AM - 10:30 PM",
+            "Thursday": "08:30 AM - 10:30 PM",
+            "Friday": "08:30 AM - 10:30 PM",
+            "Saturday": "08:30 AM - 10:30 PM",
+            "Sunday": "08:30 AM - 10:30 PM",
+            "notes": "Last ticket sales at 09:30 PM. Operating hours may vary on public holidays."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book a flight during sunset for a memorable experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 1.2893,
+            "longitude": 103.8638
+          },
+          "address": "30 Raffles Ave, Singapore",
+          "official_website": "https://www.singaporeflyer.com",
+          "tags": [
+            "Attraction",
+            "View",
+            "Landmark"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1 - Yakult Rainforest Discovery.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/1_-_Yakult_Rainforest_Discovery.JPG/960px-1_-_Yakult_Rainforest_Discovery.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "1 - Yakult Rainforest Discovery",
+                  "author": "Aran Ho Yeow Yong",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1_-_Yakult_Rainforest_Discovery.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "The Yakult Rainforest Discovery garden located in the Singapore Flyer"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7377
+        },
+        {
+          "name": "Millenia Walk",
+          "ai_summary": "A shopping mall located in the Marina Centre, offering a range of retail, dining, and entertainment options.",
+          "name_english": "Millenia Walk",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Varies by store",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Some stores may have different opening hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the variety of dining options available.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 1.2931,
+            "longitude": 103.855
+          },
+          "address": "9 Raffles Blvd, Singapore",
+          "official_website": "https://www.millenniwalk.com.sg",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Entertainment"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Civilian War Memorial 2019.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Civilian_War_Memorial_2019.jpg/960px-Civilian_War_Memorial_2019.jpg",
+                "width": 800,
+                "height": 1005,
+                "attribution": {
+                  "title": "Civilian War Memorial 2019",
+                  "author": "Deoma12",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Civilian_War_Memorial_2019.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Taken in 2019, picture of the Civilian War Memorial with Oppo Reno 2"
+                }
+              }
+            }
+          },
+          "rank_score": 0.729
+        },
+        {
+          "name": "One Raffles Quay Viewpoint",
+          "ai_summary": "A popular viewpoint located at One Raffles Quay, offering a stunning panoramic view of the Marina Bay area and the Singapore skyline.",
+          "name_english": "One Raffles Quay Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "The viewpoint is always open, providing a great photo opportunity at any time."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "A great spot for photography enthusiasts.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 1.2855,
+            "longitude": 103.8542
+          },
+          "address": "1 Raffles Quay, Singapore",
+          "official_website": "https://www.visitsingapore.com",
+          "tags": [
+            "Viewpoint",
+            "Photography",
+            "Landmark"
+          ],
+          "state": "Marina Bay",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Chilli crab-02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Chilli_crab-02.jpg/800px-Chilli_crab-02.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Chilli crab-02",
+                  "author": "megawatts86",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Chilli_crab-02.jpg",
+                  "credit": "originally posted to Flickr as More Chilli Crab",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Chilli crab"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7832
+        }
+      ]
+    }
+  ]
+}

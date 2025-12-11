@@ -1,0 +1,800 @@
+{
+  "country": "Netherlands",
+  "state": "Leiden",
+  "cities": [
+    {
+      "city": "Leiden",
+      "nearest_airport": "Amsterdam Airport Schiphol",
+      "places": [
+        {
+          "name": "Rijksmuseum van Oudheden",
+          "ai_summary": "A national museum showcasing ancient artifacts, including Egyptian mummies, Greek sculptures, and Roman relics.",
+          "name_english": "National Museum of Antiquities",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €12",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Special exhibits may have extended hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the Egyptian gallery with its impressive mummies.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1571,
+            "longitude": 4.4892
+          },
+          "address": "Rapenburg 28, 2311 EW Leiden, Netherlands",
+          "official_website": "https://www.rmo.nl",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Leiden",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Rijksmuseum_van_Oudheden.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Rijksmuseum_van_Oudheden.jpg/960px-Rijksmuseum_van_Oudheden.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Rijksmuseum van Oudheden",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Goodness_Shamrock\" title=\"User:Goodness Shamrock\">Goodness Shamrock</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_van_Oudheden.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Dutch National Museum of Antiquities (Rijksmuseum van Oudheden)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.862
+        },
+        {
+          "name": "Hortus Botanicus Leiden",
+          "ai_summary": "One of the oldest botanical gardens in the world, featuring exotic plants, greenhouses, and a tranquil atmosphere.",
+          "name_english": "Leiden Botanical Garden",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €8",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Guided tours available on request."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the Japanese garden for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1578,
+            "longitude": 4.4828
+          },
+          "address": "Rapenburg 73, 2311 GJ Leiden, Netherlands",
+          "official_website": "https://www.hortusleiden.nl",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Education"
+          ],
+          "state": "Leiden",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hortus_botanicus_Leiden.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Hortus_botanicus_Leiden.jpg/960px-Hortus_botanicus_Leiden.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Hortus botanicus Leiden",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Roger_Veringmeier&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Roger Veringmeier (page does not exist)\">Roger Veringmeier</a>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hortus_botanicus_Leiden.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Hortus botanicus Leiden"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Naturalis Biodiversity Center",
+          "ai_summary": "A modern museum dedicated to the natural world, featuring dinosaur skeletons, interactive exhibits, and biodiversity research.",
+          "name_english": "Naturalis Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €16",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Family-friendly exhibits available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Perfect for families; kids will love the dinosaur exhibits.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 52.1601,
+            "longitude": 4.497
+          },
+          "address": "Darwinweg 2, 2333 CR Leiden, Netherlands",
+          "official_website": "https://www.naturalis.nl",
+          "tags": [
+            "Science",
+            "Education",
+            "Museum"
+          ],
+          "state": "Leiden",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Naturalis_building.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Naturalis_building.jpg/960px-Naturalis_building.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Naturalis building",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Museum_Naturalis&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Museum Naturalis (page does not exist)\">Museum Naturalis</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Naturalis_building.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Naturalis Biodiversity Center"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Museum Boerhaave",
+          "ai_summary": "A museum of the history of science and medicine in the Netherlands, with collections of scientific instruments, models, and paintings.",
+          "name_english": "Boerhaave Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €15",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Check for special events and exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Look out for the interactive science exhibits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1575,
+            "longitude": 4.49
+          },
+          "address": "Lange St. Agnietenstraat 10, 2312 WC Leiden, Netherlands",
+          "official_website": "https://www.museumboerhaave.nl",
+          "tags": [
+            "Science",
+            "History",
+            "Museum"
+          ],
+          "state": "Leiden",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BoerhaaveMuseum2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/BoerhaaveMuseum2.jpg/960px-BoerhaaveMuseum2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "BoerhaaveMuseum2",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Erik_Zachte\" title=\"User:Erik Zachte\">Erik Zachte</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BoerhaaveMuseum2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Boerhaave Museum, Leiden, Netherlands"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Molen de Valk",
+          "ai_summary": "A historic windmill and museum in Leiden, offering panoramic views of the city and surrounding areas.",
+          "name_english": "Windmill Museum de Valk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Entry fee: €5",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Windmill operation depends on weather conditions."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon for sunset views",
+          "place_tip": "Climb to the top for the best views of Leiden.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1583,
+            "longitude": 4.4908
+          },
+          "address": "Molen de Valk, 2312 WG Leiden, Netherlands",
+          "official_website": "https://www.molendevalk.nl",
+          "tags": [
+            "History",
+            "Architecture",
+            "Museum"
+          ],
+          "state": "Leiden",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Leiden-Windmill-DeValk.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Leiden-Windmill-DeValk.JPG/960px-Leiden-Windmill-DeValk.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Leiden-Windmill-DeValk",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Erik_Zachte\" title=\"User:Erik Zachte\">Erik Zachte</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Leiden-Windmill-DeValk.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Windmill 'de Valk, Leiden, Netherlands"
+                }
+              }
+            }
+          },
+          "rank_score": 0.774
+        },
+        {
+          "name": "Leiden Canals",
+          "ai_summary": "A picturesque canal system in Leiden, ideal for boating, walking, and enjoying the historic cityscape.",
+          "name_english": "Leiden Canal Tour",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Boat tour: €15",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Check weather conditions before planning your visit."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "A boat tour offers a unique perspective of the city.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 52.1587,
+            "longitude": 4.4915
+          },
+          "address": "Leiden Canals, 2312 Leiden, Netherlands",
+          "official_website": "https://www.leidencanals.nl",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Relaxation"
+          ],
+          "state": "Leiden",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BlokLeiden2.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/BlokLeiden2.JPG/960px-BlokLeiden2.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "BlokLeiden2",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Vysotsky\" title=\"User:Vysotsky\">Vysotsky</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BlokLeiden2.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Alexander_Blok\" class=\"extiw\" title=\"en:Alexander Blok\">Alexander Blok</a>'s poem 'Noch, ulica, fonar, apteka' on a wall in the Dutch city of <a href=\"https://en.wikipedia.org/wiki/Leiden\" class=\"extiw\" title=\"en:Leiden\">Leiden</a> (corner Roodenburgerstraat/Thorbeckestraat)<br>\n<p>Russian text and English translation below gratefully copied from <a rel=\"nofollow\" class=\"external text\" href=\"https://culturedarm.com/alexander-blok-night-street-street-light-drugstore-1912/\">Culturedarm.com Christopher Laws 17 August, 2019</a>\nTranslation:<br><br>\nThe night. The street. Street-lamp. Drugstore.<br>\nA meaningless dull light about.<br>\nYou may live twenty-five years more;<br>\nAll will still be there. No way out.<br>\n<br>\nYou die. You start again and all<br>\nWill be repeated as before:<br>\nThe cold rippling of a canal.<br>\nThe night. The street. Street-lamp. Drugstore.<br>\n<br>\n10 October 1912<br>\n</p>\nTranslated by Vladimir Markov and Merrill Sparks"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Pieterskerk",
+          "ai_summary": "A historic church in Leiden, known for its impressive architecture, stained glass windows, and peaceful garden.",
+          "name_english": "St. Peter’s Church",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Check for concerts and special events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the garden for a quiet retreat in the city.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.158,
+            "longitude": 4.4902
+          },
+          "address": "Pieterskerkhof 1, 2311 SR Leiden, Netherlands",
+          "official_website": "https://www.pieterskerk-leiden.nl",
+          "tags": [
+            "History",
+            "Architecture",
+            "Religion"
+          ],
+          "state": "Leiden",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Leiden_Pieterskerk_postcard.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Leiden_Pieterskerk_postcard.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Leiden Pieterskerk postcard",
+                  "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Leiden_Pieterskerk_postcard.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Old postcard Pieterskerk Leiden"
+                }
+              }
+            }
+          },
+          "rank_score": 0.718
+        },
+        {
+          "name": "Museum Volkenkunde",
+          "ai_summary": "An ethnology museum in Leiden, featuring collections of artifacts and exhibits on world cultures and societies.",
+          "name_english": "Museum of Ethnology",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €10",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Group tours available on request."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Check out the Pacific Islands collection.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1586,
+            "longitude": 4.491
+          },
+          "address": "Steenschuur 27, 2311 ES Leiden, Netherlands",
+          "official_website": "https://www.volkenkunde.nl",
+          "tags": [
+            "Culture",
+            "History",
+            "Museum"
+          ],
+          "state": "Leiden",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Museum_Volkenkunde_(National_Museum_of_Ethnology)_in_Leiden_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Museum_Volkenkunde_%28National_Museum_of_Ethnology%29_in_Leiden_2.jpg/960px-Museum_Volkenkunde_%28National_Museum_of_Ethnology%29_in_Leiden_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Museum Volkenkunde (National Museum of Ethnology) in Leiden 2",
+                  "author": "<p><a href=\"//commons.wikimedia.org/wiki/User:ErikvanB\" title=\"User:ErikvanB\">ErikvanB</a>\n</p>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Museum_Volkenkunde_(National_Museum_of_Ethnology)_in_Leiden_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Building of the National Museum of Ethnology (Rijksmuseum Volkenkunde), Leiden, Netherlands. The 25-feet-high totem pole was carved from cedar wood by craftsmen from Cormorant Island in 2012."
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Old Observatory Leiden",
+          "ai_summary": "The oldest university observatory still in operation, offering insights into the history of astronomy and science.",
+          "name_english": "Old Observatory",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "1:00 PM - 5:00 PM",
+            "Wednesday": "1:00 PM - 5:00 PM",
+            "Thursday": "1:00 PM - 5:00 PM",
+            "Friday": "1:00 PM - 5:00 PM",
+            "Saturday": "1:00 PM - 5:00 PM",
+            "Sunday": "1:00 PM - 5:00 PM",
+            "notes": "Guided tours available; check schedule."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the library for rare astronomical books.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1592,
+            "longitude": 4.492
+          },
+          "address": "Witte Singel 26, 2316 XC Leiden, Netherlands",
+          "official_website": "https://www.observatory.leiden.edu",
+          "tags": [
+            "Science",
+            "Education",
+            "History"
+          ],
+          "state": "Leiden",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Oude_Sterrewacht,_Leiden.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Oude_Sterrewacht%2C_Leiden.jpg/960px-Oude_Sterrewacht%2C_Leiden.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Oude Sterrewacht, Leiden",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:AWossink\" title=\"User:AWossink\">User:AWossink</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Oude_Sterrewacht,_Leiden.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "View of the Old Observatory (<a href=\"https://en.wikipedia.org/wiki/Leiden\" class=\"extiw\" title=\"en:Leiden\">Leiden</a>) form the Vreewijk Bridge"
+                }
+              }
+            }
+          },
+          "rank_score": 0.682
+        },
+        {
+          "name": "Rapenburg Canal Walk",
+          "ai_summary": "A scenic walking route along the Rapenburg canal, known for its beautiful views and historic buildings.",
+          "name_english": "Rapenburg Canal",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Best enjoyed on foot or by bike."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a camera for stunning photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1589,
+            "longitude": 4.493
+          },
+          "address": "Rapenburg, 2311 Leiden, Netherlands",
+          "official_website": "https://www.rapenburgcanal.nl",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Walking"
+          ],
+          "state": "Leiden",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vlooienburg,_1625.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Vlooienburg%2C_1625.jpg/960px-Vlooienburg%2C_1625.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vlooienburg, 1625",
+                  "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Balthasar_Florisz._van_Berckenrode\" class=\"extiw\" title=\"w:en:Balthasar Florisz. van Berckenrode\"><span title=\"Dutch copperplate engraver (1591-1645)\">Balthasar Florisz. van Berckenrode</span></a></bdi>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vlooienburg,_1625.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Vlooienburg in 1625. Detail van <a href=\"//commons.wikimedia.org/wiki/File:Balthasar_Florisz._van_Berckenrode_-_Amsterdam_(1625)_2-1.jpg\" title=\"File:Balthasar Florisz. van Berckenrode - Amsterdam (1625) 2-1.jpg\">File:Balthasar Florisz. van Berckenrode - Amsterdam (1625) 2-1.jpg</a>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.77
+        },
+        {
+          "name": "Van der Werf Park",
+          "ai_summary": "A public park in Leiden, featuring walking paths, a playground, and open green spaces for relaxation and recreation.",
+          "name_english": "Van der Werf Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Well-maintained paths for walking and cycling."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Great spot for a picnic or a leisurely walk.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1595,
+            "longitude": 4.494
+          },
+          "address": "Van der Werf Park, 2312 Leiden, Netherlands",
+          "official_website": "https://www.vanderwerfpark.nl",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Walking"
+          ],
+          "state": "Leiden",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:JackHerer-9-23-1989.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/JackHerer-9-23-1989.jpg/960px-JackHerer-9-23-1989.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "JackHerer-9-23-1989",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Carolmooredc\" title=\"User:Carolmooredc\">Carolmooredc</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:JackHerer-9-23-1989.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Cannabis activist Jack Herer."
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Leiden American Pilgrim Museum",
+          "ai_summary": "A museum dedicated to the history of the Pilgrims who sailed to America on the Mayflower, featuring exhibits and artifacts.",
+          "name_english": "Pilgrim Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €10",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Guided tours available; check schedule."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Learn about the Pilgrims' journey and settlement in America.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.16,
+            "longitude": 4.495
+          },
+          "address": "Witte Singel 26, 2316 XC Leiden, Netherlands",
+          "official_website": "https://www.pilgrimmuseum.nl",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Leiden",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2025LeidenPilgrimMuseum-2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/2025LeidenPilgrimMuseum-2.jpg/960px-2025LeidenPilgrimMuseum-2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2025LeidenPilgrimMuseum-2",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Vysotsky\" title=\"User:Vysotsky\">Vysotsky</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2025LeidenPilgrimMuseum-2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "American Pilgrim Museum, Leiden. Kloksteeg 16, Leiden"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Vlietland Lake Park",
+          "ai_summary": "A recreational area around a lake in Leiden, offering opportunities for swimming, sailing, and picnicking.",
+          "name_english": "Vlietland Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Swimming area monitored during summer months."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Bring a picnic and enjoy a day by the water.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.161,
+            "longitude": 4.496
+          },
+          "address": "Vlietland, 2316 Leiden, Netherlands",
+          "official_website": "https://www.vlietland.nl",
+          "tags": [
+            "Nature",
+            "Recreation",
+            "Relaxation"
+          ],
+          "state": "Leiden",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Rembrandt Statue & Birthplace",
+          "ai_summary": "A statue and museum dedicated to the famous painter Rembrandt van Rijn, located at his birthplace in Leiden.",
+          "name_english": "Rembrandt Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €8",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Check for special exhibitions and events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the surrounding area for more historical context.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1605,
+            "longitude": 4.4975
+          },
+          "address": "Oude Singel 28, 2312 RA Leiden, Netherlands",
+          "official_website": "https://www.rembrandtmuseum.nl",
+          "tags": [
+            "Art",
+            "History",
+            "Museum"
+          ],
+          "state": "Leiden",
+          "photos": {},
+          "rank_score": 0.798
+        }
+      ]
+    }
+  ]
+}

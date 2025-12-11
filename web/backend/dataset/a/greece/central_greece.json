@@ -1,0 +1,1084 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Delphi Archaeological Site",
+          "ai_summary": "A UNESCO World Heritage Site, Delphi was considered the center of the world in ancient Greek mythology and features the Temple of Apollo.",
+          "name_english": "Delphi Archaeological Site",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:30",
+          "cost": "$12",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "08:00-20:00",
+            "tue": "08:00-20:00",
+            "wed": "08:00-20:00",
+            "thu": "08:00-20:00",
+            "fri": "08:00-20:00",
+            "sat": "08:00-20:00",
+            "sun": "08:00-20:00",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes and bring water for exploring the ruins.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 38.482,
+            "lng": 22.501
+          },
+          "address": "Delphi Archaeological Site, Delphi, Greece",
+          "official_website": "https://www.delphi.gr/",
+          "tags": [
+            "UNESCO",
+            "Historic",
+            "Archaeology"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:010MAD Kouros.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/010MAD_Kouros.jpg",
+                "width": 678,
+                "height": 990,
+                "attribution": {
+                  "title": "010MAD Kouros",
+                  "author": "Ricardo André Frantz (User:Tetraktys)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:010MAD_Kouros.jpg",
+                  "credit": "taken by Ricardo André Frantz",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Torso of kouros. Archaeological Museum of Delphi, Greece. Rather: National Archaeological Museum in Athens."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Delphi Museum",
+          "ai_summary": "A museum showcasing artifacts from the Delphi Archaeological Site, including the famous Charioteer of Delphi statue.",
+          "name_english": "Delphi Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$6",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the Charioteer statue and other ancient artifacts.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.482,
+            "lng": 22.501
+          },
+          "address": "Delphi Museum, Delphi, Greece",
+          "official_website": "https://www.delphi.gr/",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:'Delphi' by Edward Lear, watercolor, 12 by 19 cm..jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%27Delphi%27_by_Edward_Lear%2C_watercolor%2C_12_by_19_cm..jpg/960px-%27Delphi%27_by_Edward_Lear%2C_watercolor%2C_12_by_19_cm..jpg",
+                "width": 800,
+                "height": 516,
+                "attribution": {
+                  "title": "Delphi",
+                  "author": "Edward Lear",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:'Delphi'_by_Edward_Lear,_watercolor,_12_by_19_cm..jpg",
+                  "credit": "Sotheby's",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Thermopylae Battlefield",
+          "ai_summary": "The historic site of the famous battle between the Spartans and Persians, featuring a monument to King Leonidas.",
+          "name_english": "Thermopylae Battlefield",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the monument and learn about the battle’s history.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.797,
+            "lng": 22.536
+          },
+          "address": "Thermopylae Battlefield, Central Greece, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Battlefield",
+            "Historic",
+            "Monument"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2persian gate wall.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/2persian_gate_wall.JPG",
+                "width": 800,
+                "height": 531,
+                "attribution": {
+                  "title": "2persian gate wall",
+                  "author": "Jona Lendering at English Wikipedia",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2persian_gate_wall.JPG",
+                  "credit": "Transferred from en.wikipedia to Commons by Innotata using CommonsHelper.",
+                  "usage_terms": "Public domain",
+                  "description": "Photo of the place of the Persian Gate"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mount Parnassus National Park",
+          "ai_summary": "A stunning national park offering hiking, skiing, and breathtaking views, home to the legendary Mount Parnassus.",
+          "name_english": "Mount Parnassus National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:35",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Check weather conditions before visiting."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Explore the hiking trails and enjoy the panoramic views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.482,
+            "lng": 22.396
+          },
+          "address": "Mount Parnassus National Park, Delphi, Greece",
+          "official_website": "https://www.parnassos-ski.gr/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Skiing"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:007253 - Cuenca (8675297263).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/007253_-_Cuenca_%288675297263%29.jpg/960px-007253_-_Cuenca_%288675297263%29.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "007253 - Cuenca (8675297263)",
+                  "author": "M.Peinado from Alcalá de Henares, España",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:007253_-_Cuenca_(8675297263).jpg",
+                  "credit": "007253 - Cuenca",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Cuenca\nProvincia de Cuenca\nCastilla-La Mancha\n\nEspaña"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Arachova Village",
+          "ai_summary": "A picturesque mountain village known for its traditional architecture, vibrant nightlife, and proximity to ski resorts.",
+          "name_english": "Arachova Village",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55",
+          "sunset_time": "18:40",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited in the evening for nightlife."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local cuisine and enjoy the mountain views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.433,
+            "lng": 22.586
+          },
+          "address": "Arachova Village, Delphi, Greece",
+          "official_website": "https://www.arachova.gr/",
+          "tags": [
+            "Village",
+            "Nightlife",
+            "Skiing"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:02014 Bundz - Beskidischer Käse - Typisch beskidisch.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/02014_Bundz_-_Beskidischer_K%C3%A4se_-_Typisch_beskidisch.JPG/960px-02014_Bundz_-_Beskidischer_K%C3%A4se_-_Typisch_beskidisch.JPG",
+                "width": 800,
+                "height": 801,
+                "attribution": {
+                  "title": "02014 Bundz - Beskidischer Käse - Typisch beskidisch",
+                  "author": "Silar",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:02014_Bundz_-_Beskidischer_Käse_-_Typisch_beskidisch.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Bundz - Beskidischer Käse - Typisch beskidisch"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Karpenisi Ski Center",
+          "ai_summary": "A popular ski resort in Central Greece, offering excellent slopes for skiing and snowboarding.",
+          "name_english": "Karpenisi Ski Center",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:45",
+          "cost": "$50",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "09:00-16:00",
+            "tue": "09:00-16:00",
+            "wed": "09:00-16:00",
+            "thu": "09:00-16:00",
+            "fri": "09:00-16:00",
+            "sat": "09:00-16:00",
+            "sun": "09:00-16:00",
+            "notes": "Check snow conditions before visiting."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Book ski passes in advance and rent equipment in the village.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 38.892,
+            "lng": 21.964
+          },
+          "address": "Karpenisi Ski Center, Karpenisi, Greece",
+          "official_website": "https://www.karpenisi-ski.gr/",
+          "tags": [
+            "Skiing",
+            "Snowboarding",
+            "Winter Sports"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Hosios Loukas Monastery",
+          "ai_summary": "A UNESCO World Heritage site, this Byzantine monastery is famous for its stunning mosaics and beautiful mountain setting.",
+          "name_english": "Hosios Loukas Monastery",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40",
+          "sunset_time": "18:25",
+          "cost": "$4",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Closed on Wednesdays and public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Respect the dress code and enjoy the peaceful surroundings.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.497,
+            "lng": 22.36
+          },
+          "address": "Hosios Loukas Monastery, Distomo, Greece",
+          "official_website": "https://www.hosiosloukas.gr/",
+          "tags": [
+            "UNESCO",
+            "Monastery",
+            "Byzantine"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:007253 - Cuenca (8675297263).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/007253_-_Cuenca_%288675297263%29.jpg/960px-007253_-_Cuenca_%288675297263%29.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "007253 - Cuenca (8675297263)",
+                  "author": "M.Peinado from Alcalá de Henares, España",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:007253_-_Cuenca_(8675297263).jpg",
+                  "credit": "007253 - Cuenca",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Cuenca\nProvincia de Cuenca\nCastilla-La Mancha\n\nEspaña"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Galaxidi Town",
+          "ai_summary": "A charming coastal town with traditional Greek architecture, beautiful beaches, and a picturesque harbor.",
+          "name_english": "Galaxidi Town",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited in the summer."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Enjoy fresh seafood by the harbor and explore the old town.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.366,
+            "lng": 22.387
+          },
+          "address": "Galaxidi Town, Galaxidi, Greece",
+          "official_website": "https://www.galaxidi.gr/",
+          "tags": [
+            "Coastal",
+            "Town",
+            "Beaches"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Amfissa Castle",
+          "ai_summary": "A historic castle offering panoramic views of the surrounding area, including the Gulf of Corinth.",
+          "name_english": "Amfissa Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:35",
+          "sunset_time": "18:20",
+          "cost": "$3",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "08:00-19:00",
+            "tue": "08:00-19:00",
+            "wed": "08:00-19:00",
+            "thu": "08:00-19:00",
+            "fri": "08:00-19:00",
+            "sat": "08:00-19:00",
+            "sun": "08:00-19:00",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the castle museum and enjoy the views from the top.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.525,
+            "lng": 22.418
+          },
+          "address": "Amfissa Castle, Amfissa, Greece",
+          "official_website": "https://www.amfissa.gr/",
+          "tags": [
+            "Castle",
+            "Historic",
+            "Views"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Blank.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Blank.png",
+                "width": 3,
+                "height": 2,
+                "attribution": {
+                  "title": "Blank",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Blank.png",
+                  "credit": null,
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lake Yliki",
+          "ai_summary": "A beautiful lake ideal for fishing, hiking, and picnicking, located near the town of Livadeia.",
+          "name_english": "Lake Yliki",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55",
+          "sunset_time": "18:50",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited in the spring and summer."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Bring a picnic and enjoy a day by the water.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.433,
+            "lng": 22.431
+          },
+          "address": "Lake Yliki, Yliki, Greece",
+          "official_website": "https://www.lake-yliki.gr/",
+          "tags": [
+            "Lake",
+            "Nature",
+            "Fishing"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Chaironeia Archaeological Site",
+          "ai_summary": "An important archaeological site with ruins of ancient buildings and a famous lion monument.",
+          "name_english": "Chaironeia Archaeological Site",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "$5",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "08:00-19:00",
+            "tue": "08:00-19:00",
+            "wed": "08:00-19:00",
+            "thu": "08:00-19:00",
+            "fri": "08:00-19:00",
+            "sat": "08:00-19:00",
+            "sun": "08:00-19:00",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "See the Lion of Chaironeia and explore the ancient ruins.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.38,
+            "lng": 22.743
+          },
+          "address": "Chaironeia Archaeological Site, Chaironeia, Greece",
+          "official_website": "https://www.chaironeia.gr/",
+          "tags": [
+            "Archaeology",
+            "Historic",
+            "Monument"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Acropolis of Steirida.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Acropolis_of_Steirida.jpg",
+                "width": 480,
+                "height": 360,
+                "attribution": {
+                  "title": "Acropolis of Steirida",
+                  "author": "Sogal",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Acropolis_of_Steirida.jpg",
+                  "credit": "Own work, transferred from el.wikipedia; transferred to Commons by User:MARKELLOS using CommonsHelper.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Acropolis of Steirida, Boeotia, Greece"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Orchomenus Archaeological Site",
+          "ai_summary": "The site of the ancient city of Orchomenus, featuring well-preserved ruins and a museum.",
+          "name_english": "Orchomenus Archaeological Site",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:35",
+          "cost": "$4",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "08:00-19:00",
+            "tue": "08:00-19:00",
+            "wed": "08:00-19:00",
+            "thu": "08:00-19:00",
+            "fri": "08:00-19:00",
+            "sat": "08:00-19:00",
+            "sun": "08:00-19:00",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the museum and see the ancient theater ruins.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.5,
+            "lng": 22.733
+          },
+          "address": "Orchomenus Archaeological Site, Orchomenos, Greece",
+          "official_website": "https://www.orchomenos.gr/",
+          "tags": [
+            "Archaeology",
+            "Historic",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:PD-icon.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/800px-PD-icon.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "PD-icon",
+                  "author": "Various. See log. (Original SVG was based on File:PD-icon.png by Duesentrieb, which was based on Image:Red copyright.png by Rfl.)",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:PD-icon.svg",
+                  "credit": "Created by the uploader. Based on similar symbols.",
+                  "usage_terms": "Public domain",
+                  "description": "Public domain icon."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Livadeia (Springs of Krya)",
+          "ai_summary": "A scenic area with natural springs, ideal for a relaxing day in nature.",
+          "name_english": "Livadeia (Springs of Krya)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited in the spring."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Bring a camera to capture the beautiful scenery.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.413,
+            "lng": 22.622
+          },
+          "address": "Livadeia (Springs of Krya), Livadeia, Greece",
+          "official_website": "https://www.livadeia.gr/",
+          "tags": [
+            "Nature",
+            "Springs",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Lamia Castle",
+          "ai_summary": "A medieval castle offering guided tours and stunning views of the surrounding region.",
+          "name_english": "Lamia Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40",
+          "sunset_time": "18:40",
+          "cost": "$3",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Closed on Tuesdays and public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Join a guided tour to learn about the castle's history.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.897,
+            "lng": 22.43
+          },
+          "address": "Lamia Castle, Lamia, Greece",
+          "official_website": "https://www.lamiacastle.gr/",
+          "tags": [
+            "Castle",
+            "Historic",
+            "Views"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aiga ticketpurchase inv.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Aiga_ticketpurchase_inv.svg/960px-Aiga_ticketpurchase_inv.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Aiga ticketpurchase inv",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aiga_ticketpurchase_inv.svg",
+                  "credit": null,
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Gorgopotamos Bridge",
+          "ai_summary": "A historic bridge with stunning views, famous for its role in World War II.",
+          "name_english": "Gorgopotamos Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:50",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Walk across the bridge and enjoy the views of the gorge.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.383,
+            "lng": 22.407
+          },
+          "address": "Gorgopotamos Bridge, Gorgopotamos, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Bridge",
+            "Historic",
+            "Views"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Alexander Löhr signature.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Alexander_L%C3%B6hr_signature.svg/800px-Alexander_L%C3%B6hr_signature.svg.png",
+                "width": 800,
+                "height": 301,
+                "attribution": {
+                  "title": "Alexander Löhr signature",
+                  "author": "Jake V",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Alexander_Löhr_signature.svg",
+                  "credit": "Extracted from here",
+                  "usage_terms": "Public domain",
+                  "description": "The signature of Generaloberst Alexander Löhr"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Athanasios Diakos Monument",
+          "ai_summary": "A monument dedicated to the Greek hero Athanasios Diakos, located in the town of Lamia.",
+          "name_english": "Athanasios Diakos Monument",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Learn about the history of Athanasios Diakos and the Greek War of Independence.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.897,
+            "lng": 22.43
+          },
+          "address": "Athanasios Diakos Monument, Lamia, Greece",
+          "official_website": "https://www.lamia.gr/",
+          "tags": [
+            "Monument",
+            "Historic",
+            "Greek War of Independence"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aiga ticketpurchase inv.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Aiga_ticketpurchase_inv.svg/960px-Aiga_ticketpurchase_inv.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Aiga ticketpurchase inv",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aiga_ticketpurchase_inv.svg",
+                  "credit": null,
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Monastery of Panagia Prousiotissa",
+          "ai_summary": "A beautiful monastery located on the slopes of Mount Parnassus, known for its stunning views and peaceful atmosphere.",
+          "name_english": "Monastery of Panagia Prousiotissa",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:35",
+          "cost": "$2",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Closed on Mondays and public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Enjoy the tranquility and take in the breathtaking views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.482,
+            "lng": 22.396
+          },
+          "address": "Monastery of Panagia Prousiotissa, Delphi, Greece",
+          "official_website": "https://www.prousiotissa.gr/",
+          "tags": [
+            "Monastery",
+            "Views",
+            "Peaceful"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Mount Giona",
+          "ai_summary": "The highest mountain in Central Greece, offering challenging hikes and stunning views from the summit.",
+          "name_english": "Mount Giona",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40",
+          "sunset_time": "18:40",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited in the spring and fall."
+          },
+          "suggested_duration": "Full-day",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Start early and be prepared for a strenuous hike.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.623,
+            "lng": 22.371
+          },
+          "address": "Mount Giona, Central Greece, Greece",
+          "official_website": "https://www.mountgiona.gr/",
+          "tags": [
+            "Mountain",
+            "Hiking",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Autoroute icone.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Autoroute_icone.svg/800px-Autoroute_icone.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Autoroute icone",
+                  "author": "Dake (talk · contribs), Booyabazooka (talk · contribs), Roulex 45 (talk · contribs), and Doodledoo (talk · contribs)",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Autoroute_icone.svg",
+                  "credit": "SVG version of File:Road stub mini pictogram.png",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "This image was improved or created by the Wikigraphists of the Graphic Lab (fr). You can propose images to clean up, improve, create or translate as well."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Euboea Island (Chalkida, Beaches)",
+          "ai_summary": "A nearby island known for its beautiful beaches, charming towns, and the unique Chalkida Canal.",
+          "name_english": "Euboea Island (Chalkida, Beaches)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited in the summer."
+          },
+          "suggested_duration": "Full-day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Explore the beaches and try local seafood dishes.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.463,
+            "lng": 23.586
+          },
+          "address": "Euboea Island, Chalkida, Greece",
+          "official_website": "https://www.euboea.gr/",
+          "tags": [
+            "Island",
+            "Beaches",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20110627-Chalkis 0014.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20110627-Chalkis_0014.jpg/960px-20110627-Chalkis_0014.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "20110627-Chalkis 0014",
+                  "author": "g7ahn",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20110627-Chalkis_0014.jpg",
+                  "credit": "Flickr: 20110627-Chalkis_0014",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "GREECE: Chalkis railway station in June 2011."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Oiti National Park",
+          "ai_summary": "A national park with rich biodiversity, offering hiking trails and stunning views of the Oiti Mountain.",
+          "name_english": "Oiti National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40",
+          "sunset_time": "18:40",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Check trail conditions before visiting."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Bring water and snacks for the hike.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.6,
+            "lng": 22.4
+          },
+          "address": "Oiti National Park, Central Greece, Greece",
+          "official_website": "https://www.oiti.gr/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "National Park"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        }
+      ]
+    }
+  ]
+}

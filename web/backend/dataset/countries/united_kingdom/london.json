@@ -1,0 +1,1192 @@
+{
+  "country": "United Kingdom",
+  "state": "London",
+  "cities": [
+    {
+      "city": "London",
+      "nearest_airport": "Heathrow Airport",
+      "places": [
+        {
+          "name": "British Museum",
+          "ai_summary": "A world-renowned museum showcasing a vast collection of art and artifacts from ancient civilizations.",
+          "name_english": "British Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:30 PM",
+            "Tuesday": "10:00 AM - 5:30 PM",
+            "Wednesday": "10:00 AM - 5:30 PM",
+            "Thursday": "10:00 AM - 5:30 PM",
+            "Friday": "10:00 AM - 8:30 PM",
+            "Saturday": "10:00 AM - 5:30 PM",
+            "Sunday": "10:00 AM - 5:30 PM",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit early to avoid crowds and explore the Rosetta Stone exhibit.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5194,
+            "longitude": -0.127
+          },
+          "address": "Great Russell St, London WC1B 3DG, United Kingdom",
+          "official_website": "https://www.britishmuseum.org/",
+          "tags": [
+            "museum",
+            "history",
+            "culture"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Biblioteksbyggnader, Bokmagasin bredvid läsesalen i British museum, Nordisk familjebok.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Biblioteksbyggnader%2C_Bokmagasin_bredvid_l%C3%A4sesalen_i_British_museum%2C_Nordisk_familjebok.png/960px-Biblioteksbyggnader%2C_Bokmagasin_bredvid_l%C3%A4sesalen_i_British_museum%2C_Nordisk_familjebok.png",
+                "width": 800,
+                "height": 1240,
+                "attribution": {
+                  "title": "Biblioteksbyggnader, Bokmagasin bredvid läsesalen i British museum, Nordisk familjebok",
+                  "author": "Nordisk familjebok",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Biblioteksbyggnader,_Bokmagasin_bredvid_läsesalen_i_British_museum,_Nordisk_familjebok.png",
+                  "credit": "Nordisk familjebok (1905), vol.3, p.296 [1]",
+                  "usage_terms": "Public domain",
+                  "description": "Book storage by reading room in the British Museum"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8045
+        },
+        {
+          "name": "Tower of London",
+          "ai_summary": "A historic castle and former royal residence, home to the Crown Jewels and centuries of history.",
+          "name_english": "Tower of London",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:30 PM",
+            "Tuesday": "9:00 AM - 5:30 PM",
+            "Wednesday": "9:00 AM - 5:30 PM",
+            "Thursday": "9:00 AM - 5:30 PM",
+            "Friday": "9:00 AM - 5:30 PM",
+            "Saturday": "9:00 AM - 5:30 PM",
+            "Sunday": "9:00 AM - 5:30 PM",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Join a guided tour with the Yeoman Warders for fascinating stories.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.5081,
+            "longitude": -0.0759
+          },
+          "address": "Tower Hill, London EC3N 4AB, United Kingdom",
+          "official_website": "https://www.hrp.org.uk/tower-of-london/",
+          "tags": [
+            "castle",
+            "history",
+            "landmark"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Balance, by David.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Balance%2C_by_David.svg/800px-Balance%2C_by_David.svg.png",
+                "width": 800,
+                "height": 737,
+                "attribution": {
+                  "title": "Balance, by David",
+                  "author": "David",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Balance,_by_David.svg",
+                  "credit": "en:The Noun Project",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Icon of a scale"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7805
+        },
+        {
+          "name": "Tower Bridge",
+          "ai_summary": "An iconic bascule and suspension bridge spanning the River Thames, offering stunning views from its walkways.",
+          "name_english": "Tower Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Entry Fee (for walkways)",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:30 AM - 6:00 PM",
+            "Tuesday": "9:30 AM - 6:00 PM",
+            "Wednesday": "9:30 AM - 6:00 PM",
+            "Thursday": "9:30 AM - 6:00 PM",
+            "Friday": "9:30 AM - 6:00 PM",
+            "Saturday": "9:30 AM - 6:00 PM",
+            "Sunday": "9:30 AM - 6:00 PM",
+            "notes": "Hours may vary during special events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Visit at sunset for breathtaking views of the city skyline.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5055,
+            "longitude": -0.0754
+          },
+          "address": "Tower Bridge Rd, London SE1 2UP, United Kingdom",
+          "official_website": "https://www.towerbridge.org.uk/",
+          "tags": [
+            "bridge",
+            "views",
+            "landmark"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bakerloo line roundel (no text).svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Bakerloo_line_roundel_%28no_text%29.svg/800px-Bakerloo_line_roundel_%28no_text%29.svg.png",
+                "width": 800,
+                "height": 650,
+                "attribution": {
+                  "title": "Bakerloo line roundel (no text)",
+                  "author": "Matthewedwards",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bakerloo_line_roundel_(no_text).svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "TfL Roundel for the Bakerloo line. Uses official colours from [1]"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7665
+        },
+        {
+          "name": "Buckingham Palace",
+          "ai_summary": "The London residence of the British monarch, an iconic symbol of the monarchy and British history.",
+          "name_english": "Buckingham Palace",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free (outside), Entry Fee (inside during summer months)",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:30 AM - 6:00 PM",
+            "Tuesday": "9:30 AM - 6:00 PM",
+            "Wednesday": "9:30 AM - 6:00 PM",
+            "Thursday": "9:30 AM - 6:00 PM",
+            "Friday": "9:30 AM - 6:00 PM",
+            "Saturday": "9:30 AM - 6:00 PM",
+            "Sunday": "9:30 AM - 6:00 PM",
+            "notes": "Changing of the Guard ceremony outside the palace is a must-see."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer months for inside tour",
+          "place_tip": "Check the schedule for the Changing of the Guard ceremony.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.5014,
+            "longitude": -0.1419
+          },
+          "address": "Buckingham Palace, London SW1A 1AA, United Kingdom",
+          "official_website": "https://www.royal.uk/visit-buckingham-palace",
+          "tags": [
+            "palace",
+            "history",
+            "architecture"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1910 Buckingham Palace.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/1910_Buckingham_Palace.png",
+                "width": 591,
+                "height": 372,
+                "attribution": {
+                  "title": "1910 Buckingham Palace",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1910_Buckingham_Palace.png",
+                  "credit": null,
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          },
+          "rank_score": 0.7625
+        },
+        {
+          "name": "Westminster Abbey",
+          "ai_summary": "A historic church with stunning architecture, the site of royal ceremonies, and a UNESCO World Heritage Site.",
+          "name_english": "Westminster Abbey",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:30 AM - 3:30 PM",
+            "Tuesday": "9:30 AM - 3:30 PM",
+            "Wednesday": "9:30 AM - 3:30 PM",
+            "Thursday": "9:30 AM - 3:30 PM",
+            "Friday": "9:30 AM - 3:30 PM",
+            "Saturday": "9:30 AM - 3:30 PM",
+            "Sunday": "Closed",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Weekdays to avoid crowds",
+          "place_tip": "Don't miss the Poets' Corner and the stunning stained glass windows.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.4993,
+            "longitude": -0.1273
+          },
+          "address": "20 Deans Yd, Westminster, London SW1P 3PA, United Kingdom",
+          "official_website": "https://www.westminster-abbey.org/",
+          "tags": [
+            "abbey",
+            "history",
+            "architecture"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:55 of 'Paterson's Guide Book to England and Wales. With maps and plans ... 1886, etc' (11183025004).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/55_of_%27Paterson%27s_Guide_Book_to_England_and_Wales._With_maps_and_plans_..._1886%2C_etc%27_%2811183025004%29.jpg/960px-55_of_%27Paterson%27s_Guide_Book_to_England_and_Wales._With_maps_and_plans_..._1886%2C_etc%27_%2811183025004%29.jpg",
+                "width": 800,
+                "height": 1358,
+                "attribution": {
+                  "title": "55 of 'Paterson's Guide Book to England and Wales. With maps and plans ... 1886, etc' (11183025004)",
+                  "author": "The British Library",
+                  "license": "No restrictions",
+                  "license_url": "https://www.flickr.com/commons/usage/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:55_of_'Paterson's_Guide_Book_to_England_and_Wales._With_maps_and_plans_..._1886,_etc'_(11183025004).jpg",
+                  "credit": "Image taken from page 55 of 'Paterson's Guide Book to England and Wales. With maps and plans ... 1886, etc'",
+                  "usage_terms": "No known copyright restrictions",
+                  "description": "View this map on the BL Georeferencer service.\nImage taken from:\nTitle: \"Paterson's Guide Book to England and Wales. With maps and plans ... 1886, etc\"\nAuthor: MERRYLEES, John.\nContributor: PATERSON, William - Publisher\nShelfmark: \"British Library HMNTS 10347.cc.10.\"\nPage: 55\nPlace of Publishing: Edinburgh\nDate of Publishing: 1886\nPublisher: W. Paterson\nIssuance: monographic\nIdentifier: 002467081\nExplore:\nFind this item in the British Library catalogue, 'Explore'.\nDownload the PDF for this book (volume: 0) Image found on book scan 55 (NB not necessarily a page number)\nDownload the OCR-derived text for this volume: (plain text) or (json)\nClick here to see all the illustrations in this book and click here to browse other illustrations published in books in the same year.\n\nOrder a higher quality version from here."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7805
+        },
+        {
+          "name": "Houses of Parliament & Big Ben",
+          "ai_summary": "The seat of the UK Parliament, an iconic Gothic-style building with the famous clock tower, Big Ben.",
+          "name_english": "Houses of Parliament & Big Ben",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Free (outside), Guided Tour Fee (inside)",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:30 PM",
+            "Tuesday": "9:00 AM - 5:30 PM",
+            "Wednesday": "9:00 AM - 5:30 PM",
+            "Thursday": "9:00 AM - 5:30 PM",
+            "Friday": "9:00 AM - 5:30 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Check website for tour availability and times."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Take a guided tour to learn about the history and architecture.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.4994,
+            "longitude": -0.1247
+          },
+          "address": "Westminster, London SW1A 0AA, United Kingdom",
+          "official_website": "https://www.parliament.uk/visits/",
+          "tags": [
+            "government",
+            "history",
+            "architecture"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Barack Obama in the Members' Lobby of the Palace of Westminster, 2011.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Barack_Obama_in_the_Members%27_Lobby_of_the_Palace_of_Westminster%2C_2011.jpg/960px-Barack_Obama_in_the_Members%27_Lobby_of_the_Palace_of_Westminster%2C_2011.jpg",
+                "width": 800,
+                "height": 544,
+                "attribution": {
+                  "title": "Barack Obama in the Members' Lobby of the Palace of Westminster, 2011",
+                  "author": "Pete Souza",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Barack_Obama_in_the_Members'_Lobby_of_the_Palace_of_Westminster,_2011.jpg",
+                  "credit": "http://www.whitehouse.gov/photos-and-video/photogallery/may-2011-photo-day",
+                  "usage_terms": "Public domain",
+                  "description": "The Marquess of Cholmondeley, the Lord Great Chamberlain, Baroness Hayman, the Lord Speaker, John Bercow, the Speaker of the House of Commons, and Barack Obama, the President of the United States, examining a statue of Sir Winston Churchill in the Members' Lobby during a tour of the Palace of Westminster prior to the President's speech to the Parliament of the United Kingdom on 25 May 2011. The Lord Great Chamberlain uses his white staff as a verger's rod, to indicate a path of travel to VIP's, including to the monarch at the State opening of Parliament. The stick is held up for maximum visibility (i.e. in a crowded room), and the VIP follows it."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7765
+        },
+        {
+          "name": "London Eye",
+          "ai_summary": "A giant Ferris wheel on the South Bank of the River Thames, offering panoramic views of the London skyline.",
+          "name_english": "London Eye",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Ticketed Attraction",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "11:00 AM - 6:00 PM",
+            "Tuesday": "11:00 AM - 6:00 PM",
+            "Wednesday": "11:00 AM - 6:00 PM",
+            "Thursday": "11:00 AM - 6:00 PM",
+            "Friday": "11:00 AM - 8:30 PM",
+            "Saturday": "10:00 AM - 8:30 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Hours vary seasonally; check the website before your visit."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Late afternoon for sunset views",
+          "place_tip": "Book tickets in advance to skip the line.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.5033,
+            "longitude": -0.1196
+          },
+          "address": "Riverside Building, County Hall, Westminster Bridge Rd, London SE1 7PB, United Kingdom",
+          "official_website": "https://www.londoneye.com/",
+          "tags": [
+            "ferris wheel",
+            "views",
+            "attraction"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2015 New Year Fireworks, London SE1 - geograph.org.uk - 4298548.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/2015_New_Year_Fireworks%2C_London_SE1_-_geograph.org.uk_-_4298548.jpg/960px-2015_New_Year_Fireworks%2C_London_SE1_-_geograph.org.uk_-_4298548.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "2015 New Year Fireworks, London SE1 - geograph.org.uk - 4298548",
+                  "author": "Christine Matthews",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2015_New_Year_Fireworks,_London_SE1_-_geograph.org.uk_-_4298548.jpg",
+                  "credit": "Geograph Britain and Ireland",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "2015 New Year Fireworks, London SE1"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7227
+        },
+        {
+          "name": "National Gallery",
+          "ai_summary": "An art museum in Trafalgar Square, housing a rich collection of European paintings and sculptures.",
+          "name_english": "National Gallery",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 9:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Closed on December 25th and January 1st."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Weekdays, early in the day",
+          "place_tip": "Don't miss the Van Gogh and Turner paintings.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5089,
+            "longitude": -0.1283
+          },
+          "address": "Trafalgar Square, London WC2N 5DN, United Kingdom",
+          "official_website": "https://www.nationalgallery.org.uk/",
+          "tags": [
+            "art",
+            "museum",
+            "culture"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bakerloo line roundel (no text).svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Bakerloo_line_roundel_%28no_text%29.svg/800px-Bakerloo_line_roundel_%28no_text%29.svg.png",
+                "width": 800,
+                "height": 650,
+                "attribution": {
+                  "title": "Bakerloo line roundel (no text)",
+                  "author": "Matthewedwards",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bakerloo_line_roundel_(no_text).svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "TfL Roundel for the Bakerloo line. Uses official colours from [1]"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7905
+        },
+        {
+          "name": "Tate Modern",
+          "ai_summary": "A modern art gallery located in a former power station, featuring contemporary artworks and exhibitions.",
+          "name_english": "Tate Modern",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Closed on December 24th, 25th, and 26th."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon or early evening on weekdays",
+          "place_tip": "Check out the viewing level for great city views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5076,
+            "longitude": -0.0994
+          },
+          "address": "Bankside, London SE1 9TG, United Kingdom",
+          "official_website": "https://www.tate.org.uk/visit/tate-modern",
+          "tags": [
+            "art",
+            "museum",
+            "culture"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:'Windows Open Simultaneously (First Part, Third Motif)' by Robert Delaunay.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/%27Windows_Open_Simultaneously_%28First_Part%2C_Third_Motif%29%27_by_Robert_Delaunay.JPG/960px-%27Windows_Open_Simultaneously_%28First_Part%2C_Third_Motif%29%27_by_Robert_Delaunay.JPG",
+                "width": 800,
+                "height": 981,
+                "attribution": {
+                  "title": "Polish:  Symultanicznie otwarte okna Windows Open Simultaneously (First Part, Third Motif)title QS:P1476,pl:\"Symultanicznie otwarte okna \"label QS:Lpl,\"Symultanicznie otwarte okna \"label QS:Len,\"Windows Open Simultaneously (First Part, Third Motif)\"label QS:Lfr,\"Fenêtres ouvertes simultanément (1re partie, 3e motif)\"",
+                  "author": "Robert Delaunay",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:'Windows_Open_Simultaneously_(First_Part,_Third_Motif)'_by_Robert_Delaunay.JPG",
+                  "credit": "Tate Modern, London",
+                  "usage_terms": "Public domain",
+                  "description": "Robert Delaunay, 1912, Windows Open Simultaneously (First Part, Third Motif) oil on canvas, 45.7 x 37.5 cm, Tate Modern"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7625
+        },
+        {
+          "name": "St Paul’s Cathedral",
+          "ai_summary": "An iconic London church with a magnificent dome, known for its Whispering Gallery and impressive interior.",
+          "name_english": "St Paul’s Cathedral",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:30 AM - 4:30 PM",
+            "Tuesday": "8:30 AM - 4:30 PM",
+            "Wednesday": "8:30 AM - 4:30 PM",
+            "Thursday": "8:30 AM - 4:30 PM",
+            "Friday": "8:30 AM - 4:30 PM",
+            "Saturday": "8:30 AM - 4:30 PM",
+            "Sunday": "Closed",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Weekdays, early in the morning",
+          "place_tip": "Climb to the dome for a spectacular view of London.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.5138,
+            "longitude": -0.0984
+          },
+          "address": "St. Paul's Churchyard, London EC4M 8AD, United Kingdom",
+          "official_website": "https://www.stpauls.co.uk/",
+          "tags": [
+            "cathedral",
+            "architecture",
+            "history"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20180629 43 St. Paul's Cathedral.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/20180629_43_St._Paul%27s_Cathedral.jpg/960px-20180629_43_St._Paul%27s_Cathedral.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "20180629 43 St. Paul's Cathedral",
+                  "author": "davidwilson1949",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20180629_43_St._Paul's_Cathedral.jpg",
+                  "credit": "https://www.flickr.com/photos/32693718@N07/40113007513/",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "London"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7665
+        },
+        {
+          "name": "Natural History Museum",
+          "ai_summary": "A museum exhibiting a vast range of specimens from various segments of natural history.",
+          "name_english": "Natural History Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:50 PM",
+            "Tuesday": "10:00 AM - 5:50 PM",
+            "Wednesday": "10:00 AM - 5:50 PM",
+            "Thursday": "10:00 AM - 5:50 PM",
+            "Friday": "10:00 AM - 5:50 PM",
+            "Saturday": "10:00 AM - 5:50 PM",
+            "Sunday": "10:00 AM - 5:50 PM",
+            "notes": "Closed on December 25th."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Weekdays, early in the day",
+          "place_tip": "Visit the dinosaur gallery and the Hintze Hall.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4967,
+            "longitude": -0.226
+          },
+          "address": "Cromwell Rd, South Kensington, London SW7 5BD, United Kingdom",
+          "official_website": "https://www.nhm.ac.uk/",
+          "tags": [
+            "museum",
+            "science",
+            "nature"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon BHF.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BSicon_BHF.svg/800px-BSicon_BHF.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon BHF",
+                  "author": "Bernina &amp; axpde",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_BHF.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "station straight track"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7905
+        },
+        {
+          "name": "Victoria and Albert Museum",
+          "ai_summary": "The world's largest museum of decorative arts and design, housing a collection of over 2.3 million objects.",
+          "name_english": "Victoria and Albert Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:45 PM",
+            "Tuesday": "10:00 AM - 5:45 PM",
+            "Wednesday": "10:00 AM - 5:45 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 5:45 PM",
+            "Saturday": "10:00 AM - 5:45 PM",
+            "Sunday": "10:00 AM - 5:45 PM",
+            "notes": "Closed on December 24th, 25th, and 26th."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late afternoon or early evening on weekdays",
+          "place_tip": "Explore the fashion and jewelry galleries.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4962,
+            "longitude": -0.1725
+          },
+          "address": "Cromwell Rd, Knightsbridge, London SW7 2RL, United Kingdom",
+          "official_website": "https://www.vam.ac.uk/",
+          "tags": [
+            "museum",
+            "art",
+            "design"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1912 evening dress.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/1912_evening_dress.jpg",
+                "width": 538,
+                "height": 768,
+                "attribution": {
+                  "title": "1912 evening dress",
+                  "author": "The original uploader was VAwebteam at English Wikipedia.",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1912_evening_dress.jpg",
+                  "credit": "Transferred from en.wikipedia to Commons by NotFromUtrecht using CommonsHelper.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Evening dress, designed about 1912, Lucile (1863-1935) V&amp;A Museum no. T.31-1960\nTechniques - Satin, trimmed with chiffon and machine-made lace; cummerbund of silk velvet; bodice lined with grosgrain and supported with whalebone\nPlace - London, England \nIn 1960 the Museum acquired a cross-section of Miss Heather Firbank's wardrobe dating from the early 1900s to 1920. The particularly distinctive garments include understated pastel-coloured day dresses, immaculately tailored suits and graceful evening dresses, such as this satin gown. It reveals Lucile (Lady Duff Gordon) in a fairly restrained mood. The long slit skirt is especially interesting, although its draped construction is not too revealing despite Lady Duff Gordon's claim that she had 'loosed upon a startled London . . . draped skirts that opened to reveal the legs'. \nLucile was born Lucy Sutherland in London in 1863. She began dressmaking for friends, and in 1891 opened her own fashion house. She married Sir Cosmo Duff Gordon in 1900. Lady Duff Gordon became a celebrated fashion designer with branches in New York (1909), Chicago (1911) and Paris (1911). She was famous for her clever use of fabrics to create soft and harmonious effects, subtle colour schemes and romantic dresses, particularly suited to evening wear. As she wrote in Discretions and Indiscretions (1932): 'For me there was a positive intoxication in taking yards of shimmering silks, laces airy as gossamer and lengths of ribbons, delicate and rainbow-coloured, and fashioning of them garments so lovely that they might have been worn by some princess in a fairy tale'. \nWorn by Miss Heather Firbank \n\nSource: http://images.vam.ac.uk/indexplus/page/Home.html"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7765
+        },
+        {
+          "name": "Covent Garden",
+          "ai_summary": "A vibrant area known for its shops, street performers, and the Royal Opera House.",
+          "name_english": "Covent Garden",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 10:00 PM",
+            "Tuesday": "8:00 AM - 10:00 PM",
+            "Wednesday": "8:00 AM - 10:00 PM",
+            "Thursday": "8:00 AM - 10:00 PM",
+            "Friday": "8:00 AM - 10:00 PM",
+            "Saturday": "8:00 AM - 10:00 PM",
+            "Sunday": "8:00 AM - 10:00 PM",
+            "notes": "Individual shop and restaurant hours may vary."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Watch a street performance and explore the Apple Market.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5119,
+            "longitude": -0.1227
+          },
+          "address": "Covent Garden, London WC2E 8RF, United Kingdom",
+          "official_website": "https://www.coventgarden.london/",
+          "tags": [
+            "shopping",
+            "entertainment",
+            "food"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1690 bedford house.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/1690_bedford_house.jpg/960px-1690_bedford_house.jpg",
+                "width": 800,
+                "height": 620,
+                "attribution": {
+                  "title": "1690 bedford house",
+                  "author": "Charles John Crowle",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1690_bedford_house.jpg",
+                  "credit": "http://archivemaps.com/london/1690coventgarden.htm",
+                  "usage_terms": "Public domain",
+                  "description": "Plan of Bedford House and garden in Covent Garden drawn around 1690, with subsequent annotations."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7625
+        },
+        {
+          "name": "Borough Market",
+          "ai_summary": "A famous food market offering a wide variety of fresh produce, gourmet foods, and street food.",
+          "name_english": "Borough Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free entry, pay for what you buy",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Closed on Mondays, except for some public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Mid-morning or lunchtime",
+          "place_tip": "Try the gourmet street food and visit the cheese and charcuterie stalls.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5055,
+            "longitude": -0.0914
+          },
+          "address": "8 Southwark St, London SE1 1TL, United Kingdom",
+          "official_website": "https://boroughmarket.org.uk/",
+          "tags": [
+            "food",
+            "market",
+            "shopping"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Art Deco 1930s entrance to Borough Market in Southwark.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Art_Deco_1930s_entrance_to_Borough_Market_in_Southwark.jpg/960px-Art_Deco_1930s_entrance_to_Borough_Market_in_Southwark.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Art Deco 1930s entrance to Borough Market in Southwark",
+                  "author": "Carcharoth",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Art_Deco_1930s_entrance_to_Borough_Market_in_Southwark.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Art Deco 1930s entrance to Borough Market in Southwark, on Southwark Street, London, UK, at the junction with Borough High Street."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7765
+        },
+        {
+          "name": "Hyde Park",
+          "ai_summary": "A large and famous park in London, offering walking paths, gardens, and recreational activities.",
+          "name_english": "Hyde Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "5:00 AM - 12:00 AM",
+            "Tuesday": "5:00 AM - 12:00 AM",
+            "Wednesday": "5:00 AM - 12:00 AM",
+            "Thursday": "5:00 AM - 12:00 AM",
+            "Friday": "5:00 AM - 12:00 AM",
+            "Saturday": "5:00 AM - 12:00 AM",
+            "Sunday": "5:00 AM - 12:00 AM",
+            "notes": "Open 24 hours, but facilities may have varying hours."
+          },
+          "suggested_duration": "1-3 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Visit the Serpentine Lake and the Diana, Princess of Wales Memorial Fountain.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5074,
+            "longitude": -0.1657
+          },
+          "address": "Hyde Park, London, United Kingdom",
+          "official_website": "https://www.royalparks.org.uk/parks/hyde-park",
+          "tags": [
+            "park",
+            "nature",
+            "recreation"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:'FREE HUGS', Speaker's Corner, Hyde Park, London.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/%27FREE_HUGS%27%2C_Speaker%27s_Corner%2C_Hyde_Park%2C_London.jpg",
+                "width": 768,
+                "height": 1024,
+                "attribution": {
+                  "title": "'FREE HUGS', Speaker's Corner, Hyde Park, London",
+                  "author": "https://www.flickr.com/photos/meesterdickey/",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:'FREE_HUGS',_Speaker's_Corner,_Hyde_Park,_London.jpg",
+                  "credit": "https://www.flickr.com/photos/meesterdickey/433815665/",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "'FREE HUGS', Speaker's Corner, Hyde Park, London. Same guy still seen in 2007 - File:A regular 'FREE HUGS' dispenser, Speaker's Corner, Hyde Park, London.jpg"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7765
+        },
+        {
+          "name": "Kensington Palace & Gardens",
+          "ai_summary": "A royal residence set in beautiful gardens, offering a glimpse into royal life and history.",
+          "name_english": "Kensington Palace & Gardens",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and summer for garden blooms",
+          "place_tip": "Explore the Sunken Garden and the King's State Apartments.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.5055,
+            "longitude": -0.187
+          },
+          "address": "Kensington Gardens, London W8 4PX, United Kingdom",
+          "official_website": "https://www.hrp.org.uk/kensington-palace/",
+          "tags": [
+            "palace",
+            "gardens",
+            "history"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Armchair from Queen Charlotte's bedchamber suite, embroidery by Mrs Wright's Royal School for Embroidering Females, 1780s - Kensington Palace - London, England - DSC04053.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Armchair_from_Queen_Charlotte%27s_bedchamber_suite%2C_embroidery_by_Mrs_Wright%27s_Royal_School_for_Embroidering_Females%2C_1780s_-_Kensington_Palace_-_London%2C_England_-_DSC04053.jpg/960px-thumbnail.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "Armchair from Queen Charlotte's bedchamber suite, embroidery by Mrs Wright's Royal School for Embroidering Females, 1780s - Kensington Palace - London, England - DSC04053",
+                  "author": "Daderot",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Armchair_from_Queen_Charlotte's_bedchamber_suite,_embroidery_by_Mrs_Wright's_Royal_School_for_Embroidering_Females,_1780s_-_Kensington_Palace_-_London,_England_-_DSC04053.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Exhibit in Kensington Palace - London, England."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7385
+        },
+        {
+          "name": "Greenwich Royal Observatory & Prime Meridian",
+          "ai_summary": "The home of Greenwich Mean Time and the Prime Meridian, with a museum and stunning views of London.",
+          "name_english": "Greenwich Royal Observatory & Prime Meridian",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Closed on December 24th, 25th, and 26th."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Clear days for the best views",
+          "place_tip": "Stand on the Prime Meridian line and explore the timekeeping exhibits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.4769,
+            "longitude": -0.0005
+          },
+          "address": "Greenwich, London SE10 8XJ, United Kingdom",
+          "official_website": "https://www.rmg.co.uk/royal-observatory-greenwich",
+          "tags": [
+            "observatory",
+            "science",
+            "history"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:\"The 28inch Dome in Winter\" - Royal Observatory Greenwich ca 1900 (7890150690).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/%22The_28inch_Dome_in_Winter%22_-_Royal_Observatory_Greenwich_ca_1900_%287890150690%29.jpg/960px-%22The_28inch_Dome_in_Winter%22_-_Royal_Observatory_Greenwich_ca_1900_%287890150690%29.jpg",
+                "width": 800,
+                "height": 679,
+                "attribution": {
+                  "title": "\"The 28inch Dome in Winter\" - Royal Observatory Greenwich ca 1900 (7890150690)",
+                  "author": "whatsthatpicture from Hanwell, London, UK",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:\"The_28inch_Dome_in_Winter\"_-_Royal_Observatory_Greenwich_ca_1900_(7890150690).jpg",
+                  "credit": "\"The 28inch Dome in Winter\" - Royal Observatory Greenwich ca 1900",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "From a lovely small album containing 24  'behind-the-scenes' images of the Royal Observatory, Greenwich, ca 1900. See the full set - www.flickr.com/photos/whatsthatpicture/sets/7215763131028..."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7525
+        },
+        {
+          "name": "Shakespeare’s Globe",
+          "ai_summary": "A reconstruction of the historic Globe Theatre, showcasing Shakespeare's plays and other performances.",
+          "name_english": "Shakespeare’s Globe",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Ticketed Attraction",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Check performance schedule and book tickets in advance."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "During a performance for a unique experience",
+          "place_tip": "Explore the exhibition on Shakespeare's life and the theatre's history.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.5081,
+            "longitude": -0.0973
+          },
+          "address": "21 New Globe Walk, Bankside, London SE1 9DT, United Kingdom",
+          "official_website": "https://www.shakespearesglobe.com/",
+          "tags": [
+            "theatre",
+            "history",
+            "culture"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Alison Balsom, audio description of Shakespeare's Globe Theatre Auditorium.ogg",
+              "thumbnail": {
+                "url": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Alison Balsom, audio description of Shakespeare's Globe Theatre Auditorium",
+                  "author": "VocalEyes",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Alison_Balsom,_audio_description_of_Shakespeare's_Globe_Theatre_Auditorium.ogg",
+                  "credit": "https://soundcloud.com/vocaleyesad/alison-balsom-shakespeares?in=vocaleyesad/sets/london-beyond-sight",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "An audio description, whose primary purpose is to describe for blind and partially sighted people."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7475
+        },
+        {
+          "name": "Camden Market",
+          "ai_summary": "A diverse market with a wide range of food, clothing, and crafts, set in the vibrant Camden Town.",
+          "name_english": "Camden Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free entry, pay for what you buy",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Individual stall hours may vary."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Explore the food stalls and unique shops.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 51.5416,
+            "longitude": -0.1425
+          },
+          "address": "Camden Lock Pl, Camden Town, London NW1 8AF, United Kingdom",
+          "official_website": "https://www.camdenmarket.com/",
+          "tags": [
+            "market",
+            "shopping",
+            "food"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambedkar house1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ambedkar_house1.jpg/960px-Ambedkar_house1.jpg",
+                "width": 800,
+                "height": 420,
+                "attribution": {
+                  "title": "Ambedkar house1",
+                  "author": "Shrikanthegreat",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambedkar_house1.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Interior of Ambedkar House, 10, King Henry Road"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7485
+        },
+        {
+          "name": "Sky Garden",
+          "ai_summary": "A public garden set atop the 'Walkie Talkie' building, offering stunning views of the London skyline.",
+          "name_english": "Sky Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Free (advance booking recommended)",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "7:00 AM - 10:00 PM",
+            "Tuesday": "7:00 AM - 10:00 PM",
+            "Wednesday": "7:00 AM - 10:00 PM",
+            "Thursday": "7:00 AM - 10:00 PM",
+            "Friday": "7:00 AM - 10:00 PM",
+            "Saturday": "11:00 AM - 9:00 PM",
+            "Sunday": "11:00 AM - 9:00 PM",
+            "notes": "Advance booking recommended to avoid disappointment."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunset for breathtaking views",
+          "place_tip": "Enjoy a drink at the bar while taking in the views.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 51.5115,
+            "longitude": -0.0834
+          },
+          "address": "1 Sky Garden Walk, London EC3M 8AF, United Kingdom",
+          "official_website": "https://skygarden.london/",
+          "tags": [
+            "garden",
+            "views",
+            "attraction"
+          ],
+          "state": "London",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:City of London, London, UK - panoramio - IIya Kuzhekin (20).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/City_of_London%2C_London%2C_UK_-_panoramio_-_IIya_Kuzhekin_%2820%29.jpg/960px-City_of_London%2C_London%2C_UK_-_panoramio_-_IIya_Kuzhekin_%2820%29.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "City of London, London, UK - panoramio - IIya Kuzhekin (20)",
+                  "author": "IIya Kuzhekin",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:City_of_London,_London,_UK_-_panoramio_-_IIya_Kuzhekin_(20).jpg",
+                  "credit": "https://web.archive.org/web/20161103115746/http://www.panoramio.com/photo/132911724",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "City of London, London, UK"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7625
+        }
+      ]
+    }
+  ]
+}

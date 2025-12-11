@@ -1,0 +1,1074 @@
+{
+  "country": "Israel",
+  "state": "Jerusalem",
+  "cities": [
+    {
+      "city": "Jerusalem",
+      "nearest_airport": "Ben Gurion Airport",
+      "places": [
+        {
+          "name": "Western Wall",
+          "ai_summary": "A sacred site for Jewish prayer and pilgrimage, located in the Old City of Jerusalem.",
+          "name_english": "Western Wall",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited early morning or late evening to avoid crowds."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Wear modest clothing as it is a religious site.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.7767,
+            "longitude": 35.2345
+          },
+          "address": "Old City, Jerusalem, Israel",
+          "official_website": "https://www.thekotel.org/",
+          "tags": [
+            "Religion",
+            "History",
+            "Culture"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A man prays at the Western Wall in Jerusalem.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/A_man_prays_at_the_Western_Wall_in_Jerusalem.jpg/960px-A_man_prays_at_the_Western_Wall_in_Jerusalem.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "A man prays at the Western Wall in Jerusalem",
+                  "author": "David Shankbone",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A_man_prays_at_the_Western_Wall_in_Jerusalem.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "A man prays at the Western Wall."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8135
+        },
+        {
+          "name": "Dome of the Rock",
+          "ai_summary": "An iconic Islamic shrine with a golden dome, located on the Temple Mount in Jerusalem.",
+          "name_english": "Dome of the Rock",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "7:30 AM - 11:00 AM",
+            "Tuesday": "7:30 AM - 11:00 AM",
+            "Wednesday": "7:30 AM - 11:00 AM",
+            "Thursday": "7:30 AM - 11:00 AM",
+            "Friday": "Closed",
+            "Saturday": "7:30 AM - 11:00 AM",
+            "Sunday": "7:30 AM - 11:00 AM",
+            "notes": "Non-Muslims are not allowed inside the shrine."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check the visiting hours as they are limited for non-Muslims.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.778,
+            "longitude": 35.2358
+          },
+          "address": "Temple Mount, Jerusalem, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Landmark"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1000 Iranian Rial Z.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/1000_Iranian_Rial_Z.jpg",
+                "width": 600,
+                "height": 292,
+                "attribution": {
+                  "title": "1000 Iranian Rial Z",
+                  "author": "User:Qian.neewan",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1000_Iranian_Rial_Z.jpg",
+                  "credit": "http://www.banknote.ws/COLLECTION/countries/ASI/IRN/IRN0143ar.jpg",
+                  "usage_terms": "Public domain",
+                  "description": "1000_Iranian_Rial"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7947
+        },
+        {
+          "name": "Yad Vashem",
+          "ai_summary": "Israel’s official memorial to the victims of the Holocaust, featuring exhibits, archives, and a memorial garden.",
+          "name_english": "Yad Vashem",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 2:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Jewish holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take a guided tour to fully understand the exhibits.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 31.7744,
+            "longitude": 35.175
+          },
+          "address": "Mount Herzl, Jerusalem, Israel",
+          "official_website": "https://www.yadvashem.org/",
+          "tags": [
+            "History",
+            "Culture",
+            "Memorial"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon TRAM1.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/BSicon_TRAM1.svg/800px-BSicon_TRAM1.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon TRAM1",
+                  "author": "BjørnN",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_TRAM1.svg",
+                  "credit": "derived from File:Sinnbild Straßenbahn.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Tram icon"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8135
+        },
+        {
+          "name": "Israel Museum",
+          "ai_summary": "A world-class museum featuring the Dead Sea Scrolls, archaeological artifacts, and a vast collection of art.",
+          "name_english": "Israel Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 9:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 2:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Free entry on Tuesdays after 4 PM."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the Shrine of the Book exhibit.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.7722,
+            "longitude": 35.2057
+          },
+          "address": "11 Ruppin Blvd, Jerusalem, Israel",
+          "official_website": "https://www.imj.org.il/",
+          "tags": [
+            "Art",
+            "History",
+            "Culture"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ahava.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Ahava.jpg/960px-Ahava.jpg",
+                "width": 800,
+                "height": 528,
+                "attribution": {
+                  "title": "אהבה",
+                  "author": "רוברט אידניאנה, נולד ב-1928",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ahava.jpg",
+                  "credit": "Talmoryair",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Sculpture"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7842
+        },
+        {
+          "name": "Mahane Yehuda Market",
+          "ai_summary": "A bustling market offering fresh produce, local delicacies, and a vibrant atmosphere, especially in the evenings.",
+          "name_english": "Mahane Yehuda Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 7:00 PM",
+            "Tuesday": "8:00 AM - 7:00 PM",
+            "Wednesday": "8:00 AM - 7:00 PM",
+            "Thursday": "8:00 AM - 7:00 PM",
+            "Friday": "8:00 AM - 3:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "8:00 AM - 7:00 PM",
+            "notes": "Best visited in the evening for a lively atmosphere."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local pastries and fresh juices.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.7857,
+            "longitude": 35.2131
+          },
+          "address": "Mahane Yehuda, Jerusalem, Israel",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Food",
+            "Shopping"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7975
+        },
+        {
+          "name": "Mount of Olives",
+          "ai_summary": "A mountain ridge in east Jerusalem with historical and religious significance, offering panoramic views of the Old City.",
+          "name_english": "Mount of Olives",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited at sunrise or sunset for stunning views."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Bring a camera for the breathtaking views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.7765,
+            "longitude": 35.2345
+          },
+          "address": "Mount of Olives, Jerusalem, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Nature"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Israel.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/960px-Flag_of_Israel.svg.png",
+                "width": 800,
+                "height": 582,
+                "attribution": {
+                  "title": "Flag of Israel",
+                  "author": "“The Provisional Council of State Proclamation of the Flag of the State of Israel” of 25 Tishrei 5709 (28 October 1948) provides the official specification for the design of the Israeli flag.\nThe color of the Magen David and the stripes of the Israeli flag is not precisely specified by the above legislation.  The color depicted in the current version of the image is typical of flags used in Israel today, although individual flags can and do vary.\nThe flag legislation officially specifies dimensions of 220 cm × 160 cm.  However, the sizes of actual flags vary (although the aspect ratio is usually retained).",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg",
+                  "credit": "http://mfa.gov.il/MFA/AboutIsrael/IsraelAt50/Pages/The%20Flag%20and%20the%20Emblem.aspx",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Israel. Shows a Magen David (“Shield of David”) between two stripes. The Shield of David is a traditional Jewish symbol. The stripes symbolize a Jewish prayer shawl (tallit)."
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        },
+        {
+          "name": "Garden of Gethsemane",
+          "ai_summary": "A historic garden at the foot of the Mount of Olives, where Jesus is said to have prayed before his crucifixion.",
+          "name_english": "Garden of Gethsemane",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Visit the Church of All Nations located within the garden.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.778,
+            "longitude": 35.2358
+          },
+          "address": "Garden of Gethsemane, Jerusalem, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Nature"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:04 2022 Roma (Arco di Trionfo di Tito- Bassorilievi) FO228685 bis Photo by Paolo Villa.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/04_2022_Roma_%28Arco_di_Trionfo_di_Tito-_Bassorilievi%29_FO228685_bis_Photo_by_Paolo_Villa.jpg/960px-04_2022_Roma_%28Arco_di_Trionfo_di_Tito-_Bassorilievi%29_FO228685_bis_Photo_by_Paolo_Villa.jpg",
+                "width": 800,
+                "height": 526,
+                "attribution": {
+                  "title": "04 2022 Roma (Arco di Trionfo di Tito- Bassorilievi) FO228685 bis Photo by Paolo Villa",
+                  "author": "Paolo Villa",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:04_2022_Roma_(Arco_di_Trionfo_di_Tito-_Bassorilievi)_FO228685_bis_Photo_by_Paolo_Villa.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Arch of Titus: South inner panel, close-up of relief showing spoils from the fall of Jerusalem - sack of Jerusalem, menorah, seven-branched candlestick, silver trumpet, temple treasure, Triumph in Rome, barrel vault, egg-and-dart, rosette, candelabra, tunic, entablature, bas-relief, high relief, panneggio bagnato"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7902
+        },
+        {
+          "name": "Church of the Holy Sepulchre",
+          "ai_summary": "A church in the Christian Quarter of the Old City, believed to be the site of Jesus' crucifixion, burial, and resurrection.",
+          "name_english": "Church of the Holy Sepulchre",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "5:00 AM - 9:00 PM",
+            "Tuesday": "5:00 AM - 9:00 PM",
+            "Wednesday": "5:00 AM - 9:00 PM",
+            "Thursday": "5:00 AM - 9:00 PM",
+            "Friday": "5:00 AM - 9:00 PM",
+            "Saturday": "5:00 AM - 9:00 PM",
+            "Sunday": "5:00 AM - 9:00 PM",
+            "notes": "Check for possible closures during religious holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Respect the religious practices and dress modestly.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.778,
+            "longitude": 35.2275
+          },
+          "address": "Christian Quarter, Old City, Jerusalem, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Culture"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Allah-green.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Allah-green.svg/800px-Allah-green.svg.png",
+                "width": 800,
+                "height": 835,
+                "attribution": {
+                  "title": "Allah-green",
+                  "author": "The original uploader was Mr100percent at  Wikipedia.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Allah-green.svg",
+                  "credit": "Converted to SVG from File:Islam.png, originally from en:Image:Ift32.gif, uploaded to the English Wikipedia by Mr100percent on 4 February 2003.    Originally described as \"Copied from Public Domain artwork\".",
+                  "usage_terms": "Public domain",
+                  "description": "Calligraphic name of Allah in Arabic, copied from Public Domain artwork"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7995
+        },
+        {
+          "name": "Tower of David Museum",
+          "ai_summary": "A museum located in the Citadel of Jerusalem, presenting the history of the city from ancient times to the present.",
+          "name_english": "Tower of David Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 2:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Last admission one hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the rooftop for a panoramic view of Jerusalem.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.7789,
+            "longitude": 35.2357
+          },
+          "address": "Citadel of Jerusalem, Old City, Jerusalem, Israel",
+          "official_website": "https://www.towerofdavid.org.il/",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Allah-green.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Allah-green.svg/800px-Allah-green.svg.png",
+                "width": 800,
+                "height": 835,
+                "attribution": {
+                  "title": "Allah-green",
+                  "author": "The original uploader was Mr100percent at  Wikipedia.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Allah-green.svg",
+                  "credit": "Converted to SVG from File:Islam.png, originally from en:Image:Ift32.gif, uploaded to the English Wikipedia by Mr100percent on 4 February 2003.    Originally described as \"Copied from Public Domain artwork\".",
+                  "usage_terms": "Public domain",
+                  "description": "Calligraphic name of Allah in Arabic, copied from Public Domain artwork"
+                }
+              }
+            }
+          },
+          "rank_score": 0.767
+        },
+        {
+          "name": "City of David",
+          "ai_summary": "An archaeological site located just outside the Old City, believed to be the original site of Jerusalem.",
+          "name_english": "City of David",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 2:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Last admission one hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for walking on uneven surfaces.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.778,
+            "longitude": 35.2358
+          },
+          "address": "City of David, Jerusalem, Israel",
+          "official_website": "https://www.cityofdavid.org.il/",
+          "tags": [
+            "History",
+            "Archaeology",
+            "Culture"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Allah-green.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Allah-green.svg/800px-Allah-green.svg.png",
+                "width": 800,
+                "height": 835,
+                "attribution": {
+                  "title": "Allah-green",
+                  "author": "The original uploader was Mr100percent at  Wikipedia.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Allah-green.svg",
+                  "credit": "Converted to SVG from File:Islam.png, originally from en:Image:Ift32.gif, uploaded to the English Wikipedia by Mr100percent on 4 February 2003.    Originally described as \"Copied from Public Domain artwork\".",
+                  "usage_terms": "Public domain",
+                  "description": "Calligraphic name of Allah in Arabic, copied from Public Domain artwork"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7705
+        },
+        {
+          "name": "Mount Zion",
+          "ai_summary": "A hill located just outside the Old City, significant in both Jewish and Christian traditions.",
+          "name_english": "Mount Zion",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Visit the Room of the Last Supper and Dormition Abbey.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.7767,
+            "longitude": 35.2345
+          },
+          "address": "Mount Zion, Jerusalem, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "History",
+            "Culture"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Israel.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/960px-Flag_of_Israel.svg.png",
+                "width": 800,
+                "height": 582,
+                "attribution": {
+                  "title": "Flag of Israel",
+                  "author": "“The Provisional Council of State Proclamation of the Flag of the State of Israel” of 25 Tishrei 5709 (28 October 1948) provides the official specification for the design of the Israeli flag.\nThe color of the Magen David and the stripes of the Israeli flag is not precisely specified by the above legislation.  The color depicted in the current version of the image is typical of flags used in Israel today, although individual flags can and do vary.\nThe flag legislation officially specifies dimensions of 220 cm × 160 cm.  However, the sizes of actual flags vary (although the aspect ratio is usually retained).",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg",
+                  "credit": "http://mfa.gov.il/MFA/AboutIsrael/IsraelAt50/Pages/The%20Flag%20and%20the%20Emblem.aspx",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Israel. Shows a Magen David (“Shield of David”) between two stripes. The Shield of David is a traditional Jewish symbol. The stripes symbolize a Jewish prayer shawl (tallit)."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7467
+        },
+        {
+          "name": "Armenian Quarter",
+          "ai_summary": "One of the four quarters of the Old City, featuring unique architecture, shops, and the Armenian Museum.",
+          "name_english": "Armenian Quarter",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning to avoid crowds."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the back alleys for unique shops and galleries.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.778,
+            "longitude": 35.2275
+          },
+          "address": "Armenian Quarter, Old City, Jerusalem, Israel",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "History",
+            "Shopping"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Manastir Sv. Mihaila Arhandjela.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Manastir_Sv._Mihaila_Arhandjela.JPG/960px-Manastir_Sv._Mihaila_Arhandjela.JPG",
+                "width": 800,
+                "height": 530,
+                "attribution": {
+                  "title": "Manastir Sv. Mihaila Arhandjela",
+                  "author": "Фото",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Manastir_Sv._Mihaila_Arhandjela.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Monastery of St. Michael Archangel, Jerusalem"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7775
+        },
+        {
+          "name": "Rockefeller Archaeological Museum",
+          "ai_summary": "A museum located in East Jerusalem, showcasing archaeological finds from the region, including the Dead Sea Scrolls.",
+          "name_english": "Rockefeller Archaeological Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 3:00 PM",
+            "Wednesday": "10:00 AM - 3:00 PM",
+            "Thursday": "10:00 AM - 3:00 PM",
+            "Friday": "10:00 AM - 3:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Check for special opening hours on holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine your visit with a tour of the nearby Mount of Olives.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.7765,
+            "longitude": 35.2345
+          },
+          "address": "Rockefeller Museum, East Jerusalem, Israel",
+          "official_website": "https://www.rockefeller-museum.org/",
+          "tags": [
+            "History",
+            "Archaeology",
+            "Museum"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1920 demontration Palestine.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/1920_demontration_Palestine.jpg/960px-1920_demontration_Palestine.jpg",
+                "width": 800,
+                "height": 561,
+                "attribution": {
+                  "title": "1920 demontration Palestine",
+                  "author": "Unknown - not relevant for the licence",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1920_demontration_Palestine.jpg",
+                  "credit": "http://memory.loc.gov/phpdata/pageturner.php?type=contactminor&amp;cmIMG1=/pnp/ppmsca/13200/13291/00132t.gif&amp;agg=ppmsca&amp;item=13291&amp;caption=132",
+                  "usage_terms": "Public domain",
+                  "description": "مظاهرة مناهضة للصهيونية عند بوابة دمشق في 8 آذار (مارس) 1920. بوابة دمشق هي أحد بوابات القدس وتعرف باسم باب العامود."
+                }
+              }
+            }
+          },
+          "rank_score": 0.744
+        },
+        {
+          "name": "Hezekiah’s Tunnel",
+          "ai_summary": "An ancient water tunnel carved during the reign of King Hezekiah, located in the City of David.",
+          "name_english": "Hezekiah’s Tunnel",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 2:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Wear comfortable shoes and bring a flashlight."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the City of David.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.778,
+            "longitude": 35.2358
+          },
+          "address": "City of David, Jerusalem, Israel",
+          "official_website": "https://www.cityofdavid.org.il/en/hezekiahs-tunnel",
+          "tags": [
+            "History",
+            "Archaeology",
+            "Adventure"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Allah-green.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Allah-green.svg/800px-Allah-green.svg.png",
+                "width": 800,
+                "height": 835,
+                "attribution": {
+                  "title": "Allah-green",
+                  "author": "The original uploader was Mr100percent at  Wikipedia.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Allah-green.svg",
+                  "credit": "Converted to SVG from File:Islam.png, originally from en:Image:Ift32.gif, uploaded to the English Wikipedia by Mr100percent on 4 February 2003.    Originally described as \"Copied from Public Domain artwork\".",
+                  "usage_terms": "Public domain",
+                  "description": "Calligraphic name of Allah in Arabic, copied from Public Domain artwork"
+                }
+              }
+            }
+          },
+          "rank_score": 0.769
+        },
+        {
+          "name": "Ramparts Walk",
+          "ai_summary": "A scenic walkway along the top of the Old City walls, offering unique views of Jerusalem's skyline and historic sites.",
+          "name_english": "Ramparts Walk",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 2:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Wear comfortable shoes and bring water."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Enjoy the sunset views over the Old City.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.778,
+            "longitude": 35.2358
+          },
+          "address": "Old City, Jerusalem, Israel",
+          "official_website": null,
+          "tags": [
+            "History",
+            "Culture",
+            "Photography"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Allah-green.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Allah-green.svg/800px-Allah-green.svg.png",
+                "width": 800,
+                "height": 835,
+                "attribution": {
+                  "title": "Allah-green",
+                  "author": "The original uploader was Mr100percent at  Wikipedia.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Allah-green.svg",
+                  "credit": "Converted to SVG from File:Islam.png, originally from en:Image:Ift32.gif, uploaded to the English Wikipedia by Mr100percent on 4 February 2003.    Originally described as \"Copied from Public Domain artwork\".",
+                  "usage_terms": "Public domain",
+                  "description": "Calligraphic name of Allah in Arabic, copied from Public Domain artwork"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7625
+        },
+        {
+          "name": "Knesset",
+          "ai_summary": "The national legislature of Israel, located in Jerusalem. The building is known for its unique architecture and the large menorah statue in front.",
+          "name_english": "Knesset",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed from outside; interior visits require advance booking."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Take a photo with the menorah in the foreground.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.7767,
+            "longitude": 35.2345
+          },
+          "address": "Knesset, Jerusalem, Israel",
+          "official_website": "https://www.knesset.gov.il/",
+          "tags": [
+            "Politics",
+            "Architecture",
+            "History"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Extended-protection-shackle.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Extended-protection-shackle.svg/800px-Extended-protection-shackle.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Extended-protection-shackle",
+                  "author": "XYZtSpace",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Extended-protection-shackle.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Extended confirmed protection lock with blue shackle"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7378
+        },
+        {
+          "name": "Jerusalem Botanical Gardens",
+          "ai_summary": "A beautiful garden featuring a wide variety of plants, trees, and flowers, representing the flora of the Bible and the Land of Israel.",
+          "name_english": "Jerusalem Botanical Gardens",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 2:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Check for seasonal opening hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Join a guided tour to learn about the different plant species.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.7857,
+            "longitude": 35.2131
+          },
+          "address": "Jerusalem Botanical Gardens, Jerusalem, Israel",
+          "official_website": "https://www.jbg.co.il/",
+          "tags": [
+            "Nature",
+            "Culture",
+            "Education"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bait yaakov4.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Bait_yaakov4.JPG",
+                "width": 600,
+                "height": 800,
+                "attribution": {
+                  "title": "Bait yaakov4",
+                  "author": "Nettadi",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bait_yaakov4.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "David Avisar street, view from Beit Ya'akov street"
+                }
+              }
+            }
+          },
+          "rank_score": 0.767
+        },
+        {
+          "name": "Ein Kerem",
+          "ai_summary": "A picturesque village on the outskirts of Jerusalem, known for its beautiful churches, monasteries, and the scenic Ein Kerem spring.",
+          "name_english": "Ein Kerem",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the spring when the flowers are in bloom."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the Church of St. John the Baptist and the nearby monasteries.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 31.7767,
+            "longitude": 35.2345
+          },
+          "address": "Ein Kerem, Jerusalem, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "Nature",
+            "Culture"
+          ],
+          "state": "Jerusalem",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A man prays at the Western Wall in Jerusalem.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/A_man_prays_at_the_Western_Wall_in_Jerusalem.jpg/960px-A_man_prays_at_the_Western_Wall_in_Jerusalem.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "A man prays at the Western Wall in Jerusalem",
+                  "author": "David Shankbone",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A_man_prays_at_the_Western_Wall_in_Jerusalem.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "A man prays at the Western Wall."
+                }
+              }
+            }
+          },
+          "rank_score": 0.796
+        }
+      ]
+    }
+  ]
+}

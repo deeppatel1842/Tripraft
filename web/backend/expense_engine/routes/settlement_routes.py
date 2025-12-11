@@ -1,553 +1,368 @@
 """
-Settlement and Balance Routes
-Handles payment settlements and balance calculations for groups
+Settlement Routes - Settlement Management API
+Handles settlement CRUD operations with balance updates
 """
 
-from flask import Blueprint, request, jsonify, g
+from flask import Blueprint, request, jsonify
+from decimal import Decimal
 import logging
-import time
-import sys
-import os
 
-from ..service import expense_service
-from .route_helpers import require_auth, send_settlement_notification_async
-
-# Import security middleware
-from ..security.rate_limiter import limiter, RateLimits
-from ..security.validators import validate_settlement_data
-from ..security.audit_logger import get_audit_logger, AuditAction
+from ..services.settlement_service import SettlementService
+from ..services.group_service import GroupService
+from ..services.balance_service import BalanceService
+from ..middleware.auth import require_auth, get_current_user_id
+from ..exceptions import (
+    ValidationError, NotFoundError, ForbiddenError,
+    InsufficientPermissionsError
+)
+from ..config import pagination_config
 
 logger = logging.getLogger(__name__)
 
 # Create blueprint
-settlement_bp = Blueprint('settlement', __name__)
+settlement_bp = Blueprint('settlements', __name__, url_prefix='/api/expense/groups/<group_id>/settlements')
 
 
-# =============================================================================
-# SETTLEMENT ROUTES
-# =============================================================================
-
-@settlement_bp.route('/settlements', methods=['POST'])
+@settlement_bp.route('', methods=['POST'])
 @require_auth
-@validate_settlement_data
-def create_settlement():
+def create_settlement(group_id: str):
     """
-    Create payment/settlement with ATOMIC VALIDATION
+    Create new settlement (record payment)
     
-    Creates a settlement payment between users with validation:
-    - Validates current debt exists and direction is correct
-    - Prevents overpayment (caps to current debt)
-    - Supports optimistic concurrency with expected_amount
-    - Pre-warms cache for instant response
+    POST /api/expense/groups/:gid/settlements
+    Body: {
+        "from_user_id": "user123",
+        "to_user_id": "user456",
+        "amount": 50.00,
+        "currency": "USD",
+        "method": "cash",
+        "notes": "Optional notes",
+        "proof_url": "https://..."
+    }
     
-    Request Body:
-        from_user (str): Optional. Payer user ID (defaults to authenticated user)
-        to_user (str): Required. Recipient user ID
-        amount (float): Required. Payment amount
-        group_id (str): Required. Group ID
-        currency (str): Optional. Currency code (default: USD)
-        notes (str): Optional. Settlement notes
-        expected_amount (float): Optional. Expected debt amount for concurrency check
-        
-    Returns:
-        201: Settlement created successfully
-        400: Validation error
-        403: Access denied
-        404: Users not found
-        409: Conflict (nothing to settle, wrong direction, amount changed)
-        500: Server error
-        
-    Response includes:
-        - settlement: Settlement object
-        - applied_amount: Actual amount applied (may be capped)
-        - remaining_debt: Remaining debt after payment
-        - is_fully_settled: Whether debt is fully paid
-        - warning: Optional warning if amount was capped
+    Response: {
+        "success": true,
+        "settlement": {...}
+    }
     """
     try:
-        start_time = time.time()
+        current_user_id = get_current_user_id()
         data = request.get_json()
         
-        print("\n" + "="*80)
-        print(f"💸 CREATE SETTLEMENT WITH VALIDATION")
-        print("="*80)
+        if not data:
+            raise ValidationError("Request body is required")
         
         # Validate required fields
-        if not data.get('to_user'):
-            return jsonify({'error': 'Recipient user ID is required'}), 400
-        if not data.get('amount'):
-            return jsonify({'error': 'Amount is required'}), 400
+        required_fields = ['from_user_id', 'to_user_id', 'amount']
+        for field in required_fields:
+            if field not in data:
+                raise ValidationError(f"{field} is required")
         
-        # Allow from_user to be specified (for group admins) or default to authenticated user
-        from_user_id = data.get('from_user', g.user_id)
-        to_user_id = data['to_user']
-        amount = float(data['amount'])
-        expected_amount = data.get('expected_amount')
+        # Check group membership
+        group_service = GroupService()
+        if not group_service.is_member(group_id, current_user_id):
+            raise ForbiddenError("You are not a member of this group")
         
-        print(f"From: {from_user_id}")
-        print(f"To: {to_user_id}")
-        print(f"Amount: ${amount}")
-        if expected_amount:
-            print(f"Expected: ${expected_amount}")
+        # Validate users are members
+        if not group_service.is_member(group_id, data['from_user_id']):
+            raise ValidationError("from_user_id is not a group member")
+        if not group_service.is_member(group_id, data['to_user_id']):
+            raise ValidationError("to_user_id is not a group member")
         
-        # Validate group if provided
-        group_id = data.get('group_id')
-        if not group_id:
-            return jsonify({'error': 'Group ID is required'}), 400
-            
-        group = expense_service.get_group(group_id)
-        if not group or g.user_id not in group.get('members', []):
-            print(f"❌ Access denied")
-            print("="*80 + "\n")
-            return jsonify({'error': 'Access denied'}), 403
+        # Validate users are different
+        if data['from_user_id'] == data['to_user_id']:
+            raise ValidationError("Cannot settle with yourself")
         
-        # Ensure from_user is also a member of the group
-        if from_user_id not in group.get('members', []):
-            print(f"❌ Payer not in group")
-            print("="*80 + "\n")
-            return jsonify({'error': 'Payer must be a member of the group'}), 403
+        # Create settlement (balance updates handled by service)
+        settlement_service = SettlementService()
         
-        print(f"Group: {group.get('name')} ({group_id})")
-        
-        # PRE-WARM CACHE: Get group balances first (this caches them)
-        # This ensures subsequent calls are instant
-        print(f"\n🔥 PRE-WARMING BALANCE CACHE")
-        _ = expense_service.get_group_balances(group_id)
-        print(f"   ✅ Cache pre-warmed")
-        
-        # OPTIMIZED VALIDATION: Use incremental balance system (no cache clearing needed)
-        # The balance_manager maintains accurate balances through incremental updates
-        # No need to force recalculation - just read the current denormalized balance
-        print(f"\n🔍 VALIDATING CURRENT DEBT (using incremental balances)")
-        
-        # Read current balances from denormalized table (fast, no recalc needed)
-        # The incremental system ensures these are always accurate
-        balance_data = expense_service.balance_manager.get_group_balances(group_id)
-        balances = balance_data.get('balances', [])
-        
-        # Find current balances
-        from_balance = next((b for b in balances if b['user_id'] == from_user_id), None)
-        to_balance = next((b for b in balances if b['user_id'] == to_user_id), None)
-        
-        if not from_balance or not to_balance:
-            print(f"❌ Users not found in group")
-            print("="*80 + "\n")
-            return jsonify({'error': 'Users not found in group balances'}), 404
-        
-        # Calculate what from_user currently owes
-        # Negative balance = they OWE money
-        # Positive balance = they are OWED money
-        from_net = from_balance.get('balance', 0)
-        currently_owed = -from_net if from_net < 0 else 0
-        
-        print(f"   From balance: ${from_net:.2f}")
-        print(f"   Currently owed by payer: ${currently_owed:.2f}")
-        
-        # VALIDATION 1: Nothing to settle
-        if abs(currently_owed) < 0.01:
-            print(f"   ❌ Nothing to settle!")
-            print("="*80 + "\n")
-            return jsonify({
-                'error': 'Nothing to settle',
-                'message': 'All debts are already settled. No payment is needed.',
-                'currently_owed': 0,
-                'from_balance': from_net,
-                'suggestion': 'Refresh the page to see current balances.'
-            }), 409
-        
-        # VALIDATION 2: Wrong direction
-        if from_net > 0.01:  # Payer has positive balance = should RECEIVE payment
-            print(f"   ❌ Wrong direction!")
-            print("="*80 + "\n")
-            return jsonify({
-                'error': 'Settlement direction incorrect',
-                'message': f'This user should receive payment, not send it. Current balance: ${from_net:.2f}',
-                'currently_owed': 0,
-                'from_balance': from_net,
-                'suggestion': 'Check who owes whom and try again.'
-            }), 409
-        
-        # VALIDATION 3: Optimistic concurrency check
-        if expected_amount is not None:
-            if abs(expected_amount - currently_owed) > 0.01:
-                print(f"   ⚠️  Expected amount mismatch!")
-                print(f"   Expected: ${expected_amount:.2f}, Actual: ${currently_owed:.2f}")
-                print("="*80 + "\n")
-                return jsonify({
-                    'error': 'Amount changed',
-                    'message': 'The owed amount has changed since you opened this screen. Please refresh and try again.',
-                    'expected': expected_amount,
-                    'currently_owed': currently_owed,
-                    'difference': currently_owed - expected_amount
-                }), 409
-        
-        # VALIDATION 4: Cap to current owed (prevent overpayment)
-        applied_amount = min(amount, currently_owed)
-        capped = applied_amount < amount
-        
-        if capped:
-            print(f"   ⚠️  Capping ${amount:.2f} to ${applied_amount:.2f} (current debt)")
-        
-        remaining_debt = currently_owed - applied_amount
-        
-        print(f"   ✅ Validation passed")
-        print(f"   Applied: ${applied_amount:.2f}")
-        print(f"   Remaining: ${remaining_debt:.2f}")
-        
-        # OPTIMISTIC MODE: Lightning fast settlement
-        print(f"\n⚡ OPTIMISTIC SETTLEMENT MODE")
-        settlement = expense_service.create_settlement(
-            from_user=from_user_id,
-            to_user=to_user_id,
-            amount=applied_amount,
+        settlement = settlement_service.create_settlement(
             group_id=group_id,
-            currency=data.get('currency', 'USD'),
+            payer_id=data['from_user_id'],
+            receiver_id=data['to_user_id'],
+            amount=Decimal(str(data['amount'])),
+            payment_method=data.get('method', 'cash'),
             notes=data.get('notes'),
-            expected_amount=expected_amount,
-            optimistic=True,  # Enable instant balance update
-            audit_trail={
-                'from_balance_before': from_net,
-                'to_balance_before': to_balance.get('net_balance', 0),
-                'requested_amount': amount,
-                'applied_amount': applied_amount,
-                'validation_passed': True
-            }
+            created_by=current_user_id
         )
-        print(f"   ✅ Settlement created instantly ({(time.time() - start_time) * 1000:.0f}ms)")
         
-        # PHASE 2.7: SELECTIVE CACHE INVALIDATION
-        # Only invalidate balance-related caches (NOT group details, members, or expenses)
-        # This improves reload performance by 91% (2.2s → 0.2s)
-        from ..constants import CacheInvalidationStrategy
+        # Phase 17.8: Fetch updated balances to return with response
+        balance_service = BalanceService()
+        raw_balances = balance_service.get_group_balances(group_id)
+        balances = {uid: float(balance) for uid, balance in raw_balances.items()}
         
-        print(f"\n🗑️  SELECTIVE CACHE INVALIDATION (Phase 2.7)")
-        invalidated_keys = []
-        for cache_type in CacheInvalidationStrategy.ON_SETTLEMENT_CREATE:
-            cache_key = f"{cache_type}:{group_id}"
-            try:
-                expense_service.cache.redis_client.delete(cache_key)
-                invalidated_keys.append(cache_key)
-            except Exception as e:
-                logger.warning(f"Failed to invalidate {cache_key}: {e}")
+        logger.info("Settlement created in group %s", group_id)
         
-        print(f"   ✅ Invalidated {len(invalidated_keys)} balance caches")
-        print(f"   ℹ️  Kept intact: group_details, group_members, expenses")
-        print(f"   📈 Expected reload: ~200ms (91% faster)")
-        
-        print(f"✅ SETTLEMENT COMPLETE - {(time.time() - start_time) * 1000:.0f}ms")
-        
-        # 🔒 AUDIT LOG: Track settlement creation
-        try:
-            audit_logger = get_audit_logger(expense_service.firebase.db)
-            audit_logger.log_action(
-                action=AuditAction.CREATE_SETTLEMENT,
-                resource_type='settlement',
-                resource_id=settlement.get('settlement_id', 'unknown'),
-                user_id=g.user_id,
-                details={
-                    'group_id': group_id,
-                    'from_user': from_user_id,
-                    'to_user': to_user_id,
-                    'amount': applied_amount,
-                    'currency': data.get('currency', 'USD'),
-                    'remaining_debt': round(remaining_debt, 2)
-                }
-            )
-        except Exception as audit_error:
-            logger.warning(f"Audit logging failed: {audit_error}")
-        
-        print("="*80 + "\n")
-        
-        # Build response
-        response = {
+        return jsonify({
             'success': True,
-            'settlement': settlement,
-            'applied_amount': applied_amount,
-            'remaining_debt': round(remaining_debt, 2),
-            'is_fully_settled': abs(remaining_debt) < 0.01
-        }
+            'settlement': settlement if isinstance(settlement, dict) else {},
+            'balances': balances  # Phase 17.8: Return balances for instant UI update
+        }), 201
         
-        # Add warning if amount was capped
-        if capped:
-            response['warning'] = f'Payment capped to current debt of ${applied_amount:.2f}'
-            response['requested_amount'] = amount
-        
-        return jsonify(response), 201
-    
+    except ValidationError as e:
+        logger.warning("Validation error in create_settlement: %s", e)
+        return jsonify({'success': False, 'error': str(e)}), 400
+    except ForbiddenError as e:
+        logger.warning("Permission error in create_settlement: %s", e)
+        return jsonify({'success': False, 'error': str(e)}), 403
     except Exception as e:
-        logger.error(f"Error creating settlement: {e}")
-        print(f"❌ Error: {e}")
-        print("="*80 + "\n")
-        return jsonify({'error': 'Internal server error'}), 500
+        logger.error("Error creating settlement: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to create settlement'}), 500
 
 
-@settlement_bp.route('/settlements/group/<group_id>', methods=['GET'])
+@settlement_bp.route('/<settlement_id>', methods=['GET'])
 @require_auth
-def get_group_settlements(group_id):
+def get_settlement(group_id: str, settlement_id: str):
     """
-    Get settlements for a group
+    Get settlement details
     
-    Returns all settlements (payments) for specified group.
-    Only accessible to group members.
+    GET /api/expense/groups/:gid/settlements/:sid
     
-    Query Parameters:
-        limit (int): Optional. Maximum number of settlements (default: 100)
-        
-    Returns:
-        200: Settlements retrieved successfully
-        403: User not a member
-        500: Server error
+    Response: {
+        "success": true,
+        "settlement": {...}
+    }
     """
     try:
-        # Check access
-        group = expense_service.get_group(group_id)
-        if not group or g.user_id not in group.get('members', []):
-            return jsonify({'error': 'Access denied'}), 403
+        current_user_id = get_current_user_id()
         
-        limit = int(request.args.get('limit', 100))
-        settlements = expense_service.get_group_settlements(group_id, limit)
+        # Check group membership
+        group_service = GroupService()
+        if not group_service.is_member(group_id, current_user_id):
+            raise ForbiddenError("You are not a member of this group")
         
-        return jsonify({'success': True, 'settlements': settlements}), 200
-    
-    except Exception as e:
-        logger.error(f"Error getting settlements: {e}")
-        return jsonify({'error': 'Internal server error'}), 500
-
-
-# =============================================================================
-# BALANCE ROUTES
-# =============================================================================
-
-@settlement_bp.route('/balance', methods=['GET'])
-@require_auth
-def get_user_balance():
-    """
-    Get user balance
-    
-    Returns user's balance for specified group or overall.
-    
-    Query Parameters:
-        group_id (str): Optional. Filter by group
+        # Get settlement
+        settlement_service = SettlementService()
+        settlement = settlement_service.get_settlement(settlement_id)
         
-    Returns:
-        200: Balance retrieved successfully
-        403: User not authorized (if group specified)
-        500: Server error
-    """
-    try:
-        group_id = request.args.get('group_id')
+        if not settlement:
+            raise NotFoundError("Settlement not found")
         
-        if group_id:
-            # Check access
-            group = expense_service.get_group(group_id)
-            if not group or g.user_id not in group.get('members', []):
-                return jsonify({'error': 'Access denied'}), 403
+        settlement_group_id = settlement.get('group_id') if isinstance(settlement, dict) else settlement.group_id
+        if settlement_group_id != group_id:
+            raise ForbiddenError("Settlement does not belong to this group")
         
-        balance = expense_service.get_user_balance(g.user_id, group_id)
-        
-        return jsonify({'success': True, 'balance': balance}), 200
-    
-    except Exception as e:
-        logger.error(f"Error getting balance: {e}")
-        return jsonify({'error': 'Internal server error'}), 500
-
-
-@settlement_bp.route('/balance/breakdown', methods=['GET'])
-@require_auth
-def get_balance_breakdown():
-    """
-    Get detailed balance breakdown
-    
-    Returns detailed breakdown of user's balances across all groups.
-    
-    Query Parameters:
-        group_id (str): Optional. Filter by group
-        
-    Returns:
-        200: Breakdown retrieved successfully
-        403: User not authorized (if group specified)
-        500: Server error
-    """
-    try:
-        group_id = request.args.get('group_id')
-        
-        if group_id:
-            # Check access
-            group = expense_service.get_group(group_id)
-            if not group or g.user_id not in group.get('members', []):
-                return jsonify({'error': 'Access denied'}), 403
-        
-        breakdown = expense_service.get_balance_breakdown(g.user_id, group_id)
-        
-        return jsonify({'success': True, 'breakdown': breakdown}), 200
-    
-    except Exception as e:
-        logger.error(f"Error getting balance breakdown: {e}")
-        return jsonify({'error': 'Internal server error'}), 500
-
-
-@settlement_bp.route('/balance/group/<group_id>', methods=['GET'])
-@settlement_bp.route('/balances/group/<group_id>', methods=['GET'])
-@require_auth
-def get_group_balances(group_id):
-    """
-    Get all balances for a group with simplified debt settlement
-    
-    Returns comprehensive balance information:
-    - Individual member balances (net balance per user)
-    - Simplified debts (optimized who-owes-whom calculations)
-    - Settlement status (whether group is fully settled)
-    
-    Smart Cache Handling:
-    - Uses Redis cache for instant response (30s TTL)
-    - Respects ?_t parameter for cache bypass (forces fresh calculation)
-    - Smart optimization: Skips unnecessary recalculations within 30s of last recalc
-    - Pre-warms cache on settlements for instant subsequent requests
-    
-    Query Parameters:
-        _t (any): Optional. Bypass cache and force fresh calculation
-        
-    Returns:
-        200: Balances retrieved successfully
-        403: User not a member
-        500: Server error
-        
-    Performance:
-        - Cached: <5ms response
-        - Fresh calculation: ~500ms (incremental balance system)
-        - Force recalculation: ~2.3s (full expense traversal, rarely needed)
-    """
-    try:
-        print("\n" + "="*80)
-        print(f"💰 GET GROUP BALANCES - {group_id}")
-        print("="*80)
-        print(f"User ID: {g.user_id}")
-        
-        # OPTIMIZATION: Try Redis cache first (full response with display names)
-        # BUT: Skip cache if _t timestamp parameter is present (forces fresh data after updates)
-        use_cache = '_t' not in request.args
-        
-        # SMART ?_t HANDLING: Even if _t parameter present, check if recalc just happened
-        # If balance was recalculated <30s ago, use cached balance (saves 1200ms)
-        smart_cache_enabled = False
-        if not use_cache:
-            try:
-                import time
-                recalc_timestamp_key = f"balance:last_recalc:{group_id}"
-                last_recalc = expense_service.cache.redis_client.get(recalc_timestamp_key)
-                if last_recalc:
-                    # Redis returns bytes, decode if needed
-                    if isinstance(last_recalc, bytes):
-                        last_recalc = last_recalc.decode('utf-8')
-                    age = time.time() - float(last_recalc)
-                    if age < 30.0:  # If recalc happened <30s ago (match cache TTL)
-                        print(f"✨ SMART CACHE: Recent recalc detected ({age:.2f}s ago) - using cached balance")
-                        use_cache = True  # Override _t parameter
-                        smart_cache_enabled = True
-            except Exception as e:
-                print(f"⚠️  Smart cache check failed: {e}")
-                pass  # If check fails, proceed with normal _t behavior
-        
-        if use_cache:
-            try:
-                cache_key = f"expense:formatted_balance:{group_id}"
-                cached_response = expense_service.cache.redis_client.get(cache_key)
-                if cached_response:
-                    import json
-                    response_data = json.loads(cached_response)
-                    if smart_cache_enabled:
-                        print(f"⚡ Using cached formatted balance (smart ?_t optimization)")
-                    else:
-                        print(f"⚡ Using cached formatted balance (skips display name fetch)")
-                    print("="*80 + "\n")
-                    return jsonify(response_data), 200
-            except:
-                pass  # Cache miss or error, continue normal flow
-        
-        if not use_cache and not smart_cache_enabled:
-            print(f"🔄 Cache bypass requested (_t parameter) - fetching fresh data")
-        
-        # Check access
-        group = expense_service.get_group(group_id)
-        if not group or g.user_id not in group.get('members', []):
-            print(f"❌ Access denied")
-            print("="*80 + "\n")
-            return jsonify({'error': 'Access denied'}), 403
-        
-        print(f"   Group: {group.get('name')}")
-        print(f"   Members: {len(group.get('members', []))}")
-        
-        # Get simplified debts (who owes whom) and individual balances
-        print(f"\n🧮 CALCULATING BALANCES")
-        
-        # OPTIMIZED: Use incremental balance system (rarely needs force_incremental)
-        # force_recalc is ONLY used when frontend explicitly requests cache bypass via ?_t= parameter
-        # The incremental balance system keeps balances accurate through add/update/delete operations
-        # Normal operations should NOT use force_incremental - it's expensive (2.3s vs 500ms)
-        force_recalc = not use_cache  # If cache bypass requested, force fresh calculation
-        balance_data = expense_service.get_group_balances(group_id, force_incremental=force_recalc)
-        debts = balance_data.get('debts', [])
-        balances = balance_data.get('balances', [])
-        
-        print(f"   Member balances: {len(balances)}")
-        for balance in balances:
-            print(f"      {balance['display_name']}: ${balance['net_balance']:.2f}")
-        
-        print(f"   Debts calculated: {len(debts)}")
-        for i, debt in enumerate(debts, 1):
-            print(f"   {i}. {debt['from_display_name']} owes {debt['to_display_name']}: ${debt['amount']}")
-        
-        # Calculate summary
-        total_debts = sum(debt['amount'] for debt in debts)
-        is_settled = len(debts) == 0 or total_debts < 0.01
-        
-        print(f"\n📊 SUMMARY")
-        print(f"   Total debts: ${total_debts:.2f}")
-        print(f"   Is settled: {is_settled}")
-        print(f"   Debt transactions: {len(debts)}")
-        
-        response = {
+        return jsonify({
             'success': True,
-            'is_settled': is_settled,
-            'balances': balances,  # Individual member balances
-            'debts': debts,  # Simplified debts (who owes whom)
-            'total_amount': round(total_debts, 2),
-            'debt_count': len(debts)
-        }
+            'settlement': settlement if isinstance(settlement, dict) else {}
+        })
         
-        # OPTIMIZATION: Cache full response with display names (30 second TTL)
-        try:
-            import json, time
-            cache_key = f"expense:formatted_balance:{group_id}"
-            expense_service.cache.redis_client.setex(
-                cache_key,
-                30,  # 30 seconds TTL (balances update frequently)
-                json.dumps(response, default=str)
-            )
-            
-            # SMART ?_t OPTIMIZATION: Store recalculation timestamp
-            # Used to avoid unnecessary recalculations on rapid page refreshes
-            if force_recalc:
-                recalc_timestamp_key = f"balance:last_recalc:{group_id}"
-                expense_service.cache.redis_client.setex(
-                    recalc_timestamp_key,
-                    30,  # 30 second TTL (match formatted balance cache TTL)
-                    str(time.time())
-                )
-                print(f"🕒 Stored recalculation timestamp for smart ?_t handling")
-        except:
-            pass  # Cache error, continue
-        
-        print(f"✅ BALANCE CALCULATION COMPLETE")
-        print(f"📤 RESPONSE STRUCTURE:")
-        print(f"   - success: {response['success']}")
-        print(f"   - is_settled: {response['is_settled']}")
-        print(f"   - balances array: {len(response['balances'])} items")
-        print(f"   - debts array: {len(response['debts'])} items")
-        print("="*80 + "\n")
-        
-        return jsonify(response), 200
-    
+    except (NotFoundError, ForbiddenError) as e:
+        logger.warning("Error in get_settlement: %s", e)
+        status = 404 if isinstance(e, NotFoundError) else 403
+        return jsonify({'success': False, 'error': str(e)}), status
     except Exception as e:
-        logger.error(f"Error getting group balances: {e}")
-        return jsonify({'error': 'Internal server error'}), 500
+        logger.error("Error getting settlement: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to get settlement'}), 500
+
+
+@settlement_bp.route('', methods=['GET'])
+@require_auth
+def list_settlements(group_id: str):
+    """
+    List settlements with pagination
+    
+    GET /api/expense/groups/:gid/settlements?page=1&limit=20
+    
+    Response: {
+        "success": true,
+        "settlements": [...],
+        "page": 1,
+        "limit": 20,
+        "has_more": true
+    }
+    """
+    try:
+        current_user_id = get_current_user_id()
+        
+        # Check group membership
+        group_service = GroupService()
+        if not group_service.is_member(group_id, current_user_id):
+            raise ForbiddenError("You are not a member of this group")
+        
+        # Get pagination parameters
+        page = int(request.args.get('page', 1))
+        limit = int(request.args.get('limit', pagination_config.DEFAULT_PAGE_SIZE))
+        
+        # Validate pagination
+        if page < 1:
+            raise ValidationError("Page must be >= 1")
+        if limit < 1 or limit > pagination_config.MAX_PAGE_SIZE:
+            raise ValidationError(f"Limit must be between 1 and {pagination_config.MAX_PAGE_SIZE}")
+        
+        # Get settlements
+        settlement_service = SettlementService()
+        settlements = settlement_service.get_group_settlements(group_id, status=None, limit=limit)
+        
+        return jsonify({
+            'success': True,
+            'settlements': [s.to_dict() for s in settlements],
+            'page': page,
+            'limit': limit,
+            'has_more': len(settlements) == limit
+        })
+        
+    except (ValidationError, ForbiddenError) as e:
+        logger.warning("Error in list_settlements: %s", e)
+        status = 400 if isinstance(e, ValidationError) else 403
+        return jsonify({'success': False, 'error': str(e)}), status
+    except Exception as e:
+        logger.error("Error listing settlements: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to list settlements'}), 500
+
+
+@settlement_bp.route('/user/<user_id>', methods=['GET'])
+@require_auth
+def get_user_settlements(group_id: str, user_id: str):
+    """
+    Get settlements for specific user
+    
+    GET /api/expense/groups/:gid/settlements/user/:uid?page=1&limit=20
+    
+    Response: {
+        "success": true,
+        "settlements": [...],
+        "page": 1,
+        "limit": 20,
+        "has_more": true
+    }
+    """
+    try:
+        current_user_id = get_current_user_id()
+        
+        # Check group membership
+        group_service = GroupService()
+        if not group_service.is_member(group_id, current_user_id):
+            raise ForbiddenError("You are not a member of this group")
+        
+        # Check user is member
+        if not group_service.is_member(group_id, user_id):
+            raise ValidationError("User is not a group member")
+        
+        # Get pagination parameters
+        page = int(request.args.get('page', 1))
+        limit = int(request.args.get('limit', pagination_config.DEFAULT_PAGE_SIZE))
+        
+        # Get user settlements
+        settlement_service = SettlementService()
+        settlements = settlement_service.get_user_settlements(user_id, group_id=group_id)
+        
+        return jsonify({
+            'success': True,
+            'settlements': [s.to_dict() for s in settlements],
+            'page': page,
+            'limit': limit,
+            'has_more': len(settlements) == limit
+        })
+        
+    except (ValidationError, ForbiddenError) as e:
+        logger.warning("Error in get_user_settlements: %s", e)
+        status = 400 if isinstance(e, ValidationError) else 403
+        return jsonify({'success': False, 'error': str(e)}), status
+    except Exception as e:
+        logger.error("Error getting user settlements: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to get user settlements'}), 500
+
+
+@settlement_bp.route('/<settlement_id>/proof', methods=['POST'])
+@require_auth
+def add_payment_proof(group_id: str, settlement_id: str):
+    """
+    Add payment proof to settlement
+    
+    POST /api/expense/groups/:gid/settlements/:sid/proof
+    Body: {
+        "proof_url": "https://...",
+        "notes": "Payment receipt"
+    }
+    
+    Response: {
+        "success": true,
+        "settlement": {...}
+    }
+    """
+    try:
+        current_user_id = get_current_user_id()
+        data = request.get_json()
+        
+        if not data or 'proof_url' not in data:
+            raise ValidationError("proof_url is required")
+        
+        # Check group membership
+        group_service = GroupService()
+        if not group_service.is_member(group_id, current_user_id):
+            raise ForbiddenError("You are not a member of this group")
+        
+        # Get settlement
+        settlement_service = SettlementService()
+        settlement = settlement_service.get_settlement(settlement_id)
+        
+        if not settlement:
+            raise NotFoundError("Settlement not found")
+        
+        if settlement.group_id != group_id:
+            raise ForbiddenError("Settlement does not belong to this group")
+        
+        # Check permissions (payer, receiver, or admin)
+        if current_user_id not in [settlement.from_user_id, settlement.to_user_id]:
+            if not group_service.has_permission(group_id, current_user_id, 'manage_settlements'):
+                raise InsufficientPermissionsError("You don't have permission to update this settlement")
+        
+        # Add proof
+        settlement_service.add_payment_proof(
+            settlement_id=settlement_id,
+            proof_type=data.get('proof_type', 'screenshot'),
+            proof_url=data['proof_url'],
+            uploaded_by=current_user_id,
+            notes=data.get('notes')
+        )
+        
+        # Get updated settlement
+        updated_settlement = settlement_service.get_settlement(settlement_id)
+        
+        logger.info("Payment proof added to settlement: %s", settlement_id)
+        
+        return jsonify({
+            'success': True,
+            'settlement': updated_settlement if isinstance(updated_settlement, dict) else {}
+        })
+        
+    except (ValidationError, NotFoundError, ForbiddenError, InsufficientPermissionsError) as e:
+        logger.warning("Error in add_payment_proof: %s", e)
+        status_map = {
+            ValidationError: 400,
+            NotFoundError: 404,
+            ForbiddenError: 403,
+            InsufficientPermissionsError: 403
+        }
+        return jsonify({'success': False, 'error': str(e)}), status_map.get(type(e), 400)
+    except Exception as e:
+        logger.error("Error adding payment proof: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to add payment proof'}), 500
+
+
+# Error handlers
+@settlement_bp.errorhandler(ValidationError)
+def handle_validation_error(error):
+    return jsonify({'success': False, 'error': str(error)}), 400
+
+
+@settlement_bp.errorhandler(NotFoundError)
+def handle_not_found(error):
+    return jsonify({'success': False, 'error': str(error)}), 404
+
+
+@settlement_bp.errorhandler(ForbiddenError)
+def handle_forbidden(error):
+    return jsonify({'success': False, 'error': str(error)}), 403
+
+
+@settlement_bp.errorhandler(InsufficientPermissionsError)
+def handle_insufficient_permissions(error):
+    return jsonify({'success': False, 'error': str(error)}), 403
+
+
+@settlement_bp.errorhandler(Exception)
+def handle_generic_error(error):
+    logger.error("Unexpected error: %s", error, exc_info=True)
+    return jsonify({'success': False, 'error': 'Internal server error'}), 500

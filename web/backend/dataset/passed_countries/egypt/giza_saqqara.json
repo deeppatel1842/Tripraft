@@ -1,0 +1,878 @@
+{
+  "country": "Egypt",
+  "state": "Giza Saqqara",
+  "cities": [
+    {
+      "city": "Giza Saqqara",
+      "nearest_airport": "Cairo International Airport (CAI)",
+      "places": [
+        {
+          "name": "Giza Pyramids Plateau",
+          "ai_summary": "The iconic site of the Great Pyramids of Giza, one of the Seven Wonders of the Ancient World.",
+          "name_english": "Giza Pyramids",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Hire a guide to learn about the history and significance of the pyramids.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 29.977,
+            "longitude": 31.132
+          },
+          "address": "Giza Plateau, Giza, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Pyramids",
+            "History",
+            "UNESCO World Heritage"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pyramids_of_the_Giza_Necropolis.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pyramids_of_the_Giza_Necropolis.jpg/960px-Pyramids_of_the_Giza_Necropolis.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pyramids of the Giza Necropolis",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:KennyOMG\" class=\"mw-redirect\" title=\"User:KennyOMG\">KennyOMG</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pyramids_of_the_Giza_Necropolis.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Pyramids of the <a href=\"https://en.wikipedia.org/wiki/Giza_Necropolis\" class=\"extiw\" title=\"w:Giza Necropolis\">Giza Necropolis</a>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.954
+        },
+        {
+          "name": "Great Sphinx",
+          "ai_summary": "A monumental limestone statue with the body of a lion and the head of a pharaoh, guarding the Giza Plateau.",
+          "name_english": "Great Sphinx",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Included with Giza Plateau entry",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Best viewed in the morning light."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Capture photos from the designated viewing platform.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.975,
+            "longitude": 31.137
+          },
+          "address": "Giza Plateau, Giza, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Sphinx",
+            "History",
+            "Landmark"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Sphinx_with_the_third_pyramid.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Sphinx_with_the_third_pyramid.jpg/960px-Sphinx_with_the_third_pyramid.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Sphinx with the third pyramid",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hesham_Ebaid&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hesham Ebaid (page does not exist)\">Hesham Ebaid</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sphinx_with_the_third_pyramid.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "A sphinx (Ancient Greek: Σφίγξ [spʰíŋks], Boeotian: Φίξ [pʰíːks], plural sphinges) is a mythical creature with the head of a human and the body of a lion.\nIn Greek tradition, it has the head of a human, the haunches of a lion, and sometimes the wings of a bird. It is mythicised as treacherous and merciless. Those who cannot answer its riddle suffer a fate typical in such mythological stories, as they are killed and eaten by this ravenous monster.[1] This deadly version of a sphinx appears in the myth and drama of Oedipus.[2] Unlike the Greek sphinx, which was a woman, the Egyptian sphinx is typically shown as a man (an androsphinx). In addition, the Egyptian sphinx was viewed as benevolent, but having a ferocious strength similar to the malevolent Greek version and both were thought of as guardians often flanking the entrances to temples."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Saqqara Step Pyramid of Djoser",
+          "ai_summary": "The world’s oldest stone structure, built during the 27th century BC for Pharaoh Djoser.",
+          "name_english": "Step Pyramid of Djoser",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the surrounding tombs and structures for a complete experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.871,
+            "longitude": 31.216
+          },
+          "address": "Saqqara, Giza, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Pyramid",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Saqqara_pyramid_ver_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Saqqara_pyramid_ver_2.jpg/960px-Saqqara_pyramid_ver_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Saqqara pyramid ver 2",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Saqqara_pyramid_ver_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Saqqara pyramid of Djoser in Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Imhotep Museum",
+          "ai_summary": "A museum dedicated to Imhotep, the architect of the Step Pyramid, showcasing artifacts from the Saqqara necropolis.",
+          "name_english": "Imhotep Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Closed on Tuesdays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don't miss the statue of Imhotep and the mummified remains.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.872,
+            "longitude": 31.215
+          },
+          "address": "Saqqara, Giza, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Saqqara_pyramid_ver_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Saqqara_pyramid_ver_2.jpg/960px-Saqqara_pyramid_ver_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Saqqara pyramid ver 2",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Saqqara_pyramid_ver_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Saqqara pyramid of Djoser in Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Mastaba of Mereruka",
+          "ai_summary": "The tomb of Mereruka, featuring intricate reliefs and inscriptions, offering insights into the Old Kingdom's burial practices.",
+          "name_english": "Mastaba of Mereruka",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Observe the detailed carvings and consider hiring a guide for detailed explanations.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.872,
+            "longitude": 31.214
+          },
+          "address": "Saqqara, Giza, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Tomb",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Saqqara_pyramid_ver_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Saqqara_pyramid_ver_2.jpg/960px-Saqqara_pyramid_ver_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Saqqara pyramid ver 2",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Saqqara_pyramid_ver_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Saqqara pyramid of Djoser in Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Pyramid of Unas & Pyramid Texts",
+          "ai_summary": "The Pyramid of Unas, known for its early pyramid texts, is a significant archaeological site in Saqqara.",
+          "name_english": "Pyramid of Unas",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "The pyramid texts are among the oldest religious writings in the world.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.873,
+            "longitude": 31.213
+          },
+          "address": "Saqqara, Giza, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Pyramid",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/960px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Great Pyramid of Giza - Pyramid of Khufu",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dvdzee&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dvdzee (page does not exist)\">Douwe C. van der Zee</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Pyramid of Khufu - May 2023"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Serapeum of Saqqara",
+          "ai_summary": "An ancient burial site for sacred bulls, featuring impressive underground galleries and sarcophagi.",
+          "name_english": "Serapeum of Saqqara",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "The site is vast; wear comfortable shoes and be prepared for some walking.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.872,
+            "longitude": 31.212
+          },
+          "address": "Saqqara, Giza, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Archaeology",
+            "History",
+            "UNESCO World Heritage"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Saqqara_pyramid_ver_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Saqqara_pyramid_ver_2.jpg/960px-Saqqara_pyramid_ver_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Saqqara pyramid ver 2",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Saqqara_pyramid_ver_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Saqqara pyramid of Djoser in Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.81
+        },
+        {
+          "name": "Dahshur Red Pyramid",
+          "ai_summary": "The Red Pyramid, named for its reddish hue, is the largest pyramid at Dahshur and one of the few to have retained its smooth limestone casing.",
+          "name_english": "Red Pyramid",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "The pyramid is best viewed in the early morning or late afternoon light.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.798,
+            "longitude": 31.134
+          },
+          "address": "Dahshur, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Pyramid",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Saqqara_pyramid_ver_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Saqqara_pyramid_ver_2.jpg/960px-Saqqara_pyramid_ver_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Saqqara pyramid ver 2",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Saqqara_pyramid_ver_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Saqqara pyramid of Djoser in Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.826
+        },
+        {
+          "name": "Dahshur Bent Pyramid",
+          "ai_summary": "The Bent Pyramid, with its unique shape, is an important site in the evolution of pyramid construction in Egypt.",
+          "name_english": "Bent Pyramid",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Observe the unique bent angle of the pyramid, which is a result of a change in the angle of inclination during construction.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.802,
+            "longitude": 31.135
+          },
+          "address": "Dahshur, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Pyramid",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Rote_Pyramide_(Dahschur)_04.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Rote_Pyramide_%28Dahschur%29_04.jpg/960px-Rote_Pyramide_%28Dahschur%29_04.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Rote Pyramide (Dahschur) 04",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Rote_Pyramide_(Dahschur)_04.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Red Pyramid of Dahshur, in Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Teti Pyramid",
+          "ai_summary": "The Pyramid of Teti, known for its pyramid texts, is an important archaeological site in the Saqqara necropolis.",
+          "name_english": "Teti Pyramid",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "The pyramid texts here are among the oldest religious writings in the world.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.873,
+            "longitude": 31.211
+          },
+          "address": "Saqqara, Giza, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Pyramid",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Saqqara_pyramid_ver_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Saqqara_pyramid_ver_2.jpg/960px-Saqqara_pyramid_ver_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Saqqara pyramid ver 2",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Saqqara_pyramid_ver_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Saqqara pyramid of Djoser in Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Memphis Open-Air Museum",
+          "ai_summary": "An open-air museum in the ancient city of Memphis, featuring a vast collection of antiquities, including the colossal statue of Ramses II.",
+          "name_english": "Memphis Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the alabaster sphinx and the statue of Ramses II.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.611,
+            "longitude": 31.25
+          },
+          "address": "Memphis, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Memphis200401.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Memphis200401.JPG/960px-Memphis200401.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Memphis200401",
+                  "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Neithsabes\" title=\"User:Neithsabes\">Neithsabes</a> assumed (based on copyright claims).",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Memphis200401.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Ruins of the hypostyle room and pylon of Ramses II - 19th dynasty - Memphis - Mit Rahineh"
+                }
+              }
+            }
+          },
+          "rank_score": 0.83
+        },
+        {
+          "name": "Tomb of Kagemni",
+          "ai_summary": "The tomb of Kagemni, featuring impressive reliefs and inscriptions, offering insights into the Old Kingdom's burial practices.",
+          "name_english": "Tomb of Kagemni",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Observe the detailed carvings and consider hiring a guide for detailed explanations.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.871,
+            "longitude": 31.217
+          },
+          "address": "Saqqara, Giza, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Tomb",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Saqqara_pyramid_ver_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Saqqara_pyramid_ver_2.jpg/960px-Saqqara_pyramid_ver_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Saqqara pyramid ver 2",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Saqqara_pyramid_ver_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Saqqara pyramid of Djoser in Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Camel & Horseback Rides at Giza",
+          "ai_summary": "Experience the Giza Plateau like never before - on camel or horseback! Enjoy a unique perspective of the pyramids and the desert.",
+          "name_english": "Camel & Horseback Rides",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Varies by provider",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00 - 18:00",
+            "Tuesday": "06:00 - 18:00",
+            "Wednesday": "06:00 - 18:00",
+            "Thursday": "06:00 - 18:00",
+            "Friday": "06:00 - 18:00",
+            "Saturday": "06:00 - 18:00",
+            "Sunday": "06:00 - 18:00",
+            "notes": "Book in advance, especially for sunrise or sunset rides."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Bring a scarf or hat for sun protection, and don't forget your camera!",
+          "advanced_booking": "Highly recommended",
+          "coordinates": {
+            "latitude": 29.975,
+            "longitude": 31.13
+          },
+          "address": "Giza Plateau, Giza, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Camel Ride",
+            "Horseback Ride",
+            "Adventure"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Abusir Pyramid Field (view)",
+          "ai_summary": "A panoramic viewpoint to see the pyramids of Abusir, offering a less crowded alternative to Giza.",
+          "name_english": "Abusir Pyramid View",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "06:00 - 18:00",
+            "Tuesday": "06:00 - 18:00",
+            "Wednesday": "06:00 - 18:00",
+            "Thursday": "06:00 - 18:00",
+            "Friday": "06:00 - 18:00",
+            "Saturday": "06:00 - 18:00",
+            "Sunday": "06:00 - 18:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Combine with a visit to the Abusir pyramids for a full experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.8,
+            "longitude": 31.21
+          },
+          "address": "Abusir, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Viewpoint",
+            "Photography",
+            "Pyramids"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Abusir.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Abusir.jpg/960px-Abusir.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Abusir",
+                  "author": "Axel Seedorff (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Aoswch\" class=\"extiw\" title=\"de:Benutzer:Aoswch\">de:Benutzer:Aoswch</a>)",
+                  "license": "CC BY-SA 2.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Abusir.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0 de",
+                  "description": "Abusir, Pyramiden von Sahure, Nuiserre u. Neferirkare (von links nach rechts)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.738
+        },
+        {
+          "name": "Pharaohs’ Village (family experience)",
+          "ai_summary": "A family-friendly attraction offering a glimpse into ancient Egyptian life with replicas of monuments and interactive exhibits.",
+          "name_english": "Pharaohs’ Village",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Closed on Sundays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Great for kids - interactive exhibits and replicas of ancient Egyptian life.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 29.975,
+            "longitude": 31.13
+          },
+          "address": "Giza, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Family",
+            "History",
+            "Interactive"
+          ],
+          "state": "Giza Saqqara",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Saqqara_pyramid_ver_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Saqqara_pyramid_ver_2.jpg/960px-Saqqara_pyramid_ver_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Saqqara pyramid ver 2",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Saqqara_pyramid_ver_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Saqqara pyramid of Djoser in Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        }
+      ]
+    }
+  ]
+}

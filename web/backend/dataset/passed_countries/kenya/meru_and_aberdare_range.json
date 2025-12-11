@@ -1,0 +1,983 @@
+{
+  "country": "Kenya",
+  "state": "Meru And Aberdare Range",
+  "cities": [
+    {
+      "city": "Meru",
+      "nearest_airport": "Isiolo Airport",
+      "places": [
+        {
+          "name": "Meru National Park Game Drives",
+          "ai_summary": "Explore the diverse landscapes of Meru National Park, home to elephants, lions, and rare species like the Grevy’s zebra.",
+          "name_english": "Meru National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:30 PM",
+            "Tuesday": "6:00 AM - 6:30 PM",
+            "Wednesday": "6:00 AM - 6:30 PM",
+            "Thursday": "6:00 AM - 6:30 PM",
+            "Friday": "6:00 AM - 6:30 PM",
+            "Saturday": "6:00 AM - 6:30 PM",
+            "Sunday": "6:00 AM - 6:30 PM",
+            "notes": "Best visited during the dry season."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Hire a guide for the best wildlife spotting experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 0.117,
+            "longitude": 38.2
+          },
+          "address": "Meru National Park, Kenya",
+          "official_website": "https://example.com/meru-national-park",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Adventure"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Sumatran_Rhinoceros_Way_Kambas_2008.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sumatran_Rhinoceros_Way_Kambas_2008.jpg/936px-Sumatran_Rhinoceros_Way_Kambas_2008.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Sumatran Rhinoceros Way Kambas 2008",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/21150935@N07\">Willem v Strien</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sumatran_Rhinoceros_Way_Kambas_2008.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/en:Sumatran_Rhinoceros\" class=\"extiw\" title=\"w:en:Sumatran Rhinoceros\">Sumatran Rhinoceros</a> (Dicerorhinus sumatrensis sumatrensis) Rosa in the <a href=\"https://en.wikipedia.org/wiki/en:International_Rhino_Foundation#Sumatran_Rhino_Sanctuary\" class=\"extiw\" title=\"w:en:International Rhino Foundation\">Sumatran Rhino Sanctuary</a>, <a href=\"https://en.wikipedia.org/wiki/en:Way_Kambas_National_Park\" class=\"extiw\" title=\"w:en:Way Kambas National Park\">Way Kambas</a>, Sumatra, Indonesia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Elsa’s Kopje (Born Free History)",
+          "ai_summary": "A luxury lodge built on the site where George and Joy Adamson raised Elsa the lioness, made famous by the book ‘Born Free’.",
+          "name_english": "Elsa’s Kopje",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Premium pricing",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Reservations required for accommodation."
+          },
+          "suggested_duration": "Overnight stay",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy the infinity pool with views of the park.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 0.12,
+            "longitude": 38.205
+          },
+          "address": "Meru National Park, Kenya",
+          "official_website": "https://example.com/elsas-kopje",
+          "tags": [
+            "Luxury",
+            "History",
+            "Wildlife"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {},
+          "rank_score": 0.858
+        },
+        {
+          "name": "Rojewero River & Adamson’s Falls",
+          "ai_summary": "A picturesque river with cascading waterfalls, ideal for picnics and bird watching.",
+          "name_english": "Rojewero River",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "06:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a picnic and enjoy the serene surroundings.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 0.125,
+            "longitude": 38.21
+          },
+          "address": "Meru National Park, Kenya",
+          "official_website": "https://example.com/rojewero-river",
+          "tags": [
+            "Nature",
+            "Scenic Views",
+            "Bird Watching"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Rhino Sanctuary (Meru)",
+          "ai_summary": "A protected area within Meru National Park dedicated to the conservation of the endangered black and white rhinos.",
+          "name_english": "Rhino Sanctuary",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:30 PM",
+            "Tuesday": "6:00 AM - 6:30 PM",
+            "Wednesday": "6:00 AM - 6:30 PM",
+            "Thursday": "6:00 AM - 6:30 PM",
+            "Friday": "6:00 AM - 6:30 PM",
+            "Saturday": "6:00 AM - 6:30 PM",
+            "Sunday": "6:00 AM - 6:30 PM",
+            "notes": "Best visited with a guide."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the rhino feeding stations if available.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 0.115,
+            "longitude": 38.215
+          },
+          "address": "Meru National Park, Kenya",
+          "official_website": "https://example.com/rhino-sanctuary",
+          "tags": [
+            "Conservation",
+            "Wildlife",
+            "Nature"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Nyambene Hills Scenic Drive",
+          "ai_summary": "A scenic drive offering panoramic views of the Nyambene Hills and the surrounding plains.",
+          "name_english": "Nyambene Hills Drive",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed with a picnic."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Stop at the viewpoints for stunning photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 0.135,
+            "longitude": 38.225
+          },
+          "address": "Meru, Kenya",
+          "official_website": "https://example.com/nyambene-hills-drive",
+          "tags": [
+            "Scenic Drive",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {},
+          "rank_score": 0.77
+        },
+        {
+          "name": "Bisanadi National Reserve (Wilderness)",
+          "ai_summary": "A remote and less-visited reserve offering a true wilderness experience with abundant wildlife and bird species.",
+          "name_english": "Bisanadi National Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:45 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:30 PM",
+            "Tuesday": "6:00 AM - 6:30 PM",
+            "Wednesday": "6:00 AM - 6:30 PM",
+            "Thursday": "6:00 AM - 6:30 PM",
+            "Friday": "6:00 AM - 6:30 PM",
+            "Saturday": "6:00 AM - 6:30 PM",
+            "Sunday": "6:00 AM - 6:30 PM",
+            "notes": "Best visited with a guide."
+          },
+          "suggested_duration": "Full-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Carry enough water and snacks.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 0.145,
+            "longitude": 38.235
+          },
+          "address": "Meru, Kenya",
+          "official_website": "https://example.com/bisanadi-national-reserve",
+          "tags": [
+            "Wilderness",
+            "Wildlife",
+            "Bird Watching"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Aberdare National Park Moorlands",
+          "ai_summary": "The moorland region of Aberdare National Park, known for its unique vegetation, waterfalls, and as a habitat for the endangered bongo.",
+          "name_english": "Aberdare Moorlands",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:30 PM",
+            "Tuesday": "6:00 AM - 6:30 PM",
+            "Wednesday": "6:00 AM - 6:30 PM",
+            "Thursday": "6:00 AM - 6:30 PM",
+            "Friday": "6:00 AM - 6:30 PM",
+            "Saturday": "6:00 AM - 6:30 PM",
+            "Sunday": "6:00 AM - 6:30 PM",
+            "notes": "Best visited with a guide."
+          },
+          "suggested_duration": "Full-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Look out for the unique plant species and wildlife.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -0.083,
+            "longitude": 36.933
+          },
+          "address": "Aberdare National Park, Kenya",
+          "official_website": "https://example.com/aberdare-moorlands",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Hiking"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Shira_moorlands_on_Kilimanjaro.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Shira_moorlands_on_Kilimanjaro.jpg/960px-Shira_moorlands_on_Kilimanjaro.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Shira moorlands on Kilimanjaro",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Skeptic_cdn\" class=\"extiw\" title=\"wikipedia:User:Skeptic cdn\">Skeptic cdn</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Shira_moorlands_on_Kilimanjaro.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "I am the author of this work (Skeptic_cdn)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Karuru Falls (Three-Tiered)",
+          "ai_summary": "A stunning three-tiered waterfall located in the Aberdare National Park, popular for its scenic beauty and picnic spots.",
+          "name_english": "Karuru Falls",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the rainy season for full water flow."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a camera to capture the stunning views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -0.083,
+            "longitude": 36.933
+          },
+          "address": "Aberdare National Park, Kenya",
+          "official_website": "https://example.com/karuru-falls",
+          "tags": [
+            "Nature",
+            "Scenic Views",
+            "Photography"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Frederic_Edwin_Church_-_Niagara_Falls_-_WGA04867.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Frederic_Edwin_Church_-_Niagara_Falls_-_WGA04867.jpg/960px-Frederic_Edwin_Church_-_Niagara_Falls_-_WGA04867.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">Niagara</div></div>",
+                  "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Frederic_Edwin_Church\" class=\"extiw\" title=\"w:en:Frederic Edwin Church\"><span title=\"American landscape painter (1826–1900)\">Frederic Edwin Church</span></a></bdi>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Frederic_Edwin_Church_-_Niagara_Falls_-_WGA04867.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Chania & Gura Falls Viewpoints",
+          "ai_summary": "Scenic viewpoints in the Aberdare National Park offering breathtaking views of the Chania and Gura waterfalls.",
+          "name_english": "Chania & Gura Falls Viewpoints",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning for the best light."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the waterfalls for a full experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -0.083,
+            "longitude": 36.933
+          },
+          "address": "Aberdare National Park, Kenya",
+          "official_website": "https://example.com/chania-gura-falls-viewpoints",
+          "tags": [
+            "Scenic Views",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {},
+          "rank_score": 0.77
+        },
+        {
+          "name": "The Ark & Treetops Lodges (Waterhole Viewing)",
+          "ai_summary": "Famous lodges in the Aberdare region offering unique treehouse accommodation and waterhole viewing for wildlife.",
+          "name_english": "The Ark & Treetops Lodges",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Premium pricing",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Reservations required for accommodation."
+          },
+          "suggested_duration": "Overnight stay",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Experience the unique treehouse stay and waterhole wildlife viewing.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -0.083,
+            "longitude": 36.933
+          },
+          "address": "Aberdare National Park, Kenya",
+          "official_website": "https://example.com/the-ark-treetops-lodges",
+          "tags": [
+            "Luxury",
+            "Wildlife",
+            "Unique Stays"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {},
+          "rank_score": 0.878
+        },
+        {
+          "name": "Bamboo Forest Trails (Aberdares)",
+          "ai_summary": "Trails through the unique bamboo forests of the Aberdare Range, home to various wildlife species and beautiful scenery.",
+          "name_english": "Bamboo Forest Trails",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited with a guide."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Look out for the unique wildlife and plant species.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -0.083,
+            "longitude": 36.933
+          },
+          "address": "Aberdare National Park, Kenya",
+          "official_website": "https://example.com/bamboo-forest-trails",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Wildlife"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Peak_of_Mount_Kenya_2025.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Peak_of_Mount_Kenya_2025.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Peak of Mount Kenya 2025",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Gayle157\" title=\"User:Gayle157\">Gayle157</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Peak_of_Mount_Kenya_2025.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Mount Kenya Peak"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Hiking to Kinangop Peaks (Experienced Hikers)",
+          "ai_summary": "Challenging hike to the Kinangop Peaks, offering stunning views of the Aberdare Range and the Great Rift Valley.",
+          "name_english": "Kinangop Peaks",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best attempted with a guide."
+          },
+          "suggested_duration": "Full-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Start early to avoid afternoon clouds obscuring the view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -0.083,
+            "longitude": 36.933
+          },
+          "address": "Aberdare National Park, Kenya",
+          "official_website": "https://example.com/hiking-kinangop-peaks",
+          "tags": [
+            "Hiking",
+            "Adventure",
+            "Nature"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Trout Fishing Streams (Permits)",
+          "ai_summary": "Streams in the Aberdare region known for trout fishing; permits are required for fishing.",
+          "name_english": "Trout Fishing Streams",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Permit required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:30 PM",
+            "Tuesday": "6:00 AM - 6:30 PM",
+            "Wednesday": "6:00 AM - 6:30 PM",
+            "Thursday": "6:00 AM - 6:30 PM",
+            "Friday": "6:00 AM - 6:30 PM",
+            "Saturday": "6:00 AM - 6:30 PM",
+            "Sunday": "6:00 AM - 6:30 PM",
+            "notes": "Best fished during the early morning or late afternoon."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring your own fishing gear and obtain the necessary permits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -0.083,
+            "longitude": 36.933
+          },
+          "address": "Aberdare National Park, Kenya",
+          "official_website": "https://example.com/trout-fishing-streams",
+          "tags": [
+            "Fishing",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pt_Thomson_Batian_Nelion_Mt_Kenya.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Pt_Thomson_Batian_Nelion_Mt_Kenya.JPG/960px-Pt_Thomson_Batian_Nelion_Mt_Kenya.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pt Thomson Batian Nelion Mt Kenya",
+                  "author": "Chris 73",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pt_Thomson_Batian_Nelion_Mt_Kenya.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Nyeri Baden-Powell Grave & Museum",
+          "ai_summary": "The grave of Lord Baden-Powell, the founder of the Scout Movement, located in Nyeri, with a small museum dedicated to his life.",
+          "name_english": "Baden-Powell Grave & Museum",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Donation suggested",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the nearby museum.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -0.416,
+            "longitude": 36.933
+          },
+          "address": "Nyeri, Kenya",
+          "official_website": "https://example.com/baden-powell-grave-museum",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Baden_Powell_grave1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Baden_Powell_grave1.jpg/960px-Baden_Powell_grave1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Baden Powell grave1",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/carolandjesse\">carolandjesse</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Baden_Powell_grave1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "His gravestone bears a circle with a dot in the center, which is the Boy Scout trail sign for \"I have gone home\": <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:WikiProject_Scouting_going_home_symbol.svg\" class=\"mw-file-description\" title=\"I have gone home\"><img alt=\"I have gone home\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/WikiProject_Scouting_going_home_symbol.svg/20px-WikiProject_Scouting_going_home_symbol.svg.png\" decoding=\"async\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/WikiProject_Scouting_going_home_symbol.svg/40px-WikiProject_Scouting_going_home_symbol.svg.png 1.5x\" data-file-width=\"100\" data-file-height=\"100\"></a></span><br><a href=\"//commons.wikimedia.org/wiki/Robert_Baden-Powell\" title=\"Robert Baden-Powell\">Baden-Powell grave</a> - <a href=\"https://en.wikipedia.org/wiki/Nyeri\" class=\"extiw\" title=\"w:Nyeri\">w:Nyeri</a>, <a href=\"//commons.wikimedia.org/wiki/Kenya\" title=\"Kenya\">Kenya</a>, near <a href=\"//commons.wikimedia.org/wiki/Mount_Kenya\" title=\"Mount Kenya\">Mount Kenya</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Tea & Coffee Estate Tours (Nyeri)",
+          "ai_summary": "Tours of the famous tea and coffee estates in Nyeri, including tastings and a chance to learn about the production process.",
+          "name_english": "Tea & Coffee Estate Tours",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:15 PM",
+          "cost": "Tour fee applicable",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for the estate tours.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -0.416,
+            "longitude": 36.933
+          },
+          "address": "Nyeri, Kenya",
+          "official_website": "https://example.com/tea-coffee-estate-tours",
+          "tags": [
+            "Cultural Experience",
+            "Food & Drink",
+            "Nature"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {},
+          "rank_score": 0.826
+        },
+        {
+          "name": "Wanjohi Valley Views",
+          "ai_summary": "Scenic viewpoints in the Wanjohi Valley, offering breathtaking views of the valley and Mount Kenya in the distance.",
+          "name_english": "Wanjohi Valley Views",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "06:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the nearby tea and coffee estates.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -0.416,
+            "longitude": 36.933
+          },
+          "address": "Nyeri, Kenya",
+          "official_website": "https://example.com/wanjohi-valley-views",
+          "tags": [
+            "Scenic Views",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {},
+          "rank_score": 0.77
+        },
+        {
+          "name": "Elephant & Buffalo Corridors",
+          "ai_summary": "Wildlife corridors in the Meru region, crucial for the migration of elephants and buffaloes between parks and reserves.",
+          "name_english": "Elephant & Buffalo Corridors",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited with a guide."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit during the dry season for better wildlife viewing.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 0.117,
+            "longitude": 38.2
+          },
+          "address": "Meru, Kenya",
+          "official_website": "https://example.com/elephant-buffalo-corridors",
+          "tags": [
+            "Wildlife",
+            "Nature",
+            "Conservation"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Male_Lion_on_Rock.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Male_Lion_on_Rock.jpg/960px-Male_Lion_on_Rock.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Male Lion on Rock",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/wwarby/\">wwarby</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Male_Lion_on_Rock.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Portrait of a male lion basking in the sun on a rocky outcrop in Serengeti National Park, Tanzania."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Birding: Hartlaub’s Turaco & Moorland Chats",
+          "ai_summary": "Birdwatching opportunities in the Meru and Aberdare regions, with chances to see Hartlaub’s Turaco and Moorland Chats.",
+          "name_english": "Birding in Meru & Aberdares",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited with a guide."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring binoculars and a bird guidebook.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 0.117,
+            "longitude": 38.2
+          },
+          "address": "Meru, Kenya",
+          "official_website": "https://example.com/birding-hartlaubs-turaco-moorland-chats",
+          "tags": [
+            "Bird Watching",
+            "Nature",
+            "Wildlife"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lilac-breasted_Roller_Vertical.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Lilac-breasted_Roller_Vertical.jpg/960px-Lilac-breasted_Roller_Vertical.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lilac-breasted Roller Vertical",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Zachalfred&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Zachalfred (page does not exist)\">Zachary Alfred</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lilac-breasted_Roller_Vertical.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "A lilac-breasted roller photographed in Hwange National Park, Zimbabwe, April 2017"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Sunrise above the Cloud Forest",
+          "ai_summary": "Witness the breathtaking sunrise above the cloud forest in the Aberdare Range, a truly magical experience.",
+          "name_english": "Sunrise above the Cloud Forest",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed from a high vantage point."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Early morning",
+          "place_tip": "Dress warmly, it can be cold in the mornings.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -0.083,
+            "longitude": 36.933
+          },
+          "address": "Aberdare National Park, Kenya",
+          "official_website": "https://example.com/sunrise-above-cloud-forest",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Scenic Views"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Peak_of_Mount_Kenya_2025.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Peak_of_Mount_Kenya_2025.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Peak of Mount Kenya 2025",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Gayle157\" title=\"User:Gayle157\">Gayle157</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Peak_of_Mount_Kenya_2025.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Mount Kenya Peak"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Misty Moorland Photography",
+          "ai_summary": "Capture the stunning landscapes of the moorlands in Aberdare, especially beautiful when shrouded in mist.",
+          "name_english": "Misty Moorland Photography",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "The moorlands are best photographed in the soft morning light.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -0.083,
+            "longitude": 36.933
+          },
+          "address": "Aberdare National Park, Kenya",
+          "official_website": "https://example.com/misty-moorland-photography",
+          "tags": [
+            "Photography",
+            "Nature",
+            "Scenic Views"
+          ],
+          "state": "Meru And Aberdare Range",
+          "photos": {},
+          "rank_score": 0.746
+        }
+      ]
+    }
+  ]
+}

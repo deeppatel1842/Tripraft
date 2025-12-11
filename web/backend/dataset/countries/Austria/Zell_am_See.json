@@ -1,0 +1,710 @@
+{
+  "country": "Austria",
+  "state": "Salzburg",
+  "cities": [
+    {
+      "city": "Zell am See",
+      "nearest_airport": "Salzburg Airport (SZG)",
+      "places": [
+        {
+          "name": "Lake Zell Cruise",
+          "ai_summary": "Lake Zell offers a serene and picturesque setting for a boat cruise. Visitors can enjoy panoramic views of the surrounding mountains and the charming town of Zell am See.",
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Hours may vary seasonally."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "May–Sep",
+          "place_tip": "Book a sunset cruise for a magical experience.",
+          "advanced_booking": "Recommended",
+          "name_english": "Lake Zell Cruise",
+          "state": "Zell am See",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:00",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 47.3247,
+            "longitude": 12.7943
+          },
+          "address": "Esplanade, 5700 Zell am See, Austria",
+          "photos": {
+            "osm": [],
+            "wikipedia": [],
+            "wikimedia_commons": {
+              "source_file": "File:Austria relief location map.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Austria_relief_location_map.jpg/960px-Austria_relief_location_map.jpg",
+                "width": 800,
+                "height": 446,
+                "attribution": {
+                  "title": "Austria relief location map",
+                  "author": "Uwe Dedering",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Austria_relief_location_map.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Location map of Austria \nEquirectangular projection, N/S stretching 150 %. Geographic limits of the map: \n\nN: 49.2° N\nS: 46.3° N\nW: 9.4° E\nE: 17.2° E\nMade with Natural Earth. Free vector and raster map data @ naturalearthdata.com."
+                }
+              }
+            }
+          },
+          "name_native": "Zeller See",
+          "official_website": "https://www.zellamsee-kaprun.com/",
+          "tags": [
+            "Lake",
+            "Cruise",
+            "Nature",
+            "Relaxation"
+          ],
+          "rank_score": 0.8235
+        },
+        {
+          "name": "Schmittenhöhe Mountain Cable Car",
+          "ai_summary": "The Schmittenhöhe Mountain Cable Car takes visitors to one of the best viewpoints in Zell am See. Enjoy breathtaking views of the Alps and various hiking trails.",
+          "opening_hours": {
+            "Monday": "08:30-16:30",
+            "Tuesday": "08:30-16:30",
+            "Wednesday": "08:30-16:30",
+            "Thursday": "08:30-16:30",
+            "Friday": "08:30-16:30",
+            "Saturday": "08:30-16:30",
+            "Sunday": "08:30-16:30",
+            "notes": "Hours may vary depending on the season."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Bring a camera to capture the stunning alpine scenery.",
+          "advanced_booking": "Not required",
+          "name_english": "Schmittenhöhe Mountain Cable Car",
+          "state": "Zell am See",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:00",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 47.3267,
+            "longitude": 12.7578
+          },
+          "address": "Schmittenstraße 119, 5700 Zell am See, Austria",
+          "photos": {
+            "osm": [],
+            "wikipedia": [],
+            "wikimedia_commons": {
+              "source_file": "File:Austria relief location map.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Austria_relief_location_map.jpg/960px-Austria_relief_location_map.jpg",
+                "width": 800,
+                "height": 446,
+                "attribution": {
+                  "title": "Austria relief location map",
+                  "author": "Uwe Dedering",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Austria_relief_location_map.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Location map of Austria \nEquirectangular projection, N/S stretching 150 %. Geographic limits of the map: \n\nN: 49.2° N\nS: 46.3° N\nW: 9.4° E\nE: 17.2° E\nMade with Natural Earth. Free vector and raster map data @ naturalearthdata.com."
+                }
+              }
+            }
+          },
+          "name_native": "Schmittenhöhebahn",
+          "official_website": "https://www.schmitten.at/",
+          "tags": [
+            "Mountain",
+            "Cable Car",
+            "Viewpoint",
+            "Hiking"
+          ],
+          "rank_score": 0.8265
+        },
+        {
+          "name": "Kitzsteinhorn Glacier (day trip)",
+          "ai_summary": "The Kitzsteinhorn Glacier offers year-round skiing and breathtaking views of the Alps. Visitors can enjoy cable car rides, hiking trails, and the Gipfelwelt 3000 viewing platform.",
+          "opening_hours": {
+            "Monday": "08:15-16:30",
+            "Tuesday": "08:15-16:30",
+            "Wednesday": "08:15-16:30",
+            "Thursday": "08:15-16:30",
+            "Friday": "08:15-16:30",
+            "Saturday": "08:15-16:30",
+            "Sunday": "08:15-16:30",
+            "notes": "Hours may vary seasonally."
+          },
+          "suggested_duration": "4–6 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Dress warmly and visit the Ice Arena for a unique experience.",
+          "advanced_booking": "Recommended",
+          "name_english": "Kitzsteinhorn Glacier",
+          "state": "Zell am See",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:00",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 47.1986,
+            "longitude": 12.7606
+          },
+          "address": "Kitzsteinhorn, 5710 Kaprun, Austria",
+          "photos": {
+            "osm": [],
+            "wikipedia": [],
+            "wikimedia_commons": {
+              "source_file": "File:AUT Zell am See COA.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/AUT_Zell_am_See_COA.svg/800px-AUT_Zell_am_See_COA.svg.png",
+                "width": 800,
+                "height": 925,
+                "attribution": {
+                  "title": "AUT Zell am See COA",
+                  "author": "unknown; Zell am See",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:AUT_Zell_am_See_COA.svg",
+                  "credit": "\"Fahnen-Gärtner GmbH, Mittersill\nhttp://www.zellamsee.salzburg.at/system/web/sonderseite.aspx?menuonr=220940286&amp;detailonr=220940286",
+                  "usage_terms": "Public domain",
+                  "description": "Coat-of-arms of the municipality Zell am See, Salzburg (Austria). Blazoning of arms: “Sable, on a base proper (Vert) a representation of the patron-saint of Zell am See, Saint Hippolytus, that is a knight facing dexter, armed at all points, nimbed Or, wearing a cap Gules with a cuff Ermine and bearing over his sinister shoulder a coat Gules, in his dexter arm holding a guidon Argent a cross Gules, in his sinister arm, that is also supporting the coat, a sword leaned against his shoulder.”"
+                }
+              }
+            }
+          },
+          "name_native": "Kitzsteinhorn",
+          "official_website": "https://www.kitzsteinhorn.at/",
+          "tags": [
+            "Glacier",
+            "Skiing",
+            "Hiking",
+            "Viewpoint"
+          ],
+          "rank_score": 0.7813
+        },
+        {
+          "name": "Zell am See-Kaprun Golf Course",
+          "ai_summary": "This 36-hole golf course is set in the stunning Kaprun-Zell am See region, offering a challenging game for all levels amidst beautiful scenery.",
+          "opening_hours": {
+            "Monday": "07:00-19:00",
+            "Tuesday": "07:00-19:00",
+            "Wednesday": "07:00-19:00",
+            "Thursday": "07:00-19:00",
+            "Friday": "07:00-19:00",
+            "Saturday": "07:00-19:00",
+            "Sunday": "07:00-19:00",
+            "notes": "Tee times required."
+          },
+          "suggested_duration": "4–5 hours",
+          "best_time_to_visit": "Apr–Oct",
+          "place_tip": "Try the local specialty, 'Kaiserschmarrn', at the clubhouse.",
+          "advanced_booking": "Recommended",
+          "name_english": "Zell am See-Kaprun Golf Course",
+          "state": "Zell am See",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:00",
+          "cost": "Paid (green fee required)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.3265,
+            "longitude": 12.7857
+          },
+          "address": "Golfplatz 1, 5700 Zell am See, Austria",
+          "photos": {
+            "osm": [],
+            "wikipedia": [],
+            "wikimedia_commons": {
+              "source_file": "File:Austria adm location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Austria_adm_location_map.svg/960px-Austria_adm_location_map.svg.png",
+                "width": 800,
+                "height": 446,
+                "attribution": {
+                  "title": "Austria adm location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Austria_adm_location_map.svg",
+                  "credit": "Own work using:\n\nUnited States National Imagery and Mapping Agency data\nWorld Data Base II data\nFile:Austria location map.svg by User:Lencer",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Austria"
+                }
+              }
+            }
+          },
+          "name_native": "Golfplatz Zell am See-Kaprun",
+          "official_website": "https://www.zellamsee-kaprun.com/golf/",
+          "tags": [
+            "Golf",
+            "Sport",
+            "Nature",
+            "Relaxation"
+          ],
+          "rank_score": 0.6534
+        },
+        {
+          "name": "Sigmund-Thun Gorge",
+          "ai_summary": "A stunning natural gorge with walking paths and bridges, offering a close-to-nature experience and impressive views of the water and rock formations.",
+          "opening_hours": {
+            "Monday": "08:00-18:00",
+            "Tuesday": "08:00-18:00",
+            "Wednesday": "08:00-18:00",
+            "Thursday": "08:00-18:00",
+            "Friday": "08:00-18:00",
+            "Saturday": "08:00-18:00",
+            "Sunday": "08:00-18:00",
+            "notes": "Hours may vary seasonally."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "May–Oct",
+          "place_tip": "Wear sturdy shoes and bring water.",
+          "advanced_booking": "Not required",
+          "name_english": "Sigmund-Thun Gorge",
+          "state": "Zell am See",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:00",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.3261,
+            "longitude": 12.7851
+          },
+          "address": "Gorge Road, 5700 Zell am See, Austria",
+          "photos": {
+            "osm": [],
+            "wikipedia": [],
+            "wikimedia_commons": {
+              "thumbnail": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "attribution": {
+                  "title": null,
+                  "author": null,
+                  "license": null,
+                  "license_url": null,
+                  "source_url": null
+                }
+              },
+              "gallery": [
+                {
+                  "url": null,
+                  "width": null,
+                  "height": null,
+                  "attribution": {
+                    "title": null,
+                    "author": null,
+                    "license": null,
+                    "license_url": null,
+                    "source_url": null
+                  }
+                },
+                {
+                  "url": null,
+                  "width": null,
+                  "height": null,
+                  "attribution": {
+                    "title": null,
+                    "author": null,
+                    "license": null,
+                    "license_url": null,
+                    "source_url": null
+                  }
+                },
+                {
+                  "url": null,
+                  "width": null,
+                  "height": null,
+                  "attribution": {
+                    "title": null,
+                    "author": null,
+                    "license": null,
+                    "license_url": null,
+                    "source_url": null
+                  }
+                }
+              ]
+            }
+          },
+          "name_native": "Sigmund-Thun-Klamm",
+          "official_website": "https://www.zellamsee-kaprun.com/sigmund-thun-klamm/",
+          "tags": [
+            "Gorge",
+            "Nature",
+            "Hiking",
+            "Photography"
+          ],
+          "rank_score": 0.685
+        },
+        {
+          "name": "Kaprun Castle",
+          "ai_summary": "A historic castle offering guided tours, a museum, and stunning views of the Kaprun valley and the surrounding mountains.",
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed in winter, from early November to mid-April."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "May–Oct",
+          "place_tip": "Check the schedule for guided tour times.",
+          "advanced_booking": "Recommended",
+          "name_english": "Kaprun Castle",
+          "state": "Kaprun",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:00",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.2497,
+            "longitude": 12.7578
+          },
+          "address": "Schloßstraße 33, 5710 Kaprun, Austria",
+          "photos": {
+            "osm": [],
+            "wikipedia": [],
+            "wikimedia_commons": {
+              "source_file": "File:AUT Zell am See COA.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/AUT_Zell_am_See_COA.svg/800px-AUT_Zell_am_See_COA.svg.png",
+                "width": 800,
+                "height": 925,
+                "attribution": {
+                  "title": "AUT Zell am See COA",
+                  "author": "unknown; Zell am See",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:AUT_Zell_am_See_COA.svg",
+                  "credit": "\"Fahnen-Gärtner GmbH, Mittersill\nhttp://www.zellamsee.salzburg.at/system/web/sonderseite.aspx?menuonr=220940286&amp;detailonr=220940286",
+                  "usage_terms": "Public domain",
+                  "description": "Coat-of-arms of the municipality Zell am See, Salzburg (Austria). Blazoning of arms: “Sable, on a base proper (Vert) a representation of the patron-saint of Zell am See, Saint Hippolytus, that is a knight facing dexter, armed at all points, nimbed Or, wearing a cap Gules with a cuff Ermine and bearing over his sinister shoulder a coat Gules, in his dexter arm holding a guidon Argent a cross Gules, in his sinister arm, that is also supporting the coat, a sword leaned against his shoulder.”"
+                }
+              }
+            }
+          },
+          "name_native": "Burg Kaprun",
+          "official_website": "https://www.kaprun.com/en/castle",
+          "tags": [
+            "Castle",
+            "History",
+            "Museum",
+            "Viewpoint"
+          ],
+          "rank_score": 0.6985
+        },
+        {
+          "name": "Zeller Seezauber (Lake Zell Magic)",
+          "ai_summary": "A magical light and sound show at Lake Zell, featuring stunning visual effects projected onto the water, telling the story of the region.",
+          "opening_hours": {
+            "Monday": "N/A",
+            "Tuesday": "N/A",
+            "Wednesday": "N/A",
+            "Thursday": "N/A",
+            "Friday": "N/A",
+            "Saturday": "N/A",
+            "Sunday": "N/A",
+            "notes": "Check the official website for the show schedule."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Jun–Sep (depending on the show schedule)",
+          "place_tip": "Arrive early for the best viewing spots.",
+          "advanced_booking": "Not required",
+          "name_english": "Zeller Seezauber",
+          "state": "Zell am See",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "21:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.3247,
+            "longitude": 12.7943
+          },
+          "address": "Esplanade, 5700 Zell am See, Austria",
+          "photos": {
+            "osm": [],
+            "wikipedia": [],
+            "wikimedia_commons": {
+              "source_file": "File:AUT Zell am See COA.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/AUT_Zell_am_See_COA.svg/800px-AUT_Zell_am_See_COA.svg.png",
+                "width": 800,
+                "height": 925,
+                "attribution": {
+                  "title": "AUT Zell am See COA",
+                  "author": "unknown; Zell am See",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:AUT_Zell_am_See_COA.svg",
+                  "credit": "\"Fahnen-Gärtner GmbH, Mittersill\nhttp://www.zellamsee.salzburg.at/system/web/sonderseite.aspx?menuonr=220940286&amp;detailonr=220940286",
+                  "usage_terms": "Public domain",
+                  "description": "Coat-of-arms of the municipality Zell am See, Salzburg (Austria). Blazoning of arms: “Sable, on a base proper (Vert) a representation of the patron-saint of Zell am See, Saint Hippolytus, that is a knight facing dexter, armed at all points, nimbed Or, wearing a cap Gules with a cuff Ermine and bearing over his sinister shoulder a coat Gules, in his dexter arm holding a guidon Argent a cross Gules, in his sinister arm, that is also supporting the coat, a sword leaned against his shoulder.”"
+                }
+              }
+            }
+          },
+          "name_native": "Zeller Seezauber",
+          "official_website": "https://www.zellamsee-kaprun.com/zeller-seezauber/",
+          "tags": [
+            "Light Show",
+            "Lake",
+            "Magic",
+            "Event"
+          ],
+          "rank_score": 0.6772
+        },
+        {
+          "name": "Tauern Spa Zell am See-Kaprun",
+          "ai_summary": "A luxurious spa and wellness center offering a range of treatments, thermal baths, and relaxation areas with stunning mountain views.",
+          "opening_hours": {
+            "Monday": "09:00-21:00",
+            "Tuesday": "09:00-21:00",
+            "Wednesday": "09:00-21:00",
+            "Thursday": "09:00-21:00",
+            "Friday": "09:00-21:00",
+            "Saturday": "09:00-21:00",
+            "Sunday": "09:00-21:00",
+            "notes": "Advance booking recommended for treatments."
+          },
+          "suggested_duration": "2–4 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don't miss the rooftop thermal bath with panoramic views.",
+          "advanced_booking": "Recommended",
+          "name_english": "Tauern Spa Zell am See-Kaprun",
+          "state": "Kaprun",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "20:00",
+          "cost": "Paid (entry and treatments extra)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 47.2491,
+            "longitude": 12.759
+          },
+          "address": "Schillerstraße 7, 5710 Kaprun, Austria",
+          "photos": {
+            "osm": [],
+            "wikipedia": [],
+            "wikimedia_commons": {
+              "source_file": "File:Austria adm location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Austria_adm_location_map.svg/960px-Austria_adm_location_map.svg.png",
+                "width": 800,
+                "height": 446,
+                "attribution": {
+                  "title": "Austria adm location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Austria_adm_location_map.svg",
+                  "credit": "Own work using:\n\nUnited States National Imagery and Mapping Agency data\nWorld Data Base II data\nFile:Austria location map.svg by User:Lencer",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Austria"
+                }
+              }
+            }
+          },
+          "name_native": "Tauern Spa",
+          "official_website": "https://www.tauernspakaprun.com/",
+          "tags": [
+            "Spa",
+            "Wellness",
+            "Relaxation",
+            "Thermal Baths"
+          ],
+          "rank_score": 0.7977
+        },
+        {
+          "name": "Kraftwerk Informationszentrum",
+          "ai_summary": "An information center and museum about the Kaprun hydroelectric power station, featuring interactive exhibits and guided tours.",
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on weekends in winter."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Combine with a visit to the Kaprun Castle for a full day of exploration.",
+          "advanced_booking": "Not required",
+          "name_english": "Kraftwerk Informationszentrum",
+          "state": "Kaprun",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:00",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 3,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.2494,
+            "longitude": 12.7572
+          },
+          "address": "Kraftwerkstraße 1, 5710 Kaprun, Austria",
+          "photos": {
+            "osm": [],
+            "wikipedia": [],
+            "wikimedia_commons": {
+              "thumbnail": {
+                "url": null,
+                "width": null,
+                "height": null,
+                "attribution": {
+                  "title": null,
+                  "author": null,
+                  "license": null,
+                  "license_url": null,
+                  "source_url": null
+                }
+              },
+              "gallery": [
+                {
+                  "url": null,
+                  "width": null,
+                  "height": null,
+                  "attribution": {
+                    "title": null,
+                    "author": null,
+                    "license": null,
+                    "license_url": null,
+                    "source_url": null
+                  }
+                },
+                {
+                  "url": null,
+                  "width": null,
+                  "height": null,
+                  "attribution": {
+                    "title": null,
+                    "author": null,
+                    "license": null,
+                    "license_url": null,
+                    "source_url": null
+                  }
+                },
+                {
+                  "url": null,
+                  "width": null,
+                  "height": null,
+                  "attribution": {
+                    "title": null,
+                    "author": null,
+                    "license": null,
+                    "license_url": null,
+                    "source_url": null
+                  }
+                }
+              ]
+            }
+          },
+          "name_native": "Kraftwerk Kaprun",
+          "official_website": "https://www.kaprun.com/en/hydroelectric-power-station",
+          "tags": [
+            "Museum",
+            "Technology",
+            "History",
+            "Education"
+          ],
+          "rank_score": 0.589
+        },
+        {
+          "name": "Maiskogel Mountain",
+          "ai_summary": "A family-friendly mountain offering hiking trails, a summer toboggan run, and stunning views of the Hohe Tauern mountains.",
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Hours may vary seasonally."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "May–Oct",
+          "place_tip": "Take the cable car for an easy and scenic ascent.",
+          "advanced_booking": "Not required",
+          "name_english": "Maiskogel Mountain",
+          "state": "Kaprun",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:00",
+          "cost": "Paid (cable car and attractions)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.2631,
+            "longitude": 12.759
+          },
+          "address": "Maiskogel, 5710 Kaprun, Austria",
+          "photos": {
+            "osm": [],
+            "wikipedia": [],
+            "wikimedia_commons": {
+              "source_file": "File:Austria adm location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Austria_adm_location_map.svg/960px-Austria_adm_location_map.svg.png",
+                "width": 800,
+                "height": 446,
+                "attribution": {
+                  "title": "Austria adm location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Austria_adm_location_map.svg",
+                  "credit": "Own work using:\n\nUnited States National Imagery and Mapping Agency data\nWorld Data Base II data\nFile:Austria location map.svg by User:Lencer",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Austria"
+                }
+              }
+            }
+          },
+          "name_native": "Maiskogel",
+          "official_website": "https://www.kaprun.com/en/mais/",
+          "tags": [
+            "Mountain",
+            "Family",
+            "Hiking",
+            "Summer Toboggan"
+          ],
+          "rank_score": 0.676
+        }
+      ]
+    }
+  ]
+}

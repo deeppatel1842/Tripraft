@@ -1,0 +1,1092 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "St. Mark’s Basilica",
+          "ai_summary": "A stunning cathedral known for its Italo-Byzantine architecture, mosaics, and the Pala d’Oro altarpiece.",
+          "name_english": "St. Mark’s Basilica",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free (additional fees for museum and terrace)",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "9:30 AM - 5:00 PM",
+            "tue": "9:30 AM - 5:00 PM",
+            "wed": "9:30 AM - 5:00 PM",
+            "thu": "9:30 AM - 5:00 PM",
+            "fri": "9:30 AM - 5:00 PM",
+            "sat": "9:30 AM - 5:00 PM",
+            "sun": "2:00 PM - 5:00 PM",
+            "notes": "Check for special events and closures."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit early to avoid long queues.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.434,
+            "lng": 12.3398
+          },
+          "address": "Piazza San Marco, Venice, Italy",
+          "official_website": "https://www.basilicasanmarco.it",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Religious"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:0 Venise, pilier dit de Saint-Jean d'Acre 2.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/0_Venise%2C_pilier_dit_de_Saint-Jean_d%27Acre_2.JPG/960px-0_Venise%2C_pilier_dit_de_Saint-Jean_d%27Acre_2.JPG",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "0 Venise, pilier dit de Saint-Jean d'Acre 2",
+                  "author": "Jean-Pol GRANDMONT",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:0_Venise,_pilier_dit_de_Saint-Jean_d'Acre_2.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Doge’s Palace",
+          "ai_summary": "A historic palace that served as the residence of the Doge of Venice, featuring Gothic architecture and the Bridge of Sighs.",
+          "name_english": "Doge’s Palace",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€25 per person",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "9:00 AM - 6:00 PM",
+            "tue": "9:00 AM - 6:00 PM",
+            "wed": "9:00 AM - 6:00 PM",
+            "thu": "9:00 AM - 6:00 PM",
+            "fri": "9:00 AM - 6:00 PM",
+            "sat": "9:00 AM - 6:00 PM",
+            "sun": "9:00 AM - 6:00 PM",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the Secret Itineraries tour.",
+          "advanced_booking": "Highly recommended",
+          "coordinates": {
+            "lat": 45.4339,
+            "lng": 12.3408
+          },
+          "address": "Piazza San Marco, Venice, Italy",
+          "official_website": "https://www.palazzoducale.visitmuve.it",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Cultural"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:(Venice) Bocca di Leone in the Doge's Palace.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/%28Venice%29_Bocca_di_Leone_in_the_Doge%27s_Palace.jpg/960px-%28Venice%29_Bocca_di_Leone_in_the_Doge%27s_Palace.jpg",
+                "width": 800,
+                "height": 881,
+                "attribution": {
+                  "title": "(Venice) Bocca di Leone in the Doge's Palace",
+                  "author": "Didier Descouens",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:(Venice)_Bocca_di_Leone_in_the_Doge's_Palace.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Grand Canal",
+          "ai_summary": "The main waterway of Venice, lined with historic buildings and best explored via gondola or vaporetto.",
+          "name_english": "Grand Canal",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:00 PM",
+          "cost": "Free (gondola rides cost extra)",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best experienced during sunrise or sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Take a gondola ride for a unique perspective.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.4408,
+            "lng": 12.3155
+          },
+          "address": "Grand Canal, Venice, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Cultural",
+            "Relaxing"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Canal lock.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Canal_lock.svg/800px-Canal_lock.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Canal lock",
+                  "author": "Canallock.png: created by Nommonomanac at en.wikipedia\nFile:Esclusa de un canal.svg: SVG conversion by ecelan (talk)\nEnglish labels by Kanguole",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Canal_lock.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Rialto Bridge",
+          "ai_summary": "The oldest bridge across the Grand Canal, known for its iconic arch and vibrant market area.",
+          "name_english": "Rialto Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best viewed at sunrise or sunset."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Visit the nearby Rialto Market for a local experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.438,
+            "lng": 12.3356
+          },
+          "address": "Rialto Bridge, Venice, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "St. Mark’s Square (Piazza San Marco)",
+          "ai_summary": "The principal public square of Venice, known for its stunning architecture, cafes, and the Campanile bell tower.",
+          "name_english": "St. Mark’s Square (Piazza San Marco)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free (additional fees for Campanile and museums)",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "6:00 AM - 10:00 PM",
+            "tue": "6:00 AM - 10:00 PM",
+            "wed": "6:00 AM - 10:00 PM",
+            "thu": "6:00 AM - 10:00 PM",
+            "fri": "6:00 AM - 10:00 PM",
+            "sat": "6:00 AM - 10:00 PM",
+            "sun": "6:00 AM - 10:00 PM",
+            "notes": "Check for events and concerts."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Climb the Campanile for a panoramic view of Venice.",
+          "advanced_booking": "Recommended for Campanile",
+          "coordinates": {
+            "lat": 45.4372,
+            "lng": 12.3356
+          },
+          "address": "Piazza San Marco, Venice, Italy",
+          "official_website": "https://www.veneziaunica.it/en/easy-venice/st-mark-s-square",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Cultural"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:4392 - Venezia - Pietro Lamberti o Nanni di Bartolo, Giudizio di Salomone - Foto Giovanni Dall'Orto, 8-Aug-2007.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/4392_-_Venezia_-_Pietro_Lamberti_o_Nanni_di_Bartolo%2C_Giudizio_di_Salomone_-_Foto_Giovanni_Dall%27Orto%2C_8-Aug-2007.jpg/960px-4392_-_Venezia_-_Pietro_Lamberti_o_Nanni_di_Bartolo%2C_Giudizio_di_Salomone_-_Foto_Giovanni_Dall%27Orto%2C_8-Aug-2007.jpg",
+                "width": 800,
+                "height": 1205,
+                "attribution": {
+                  "title": "4392 - Venezia - Pietro Lamberti o Nanni di Bartolo, Giudizio di Salomone - Foto Giovanni Dall'Orto, 8-Aug-2007",
+                  "author": "Giovanni Dall'Orto",
+                  "license": "Attribution",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:4392_-_Venezia_-_Pietro_Lamberti_o_Nanni_di_Bartolo,_Giudizio_di_Salomone_-_Foto_Giovanni_Dall'Orto,_8-Aug-2007.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Bridge of Sighs",
+          "ai_summary": "A famous bridge in Venice that connects the Doge’s Palace to the prison, known for its beautiful architecture and tragic history.",
+          "name_english": "Bridge of Sighs",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free (view from outside)",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "9:00 AM - 6:00 PM",
+            "tue": "9:00 AM - 6:00 PM",
+            "wed": "9:00 AM - 6:00 PM",
+            "thu": "9:00 AM - 6:00 PM",
+            "fri": "9:00 AM - 6:00 PM",
+            "sat": "9:00 AM - 6:00 PM",
+            "sun": "9:00 AM - 6:00 PM",
+            "notes": "Best viewed from the outside."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Take a gondola ride to pass under the bridge.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.4334,
+            "lng": 12.3398
+          },
+          "address": "Piazza San Marco, Venice, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Cultural"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:0 Venise, le pont des Soupirs franchissant le Rio di Palazzo o Rio della Canonica (2).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/0_Venise%2C_le_pont_des_Soupirs_franchissant_le_Rio_di_Palazzo_o_Rio_della_Canonica_%282%29.jpg/960px-0_Venise%2C_le_pont_des_Soupirs_franchissant_le_Rio_di_Palazzo_o_Rio_della_Canonica_%282%29.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "0 Venise, le pont des Soupirs franchissant le Rio di Palazzo o Rio della Canonica (2)",
+                  "author": "Jean-Pol GRANDMONT",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:0_Venise,_le_pont_des_Soupirs_franchissant_le_Rio_di_Palazzo_o_Rio_della_Canonica_(2).jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Murano Island (Glassmaking)",
+          "ai_summary": "Famous for its glassmaking industry, Murano Island is a short boat ride from Venice and offers a glimpse into traditional Venetian craftsmanship.",
+          "name_english": "Murano Island (Glassmaking)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free (glassmaking demonstrations may have a fee)",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "10:00 AM - 6:00 PM",
+            "tue": "10:00 AM - 6:00 PM",
+            "wed": "10:00 AM - 6:00 PM",
+            "thu": "10:00 AM - 6:00 PM",
+            "fri": "10:00 AM - 6:00 PM",
+            "sat": "10:00 AM - 6:00 PM",
+            "sun": "10:00 AM - 6:00 PM",
+            "notes": "Check for glassmaking demonstration schedules."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit a glass factory to see artisans at work.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.6094,
+            "lng": 12.3417
+          },
+          "address": "Murano, Venice, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Artisanal",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Burano Island (Colorful Houses)",
+          "ai_summary": "Known for its brightly colored houses and lace-making tradition, Burano Island is a picturesque destination a short boat ride from Venice.",
+          "name_english": "Burano Island (Colorful Houses)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best explored on foot."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Try to visit a lace shop to see the artisans at work.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.6282,
+            "lng": 12.4279
+          },
+          "address": "Burano, Venice, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Scenic",
+            "Artisanal"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:\"Luce che viene e luce che va\".jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/%22Luce_che_viene_e_luce_che_va%22.jpg/960px-%22Luce_che_viene_e_luce_che_va%22.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "\"Luce che viene e luce che va\"",
+                  "author": "Gianfranco Zanovello",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:\"Luce_che_viene_e_luce_che_va\".jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lido Beach",
+          "ai_summary": "A popular beach destination for Venetians, Lido Beach offers a sandy shoreline and a break from the city's crowds.",
+          "name_english": "Lido Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "9:00 AM - 6:00 PM",
+            "tue": "9:00 AM - 6:00 PM",
+            "wed": "9:00 AM - 6:00 PM",
+            "thu": "9:00 AM - 6:00 PM",
+            "fri": "9:00 AM - 6:00 PM",
+            "sat": "9:00 AM - 6:00 PM",
+            "sun": "9:00 AM - 6:00 PM",
+            "notes": "Check for beach facility hours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Bring your own beach umbrella and snacks.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.429,
+            "lng": 12.3486
+          },
+          "address": "Lido Beach, Venice, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Relaxing",
+            "Scenic",
+            "Outdoor"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Peggy Guggenheim Collection",
+          "ai_summary": "An art museum in Peggy Guggenheim's former home, featuring an impressive collection of modern art.",
+          "name_english": "Peggy Guggenheim Collection",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€15 per person",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "10:00 AM - 6:00 PM",
+            "tue": "10:00 AM - 6:00 PM",
+            "wed": "10:00 AM - 6:00 PM",
+            "thu": "10:00 AM - 6:00 PM",
+            "fri": "10:00 AM - 6:00 PM",
+            "sat": "10:00 AM - 6:00 PM",
+            "sun": "10:00 AM - 6:00 PM",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the museum shop for unique souvenirs.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 45.4331,
+            "lng": 12.3348
+          },
+          "address": "Dorsoduro, 701-704, 30123 Venezia VE, Italy",
+          "official_website": "https://www.guggenheim-venice.it",
+          "tags": [
+            "Art",
+            "Cultural",
+            "Historical"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Albert Gleizes, 1914, Woman with Animals, oil on canvas, 196.4 x 114.1 cm, Peggy Guggenheim Collection.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Albert_Gleizes%2C_1914%2C_Woman_with_Animals%2C_oil_on_canvas%2C_196.4_x_114.1_cm%2C_Peggy_Guggenheim_Collection.jpg/960px-Albert_Gleizes%2C_1914%2C_Woman_with_Animals%2C_oil_on_canvas%2C_196.4_x_114.1_cm%2C_Peggy_Guggenheim_Collection.jpg",
+                "width": 800,
+                "height": 1374,
+                "attribution": {
+                  "title": "French:  La Dame aux bêtes (Madame Raymond Duchamp Villon) Woman with animalstitle QS:P1476,fr:\"La Dame aux bêtes (Madame Raymond Duchamp Villon) \"label QS:Lfr,\"La Dame aux bêtes (Madame Raymond Duchamp Villon) \"label QS:Len,\"Woman with animals\"",
+                  "author": "Albert Gleizes",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Albert_Gleizes,_1914,_Woman_with_Animals,_oil_on_canvas,_196.4_x_114.1_cm,_Peggy_Guggenheim_Collection.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Teatro La Fenice",
+          "ai_summary": "A historic opera house in Venice, renowned for its exceptional acoustics and beautiful interior.",
+          "name_english": "Teatro La Fenice",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Varies by performance",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "10:00 AM - 6:00 PM",
+            "tue": "10:00 AM - 6:00 PM",
+            "wed": "10:00 AM - 6:00 PM",
+            "thu": "10:00 AM - 6:00 PM",
+            "fri": "10:00 AM - 6:00 PM",
+            "sat": "10:00 AM - 6:00 PM",
+            "sun": "Closed",
+            "notes": "Check performance schedule for exact hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening (for performances)",
+          "place_tip": "Book tickets in advance for popular shows.",
+          "advanced_booking": "Highly recommended",
+          "coordinates": {
+            "lat": 45.4335,
+            "lng": 12.3349
+          },
+          "address": "Campo San Fantin, 1965, 30124 Venezia VE, Italy",
+          "official_website": "https://www.teatrolafenice.it",
+          "tags": [
+            "Cultural",
+            "Historical",
+            "Architectural"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Torcello Island",
+          "ai_summary": "A quiet island in the Venetian Lagoon, known for its historic churches and natural beauty.",
+          "name_english": "Torcello Island",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free (additional fees for church entrances)",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "10:00 AM - 5:00 PM",
+            "tue": "10:00 AM - 5:00 PM",
+            "wed": "10:00 AM - 5:00 PM",
+            "thu": "10:00 AM - 5:00 PM",
+            "fri": "10:00 AM - 5:00 PM",
+            "sat": "10:00 AM - 5:00 PM",
+            "sun": "10:00 AM - 5:00 PM",
+            "notes": "Check for seasonal variations in hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Visit the Basilica di Santa Maria Assunta.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.4878,
+            "lng": 12.3748
+          },
+          "address": "Torcello, Venice, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Cultural",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:0 Torcello, Cathédrale Santa Maria Assunta (1).JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/0_Torcello%2C_Cath%C3%A9drale_Santa_Maria_Assunta_%281%29.JPG/960px-0_Torcello%2C_Cath%C3%A9drale_Santa_Maria_Assunta_%281%29.JPG",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "0 Torcello, Cathédrale Santa Maria Assunta (1)",
+                  "author": "Jean-Pol GRANDMONT",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:0_Torcello,_Cathédrale_Santa_Maria_Assunta_(1).JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Gallerie dell’Accademia",
+          "ai_summary": "An art gallery in Venice, housing the most important collection of Venetian paintings.",
+          "name_english": "Gallerie dell’Accademia",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€12 per person",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "8:15 AM - 7:15 PM",
+            "tue": "8:15 AM - 7:15 PM",
+            "wed": "8:15 AM - 7:15 PM",
+            "thu": "8:15 AM - 7:15 PM",
+            "fri": "8:15 AM - 7:15 PM",
+            "sat": "8:15 AM - 7:15 PM",
+            "sun": "8:15 AM - 7:15 PM",
+            "notes": "Closed on Mondays in winter."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Look for works by Titian, Veronese, and Tintoretto.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 45.4332,
+            "lng": 12.3289
+          },
+          "address": "Campo della Carità, 1050, 30123 Venezia VE, Italy",
+          "official_website": "https://www.gallerieaccademia.it",
+          "tags": [
+            "Art",
+            "Cultural",
+            "Historical"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:\"Présentation de la Vierge au Temple\" de Titien (Accademia, Venise) (8103563222).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/%22Pr%C3%A9sentation_de_la_Vierge_au_Temple%22_de_Titien_%28Accademia%2C_Venise%29_%288103563222%29.jpg/960px-%22Pr%C3%A9sentation_de_la_Vierge_au_Temple%22_de_Titien_%28Accademia%2C_Venise%29_%288103563222%29.jpg",
+                "width": 800,
+                "height": 399,
+                "attribution": {
+                  "title": "The Presentation of the Virgin at the Templelabel QS:Les,\"Presentación de la Virgen en el Templo\"label QS:Lhu,\"Mária bemutatása a templomban\"label QS:Lru,\"Введение Марии во храм\"label QS:Lde,\"Mariä Tempelgang\"label QS:Lpt,\"A Apresentação da Virgem Maria\"label QS:Lzh,\"聖母入聖殿\"label QS:Ltr,\"Meryem'in Tapınağa Götürülmesi\"label QS:Lja,\"聖母の神殿奉献 (ティツィアーノ)\"label QS:Larz,\"تقدمه العذراء فى الهيكل\"label QS:Lpl,\"Prezentacja Marii w świątyni\"label QS:Lnl,\"De presentatie van Maria in de tempel\"label QS:Lsv,\"Den saliga Jungfrun Marias tempelgång\"label QS:Lit,\"Presentazione di Maria al Tempio\"label QS:Len,\"The Presentation of the Virgin at the Temple\"label QS:Lfr,\"La Présentation de Marie au Temple\"label QS:Lsl,\"Marijina pot v tempelj\"",
+                  "author": "Titian",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:\"Présentation_de_la_Vierge_au_Temple\"_de_Titien_(Accademia,_Venise)_(8103563222).jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "San Giorgio Maggiore",
+          "ai_summary": "An island in the Venetian Lagoon, home to the beautiful Church of San Giorgio Maggiore and a bell tower with panoramic views.",
+          "name_english": "San Giorgio Maggiore",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:00 PM",
+          "cost": "Free (additional fees for church and bell tower)",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "9:00 AM - 5:00 PM",
+            "tue": "9:00 AM - 5:00 PM",
+            "wed": "9:00 AM - 5:00 PM",
+            "thu": "9:00 AM - 5:00 PM",
+            "fri": "9:00 AM - 5:00 PM",
+            "sat": "9:00 AM - 5:00 PM",
+            "sun": "9:00 AM - 5:00 PM",
+            "notes": "Check for seasonal variations in hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Climb the bell tower for stunning views of Venice.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.4339,
+            "lng": 12.3431
+          },
+          "address": "Isola di San Giorgio Maggiore, 30133 Venezia VE, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Cultural",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Palazzo Contarini del Bovolo",
+          "ai_summary": "A historic palace in Venice, known for its unique spiral staircase and beautiful Gothic architecture.",
+          "name_english": "Palazzo Contarini del Bovolo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€10 per person",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "10:00 AM - 6:00 PM",
+            "tue": "10:00 AM - 6:00 PM",
+            "wed": "10:00 AM - 6:00 PM",
+            "thu": "10:00 AM - 6:00 PM",
+            "fri": "10:00 AM - 6:00 PM",
+            "sat": "10:00 AM - 6:00 PM",
+            "sun": "10:00 AM - 6:00 PM",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Don’t forget to visit the rooftop terrace.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.4331,
+            "lng": 12.2411
+          },
+          "address": "San Marco, 4299, 30124 Venezia VE, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Cultural"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Venetian Arsenal",
+          "ai_summary": "A complex of historic shipyards and naval depots, central to Venice's maritime power.",
+          "name_english": "Venetian Arsenal",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free (guided tours may have a fee)",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "10:00 AM - 5:00 PM",
+            "tue": "10:00 AM - 5:00 PM",
+            "wed": "10:00 AM - 5:00 PM",
+            "thu": "10:00 AM - 5:00 PM",
+            "fri": "10:00 AM - 5:00 PM",
+            "sat": "10:00 AM - 5:00 PM",
+            "sun": "10:00 AM - 5:00 PM",
+            "notes": "Check for guided tour availability."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the nearby Museo Storico Navale.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.4372,
+            "lng": 12.3486
+          },
+          "address": "Campo della Tana, 2169, 30122 Venezia VE, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Cultural",
+            "Architectural"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Arsenal venice bacini.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Arsenal_venice_bacini.png",
+                "width": 791,
+                "height": 462,
+                "attribution": {
+                  "title": "Arsenal venice bacini",
+                  "author": "Abxbay",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Arsenal_venice_bacini.png"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ca’ Rezzonico Museum",
+          "ai_summary": "A museum dedicated to 18th-century Venice, housed in a beautiful palazzo on the Grand Canal.",
+          "name_english": "Ca’ Rezzonico Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€10 per person",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "10:00 AM - 5:00 PM",
+            "tue": "10:00 AM - 5:00 PM",
+            "wed": "10:00 AM - 5:00 PM",
+            "thu": "10:00 AM - 5:00 PM",
+            "fri": "10:00 AM - 5:00 PM",
+            "sat": "10:00 AM - 5:00 PM",
+            "sun": "10:00 AM - 5:00 PM",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the frescoed ceilings.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.439,
+            "lng": 12.3352
+          },
+          "address": "Dorsoduro, 3136, 30123 Venezia VE, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Cultural",
+            "Art"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:(Venice) Africa by Francesco Polazzo - ceiling from palazzo nani in Ca'Rezzonico-museum.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/%28Venice%29_Africa_by_Francesco_Polazzo_-_ceiling_from_palazzo_nani_in_Ca%27Rezzonico-museum.jpg/960px-%28Venice%29_Africa_by_Francesco_Polazzo_-_ceiling_from_palazzo_nani_in_Ca%27Rezzonico-museum.jpg",
+                "width": 800,
+                "height": 784,
+                "attribution": {
+                  "title": "(Venice) Africa by Francesco Polazzo - ceiling from palazzo nani in Ca'Rezzonico-museum",
+                  "author": "Didier Descouens",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:(Venice)_Africa_by_Francesco_Polazzo_-_ceiling_from_palazzo_nani_in_Ca'Rezzonico-museum.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Zattere Promenade",
+          "ai_summary": "A scenic waterfront promenade in Venice, perfect for a leisurely stroll with views of the Giudecca Canal.",
+          "name_english": "Zattere Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best enjoyed at sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Grab a gelato and enjoy it by the water.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.4295,
+            "lng": 12.3226
+          },
+          "address": "Zattere, Venice, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Relaxing",
+            "Outdoor"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Milano - Teatro alla Scala 3924.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Milano_-_Teatro_alla_Scala_3924.jpg/960px-Milano_-_Teatro_alla_Scala_3924.jpg",
+                "width": 800,
+                "height": 450,
+                "attribution": {
+                  "title": "Milano - Teatro alla Scala 3924",
+                  "author": "Lucalari84",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Milano_-_Teatro_alla_Scala_3924.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Giardini della Biennale",
+          "ai_summary": "Public gardens in Venice, famous for hosting the Venice Biennale art exhibition.",
+          "name_english": "Giardini della Biennale",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free (some exhibitions may have a fee)",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "10:00 AM - 6:00 PM",
+            "tue": "10:00 AM - 6:00 PM",
+            "wed": "10:00 AM - 6:00 PM",
+            "thu": "10:00 AM - 6:00 PM",
+            "fri": "10:00 AM - 6:00 PM",
+            "sat": "10:00 AM - 6:00 PM",
+            "sun": "10:00 AM - 6:00 PM",
+            "notes": "Closed on Mondays in winter."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit during the Biennale for contemporary art exhibitions.",
+          "advanced_booking": "Recommended during events",
+          "coordinates": {
+            "lat": 45.4268,
+            "lng": 12.3547
+          },
+          "address": "Giardini della Biennale, Venice, Italy",
+          "official_website": "https://www.labiennale.org/en",
+          "tags": [
+            "Cultural",
+            "Art",
+            "Historical"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Art-gallery-2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Art-gallery-2.jpg",
+                "width": 85,
+                "height": 70,
+                "attribution": {
+                  "title": "Art-gallery-2",
+                  "author": "Goldenrowley (talk) (Uploads)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Art-gallery-2.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Scuola Grande di San Rocco",
+          "ai_summary": "A historic building in Venice, known for its impressive collection of Tintoretto paintings.",
+          "name_english": "Scuola Grande di San Rocco",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€10 per person",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "9:30 AM - 5:30 PM",
+            "tue": "9:30 AM - 5:30 PM",
+            "wed": "9:30 AM - 5:30 PM",
+            "thu": "9:30 AM - 5:30 PM",
+            "fri": "9:30 AM - 5:30 PM",
+            "sat": "9:30 AM - 5:30 PM",
+            "sun": "9:30 AM - 5:30 PM",
+            "notes": "Closed on Mondays in winter."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Look for the miraculous image of the Virgin Mary.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.437,
+            "lng": 12.3252
+          },
+          "address": "Campo San Rocco, 3052, 30125 Venezia VE, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Cultural",
+            "Art"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

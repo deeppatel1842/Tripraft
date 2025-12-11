@@ -1,0 +1,1079 @@
+{
+  "country": "Belgium",
+  "state": "Bruges",
+  "cities": [
+    {
+      "city": "Bruges",
+      "nearest_airport": "Ostend-Bruges International Airport (OST)",
+      "places": [
+        {
+          "name": "Market Square (Markt) & Belfry Tower",
+          "ai_summary": "The Market Square is the heart of Bruges, featuring the iconic Belfry Tower. Visitors can enjoy horse-drawn carriage rides, explore the medieval architecture, and climb the Belfry for panoramic views.",
+          "name_english": "Market Square & Belfry Tower",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "Free (Belfry climb: Paid)",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Belfry Tower hours may vary during holidays."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Climb the Belfry Tower for stunning views of Bruges.",
+          "advanced_booking": "Recommended for Belfry climb",
+          "coordinates": {
+            "latitude": 51.2089,
+            "longitude": 3.2242
+          },
+          "address": "Markt, 8000 Bruges, Belgium",
+          "official_website": "https://www.visitbruges.be/en/market-square",
+          "tags": [
+            "Landmark",
+            "History",
+            "Viewpoint",
+            "Culture"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Brugge_Belfort_HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Brugge_Belfort_HDR.jpg/960px-Brugge_Belfort_HDR.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Brugge Belfort HDR",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adiel_lo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adiel lo (page does not exist)\">Adiel lo</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Brugge_Belfort_HDR.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "HDR image of the Belfort in Bruges, Belgium"
+                }
+              }
+            }
+          },
+          "rank_score": 0.882
+        },
+        {
+          "name": "Burg Square & City Hall",
+          "ai_summary": "Burg Square is a historic square in Bruges, home to the City Hall and Basilica of the Holy Blood. The square showcases stunning Gothic architecture and offers a glimpse into Bruges' rich history.",
+          "name_english": "Burg Square & City Hall",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "City Hall hours may vary during events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the Basilica of the Holy Blood located in the square.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 51.2093,
+            "longitude": 3.2268
+          },
+          "address": "Burg, 8000 Bruges, Belgium",
+          "official_website": "https://www.visitbruges.be/en/burg-square",
+          "tags": [
+            "History",
+            "Architecture",
+            "Landmark",
+            "Culture"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bruges_Town_Hall_R01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bruges_Town_Hall_R01.jpg/960px-Bruges_Town_Hall_R01.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bruges Town Hall R01",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:MJJR\" title=\"User:MJJR\">Marc Ryckaert</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bruges_Town_Hall_R01.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Bruges (Belgium): town hall"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Canal Cruise",
+          "ai_summary": "A canal cruise in Bruges offers a unique perspective of the city’s medieval architecture and charming bridges. It's a relaxing way to explore Bruges' historic center, a UNESCO World Heritage site.",
+          "name_english": "Canal Cruise",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:30",
+          "cost": "€10-€15",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00-18:00",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Last cruise departs at 17:00. Hours may vary in winter."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Book your tickets online to avoid long queues.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 51.2092,
+            "longitude": 3.2247
+          },
+          "address": "Bruges, Belgium",
+          "official_website": "https://www.brugesbe.com/canal-cruise",
+          "tags": [
+            "Tour",
+            "Viewpoint",
+            "Relaxation",
+            "Photography"
+          ],
+          "state": "Bruges",
+          "photos": {},
+          "rank_score": 0.95
+        },
+        {
+          "name": "Church of Our Lady (Madonna by Michelangelo)",
+          "ai_summary": "The Church of Our Lady in Bruges is famous for Michelangelo's sculpture of Madonna and Child. The church features stunning brick Gothic architecture and houses several other important artworks.",
+          "name_english": "Church of Our Lady",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "€6",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:30-17:00",
+            "Tuesday": "09:30-17:00",
+            "Wednesday": "09:30-17:00",
+            "Thursday": "09:30-17:00",
+            "Friday": "09:30-17:00",
+            "Saturday": "09:30-17:00",
+            "Sunday": "09:30-17:00",
+            "notes": "Closed on January 1st and December 25th."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don't miss the beautiful altar and the tombs of Charles the Bold and Mary of Burgundy.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 51.2133,
+            "longitude": 3.2247
+          },
+          "address": "Mariastraat, 8000 Bruges, Belgium",
+          "official_website": "https://www.ourladyofbruges.be",
+          "tags": [
+            "Art",
+            "History",
+            "Architecture",
+            "Religion"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Church_Of_Our_Lady_Bruges.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Church_Of_Our_Lady_Bruges.jpg/960px-Church_Of_Our_Lady_Bruges.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Church Of Our Lady Bruges",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/53074617@N00\">Wolfgang Staudt</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Church_Of_Our_Lady_Bruges.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "<b>The Church of Our Lady</b>  in Bruges, Belgium. See <a href=\"https://nl.wikipedia.org/wiki/Onze-Lieve-Vrouwekerk_(Brugge)\" class=\"extiw\" title=\"nl:Onze-Lieve-Vrouwekerk (Brugge)\">nl:Onze-Lieve-Vrouwekerk (Brugge)</a>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.826
+        },
+        {
+          "name": "Groeningemuseum (Flemish Art)",
+          "ai_summary": "The Groeningemuseum is home to an impressive collection of Flemish Primitive and Renaissance art, including works by Jan van Eyck and Hans Memling. The museum itself is a beautiful example of Gothic architecture.",
+          "name_english": "Groeningemuseum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "€12",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:30-17:00",
+            "Tuesday": "09:30-17:00",
+            "Wednesday": "09:30-17:00",
+            "Thursday": "09:30-17:00",
+            "Friday": "09:30-17:00",
+            "Saturday": "09:30-17:00",
+            "Sunday": "09:30-17:00",
+            "notes": "Closed on January 1st and December 25th."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Check out the museum shop for unique art prints and souvenirs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 51.2038,
+            "longitude": 3.2243
+          },
+          "address": "Dijver 12, 8000 Bruges, Belgium",
+          "official_website": "https://www.groeningemuseum.be",
+          "tags": [
+            "Art",
+            "History",
+            "Museum",
+            "Culture"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Brugge_-_Dijver_12_-Voormalig_poortgebouw_van_de_proosdij_van_Onze-Lieve-Vrouw,_heden_ingang_van_het_Groeningemuseum_-_82339.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Brugge_-_Dijver_12_-Voormalig_poortgebouw_van_de_proosdij_van_Onze-Lieve-Vrouw%2C_heden_ingang_van_het_Groeningemuseum_-_82339.jpg/960px-Brugge_-_Dijver_12_-Voormalig_poortgebouw_van_de_proosdij_van_Onze-Lieve-Vrouw%2C_heden_ingang_van_het_Groeningemuseum_-_82339.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Brugge - Dijver 12 -Voormalig poortgebouw van de proosdij van Onze-Lieve-Vrouw, heden ingang van het Groeningemuseum - 82339",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Navy8300&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Navy8300 (page does not exist)\">Navy8300</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Brugge_-_Dijver_12_-Voormalig_poortgebouw_van_de_proosdij_van_Onze-Lieve-Vrouw,_heden_ingang_van_het_Groeningemuseum_-_82339.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Brugge - Dijver 12 -Voormalig poortgebouw van de proosdij van Onze-Lieve-Vrouw,heden ingang van het Groeningemuseum - 82339"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Rozenhoedkaai Viewpoint",
+          "ai_summary": "Rozenhoedkaai is one of the most photographed spots in Bruges, known for its picturesque canal view and historic buildings. It's the perfect place to capture the essence of Bruges.",
+          "name_english": "Rozenhoedkaai Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "20:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited early morning or late afternoon for the best light."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit at sunrise or sunset for breathtaking views and photos.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 51.2094,
+            "longitude": 3.2241
+          },
+          "address": "Rozenhoedkaai, 8000 Bruges, Belgium",
+          "official_website": "https://www.visitbruges.be/en/rozenhoedkaai",
+          "tags": [
+            "Viewpoint",
+            "Photography",
+            "Scenic",
+            "Culture"
+          ],
+          "state": "Bruges",
+          "photos": {},
+          "rank_score": 0.798
+        },
+        {
+          "name": "Minnewater Lake (Lake of Love)",
+          "ai_summary": "Minnewater Lake, also known as the Lake of Love, is a tranquil spot in Bruges, perfect for a romantic stroll or a peaceful break from sightseeing. The lake is surrounded by beautiful trees and historic buildings.",
+          "name_english": "Minnewater Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Take a walk around the lake and enjoy the serene views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 51.2092,
+            "longitude": 3.2249
+          },
+          "address": "Minnewater, 8000 Bruges, Belgium",
+          "official_website": "https://www.visitbruges.be/en/minnewater",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Relaxation",
+            "Photography"
+          ],
+          "state": "Bruges",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Beguinage (Begijnhof)",
+          "ai_summary": "The Beguinage is a serene complex in Bruges, once home to the Beguines, a group of religious women. The site includes a beautiful courtyard, church, and museum, offering a glimpse into the life of the Beguines.",
+          "name_english": "Beguinage",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "€4",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:30-17:00",
+            "Tuesday": "09:30-17:00",
+            "Wednesday": "09:30-17:00",
+            "Thursday": "09:30-17:00",
+            "Friday": "09:30-17:00",
+            "Saturday": "09:30-17:00",
+            "Sunday": "09:30-17:00",
+            "notes": "Closed on January 1st and December 25th."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the museum to learn about the history of the Beguines.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 51.2091,
+            "longitude": 3.2245
+          },
+          "address": "Carmersstraat 83, 8000 Bruges, Belgium",
+          "official_website": "https://www.visitbruges.be/en/beguinage",
+          "tags": [
+            "History",
+            "Culture",
+            "Architecture",
+            "Religion"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BE-brugge-beginenhof.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/BE-brugge-beginenhof.jpg/960px-BE-brugge-beginenhof.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "BE-brugge-beginenhof",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Balou46\" title=\"User:Balou46\">Balou46</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BE-brugge-beginenhof.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Beginenhof, Brügge"
+                }
+              }
+            }
+          },
+          "rank_score": 0.726
+        },
+        {
+          "name": "Choco-Story Chocolate Museum",
+          "ai_summary": "Choco-Story is a museum dedicated to chocolate, detailing its history and production. Visitors can enjoy interactive exhibits and chocolate tastings.",
+          "name_english": "Choco-Story Chocolate Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "€12",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00-17:00",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Last admission at 16:00."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Join a chocolate-making workshop for a fun and tasty experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 51.2092,
+            "longitude": 3.2248
+          },
+          "address": "Wijnzakstraat 2, 8000 Bruges, Belgium",
+          "official_website": "https://www.choco-story-brugge.be",
+          "tags": [
+            "Museum",
+            "Food",
+            "Culture",
+            "Interactive"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Belgian_chocolates.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Belgian_chocolates.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Belgian chocolates",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/90901507@N00\">frank wouters</a> from antwerpen, belgium",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Belgian_chocolates.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Chocolate shop in Antwerpen, Belgium."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "De Halve Maan Brewery",
+          "ai_summary": "De Halve Maan is a historic brewery in Bruges, known for its Belgian ales. Visitors can take a guided tour to learn about the brewing process and enjoy beer tastings.",
+          "name_english": "De Halve Maan Brewery",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "€10",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00-18:00",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Last tour starts at 17:00."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Try the Brugse Zot, a local beer, at the end of the tour.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 51.2091,
+            "longitude": 3.2246
+          },
+          "address": "Meestraat 3, 8000 Bruges, Belgium",
+          "official_website": "https://www.halvemaan.be",
+          "tags": [
+            "Brewery",
+            "Tour",
+            "Food",
+            "Drink"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Brugge_-_Brouwerij_Halve_Maan_-_Henri_Maes.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Brugge_-_Brouwerij_Halve_Maan_-_Henri_Maes.jpg/960px-Brugge_-_Brouwerij_Halve_Maan_-_Henri_Maes.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Brugge - Brouwerij Halve Maan - Henri Maes",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Spotter2\" title=\"User:Spotter2\">Spotter2</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Brugge_-_Brouwerij_Halve_Maan_-_Henri_Maes.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Brugge (België) - Walplein - Brouwerij Halve Maan."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Saint John’s Hospital Museum",
+          "ai_summary": "Saint John's Hospital is a former medieval hospital, now a museum showcasing the history of healthcare in Bruges. The museum features ancient surgical instruments, apothecary jars, and artworks.",
+          "name_english": "Saint John’s Hospital Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "€8",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:30-17:00",
+            "Tuesday": "09:30-17:00",
+            "Wednesday": "09:30-17:00",
+            "Thursday": "09:30-17:00",
+            "Friday": "09:30-17:00",
+            "Saturday": "09:30-17:00",
+            "Sunday": "09:30-17:00",
+            "notes": "Closed on January 1st and December 25th."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the tranquil cloisters and the impressive art collection.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 51.2091,
+            "longitude": 3.2244
+          },
+          "address": "Oude Zak 45, 8000 Bruges, Belgium",
+          "official_website": "https://www.museumbrugge.be/en/saint-johns-hospital",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture",
+            "Architecture"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:AM._Lynen.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/AM._Lynen.jpg/960px-AM._Lynen.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "AM. Lynen",
+                  "author": "Georges Jansoone (<a href=\"//commons.wikimedia.org/wiki/User:JoJan\" title=\"User:JoJan\">JoJan</a>) - artwork by Amedée Lynen",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:AM._Lynen.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "\"Les Primitifs Flamands à Bruges\" (1902), poster of an exhibition by Amedée Lynen (1852-1938)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.814
+        },
+        {
+          "name": "Windmills of Bruges (Kruisvest)",
+          "ai_summary": "The Windmills of Bruges, located on the city’s ramparts, are a group of historic windmills that offer panoramic views of the city and its surroundings. They are a symbol of Bruges' medieval industrial power.",
+          "name_english": "Windmills of Bruges",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:30",
+          "cost": "€10",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on January 1st and December 25th."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the windmills for a unique perspective of Bruges' medieval architecture.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 51.2091,
+            "longitude": 3.2243
+          },
+          "address": "Kruisvest, 8000 Bruges, Belgium",
+          "official_website": "https://www.visitbruges.be/en/windmills",
+          "tags": [
+            "History",
+            "Architecture",
+            "Viewpoint",
+            "Culture"
+          ],
+          "state": "Bruges",
+          "photos": {},
+          "rank_score": 0.87
+        },
+        {
+          "name": "Jan van Eyck Square",
+          "ai_summary": "Jan van Eyck Square is a charming square in Bruges, named after the famous painter Jan van Eyck. The square is surrounded by historic buildings and features a statue of the painter.",
+          "name_english": "Jan van Eyck Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Take a moment to relax on a bench and enjoy the view of the square.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 51.2089,
+            "longitude": 3.224
+          },
+          "address": "Jan van Eyckplein, 8000 Bruges, Belgium",
+          "official_website": "https://www.visitbruges.be/en/jan-van-eyck-square",
+          "tags": [
+            "Landmark",
+            "History",
+            "Culture",
+            "Photography"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Jan-van-Eyckplein-view-from-canal.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jan-van-Eyckplein-view-from-canal.jpg/960px-Jan-van-Eyckplein-view-from-canal.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Jan-van-Eyckplein-view-from-canal",
+                  "author": "Chad K",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Jan-van-Eyckplein-view-from-canal.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Looking toward Jan van Eyckplein from a canal boat in Bruges, Belgium."
+                }
+              }
+            }
+          },
+          "rank_score": 0.814
+        },
+        {
+          "name": "Belfry Climb (366 Steps)",
+          "ai_summary": "The Belfry of Bruges is a medieval bell tower with a climb of 366 steps leading to a panoramic viewing platform. The climb offers breathtaking views of Bruges and the surrounding countryside.",
+          "name_english": "Belfry Climb",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "€12",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Last admission at 17:00. Hours may vary in winter."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Wear comfortable shoes for the climb and enjoy the views from the top.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 51.2089,
+            "longitude": 3.2242
+          },
+          "address": "Markt, 8000 Bruges, Belgium",
+          "official_website": "https://www.visitbruges.be/en/belfry",
+          "tags": [
+            "Landmark",
+            "History",
+            "Viewpoint",
+            "Culture"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Brugge_Belfort_HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Brugge_Belfort_HDR.jpg/960px-Brugge_Belfort_HDR.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Brugge Belfort HDR",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adiel_lo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adiel lo (page does not exist)\">Adiel lo</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Brugge_Belfort_HDR.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "HDR image of the Belfort in Bruges, Belgium"
+                }
+              }
+            }
+          },
+          "rank_score": 0.822
+        },
+        {
+          "name": "Frietmuseum (Fries Museum)",
+          "ai_summary": "The Frietmuseum is dedicated to the Belgian fry, showcasing the history and culture of this beloved snack. Visitors can enjoy interactive exhibits and, of course, tastings.",
+          "name_english": "Frietmuseum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "€10",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00-18:00",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Last admission at 17:00."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don't miss the chance to taste authentic Belgian fries with various sauces.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 51.209,
+            "longitude": 3.2244
+          },
+          "address": "Vlamingstraat 33, 8000 Bruges, Belgium",
+          "official_website": "https://www.frietmuseum.be",
+          "tags": [
+            "Museum",
+            "Food",
+            "Culture",
+            "Interactive"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Saaihalle_Brugge.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Saaihalle_Brugge.jpg/960px-Saaihalle_Brugge.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Saaihalle Brugge",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Zeisterre\" title=\"User:Zeisterre\">Zeisterre</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Saaihalle_Brugge.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Saaihalle (Wool hall) in Bruges, Belgium"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Bruges City Theatre",
+          "ai_summary": "The Bruges City Theatre is a historic theatre offering a variety of performances, including drama, music, and dance. The theatre itself is an architectural gem worth visiting.",
+          "name_english": "Bruges City Theatre",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "Varies by performance",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Check the schedule for performance times."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "During a performance",
+          "place_tip": "Book tickets in advance for popular shows.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 51.2093,
+            "longitude": 3.224
+          },
+          "address": "Zand 34, 8000 Bruges, Belgium",
+          "official_website": "https://www.brugescitytheatre.be",
+          "tags": [
+            "Theatre",
+            "Culture",
+            "Entertainment",
+            "Architecture"
+          ],
+          "state": "Bruges",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Sint-Salvator Cathedral",
+          "ai_summary": "Sint-Salvator Cathedral is the oldest parish church in Bruges, featuring a mix of architectural styles. The cathedral is known for its impressive organ and beautiful stained glass windows.",
+          "name_english": "Sint-Salvator Cathedral",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:30-17:00",
+            "Tuesday": "09:30-17:00",
+            "Wednesday": "09:30-17:00",
+            "Thursday": "09:30-17:00",
+            "Friday": "09:30-17:00",
+            "Saturday": "09:30-17:00",
+            "Sunday": "09:30-17:00",
+            "notes": "Closed on January 1st and December 25th."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Attend a concert or organ recital for a memorable experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 51.2094,
+            "longitude": 3.224
+          },
+          "address": "Sint-Salvatorskerkhof 8, 8000 Bruges, Belgium",
+          "official_website": "https://www.sintsalvator.be",
+          "tags": [
+            "Religion",
+            "Architecture",
+            "History",
+            "Culture"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Brügge,_Kathedrale_Sint-Salvator_(Außenansicht)_(4).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Br%C3%BCgge%2C_Kathedrale_Sint-Salvator_%28Au%C3%9Fenansicht%29_%284%29.jpg/960px-Br%C3%BCgge%2C_Kathedrale_Sint-Salvator_%28Au%C3%9Fenansicht%29_%284%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Brügge, Kathedrale Sint-Salvator (Außenansicht) (4)",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cmcmcm1&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Cmcmcm1 (page does not exist)\">Cmcmcm1</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Br%C3%BCgge,_Kathedrale_Sint-Salvator_(Au%C3%9Fenansicht)_(4).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Exterior of Sint-Salvatorskathedraal"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Historium Virtual Reality Tour",
+          "ai_summary": "The Historium offers a unique virtual reality experience that takes you back to medieval Bruges. The tour includes interactive exhibits and a VR ride.",
+          "name_english": "Historium",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "€15",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00-17:00",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Last admission at 16:00."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Wear the VR headset for an immersive experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 51.2093,
+            "longitude": 3.2242
+          },
+          "address": "Markt 1, 8000 Bruges, Belgium",
+          "official_website": "https://www.historium.be",
+          "tags": [
+            "Museum",
+            "Virtual Reality",
+            "History",
+            "Culture"
+          ],
+          "state": "Bruges",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Boat Ride through Canals",
+          "ai_summary": "A boat ride through the canals of Bruges is a must-do activity, offering a unique view of the city’s historic buildings and bridges. Several companies offer guided tours.",
+          "name_english": "Boat Ride through Canals",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "20:15",
+          "cost": "€10-€15",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00-18:00",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Last boat departs at 17:00. Hours may vary in winter."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Listen to the guide's commentary to learn interesting facts about Bruges.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 51.2092,
+            "longitude": 3.2247
+          },
+          "address": "Bruges, Belgium",
+          "official_website": "https://www.brugesbe.com/boat-ride",
+          "tags": [
+            "Tour",
+            "Viewpoint",
+            "Relaxation",
+            "Photography"
+          ],
+          "state": "Bruges",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Efteling-Fata_Morgana.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Efteling-Fata_Morgana.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Efteling-Fata Morgana",
+                  "author": "<a href=\"https://nl.wikipedia.org/wiki/User:Mech\" class=\"extiw\" title=\"nl:User:Mech\">Mech</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Efteling-Fata_Morgana.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<a href=\"https://nl.wikipedia.org/wiki/Fata_Morgana_(Efteling)\" class=\"extiw\" title=\"nl:Fata Morgana (Efteling)\">Fata Morgana</a> in de Efteling."
+                }
+              }
+            }
+          },
+          "rank_score": 0.806
+        },
+        {
+          "name": "Brouwerij Fort Lapin",
+          "ai_summary": "Brouwerij Fort Lapin is a brewery located in a former fort, offering a range of craft beers. The brewery provides guided tours and tastings.",
+          "name_english": "Brouwerij Fort Lapin",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "€10",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Check the schedule for tour times."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Try the unique beers brewed on-site.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 51.209,
+            "longitude": 3.2248
+          },
+          "address": "Oostmeers 3, 8000 Bruges, Belgium",
+          "official_website": "https://www.brouwerijfortlapin.be",
+          "tags": [
+            "Brewery",
+            "Tour",
+            "Food",
+            "Drink"
+          ],
+          "state": "Bruges",
+          "photos": {},
+          "rank_score": 0.726
+        }
+      ]
+    }
+  ]
+}

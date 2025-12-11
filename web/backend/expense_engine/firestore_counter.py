@@ -1,153 +1,185 @@
 """
 Firestore Operation Counter
-Tracks read, write, delete, and snapshot operations for monitoring costs
+Tracks Firestore reads, writes, and deletes per request
+
+Phase 5: Performance Optimization
 """
-import logging
+import threading
+from typing import Dict, Any, Optional
+from flask import g, has_request_context
 from functools import wraps
-from flask import g, request
-import time
+import logging
 
 logger = logging.getLogger(__name__)
 
+# Thread-local storage for per-request counters
+_local = threading.local()
+
 
 class FirestoreOperationCounter:
-    """Thread-safe counter for Firestore operations"""
+    """
+    Tracks Firestore operations per request
+    
+    Usage:
+        counter = FirestoreOperationCounter()
+        counter.read(1)  # Track 1 read
+        counter.write(2)  # Track 2 writes
+        
+        stats = counter.get_stats()
+        # {'reads': 1, 'writes': 2, 'deletes': 0, 'total': 3}
+    """
     
     def __init__(self):
-        self.reset()
-    
-    def reset(self):
-        """Reset all counters"""
         self.reads = 0
         self.writes = 0
         self.deletes = 0
-        self.snapshots = 0
+        self.collections: Dict[str, Dict[str, int]] = {}
     
-    def increment_read(self, count=1):
-        """Increment read counter"""
+    def read(self, count: int = 1, collection: Optional[str] = None):
+        """Record Firestore read operation(s)"""
         self.reads += count
+        if collection:
+            if collection not in self.collections:
+                self.collections[collection] = {'reads': 0, 'writes': 0, 'deletes': 0}
+            self.collections[collection]['reads'] += count
     
-    def increment_write(self, count=1):
-        """Increment write counter"""
+    def write(self, count: int = 1, collection: Optional[str] = None):
+        """Record Firestore write operation(s)"""
         self.writes += count
+        if collection:
+            if collection not in self.collections:
+                self.collections[collection] = {'reads': 0, 'writes': 0, 'deletes': 0}
+            self.collections[collection]['writes'] += count
     
-    def increment_delete(self, count=1):
-        """Increment delete counter"""
+    def delete(self, count: int = 1, collection: Optional[str] = None):
+        """Record Firestore delete operation(s)"""
         self.deletes += count
+        if collection:
+            if collection not in self.collections:
+                self.collections[collection] = {'reads': 0, 'writes': 0, 'deletes': 0}
+            self.collections[collection]['deletes'] += count
     
-    def increment_snapshot(self, count=1):
-        """Increment snapshot counter"""
-        self.snapshots += count
+    @property
+    def total(self) -> int:
+        """Total operations count"""
+        return self.reads + self.writes + self.deletes
     
-    def get_totals(self):
-        """Get operation totals"""
+    def get_stats(self) -> Dict[str, Any]:
+        """Get operation statistics"""
         return {
             'reads': self.reads,
             'writes': self.writes,
             'deletes': self.deletes,
-            'snapshots': self.snapshots,
-            'total': self.reads + self.writes + self.deletes + self.snapshots
+            'total': self.total,
+            'by_collection': self.collections if self.collections else None
         }
     
-    def get_summary(self):
-        """Get formatted summary string"""
-        totals = self.get_totals()
-        return (f"Firestore Ops: {totals['total']} total "
-                f"(R:{totals['reads']} W:{totals['writes']} "
-                f"D:{totals['deletes']} S:{totals['snapshots']})")
+    def reset(self):
+        """Reset counters"""
+        self.reads = 0
+        self.writes = 0
+        self.deletes = 0
+        self.collections.clear()
 
 
 def init_operation_counter():
-    """Initialize operation counter for the request"""
-    if not hasattr(g, 'firestore_counter'):
+    """Initialize Firestore operation counter for current request"""
+    if has_request_context():
         g.firestore_counter = FirestoreOperationCounter()
 
 
+def get_operation_counter() -> Optional[FirestoreOperationCounter]:
+    """Get the current request's Firestore counter"""
+    if has_request_context() and hasattr(g, 'firestore_counter'):
+        return g.firestore_counter
+    return None
+
+
+def record_read(count: int = 1, collection: Optional[str] = None):
+    """Record Firestore read(s) for current request"""
+    counter = get_operation_counter()
+    if counter:
+        counter.read(count, collection)
+
+
+def record_write(count: int = 1, collection: Optional[str] = None):
+    """Record Firestore write(s) for current request"""
+    counter = get_operation_counter()
+    if counter:
+        counter.write(count, collection)
+
+
+def record_delete(count: int = 1, collection: Optional[str] = None):
+    """Record Firestore delete(s) for current request"""
+    counter = get_operation_counter()
+    if counter:
+        counter.delete(count, collection)
+
+
+def get_request_stats() -> Optional[Dict[str, Any]]:
+    """Get Firestore stats for current request"""
+    counter = get_operation_counter()
+    if counter:
+        return counter.get_stats()
+    return None
+
+
 def log_firestore_operations():
-    """Log Firestore operations at the end of the request"""
-    if hasattr(g, 'firestore_counter'):
-        totals = g.firestore_counter.get_totals()
-        if totals['total'] > 0:
-            endpoint = request.endpoint or 'unknown'
-            method = request.method
-            path = request.path
-            summary = g.firestore_counter.get_summary()
-            
-            # Color code based on total operations
-            if totals['total'] > 10:
-                level = logging.WARNING
-                marker = "⚠️  HIGH"
-            elif totals['total'] > 5:
-                level = logging.INFO
-                marker = "ℹ️  MEDIUM"
-            else:
-                level = logging.DEBUG
-                marker = "✅ LOW"
-            
-            # Print detailed breakdown
-            print(f"\n{'='*80}")
-            print(f"📊 FIRESTORE API CALLS - {method} {path}")
-            print(f"{'='*80}")
-            print(f"   Reads:      {totals['reads']}")
-            print(f"   Writes:     {totals['writes']}")
-            print(f"   Deletes:    {totals['deletes']}")
-            print(f"   Snapshots:  {totals['snapshots']}")
-            print(f"   {'─'*76}")
-            print(f"   TOTAL:      {totals['total']} operations - {marker}")
-            print(f"{'='*80}\n")
-            
-            logger.log(level, f"{marker} [{method} {endpoint}] {summary}")
-
-
-def count_firestore_operation(operation_type='read', count=1):
-    """
-    Manually count a Firestore operation
-    
-    Args:
-        operation_type: 'read', 'write', 'delete', or 'snapshot'
-        count: Number of operations (default 1)
-    """
-    if hasattr(g, 'firestore_counter'):
-        if operation_type == 'read':
-            g.firestore_counter.increment_read(count)
-        elif operation_type == 'write':
-            g.firestore_counter.increment_write(count)
-        elif operation_type == 'delete':
-            g.firestore_counter.increment_delete(count)
-        elif operation_type == 'snapshot':
-            g.firestore_counter.increment_snapshot(count)
-
-
-def track_firestore_ops(func):
-    """
-    Decorator to track Firestore operations for a function
-    Use this on database operation methods
-    """
-    @wraps(func)
-    def wrapper(*args, **kwargs):
-        # Count based on function name patterns
-        func_name = func.__name__.lower()
+    """Log Firestore operations for current request (call in after_request)"""
+    counter = get_operation_counter()
+    if counter and counter.total > 0:
+        stats = counter.get_stats()
+        logger.info(
+            "🔥 Firestore: %d reads, %d writes, %d deletes (total: %d)",
+            stats['reads'], stats['writes'], stats['deletes'], stats['total']
+        )
         
-        # Execute the function
-        result = wrapper(*args, **kwargs)
-        
-        # Auto-count based on function name if counter exists
-        if hasattr(g, 'firestore_counter'):
-            if 'get_' in func_name or 'list_' in func_name or 'find_' in func_name:
-                # Read operations
-                if isinstance(result, list):
-                    count_firestore_operation('read', len(result) if result else 1)
-                else:
-                    count_firestore_operation('read', 1 if result else 0)
+        # Also record in global performance monitor
+        try:
+            from expense_engine.monitoring import get_performance_monitor
+            monitor = get_performance_monitor()
             
-            elif 'create_' in func_name or 'add_' in func_name or 'update_' in func_name or 'save_' in func_name:
-                # Write operations
-                count_firestore_operation('write', 1)
-            
-            elif 'delete_' in func_name or 'remove_' in func_name:
-                # Delete operations
-                count_firestore_operation('delete', 1)
-        
-        return result
-    
-    return wrapper
+            if stats['reads'] > 0:
+                monitor.record_firestore_read(stats['reads'])
+            if stats['writes'] > 0:
+                monitor.record_firestore_write(stats['writes'])
+            if stats['deletes'] > 0:
+                monitor.record_firestore_delete(stats['deletes'])
+        except Exception:
+            pass
+
+
+def track_reads(count: int = 1, collection: Optional[str] = None):
+    """Decorator to track Firestore reads"""
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            result = func(*args, **kwargs)
+            record_read(count, collection)
+            return result
+        return wrapper
+    return decorator
+
+
+def track_writes(count: int = 1, collection: Optional[str] = None):
+    """Decorator to track Firestore writes"""
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            result = func(*args, **kwargs)
+            record_write(count, collection)
+            return result
+        return wrapper
+    return decorator
+
+
+def track_deletes(count: int = 1, collection: Optional[str] = None):
+    """Decorator to track Firestore deletes"""
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            result = func(*args, **kwargs)
+            record_delete(count, collection)
+            return result
+        return wrapper
+    return decorator

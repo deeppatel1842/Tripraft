@@ -1,0 +1,822 @@
+{
+  "country": "Philippines",
+  "state": "Metro Manila",
+  "cities": [
+    {
+      "city": "Manila",
+      "nearest_airport": "Ninoy Aquino International Airport",
+      "places": [
+        {
+          "name": "Intramuros",
+          "ai_summary": "A historic walled city in Manila, showcasing Spanish colonial architecture and landmarks like Fort Santiago and Manila Cathedral.",
+          "name_english": "Intramuros",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Guided tours are available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Wear comfortable shoes for walking tours.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.5896,
+            "longitude": 120.9747
+          },
+          "address": "Intramuros, Manila, Philippines",
+          "official_website": "https://www.manila.gov.ph",
+          "tags": [
+            "History",
+            "Culture",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cuartel de Santa Lucia, Intramuros (Manila; 02-06-2021).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Cuartel_de_Santa_Lucia%2C_Intramuros_%28Manila%3B_02-06-2021%29.jpg/960px-Cuartel_de_Santa_Lucia%2C_Intramuros_%28Manila%3B_02-06-2021%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cuartel de Santa Lucia, Intramuros (Manila; 02-06-2021)",
+                  "author": "patrickroque01",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cuartel_de_Santa_Lucia,_Intramuros_(Manila;_02-06-2021).jpg",
+                  "credit": "Taken using my own camera (Canon EOS M100)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cuartel de Santa Lucia in Intramuros, Manila"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Rizal Park",
+          "ai_summary": "A sprawling urban park dedicated to the Philippine national hero, Dr. Jose Rizal, featuring gardens, monuments, and open spaces.",
+          "name_english": "Rizal Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "5:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the Rizal Monument and take a leisurely stroll.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.582,
+            "longitude": 120.9795
+          },
+          "address": "Rizal Park, Manila, Philippines",
+          "official_website": "https://www.manila.gov.ph",
+          "tags": [
+            "Nature",
+            "History",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:119th Rizal Day commemoration.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/119th_Rizal_Day_commemoration.jpg",
+                "width": 800,
+                "height": 487,
+                "attribution": {
+                  "title": "119th Rizal Day commemoration",
+                  "author": "Joseph Vidal",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:119th_Rizal_Day_commemoration.jpg",
+                  "credit": "Malacañang Photo Bureau, http://www.pcoo.gov.ph/photos-dec2015/photo05-123015.htm",
+                  "usage_terms": "Public domain",
+                  "description": "President Benigno S. Aquino III offers a wreath during the commemoration of the 119th Anniversary of the Martyrdom of Dr. Jose Rizal at the Rizal Monument in Rizal Park, Manila."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Fort Santiago",
+          "ai_summary": "A citadel first built by the Spanish to protect the city from foreign invasions, now a historical park and museum.",
+          "name_english": "Fort Santiago",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:00 PM",
+          "cost": "₱75",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Last entry at 5:30 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Explore the museum and enjoy the sunset views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.5995,
+            "longitude": 120.9751
+          },
+          "address": "Gen. Luna St, Intramuros, Manila, 1002 Metro Manila, Philippines",
+          "official_website": "http://www.fortsantiago.ph",
+          "tags": [
+            "History",
+            "Culture",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:09776jfSanta Cruz Recto Avenue Binondo Streets Manilafvf 12.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/09776jfSanta_Cruz_Recto_Avenue_Binondo_Streets_Manilafvf_12.JPG/960px-09776jfSanta_Cruz_Recto_Avenue_Binondo_Streets_Manilafvf_12.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "09776jfSanta Cruz Recto Avenue Binondo Streets Manilafvf 12",
+                  "author": "Judgefloro",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:09776jfSanta_Cruz_Recto_Avenue_Binondo_Streets_Manilafvf_12.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Dasmariñas Street, Tomas Pinpin Street, Sabino Padilla (Gandara) Street, Ongpin Street, Teodora Alonzo Street, Soler Street and Tomas Mapua Street, Legislative districts of Manila Barangay 313, Zone 31 &amp; Barangays 299, 300, 301 &amp; 302, Zone 29, 3rd District, City of Manila, Santa Cruz, Manila in Rizal Avenue corner Recto Avenue, Santa Cruz, Manila List of Cultural Properties of Santa Cruz Buildings in Santa Cruz, Manila of the surrounded by Estuaries in Binondo and Santa Cruz, Manila in the List of rivers and estuaries in Metro Manila Estero de Binondo one of 6  major tributaries of the Pasig River with Maynilad Water Services pumps from Canal de la Reina floodgate that end at Muelle de Binondo, List of Cultural Properties of the Philippines in Metro Manila, Binondo, District III, Manila, Dasmarinas Bridge (Estero de la Reina) 15 metric Tons Load Limit Sta. 2+427 MF0-2 Flood Management, Mitigation, Drainage Stystem, Improvement Sheet Pile River Bank Estero de la Reina River Wall from C.M. Recto Estero de San Lazaro to Estero de Binondo."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "San Agustin Church & Museum",
+          "ai_summary": "The oldest stone church in the Philippines, now a UNESCO World Heritage Site, featuring intricate baroque architecture.",
+          "name_english": "San Agustin Church & Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:00 PM",
+          "cost": "₱200",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Mass schedules may affect visiting hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Attend the mass for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.5946,
+            "longitude": 120.976
+          },
+          "address": "Gen. Luna St, Intramuros, Manila, 1002 Metro Manila, Philippines",
+          "official_website": "http://www.sanaugustinchurch.com",
+          "tags": [
+            "Religion",
+            "History",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aviacionavion.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Aviacionavion.png/960px-Aviacionavion.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Aviacionavion",
+                  "author": "Turkmenistan.airlines.frontview.arp.jpg: elfuser\nderivative work: Elfuser (talk)",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aviacionavion.png",
+                  "credit": "Turkmenistan.airlines.frontview.arp.jpg",
+                  "usage_terms": "Public domain",
+                  "description": "Sign based on photograph with front view of a Turkmenistan Airlines Boeing 757 landing at London Heathrow Airport, England. The registration is not known. Photographed by Adrian Pingstone in June 2004 and released to the public domain."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Manila Ocean Park",
+          "ai_summary": "An oceanarium and marine-themed park offering interactive exhibits, a walk-through tunnel, and various marine shows.",
+          "name_english": "Manila Ocean Park",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "₱800",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Online booking is recommended."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the sea lion and dolphin shows.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 14.5851,
+            "longitude": 120.9772
+          },
+          "address": "Luneta, Manila, 1000 Metro Manila, Philippines",
+          "official_website": "http://www.manilaoceanpark.com",
+          "tags": [
+            "Family",
+            "Nature",
+            "Education"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "National Museum Complex",
+          "ai_summary": "A group of museums showcasing Filipino heritage, including the National Museum of Fine Arts, National Museum of Anthropology, and National Museum of Natural History.",
+          "name_english": "National Museum Complex",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Free admission on Sundays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit all three museums for a comprehensive experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.5995,
+            "longitude": 120.9812
+          },
+          "address": "R. Hidalgo Ave, Ermita, Manila, 1000 Metro Manila, Philippines",
+          "official_website": "http://www.nationalmuseum.gov.ph",
+          "tags": [
+            "History",
+            "Culture",
+            "Education"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Capital Luis Gonzaga Building Name Signage.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Capital_Luis_Gonzaga_Building_Name_Signage.jpg/960px-Capital_Luis_Gonzaga_Building_Name_Signage.jpg",
+                "width": 800,
+                "height": 431,
+                "attribution": {
+                  "title": "Capital Luis Gonzaga Building Name Signage",
+                  "author": "Fmgverzon",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Capital_Luis_Gonzaga_Building_Name_Signage.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Metal signage of Capitan Luis Gonzaga Building located at the top of the doorway."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ayala Museum",
+          "ai_summary": "A museum in Makati dedicated to Philippine history, art, and culture, featuring dioramas, artifacts, and contemporary art.",
+          "name_english": "Ayala Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "7:00 PM",
+          "cost": "₱425",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 7:00 PM",
+            "Wednesday": "10:00 AM - 7:00 PM",
+            "Thursday": "10:00 AM - 7:00 PM",
+            "Friday": "10:00 AM - 7:00 PM",
+            "Saturday": "10:00 AM - 7:00 PM",
+            "Sunday": "10:00 AM - 7:00 PM",
+            "notes": "Check for special exhibits and events."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Join a guided tour for better insights.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.5549,
+            "longitude": 121.0244
+          },
+          "address": "Makati Ave, Makati, 1223 Metro Manila, Philippines",
+          "official_website": "http://www.ayalamuseum.org",
+          "tags": [
+            "History",
+            "Art",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Greenbelt Park & Chapel",
+          "ai_summary": "A tranquil park in the heart of Makati's business district, featuring a chapel, gardens, and a pond.",
+          "name_english": "Greenbelt Park & Chapel",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:45 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Attend mass at the chapel for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.5547,
+            "longitude": 121.0244
+          },
+          "address": "Esperanza St, Makati, 1228 Metro Manila, Philippines",
+          "official_website": "http://www.greenbeltchapel.org",
+          "tags": [
+            "Religion",
+            "Nature",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Bonifacio Global City",
+          "ai_summary": "A modern financial and lifestyle district in Taguig, known for its upscale shopping, dining, and entertainment options.",
+          "name_english": "Bonifacio Global City",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Explore the area on foot for the best experience."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit the Mind Museum and take a walk in the park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.5549,
+            "longitude": 121.0509
+          },
+          "address": "Bonifacio Global City, Taguig, 1634 Metro Manila, Philippines",
+          "official_website": "http://www.bgc.com.ph",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Entertainment"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Venice Grand Canal Mall",
+          "ai_summary": "A shopping mall in Taguig inspired by the canals of Venice, featuring a picturesque canal, gondola rides, and a variety of shops and restaurants.",
+          "name_english": "Venice Grand Canal Mall",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Gondola rides are available from 10:00 AM to 9:00 PM."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the gelato and enjoy a gondola ride.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.5449,
+            "longitude": 121.0568
+          },
+          "address": "Upper McKinley Rd, McKinley Hill, Taguig, 1634 Metro Manila, Philippines",
+          "official_website": "http://www.venicegrandcanalmall.com",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Entertainment"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aerial view of the Manila American Cemetery.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Aerial_view_of_the_Manila_American_Cemetery.JPG/960px-Aerial_view_of_the_Manila_American_Cemetery.JPG",
+                "width": 800,
+                "height": 722,
+                "attribution": {
+                  "title": "Aerial view of the Manila American Cemetery",
+                  "author": "Iloilo Wanderer",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Manila_American_Cemetery.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Aerial view of the Manila American Cemetery, Fort Bonifacio, Metro Manila"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "The Mind Museum",
+          "ai_summary": "A science museum in Bonifacio Global City, featuring interactive exhibits, a planetarium, and a variety of educational programs.",
+          "name_english": "The Mind Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "₱750",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Advance booking is required for groups."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Join the guided tour for a more in-depth experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 14.5547,
+            "longitude": 121.0509
+          },
+          "address": "J. Y. Campos Park, 3rd Ave, Bonifacio Global City, Taguig, 1634 Metro Manila, Philippines",
+          "official_website": "http://www.themindmuseum.org",
+          "tags": [
+            "Science",
+            "Education",
+            "Family"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Paco Park",
+          "ai_summary": "A former cemetery turned into a park, featuring a circular stone wall, gardens, and a chapel.",
+          "name_english": "Paco Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "6:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the chapel and enjoy the peaceful surroundings.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.5861,
+            "longitude": 120.9935
+          },
+          "address": "San Marcelino St, Paco, Manila, 1007 Metro Manila, Philippines",
+          "official_website": "http://www.pacopark.com",
+          "tags": [
+            "History",
+            "Nature",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon SUBWAY.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/BSicon_SUBWAY.svg/800px-BSicon_SUBWAY.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon SUBWAY",
+                  "author": "AlgaeGraphix",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_SUBWAY.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "subway train icon, based on Toronto Transit Commission design"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Power Plant Mall – Rockwell",
+          "ai_summary": "A high-end shopping mall in Makati, featuring a mix of global and local brands, dining options, and a cinema.",
+          "name_english": "Power Plant Mall – Rockwell",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "7:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "11:00 AM - 7:00 PM",
+            "Tuesday": "11:00 AM - 7:00 PM",
+            "Wednesday": "11:00 AM - 7:00 PM",
+            "Thursday": "11:00 AM - 7:00 PM",
+            "Friday": "11:00 AM - 7:00 PM",
+            "Saturday": "11:00 AM - 7:00 PM",
+            "Sunday": "11:00 AM - 7:00 PM",
+            "notes": "Check for store hours as they may vary."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the rooftop for a great view of the city.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.57,
+            "longitude": 121.0244
+          },
+          "address": "Rockwell Center, Makati, 1210 Metro Manila, Philippines",
+          "official_website": "http://www.powerplantmall.com",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Entertainment"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "SM Mall of Asia & MOA Eye",
+          "ai_summary": "One of the largest malls in the Philippines, featuring a wide range of shops, dining options, and the iconic MOA Eye ferris wheel.",
+          "name_english": "SM Mall of Asia & MOA Eye",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "7:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 9:00 PM",
+            "Tuesday": "10:00 AM - 9:00 PM",
+            "Wednesday": "10:00 AM - 9:00 PM",
+            "Thursday": "10:00 AM - 9:00 PM",
+            "Friday": "10:00 AM - 9:00 PM",
+            "Saturday": "10:00 AM - 9:00 PM",
+            "Sunday": "10:00 AM - 9:00 PM",
+            "notes": "MOA Eye operates from 4:00 PM to 10:00 PM."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Take a ride on the MOA Eye for a stunning view of the bay.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.5376,
+            "longitude": 120.979
+          },
+          "address": "Seaside Blvd, Pasay, 1300 Metro Manila, Philippines",
+          "official_website": "http://www.smmallofasia.com",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Entertainment"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Manila Cathedral",
+          "ai_summary": "A prominent Catholic cathedral in Manila, known for its stunning architecture and historical significance.",
+          "name_english": "Manila Cathedral",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Mass schedules may affect visiting hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Light a candle and say a prayer for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 14.5995,
+            "longitude": 120.9812
+          },
+          "address": "Cabildo St, Intramuros, Manila, 1002 Metro Manila, Philippines",
+          "official_website": "http://www.manilacathedral.ph",
+          "tags": [
+            "Religion",
+            "History",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Capital Luis Gonzaga Building Name Signage.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Capital_Luis_Gonzaga_Building_Name_Signage.jpg/960px-Capital_Luis_Gonzaga_Building_Name_Signage.jpg",
+                "width": 800,
+                "height": 431,
+                "attribution": {
+                  "title": "Capital Luis Gonzaga Building Name Signage",
+                  "author": "Fmgverzon",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Capital_Luis_Gonzaga_Building_Name_Signage.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Metal signage of Capitan Luis Gonzaga Building located at the top of the doorway."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Sunset Cruise on Manila Bay",
+          "ai_summary": "A relaxing cruise on Manila Bay, offering stunning views of the sunset, city skyline, and famous landmarks.",
+          "name_english": "Sunset Cruise on Manila Bay",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "₱1,200",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "5:30 PM - 8:00 PM",
+            "Tuesday": "5:30 PM - 8:00 PM",
+            "Wednesday": "5:30 PM - 8:00 PM",
+            "Thursday": "5:30 PM - 8:00 PM",
+            "Friday": "5:30 PM - 8:00 PM",
+            "Saturday": "5:30 PM - 8:00 PM",
+            "Sunday": "5:30 PM - 8:00 PM",
+            "notes": "Advance booking is recommended."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring a camera to capture the stunning views.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 14.5752,
+            "longitude": 120.9822
+          },
+          "address": "Manila Bay, Manila, 1000 Metro Manila, Philippines",
+          "official_website": "http://www.sunsetcruise.com",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1078 @@
+{
+  "country": "Russia",
+  "state": "Krasnodar Krai",
+  "cities": [
+    {
+      "city": "Sochi",
+      "nearest_airport": "Sochi International Airport",
+      "places": [
+        {
+          "name": "Sochi Olympic Park",
+          "ai_summary": "A modern sports complex built for the 2014 Winter Olympics, featuring stadiums, museums, and a vibrant promenade.",
+          "name_english": "Sochi Olympic Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "07:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for the fountain show."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring and Autumn",
+          "place_tip": "Wear comfortable shoes for walking around the park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 43.402,
+            "longitude": 39.955
+          },
+          "address": "Sochi, Krasnodar Krai, Russia",
+          "official_website": "https://www.sochi.ru/en/",
+          "tags": [
+            "Sports",
+            "Landmark",
+            "Modern"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Sochi_adler_aerial_view_2018_14.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Sochi_adler_aerial_view_2018_14.jpg/960px-Sochi_adler_aerial_view_2018_14.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Sochi adler aerial view 2018 14",
+                  "author": "Arne Müseler",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sochi_adler_aerial_view_2018_14.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Blick auf den Olympiapark Adler (Sotschi)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8
+        },
+        {
+          "name": "Rosa Khutor Alpine Resort",
+          "ai_summary": "A famous ski resort in the Caucasus Mountains, known for its winter sports facilities and beautiful landscapes.",
+          "name_english": "Rosa Khutor Alpine Resort",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50 AM",
+          "sunset_time": "07:10 PM",
+          "cost": "Varies by activity",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Ski season typically runs from December to April."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Winter for skiing, Summer for hiking",
+          "place_tip": "Check the weather and snow conditions before your visit.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 43.6833,
+            "longitude": 40.3125
+          },
+          "address": "Rosa Khutor, Krasnaya Polyana, Sochi, Krasnodar Krai, Russia",
+          "official_website": "https://rosakhutor.com/en/",
+          "tags": [
+            "Ski Resort",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:RosaSki3.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RosaSki3.jpg/960px-RosaSki3.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "RosaSki3",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sergei_Kazantsev\" class=\"mw-redirect\" title=\"User:Sergei Kazantsev\">Sergei Kazantsev</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:RosaSki3.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Трассы горнолыжного комплекса Роза Хутор на отметке 1600 м. н.у.м."
+                }
+              }
+            }
+          },
+          "rank_score": 0.868
+        },
+        {
+          "name": "Sochi Arboretum (Dendrarium)",
+          "ai_summary": "A beautiful botanical garden in Sochi, featuring a diverse collection of plants from around the world.",
+          "name_english": "Sochi Arboretum",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "07:05 PM",
+          "cost": "300 RUB",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Closed on Wednesdays from November to March."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Don't miss the tropical and subtropical plant sections.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 43.4042,
+            "longitude": 39.9334
+          },
+          "address": "Kurortny Ave, 74, Sochi, Krasnodar Krai, Russia",
+          "official_website": "https://www.sochi.ru/en/",
+          "tags": [
+            "Botanical Garden",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:River_sochi_P_G.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/River_sochi_P_G.jpg/960px-River_sochi_P_G.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "River sochi P G",
+                  "author": "SKas",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:River_sochi_P_G.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.732
+        },
+        {
+          "name": "Krasnaya Polyana Mountains",
+          "ai_summary": "A mountain range near Sochi, popular for skiing, hiking, and breathtaking views.",
+          "name_english": "Krasnaya Polyana Mountains",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50 AM",
+          "sunset_time": "07:10 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day for hiking and sightseeing."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Year-round, depending on activities",
+          "place_tip": "Bring water and snacks when hiking; trails can be challenging.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 43.6833,
+            "longitude": 40.3125
+          },
+          "address": "Krasnaya Polyana, Sochi, Krasnodar Krai, Russia",
+          "official_website": "https://www.krasnayapolyana.ru/en/",
+          "tags": [
+            "Mountains",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Mountain_Olympic_Village_at_the_Psekhako.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mountain_Olympic_Village_at_the_Psekhako.jpg/960px-Mountain_Olympic_Village_at_the_Psekhako.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Mountain Olympic Village at the Psekhako",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sergei_Kazantsev\" class=\"mw-redirect\" title=\"User:Sergei Kazantsev\">Sergei Kazantsev</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mountain_Olympic_Village_at_the_Psekhako.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Вид на горную олимпийскую деревню на хребте Псехако. На заднем плане - Красная Поляна."
+                }
+              }
+            }
+          },
+          "rank_score": 0.834
+        },
+        {
+          "name": "Lake Ritsa (nearby Abkhazia, often visited from Sochi)",
+          "ai_summary": "A stunning lake located in the Ritsa National Park, known for its emerald waters and surrounding mountains.",
+          "name_english": "Lake Ritsa",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "07:20 PM",
+          "cost": "Varies (entry to national park may have a fee)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Best visited from May to October; check border crossing requirements."
+          },
+          "suggested_duration": "Full-day",
+          "best_time_to_visit": "Late spring to early autumn",
+          "place_tip": "Take a guided tour for a more informative and safe visit.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 43.3667,
+            "longitude": 40.1833
+          },
+          "address": "Ritsa National Park, Abkhazia, Georgia",
+          "official_website": "https://www.abkhazia.com/",
+          "tags": [
+            "Lake",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ritsa1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Ritsa1.jpg/960px-Ritsa1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ritsa1",
+                  "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/w/index.php?title=User:Dims&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dims (page does not exist)\">Dims</a> assumed (based on copyright claims).",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ritsa1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Ritsa lake (from upper side)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.788
+        },
+        {
+          "name": "Riviera Park (Sochi)",
+          "ai_summary": "A large and popular park in Sochi, featuring attractions, cafes, and beautiful walking paths along the coast.",
+          "name_english": "Riviera Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "07:05 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Enjoy a boat ride or visit the dolphinarium while in the park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 43.5853,
+            "longitude": 39.7244
+          },
+          "address": "Sochi, Krasnodar Krai, Russia",
+          "official_website": "https://www.sochi.ru/en/",
+          "tags": [
+            "Park",
+            "Family",
+            "Leisure"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:River_sochi_P_G.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/River_sochi_P_G.jpg/960px-River_sochi_P_G.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "River sochi P G",
+                  "author": "SKas",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:River_sochi_P_G.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Sochi Autodrom (Formula 1 Track)",
+          "ai_summary": "A modern racing circuit in Sochi, host of the Russian Grand Prix and other motorsport events.",
+          "name_english": "Sochi Autodrom",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50 AM",
+          "sunset_time": "07:10 PM",
+          "cost": "Varies by event",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Check the event schedule for specific opening hours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "During motorsport events",
+          "place_tip": "Book tickets in advance for popular events like the Formula 1 Grand Prix.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 43.4042,
+            "longitude": 39.9558
+          },
+          "address": "Sochi, Krasnodar Krai, Russia",
+          "official_website": "https://www.sochiautodrom.ru/en/",
+          "tags": [
+            "Motorsport",
+            "Event",
+            "Modern"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Sirius_track.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Sirius_track.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Sirius track",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:EdwardKap&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:EdwardKap (page does not exist)\">EdwardKap</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sirius_track.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "«Sirius Autodrom»"
+                }
+              }
+            }
+          },
+          "rank_score": 0.74
+        },
+        {
+          "name": "Mount Akhun Viewing Tower",
+          "ai_summary": "A popular viewpoint in Sochi, offering panoramic views of the Black Sea and surrounding mountains.",
+          "name_english": "Mount Akhun Viewing Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "07:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited at sunrise or sunset for stunning views."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Drive or hike to the top; the road can be steep and winding.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 43.5853,
+            "longitude": 39.7244
+          },
+          "address": "Sochi, Krasnodar Krai, Russia",
+          "official_website": "https://www.sochi.ru/en/",
+          "tags": [
+            "Viewpoint",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Akhun_Sochi.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Akhun_Sochi.JPG/960px-Akhun_Sochi.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Akhun Sochi",
+                  "author": "<a href=\"https://ru.wikipedia.org/wiki/User:Yufereff\" class=\"extiw\" title=\"ru:User:Yufereff\">Alexander V. Solomin</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Akhun_Sochi.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Akhun Mountain in Sochi"
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "33 Waterfalls (Sochi)",
+          "ai_summary": "A scenic area in Sochi with a series of beautiful waterfalls, popular for hiking and nature walks.",
+          "name_english": "33 Waterfalls",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "07:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the spring when the waterfalls are most active."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring and early summer",
+          "place_tip": "Wear sturdy shoes and be prepared for a moderate hike.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 43.4042,
+            "longitude": 39.9558
+          },
+          "address": "Sochi, Krasnodar Krai, Russia",
+          "official_website": "https://www.sochi.ru/en/",
+          "tags": [
+            "Waterfalls",
+            "Hiking",
+            "Nature"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Frederic_Edwin_Church_-_Niagara_Falls_-_WGA04867.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Frederic_Edwin_Church_-_Niagara_Falls_-_WGA04867.jpg/960px-Frederic_Edwin_Church_-_Niagara_Falls_-_WGA04867.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">Niagara</div></div>",
+                  "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Frederic_Edwin_Church\" class=\"extiw\" title=\"w:en:Frederic Edwin Church\"><span title=\"American landscape painter (1826–1900)\">Frederic Edwin Church</span></a></bdi>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Frederic_Edwin_Church_-_Niagara_Falls_-_WGA04867.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.814
+        },
+        {
+          "name": "Stalin's Dacha (Sochi)",
+          "ai_summary": "The former summer residence of Joseph Stalin in Sochi, now a museum and historical site.",
+          "name_english": "Stalin's Dacha",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "07:05 PM",
+          "cost": "500 RUB",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Audio guides available in multiple languages."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Combine with a visit to the nearby Sochi Arboretum.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 43.4042,
+            "longitude": 39.9334
+          },
+          "address": "Sochi, Krasnodar Krai, Russia",
+          "official_website": "https://www.sochi.ru/en/",
+          "tags": [
+            "History",
+            "Museum",
+            "Soviet Era"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Datcha_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Datcha_1.jpg/960px-Datcha_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Datcha 1",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Eva_Dahlbeck&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Eva Dahlbeck (page does not exist)\">Eva Dahlbeck</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Datcha_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Entrée de la Datcha de Kountsevo"
+                }
+              }
+            }
+          },
+          "rank_score": 0.756
+        },
+        {
+          "name": "Anapa Beaches",
+          "ai_summary": "Popular beaches located in the city of Anapa, known for their sandy shores and family-friendly atmosphere.",
+          "name_english": "Anapa Beaches",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "07:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the summer months."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Arrive early to secure a good spot, especially on weekends.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 44.8833,
+            "longitude": 37.3167
+          },
+          "address": "Anapa, Krasnodar Krai, Russia",
+          "official_website": "https://www.anapa.info/",
+          "tags": [
+            "Beach",
+            "Family",
+            "Relaxation"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Anapa._Beach.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Anapa._Beach.JPG/960px-Anapa._Beach.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Anapa. Beach",
+                  "author": "<div class=\"informationbox\" style=\"margin-bottom:1em; font-size:100%; padding:10px 10px 10px 50px; vertical-align:middle; background:#F4FBFF repeat scroll 0%; border:1px solid #D5D9E6;\">\n<p>This photography was created by <i>Artem Topchiy</i> (user <a href=\"//commons.wikimedia.org/wiki/User:Art-top\" title=\"User:Art-top\">Art-top</a>). Other photos <a href=\"//commons.wikimedia.org/wiki/Category:Photos_by_Art-top\" title=\"Category:Photos by Art-top\">see here</a>\n</p>\n</div>\n<div style=\"display:table;width:auto;vertical-align:middle;direction:ltr;float:left;line-height:22px;height:24px;font-size:.96em;margin:0px;padding:2px 4px 2px 6px;color:var(--color-base,#000);background:var(--background-color-neutral-subtle,#F8F9FA);border:1px solid #BAB;border-collapse:separate;border-spacing:0px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Canon_wordmark.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Canon_wordmark.svg/120px-Canon_wordmark.svg.png\" decoding=\"async\" width=\"64\" height=\"13\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Canon_wordmark.svg/250px-Canon_wordmark.svg.png 2x\" data-file-width=\"1000\" data-file-height=\"209\"></a></span> This <a href=\"https://en.wikipedia.org/wiki/photograph\" class=\"extiw\" title=\"w:photograph\">photograph</a> was taken with a <a href=\"https://en.wikipedia.org/wiki/Canon_PowerShot\" class=\"extiw\" title=\"w:Canon PowerShot\">Canon PowerShot S2 IS</a></div>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Anapa._Beach.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Anapa\" class=\"extiw\" title=\"en:Anapa\">Anapa</a>. Beach"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Gorgippia Archaeological Museum (Anapa)",
+          "ai_summary": "An archaeological museum in Anapa, showcasing ancient artifacts and the history of the Black Sea region.",
+          "name_english": "Gorgippia Archaeological Museum",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:35 AM",
+          "sunset_time": "07:35 PM",
+          "cost": "250 RUB",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Guided tours available in Russian and English."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Combine with a visit to the nearby Anapa Beaches.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 44.8833,
+            "longitude": 37.3167
+          },
+          "address": "Anapa, Krasnodar Krai, Russia",
+          "official_website": "https://www.anapa.info/",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {},
+          "rank_score": 0.842
+        },
+        {
+          "name": "Gelendzhik Embankment",
+          "ai_summary": "A scenic waterfront promenade in Gelendzhik, perfect for leisurely walks and enjoying the sea view.",
+          "name_english": "Gelendzhik Embankment",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "07:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for a sunset stroll."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Try the local seafood at one of the nearby restaurants.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 44.5667,
+            "longitude": 38.0833
+          },
+          "address": "Gelendzhik, Krasnodar Krai, Russia",
+          "official_website": "https://www.gelendzhik.info/",
+          "tags": [
+            "Embankment",
+            "Leisure",
+            "Seafood"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Safari Park (Gelendzhik)",
+          "ai_summary": "A large wildlife park in Gelendzhik, home to a variety of animals and offering safari tours.",
+          "name_english": "Safari Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:35 AM",
+          "sunset_time": "07:35 PM",
+          "cost": "1000 RUB",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Book a safari tour in advance for a guided experience."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the reptile house and the bird show.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 44.5667,
+            "longitude": 38.0833
+          },
+          "address": "Gelendzhik, Krasnodar Krai, Russia",
+          "official_website": "https://www.gelendzhik.info/",
+          "tags": [
+            "Wildlife",
+            "Safari",
+            "Family"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Giraffa_camelopardalis_-Safaripark_Beekse_Bergen-11July2009.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Giraffa_camelopardalis_-Safaripark_Beekse_Bergen-11July2009.jpg/955px-Giraffa_camelopardalis_-Safaripark_Beekse_Bergen-11July2009.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Giraffa camelopardalis -Safaripark Beekse Bergen-11July2009",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/19901746@N00\">Arend</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Giraffa_camelopardalis_-Safaripark_Beekse_Bergen-11July2009.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Two giraffes at Safaripark Beekse Bergen, Hilvarenbeek, Netheerlands standing near a car."
+                }
+              }
+            }
+          },
+          "rank_score": 0.758
+        },
+        {
+          "name": "Abrau-Dyurso Winery",
+          "ai_summary": "A famous winery located in the village of Abrau-Dyurso, known for its sparkling wines and beautiful vineyard views.",
+          "name_english": "Abrau-Dyurso Winery",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "07:30 PM",
+          "cost": "Varies by tour",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Wine tasting tours available; advance booking recommended."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don't miss the chance to taste the local sparkling wine.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 44.6833,
+            "longitude": 37.5667
+          },
+          "address": "Abrau-Dyurso, Krasnodar Krai, Russia",
+          "official_website": "https://www.abraudyurso.ru/en/",
+          "tags": [
+            "Winery",
+            "Wine Tasting",
+            "Vineyard"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Винный_завод_«Абрау-Дюрсо»_(Краснодарский_край).JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/%D0%92%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4_%C2%AB%D0%90%D0%B1%D1%80%D0%B0%D1%83-%D0%94%D1%8E%D1%80%D1%81%D0%BE%C2%BB_%28%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9%29.JPG/960px-%D0%92%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4_%C2%AB%D0%90%D0%B1%D1%80%D0%B0%D1%83-%D0%94%D1%8E%D1%80%D1%81%D0%BE%C2%BB_%28%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9%29.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Винный завод «Абрау-Дюрсо» (Краснодарский край)",
+                  "author": "<a href=\"https://ru.wikipedia.org/wiki/User:%D0%93%D0%B0%D0%BB%D0%B8%D0%BD_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87\" class=\"extiw\" title=\"ru:User:Галин Владимир Петрович\">Галин Владимир Петрович</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4_%C2%AB%D0%90%D0%B1%D1%80%D0%B0%D1%83-%D0%94%D1%8E%D1%80%D1%81%D0%BE%C2%BB_(%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9).JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Винный завод «Абрау-Дюрсо» (Краснодарский край)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.854
+        },
+        {
+          "name": "Taman Peninsula Archaeological Sites",
+          "ai_summary": "Ancient archaeological sites located on the Taman Peninsula, offering a glimpse into the region's historical civilizations.",
+          "name_english": "Taman Peninsula Archaeological Sites",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "07:35 PM",
+          "cost": "Varies by site",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Guided tours available; check site-specific hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring and Autumn",
+          "place_tip": "Wear comfortable shoes and be prepared for outdoor walking.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.0833,
+            "longitude": 37.5833
+          },
+          "address": "Taman Peninsula, Krasnodar Krai, Russia",
+          "official_website": "https://www.taman.info/",
+          "tags": [
+            "Archaeology",
+            "History",
+            "Culture"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {},
+          "rank_score": 0.858
+        },
+        {
+          "name": "Gorniy Park Ruskeala (Marble Canyon - Technically Karelia, but popular)",
+          "ai_summary": "A stunning marble canyon located in Karelia, often visited from Sochi for its breathtaking views and hiking trails.",
+          "name_english": "Gorniy Park Ruskeala",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "07:40 PM",
+          "cost": "Varies by activity",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Best visited in the summer months; check for guided tour availability."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Book a guided tour for a more informative experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 61.8833,
+            "longitude": 30.3333
+          },
+          "address": "Ruskeala, Karelia, Russia",
+          "official_website": "https://www.ruskealapark.ru/en/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Photography"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {},
+          "rank_score": 0.804
+        },
+        {
+          "name": "Novorossiysk War Memorial",
+          "ai_summary": "A memorial complex in Novorossiysk, dedicated to the heroes of the Great Patriotic War.",
+          "name_english": "Novorossiysk War Memorial",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "07:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Combine with a visit to the nearby Novorossiysk city beach.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 44.7231,
+            "longitude": 37.7662
+          },
+          "address": "Novorossiysk, Krasnodar Krai, Russia",
+          "official_website": "https://www.novorossiysk.info/",
+          "tags": [
+            "Memorial",
+            "History",
+            "Culture"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {},
+          "rank_score": 0.742
+        },
+        {
+          "name": "Krasnodar Park (Galitsky Park)",
+          "ai_summary": "A large urban park in Krasnodar, featuring walking paths, a lake, and various recreational facilities.",
+          "name_english": "Krasnodar Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "07:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Rent a bike to explore the park more easily.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.0355,
+            "longitude": 38.9753
+          },
+          "address": "Krasnodar, Krasnodar Krai, Russia",
+          "official_website": "https://www.krasnodar-parks.ru/",
+          "tags": [
+            "Park",
+            "Recreation",
+            "Nature"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Mountain_Olympic_Village_at_the_Psekhako.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mountain_Olympic_Village_at_the_Psekhako.jpg/960px-Mountain_Olympic_Village_at_the_Psekhako.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Mountain Olympic Village at the Psekhako",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sergei_Kazantsev\" class=\"mw-redirect\" title=\"User:Sergei Kazantsev\">Sergei Kazantsev</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mountain_Olympic_Village_at_the_Psekhako.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Вид на горную олимпийскую деревню на хребте Псехако. На заднем плане - Красная Поляна."
+                }
+              }
+            }
+          },
+          "rank_score": 0.758
+        },
+        {
+          "name": "Shapsugskaya Anomalous Zone",
+          "ai_summary": "A mysterious area in Krasnodar Krai, known for its anomalous phenomena and natural beauty.",
+          "name_english": "Shapsugskaya Anomalous Zone",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "07:55 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the area with a guide to learn about its unique features.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 44.9667,
+            "longitude": 39.0833
+          },
+          "address": "Krasnodar Krai, Russia",
+          "official_website": "https://www.krasnodar-parks.ru/",
+          "tags": [
+            "Nature",
+            "Anomalies",
+            "Adventure"
+          ],
+          "state": "Krasnodar Krai",
+          "photos": {},
+          "rank_score": 0.71
+        }
+      ]
+    }
+  ]
+}

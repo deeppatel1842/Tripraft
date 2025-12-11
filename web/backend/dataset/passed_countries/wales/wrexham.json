@@ -1,0 +1,1234 @@
+{
+  "country": "Wales",
+  "state": "Wrexham",
+  "cities": [
+    {
+      "city": "Wrexham",
+      "nearest_airport": "Liverpool John Lennon Airport",
+      "places": [
+        {
+          "name": "Pontcysyllte Aqueduct",
+          "ai_summary": "A UNESCO World Heritage Site, this aqueduct offers stunning views and a unique canal experience.",
+          "name_english": "Pontcysyllte Aqueduct",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Walk along the aqueduct for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.9703,
+            "longitude": -3.0869
+          },
+          "address": "Station Rd, Trevor Basin, Wrexham LL20 7TY, United Kingdom",
+          "official_website": "https://www.pontcysyllte-aqueduct.co.uk/",
+          "tags": [
+            "Aqueduct",
+            "UNESCO",
+            "Canal",
+            "Scenic"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pontcysyllte_aqueduct_arp.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pontcysyllte_aqueduct_arp.jpg/960px-Pontcysyllte_aqueduct_arp.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pontcysyllte aqueduct arp",
+                  "author": "Adrian Pingstone",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pontcysyllte_aqueduct_arp.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "The Pontcysyllte Aqueduct on the Llangollen Canal, Denbighshire, Wales."
+                }
+              }
+            }
+          },
+          "rank_score": 0.958
+        },
+        {
+          "name": "Erddig",
+          "ai_summary": "A historic house and garden showcasing life in the 18th century, complete with beautiful grounds and exhibits.",
+          "name_english": "Erddig",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed during winter months."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the gardens for a relaxing experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 53.0361,
+            "longitude": -3.0155
+          },
+          "address": "Erddig, Wrexham LL13 0YT, United Kingdom",
+          "official_website": "https://www.nationaltrust.org.uk/erddig",
+          "tags": [
+            "Historic",
+            "Gardens",
+            "Museum",
+            "Heritage"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:The_Mansion_House_across_the_pond_-_Erddig,_Wrexham,_North_Wales_(24540653874).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/The_Mansion_House_across_the_pond_-_Erddig%2C_Wrexham%2C_North_Wales_%2824540653874%29.jpg/960px-The_Mansion_House_across_the_pond_-_Erddig%2C_Wrexham%2C_North_Wales_%2824540653874%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "The Mansion House across the pond - Erddig, Wrexham, North Wales (24540653874)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10978503@N00\">Glen Bowman</a> from Newcastle, England",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:The_Mansion_House_across_the_pond_-_Erddig,_Wrexham,_North_Wales_(24540653874).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "The Mansion House across the pond - Erddig, Wrexham, North Wales"
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "Ty Mawr Country Park",
+          "ai_summary": "A family-friendly park with walking trails, picnic areas, and stunning views of the Dee Valley.",
+          "name_english": "Ty Mawr Country Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Open year-round."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture the scenic views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.9783,
+            "longitude": -3.0861
+          },
+          "address": "Ty Mawr Country Park, Wrexham LL14 3PE, United Kingdom",
+          "official_website": "https://www.wrexham.gov.uk/",
+          "tags": [
+            "Park",
+            "Nature",
+            "Family",
+            "Scenic"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Path_in_Ty_Mawr_Country_Park_-_geograph.org.uk_-_2867350.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Path_in_Ty_Mawr_Country_Park_-_geograph.org.uk_-_2867350.jpg/960px-Path_in_Ty_Mawr_Country_Park_-_geograph.org.uk_-_2867350.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Path in Ty Mawr Country Park - geograph.org.uk - 2867350",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/2076\">John Haynes</a> <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Path_in_Ty_Mawr_Country_Park_-_geograph.org.uk_-_2867350.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Path_in_Ty_Mawr_Country_Park_-_geograph.org.uk_-_2867350.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Path in Ty Mawr Country Park <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Path_in_Ty_Mawr_Country_Park_-_geograph.org.uk_-_2867350.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Pontcysyllte Aqueduct (UNESCO)",
+          "ai_summary": "A UNESCO World Heritage Site, this aqueduct offers stunning views and a unique canal experience.",
+          "name_english": "Pontcysyllte Aqueduct",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Walk along the aqueduct for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.9703,
+            "longitude": -3.0869
+          },
+          "address": "Station Rd, Trevor Basin, Wrexham LL20 7TY, United Kingdom",
+          "official_website": "https://www.pontcysyllte-aqueduct.co.uk/",
+          "tags": [
+            "Aqueduct",
+            "UNESCO",
+            "Canal",
+            "Scenic"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pontcysyllte_aqueduct_arp.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pontcysyllte_aqueduct_arp.jpg/960px-Pontcysyllte_aqueduct_arp.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pontcysyllte aqueduct arp",
+                  "author": "Adrian Pingstone",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pontcysyllte_aqueduct_arp.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "The Pontcysyllte Aqueduct on the Llangollen Canal, Denbighshire, Wales."
+                }
+              }
+            }
+          },
+          "rank_score": 0.958
+        },
+        {
+          "name": "Ty Pawb Arts Centre",
+          "ai_summary": "A vibrant arts centre in Wrexham, hosting a variety of exhibitions, workshops, and events.",
+          "name_english": "Ty Pawb Arts Centre",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "Check the website for current exhibitions."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Participate in a workshop for a hands-on experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 53.0452,
+            "longitude": -2.9916
+          },
+          "address": "Market St, Wrexham LL13 8BB, United Kingdom",
+          "official_website": "https://www.typawb.wales/",
+          "tags": [
+            "Arts",
+            "Culture",
+            "Exhibitions",
+            "Workshops"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ty_Pawb_(53143593100).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ty_Pawb_%2853143593100%29.jpg/960px-Ty_Pawb_%2853143593100%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ty Pawb (53143593100)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/16801915@N06\">Reading Tom</a> from Reading, UK",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ty_Pawb_(53143593100).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Chester Street, Wrexham. Opened on 2 April 2018,  it contains exhibition space, art galleries, a food court, space for small stage concerts and live events, as well as a market for local traders"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "St Giles’ Parish Church",
+          "ai_summary": "An iconic medieval church in Wrexham, known for its stunning architecture and historical significance.",
+          "name_english": "St Giles’ Parish Church",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Check for service times and special events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Climb the tower for a panoramic view of Wrexham.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.0458,
+            "longitude": -2.9915
+          },
+          "address": "Church St, Wrexham LL13 8LY, United Kingdom",
+          "official_website": "https://www.stgilesparishchurch.org.uk/",
+          "tags": [
+            "Church",
+            "Historic",
+            "Architecture",
+            "Scenic"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Stgileswrexham.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Stgileswrexham.jpg/960px-Stgileswrexham.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Stgileswrexham",
+                  "author": "David Powell",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Stgileswrexham.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A photo of Wrexham's St Giles church."
+                }
+              }
+            }
+          },
+          "rank_score": 0.882
+        },
+        {
+          "name": "Alyn Waters Country Park",
+          "ai_summary": "A beautiful country park with riverside walks, woodlands, and meadows, perfect for nature lovers.",
+          "name_english": "Alyn Waters Country Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Open year-round."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the visitor centre for maps and information.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.0207,
+            "longitude": -3.0144
+          },
+          "address": "Gwersyllt, Wrexham LL11 4AG, United Kingdom",
+          "official_website": "https://www.wrexham.gov.uk/",
+          "tags": [
+            "Park",
+            "Nature",
+            "Walking",
+            "Scenic"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Afon_Alun_-_geograph.org.uk_-_204683.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Afon_Alun_-_geograph.org.uk_-_204683.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Afon Alun - geograph.org.uk - 204683",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/5089\">Derek Harper</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Afon_Alun_-_geograph.org.uk_-_204683.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Afon Alun. The River Alyn in Alyn Waters Country Park / Parc Gwledig Dyfroedd Alun, close to Bradley Mill Bridge."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Bellevue Park",
+          "ai_summary": "A lovely park in Wrexham with floral displays, a pond, and a children's play area.",
+          "name_english": "Bellevue Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Enjoy a picnic by the pond.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.0452,
+            "longitude": -2.9984
+          },
+          "address": "Bellevue Park, Wrexham LL13 7LU, United Kingdom",
+          "official_website": "https://www.wrexham.gov.uk/",
+          "tags": [
+            "Park",
+            "Nature",
+            "Family",
+            "Scenic"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bellvue_Park,_Wrexham_-_geograph.org.uk_-_605752.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Bellvue_Park%2C_Wrexham_-_geograph.org.uk_-_605752.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bellvue Park, Wrexham - geograph.org.uk - 605752",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/4582\">Eirian Evans</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bellvue_Park,_Wrexham_-_geograph.org.uk_-_605752.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Bellvue Park, Wrexham An Edwardian park in the centre of Wrexham, which has been refurbished."
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Xplore! Science Discovery Centre",
+          "ai_summary": "An interactive science centre in Wrexham, great for families and children of all ages.",
+          "name_english": "Xplore! Science Discovery Centre",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Check the website for special events and workshops."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Allow extra time for the hands-on exhibits.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 53.0458,
+            "longitude": -2.9987
+          },
+          "address": "Grove Rd, Wrexham LL11 1BG, United Kingdom",
+          "official_website": "https://www.xplorescience.co.uk/",
+          "tags": [
+            "Science",
+            "Discovery",
+            "Family",
+            "Interactive"
+          ],
+          "state": "Wrexham",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Wrexham County Borough Museum",
+          "ai_summary": "A local museum in Wrexham, featuring exhibits on the history and culture of the Wrexham area.",
+          "name_english": "Wrexham County Borough Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "Check the website for current exhibitions."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the gift shop for local crafts and souvenirs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.0452,
+            "longitude": -2.9984
+          },
+          "address": "Regent St, Wrexham LL11 1RB, United Kingdom",
+          "official_website": "https://www.wrexham.gov.uk/",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture",
+            "Exhibits"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pontcysyllte_Aqueduct_and_Cefn_Mawr_viaduct.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Pontcysyllte_Aqueduct_and_Cefn_Mawr_viaduct.jpg/960px-Pontcysyllte_Aqueduct_and_Cefn_Mawr_viaduct.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pontcysyllte Aqueduct and Cefn Mawr viaduct",
+                  "author": "DronePics.Wales",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pontcysyllte_Aqueduct_and_Cefn_Mawr_viaduct.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "An aerial view of Pontcysyllte Aqueduct, showing the River Dee beneath and traversed by the Llangollen Canal, with the Cefn Mawr viaduct in the distance"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Acton Park",
+          "ai_summary": "A public park in Wrexham with a lake, walking paths, and a children's play area.",
+          "name_english": "Acton Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Feed the ducks at the lake.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.0452,
+            "longitude": -2.9984
+          },
+          "address": "Acton Park, Wrexham LL12 8TY, United Kingdom",
+          "official_website": "https://www.wrexham.gov.uk/",
+          "tags": [
+            "Park",
+            "Nature",
+            "Family",
+            "Scenic"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Four_Dogs_gate,_Wrexham_(3).JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Four_Dogs_gate%2C_Wrexham_%283%29.JPG/960px-Four_Dogs_gate%2C_Wrexham_%283%29.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Four Dogs gate, Wrexham (3)",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Rept0n1x\" title=\"User:Rept0n1x\">Rept0n1x</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Four_Dogs_gate,_Wrexham_(3).JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Photo taken at the Four Dogs gate, Chester Road, Acton, Wrexham, Wales."
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Techniquest Glyndŵr (exhibitions)",
+          "ai_summary": "A science and technology centre in Wrexham, offering interactive exhibits and educational workshops.",
+          "name_english": "Techniquest Glyndŵr (exhibitions)",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Check the website for special events and workshops."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the hands-on exhibits for an interactive experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 53.0458,
+            "longitude": -2.9987
+          },
+          "address": "Grove Rd, Wrexham LL11 1BG, United Kingdom",
+          "official_website": "https://www.techniquestglyndwr.com/",
+          "tags": [
+            "Science",
+            "Technology",
+            "Exhibitions",
+            "Interactive"
+          ],
+          "state": "Wrexham",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Chirk Castle (nearby)",
+          "ai_summary": "A National Trust property, this medieval castle offers stunning views, beautiful gardens, and a glimpse into history.",
+          "name_english": "Chirk Castle (nearby)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Check the website for seasonal opening times."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don't miss the gardens and the views from the castle.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 52.9068,
+            "longitude": -3.0006
+          },
+          "address": "Chirk Castle, Chirk, Wrexham LL14 5AF, United Kingdom",
+          "official_website": "https://www.nationaltrust.org.uk/chirk-castle",
+          "tags": [
+            "Castle",
+            "Historic",
+            "Gardens",
+            "UNESCO"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ChirkCastle1.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/ChirkCastle1.JPG/960px-ChirkCastle1.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "ChirkCastle1",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Prichardson&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Prichardson (page does not exist)\">Prichardson</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ChirkCastle1.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Chirk Castle with Adam's Tower in Far Left Side"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Minera Lead Mines",
+          "ai_summary": "A historic site with guided tours available, showcasing the area's mining heritage.",
+          "name_english": "Minera Lead Mines",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 16:00",
+            "Wednesday": "10:00 - 16:00",
+            "Thursday": "10:00 - 16:00",
+            "Friday": "10:00 - 16:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Advance booking recommended for guided tours."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Wear sturdy shoes for the mine tour.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 53.0583,
+            "longitude": -3.0861
+          },
+          "address": "Minera Lead Mines, Minera, Wrexham LL11 3DU, United Kingdom",
+          "official_website": "https://www.minera-lead-mines.co.uk/",
+          "tags": [
+            "Mining",
+            "Heritage",
+            "Guided Tours",
+            "Historic"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Minera_Lead_Mine_-_geograph.org.uk_-_2227402.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Minera_Lead_Mine_-_geograph.org.uk_-_2227402.jpg/960px-Minera_Lead_Mine_-_geograph.org.uk_-_2227402.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Minera Lead Mine - geograph.org.uk - 2227402",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/16152\">Chris Andrews</a> <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Minera_Lead_Mine_-_geograph.org.uk_-_2227402.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Minera_Lead_Mine_-_geograph.org.uk_-_2227402.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Minera Lead Mine <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Minera_Lead_Mine_-_geograph.org.uk_-_2227402.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.738
+        },
+        {
+          "name": "Clywedog Valley Trail",
+          "ai_summary": "A scenic trail in the Ceiriog Valley, ideal for walking, cycling, and enjoying nature.",
+          "name_english": "Clywedog Valley Trail",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring binoculars for birdwatching.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.9736,
+            "longitude": -3.0861
+          },
+          "address": "Clywedog Valley Trail, Wrexham LL14 3PE, United Kingdom",
+          "official_website": "https://www.wrexham.gov.uk/",
+          "tags": [
+            "Trail",
+            "Walking",
+            "Cycling",
+            "Nature"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Nant_Mill_visitors_park.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Nant_Mill_visitors_park.jpg/960px-Nant_Mill_visitors_park.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Nant Mill visitors park",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Spicke01\" class=\"extiw\" title=\"en:User:Spicke01\">User:Spicke01</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Nant_Mill_visitors_park.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Nant Mill visitors park on the Clywedog Trail."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Racecourse Ground (exterior)",
+          "ai_summary": "The home of Wrexham AFC, the Racecourse Ground is a historic football stadium with a passionate fan base.",
+          "name_english": "Racecourse Ground (exterior)",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed during a matchday atmosphere."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check the fixture list for home games.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.0452,
+            "longitude": -2.9984
+          },
+          "address": "Racecourse Ground, Wrexham LL11 2AH, United Kingdom",
+          "official_website": "https://www.wrexhamafc.co.uk/",
+          "tags": [
+            "Football",
+            "Sport",
+            "Historic",
+            "Stadium"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Racecourse_Ground,_Wrexham_(49329447362).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Racecourse_Ground%2C_Wrexham_%2849329447362%29.jpg/960px-Racecourse_Ground%2C_Wrexham_%2849329447362%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Racecourse Ground, Wrexham (49329447362)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/57899800@N00\">John Lord</a> from Edinburgh, Scotland",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Racecourse_Ground,_Wrexham_(49329447362).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Racecourse Ground, Wrexham"
+                }
+              }
+            }
+          },
+          "rank_score": 0.754
+        },
+        {
+          "name": "Plas Power Woods",
+          "ai_summary": "A scenic woodland area in Wrexham, perfect for walking, cycling, and enjoying nature.",
+          "name_english": "Plas Power Woods",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Look out for local wildlife.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.0452,
+            "longitude": -2.9984
+          },
+          "address": "Plas Power Woods, Wrexham LL14 3PE, United Kingdom",
+          "official_website": "https://www.wrexham.gov.uk/",
+          "tags": [
+            "Woods",
+            "Nature",
+            "Walking",
+            "Scenic"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bersham_cottages.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bersham_cottages.jpg/960px-Bersham_cottages.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bersham cottages",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Spicke01\" class=\"extiw\" title=\"en:User:Spicke01\">User:Spicke01</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bersham_cottages.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Cottages by John Gibson for the Plas Power Estate, Bersham"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Offa’s Dyke Path (sections)",
+          "ai_summary": "A long-distance footpath that follows the England-Wales border, offering stunning views and historical sites.",
+          "name_english": "Offa’s Dyke Path (sections)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best walked in sections; check the website for details."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear sturdy shoes and bring water.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.9703,
+            "longitude": -3.0869
+          },
+          "address": "Offa’s Dyke Path, Wrexham LL20 7TY, United Kingdom",
+          "official_website": "https://www.offasdyke.org.uk/",
+          "tags": [
+            "Hiking",
+            "Historic",
+            "Scenic",
+            "Nature"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Offa's_Dyke_Path_signpost._-_geograph.org.uk_-_501938.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Offa%27s_Dyke_Path_signpost._-_geograph.org.uk_-_501938.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Offa's Dyke Path signpost. - geograph.org.uk - 501938",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/14795\">David Quinn</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Offa%27s_Dyke_Path_signpost._-_geograph.org.uk_-_501938.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Offa's Dyke Path signpost. pointing in the direction of Foel Fenlli."
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Holt Castle Ruins",
+          "ai_summary": "The ruins of a medieval castle in Holt, near Wrexham, offering a glimpse into the area's history.",
+          "name_english": "Holt Castle Ruins",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Combine with a visit to the nearby village of Holt.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.0006,
+            "longitude": -2.9734
+          },
+          "address": "Holt Castle Ruins, Holt, Wrexham LL13 0DA, United Kingdom",
+          "official_website": "https://www.wrexham.gov.uk/",
+          "tags": [
+            "Castle",
+            "Ruins",
+            "Historic",
+            "Scenic"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Holt_Castle_Ruins.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Holt_Castle_Ruins.jpg/960px-Holt_Castle_Ruins.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Holt Castle Ruins",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gavin_Platt&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Gavin Platt (page does not exist)\">Gavin Platt</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Holt_Castle_Ruins.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The ruins of the Holt Castle on the river Dee."
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Bangor-on-Dee Racecourse",
+          "ai_summary": "A picturesque racecourse in Bangor-on-Dee, near Wrexham, known for horse racing and events.",
+          "name_english": "Bangor-on-Dee Racecourse",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "Open 10:00 - 17:00",
+            "Sunday": "Open 10:00 - 17:00",
+            "notes": "Check the website for race days and events."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Experience the atmosphere on a race day.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 52.9736,
+            "longitude": -3.0521
+          },
+          "address": "Bangor-on-Dee Racecourse, Bangor-on-Dee, Wrexham LL13 0DA, United Kingdom",
+          "official_website": "https://www.bangorondeeracecourse.co.uk/",
+          "tags": [
+            "Racecourse",
+            "Horse Racing",
+            "Events",
+            "Scenic"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Horse_Jump_Fence_At_Bangor-On-Dee_Racecourse_(8054914143).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Horse_Jump_Fence_At_Bangor-On-Dee_Racecourse_%288054914143%29.jpg/960px-Horse_Jump_Fence_At_Bangor-On-Dee_Racecourse_%288054914143%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Horse Jump Fence At Bangor-On-Dee Racecourse (8054914143)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/81265351@N00\">Paul</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Horse_Jump_Fence_At_Bangor-On-Dee_Racecourse_(8054914143).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Horse clear steeplechase fence at Bangor-On-Dee"
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Cefn Mawr Viaduct",
+          "ai_summary": "A historic viaduct in Cefn Mawr, near Wrexham, offering impressive views and photo opportunities.",
+          "name_english": "Cefn Mawr Viaduct",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit nearby attractions like the Pontcysyllte Aqueduct.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.9736,
+            "longitude": -3.0869
+          },
+          "address": "Cefn Mawr Viaduct, Cefn Mawr, Wrexham LL14 3PE, United Kingdom",
+          "official_website": "https://www.wrexham.gov.uk/",
+          "tags": [
+            "Viaduct",
+            "Historic",
+            "Scenic",
+            "Photography"
+          ],
+          "state": "Wrexham",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cefn_Mawr_(52444982651).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cefn_Mawr_%2852444982651%29.jpg/960px-Cefn_Mawr_%2852444982651%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cefn Mawr (52444982651)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/133200397@N03\">Sergei Gussev</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cefn_Mawr_(52444982651).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Wales, United Kingdom - July 2022"
+                }
+              }
+            }
+          },
+          "rank_score": 0.754
+        }
+      ]
+    }
+  ]
+}

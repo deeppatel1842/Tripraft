@@ -1,0 +1,1135 @@
+{
+  "country": "Czech Republic",
+  "state": "Plze",
+  "cities": [
+    {
+      "city": "Pilsen",
+      "nearest_airport": "Václav Havel Airport Prague (PRG)",
+      "places": [
+        {
+          "name": "Pilsner Urquell Brewery Tour",
+          "ai_summary": "The Pilsner Urquell Brewery offers an immersive tour showcasing the history and brewing process of the world-famous Pilsner beer.",
+          "name_english": "Pilsner Urquell Brewery",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Tours available in multiple languages."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the beer tasting session at the end of the tour.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 49.7384,
+            "longitude": 13.3736
+          },
+          "address": "Pilsner Urquell Brewery, Pilsen, Czech Republic",
+          "official_website": "https://www.prazdrojvisit.cz/",
+          "tags": [
+            "Beer",
+            "History",
+            "Tour"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7895
+        },
+        {
+          "name": "St. Bartholomew’s Cathedral Tower",
+          "ai_summary": "The tower of St. Bartholomew’s Cathedral offers breathtaking views of Pilsen and is the tallest church tower in the Czech Republic.",
+          "name_english": "St. Bartholomew’s Cathedral Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00-17:00",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Closed during bad weather."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Climb to the top for panoramic views of the city.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.7475,
+            "longitude": 13.3776
+          },
+          "address": "St. Bartholomew’s Cathedral, Pilsen, Czech Republic",
+          "official_website": "https://www.visitpilsen.eu/",
+          "tags": [
+            "Landmark",
+            "Scenic",
+            "Architecture"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cathedral Saint Bartholomew Plzen Interior.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Cathedral_Saint_Bartholomew_Plzen_Interior.jpg/960px-Cathedral_Saint_Bartholomew_Plzen_Interior.jpg",
+                "width": 800,
+                "height": 607,
+                "attribution": {
+                  "title": "Cathedral Saint Bartholomew Plzen Interior",
+                  "author": "Nigel Swales from Birmingham, UK (shifted &amp; brightened by Rabanus Flavus)",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cathedral_Saint_Bartholomew_Plzen_Interior.jpg",
+                  "credit": "File:Plzen CZ St Bartholomew Cathedral interior.jpg",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Saint Bartholomew Cathedral, Plzen"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7872
+        },
+        {
+          "name": "Great Synagogue (Europe’s 2nd Largest)",
+          "ai_summary": "The Great Synagogue in Pilsen is a stunning architectural gem and the second-largest synagogue in Europe, featuring intricate interiors.",
+          "name_english": "Great Synagogue",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-16:00",
+            "Wednesday": "10:00-16:00",
+            "Thursday": "10:00-16:00",
+            "Friday": "10:00-16:00",
+            "Saturday": "10:00-16:00",
+            "Sunday": "10:00-16:00",
+            "notes": "Special events may affect opening hours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the history of the Jewish community in Pilsen.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.7461,
+            "longitude": 13.3758
+          },
+          "address": "Great Synagogue, Pilsen, Czech Republic",
+          "official_website": "https://www.visitpilsen.eu/",
+          "tags": [
+            "History",
+            "Culture",
+            "Architecture"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of the Czech Republic.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/800px-Flag_of_the_Czech_Republic.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of the Czech Republic",
+                  "author": "Jaroslav Kursa",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+                  "credit": "Appendix No. 3 of Czech Legal Act 3/1993",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of the Czech Republic"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7672
+        },
+        {
+          "name": "Republic Square (Náměstí Republiky)",
+          "ai_summary": "Republic Square is the main square in Pilsen, surrounded by historic buildings, shops, and cafes, and is a central point of the city.",
+          "name_english": "Republic Square",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Always open, but individual shops and cafes have their own hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Great place for people-watching and enjoying local events.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.7487,
+            "longitude": 13.3736
+          },
+          "address": "Republic Square, Pilsen, Czech Republic",
+          "official_website": "https://www.visitpilsen.eu/",
+          "tags": [
+            "Square",
+            "Shopping",
+            "Dining"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7685
+        },
+        {
+          "name": "Brewery Museum",
+          "ai_summary": "The Brewery Museum in Pilsen presents the history of brewing in the region, with interactive exhibits and beer tastings.",
+          "name_english": "Brewery Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Last entry one hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Join a guided tour for a more in-depth experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 49.742,
+            "longitude": 13.3731
+          },
+          "address": "Brewery Museum, Pilsen, Czech Republic",
+          "official_website": "https://www.muzeumplzen.cz/",
+          "tags": [
+            "Museum",
+            "History",
+            "Beer"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of the Czech Republic.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/800px-Flag_of_the_Czech_Republic.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of the Czech Republic",
+                  "author": "Jaroslav Kursa",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+                  "credit": "Appendix No. 3 of Czech Legal Act 3/1993",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of the Czech Republic"
+                }
+              }
+            }
+          },
+          "rank_score": 0.744
+        },
+        {
+          "name": "Techmania Science Center",
+          "ai_summary": "Techmania Science Center is an interactive science museum in Pilsen, great for families and children, with hands-on exhibits and a planetarium.",
+          "name_english": "Techmania Science Center",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Check planetarium schedule in advance."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the 3D planetarium shows.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 49.7428,
+            "longitude": 13.377
+          },
+          "address": "Techmania Science Center, Pilsen, Czech Republic",
+          "official_website": "https://www.techmania.cz/",
+          "tags": [
+            "Science",
+            "Family",
+            "Interactive"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of the Czech Republic.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/800px-Flag_of_the_Czech_Republic.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of the Czech Republic",
+                  "author": "Jaroslav Kursa",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+                  "credit": "Appendix No. 3 of Czech Legal Act 3/1993",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of the Czech Republic"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7615
+        },
+        {
+          "name": "Patton Memorial Museum",
+          "ai_summary": "The Patton Memorial Museum in Pilsen is dedicated to General George S. Patton and the 3rd Army’s role in the liberation of Czechoslovakia during WWII.",
+          "name_english": "Patton Memorial Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the museum shop for unique souvenirs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.7465,
+            "longitude": 13.3752
+          },
+          "address": "Patton Memorial Museum, Pilsen, Czech Republic",
+          "official_website": "https://www.visitpilsen.eu/",
+          "tags": [
+            "Museum",
+            "History",
+            "Free"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cathedral Saint Bartholomew Plzen Interior.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Cathedral_Saint_Bartholomew_Plzen_Interior.jpg/960px-Cathedral_Saint_Bartholomew_Plzen_Interior.jpg",
+                "width": 800,
+                "height": 607,
+                "attribution": {
+                  "title": "Cathedral Saint Bartholomew Plzen Interior",
+                  "author": "Nigel Swales from Birmingham, UK (shifted &amp; brightened by Rabanus Flavus)",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cathedral_Saint_Bartholomew_Plzen_Interior.jpg",
+                  "credit": "File:Plzen CZ St Bartholomew Cathedral interior.jpg",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Saint Bartholomew Cathedral, Plzen"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7342
+        },
+        {
+          "name": "Plzeň Historical Underground",
+          "ai_summary": "The Plzeň Historical Underground is a network of tunnels and cellars beneath the city, offering a glimpse into the medieval history of Pilsen.",
+          "name_english": "Plzeň Historical Underground",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Wear comfortable shoes and bring a jacket."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Join a guided tour for the best experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 49.742,
+            "longitude": 13.3736
+          },
+          "address": "Plzeň Historical Underground, Pilsen, Czech Republic",
+          "official_website": "https://www.undergroundplzen.eu/",
+          "tags": [
+            "History",
+            "Underground",
+            "Tour"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CZ-Plz-nam-republ-01 crop.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/CZ-Plz-nam-republ-01_crop.jpg/960px-CZ-Plz-nam-republ-01_crop.jpg",
+                "width": 800,
+                "height": 615,
+                "attribution": {
+                  "title": "CZ-Plz-nam-republ-01 crop",
+                  "author": "Balou46",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CZ-Plz-nam-republ-01_crop.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Am Platz der Republik, Vordergrund Pestsäule"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7335
+        },
+        {
+          "name": "West Bohemian Museum",
+          "ai_summary": "The West Bohemian Museum in Pilsen showcases the art, history, and culture of the West Bohemia region.",
+          "name_english": "West Bohemian Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Check for temporary exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the museum café for local delicacies.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.7422,
+            "longitude": 13.3734
+          },
+          "address": "West Bohemian Museum, Pilsen, Czech Republic",
+          "official_website": "https://www.zcm.cz/",
+          "tags": [
+            "Museum",
+            "Culture",
+            "Art"
+          ],
+          "state": "Plze",
+          "photos": {},
+          "rank_score": 0.7775
+        },
+        {
+          "name": "DEPO2015 Creative Zone",
+          "ai_summary": "DEPO2015 is a creative hub in Pilsen, hosting cultural events, exhibitions, and workshops in a unique industrial setting.",
+          "name_english": "DEPO2015 Creative Zone",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Check schedule for events and exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the surrounding area for street art and installations.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.7426,
+            "longitude": 13.3738
+          },
+          "address": "DEPO2015, Pilsen, Czech Republic",
+          "official_website": "https://www.depo2015.cz/",
+          "tags": [
+            "Culture",
+            "Art",
+            "Events"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of the Czech Republic.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/800px-Flag_of_the_Czech_Republic.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of the Czech Republic",
+                  "author": "Jaroslav Kursa",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+                  "credit": "Appendix No. 3 of Czech Legal Act 3/1993",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of the Czech Republic"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7505
+        },
+        {
+          "name": "Lochotín Park & Zoo",
+          "ai_summary": "Lochotín Park is a large public park in Pilsen, featuring a zoo, swimming pool, and extensive gardens, perfect for a family day out.",
+          "name_english": "Lochotín Park & Zoo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Zoo may have extended hours in summer."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Pack a picnic and enjoy it in the park.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.7422,
+            "longitude": 13.3734
+          },
+          "address": "Lochotín Park & Zoo, Pilsen, Czech Republic",
+          "official_website": "https://www.zoologicka.cz/",
+          "tags": [
+            "Park",
+            "Zoo",
+            "Family"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OOjs UI icon edit-ltr-progressive.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/800px-OOjs_UI_icon_edit-ltr-progressive.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "OOjs UI icon edit-ltr-progressive",
+                  "author": "https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg",
+                  "credit": "lib/oojs-ui/themes/mediawiki/images/icons/",
+                  "usage_terms": "Public domain",
+                  "description": "An icon from the OOjs UI MediaWiki lib."
+                }
+              }
+            }
+          },
+          "rank_score": 0.727
+        },
+        {
+          "name": "Franciscan Monastery",
+          "ai_summary": "The Franciscan Monastery in Pilsen is a historic monastery with beautiful gardens, offering a peaceful retreat in the city.",
+          "name_english": "Franciscan Monastery",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Garden access may be restricted in winter."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Attend a concert or event in the monastery for a unique experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.7468,
+            "longitude": 13.3754
+          },
+          "address": "Franciscan Monastery, Pilsen, Czech Republic",
+          "official_website": "https://www.visitpilsen.eu/",
+          "tags": [
+            "Monastery",
+            "Garden",
+            "Free"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Jižní křídlo.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ji%C5%BEn%C3%AD_k%C5%99%C3%ADdlo.JPG/960px-Ji%C5%BEn%C3%AD_k%C5%99%C3%ADdlo.JPG",
+                "width": 800,
+                "height": 1204,
+                "attribution": {
+                  "title": "Jižní křídlo",
+                  "author": "Hajsmanova",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Jižní_křídlo.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Klášterní ambit - jižní křídlo"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7172
+        },
+        {
+          "name": "J. K. Tyl Theatre",
+          "ai_summary": "The J. K. Tyl Theatre in Pilsen is a historic theatre building, home to the Pilsen Philharmonic and various cultural performances.",
+          "name_english": "J. K. Tyl Theatre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Check schedule for performances and events."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book tickets in advance for popular performances.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 49.7461,
+            "longitude": 13.3758
+          },
+          "address": "J. K. Tyl Theatre, Pilsen, Czech Republic",
+          "official_website": "https://www.djkt.eu/",
+          "tags": [
+            "Theatre",
+            "Culture",
+            "Music"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.754
+        },
+        {
+          "name": "Měšťanská Beseda Building",
+          "ai_summary": "The Měšťanská Beseda Building in Pilsen is a historic civic building, now serving as a cultural and social center.",
+          "name_english": "Měšťanská Beseda Building",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Check for public events and exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the building’s architecture and attend a local event.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.7465,
+            "longitude": 13.3756
+          },
+          "address": "Měšťanská Beseda Building, Pilsen, Czech Republic",
+          "official_website": "https://www.mestanskabeseda.cz/",
+          "tags": [
+            "Culture",
+            "History",
+            "Events"
+          ],
+          "state": "Plze",
+          "photos": {},
+          "rank_score": 0.726
+        },
+        {
+          "name": "River Mže Promenade",
+          "ai_summary": "The River Mže Promenade in Pilsen is a scenic walkway along the Mže River, ideal for a leisurely stroll or bike ride.",
+          "name_english": "River Mže Promenade",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Always open, enjoy the natural scenery."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Bring a bike or rent one to explore the area.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.748,
+            "longitude": 13.3731
+          },
+          "address": "River Mže Promenade, Pilsen, Czech Republic",
+          "official_website": "https://www.visitpilsen.eu/",
+          "tags": [
+            "Scenic",
+            "Walking",
+            "Biking"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Bohemia.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Bohemia.svg/800px-Flag_of_Bohemia.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Bohemia",
+                  "author": "No machine-readable author provided. Urmas assumed (based on copyright claims).",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Bohemia.svg",
+                  "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+                  "usage_terms": "Public domain",
+                  "description": "http://vlastenci.cz/obr/vlajka/vlajka.jpg"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7485
+        },
+        {
+          "name": "Skoda Museum (nearby)",
+          "ai_summary": "The Skoda Museum, located near Pilsen, showcases the history of the Skoda Works and the development of the Czech automotive industry.",
+          "name_english": "Skoda Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Last entry one hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine your visit with a tour of the factory (advance booking required).",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 49.7428,
+            "longitude": 13.3736
+          },
+          "address": "Skoda Museum, Mladá Boleslav, Czech Republic",
+          "official_website": "https://www.skoda-auto.com/",
+          "tags": [
+            "Automotive",
+            "Museum",
+            "History"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.758
+        },
+        {
+          "name": "Puppet Museum",
+          "ai_summary": "The Puppet Museum in Pilsen is dedicated to the art of puppetry, featuring exhibits and puppet shows for all ages.",
+          "name_english": "Puppet Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Check schedule for puppet shows."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Enjoy a puppet show for a unique cultural experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 49.7461,
+            "longitude": 13.3758
+          },
+          "address": "Puppet Museum, Pilsen, Czech Republic",
+          "official_website": "https://www.visitpilsen.eu/",
+          "tags": [
+            "Museum",
+            "Culture",
+            "Family"
+          ],
+          "state": "Plze",
+          "photos": {},
+          "rank_score": 0.753
+        },
+        {
+          "name": "Water Tower Observation",
+          "ai_summary": "The Water Tower in Pilsen offers an observation deck with panoramic views of the city and the surrounding area.",
+          "name_english": "Water Tower Observation",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00-18:00",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Last entry one hour before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Bring a camera for stunning photos of the city.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.7484,
+            "longitude": 13.3736
+          },
+          "address": "Water Tower, Pilsen, Czech Republic",
+          "official_website": "https://www.visitpilsen.eu/",
+          "tags": [
+            "Observation",
+            "Scenic",
+            "Photography"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of the Czech Republic.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/800px-Flag_of_the_Czech_Republic.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of the Czech Republic",
+                  "author": "Jaroslav Kursa",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+                  "credit": "Appendix No. 3 of Czech Legal Act 3/1993",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of the Czech Republic"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7567
+        },
+        {
+          "name": "Old Brewery Courtyard",
+          "ai_summary": "The Old Brewery Courtyard in Pilsen is a historic site with a charming courtyard, part of the Pilsner Urquell Brewery complex.",
+          "name_english": "Old Brewery Courtyard",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Access may be restricted during brewery tours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Enjoy a beer in the courtyard for a true local experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 49.7384,
+            "longitude": 13.3736
+          },
+          "address": "Old Brewery Courtyard, Pilsen, Czech Republic",
+          "official_website": "https://www.prazdrojvisit.cz/",
+          "tags": [
+            "History",
+            "Brewery",
+            "Free"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Jižní křídlo.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ji%C5%BEn%C3%AD_k%C5%99%C3%ADdlo.JPG/960px-Ji%C5%BEn%C3%AD_k%C5%99%C3%ADdlo.JPG",
+                "width": 800,
+                "height": 1204,
+                "attribution": {
+                  "title": "Jižní křídlo",
+                  "author": "Hajsmanova",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Jižní_křídlo.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Klášterní ambit - jižní křídlo"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7237
+        },
+        {
+          "name": "Beer Spa & Brewery Souvenir Shop",
+          "ai_summary": "The Beer Spa & Brewery Souvenir Shop in Pilsen offers a unique experience to relax in a beer bath and purchase exclusive brewery souvenirs.",
+          "name_english": "Beer Spa & Brewery Souvenir Shop",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Advance booking recommended for the beer spa."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try the unique beer cosmetics available in the shop.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 49.7384,
+            "longitude": 13.3736
+          },
+          "address": "Beer Spa & Brewery Souvenir Shop, Pilsen, Czech Republic",
+          "official_website": "https://www.prazdrojvisit.cz/",
+          "tags": [
+            "Spa",
+            "Beer",
+            "Souvenirs"
+          ],
+          "state": "Plze",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7335
+        }
+      ]
+    }
+  ]
+}

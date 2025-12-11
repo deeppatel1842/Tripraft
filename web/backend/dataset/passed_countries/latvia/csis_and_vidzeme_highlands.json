@@ -1,0 +1,831 @@
+{
+  "country": "Latvia",
+  "state": "Csis And Vidzeme Highlands",
+  "cities": [
+    {
+      "city": "Cesis",
+      "nearest_airport": "Riga International Airport",
+      "places": [
+        {
+          "name": "Cesis Castle & Medieval Park",
+          "ai_summary": "A historic castle with a medieval park, offering insights into Latvia’s rich history and cultural heritage.",
+          "name_english": "Cesis Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:15 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for exploring the castle grounds.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/cesis-castle",
+          "tags": [
+            "History",
+            "Culture",
+            "Architecture"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CesuPils_2017-09-10.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/CesuPils_2017-09-10.jpg/960px-CesuPils_2017-09-10.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "CesuPils 2017-09-10",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:CesisCastle&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:CesisCastle (page does not exist)\">CesisCastle</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CesuPils_2017-09-10.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cesis Castle 2017-09-10"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Erglu Cliffs on Gauja (near Cesis)",
+          "ai_summary": "A stunning natural formation offering panoramic views of the Gauja River and surrounding forests.",
+          "name_english": "Erglu Cliffs",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture the scenic views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/erglu-cliffs",
+          "tags": [
+            "Nature",
+            "Viewpoint",
+            "Photography"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ergeljuklintis424aug037qg.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ergeljuklintis424aug037qg.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ergeljuklintis424aug037qg",
+                  "author": "Gatis Pāvils",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ergeljuklintis424aug037qg.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Devonian sandstone cliffs - Ergelu Cliffs at Gauja River, Latvia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "Cesis Old Town & Rīgas iela",
+          "ai_summary": "The historic old town of Cesis, featuring charming streets, shops, and cafes.",
+          "name_english": "Cesis Old Town",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Explore at your own pace."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try local delicacies at the cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/cesis-old-town",
+          "tags": [
+            "History",
+            "Culture",
+            "Shopping",
+            "Dining"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Cēsis History & Art Museum",
+          "ai_summary": "A museum showcasing the history and art of the Cesis region.",
+          "name_english": "Cesis History & Art Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Check for special exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Join a guided tour for detailed insights.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/cesis-history-art-museum",
+          "tags": [
+            "Museum",
+            "History",
+            "Art"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:0_Cordonata_-_Dioscuri_-_Palazzo_Senatorio.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/0_Cordonata_-_Dioscuri_-_Palazzo_Senatorio.JPG/960px-0_Cordonata_-_Dioscuri_-_Palazzo_Senatorio.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "0 Cordonata - Dioscuri - Palazzo Senatorio",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jean-Pol_GRANDMONT\" title=\"User:Jean-Pol GRANDMONT\">Jean-Pol GRANDMONT</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:0_Cordonata_-_Dioscuri_-_Palazzo_Senatorio.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The <a href=\"https://en.wikipedia.org/wiki/Cordonata\" class=\"extiw\" title=\"w:Cordonata\">Cordonata</a>, the <a href=\"https://en.wikipedia.org/wiki/Dioscuri\" class=\"extiw\" title=\"w:Dioscuri\">Dioscuri</a>, and the Palazzo Senatori in <a href=\"https://en.wikipedia.org/wiki/Rome\" class=\"extiw\" title=\"w:Rome\">Rome</a>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Cīrulīši Nature Trails",
+          "ai_summary": "Scenic nature trails offering a peaceful retreat into the natural beauty of the Cesis region.",
+          "name_english": "Cīrulīši Nature Trails",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Pack a picnic to enjoy amidst nature.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/cirulisi-nature-trails",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Photography"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Amata Geological Trail",
+          "ai_summary": "A geological trail showcasing the unique rock formations and geological history of the Amata region.",
+          "name_english": "Amata Geological Trail",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "06:10 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Wear sturdy shoes for walking on rocky terrain.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/amata-geological-trail",
+          "tags": [
+            "Geology",
+            "Nature",
+            "Hiking"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Zvartes Rock (Zvārtes iezis)",
+          "ai_summary": "A prominent rock formation and viewpoint along the Gauja River, popular for photography and sightseeing.",
+          "name_english": "Zvartes Rock",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit early to avoid crowds.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/zvartes-rock",
+          "tags": [
+            "Nature",
+            "Viewpoint",
+            "Photography"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {},
+          "rank_score": 0.786
+        },
+        {
+          "name": "Ķemeru krāces Rapids (Amata)",
+          "ai_summary": "A series of picturesque rapids on the Amata River, ideal for nature walks and photography.",
+          "name_english": "Ķemeru krāces",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring water shoes for walking in the river.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/kemeru-kraaces",
+          "tags": [
+            "Nature",
+            "Rapids",
+            "Photography"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Ozolkalns & Zagarkalns Ski Hills (seasonal)",
+          "ai_summary": "Ski hills offering winter sports activities and beautiful views of the surrounding landscape.",
+          "name_english": "Ozolkalns & Zagarkalns Ski Hills",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:45 PM",
+          "cost": "Ski pass required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Check weather conditions before visiting."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Dress warmly and check ski equipment in advance.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/ozolkalns-zagarkalns-ski-hills",
+          "tags": [
+            "Skiing",
+            "Snowboarding",
+            "Winter Sports"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Vienkoči Park (Woodcraft Museum)",
+          "ai_summary": "A unique park and museum showcasing traditional Latvian woodcraft and offering hands-on workshops.",
+          "name_english": "Vienkoči Park",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "Closed",
+            "notes": "Workshops available on weekends."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Participate in a woodcraft workshop for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/vienkoci-park",
+          "tags": [
+            "Culture",
+            "Museum",
+            "Workshops"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {},
+          "rank_score": 0.786
+        },
+        {
+          "name": "Rauna Castle Ruins",
+          "ai_summary": "The ruins of a medieval castle offering a glimpse into the past and beautiful views of the surrounding area.",
+          "name_english": "Rauna Castle Ruins",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the surrounding area for more scenic views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/rauna-castle-ruins",
+          "tags": [
+            "History",
+            "Ruins",
+            "Photography"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Rauna_1.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Rauna_1.JPG/960px-Rauna_1.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Rauna 1",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Stgubr92&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Stgubr92 (page does not exist)\">Stgubr92</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Rauna_1.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Picture of Rauna Castle"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Ungurmuiza Manor (Baroque Wooden Manor)",
+          "ai_summary": "A beautifully preserved Baroque wooden manor showcasing the architectural style and history of the region.",
+          "name_english": "Ungurmuiza Manor",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check for special events and exhibitions.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/ungurmuiza-manor",
+          "tags": [
+            "History",
+            "Architecture",
+            "Museum"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ungurmuiža_manor.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ungurmui%C5%BEa_manor.JPG/960px-Ungurmui%C5%BEa_manor.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ungurmuiža manor",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Eerokangor&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Eerokangor (page does not exist)\">Eerokangor</a>",
+                  "license": "CC BY-SA 3.0 ee",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/ee/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ungurmui%C5%BEa_manor.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 ee",
+                  "description": "Ungurmuiža (Latvia) is one of the oldest wooden manor house buildings in the so-called Livonia that was built at the beginning of the 18th century."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Priekuļi Nature Walks",
+          "ai_summary": "Scenic nature walks in the Priekuļi area, offering a peaceful retreat and connection with nature.",
+          "name_english": "Priekuļi Nature Walks",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring water and snacks for a comfortable walk.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/priekuli-nature-walks",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Photography"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {},
+          "rank_score": 0.734
+        },
+        {
+          "name": "Vecpiebalga Writers’ Museum",
+          "ai_summary": "A museum dedicated to the writers and literary heritage of the Vecpiebalga region.",
+          "name_english": "Vecpiebalga Writers’ Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Check for special exhibitions and events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Explore the museum shop for local literature.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/vecpiebalga-writers-museum",
+          "tags": [
+            "Museum",
+            "Literature",
+            "History"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Līgatne Paper Mill Heritage (day trip)",
+          "ai_summary": "A heritage site showcasing the history of paper milling in Latvia, located in the scenic Līgatne area.",
+          "name_english": "Līgatne Paper Mill Heritage",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine with a visit to the Līgatne Nature Trails.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/ligatne-paper-mill-heritage",
+          "tags": [
+            "History",
+            "Industry",
+            "Museum"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {},
+          "rank_score": 0.754
+        },
+        {
+          "name": "Wicker & Craft Workshops",
+          "ai_summary": "Workshops offering hands-on experience in traditional Latvian wicker and craft making.",
+          "name_english": "Wicker & Craft Workshops",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Varies by workshop",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "Closed",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Create your own souvenir to take home.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/wicker-craft-workshops",
+          "tags": [
+            "Craft",
+            "Workshops",
+            "Culture"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Cesis Concert Hall",
+          "ai_summary": "A modern concert hall in Cesis, hosting a variety of musical performances and cultural events.",
+          "name_english": "Cesis Concert Hall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Varies by event",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Check event schedule online."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book tickets in advance for popular performances.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/cesis-concert-hall",
+          "tags": [
+            "Music",
+            "Concerts",
+            "Culture"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vidzemes_koncertzāle_\"Cēsis\"_-_panoramio_(1).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Vidzemes_koncertz%C4%81le_%22C%C4%93sis%22_-_panoramio_%281%29.jpg/960px-Vidzemes_koncertz%C4%81le_%22C%C4%93sis%22_-_panoramio_%281%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vidzemes koncertzāle \"Cēsis\" - panoramio (1)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161030115816/http://www.panoramio.com/user/2650719?with_photo_id=108116038\">Guntars Mednis</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vidzemes_koncertz%C4%81le_%22C%C4%93sis%22_-_panoramio_(1).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Vidzemes koncertzāle \"Cēsis\""
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Evening Lantern Walk at Cesis Castle",
+          "ai_summary": "A guided evening walk at Cesis Castle, exploring the castle and its surroundings by lantern light.",
+          "name_english": "Evening Lantern Walk",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "08:30 PM",
+          "cost": "Ticket required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "7:00 PM - 9:00 PM",
+            "Sunday": "7:00 PM - 9:00 PM",
+            "notes": "Advance booking required."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Dress warmly and wear comfortable shoes.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 57.311,
+            "longitude": 25.273
+          },
+          "address": "Cesis, Latvia",
+          "official_website": "https://example.com/evening-lantern-walk-cesis-castle",
+          "tags": [
+            "History",
+            "Night Tour",
+            "Photography"
+          ],
+          "state": "Csis And Vidzeme Highlands",
+          "photos": {},
+          "rank_score": 0.778
+        }
+      ]
+    }
+  ]
+}

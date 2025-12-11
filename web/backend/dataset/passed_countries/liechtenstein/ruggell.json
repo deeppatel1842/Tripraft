@@ -1,0 +1,825 @@
+{
+  "country": "Liechtenstein",
+  "state": "Ruggell",
+  "cities": [
+    {
+      "city": "Ruggell",
+      "nearest_airport": "Zurich Airport (Switzerland)",
+      "places": [
+        {
+          "name": "Ruggeller Riet Nature Reserve",
+          "ai_summary": "A pristine nature reserve in Ruggell, home to diverse flora and fauna, offering serene walking trails and birdwatching opportunities.",
+          "name_english": "Ruggeller Riet",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring binoculars for birdwatching and enjoy the peaceful surroundings.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.271,
+            "longitude": 9.532
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/ruggeller-riet",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Relaxation"
+          ],
+          "state": "Ruggell",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ruggeller_Riet_asv2022-10_img5.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Ruggeller_Riet_asv2022-10_img5.jpg/960px-Ruggeller_Riet_asv2022-10_img5.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ruggeller Riet asv2022-10 img5",
+                  "author": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+                  "license": "FAL",
+                  "license_url": "http://artlibre.org/licence/lal/en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ruggeller_Riet_asv2022-10_img5.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Free Art License",
+                  "description": "Protected natural area in Ruggell, Liechtenstein"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "St. Fridolin Parish Church",
+          "ai_summary": "A historic church in Ruggell, known for its beautiful architecture and tranquil atmosphere, offering a glimpse into the region's heritage.",
+          "name_english": "St. Fridolin Church",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Check for special services and events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Admire the intricate stained glass windows inside the church.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.272,
+            "longitude": 9.533
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/st-fridolin-church",
+          "tags": [
+            "Religion",
+            "History",
+            "Architecture"
+          ],
+          "state": "Ruggell",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Ruggell Village Museum",
+          "ai_summary": "A charming museum in Ruggell showcasing the local history, culture, and traditions through engaging exhibits and artifacts.",
+          "name_english": "Ruggell Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "Closed",
+            "notes": "Guided tours available upon request."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the special exhibits for unique insights into the region's history.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.273,
+            "longitude": 9.534
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/ruggell-museum",
+          "tags": [
+            "History",
+            "Culture",
+            "Education"
+          ],
+          "state": "Ruggell",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Birdwatching Hides & Wetlands",
+          "ai_summary": "Specially designed hides in the wetlands of Ruggell for observing and photographing birds in their natural habitat.",
+          "name_english": "Birdwatching Hides",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Early morning",
+          "place_tip": "Be quiet and patient in the hides for the best birdwatching experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.2705,
+            "longitude": 9.5315
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/birdwatching-hides",
+          "tags": [
+            "Birdwatching",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Ruggell",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:NMAAHC_Bird_Walk.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/NMAAHC_Bird_Walk.jpg/960px-NMAAHC_Bird_Walk.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "NMAAHC Bird Walk",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Greyturtle&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Greyturtle (page does not exist)\">Dara Miles Wilson</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:NMAAHC_Bird_Walk.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "A group of birders look up through binoculars at a bird."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Rhine Embankment Cycling Path",
+          "ai_summary": "A scenic cycling path along the Rhine River, offering beautiful views and a pleasant ride through Ruggell's landscapes.",
+          "name_english": "Rhine Cycling Path",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Ideal for cycling, jogging, and walking."
+          },
+          "suggested_duration": "1-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Enjoy the riverside views and watch for boats on the Rhine.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.2695,
+            "longitude": 9.5305
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/rhine-cycling-path",
+          "tags": [
+            "Cycling",
+            "Scenic",
+            "Outdoor Activities"
+          ],
+          "state": "Ruggell",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Meadow Boardwalks & Photo Points",
+          "ai_summary": "Boardwalks through the meadows of Ruggell, providing access to stunning viewpoints and photographic opportunities.",
+          "name_english": "Meadow Boardwalks",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "06:28 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during spring and summer for wildflower blooms."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a camera to capture the beautiful landscapes and wildlife.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.2708,
+            "longitude": 9.5352
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/meadow-boardwalks",
+          "tags": [
+            "Photography",
+            "Nature Walks",
+            "Scenic Views"
+          ],
+          "state": "Ruggell",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Floodplain Forest Walk",
+          "ai_summary": "A tranquil walking path through the floodplain forest of Ruggell, featuring diverse plant life and opportunities to see local wildlife.",
+          "name_english": "Floodplain Forest Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:12 AM",
+          "sunset_time": "06:27 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Wear appropriate footwear for a forest trail."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Listen for birds and watch for deer and other wildlife.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.2725,
+            "longitude": 9.5365
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/floodplain-forest-walk",
+          "tags": [
+            "Nature Walks",
+            "Wildlife",
+            "Relaxation"
+          ],
+          "state": "Ruggell",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Waves_of_paratroops_land_in_Holland.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Waves_of_paratroops_land_in_Holland.jpg/960px-Waves_of_paratroops_land_in_Holland.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Waves of paratroops land in Holland",
+                  "author": "<i>This file is a work of a <a href=\"//commons.wikimedia.org/wiki/United_States_Army\" title=\"United States Army\">U.S. Army</a> soldier or employee, taken or made as part of that person's official duties. As a <a href=\"https://en.wikipedia.org/wiki/Work_of_the_United_States_Government\" class=\"extiw\" title=\"en:Work of the United States Government\">work</a> of the <a href=\"https://en.wikipedia.org/wiki/Federal_Government_of_the_United_States\" class=\"extiw\" title=\"en:Federal Government of the United States\">U.S. federal government</a>, it is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> in the United States.</i>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Waves_of_paratroops_land_in_Holland.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Parachutes open overhead as waves of paratroops land in Holland during operations by the 1st Allied Airborne Army."
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Cross-Border Bridge Views to Austria",
+          "ai_summary": "Scenic views from the bridge connecting Ruggell to Austria, offering a unique perspective of the Rhine and the surrounding landscapes.",
+          "name_english": "Cross-Border Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:11 AM",
+          "sunset_time": "06:26 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Take photos from the middle of the bridge for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.274,
+            "longitude": 9.537
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/cross-border-bridge",
+          "tags": [
+            "Scenic Views",
+            "Photography",
+            "Walking"
+          ],
+          "state": "Ruggell",
+          "photos": {},
+          "rank_score": 0.786
+        },
+        {
+          "name": "Sports Park & Running Loops",
+          "ai_summary": "A modern sports park in Ruggell with facilities for various sports and running trails, set in a green and spacious environment.",
+          "name_english": "Sports Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "6:00 AM - 10:00 PM",
+            "Tuesday": "6:00 AM - 10:00 PM",
+            "Wednesday": "6:00 AM - 10:00 PM",
+            "Thursday": "6:00 AM - 10:00 PM",
+            "Friday": "6:00 AM - 10:00 PM",
+            "Saturday": "6:00 AM - 10:00 PM",
+            "Sunday": "6:00 AM - 10:00 PM",
+            "notes": "Check schedule for specific sports facilities."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Great place for jogging, with marked trails and distance markers.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.275,
+            "longitude": 9.538
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/sports-park",
+          "tags": [
+            "Sports",
+            "Running",
+            "Fitness"
+          ],
+          "state": "Ruggell",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:MNSTATE.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/MNSTATE.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "MNSTATE",
+                  "author": "Justass",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:MNSTATE.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Minnesota state cross county meeting – Elliot Heath, from Winona and Hassan Mead, from Minneapolis South, taking the lead at the Minnesota High School State Meet held at St Olaf College in Northfield, Minnesota, United States."
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Family Picnic Meadows",
+          "ai_summary": "Spacious meadows in Ruggell ideal for family picnics, with facilities like tables, benches, and grills available.",
+          "name_english": "Picnic Meadows",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:09 AM",
+          "sunset_time": "06:24 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Clean up after your picnic to keep the area beautiful."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Bring your own food and enjoy a relaxing day outdoors.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.276,
+            "longitude": 9.539
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/family-picnic-meadows",
+          "tags": [
+            "Picnic",
+            "Family",
+            "Outdoor Activities"
+          ],
+          "state": "Ruggell",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Nature Education Panels",
+          "ai_summary": "Informative panels located throughout Ruggell's natural areas, providing insights into the local ecology, flora, and fauna.",
+          "name_english": "Education Panels",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Educational and informative for all ages."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Take your time to read and learn about the local environment.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.277,
+            "longitude": 9.54
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/nature-education-panels",
+          "tags": [
+            "Education",
+            "Nature",
+            "Family"
+          ],
+          "state": "Ruggell",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Dji_fly_20230602_13826_PM_27_1719032149374_photo_optimized.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Dji_fly_20230602_13826_PM_27_1719032149374_photo_optimized.jpg/960px-Dji_fly_20230602_13826_PM_27_1719032149374_photo_optimized.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Dji fly 20230602 13826 PM 27 1719032149374 photo optimized",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wikipedeon&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wikipedeon (page does not exist)\">Wikipedeon</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Dji_fly_20230602_13826_PM_27_1719032149374_photo_optimized.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Greencap Energy solar array on Brewery in <a href=\"//commons.wikimedia.org/w/index.php?title=Worthing&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Worthing (page does not exist)\">Worthing</a>, <a href=\"//commons.wikimedia.org/wiki/England\" title=\"England\">England</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Sunrise over the Riet",
+          "ai_summary": "A breathtaking view of the sunrise over the Ruggeller Riet, a must-see for early risers and nature enthusiasts.",
+          "name_english": "Sunrise over the Riet",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "06:08 AM",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed from designated viewpoints in the nature reserve."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise",
+          "place_tip": "Arrive early to find a good spot and enjoy the peaceful morning atmosphere.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.2715,
+            "longitude": 9.5325
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/sunrise-over-the-riet",
+          "tags": [
+            "Photography",
+            "Nature",
+            "Scenic Views"
+          ],
+          "state": "Ruggell",
+          "photos": {},
+          "rank_score": 0.818
+        },
+        {
+          "name": "Evening Golden Hour in Wetlands",
+          "ai_summary": "Experience the magical golden hour in the wetlands of Ruggell, perfect for photography and enjoying nature's tranquility.",
+          "name_english": "Golden Hour in Wetlands",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "06:22 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best experienced from late spring to early autumn."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring a camera and capture the stunning colors of the sunset over the wetlands.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.2702,
+            "longitude": 9.5312
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/evening-golden-hour-wetlands",
+          "tags": [
+            "Photography",
+            "Nature",
+            "Scenic Views"
+          ],
+          "state": "Ruggell",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ballona_place_where_there_is_water_2023_spring_05.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ballona_place_where_there_is_water_2023_spring_05.jpg/960px-Ballona_place_where_there_is_water_2023_spring_05.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ballona place where there is water 2023 spring 05",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jengod\" title=\"User:Jengod\">Jengod</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ballona_place_where_there_is_water_2023_spring_05.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Ballona place where there is water 2023 spring"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Ruggell–Schematten Loop",
+          "ai_summary": "A popular hiking loop from Ruggell to Schematten and back, offering beautiful views of the Rhine Valley and the surrounding mountains.",
+          "name_english": "Ruggell–Schematten Loop",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:07 AM",
+          "sunset_time": "06:29 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Well-marked trail, suitable for most fitness levels."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Pack water and snacks, and enjoy the panoramic views from the higher points of the loop.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.278,
+            "longitude": 9.5405
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/ruggell-schematten-loop",
+          "tags": [
+            "Hiking",
+            "Scenic Views",
+            "Outdoor Activities"
+          ],
+          "state": "Ruggell",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Cycling Hub & Rest Stop",
+          "ai_summary": "A convenient rest stop for cyclists on the Rhine Cycle Path, offering bike repair tools, refreshments, and rest areas.",
+          "name_english": "Cycling Hub",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "Closed",
+            "notes": "Self-service outside opening hours."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "A great place to meet other cyclists and get local route information.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.279,
+            "longitude": 9.541
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/cycling-hub",
+          "tags": [
+            "Cycling",
+            "Rest Stop",
+            "Outdoor Activities"
+          ],
+          "state": "Ruggell",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Riverside Fishing Spots (where permitted)",
+          "ai_summary": "Designated fishing spots along the Rhine in Ruggell, offering anglers a chance to catch local fish species.",
+          "name_english": "Fishing Spots",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Fishing permit required",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check local regulations for fishing permits and seasons."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Bring your own fishing gear and check the local fishing regulations.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.2805,
+            "longitude": 9.542
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/riverside-fishing-spots",
+          "tags": [
+            "Fishing",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Ruggell",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kiyomizu.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Kiyomizu.jpg/960px-Kiyomizu.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kiyomizu",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:JordyMeow\" title=\"User:JordyMeow\">Jordy Meow</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kiyomizu.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Kiyomizu-dera."
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Stargazing on Clear Nights",
+          "ai_summary": "Experience breathtaking stargazing in Ruggell, away from city lights, with clear views of the night sky and celestial events.",
+          "name_english": "Stargazing",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed from elevated areas or open fields."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Night",
+          "place_tip": "Bring a blanket and lie down to enjoy the full expanse of the night sky.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.281,
+            "longitude": 9.543
+          },
+          "address": "Ruggell, Liechtenstein",
+          "official_website": "https://example.com/stargazing",
+          "tags": [
+            "Astronomy",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Ruggell",
+          "photos": {},
+          "rank_score": 0.798
+        }
+      ]
+    }
+  ]
+}

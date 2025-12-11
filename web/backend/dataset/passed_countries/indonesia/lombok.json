@@ -1,0 +1,962 @@
+{
+  "country": "Indonesia",
+  "state": "Lombok",
+  "cities": [
+    {
+      "city": "Mataram",
+      "nearest_airport": "Lombok International Airport (LOP)",
+      "places": [
+        {
+          "name": "Mount Rinjani",
+          "ai_summary": "An active volcano and the second-highest mountain in Indonesia, offering challenging treks and stunning crater lake views.",
+          "name_english": "Mount Rinjani",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "18:00",
+          "cost": "$25",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Guided treks are recommended."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Dry season",
+          "place_tip": "Pack warm clothing and plenty of water for the trek.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "latitude": -8.411,
+            "longitude": 116.457
+          },
+          "address": "Mount Rinjani, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Volcano",
+            "Hiking",
+            "Adventure"
+          ],
+          "state": "Lombok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lembah_Torean_Rinjani.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Lembah_Torean_Rinjani.jpg/960px-Lembah_Torean_Rinjani.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lembah Torean Rinjani",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ramantara&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ramantara (page does not exist)\">Ramantara</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lembah_Torean_Rinjani.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Lembah yang terletak di Gunung Rinjani jika Anda Melewati jalur Torean Menuju Danau Segara Anak"
+                }
+              }
+            }
+          },
+          "rank_score": 0.858
+        },
+        {
+          "name": "Gili Trawangan",
+          "ai_summary": "The largest of the Gili Islands, known for its vibrant nightlife, crystal-clear waters, and excellent snorkeling spots.",
+          "name_english": "Gili Trawangan",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:35",
+          "sunset_time": "18:05",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible by boat only."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Rent a bike to explore the island and enjoy the beaches.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.348,
+            "longitude": 116.038
+          },
+          "address": "Gili Trawangan, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Island",
+            "Snorkeling",
+            "Nightlife"
+          ],
+          "state": "Lombok",
+          "photos": {},
+          "rank_score": 0.842
+        },
+        {
+          "name": "Senggigi Beach",
+          "ai_summary": "A popular beach destination with calm waters, vibrant sunsets, and a range of water sports activities.",
+          "name_english": "Senggigi Beach",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunset."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local seafood at nearby restaurants.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.485,
+            "longitude": 116.048
+          },
+          "address": "Senggigi, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Sunset",
+            "Relaxation"
+          ],
+          "state": "Lombok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:SenggigiHighSt1.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/SenggigiHighSt1.JPG/960px-SenggigiHighSt1.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "SenggigiHighSt1",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Torbenbrinker&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Torbenbrinker (page does not exist)\">Torbenbrinker</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:SenggigiHighSt1.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "High Street, Senggigi, Lombok, Indonesia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Tiu Kelep Waterfall",
+          "ai_summary": "A stunning waterfall surrounded by lush greenery, offering a refreshing escape and a short trek to reach it.",
+          "name_english": "Tiu Kelep Waterfall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$2",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Guides are available at the entrance."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear sturdy shoes as the path can be slippery.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.367,
+            "longitude": 116.4
+          },
+          "address": "Senaru, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Hiking"
+          ],
+          "state": "Lombok",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Kuta Mandalika",
+          "ai_summary": "A pristine beach destination with turquoise waters, white sand, and a laid-back atmosphere, perfect for surfing and relaxation.",
+          "name_english": "Kuta Mandalika",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:40",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunrise or sunset."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a surfboard or rent one locally to enjoy the waves.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.895,
+            "longitude": 116.276
+          },
+          "address": "Kuta, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Surfing",
+            "Relaxation"
+          ],
+          "state": "Lombok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kuta_Beach,_Lombok,_Indonesia.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Kuta_Beach%2C_Lombok%2C_Indonesia.jpg/960px-Kuta_Beach%2C_Lombok%2C_Indonesia.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kuta Beach, Lombok, Indonesia",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/60263271@N00\">Maurits &amp; Marjol</a> from Cape Town, South Africa",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kuta_Beach,_Lombok,_Indonesia.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Kuta Beach, Lombok, Indonesia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Pink Beach",
+          "ai_summary": "A beautiful beach with pink-hued sand, clear waters, and excellent snorkeling opportunities.",
+          "name_english": "Pink Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:20",
+          "cost": "$10",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring your snorkeling gear to explore the underwater life.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.735,
+            "longitude": 116.851
+          },
+          "address": "Pink Beach, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Snorkeling",
+            "Photography"
+          ],
+          "state": "Lombok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kuta_200507-3.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Kuta_200507-3.jpg/960px-Kuta_200507-3.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kuta 200507-3",
+                  "author": "っ",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kuta_200507-3.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Benang Stokel Waterfall",
+          "ai_summary": "A picturesque waterfall with a series of cascades and natural pools, ideal for a refreshing dip.",
+          "name_english": "Benang Stokel Waterfall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$3",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Access may require a short trek."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine your visit with Benang Kelambu Waterfall, located nearby.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.835,
+            "longitude": 116.233
+          },
+          "address": "Benang Stokel, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Swimming"
+          ],
+          "state": "Lombok",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Selong Belanak Beach",
+          "ai_summary": "A serene beach with soft white sand, clear waters, and great waves for surfing, especially for beginners.",
+          "name_english": "Selong Belanak Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:50",
+          "sunset_time": "18:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Surfboards and other water sports equipment are available for rent.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.874,
+            "longitude": 116.293
+          },
+          "address": "Selong Belanak, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Surfing",
+            "Relaxation"
+          ],
+          "state": "Lombok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kantor_Bupati_Lombok_Tengah.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Kantor_Bupati_Lombok_Tengah.jpg/960px-Kantor_Bupati_Lombok_Tengah.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kantor Bupati Lombok Tengah",
+                  "author": "Government of Lombok Tengah (Central Lombok), Indonesia",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kantor_Bupati_Lombok_Tengah.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Regent office of Central Lombok in Praya, West Nusa Tenggara, Indonesia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Banyumulek Pottery Village",
+          "ai_summary": "A traditional village famous for its pottery, offering a glimpse into the local culture and craftsmanship.",
+          "name_english": "Banyumulek Pottery Village",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$5",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Workshops available for visitors."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't forget to haggle when buying pottery as souvenirs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.674,
+            "longitude": 116.073
+          },
+          "address": "Banyumulek, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Shopping",
+            "Artisan"
+          ],
+          "state": "Lombok",
+          "photos": {},
+          "rank_score": 0.794
+        },
+        {
+          "name": "Gili Air",
+          "ai_summary": "A tranquil island known for its beautiful beaches, clear waters, and excellent diving and snorkeling spots.",
+          "name_english": "Gili Air",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:55",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible by boat only."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Stay overnight to enjoy the island's tranquility after day-trippers leave.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.359,
+            "longitude": 116.073
+          },
+          "address": "Gili Air, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Island",
+            "Diving",
+            "Snorkeling"
+          ],
+          "state": "Lombok",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Gili Meno",
+          "ai_summary": "The quietest of the Gili Islands, perfect for those looking to escape the crowds and enjoy nature.",
+          "name_english": "Gili Meno",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:35",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible by boat only."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring your own food and drinks as there are limited facilities.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.366,
+            "longitude": 116.071
+          },
+          "address": "Gili Meno, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Island",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Lombok",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Sade Traditional Village",
+          "ai_summary": "A preserved traditional Sasak village, offering a glimpse into the local culture, architecture, and daily life.",
+          "name_english": "Sade Traditional Village",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$2",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Guided tours are available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Respect the local customs and ask for permission before taking photos of people.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.719,
+            "longitude": 116.284
+          },
+          "address": "Sade, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Heritage",
+            "Village"
+          ],
+          "state": "Lombok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kantor_Bupati_Lombok_Tengah.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Kantor_Bupati_Lombok_Tengah.jpg/960px-Kantor_Bupati_Lombok_Tengah.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kantor Bupati Lombok Tengah",
+                  "author": "Government of Lombok Tengah (Central Lombok), Indonesia",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kantor_Bupati_Lombok_Tengah.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Regent office of Central Lombok in Praya, West Nusa Tenggara, Indonesia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Tanjung Aan Beach",
+          "ai_summary": "A stunning beach with soft white sand, clear turquoise waters, and great spots for swimming and snorkeling.",
+          "name_english": "Tanjung Aan Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05",
+          "sunset_time": "18:40",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the nearby hills for a panoramic view of the beach.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.874,
+            "longitude": 116.276
+          },
+          "address": "Tanjung Aan, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Swimming",
+            "Snorkeling"
+          ],
+          "state": "Lombok",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Mawun Beach",
+          "ai_summary": "A hidden gem with a crescent-shaped beach, clear waters, and a peaceful atmosphere, ideal for relaxation.",
+          "name_english": "Mawun Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a book and enjoy the tranquility of the beach.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.895,
+            "longitude": 116.276
+          },
+          "address": "Mawun Beach, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Relaxation",
+            "Nature"
+          ],
+          "state": "Lombok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kuta_200507-3.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Kuta_200507-3.jpg/960px-Kuta_200507-3.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kuta 200507-3",
+                  "author": "っ",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kuta_200507-3.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Lombok Epicentrum Mall",
+          "ai_summary": "The largest shopping mall in Lombok, featuring a wide range of shops, dining options, and entertainment facilities.",
+          "name_english": "Lombok Epicentrum Mall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.1,
+          "opening_hours": {
+            "Monday": "10:00-22:00",
+            "Tuesday": "10:00-22:00",
+            "Wednesday": "10:00-22:00",
+            "Thursday": "10:00-22:00",
+            "Friday": "10:00-22:00",
+            "Saturday": "10:00-22:00",
+            "Sunday": "10:00-22:00",
+            "notes": "Check for specific store hours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the food court on the top floor for a variety of local and international cuisines.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.583,
+            "longitude": 116.115
+          },
+          "address": "Lombok Epicentrum Mall, Mataram, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Entertainment"
+          ],
+          "state": "Lombok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:KA_Argo_Parahyangan_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/KA_Argo_Parahyangan_%28cropped%29.jpg/960px-KA_Argo_Parahyangan_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "KA Argo Parahyangan (cropped)",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Warga_bks&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Warga bks (page does not exist)\">Warga bks</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:KA_Argo_Parahyangan_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Argo Parahyangan Melintas Langsung Perlintasan Walet"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Pura Batu Bolong",
+          "ai_summary": "A beautiful sea temple located on a rock overlooking the ocean, offering stunning sunset views.",
+          "name_english": "Pura Batu Bolong",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:50",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "07:00-19:00",
+            "Tuesday": "07:00-19:00",
+            "Wednesday": "07:00-19:00",
+            "Thursday": "07:00-19:00",
+            "Friday": "07:00-19:00",
+            "Saturday": "07:00-19:00",
+            "Sunday": "07:00-19:00",
+            "notes": "Dress modestly and respectfully."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the nearby beach for a complete sunset experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.583,
+            "longitude": 116.115
+          },
+          "address": "Pura Batu Bolong, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Temple",
+            "Sunset",
+            "Culture"
+          ],
+          "state": "Lombok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tari_Kecak_Bali_Pantai_Pandawa.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tari_Kecak_Bali_Pantai_Pandawa.jpg/960px-Tari_Kecak_Bali_Pantai_Pandawa.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tari Kecak Bali Pantai Pandawa",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Zaisy.sh&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Zaisy.sh (page does not exist)\">Zaisy.sh</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tari_Kecak_Bali_Pantai_Pandawa.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Tari Kecak adalah salah satu tarian Indonesia yang berasal dari Bali. Menceritakan mengenai Ramayana dan Shinta."
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Semeti Beach",
+          "ai_summary": "A hidden beach with unique rock formations, clear waters, and a peaceful atmosphere, ideal for photography and relaxation.",
+          "name_english": "Semeti Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the rock formations at low tide for the best views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.874,
+            "longitude": 116.276
+          },
+          "address": "Semeti Beach, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Photography",
+            "Relaxation"
+          ],
+          "state": "Lombok",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Bukit Merese Viewpoint",
+          "ai_summary": "A scenic viewpoint offering panoramic views of the coastline, hills, and beaches, especially beautiful during sunrise and sunset.",
+          "name_english": "Bukit Merese Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20",
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunrise or sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture the stunning views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -8.874,
+            "longitude": 116.276
+          },
+          "address": "Bukit Merese, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Viewpoint",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Lombok",
+          "photos": {},
+          "rank_score": 0.822
+        },
+        {
+          "name": "Lombok Elephant Park",
+          "ai_summary": "A conservation park dedicated to the protection and rehabilitation of elephants, offering educational tours and elephant encounters.",
+          "name_english": "Lombok Elephant Park",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$15",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Advance booking recommended for elephant encounters."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Learn about elephant conservation and the importance of protecting these gentle giants.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -8.583,
+            "longitude": 116.115
+          },
+          "address": "Lombok Elephant Park, Lombok, Indonesia",
+          "official_website": null,
+          "tags": [
+            "Conservation",
+            "Wildlife",
+            "Education"
+          ],
+          "state": "Lombok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:PIAYNEMO.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/PIAYNEMO.jpg/960px-PIAYNEMO.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "PIAYNEMO",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Hadi_Nyali\" title=\"User:Hadi Nyali\">Hadi Nyali</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:PIAYNEMO.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "<a class=\"external text\" href=\"https://en.wikivoyage.org/wiki/Raja_Ampat\">Raja Ampat islands</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        }
+      ]
+    }
+  ]
+}

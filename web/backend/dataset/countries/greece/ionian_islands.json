@@ -1,0 +1,620 @@
+{
+  "country": "Greece",
+  "state": "Ionian Islands",
+  "cities": [
+    {
+      "city": "Zakynthos",
+      "nearest_airport": "Zakynthos International Airport (ZTH)",
+      "places": [
+        {
+          "name": "Navagio Beach",
+          "ai_summary": "Known as Shipwreck Beach, this iconic cove features turquoise waters, white cliffs, and a famous shipwreck on the shore.",
+          "name_english": "Shipwreck Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible by boat only."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring sunscreen and water as there are no facilities on the beach.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 37.859,
+            "longitude": 20.624
+          },
+          "address": "Navagio Beach, Zakynthos, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Iconic"
+          ],
+          "state": "Ionian Islands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8225
+        },
+        {
+          "name": "Blue Caves",
+          "ai_summary": "A series of natural sea caves with vibrant blue waters, perfect for boat tours and snorkeling adventures.",
+          "name_english": "Blue Caves",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "06:45",
+          "sunset_time": null,
+          "cost": "$20 (boat tour)",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-18:00",
+            "Tuesday": "08:00-18:00",
+            "Wednesday": "08:00-18:00",
+            "Thursday": "08:00-18:00",
+            "Friday": "08:00-18:00",
+            "Saturday": "08:00-18:00",
+            "Sunday": "08:00-18:00",
+            "notes": "Boat tours operate during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear swimwear and bring a waterproof camera.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 37.92,
+            "longitude": 20.71
+          },
+          "address": "Blue Caves, Zakynthos, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Caves",
+            "Nature",
+            "Snorkeling"
+          ],
+          "state": "Ionian Islands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:GreeceIonianIslands.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/GreeceIonianIslands.png",
+                "width": 200,
+                "height": 204,
+                "attribution": {
+                  "title": "GreeceIonianIslands",
+                  "author": null,
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:GreeceIonianIslands.png",
+                  "credit": null,
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": null
+                }
+              }
+            }
+          },
+          "rank_score": 0.791
+        },
+        {
+          "name": "Gerakas Beach",
+          "ai_summary": "A pristine beach known for its golden sands and as a nesting site for loggerhead sea turtles.",
+          "name_english": "Gerakas Beach",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "06:45",
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-20:00",
+            "Tuesday": "08:00-20:00",
+            "Wednesday": "08:00-20:00",
+            "Thursday": "08:00-20:00",
+            "Friday": "08:00-20:00",
+            "Saturday": "08:00-20:00",
+            "Sunday": "08:00-20:00",
+            "notes": "Access may be restricted during turtle nesting season."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Respect the nesting areas and follow guidelines provided by conservationists.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 37.683,
+            "longitude": 20.975
+          },
+          "address": "Gerakas Beach, Zakynthos, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Wildlife"
+          ],
+          "state": "Ionian Islands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:GreeceIonianIslands.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/GreeceIonianIslands.png",
+                "width": 200,
+                "height": 204,
+                "attribution": {
+                  "title": "GreeceIonianIslands",
+                  "author": null,
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:GreeceIonianIslands.png",
+                  "credit": null,
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": null
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        }
+      ]
+    },
+    {
+      "city": "Corfu",
+      "nearest_airport": "Corfu International Airport (CFU)",
+      "places": [
+        {
+          "name": "Corfu Old Town",
+          "ai_summary": "A UNESCO World Heritage site, this old town features Venetian architecture, narrow streets, and historic sites.",
+          "name_english": "Corfu Old Town",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored on foot."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the old fortress for panoramic views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.624,
+            "longitude": 19.921
+          },
+          "address": "Corfu Old Town, Corfu, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Historical",
+            "UNESCO",
+            "Architecture"
+          ],
+          "state": "Ionian Islands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2001-09 Corfu-Stadt-14.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/2001-09_Corfu-Stadt-14.jpg/960px-2001-09_Corfu-Stadt-14.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2001-09 Corfu-Stadt-14",
+                  "author": "R-E-AL (talk | contribs | Gallery)  (German Wikipedia)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2001-09_Corfu-Stadt-14.jpg",
+                  "credit": "This Photo has been taken with a Olympus C-820L camera.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Corfu (city), (Κέρκυρα), Greece"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7872
+        },
+        {
+          "name": "Liston Promenade",
+          "ai_summary": "A beautiful promenade in Corfu Town, lined with cafes and shops, perfect for a leisurely stroll.",
+          "name_english": "Liston Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Enjoy a coffee at one of the outdoor cafes."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Try the local pastry, kumquat, from a nearby shop.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.624,
+            "longitude": 19.922
+          },
+          "address": "Liston Promenade, Corfu, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Leisure",
+            "Shopping",
+            "Food"
+          ],
+          "state": "Ionian Islands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Greece.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/800px-Flag_of_Greece.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Greece",
+                  "author": "Unknown",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+                  "credit": "ΕΘΝΙΚΗ ΣΗΜΑΙΑ ΤΗΣ ΕΛΛΑΔΟΣ",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Greece (since 1978) and Naval Ensign of Greece (since 1828)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7885
+        },
+        {
+          "name": "Paleokastritsa Monastery & Beach",
+          "ai_summary": "A scenic area featuring a historic monastery and a beautiful beach with crystal-clear waters.",
+          "name_english": "Paleokastritsa Monastery & Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00-20:00",
+            "Tuesday": "08:00-20:00",
+            "Wednesday": "08:00-20:00",
+            "Thursday": "08:00-20:00",
+            "Friday": "08:00-20:00",
+            "Saturday": "08:00-20:00",
+            "Sunday": "08:00-20:00",
+            "notes": "The beach is public, but the monastery may have restricted access during services."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Dress modestly if visiting the monastery.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.644,
+            "longitude": 19.75
+          },
+          "address": "Paleokastritsa, Corfu, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Beach",
+            "Historical",
+            "Nature"
+          ],
+          "state": "Ionian Islands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bay of Palaiokastritsa from Bellavista.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bay_of_Palaiokastritsa_from_Bellavista.JPG/960px-Bay_of_Palaiokastritsa_from_Bellavista.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bay of Palaiokastritsa from Bellavista",
+                  "author": null,
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bay_of_Palaiokastritsa_from_Bellavista.JPG",
+                  "credit": null,
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": null
+                }
+              }
+            }
+          },
+          "rank_score": 0.7805
+        }
+      ]
+    },
+    {
+      "city": "Kefalonia",
+      "nearest_airport": "Kefalonia International Airport (EFL)",
+      "places": [
+        {
+          "name": "Myrtos Beach",
+          "ai_summary": "Famous for its stunning turquoise waters and white pebble beach, often considered one of the best beaches in Greece.",
+          "name_english": "Myrtos Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40",
+          "sunset_time": "18:35",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Access by road, with parking available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit early to avoid crowds and enjoy the sunrise.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 38.393,
+            "longitude": 20.611
+          },
+          "address": "Myrtos Beach, Kefalonia, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Ionian Islands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Greece (ancient) IonianIslands (cropped).svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Greece_%28ancient%29_IonianIslands_%28cropped%29.svg/960px-Greece_%28ancient%29_IonianIslands_%28cropped%29.svg.png",
+                "width": 800,
+                "height": 1251,
+                "attribution": {
+                  "title": "Greece (ancient) IonianIslands (cropped)",
+                  "author": "Peripheries_of_Greece_numbered.svg: *Greek_Macedonia_map_with_subdivisions.svg: *Greece_2011_Periferiakes_Enotites.svg: Pitichinaccio\nderivative work: Philly boy92 (talk)\nderivative work: Fulvio314",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Greece_(ancient)_IonianIslands_(cropped).svg",
+                  "credit": "This file was derived from:  Peripheries of Greece numbered.svg:",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Regions localizations map of ancient Greece. Ionian islans. Map boundaries: top=39.22; bottom=37.57; left=20.06; right=21.51."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8225
+        },
+        {
+          "name": "Melissani Cave",
+          "ai_summary": "A stunning underground lake cave, where you can take a boat tour to see the unique geological formations.",
+          "name_english": "Melissani Cave",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$10 (boat tour)",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Last entry at 16:30. Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Wear a swimsuit if you plan to swim in the lake.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 38.291,
+            "longitude": 20.615
+          },
+          "address": "Melissani Cave, Kefalonia, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Cave",
+            "Nature",
+            "Boat Tour"
+          ],
+          "state": "Ionian Islands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lake-Melissani.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Lake-Melissani.JPG/960px-Lake-Melissani.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lake-Melissani",
+                  "author": "No machine-readable author provided. Christos Vittoratos assumed (based on copyright claims).",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lake-Melissani.JPG",
+                  "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+                  "usage_terms": "Public domain",
+                  "description": "Lake Melissani in Kefalonia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7985
+        },
+        {
+          "name": "Assos Village",
+          "ai_summary": "A picturesque village with colorful houses and a charming harbor, great for a relaxing visit.",
+          "name_english": "Assos Village",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40",
+          "sunset_time": "18:35",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored on foot."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Enjoy a meal at a seaside taverna.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 38.425,
+            "longitude": 20.57
+          },
+          "address": "Assos Village, Kefalonia, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Village",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Ionian Islands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Blick auf Assos.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Blick_auf_Assos.jpg/960px-Blick_auf_Assos.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Blick auf Assos",
+                  "author": "Ulrike Wegner",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Blick_auf_Assos.jpg",
+                  "credit": "Own workTransferred from de.wikipedia to Commons by Sebastian Wallroth using CommonsHelper.\n\n(Original text: selbst fotografiert)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blick von der Burg auf den Ort Assos auf der Halbinsel Kefalonia, Griechenland"
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        }
+      ]
+    },
+    {
+      "city": "Paxos",
+      "nearest_airport": "Corfu International Airport (CFU)",
+      "places": [
+        {
+          "name": "Voutoumi Beach",
+          "ai_summary": "A beautiful beach on the island of Antipaxos, known for its white sand and crystal-clear waters.",
+          "name_english": "Voutoumi Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55",
+          "sunset_time": "18:20",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible by boat from Paxos."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring your own snacks and drinks, as there are no facilities.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.194,
+            "longitude": 20.095
+          },
+          "address": "Voutoumi Beach, Antipaxos, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Ionian Islands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Andipaxos.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Andipaxos.jpg/960px-Andipaxos.jpg",
+                "width": 800,
+                "height": 527,
+                "attribution": {
+                  "title": "Andipaxos",
+                  "author": "Nate .",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Andipaxos.jpg",
+                  "credit": "originally posted to Flickr as DSC_0174",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Coast of Andipaxos, Ionian Islands, Greece"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8085
+        }
+      ]
+    }
+  ]
+}

@@ -837,10 +837,15 @@
 }
 
 .pricing-card-pro {
-  background-color: #7c3aed;
-  color: white;
-  box-shadow: 0 25px 50px -12px rgba(124, 58, 237, 0.3);
-  border: none;
+  background-color: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: clamp(1rem, 2vw, 1.5rem);
+  padding: clamp(1.75rem, 3vw, 2.5rem);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 @media (min-width: 768px) {
@@ -870,7 +875,7 @@
 }
 
 .pricing-card-pro .pricing-title {
-  color: white;
+   color: #1f2937;
 }
 
 .pricing-description {
@@ -885,7 +890,7 @@
 }
 
 .pricing-card-pro .pricing-description {
-  color: rgba(255, 255, 255, 0.85);
+  color: #6b7280;
 }
 
 .pricing-price {
@@ -895,7 +900,9 @@
 }
 
 .pricing-card-pro .pricing-price {
-  border-bottom-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: clamp(1.75rem, 3vw, 2.25rem);
+  padding-bottom: clamp(1.5rem, 2vw, 2rem);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .price-amount {
@@ -910,7 +917,7 @@
 }
 
 .pricing-card-pro .price-amount {
-  color: white;
+   color: #111827;
 }
 
 .price-period {
@@ -925,7 +932,7 @@
 }
 
 .pricing-card-pro .price-period {
-  color: rgba(255, 255, 255, 0.85);
+  color: #6b7280;
 }
 
 .pricing-features {
@@ -952,7 +959,7 @@
 }
 
 .pricing-card-pro .pricing-features {
-  color: rgba(255, 255, 255, 0.9);
+   color: #4b5563;
 }
 
 .pricing-features i {
@@ -962,7 +969,9 @@
 }
 
 .pricing-card-pro .pricing-features i {
-  color: rgba(255, 255, 255, 1);
+ color: #7c3aed;
+  flex-shrink: 0;
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
 }
 
 .pricing-btn {
@@ -990,13 +999,12 @@
 }
 
 .pricing-btn-pro {
-  background-color: white;
-  color: #7c3aed;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  background-color: #e5e7eb;
+  color: #374151;
 }
 
 .pricing-btn-pro:hover {
-  background-color: #f9fafb;
+   background-color: #d1d5db;
   transform: translateY(-2px);
-  box-shadow: 0 12px 20px -4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }

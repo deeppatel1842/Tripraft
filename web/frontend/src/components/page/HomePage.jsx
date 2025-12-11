@@ -293,28 +293,28 @@ const HomePage = () => {
 
               <div className="pricing-card pricing-card-pro reveal" style={{transitionDelay: '0.1s'}}>
                 <div className="pricing-content">
-                  <h3 className="pricing-title">Pro Traveler</h3>
-                  <p className="pricing-description">Unlock unlimited planning power.</p>
+                  <h3 className="pricing-title">Plus</h3>
+                  <p className="pricing-description">For regular travelers & friends   </p>
                   <div className="pricing-price">
-                    <span className="price-amount">$5.99</span>
+                    <span className="price-amount">$4.99</span>
                     <span className="price-period">/month</span>
                   </div>
                   <ul className="pricing-features">
                     <li>
-                      <i className="fas fa-check-circle"></i> Unlimited Trips & Itineraries
+                      <i className="fas fa-check-circle"></i> Unlimited Expenses Per Day
                     </li>
                     <li>
-                      <i className="fas fa-check-circle"></i> Advanced AI Trip Planning
+                      <i className="fas fa-check-circle"></i> 100 AI Messages Per Day
                     </li>
                     <li>
-                      <i className="fas fa-check-circle"></i> Full Collaboration Suite
+                      <i className="fas fa-check-circle"></i> Unlimited Places Searches
                     </li>
                     <li>
                       <i className="fas fa-check-circle"></i> No Ads, Ever
                     </li>
                   </ul>
                 </div>
-                <button className="pricing-btn pricing-btn-pro">Upgrade Now</button>
+                <button className="pricing-btn pricing-btn-pro">Get Started</button>
               </div>
             </div>
           </div>

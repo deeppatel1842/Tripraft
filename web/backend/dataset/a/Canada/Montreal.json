@@ -1,0 +1,1092 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Old Montreal (Vieux-Montréal)",
+          "ai_summary": "Old Montreal is a historic district featuring cobblestone streets, charming architecture, and landmarks like the Notre-Dame Basilica.",
+          "name_english": "Old Montreal",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Shops and restaurants have specific hours."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Take a guided walking tour to learn about the history.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.5033,
+            "lng": -73.554
+          },
+          "address": "Old Montreal, Montreal, Quebec, Canada",
+          "official_website": null,
+          "tags": [
+            "Historic District",
+            "Culture",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Vieux-Port, Montréal.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Vieux-Port%2C_Montr%C3%A9al.JPG/960px-Vieux-Port%2C_Montr%C3%A9al.JPG",
+                "width": 960,
+                "height": 628,
+                "attribution": {
+                  "title": "Vieux-Port, Montréal.JPG",
+                  "author": "Gilbert Bochenek",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vieux-Port,_Montréal.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Notre-Dame Basilica of Montreal",
+          "ai_summary": "The Notre-Dame Basilica is a stunning example of Gothic Revival architecture, known for its intricate interior and vibrant stained glass windows.",
+          "name_english": "Notre-Dame Basilica",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "13:00-17:00",
+            "notes": "Hours may vary during special events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Attend the Aura light show for a unique experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 45.5048,
+            "lng": -73.556
+          },
+          "address": "110 Notre-Dame St W, Montreal, Quebec, Canada",
+          "official_website": "https://www.basiliquenotredame.ca/",
+          "tags": [
+            "Basilica",
+            "Architecture",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Basílica de Notre-Dame, Montreal, Canadá, 2017-08-11, DD 20-22 HDR alt.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bas%C3%ADlica_de_Notre-Dame%2C_Montreal%2C_Canad%C3%A1%2C_2017-08-11%2C_DD_20-22_HDR_alt.jpg/960px-Bas%C3%ADlica_de_Notre-Dame%2C_Montreal%2C_Canad%C3%A1%2C_2017-08-11%2C_DD_20-22_HDR_alt.jpg",
+                "width": 960,
+                "height": 889,
+                "attribution": {
+                  "title": "Basílica de Notre-Dame, Montreal, Canadá, 2017-08-11, DD 20-22 HDR alt.jpg",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Basílica_de_Notre-Dame,_Montreal,_Canadá,_2017-08-11,_DD_20-22_HDR_alt.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mount Royal Park",
+          "ai_summary": "Mount Royal Park is a sprawling green space offering hiking trails, scenic viewpoints, and year-round recreational activities.",
+          "name_english": "Mount Royal Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:50",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Fall",
+          "place_tip": "Visit the Kondiaronk Belvedere for panoramic views of the city.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.5078,
+            "lng": -73.5878
+          },
+          "address": "Mount Royal Park, Montreal, Quebec, Canada",
+          "official_website": "https://www.lemontroyal.qc.ca/",
+          "tags": [
+            "Park",
+            "Nature",
+            "Viewpoint"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Mtroyal.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Mtroyal.jpg",
+                "width": 640,
+                "height": 270,
+                "attribution": {
+                  "title": "Mtroyal.jpg",
+                  "author": "The original uploader was Montrealais at English Wikipedia.",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mtroyal.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Montreal Biodome",
+          "ai_summary": "The Montreal Biodome is a unique attraction where visitors can explore replicas of four ecosystems found in the Americas.",
+          "name_english": "Montreal Biodome",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the penguin exhibit and the rainforest section.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 45.5588,
+            "lng": -73.5731
+          },
+          "address": "4777 Pierre-de-Coubertin Ave, Montreal, Quebec, Canada",
+          "official_website": "https://espacepourlavie.ca/en/biodome",
+          "tags": [
+            "Biodome",
+            "Nature",
+            "Family"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Biodome de Montreal.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Biodome_de_Montreal.jpg/960px-Biodome_de_Montreal.jpg",
+                "width": 960,
+                "height": 530,
+                "attribution": {
+                  "title": "Biodome de Montreal.jpg",
+                  "author": "storem",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Biodome_de_Montreal.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Montreal Botanical Garden",
+          "ai_summary": "A large and diverse garden featuring plants from various regions, themed gardens, and a beautiful greenhouse.",
+          "name_english": "Montreal Botanical Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:40",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Closed on Mondays from November to April."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Check out the Japanese Garden and the Insectarium.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 45.561,
+            "lng": -73.5539
+          },
+          "address": "4101 Sherbrooke St E, Montreal, Quebec, Canada",
+          "official_website": "https://espacepourlavie.ca/en/botanical-garden",
+          "tags": [
+            "Botanical Garden",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Botanical Gardens viii..JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Botanical_Gardens_viii..JPG/960px-Botanical_Gardens_viii..JPG",
+                "width": 960,
+                "height": 720,
+                "attribution": {
+                  "title": "Botanical Gardens viii..JPG",
+                  "author": "GarrettRock at English Wikipedia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Botanical_Gardens_viii..JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Montreal Museum of Fine Arts",
+          "ai_summary": "One of the most prominent art museums in Canada, featuring a vast collection of artworks from various periods and styles.",
+          "name_english": "Montreal Museum of Fine Arts",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00-17:00",
+            "wed": "10:00-17:00",
+            "thu": "10:00-21:00",
+            "fri": "10:00-17:00",
+            "sat": "10:00-17:00",
+            "sun": "10:00-17:00",
+            "notes": "Free admission on Wednesdays from 17:00 to 21:00."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the museum shop for unique art-inspired gifts.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.498,
+            "lng": -73.5772
+          },
+          "address": "1380 Sherbrooke St W, Montreal, Quebec, Canada",
+          "official_website": "https://www.mbam.qc.ca/en/",
+          "tags": [
+            "Art Museum",
+            "Culture",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Museum of Fine Arts, main entrance, Montreal.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Museum_of_Fine_Arts%2C_main_entrance%2C_Montreal.jpg/960px-Museum_of_Fine_Arts%2C_main_entrance%2C_Montreal.jpg",
+                "width": 960,
+                "height": 640,
+                "attribution": {
+                  "title": "Museum of Fine Arts, main entrance, Montreal.jpg",
+                  "author": "Thomas Ledl",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Museum_of_Fine_Arts,_main_entrance,_Montreal.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Saint Joseph's Oratory of Mount Royal",
+          "ai_summary": "A stunning basilica and national shrine located on Mount Royal, known for its impressive dome and panoramic city views.",
+          "name_english": "Saint Joseph's Oratory",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "06:00-19:00",
+            "tue": "06:00-19:00",
+            "wed": "06:00-19:00",
+            "thu": "06:00-19:00",
+            "fri": "06:00-19:00",
+            "sat": "06:00-19:00",
+            "sun": "06:00-19:00",
+            "notes": "Dome access may be restricted during services."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Climb to the top of the dome for a breathtaking view.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.4975,
+            "lng": -73.6151
+          },
+          "address": "3800 Queen Mary Rd, Montreal, Quebec, Canada",
+          "official_website": "https://www.saintjosephoratory.com/en/",
+          "tags": [
+            "Basilica",
+            "Viewpoint",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "St-josephs-oratory.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/St-josephs-oratory.jpg",
+                "width": 772,
+                "height": 820,
+                "attribution": {
+                  "title": "St-josephs-oratory.jpg",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:St-josephs-oratory.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Jean-Talon Market",
+          "ai_summary": "A large public market in the Little Italy district, offering a wide variety of fresh produce, meats, cheeses, and baked goods.",
+          "name_english": "Jean-Talon Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "07:00-18:00",
+            "wed": "07:00-18:00",
+            "thu": "07:00-18:00",
+            "fri": "07:00-18:00",
+            "sat": "07:00-18:00",
+            "sun": "07:00-18:00",
+            "notes": "Closed on Mondays. Hours may vary for individual vendors."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local specialties at the various food stalls.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.5389,
+            "lng": -73.6151
+          },
+          "address": "7070 Henri-Julien Ave, Montreal, Quebec, Canada",
+          "official_website": "http://www.marchespublics-mtl.com/en/jean-talon-market",
+          "tags": [
+            "Market",
+            "Food",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Portrait de Jean Talon (éclaircie).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Portrait_de_Jean_Talon_%28%C3%A9claircie%29.jpg/960px-Portrait_de_Jean_Talon_%28%C3%A9claircie%29.jpg",
+                "width": 960,
+                "height": 1281,
+                "attribution": {
+                  "title": "Portrait de Jean Talon (éclaircie).jpg",
+                  "author": "Claude François",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_de_Jean_Talon_(éclaircie).jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Olympic Park",
+          "ai_summary": "A large park featuring the Olympic Stadium, a sports complex, and the Montreal Biodome, with various recreational facilities.",
+          "name_english": "Olympic Park",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Hours vary for different attractions within the park."
+          },
+          "suggested_duration": "2–4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the Montreal Tower for a great view of the city.",
+          "advanced_booking": "Recommended for some attractions",
+          "coordinates": {
+            "lat": 45.5579,
+            "lng": -73.5525
+          },
+          "address": "4141 Pierre-De Coubertin Ave, Montreal, Quebec, Canada",
+          "official_website": "http://www.parcolympique.ca/en",
+          "tags": [
+            "Park",
+            "Sports",
+            "Recreation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "2024 Olympic Qualifier Series Shanghai Skateboarding emcee Danny Zhang announcing live.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/2024_Olympic_Qualifier_Series_Shanghai_Skateboarding_emcee_Danny_Zhang_announcing_live.jpg/960px-2024_Olympic_Qualifier_Series_Shanghai_Skateboarding_emcee_Danny_Zhang_announcing_live.jpg",
+                "width": 960,
+                "height": 1280,
+                "attribution": {
+                  "title": "2024 Olympic Qualifier Series Shanghai Skateboarding emcee Danny Zhang announcing live.jpg",
+                  "author": "SFPier7",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2024_Olympic_Qualifier_Series_Shanghai_Skateboarding_emcee_Danny_Zhang_announcing_live.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "La Ronde Amusement Park",
+          "ai_summary": "A major amusement park with a wide variety of rides, games, and entertainment options for all ages.",
+          "name_english": "La Ronde Amusement Park",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "21:00",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00-18:00",
+            "wed": "10:00-18:00",
+            "thu": "10:00-18:00",
+            "fri": "10:00-22:00",
+            "sat": "10:00-22:00",
+            "sun": "10:00-21:00",
+            "notes": "Hours vary by season and weather conditions."
+          },
+          "suggested_duration": "3–5 hours",
+          "best_time_to_visit": "Late afternoon to evening",
+          "place_tip": "Check the schedule for live shows and events.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 45.5884,
+            "lng": -73.5512
+          },
+          "address": "22 Chemin Macdonald, Montreal, Quebec, Canada",
+          "official_website": "https://www.laronde.com/en",
+          "tags": [
+            "Amusement Park",
+            "Family",
+            "Entertainment"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "La Ronde.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/La_Ronde.jpg/960px-La_Ronde.jpg",
+                "width": 960,
+                "height": 640,
+                "attribution": {
+                  "title": "La Ronde.jpg",
+                  "author": "Matt Biddulph",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:La_Ronde.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Underground City (RESO)",
+          "ai_summary": "A vast network of underground complexes in downtown Montreal, featuring shops, restaurants, and access to public transit.",
+          "name_english": "Underground City",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "05:30-23:30",
+            "tue": "05:30-23:30",
+            "wed": "05:30-23:30",
+            "thu": "05:30-23:30",
+            "fri": "05:30-23:30",
+            "sat": "05:30-23:30",
+            "sun": "05:30-23:30",
+            "notes": "Individual shops and services have their own hours."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Explore the art installations and take advantage of the shopping and dining options.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.4979,
+            "lng": -73.5706
+          },
+          "address": "Montreal, Quebec, Canada",
+          "official_website": "http://www.montreal.ca/reso",
+          "tags": [
+            "Underground City",
+            "Shopping",
+            "Dining"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Tenjin Chikagai(Tenjin Underground City) - 02.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Tenjin_Chikagai%28Tenjin_Underground_City%29_-_02.JPG/960px-Tenjin_Chikagai%28Tenjin_Underground_City%29_-_02.JPG",
+                "width": 960,
+                "height": 640,
+                "attribution": {
+                  "title": "Tenjin Chikagai(Tenjin Underground City) - 02.JPG",
+                  "author": "JKT-c",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tenjin_Chikagai(Tenjin_Underground_City)_-_02.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Schwartz's Deli",
+          "ai_summary": "A famous deli known for its smoked meat sandwiches, a Montreal culinary classic.",
+          "name_english": "Schwartz's Deli",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "08:00-22:00",
+            "tue": "08:00-22:00",
+            "wed": "08:00-22:00",
+            "thu": "08:00-22:00",
+            "fri": "08:00-22:00",
+            "sat": "08:00-22:00",
+            "sun": "08:00-22:00",
+            "notes": "Open later on weekends."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Lunch",
+          "place_tip": "Try the smoked meat platter for the full experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.5017,
+            "lng": -73.5673
+          },
+          "address": "3895 St Laurent Blvd, Montreal, Quebec, Canada",
+          "official_website": "http://www.schwartzsdeli.com/",
+          "tags": [
+            "Deli",
+            "Food",
+            "Casual Dining"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Schwartzs Montreal Hebrew Deli 2010.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Schwartzs_Montreal_Hebrew_Deli_2010.jpg",
+                "width": 766,
+                "height": 1024,
+                "attribution": {
+                  "title": "Schwartzs Montreal Hebrew Deli 2010.jpg",
+                  "author": "Julian-Courtney Michael Lukács from Fredericton, Canada",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Schwartzs_Montreal_Hebrew_Deli_2010.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Place des Arts",
+          "ai_summary": "A major performing arts complex in Montreal, home to several theaters and concert halls.",
+          "name_english": "Place des Arts",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00-18:00",
+            "wed": "10:00-18:00",
+            "thu": "10:00-18:00",
+            "fri": "10:00-18:00",
+            "sat": "10:00-18:00",
+            "sun": "10:00-18:00",
+            "notes": "Closed on holidays. Hours may vary for events."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Evening for performances",
+          "place_tip": "Check the schedule for shows and book tickets in advance.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 45.5088,
+            "lng": -73.5789
+          },
+          "address": "175 St Antoine St, Montreal, Quebec, Canada",
+          "official_website": "https://placedesarts.com/en",
+          "tags": [
+            "Arts Complex",
+            "Theater",
+            "Concerts"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Place des Arts Entree 01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Place_des_Arts_Entree_01.jpg/960px-Place_des_Arts_Entree_01.jpg",
+                "width": 960,
+                "height": 1280,
+                "attribution": {
+                  "title": "Place des Arts Entree 01.jpg",
+                  "author": "Jeangagnon",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Place_des_Arts_Entree_01.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lachine Canal National Historic Site",
+          "ai_summary": "A historic canal with a scenic pathway, popular for walking, cycling, and boating.",
+          "name_english": "Lachine Canal",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best enjoyed during daylight hours."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Rent a kayak or bike to explore the canal and its surroundings.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.4515,
+            "lng": -73.5759
+          },
+          "address": "Montreal, Quebec, Canada",
+          "official_website": "http://www.pc.gc.ca/en/lhn-nhs/qc/canallachine",
+          "tags": [
+            "Historic Site",
+            "Canal",
+            "Recreation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Montreal DSC04641 (21784487964).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Montreal_DSC04641_%2821784487964%29.jpg/960px-Montreal_DSC04641_%2821784487964%29.jpg",
+                "width": 960,
+                "height": 640,
+                "attribution": {
+                  "title": "Montreal DSC04641 (21784487964).jpg",
+                  "author": "Autharite",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Montreal_DSC04641_(21784487964).jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Bell Centre",
+          "ai_summary": "A major sports and entertainment arena in Montreal, home to the Montreal Canadiens NHL team.",
+          "name_english": "Bell Centre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00-18:00",
+            "wed": "10:00-18:00",
+            "thu": "10:00-18:00",
+            "fri": "10:00-18:00",
+            "sat": "10:00-18:00",
+            "sun": "10:00-18:00",
+            "notes": "Hours vary for events and games."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Evening for games or events",
+          "place_tip": "Check the schedule for Canadiens games and book tickets in advance.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 45.4968,
+            "lng": -73.5701
+          },
+          "address": "1909 Avenue des Canadiens-de-Montréal, Montreal, Quebec, Canada",
+          "official_website": "https://www.nhl.com/canadiens/",
+          "tags": [
+            "Sports Arena",
+            "Entertainment",
+            "Hockey"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "CentreBell.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/CentreBell.jpg",
+                "width": 750,
+                "height": 500,
+                "attribution": {
+                  "title": "CentreBell.jpg",
+                  "author": "Alexcaban",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CentreBell.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Pointe-à-Callière, Montreal Archaeology and History Complex",
+          "ai_summary": "A museum and historic site showcasing Montreal's archaeological and historical heritage.",
+          "name_english": "Pointe-à-Callière",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00-17:00",
+            "wed": "10:00-17:00",
+            "thu": "10:00-17:00",
+            "fri": "10:00-17:00",
+            "sat": "10:00-17:00",
+            "sun": "10:00-17:00",
+            "notes": "Closed on Mondays. Hours may vary for special events."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Join a guided tour for in-depth knowledge of the site.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 45.5051,
+            "lng": -73.5536
+          },
+          "address": "350 Place Royale, Montreal, Quebec, Canada",
+          "official_website": "https://pacmusee.qc.ca/en/",
+          "tags": [
+            "Museum",
+            "History",
+            "Archaeology"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Pointe-a-Calliere 2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Pointe-a-Calliere_2.jpg/960px-Pointe-a-Calliere_2.jpg",
+                "width": 960,
+                "height": 906,
+                "attribution": {
+                  "title": "Pointe-a-Calliere 2.jpg",
+                  "author": "Jean Gagnon",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pointe-a-Calliere_2.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "McCord Museum",
+          "ai_summary": "A museum dedicated to preserving and showcasing Montreal's social history and heritage.",
+          "name_english": "McCord Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00-18:00",
+            "wed": "10:00-18:00",
+            "thu": "10:00-21:00",
+            "fri": "10:00-18:00",
+            "sat": "10:00-18:00",
+            "sun": "10:00-18:00",
+            "notes": "Free admission on Wednesdays from 17:00 to 21:00."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the museum's extensive costume and textile collection.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.5054,
+            "lng": -73.5772
+          },
+          "address": "690 Sherbrooke St W, Montreal, Quebec, Canada",
+          "official_website": "https://www.mccord-museum.qc.ca/en/",
+          "tags": [
+            "History Museum",
+            "Culture",
+            "Social History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Kyle McCord at Syracuse Orange football quad walk (2024) 01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Kyle_McCord_at_Syracuse_Orange_football_quad_walk_%282024%29_01.jpg/960px-Kyle_McCord_at_Syracuse_Orange_football_quad_walk_%282024%29_01.jpg",
+                "width": 960,
+                "height": 1280,
+                "attribution": {
+                  "title": "Kyle McCord at Syracuse Orange football quad walk (2024) 01.jpg",
+                  "author": "Kiran891",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kyle_McCord_at_Syracuse_Orange_football_quad_walk_(2024)_01.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Plateau Mont-Royal",
+          "ai_summary": "A vibrant and artistic neighborhood known for its bohemian atmosphere, colorful murals, and trendy shops.",
+          "name_english": "Plateau Mont-Royal",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:50",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best explored on foot. Check individual business hours."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Afternoon or evening",
+          "place_tip": "Discover the local art scene and enjoy the diverse dining options.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.5231,
+            "lng": -73.5886
+          },
+          "address": "Montreal, Quebec, Canada",
+          "official_website": null,
+          "tags": [
+            "Neighborhood",
+            "Culture",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Plateau Mont-Royal.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Plateau_Mont-Royal.jpg/960px-Plateau_Mont-Royal.jpg",
+                "width": 960,
+                "height": 658,
+                "attribution": {
+                  "title": "Plateau Mont-Royal.jpg",
+                  "author": "Chicoutimi",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Plateau_Mont-Royal.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Parc Jean-Drapeau",
+          "ai_summary": "A park located on two islands in the Saint Lawrence River, offering recreational activities and cultural events.",
+          "name_english": "Parc Jean-Drapeau",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours. Check event schedule."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit the La Ronde amusement park and the Biosphere.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.5056,
+            "lng": -73.5522
+          },
+          "address": "Montreal, Quebec, Canada",
+          "official_website": "http://www.parcjeandrapeau.com/en",
+          "tags": [
+            "Park",
+            "Nature",
+            "Recreation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "WTMTL T03 MAD 8183.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/WTMTL_T03_MAD_8183.JPG/960px-WTMTL_T03_MAD_8183.JPG",
+                "width": 960,
+                "height": 636,
+                "attribution": {
+                  "title": "WTMTL T03 MAD 8183.JPG",
+                  "author": "Marc-André Desrosiers (Wikipedia Takes Montreal participant)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:WTMTL_T03_MAD_8183.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Barbie Expo",
+          "ai_summary": "A unique exhibition showcasing a vast collection of Barbie dolls and memorabilia.",
+          "name_english": "Barbie Expo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00-18:00",
+            "wed": "10:00-18:00",
+            "thu": "10:00-18:00",
+            "fri": "10:00-18:00",
+            "sat": "10:00-18:00",
+            "sun": "10:00-18:00",
+            "notes": "Closed on Mondays. Hours may vary for special events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check for special events or themed exhibitions.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 45.501,
+            "lng": -73.5695
+          },
+          "address": "7070 Henri-Julien Ave, Montreal, Quebec, Canada",
+          "official_website": "http://www.barbieexpo.com/",
+          "tags": [
+            "Exhibition",
+            "Culture",
+            "Entertainment"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Green-billed Malkoha by Tisha Mukherjee 01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Green-billed_Malkoha_by_Tisha_Mukherjee_01.jpg/960px-Green-billed_Malkoha_by_Tisha_Mukherjee_01.jpg",
+                "width": 960,
+                "height": 1344,
+                "attribution": {
+                  "title": "Green-billed Malkoha by Tisha Mukherjee 01.jpg",
+                  "author": "Tisha Mukherjee",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Green-billed_Malkoha_by_Tisha_Mukherjee_01.jpg"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

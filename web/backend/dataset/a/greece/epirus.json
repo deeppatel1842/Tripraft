@@ -1,0 +1,297 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Ioannina Castle",
+          "ai_summary": "A historic castle in Ioannina, featuring Ottoman and Byzantine architecture, and offering stunning views of Lake Pamvotis.",
+          "name_english": "Ioannina Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:30",
+          "cost": "$5",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Best visited during sunset for stunning views."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring a camera to capture the breathtaking views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.667,
+            "lng": 20.853
+          },
+          "address": "Ioannina Castle, Ioannina, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Castle",
+            "Historic",
+            "Viewpoint"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Blank.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Blank.png",
+                "width": 3,
+                "height": 2,
+                "attribution": {
+                  "title": "Blank",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Blank.png",
+                  "credit": null,
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Zagori Villages",
+          "ai_summary": "A collection of picturesque villages in Epirus, known for their stone-built houses, arched bridges, and stunning natural surroundings.",
+          "name_english": "Zagori Villages",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours for safety."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for exploring the villages and trails.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.892,
+            "lng": 20.75
+          },
+          "address": "Zagori Villages, Epirus, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Villages",
+            "Nature",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Greece location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Greece_location_map.svg/960px-Greece_location_map.svg.png",
+                "width": 800,
+                "height": 658,
+                "attribution": {
+                  "title": "Greece location map",
+                  "author": "Lencer",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Greece_location_map.svg",
+                  "credit": "Own work (Original text: own work, using United States National Imagery and Mapping Agency data)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Location map of Greece\nEquirectangular projection, N/S stretching 120 %. Geographic limits of the map: \n\nN: 42.0° N\nS: 34.6° N\nW: 19.1° E\nE: 29.9° E"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Vikos Gorge",
+          "ai_summary": "One of the deepest gorges in the world, Vikos Gorge offers breathtaking views and excellent hiking opportunities.",
+          "name_english": "Vikos Gorge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours for safety."
+          },
+          "suggested_duration": "4-6 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring proper hiking gear and plenty of water for the trek.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.892,
+            "lng": 20.75
+          },
+          "address": "Vikos Gorge, Epirus, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Gorge",
+            "Hiking",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Pindus National Park",
+          "ai_summary": "A stunning national park in Epirus, featuring dense forests, deep gorges, and a rich variety of wildlife.",
+          "name_english": "Pindus National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours for safety."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the various trails and enjoy a picnic amidst nature.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.75,
+            "lng": 20.8
+          },
+          "address": "Pindus National Park, Epirus, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "National Park",
+            "Nature",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Albania confessional map with regions circa 1900.PNG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Albania_confessional_map_with_regions_circa_1900.PNG",
+                "width": 500,
+                "height": 728,
+                "attribution": {
+                  "title": "Albania confessional map with regions circa 1900",
+                  "author": "Yalens",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Albania_confessional_map_with_regions_circa_1900.PNG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Based on various census data (as well as various other scholarly publications and a map), with some approximation involved, as the borders of regions have changed since the times of these censuses.\nSources and notes:\n1. Gruber, Siegried. Regional variation in marriage patterns in Albania at the beginning of the 20th century. Data ultimately derived from the 1918 census. See here (maps found near bottom): www-gewi.uni-graz.at/seiner/marriage_patterns.html. See also this map: [1]. Used for info on Northern and Central Albania. Unfortunately, due to the political instability there, the South was not included in this census, nor were certain eastern regions (Bulqiza, Librazhd, etc.). \n2. Vickers, Miranda. Islam in Albania. \n--Used for Bulqiza (she notes Bulqiza has an overwhelming Bektashi Muslim majority). While this is a 2008 source, I'm counting it for c1900 too, as it's unlikely that Bulqiza would've converted en masse to Bektashism since then. (http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=2&amp;ved=0CDYQFjAB&amp;url=http%3A%2F%2Fwww.da.mod.uk%2Fcolleges%2Farag%2Fdocument-listings%2Fbalkan%2F08%2809%29MV.pdf&amp;ei=HwuBU_LXGOfNsASLuYHIAg&amp;usg=AFQjCNHfuCyKF6OSx1CFDQg7x8lloHi74w&amp;sig2=p1qCw3JxZOttqZFz6evyGw&amp;bvm=bv.67720277,d.cWc). \n3. Destani, Beytullah. Albania and Kosovo: Political and Ethnic Boundaries, 1867-1946. \n--Used for Ottomon census data of the late 1800s and 1908 (also contains the distorted Greek nationalist and later Albanian nationalist-produced figures of South Albania). Note also that Pogradec is called 'Starovo'. Used for Southern Albania\n4. This late 19th-century Greco-German ethno-religious map of Northwest Greece and Southern Albania, all the way up to Myzeqe\n5. De Rapper, Gilles. Religion in Post-Communist Albania. (link: http://hal.archives-ouvertes.fr/docs/00/32/72/00/PDF/de_Rapper_2008_Religion_in_postcommunist_Albania.pdf)\n--Info on Devoll, a newly created district, as majority Muslim. \nOther notes:\n1. I wasn't able to find any sources on Librazhdi at this time, so I just assumed majority Sunni like most of the surrounding region. If there is sources otherwise, do not hesitate to fix this. \n2. While Shkodra district was in fact (slightly) majority Muslim in 1918, since then overwhelmingly Catholic regions of Kiri and the western part of Puka were added to Shkodra District, causing Catholics to become the majority. \n3. Kuchova, a new district, is estimated based on its rough location on the Greco-German map. \n4. The large number of districts with pluralities in the South is due to three different groups (Bektashis, Orthodox Christians and Sunnis) each having substantial numbers.\n5. The modern day Mat District is a combination of the former Matja (overwhelmingly Sunni) and the former Oheri (overwhelmingly Catholic). According to the 1918 census there is also a small but significant (1-10%) Orthodox minority in the former Matja district (on top of a similarly sized Catholic minority in the district).\n6. For the purposes of this map, very weak majorities (such as 50-53%) are being considered pluralities, given that there is some estimation involved.\n\n7. The Luma region in Kukes doesn't actually have many Bektashis- instead it has a lot of Halvetis, as is also true of Devoll and Tropoja. (see: [2])"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Acheron River",
+          "ai_summary": "A river in Epirus, known for its crystal-clear waters and the ancient oracle of Nekromanteion.",
+          "name_english": "Acheron River",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during daylight hours for safety."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the nearby ancient ruins of Nekromanteion.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 39.4,
+            "lng": 20.5
+          },
+          "address": "Acheron River, Epirus, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "River",
+            "Nature",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:07Joannina Bibliothek01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/07Joannina_Bibliothek01.jpg/960px-07Joannina_Bibliothek01.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "07Joannina Bibliothek01",
+                  "author": "Fingalo",
+                  "license": "CC BY-SA 2.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:07Joannina_Bibliothek01.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0 de",
+                  "description": "Joannina"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

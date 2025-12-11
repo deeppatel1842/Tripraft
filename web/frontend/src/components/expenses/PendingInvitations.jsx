@@ -2,16 +2,44 @@ import React, { useState } from 'react';
 import { Mail, Check, X, Clock } from 'lucide-react';
 import { useInvitationsQuery, useAcceptInvitationMutation, useDeclineInvitationMutation } from '../../hooks/useExpenseQuery';
 
-const PendingInvitations = ({ onInvitationAccepted, currentUser }) => {
+/**
+ * PendingInvitations Component
+ * 
+ * Phase 17 Week 2: Optimized to use invitations from mega-bootstrap when available
+ * Falls back to useInvitationsQuery only when parent doesn't provide invitations
+ * 
+ * @param {Array} invitationsFromParent - Invitations from mega-bootstrap (optional)
+ * @param {Function} onInvitationAccepted - Callback when invitation is accepted
+ * @param {Function} onRefreshInvitations - Callback to refresh mega-bootstrap (optional)
+ * @param {Object} currentUser - Current user object
+ */
+const PendingInvitations = ({ 
+  invitationsFromParent,
+  onInvitationAccepted, 
+  onRefreshInvitations,
+  currentUser 
+}) => {
   const [processing, setProcessing] = useState({});
   
-  // Use React Query for invitations
-  const { data: invitationsData, isLoading: loading, refetch: refetchInvitations } = useInvitationsQuery();
+  // Phase 17 Bug Fix: Only use React Query when parent doesn't provide invitations
+  // invitationsFromParent will be undefined when mega-bootstrap is disabled (personal mode)
+  const useFallbackQuery = invitationsFromParent === undefined;
+  
+  // Phase 17: Only fetch from API when not using mega-bootstrap data
+  const { data: invitationsData, isLoading: loading, refetch: refetchInvitations } = useInvitationsQuery({
+    enabled: useFallbackQuery
+  });
+  
   const acceptMutation = useAcceptInvitationMutation();
   const declineMutation = useDeclineInvitationMutation();
   
-  // Extract invitations from response
-  const invitations = invitationsData?.invitations || [];
+  // Phase 17: Use invitations from parent (mega-bootstrap) if available
+  const invitations = invitationsFromParent !== undefined 
+    ? invitationsFromParent 
+    : (invitationsData?.invitations || []);
+  
+  // Phase 17: Show loading only for fallback query
+  const isLoading = useFallbackQuery && loading;
 
   const handleAccept = async (invitationId) => {
     setProcessing(prev => ({ ...prev, [invitationId]: 'accepting' }));
@@ -19,8 +47,14 @@ const PendingInvitations = ({ onInvitationAccepted, currentUser }) => {
       // CRITICAL: Manually trigger refetch after mutation
       const response = await acceptMutation.mutateAsync(invitationId);
       
-      // Force immediate refetch of this component's query
-      await refetchInvitations();
+      // Phase 17: Prefer mega-bootstrap refresh, fallback to query refetch
+      if (onRefreshInvitations) {
+        console.log('🚀 Phase 17: Refreshing via mega-bootstrap');
+        onRefreshInvitations();
+      } else {
+        // Force immediate refetch of this component's query
+        await refetchInvitations();
+      }
       
       // ✅ React Query will automatically invalidate and refetch invitations/groups
       console.log('✅ Invitation accepted, React Query refreshing data...');
@@ -51,6 +85,11 @@ const PendingInvitations = ({ onInvitationAccepted, currentUser }) => {
     setProcessing(prev => ({ ...prev, [invitationId]: 'declining' }));
     try {
       await declineMutation.mutateAsync(invitationId);
+      
+      // Phase 17: Prefer mega-bootstrap refresh
+      if (onRefreshInvitations) {
+        onRefreshInvitations();
+      }
     } catch (error) {
       console.error('Error declining invitation:', error);
       alert(`Failed to decline invitation: ${error.message}`);
@@ -63,7 +102,7 @@ const PendingInvitations = ({ onInvitationAccepted, currentUser }) => {
     }
   };
 
-  if (loading) {
+  if (isLoading) {
     return (
       <div className="pending-invitations-card">
         <h3>

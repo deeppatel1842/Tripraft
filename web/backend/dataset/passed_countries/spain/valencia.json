@@ -1,0 +1,1154 @@
+{
+  "country": "Spain",
+  "state": "Valencia",
+  "cities": [
+    {
+      "city": "Valencia",
+      "nearest_airport": "Valencia Airport",
+      "places": [
+        {
+          "name": "City of Arts and Sciences",
+          "ai_summary": "A futuristic architectural complex featuring museums, an aquarium, and an IMAX cinema, perfect for science and art enthusiasts.",
+          "name_english": "City of Arts and Sciences",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:45",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 - 20:00",
+            "Tuesday": "10:00 - 20:00",
+            "Wednesday": "10:00 - 20:00",
+            "Thursday": "10:00 - 20:00",
+            "Friday": "10:00 - 20:00",
+            "Saturday": "10:00 - 20:00",
+            "Sunday": "10:00 - 20:00",
+            "notes": "Hours may vary during special events."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Book tickets online to avoid queues.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 39.454,
+            "longitude": -0.356
+          },
+          "address": "Av. del Professor López Piñero, 7, 46013 Valencia, Spain",
+          "official_website": "https://www.cac.es",
+          "tags": [
+            "Architecture",
+            "Science",
+            "Culture"
+          ],
+          "state": "Valencia",
+          "photos": {},
+          "rank_score": 0.778
+        },
+        {
+          "name": "Oceanogràfic",
+          "ai_summary": "The largest aquarium in Europe, showcasing marine ecosystems from around the world, including sharks, dolphins, and tropical fish.",
+          "name_english": "Oceanographic",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Extended hours during summer."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the dolphin show.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 39.454,
+            "longitude": -0.348
+          },
+          "address": "Carrer Eduardo Primo Yúfera, 1B, 46013 Valencia, Spain",
+          "official_website": "https://www.oceanografic.org",
+          "tags": [
+            "Aquarium",
+            "Marine Life",
+            "Family"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2002_wurde_das_Ozeaneum_in_Valencia_eröffnet._14.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/2002_wurde_das_Ozeaneum_in_Valencia_er%C3%B6ffnet._14.jpg/960px-2002_wurde_das_Ozeaneum_in_Valencia_er%C3%B6ffnet._14.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2002 wurde das Ozeaneum in Valencia eröffnet. 14",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Holger_Uwe_Schmitt\" title=\"User:Holger Uwe Schmitt\">Holger Uwe Schmitt</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2002_wurde_das_Ozeaneum_in_Valencia_er%C3%B6ffnet._14.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Tour of the autdoor facilities of the Valecia Oceaneums."
+                }
+              }
+            }
+          },
+          "rank_score": 0.842
+        },
+        {
+          "name": "Hemisfèric",
+          "ai_summary": "An IMAX cinema, planetarium, and laserium all in one, offering a unique audiovisual experience.",
+          "name_english": "Hemispheric",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 20:00",
+            "Tuesday": "10:00 - 20:00",
+            "Wednesday": "10:00 - 20:00",
+            "Thursday": "10:00 - 20:00",
+            "Friday": "10:00 - 20:00",
+            "Saturday": "10:00 - 20:00",
+            "Sunday": "10:00 - 20:00",
+            "notes": "Check schedule for showtimes."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book the laser show in advance.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 39.454,
+            "longitude": -0.354
+          },
+          "address": "Av. del Professor López Piñero, 5, 46013 Valencia, Spain",
+          "official_website": "https://www.cac.es/hemisferico",
+          "tags": [
+            "Cinema",
+            "Science",
+            "Culture"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Two_Point_Seven_Facades_Charles_Wells_Brewery_Brise_Soleil.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Two_Point_Seven_Facades_Charles_Wells_Brewery_Brise_Soleil.jpg/960px-Two_Point_Seven_Facades_Charles_Wells_Brewery_Brise_Soleil.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Two Point Seven Facades Charles Wells Brewery Brise Soleil",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dewitt1994&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dewitt1994 (page does not exist)\">Dewitt1994</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Two_Point_Seven_Facades_Charles_Wells_Brewery_Brise_Soleil.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Two Point Seven Facades 200mm extruded aluminium elliptical aerofoil, set at 260 mm pitch (distance between center of blades) and projecting 2400mm over a course of 10 aerofoils. The systems formed a continuous canopy along the south elevation in its entirety. The aerofoils are connected to steel discreetly using aluminium profiled winged end plates.  52.1475333,-0.4868837; Brewpoint, Fairhill, Cut Throat Lane, Bedford, England, MK41 7FY"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Valencia Cathedral & Miguelete",
+          "ai_summary": "A landmark with elements from Romanesque, Gothic, and Baroque architecture, claiming to house the Holy Grail.",
+          "name_english": "Valencia Cathedral & Miguelete",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:30",
+          "sunset_time": "19:00",
+          "cost": "Free entry; fees for tower access",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 19:00",
+            "Tuesday": "10:00 - 19:00",
+            "Wednesday": "10:00 - 19:00",
+            "Thursday": "10:00 - 19:00",
+            "Friday": "10:00 - 19:00",
+            "Saturday": "10:00 - 19:00",
+            "Sunday": "10:00 - 19:00",
+            "notes": "Tower access may close earlier."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Climb the Miguelete for panoramic views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.475,
+            "longitude": -0.376
+          },
+          "address": "Pl. de l'Almoina, 5, 46003 Valencia, Spain",
+          "official_website": "https://www.valenciabonita.es",
+          "tags": [
+            "Architecture",
+            "History",
+            "Religion"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Valencia_cathedral_2022_-_north_façade_dawn.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Valencia_cathedral_2022_-_north_fa%C3%A7ade_dawn.jpg/960px-Valencia_cathedral_2022_-_north_fa%C3%A7ade_dawn.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Valencia cathedral 2022 - north façade dawn",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Fernando\" title=\"User:Fernando\">Fernando Pascullo</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Valencia_cathedral_2022_-_north_fa%C3%A7ade_dawn.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Valencia cathedral 2022 - north façade dawn"
+                }
+              }
+            }
+          },
+          "rank_score": 0.81
+        },
+        {
+          "name": "Plaza de la Virgen",
+          "ai_summary": "A historic square surrounded by impressive buildings, ideal for experiencing Valencia's vibrant atmosphere.",
+          "name_english": "Plaza de la Virgen",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "20:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00 - 00:00",
+            "Tuesday": "06:00 - 00:00",
+            "Wednesday": "06:00 - 00:00",
+            "Thursday": "06:00 - 00:00",
+            "Friday": "06:00 - 00:00",
+            "Saturday": "06:00 - 00:00",
+            "Sunday": "06:00 - 00:00",
+            "notes": "Lively atmosphere, especially in the evenings."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy a drink at one of the terrace bars.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.475,
+            "longitude": -0.376
+          },
+          "address": "Pl. de la Virgen, s/n, 46001 Valencia, Spain",
+          "official_website": "https://www.valenciabonita.es",
+          "tags": [
+            "History",
+            "Culture",
+            "Leisure"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vitoria_05_2012_1809.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Vitoria_05_2012_1809.JPG/960px-Vitoria_05_2012_1809.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vitoria 05 2012 1809",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Mariordo\" title=\"User:Mariordo\">Mariordo (Mario Roberto Duran Ortiz)</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vitoria_05_2012_1809.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Plaza de la Virgen Blanca (White Virgin Square), Vitoria-Gasteiz, Basque Country, Spain."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Silk Exchange (La Lonja)",
+          "ai_summary": "A UNESCO World Heritage site, this late Gothic building was originally used for trading silk and now houses a museum.",
+          "name_english": "Silk Exchange (La Lonja)",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:30 - 19:00",
+            "Tuesday": "09:30 - 19:00",
+            "Wednesday": "09:30 - 19:00",
+            "Thursday": "09:30 - 19:00",
+            "Friday": "09:30 - 19:00",
+            "Saturday": "09:30 - 19:00",
+            "Sunday": "09:30 - 19:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Join a guided tour to learn about its history.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.465,
+            "longitude": -0.375
+          },
+          "address": "Carrer de la Llotja, 2, 46001 Valencia, Spain",
+          "official_website": "https://www.valenciabonita.es",
+          "tags": [
+            "History",
+            "Architecture",
+            "UNESCO"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Llonja.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Llonja.jpg/960px-Llonja.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Llonja",
+                  "author": "Felivet",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Llonja.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Llotja de la Seda (<a href=\"//commons.wikimedia.org/wiki/Val%C3%A8ncia\" class=\"mw-redirect\" title=\"València\">València</a>)."
+                }
+              }
+            }
+          },
+          "rank_score": 0.906
+        },
+        {
+          "name": "Central Market",
+          "ai_summary": "A bustling market housed in a beautiful modernist building, offering a wide range of fresh produce, meats, and local delicacies.",
+          "name_english": "Central Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free entry; pay for purchases",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "07:00 - 15:00",
+            "Tuesday": "07:00 - 15:00",
+            "Wednesday": "07:00 - 15:00",
+            "Thursday": "07:00 - 15:00",
+            "Friday": "07:00 - 15:00",
+            "Saturday": "07:00 - 15:00",
+            "Sunday": "Closed",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local horchata and fartons.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.466,
+            "longitude": -0.377
+          },
+          "address": "Carrer de l'Erudit Orellana, 46008 Valencia, Spain",
+          "official_website": "https://www.mercadocentralvalencia.es",
+          "tags": [
+            "Food",
+            "Culture",
+            "Shopping"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Mercat_façana5.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Mercat_fa%C3%A7ana5.jpg/960px-Mercat_fa%C3%A7ana5.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Mercat façana5",
+                  "author": "Felivet",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mercat_fa%C3%A7ana5.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Façana de Davant del Mercat Central de València"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Turia Gardens",
+          "ai_summary": "A picturesque park created in the former riverbed of the Turia, featuring walking paths, gardens, and recreational areas.",
+          "name_english": "Turia Gardens",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "20:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00 - 00:00",
+            "Tuesday": "06:00 - 00:00",
+            "Wednesday": "06:00 - 00:00",
+            "Thursday": "06:00 - 00:00",
+            "Friday": "06:00 - 00:00",
+            "Saturday": "06:00 - 00:00",
+            "Sunday": "06:00 - 00:00",
+            "notes": "Ideal for walking, jogging, and cycling."
+          },
+          "suggested_duration": "1-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Rent a bike to explore the gardens.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.469,
+            "longitude": -0.376
+          },
+          "address": "Carrer de l'Arquitecte Mora, 46015 Valencia, Spain",
+          "official_website": "https://www.valenciabonita.es",
+          "tags": [
+            "Nature",
+            "Leisure",
+            "Sports"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Jardí_del_Túria_de_València,_riuet.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Jard%C3%AD_del_T%C3%BAria_de_Val%C3%A8ncia%2C_riuet.JPG/960px-Jard%C3%AD_del_T%C3%BAria_de_Val%C3%A8ncia%2C_riuet.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Jardí del Túria de València, riuet",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Joanbanjo\" title=\"User:Joanbanjo\">Joanbanjo</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Jard%C3%AD_del_T%C3%BAria_de_Val%C3%A8ncia,_riuet.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Jardí del Túria de València, riuet."
+                }
+              }
+            }
+          },
+          "rank_score": 0.758
+        },
+        {
+          "name": "Bioparc Valencia",
+          "ai_summary": "A unique zoo experience where animals live in recreated natural habitats; focuses on conservation and education.",
+          "name_english": "Bioparc Valencia",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Last entry one hour before closing."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for walking.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 39.469,
+            "longitude": -0.388
+          },
+          "address": "Av. Pío Baroja, 3, 46015 Valencia, Spain",
+          "official_website": "https://www.bioparcvalencia.es",
+          "tags": [
+            "Zoo",
+            "Nature",
+            "Family"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bioparc_-_Jirafa_de_fondo_Valencia.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bioparc_-_Jirafa_de_fondo_Valencia.JPG/960px-Bioparc_-_Jirafa_de_fondo_Valencia.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bioparc - Jirafa de fondo Valencia",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Googledance&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Googledance (page does not exist)\">Googledance</a>",
+                  "license": "CC BY-SA 1.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/1.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bioparc_-_Jirafa_de_fondo_Valencia.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 1.0",
+                  "description": "Esta foto es del Bioparc, me parece que es representativa, ya que se ve un ambiente natural, selvatico dentro de la ciudad. Si, los animales de fondo son Antilopes; (Impala, Blesbok, Kudu mayor)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Malvarrosa Beach",
+          "ai_summary": "A popular urban beach with a wide promenade, fine sand, and clear waters, ideal for sunbathing and water sports.",
+          "name_english": "Malvarrosa Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "20:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00 - 00:00",
+            "Tuesday": "08:00 - 00:00",
+            "Wednesday": "08:00 - 00:00",
+            "Thursday": "08:00 - 00:00",
+            "Friday": "08:00 - 00:00",
+            "Saturday": "08:00 - 00:00",
+            "Sunday": "08:00 - 00:00",
+            "notes": "Lifeguard service available during the day."
+          },
+          "suggested_duration": "2-5 hours",
+          "best_time_to_visit": "Late morning or early evening",
+          "place_tip": "Try the local seafood at beachside chiringuitos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.469,
+            "longitude": -0.319
+          },
+          "address": "Playa de la Malvarrosa, Valencia, Spain",
+          "official_website": "https://www.valenciabonita.es",
+          "tags": [
+            "Beach",
+            "Sun",
+            "Leisure"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Joaquín_Sorolla_y_Bastida_-_Triste_Herencia_(1899).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Joaqu%C3%ADn_Sorolla_y_Bastida_-_Triste_Herencia_%281899%29.jpg/960px-Joaqu%C3%ADn_Sorolla_y_Bastida_-_Triste_Herencia_%281899%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Sad Inheritance</i></div></div><div style=\"display: none;\">label QS:Les,\"Triste Herencia\"</div><div style=\"display: none;\">label QS:Lfr,\"Triste héritage\"</div><div style=\"display: none;\">label QS:Lru,\"Печальное наследство\"</div><div style=\"display: none;\">label QS:Luk,\"Сумна спадковість\"</div><div style=\"display: none;\">label QS:Len,\"Sad Inheritance\"</div><div style=\"display: none;\">label QS:Lca,\"Trista Herència\"</div></div>",
+                  "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Joaqu%C3%ADn_Sorolla\" class=\"extiw\" title=\"w:en:Joaquín Sorolla\"><span title=\"Spanish painter (1863-1923)\">Joaquín Sorolla</span></a></bdi>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_Sorolla_y_Bastida_-_Triste_Herencia_(1899).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Albufera Natural Park",
+          "ai_summary": "A freshwater lagoon and estuary on the Gulf of Valencia, known for its biodiversity and as the birthplace of paella.",
+          "name_english": "Albufera Natural Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "20:15",
+          "cost": "Free; fees for boat rides",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "07:00 - 21:00",
+            "Tuesday": "07:00 - 21:00",
+            "Wednesday": "07:00 - 21:00",
+            "Thursday": "07:00 - 21:00",
+            "Friday": "07:00 - 21:00",
+            "Saturday": "07:00 - 21:00",
+            "Sunday": "07:00 - 21:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Take a boat tour to explore the lagoon.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.469,
+            "longitude": -0.366
+          },
+          "address": "Parc Natural de l'Albufera, 46290 Albufera, Valencia, Spain",
+          "official_website": "https://www.valenciabonita.es",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Food"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:El_Palmar_Barraca_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/El_Palmar_Barraca_2.jpg/960px-El_Palmar_Barraca_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "El Palmar Barraca 2",
+                  "author": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/martinwcox/\">https://www.flickr.com/photos/martinwcox/</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:El_Palmar_Barraca_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "El Palmar, Valencia."
+                }
+              }
+            }
+          },
+          "rank_score": 0.758
+        },
+        {
+          "name": "Torres de Serranos",
+          "ai_summary": "Impressive medieval towers that were once the main entrance to the city, offering panoramic views from the top.",
+          "name_english": "Serranos Towers",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:30",
+          "sunset_time": "19:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 19:00",
+            "Tuesday": "10:00 - 19:00",
+            "Wednesday": "10:00 - 19:00",
+            "Thursday": "10:00 - 19:00",
+            "Friday": "10:00 - 19:00",
+            "Saturday": "10:00 - 19:00",
+            "Sunday": "10:00 - 19:00",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit during the golden hour for best photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.475,
+            "longitude": -0.375
+          },
+          "address": "Carrer de Serranos, 46003 Valencia, Spain",
+          "official_website": "https://www.valenciabonita.es",
+          "tags": [
+            "History",
+            "Architecture",
+            "Views"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Puerta_de_los_Serranos,_Valencia,_España,_2014-06-30,_DD_86.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Puerta_de_los_Serranos%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_86.JPG/960px-Puerta_de_los_Serranos%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_86.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Puerta de los Serranos, Valencia, España, 2014-06-30, DD 86",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Puerta_de_los_Serranos,_Valencia,_Espa%C3%B1a,_2014-06-30,_DD_86.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Serranos Gate, Valencia, Spain\n<table cellspacing=\"4\" style=\"width=100%; text-align:left; color:#000; background:#F9FFF0; border:1px solid #BBA22C; margin:1px;\">\n<tbody><tr>\n<td style=\"width:32px; height:32px;\"><span typeof=\"mw:File\"><span><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Icone_chateau_fort.svg/40px-Icone_chateau_fort.svg.png\" decoding=\"async\" width=\"30\" height=\"30\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Icone_chateau_fort.svg/60px-Icone_chateau_fort.svg.png 1.5x\" data-file-width=\"400\" data-file-height=\"400\"></span></span>\n</td>\n<td style=\"font-size:9pt; padding:1pt; line-height:1.1em;\"><p><span lang=\"en\" class=\"description en\">This is a photo of a <a href=\"https://en.wikipedia.org/wiki/Monument_(Spain)\" class=\"extiw\" title=\"en:Monument (Spain)\">monument</a> listed in the Spanish heritage register of <a href=\"https://en.wikipedia.org/wiki/Bien_de_Inter%C3%A9s_Cultural\" class=\"extiw\" title=\"en:Bien de Interés Cultural\">Bienes de Interés Cultural</a> under the reference </span><span style=\"white-space:nowrap;\"><a class=\"external text\" href=\"https://tools.wmflabs.org/heritage/api/api.php?action=search&amp;srcountry=es&amp;format=html&amp;srid=RI-51-0000969&amp;userlang=en\">RI-51-0000969</a>.</span></p>\n</td></tr></tbody></table>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Torres de Quart",
+          "ai_summary": "Another pair of medieval towers, less crowded than Serranos, with a small museum and great city views.",
+          "name_english": "Quart Towers",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:30",
+          "sunset_time": "19:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 - 19:00",
+            "Tuesday": "10:00 - 19:00",
+            "Wednesday": "10:00 - 19:00",
+            "Thursday": "10:00 - 19:00",
+            "Friday": "10:00 - 19:00",
+            "Saturday": "10:00 - 19:00",
+            "Sunday": "10:00 - 19:00",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Combine with a visit to the nearby Central Market.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.466,
+            "longitude": -0.375
+          },
+          "address": "Carrer de Quart, 46008 Valencia, Spain",
+          "official_website": "https://www.valenciabonita.es",
+          "tags": [
+            "History",
+            "Architecture",
+            "Views"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Torres_de_Cuart,_Valencia,_España,_2014-06-30,_DD_89.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Torres_de_Cuart%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_89.JPG/960px-Torres_de_Cuart%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_89.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Torres de Cuart, Valencia, España, 2014-06-30, DD 89",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Torres_de_Cuart,_Valencia,_Espa%C3%B1a,_2014-06-30,_DD_89.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Cuart Towers, Valencia, Spain"
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Plaza del Ayuntamiento",
+          "ai_summary": "The city hall square, known for its impressive buildings, fountains, and as a venue for local celebrations.",
+          "name_english": "City Hall Square",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "20:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "Always open; best visited during the day."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Check out the local events calendar.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.466,
+            "longitude": -0.376
+          },
+          "address": "Pl. del Ayuntamiento, 1, 46002 Valencia, Spain",
+          "official_website": "https://www.valenciabonita.es",
+          "tags": [
+            "History",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ayuntamiento_de_Valencia,_España,_2014-06-30,_DD_119.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ayuntamiento_de_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_119.JPG/960px-Ayuntamiento_de_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_119.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ayuntamiento de Valencia, España, 2014-06-30, DD 119",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ayuntamiento_de_Valencia,_Espa%C3%B1a,_2014-06-30,_DD_119.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "<a href=\"//commons.wikimedia.org/wiki/City_hall\" title=\"City hall\">City hall</a>, <a href=\"//commons.wikimedia.org/wiki/Valencia\" class=\"mw-redirect\" title=\"Valencia\">Valencia</a>, <a href=\"//commons.wikimedia.org/wiki/Spain\" class=\"mw-redirect\" title=\"Spain\">Spain</a>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "González Martí National Museum of Ceramics",
+          "ai_summary": "A museum showcasing an extensive collection of ceramics and decorative arts, housed in a beautiful palace.",
+          "name_english": "Ceramics Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 19:00",
+            "Tuesday": "10:00 - 19:00",
+            "Wednesday": "10:00 - 19:00",
+            "Thursday": "10:00 - 19:00",
+            "Friday": "10:00 - 19:00",
+            "Saturday": "10:00 - 19:00",
+            "Sunday": "Closed",
+            "notes": "Check for temporary exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the museum shop for unique souvenirs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.469,
+            "longitude": -0.375
+          },
+          "address": "Carrer del Poeta Querol, 2, 46002 Valencia, Spain",
+          "official_website": "https://www.museoceramica.gva.es",
+          "tags": [
+            "Museum",
+            "Art",
+            "Culture"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Valencia,_palazzo_de_marchese_di_Dos_Aigües,_esterno_01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Valencia%2C_palazzo_de_marchese_di_Dos_Aig%C3%BCes%2C_esterno_01.jpg/960px-Valencia%2C_palazzo_de_marchese_di_Dos_Aig%C3%BCes%2C_esterno_01.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Valencia, palazzo de marchese di Dos Aigües, esterno 01",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Francesco Bini</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Valencia,_palazzo_de_marchese_di_Dos_Aig%C3%BCes,_esterno_01.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Exterior of the Palau del Marqués de Dos Aigües"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Marina de València",
+          "ai_summary": "A modern marina with a promenade, shops, and restaurants, offering beautiful views of the sea and the city.",
+          "name_english": "Valencia Marina",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "20:30",
+          "cost": "Free; pay for parking and activities",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "Always open; best visited in the evening."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Enjoy a meal at a seaside restaurant.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.467,
+            "longitude": -0.327
+          },
+          "address": "Muelle de la Aduana, s/n, 46024 Valencia, Spain",
+          "official_website": "https://www.valenciabonita.es",
+          "tags": [
+            "Leisure",
+            "Dining",
+            "Views"
+          ],
+          "state": "Valencia",
+          "photos": {},
+          "rank_score": 0.71
+        },
+        {
+          "name": "Mercado de Colón",
+          "ai_summary": "A beautiful market building now home to a variety of food stalls, restaurants, and shops, perfect for a gourmet experience.",
+          "name_english": "Colón Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free entry; pay for purchases",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "07:00 - 22:00",
+            "Tuesday": "07:00 - 22:00",
+            "Wednesday": "07:00 - 22:00",
+            "Thursday": "07:00 - 22:00",
+            "Friday": "07:00 - 22:00",
+            "Saturday": "07:00 - 22:00",
+            "Sunday": "Closed",
+            "notes": "Check individual stalls for opening hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Lunch or early evening",
+          "place_tip": "Try the tapas and local wines.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.469,
+            "longitude": -0.377
+          },
+          "address": "Carrer de Jorge Juan, 19, 46004 Valencia, Spain",
+          "official_website": "https://www.mercadocolon.es",
+          "tags": [
+            "Food",
+            "Shopping",
+            "Culture"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Mercado_de_Colón,_Valencia,_España,_2014-06-29,_DD_09.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Mercado_de_Col%C3%B3n%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-29%2C_DD_09.JPG/960px-Mercado_de_Col%C3%B3n%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-29%2C_DD_09.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Mercado de Colón, Valencia, España, 2014-06-29, DD 09",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mercado_de_Col%C3%B3n,_Valencia,_Espa%C3%B1a,_2014-06-29,_DD_09.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Columbus Market, Valencia, Spain"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "IVAM Modern Art Museum",
+          "ai_summary": "The Institute of Modern Art, featuring a vast collection of contemporary artworks, photographs, and sculptures.",
+          "name_english": "IVAM",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "20:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 19:00",
+            "Tuesday": "10:00 - 19:00",
+            "Wednesday": "10:00 - 19:00",
+            "Thursday": "10:00 - 19:00",
+            "Friday": "10:00 - 19:00",
+            "Saturday": "10:00 - 19:00",
+            "Sunday": "Closed",
+            "notes": "Check for temporary exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the museum shop for unique art books.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.469,
+            "longitude": -0.378
+          },
+          "address": "Carrer de Guillem de Castro, 118, 46003 Valencia, Spain",
+          "official_website": "https://www.ivam.es",
+          "tags": [
+            "Art",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Fachada_del_IVAM_febrero_2018.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Fachada_del_IVAM_febrero_2018.jpg/960px-Fachada_del_IVAM_febrero_2018.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Fachada del IVAM febrero 2018",
+                  "author": "Juan García",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Fachada_del_IVAM_febrero_2018.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Fachada del IVAM en el mes de febrero 2018"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Ruzafa District",
+          "ai_summary": "A trendy neighborhood known for its bohemian atmosphere, vibrant street art, and a wide range of bars and restaurants.",
+          "name_english": "Ruzafa District",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "20:15",
+          "cost": "Free; pay for purchases",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 - 00:00",
+            "Tuesday": "09:00 - 00:00",
+            "Wednesday": "09:00 - 00:00",
+            "Thursday": "09:00 - 00:00",
+            "Friday": "09:00 - 00:00",
+            "Saturday": "09:00 - 00:00",
+            "Sunday": "09:00 - 00:00",
+            "notes": "Lively atmosphere, especially at night."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the local bars for a night out.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.463,
+            "longitude": -0.377
+          },
+          "address": "Carrer de Pedro III el Gran, 46006 Valencia, Spain",
+          "official_website": "https://www.valenciabonita.es",
+          "tags": [
+            "Nightlife",
+            "Culture",
+            "Food"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:València,_exterior_del_Museu_de_Ciències_Naturals.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Val%C3%A8ncia%2C_exterior_del_Museu_de_Ci%C3%A8ncies_Naturals.JPG/960px-Val%C3%A8ncia%2C_exterior_del_Museu_de_Ci%C3%A8ncies_Naturals.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "València, exterior del Museu de Ciències Naturals",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Joanbanjo\" title=\"User:Joanbanjo\">Joanbanjo</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Val%C3%A8ncia,_exterior_del_Museu_de_Ci%C3%A8ncies_Naturals.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "València, exterior del Museu de Ciències Naturals."
+                }
+              }
+            }
+          },
+          "rank_score": 0.742
+        },
+        {
+          "name": "Port Saplaya (Little Venice)",
+          "ai_summary": "A picturesque area with canals and colorful houses, often referred to as 'Little Venice'.",
+          "name_english": "Port Saplaya",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "20:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "Always open; best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take a boat ride through the canals.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 39.485,
+            "longitude": -0.327
+          },
+          "address": "Port Saplaya, 46120 Alboraya, Valencia, Spain",
+          "official_website": "https://www.valenciabonita.es",
+          "tags": [
+            "Photography",
+            "Leisure",
+            "Culture"
+          ],
+          "state": "Valencia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Huerta_Alboraya.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Huerta_Alboraya.jpg/960px-Huerta_Alboraya.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Huerta Alboraya",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Echiner~commonswiki&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Echiner~commonswiki (page does not exist)\">Echiner</a>",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Huerta_Alboraya.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "Campo de chufa en la huerta de Alboraya."
+                }
+              }
+            }
+          },
+          "rank_score": 0.726
+        }
+      ]
+    }
+  ]
+}

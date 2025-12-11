@@ -1,0 +1,1092 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Mount Rainier National Park",
+          "ai_summary": "A stunning national park centered around the iconic Mount Rainier, offering hiking, climbing, and scenic views.",
+          "name_english": "Mount Rainier National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "$30 per vehicle",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Hike the Skyline Trail for breathtaking views of the mountain.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 46.8523,
+            "lng": -121.7603
+          },
+          "address": "Mount Rainier National Park, Washington, USA",
+          "official_website": "https://www.nps.gov/mora/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Christine Falls Bridge, Mount Rainier National Park 03.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Christine_Falls_Bridge%2C_Mount_Rainier_National_Park_03.jpg/960px-Christine_Falls_Bridge%2C_Mount_Rainier_National_Park_03.jpg",
+                "width": 800,
+                "height": 1208,
+                "attribution": {
+                  "title": "Christine Falls Bridge, Mount Rainier National Park 03",
+                  "author": "Joe Mabel",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Christine_Falls_Bridge,_Mount_Rainier_National_Park_03.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Olympic National Park",
+          "ai_summary": "A diverse national park featuring mountains, rainforests, and coastline.",
+          "name_english": "Olympic National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:35 AM",
+          "sunset_time": "06:05 PM",
+          "cost": "$30 per vehicle",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Explore the Hoh Rainforest and Hurricane Ridge.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 47.8021,
+            "lng": -123.6044
+          },
+          "address": "Olympic National Park, Washington, USA",
+          "official_website": "https://www.nps.gov/olym/",
+          "tags": [
+            "Nature",
+            "Rainforest",
+            "Coastline"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2000-09-23 GracieByDownedCyprus.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/2000-09-23_GracieByDownedCyprus.jpg/960px-2000-09-23_GracieByDownedCyprus.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2000-09-23 GracieByDownedCyprus",
+                  "author": "Paul Schultz from Kenmore, USA",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2000-09-23_GracieByDownedCyprus.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Space Needle",
+          "ai_summary": "An iconic Seattle landmark offering panoramic views of the city and surrounding mountains.",
+          "name_english": "Space Needle",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:15 PM",
+          "cost": "$35 per adult",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "9:00 AM - 9:00 PM",
+            "tue": "9:00 AM - 9:00 PM",
+            "wed": "9:00 AM - 9:00 PM",
+            "thu": "9:00 AM - 9:00 PM",
+            "fri": "9:00 AM - 10:00 PM",
+            "sat": "9:00 AM - 10:00 PM",
+            "sun": "9:00 AM - 9:00 PM",
+            "notes": "Hours may vary on holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit at sunset for the best views.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 47.6205,
+            "lng": -122.3493
+          },
+          "address": "Space Needle, Seattle, Washington, USA",
+          "official_website": "https://www.spaceneedle.com/",
+          "tags": [
+            "Landmark",
+            "City Views",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aerial Downtown Seattle November 2011.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Aerial_Downtown_Seattle_November_2011.jpg/960px-Aerial_Downtown_Seattle_November_2011.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Aerial Downtown Seattle November 2011",
+                  "author": "Jelson25",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_Downtown_Seattle_November_2011.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Pike Place Market",
+          "ai_summary": "A bustling market in Seattle known for fresh seafood, local produce, and unique crafts.",
+          "name_english": "Pike Place Market",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "9:00 AM - 6:00 PM",
+            "tue": "9:00 AM - 6:00 PM",
+            "wed": "9:00 AM - 6:00 PM",
+            "thu": "9:00 AM - 6:00 PM",
+            "fri": "9:00 AM - 6:00 PM",
+            "sat": "9:00 AM - 6:00 PM",
+            "sun": "9:00 AM - 6:00 PM",
+            "notes": "Open every day, but individual vendor hours may vary."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the fish throwing at Pike Place Fish Market.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 47.6094,
+            "lng": -122.3412
+          },
+          "address": "Pike Place Market, Seattle, Washington, USA",
+          "official_website": "https://www.pikeplacemarket.org/",
+          "tags": [
+            "Market",
+            "Food",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:06 Pike Place Market Desimone bridge with vendors inside on Western Avenue facing north.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/06_Pike_Place_Market_Desimone_bridge_with_vendors_inside_on_Western_Avenue_facing_north.jpg/960px-06_Pike_Place_Market_Desimone_bridge_with_vendors_inside_on_Western_Avenue_facing_north.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "06 Pike Place Market Desimone bridge with vendors inside on Western Avenue facing north",
+                  "author": "Rootology",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:06_Pike_Place_Market_Desimone_bridge_with_vendors_inside_on_Western_Avenue_facing_north.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "North Cascades National Park",
+          "ai_summary": "A remote and rugged national park with stunning mountain scenery and diverse wildlife.",
+          "name_english": "North Cascades National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "$30 per vehicle",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "2-4 days",
+          "best_time_to_visit": "Fall",
+          "place_tip": "Drive the North Cascades Highway for breathtaking views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 48.7596,
+            "lng": -121.982
+          },
+          "address": "North Cascades National Park, Washington, USA",
+          "official_website": "https://www.nps.gov/noca/",
+          "tags": [
+            "Nature",
+            "Scenic Drives",
+            "Wildlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Arctostaphylos uva-ursi 25916.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Arctostaphylos_uva-ursi_25916.JPG/960px-Arctostaphylos_uva-ursi_25916.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Arctostaphylos uva-ursi 25916",
+                  "author": "Walter Siegmund",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Arctostaphylos_uva-ursi_25916.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Leavenworth",
+          "ai_summary": "A charming Bavarian-style village in the Cascades, known for its festivals and outdoor activities.",
+          "name_english": "Leavenworth",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Shops and restaurants have varying hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Visit during Oktoberfest for a unique experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 47.5952,
+            "lng": -120.6643
+          },
+          "address": "Leavenworth, Washington, USA",
+          "official_website": "https://leavenworth.org/",
+          "tags": [
+            "Village",
+            "Festivals",
+            "Outdoor Activities"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Disambig gray.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/800px-Disambig_gray.svg.png",
+                "width": 800,
+                "height": 611,
+                "attribution": {
+                  "title": "Disambig gray",
+                  "author": "Stephan Baum (recolored by Mzajac, converted to SVG by Booyabazooka)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Disambig_gray.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Museum of Pop Culture",
+          "ai_summary": "A museum in Seattle dedicated to contemporary popular culture, featuring exhibits on music, science fiction, and more.",
+          "name_english": "Museum of Pop Culture",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "05:00 PM",
+          "cost": "$28 per adult",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "10:00 AM - 5:00 PM",
+            "tue": "10:00 AM - 5:00 PM",
+            "wed": "10:00 AM - 5:00 PM",
+            "thu": "10:00 AM - 5:00 PM",
+            "fri": "10:00 AM - 8:00 PM",
+            "sat": "10:00 AM - 8:00 PM",
+            "sun": "10:00 AM - 5:00 PM",
+            "notes": "Closed on Thanksgiving and Christmas Day."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the Science Fiction and Fantasy Hall of Fame.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 47.6215,
+            "lng": -122.3409
+          },
+          "address": "Museum of Pop Culture, Seattle, Washington, USA",
+          "official_website": "https://www.mopop.org/",
+          "tags": [
+            "Museum",
+            "Music",
+            "Science Fiction"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aerial view of EMPSFM.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Aerial_view_of_EMPSFM.jpg/960px-Aerial_view_of_EMPSFM.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Aerial view of EMPSFM",
+                  "author": "EMP|SFM",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_EMPSFM.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "San Juan Islands",
+          "ai_summary": "A group of islands in the Pacific Northwest known for their stunning natural beauty and outdoor activities.",
+          "name_english": "San Juan Islands",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "08:10 PM",
+          "cost": "Varies by activity",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Ferry and activity schedules vary."
+          },
+          "suggested_duration": "2-5 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Go whale watching for a memorable experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 48.5246,
+            "lng": -122.911
+          },
+          "address": "San Juan Islands, Washington, USA",
+          "official_website": "https://www.visitsanjuans.com/",
+          "tags": [
+            "Islands",
+            "Nature",
+            "Whale Watching"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Abies lasiocarpa 0775.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Abies_lasiocarpa_0775.JPG/960px-Abies_lasiocarpa_0775.JPG",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Abies lasiocarpa 0775",
+                  "author": "Walter Siegmund (talk)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Abies_lasiocarpa_0775.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Chihuly Garden and Glass",
+          "ai_summary": "An exhibition space in Seattle showcasing the stunning glass artwork of Dale Chihuly.",
+          "name_english": "Chihuly Garden and Glass",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "05:30 PM",
+          "cost": "$32 per adult",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "11:00 AM - 5:00 PM",
+            "tue": "11:00 AM - 5:00 PM",
+            "wed": "11:00 AM - 5:00 PM",
+            "thu": "11:00 AM - 5:00 PM",
+            "fri": "11:00 AM - 8:00 PM",
+            "sat": "11:00 AM - 8:00 PM",
+            "sun": "11:00 AM - 5:00 PM",
+            "notes": "Closed on Thanksgiving and Christmas Day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Visit the Glasshouse for a stunning display of Chihuly's work.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 47.6296,
+            "lng": -122.3533
+          },
+          "address": "Chihuly Garden and Glass, Seattle, Washington, USA",
+          "official_website": "https://www.chihulygardenandglass.com/",
+          "tags": [
+            "Art",
+            "Glassblowing",
+            "Garden"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "2 towers.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2_towers.jpg/960px-2_towers.jpg",
+                "width": 960,
+                "height": 1283,
+                "attribution": {
+                  "title": "2 towers.jpg",
+                  "author": "Lambtron",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2_towers.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mount St. Helens National Volcanic Monument",
+          "ai_summary": "A U.S. National Volcanic Monument located in the Cascade Range, known for its volcanic activity and research opportunities.",
+          "name_english": "Mount St. Helens National Volcanic Monument",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "06:55 PM",
+          "cost": "$8 per person",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Visit the Johnston Ridge Observatory for the best views of the volcano.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 46.292,
+            "lng": -122.1087
+          },
+          "address": "Mount St. Helens National Volcanic Monument, Washington, USA",
+          "official_website": "https://www.fs.usda.gov/main/mountsthelens/home",
+          "tags": [
+            "Volcano",
+            "Nature",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ape cave meatball.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ape_cave_meatball.jpg",
+                "width": 681,
+                "height": 1024,
+                "attribution": {
+                  "title": "Ape cave meatball",
+                  "author": "Dave Bunnell / Under Earth Images",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ape_cave_meatball.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Seattle Waterfront",
+          "ai_summary": "A waterfront area in Seattle with shops, restaurants, and scenic views of the Puget Sound.",
+          "name_english": "Seattle Waterfront",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Individual business hours may vary."
+          },
+          "suggested_duration": "1-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Take a stroll and enjoy the street performances.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 47.6062,
+            "lng": -122.3321
+          },
+          "address": "Seattle Waterfront, Seattle, Washington, USA",
+          "official_website": "https://www.seattlewaterfront.org/",
+          "tags": [
+            "Waterfront",
+            "Shopping",
+            "Dining"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Collapsed section of Waterfront Park (Pier 58), Seattle.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Collapsed_section_of_Waterfront_Park_%28Pier_58%29%2C_Seattle.jpg/960px-Collapsed_section_of_Waterfront_Park_%28Pier_58%29%2C_Seattle.jpg",
+                "width": 800,
+                "height": 530,
+                "attribution": {
+                  "title": "Collapsed section of Waterfront Park (Pier 58), Seattle",
+                  "author": "SounderBruce",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Collapsed_section_of_Waterfront_Park_(Pier_58),_Seattle.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "The Museum of Flight",
+          "ai_summary": "An aerospace museum in Seattle, featuring a vast collection of aircraft and spacecraft.",
+          "name_english": "The Museum of Flight",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "05:00 PM",
+          "cost": "$25 per adult",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "10:00 AM - 5:00 PM",
+            "tue": "10:00 AM - 5:00 PM",
+            "wed": "10:00 AM - 5:00 PM",
+            "thu": "10:00 AM - 5:00 PM",
+            "fri": "10:00 AM - 5:00 PM",
+            "sat": "10:00 AM - 5:00 PM",
+            "sun": "10:00 AM - 5:00 PM",
+            "notes": "Closed on Thanksgiving and Christmas Day."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don't miss the Boeing Tour for an in-depth experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 47.5113,
+            "lng": -122.3026
+          },
+          "address": "The Museum of Flight, Seattle, Washington, USA",
+          "official_website": "https://www.museumofflight.org/",
+          "tags": [
+            "Museum",
+            "Aerospace",
+            "Aircraft"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Boeing Museum Of Flight.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Boeing_Museum_Of_Flight.jpg/960px-Boeing_Museum_Of_Flight.jpg",
+                "width": 960,
+                "height": 720,
+                "attribution": {
+                  "title": "Boeing Museum Of Flight.jpg",
+                  "author": "Heyimastopsign",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Boeing_Museum_Of_Flight.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Kerry Park",
+          "ai_summary": "A small park in Seattle offering one of the best views of the city skyline.",
+          "name_english": "Kerry Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "07:10 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited early morning or late afternoon."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Visit during the week to avoid crowds.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 47.6281,
+            "lng": -122.3255
+          },
+          "address": "Kerry Park, Seattle, Washington, USA",
+          "official_website": "https://www.seattle.gov/parks/all-parks/kerry-park",
+          "tags": [
+            "Park",
+            "Viewpoint",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Diablo Lake",
+          "ai_summary": "A stunningly beautiful lake in the North Cascades, known for its turquoise color and scenic surroundings.",
+          "name_english": "Diablo Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "07:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best viewed in the summer months."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Stop at the Diablo Lake Overlook for a breathtaking view.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 48.5783,
+            "lng": -121.6939
+          },
+          "address": "Diablo Lake, Washington, USA",
+          "official_website": "https://www.fs.usda.gov/recarea/mbs/recarea/?recid=17837",
+          "tags": [
+            "Lake",
+            "Scenic",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:257 Diablo Dam, Skagit Power Project, WA 1948 (22743897042).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/257_Diablo_Dam%2C_Skagit_Power_Project%2C_WA_1948_%2822743897042%29.jpg/960px-257_Diablo_Dam%2C_Skagit_Power_Project%2C_WA_1948_%2822743897042%29.jpg",
+                "width": 800,
+                "height": 486,
+                "attribution": {
+                  "title": "257 Diablo Dam, Skagit Power Project, WA 1948 (22743897042)",
+                  "author": "U.S. Forest Service- Pacific Northwest Region",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:257_Diablo_Dam,_Skagit_Power_Project,_WA_1948_(22743897042).jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ginkgo Petrified Forest State Park",
+          "ai_summary": "A state park in Washington known for its petrified wood and unique geological features.",
+          "name_english": "Ginkgo Petrified Forest State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "07:15 PM",
+          "cost": "$10 per vehicle",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "8:00 AM - 5:00 PM",
+            "tue": "8:00 AM - 5:00 PM",
+            "wed": "8:00 AM - 5:00 PM",
+            "thu": "8:00 AM - 5:00 PM",
+            "fri": "8:00 AM - 5:00 PM",
+            "sat": "8:00 AM - 5:00 PM",
+            "sun": "8:00 AM - 5:00 PM",
+            "notes": "Closed on Thanksgiving and Christmas Day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Visit the Ginkgo Museum to learn about the area's geology.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 46.2565,
+            "lng": -119.9402
+          },
+          "address": "Ginkgo Petrified Forest State Park, Washington, USA",
+          "official_website": "https://parks.state.wa.us/582/Ginkgo-Petrified-Forest",
+          "tags": [
+            "State Park",
+            "Geology",
+            "Petrified Wood"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Deception Pass Bridge",
+          "ai_summary": "A scenic bridge in Washington State, offering stunning views of the surrounding waters and forests.",
+          "name_english": "Deception Pass Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "07:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best viewed at sunrise or sunset."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Walk across the bridge for the best views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 48.4329,
+            "lng": -122.6156
+          },
+          "address": "Deception Pass Bridge, Washington, USA",
+          "official_website": "https://parks.state.wa.us/582/Deception-Pass",
+          "tags": [
+            "Bridge",
+            "Scenic",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ancient Douglas fir tree at Deception pass state park.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ancient_Douglas_fir_tree_at_Deception_pass_state_park.jpg/960px-Ancient_Douglas_fir_tree_at_Deception_pass_state_park.jpg",
+                "width": 800,
+                "height": 416,
+                "attribution": {
+                  "title": "Ancient Douglas fir tree at Deception pass state park",
+                  "author": "Shantham11",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Douglas_fir_tree_at_Deception_pass_state_park.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Woodland Park Zoo",
+          "ai_summary": "A zoo in Seattle that features a wide variety of animals and is committed to conservation and education.",
+          "name_english": "Woodland Park Zoo",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "04:00 PM",
+          "cost": "$24.50 per adult",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "9:30 AM - 4:00 PM",
+            "wed": "9:30 AM - 4:00 PM",
+            "thu": "9:30 AM - 4:00 PM",
+            "fri": "9:30 AM - 4:00 PM",
+            "sat": "9:30 AM - 4:00 PM",
+            "sun": "9:30 AM - 4:00 PM",
+            "notes": "Closed on Mondays and some holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late Morning",
+          "place_tip": "Check out the zoo's calendar for special events and exhibits.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 47.674,
+            "lng": -122.3538
+          },
+          "address": "Woodland Park Zoo, Seattle, Washington, USA",
+          "official_website": "https://www.zoo.org/",
+          "tags": [
+            "Zoo",
+            "Animals",
+            "Conservation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Woodland Park Zoo 2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Woodland_Park_Zoo_2.jpg/960px-Woodland_Park_Zoo_2.jpg",
+                "width": 960,
+                "height": 720,
+                "attribution": {
+                  "title": "Woodland Park Zoo 2.jpg",
+                  "author": "Bernie Ongewe",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Woodland_Park_Zoo_2.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Hoh Rainforest",
+          "ai_summary": "A temperate rainforest located in Olympic National Park, known for its lush vegetation and diverse wildlife.",
+          "name_english": "Hoh Rainforest",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:35 AM",
+          "sunset_time": "06:05 PM",
+          "cost": "$30 per vehicle",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "All year",
+          "place_tip": "Take the Hoh Rain Forest Trail for a great introduction to the area.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 47.5085,
+            "lng": -123.976
+          },
+          "address": "Hoh Rainforest, Washington, USA",
+          "official_website": "https://www.nps.gov/olym/planyourvisit/hoh-rain-forest.htm",
+          "tags": [
+            "Rainforest",
+            "Nature",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Abies lasiocarpa 0775.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Abies_lasiocarpa_0775.JPG/960px-Abies_lasiocarpa_0775.JPG",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Abies lasiocarpa 0775",
+                  "author": "Walter Siegmund (talk)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Abies_lasiocarpa_0775.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Puget Sound",
+          "ai_summary": "A complex estuarine system of interconnected marine waterways and basins in Washington State.",
+          "name_english": "Puget Sound",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Varies by activity",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Access points and activities vary."
+          },
+          "suggested_duration": "Varies",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Explore the San Juan Islands for a unique experience.",
+          "advanced_booking": "Varies by activity",
+          "coordinates": {
+            "lat": 47.7511,
+            "lng": -122.4783
+          },
+          "address": "Puget Sound, Washington, USA",
+          "official_website": "https://www.psp.wa.gov/",
+          "tags": [
+            "Waterway",
+            "Marine",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1867 U.S. Coast Survey Chart or Map of Puget Sound, Washington - Geographicus - PugetSound-uscs-1867.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/1867_U.S._Coast_Survey_Chart_or_Map_of_Puget_Sound%2C_Washington_-_Geographicus_-_PugetSound-uscs-1867.jpg/960px-1867_U.S._Coast_Survey_Chart_or_Map_of_Puget_Sound%2C_Washington_-_Geographicus_-_PugetSound-uscs-1867.jpg",
+                "width": 800,
+                "height": 1281,
+                "attribution": {
+                  "title": "Puget Sound Washington Territory.",
+                  "author": "United States Coast Survey",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1867_U.S._Coast_Survey_Chart_or_Map_of_Puget_Sound,_Washington_-_Geographicus_-_PugetSound-uscs-1867.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Palouse Falls State Park",
+          "ai_summary": "A state park in Washington featuring a stunning waterfall and unique geological formations.",
+          "name_english": "Palouse Falls State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50 AM",
+          "sunset_time": "07:20 PM",
+          "cost": "$10 per vehicle",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best viewed in the spring when the falls are at their fullest."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Visit the Palouse Falls Overlook for the best view of the falls.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 46.596,
+            "lng": -118.1139
+          },
+          "address": "Palouse Falls State Park, Washington, USA",
+          "official_website": "https://parks.state.wa.us/582/Palouse-Falls",
+          "tags": [
+            "State Park",
+            "Waterfall",
+            "Geology"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

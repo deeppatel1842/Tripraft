@@ -1,0 +1,1098 @@
+{
+  "country": "Australia",
+  "state": "Tasmania",
+  "cities": [
+    {
+      "city": "Hobart",
+      "nearest_airport": "Hobart International Airport (HBA)",
+      "places": [
+        {
+          "name": "Cradle Mountain-Lake St Clair National Park",
+          "ai_summary": "Cradle Mountain-Lake St Clair National Park is a stunning wilderness area in Tasmania, featuring rugged mountains, glacial lakes, and diverse wildlife. It's part of the Tasmanian Wilderness World Heritage Area.",
+          "name_english": "Cradle Mountain-Lake St Clair National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "08:00-18:00",
+            "Tuesday": "08:00-18:00",
+            "Wednesday": "08:00-18:00",
+            "Thursday": "08:00-18:00",
+            "Friday": "08:00-18:00",
+            "Saturday": "08:00-18:00",
+            "Sunday": "08:00-18:00",
+            "notes": "Hours may vary seasonally."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Hike the Dove Lake Circuit for breathtaking views of Cradle Mountain.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -41.5911,
+            "longitude": 145.9331
+          },
+          "address": "Cradle Mountain Rd, Tasmania, Australia",
+          "official_website": "https://www.parks.tas.gov.au/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cradle_Mountain_Behind_Dove_Lake.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Cradle_Mountain_Behind_Dove_Lake.jpg/960px-Cradle_Mountain_Behind_Dove_Lake.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cradle Mountain Behind Dove Lake",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Uspn\" title=\"User:Uspn\">Bjørn Christian Tørrissen</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cradle_Mountain_Behind_Dove_Lake.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Cradle Mountain as seen from the north, across Dove Lake. This view can be had after a few hundred metres walk from the carpark."
+                }
+              }
+            }
+          },
+          "rank_score": 0.858
+        },
+        {
+          "name": "Museum of Old and New Art (MONA)",
+          "ai_summary": "MONA is a world-renowned art museum in Hobart, showcasing provocative and contemporary art pieces. It's a must-visit for art enthusiasts and those seeking a unique cultural experience.",
+          "name_english": "Museum of Old and New Art (MONA)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00-17:00",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Take the MONA ferry for a scenic journey to the museum.",
+          "advanced_booking": "Highly recommended",
+          "coordinates": {
+            "latitude": -42.8309,
+            "longitude": 147.2712
+          },
+          "address": "655 Main Rd, Berriedale TAS 7011, Australia",
+          "official_website": "https://mona.net.au/",
+          "tags": [
+            "Art",
+            "Culture",
+            "Museum",
+            "Unique"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Staircase_MONA.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Staircase_MONA.jpg/960px-Staircase_MONA.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Staircase MONA",
+                  "author": "Rob Taylor",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Staircase_MONA.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Stair crazy - illuminated staircase in the mona museum"
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "Freycinet National Park",
+          "ai_summary": "Freycinet National Park is famous for its stunning coastal scenery, including the iconic Wineglass Bay. The park offers a range of outdoor activities and is home to diverse wildlife.",
+          "name_english": "Freycinet National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Hours may vary seasonally."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Visit the Wineglass Bay Lookout for a stunning view of the bay.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -42.1868,
+            "longitude": 148.2809
+          },
+          "address": "Freycinet National Park, Tasmania, Australia",
+          "official_website": "https://www.parks.tas.gov.au/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Wineglass_Bay_view_from_the_Beach.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Wineglass_Bay_view_from_the_Beach.jpg/960px-Wineglass_Bay_view_from_the_Beach.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Wineglass Bay view from the Beach",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jane6592\" title=\"User:Jane6592\">Jane6592</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Wineglass_Bay_view_from_the_Beach.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Wineglass Bay view from the Beach"
+                }
+              }
+            }
+          },
+          "rank_score": 0.922
+        },
+        {
+          "name": "Wineglass Bay",
+          "ai_summary": "Wineglass Bay is a pristine beach located in Freycinet National Park, known for its white sandy beach and crystal-clear waters. It's a popular spot for swimming, kayaking, and picnicking.",
+          "name_english": "Wineglass Bay",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "17:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Bring your camera for stunning beach and bay photos.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -42.1868,
+            "longitude": 148.2809
+          },
+          "address": "Wineglass Bay, Tasmania, Australia",
+          "official_website": "https://www.parks.tas.gov.au/",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Photography",
+            "Relaxation"
+          ],
+          "state": "Tasmania",
+          "photos": {},
+          "rank_score": 0.798
+        },
+        {
+          "name": "Port Arthur Historic Site",
+          "ai_summary": "Port Arthur Historic Site is a former convict settlement and now a UNESCO World Heritage site. It offers a glimpse into Australia's convict past with well-preserved ruins and informative displays.",
+          "name_english": "Port Arthur Historic Site",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Autumn",
+          "place_tip": "Join a guided tour to learn about the history of the site.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -43.1399,
+            "longitude": 147.6658
+          },
+          "address": "6973 Arthur Hwy, Port Arthur TAS 7182, Australia",
+          "official_website": "https://www.portarthur.org.au/",
+          "tags": [
+            "History",
+            "Culture",
+            "UNESCO World Heritage",
+            "Photography"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:PortArthurPenitentiary.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/PortArthurPenitentiary.jpg/960px-PortArthurPenitentiary.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "PortArthurPenitentiary",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Martybugs\" class=\"extiw\" title=\"en:User:Martybugs\">Martybugs</a> at <a class=\"external text\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:PortArthurPenitentiary.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Penitentiary at Port Arthur, Tasmania."
+                }
+              }
+            }
+          },
+          "rank_score": 0.926
+        },
+        {
+          "name": "Salamanca Market (Hobart)",
+          "ai_summary": "Salamanca Market is a vibrant and bustling market in Hobart, offering a wide range of local produce, crafts, and gourmet food. It's a great place to experience the local culture and cuisine.",
+          "name_english": "Salamanca Market (Hobart)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "08:00-15:00",
+            "Saturday": "08:00-15:00",
+            "Sunday": "08:00-15:00",
+            "notes": "Open only on weekends and public holidays."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Saturday mornings",
+          "place_tip": "Try the local cheeses and fresh produce.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -42.8821,
+            "longitude": 147.3272
+          },
+          "address": "Salamanca Place, Hobart TAS 7000, Australia",
+          "official_website": "https://www.salamancamarket.com.au/",
+          "tags": [
+            "Market",
+            "Food",
+            "Culture",
+            "Shopping"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:TasTrip_(66)_Salamanca_market_2012.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TasTrip_%2866%29_Salamanca_market_2012.jpg/960px-TasTrip_%2866%29_Salamanca_market_2012.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "TasTrip (66) Salamanca market 2012",
+                  "author": "Owen Allen",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:TasTrip_(66)_Salamanca_market_2012.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Salamanca markets in nipaluna / Hobart"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Mount Wellington (kunanyi)",
+          "ai_summary": "Mount Wellington, also known as kunanyi, is a prominent peak near Hobart, offering panoramic views of the city and surrounding landscapes. It's a popular spot for hiking and sightseeing.",
+          "name_english": "Mount Wellington (kunanyi)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Drive or hike to the summit for breathtaking views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -42.8728,
+            "longitude": 147.3289
+          },
+          "address": "Mount Wellington, Tasmania, Australia",
+          "official_website": "https://www.parks.tas.gov.au/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Photography",
+            "Sightseeing"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Mount_Wellington.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Mount_Wellington.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Mount Wellington",
+                  "author": "tubagooba",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mount_Wellington.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Mount Wellington from Lindisfarne, Hobart"
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Bay of Fires",
+          "ai_summary": "The Bay of Fires is a coastal area in Tasmania, known for its white sandy beaches, clear blue waters, and striking orange lichen-covered rocks. It's a great spot for swimming, snorkeling, and relaxing.",
+          "name_english": "Bay of Fires",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "17:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Explore the walking trails for stunning coastal views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -41.0714,
+            "longitude": 148.2782
+          },
+          "address": "Bay of Fires, Tasmania, Australia",
+          "official_website": "https://www.parks.tas.gov.au/",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Photography",
+            "Relaxation"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bay_of_Fires-15.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Bay_of_Fires-15.jpg/960px-Bay_of_Fires-15.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bay of Fires-15",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bay_of_Fires-15.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Bay of Fires, Tasmania, Australia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Bruny Island",
+          "ai_summary": "Bruny Island is a picturesque island located off the southeast coast of Tasmania, known for its stunning landscapes, wildlife, and gourmet food. It's a popular destination for a day trip from Hobart.",
+          "name_english": "Bruny Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "07:00-17:00",
+            "Tuesday": "07:00-17:00",
+            "Wednesday": "07:00-17:00",
+            "Thursday": "07:00-17:00",
+            "Friday": "07:00-17:00",
+            "Saturday": "07:00-17:00",
+            "Sunday": "07:00-17:00",
+            "notes": "Hours may vary seasonally."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the Bruny Island Cheese Co. for local cheese and produce.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -43.3509,
+            "longitude": 147.1734
+          },
+          "address": "Bruny Island, Tasmania, Australia",
+          "official_website": "https://www.brunyisland.com.au/",
+          "tags": [
+            "Island",
+            "Nature",
+            "Wildlife",
+            "Food"
+          ],
+          "state": "Tasmania",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Tasman National Park",
+          "ai_summary": "Tasman National Park is known for its dramatic coastal cliffs, secluded beaches, and rich wildlife. The park offers a range of walking tracks and is a great place for birdwatching.",
+          "name_english": "Tasman National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "17:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Hours may vary seasonally."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Take the Three Capes Track for stunning views of the coastline.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -43.1575,
+            "longitude": 148.2719
+          },
+          "address": "Tasman National Park, Tasmania, Australia",
+          "official_website": "https://www.parks.tas.gov.au/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Fortesque_Bay_Sunrise.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Fortesque_Bay_Sunrise.jpg/960px-Fortesque_Bay_Sunrise.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Fortesque Bay Sunrise",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:JJ_Harrison\" title=\"User:JJ Harrison\">JJ Harrison</a> (<a rel=\"nofollow\" class=\"external free\" href=\"https://www.jjharrison.com.au/\">https://www.jjharrison.com.au/</a>)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Fortesque_Bay_Sunrise.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Fortesque Bay, Sunrise, Tasman Peninsula, Tasmania, Australia."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Cataract Gorge Reserve",
+          "ai_summary": "Cataract Gorge Reserve is a beautiful natural reserve located near Launceston, featuring stunning gorge views, walking trails, and a swimming pool. It's a great spot for a day trip and picnicking.",
+          "name_english": "Cataract Gorge Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Autumn",
+          "place_tip": "Take the chairlift for a unique view of the gorge.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -41.4391,
+            "longitude": 147.1482
+          },
+          "address": "Cataract Gorge Reserve, Launceston TAS 7250, Australia",
+          "official_website": "https://www.launcestongorgetours.com.au/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Photography",
+            "Sightseeing"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Alexandra_Suspension_bridge_-_launceston_tasmania.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Alexandra_Suspension_bridge_-_launceston_tasmania.jpg/960px-Alexandra_Suspension_bridge_-_launceston_tasmania.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Alexandra Suspension bridge - launceston tasmania",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Peripitus\" title=\"User:Peripitus\">Peripitus</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Alexandra_Suspension_bridge_-_launceston_tasmania.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "First Basin and the Alexandra Suspension bridge, Cateract Gorge, Launceston, Tasmania"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Maria Island National Park",
+          "ai_summary": "Maria Island National Park is a beautiful and remote island park, known for its stunning beaches, wildlife, and historic ruins. It's a great place for hiking, camping, and exploring.",
+          "name_english": "Maria Island National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "17:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Hours may vary seasonally."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Explore the Painted Cliffs for a unique geological formation.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -42.6056,
+            "longitude": 148.0731
+          },
+          "address": "Maria Island, Tasmania, Australia",
+          "official_website": "https://www.parks.tas.gov.au/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Tasmania",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Bonorong Wildlife Sanctuary",
+          "ai_summary": "Bonorong Wildlife Sanctuary is a wildlife rescue and rehabilitation center, where visitors can see and learn about Tasmania's unique wildlife, including kangaroos, koalas, and Tasmanian devils.",
+          "name_english": "Bonorong Wildlife Sanctuary",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Join a guided tour to learn about the wildlife rescue efforts.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -42.7594,
+            "longitude": 147.2674
+          },
+          "address": "593 Briggs Rd, Brighton TAS 7030, Australia",
+          "official_website": "https://www.bonorongsanctuary.org.au/",
+          "tags": [
+            "Wildlife",
+            "Nature",
+            "Education",
+            "Photography"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Dasyurus_maculatus_-_Bonorong.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Dasyurus_maculatus_-_Bonorong.jpg/960px-Dasyurus_maculatus_-_Bonorong.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Dasyurus maculatus - Bonorong",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:JJ_Harrison\" title=\"User:JJ Harrison\">JJ Harrison</a> (<a rel=\"nofollow\" class=\"external free\" href=\"https://www.jjharrison.com.au/\">https://www.jjharrison.com.au/</a>)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Dasyurus_maculatus_-_Bonorong.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Spotted-tail Quoll (<i>Dasyurus maculatus</i>), Bonorong Wildlife Park, Tasmania Australia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Royal Tasmanian Botanical Gardens",
+          "ai_summary": "The Royal Tasmanian Botanical Gardens is a beautiful and historic botanical garden, featuring a diverse collection of plants from Tasmania and around the world. It's a great place for a leisurely stroll and enjoying nature.",
+          "name_english": "Royal Tasmanian Botanical Gardens",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "07:30-17:00",
+            "Tuesday": "07:30-17:00",
+            "Wednesday": "07:30-17:00",
+            "Thursday": "07:30-17:00",
+            "Friday": "07:30-17:00",
+            "Saturday": "07:30-17:00",
+            "Sunday": "07:30-17:00",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Don't miss the Subantarctic Plant House.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -42.8828,
+            "longitude": 147.3272
+          },
+          "address": "Queens Domain, Hobart TAS 7000, Australia",
+          "official_website": "https://www.rbg.tas.gov.au/",
+          "tags": [
+            "Botanical Garden",
+            "Nature",
+            "Photography",
+            "Education"
+          ],
+          "state": "Tasmania",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Gordon River Cruise",
+          "ai_summary": "The Gordon River Cruise is a scenic boat cruise in Tasmania, offering stunning views of the Gordon River, rainforests, and wildlife. It's a great way to experience the natural beauty of Tasmania.",
+          "name_english": "Gordon River Cruise",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Bring a jacket, it can be cool on the water.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -42.1977,
+            "longitude": 145.9608
+          },
+          "address": "Gordon River, Tasmania, Australia",
+          "official_website": "https://www.gordonrivercruise.com.au/",
+          "tags": [
+            "Cruise",
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Tasmania",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Mount Field National Park",
+          "ai_summary": "Mount Field National Park is known for its stunning natural beauty, including waterfalls, tall trees, and diverse wildlife. The park offers a range of walking tracks and is a great place for a day trip from Hobart.",
+          "name_english": "Mount Field National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Visit the Tall Trees Walk for a chance to see the world's tallest trees.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -42.5683,
+            "longitude": 146.8342
+          },
+          "address": "Mount Field National Park, Tasmania, Australia",
+          "official_website": "https://www.parks.tas.gov.au/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Russell_Falls_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Russell_Falls_2.jpg/960px-Russell_Falls_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Russell Falls 2",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Noodle_snacks\" class=\"mw-redirect\" title=\"User:Noodle snacks\">Noodle snacks</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Russell_Falls_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Russell Falls, Mt Field National Park, Tasmania, Australia."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "The Nut (Stanley)",
+          "ai_summary": "The Nut is a flat-topped hill located in Stanley, Tasmania, offering stunning views of the surrounding area. It's a popular spot for hiking and photography.",
+          "name_english": "The Nut (Stanley)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Take the chairlift or hike to the top for stunning views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -40.7161,
+            "longitude": 145.284
+          },
+          "address": "The Nut, Stanley TAS 7331, Australia",
+          "official_website": "https://www.discovertasmania.com.au/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Photography",
+            "Sightseeing"
+          ],
+          "state": "Tasmania",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Franklin-Gordon Wild Rivers National Park",
+          "ai_summary": "Franklin-Gordon Wild Rivers National Park is a remote and rugged wilderness area in Tasmania, known for its stunning river gorges, waterfalls, and diverse wildlife. It's a great place for experienced hikers and nature enthusiasts.",
+          "name_english": "Franklin-Gordon Wild Rivers National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "17:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit the Gordon River for a chance to see the rare orange-bellied parrot.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -42.1634,
+            "longitude": 145.9737
+          },
+          "address": "Franklin-Gordon Wild Rivers National Park, Tasmania, Australia",
+          "official_website": "https://www.parks.tas.gov.au/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Nelson_Falls.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Nelson_Falls.jpg/960px-Nelson_Falls.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Nelson Falls",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:JJ_Harrison\" title=\"User:JJ Harrison\">JJ Harrison</a> (<a rel=\"nofollow\" class=\"external free\" href=\"https://www.jjharrison.com.au/\">https://www.jjharrison.com.au/</a>)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Nelson_Falls.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Nelson Falls, <a href=\"https://en.wikipedia.org/wiki/Franklin-Gordon_Wild_Rivers_National_Park\" class=\"extiw\" title=\"w:Franklin-Gordon Wild Rivers National Park\">w:Franklin-Gordon Wild Rivers National Park</a>, Tasmania, Australia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Hastings Caves State Reserve",
+          "ai_summary": "Hastings Caves State Reserve is known for its stunning limestone caves and beautiful natural surroundings. The reserve offers guided tours of the caves and has picnic facilities.",
+          "name_english": "Hastings Caves State Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Wear comfortable shoes for the cave tour.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -43.1731,
+            "longitude": 146.826
+          },
+          "address": "Hastings Caves Rd, Hastings TAS 7109, Australia",
+          "official_website": "https://www.parks.tas.gov.au/",
+          "tags": [
+            "Nature",
+            "Caves",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Newdegate_cave-Tasmania-Australia13.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Newdegate_cave-Tasmania-Australia13.JPG/960px-Newdegate_cave-Tasmania-Australia13.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Newdegate cave-Tasmania-Australia13",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Newdegate_cave-Tasmania-Australia13.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Newdegate cave, Tasmania, Australia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Richmond Bridge",
+          "ai_summary": "Richmond Bridge is a historic sandstone arch bridge located in Richmond, Tasmania. It's the oldest bridge still in use in Australia and is a popular spot for photography and picnicking.",
+          "name_english": "Richmond Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "17:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the nearby historic village of Richmond.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -42.7133,
+            "longitude": 147.5344
+          },
+          "address": "Richmond Bridge, Richmond TAS 7025, Australia",
+          "official_website": "https://www.richmondvillage.com.au/",
+          "tags": [
+            "History",
+            "Photography",
+            "Sightseeing",
+            "Relaxation"
+          ],
+          "state": "Tasmania",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Richmond–San_Rafael_Bridge_as_seen_from_Mt_Tamalpais.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Richmond%E2%80%93San_Rafael_Bridge_as_seen_from_Mt_Tamalpais.JPG/960px-Richmond%E2%80%93San_Rafael_Bridge_as_seen_from_Mt_Tamalpais.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Richmond–San Rafael Bridge as seen from Mt Tamalpais",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:BDS2006\" title=\"User:BDS2006\">Basil D Soufi</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Richmond%E2%80%93San_Rafael_Bridge_as_seen_from_Mt_Tamalpais.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Marin County, CA, USA"
+                }
+              }
+            }
+          },
+          "rank_score": 0.77
+        }
+      ]
+    }
+  ]
+}

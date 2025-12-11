@@ -1,0 +1,907 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Vatnajökull Glacier",
+          "ai_summary": "Europe's largest glacier, offering breathtaking ice caves, glacier hikes, and stunning views of the surrounding landscapes.",
+          "name_english": "Vatnajökull Glacier",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:30",
+          "sunset_time": "16:00",
+          "cost": "$100",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "09:00-18:00",
+            "tue": "09:00-18:00",
+            "wed": "09:00-18:00",
+            "thu": "09:00-18:00",
+            "fri": "09:00-18:00",
+            "sat": "09:00-18:00",
+            "sun": "09:00-18:00",
+            "notes": "Guided tours available during winter months."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Book a guided tour to explore the ice caves safely.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "lat": 64.326,
+            "lng": -16.051
+          },
+          "address": "Vatnajökull, Southeast Iceland",
+          "official_website": "https://www.vatnajokull.is/",
+          "tags": [
+            "Glacier",
+            "Nature",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Skaftafell Nature Reserve",
+          "ai_summary": "A stunning nature reserve within Vatnajökull National Park, featuring glacier tongues, waterfalls, and hiking trails.",
+          "name_english": "Skaftafell Nature Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:35",
+          "sunset_time": "16:05",
+          "cost": "$10",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Visitor center hours may vary."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Hike to Svartifoss waterfall for a unique basalt column formation.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.017,
+            "lng": -16.975
+          },
+          "address": "Skaftafell, Southeast Iceland",
+          "official_website": "https://www.vatnajokulsthjodgardur.is/",
+          "tags": [
+            "Nature Reserve",
+            "Hiking",
+            "Waterfall"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1 Skaftafell Vatnajökull national park aerial pano.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/1_Skaftafell_Vatnaj%C3%B6kull_national_park_aerial_pano.jpg/960px-1_Skaftafell_Vatnaj%C3%B6kull_national_park_aerial_pano.jpg",
+                "width": 800,
+                "height": 203,
+                "attribution": {
+                  "title": "1 Skaftafell Vatnajökull national park aerial pano",
+                  "author": "Chensiyuan",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1_Skaftafell_Vatnajökull_national_park_aerial_pano.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "aerial pano Skaftafell Vatnajökull national park iceland 2017"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Diamond Beach",
+          "ai_summary": "A black sand beach where icebergs from Jökulsárlón Glacier Lagoon wash ashore, creating a dazzling display of ice and sand.",
+          "name_english": "Diamond Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:40",
+          "sunset_time": "16:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit during sunrise for the most stunning views of the icebergs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.048,
+            "lng": -16.178
+          },
+          "address": "Diamond Beach, Southeast Iceland",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:IcelandStub.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/IcelandStub.svg/800px-IcelandStub.svg.png",
+                "width": 800,
+                "height": 550,
+                "attribution": {
+                  "title": "IcelandStub",
+                  "author": "PavelD",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:IcelandStub.svg",
+                  "credit": "Map shape is from Image:Iceland blue.png, colors and dimensions are from Image:Flag of Iceland.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Map of Iceland with flag."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Höfn",
+          "ai_summary": "A charming fishing town known for its lobster dishes, stunning views of Vatnajökull, and vibrant harbor life.",
+          "name_english": "Hofn",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:45",
+          "sunset_time": "16:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try the local lobster soup at one of the harbor restaurants.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.253,
+            "lng": -15.208
+          },
+          "address": "Höfn, Southeast Iceland",
+          "official_website": null,
+          "tags": [
+            "Town",
+            "Cuisine",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Fjallsárlón Glacier Lagoon",
+          "ai_summary": "A serene glacier lagoon offering boat tours and close-up views of the Fjallsjökull glacier tongue.",
+          "name_english": "Fjallsarlon Glacier Lagoon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:50",
+          "sunset_time": "16:20",
+          "cost": "$40",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "09:00-18:00",
+            "tue": "09:00-18:00",
+            "wed": "09:00-18:00",
+            "thu": "09:00-18:00",
+            "fri": "09:00-18:00",
+            "sat": "09:00-18:00",
+            "sun": "09:00-18:00",
+            "notes": "Boat tours available during summer months."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take a boat tour for the best views of the glacier.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 64.016,
+            "lng": -16.371
+          },
+          "address": "Fjallsárlón, Southeast Iceland",
+          "official_website": "https://www.fjallsarlon.is/",
+          "tags": [
+            "Glacier",
+            "Nature",
+            "Boat Tour"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Fjallsárlón Iceland 2016 06.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Fjalls%C3%A1rl%C3%B3n_Iceland_2016_06.jpg/960px-Fjalls%C3%A1rl%C3%B3n_Iceland_2016_06.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Fjallsárlón Iceland 2016 06",
+                  "author": "Unukorno",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Fjallsárlón_Iceland_2016_06.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Fjallsárlón, glacier lake in Iceland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Jökulsárlón Glacier Lagoon",
+          "ai_summary": "A famous glacier lagoon filled with floating icebergs, offering boat tours and stunning views of the Vatnajökull glacier.",
+          "name_english": "Jökulsárlón Glacier Lagoon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:55",
+          "sunset_time": "16:25",
+          "cost": "$50",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "09:00-18:00",
+            "tue": "09:00-18:00",
+            "wed": "09:00-18:00",
+            "thu": "09:00-18:00",
+            "fri": "09:00-18:00",
+            "sat": "09:00-18:00",
+            "sun": "09:00-18:00",
+            "notes": "Boat tours available year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don't miss the nearby Diamond Beach for stunning iceberg views.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 64.048,
+            "lng": -16.178
+          },
+          "address": "Jökulsárlón, Southeast Iceland",
+          "official_website": "https://www.jokulsarlon.is/",
+          "tags": [
+            "Glacier",
+            "Nature",
+            "Boat Tour"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:IcelandStub.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/IcelandStub.svg/800px-IcelandStub.svg.png",
+                "width": 800,
+                "height": 550,
+                "attribution": {
+                  "title": "IcelandStub",
+                  "author": "PavelD",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:IcelandStub.svg",
+                  "credit": "Map shape is from Image:Iceland blue.png, colors and dimensions are from Image:Flag of Iceland.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Map of Iceland with flag."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Svartifoss Waterfall",
+          "ai_summary": "A stunning waterfall in Skaftafell National Park, known for its unique basalt column formations.",
+          "name_english": "Svartifoss Waterfall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:00",
+          "sunset_time": "16:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best viewed from the designated lookout points."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Combine your visit with a hike in Skaftafell National Park.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.017,
+            "lng": -16.975
+          },
+          "address": "Svartifoss, Southeast Iceland",
+          "official_website": null,
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Hofskirkja Turf Church",
+          "ai_summary": "A picturesque turf church in Hofn, showcasing traditional Icelandic architecture and beautiful surrounding landscapes.",
+          "name_english": "Hofskirkja Turf Church",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:05",
+          "sunset_time": "16:35",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best viewed from the outside; interior access may be limited."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Respect the privacy of the local community; view the church from a distance.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.253,
+            "lng": -15.208
+          },
+          "address": "Hofskirkja, Southeast Iceland",
+          "official_website": null,
+          "tags": [
+            "Church",
+            "Architecture",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Vestrahorn Mountain",
+          "ai_summary": "A dramatic mountain on the Stokksnes Peninsula, offering stunning views, hiking opportunities, and a black sand beach.",
+          "name_english": "Vestrahorn Mountain",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:10",
+          "sunset_time": "16:40",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best viewed during sunrise or sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the nearby black sand beach for unique photographic opportunities.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.245,
+            "lng": -14.973
+          },
+          "address": "Vestrahorn, Southeast Iceland",
+          "official_website": null,
+          "tags": [
+            "Mountain",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Coast Guard of Iceland.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Coast_Guard_of_Iceland.svg/800px-Coast_Guard_of_Iceland.svg.png",
+                "width": 800,
+                "height": 973,
+                "attribution": {
+                  "title": "Coast Guard of Iceland",
+                  "author": "Landhelgisgæsla Íslands",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Coast_Guard_of_Iceland.svg",
+                  "credit": "Landhelgisgæsla Íslands",
+                  "usage_terms": "Public domain",
+                  "description": "Logo of the Coast Guard of Iceland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Stokksnes Peninsula",
+          "ai_summary": "A scenic peninsula with dramatic landscapes, including mountains, black sand beaches, and rich birdlife.",
+          "name_english": "Stokksnes Peninsula",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:15",
+          "sunset_time": "16:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best explored by car or on foot."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Bring binoculars for birdwatching and a camera for the stunning landscapes.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.245,
+            "lng": -14.973
+          },
+          "address": "Stokksnes, Southeast Iceland",
+          "official_website": null,
+          "tags": [
+            "Peninsula",
+            "Nature",
+            "Birdwatching"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:IcelandStub.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/IcelandStub.svg/800px-IcelandStub.svg.png",
+                "width": 800,
+                "height": 550,
+                "attribution": {
+                  "title": "IcelandStub",
+                  "author": "PavelD",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:IcelandStub.svg",
+                  "credit": "Map shape is from Image:Iceland blue.png, colors and dimensions are from Image:Flag of Iceland.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Map of Iceland with flag."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Hoffell Hot Springs",
+          "ai_summary": "Natural hot springs located in a scenic area, perfect for relaxation after a day of exploring.",
+          "name_english": "Hoffell Hot Springs",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:20",
+          "sunset_time": "16:50",
+          "cost": "$15",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "10:00-22:00",
+            "tue": "10:00-22:00",
+            "wed": "10:00-22:00",
+            "thu": "10:00-22:00",
+            "fri": "10:00-22:00",
+            "sat": "10:00-22:00",
+            "sun": "10:00-22:00",
+            "notes": "Bring your own towel and swimsuit."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit during sunset for a magical experience in the hot springs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.253,
+            "lng": -15.208
+          },
+          "address": "Hoffell, Southeast Iceland",
+          "official_website": null,
+          "tags": [
+            "Hot Springs",
+            "Relaxation",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Iceland.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/960px-Flag_of_Iceland.svg.png",
+                "width": 800,
+                "height": 576,
+                "attribution": {
+                  "title": "Flag of Iceland",
+                  "author": "Árni Dagur, and Magasjukur2",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland.svg",
+                  "credit": "Construction sheet:",
+                  "usage_terms": "Public domain",
+                  "description": "The Flag of Iceland.\nHorizontal aspect ratio: 7:1:2:1:14;\nVertical aspect ratio: 7:1:2:1:7."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Nes Handicraft Market",
+          "ai_summary": "A local handicraft market in Höfn, offering a variety of handmade goods, souvenirs, and local delicacies.",
+          "name_english": "Nes Handicraft Market",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:25",
+          "sunset_time": "16:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "10:00-18:00",
+            "tue": "10:00-18:00",
+            "wed": "10:00-18:00",
+            "thu": "10:00-18:00",
+            "fri": "10:00-18:00",
+            "sat": "10:00-18:00",
+            "sun": "10:00-18:00",
+            "notes": "Closed on Sundays during winter."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Look for unique Icelandic wool products and local art.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.253,
+            "lng": -15.208
+          },
+          "address": "Nes, Höfn, Southeast Iceland",
+          "official_website": null,
+          "tags": [
+            "Market",
+            "Shopping",
+            "Local Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Icelandic Horse Riding",
+          "ai_summary": "Experience riding the unique Icelandic horse in its natural environment, suitable for all skill levels.",
+          "name_english": "Icelandic Horse Riding",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:30",
+          "sunset_time": "17:00",
+          "cost": "$80",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "09:00-18:00",
+            "tue": "09:00-18:00",
+            "wed": "09:00-18:00",
+            "thu": "09:00-18:00",
+            "fri": "09:00-18:00",
+            "sat": "09:00-18:00",
+            "sun": "09:00-18:00",
+            "notes": "Advance booking is essential."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Wear comfortable clothes and shoes; all riding gear is provided.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "lat": 64.253,
+            "lng": -15.208
+          },
+          "address": "Höfn, Southeast Iceland",
+          "official_website": null,
+          "tags": [
+            "Horse Riding",
+            "Adventure",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Vatnajökull Photography Tours",
+          "ai_summary": "Join a photography tour to capture the stunning landscapes, glaciers, and waterfalls of the Vatnajökull region.",
+          "name_english": "Vatnajökull Photography Tours",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:35",
+          "sunset_time": "17:05",
+          "cost": "$120",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "09:00-18:00",
+            "tue": "09:00-18:00",
+            "wed": "09:00-18:00",
+            "thu": "09:00-18:00",
+            "fri": "09:00-18:00",
+            "sat": "09:00-18:00",
+            "sun": "09:00-18:00",
+            "notes": "Private and group tours available."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Bring your own camera or rent one from the tour provider.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 64.253,
+            "lng": -15.208
+          },
+          "address": "Höfn, Southeast Iceland",
+          "official_website": null,
+          "tags": [
+            "Photography",
+            "Tour",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Iceland.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/960px-Flag_of_Iceland.svg.png",
+                "width": 800,
+                "height": 576,
+                "attribution": {
+                  "title": "Flag of Iceland",
+                  "author": "Árni Dagur, and Magasjukur2",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland.svg",
+                  "credit": "Construction sheet:",
+                  "usage_terms": "Public domain",
+                  "description": "The Flag of Iceland.\nHorizontal aspect ratio: 7:1:2:1:14;\nVertical aspect ratio: 7:1:2:1:7."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ice Cave Photography Expeditions",
+          "ai_summary": "Specialized tours offering the chance to photograph the stunning ice caves within the Vatnajökull glacier.",
+          "name_english": "Ice Cave Photography Expeditions",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "09:40",
+          "sunset_time": "17:10",
+          "cost": "$150",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "09:00-18:00",
+            "tue": "09:00-18:00",
+            "wed": "09:00-18:00",
+            "thu": "09:00-18:00",
+            "fri": "09:00-18:00",
+            "sat": "09:00-18:00",
+            "sun": "09:00-18:00",
+            "notes": "Limited availability; book well in advance."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Dress warmly and be prepared for variable weather conditions.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "lat": 64.253,
+            "lng": -15.208
+          },
+          "address": "Höfn, Southeast Iceland",
+          "official_website": null,
+          "tags": [
+            "Photography",
+            "Ice Cave",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Iceland.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/960px-Flag_of_Iceland.svg.png",
+                "width": 800,
+                "height": 576,
+                "attribution": {
+                  "title": "Flag of Iceland",
+                  "author": "Árni Dagur, and Magasjukur2",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland.svg",
+                  "credit": "Construction sheet:",
+                  "usage_terms": "Public domain",
+                  "description": "The Flag of Iceland.\nHorizontal aspect ratio: 7:1:2:1:14;\nVertical aspect ratio: 7:1:2:1:7."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Sunset at Vestrahorn Mountains",
+          "ai_summary": "Experience the breathtaking views of the Vestrahorn Mountains during sunset, a photographer's paradise.",
+          "name_english": "Sunset at Vestrahorn Mountains",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "17:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best viewed from the designated lookout points."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Arrive early to secure a good spot for photography.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.245,
+            "lng": -14.973
+          },
+          "address": "Vestrahorn, Southeast Iceland",
+          "official_website": null,
+          "tags": [
+            "Mountain",
+            "Sunset",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:IcelandStub.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/IcelandStub.svg/800px-IcelandStub.svg.png",
+                "width": 800,
+                "height": 550,
+                "attribution": {
+                  "title": "IcelandStub",
+                  "author": "PavelD",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:IcelandStub.svg",
+                  "credit": "Map shape is from Image:Iceland blue.png, colors and dimensions are from Image:Flag of Iceland.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Map of Iceland with flag."
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,16 +1,42 @@
 /**
  * Expense Management API Service
- * Connects frontend to the expense backend with multi-currency support
+ * Updated to use new /api/expense/* backend endpoints
+ * All endpoints follow REST conventions and return {success, ...data}
  */
 
 import GlobalConfig from '../config/globalConfig';
-import authService from '../firebase/authService';
 
 class ExpenseApiService {
   constructor() {
     this.baseUrl = `${GlobalConfig.API_BASE_URL}/expense`;
     this.authToken = null;
     this.currentUser = null;
+    // Phase 18.5: Request deduplication map
+    this.pendingRequests = new Map();
+  }
+
+  /**
+   * Phase 18.5: Deduplicate concurrent requests to the same endpoint
+   * Prevents multiple parallel requests for the same data
+   * @param {string} key - Unique key for the request (e.g., "getUserGroups:1:20")
+   * @param {Function} requestFn - Async function that makes the actual request
+   * @returns {Promise} - Shared promise for all callers
+   */
+  async deduplicateRequest(key, requestFn) {
+    // If request is already in flight, return the existing promise
+    if (this.pendingRequests.has(key)) {
+      console.log(`🔄 [API] Deduplicating request: ${key}`);
+      return this.pendingRequests.get(key);
+    }
+    
+    // Create new request and store the promise
+    const promise = requestFn().finally(() => {
+      // Remove from pending when complete (success or error)
+      this.pendingRequests.delete(key);
+    });
+    
+    this.pendingRequests.set(key, promise);
+    return promise;
   }
 
   /**
@@ -98,19 +124,12 @@ class ExpenseApiService {
   // =========================================================================
 
   /**
-   * Create or update user profile
+   * User creation is handled by the authentication system
+   * This is a no-op for backward compatibility
    */
   async createUser(userData) {
-    const response = await fetch(`${this.baseUrl}/user/profile`, {
-      method: 'POST',
-      headers: await this.getHeaders(),
-      body: JSON.stringify({
-        username: userData.email.split('@')[0], // Generate username from email
-        display_name: userData.displayName || '',
-        profile_picture: userData.photoURL || null
-      })
-    });
-    return this.handleResponse(response);
+    // Silently succeed - auth system handles user creation
+    return { success: true, message: 'User creation handled by auth system' };
   }
 
   /**
@@ -136,21 +155,19 @@ class ExpenseApiService {
   }
 
   /**
-   * Get user's groups
-   * @param {boolean} summaryMode - If true, returns minimal data (90% faster, 5 Firestore reads instead of 50+)
-   * @param {boolean} bypassCache - If true, force fresh data from backend
+   * Get user's groups - NEW API ENDPOINT
+   * GET /api/expense/user/groups
+   * Phase 18.5: Uses request deduplication to prevent parallel calls
    */
-  async getUserGroups(summaryMode = true, bypassCache = false) {
-    const mode = summaryMode ? 'summary' : 'full';
-    const url = bypassCache 
-      ? `${this.baseUrl}/groups?mode=${mode}&_t=${Date.now()}`
-      : `${this.baseUrl}/groups?mode=${mode}`;
-      
-    const response = await fetch(url, {
-      headers: await this.getHeaders(),
-      cache: 'no-store'
+  async getUserGroups(page = 1, limit = 20) {
+    const key = `getUserGroups:${page}:${limit}`;
+    return this.deduplicateRequest(key, async () => {
+      const response = await fetch(`${this.baseUrl}/user/groups?page=${page}&limit=${limit}`, {
+        headers: await this.getHeaders(),
+        cache: 'no-store'
+      });
+      return this.handleResponse(response);
     });
-    return this.handleResponse(response);
   }
 
   /**
@@ -326,23 +343,30 @@ class ExpenseApiService {
   }
 
   /**
-   * Get pending invitations for current user (homepage list)
+   * Get pending invitations for current user - NEW API ENDPOINT
+   * GET /api/expense/invitations/user
    */
-  async getPendingInvitations() {
-    const response = await fetch(`${this.baseUrl}/invitations`, {
+  async getPendingInvitations(status = 'pending', page = 1, limit = 20) {
+    const response = await fetch(`${this.baseUrl}/invitations/user?status=${status}&page=${page}&limit=${limit}`, {
       headers: await this.getHeaders()
     });
     return this.handleResponse(response);
   }
 
   /**
-   * Get pending invitations for a group
+   * Get invitations for a group
+   * @param {string} groupId - Group ID
+   * @param {boolean} includeAll - If true, include declined and accepted invitations
+   * @param {number} timestamp - Optional timestamp to bypass cache
    */
-  async getGroupInvitations(groupId, timestamp = null) {
-    // Add timestamp parameter to bypass cache
-    const url = timestamp 
-      ? `${this.baseUrl}/invitations/group/${groupId}?_t=${timestamp}`
-      : `${this.baseUrl}/invitations/group/${groupId}`;
+  async getGroupInvitations(groupId, includeAll = true, timestamp = null) {
+    const params = new URLSearchParams();
+    // Include all invitations by default so owner can see declined ones
+    params.append('include_all', includeAll.toString());
+    if (timestamp) {
+      params.append('_t', timestamp);
+    }
+    const url = `${this.baseUrl}/invitations/group/${groupId}?${params.toString()}`;
     const response = await fetch(url, {
       headers: await this.getHeaders()
     });
@@ -414,20 +438,12 @@ class ExpenseApiService {
   }
 
   /**
-   * Get user expenses (for current authenticated user)
-   * @param {Object} params - Query parameters
-   * @param {boolean} params.personal_only - If true, return only personal expenses (no group expenses)
+   * Get user expenses (backward compatibility)
+   * Returns empty array - use getGroupExpenses() for actual data
    */
   async getUserExpenses(params = {}) {
-    const queryParams = new URLSearchParams(params).toString();
-    const url = queryParams 
-      ? `${this.baseUrl}/expenses/user?${queryParams}`
-      : `${this.baseUrl}/expenses/user`;
-    
-    const response = await fetch(url, {
-      headers: await this.getHeaders()
-    });
-    return this.handleResponse(response);
+    // Return empty for backward compatibility
+    return { success: true, expenses: [], data: [] };
   }
 
   /**
@@ -435,6 +451,29 @@ class ExpenseApiService {
    */
   async getExpenseSplits(expenseId) {
     const response = await fetch(`${this.baseUrl}/expenses/${expenseId}/splits`, {
+      headers: await this.getHeaders()
+    });
+    return this.handleResponse(response);
+  }
+
+  /**
+   * Get expense edit history (Phase 12)
+   * Returns list of changes made to an expense
+   */
+  async getExpenseHistory(expenseId) {
+    const response = await fetch(`${this.baseUrl}/expenses/${expenseId}/history`, {
+      headers: await this.getHeaders()
+    });
+    return this.handleResponse(response);
+  }
+
+  /**
+   * Get group audit log (Phase 12)
+   * Returns all expense changes in a group
+   */
+  async getGroupAuditLog(groupId, limit = 50, offset = 0) {
+    const params = new URLSearchParams({ limit, offset });
+    const response = await fetch(`${this.baseUrl}/groups/${groupId}/audit-log?${params}`, {
       headers: await this.getHeaders()
     });
     return this.handleResponse(response);
@@ -486,6 +525,13 @@ class ExpenseApiService {
       headers: await this.getHeaders()
     });
     return this.handleResponse(response);
+  }
+
+  /**
+   * Get settlements for a group (alias for getGroupSettlements)
+   */
+  async getSettlements(groupId, status = null) {
+    return this.getGroupSettlements(groupId, status);
   }
 
   /**
@@ -602,6 +648,265 @@ class ExpenseApiService {
     const response = await fetch(`${this.baseUrl}/analytics/group/${groupId}/trends?period=${period}`, {
       headers: await this.getHeaders()
     });
+    return this.handleResponse(response);
+  }
+
+  // =========================================================================
+  // PHASE 16: ULTRA-UNIFIED API - Mega Bootstrap
+  // =========================================================================
+
+  /**
+   * Get EVERYTHING in one API call
+   * 
+   * Replaces multiple calls:
+   * - getUserGroups()
+   * - getPendingInvitations()
+   * - getGroupFull()
+   * - getGroupSettlements()
+   * 
+   * Performance:
+   * - Reduces 10+ API calls to 1
+   * - Cold cache: ~600-1000ms
+  /**
+   * 🚀 MEGA BOOTSTRAP - Single API call for all dashboard data
+   * Phase 18.5: Uses request deduplication to prevent parallel calls
+   * 
+   * @param {Object} options
+   * @param {string} options.activeGroupId - Include full data for this group
+   * @param {number} options.recentExpensesLimit - Max recent expenses (default 20)
+   * @param {boolean} options.bypassCache - Force fresh data
+   * @returns {Promise<Object>} Complete dashboard + group data
+   */
+  async getMegaBootstrap(options = {}) {
+    const key = `getMegaBootstrap:${options.activeGroupId || 'dashboard'}:${options.bypassCache || false}`;
+    
+    return this.deduplicateRequest(key, async () => {
+      const params = new URLSearchParams();
+      
+      if (options.activeGroupId) {
+        params.append('active_group_id', options.activeGroupId);
+      }
+      if (options.recentExpensesLimit) {
+        params.append('recent_expenses_limit', options.recentExpensesLimit);
+      }
+      if (options.bypassCache) {
+        params.append('bypass_cache', 'true');
+      }
+      
+      const url = `${this.baseUrl}/mega-bootstrap?${params.toString()}`;
+      const response = await fetch(url, {
+        headers: await this.getHeaders(),
+        cache: 'no-store'
+      });
+      return this.handleResponse(response);
+    });
+  }
+
+  // =========================================================================
+  // PHASE 21: EXTREME API - 10 Total Operations Mode
+  // =========================================================================
+  
+  /**
+   * Extreme API Mode Flag
+   * When true, mutations use /api/expense/extreme/* endpoints
+   * which achieve 0 Firestore reads per operation (cache-only)
+   */
+  extremeMode = true;
+  
+  /**
+   * Get extreme API base URL
+   */
+  get extremeUrl() {
+    return `${GlobalConfig.API_BASE_URL}/expense/extreme`;
+  }
+  
+  /**
+   * Enable/disable extreme mode
+   */
+  setExtremeMode(enabled) {
+    this.extremeMode = enabled;
+    console.log(`🚀 Extreme API mode: ${enabled ? 'ENABLED' : 'DISABLED'}`);
+  }
+  
+  /**
+   * Get extreme dashboard - THE ONLY READ OPERATION NEEDED
+   * Returns all groups, balances, recent expenses, invitations
+   * 
+   * @param {boolean} forceRefresh - Force refresh from Firestore (bypass cache)
+   * @returns {Promise<Object>} Complete user dashboard
+   */
+  async getExtremeDashboard(forceRefresh = false) {
+    const params = forceRefresh ? '?force_refresh=true' : '';
+    const response = await fetch(`${this.extremeUrl}/dashboard${params}`, {
+      headers: await this.getHeaders()
+    });
+    return this.handleResponse(response);
+  }
+  
+  // ---------------------------------------------------------------------------
+  // EXTREME GROUP OPERATIONS - 0 reads, 1 write each
+  // ---------------------------------------------------------------------------
+  
+  /**
+   * Create group via extreme API (0 reads, 1 batch write)
+   */
+  async createGroupExtreme(groupData) {
+    const response = await fetch(`${this.extremeUrl}/groups`, {
+      method: 'POST',
+      headers: await this.getHeaders(),
+      body: JSON.stringify(groupData)
+    });
+    return this.handleResponse(response);
+  }
+  
+  /**
+   * Add member to group via extreme API (0 reads, 1 batch write)
+   */
+  async addMemberExtreme(groupId, memberData) {
+    const response = await fetch(`${this.extremeUrl}/groups/${groupId}/members`, {
+      method: 'POST',
+      headers: await this.getHeaders(),
+      body: JSON.stringify(memberData)
+    });
+    return this.handleResponse(response);
+  }
+  
+  /**
+   * Remove member from group via extreme API (0 reads, 1 batch write)
+   */
+  async removeMemberExtreme(groupId, memberId) {
+    const response = await fetch(`${this.extremeUrl}/groups/${groupId}/members/${memberId}`, {
+      method: 'DELETE',
+      headers: await this.getHeaders()
+    });
+    return this.handleResponse(response);
+  }
+  
+  /**
+   * Update group via extreme API (0 reads, 1 batch write)
+   */
+  async updateGroupExtreme(groupId, updates) {
+    const response = await fetch(`${this.extremeUrl}/groups/${groupId}`, {
+      method: 'PUT',
+      headers: await this.getHeaders(),
+      body: JSON.stringify(updates)
+    });
+    return this.handleResponse(response);
+  }
+  
+  // ---------------------------------------------------------------------------
+  // EXTREME EXPENSE OPERATIONS - 0 reads, 1 write each
+  // ---------------------------------------------------------------------------
+  
+  /**
+   * Create expense via extreme API (0 reads, 1 batch write)
+   */
+  async createExpenseExtreme(expenseData) {
+    const response = await fetch(`${this.extremeUrl}/expenses`, {
+      method: 'POST',
+      headers: await this.getHeaders(),
+      body: JSON.stringify(expenseData)
+    });
+    return this.handleResponse(response);
+  }
+  
+  /**
+   * Update expense via extreme API (0 reads, 1 batch write)
+   */
+  async updateExpenseExtreme(expenseId, updates) {
+    const response = await fetch(`${this.extremeUrl}/expenses/${expenseId}`, {
+      method: 'PUT',
+      headers: await this.getHeaders(),
+      body: JSON.stringify(updates)
+    });
+    return this.handleResponse(response);
+  }
+  
+  /**
+   * Delete expense via extreme API (0 reads, 1 batch write)
+   */
+  async deleteExpenseExtreme(expenseId, groupId) {
+    const response = await fetch(`${this.extremeUrl}/expenses/${expenseId}?group_id=${groupId}`, {
+      method: 'DELETE',
+      headers: await this.getHeaders()
+    });
+    return this.handleResponse(response);
+  }
+  
+  // ---------------------------------------------------------------------------
+  // EXTREME SETTLEMENT OPERATIONS - 0 reads, 1 write each
+  // ---------------------------------------------------------------------------
+  
+  /**
+   * Create settlement via extreme API (0 reads, 1 batch write)
+   */
+  async createSettlementExtreme(settlementData) {
+    const response = await fetch(`${this.extremeUrl}/settlements`, {
+      method: 'POST',
+      headers: await this.getHeaders(),
+      body: JSON.stringify(settlementData)
+    });
+    return this.handleResponse(response);
+  }
+  
+  /**
+   * Delete settlement via extreme API (0 reads, 1 batch write)
+   */
+  async deleteSettlementExtreme(settlementId, groupId) {
+    const response = await fetch(`${this.extremeUrl}/settlements/${settlementId}?group_id=${groupId}`, {
+      method: 'DELETE',
+      headers: await this.getHeaders()
+    });
+    return this.handleResponse(response);
+  }
+  
+  // ---------------------------------------------------------------------------
+  // EXTREME INVITATION OPERATIONS - 0 reads, 1 write each
+  // ---------------------------------------------------------------------------
+  
+  /**
+   * Accept invitation via extreme API (0 reads, 1 batch write)
+   */
+  async acceptInvitationExtreme(invitationId) {
+    const response = await fetch(`${this.extremeUrl}/invitations/${invitationId}/accept`, {
+      method: 'POST',
+      headers: await this.getHeaders()
+    });
+    return this.handleResponse(response);
+  }
+  
+  /**
+   * Decline invitation via extreme API (0 reads, 1 batch write)
+   */
+  async declineInvitationExtreme(invitationId) {
+    const response = await fetch(`${this.extremeUrl}/invitations/${invitationId}/decline`, {
+      method: 'POST',
+      headers: await this.getHeaders()
+    });
+    return this.handleResponse(response);
+  }
+  
+  // ---------------------------------------------------------------------------
+  // EXTREME UTILITY
+  // ---------------------------------------------------------------------------
+  
+  /**
+   * Force sync dashboard (1 read, 0 writes)
+   * Use this to refresh cache from Firestore
+   */
+  async syncDashboard() {
+    const response = await fetch(`${this.extremeUrl}/sync`, {
+      method: 'POST',
+      headers: await this.getHeaders()
+    });
+    return this.handleResponse(response);
+  }
+  
+  /**
+   * Check extreme API health
+   */
+  async extremeHealth() {
+    const response = await fetch(`${this.extremeUrl}/health`);
     return this.handleResponse(response);
   }
 }

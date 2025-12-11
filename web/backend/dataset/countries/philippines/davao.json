@@ -1,0 +1,966 @@
+{
+  "country": "Philippines",
+  "state": "Davao",
+  "cities": [
+    {
+      "city": "Davao City",
+      "nearest_airport": "Francisco Bangoy International Airport",
+      "places": [
+        {
+          "name": "Mount Apo",
+          "ai_summary": "The highest mountain in the Philippines, offering challenging hiking trails and stunning views of the surrounding landscapes.",
+          "name_english": "Mount Apo",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "5:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Permits are required for hiking."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Dry season",
+          "place_tip": "Hire a local guide for a safe and enjoyable hike.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 6.9894,
+            "longitude": 125.2708
+          },
+          "address": "Mount Apo, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Hiking"
+          ],
+          "state": "Davao",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Apo1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Apo1.jpg",
+                "width": 630,
+                "height": 315,
+                "attribution": {
+                  "title": "Apo1",
+                  "author": "User: (WT-shared) Eliselasco at  wts wikivoyage",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Apo1.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Mt. Apo terrain."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8075
+        },
+        {
+          "name": "Philippine Eagle Center",
+          "ai_summary": "A conservation center dedicated to the protection of the critically endangered Philippine Eagle, featuring educational tours and exhibits.",
+          "name_english": "Philippine Eagle Center",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Best visited during feeding times."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture the majestic eagles.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.1886,
+            "longitude": 125.4522
+          },
+          "address": "Philippine Eagle Center, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Wildlife",
+            "Conservation",
+            "Education"
+          ],
+          "state": "Davao",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Jihad.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Jihad.svg/960px-Flag_of_Jihad.svg.png",
+                "width": 800,
+                "height": 400,
+                "attribution": {
+                  "title": "Flag of Jihad",
+                  "author": "Unknown authorUnknown author",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Jihad.svg",
+                  "credit": "Unknown sourceUnknown source",
+                  "usage_terms": "Public domain",
+                  "description": "The Shahada written in white on a black background. The first known flag was the previous one seen behind Bin Laden in Khost during 1996 or 1998"
+                }
+              }
+            }
+          },
+          "rank_score": 0.783
+        },
+        {
+          "name": "Eden Nature Park",
+          "ai_summary": "A mountain resort and eco-park featuring a variety of flora and fauna, offering a cool climate and scenic views.",
+          "name_english": "Eden Nature Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:00 AM",
+          "sunset_time": "6:00 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "7:00 AM - 5:00 PM",
+            "Tuesday": "7:00 AM - 5:00 PM",
+            "Wednesday": "7:00 AM - 5:00 PM",
+            "Thursday": "7:00 AM - 5:00 PM",
+            "Friday": "7:00 AM - 5:00 PM",
+            "Saturday": "7:00 AM - 5:00 PM",
+            "Sunday": "7:00 AM - 5:00 PM",
+            "notes": "Best visited in the morning to enjoy the cool weather."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for walking.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Eden Nature Park, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Scenic Views"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.7464
+        },
+        {
+          "name": "Roxas Night Market",
+          "ai_summary": "A popular night market offering a wide variety of local street food, goods, and souvenirs.",
+          "name_english": "Roxas Night Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "10:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "6:00 PM - 10:00 PM",
+            "Tuesday": "6:00 PM - 10:00 PM",
+            "Wednesday": "6:00 PM - 10:00 PM",
+            "Thursday": "6:00 PM - 10:00 PM",
+            "Friday": "6:00 PM - 10:00 PM",
+            "Saturday": "6:00 PM - 10:00 PM",
+            "Sunday": "6:00 PM - 10:00 PM",
+            "notes": "Best visited in the evening for the full night market experience."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local delicacies and street food.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0655,
+            "longitude": 125.6125
+          },
+          "address": "Roxas Avenue, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Food",
+            "Shopping",
+            "Culture"
+          ],
+          "state": "Davao",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:046CupolaSPietro.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "046CupolaSPietro",
+                  "author": "MarkusMark",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Città del Vaticano - Cupola della Basilica di S. Pietro"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7835
+        },
+        {
+          "name": "People’s Park Davao",
+          "ai_summary": "A public park in the city center featuring gardens, sculptures, and a mini zoo, ideal for relaxation and leisure activities.",
+          "name_english": "People’s Park Davao",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "6:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Bring a picnic mat and enjoy the greenery.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0721,
+            "longitude": 125.6125
+          },
+          "address": "People’s Park, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Park",
+            "Relaxation",
+            "Culture"
+          ],
+          "state": "Davao",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.765
+        },
+        {
+          "name": "Jack’s Ridge Viewpoint",
+          "ai_summary": "A popular viewpoint and restaurant offering panoramic views of Davao City, especially beautiful at sunset.",
+          "name_english": "Jack’s Ridge Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "6:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "8:00 AM - 10:00 PM",
+            "Tuesday": "8:00 AM - 10:00 PM",
+            "Wednesday": "8:00 AM - 10:00 PM",
+            "Thursday": "8:00 AM - 10:00 PM",
+            "Friday": "8:00 AM - 10:00 PM",
+            "Saturday": "8:00 AM - 10:00 PM",
+            "Sunday": "8:00 AM - 10:00 PM",
+            "notes": "Best visited during sunset for the view."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Try the local dishes at the restaurant.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Jack’s Ridge, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Viewpoint",
+            "Dining",
+            "Sunset"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.745
+        },
+        {
+          "name": "Davao Crocodile Park",
+          "ai_summary": "A wildlife park and rescue center for crocodiles and other animals, offering educational tours and animal encounters.",
+          "name_english": "Davao Crocodile Park",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Best visited during feeding times."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes and be ready for a walk.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Davao Crocodile Park, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Wildlife",
+            "Education",
+            "Conservation"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.713
+        },
+        {
+          "name": "Museo Dabawenyo",
+          "ai_summary": "A museum showcasing the history and culture of Davao and its people, featuring artifacts, photos, and dioramas.",
+          "name_english": "Museo Dabawenyo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.1,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Join a guided tour for a more in-depth experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Museo Dabawenyo, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.726
+        },
+        {
+          "name": "San Pedro Cathedral",
+          "ai_summary": "The oldest church in Davao City, known for its beautiful architecture and historical significance.",
+          "name_english": "San Pedro Cathedral",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.1,
+          "rating_traveler_experience": 4.0,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Best visited during mass or religious ceremonies."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "During Mass",
+          "place_tip": "Be respectful of the religious practices.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "San Pedro Cathedral, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Religion",
+            "History",
+            "Architecture"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.6892
+        },
+        {
+          "name": "Malagos Chocolate Museum",
+          "ai_summary": "A museum and factory tour showcasing the chocolate-making process, from bean to bar, with tastings included.",
+          "name_english": "Malagos Chocolate Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Best visited in the morning for fresh chocolate."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the chocolate tasting session.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Malagos Chocolate Museum, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Museum",
+            "Food",
+            "Education"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Matina Town Square",
+          "ai_summary": "A community hub and shopping area featuring local products, crafts, and a variety of food options.",
+          "name_english": "Matina Town Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.0,
+          "rating_traveler_experience": 3.9,
+          "opening_hours": {
+            "Monday": "10:00 AM - 9:00 PM",
+            "Tuesday": "10:00 AM - 9:00 PM",
+            "Wednesday": "10:00 AM - 9:00 PM",
+            "Thursday": "10:00 AM - 9:00 PM",
+            "Friday": "10:00 AM - 9:00 PM",
+            "Saturday": "10:00 AM - 9:00 PM",
+            "Sunday": "10:00 AM - 9:00 PM",
+            "notes": "Best visited in the evening for the night market vibe."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the local crafts and try the street food.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Matina Town Square, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Shopping",
+            "Food",
+            "Culture"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.6995
+        },
+        {
+          "name": "Mount Apo Highland Trails (Excursions)",
+          "ai_summary": "Guided tours and excursions to the highland trails of Mount Apo, suitable for various skill levels.",
+          "name_english": "Mount Apo Highland Trails (Excursions)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "5:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Permits are required for hiking."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Dry season",
+          "place_tip": "Hire a local guide for a safe and enjoyable hike.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 6.9894,
+            "longitude": 125.2708
+          },
+          "address": "Mount Apo, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Hiking"
+          ],
+          "state": "Davao",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Apo1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Apo1.jpg",
+                "width": 630,
+                "height": 315,
+                "attribution": {
+                  "title": "Apo1",
+                  "author": "User: (WT-shared) Eliselasco at  wts wikivoyage",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Apo1.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Mt. Apo terrain."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8075
+        },
+        {
+          "name": "Samal Island – Kaputian Beach",
+          "ai_summary": "A beautiful beach destination on Samal Island, known for its white sand, clear waters, and vibrant marine life.",
+          "name_english": "Samal Island – Kaputian Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "6:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day for swimming and sunbathing."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Daytime",
+          "place_tip": "Bring your own food and drinks, or buy from local vendors.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Kaputian Beach, Samal Island, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.7829
+        },
+        {
+          "name": "Hagimit Falls (Samal)",
+          "ai_summary": "A popular waterfall destination on Samal Island, offering a refreshing escape with its cool waters and lush surroundings.",
+          "name_english": "Hagimit Falls (Samal)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "6:00 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Best visited in the morning to avoid crowds."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear swimwear and water shoes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Hagimit Falls, Samal Island, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.7885
+        },
+        {
+          "name": "Maxima Aqua Fun Giant Slide",
+          "ai_summary": "A water park featuring the Philippines' longest and highest inflatable water slide, set in a beautiful natural environment.",
+          "name_english": "Maxima Aqua Fun Giant Slide",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Best visited in the morning to avoid long lines."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring extra clothes and towels.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Maxima Aqua Fun, Samal Island, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Water Park",
+            "Adventure",
+            "Family"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.755
+        },
+        {
+          "name": "Monfort Bat Sanctuary",
+          "ai_summary": "A sanctuary and conservation area for fruit bats, offering guided tours to observe these fascinating creatures up close.",
+          "name_english": "Monfort Bat Sanctuary",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Best visited during the bat feeding times."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear dark clothing to avoid disturbing the bats.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Monfort Bat Sanctuary, Samal Island, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Wildlife",
+            "Conservation",
+            "Education"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.741
+        },
+        {
+          "name": "Bluebird View Deck",
+          "ai_summary": "A scenic viewpoint offering panoramic views of the Davao Gulf and Samal Island, especially beautiful at sunset.",
+          "name_english": "Bluebird View Deck",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "6:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunset for the view."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Bring a camera for stunning photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Bluebird View Deck, Samal Island, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Viewpoint",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.7895
+        },
+        {
+          "name": "Sta. Cruz White Water Tubing",
+          "ai_summary": "An adventure activity offering white water tubing experiences on the Davao River, suitable for thrill-seekers.",
+          "name_english": "Sta. Cruz White Water Tubing",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Best visited during the dry season."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Dry season",
+          "place_tip": "Wear appropriate clothing and be ready to get wet.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Sta. Cruz, Davao del Sur, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Adventure",
+            "Water Sports",
+            "Nature"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.7795
+        },
+        {
+          "name": "Sea to Summit Outdoor Hub",
+          "ai_summary": "An outdoor adventure hub offering a range of activities from sea kayaking to mountain climbing, catering to all adventure levels.",
+          "name_english": "Sea to Summit Outdoor Hub",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "6:00 PM",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Best visited during the dry season for all activities."
+          },
+          "suggested_duration": "Half-day to Full-day",
+          "best_time_to_visit": "Dry season",
+          "place_tip": "Book activities in advance, especially during peak season.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Sea to Summit Outdoor Hub, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Adventure",
+            "Outdoor Activities",
+            "Nature"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.791
+        },
+        {
+          "name": "Roxas Avenue Food Stalls",
+          "ai_summary": "A stretch of food stalls offering a variety of local and international cuisines, popular for budget-friendly meals.",
+          "name_english": "Roxas Avenue Food Stalls",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "10:00 PM",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "6:00 PM - 10:00 PM",
+            "Tuesday": "6:00 PM - 10:00 PM",
+            "Wednesday": "6:00 PM - 10:00 PM",
+            "Thursday": "6:00 PM - 10:00 PM",
+            "Friday": "6:00 PM - 10:00 PM",
+            "Saturday": "6:00 PM - 10:00 PM",
+            "Sunday": "6:00 PM - 10:00 PM",
+            "notes": "Best visited in the evening for a variety of food options."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local street food and delicacies.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0655,
+            "longitude": 125.6125
+          },
+          "address": "Roxas Avenue, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Food",
+            "Street Food",
+            "Culture"
+          ],
+          "state": "Davao",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Davao Poblacion District, CM Recto-Palma Gil (Davao City; 04-21-2024).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Davao_Poblacion_District%2C_CM_Recto-Palma_Gil_%28Davao_City%3B_04-21-2024%29.jpg/960px-Davao_Poblacion_District%2C_CM_Recto-Palma_Gil_%28Davao_City%3B_04-21-2024%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Davao Poblacion District, CM Recto-Palma Gil (Davao City; 04-21-2024)",
+                  "author": "Patrickroque01",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Davao_Poblacion_District,_CM_Recto-Palma_Gil_(Davao_City;_04-21-2024).jpg",
+                  "credit": "Taken using my own camera",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "CM Recto Street, Davao City"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Davao Riverwalk",
+          "ai_summary": "A scenic riverside walkway and park, perfect for leisurely walks, jogging, and enjoying the view of the Davao River.",
+          "name_english": "Davao Riverwalk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "6:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Bring water and wear comfortable shoes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 7.0731,
+            "longitude": 125.4873
+          },
+          "address": "Davao Riverwalk, Davao, Philippines",
+          "official_website": "https://www.davao.gov.ph",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Scenic Views"
+          ],
+          "state": "Davao",
+          "photos": {},
+          "rank_score": 0.745
+        }
+      ]
+    }
+  ]
+}

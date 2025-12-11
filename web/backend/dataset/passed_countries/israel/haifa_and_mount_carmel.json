@@ -1,0 +1,901 @@
+{
+  "country": "Israel",
+  "state": "Haifa And Mount Carmel",
+  "cities": [
+    {
+      "city": "Haifa",
+      "nearest_airport": "Haifa Airport",
+      "places": [
+        {
+          "name": "Bahá’í Gardens",
+          "ai_summary": "A UNESCO World Heritage Site featuring beautifully terraced gardens and the Shrine of the Báb, offering stunning views of Haifa Bay.",
+          "name_english": "Bahá’í Gardens",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Guided tours are available at specific times."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Wear comfortable shoes as there are many steps.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 32.8156,
+            "longitude": 34.9893
+          },
+          "address": "Haifa, Israel",
+          "official_website": "https://www.ganbahai.org.il/",
+          "tags": [
+            "Nature",
+            "Culture",
+            "UNESCO"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CarmelArc.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/CarmelArc.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "CarmelArc",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Nafisto\" class=\"extiw\" title=\"wikipedia:User:Nafisto\">Nafisto</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CarmelArc.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Aerial view of the Bahá'í­ World Centre buildings on Mt. Carmel, Haifa, Israel. Courtesy of the Bahá'í International Community"
+                }
+              }
+            }
+          },
+          "rank_score": 0.938
+        },
+        {
+          "name": "Stella Maris Monastery",
+          "ai_summary": "A historic monastery located on Mount Carmel, offering panoramic views and a glimpse into the Carmelite Order’s history.",
+          "name_english": "Stella Maris Monastery",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Closed during religious services."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the nearby lighthouse for additional views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8233,
+            "longitude": 34.9728
+          },
+          "address": "Haifa, Israel",
+          "official_website": null,
+          "tags": [
+            "History",
+            "Religion",
+            "Culture"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Stella_Maris_Monastery_07_Best.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Stella_Maris_Monastery_07_Best.jpg/960px-Stella_Maris_Monastery_07_Best.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Stella Maris Monastery 07 Best",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:%D7%93%D7%A0%D7%99%D7%90%D7%9C_%D7%A4%D7%99%D7%A9%D7%9C%D7%A8&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:דניאל פישלר (page does not exist)\">דניאל פישלר</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Stella_Maris_Monastery_07_Best.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "This is a photo of a place that is recognized as a heritage site by the <a href=\"https://en.wikipedia.org/wiki/Council_for_Conservation_of_Heritage_Sites_in_Israel\" class=\"extiw\" title=\"en:Council for Conservation of Heritage Sites in Israel\">Council for Conservation of Heritage Sites in Israel</a>.<br>The site's ID in <i>Wiki Loves Monuments</i> photographic competition is"
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Haifa Museum of Art",
+          "ai_summary": "A contemporary art museum showcasing Israeli and international artists, located in a historic building in downtown Haifa.",
+          "name_english": "Haifa Museum of Art",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 4:00 PM",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 2:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Closed on Jewish holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check the website for temporary exhibitions.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8184,
+            "longitude": 34.9981
+          },
+          "address": "Haifa, Israel",
+          "official_website": "https://www.hma.org.il/",
+          "tags": [
+            "Art",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Haifa_Museum_of_Art.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Haifa_Museum_of_Art.JPG/960px-Haifa_Museum_of_Art.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Haifa Museum of Art",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Talmoryair\" title=\"User:Talmoryair\">Talmoryair</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Haifa_Museum_of_Art.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Haifa Museum of Art\n<div class=\"description he\" dir=\"rtl\" lang=\"he\"><span class=\"language he\" title=\"Hebrew\"><b>עברית: </b></span> מוזיאון חיפה לאמנות</div>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.77
+        },
+        {
+          "name": "Louis Promenade",
+          "ai_summary": "A scenic promenade offering breathtaking views of Haifa Bay and the city, perfect for a leisurely stroll.",
+          "name_english": "Louis Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunrise or sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Bring a camera to capture the stunning views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.81,
+            "longitude": 34.985
+          },
+          "address": "Haifa, Israel",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Scenic"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:183_2010-09-05_14-36-31_Carmel_Centre.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/183_2010-09-05_14-36-31_Carmel_Centre.JPG/960px-183_2010-09-05_14-36-31_Carmel_Centre.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "183 2010-09-05 14-36-31 Carmel Centre",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:80686\" title=\"User:80686\">Manuel Schneider</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:183_2010-09-05_14-36-31_Carmel_Centre.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "junction in Carmel Centre, below Haifa Auditorium"
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "Carmel National Park",
+          "ai_summary": "Israel’s largest national park, offering hiking trails, picnic areas, and diverse flora and fauna on Mount Carmel.",
+          "name_english": "Carmel National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during cooler months."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear sturdy shoes for the hiking trails.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.745,
+            "longitude": 35.05
+          },
+          "address": "Mount Carmel, Israel",
+          "official_website": "https://www.parks.org.il/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Adventure"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Yagur_–_Nesher,_the_Green_Path_–_Mount_Carmel_122.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Yagur_%E2%80%93_Nesher%2C_the_Green_Path_%E2%80%93_Mount_Carmel_122.JPG/960px-Yagur_%E2%80%93_Nesher%2C_the_Green_Path_%E2%80%93_Mount_Carmel_122.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Yagur – Nesher, the Green Path – Mount Carmel 122",
+                  "author": "Hanay",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Yagur_%E2%80%93_Nesher,_the_Green_Path_%E2%80%93_Mount_Carmel_122.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<p><a href=\"https://en.wikipedia.org/wiki/en:Nesher\" class=\"extiw\" title=\"w:en:Nesher\"><span title=\"city in Israel\">Nesher</span></a>\n</p><p>Green Paths,  between Nesher - Yagur on  Mount Carmel Israel. View from the path\n</p><p>השביל הירוק בין העיר נשר וקיבוץ יגור, על הצלע הצפונית של הר הכרמל. מראות על השביל\n</p>\nשלט המודיע על התחלת פארק הכרמל בשכונת גבעת נשר"
+                }
+              }
+            }
+          },
+          "rank_score": 0.826
+        },
+        {
+          "name": "Madatech – National Museum of Science",
+          "ai_summary": "Israel’s National Museum of Science, Technology, and Space, located in a historic building with interactive exhibits.",
+          "name_english": "Madatech – National Museum of Science",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 2:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Check the website for holiday hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the rooftop view of Haifa Bay.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8178,
+            "longitude": 34.9922
+          },
+          "address": "Haifa, Israel",
+          "official_website": "https://www.madatech.org.il/",
+          "tags": [
+            "Science",
+            "Technology",
+            "Museum"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:98082_polytechnic_PikiWiki_Israel.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/98082_polytechnic_PikiWiki_Israel.jpg/960px-98082_polytechnic_PikiWiki_Israel.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "98082 polytechnic PikiWiki Israel",
+                  "author": "מנואל אמיר",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:98082_polytechnic_PikiWiki_Israel.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "<br><b>Name:</b> polytechnic<br><b>Description:</b> The old Technion building, today Madatech and its surroundings"
+                }
+              }
+            }
+          },
+          "rank_score": 0.754
+        },
+        {
+          "name": "Wadi Nisnas Market & Street Art",
+          "ai_summary": "A vibrant neighborhood known for its street art, local market, and cultural diversity.",
+          "name_english": "Wadi Nisnas Market & Street Art",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Explore the area on foot to see the street art."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Try the local street food in the market.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.815,
+            "longitude": 34.9885
+          },
+          "address": "Haifa, Israel",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Shopping",
+            "Food"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {},
+          "rank_score": 0.698
+        },
+        {
+          "name": "Hecht Museum (University of Haifa)",
+          "ai_summary": "An art and archaeology museum located at the University of Haifa, featuring ancient artifacts and contemporary art.",
+          "name_english": "Hecht Museum (University of Haifa)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 2:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Closed on Jewish holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check out the museum shop for unique souvenirs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.818,
+            "longitude": 34.9965
+          },
+          "address": "Haifa, Israel",
+          "official_website": "https://www.haifa.ac.il/en/hecht-museum",
+          "tags": [
+            "Art",
+            "Archaeology",
+            "Museum"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {},
+          "rank_score": 0.814
+        },
+        {
+          "name": "Dado & Zamir Beaches",
+          "ai_summary": "Popular beaches in Haifa offering sunbathing, swimming, and water sports, with nearby cafes and restaurants.",
+          "name_english": "Dado & Zamir Beaches",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the summer months."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring your own beach umbrella and snacks.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8145,
+            "longitude": 34.9855
+          },
+          "address": "Haifa, Israel",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Sun",
+            "Water Sports"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Cave of Elijah",
+          "ai_summary": "A sacred site and natural cave associated with the prophet Elijah, featuring a small chapel and beautiful views.",
+          "name_english": "Cave of Elijah",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Access may be restricted during religious events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Respect the religious significance of the site.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8152,
+            "longitude": 34.9735
+          },
+          "address": "Haifa, Israel",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "Nature",
+            "History"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Grotto_of_Elijah,_Mt_Carmel.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Grotto_of_Elijah%2C_Mt_Carmel.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Grotto of Elijah, Mt Carmel",
+                  "author": "Phillip Baldensperger",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Grotto_of_Elijah,_Mt_Carmel.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Grotto of Elijah"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Tikotin Museum of Japanese Art",
+          "ai_summary": "The only museum in Israel dedicated to Japanese art and culture, featuring a diverse collection of art pieces and artifacts.",
+          "name_english": "Tikotin Museum of Japanese Art",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 2:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Closed on Jewish holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Participate in a tea ceremony if available.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8186,
+            "longitude": 34.9986
+          },
+          "address": "Haifa, Israel",
+          "official_website": "https://www.japanesemuseum.org.il/",
+          "tags": [
+            "Art",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tikotin_Museum_of_Japanese_Art,_Haifa,_Israel_-_Facade,_Daytime,_cropped_-1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Tikotin_Museum_of_Japanese_Art%2C_Haifa%2C_Israel_-_Facade%2C_Daytime%2C_cropped_-1.jpg/960px-Tikotin_Museum_of_Japanese_Art%2C_Haifa%2C_Israel_-_Facade%2C_Daytime%2C_cropped_-1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tikotin Museum of Japanese Art, Haifa, Israel - Facade, Daytime, cropped -1",
+                  "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Whaa%3F\" title=\"User:Whaa?\">Whaa?</a> assumed (based on copyright claims).",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tikotin_Museum_of_Japanese_Art,_Haifa,_Israel_-_Facade,_Daytime,_cropped_-1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Taken by Asaf Elron on April 1st, 2006."
+                }
+              }
+            }
+          },
+          "rank_score": 0.718
+        },
+        {
+          "name": "Clandestine Immigration & Naval Museum",
+          "ai_summary": "A museum dedicated to the history of clandestine immigration to Israel and the naval battles fought during the War of Independence.",
+          "name_english": "Clandestine Immigration & Naval Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 2:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Closed on Jewish holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the nearby Haifa Port.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.82,
+            "longitude": 34.988
+          },
+          "address": "Haifa, Israel",
+          "official_website": "https://www.immigrationmuseum.org.il/",
+          "tags": [
+            "History",
+            "Museum",
+            "Culture"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:PikiWiki_Israel_3335_Israel_Defense_Forces.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/PikiWiki_Israel_3335_Israel_Defense_Forces.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "PikiWiki Israel 3335 Israel Defense Forces",
+                  "author": "צבי רוגר",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_3335_Israel_Defense_Forces.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Israel Defense Forces"
+                }
+              }
+            }
+          },
+          "rank_score": 0.702
+        },
+        {
+          "name": "Railway Museum",
+          "ai_summary": "A museum showcasing the history of railways in Israel, featuring vintage trains and interactive exhibits.",
+          "name_english": "Railway Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.1,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 2:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Closed on Jewish holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check the schedule for train rides.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8205,
+            "longitude": 34.9925
+          },
+          "address": "Haifa, Israel",
+          "official_website": "https://www.railwaymuseum.org.il/",
+          "tags": [
+            "History",
+            "Technology",
+            "Museum"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Wikitreff_002.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Wikitreff_002.jpg/960px-Wikitreff_002.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Wikitreff 002",
+                  "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Chemiker\" title=\"User:Chemiker\">Chemiker</a> assumed (based on copyright claims).",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Wikitreff_002.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Dampflok im Eisenbahnmuseum Bochum."
+                }
+              }
+            }
+          },
+          "rank_score": 0.686
+        },
+        {
+          "name": "Technion Campus Lookouts",
+          "ai_summary": "Scenic lookouts on the Technion - Israel Institute of Technology campus, offering panoramic views of Haifa and the bay.",
+          "name_english": "Technion Campus Lookouts",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunrise or sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunrise",
+          "place_tip": "Access the lookouts from the Technion campus.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.8188,
+            "longitude": 34.992
+          },
+          "address": "Haifa, Israel",
+          "official_website": null,
+          "tags": [
+            "Education",
+            "Scenic",
+            "Photography"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {},
+          "rank_score": 0.77
+        },
+        {
+          "name": "Downtown Flea Market",
+          "ai_summary": "A bustling flea market in downtown Haifa, offering a variety of goods, antiques, and local delicacies.",
+          "name_english": "Downtown Flea Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "8:00 AM - 3:00 PM",
+            "Wednesday": "8:00 AM - 3:00 PM",
+            "Thursday": "8:00 AM - 3:00 PM",
+            "Friday": "8:00 AM - 2:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "8:00 AM - 3:00 PM",
+            "notes": "Closed on Jewish holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Morning",
+          "place_tip": "Bargain with the vendors for the best deals.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.817,
+            "longitude": 34.989
+          },
+          "address": "Haifa, Israel",
+          "official_website": null,
+          "tags": [
+            "Shopping",
+            "Food",
+            "Culture"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Wilmington,_North_Carolina_along_the_Cape_Fear_River_-_panoramio.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Wilmington%2C_North_Carolina_along_the_Cape_Fear_River_-_panoramio.jpg/960px-Wilmington%2C_North_Carolina_along_the_Cape_Fear_River_-_panoramio.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Wilmington, North Carolina along the Cape Fear River - panoramio",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161014102732/http://www.panoramio.com/user/1238588?with_photo_id=29403026\">Idawriter</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Wilmington,_North_Carolina_along_the_Cape_Fear_River_-_panoramio.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Wilmington, North Carolina along the Cape Fear River"
+                }
+              }
+            }
+          },
+          "rank_score": 0.682
+        },
+        {
+          "name": "Haifa International Film Festival (seasonal)",
+          "ai_summary": "An annual film festival showcasing international and Israeli films, held in various venues across Haifa.",
+          "name_english": "Haifa International Film Festival (seasonal)",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:30 PM",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Varies",
+            "Tuesday": "Varies",
+            "Wednesday": "Varies",
+            "Thursday": "Varies",
+            "Friday": "Varies",
+            "Saturday": "Varies",
+            "Sunday": "Varies",
+            "notes": "Check the festival schedule for details."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book tickets in advance for popular screenings.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 32.8156,
+            "longitude": 34.9893
+          },
+          "address": "Haifa, Israel",
+          "official_website": "https://www.haifaff.co.il/",
+          "tags": [
+            "Film",
+            "Culture",
+            "Festival"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Hof HaCarmel Promenade",
+          "ai_summary": "A scenic promenade along the Carmel Beach, offering beautiful views of the Mediterranean Sea and Haifa’s skyline.",
+          "name_english": "Hof HaCarmel Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunrise or sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Enjoy a coffee at one of the beachside cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 32.814,
+            "longitude": 34.985
+          },
+          "address": "Haifa, Israel",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Scenic"
+          ],
+          "state": "Haifa And Mount Carmel",
+          "photos": {},
+          "rank_score": 0.766
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1084 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Thingvellir National Park",
+          "ai_summary": "A UNESCO World Heritage site, known for its geological and historical significance, where the Eurasian and North American tectonic plates meet.",
+          "name_english": "Thingvellir National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:30",
+          "sunset_time": "16:00",
+          "cost": "$10",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "09:00-18:00",
+            "tue": "09:00-18:00",
+            "wed": "09:00-18:00",
+            "thu": "09:00-18:00",
+            "fri": "09:00-18:00",
+            "sat": "09:00-18:00",
+            "sun": "09:00-18:00",
+            "notes": "Visitor center hours may vary."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Walk along the Almannagjá fault for stunning views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.255,
+            "lng": -21.129
+          },
+          "address": "Thingvellir, Iceland",
+          "official_website": "https://www.thingvellir.is/",
+          "tags": [
+            "National Park",
+            "Geology",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OxaraRiverThingvellirIce5.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OxaraRiverThingvellirIce5.JPG/960px-OxaraRiverThingvellirIce5.JPG",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "OxaraRiverThingvellirIce5",
+                  "author": "TommyBee",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OxaraRiverThingvellirIce5.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Öxará, Thingvellir, Iceland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Geysir Geothermal Area",
+          "ai_summary": "A geothermal hotspot featuring the famous Strokkur geyser, which erupts every few minutes, and bubbling hot springs.",
+          "name_english": "Geysir Geothermal Area",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "16:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Stay on marked paths to avoid burns from hot springs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.313,
+            "lng": -20.299
+          },
+          "address": "Geysir, Iceland",
+          "official_website": "https://www.geysircenter.is/",
+          "tags": [
+            "Geothermal",
+            "Nature",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BLAKE(1873) p06 The Great Geysir.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/BLAKE%281873%29_p06_The_Great_Geysir.jpg/960px-BLAKE%281873%29_p06_The_Great_Geysir.jpg",
+                "width": 800,
+                "height": 1365,
+                "attribution": {
+                  "title": "BLAKE(1873) p06 The Great Geysir",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BLAKE(1873)_p06_The_Great_Geysir.jpg",
+                  "credit": "This file is from the Mechanical Curator collection, a set of over 1 million images scanned from out-of-copyright books and released to Flickr Commons by the British Library. \n View image on Flickr  View all images from book \n\n View catalogue entry for book.",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Gullfoss Waterfall",
+          "ai_summary": "A majestic two-tiered waterfall, one of Iceland's most iconic natural attractions, offering breathtaking views and photo opportunities.",
+          "name_english": "Gullfoss Waterfall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:45",
+          "sunset_time": "16:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Wear waterproof clothing to stay dry from the mist.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.327,
+            "lng": -20.121
+          },
+          "address": "Gullfoss, Iceland",
+          "official_website": "https://www.gullfoss.is/",
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Kerid Crater",
+          "ai_summary": "A volcanic crater lake with vivid red and black slopes, offering a unique geological experience and stunning views.",
+          "name_english": "Kerid Crater",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:40",
+          "sunset_time": "16:05",
+          "cost": "$3",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "09:00-18:00",
+            "tue": "09:00-18:00",
+            "wed": "09:00-18:00",
+            "thu": "09:00-18:00",
+            "fri": "09:00-18:00",
+            "sat": "09:00-18:00",
+            "sun": "09:00-18:00",
+            "notes": "Hours may vary seasonally."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Hike around the rim for panoramic views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.041,
+            "lng": -20.885
+          },
+          "address": "Kerid, Iceland",
+          "official_website": "https://www.kerid.is/",
+          "tags": [
+            "Crater",
+            "Geology",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A girl standing on top of Kerið.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/A_girl_standing_on_top_of_Keri%C3%B0.jpg/960px-A_girl_standing_on_top_of_Keri%C3%B0.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "A girl standing on top of Kerið",
+                  "author": "Scoundrelgeo",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A_girl_standing_on_top_of_Kerið.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "A girl standing on top of Kerið"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Secret Lagoon",
+          "ai_summary": "A natural hot spring offering a relaxing geothermal bathing experience in a serene and less crowded setting.",
+          "name_english": "Secret Lagoon",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "16:20",
+          "cost": "$25",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "10:00-22:00",
+            "tue": "10:00-22:00",
+            "wed": "10:00-22:00",
+            "thu": "10:00-22:00",
+            "fri": "10:00-22:00",
+            "sat": "10:00-22:00",
+            "sun": "10:00-22:00",
+            "notes": "Open year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring your own towel to save on rental fees.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 64.137,
+            "lng": -20.309
+          },
+          "address": "Secret Lagoon, Flúðir, Iceland",
+          "official_website": "https://www.secretlagoon.is/",
+          "tags": [
+            "Hot Spring",
+            "Relaxation",
+            "Geothermal"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Silfra Fissure",
+          "ai_summary": "A unique snorkeling and diving destination between the tectonic plates of North America and Eurasia, known for its crystal-clear waters.",
+          "name_english": "Silfra Fissure",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:35",
+          "sunset_time": "16:00",
+          "cost": "$300",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Advance booking required."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Wear thermal underwear as the water is cold.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "lat": 64.2559,
+            "lng": -21.1306
+          },
+          "address": "Silfra, Thingvellir, Iceland",
+          "official_website": "https://www.silfra.is/",
+          "tags": [
+            "Snorkeling",
+            "Diving",
+            "Geology"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cañón Silfra, Parque Nacional de Þingvellir, Suðurland, Islandia, 2014-08-16, DD 056.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Ca%C3%B1%C3%B3n_Silfra%2C_Parque_Nacional_de_%C3%9Eingvellir%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-16%2C_DD_056.JPG/960px-Ca%C3%B1%C3%B3n_Silfra%2C_Parque_Nacional_de_%C3%9Eingvellir%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-16%2C_DD_056.JPG",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Cañón Silfra, Parque Nacional de Þingvellir, Suðurland, Islandia, 2014-08-16, DD 056",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cañón_Silfra,_Parque_Nacional_de_Þingvellir,_Suðurland,_Islandia,_2014-08-16,_DD_056.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Silfra canyon, Þingvellir National Park, Suðurland, Iceland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Thingvallavatn Lake",
+          "ai_summary": "The largest natural lake in Iceland, offering stunning views, fishing, and bird watching opportunities.",
+          "name_english": "Thingvallavatn Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:30",
+          "sunset_time": "16:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit the lake in the evening for a chance to see the Northern Lights.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.2559,
+            "lng": -21.1306
+          },
+          "address": "Thingvallavatn, Iceland",
+          "official_website": "https://www.thingvellir.is/",
+          "tags": [
+            "Lake",
+            "Nature",
+            "Fishing"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OxaraRiverThingvellirIce5.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OxaraRiverThingvellirIce5.JPG/960px-OxaraRiverThingvellirIce5.JPG",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "OxaraRiverThingvellirIce5",
+                  "author": "TommyBee",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OxaraRiverThingvellirIce5.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Öxará, Thingvellir, Iceland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Haukadalur Hot Springs",
+          "ai_summary": "A geothermal area with hot springs and mud pots, offering a unique landscape and the opportunity to see the Strokkur geyser erupt.",
+          "name_english": "Haukadalur Hot Springs",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "16:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture the unique landscapes.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.313,
+            "lng": -20.299
+          },
+          "address": "Haukadalur, Iceland",
+          "official_website": "https://www.geysircenter.is/",
+          "tags": [
+            "Geothermal",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Haukadalur.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Haukadalur.jpg/960px-Haukadalur.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Haukadalur",
+                  "author": "Reykholt",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Haukadalur.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Haukadalur, Iceland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Faxi Waterfall",
+          "ai_summary": "A beautiful waterfall located in a serene setting, offering a peaceful retreat and great photo opportunities.",
+          "name_english": "Faxi Waterfall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:50",
+          "sunset_time": "16:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit early in the morning for a chance to have the place to yourself.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.025,
+            "lng": -20.121
+          },
+          "address": "Faxi, Iceland",
+          "official_website": "https://www.faxi.is/",
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Skálholt Cathedral",
+          "ai_summary": "A historic site with a beautiful cathedral, offering insight into Iceland's religious history and stunning views from the hilltop.",
+          "name_english": "Skálholt Cathedral",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:30",
+          "sunset_time": "16:00",
+          "cost": "$5",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Closed during winter months."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Climb the hill for a panoramic view of the area.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.021,
+            "lng": -20.997
+          },
+          "address": "Skálholt, Iceland",
+          "official_website": "https://www.skalholt.is/",
+          "tags": [
+            "Historical Site",
+            "Architecture",
+            "Religion"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Efstidalur Farm Ice Cream Café",
+          "ai_summary": "A charming farm café known for its delicious homemade ice cream and dairy products, offering a taste of local Icelandic cuisine.",
+          "name_english": "Efstidalur Farm Ice Cream Café",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:45",
+          "sunset_time": "16:10",
+          "cost": "$10",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "10:00-18:00",
+            "tue": "10:00-18:00",
+            "wed": "10:00-18:00",
+            "thu": "10:00-18:00",
+            "fri": "10:00-18:00",
+            "sat": "10:00-18:00",
+            "sun": "10:00-18:00",
+            "notes": "Open year-round."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try the skyr ice cream for a unique taste.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.205,
+            "lng": -20.285
+          },
+          "address": "Efstidalur, Iceland",
+          "official_website": "https://www.efstidalur.is/",
+          "tags": [
+            "Café",
+            "Local Cuisine",
+            "Ice Cream"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Laugarvatn Fontana Spa",
+          "ai_summary": "A geothermal spa located by Lake Laugarvatn, offering a range of wellness treatments and relaxing hot spring baths.",
+          "name_english": "Laugarvatn Fontana Spa",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "16:20",
+          "cost": "$50",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "10:00-22:00",
+            "tue": "10:00-22:00",
+            "wed": "10:00-22:00",
+            "thu": "10:00-22:00",
+            "fri": "10:00-22:00",
+            "sat": "10:00-22:00",
+            "sun": "10:00-22:00",
+            "notes": "Open year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book a treatment in advance for a relaxing experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 64.135,
+            "lng": -20.285
+          },
+          "address": "Laugarvatn, Iceland",
+          "official_website": "https://www.fontana.is/",
+          "tags": [
+            "Spa",
+            "Wellness",
+            "Geothermal"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hruni, Iceland.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hruni%2C_Iceland.jpg/960px-Hruni%2C_Iceland.jpg",
+                "width": 800,
+                "height": 480,
+                "attribution": {
+                  "title": "Hruni, Iceland",
+                  "author": "Wissembourg",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hruni,_Iceland.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "A view from a hill overlooking the Lutheran church at Hruni, Iceland."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Fridheimar Tomato Greenhouse Restaurant",
+          "ai_summary": "A unique restaurant located in a greenhouse, specializing in tomato-based dishes and offering a farm-to-table dining experience.",
+          "name_english": "Fridheimar Tomato Greenhouse Restaurant",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:40",
+          "sunset_time": "16:05",
+          "cost": "$30",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "12:00-16:00",
+            "tue": "12:00-16:00",
+            "wed": "12:00-16:00",
+            "thu": "12:00-16:00",
+            "fri": "12:00-16:00",
+            "sat": "12:00-16:00",
+            "sun": "12:00-16:00",
+            "notes": "Reservations recommended."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Lunch",
+          "place_tip": "Try the tomato soup and homemade bread.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 64.025,
+            "lng": -20.121
+          },
+          "address": "Fridheimar, Iceland",
+          "official_website": "https://www.fridheimar.is/",
+          "tags": [
+            "Restaurant",
+            "Local Cuisine",
+            "Greenhouse"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Brúarfoss Blue Waterfall",
+          "ai_summary": "A stunning waterfall known for its vibrant blue water, offering a picturesque and tranquil setting.",
+          "name_english": "Brúarfoss Blue Waterfall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:55",
+          "sunset_time": "16:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Follow the marked trail for the best views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.327,
+            "lng": -20.121
+          },
+          "address": "Brúarfoss, Iceland",
+          "official_website": "https://www.brufoss.is/",
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Öxarárfoss Trail",
+          "ai_summary": "A scenic hiking trail in Thingvellir National Park, leading to the beautiful Öxarárfoss waterfall.",
+          "name_english": "Öxarárfoss Trail",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:30",
+          "sunset_time": "16:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Bring water and snacks for the hike.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.255,
+            "lng": -21.129
+          },
+          "address": "Öxarárfoss, Thingvellir, Iceland",
+          "official_website": "https://www.thingvellir.is/",
+          "tags": [
+            "Hiking",
+            "Waterfall",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Thingvellir Visitor Center",
+          "ai_summary": "The main information center for Thingvellir National Park, offering exhibits, a café, and guided tours.",
+          "name_english": "Thingvellir Visitor Center",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:30",
+          "sunset_time": "16:00",
+          "cost": "$5",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "09:00-18:00",
+            "tue": "09:00-18:00",
+            "wed": "09:00-18:00",
+            "thu": "09:00-18:00",
+            "fri": "09:00-18:00",
+            "sat": "09:00-18:00",
+            "sun": "09:00-18:00",
+            "notes": "Visitor center hours may vary."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Watch the introductory film for an overview of the park.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.255,
+            "lng": -21.129
+          },
+          "address": "Thingvellir, Iceland",
+          "official_website": "https://www.thingvellir.is/",
+          "tags": [
+            "Visitor Center",
+            "Information",
+            "Guided Tours"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OxaraRiverThingvellirIce5.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OxaraRiverThingvellirIce5.JPG/960px-OxaraRiverThingvellirIce5.JPG",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "OxaraRiverThingvellirIce5",
+                  "author": "TommyBee",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OxaraRiverThingvellirIce5.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Öxará, Thingvellir, Iceland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Langjökull Glacier Snowmobiling",
+          "ai_summary": "An exciting adventure activity on Langjökull, Iceland's second-largest glacier, offering stunning ice cap views.",
+          "name_english": "Langjökull Glacier Snowmobiling",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:30",
+          "sunset_time": "16:00",
+          "cost": "$350",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "09:00-17:00",
+            "tue": "09:00-17:00",
+            "wed": "09:00-17:00",
+            "thu": "09:00-17:00",
+            "fri": "09:00-17:00",
+            "sat": "09:00-17:00",
+            "sun": "09:00-17:00",
+            "notes": "Advance booking required."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Dress warmly and wear waterproof gear.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "lat": 64.59,
+            "lng": -19.57
+          },
+          "address": "Langjökull, Iceland",
+          "official_website": "https://www.glacieradventure.is/",
+          "tags": [
+            "Snowmobiling",
+            "Glacier",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Geysir Center Museum",
+          "ai_summary": "A museum dedicated to the geothermal area of Haukadalur, featuring exhibits on the Geysir geothermal field and the history of geothermal energy in Iceland.",
+          "name_english": "Geysir Center Museum",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:30",
+          "sunset_time": "16:00",
+          "cost": "$15",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "09:00-18:00",
+            "tue": "09:00-18:00",
+            "wed": "09:00-18:00",
+            "thu": "09:00-18:00",
+            "fri": "09:00-18:00",
+            "sat": "09:00-18:00",
+            "sun": "09:00-18:00",
+            "notes": "Visitor center hours may vary."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Don't miss the movie about the Great Geysir.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.313,
+            "lng": -20.299
+          },
+          "address": "Geysir, Iceland",
+          "official_website": "https://www.geysircenter.is/",
+          "tags": [
+            "Museum",
+            "Geothermal",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BLAKE(1873) p06 The Great Geysir.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/BLAKE%281873%29_p06_The_Great_Geysir.jpg/960px-BLAKE%281873%29_p06_The_Great_Geysir.jpg",
+                "width": 800,
+                "height": 1365,
+                "attribution": {
+                  "title": "BLAKE(1873) p06 The Great Geysir",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BLAKE(1873)_p06_The_Great_Geysir.jpg",
+                  "credit": "This file is from the Mechanical Curator collection, a set of over 1 million images scanned from out-of-copyright books and released to Flickr Commons by the British Library. \n View image on Flickr  View all images from book \n\n View catalogue entry for book.",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Golden Circle Panorama Stops",
+          "ai_summary": "Various scenic viewpoints along the Golden Circle route, offering breathtaking views of Iceland's natural beauty.",
+          "name_english": "Golden Circle Panorama Stops",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:30",
+          "sunset_time": "16:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "Varies",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Stop at multiple viewpoints for the best experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.255,
+            "lng": -21.129
+          },
+          "address": "Golden Circle, Iceland",
+          "official_website": "https://www.visiticeland.com/",
+          "tags": [
+            "Scenic View",
+            "Photography",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cañón Silfra, Parque Nacional de Þingvellir, Suðurland, Islandia, 2014-08-16, DD 056.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Ca%C3%B1%C3%B3n_Silfra%2C_Parque_Nacional_de_%C3%9Eingvellir%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-16%2C_DD_056.JPG/960px-Ca%C3%B1%C3%B3n_Silfra%2C_Parque_Nacional_de_%C3%9Eingvellir%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-16%2C_DD_056.JPG",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Cañón Silfra, Parque Nacional de Þingvellir, Suðurland, Islandia, 2014-08-16, DD 056",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cañón_Silfra,_Parque_Nacional_de_Þingvellir,_Suðurland,_Islandia,_2014-08-16,_DD_056.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Silfra canyon, Þingvellir National Park, Suðurland, Iceland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Gullfoss Canyon Viewpoint",
+          "ai_summary": "A viewpoint offering a stunning overlook of the Gullfoss canyon and waterfall, one of Iceland's most iconic natural attractions.",
+          "name_english": "Gullfoss Canyon Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:45",
+          "sunset_time": "16:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit during sunny weather for a rainbow over the falls.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 64.327,
+            "lng": -20.121
+          },
+          "address": "Gullfoss, Iceland",
+          "official_website": "https://www.gullfoss.is/",
+          "tags": [
+            "Viewpoint",
+            "Waterfall",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

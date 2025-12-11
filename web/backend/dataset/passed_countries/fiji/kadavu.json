@@ -1,0 +1,983 @@
+{
+  "country": "Fiji",
+  "state": "Kadavu",
+  "cities": [
+    {
+      "city": "Kadavu",
+      "nearest_airport": "Vunisea Airport (KDV)",
+      "places": [
+        {
+          "name": "Great Astrolabe Reef (Diving)",
+          "ai_summary": "One of the world's largest barrier reefs, offering exceptional diving experiences with vibrant coral and diverse marine life.",
+          "name_english": "Great Astrolabe Reef",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Diving tours must be booked in advance."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring an underwater camera to capture the vibrant marine life.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Great Astrolabe Reef, Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Diving",
+            "Nature",
+            "Marine"
+          ],
+          "state": "Kadavu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kadavu_and_Great_Astrolabe_Reef.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Kadavu_and_Great_Astrolabe_Reef.jpg/960px-Kadavu_and_Great_Astrolabe_Reef.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kadavu and Great Astrolabe Reef",
+                  "author": "Taken by <a href=\"https://en.wikipedia.org/wiki/User:Sabine%27s_Sunbird\" class=\"extiw\" title=\"w:User:Sabine's Sunbird\">Duncan Wright</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kadavu_and_Great_Astrolabe_Reef.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Kadavu and the Great Astrolabe Reef from Matava on the south of the Island"
+                }
+              }
+            }
+          },
+          "rank_score": 0.874
+        },
+        {
+          "name": "Vunisea Village & Harbor",
+          "ai_summary": "A charming village offering a glimpse into local Fijian life, with a bustling harbor and friendly community.",
+          "name_english": "Vunisea Village",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day to interact with locals."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the local market for fresh produce and handmade crafts.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Vunisea Village, Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Culture",
+            "Village",
+            "Local"
+          ],
+          "state": "Kadavu",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Matava Eco Resort",
+          "ai_summary": "An eco-friendly resort offering sustainable accommodations and activities like snorkeling, kayaking, and cultural experiences.",
+          "name_english": "Matava Eco Resort",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Reservations recommended for overnight stays."
+          },
+          "suggested_duration": "Overnight",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Participate in the resort's coral planting program to contribute to marine conservation.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Matava Eco Resort, Kadavu, Fiji",
+          "official_website": "https://www.matava.com/",
+          "tags": [
+            "Eco",
+            "Resort",
+            "Nature"
+          ],
+          "state": "Kadavu",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Dravuni Island (Local Experience)",
+          "ai_summary": "A small island providing an authentic Fijian experience with its pristine beaches and local village.",
+          "name_english": "Dravuni Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Access by boat only; check local schedules."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the island's walking trails for stunning views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Dravuni Island, Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Island",
+            "Culture",
+            "Beach"
+          ],
+          "state": "Kadavu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Delicate_branching_corals_in_the_lagoon_at_Dravuni_Island,_Fiji._(35116978524).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Delicate_branching_corals_in_the_lagoon_at_Dravuni_Island%2C_Fiji._%2835116978524%29.jpg/960px-Delicate_branching_corals_in_the_lagoon_at_Dravuni_Island%2C_Fiji._%2835116978524%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Delicate branching corals in the lagoon at Dravuni Island, Fiji. (35116978524)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/93242958@N00\">Derek Keats</a> from Johannesburg, South Africa",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Delicate_branching_corals_in_the_lagoon_at_Dravuni_Island,_Fiji._(35116978524).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Delicate branching corals in the lagoon at Dravuni Island, Fiji."
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Namara Reef Snorkeling",
+          "ai_summary": "A beautiful reef ideal for snorkeling, with an abundance of colorful fish and coral formations.",
+          "name_english": "Namara Reef",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Snorkeling gear can be rented on-site."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Look for the giant clams and vibrant coral gardens.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Namara Reef, Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Snorkeling",
+            "Marine",
+            "Nature"
+          ],
+          "state": "Kadavu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Searching_Cheviot_Beach.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Searching_Cheviot_Beach.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Searching Cheviot Beach",
+                  "author": "National Archives of Australia",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Searching_Cheviot_Beach.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Searchers combing Cheviot Beach after Harold Holt's disappearance"
+                }
+              }
+            }
+          },
+          "rank_score": 0.758
+        },
+        {
+          "name": "Naikorokoro Waterfall",
+          "ai_summary": "A stunning waterfall located inland, offering a refreshing swim and a picnic spot.",
+          "name_english": "Naikorokoro Waterfall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the dry season (May to October)."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear sturdy shoes for the hike to the waterfall.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Naikorokoro Waterfall, Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Hiking"
+          ],
+          "state": "Kadavu",
+          "photos": {},
+          "rank_score": 0.726
+        },
+        {
+          "name": "Kadavu Ridge Hike",
+          "ai_summary": "A challenging hike offering panoramic views of Kadavu Island and the Great Astrolabe Reef.",
+          "name_english": "Kadavu Ridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Start early to avoid hiking in the heat of the day."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Sunrise",
+          "place_tip": "Bring plenty of water and a camera for the views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Kadavu Ridge, Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Views"
+          ],
+          "state": "Kadavu",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Birdwatching (Crimson Shining Parrot)",
+          "ai_summary": "A birdwatcher's paradise, home to the rare Crimson Shining Parrot and other unique bird species.",
+          "name_english": "Birdwatching",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed with a guide who knows the local area."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Early morning",
+          "place_tip": "Bring binoculars and a bird guidebook.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Birdwatching",
+            "Nature",
+            "Wildlife"
+          ],
+          "state": "Kadavu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Raggiana_Bird-of-Paradise_wild_5.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Raggiana_Bird-of-Paradise_wild_5.jpg/960px-Raggiana_Bird-of-Paradise_wild_5.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Raggiana Bird-of-Paradise wild 5",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/16420772@N07\">markaharper1</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Raggiana_Bird-of-Paradise_wild_5.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Raggiana Bird of Paradise, <i>Paradisaea raggiana</i>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Buliya Island Lagoon",
+          "ai_summary": "A serene lagoon perfect for swimming, snorkeling, and relaxing on the beach.",
+          "name_english": "Buliya Island Lagoon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Bring your own snorkeling gear."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the nearby coral reefs and marine life.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Buliya Island Lagoon, Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Lagoon",
+            "Beach",
+            "Snorkeling"
+          ],
+          "state": "Kadavu",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Traditional Kava Ceremony",
+          "ai_summary": "Experience the local culture by participating in a traditional Kava ceremony.",
+          "name_english": "Kava Ceremony",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "17:00-19:00",
+            "Tuesday": "17:00-19:00",
+            "Wednesday": "17:00-19:00",
+            "Thursday": "17:00-19:00",
+            "Friday": "17:00-19:00",
+            "Saturday": "17:00-19:00",
+            "Sunday": "17:00-19:00",
+            "notes": "Offered in local villages; dress modestly."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the Kava, a traditional drink made from the root of the Yaqona plant.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Culture",
+            "Tradition",
+            "Local"
+          ],
+          "state": "Kadavu",
+          "photos": {},
+          "rank_score": 0.774
+        },
+        {
+          "name": "Yabu Village Tour",
+          "ai_summary": "A guided tour through Yabu Village, showcasing traditional Fijian life and customs.",
+          "name_english": "Yabu Village Tour",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Includes a visit to the village school and church."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Respect local customs and ask for permission before taking photos.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Yabu Village, Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Culture",
+            "Village",
+            "Tour"
+          ],
+          "state": "Kadavu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hyonosen02s1760.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Hyonosen02s1760.jpg/960px-Hyonosen02s1760.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Hyonosen02s1760",
+                  "author": "<a href=\"https://ja.wikipedia.org/wiki/user:663highland\" class=\"extiw\" title=\"ja:user:663highland\">663highland</a>",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hyonosen02s1760.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "<b>Mt.Hyonosen</b> view from <b>Hyonosen International Ski Resort</b> in <a href=\"//commons.wikimedia.org/w/index.php?title=Yabu&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Yabu (page does not exist)\">Yabu</a>, <a href=\"//commons.wikimedia.org/wiki/Hyogo_prefecture\" class=\"mw-redirect\" title=\"Hyogo prefecture\">Hyogo prefecture</a>, Japan"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Ocean Kayaking Trails",
+          "ai_summary": "Scenic kayaking trails around Kadavu Island, suitable for all skill levels.",
+          "name_english": "Ocean Kayaking",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Kayaks can be rented from local operators."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Keep an eye out for dolphins and other marine life.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Kayaking",
+            "Ocean",
+            "Adventure"
+          ],
+          "state": "Kadavu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kayakersview.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Kayakersview.JPG/960px-Kayakersview.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kayakersview",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Thruxton\" class=\"mw-userlink\" title=\"User:Thruxton\">Thruxton</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kayakersview.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Katakers view of Lake Coniston Cumbria"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Matanuku Bay Snorkeling",
+          "ai_summary": "A popular snorkeling spot with a rich variety of marine life and coral reefs.",
+          "name_english": "Matanuku Bay",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Snorkeling tours available; book in advance."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the underwater cave and look for sea turtles.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Matanuku Bay, Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Snorkeling",
+            "Marine",
+            "Nature"
+          ],
+          "state": "Kadavu",
+          "photos": {},
+          "rank_score": 0.778
+        },
+        {
+          "name": "Naiqoro Passage Marine Reserve",
+          "ai_summary": "A protected marine area with excellent snorkeling and diving opportunities.",
+          "name_english": "Naiqoro Passage",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Access by boat; guided tours recommended."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the vibrant coral gardens and look for reef sharks.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Naiqoro Passage, Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Marine Reserve",
+            "Diving",
+            "Snorkeling"
+          ],
+          "state": "Kadavu",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Kadavu Island Circumnavigation Trip",
+          "ai_summary": "A boat trip around Kadavu Island, offering stunning views and access to remote beaches and reefs.",
+          "name_english": "Kadavu Island Circumnavigation",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Book in advance to secure a spot."
+          },
+          "suggested_duration": "Full-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring sunscreen, a hat, and plenty of water.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Kadavu Island, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Boat Trip",
+            "Island",
+            "Snorkeling"
+          ],
+          "state": "Kadavu",
+          "photos": {},
+          "rank_score": 0.778
+        },
+        {
+          "name": "Village Pottery & Handicrafts",
+          "ai_summary": "Visit local villages to see traditional Fijian pottery and handicrafts being made.",
+          "name_english": "Pottery & Handicrafts",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Support local artisans by purchasing handicrafts."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Watch a pottery demonstration and try your hand at making pottery.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Culture",
+            "Art",
+            "Local"
+          ],
+          "state": "Kadavu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Women_Making_Batik,_Ketelan_crop.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Women_Making_Batik%2C_Ketelan_crop.jpg/960px-Women_Making_Batik%2C_Ketelan_crop.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Women Making Batik, Ketelan crop",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/shkizzle/\">Stephen Kennedy</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Women_Making_Batik,_Ketelan_crop.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Three women making batik in Ketelan, Central Java"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Beach Picnic at Kavala Bay",
+          "ai_summary": "Enjoy a relaxing picnic on the beach at Kavala Bay, with options for swimming and snorkeling.",
+          "name_english": "Kavala Bay Picnic",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Bring your own picnic supplies."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the tidal pools and relax on the beach.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Kavala Bay, Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Beach",
+            "Picnic",
+            "Snorkeling"
+          ],
+          "state": "Kadavu",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Cultural Dance Performances",
+          "ai_summary": "Experience traditional Fijian dance performances, showcasing the rich cultural heritage of the islands.",
+          "name_english": "Cultural Dance",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "18:00-20:00",
+            "Tuesday": "18:00-20:00",
+            "Wednesday": "18:00-20:00",
+            "Thursday": "18:00-20:00",
+            "Friday": "18:00-20:00",
+            "Saturday": "18:00-20:00",
+            "Sunday": "18:00-20:00",
+            "notes": "Check local listings for performance locations."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Join in the dance for a fun and immersive experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Culture",
+            "Dance",
+            "Performance"
+          ],
+          "state": "Kadavu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Legong_Kraton_Farewell.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Legong_Kraton_Farewell.jpg/960px-Legong_Kraton_Farewell.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Legong Kraton Farewell",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Flying_Pharmacist&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Flying Pharmacist (page does not exist)\">Flying Pharmacist</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Legong_Kraton_Farewell.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Scene from the Legong Kraton (Legong of the Palace) in the palace of Ubud, Bali, Indonesia. The king and the princess bid farewell to each other.\nIn the background, the Gamelan orchestra accompanies the performance."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Fishing with Locals",
+          "ai_summary": "Join local fishermen for a hands-on fishing experience using traditional methods.",
+          "name_english": "Fishing with Locals",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Fishing tours include all equipment and bait."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Learn about sustainable fishing practices from local experts.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Fishing",
+            "Culture",
+            "Adventure"
+          ],
+          "state": "Kadavu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ashtamudi_Kerala.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ashtamudi_Kerala.jpg/960px-Ashtamudi_Kerala.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ashtamudi Kerala",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sureshkajal&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sureshkajal (page does not exist)\">The Raviz</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ashtamudi_Kerala.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Ashtamudi Kerala"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Sunrise over Kadavu Ridge",
+          "ai_summary": "Witness the breathtaking sunrise views from Kadavu Ridge, a must-see for early risers.",
+          "name_english": "Sunrise over Kadavu Ridge",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "05:45",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed from the lookout point on the ridge."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise",
+          "place_tip": "Bring a camera and arrive early to secure a good spot.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -19.05,
+            "longitude": 178.4
+          },
+          "address": "Kadavu Ridge, Kadavu, Fiji",
+          "official_website": "https://www.fiji.travel/",
+          "tags": [
+            "Nature",
+            "Views",
+            "Photography"
+          ],
+          "state": "Kadavu",
+          "photos": {},
+          "rank_score": 0.818
+        }
+      ]
+    }
+  ]
+}

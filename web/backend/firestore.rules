@@ -2,6 +2,255 @@ rules_version = '2';
 
 service cloud.firestore {
   match /databases/{database}/documents {
+    
+    // ============================================================================
+    // HELPER FUNCTIONS
+    // ============================================================================
+    
+    // Check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Get current user ID
+    function userId() {
+      return request.auth.uid;
+    }
+    
+    // Check if user is owner of a resource
+    function isOwner(resourceUserId) {
+      return isAuthenticated() && userId() == resourceUserId;
+    }
+    
+    // Get user's membership document for a group
+    function getMembership(groupId) {
+      return get(/databases/$(database)/documents/expense_group_members/$(groupId + '_' + userId()));
+    }
+    
+    // Check if user is a member of the group
+    function isGroupMember(groupId) {
+      return isAuthenticated() && 
+             exists(/databases/$(database)/documents/expense_group_members/$(groupId + '_' + userId())) &&
+             getMembership(groupId).data.is_active == true;
+    }
+    
+    // Check if user has a specific role in the group
+    function hasRole(groupId, role) {
+      return isGroupMember(groupId) && getMembership(groupId).data.role == role;
+    }
+    
+    // Check if user is group owner
+    function isGroupOwner(groupId) {
+      return hasRole(groupId, 'owner');
+    }
+    
+    // Check if user is group admin or owner
+    function isGroupAdmin(groupId) {
+      return hasRole(groupId, 'owner') || hasRole(groupId, 'admin');
+    }
+    
+    // Validate timestamp is server time
+    function isValidTimestamp(field) {
+      return request.resource.data[field] == request.time;
+    }
+    
+    // Validate string length
+    function isValidStringLength(field, minLen, maxLen) {
+      return request.resource.data[field] is string &&
+             request.resource.data[field].size() >= minLen &&
+             request.resource.data[field].size() <= maxLen;
+    }
+    
+    // Validate positive number
+    function isPositiveNumber(field) {
+      return request.resource.data[field] is number && request.resource.data[field] > 0;
+    }
+    
+    // ============================================================================
+    // USERS COLLECTION
+    // ============================================================================
+    
+    match /users/{userId} {
+      // Users can read their own profile
+      allow read: if isOwner(userId);
+      
+      // Users can create/update their own profile
+      allow create, update: if isOwner(userId);
+      
+      // No deletion allowed
+      allow delete: if false;
+    }
+    
+    // ============================================================================
+    // EXPENSE GROUPS COLLECTION
+    // ============================================================================
+    
+    match /expense_groups/{groupId} {
+      // Members can read group data
+      allow read: if isGroupMember(groupId);
+      
+      // Authenticated users can create groups (they become owner)
+      allow create: if isAuthenticated() &&
+                       request.resource.data.created_by == userId() &&
+                       request.resource.data.members.hasAll([userId()]);
+      
+      // Admin/Owner can update group (except ownership transfer)
+      allow update: if isGroupAdmin(groupId) &&
+                       request.resource.data.created_by == resource.data.created_by;
+      
+      // Only owner can delete (soft delete)
+      allow delete: if isGroupOwner(groupId);
+    }
+    
+    // ============================================================================
+    // EXPENSE GROUP MEMBERS COLLECTION
+    // ============================================================================
+    
+    match /expense_group_members/{memberDocId} {
+      // Members can read membership data
+      allow read: if isAuthenticated() && 
+                    (resource.data.user_id == userId() || 
+                     isGroupMember(resource.data.group_id));
+      
+      // Creating membership requires admin permission or self (for accepting invite)
+      allow create: if isAuthenticated() &&
+                       (isGroupAdmin(request.resource.data.group_id) ||
+                        request.resource.data.user_id == userId());
+      
+      // Update: Admin can update anyone, members can only deactivate themselves
+      allow update: if isAuthenticated() &&
+                       (isGroupAdmin(resource.data.group_id) ||
+                        (resource.data.user_id == userId() && 
+                         request.resource.data.is_active == false));
+      
+      // Only admin/owner can delete member records
+      allow delete: if isGroupAdmin(resource.data.group_id);
+    }
+    
+    // ============================================================================
+    // EXPENSES COLLECTION
+    // ============================================================================
+    
+    match /expense_expenses/{expenseId} {
+      // Group members can read expenses
+      allow read: if isGroupMember(resource.data.group_id);
+      
+      // Members can create expenses in their group
+      allow create: if isAuthenticated() &&
+                       isGroupMember(request.resource.data.group_id) &&
+                       request.resource.data.created_by == userId() &&
+                       isPositiveNumber('amount');
+      
+      // Creator or admin can update
+      allow update: if isAuthenticated() &&
+                       isGroupMember(resource.data.group_id) &&
+                       (resource.data.created_by == userId() || 
+                        isGroupAdmin(resource.data.group_id)) &&
+                       request.resource.data.group_id == resource.data.group_id &&
+                       request.resource.data.created_by == resource.data.created_by;
+      
+      // Creator or admin can delete (soft delete)
+      allow delete: if isAuthenticated() &&
+                       isGroupMember(resource.data.group_id) &&
+                       (resource.data.created_by == userId() || 
+                        isGroupAdmin(resource.data.group_id));
+    }
+    
+    // ============================================================================
+    // SETTLEMENTS COLLECTION
+    // ============================================================================
+    
+    match /expense_settlements/{settlementId} {
+      // Group members can read settlements
+      allow read: if isGroupMember(resource.data.group_id);
+      
+      // Members can create settlements (as payer or recorder)
+      allow create: if isAuthenticated() &&
+                       isGroupMember(request.resource.data.group_id) &&
+                       (request.resource.data.from_user_id == userId() ||
+                        request.resource.data.recorded_by == userId()) &&
+                       isPositiveNumber('amount');
+      
+      // Payer, receiver, or admin can update
+      allow update: if isAuthenticated() &&
+                       isGroupMember(resource.data.group_id) &&
+                       (resource.data.from_user_id == userId() ||
+                        resource.data.to_user_id == userId() ||
+                        isGroupAdmin(resource.data.group_id));
+      
+      // Admin can delete
+      allow delete: if isGroupAdmin(resource.data.group_id);
+    }
+    
+    // ============================================================================
+    // GROUP BALANCES COLLECTION
+    // ============================================================================
+    
+    match /expense_group_balances/{balanceId} {
+      // Group members can read balances
+      allow read: if isGroupMember(balanceId);
+      
+      // Only backend can write (no direct client writes)
+      allow write: if false;
+    }
+    
+    // ============================================================================
+    // INVITATIONS COLLECTION
+    // ============================================================================
+    
+    match /expense_invitations/{invitationId} {
+      // Invitee can read their invitation (by email match)
+      // Group members can see invitations for their group
+      allow read: if isAuthenticated() &&
+                    (resource.data.email == request.auth.token.email ||
+                     isGroupMember(resource.data.group_id));
+      
+      // Admin/Owner can create invitations
+      allow create: if isAuthenticated() &&
+                       isGroupAdmin(request.resource.data.group_id) &&
+                       request.resource.data.invited_by == userId();
+      
+      // Invitee can accept/decline, admin can revoke
+      allow update: if isAuthenticated() &&
+                       (resource.data.email == request.auth.token.email ||
+                        isGroupAdmin(resource.data.group_id));
+      
+      // Admin can delete invitations
+      allow delete: if isGroupAdmin(resource.data.group_id);
+    }
+    
+    // ============================================================================
+    // AUDIT LOGS COLLECTION (Read-only for admins)
+    // ============================================================================
+    
+    match /audit_logs/{logId} {
+      // Only backend can write
+      allow create: if false;  // Backend uses admin SDK
+      allow read: if false;    // Use admin SDK for audit queries
+      allow update, delete: if false;
+    }
+    
+    // ============================================================================
+    // GROUP PLANNER COLLECTIONS (Separate from Expense Manager)
+    // ============================================================================
+    
+    match /groups/{groupId} {
+      allow read: if isAuthenticated() && userId() in resource.data.members;
+      allow create: if isAuthenticated() && request.resource.data.createdBy == userId();
+      allow update: if isAuthenticated() && userId() in resource.data.members;
+      allow delete: if isAuthenticated() && resource.data.createdBy == userId();
+    }
+    
+    match /group_members/{memberId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated();
+    }
+    
+    // ============================================================================
+    // DEFAULT DENY
+    // ============================================================================
+    
+    // Deny all other access
     match /{document=**} {
       allow read, write: if false;
     }

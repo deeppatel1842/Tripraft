@@ -1,38 +1,44 @@
 {
-  "timestamp": "2025-11-20T15:42:03.860751",
+  "timestamp": "2025-12-05T15:20:56.164871",
   "statistics": {
-    "uptime_seconds": 139.0531075000763,
+    "uptime_seconds": 737.888215303421,
     "total_requests": 0,
     "cache": {
-      "hits": 104,
-      "misses": 30,
-      "hit_rate": 77.61194029850746
+      "hits": 0,
+      "misses": 0,
+      "sets": 0,
+      "deletes": 0,
+      "hit_rate": 0,
+      "top_hit_keys": {},
+      "top_miss_keys": {}
     },
-    "performance": {
-      "GET FULL GROUP DATA": {
-        "avg_ms": 2210.125,
-        "min_ms": 1368.0,
-        "max_ms": 7804.0,
-        "count": 16
+    "batch": {
+      "reads": 0,
+      "writes": 0,
+      "ops_saved": 0
+    },
+    "firestore": {
+      "reads": 0,
+      "writes": 0,
+      "deletes": 0,
+      "queries": 0
+    },
+    "endpoint_counts": {},
+    "endpoint_avg_times": {},
+    "sequences": [],
+    "performance": {},
+    "phase17": {
+      "bugs_detected": {
+        "bugs": 0,
+        "warnings": 0,
+        "issues": [],
+        "warnings_list": [],
+        "high_op_requests": []
       },
-      "CREATE EXPENSE": {
-        "avg_ms": 361.0,
-        "min_ms": 361.0,
-        "max_ms": 361.0,
-        "count": 1
-      },
-      "UPDATE EXPENSE": {
-        "avg_ms": 20.0,
-        "min_ms": 20.0,
-        "max_ms": 20.0,
-        "count": 1
-      },
-      "DELETE EXPENSE": {
-        "avg_ms": 434.0,
-        "min_ms": 434.0,
-        "max_ms": 434.0,
-        "count": 1
-      }
+      "slow_requests": [],
+      "responses_with_deltas": 0,
+      "responses_without_deltas": 0,
+      "history_entries_returned": 0
     }
   },
   "log_file": "C:\\Users\\Kashyap\\Documents\\Deep\\Travel\\web\\backend\\logs\\captured_logs.txt"

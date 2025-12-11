@@ -336,6 +336,10 @@ export const GroupPlannerProvider = ({ children }) => {
     try {
       console.log('⚡ [CONTEXT] Deleting group optimistically:', groupId);
       
+      // CRITICAL: Stop Firestore listeners BEFORE deletion to prevent permission errors
+      console.log('🧹 [CONTEXT] Stopping Firestore listeners for group:', groupId);
+      firestoreListenerService.stopListeningToGroup(groupId);
+      
       // ⚡ PHASE 3: Optimistic delete
       await optimisticUpdateService.execute({
         id: `delete-group-${groupId}`,

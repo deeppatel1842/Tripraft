@@ -1,0 +1,899 @@
+{
+  "country": "Norway",
+  "state": "Bod",
+  "cities": [
+    {
+      "city": "Bodø",
+      "nearest_airport": "Bodø Airport",
+      "places": [
+        {
+          "name": "Saltstraumen",
+          "ai_summary": "The world's strongest tidal current, offering breathtaking views and a unique natural phenomenon.",
+          "name_english": "Saltstraumen",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "8:45 AM",
+          "sunset_time": "3:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed during high tide."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture the whirlpools.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.2345,
+            "longitude": 14.5632
+          },
+          "address": "Saltstraumen, Bodø, Norway",
+          "official_website": "https://www.visitbodo.com",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Scenic"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Saltstraumen.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Saltstraumen.jpg/960px-Saltstraumen.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Saltstraumen",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Clemensfranz\" title=\"User:Clemensfranz\">Clemensfranz</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Saltstraumen.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The tidal current at <a href=\"https://en.wikipedia.org/wiki/Saltstraumen\" class=\"extiw\" title=\"en:Saltstraumen\">Saltstraumen</a>, near <a href=\"https://no.wikipedia.org/wiki/Bod%C3%B8\" class=\"extiw\" title=\"no:Bodø\">Bodø</a>, <a href=\"https://en.wikipedia.org/wiki/Norway\" class=\"extiw\" title=\"en:Norway\">Norway</a>, in June 2005. Two piers of the highway 17 bridge are visible on the far side."
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "Norwegian Aviation Museum",
+          "ai_summary": "A museum showcasing Norway's aviation history, with interactive exhibits and historic aircraft.",
+          "name_english": "Norwegian Aviation Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 150",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 4:00 PM",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the flight simulator experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.2804,
+            "longitude": 14.4068
+          },
+          "address": "Olav V gate, Bodø, Norway",
+          "official_website": "https://www.norwegianaviationmuseum.com",
+          "tags": [
+            "History",
+            "Education",
+            "Interactive"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Norsk_Luftfartsmuseum.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Norsk_Luftfartsmuseum.jpg/960px-Norsk_Luftfartsmuseum.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Norsk Luftfartsmuseum",
+                  "author": "Røed",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Norsk_Luftfartsmuseum.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Bodø Cathedral",
+          "ai_summary": "A striking modern cathedral known for its unique architecture and beautiful stained glass.",
+          "name_english": "Bodø Cathedral",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "8:50 AM",
+          "sunset_time": "3:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 4:00 PM",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Open for services and special events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Attend a concert or service for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.2833,
+            "longitude": 14.4042
+          },
+          "address": "Bodø Cathedral, Bodø, Norway",
+          "official_website": "https://www.bodokatedral.no",
+          "tags": [
+            "Architecture",
+            "Culture",
+            "Religion"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bodø_Town_Hall,_South_view_20150608_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Bod%C3%B8_Town_Hall%2C_South_view_20150608_1.jpg/960px-Bod%C3%B8_Town_Hall%2C_South_view_20150608_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bodø Town Hall, South view 20150608 1",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:DXR\" title=\"User:DXR\">DXR</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bod%C3%B8_Town_Hall,_South_view_20150608_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "A south view of the town hall of Bodø"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Kjerringøy Trading Post (Historic Site)",
+          "ai_summary": "A well-preserved trading post from the 18th century, offering a glimpse into Norway's coastal history.",
+          "name_english": "Kjerringøy Trading Post",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "8:55 AM",
+          "sunset_time": "3:20 PM",
+          "cost": "NOK 100",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Early afternoon",
+          "place_tip": "Visit the museum shop for local handicrafts.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.5631,
+            "longitude": 14.6911
+          },
+          "address": "Kjerringøy, Bodø, Norway",
+          "official_website": "https://www.kjerringoy.no",
+          "tags": [
+            "History",
+            "Museum",
+            "Shopping"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kjerringøy_Handelssted.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Kjerring%C3%B8y_Handelssted.jpg/960px-Kjerring%C3%B8y_Handelssted.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kjerringøy Handelssted",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Kraumen&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Kraumen (page does not exist)\">Øyvind Nohr Søderbom</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kjerring%C3%B8y_Handelssted.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Kjerringøy tradingpost"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Bodø War Memorial",
+          "ai_summary": "A memorial dedicated to the soldiers from Bodø who fought in World War II.",
+          "name_english": "Bodø War Memorial",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "A quiet place for reflection."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Combine with a visit to the nearby marina.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.2831,
+            "longitude": 14.4048
+          },
+          "address": "Bodø, Norway",
+          "official_website": "https://www.visitbodo.com",
+          "tags": [
+            "History",
+            "Memorial",
+            "Culture"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bodø_domkirke.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Bod%C3%B8_domkirke.jpg/886px-Bod%C3%B8_domkirke.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bodø domkirke",
+                  "author": "<a href=\"https://no.wikipedia.org/wiki/User:Thomaa\" class=\"extiw\" title=\"no:User:Thomaa\">User:Thomaa</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bod%C3%B8_domkirke.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Bod%C3%B8_Cathedral\" class=\"extiw\" title=\"en:Bodø Cathedral\">Bodø Cathedral</a> seen from southeast, winter 2004"
+                }
+              }
+            }
+          },
+          "rank_score": 0.71
+        },
+        {
+          "name": "Breivika Beach",
+          "ai_summary": "A scenic beach located a short drive from Bodø, perfect for a relaxing day out.",
+          "name_english": "Breivika Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "8:40 AM",
+          "sunset_time": "3:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best for sunbathing and picnics."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring your own food and drinks.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.2839,
+            "longitude": 14.4045
+          },
+          "address": "Breivika, Bodø, Norway",
+          "official_website": "https://www.visitbodo.com",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Bod",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Bodø Public Library",
+          "ai_summary": "A modern library with a great selection of books, media, and community events.",
+          "name_english": "Bodø Public Library",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 3:00 PM",
+            "Sunday": "Closed",
+            "notes": "Check schedule for events and activities."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Join a local event or workshop.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.2833,
+            "longitude": 14.4042
+          },
+          "address": "Bodø, Norway",
+          "official_website": "https://www.bodopublikum.no",
+          "tags": [
+            "Education",
+            "Culture",
+            "Community"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:GedankenTanken_Köln_2018_-_04_-_Redner_Bodo_Schäfer-0154.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/GedankenTanken_K%C3%B6ln_2018_-_04_-_Redner_Bodo_Sch%C3%A4fer-0154.jpg/960px-GedankenTanken_K%C3%B6ln_2018_-_04_-_Redner_Bodo_Sch%C3%A4fer-0154.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "GedankenTanken Köln 2018 - 04 - Redner Bodo Schäfer-0154",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:GedankenTanken_K%C3%B6ln_2018_-_04_-_Redner_Bodo_Sch%C3%A4fer-0154.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "GedankenTanken Köln 2018 - 04 - Redner Bodo Schäfer"
+                }
+              }
+            }
+          },
+          "rank_score": 0.726
+        },
+        {
+          "name": "City Nord Shopping Centre",
+          "ai_summary": "The largest shopping center in Bodø, featuring a wide range of shops, restaurants, and services.",
+          "name_english": "City Nord Shopping Centre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 8:00 PM",
+            "Tuesday": "10:00 AM - 8:00 PM",
+            "Wednesday": "10:00 AM - 8:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 8:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "Closed",
+            "notes": "Check for holiday hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Visit the food court for a variety of dining options.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.2804,
+            "longitude": 14.4068
+          },
+          "address": "Bodø, Norway",
+          "official_website": "https://www.citynord.no",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Entertainment"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:City_Nord_shopping_centre_in_Bodø.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/City_Nord_shopping_centre_in_Bod%C3%B8.jpg/960px-City_Nord_shopping_centre_in_Bod%C3%B8.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "City Nord shopping centre in Bodø",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Manxruler\" title=\"User:Manxruler\">Manxruler</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:City_Nord_shopping_centre_in_Bod%C3%B8.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The shopping centre <a href=\"https://en.wikipedia.org/wiki/City_Nord\" class=\"extiw\" title=\"en:City Nord\">City Nord</a> in <a href=\"https://en.wikipedia.org/wiki/Bod%C3%B8\" class=\"extiw\" title=\"en:Bodø\">Bodø</a>, Nordland, Norway."
+                }
+              }
+            }
+          },
+          "rank_score": 0.774
+        },
+        {
+          "name": "Stormen Concert Hall",
+          "ai_summary": "A modern concert hall in Bodø, hosting a variety of musical and cultural events.",
+          "name_english": "Stormen Concert Hall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Varies by event",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Check schedule for events."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening, during events",
+          "place_tip": "Book tickets in advance for popular shows.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.2833,
+            "longitude": 14.4042
+          },
+          "address": "Bodø, Norway",
+          "official_website": "https://www.stormen.no",
+          "tags": [
+            "Music",
+            "Culture",
+            "Events"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Teatro_dal_Verme_Interior_Circa_1875.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Teatro_dal_Verme_Interior_Circa_1875.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Teatro dal Verme Interior Circa 1875",
+                  "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Teatro_dal_Verme_Interior_Circa_1875.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "<ul><li>Description: A late 19th century engraving depicting the interior of the Teatro Dal Verme in Milan</li>\n<li>Source: <a rel=\"nofollow\" class=\"external text\" href=\"http://www.dalverme.org\">www.dalverme.org</a></li></ul>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Saltfjellet–Svartisen National Park",
+          "ai_summary": "A stunning national park featuring glaciers, mountains, and diverse wildlife.",
+          "name_english": "Saltfjellet–Svartisen National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "8:30 AM",
+          "sunset_time": "3:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored with a guide."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Wear sturdy shoes and bring water.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.4333,
+            "longitude": 14.6667
+          },
+          "address": "Saltfjellet–Svartisen National Park, Norway",
+          "official_website": "https://www.nationalparkvakt.no",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Wildlife"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bjellåvasstua.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bjell%C3%A5vasstua.jpg/960px-Bjell%C3%A5vasstua.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bjellåvasstua",
+                  "author": "Lars Røed Hansen",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bjell%C3%A5vasstua.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "<a href=\"https://no.wikipedia.org/wiki/Bod%C3%B8_og_Omegns_Turistforening\" class=\"extiw\" title=\"no:Bodø og Omegns Turistforening\">Bodø og Omegns Turistforenings</a>  hytte   <a href=\"https://no.wikipedia.org/wiki/Bjell%C3%A5vasstua\" class=\"extiw\" title=\"no:Bjellåvasstua\">Bjellåvasstua</a>, 720 m.o.h."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Arctic Coastal Route Drive",
+          "ai_summary": "A scenic drive offering breathtaking views of the coast, fjords, and mountains.",
+          "name_english": "Arctic Coastal Route Drive",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "8:15 AM",
+          "sunset_time": "3:55 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Drive carefully and watch for wildlife."
+          },
+          "suggested_duration": "2-5 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Stop at viewpoints for photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.2833,
+            "longitude": 14.4042
+          },
+          "address": "Norway",
+          "official_website": "https://www.visitnorway.com",
+          "tags": [
+            "Scenic Drive",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Bod",
+          "photos": {},
+          "rank_score": 0.802
+        },
+        {
+          "name": "Svartisen Glacier Hike (day trip)",
+          "ai_summary": "A guided day trip to explore the stunning Svartisen Glacier.",
+          "name_english": "Svartisen Glacier Hike",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "8:00 AM",
+          "sunset_time": "4:00 PM",
+          "cost": "NOK 1200",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:00 AM - 8:00 PM",
+            "Tuesday": "8:00 AM - 8:00 PM",
+            "Wednesday": "8:00 AM - 8:00 PM",
+            "Thursday": "8:00 AM - 8:00 PM",
+            "Friday": "8:00 AM - 8:00 PM",
+            "Saturday": "8:00 AM - 8:00 PM",
+            "Sunday": "8:00 AM - 8:00 PM",
+            "notes": "Booking required."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Dress in layers and bring sunglasses.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.4333,
+            "longitude": 14.6667
+          },
+          "address": "Svartisen, Norway",
+          "official_website": "https://www.glacierhike.no",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bjellåvasstua.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bjell%C3%A5vasstua.jpg/960px-Bjell%C3%A5vasstua.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bjellåvasstua",
+                  "author": "Lars Røed Hansen",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bjell%C3%A5vasstua.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "<a href=\"https://no.wikipedia.org/wiki/Bod%C3%B8_og_Omegns_Turistforening\" class=\"extiw\" title=\"no:Bodø og Omegns Turistforening\">Bodø og Omegns Turistforenings</a>  hytte   <a href=\"https://no.wikipedia.org/wiki/Bjell%C3%A5vasstua\" class=\"extiw\" title=\"no:Bjellåvasstua\">Bjellåvasstua</a>, 720 m.o.h."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Nyholmen Skandse Fort",
+          "ai_summary": "A historic fort with panoramic views of Bodø and the surrounding islands.",
+          "name_english": "Nyholmen Skandse Fort",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "8:35 AM",
+          "sunset_time": "3:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited with a guide."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Bring binoculars for birdwatching.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.2833,
+            "longitude": 14.4042
+          },
+          "address": "Nyholmen, Bodø, Norway",
+          "official_website": "https://www.visitbodo.com",
+          "tags": [
+            "History",
+            "Scenic",
+            "Photography"
+          ],
+          "state": "Bod",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Fauske Marble Caves",
+          "ai_summary": "Natural marble caves located near Fauske, offering guided tours and stunning rock formations.",
+          "name_english": "Fauske Marble Caves",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "8:20 AM",
+          "sunset_time": "4:10 PM",
+          "cost": "NOK 250",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Guided tours only."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Wear comfortable shoes for walking.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.2833,
+            "longitude": 14.4042
+          },
+          "address": "Fauske, Norway",
+          "official_website": "https://www.marblecaves.no",
+          "tags": [
+            "Nature",
+            "Caves",
+            "Adventure"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Fauske_sentrum.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Fauske_sentrum.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Fauske sentrum",
+                  "author": "Fauske kommune",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Fauske_sentrum.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "This is a picture of Fauske city taken from air plane."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Bodø Harbour Fish Market",
+          "ai_summary": "A local fish market in Bodø, offering fresh seafood and local delicacies.",
+          "name_english": "Bodø Harbour Fish Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "7:00 AM - 3:00 PM",
+            "Tuesday": "7:00 AM - 3:00 PM",
+            "Wednesday": "7:00 AM - 3:00 PM",
+            "Thursday": "7:00 AM - 3:00 PM",
+            "Friday": "7:00 AM - 3:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local fish soup.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.2833,
+            "longitude": 14.4042
+          },
+          "address": "Bodø, Norway",
+          "official_website": "https://www.visitbodo.com",
+          "tags": [
+            "Food",
+            "Market",
+            "Culture"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hellemobotn.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Hellemobotn.jpg/960px-Hellemobotn.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Hellemobotn",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Helge_H%C3%B8if%C3%B8dt\" title=\"User:Helge Høifødt\">Helge Høifødt</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hellemobotn.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Hellemobotn with Hellemofjorden, Tysfjord"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Northern Lights Viewpoint",
+          "ai_summary": "A popular viewpoint in Bodø for experiencing the magical Northern Lights.",
+          "name_english": "Northern Lights Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "8:50 AM",
+          "sunset_time": "3:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed away from city lights."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening, during winter",
+          "place_tip": "Dress warmly and bring a camera.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.2833,
+            "longitude": 14.4042
+          },
+          "address": "Bodø, Norway",
+          "official_website": "https://www.visitbodo.com",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Scenic"
+          ],
+          "state": "Bod",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Battle_of_Norway.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Battle_of_Norway.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Battle of Norway",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dybdal&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dybdal (page does not exist)\">User:Dybdal</a> / Bagn Bygdesamling - Valdres Folkemuseum, Norway / British Armed Forces.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Battle_of_Norway.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Battle of Norway."
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        }
+      ]
+    }
+  ]
+}

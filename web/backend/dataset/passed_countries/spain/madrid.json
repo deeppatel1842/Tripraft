@@ -1,0 +1,1173 @@
+{
+  "country": "Spain",
+  "state": "Madrid",
+  "cities": [
+    {
+      "city": "Madrid",
+      "nearest_airport": "Adolfo Suárez Madrid-Barajas Airport",
+      "places": [
+        {
+          "name": "Royal Palace of Madrid",
+          "ai_summary": "A grand palace and official residence of the Spanish royal family, showcasing opulent architecture and rich history.",
+          "name_english": "Royal Palace of Madrid",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Hours may vary during official events."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Book tickets online to skip the queue.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 40.417,
+            "longitude": -3.714
+          },
+          "address": "Calle de Bailén, s/n, 28071 Madrid, Spain",
+          "official_website": "https://www.patrimonionacional.es",
+          "tags": [
+            "History",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Palacio_Real_de_Madrid_Julio_2016_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Palacio_Real_de_Madrid_Julio_2016_%28cropped%29.jpg/960px-Palacio_Real_de_Madrid_Julio_2016_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Palacio Real de Madrid Julio 2016 (cropped)",
+                  "author": "Tim Adams",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Palacio_Real_de_Madrid_Julio_2016_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Panorámica desde el Hotel RIU"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Plaza Mayor",
+          "ai_summary": "A historic square in the heart of Madrid, surrounded by stunning architecture and vibrant cafes.",
+          "name_english": "Plaza Mayor",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the evening for a lively atmosphere."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local calamari sandwich at a nearby cafe.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.415,
+            "longitude": -3.707
+          },
+          "address": "Plaza Mayor, 28012 Madrid, Spain",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "History",
+            "Food"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Madrid_Plaza_Mayor_(48733706273).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Madrid_Plaza_Mayor_%2848733706273%29.jpg/960px-Madrid_Plaza_Mayor_%2848733706273%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Madrid Plaza Mayor (48733706273)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46191841@N00\">Jorge Franganillo</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Madrid_Plaza_Mayor_(48733706273).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Madrid (España)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Puerta del Sol",
+          "ai_summary": "A bustling public square, considered the center of Madrid, known for the famous 'Bear and the Strawberry Tree' statue.",
+          "name_english": "Puerta del Sol",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Always lively, best visited at any time."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the nearby shops and cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4168,
+            "longitude": -3.7038
+          },
+          "address": "Puerta del Sol, 28013 Madrid, Spain",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "History",
+            "Shopping"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Puerta_del_Sol_(Madrid)_10.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Puerta_del_Sol_%28Madrid%29_10.jpg/960px-Puerta_del_Sol_%28Madrid%29_10.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Puerta del Sol (Madrid) 10",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/tomasfano/\">Tomás Fano</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Puerta_del_Sol_(Madrid)_10.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "<a href=\"//commons.wikimedia.org/wiki/Category:Puerta_del_Sol\" title=\"Category:Puerta del Sol\"><b>Puerta del Sol</b></a> (square) in <a href=\"//commons.wikimedia.org/wiki/Madrid\" title=\"Madrid\">Madrid</a> (<a href=\"//commons.wikimedia.org/wiki/Spain\" class=\"mw-redirect\" title=\"Spain\">Spain</a>)."
+                }
+              }
+            }
+          },
+          "rank_score": 0.826
+        },
+        {
+          "name": "Prado Museum",
+          "ai_summary": "One of the world's premier art galleries, featuring works by Spanish masters like Velázquez and Goya.",
+          "name_english": "Prado Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "20:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 - 20:00",
+            "Tuesday": "10:00 - 20:00",
+            "Wednesday": "10:00 - 20:00",
+            "Thursday": "10:00 - 20:00",
+            "Friday": "10:00 - 20:00",
+            "Saturday": "10:00 - 20:00",
+            "Sunday": "10:00 - 20:00",
+            "notes": "Closed on certain holidays."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Check for free entry times.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 40.4138,
+            "longitude": -3.6921
+          },
+          "address": "Calle de Felipe IV, s/n, 28014 Madrid, Spain",
+          "official_website": "https://www.museodelprado.es",
+          "tags": [
+            "Art",
+            "Culture",
+            "History"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Museo_del_Prado_2016_(25185969599).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Museo_del_Prado_2016_%2825185969599%29.jpg/960px-Museo_del_Prado_2016_%2825185969599%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Museo del Prado 2016 (25185969599)",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q30564104\" class=\"extiw\" title=\"d:Q30564104\"><span title=\"Spanish wikipedian\">Emilio J. Rodríguez Posada</span></a></bdi>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Museo_del_Prado_2016_(25185969599).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Pórtico hexástilo (seis columnas) de estilo neoclásico del <a href=\"//commons.wikimedia.org/wiki/Museo_del_Prado\" title=\"Museo del Prado\">Museo del Prado</a> en Madrid, conocido como Puerta de Velázquez. Diseñado por el arquitecto Juan de Villanueva (1739-1811)."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Reina Sofía Museum",
+          "ai_summary": "A modern art museum, home to Picasso's Guernica and other significant 20th-century artworks.",
+          "name_english": "Reina Sofía Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "21:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 21:00",
+            "Tuesday": "10:00 - 21:00",
+            "Wednesday": "10:00 - 21:00",
+            "Thursday": "10:00 - 21:00",
+            "Friday": "10:00 - 21:00",
+            "Saturday": "10:00 - 21:00",
+            "Sunday": "10:00 - 21:00",
+            "notes": "Free entry on certain days and times."
+          },
+          "suggested_duration": "1-3 hours",
+          "best_time_to_visit": "Late afternoon or evening",
+          "place_tip": "Visit the museum shop for unique souvenirs.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 40.4082,
+            "longitude": -3.6915
+          },
+          "address": "Calle de Santa Isabel, 52, 28012 Madrid, Spain",
+          "official_website": "https://www.museoreinasofia.es",
+          "tags": [
+            "Art",
+            "Culture",
+            "History"
+          ],
+          "state": "Madrid",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Thyssen-Bornemisza Museum",
+          "ai_summary": "An art museum with a vast collection ranging from the Middle Ages to the 20th century, including works by Van Gogh and Monet.",
+          "name_english": "Thyssen-Bornemisza Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 19:00",
+            "Tuesday": "10:00 - 19:00",
+            "Wednesday": "10:00 - 19:00",
+            "Thursday": "10:00 - 19:00",
+            "Friday": "10:00 - 19:00",
+            "Saturday": "10:00 - 19:00",
+            "Sunday": "10:00 - 19:00",
+            "notes": "Closed on certain holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or early afternoon",
+          "place_tip": "Combine your visit with the nearby Prado Museum.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 40.4131,
+            "longitude": -3.6922
+          },
+          "address": "Paseo del Prado, 8, 28014 Madrid, Spain",
+          "official_website": "https://www.museothyssen.org",
+          "tags": [
+            "Art",
+            "Culture",
+            "History"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Site_of_the_Retiro_and_the_Prado_in_Madrid_49_(29684554308).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Site_of_the_Retiro_and_the_Prado_in_Madrid_49_%2829684554308%29.jpg/960px-Site_of_the_Retiro_and_the_Prado_in_Madrid_49_%2829684554308%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Site of the Retiro and the Prado in Madrid 49 (29684554308)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/68444185@N04\">Kyle Magnuson</a> from Los Angeles, United States",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Site_of_the_Retiro_and_the_Prado_in_Madrid_49_(29684554308).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Site of the Retiro and the Prado in Madrid 49"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Retiro Park & Crystal Palace",
+          "ai_summary": "A large and popular park in the city center, featuring the Crystal Palace, a glass pavilion that hosts art exhibitions.",
+          "name_english": "Retiro Park & Crystal Palace",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "20:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00 - 22:00",
+            "Tuesday": "06:00 - 22:00",
+            "Wednesday": "06:00 - 22:00",
+            "Thursday": "06:00 - 22:00",
+            "Friday": "06:00 - 22:00",
+            "Saturday": "06:00 - 22:00",
+            "Sunday": "06:00 - 22:00",
+            "notes": "The park is open, but the Crystal Palace has specific exhibition hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a picnic and enjoy it by the lake.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4153,
+            "longitude": -3.684
+          },
+          "address": "Plaza de la Independencia, 7, 28001 Madrid, Spain",
+          "official_website": "https://www.esmadrid.com",
+          "tags": [
+            "Nature",
+            "Culture",
+            "Leisure"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:MADRID_051116_MXALX_041.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/MADRID_051116_MXALX_041.jpg/960px-MADRID_051116_MXALX_041.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "MADRID 051116 MXALX 041",
+                  "author": "Max Alexander / <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/57084189@N03\">PromoMadrid</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:MADRID_051116_MXALX_041.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "<p>Madrid Retiro Park\n<a href=\"https://en.wikipedia.org/wiki/es:Parque_del_Retiro\" class=\"extiw\" title=\"w:es:Parque del Retiro\">es.wikipedia.org/wiki/Parque_del_Retiro</a>\n</p><p>This photograph can be used for  publications, including this copyright statement:  “©PromoMadrid, author Max Alexander”.\n</p>\nEsta fotografía puede usarse en publicaciones,  incluyendo la declaración “©PromoMadrid, autor Max Alexander”."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Temple of Debod",
+          "ai_summary": "An ancient Egyptian temple relocated to Madrid, offering stunning sunset views and a peaceful park setting.",
+          "name_english": "Temple of Debod",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "20:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 20:00",
+            "Tuesday": "09:00 - 20:00",
+            "Wednesday": "09:00 - 20:00",
+            "Thursday": "09:00 - 20:00",
+            "Friday": "09:00 - 20:00",
+            "Saturday": "09:00 - 20:00",
+            "Sunday": "09:00 - 20:00",
+            "notes": "Best visited at sunset for the views."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Check the sunset time and arrive early for a good spot.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4252,
+            "longitude": -3.7172
+          },
+          "address": "Calle de Ferraz, 1, 28008 Madrid, Spain",
+          "official_website": null,
+          "tags": [
+            "History",
+            "Culture",
+            "Nature"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Templo_de_Debod_in_Madrid.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Templo_de_Debod_in_Madrid.jpg/960px-Templo_de_Debod_in_Madrid.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Templo de Debod in Madrid",
+                  "author": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/jiuguangw\">https://www.flickr.com/photos/jiuguangw</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Templo_de_Debod_in_Madrid.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Temple of Debod, Madrid"
+                }
+              }
+            }
+          },
+          "rank_score": 0.81
+        },
+        {
+          "name": "Gran Vía",
+          "ai_summary": "A major street in Madrid, known for its grand architecture, shopping, and vibrant nightlife.",
+          "name_english": "Gran Vía",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Always lively, best visited at any time."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the side streets for unique shops and cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4191,
+            "longitude": -3.7035
+          },
+          "address": "Gran Vía, 28013 Madrid, Spain",
+          "official_website": null,
+          "tags": [
+            "Shopping",
+            "Culture",
+            "Nightlife"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Gran_Vía_(Madrid)_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Gran_V%C3%ADa_%28Madrid%29_1.jpg/960px-Gran_V%C3%ADa_%28Madrid%29_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Gran Vía (Madrid) 1",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://flickr.com/people/25716821@N04\">Felipe Gabaldón</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Gran_V%C3%ADa_(Madrid)_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Gran Vía, Madrid. Vista general. A la derecha el Palacio de la Prensa. 2010"
+                }
+              }
+            }
+          },
+          "rank_score": 0.726
+        },
+        {
+          "name": "Almudena Cathedral",
+          "ai_summary": "The main cathedral of Madrid, known for its stunning architecture and beautiful interior.",
+          "name_english": "Almudena Cathedral",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 20:00",
+            "Tuesday": "09:00 - 20:00",
+            "Wednesday": "09:00 - 20:00",
+            "Thursday": "09:00 - 20:00",
+            "Friday": "09:00 - 20:00",
+            "Saturday": "09:00 - 20:00",
+            "Sunday": "09:00 - 20:00",
+            "notes": "Check for mass times and special events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the dome for a panoramic view of the city.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4154,
+            "longitude": -3.7116
+          },
+          "address": "Calle de Bailén, 10, 28013 Madrid, Spain",
+          "official_website": null,
+          "tags": [
+            "Religion",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Almudena_2022_-_overview.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Almudena_2022_-_overview.jpg/960px-Almudena_2022_-_overview.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Almudena 2022 - overview",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Fernando\" class=\"mw-userlink\" title=\"User:Fernando\">Fernando</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Almudena_2022_-_overview.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Almudena 2022 - overview"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Puerta de Alcalá",
+          "ai_summary": "A monumental gate that was once the main entrance to the city of Madrid, offering great photo opportunities.",
+          "name_english": "Puerta de Alcalá",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed in the evening when it's illuminated."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Combine your visit with a walk in Retiro Park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4268,
+            "longitude": -3.6865
+          },
+          "address": "Plaza de la Independencia, 28001 Madrid, Spain",
+          "official_website": null,
+          "tags": [
+            "History",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Puerta_de_Alcalá_2025.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Puerta_de_Alcal%C3%A1_2025.jpg/960px-Puerta_de_Alcal%C3%A1_2025.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Puerta de Alcalá 2025",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Fernando\" title=\"User:Fernando\">Fernando Pascullo</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Puerta_de_Alcal%C3%A1_2025.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "East façade of <a href=\"//commons.wikimedia.org/wiki/Category:Puerta_de_Alcal%C3%A1,_Madrid\" title=\"Category:Puerta de Alcalá, Madrid\"><b>Puerta de Alcalá</b></a> (<a href=\"//commons.wikimedia.org/wiki/Madrid\" title=\"Madrid\">Madrid</a>, <a href=\"//commons.wikimedia.org/wiki/Spain\" class=\"mw-redirect\" title=\"Spain\">Spain</a>, 1774–1778). Architect: <a href=\"//commons.wikimedia.org/wiki/Category:Francesco_Sabatini\" title=\"Category:Francesco Sabatini\">Francesco Sabatini</a> (1722–1797)."
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Santiago Bernabéu Stadium",
+          "ai_summary": "The home stadium of Real Madrid, one of the most famous football clubs in the world.",
+          "name_english": "Santiago Bernabéu Stadium",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Entry fee required for stadium tour",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 19:30",
+            "Tuesday": "10:00 - 19:30",
+            "Wednesday": "10:00 - 19:30",
+            "Thursday": "10:00 - 19:30",
+            "Friday": "10:00 - 19:30",
+            "Saturday": "10:00 - 19:30",
+            "Sunday": "10:00 - 19:30",
+            "notes": "Check for match days and events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Book the stadium tour in advance.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 40.4531,
+            "longitude": -3.6883
+          },
+          "address": "Av. de Concha Espina, 1, 28036 Madrid, Spain",
+          "official_website": "https://www.realmadrid.com",
+          "tags": [
+            "Sports",
+            "Culture",
+            "Entertainment"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Estadio_Santiago_Bernabéu_Madrid.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Estadio_Santiago_Bernab%C3%A9u_Madrid.jpg/960px-Estadio_Santiago_Bernab%C3%A9u_Madrid.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Estadio Santiago Bernabéu Madrid",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Zoser&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Zoser (page does not exist)\">Zoser</a>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Estadio_Santiago_Bernab%C3%A9u_Madrid.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Aspecto del Estadio Santiago Bernabéu de Madrid en la previa del partido de vuelta de semifinales de la UEFA Champions League, disputado entre el Real Madrid y el Bayern de Múnich."
+                }
+              }
+            }
+          },
+          "rank_score": 0.826
+        },
+        {
+          "name": "Plaza de Cibeles",
+          "ai_summary": "A famous square known for the stunning Cibeles Fountain and the impressive Palacio de Cibeles.",
+          "name_english": "Plaza de Cibeles",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed in the evening when the fountain is illuminated."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit the nearby Banco de España and Retiro Park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4192,
+            "longitude": -3.6933
+          },
+          "address": "Plaza de Cibeles, 28014 Madrid, Spain",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "History",
+            "Architecture"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cibeles_desde_el_Ayuntamiento_(Madrid)_(14203354114).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Cibeles_desde_el_Ayuntamiento_%28Madrid%29_%2814203354114%29.jpg/960px-Cibeles_desde_el_Ayuntamiento_%28Madrid%29_%2814203354114%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cibeles desde el Ayuntamiento (Madrid) (14203354114)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/11257766@N04\">Miguel  Diaz</a> from Boadilla del Monte, España-Spain",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cibeles_desde_el_Ayuntamiento_(Madrid)_(14203354114).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Plaza de Cibeles, Madrid, España."
+                }
+              }
+            }
+          },
+          "rank_score": 0.81
+        },
+        {
+          "name": "El Rastro Market",
+          "ai_summary": "A popular open-air flea market held every Sunday, offering a wide variety of goods and antiques.",
+          "name_english": "El Rastro Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "Closed",
+            "Sunday": "09:00 - 15:00",
+            "notes": "Arrive early for the best finds."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Be prepared to haggle for the best prices.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4144,
+            "longitude": -3.7099
+          },
+          "address": "Calle de la Ribera de Curtidores, 28005 Madrid, Spain",
+          "official_website": null,
+          "tags": [
+            "Shopping",
+            "Culture",
+            "Leisure"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:RastroinMadrid.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/RastroinMadrid.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "RastroinMadrid",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Msoltanolkotabii&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Msoltanolkotabii (page does not exist)\">Msoltanolkotabii</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:RastroinMadrid.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Rastro in Madrid"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Metropolis Building",
+          "ai_summary": "An iconic building in Madrid, known for its impressive dome and as a symbol of the city.",
+          "name_english": "Metropolis Building",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed in the evening when it's illuminated."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the surrounding area for great photo angles.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4195,
+            "longitude": -3.7038
+          },
+          "address": "Gran Vía, 28, 28013 Madrid, Spain",
+          "official_website": null,
+          "tags": [
+            "Architecture",
+            "Culture",
+            "Photography"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Edificio_Metrópolis,_calle_de_Alcalá,_Madrid,_España,_2017-05-18,_DD_08.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Edificio_Metr%C3%B3polis%2C_calle_de_Alcal%C3%A1%2C_Madrid%2C_Espa%C3%B1a%2C_2017-05-18%2C_DD_08.jpg/960px-Edificio_Metr%C3%B3polis%2C_calle_de_Alcal%C3%A1%2C_Madrid%2C_Espa%C3%B1a%2C_2017-05-18%2C_DD_08.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Edificio Metrópolis, calle de Alcalá, Madrid, España, 2017-05-18, DD 08",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Edificio_Metr%C3%B3polis,_calle_de_Alcal%C3%A1,_Madrid,_Espa%C3%B1a,_2017-05-18,_DD_08.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Metrópolis Building, Alcalá Street, Madrid, Spain"
+                }
+              }
+            }
+          },
+          "rank_score": 0.874
+        },
+        {
+          "name": "Casa de Campo Park",
+          "ai_summary": "The largest park in Madrid, offering a zoo, amusement park, and beautiful lake.",
+          "name_english": "Casa de Campo Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "20:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "06:00 - 22:00",
+            "Tuesday": "06:00 - 22:00",
+            "Wednesday": "06:00 - 22:00",
+            "Thursday": "06:00 - 22:00",
+            "Friday": "06:00 - 22:00",
+            "Saturday": "06:00 - 22:00",
+            "Sunday": "06:00 - 22:00",
+            "notes": "The park is open, but specific attractions may have varying hours."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Rent a bike to explore the park more easily.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4155,
+            "longitude": -3.754
+          },
+          "address": "Camino de los Vinateros, 28011 Madrid, Spain",
+          "official_website": "https://www.esmadrid.com",
+          "tags": [
+            "Nature",
+            "Leisure",
+            "Family"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Casa_de_Campo_Lago_y_vista.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Casa_de_Campo_Lago_y_vista.jpg/960px-Casa_de_Campo_Lago_y_vista.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Casa de Campo Lago y vista",
+                  "author": "Håkan Svensson <a href=\"//commons.wikimedia.org/wiki/User:Xauxa\" title=\"User:Xauxa\">Xauxa</a>",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Casa_de_Campo_Lago_y_vista.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "Casa de Campo, Madrid, Spain. Lake and view."
+                }
+              }
+            }
+          },
+          "rank_score": 0.81
+        },
+        {
+          "name": "Malasaña District",
+          "ai_summary": "A vibrant neighborhood known for its bohemian atmosphere, trendy bars, and vintage shops.",
+          "name_english": "Malasaña District",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Always lively, best visited at any time."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the side streets for unique bars and shops.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4262,
+            "longitude": -3.7066
+          },
+          "address": "Malasaña, 28004 Madrid, Spain",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Nightlife",
+            "Shopping"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tejiendo_Malasaña_2014_(14223976313).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Tejiendo_Malasa%C3%B1a_2014_%2814223976313%29.jpg/960px-Tejiendo_Malasa%C3%B1a_2014_%2814223976313%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tejiendo Malasaña 2014 (14223976313)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/111975582@N04\">Tejiendo Malasaña</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tejiendo_Malasa%C3%B1a_2014_(14223976313).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Fiestas del Barrio de Malasaña. Instalación de yarn bombing en la Plaza de Dos de Mayo"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Chueca District",
+          "ai_summary": "A lively neighborhood known for its LGBTQ+ friendly atmosphere, vibrant nightlife, and trendy shops.",
+          "name_english": "Chueca District",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Always lively, best visited at any time."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit during Pride Month for the vibrant celebrations.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4231,
+            "longitude": -3.699
+          },
+          "address": "Chueca, 28004 Madrid, Spain",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Nightlife",
+            "Shopping"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Madrid_Pride_Orgullo_2015_58360_(19339362381).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Madrid_Pride_Orgullo_2015_58360_%2819339362381%29.jpg/960px-Madrid_Pride_Orgullo_2015_58360_%2819339362381%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Madrid Pride Orgullo 2015 58360 (19339362381)",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q116943179\" class=\"extiw\" title=\"d:Q116943179\"><span title=\"American physician and photographer\">Ted Eytan</span></a></bdi>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Madrid_Pride_Orgullo_2015_58360_(19339362381).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "2015.07.01 Madrid Orgullo - LGBTQ Pride"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Lavapiés District",
+          "ai_summary": "A multicultural neighborhood known for its diverse food scene, street art, and vibrant atmosphere.",
+          "name_english": "Lavapiés District",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Always lively, best visited at any time."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local tapas and explore the street art.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4095,
+            "longitude": -3.694
+          },
+          "address": "Lavapiés, 28012 Madrid, Spain",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Food",
+            "Nightlife"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lavapiés.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Lavapi%C3%A9s.JPG/960px-Lavapi%C3%A9s.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lavapiés",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Garygillmore&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Garygillmore (page does not exist)\">Garygillmore</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lavapi%C3%A9s.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Sight of Madrid: Zurita St. in the popular neighborhooud of Lavapiés"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Matadero Madrid Cultural Center",
+          "ai_summary": "A cultural space in a former slaughterhouse, hosting art exhibitions, performances, and film screenings.",
+          "name_english": "Matadero Madrid Cultural Center",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "21:00",
+          "cost": "Varies by event",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "11:00 - 21:00",
+            "Wednesday": "11:00 - 21:00",
+            "Thursday": "11:00 - 21:00",
+            "Friday": "11:00 - 21:00",
+            "Saturday": "11:00 - 21:00",
+            "Sunday": "11:00 - 21:00",
+            "notes": "Check the schedule for specific events and exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon or evening",
+          "place_tip": "Visit the rooftop for a great view of the city.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 40.4092,
+            "longitude": -3.7038
+          },
+          "address": "Paseo de la Chopera, 14, 28045 Madrid, Spain",
+          "official_website": "https://www.mataderomadrid.org",
+          "tags": [
+            "Culture",
+            "Art",
+            "History"
+          ],
+          "state": "Madrid",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ketagalan_Culture_Center.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Ketagalan_Culture_Center.JPG/960px-Ketagalan_Culture_Center.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ketagalan Culture Center",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:SSR2000&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:SSR2000 (page does not exist)\">SSR2000</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ketagalan_Culture_Center.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Ketagalan Culture Center"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        }
+      ]
+    }
+  ]
+}

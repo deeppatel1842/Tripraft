@@ -1,0 +1,929 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Parque Nacional del Chicamocha (Cable Car)",
+          "ai_summary": "A stunning national park featuring a cable car ride over the Chicamocha Canyon.",
+          "name_english": "Chicamocha National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "COP 60,000 per person",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "9:00 AM - 6:00 PM",
+            "tue": "9:00 AM - 6:00 PM",
+            "wed": "9:00 AM - 6:00 PM",
+            "thu": "9:00 AM - 6:00 PM",
+            "fri": "9:00 AM - 6:00 PM",
+            "sat": "9:00 AM - 6:00 PM",
+            "sun": "9:00 AM - 6:00 PM",
+            "notes": "Best visited during clear weather for optimal views."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the zipline and the giant swing for adventure lovers.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 6.5708,
+            "lng": -73.135
+          },
+          "address": "Chicamocha National Park, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Adventure",
+            "Scenic",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Colombia - Santander - San Gil.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Colombia_-_Santander_-_San_Gil.svg/960px-Colombia_-_Santander_-_San_Gil.svg.png",
+                "width": 800,
+                "height": 942,
+                "attribution": {
+                  "title": "Colombia - Santander - San Gil",
+                  "author": "Milenioscuro",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Colombia_-_Santander_-_San_Gil.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Mapa del Municipio de San Gil, Santander (Colombia)"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Barichara Heritage Town (Stone Streets)",
+          "ai_summary": "A picturesque colonial town known for its cobblestone streets and historic charm.",
+          "name_english": "Barichara Heritage Town",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best explored on foot to appreciate the architecture."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the Cathedral of the Immaculate Conception and the artisan shops.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 6.6359,
+            "lng": -73.2225
+          },
+          "address": "Barichara, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Cultural",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Colombia - Santander - Barichara.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Colombia_-_Santander_-_Barichara.svg/960px-Colombia_-_Santander_-_Barichara.svg.png",
+                "width": 800,
+                "height": 942,
+                "attribution": {
+                  "title": "Colombia - Santander - Barichara",
+                  "author": "Milenioscuro",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Colombia_-_Santander_-_Barichara.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Mapa del Municipio de Barichara, Santander (Colombia)"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Camino Real Hike (Barichara to Guane)",
+          "ai_summary": "A scenic hiking trail between Barichara and Guane, offering stunning views and cultural insights.",
+          "name_english": "Camino Real Hike",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Bring water and snacks; no facilities on the trail."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Early morning",
+          "place_tip": "Wear comfortable shoes and consider a guided tour for safety and information.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 6.6056,
+            "lng": -73.2235
+          },
+          "address": "Camino Real, Barichara, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Cultural"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "San Gil Adventure Sports (Rafting, Canyoning)",
+          "ai_summary": "Thrilling adventure sports in San Gil, including rafting and canyoning in the Chicamocha River.",
+          "name_english": "San Gil Adventure Sports",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "From COP 100,000 per person",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "8:00 AM - 5:00 PM",
+            "tue": "8:00 AM - 5:00 PM",
+            "wed": "8:00 AM - 5:00 PM",
+            "thu": "8:00 AM - 5:00 PM",
+            "fri": "8:00 AM - 5:00 PM",
+            "sat": "8:00 AM - 5:00 PM",
+            "sun": "Closed",
+            "notes": "Advance booking is essential, especially on weekends."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Check the weather and river conditions; safety briefing is mandatory.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "lat": 6.57,
+            "lng": -73.113
+          },
+          "address": "San Gil, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Adventure",
+            "Water Sports",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Amanda Gorman with Tracy K Smith - 2017 crop.jpeg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Amanda_Gorman_with_Tracy_K_Smith_-_2017_crop.jpeg/960px-Amanda_Gorman_with_Tracy_K_Smith_-_2017_crop.jpeg",
+                "width": 800,
+                "height": 640,
+                "attribution": {
+                  "title": "Amanda Gorman with Tracy K Smith - 2017 crop",
+                  "author": "File:Amanda Gorman with Tracy K Smith - 2017.jpg: Library of Congress\nderivative work: Innisfree987",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Amanda_Gorman_with_Tracy_K_Smith_-_2017_crop.jpeg",
+                  "credit": "This file was derived from:  Amanda Gorman with Tracy K Smith - 2017.jpg:",
+                  "usage_terms": "Public domain",
+                  "description": "Librarian of Congress Carla Hayden, Poet Laureate Tracy K. Smith, and National Youth Poet Laureate Amanda Gorman."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Cerro del Santísimo Viewpoint",
+          "ai_summary": "A popular viewpoint offering panoramic views of the Chicamocha Canyon and surrounding mountains.",
+          "name_english": "Cerro del Santísimo Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "COP 10,000 per person",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "9:00 AM - 6:00 PM",
+            "tue": "9:00 AM - 6:00 PM",
+            "wed": "9:00 AM - 6:00 PM",
+            "thu": "9:00 AM - 6:00 PM",
+            "fri": "9:00 AM - 6:00 PM",
+            "sat": "9:00 AM - 6:00 PM",
+            "sun": "9:00 AM - 6:00 PM",
+            "notes": "Access may be restricted during heavy rains."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Bring a camera and binoculars for birdwatching.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 6.6142,
+            "lng": -73.1189
+          },
+          "address": "Cerro del Santísimo, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Parque García Rovira (Bucaramanga)",
+          "ai_summary": "A central park in Bucaramanga, great for relaxation and cultural events.",
+          "name_english": "García Rovira Park",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Security may be limited at night."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Check out the local food vendors and street performances.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 7.1253,
+            "lng": -73.1198
+          },
+          "address": "Bucaramanga, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Cultural",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Parque Garcia Rovira 1910-1920.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Parque_Garcia_Rovira_1910-1920.jpg/960px-Parque_Garcia_Rovira_1910-1920.jpg",
+                "width": 960,
+                "height": 622,
+                "attribution": {
+                  "title": "Parque Garcia Rovira 1910-1920.jpg",
+                  "author": "Quintilio Gavassa Mibelli",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Parque_Garcia_Rovira_1910-1920.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Cathedral of the Holy Family",
+          "ai_summary": "The main cathedral in Bucaramanga, known for its impressive architecture and historical significance.",
+          "name_english": "Cathedral of the Holy Family",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "9:00 AM - 5:00 PM",
+            "tue": "9:00 AM - 5:00 PM",
+            "wed": "9:00 AM - 5:00 PM",
+            "thu": "9:00 AM - 5:00 PM",
+            "fri": "9:00 AM - 5:00 PM",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Dress code observed; no shorts or sleeveless tops."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Attend a mass for a unique cultural experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 7.1176,
+            "lng": -73.1193
+          },
+          "address": "Bucaramanga, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Religious",
+            "Historic",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Religion and nationality in Serbia (IA religionnational00veli).pdf",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Religion_and_nationality_in_Serbia_%28IA_religionnational00veli%29.pdf/page1-960px-Religion_and_nationality_in_Serbia_%28IA_religionnational00veli%29.pdf.jpg",
+                "width": 960,
+                "height": 1518,
+                "attribution": {
+                  "title": "Religion and nationality in Serbia (IA religionnational00veli).pdf",
+                  "author": "Velimirovic, Nikolaj, 1880-1956",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Religion_and_nationality_in_Serbia_(IA_religionnational00veli).pdf"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Waterfalls of Juan Curí",
+          "ai_summary": "Beautiful waterfalls located near San Gil, popular for swimming and picnicking.",
+          "name_english": "Juan Curí Waterfalls",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "COP 10,000 per person",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "8:00 AM - 5:00 PM",
+            "tue": "8:00 AM - 5:00 PM",
+            "wed": "8:00 AM - 5:00 PM",
+            "thu": "8:00 AM - 5:00 PM",
+            "fri": "8:00 AM - 5:00 PM",
+            "sat": "8:00 AM - 5:00 PM",
+            "sun": "8:00 AM - 5:00 PM",
+            "notes": "Bring your own food and drinks; facilities are limited."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear water shoes and bring a waterproof camera.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 6.61,
+            "lng": -73.1135
+          },
+          "address": "San Gil, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Waterfalls",
+            "Swimming"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Health resorts of the South - (IA healthresortsofs01unse).pdf",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Health_resorts_of_the_South_-_%28IA_healthresortsofs01unse%29.pdf/page1-960px-Health_resorts_of_the_South_-_%28IA_healthresortsofs01unse%29.pdf.jpg",
+                "width": 960,
+                "height": 1470,
+                "attribution": {
+                  "title": "Health resorts of the South - (IA healthresortsofs01unse).pdf",
+                  "author": "Internet Archive identifier: healthresortsofs01unse\nhttps://archive.org/download/healthresortsofs01unse/healthresortsofs01unse.pdf",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Health_resorts_of_the_South_-_(IA_healthresortsofs01unse).pdf"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mesa de los Santos Coffee Route",
+          "ai_summary": "A scenic route in the Santander region, famous for its coffee plantations and beautiful landscapes.",
+          "name_english": "Mesa de los Santos Coffee Route",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best explored by car or bike; limited public transport."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Stop at local coffee farms for tours and tastings.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 6.5,
+            "lng": -73.0833
+          },
+          "address": "Mesa de los Santos, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Coffee",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Bulletin Of The Pan American Union 1942-11- Vol 76 Iss 11 (IA sim bulletin-of-the-pan-american-union 1942-11 76 11).pdf",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Bulletin_Of_The_Pan_American_Union_1942-11-_Vol_76_Iss_11_%28IA_sim_bulletin-of-the-pan-american-union_1942-11_76_11%29.pdf/page1-960px-Bulletin_Of_The_Pan_American_Union_1942-11-_Vol_76_Iss_11_%28IA_sim_bulletin-of-the-pan-american-union_1942-11_76_11%29.pdf.jpg",
+                "width": 960,
+                "height": 1472,
+                "attribution": {
+                  "title": "Bulletin Of The Pan American Union 1942-11- Vol 76 Iss 11 (IA sim bulletin-of-the-pan-american-union 1942-11 76 11).pdf",
+                  "author": "Internet Archive identifier: sim_bulletin-of-the-pan-american-union_1942-11_76_11\nhttps://archive.org/download/sim_bulletin-of-the-pan-american-union_1942-11_76_11/sim_bulletin-of-the-pan-american-union_1942-11_76_11.pdf\nIA contributor: Internet Archive\nIA digitizing sponsor: Kahle/Austin Foundation",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bulletin_Of_The_Pan_American_Union_1942-11-_Vol_76_Iss_11_(IA_sim_bulletin-of-the-pan-american-union_1942-11_76_11).pdf"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Zapatoca Town & Caves",
+          "ai_summary": "A charming town known for its cool climate, colonial architecture, and nearby caves.",
+          "name_english": "Zapatoca Town",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Explore the town and caves with a local guide."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the Santa Barbara Church and try the local cheese.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 6.5667,
+            "lng": -73.75
+          },
+          "address": "Zapatoca, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Caves",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "La Mojarra Climbing Park",
+          "ai_summary": "An adventure park in San Gil, offering rock climbing, zip-lining, and other outdoor activities.",
+          "name_english": "La Mojarra Climbing Park",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "From COP 50,000 per person",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "9:00 AM - 5:00 PM",
+            "wed": "9:00 AM - 5:00 PM",
+            "thu": "9:00 AM - 5:00 PM",
+            "fri": "9:00 AM - 5:00 PM",
+            "sat": "9:00 AM - 5:00 PM",
+            "sun": "9:00 AM - 5:00 PM",
+            "notes": "Wear comfortable clothing and closed shoes."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Book the rock climbing experience in advance.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 6.57,
+            "lng": -73.113
+          },
+          "address": "San Gil, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Adventure",
+            "Climbing",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Appendix C, part 1- Affected environment - USACE-p16021coll7-21274.pdf",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Appendix_C%2C_part_1-_Affected_environment_-_USACE-p16021coll7-21274.pdf/page1-960px-Appendix_C%2C_part_1-_Affected_environment_-_USACE-p16021coll7-21274.pdf.jpg",
+                "width": 960,
+                "height": 1242,
+                "attribution": {
+                  "title": "Appendix C, part 1- Affected environment - USACE-p16021coll7-21274.pdf",
+                  "author": "https://usace.contentdm.oclc.org/digital/collection/p16021coll7/id/21274",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Appendix_C,_part_1-_Affected_environment_-_USACE-p16021coll7-21274.pdf"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Panachi Zipline & Miradores",
+          "ai_summary": "A thrilling zipline experience in the Chicamocha Canyon, with stunning views from the miradores (viewpoints).",
+          "name_english": "Panachi Zipline & Miradores",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "From COP 70,000 per person",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "9:00 AM - 6:00 PM",
+            "tue": "9:00 AM - 6:00 PM",
+            "wed": "9:00 AM - 6:00 PM",
+            "thu": "9:00 AM - 6:00 PM",
+            "fri": "9:00 AM - 6:00 PM",
+            "sat": "9:00 AM - 6:00 PM",
+            "sun": "9:00 AM - 6:00 PM",
+            "notes": "Weight limit for zipline: 120 kg. Dress comfortably."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the Chicamocha National Park.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 6.5708,
+            "lng": -73.135
+          },
+          "address": "Chicamocha National Park, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Adventure",
+            "Zipline",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Colombia - Santander - San Gil.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Colombia_-_Santander_-_San_Gil.svg/960px-Colombia_-_Santander_-_San_Gil.svg.png",
+                "width": 800,
+                "height": 942,
+                "attribution": {
+                  "title": "Colombia - Santander - San Gil",
+                  "author": "Milenioscuro",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Colombia_-_Santander_-_San_Gil.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Mapa del Municipio de San Gil, Santander (Colombia)"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "House of the Royal Bridge (Girón)",
+          "ai_summary": "A historic house museum in Girón, showcasing colonial architecture and local history.",
+          "name_english": "House of the Royal Bridge",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "COP 5,000 per person",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "9:00 AM - 5:00 PM",
+            "wed": "9:00 AM - 5:00 PM",
+            "thu": "9:00 AM - 5:00 PM",
+            "fri": "9:00 AM - 5:00 PM",
+            "sat": "9:00 AM - 5:00 PM",
+            "sun": "Closed",
+            "notes": "Guided tours only; last tour at 4:00 PM."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check for local events or exhibitions during your visit.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 7.0522,
+            "lng": -73.1595
+          },
+          "address": "Girón, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Museum",
+            "Cultural"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Catalogue of the interesting and valuable library of the late Robert Ferguson, Esq., M. D., physician to the Queen, comprising the works of the best modern writers (IA cataloguelibraryrobertferguson).pdf",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Catalogue_of_the_interesting_and_valuable_library_of_the_late_Robert_Ferguson%2C_Esq.%2C_M._D.%2C_physician_to_the_Queen%2C_comprising_the_works_of_the_best_modern_writers_%28IA_cataloguelibraryrobertferguson%29.pdf/page1-960px-thumbnail.pdf.jpg",
+                "width": 960,
+                "height": 1469,
+                "attribution": {
+                  "title": "Catalogue of the interesting and valuable library of the late Robert Ferguson, Esq., M. D., physician to the Queen, comprising the works of the best modern writers (IA cataloguelibraryrobertferguson).pdf",
+                  "author": "Puttick and Simpson",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catalogue_of_the_interesting_and_valuable_library_of_the_late_Robert_Ferguson,_Esq.,_M._D.,_physician_to_the_Queen,_comprising_the_works_of_the_best_modern_writers_(IA_cataloguelibraryrobertferguson).pdf"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Girón Colonial Center",
+          "ai_summary": "The historic colonial center of Girón, with well-preserved architecture and charming streets.",
+          "name_english": "Girón Colonial Center",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best explored on foot; take your time to admire the details."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the San Juan Bautista Church and the local artisan shops.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 7.0522,
+            "lng": -73.1595
+          },
+          "address": "Girón, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Cultural",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Brissot de Warville; a study in the history of the French revolution (IA brissotdewarvill00elle).pdf",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Brissot_de_Warville%3B_a_study_in_the_history_of_the_French_revolution_%28IA_brissotdewarvill00elle%29.pdf/page1-960px-Brissot_de_Warville%3B_a_study_in_the_history_of_the_French_revolution_%28IA_brissotdewarvill00elle%29.pdf.jpg",
+                "width": 960,
+                "height": 1472,
+                "attribution": {
+                  "title": "Brissot de Warville; a study in the history of the French revolution (IA brissotdewarvill00elle).pdf",
+                  "author": "Ellery, Eloise, 1874-",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Brissot_de_Warville;_a_study_in_the_history_of_the_French_revolution_(IA_brissotdewarvill00elle).pdf"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ruitoque Paragliding",
+          "ai_summary": "Experience the thrill of paragliding in Ruitoque, with stunning views of the Chicamocha Canyon.",
+          "name_english": "Ruitoque Paragliding",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "From COP 180,000 per person",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "8:00 AM - 5:00 PM",
+            "tue": "8:00 AM - 5:00 PM",
+            "wed": "8:00 AM - 5:00 PM",
+            "thu": "8:00 AM - 5:00 PM",
+            "fri": "8:00 AM - 5:00 PM",
+            "sat": "8:00 AM - 5:00 PM",
+            "sun": "8:00 AM - 5:00 PM",
+            "notes": "Weather dependent; early booking recommended."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Listen to your instructor and enjoy the breathtaking views.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 6.6,
+            "lng": -73.12
+          },
+          "address": "Ruitoque, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Adventure",
+            "Paragliding",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "Vuelo en Parapente.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Vuelo_en_Parapente.jpg/960px-Vuelo_en_Parapente.jpg",
+                "width": 960,
+                "height": 720,
+                "attribution": {
+                  "title": "Vuelo en Parapente.jpg",
+                  "author": "Elkin0415",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vuelo_en_Parapente.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Pozo Azul Natural Pools (San Gil)",
+          "ai_summary": "Natural swimming pools in San Gil, known for their blue water and scenic surroundings.",
+          "name_english": "Pozo Azul Natural Pools",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "COP 10,000 per person",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "8:00 AM - 5:00 PM",
+            "tue": "8:00 AM - 5:00 PM",
+            "wed": "8:00 AM - 5:00 PM",
+            "thu": "8:00 AM - 5:00 PM",
+            "fri": "8:00 AM - 5:00 PM",
+            "sat": "8:00 AM - 5:00 PM",
+            "sun": "8:00 AM - 5:00 PM",
+            "notes": "Bring your own food and drinks; facilities are limited."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear water shoes and bring a waterproof camera.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 6.61,
+            "lng": -73.1135
+          },
+          "address": "San Gil, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Swimming",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Pescaderito Streams (Curití)",
+          "ai_summary": "Scenic streams in Curití, popular for their clear water and natural beauty.",
+          "name_english": "Pescaderito Streams",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during the dry season."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the nearby town of Curití.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 6.61,
+            "lng": -73.1135
+          },
+          "address": "Curití, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Streams",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "El Santísimo Boardwalk",
+          "ai_summary": "A scenic boardwalk in Bucaramanga, offering views of the city and the Chicamocha River.",
+          "name_english": "El Santísimo Boardwalk",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Security may be limited at night."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy the street food and local performances.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 7.1253,
+            "lng": -73.1198
+          },
+          "address": "Bucaramanga, Santander, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Walking",
+            "Food"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

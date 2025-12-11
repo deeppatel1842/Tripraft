@@ -1,0 +1,945 @@
+{
+  "country": "Cuba",
+  "state": "Viales",
+  "cities": [
+    {
+      "city": "Viñales",
+      "nearest_airport": "José Martí International Airport (HAV)",
+      "places": [
+        {
+          "name": "Viñales Valley National Park (UNESCO)",
+          "ai_summary": "Viñales Valley National Park is a UNESCO World Heritage Site, known for its dramatic mogotes, lush tobacco fields, and traditional farming techniques.",
+          "name_english": "Viñales Valley National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited early morning or late afternoon for stunning views."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Explore the valley on foot, by bike, or on horseback for the best experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.62,
+            "longitude": -83.7372
+          },
+          "address": "Viñales Valley, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Nature",
+            "UNESCO",
+            "Scenic"
+          ],
+          "state": "Viales",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Viñales_Valley.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Vi%C3%B1ales_Valley.jpg/960px-Vi%C3%B1ales_Valley.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Viñales Valley",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Severin.stalder\" title=\"User:Severin.stalder\">Severin.stalder</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vi%C3%B1ales_Valley.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Valle de Viñales, Pinar del Río, Cuba."
+                }
+              }
+            }
+          },
+          "rank_score": 0.954
+        },
+        {
+          "name": "Mural de la Prehistoria",
+          "ai_summary": "The Mural de la Prehistoria is a massive outdoor painting on a mogote, depicting the evolution of life in the Viñales Valley.",
+          "name_english": "Prehistory Mural",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.0,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Guided tours are available for an additional fee."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a hat and sunscreen as there is limited shade.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.6215,
+            "longitude": -83.736
+          },
+          "address": "Mural de la Prehistoria, Viñales, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Art",
+            "History",
+            "Outdoor"
+          ],
+          "state": "Viales",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Corozal,_00783,_Puerto_Rico_-_panoramio_(5).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Corozal%2C_00783%2C_Puerto_Rico_-_panoramio_%285%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Corozal, 00783, Puerto Rico - panoramio (5)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161028080021/http://www.panoramio.com/user/7073280?with_photo_id=102914916\">Jesse Avilés</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Corozal,_00783,_Puerto_Rico_-_panoramio_(5).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Town Hall in Corozal, Puerto Rico"
+                }
+              }
+            }
+          },
+          "rank_score": 0.66
+        },
+        {
+          "name": "Cueva del Indio Boat Ride",
+          "ai_summary": "Cueva del Indio offers a unique boat ride through an underground river, showcasing stunning rock formations and a glimpse into the region's history.",
+          "name_english": "Indian Cave",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Arrive early to avoid long queues."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes and bring a flashlight for exploring the cave.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.622,
+            "longitude": -83.735
+          },
+          "address": "Cueva del Indio, Viñales, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Cave",
+            "Adventure",
+            "Nature"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.734
+        },
+        {
+          "name": "Tobacco Farm Tour & Drying Barns",
+          "ai_summary": "Experience the traditional methods of tobacco farming and processing in Viñales, including a tour of the drying barns.",
+          "name_english": "Tobacco Farm Tour",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-18:00",
+            "Tuesday": "08:00-18:00",
+            "Wednesday": "08:00-18:00",
+            "Thursday": "08:00-18:00",
+            "Friday": "08:00-18:00",
+            "Saturday": "08:00-18:00",
+            "Sunday": "08:00-18:00",
+            "notes": "Tours are conducted in small groups for a personalized experience."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't forget to purchase some authentic Cuban cigars directly from the farm.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 22.623,
+            "longitude": -83.734
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Culture",
+            "Agriculture",
+            "Scenic"
+          ],
+          "state": "Viales",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:DunhillLightFlake.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/DunhillLightFlake.jpg/960px-DunhillLightFlake.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "DunhillLightFlake",
+                  "author": "Sjschen (<a href=\"//commons.wikimedia.org/wiki/User:Sjschen\" title=\"User:Sjschen\">Sjschen</a>)",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:DunhillLightFlake.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "Dunhill Light Flake Tobacco"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Mirador de los Jazmines Viewpoint",
+          "ai_summary": "A popular viewpoint in Viñales, offering panoramic views of the valley, mogotes, and tobacco fields, especially beautiful at sunrise and sunset.",
+          "name_english": "Jazmines Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited early morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Bring your camera for stunning landscape photography.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.634,
+            "longitude": -83.693
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Viewpoint",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.822
+        },
+        {
+          "name": "El Palenque de los Cimarrones",
+          "ai_summary": "A historical site and cave system used by runaway slaves in the past, now a museum and cultural site.",
+          "name_english": "The Palenque of the Cimarrones",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.1,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Guided tours are available, providing insights into the history and significance of the site."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning or Afternoon",
+          "place_tip": "Combine this visit with a tour of the nearby tobacco farms.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.6345,
+            "longitude": -83.6925
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "History",
+            "Culture",
+            "Cave"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.696
+        },
+        {
+          "name": "Horseback Ride among Mogotes",
+          "ai_summary": "Explore the stunning landscapes of Viñales on horseback, riding through tobacco fields, forests, and mogotes.",
+          "name_english": "Horseback Riding",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00-18:00",
+            "Tuesday": "08:00-18:00",
+            "Wednesday": "08:00-18:00",
+            "Thursday": "08:00-18:00",
+            "Friday": "08:00-18:00",
+            "Saturday": "08:00-18:00",
+            "Sunday": "08:00-18:00",
+            "notes": "Advance booking is recommended, especially during peak tourist season."
+          },
+          "suggested_duration": "2–4 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Wear long pants and closed shoes for comfort while riding.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 22.635,
+            "longitude": -83.691
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Adventure",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Balcony del Valle Restaurant View",
+          "ai_summary": "A restaurant with a stunning view of the Viñales Valley, offering local cuisine and a perfect spot for sunset watching.",
+          "name_english": "Valley Balcony Restaurant",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "12:00-22:00",
+            "Tuesday": "12:00-22:00",
+            "Wednesday": "12:00-22:00",
+            "Thursday": "12:00-22:00",
+            "Friday": "12:00-22:00",
+            "Saturday": "12:00-22:00",
+            "Sunday": "12:00-22:00",
+            "notes": "Reservations are recommended for sunset dining."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Try the local Viñales dishes and enjoy a cocktail while watching the sunset.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 22.636,
+            "longitude": -83.69
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Food",
+            "Viewpoint",
+            "Sunset"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.718
+        },
+        {
+          "name": "Santo Tomás Cave System",
+          "ai_summary": "The Santo Tomás Cave System is one of the largest cave systems in Cuba, featuring impressive stalactites, stalagmites, and underground rivers.",
+          "name_english": "Saint Thomas Cave System",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Guided tours are mandatory and provide detailed information about the cave's geology and history."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a jacket as it can be cool inside the caves, and wear sturdy shoes.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 22.637,
+            "longitude": -83.689
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Cave",
+            "Adventure",
+            "Nature"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.81
+        },
+        {
+          "name": "Finca Agroecológica El Paraíso",
+          "ai_summary": "An organic farm offering tours, meals, and a chance to learn about sustainable farming practices in Cuba.",
+          "name_english": "El Paraíso Agroecological Farm",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Tours include a walk through the farm, a boat trip, and a meal featuring organic produce."
+          },
+          "suggested_duration": "3–4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes and be prepared for a relaxing, educational experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 22.638,
+            "longitude": -83.688
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Agriculture",
+            "Food",
+            "Nature"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "San Vicente Hot Springs",
+          "ai_summary": "Natural hot springs located in a beautiful setting, offering a relaxing experience in the heart of nature.",
+          "name_english": "San Vicente Hot Springs",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Bring your own towel and swimsuit. Lockers are available for rent."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine your visit with a tour of the nearby tobacco farms.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.639,
+            "longitude": -83.687
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Relaxation",
+            "Nature",
+            "Wellness"
+          ],
+          "state": "Viales",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:San_vicente_els.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/San_vicente_els.jpg/960px-San_vicente_els.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "San vicente els",
+                  "author": "Kristal Dorion, (U.S. Geological Survey)",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:San_vicente_els.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Volcán de San Vicente, El Salvador"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Los Acuáticos Community Hike",
+          "ai_summary": "A hiking trail that takes you through the beautiful landscapes of Viñales, including valleys, rivers, and local farms.",
+          "name_english": "Los Acuáticos Community Hike",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best experienced with a local guide who can provide insights into the area."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Bring water, snacks, and a camera to capture the stunning scenery.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.64,
+            "longitude": -83.686
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Community"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "La Ermita View Terrace",
+          "ai_summary": "A scenic viewpoint and terrace offering breathtaking views of the Viñales Valley, especially beautiful at sunset.",
+          "name_english": "The Hermita View Terrace",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the late afternoon for sunset views."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Bring a picnic and enjoy the sunset with a view over the valley.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.641,
+            "longitude": -83.685
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Viewpoint",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.774
+        },
+        {
+          "name": "Valle del Silencio Trail",
+          "ai_summary": "A tranquil hiking trail that leads you through the serene landscapes of the Viñales Valley, ideal for nature lovers.",
+          "name_english": "Silence Valley Trail",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "18:50",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best hiked with a guide who can share the local flora and fauna."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Carry water and wear comfortable hiking shoes.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.642,
+            "longitude": -83.684
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Viales",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Torres_del_Paine_y_cuernos_del_Paine,_montaje.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Torres_del_Paine_y_cuernos_del_Paine%2C_montaje.jpg/960px-Torres_del_Paine_y_cuernos_del_Paine%2C_montaje.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Torres del Paine y cuernos del Paine, montaje",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/75657596@N00\">Karen Chan 16</a> y <a href=\"https://meta.wikimedia.org/wiki/Special:CentralAuth/Miguel.v\" class=\"extiw\" title=\"meta:Special:CentralAuth/Miguel.v\">Miguel.v</a> ( <a href=\"//commons.wikimedia.org/wiki/Special:Contributions/Miguel.v\" title=\"Special:Contributions/Miguel.v\">local</a> | <a href=\"//commons.wikimedia.org/wiki/Special:Log/User:Miguel.v\" title=\"Special:Log/User:Miguel.v\">logs</a> | <a href=\"https://guc.toolforge.org/?user=Miguel.v\" class=\"extiw\" title=\"globalcontribs:Miguel.v\">global</a> ) (originales), y Jorge Morales Piderit (montaje).",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Torres_del_Paine_y_cuernos_del_Paine,_montaje.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Towers of Paine (upper) and Paine Horns (lower); both are part of Cordillera Paine, in Magallanes Region, the most southern one of Chile."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "El Cuajani River Walk",
+          "ai_summary": "A scenic walk along the Cuajani River, offering beautiful views of the river, mogotes, and surrounding countryside.",
+          "name_english": "Cuajani River Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Bring binoculars for birdwatching and a camera for photography.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.643,
+            "longitude": -83.683
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Photography"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.718
+        },
+        {
+          "name": "Pinar del Río Cigar Factory (Day Trip)",
+          "ai_summary": "Visit to a local cigar factory in Pinar del Río to learn about the cigar-making process and the history of tobacco in Cuba.",
+          "name_english": "Pinar del Río Cigar Factory",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Factory tours include a detailed explanation of the cigar production process."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Purchase cigars directly from the factory for the best prices.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.644,
+            "longitude": -83.682
+          },
+          "address": "Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Culture",
+            "History",
+            "Cigars"
+          ],
+          "state": "Viales",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Carrer_José_Martí_Pinar_del_Rio_4.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Carrer_Jos%C3%A9_Mart%C3%AD_Pinar_del_Rio_4.JPG/960px-Carrer_Jos%C3%A9_Mart%C3%AD_Pinar_del_Rio_4.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Carrer José Martí Pinar del Rio 4",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mmoyaq&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mmoyaq (page does not exist)\">Mmoyaq</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Carrer_Jos%C3%A9_Mart%C3%AD_Pinar_del_Rio_4.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Carrer José Martí des del Parc de la Independència a Pinar del Rio"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Night Skies over Mogotes",
+          "ai_summary": "Experience breathtaking views of the night sky in Viñales, with minimal light pollution and stunning natural surroundings.",
+          "name_english": "Mogotes Night Sky",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed away from city lights, in a quiet natural setting."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Night",
+          "place_tip": "Bring a blanket and lie back to enjoy the celestial show.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.645,
+            "longitude": -83.681
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Photography"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.798
+        },
+        {
+          "name": "Viñales Town Square",
+          "ai_summary": "The central square of Viñales, surrounded by colonial architecture, shops, and restaurants, and a great place to experience local life.",
+          "name_english": "Viñales Main Square",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "A great place to relax, people-watch, and enjoy the local atmosphere."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the nearby shops and try some local snacks from the street vendors.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.646,
+            "longitude": -83.68
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Culture",
+            "History",
+            "Shopping"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.682
+        },
+        {
+          "name": "Local Craft Market",
+          "ai_summary": "A vibrant market in Viñales where you can buy local handicrafts, souvenirs, and enjoy the lively atmosphere.",
+          "name_english": "Viñales Craft Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Bargaining is common, so don't hesitate to negotiate prices."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning or Afternoon",
+          "place_tip": "Look for unique souvenirs like handmade cigars, crafts, and local artwork.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.647,
+            "longitude": -83.679
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Shopping",
+            "Culture",
+            "Souvenirs"
+          ],
+          "state": "Viales",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Oxbow_Collaboration_Part_1_(33338778230).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Oxbow_Collaboration_Part_1_%2833338778230%29.jpg/960px-Oxbow_Collaboration_Part_1_%2833338778230%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Oxbow Collaboration Part 1 (33338778230)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/89562459@N03\">Allagash Brewing</a> from Portland, USA",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Oxbow_Collaboration_Part_1_(33338778230).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Oxbow Collaboration Part 1"
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Sunset Mirador at Los Jazmines",
+          "ai_summary": "A viewpoint located at Los Jazmines, offering one of the best sunset views in Viñales, with a panoramic view of the valley and mogotes.",
+          "name_english": "Los Jazmines Sunset Viewpoint",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Arrive early to secure a good spot for sunset viewing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Bring a camera and a tripod for stunning sunset photography.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 22.648,
+            "longitude": -83.678
+          },
+          "address": "Viñales, Pinar del Río, Cuba",
+          "official_website": "https://www.cubatravel.cu/",
+          "tags": [
+            "Viewpoint",
+            "Sunset",
+            "Photography"
+          ],
+          "state": "Viales",
+          "photos": {},
+          "rank_score": 0.802
+        }
+      ]
+    }
+  ]
+}

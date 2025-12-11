@@ -1,0 +1,1084 @@
+{
+  "country": "South Korea",
+  "state": "Busan",
+  "cities": [
+    {
+      "city": "Busan",
+      "nearest_airport": "Gimhae International Airport",
+      "places": [
+        {
+          "name": "Haeundae Beach",
+          "ai_summary": "A famous beach in Busan known for its pristine sands, vibrant nightlife, and annual festivals, attracting tourists year-round.",
+          "name_english": "Haeundae Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during summer months."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Arrive early to secure a good spot on the beach.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1587,
+            "longitude": 129.1603
+          },
+          "address": "Haeundae-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Nature",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Gamcheon Culture Village",
+          "ai_summary": "A colorful hillside village featuring vibrant murals, art installations, and narrow alleyways, often called the 'Machu Picchu of Busan'.",
+          "name_english": "Gamcheon Culture Village",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 AM - 06:00 PM",
+            "Tuesday": "09:00 AM - 06:00 PM",
+            "Wednesday": "09:00 AM - 06:00 PM",
+            "Thursday": "09:00 AM - 06:00 PM",
+            "Friday": "09:00 AM - 06:00 PM",
+            "Saturday": "09:00 AM - 06:00 PM",
+            "Sunday": "09:00 AM - 06:00 PM",
+            "notes": "Shops and cafes may have different hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Wear comfortable shoes for walking the steep alleys.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.0971,
+            "longitude": 129.0107
+          },
+          "address": "Gamcheon-dong, Saha-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Art",
+            "Culture",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Gamcheon Houses, 2024.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Gamcheon_Houses%2C_2024.jpg/960px-Gamcheon_Houses%2C_2024.jpg",
+                "width": 800,
+                "height": 450,
+                "attribution": {
+                  "title": "Gamcheon Houses, 2024",
+                  "author": "Bl00dnFl4mes",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Gamcheon_Houses,_2024.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "An overlook of the Gamcheon colorful houses near the entrance, March 2024"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Gwangalli Beach",
+          "ai_summary": "A lively beach known for its stunning night views of Gwangan Bridge, water sports, and trendy cafes along the shore.",
+          "name_english": "Gwangalli Beach",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for the bridge lights."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local seafood at nearby restaurants.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1532,
+            "longitude": 129.1186
+          },
+          "address": "Suyeong-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Nightlife",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Gwangalli Beach.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Gwangalli_Beach.jpg/960px-Gwangalli_Beach.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Gwangalli Beach",
+                  "author": "Chelsea Hicks",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Gwangalli_Beach.jpg",
+                  "credit": "Flickr: [1]",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Gwangalli Beach, Busan, South Korea. Photograph from Flickr; author Chelsea Hicks; license of cc-by-2.0."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Haedong Yonggungsa Temple",
+          "ai_summary": "A stunning seaside temple known for its beautiful architecture, rocky cliffs, and panoramic views of the ocean.",
+          "name_english": "Haedong Yonggungsa Temple",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30 AM",
+          "sunset_time": "06:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "05:00 AM - 07:00 PM",
+            "Tuesday": "05:00 AM - 07:00 PM",
+            "Wednesday": "05:00 AM - 07:00 PM",
+            "Thursday": "05:00 AM - 07:00 PM",
+            "Friday": "05:00 AM - 07:00 PM",
+            "Saturday": "05:00 AM - 07:00 PM",
+            "Sunday": "05:00 AM - 07:00 PM",
+            "notes": "Be respectful during prayer times."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Early morning",
+          "place_tip": "Participate in the temple's morning rituals if possible.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1587,
+            "longitude": 129.1774
+          },
+          "address": "Yonggung-dong, Gijang-gun, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Temple",
+            "Culture",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of South Korea.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/800px-Flag_of_South_Korea.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of South Korea",
+                  "author": "Original: Lee Eung-jun, Park Young-ho, and others Vector:  Great Brightstar and others",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+                  "credit": "Ordinance Act of the Law concerning the National Flag of the Republic of Korea, Construction and color guidelines (Russian/English)File:Flag of South Korea (construction sheet).svg",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of the Republic of Korea (South Korea)"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Taejongdae Park",
+          "ai_summary": "A natural park featuring cliffs, forests, and a lighthouse, offering stunning views of the sea and surrounding islands.",
+          "name_english": "Taejongdae Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:40 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the lighthouse for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.0733,
+            "longitude": 129.1007
+          },
+          "address": "Taejong-ro, Yeongdo-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Graduation hat.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Graduation_hat.svg/800px-Graduation_hat.svg.png",
+                "width": 800,
+                "height": 336,
+                "attribution": {
+                  "title": "Graduation hat",
+                  "author": "User:markeith caddell the Oyster",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Graduation_hat.svg",
+                  "credit": null,
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A vector image of a mortar board hat."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Busan Tower",
+          "ai_summary": "A landmark tower in Busan providing panoramic views of the city, harbor, and surrounding mountains.",
+          "name_english": "Busan Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:50 AM",
+          "sunset_time": "06:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 AM - 10:00 PM",
+            "Tuesday": "09:00 AM - 10:00 PM",
+            "Wednesday": "09:00 AM - 10:00 PM",
+            "Thursday": "09:00 AM - 10:00 PM",
+            "Friday": "09:00 AM - 10:00 PM",
+            "Saturday": "09:00 AM - 10:00 PM",
+            "Sunday": "09:00 AM - 10:00 PM",
+            "notes": "Last admission one hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon or evening",
+          "place_tip": "Visit the observation deck for stunning sunset views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1796,
+            "longitude": 129.0756
+          },
+          "address": "Yeongdodaegyo-ro, Jung-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Landmark",
+            "Viewpoint",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:02-00-busan-en.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/02-00-busan-en.svg/800px-02-00-busan-en.svg.png",
+                "width": 800,
+                "height": 784,
+                "attribution": {
+                  "title": "02-00-busan-en",
+                  "author": "안우석",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:02-00-busan-en.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Map of Busan (Romaja version)"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "BIFF Square",
+          "ai_summary": "The Busan International Film Festival Square, a vibrant area with handprints of famous actors, street food, and shops.",
+          "name_english": "BIFF Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for the night market."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the street food and visit the nearby cinema.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1028,
+            "longitude": 129.0403
+          },
+          "address": "Busanjin-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Food",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Jagalchi Fish Market",
+          "ai_summary": "Busan's famous seafood market, where visitors can experience fresh seafood, local delicacies, and vibrant market life.",
+          "name_english": "Jagalchi Fish Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "05:00 AM - 08:00 PM",
+            "Tuesday": "05:00 AM - 08:00 PM",
+            "Wednesday": "05:00 AM - 08:00 PM",
+            "Thursday": "05:00 AM - 08:00 PM",
+            "Friday": "05:00 AM - 08:00 PM",
+            "Saturday": "05:00 AM - 08:00 PM",
+            "Sunday": "05:00 AM - 08:00 PM",
+            "notes": "Best visited in the morning for fresh catches."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the live octopus and other local specialties.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.0997,
+            "longitude": 129.0403
+          },
+          "address": "Jagalchi-dong, Jung-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Market",
+            "Food",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Map of Korea-blank.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Map_of_Korea-blank.svg/960px-Map_of_Korea-blank.svg.png",
+                "width": 800,
+                "height": 1398,
+                "attribution": {
+                  "title": "Map of Korea-blank",
+                  "author": "Originally created by NordNordWest, Adapted by FriedC",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Map_of_Korea-blank.svg",
+                  "credit": "adapted File:Korea location map.svg",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Blank map of Korea"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Songdo Skywalk",
+          "ai_summary": "A scenic walkway in Busan offering stunning views of the ocean, cliffs, and the city skyline.",
+          "name_english": "Songdo Skywalk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:55 AM",
+          "sunset_time": "06:55 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a camera for the breathtaking views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1007,
+            "longitude": 129.1503
+          },
+          "address": "Songdo-dong, Seo-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Scenic",
+            "Walking",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Busan - Songdo beach.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Busan_-_Songdo_beach.jpg/960px-Busan_-_Songdo_beach.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Busan - Songdo beach",
+                  "author": "Michiel1972",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Busan_-_Songdo_beach.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Songdo beach"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Busan Sea Life Aquarium",
+          "ai_summary": "An expansive aquarium in Busan featuring a wide variety of marine life, interactive exhibits, and underwater tunnels.",
+          "name_english": "Busan Sea Life Aquarium",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$20",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 08:00 PM",
+            "Tuesday": "10:00 AM - 08:00 PM",
+            "Wednesday": "10:00 AM - 08:00 PM",
+            "Thursday": "10:00 AM - 08:00 PM",
+            "Friday": "10:00 AM - 08:00 PM",
+            "Saturday": "10:00 AM - 08:00 PM",
+            "Sunday": "10:00 AM - 08:00 PM",
+            "notes": "Last admission one hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Check out the feeding sessions for an interactive experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 35.1587,
+            "longitude": 129.1445
+          },
+          "address": "Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Aquarium",
+            "Family",
+            "Education"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Busan BEXCO.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Busan_BEXCO.jpg/960px-Busan_BEXCO.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Busan BEXCO",
+                  "author": "Michiel1972",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Busan_BEXCO.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "BEXCO"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Oryukdo Skywalk",
+          "ai_summary": "A glass bridge in Busan offering a thrilling walk with stunning views of the sea and Oryukdo Islets.",
+          "name_english": "Oryukdo Skywalk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:35 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 AM - 06:00 PM",
+            "Tuesday": "09:00 AM - 06:00 PM",
+            "Wednesday": "09:00 AM - 06:00 PM",
+            "Thursday": "09:00 AM - 06:00 PM",
+            "Friday": "09:00 AM - 06:00 PM",
+            "Saturday": "09:00 AM - 06:00 PM",
+            "Sunday": "09:00 AM - 06:00 PM",
+            "notes": "Weather permitting; may close during storms."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Wear comfortable shoes and hold on to your hats!",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1587,
+            "longitude": 129.1774
+          },
+          "address": "Oryukdo-dong, Nam-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Skywalk",
+            "Scenic",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of South Korea.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/800px-Flag_of_South_Korea.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of South Korea",
+                  "author": "Original: Lee Eung-jun, Park Young-ho, and others Vector:  Great Brightstar and others",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+                  "credit": "Ordinance Act of the Law concerning the National Flag of the Republic of Korea, Construction and color guidelines (Russian/English)File:Flag of South Korea (construction sheet).svg",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of the Republic of Korea (South Korea)"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Gukje Market",
+          "ai_summary": "A large traditional market in Busan offering a wide variety of goods, street food, and a glimpse into local life.",
+          "name_english": "Gukje Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:55 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00 AM - 08:00 PM",
+            "Tuesday": "09:00 AM - 08:00 PM",
+            "Wednesday": "09:00 AM - 08:00 PM",
+            "Thursday": "09:00 AM - 08:00 PM",
+            "Friday": "09:00 AM - 08:00 PM",
+            "Saturday": "09:00 AM - 08:00 PM",
+            "Sunday": "09:00 AM - 08:00 PM",
+            "notes": "Best visited in the late afternoon or evening."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon or evening",
+          "place_tip": "Bargain for the best prices and try the local snacks.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.0997,
+            "longitude": 129.0403
+          },
+          "address": "Gukje Market, Jung-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Market",
+            "Shopping",
+            "Food"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Yongdusan Park",
+          "ai_summary": "A scenic park in Busan featuring walking paths, gardens, and the Busan Tower, offering great city views.",
+          "name_english": "Yongdusan Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:50 AM",
+          "sunset_time": "06:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the Busan Tower for panoramic views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1796,
+            "longitude": 129.0756
+          },
+          "address": "Yongdusan Park, Jung-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Park",
+            "Nature",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Shinsegae Centum City Mall",
+          "ai_summary": "The world's largest department store, offering a wide range of products, dining, and entertainment options.",
+          "name_english": "Shinsegae Centum City Mall",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:30 AM - 07:00 PM",
+            "Tuesday": "10:30 AM - 07:00 PM",
+            "Wednesday": "10:30 AM - 07:00 PM",
+            "Thursday": "10:30 AM - 07:00 PM",
+            "Friday": "10:30 AM - 07:00 PM",
+            "Saturday": "10:30 AM - 07:00 PM",
+            "Sunday": "10:30 AM - 07:00 PM",
+            "notes": "Check for holiday hours and special events."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the spa and ice rink located inside the mall.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1587,
+            "longitude": 129.1603
+          },
+          "address": "Shinsegae Centum City, U-dong, Haeundae-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Entertainment"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Dalmaji Hill",
+          "ai_summary": "A scenic hill in Busan known for its beautiful walking paths, cherry blossoms in spring, and panoramic views of the ocean.",
+          "name_english": "Dalmaji Hill",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:40 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a camera for the stunning views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1587,
+            "longitude": 129.1774
+          },
+          "address": "Dalmaji-gil, Haeundae-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of South Korea.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/800px-Flag_of_South_Korea.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of South Korea",
+                  "author": "Original: Lee Eung-jun, Park Young-ho, and others Vector:  Great Brightstar and others",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+                  "credit": "Ordinance Act of the Law concerning the National Flag of the Republic of Korea, Construction and color guidelines (Russian/English)File:Flag of South Korea (construction sheet).svg",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of the Republic of Korea (South Korea)"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Busan Museum of Art",
+          "ai_summary": "A modern art museum in Busan showcasing contemporary Korean and international art, with a beautiful seaside location.",
+          "name_english": "Busan Museum of Art",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 06:00 PM",
+            "Tuesday": "10:00 AM - 06:00 PM",
+            "Wednesday": "10:00 AM - 06:00 PM",
+            "Thursday": "10:00 AM - 06:00 PM",
+            "Friday": "10:00 AM - 06:00 PM",
+            "Saturday": "10:00 AM - 06:00 PM",
+            "Sunday": "10:00 AM - 06:00 PM",
+            "notes": "Closed on Mondays; check for special exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don't miss the outdoor sculpture park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1587,
+            "longitude": 129.1445
+          },
+          "address": "Busan Museum of Art, Haeundae-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Art",
+            "Culture",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Beomeosa Temple",
+          "ai_summary": "A historic temple in Busan set in a beautiful natural environment, known for its serene atmosphere and traditional architecture.",
+          "name_english": "Beomeosa Temple",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:35 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "04:30 AM - 07:00 PM",
+            "Tuesday": "04:30 AM - 07:00 PM",
+            "Wednesday": "04:30 AM - 07:00 PM",
+            "Thursday": "04:30 AM - 07:00 PM",
+            "Friday": "04:30 AM - 07:00 PM",
+            "Saturday": "04:30 AM - 07:00 PM",
+            "Sunday": "04:30 AM - 07:00 PM",
+            "notes": "Be respectful during prayer times."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Early morning",
+          "place_tip": "Participate in the temple's morning rituals if possible.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.2325,
+            "longitude": 129.0594
+          },
+          "address": "Beomeosa-ro, Geumjeong-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Temple",
+            "Culture",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:298-1 최수진 범어사의 가을.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/298-1_%EC%B5%9C%EC%88%98%EC%A7%84_%EB%B2%94%EC%96%B4%EC%82%AC%EC%9D%98_%EA%B0%80%EC%9D%84.jpg/960px-298-1_%EC%B5%9C%EC%88%98%EC%A7%84_%EB%B2%94%EC%96%B4%EC%82%AC%EC%9D%98_%EA%B0%80%EC%9D%84.jpg",
+                "width": 800,
+                "height": 629,
+                "attribution": {
+                  "title": "298-1 최수진 범어사의 가을",
+                  "author": "부산광역시, 부산관광공사",
+                  "license": "KOGL Type 1",
+                  "license_url": "http://www.kogl.or.kr/open/info/license_info/by.do",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:298-1_최수진_범어사의_가을.jpg",
+                  "credit": "https://www.visitbusan.net/index.do?menuCd=DOM_000000204009000000",
+                  "usage_terms": "공공누리 제1유형 출처 표시",
+                  "description": "촬영연도 : 2021\n촬영기관 : 입선 최수진 ㅣ 소장기관 : 부산광역시\n\n해쉬태그 : 22회 공모전"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "UN Memorial Cemetery",
+          "ai_summary": "A cemetery in Busan dedicated to the UN soldiers who fought during the Korean War, featuring a peaceful park and memorials.",
+          "name_english": "UN Memorial Cemetery",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 AM - 06:00 PM",
+            "Tuesday": "09:00 AM - 06:00 PM",
+            "Wednesday": "09:00 AM - 06:00 PM",
+            "Thursday": "09:00 AM - 06:00 PM",
+            "Friday": "09:00 AM - 06:00 PM",
+            "Saturday": "09:00 AM - 06:00 PM",
+            "Sunday": "09:00 AM - 06:00 PM",
+            "notes": "Closed on Sundays; check for special ceremonies."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Attend the memorial ceremonies if possible.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1641,
+            "longitude": 129.1186
+          },
+          "address": "UN Memorial Cemetery, Nam-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Memorial",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BIFF 2023 opening night.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/BIFF_2023_opening_night.jpg/960px-BIFF_2023_opening_night.jpg",
+                "width": 800,
+                "height": 450,
+                "attribution": {
+                  "title": "BIFF 2023 opening night",
+                  "author": "399scout",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BIFF_2023_opening_night.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The Coop Himmelb(l)au designed Busan Cinema Center is transformed for BIFF's annual opening and closing ceremonies, welcoming entertainment industry luminaries from around the world. An additional 1,000 seats are added to the 4,000 seat outdoor theater to accommodate invited guests and the cinema fans from the community."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Gwangan Bridge",
+          "ai_summary": "A stunning bridge in Busan, especially beautiful when illuminated at night, connecting the city to the island of Suyeongdo.",
+          "name_english": "Gwangan Bridge",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed at night when it's lit up."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Night",
+          "place_tip": "Walk or drive across the bridge for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.1587,
+            "longitude": 129.1327
+          },
+          "address": "Gwangan Bridge, Suyeong-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Bridge",
+            "Scenic",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Japan.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/800px-Flag_of_Japan.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Japan",
+                  "author": "Various",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg",
+                  "credit": "Law Concerning the National Flag and Anthem (1999) (Japanese) (English); Ministry of Defense Defense Specification Z 8701C (DSPZ8701C) (archived)\n\nConstruction sheet:",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Japan"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Huinnyeoul Culture Village",
+          "ai_summary": "A picturesque village in Busan with charming houses, cafes, and art spaces, offering a glimpse into local life and culture.",
+          "name_english": "Huinnyeoul Culture Village",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 AM - 06:00 PM",
+            "Tuesday": "09:00 AM - 06:00 PM",
+            "Wednesday": "09:00 AM - 06:00 PM",
+            "Thursday": "09:00 AM - 06:00 PM",
+            "Friday": "09:00 AM - 06:00 PM",
+            "Saturday": "09:00 AM - 06:00 PM",
+            "Sunday": "09:00 AM - 06:00 PM",
+            "notes": "Best visited in the late afternoon for the sunset views."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Explore the alleyways and enjoy a cup of tea at a local cafe.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 35.0997,
+            "longitude": 129.1186
+          },
+          "address": "Huinnyeoul-dong, Seo-gu, Busan, South Korea",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Photography",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:DeungDae(Lighthouse) Island, Oryukdo - panoramio (1).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/DeungDae%28Lighthouse%29_Island%2C_Oryukdo_-_panoramio_%281%29.jpg/960px-DeungDae%28Lighthouse%29_Island%2C_Oryukdo_-_panoramio_%281%29.jpg",
+                "width": 800,
+                "height": 532,
+                "attribution": {
+                  "title": "DeungDae(Lighthouse) Island, Oryukdo - panoramio (1)",
+                  "author": "Wonho E",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:DeungDae(Lighthouse)_Island,_Oryukdo_-_panoramio_(1).jpg",
+                  "credit": "https://web.archive.org/web/20161114054938/http://www.panoramio.com/photo/49014893",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "DeungDae(Lighthouse) Island, Oryukdo"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

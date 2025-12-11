@@ -1,0 +1,1116 @@
+{
+  "country": "Liechtenstein",
+  "state": "Vaduz",
+  "cities": [
+    {
+      "city": "Vaduz",
+      "nearest_airport": "Zurich Airport (Switzerland)",
+      "places": [
+        {
+          "name": "Vaduz Castle (Exterior Viewpoint)",
+          "ai_summary": "A historic castle perched above Vaduz, offering stunning views of the city and the Rhine Valley.",
+          "name_english": "Vaduz Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free (Exterior Only)",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Interior not open to the public."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Capture panoramic photos from the viewpoint.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.141,
+            "longitude": 9.521
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/vaduz-castle",
+          "tags": [
+            "History",
+            "Viewpoints",
+            "Landmark"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Liechtenstein_asv2022-10_img22_Vaduz_Schloss.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Liechtenstein_asv2022-10_img22_Vaduz_Schloss.jpg/960px-Liechtenstein_asv2022-10_img22_Vaduz_Schloss.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Liechtenstein asv2022-10 img22 Vaduz Schloss",
+                  "author": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+                  "license": "FAL",
+                  "license_url": "http://artlibre.org/licence/lal/en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Liechtenstein_asv2022-10_img22_Vaduz_Schloss.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Free Art License",
+                  "description": "Vaduz Castle (town side) in Vaduz, Liechtenstein"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Kunstmuseum Liechtenstein (Modern Art)",
+          "ai_summary": "A modern art museum in Vaduz, featuring contemporary works and rotating exhibitions from international artists.",
+          "name_english": "Liechtenstein Art Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Free entry on the first Sunday of each month."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the sculpture garden outside the museum.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.142,
+            "longitude": 9.522
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/kunstmuseum",
+          "tags": [
+            "Art",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:KML_HAF_aussen_vom_Staedtle_Barbara_Buehler.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/KML_HAF_aussen_vom_Staedtle_Barbara_Buehler.jpg/960px-KML_HAF_aussen_vom_Staedtle_Barbara_Buehler.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "KML HAF aussen vom Staedtle Barbara Buehler",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mart2000&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Mart2000 (page does not exist)\">Mart2000</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:KML_HAF_aussen_vom_Staedtle_Barbara_Buehler.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Kunstmuseum Liechtenstein"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Hilti Art Foundation",
+          "ai_summary": "An extension of the Kunstmuseum, showcasing a private collection of modern and classical art pieces.",
+          "name_english": "Hilti Art Foundation",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Combined tickets available with Kunstmuseum."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the thematic exhibitions for unique insights.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.143,
+            "longitude": 9.523
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/hilti-art",
+          "tags": [
+            "Art",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:KML_HAF_aussen_vom_Staedtle_Barbara_Buehler.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/KML_HAF_aussen_vom_Staedtle_Barbara_Buehler.jpg/960px-KML_HAF_aussen_vom_Staedtle_Barbara_Buehler.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "KML HAF aussen vom Staedtle Barbara Buehler",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mart2000&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Mart2000 (page does not exist)\">Mart2000</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:KML_HAF_aussen_vom_Staedtle_Barbara_Buehler.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Kunstmuseum Liechtenstein"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Liechtenstein National Museum",
+          "ai_summary": "The principal museum in Liechtenstein, presenting the history, culture, and art of the principality.",
+          "name_english": "Liechtenstein National Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Free entry on the first Sunday of each month."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the medieval armory and the natural history section.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1415,
+            "longitude": 9.5215
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/liechtenstein-national-museum",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Prince_Alois_of_Liechtenstein_2024_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Prince_Alois_of_Liechtenstein_2024_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Prince Alois of Liechtenstein 2024 (cropped)",
+                  "author": "Information und Kommunikation der Regierung, Vaduz",
+                  "license": "Attribution",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Prince_Alois_of_Liechtenstein_2024_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Stefan Barriga, HSH Hereditary Prince Alois of Liechtenstein and Árni Páll Árnason during a EFTA courtesy visit to Vaduz Castle."
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Liechtenstein Postal Museum",
+          "ai_summary": "A museum dedicated to the postal history of Liechtenstein, featuring exhibits on philately and postal services.",
+          "name_english": "Liechtenstein Postal Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.1,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Visit the gift shop for unique postal-themed souvenirs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1412,
+            "longitude": 9.5208
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/liechtenstein-postal-museum",
+          "tags": [
+            "History",
+            "Museum",
+            "Free"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Engländerbau.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Engl%C3%A4nderbau.jpg/960px-Engl%C3%A4nderbau.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Engländerbau",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:St9191&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:St9191 (page does not exist)\">St9191</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Engl%C3%A4nderbau.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "\"Engländerbau\" in Vaduz, the capital of Liechtenstein: location of the Postmuseum of Liechtenstein"
+                }
+              }
+            }
+          },
+          "rank_score": 0.686
+        },
+        {
+          "name": "St. Florin Cathedral",
+          "ai_summary": "The main church in Vaduz, known for its impressive architecture and beautiful stained glass windows.",
+          "name_english": "St. Florin Cathedral",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Mass times may restrict visiting hours."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Attend a concert if available, the acoustics are remarkable.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1417,
+            "longitude": 9.5203
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/st-florin-cathedral",
+          "tags": [
+            "Religion",
+            "Architecture",
+            "Free"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Liechtenstein_asv2022-10_img21_Vaduz_Kathedrale_StFlorin.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Liechtenstein_asv2022-10_img21_Vaduz_Kathedrale_StFlorin.jpg/960px-Liechtenstein_asv2022-10_img21_Vaduz_Kathedrale_StFlorin.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Liechtenstein asv2022-10 img21 Vaduz Kathedrale StFlorin",
+                  "author": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+                  "license": "FAL",
+                  "license_url": "http://artlibre.org/licence/lal/en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Liechtenstein_asv2022-10_img21_Vaduz_Kathedrale_StFlorin.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Free Art License",
+                  "description": "Cathedral of St. Florin in Vaduz, Liechtenstein"
+                }
+              }
+            }
+          },
+          "rank_score": 0.682
+        },
+        {
+          "name": "Government Building (Regierungsgebäude)",
+          "ai_summary": "The administrative center of Liechtenstein, notable for its modern architecture and historical significance.",
+          "name_english": "Government Building",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.1,
+          "rating_traveler_experience": 4.0,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check for any public events or restrictions."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Look out for the Liechtenstein flag, a symbol of the principality's sovereignty.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1411,
+            "longitude": 9.5212
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/government-building",
+          "tags": [
+            "Politics",
+            "Architecture",
+            "Free"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Liechtenstein_asv2022-10_img23_Vaduz_Regierungsgebäude.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Liechtenstein_asv2022-10_img23_Vaduz_Regierungsgeb%C3%A4ude.jpg/960px-Liechtenstein_asv2022-10_img23_Vaduz_Regierungsgeb%C3%A4ude.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Liechtenstein asv2022-10 img23 Vaduz Regierungsgebäude",
+                  "author": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+                  "license": "FAL",
+                  "license_url": "http://artlibre.org/licence/lal/en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Liechtenstein_asv2022-10_img23_Vaduz_Regierungsgeb%C3%A4ude.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Free Art License",
+                  "description": "Government house in Vaduz, Liechtenstein"
+                }
+              }
+            }
+          },
+          "rank_score": 0.67
+        },
+        {
+          "name": "Städtle Pedestrian Street",
+          "ai_summary": "The main shopping street in Vaduz, lined with boutiques, cafes, and shops, perfect for a leisurely stroll.",
+          "name_english": "Städtle Pedestrian Street",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited on foot."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Stop by the local bakeries for a taste of Liechtenstein's famous pastries.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1419,
+            "longitude": 9.5206
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/staedtle-pedestrian-street",
+          "tags": [
+            "Shopping",
+            "Food",
+            "Leisure"
+          ],
+          "state": "Vaduz",
+          "photos": {},
+          "rank_score": 0.698
+        },
+        {
+          "name": "Red House (Rotes Haus) Viewpoint",
+          "ai_summary": "A viewpoint offering a unique perspective of the Red House, a historic building in Vaduz, and the surrounding area.",
+          "name_english": "Red House Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best light for photos is in the morning."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "The viewpoint is especially beautiful in winter when the Red House is surrounded by snow.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1425,
+            "longitude": 9.5195
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/red-house-viewpoint",
+          "tags": [
+            "Photography",
+            "Viewpoints",
+            "Free"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:The_Great_Red_Dragon_and_the_Woman_Clothed_with_the_Sun.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/The_Great_Red_Dragon_and_the_Woman_Clothed_with_the_Sun.jpg/960px-The_Great_Red_Dragon_and_the_Woman_Clothed_with_the_Sun.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "The Great Red Dragon and the Woman Clothed with the Sun",
+                  "author": "William Blake",
+                  "license": "No restrictions",
+                  "license_url": "//commons.wikimedia.org/wiki/File:The_Great_Red_Dragon_and_the_Woman_Clothed_with_the_Sun.jpg",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:The_Great_Red_Dragon_and_the_Woman_Clothed_with_the_Sun.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "No known copyright restrictions",
+                  "description": "William Blake (British, 1757-1827). The Great Red Dragon and the Woman Clothed with the Sun (Rev. 12: 1-4), ca. 1803-1805. The handwritten caption reads: \"And the tail of the great red dragon drew the third part of the stars of heaven and did cast them to the earth. And the dragon stood before the woman which was ready to be delivered for to devour her child as soon as it was born\". Black ink and watercolor over traces of graphite and incised lines, Image: 17 3/16 x 13 11/16 in. (43.7 x 34.8 cm). Brooklyn Museum, Gift of William Augustus White, 15.368"
+                }
+              }
+            }
+          },
+          "rank_score": 0.722
+        },
+        {
+          "name": "Alte Rheinbrücke (Wooden Covered Bridge)",
+          "ai_summary": "A picturesque wooden bridge in Vaduz, offering a scenic walk and great views of the Rhine River.",
+          "name_english": "Old Rhine Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "The bridge is not accessible to vehicles."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Combine your visit with a walk along the Rhine for a complete experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1432,
+            "longitude": 9.5187
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/old-rhine-bridge",
+          "tags": [
+            "Nature",
+            "History",
+            "Free"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Konstanz_Blick_vom_Münsterturm.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Konstanz_Blick_vom_M%C3%BCnsterturm.jpg/960px-Konstanz_Blick_vom_M%C3%BCnsterturm.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Konstanz Blick vom Münsterturm",
+                  "author": "Achim",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Konstanz_Blick_vom_M%C3%BCnsterturm.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Peter-Kaiser-Platz",
+          "ai_summary": "A central square in Vaduz, often used for events and gatherings, surrounded by important buildings.",
+          "name_english": "Peter-Kaiser-Platz",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.0,
+          "rating_traveler_experience": 3.9,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check local listings for events."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the nearby cafes for a taste of local cuisine.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1413,
+            "longitude": 9.5201
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/peter-kaiser-platz",
+          "tags": [
+            "Public Square",
+            "Events",
+            "Free"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Liechtenstein_asv2022-10_img23_Vaduz_Regierungsgebäude.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Liechtenstein_asv2022-10_img23_Vaduz_Regierungsgeb%C3%A4ude.jpg/960px-Liechtenstein_asv2022-10_img23_Vaduz_Regierungsgeb%C3%A4ude.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Liechtenstein asv2022-10 img23 Vaduz Regierungsgebäude",
+                  "author": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+                  "license": "FAL",
+                  "license_url": "http://artlibre.org/licence/lal/en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Liechtenstein_asv2022-10_img23_Vaduz_Regierungsgeb%C3%A4ude.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Free Art License",
+                  "description": "Government house in Vaduz, Liechtenstein"
+                }
+              }
+            }
+          },
+          "rank_score": 0.634
+        },
+        {
+          "name": "Liechtenstein Center (Tourist Info & Passport Stamp)",
+          "ai_summary": "The official tourist information center in Vaduz, where visitors can get information and a passport stamp.",
+          "name_english": "Liechtenstein Center",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 3:00 PM",
+            "Sunday": "Closed",
+            "notes": "Passport stamps available during opening hours."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Ask about the Liechtenstein Adventure Pass for discounts on local attractions.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1414,
+            "longitude": 9.5214
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/liechtenstein-center",
+          "tags": [
+            "Tourist Information",
+            "Free",
+            "Services"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:View_of_Triesenberg.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/View_of_Triesenberg.jpg/960px-View_of_Triesenberg.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "View of Triesenberg",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q125695900\" class=\"extiw\" title=\"d:Q125695900\"><span title=\"British photographer\">Lucas Kendall</span></a></bdi>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:View_of_Triesenberg.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "An unobstructed view of the main section of Triesenberg, Liechtenstein. In the distance the Hoher Kasten peak can be seen."
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Hofkellerei des Fürsten von Liechtenstein (Winery)",
+          "ai_summary": "The winery of the Prince of Liechtenstein, offering tours and tastings of their exclusive wines.",
+          "name_english": "Prince of Liechtenstein Winery",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Varies by tour",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Advance booking recommended for tours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try the local specialty, Liechtenstein Tafelwein.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1418,
+            "longitude": 9.5231
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/prince-winery",
+          "tags": [
+            "Wine",
+            "Tours",
+            "Tasting"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:3156_-_Vaduz_-_Hintergass_vom_Mitteldorf.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/3156_-_Vaduz_-_Hintergass_vom_Mitteldorf.JPG/960px-3156_-_Vaduz_-_Hintergass_vom_Mitteldorf.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "3156 - Vaduz - Hintergass vom Mitteldorf",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Thisisbossi\" class=\"mw-userlink\" title=\"User:Thisisbossi\">Andrew Bossi</a>",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:3156_-_Vaduz_-_Hintergass_vom_Mitteldorf.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "Behind Lane viewed from Mitteldorf, <a href=\"https://en.wikipedia.org/wiki/Vaduz\" class=\"extiw\" title=\"en:Vaduz\">Vaduz</a>, <a href=\"https://en.wikipedia.org/wiki/Liechtenstein\" class=\"extiw\" title=\"en:Liechtenstein\">Liechtenstein</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Rheinpark Stadion (Tour)",
+          "ai_summary": "The national stadium of Liechtenstein, offering tours that showcase its modern facilities and history.",
+          "name_english": "Rheinpark Stadium",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Varies by tour",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Check schedule for tour availability."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Combine your visit with a walk in the nearby Rheinpark.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1416,
+            "longitude": 9.524
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/rheinpark-stadion",
+          "tags": [
+            "Sports",
+            "Tours",
+            "History"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:The_Rheinpark_Stadium_before_a_UEFA_Nations_League_match_(2022).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/The_Rheinpark_Stadium_before_a_UEFA_Nations_League_match_%282022%29.jpg/960px-The_Rheinpark_Stadium_before_a_UEFA_Nations_League_match_%282022%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "The Rheinpark Stadium before a UEFA Nations League match (2022)",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Vincenzo.togni&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Vincenzo.togni (page does not exist)\">Vincenzo.togni</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:The_Rheinpark_Stadium_before_a_UEFA_Nations_League_match_(2022).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The Rheinpark Stadium in Vaduz before a UEFA Nations League match (2022)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Vaduz Citytrain Panorama Ride",
+          "ai_summary": "A scenic train ride through Vaduz, offering panoramic views of the city, castle, and surrounding landscapes.",
+          "name_english": "Vaduz Citytrain",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Ticket required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 4:00 PM",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Limited service in winter months."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Sit on the upper deck for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.141,
+            "longitude": 9.5205
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/vaduz-citytrain",
+          "tags": [
+            "Sightseeing",
+            "Transport",
+            "Scenic"
+          ],
+          "state": "Vaduz",
+          "photos": {},
+          "rank_score": 0.754
+        },
+        {
+          "name": "Treasure Chamber (Landesmuseum Schatzkammer)",
+          "ai_summary": "A museum showcasing the treasures of Liechtenstein, including royal regalia, historical artifacts, and art pieces.",
+          "name_english": "Treasure Chamber",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Free entry on the first Sunday of each month."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Join a guided tour for detailed explanations of the exhibits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1415,
+            "longitude": 9.5218
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/treasure-chamber",
+          "tags": [
+            "History",
+            "Art",
+            "Museum"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Oliver_Mark_-_Rainer_Vollkommer,_Bahrain_2022.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Oliver_Mark_-_Rainer_Vollkommer%2C_Bahrain_2022.jpg/960px-Oliver_Mark_-_Rainer_Vollkommer%2C_Bahrain_2022.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "<div class=\"fn\">\n<a href=\"https://en.wikipedia.org/wiki/Rainer_Vollkommer\" class=\"extiw\" title=\"w:Rainer Vollkommer\">Rainer Vollkommer</a>, Berlin 2022</div>",
+                  "author": "OliverMarkCC",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Oliver_Mark_-_Rainer_Vollkommer,_Bahrain_2022.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "Art in Public Places Sculpture Walk",
+          "ai_summary": "A walk through Vaduz featuring various sculptures and art installations in public spaces.",
+          "name_english": "Sculpture Walk",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.1,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed at a leisurely pace."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Bring a camera to capture the unique artworks.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1412,
+            "longitude": 9.5204
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/sculpture-walk",
+          "tags": [
+            "Art",
+            "Culture",
+            "Free"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Indianapolis_Museum_of_Art_-_IMA_(2592098617).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Indianapolis_Museum_of_Art_-_IMA_%282592098617%29.jpg/960px-Indianapolis_Museum_of_Art_-_IMA_%282592098617%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Indianapolis Museum of Art - IMA (2592098617)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67958110@N00\">Serge Melki</a> from Indianapolis, USA",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Indianapolis_Museum_of_Art_-_IMA_(2592098617).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "<p>Robert Indiana famous Love Sculpture. \nWas a bit hard to shoot because the sun was right in front of me. \n</p>\n<a href=\"https://en.wikipedia.org/wiki/en:Robert_Indiana\" class=\"extiw\" title=\"w:en:Robert Indiana\">More about the artist</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.666
+        },
+        {
+          "name": "Fürstenkino & Cultural Events Strip",
+          "ai_summary": "A cultural venue in Vaduz offering a cinema, theater, and various events throughout the year.",
+          "name_english": "Fürstenkino & Events",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Varies by event",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Check schedule for movie and event times."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Look out for film festivals and special cultural events.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1413,
+            "longitude": 9.521
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/fuerstenkino-events",
+          "tags": [
+            "Cinema",
+            "Theater",
+            "Culture"
+          ],
+          "state": "Vaduz",
+          "photos": {},
+          "rank_score": 0.682
+        },
+        {
+          "name": "Castle Trail (Schlossweg) Lookouts",
+          "ai_summary": "Scenic lookouts along the Castle Trail in Vaduz, offering breathtaking views of the castle and the Rhine Valley.",
+          "name_english": "Castle Trail Lookouts",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in good weather."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for the trail.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1405,
+            "longitude": 9.519
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/castle-trail-lookouts",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Free"
+          ],
+          "state": "Vaduz",
+          "photos": {},
+          "rank_score": 0.786
+        },
+        {
+          "name": "Sunset Walk along the Rhine Embankment",
+          "ai_summary": "A picturesque walk along the Rhine Embankment in Vaduz, ideal for watching the sunset.",
+          "name_english": "Rhine Embankment Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed at a leisurely pace."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring a blanket and enjoy a picnic by the river.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.1408,
+            "longitude": 9.5185
+          },
+          "address": "Vaduz, Liechtenstein",
+          "official_website": "https://example.com/rhine-embankment-walk",
+          "tags": [
+            "Nature",
+            "Leisure",
+            "Free"
+          ],
+          "state": "Vaduz",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Oberrhein_bei_Iffezheim_(33932765658).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Oberrhein_bei_Iffezheim_%2833932765658%29.jpg/960px-Oberrhein_bei_Iffezheim_%2833932765658%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Oberrhein bei Iffezheim (33932765658)",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q1005545\" class=\"extiw\" title=\"d:Q1005545\"><span title=\"facility in Karlsruhe, Germany\">Federal Waterways Engineering and Research Institute</span></a></bdi>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Oberrhein_bei_Iffezheim_(33932765658).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Blick vom oberen Vorhafen Richtung Süden, ein Schiff hat die Schleuse verlassen"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        }
+      ]
+    }
+  ]
+}

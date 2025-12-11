@@ -23,9 +23,12 @@ export class GroupMembershipMonitor {
    * @param {Function} fetchGroups - Function that fetches user's groups
    * @param {Function} onGroupRemoved - Callback when group is deleted
    * @param {Function} onMemberRemoved - Callback when user is removed from group
-   * @param {number} interval - Poll interval in milliseconds (default: 15000)
+   * @param {number} interval - Poll interval in milliseconds (default: 120000 = 2 min)
+   * 
+   * Phase 18.1: Changed from 15s to 120s (2 min) to reduce API calls.
+   * Firestore real-time listeners handle most updates, this is a backup only.
    */
-  startMonitoring(fetchGroups, onGroupRemoved, onMemberRemoved, interval = 15000) {
+  startMonitoring(fetchGroups, onGroupRemoved, onMemberRemoved, interval = 120000) {
     this.fetchGroups = fetchGroups;
     this.onGroupRemoved = onGroupRemoved;
     this.onMemberRemoved = onMemberRemoved;
@@ -38,7 +41,7 @@ export class GroupMembershipMonitor {
       this.checkForChanges();
     }, interval);
 
-    console.log('🔍 Group membership monitoring started (polling every 15s)');
+    console.log('🔍 Group membership monitoring started (polling every 2min - Firestore handles real-time)');
   }
 
   /**

@@ -1,0 +1,701 @@
+{
+  "country": "Iceland",
+  "state": "Highlands",
+  "cities": [
+    {
+      "city": "Highlands",
+      "nearest_airport": "Reykjavík Airport (RKV)",
+      "places": [
+        {
+          "name": "Landmannalaugar",
+          "ai_summary": "A geothermal wonderland in the Highlands, known for its colorful rhyolite mountains, hot springs, and hiking trails.",
+          "name_english": "Landmannalaugar",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:45",
+          "sunset_time": "16:15",
+          "cost": "$5",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible during summer months."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Bring sturdy hiking boots and a swimsuit for the hot springs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 63.99,
+            "longitude": -19.06
+          },
+          "address": "Landmannalaugar, Iceland",
+          "official_website": "https://www.landmannalaugar.info/",
+          "tags": [
+            "Geothermal",
+            "Hiking",
+            "Nature"
+          ],
+          "state": "Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Landmannalaugar_Campsite.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Landmannalaugar_Campsite.jpg/960px-Landmannalaugar_Campsite.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Landmannalaugar Campsite",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Anjalikiggal&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Anjalikiggal (page does not exist)\">Anjali Kiggal</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Landmannalaugar_Campsite.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The campsite that sits in the Landmannalaugar valley."
+                }
+              }
+            }
+          },
+          "rank_score": 0.858
+        },
+        {
+          "name": "Askja Caldera",
+          "ai_summary": "A remote volcanic caldera featuring a stunning blue lake, Víti, and dramatic lunar-like landscapes.",
+          "name_english": "Askja Caldera",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:50",
+          "sunset_time": "16:20",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible during summer months."
+          },
+          "suggested_duration": "5-6 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Rent a 4x4 vehicle to navigate the rugged terrain.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.03,
+            "longitude": -16.75
+          },
+          "address": "Askja, Iceland",
+          "official_website": null,
+          "tags": [
+            "Volcano",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Askja.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Askja.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Askja",
+                  "author": "Michael Ryan",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Askja.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Photo of caldera of Askja Volcano"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Hveravellir",
+          "ai_summary": "A geothermal area with steaming vents, hot springs, and a natural pool, surrounded by the rugged beauty of the Highlands.",
+          "name_english": "Hveravellir",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:40",
+          "sunset_time": "16:10",
+          "cost": "$10",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Take a dip in the natural hot pool for a relaxing experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.867,
+            "longitude": -19.55
+          },
+          "address": "Hveravellir, Iceland",
+          "official_website": "https://www.hveravellir.is/",
+          "tags": [
+            "Geothermal",
+            "Relaxation",
+            "Nature"
+          ],
+          "state": "Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hveravellir_02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Hveravellir_02.jpg/960px-Hveravellir_02.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Hveravellir 02",
+                  "author": "Christian Bickel <a href=\"//commons.wikimedia.org/wiki/User:Fingalo\" title=\"User:Fingalo\">fingalo</a>",
+                  "license": "CC BY-SA 2.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hveravellir_02.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0 de",
+                  "description": "Thermalgebiet in Hveravellir."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Thórsmörk",
+          "ai_summary": "A lush valley surrounded by glaciers and mountains, offering incredible hiking trails and breathtaking scenery.",
+          "name_english": "Thorsmork",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:35",
+          "sunset_time": "16:05",
+          "cost": "$5",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible during summer months."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Join a guided tour to explore the best trails safely.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 63.683,
+            "longitude": -19.533
+          },
+          "address": "Thórsmörk, Iceland",
+          "official_website": "https://www.thorsmork.is/",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Highland_4x4_adventure_in_iceland.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Highland_4x4_adventure_in_iceland.jpg/960px-Highland_4x4_adventure_in_iceland.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Highland 4x4 adventure in iceland",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Emstrur&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Emstrur (page does not exist)\">Emstrur</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Highland_4x4_adventure_in_iceland.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Make sure you have the right 4X4 car and the knowhow when you cross a river in Iceland"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Kerlingarfjöll",
+          "ai_summary": "A geothermal mountain range with steaming vents, colorful landscapes, and excellent hiking opportunities in the heart of the Highlands.",
+          "name_english": "Kerlingarfjöll",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:50",
+          "sunset_time": "16:20",
+          "cost": "$15",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible during summer months."
+          },
+          "suggested_duration": "5-6 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Stay overnight at the mountain resort for a full experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 64.64,
+            "longitude": -19.2
+          },
+          "address": "Kerlingarfjöll, Iceland",
+          "official_website": "https://www.kerlingarfjoll.is/",
+          "tags": [
+            "Geothermal",
+            "Hiking",
+            "Nature"
+          ],
+          "state": "Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kerlingarfjöll_peaks.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kerlingarfj%C3%B6ll_peaks.jpg/960px-Kerlingarfj%C3%B6ll_peaks.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kerlingarfjöll peaks",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Krator\" title=\"User:Krator\">Krator</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kerlingarfj%C3%B6ll_peaks.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Peaks of the Kerlingarfjöll mountain range in Iceland."
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Fimmvörðuháls",
+          "ai_summary": "A popular hiking trail between the glaciers of Eyjafjallajökull and Mýrdalsjökull, known for its stunning views and volcanic landscapes.",
+          "name_english": "Fimmvörðuháls",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:55",
+          "sunset_time": "16:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible during summer months."
+          },
+          "suggested_duration": "6-8 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Start early to avoid crowds and enjoy the tranquility.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 63.632,
+            "longitude": -19.485
+          },
+          "address": "Fimmvörðuháls, Iceland",
+          "official_website": null,
+          "tags": [
+            "Hiking",
+            "Glacier",
+            "Nature"
+          ],
+          "state": "Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Highland_4x4_adventure_in_iceland.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Highland_4x4_adventure_in_iceland.jpg/960px-Highland_4x4_adventure_in_iceland.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Highland 4x4 adventure in iceland",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Emstrur&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Emstrur (page does not exist)\">Emstrur</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Highland_4x4_adventure_in_iceland.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Make sure you have the right 4X4 car and the knowhow when you cross a river in Iceland"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Skaftafell National Park",
+          "ai_summary": "A stunning national park in the Vatnajökull region, featuring glaciers, waterfalls, and diverse hiking trails.",
+          "name_english": "Skaftafell National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:30",
+          "sunset_time": "16:00",
+          "cost": "$10",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit the Svartifoss waterfall and take a glacier hike.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 64.016,
+            "longitude": -16.975
+          },
+          "address": "Skaftafell, Iceland",
+          "official_website": "https://www.vatnajokulsthjodgardur.is/en/areas/skaftafell",
+          "tags": [
+            "National Park",
+            "Glacier",
+            "Hiking"
+          ],
+          "state": "Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hvannadalshnjukur-Vatnajokull_National_Park.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Hvannadalshnjukur-Vatnajokull_National_Park.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Hvannadalshnjukur-Vatnajokull National Park",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gummao&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Gummao (page does not exist)\">Gummao</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hvannadalshnjukur-Vatnajokull_National_Park.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Hvannadalshnjúkur is a mountain peak near Skaftafell, southeast Iceland. At 2110 m it is Iceland's highest peak, rising 2000 m above its surrounding area."
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Jökulsárlón Glacier Lagoon",
+          "ai_summary": "A breathtaking glacial lagoon filled with icebergs, offering boat tours and stunning views of Vatnajökull glacier.",
+          "name_english": "Jökulsárlón Glacier Lagoon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:20",
+          "sunset_time": "15:50",
+          "cost": "$15",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Take a boat tour to get up close to the icebergs.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 64.048,
+            "longitude": -16.178
+          },
+          "address": "Jökulsárlón, Iceland",
+          "official_website": "https://jokulsarlon.is/",
+          "tags": [
+            "Glacier Lagoon",
+            "Boat Tours",
+            "Nature"
+          ],
+          "state": "Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Jökulsárlón_lagoon_in_southeastern_Iceland.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/J%C3%B6kuls%C3%A1rl%C3%B3n_lagoon_in_southeastern_Iceland.jpg/960px-J%C3%B6kuls%C3%A1rl%C3%B3n_lagoon_in_southeastern_Iceland.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Jökulsárlón lagoon in southeastern Iceland",
+                  "author": "Molechaser",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:J%C3%B6kuls%C3%A1rl%C3%B3n_lagoon_in_southeastern_Iceland.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Jökulsárlón lagoon in southeastern Iceland,"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Diamond Beach",
+          "ai_summary": "A stunning black sand beach near Jökulsárlón, scattered with icebergs and offering unique photographic opportunities.",
+          "name_english": "Diamond Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:15",
+          "sunset_time": "15:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit at sunrise or sunset for stunning light conditions.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.044,
+            "longitude": -16.178
+          },
+          "address": "Diamond Beach, Iceland",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Highlands",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Reynisfjara Black Sand Beach",
+          "ai_summary": "A famous black sand beach near Vik, known for its basalt columns, sea stacks, and powerful waves.",
+          "name_english": "Reynisfjara Black Sand Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:10",
+          "sunset_time": "15:40",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Be cautious of the strong waves and sneaker waves.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 63.404,
+            "longitude": -19.071
+          },
+          "address": "Reynisfjara, Iceland",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Reynisfjara_Beach_Looking_West_Towards_Dyrhólaey.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Reynisfjara_Beach_Looking_West_Towards_Dyrh%C3%B3laey.jpg/960px-Reynisfjara_Beach_Looking_West_Towards_Dyrh%C3%B3laey.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Reynisfjara Beach Looking West Towards Dyrhólaey",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Strwiki2017&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Strwiki2017 (page does not exist)\">Strwiki2017</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Reynisfjara_Beach_Looking_West_Towards_Dyrh%C3%B3laey.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "A picture taken at Reynisfjara beach looking west towards Dyrhólaey promontory."
+                }
+              }
+            }
+          },
+          "rank_score": 0.858
+        },
+        {
+          "name": "Dyrhólaey Peninsula",
+          "ai_summary": "A scenic promontory near Vik, featuring a massive arch, lighthouse, and stunning views of the coastline and sea stacks.",
+          "name_english": "Dyrhólaey Peninsula",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:05",
+          "sunset_time": "15:35",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit the lighthouse and enjoy the panoramic views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 63.416,
+            "longitude": -18.973
+          },
+          "address": "Dyrhólaey, Iceland",
+          "official_website": null,
+          "tags": [
+            "Scenic",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Dyrhólaey,_Suðurland,_Islandia,_2014-08-17,_DD_140.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Dyrh%C3%B3laey%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-17%2C_DD_140.jpg/960px-Dyrh%C3%B3laey%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-17%2C_DD_140.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Dyrhólaey, Suðurland, Islandia, 2014-08-17, DD 140",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Dyrh%C3%B3laey,_Su%C3%B0urland,_Islandia,_2014-08-17,_DD_140.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Dyrh%C3%B3laey\" class=\"extiw\" title=\"en:Dyrhólaey\">Dyrhólaey</a> Arch, Suðurland, Iceland. The ocean has worn the black basalt here into a 120 meters (394 ft) high arch which also serves as a bird sanctuary."
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Vatnajökull National Park",
+          "ai_summary": "A vast national park encompassing the largest glacier in Europe, offering diverse landscapes, hiking trails, and ice cave tours.",
+          "name_english": "Vatnajökull National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:00",
+          "sunset_time": "15:30",
+          "cost": "$20",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "5-6 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Join a guided ice cave tour for a unique experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 64.135,
+            "longitude": -16.57
+          },
+          "address": "Vatnajökull National Park, Iceland",
+          "official_website": "https://www.vatnajokulsthjodgardur.is/en/",
+          "tags": [
+            "National Park",
+            "Glacier",
+            "Hiking"
+          ],
+          "state": "Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hvannadalshnjukur-Vatnajokull_National_Park.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Hvannadalshnjukur-Vatnajokull_National_Park.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Hvannadalshnjukur-Vatnajokull National Park",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gummao&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Gummao (page does not exist)\">Gummao</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hvannadalshnjukur-Vatnajokull_National_Park.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Hvannadalshnjúkur is a mountain peak near Skaftafell, southeast Iceland. At 2110 m it is Iceland's highest peak, rising 2000 m above its surrounding area."
+                }
+              }
+            }
+          },
+          "rank_score": 0.878
+        }
+      ]
+    }
+  ]
+}

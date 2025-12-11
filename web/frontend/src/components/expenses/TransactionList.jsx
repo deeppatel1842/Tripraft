@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Edit2, Trash2, FolderOpen, Info, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Edit2, Trash2, FolderOpen, Info, ChevronLeft, ChevronRight, History, RefreshCw } from 'lucide-react';
+import ExpenseHistoryModal from './ExpenseHistoryModal';
+import './ExpenseHistoryModal.css';
 
 const TransactionList = ({ 
   transactions, 
@@ -7,6 +9,7 @@ const TransactionList = ({
   mode, 
   activeGroup,
   members,
+  allMembersMap = {},  // Phase 17 Bug Fix: Include removed members for history display
   currentUserId, // Add current user ID to check ownership
   onEdit, 
   onDelete, 
@@ -14,6 +17,8 @@ const TransactionList = ({
 }) => {
   const [showDetailsModal, setShowDetailsModal] = useState(false);
   const [selectedTransaction, setSelectedTransaction] = useState(null);
+  const [showHistoryModal, setShowHistoryModal] = useState(false);
+  const [historyTransaction, setHistoryTransaction] = useState(null);
   
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -24,41 +29,60 @@ const TransactionList = ({
   };
 
   // Helper function to get member display name
+  // Phase 17 Bug Fix: Also check allMembersMap for removed members
   const getMemberName = (userId) => {
-    if (!userId || !members || members.length === 0) return 'Unknown User';
+    if (!userId) return 'Unknown User';
     
-    const member = members.find(m => (m.user_id || m.id) === userId);
-    if (!member) return 'Unknown User';
+    // First: Check active members array
+    if (members && members.length > 0) {
+      const member = members.find(m => (m.user_id || m.id) === userId);
+      if (member) {
+        return member.user?.display_name || 
+               member.user?.username || 
+               member.user?.email ||
+               member.display_name ||
+               member.username || 
+               member.email ||
+               'Unknown User';
+      }
+    }
     
-    return member.user?.display_name || 
-           member.user?.username || 
-           member.user?.email ||
-           member.display_name ||
-           member.username || 
-           member.email ||
-           'Unknown User';
+    // Second: Check allMembersMap (includes removed members)
+    if (allMembersMap && allMembersMap[userId]) {
+      return allMembersMap[userId].display_name || `Former Member (${userId.slice(0, 8)})`;
+    }
+    
+    return 'Unknown User';
   };
 
   // Check if split is equal
   const isEqualSplit = (transaction) => {
-    if (!transaction.splits || transaction.splits.length === 0) return false;
+    if (!transaction.splits || !Array.isArray(transaction.splits) || transaction.splits.length === 0) return false;
     
-    const firstAmount = transaction.splits[0].amount;
-    return transaction.splits.every(split => Math.abs(split.amount - firstAmount) < 0.01);
+    // Ensure all splits have valid amounts
+    const validSplits = transaction.splits.filter(split => split && typeof split.amount === 'number');
+    if (validSplits.length === 0) return false;
+    
+    const firstAmount = validSplits[0].amount;
+    return validSplits.every(split => Math.abs(split.amount - firstAmount) < 0.01);
   };
 
   // Get split summary for display
   const getSplitSummary = (transaction) => {
-    if (!transaction.splits || transaction.splits.length === 0) return 'No split';
+    if (!transaction.splits || !Array.isArray(transaction.splits) || transaction.splits.length === 0) return 'No split';
     
-    const totalPeople = transaction.splits.length;
+    // Filter out invalid splits
+    const validSplits = transaction.splits.filter(split => split && typeof split.amount === 'number');
+    if (validSplits.length === 0) return 'No split info';
+    
+    const totalPeople = validSplits.length;
     
     if (isEqualSplit(transaction)) {
       return `Equal split (${totalPeople} ${totalPeople === 1 ? 'person' : 'people'})`;
     }
     
     // For unequal splits, show count
-    const othersCount = transaction.splits.filter(s => s.user_id !== transaction.paid_by).length;
+    const othersCount = validSplits.filter(s => s.user_id !== transaction.paid_by).length;
     if (othersCount === 0) return 'Paid for self';
     if (othersCount === 1) return '1 person';
     return `${othersCount} people`;
@@ -86,20 +110,50 @@ const TransactionList = ({
     setShowDetailsModal(true);
   };
 
+  // Phase 12: Handle viewing expense history
+  const handleViewHistory = (transaction) => {
+    setHistoryTransaction(transaction);
+    setShowHistoryModal(true);
+  };
+
+  // Check if expense was edited
+  // Checks: is_edited flag, edit_count > 0, or updated_at differs from created_at
+  const wasEdited = (transaction) => {
+    // Check explicit edit flag
+    if (transaction.is_edited === true) return true;
+    if (transaction.edit_count && transaction.edit_count > 0) return true;
+    
+    // Check timestamps
+    if (transaction.updated_at && transaction.created_at) {
+      const created = new Date(transaction.created_at).getTime();
+      const updated = new Date(transaction.updated_at).getTime();
+      // Consider edited if updated more than 1 minute after creation
+      if ((updated - created) > 60000) return true;
+    }
+    
+    return false;
+  };
+
   // Check if current user can edit/delete this expense
+  // Role-based permissions:
+  // - Group owner can edit/delete ANY expense
+  // - Members can only edit/delete their OWN expenses (created_by matches)
   const canUserEditDelete = (transaction) => {
     if (mode !== 'group') {
       // Personal mode: user can edit their own expenses
-      return transaction.paid_by === currentUserId;
+      return transaction.paid_by === currentUserId || transaction.created_by === currentUserId;
     }
     
-    // Group mode: user can edit if they're involved (payer OR in the split)
-    const isPayer = transaction.paid_by === currentUserId;
-    const isInSplit = transaction.splits && transaction.splits.some(
-      split => split.user_id === currentUserId
-    );
+    // Group mode: Check if user is group owner
+    const isGroupOwner = activeGroup?.created_by === currentUserId;
+    if (isGroupOwner) {
+      // Group owner can edit/delete ANY expense
+      return true;
+    }
     
-    return isPayer || isInSplit;
+    // Members can only edit/delete expenses they created
+    const isCreator = transaction.created_by === currentUserId;
+    return isCreator;
   };
 
   const formatDate = (dateString) => {
@@ -240,14 +294,39 @@ const TransactionList = ({
                 const addedByName = mode === 'group' ? getMemberName(t.paid_by) : '';
                 const splitSummary = mode === 'group' ? getSplitSummary(t) : '';
                 const canEditDelete = canUserEditDelete(t);
+                const isEdited = wasEdited(t);
+                const isDeleted = t.is_deleted === true;
+                const isSyncing = t._optimistic === true; // Phase 17.5: Show syncing indicator
 
                 return (
-                  <tr key={t.id || t.expense_id || index}>
+                  <tr 
+                    key={t.id || t.expense_id || index}
+                    className={`${isDeleted ? 'transaction-deleted' : ''} ${isSyncing ? 'transaction-syncing' : ''}`}
+                  >
                     <td>
-                      <p className="description">{t.description}</p>
+                      <p className={`description ${isDeleted ? 'deleted-text' : ''}`}>
+                        {t.description}
+                        {isDeleted && <span className="deleted-badge">Deleted</span>}
+                        {isSyncing && (
+                          <span className="syncing-badge" title="Saving to server...">
+                            <RefreshCw size={10} className="spin" />
+                            Syncing
+                          </span>
+                        )}
+                      </p>
                       <p className="mobile-info">
                         {t.category} - {formatDate(t.date)}
                         {mode === 'group' && <><br/>Added by: {addedByName}</>}
+                        {isEdited && (
+                          <span 
+                            className="edited-badge"
+                            onClick={() => handleViewHistory(t)}
+                            style={{ marginLeft: '8px' }}
+                          >
+                            <History size={10} />
+                            Edited
+                          </span>
+                        )}
                       </p>
                     </td>
                     <td className="hide-mobile">
@@ -270,11 +349,27 @@ const TransactionList = ({
                         </div>
                       </td>
                     )}
-                    <td className={isIncomeTransaction ? 'amount-green' : 'amount-red'}>
-                      {formatCurrency(t.amount)}
+                    <td className={`${isIncomeTransaction ? 'amount-green' : 'amount-red'} ${isDeleted ? 'deleted-amount' : ''}`}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <span className={isDeleted ? 'deleted-text' : ''}>{formatCurrency(t.amount)}</span>
+                        {isEdited && !isDeleted && (
+                          <button 
+                            className="btn-icon"
+                            onClick={() => handleViewHistory(t)}
+                            title="View edit history"
+                            style={{ padding: '4px' }}
+                          >
+                            <History size={14} />
+                          </button>
+                        )}
+                      </div>
                     </td>
                     <td className="actions">
-                      {canEditDelete && (
+                      {isDeleted ? (
+                        <span className="deleted-indicator">
+                          <Trash2 size={14} />
+                        </span>
+                      ) : canEditDelete ? (
                         <>
                           <button 
                             className="btn-icon btn-edit"
@@ -285,18 +380,25 @@ const TransactionList = ({
                           </button>
                           <button 
                             className="btn-icon btn-delete"
-                            onClick={() => onDelete(t.id || t.expense_id)}
+                            onClick={() => {
+                              const expenseId = t.id || t.expense_id;
+                              if (expenseId && !expenseId.toString().startsWith('temp')) {
+                                onDelete(expenseId);
+                              } else {
+                                console.warn('⚠️ Cannot delete expense without valid ID:', expenseId);
+                              }
+                            }}
                             title="Delete transaction"
+                            disabled={!t.id && !t.expense_id}
                           >
                             <Trash2 size={16} />
                           </button>
                         </>
-                      )}
-                      {!canEditDelete && mode === 'group' && (
+                      ) : mode === 'group' ? (
                         <span style={{ fontSize: '0.75rem', color: '#999' }}>
                           View only
                         </span>
-                      )}
+                      ) : null}
                     </td>
                   </tr>
                 );
@@ -387,7 +489,7 @@ const TransactionList = ({
               
               <div className="receipt-breakdown">
                 <div className="receipt-label">SPLIT BREAKDOWN</div>
-                {selectedTransaction.splits && selectedTransaction.splits.map((split, idx) => (
+                {selectedTransaction.splits && Array.isArray(selectedTransaction.splits) && selectedTransaction.splits.map((split, idx) => (
                   <div key={idx} className="receipt-split-item">
                     <span className="split-name">{getMemberName(split.user_id)}</span>
                     <span className="split-dots"></span>
@@ -414,6 +516,18 @@ const TransactionList = ({
             </div>
           </div>
         </div>
+      )}
+
+      {/* Phase 12: Expense History Modal */}
+      {showHistoryModal && historyTransaction && (
+        <ExpenseHistoryModal
+          expense={historyTransaction}
+          members={members}
+          onClose={() => {
+            setShowHistoryModal(false);
+            setHistoryTransaction(null);
+          }}
+        />
       )}
     </div>
   );

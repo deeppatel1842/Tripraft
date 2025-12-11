@@ -1,0 +1,1059 @@
+{
+  "country": "Malaysia",
+  "state": "Cameron Highlands",
+  "cities": [
+    {
+      "city": "Tanah Rata",
+      "nearest_airport": "Sultan Azlan Shah Airport",
+      "places": [
+        {
+          "name": "BOH Tea Plantation",
+          "ai_summary": "A sprawling tea estate offering guided tours, scenic views, and a chance to learn about tea production.",
+          "name_english": "BOH Tea Plantation",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "06:45",
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00-16:30",
+            "Tuesday": "09:00-16:30",
+            "Wednesday": "09:00-16:30",
+            "Thursday": "09:00-16:30",
+            "Friday": "09:00-16:30",
+            "Saturday": "09:00-16:30",
+            "Sunday": "09:00-16:30",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "March to September",
+          "place_tip": "Visit early to avoid crowds and enjoy the morning mist.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4938,
+            "longitude": 101.389
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.boh.com.my",
+          "tags": [
+            "Nature",
+            "Education",
+            "Relaxation"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BOH_tea_estate_2,_Cameron_Highlands,_Malaysia.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/BOH_tea_estate_2%2C_Cameron_Highlands%2C_Malaysia.jpg/960px-BOH_tea_estate_2%2C_Cameron_Highlands%2C_Malaysia.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "BOH tea estate 2, Cameron Highlands, Malaysia",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Argenberg\" title=\"User:Argenberg\">Vyacheslav Argenberg</a>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BOH_tea_estate_2,_Cameron_Highlands,_Malaysia.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Tea valleys in Malaysia. BOH Plantations Sdn Bhd, the largest black tea manufacturer in Malaysia."
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Mossy Forest",
+          "ai_summary": "A mystical forest shrouded in mist, known for its unique moss-covered trees and biodiversity.",
+          "name_english": "Mossy Forest",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "07:00-18:00",
+            "Tuesday": "07:00-18:00",
+            "Wednesday": "07:00-18:00",
+            "Thursday": "07:00-18:00",
+            "Friday": "07:00-18:00",
+            "Saturday": "07:00-18:00",
+            "Sunday": "07:00-18:00",
+            "notes": "Guided tours recommended."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "April to October",
+          "place_tip": "Wear sturdy shoes and bring a jacket for the cool weather.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 4.5297,
+            "longitude": 101.4014
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.mossyforest.com",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Adventure"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cloud_forest_mount_kinabalu.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cloud_forest_mount_kinabalu.jpg/960px-Cloud_forest_mount_kinabalu.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cloud forest mount kinabalu",
+                  "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/w/index.php?title=User:NepGrower~commonswiki&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:NepGrower~commonswiki (page does not exist)\">NepGrower~commonswiki</a> assumed (based on copyright claims).",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cloud_forest_mount_kinabalu.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "Cloud forest. Mount Kinabalu, Borneo."
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Cameron Lavender Garden",
+          "ai_summary": "A vibrant garden showcasing a variety of lavender species, offering a fragrant and colorful experience.",
+          "name_english": "Cameron Lavender Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-18:00",
+            "Tuesday": "08:00-18:00",
+            "Wednesday": "08:00-18:00",
+            "Thursday": "08:00-18:00",
+            "Friday": "08:00-18:00",
+            "Saturday": "08:00-18:00",
+            "Sunday": "08:00-18:00",
+            "notes": "Best visited during the blooming season."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "March to September",
+          "place_tip": "Don't forget to take photos with the lavender fields.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4828,
+            "longitude": 101.3623
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.cameronlavender.com",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Relaxation"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Jalan_Tapah-Cameron_Highlands_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Jalan_Tapah-Cameron_Highlands_1.jpg/960px-Jalan_Tapah-Cameron_Highlands_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Jalan Tapah-Cameron Highlands 1",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Wiki_Farazi\" title=\"User:Wiki Farazi\">Wiki Farazi</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Jalan_Tapah-Cameron_Highlands_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Jalan Tapah-Cameron Highlands menuju ke arah Cameron Highlands."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Butterfly Garden",
+          "ai_summary": "A serene garden home to a variety of butterfly species, offering a close encounter with these beautiful insects.",
+          "name_english": "Butterfly Garden",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Best time to visit is in the afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "March to December",
+          "place_tip": "Look out for the butterfly feeding sessions.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.482,
+            "longitude": 101.3634
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.butterflygarden.com.my",
+          "tags": [
+            "Nature",
+            "Family",
+            "Education"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Danaus.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Danaus.jpg/960px-Danaus.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Danaus",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Kopph&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Kopph (page does not exist)\">Kopph</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Danaus.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "monarch feedig"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Cameron Bharat Tea Estate",
+          "ai_summary": "A scenic tea estate offering a glimpse into tea processing and stunning views of the tea plantations.",
+          "name_english": "Cameron Bharat Tea Estate",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "06:30",
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "February to November",
+          "place_tip": "Try the scones at the tea house.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4825,
+            "longitude": 101.3662
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.cameronbharattea.com",
+          "tags": [
+            "Nature",
+            "Education",
+            "Relaxation"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Time Tunnel Museum",
+          "ai_summary": "A unique museum showcasing the history and culture of the Cameron Highlands.",
+          "name_english": "Time Tunnel Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Check out the vintage photographs and artifacts.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4822,
+            "longitude": 101.3668
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.tunnelmuseum.com",
+          "tags": [
+            "History",
+            "Culture",
+            "Education"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:TIME_TUNNEL_museum18.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/TIME_TUNNEL_museum18.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "TIME TUNNEL museum18",
+                  "author": "See Kok Shan (curator)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:TIME_TUNNEL_museum18.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Logo of TIME TUNNEL museum. The museum is located within the Kok Lim Strawberry Farm, UT/MR/F-255, Jalan Sungei Burung, 39100, Brinchang, Cameron Highlands, Pahang, West Malaysia."
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Strawberry Farms",
+          "ai_summary": "Lush farms where visitors can pick strawberries and enjoy fresh strawberry-based products.",
+          "name_english": "Strawberry Farms",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "March to September",
+          "place_tip": "Wear comfortable clothes and shoes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4823,
+            "longitude": 101.3675
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.strawberryfarms.com.my",
+          "tags": [
+            "Nature",
+            "Family",
+            "Agriculture"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tea_fields_(Will_Ellis).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tea_fields_%28Will_Ellis%29.jpg/960px-Tea_fields_%28Will_Ellis%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tea fields (Will Ellis)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/wills/\">Will Ellis</a> from Reading, England",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tea_fields_(Will_Ellis).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "A view of Fields and fields of...... Tea in Cameron Highlands, Malaysia."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Mount Brinchang",
+          "ai_summary": "The highest peak in the Cameron Highlands, offering panoramic views and a cool climate.",
+          "name_english": "Mount Brinchang",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited early morning or late afternoon."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Bring warm clothing and water.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.5631,
+            "longitude": 101.3922
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.mountbrinchang.com",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Photography"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tea_fields_(Will_Ellis).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tea_fields_%28Will_Ellis%29.jpg/960px-Tea_fields_%28Will_Ellis%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tea fields (Will Ellis)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/wills/\">Will Ellis</a> from Reading, England",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tea_fields_(Will_Ellis).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "A view of Fields and fields of...... Tea in Cameron Highlands, Malaysia."
+                }
+              }
+            }
+          },
+          "rank_score": 0.878
+        },
+        {
+          "name": "Gunung Irau Trail",
+          "ai_summary": "A popular trekking trail leading to the summit of Gunung Irau, known for its mossy forest and cool climate.",
+          "name_english": "Gunung Irau Trail",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best trekked with a guide."
+          },
+          "suggested_duration": "4 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Start early to enjoy the sunrise at the summit.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 4.5635,
+            "longitude": 101.3925
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.gunungirau.com",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Adventure"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Robinson Falls",
+          "ai_summary": "A beautiful waterfall located near Tanah Rata, popular for picnics and nature walks.",
+          "name_english": "Robinson Falls",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00-18:00",
+            "Tuesday": "08:00-18:00",
+            "Wednesday": "08:00-18:00",
+            "Thursday": "08:00-18:00",
+            "Friday": "08:00-18:00",
+            "Saturday": "08:00-18:00",
+            "Sunday": "08:00-18:00",
+            "notes": "Best visited in the late afternoon."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "March to October",
+          "place_tip": "Bring a picnic basket and enjoy the serene environment.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4821,
+            "longitude": 101.3665
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.robinsonfalls.com",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Relaxation"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:John_Robinson_at_82nd_Venice_International_Film_Festival-1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/John_Robinson_at_82nd_Venice_International_Film_Festival-1.jpg/960px-John_Robinson_at_82nd_Venice_International_Film_Festival-1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "John Robinson at 82nd Venice International Film Festival-1",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:LucaFazPhoto\" title=\"User:LucaFazPhoto\">LucaFazPhoto</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:John_Robinson_at_82nd_Venice_International_Film_Festival-1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "John Robinson, actor, at 82nd Venice International Film Festival in Venice, Italy for the film Dead Man's Wire."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Rose Valley",
+          "ai_summary": "A charming garden featuring a variety of roses and other flowers, set against the backdrop of the highlands.",
+          "name_english": "Rose Valley",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00-18:00",
+            "Tuesday": "08:00-18:00",
+            "Wednesday": "08:00-18:00",
+            "Thursday": "08:00-18:00",
+            "Friday": "08:00-18:00",
+            "Saturday": "08:00-18:00",
+            "Sunday": "08:00-18:00",
+            "notes": "Best visited during the blooming season."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "March to November",
+          "place_tip": "Take your time to enjoy the fragrance and beauty of the roses.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4826,
+            "longitude": 101.3658
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.rosevalley.com.my",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Relaxation"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Rose_of_sharon.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Rose_of_sharon.JPG/960px-Rose_of_sharon.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Rose of sharon",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tiffany825&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tiffany825 (page does not exist)\">Tiffany825</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Rose_of_sharon.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Rose of sharon bloom"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Cactus Valley",
+          "ai_summary": "A unique garden showcasing a variety of cacti and succulents, set in a valley with a cool climate.",
+          "name_english": "Cactus Valley",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Best visited in the late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "All year",
+          "place_tip": "Don't forget to check out the gift shop for cactus-themed souvenirs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4827,
+            "longitude": 101.365
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.cactusvalley.com.my",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Relaxation"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {},
+          "rank_score": 0.718
+        },
+        {
+          "name": "Kea Farm Market",
+          "ai_summary": "A bustling market offering a variety of fresh produce, flowers, and local products.",
+          "name_english": "Kea Farm Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00-18:00",
+            "Tuesday": "08:00-18:00",
+            "Wednesday": "08:00-18:00",
+            "Thursday": "08:00-18:00",
+            "Friday": "08:00-18:00",
+            "Saturday": "08:00-18:00",
+            "Sunday": "08:00-18:00",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Try the local strawberries and other fresh produce.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4824,
+            "longitude": 101.367
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.keafarmmarket.com",
+          "tags": [
+            "Shopping",
+            "Food",
+            "Local Culture"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Big Red Strawberry Farm",
+          "ai_summary": "A popular strawberry farm where visitors can pick their own strawberries and enjoy strawberry-themed products.",
+          "name_english": "Big Red Strawberry Farm",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "March to September",
+          "place_tip": "Wear comfortable clothes and shoes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4823,
+            "longitude": 101.3675
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.bigredstrawberryfarm.com",
+          "tags": [
+            "Nature",
+            "Family",
+            "Agriculture"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Sam Poh Temple",
+          "ai_summary": "A serene Chinese temple set in the highlands, known for its beautiful architecture and peaceful surroundings.",
+          "name_english": "Sam Poh Temple",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Best visited in the late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "All year",
+          "place_tip": "Respect the temple rules and dress modestly.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4822,
+            "longitude": 101.3668
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.sampoh.com.my",
+          "tags": [
+            "Culture",
+            "Religion",
+            "Architecture"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Agro Technology Park (MARDI)",
+          "ai_summary": "A research and development center for agriculture, featuring various agricultural exhibits and a beautiful garden.",
+          "name_english": "Agro Technology Park (MARDI)",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Explore the various agricultural exhibits and enjoy the garden.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4825,
+            "longitude": 101.3662
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.mardi.gov.my",
+          "tags": [
+            "Education",
+            "Agriculture",
+            "Nature"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Landmark_UMK.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Landmark_UMK.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Landmark UMK",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Easyrez&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Easyrez (page does not exist)\">Easyrez</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Landmark_UMK.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Another landmark of UMK"
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Jungle Trail No. 1",
+          "ai_summary": "A popular jungle trekking trail offering a chance to experience the rainforest and its wildlife.",
+          "name_english": "Jungle Trail No. 1",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best trekked with a guide."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Be prepared for a muddy trail and possible rain.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 4.5635,
+            "longitude": 101.3925
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.jungletrail1.com",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Adventure"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Night Market Brinchang",
+          "ai_summary": "A vibrant night market offering a variety of local foods, drinks, and goods.",
+          "name_english": "Night Market Brinchang",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "22:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "17:00-22:00",
+            "Tuesday": "17:00-22:00",
+            "Wednesday": "17:00-22:00",
+            "Thursday": "17:00-22:00",
+            "Friday": "17:00-22:00",
+            "Saturday": "17:00-22:00",
+            "Sunday": "17:00-22:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Try the local street food and snacks.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.563,
+            "longitude": 101.392
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.nightmarketbrinchang.com",
+          "tags": [
+            "Food",
+            "Shopping",
+            "Local Culture"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Brinchang_Town_Centre_2012.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Brinchang_Town_Centre_2012.JPG/960px-Brinchang_Town_Centre_2012.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Brinchang Town Centre 2012",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Uspn\" title=\"User:Uspn\">Bjørn Christian Tørrissen</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Brinchang_Town_Centre_2012.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The town centre of Brinchang in the Cameron Highlands, Malaysia. The tall building in the back is the Crown Imperial Court Hotel."
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Cameron Highlands Resort Walk",
+          "ai_summary": "A leisurely walk around the Cameron Highlands Resort, offering beautiful views and a chance to relax.",
+          "name_english": "Cameron Highlands Resort Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed in the early morning or late afternoon."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Enjoy the cool climate and beautiful scenery.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4822,
+            "longitude": 101.3668
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.chresort.com",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Photography"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tea_fields_(Will_Ellis).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tea_fields_%28Will_Ellis%29.jpg/960px-Tea_fields_%28Will_Ellis%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tea fields (Will Ellis)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/wills/\">Will Ellis</a> from Reading, England",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tea_fields_(Will_Ellis).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "A view of Fields and fields of...... Tea in Cameron Highlands, Malaysia."
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Water Crest Valley Farm",
+          "ai_summary": "A scenic farm known for its water crest vegetables and beautiful valley views.",
+          "name_english": "Water Crest Valley Farm",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Take a walk around the farm and enjoy the fresh air.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 4.4823,
+            "longitude": 101.3675
+          },
+          "address": "Cameron Highlands, Malaysia",
+          "official_website": "https://www.watercrestvalleyfarm.com",
+          "tags": [
+            "Nature",
+            "Agriculture",
+            "Photography"
+          ],
+          "state": "Cameron Highlands",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Wildlands_Whitewater_Canyon.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wildlands_Whitewater_Canyon.jpg/960px-Wildlands_Whitewater_Canyon.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Wildlands Whitewater Canyon",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:BookOfDisquiet&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:BookOfDisquiet (page does not exist)\">BookOfDisquiet</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Wildlands_Whitewater_Canyon.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "View of Whitewater Canyon at The Wildlands Conservancy’s Whitewater Preserve, Riverside County, California. The scene shows the broad wash with surrounding cliffs in the San Bernardino Mountains."
+                }
+              }
+            }
+          },
+          "rank_score": 0.718
+        }
+      ]
+    }
+  ]
+}

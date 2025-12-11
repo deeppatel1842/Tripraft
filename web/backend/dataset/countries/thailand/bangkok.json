@@ -1,0 +1,1135 @@
+{
+  "country": "Thailand",
+  "state": "Bangkok",
+  "cities": [
+    {
+      "city": "Bangkok",
+      "nearest_airport": "Suvarnabhumi Airport",
+      "places": [
+        {
+          "name": "The Grand Palace",
+          "ai_summary": "A historic complex of buildings that served as the official residence of the Kings of Siam since 1782.",
+          "name_english": "The Grand Palace",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:30 AM - 3:30 PM",
+            "Tuesday": "8:30 AM - 3:30 PM",
+            "Wednesday": "8:30 AM - 3:30 PM",
+            "Thursday": "8:30 AM - 3:30 PM",
+            "Friday": "8:30 AM - 3:30 PM",
+            "Saturday": "8:30 AM - 3:30 PM",
+            "Sunday": "8:30 AM - 3:30 PM",
+            "notes": "Closed during royal ceremonies."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Wear modest clothing as it is a sacred site.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.75,
+            "longitude": 100.4913
+          },
+          "address": "Na Phra Lan Rd, Phra Nakhon, Bangkok, Thailand",
+          "official_website": "https://www.grandpalacebangkok.com",
+          "tags": [
+            "palace",
+            "history",
+            "culture"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Roads in Bangkok (27768279504).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Roads_in_Bangkok_%2827768279504%29.jpg/960px-Roads_in_Bangkok_%2827768279504%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Roads in Bangkok (27768279504)",
+                  "author": "Thomas Woodtli from Zürich, Switzerland",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Roads_in_Bangkok_(27768279504).jpg",
+                  "credit": "Flickr",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": null
+                }
+              }
+            }
+          },
+          "rank_score": 0.7945
+        },
+        {
+          "name": "Wat Phra Kaew (Temple of the Emerald Buddha)",
+          "ai_summary": "A sacred Buddhist temple housing the Emerald Buddha, a highly revered religious artifact in Thailand.",
+          "name_english": "Temple of the Emerald Buddha",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:30 AM - 3:30 PM",
+            "Tuesday": "8:30 AM - 3:30 PM",
+            "Wednesday": "8:30 AM - 3:30 PM",
+            "Thursday": "8:30 AM - 3:30 PM",
+            "Friday": "8:30 AM - 3:30 PM",
+            "Saturday": "8:30 AM - 3:30 PM",
+            "Sunday": "8:30 AM - 3:30 PM",
+            "notes": "Best visited early morning to avoid crowds."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Photography is restricted inside the temple. Respect the rules.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7515,
+            "longitude": 100.492
+          },
+          "address": "Na Phra Lan Rd, Phra Nakhon, Bangkok, Thailand",
+          "official_website": "https://www.watphrakaew.com",
+          "tags": [
+            "temple",
+            "Buddhism",
+            "culture"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bangkokwangna0205.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Bangkokwangna0205.jpg/960px-Bangkokwangna0205.jpg",
+                "width": 800,
+                "height": 776,
+                "attribution": {
+                  "title": "Bangkokwangna0205",
+                  "author": "Heinrich Damm (User:Hdamm, Hdamm at de.wikipedia.org)",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bangkokwangna0205.jpg",
+                  "credit": "Self-photographed",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Palace of the Deputy King of Siam, today National Museum Bangkok, Thailand"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7805
+        },
+        {
+          "name": "Wat Arun (Temple of Dawn)",
+          "ai_summary": "A riverside temple known for its stunning spires and beautiful views during sunrise and sunset.",
+          "name_english": "Temple of Dawn",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:30 PM",
+            "Tuesday": "8:00 AM - 5:30 PM",
+            "Wednesday": "8:00 AM - 5:30 PM",
+            "Thursday": "8:00 AM - 5:30 PM",
+            "Friday": "8:00 AM - 5:30 PM",
+            "Saturday": "8:00 AM - 5:30 PM",
+            "Sunday": "8:00 AM - 5:30 PM",
+            "notes": "Climbing the central prang offers panoramic views."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Wear comfortable shoes for climbing the steep steps.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7437,
+            "longitude": 100.4889
+          },
+          "address": "158 Wang Doem Rd, Wat Arun, Bangkok, Thailand",
+          "official_website": "https://www.watarun.com",
+          "tags": [
+            "temple",
+            "sunrise",
+            "sunset"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:King's Standard of Thailand.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/King%27s_Standard_of_Thailand.svg/960px-King%27s_Standard_of_Thailand.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "King's Standard of Thailand",
+                  "author": "Tangmo",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:King's_Standard_of_Thailand.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "King's Standard of Thailand. This flag was first adopted by King Vajiravudh in 1910. This flag features red dancing Garuda on the yellow square."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7805
+        },
+        {
+          "name": "Wat Pho (Reclining Buddha)",
+          "ai_summary": "Famous for the giant reclining Buddha statue, this temple is a must-visit for its impressive architecture and serene atmosphere.",
+          "name_english": "Reclining Buddha Temple",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "The temple is also a traditional Thai massage school."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Don't miss the massage school for an authentic experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7463,
+            "longitude": 100.493
+          },
+          "address": "2 Sanam Chai Rd, Grand Palace Subdistrict, Prana Nakhon District, Bangkok, Thailand",
+          "official_website": "https://www.watpho.com",
+          "tags": [
+            "temple",
+            "Buddhism",
+            "culture"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Thailand.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/800px-Flag_of_Thailand.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Thailand",
+                  "author": "Zscout370",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Thailand.svg",
+                  "credit": "Own work based on: https://www.nstda.or.th/th/nstda-knowledge/11557-thaiflag-color\n\nConstruction sheet of the flag of Thailand",
+                  "usage_terms": "Public domain",
+                  "description": "The national flag of Kingdom of Thailand; there are total of 3 colours:\nRed represents the blood spilt to protect Thailand’s independence and often more simply described as representing the nation.\nWhite represents the religion of Buddhism, the predominant religion of the nation\nBlue represents the monarchy of the nation, which is recognised as the centre of Thai hearts."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7665
+        },
+        {
+          "name": "Chatuchak Weekend Market",
+          "ai_summary": "One of the world's largest weekend markets, offering a vast array of goods from clothing to antiques.",
+          "name_english": "Chatuchak Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Best visited in the morning to avoid crowds."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Bargaining is expected. Keep your belongings secure.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.8,
+            "longitude": 100.5583
+          },
+          "address": "Chatuchak, Bangkok, Thailand",
+          "official_website": "https://www.chatuchakmarket.org",
+          "tags": [
+            "market",
+            "shopping",
+            "food"
+          ],
+          "state": "Bangkok",
+          "photos": {},
+          "rank_score": 0.7517
+        },
+        {
+          "name": "Khaosan Road",
+          "ai_summary": "A famous street known for its vibrant nightlife, street food, and budget accommodations.",
+          "name_english": "Khaosan Road",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:30 PM",
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for nightlife."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Watch out for tuk-tuk scams. Negotiate prices beforehand.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.76,
+            "longitude": 100.501
+          },
+          "address": "Khaosan Rd, Talat Yot, Phra Nakhon, Bangkok, Thailand",
+          "official_website": null,
+          "tags": [
+            "street",
+            "food",
+            "nightlife"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bangkok Wall Remnants near Wat Bowonniwet กำแพงเมืองเดิม บริเวณวัดบวรนิเวศ 01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Bangkok_Wall_Remnants_near_Wat_Bowonniwet_%E0%B8%81%E0%B8%B3%E0%B9%81%E0%B8%9E%E0%B8%87%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%A1_%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%A7%E0%B8%A3%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%A8_01.jpg/960px-Bangkok_Wall_Remnants_near_Wat_Bowonniwet_%E0%B8%81%E0%B8%B3%E0%B9%81%E0%B8%9E%E0%B8%87%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%A1_%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%A7%E0%B8%A3%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%A8_01.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bangkok Wall Remnants near Wat Bowonniwet กำแพงเมืองเดิม บริเวณวัดบวรนิเวศ 01",
+                  "author": "Chainwit.",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bangkok_Wall_Remnants_near_Wat_Bowonniwet_กำแพงเมืองเดิม_บริเวณวัดบวรนิเวศ_01.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "This is a photo of a monument in Thailand identified by the ID"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7485
+        },
+        {
+          "name": "Jim Thompson House",
+          "ai_summary": "The historic home of an American silk entrepreneur, now a museum showcasing Thai architecture and silk products.",
+          "name_english": "Jim Thompson House",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Guided tours are available in English and Thai."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Visit the museum shop for high-quality silk products.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7466,
+            "longitude": 100.5296
+          },
+          "address": "6 Soi Kasem San 2, Bangkok, Thailand",
+          "official_website": "https://www.jimthompsonhouse.com",
+          "tags": [
+            "museum",
+            "history",
+            "culture"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bangkokwangna0205.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Bangkokwangna0205.jpg/960px-Bangkokwangna0205.jpg",
+                "width": 800,
+                "height": 776,
+                "attribution": {
+                  "title": "Bangkokwangna0205",
+                  "author": "Heinrich Damm (User:Hdamm, Hdamm at de.wikipedia.org)",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bangkokwangna0205.jpg",
+                  "credit": "Self-photographed",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Palace of the Deputy King of Siam, today National Museum Bangkok, Thailand"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7665
+        },
+        {
+          "name": "MBK Center",
+          "ai_summary": "A large shopping mall in Bangkok, popular for its affordable fashion, accessories, and electronics.",
+          "name_english": "MBK Center",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Bargaining is possible in some shops."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Check out the food court for a variety of local and international dishes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7459,
+            "longitude": 100.5291
+          },
+          "address": "444 Phaya Thai Rd, Wang Mai, Pathum Wan, Bangkok, Thailand",
+          "official_website": "https://www.mbk-center.co.th",
+          "tags": [
+            "shopping",
+            "mall",
+            "food"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7345
+        },
+        {
+          "name": "Siam Paragon",
+          "ai_summary": "A luxury shopping mall in Bangkok, featuring high-end brands, a gourmet market, and an IMAX theater.",
+          "name_english": "Siam Paragon",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Visit the Sea Life Bangkok Ocean World in the basement."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Explore the gourmet market for a wide range of food options.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7464,
+            "longitude": 100.532
+          },
+          "address": "991 Rama I Rd, Pathum Wan, Bangkok, Thailand",
+          "official_website": "https://www.siamparagon.co.th",
+          "tags": [
+            "shopping",
+            "luxury",
+            "food"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7625
+        },
+        {
+          "name": "Asiatique The Riverfront",
+          "ai_summary": "A vibrant night market and mall by the river, offering shopping, dining, and entertainment.",
+          "name_english": "Asiatique The Riverfront",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:30 PM",
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "4:00 PM - 12:00 AM",
+            "Tuesday": "4:00 PM - 12:00 AM",
+            "Wednesday": "4:00 PM - 12:00 AM",
+            "Thursday": "4:00 PM - 12:00 AM",
+            "Friday": "4:00 PM - 12:00 AM",
+            "Saturday": "4:00 PM - 12:00 AM",
+            "Sunday": "4:00 PM - 12:00 AM",
+            "notes": "Best visited in the evening for the night market experience."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Take a riverboat taxi for a scenic route to Asiatique.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7034,
+            "longitude": 100.5173
+          },
+          "address": "2194 Charoen Krung Rd, Wat Phraya Krai, Bang Kho Laem, Bangkok, Thailand",
+          "official_website": "https://www.asiatiqueth.com",
+          "tags": [
+            "night market",
+            "shopping",
+            "dining"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Asiatique (I).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Asiatique_%28I%29.jpg/960px-Asiatique_%28I%29.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Asiatique (I)",
+                  "author": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author and may send me a message.  (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่งข้อความบอกกล่าวด้วย) \n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Asiatique_(I).jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Asiatique: The Riverfront is a large open-air mall in Bangkok, Thailand. It occupies the former docks of the East Asiatic Company, and faces the Chao Phraya River and Charoen Krung Road. The complex opened in 2012 after extensive renovation of the site."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7485
+        },
+        {
+          "name": "Lumphini Park",
+          "ai_summary": "A large public park in the heart of Bangkok, ideal for relaxation, jogging, and outdoor activities.",
+          "name_english": "Lumphini Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "4:30 AM - 9:00 PM",
+            "Tuesday": "4:30 AM - 9:00 PM",
+            "Wednesday": "4:30 AM - 9:00 PM",
+            "Thursday": "4:30 AM - 9:00 PM",
+            "Friday": "4:30 AM - 9:00 PM",
+            "Saturday": "4:30 AM - 9:00 PM",
+            "Sunday": "4:30 AM - 9:00 PM",
+            "notes": "Early morning is the best time to see locals doing tai chi."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Rent a paddleboat for a fun activity on the lake.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7333,
+            "longitude": 100.5417
+          },
+          "address": "Lumphini Park, Rama IV Road, Bangkok, Thailand",
+          "official_website": "https://www.bangkok.com/lumphini-park.htm",
+          "tags": [
+            "park",
+            "nature",
+            "relaxation"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aerial view of Lumphini Park.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Aerial_view_of_Lumphini_Park.jpg/960px-Aerial_view_of_Lumphini_Park.jpg",
+                "width": 800,
+                "height": 540,
+                "attribution": {
+                  "title": "Aerial view of Lumphini Park",
+                  "author": "Terence Ong",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Lumphini_Park.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "Aerial view of Lumphini Park, Bangkok. Taken from The Dusit Thani Hotel, Bangkok, Thailand."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7625
+        },
+        {
+          "name": "Erawan Shrine",
+          "ai_summary": "A famous Hindu shrine in Bangkok, known for the Erawan Elephant Shrine and traditional Thai dance performances.",
+          "name_english": "Erawan Shrine",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late evening."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Be respectful and dress modestly when visiting the shrine.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7467,
+            "longitude": 100.5586
+          },
+          "address": "494 Ratchadamri Rd, Lumphini, Pathum Wan, Bangkok, Thailand",
+          "official_website": "https://www.erawan-shrine.com",
+          "tags": [
+            "shrine",
+            "Hinduism",
+            "culture"
+          ],
+          "state": "Bangkok",
+          "photos": {},
+          "rank_score": 0.7377
+        },
+        {
+          "name": "Chao Phraya River Cruise",
+          "ai_summary": "A scenic boat cruise on the Chao Phraya River, offering views of Bangkok's landmarks and riverside life.",
+          "name_english": "Chao Phraya River Cruise",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Varies by cruise type",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "6:00 AM - 9:00 PM",
+            "Tuesday": "6:00 AM - 9:00 PM",
+            "Wednesday": "6:00 AM - 9:00 PM",
+            "Thursday": "6:00 AM - 9:00 PM",
+            "Friday": "6:00 AM - 9:00 PM",
+            "Saturday": "6:00 AM - 9:00 PM",
+            "Sunday": "6:00 AM - 9:00 PM",
+            "notes": "Dinner cruises offer a unique dining experience on the river."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Choose a cruise that includes a stop at the iconic Wat Arun.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7454,
+            "longitude": 100.5163
+          },
+          "address": "Chao Phraya River, Bangkok, Thailand",
+          "official_website": "https://www.chaophraya-cruise.com",
+          "tags": [
+            "cruise",
+            "river",
+            "sightseeing"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bkkpadungkrungkasem03.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Bkkpadungkrungkasem03.jpg/960px-Bkkpadungkrungkasem03.jpg",
+                "width": 800,
+                "height": 580,
+                "attribution": {
+                  "title": "Bkkpadungkrungkasem03",
+                  "author": "Fotograf / Photographer: Heinrich Damm (User:Hdamm, Hdamm at de.wikipedia.org)",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bkkpadungkrungkasem03.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "This is a photo of a monument in Thailand identified by the ID"
+                }
+              }
+            }
+          },
+          "rank_score": 0.759
+        },
+        {
+          "name": "Bangkok National Museum",
+          "ai_summary": "The largest museum in Southeast Asia, showcasing Thai art, history, and culture.",
+          "name_english": "Bangkok National Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 4:00 PM",
+            "Wednesday": "9:00 AM - 4:00 PM",
+            "Thursday": "9:00 AM - 4:00 PM",
+            "Friday": "9:00 AM - 4:00 PM",
+            "Saturday": "9:00 AM - 4:00 PM",
+            "Sunday": "9:00 AM - 4:00 PM",
+            "notes": "Guided tours are available in multiple languages."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Visit the museum shop for unique souvenirs and books.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7751,
+            "longitude": 100.4915
+          },
+          "address": "Na Phra That Rd, Phra Nakhon, Bangkok, Thailand",
+          "official_website": "https://www.bangkoknationalmuseum.com",
+          "tags": [
+            "museum",
+            "history",
+            "culture"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bang Khun Phrom Palace from Rama VIII Bridge.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bang_Khun_Phrom_Palace_from_Rama_VIII_Bridge.jpg/960px-Bang_Khun_Phrom_Palace_from_Rama_VIII_Bridge.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Bang Khun Phrom Palace from Rama VIII Bridge",
+                  "author": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author and may send me a message.  (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่งข้อความบอกกล่าวด้วย) \n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bang_Khun_Phrom_Palace_from_Rama_VIII_Bridge.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Bang Khun Phrom Palace from Rama VIII Bridge."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7345
+        },
+        {
+          "name": "ICONSIAM Mall",
+          "ai_summary": "A luxury mall and lifestyle complex by the river, featuring high-end shops, restaurants, and an indoor floating market.",
+          "name_english": "ICONSIAM Mall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Don't miss the impressive LED waterfall display."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Explore the indoor floating market for a unique shopping experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7263,
+            "longitude": 100.5094
+          },
+          "address": "299 Charoen Nakhon Rd, Samre, Thon Buri, Bangkok, Thailand",
+          "official_website": "https://www.iconsiam.com",
+          "tags": [
+            "shopping",
+            "luxury",
+            "dining"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:202403 Siam Takashimaya at ICONSIAM.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/202403_Siam_Takashimaya_at_ICONSIAM.jpg/960px-202403_Siam_Takashimaya_at_ICONSIAM.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "202403 Siam Takashimaya at ICONSIAM",
+                  "author": "MNXANL",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:202403_Siam_Takashimaya_at_ICONSIAM.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Taken from the BTS Charoen Nakhon Station"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7765
+        },
+        {
+          "name": "Terminal 21",
+          "ai_summary": "A shopping mall themed as an airport, with each floor representing a different international destination.",
+          "name_english": "Terminal 21",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "The food court offers a wide variety of affordable meals."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Look out for the replica of the famous San Francisco cable car.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7361,
+            "longitude": 100.5833
+          },
+          "address": "88 Soi Sukhumvit 19, Sukhumvit, Bangkok, Thailand",
+          "official_website": "https://www.terminal21.co.th",
+          "tags": [
+            "shopping",
+            "food",
+            "entertainment"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7345
+        },
+        {
+          "name": "China Town (Yaowarat)",
+          "ai_summary": "A vibrant and bustling area known for its rich Chinese heritage, street food, and markets.",
+          "name_english": "Yaowarat",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:30 PM",
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Best visited in the evening for the street food scene."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Try the seafood and Chinese delicacies at the street stalls.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.742,
+            "longitude": 100.51
+          },
+          "address": "Yaowarat Rd, Samphanthawong, Bangkok, Thailand",
+          "official_website": null,
+          "tags": [
+            "Chinatown",
+            "food",
+            "culture"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:(2022) ตึกแถวริมถนนเยาวราช เขตสัมพันธวงศ์ กรุงเทพมหานคร (4).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/%282022%29_%E0%B8%95%E0%B8%B6%E0%B8%81%E0%B9%81%E0%B8%96%E0%B8%A7%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%96%E0%B8%99%E0%B8%99%E0%B9%80%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%8A_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%A7%E0%B8%87%E0%B8%A8%E0%B9%8C_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_%284%29.jpg/960px-%282022%29_%E0%B8%95%E0%B8%B6%E0%B8%81%E0%B9%81%E0%B8%96%E0%B8%A7%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%96%E0%B8%99%E0%B8%99%E0%B9%80%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%8A_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%A7%E0%B8%87%E0%B8%A8%E0%B9%8C_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_%284%29.jpg",
+                "width": 800,
+                "height": 601,
+                "attribution": {
+                  "title": "(2022) ตึกแถวริมถนนเยาวราช เขตสัมพันธวงศ์ กรุงเทพมหานคร (4)",
+                  "author": "กสิณธร ราชโอรส",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:(2022)_ตึกแถวริมถนนเยาวราช_เขตสัมพันธวงศ์_กรุงเทพมหานคร_(4).jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "This is a photo of a monument in Thailand identified by the ID"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7485
+        },
+        {
+          "name": "Wat Saket (Golden Mount)",
+          "ai_summary": "A Buddhist temple on a hilltop offering panoramic views of Bangkok, especially beautiful at sunset.",
+          "name_english": "Golden Mount",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "7:30 AM - 5:30 PM",
+            "Tuesday": "7:30 AM - 5:30 PM",
+            "Wednesday": "7:30 AM - 5:30 PM",
+            "Thursday": "7:30 AM - 5:30 PM",
+            "Friday": "7:30 AM - 5:30 PM",
+            "Saturday": "7:30 AM - 5:30 PM",
+            "Sunday": "7:30 AM - 5:30 PM",
+            "notes": "The climb to the top is steep but rewarding."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Visit during the late afternoon to catch the sunset.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.7528,
+            "longitude": 100.5168
+          },
+          "address": "344 Chakkraphat Dith Rd, Ban Bat, Phra Nakhon, Bangkok, Thailand",
+          "official_website": "https://www.watsaket.com",
+          "tags": [
+            "temple",
+            "sunset",
+            "viewpoint"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BobaeStreetVendors.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BobaeStreetVendors.jpg/960px-BobaeStreetVendors.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "BobaeStreetVendors",
+                  "author": "Bobaewiki",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BobaeStreetVendors.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Street vendors at Bobae Market"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7525
+        },
+        {
+          "name": "Ratchada Train Market",
+          "ai_summary": "A popular night market in Bangkok, known for its vintage goods, street food, and vibrant atmosphere.",
+          "name_english": "Ratchada Train Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:30 PM",
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "5:00 PM - 12:00 AM",
+            "Tuesday": "5:00 PM - 12:00 AM",
+            "Wednesday": "5:00 PM - 12:00 AM",
+            "Thursday": "5:00 PM - 12:00 AM",
+            "Friday": "5:00 PM - 12:00 AM",
+            "Saturday": "5:00 PM - 12:00 AM",
+            "Sunday": "5:00 PM - 12:00 AM",
+            "notes": "Best visited in the evening for the full market experience."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Try the local desserts and snacks from the street vendors.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 13.775,
+            "longitude": 100.57
+          },
+          "address": "Ratchadaphisek Rd, Din Daeng, Bangkok, Thailand",
+          "official_website": null,
+          "tags": [
+            "night market",
+            "shopping",
+            "food"
+          ],
+          "state": "Bangkok",
+          "photos": {},
+          "rank_score": 0.7345
+        },
+        {
+          "name": "King Power Mahanakhon Skywalk",
+          "ai_summary": "An observation deck in one of Bangkok's tallest buildings, offering stunning 360-degree views of the city.",
+          "name_english": "Mahanakhon Skywalk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 8:00 PM",
+            "Tuesday": "10:00 AM - 8:00 PM",
+            "Wednesday": "10:00 AM - 8:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 8:00 PM",
+            "Saturday": "10:00 AM - 8:00 PM",
+            "Sunday": "10:00 AM - 8:00 PM",
+            "notes": "The glass floor section is a popular photo spot."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "November to February",
+          "place_tip": "Book tickets in advance to avoid long queues.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 13.7231,
+            "longitude": 100.5168
+          },
+          "address": "96 Narathiwat Ratchanakarin Rd, Chong Nonsi, Yan Nawa, Bangkok, Thailand",
+          "official_website": "https://www.mahanakhon.com",
+          "tags": [
+            "skywalk",
+            "viewpoint",
+            "architecture"
+          ],
+          "state": "Bangkok",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7665
+        }
+      ]
+    }
+  ]
+}

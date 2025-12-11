@@ -1,0 +1,1154 @@
+{
+  "country": "Taiwan",
+  "state": "Taipei",
+  "cities": [
+    {
+      "city": "Taipei",
+      "nearest_airport": "Taipei Songshan Airport",
+      "places": [
+        {
+          "name": "Taipei 101 Observatory",
+          "ai_summary": "A world-renowned skyscraper offering panoramic views of Taipei.",
+          "name_english": "Taipei 101 Observatory",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "$20 USD",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00 - 22:00",
+            "Tuesday": "09:00 - 22:00",
+            "Wednesday": "09:00 - 22:00",
+            "Thursday": "09:00 - 22:00",
+            "Friday": "09:00 - 22:00",
+            "Saturday": "09:00 - 22:00",
+            "Sunday": "09:00 - 22:00",
+            "notes": "Last entry 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit the observatory at sunset for the best views.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 25.033976,
+            "longitude": 121.564538
+          },
+          "address": "No. 7, Section 5, Xinyi Rd, Xinyi District, Taipei City, Taiwan 110",
+          "official_website": "https://www.taipei-101.com.tw",
+          "tags": [
+            "Landmark",
+            "Observation Deck",
+            "Architecture"
+          ],
+          "state": "Taipei",
+          "photos": {},
+          "rank_score": 0.798
+        },
+        {
+          "name": "Chiang Kai-shek Memorial Hall",
+          "ai_summary": "A historical site commemorating Taiwan's former president.",
+          "name_english": "Chiang Kai-shek Memorial Hall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Closed on national holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the changing of the guard ceremony.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.034277,
+            "longitude": 121.521975
+          },
+          "address": "No. 21, Zhongshan S Rd, Zhongzheng District, Taipei City, Taiwan 100",
+          "official_website": "https://www.cksmh.gov.tw",
+          "tags": [
+            "History",
+            "Culture",
+            "Monument"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Chiang_Kai-shek_memorial_amk.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Chiang_Kai-shek_memorial_amk.jpg/960px-Chiang_Kai-shek_memorial_amk.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Chiang Kai-shek memorial amk",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:AngMoKio\" title=\"User:AngMoKio\">AngMoKio</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Chiang_Kai-shek_memorial_amk.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Chiang Kai-shek Memorial Hall in <a href=\"//commons.wikimedia.org/wiki/Taipei\" class=\"mw-redirect\" title=\"Taipei\">Taipei</a>, <a href=\"//commons.wikimedia.org/wiki/Taiwan\" class=\"mw-redirect\" title=\"Taiwan\">Taiwan</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "National Palace Museum",
+          "ai_summary": "Home to one of the largest collections of Chinese art and artifacts.",
+          "name_english": "National Palace Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$10 USD",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Extended hours on weekends."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Rent an audio guide for a better experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.102398,
+            "longitude": 121.548704
+          },
+          "address": "No. 221, Sec 2, Zhishan Rd, Shilin District, Taipei City, Taiwan 111",
+          "official_website": "https://www.npm.gov.tw",
+          "tags": [
+            "Museum",
+            "Art",
+            "History"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:NationalPalace_MuseumFrontView.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/NationalPalace_MuseumFrontView.jpg/960px-NationalPalace_MuseumFrontView.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "NationalPalace MuseumFrontView",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Peellden\" title=\"User:Peellden\">Peellden</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:NationalPalace_MuseumFrontView.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/National_Palace_Museum\" class=\"extiw\" title=\"en:National Palace Museum\">National Palace Museum</a>, Taiwan."
+                }
+              }
+            }
+          },
+          "rank_score": 0.878
+        },
+        {
+          "name": "Elephant Mountain (Xiangshan) Trail",
+          "ai_summary": "A popular hiking trail with stunning views of Taipei.",
+          "name_english": "Elephant Mountain Trail",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during sunrise or sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Bring water and wear comfortable shoes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.027308,
+            "longitude": 121.570956
+          },
+          "address": "Xiangshan, Xinyi District, Taipei City, Taiwan",
+          "official_website": null,
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Viewpoint"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2010_07_22230_6939_Xinyi_District,_Taipei,_Buildings,_Taipei_101,_Observation,_Streets_in_Taipei,_Taiwan.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/2010_07_22230_6939_Xinyi_District%2C_Taipei%2C_Buildings%2C_Taipei_101%2C_Observation%2C_Streets_in_Taipei%2C_Taiwan.JPG/960px-2010_07_22230_6939_Xinyi_District%2C_Taipei%2C_Buildings%2C_Taipei_101%2C_Observation%2C_Streets_in_Taipei%2C_Taiwan.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2010 07 22230 6939 Xinyi District, Taipei, Buildings, Taipei 101, Observation, Streets in Taipei, Taiwan",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Lord_Koxinga\" title=\"User:Lord Koxinga\">Lord Koxinga</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2010_07_22230_6939_Xinyi_District,_Taipei,_Buildings,_Taipei_101,_Observation,_Streets_in_Taipei,_Taiwan.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "​從台北101觀景台俯瞰四獸山。"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Longshan Temple (Wanhua)",
+          "ai_summary": "A historic temple in Taipei, known for its intricate architecture.",
+          "name_english": "Longshan Temple",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00 - 22:00",
+            "Tuesday": "06:00 - 22:00",
+            "Wednesday": "06:00 - 22:00",
+            "Thursday": "06:00 - 22:00",
+            "Friday": "06:00 - 22:00",
+            "Saturday": "06:00 - 22:00",
+            "Sunday": "06:00 - 22:00",
+            "notes": "Best time to visit is during the evening prayers."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Be respectful and observe the local customs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.033056,
+            "longitude": 121.506056
+          },
+          "address": "No. 211, Guanziling St, Wanhua District, Taipei City, Taiwan 108",
+          "official_website": "http://www.longshantemple.org.tw",
+          "tags": [
+            "Religion",
+            "Architecture",
+            "History"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bangka_Lungshan_Temple_07.23.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Bangka_Lungshan_Temple_07.23.jpg/960px-Bangka_Lungshan_Temple_07.23.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bangka Lungshan Temple 07.23",
+                  "author": "<table class=\"toccolours\" style=\"width:100%; margin-top:10px;\" cellpadding=\"2\">\n\n<tbody><tr class=\"plainlinks\">\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Thailand.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/60px-Flag_of_Thailand.svg.png\" decoding=\"async\" width=\"50\" height=\"33\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/120px-Flag_of_Thailand.svg.png 1.5x\" data-file-width=\"900\" data-file-height=\"600\"></a></span> This Photo was taken by <i><b><a href=\"//commons.wikimedia.org/wiki/User:Supanut_Arunoprayote\" class=\"mw-userlink\" title=\"User:Supanut Arunoprayote\">Supanut Arunoprayote</a></b></i>.\n</td>\n<td align=\"right\">Feel free to use any of my images, but please mention me as the author and may send me a <a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:Supanut_Arunoprayote\">message.</a> <br> (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่ง<a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:Supanut_Arunoprayote\">ข้อความบอกกล่าวด้วย</a>) <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Contact_vmc2015.png\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Contact_vmc2015.png/40px-Contact_vmc2015.png\" decoding=\"async\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Contact_vmc2015.png/60px-Contact_vmc2015.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Contact_vmc2015.png/120px-Contact_vmc2015.png 2x\" data-file-width=\"940\" data-file-height=\"940\"></a></span>\n</td></tr></tbody></table>\n<div style=\"clear:both; border:2px solid #00cc00; background-color:#f7f7f7; margin-top:6px;\">\n<table><tbody><tr><td style=\"padding:4px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Upload-problem2.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Upload-problem2.svg/120px-Upload-problem2.svg.png\" decoding=\"async\" width=\"64\" height=\"57\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Upload-problem2.svg/128px-Upload-problem2.svg.png 2x\" data-file-width=\"159\" data-file-height=\"142\"></a></span>\n</td><td style=\"padding:4px;\"><div style=\"margin-top:0.5em;\">Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.<br>Please if you think that any changes should be required, please inform the author.<br>Otherwise you can upload a new image with a new name. Please use one of the templates <a href=\"//commons.wikimedia.org/wiki/Template:Derived_from\" title=\"Template:Derived from\">derivative</a> or <a href=\"//commons.wikimedia.org/wiki/Template:Extracted_from\" title=\"Template:Extracted from\">extract</a>.</div>\n</td></tr></tbody></table></div>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bangka_Lungshan_Temple_07.23.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "<b>Bangka Lungshan Temple</b> (艋舺龍山寺) in Wanhua, Taipei, Taiwan."
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Huashan 1914 Creative Park",
+          "ai_summary": "A cultural and creative park in Taipei, hosting various exhibitions and events.",
+          "name_english": "Huashan 1914 Creative Park",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 21:00",
+            "Tuesday": "09:00 - 21:00",
+            "Wednesday": "09:00 - 21:00",
+            "Thursday": "09:00 - 21:00",
+            "Friday": "09:00 - 21:00",
+            "Saturday": "09:00 - 21:00",
+            "Sunday": "09:00 - 21:00",
+            "notes": "Check the schedule for special events and exhibitions."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the various art installations and shops.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.042222,
+            "longitude": 121.529722
+          },
+          "address": "No. 1, Section 1, Bade Rd, Zhongzheng District, Taipei City, Taiwan 100",
+          "official_website": "https://www.huashan1914.com",
+          "tags": [
+            "Culture",
+            "Art",
+            "Exhibitions"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Huashan_1914,_Syntrend_and_Jinshan_e01_20150701.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Huashan_1914%2C_Syntrend_and_Jinshan_e01_20150701.jpg/960px-Huashan_1914%2C_Syntrend_and_Jinshan_e01_20150701.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Huashan 1914, Syntrend and Jinshan e01 20150701",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wpcpey&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wpcpey (page does not exist)\">Wpcpey</a>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Huashan_1914,_Syntrend_and_Jinshan_e01_20150701.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Huashan 1914 Creative Park, Syntrend Creative Park and Jinshan e01 Building."
+                }
+              }
+            }
+          },
+          "rank_score": 0.726
+        },
+        {
+          "name": "Ximending Pedestrian District",
+          "ai_summary": "A vibrant shopping and entertainment district in Taipei.",
+          "name_english": "Ximending Pedestrian District",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 22:00",
+            "Tuesday": "10:00 - 22:00",
+            "Wednesday": "10:00 - 22:00",
+            "Thursday": "10:00 - 22:00",
+            "Friday": "10:00 - 22:00",
+            "Saturday": "10:00 - 22:00",
+            "Sunday": "10:00 - 22:00",
+            "notes": "Bustling with activity in the evenings."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local street food and visit the shops.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.042222,
+            "longitude": 121.506056
+          },
+          "address": "Ximending, Wanhua District, Taipei City, Taiwan 108",
+          "official_website": null,
+          "tags": [
+            "Shopping",
+            "Food",
+            "Entertainment"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:從屈臣氏西門門市到錢櫃台北中華新館_20211204.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/%E5%BE%9E%E5%B1%88%E8%87%A3%E6%B0%8F%E8%A5%BF%E9%96%80%E9%96%80%E5%B8%82%E5%88%B0%E9%8C%A2%E6%AB%83%E5%8F%B0%E5%8C%97%E4%B8%AD%E8%8F%AF%E6%96%B0%E9%A4%A8_20211204.jpg/960px-%E5%BE%9E%E5%B1%88%E8%87%A3%E6%B0%8F%E8%A5%BF%E9%96%80%E9%96%80%E5%B8%82%E5%88%B0%E9%8C%A2%E6%AB%83%E5%8F%B0%E5%8C%97%E4%B8%AD%E8%8F%AF%E6%96%B0%E9%A4%A8_20211204.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "從屈臣氏西門門市到錢櫃台北中華新館 20211204",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Mrmarkertw\" title=\"User:Mrmarkertw\">Mrmarkertw</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%E5%BE%9E%E5%B1%88%E8%87%A3%E6%B0%8F%E8%A5%BF%E9%96%80%E9%96%80%E5%B8%82%E5%88%B0%E9%8C%A2%E6%AB%83%E5%8F%B0%E5%8C%97%E4%B8%AD%E8%8F%AF%E6%96%B0%E9%A4%A8_20211204.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "​臺北市萬華區漢中街與成都路口，屈臣氏西門門市、明日大飯店（成都路23號、成都路27巷1號，1樓設置統一超商明日門市）、中影新世界大樓、錢櫃台北中華新館。"
+                }
+              }
+            }
+          },
+          "rank_score": 0.71
+        },
+        {
+          "name": "Dihua Street (Dadaocheng Old Street)",
+          "ai_summary": "A historic street in Taipei, known for its traditional shops and architecture.",
+          "name_english": "Dihua Street",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Best visited during the day for shopping."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the side streets for hidden gems.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.047222,
+            "longitude": 121.514722
+          },
+          "address": "Dihua St, Datong District, Taipei City, Taiwan 103",
+          "official_website": null,
+          "tags": [
+            "Shopping",
+            "History",
+            "Culture"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Buildings_along_Dihua_Street_07.23_(6).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Buildings_along_Dihua_Street_07.23_%286%29.jpg/960px-Buildings_along_Dihua_Street_07.23_%286%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Buildings along Dihua Street 07.23 (6)",
+                  "author": "<table class=\"toccolours\" style=\"width:100%; margin-top:10px;\" cellpadding=\"2\">\n\n<tbody><tr class=\"plainlinks\">\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Thailand.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/60px-Flag_of_Thailand.svg.png\" decoding=\"async\" width=\"50\" height=\"33\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/120px-Flag_of_Thailand.svg.png 1.5x\" data-file-width=\"900\" data-file-height=\"600\"></a></span> This Photo was taken by <i><b><a href=\"//commons.wikimedia.org/wiki/User:Supanut_Arunoprayote\" title=\"User:Supanut Arunoprayote\">Supanut Arunoprayote</a></b></i>.\n</td>\n<td align=\"right\">Feel free to use any of my images, but please mention me as the author and may send me a <a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:Supanut_Arunoprayote\">message.</a> <br> (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่ง<a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:Supanut_Arunoprayote\">ข้อความบอกกล่าวด้วย</a>) <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Contact_vmc2015.png\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Contact_vmc2015.png/40px-Contact_vmc2015.png\" decoding=\"async\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Contact_vmc2015.png/60px-Contact_vmc2015.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Contact_vmc2015.png/120px-Contact_vmc2015.png 2x\" data-file-width=\"940\" data-file-height=\"940\"></a></span>\n</td></tr></tbody></table>\n<div style=\"clear:both; border:2px solid #00cc00; background-color:#f7f7f7; margin-top:6px;\">\n<table><tbody><tr><td style=\"padding:4px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Upload-problem2.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Upload-problem2.svg/120px-Upload-problem2.svg.png\" decoding=\"async\" width=\"64\" height=\"57\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Upload-problem2.svg/128px-Upload-problem2.svg.png 2x\" data-file-width=\"159\" data-file-height=\"142\"></a></span>\n</td><td style=\"padding:4px;\"><div style=\"margin-top:0.5em;\">Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.<br>Please if you think that any changes should be required, please inform the author.<br>Otherwise you can upload a new image with a new name. Please use one of the templates <a href=\"//commons.wikimedia.org/wiki/Template:Derived_from\" title=\"Template:Derived from\">derivative</a> or <a href=\"//commons.wikimedia.org/wiki/Template:Extracted_from\" title=\"Template:Extracted from\">extract</a>.</div>\n</td></tr></tbody></table></div>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Buildings_along_Dihua_Street_07.23_(6).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "<b>Dadaocheng Visitor Center</b> (大稻埕遊客中心) is a visitor building located in Dihua Street, Datong District, Taipei."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Grand Hotel Taipei & Yuanshan View",
+          "ai_summary": "A luxury hotel in Taipei, offering stunning views and top-notch amenities.",
+          "name_english": "Grand Hotel Taipei",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "18:30",
+          "cost": "$200 USD",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "00:00 - 24:00",
+            "Tuesday": "00:00 - 24:00",
+            "Wednesday": "00:00 - 24:00",
+            "Thursday": "00:00 - 24:00",
+            "Friday": "00:00 - 24:00",
+            "Saturday": "00:00 - 24:00",
+            "Sunday": "00:00 - 24:00",
+            "notes": "Check-in time is after 15:00."
+          },
+          "suggested_duration": "1 night",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Book a room with a view of Yuanshan.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 25.083056,
+            "longitude": 121.529722
+          },
+          "address": "No. 1, Section 4, Zhongshan N Rd, Zhongshan District, Taipei City, Taiwan 104",
+          "official_website": "https://www.grandhotel.tw",
+          "tags": [
+            "Hotel",
+            "Luxury",
+            "Viewpoint"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Yuanshan_Great_Hotel_(Grand_Hotel)_in_Taipei.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Yuanshan_Great_Hotel_%28Grand_Hotel%29_in_Taipei.jpg/960px-Yuanshan_Great_Hotel_%28Grand_Hotel%29_in_Taipei.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Yuanshan Great Hotel (Grand Hotel) in Taipei",
+                  "author": "<p>Photographer: <a href=\"//commons.wikimedia.org/wiki/User:Mosbatho\" title=\"User:Mosbatho\">Mosbatho</a> \n</p>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Yuanshan_Great_Hotel_(Grand_Hotel)_in_Taipei.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "The Grand Hotel Taipei."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Songshan Cultural & Creative Park",
+          "ai_summary": "A cultural park in Taipei, featuring creative exhibitions and a tranquil environment.",
+          "name_english": "Songshan Cultural & Creative Park",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 21:00",
+            "Tuesday": "09:00 - 21:00",
+            "Wednesday": "09:00 - 21:00",
+            "Thursday": "09:00 - 21:00",
+            "Friday": "09:00 - 21:00",
+            "Saturday": "09:00 - 21:00",
+            "Sunday": "09:00 - 21:00",
+            "notes": "Check for special events and exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Enjoy a coffee at the park's café.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.045556,
+            "longitude": 121.550278
+          },
+          "address": "No. 133, Guangfu S Rd, Xinyi District, Taipei City, Taiwan 110",
+          "official_website": "https://www.songshanculturalpark.tw",
+          "tags": [
+            "Culture",
+            "Art",
+            "Park"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Songshan_Tobacco_Factory_Warehouses_&_Taipei_New_Horizon_20190616.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Songshan_Tobacco_Factory_Warehouses_%26_Taipei_New_Horizon_20190616.jpg/960px-Songshan_Tobacco_Factory_Warehouses_%26_Taipei_New_Horizon_20190616.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Songshan Tobacco Factory Warehouses & Taipei New Horizon 20190616",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E7%8E%84%E5%8F%B2%E7%94%9F\" title=\"User:玄史生\">玄史生</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Songshan_Tobacco_Factory_Warehouses_%26_Taipei_New_Horizon_20190616.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "​原松山菸廠倉庫區與臺北文創大樓。"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Maokong Gondola & Tea Plantations",
+          "ai_summary": "A scenic gondola ride in Taipei, offering views of tea plantations and the city.",
+          "name_english": "Maokong Gondola",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "18:00",
+          "cost": "$10 USD",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Closed during typhoons or heavy rain."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the tea plantations and try the local tea.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 24.994722,
+            "longitude": 121.577222
+          },
+          "address": "No. 1, Lane 38, Section 2, Zhinan Rd, Wenshan District, Taipei City, Taiwan 116",
+          "official_website": "https://www.maokonggondola.gov.tw",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Tea"
+          ],
+          "state": "Taipei",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Yangmingshan Visitor Center (Taipei side)",
+          "ai_summary": "A visitor center in Yangmingshan National Park, offering information and exhibits.",
+          "name_english": "Yangmingshan Visitor Center",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Closed on Mondays in winter (Dec-Feb)."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check the weather and road conditions before visiting.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.135278,
+            "longitude": 121.558056
+          },
+          "address": "No. 2, Section 5, Zhongshan Rd, Beitou District, Taipei City, Taiwan 112",
+          "official_website": "https://www.ymsnp.gov.tw",
+          "tags": [
+            "Nature",
+            "Park",
+            "Visitor Center"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Mount_Qixing_under_clear_sky_on_13th_February_2016.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mount_Qixing_under_clear_sky_on_13th_February_2016.jpg/960px-Mount_Qixing_under_clear_sky_on_13th_February_2016.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Mount Qixing under clear sky on 13th February 2016",
+                  "author": "Wei-Te Wong",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mount_Qixing_under_clear_sky_on_13th_February_2016.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Mount Qixing under clear sky on 13th February 2016."
+                }
+              }
+            }
+          },
+          "rank_score": 0.726
+        },
+        {
+          "name": "Raohe Night Market",
+          "ai_summary": "A popular night market in Taipei, known for its street food and vibrant atmosphere.",
+          "name_english": "Raohe Night Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "17:00 - 24:00",
+            "Tuesday": "17:00 - 24:00",
+            "Wednesday": "17:00 - 24:00",
+            "Thursday": "17:00 - 24:00",
+            "Friday": "17:00 - 24:00",
+            "Saturday": "17:00 - 24:00",
+            "Sunday": "17:00 - 24:00",
+            "notes": "Best time to visit is during dinner time."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the pepper buns and stinky tofu.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.021389,
+            "longitude": 121.508056
+          },
+          "address": "Raohe St, Songshan District, Taipei City, Taiwan 105",
+          "official_website": null,
+          "tags": [
+            "Food",
+            "Market",
+            "Nightlife"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:East_Entrance_of_Raohe_Street_Night_Market_20060118_night.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/East_Entrance_of_Raohe_Street_Night_Market_20060118_night.jpg/960px-East_Entrance_of_Raohe_Street_Night_Market_20060118_night.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "East Entrance of Raohe Street Night Market 20060118 night",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Fauzty\" title=\"User:Fauzty\">Fauzty</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:East_Entrance_of_Raohe_Street_Night_Market_20060118_night.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "​饒河街觀光夜市東口牌樓夜景。"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Ningxia Night Market",
+          "ai_summary": "A famous night market in Taipei, offering a wide variety of local snacks and delicacies.",
+          "name_english": "Ningxia Night Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "17:00 - 24:00",
+            "Tuesday": "17:00 - 24:00",
+            "Wednesday": "17:00 - 24:00",
+            "Thursday": "17:00 - 24:00",
+            "Friday": "17:00 - 24:00",
+            "Saturday": "17:00 - 24:00",
+            "Sunday": "17:00 - 24:00",
+            "notes": "Get there early to avoid long lines."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Don't miss the oyster omelette and bubble tea.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.047222,
+            "longitude": 121.508056
+          },
+          "address": "Ningxia Rd, Datong District, Taipei City, Taiwan 103",
+          "official_website": null,
+          "tags": [
+            "Food",
+            "Market",
+            "Nightlife"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ningxia_Night_Market_20250520.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Ningxia_Night_Market_20250520.jpg/960px-Ningxia_Night_Market_20250520.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ningxia Night Market 20250520",
+                  "author": "迷惘的人生",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ningxia_Night_Market_20250520.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Ningxia Night Market 20250520"
+                }
+              }
+            }
+          },
+          "rank_score": 0.806
+        },
+        {
+          "name": "Taipei Fine Arts Museum",
+          "ai_summary": "A museum in Taipei showcasing contemporary art and design.",
+          "name_english": "Taipei Fine Arts Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$10 USD",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:30 - 17:30",
+            "Tuesday": "09:30 - 17:30",
+            "Wednesday": "09:30 - 17:30",
+            "Thursday": "09:30 - 17:30",
+            "Friday": "09:30 - 17:30",
+            "Saturday": "09:30 - 17:30",
+            "Sunday": "09:30 - 17:30",
+            "notes": "Closed on Mondays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the museum shop for unique souvenirs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.134722,
+            "longitude": 121.516389
+          },
+          "address": "No. 181, Section 3, Zhongshan N Rd, Zhongshan District, Taipei City, Taiwan 104",
+          "official_website": "https://www.tfam.gov.tw",
+          "tags": [
+            "Museum",
+            "Art",
+            "Culture"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Taipei_Fine_Arts_Museum_20150919.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Taipei_Fine_Arts_Museum_20150919.jpg/960px-Taipei_Fine_Arts_Museum_20150919.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Taipei Fine Arts Museum 20150919",
+                  "author": "翁維德 (Wei-Te Wong)",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Taipei_Fine_Arts_Museum_20150919.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Taipei Fine Arts Museum."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Beitou Hot Springs Museum",
+          "ai_summary": "A museum in Taipei dedicated to the history and culture of hot springs.",
+          "name_english": "Beitou Hot Springs Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Closed on Mondays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine your visit with a dip in the hot springs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.137222,
+            "longitude": 121.500278
+          },
+          "address": "No. 2, Zhongshan Rd, Beitou District, Taipei City, Taiwan 112",
+          "official_website": "https://www.beitoumuseum.gov.tw",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Beitou_Hotspring_Museum_2015.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Beitou_Hotspring_Museum_2015.jpg/960px-Beitou_Hotspring_Museum_2015.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Beitou Hotspring Museum 2015",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wing1990hk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wing1990hk (page does not exist)\">Wing1990hk</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Beitou_Hotspring_Museum_2015.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Beitou Hot Spring Museum"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Beitou Thermal Valley",
+          "ai_summary": "A scenic area in Taipei, known for its hot springs and beautiful landscapes.",
+          "name_english": "Beitou Thermal Valley",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Evening",
+          "place_tip": "Bring a camera to capture the stunning scenery.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.137222,
+            "longitude": 121.500278
+          },
+          "address": "No. 2, Zhongshan Rd, Beitou District, Taipei City, Taiwan 112",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Hot Springs",
+            "Scenic"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:北投機廠DSC_4995.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/%E5%8C%97%E6%8A%95%E6%A9%9F%E5%BB%A0DSC_4995.jpg/960px-%E5%8C%97%E6%8A%95%E6%A9%9F%E5%BB%A0DSC_4995.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "北投機廠DSC 4995",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Taiwankengo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Taiwankengo (page does not exist)\">Taiwankengo</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E6%8A%95%E6%A9%9F%E5%BB%A0DSC_4995.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Beitou Depot"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Shilin Night Market",
+          "ai_summary": "The largest night market in Taipei, famous for its street food and lively atmosphere.",
+          "name_english": "Shilin Night Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "17:00 - 24:00",
+            "Tuesday": "17:00 - 24:00",
+            "Wednesday": "17:00 - 24:00",
+            "Thursday": "17:00 - 24:00",
+            "Friday": "17:00 - 24:00",
+            "Saturday": "17:00 - 24:00",
+            "Sunday": "17:00 - 24:00",
+            "notes": "Try to visit on a weekday to avoid crowds."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Don't miss the fried chicken steak and bubble tea.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.087222,
+            "longitude": 121.523056
+          },
+          "address": "Shilin Night Market, Shilin District, Taipei City, Taiwan 111",
+          "official_website": null,
+          "tags": [
+            "Food",
+            "Market",
+            "Nightlife"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Shilin_night_market_alley_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Shilin_night_market_alley_2.jpg/960px-Shilin_night_market_alley_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Shilin night market alley 2",
+                  "author": "Changlc",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Shilin_night_market_alley_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.918
+        },
+        {
+          "name": "Bopiliao Historical Block",
+          "ai_summary": "A preserved historical area in Taipei, showcasing traditional architecture and culture.",
+          "name_english": "Bopiliao Historical Block",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Closed on Mondays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Join a guided tour to learn about the history.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.042222,
+            "longitude": 121.505556
+          },
+          "address": "Bopiliao, Wanhua District, Taipei City, Taiwan 108",
+          "official_website": null,
+          "tags": [
+            "History",
+            "Culture",
+            "Architecture"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:剝皮寮歷史街區20220617.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/%E5%89%9D%E7%9A%AE%E5%AF%AE%E6%AD%B7%E5%8F%B2%E8%A1%97%E5%8D%8020220617.jpg/960px-%E5%89%9D%E7%9A%AE%E5%AF%AE%E6%AD%B7%E5%8F%B2%E8%A1%97%E5%8D%8020220617.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "剝皮寮歷史街區20220617",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Yu_tptw&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Yu tptw (page does not exist)\">Yu tptw</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%E5%89%9D%E7%9A%AE%E5%AF%AE%E6%AD%B7%E5%8F%B2%E8%A1%97%E5%8D%8020220617.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "​剝皮寮歷史建築群位於康定路旁的街屋,台北市萬華區"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Miramar Ferris Wheel (Neihu)",
+          "ai_summary": "A large Ferris wheel in Taipei, offering great views of the city and beyond.",
+          "name_english": "Miramar Ferris Wheel",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "$15 USD",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "11:00 - 22:00",
+            "Tuesday": "11:00 - 22:00",
+            "Wednesday": "11:00 - 22:00",
+            "Thursday": "11:00 - 22:00",
+            "Friday": "11:00 - 22:00",
+            "Saturday": "11:00 - 22:00",
+            "Sunday": "11:00 - 22:00",
+            "notes": "Last ride 30 minutes before closing."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy the view and take photos during the ride.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 25.083056,
+            "longitude": 121.550278
+          },
+          "address": "No. 20, Section 5, Nanjing E Rd, Songshan District, Taipei City, Taiwan 105",
+          "official_website": "http://www.miramar.com.tw",
+          "tags": [
+            "Entertainment",
+            "Viewpoint",
+            "Landmark"
+          ],
+          "state": "Taipei",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Miramar_Ferris_Wheel.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Miramar_Ferris_Wheel.jpg/960px-Miramar_Ferris_Wheel.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Miramar Ferris Wheel",
+                  "author": "me",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Miramar_Ferris_Wheel.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Miramar Ferris Wheel in Taipei, Taiwan."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        }
+      ]
+    }
+  ]
+}

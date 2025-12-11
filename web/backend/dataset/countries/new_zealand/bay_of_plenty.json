@@ -1,0 +1,878 @@
+{
+  "country": "New Zealand",
+  "state": "Bay Of Plenty",
+  "cities": [
+    {
+      "city": "Rotorua",
+      "nearest_airport": "Rotorua Regional Airport",
+      "places": [
+        {
+          "name": "Te Puia Geothermal Valley",
+          "ai_summary": "A geothermal wonderland featuring bubbling mud pools, geysers, and a rich display of Māori culture and crafts.",
+          "name_english": "Te Puia",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "6:10 AM",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 65",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the Pohutu Geyser, the largest active geyser in the Southern Hemisphere.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -38.1368,
+            "longitude": 176.2497
+          },
+          "address": "Hemo Road, Rotorua, New Zealand",
+          "official_website": "https://www.tepuia.com",
+          "tags": [
+            "Geothermal",
+            "Culture",
+            "Nature"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:David face.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png",
+                "width": 140,
+                "height": 127,
+                "attribution": {
+                  "title": "David face",
+                  "author": "Halibutt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:David_face.png",
+                  "credit": "Face of en:Image:Michelangelos David.jpg, created by Halibutt in GIMP for use as an icon with various stubs and tables.",
+                  "usage_terms": "Public domain",
+                  "description": "Face of Michelangelos David"
+                }
+              }
+            }
+          },
+          "rank_score": 0.814
+        },
+        {
+          "name": "Wai-O-Tapu Thermal Wonderland",
+          "ai_summary": "A colorful geothermal park featuring the Champagne Pool, Artist’s Palette, and Lady Knox Geyser.",
+          "name_english": "Wai-O-Tapu",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 32.50",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:30 AM - 5:00 PM",
+            "Tuesday": "8:30 AM - 5:00 PM",
+            "Wednesday": "8:30 AM - 5:00 PM",
+            "Thursday": "8:30 AM - 5:00 PM",
+            "Friday": "8:30 AM - 5:00 PM",
+            "Saturday": "8:30 AM - 5:00 PM",
+            "Sunday": "8:30 AM - 5:00 PM",
+            "notes": "Lady Knox Geyser erupts daily at 10:15 AM."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes as the park involves a lot of walking.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.3576,
+            "longitude": 176.3691
+          },
+          "address": "201 Waiotapu Loop Road, Rotorua, New Zealand",
+          "official_website": "https://www.waiotapu.co.nz",
+          "tags": [
+            "Geothermal",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ArtistsPalette.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/ArtistsPalette.jpg/960px-ArtistsPalette.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "ArtistsPalette",
+                  "author": "Leyo",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ArtistsPalette.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Artist's Palette, Wai-O-Tapu Thermal Wonderland, Neuseeland"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7985
+        },
+        {
+          "name": "Polynesian Spa",
+          "ai_summary": "A world-class spa offering geothermal mineral pools, luxurious treatments, and stunning views of Lake Rotorua.",
+          "name_english": "Polynesian Spa",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:30 PM",
+          "cost": "Entry fee: NZD 25",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 10:00 PM",
+            "Tuesday": "9:00 AM - 10:00 PM",
+            "Wednesday": "9:00 AM - 10:00 PM",
+            "Thursday": "9:00 AM - 10:00 PM",
+            "Friday": "9:00 AM - 10:00 PM",
+            "Saturday": "9:00 AM - 10:00 PM",
+            "Sunday": "9:00 AM - 10:00 PM",
+            "notes": "Bookings recommended for spa treatments."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Relax in the deluxe pools for a more private experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -38.1369,
+            "longitude": 176.2514
+          },
+          "address": "Hinemoa Street, Rotorua, New Zealand",
+          "official_website": "https://www.polynesianspa.co.nz",
+          "tags": [
+            "Relaxation",
+            "Wellness",
+            "Geothermal"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Day 4- Polynesian Spa.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Day_4-_Polynesian_Spa.jpg/960px-Day_4-_Polynesian_Spa.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Day 4- Polynesian Spa",
+                  "author": "Wendy Harman",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Day_4-_Polynesian_Spa.jpg",
+                  "credit": "https://www.flickr.com/photos/quirky/53153658253/",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "After Sail Barbary, Huka Falls, and Craters of the Moon near Lake Taupo, we headed to Rotorua and made it to the Polynesian Spa for thermal pool sitting."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7665
+        },
+        {
+          "name": "Mount Maunganui",
+          "ai_summary": "A dormant volcano offering panoramic views, scenic walks, and a popular beach.",
+          "name_english": "Mount Maunganui",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Take the summit track for breathtaking views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -37.4467,
+            "longitude": 176.1627
+          },
+          "address": "Mount Maunganui, Tauranga 3116, New Zealand",
+          "official_website": "https://www.mountmaunganui.com",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Views"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2023 NZ Census Population Density - Bay of Plenty Region.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/2023_NZ_Census_Population_Density_-_Bay_of_Plenty_Region.png/960px-2023_NZ_Census_Population_Density_-_Bay_of_Plenty_Region.png",
+                "width": 800,
+                "height": 760,
+                "attribution": {
+                  "title": "2023 NZ Census Population Density - Bay of Plenty Region",
+                  "author": "Vardion",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2023_NZ_Census_Population_Density_-_Bay_of_Plenty_Region.png",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Density of usually resident population as per the 2023 New Zealand Census; made using Stats NZ data/shapefiles and QGIS.\n  Less than 1 person per square km\n  1 person per square km and above\n  5 people per square km and above\n  10 people per square km and above\n  50 people per square km and above\n  100 people per square km and above\n  250 people per square km and above\n  500 people per square km and above\n  750 people per square km and above\n  1000 people per square km and above\n  2000 people per square km and above\n  3000 people per square km and above\n  4000 people per square km and above"
+                }
+              }
+            }
+          },
+          "rank_score": 0.801
+        },
+        {
+          "name": "White Island (Whakaari)",
+          "ai_summary": "New Zealand's most active volcano, offering guided tours to experience its unique geothermal features.",
+          "name_english": "White Island",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "6:15 AM",
+          "sunset_time": "N/A",
+          "cost": "Tour prices vary",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Access is by guided tour only. Book in advance."
+          },
+          "suggested_duration": "6-8 hours",
+          "best_time_to_visit": "All year round",
+          "place_tip": "Wear sturdy shoes and bring warm clothing.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -37.454,
+            "longitude": 176.2418
+          },
+          "address": "White Island, Bay of Plenty, New Zealand",
+          "official_website": "https://www.whiteisland.co.nz",
+          "tags": [
+            "Volcano",
+            "Geothermal",
+            "Adventure"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:00 1555 Pohutu Geyser in Whakarewarewa (Whaka), New Zealand.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/00_1555_Pohutu_Geyser_in_Whakarewarewa_%28Whaka%29%2C_New_Zealand.jpg/960px-00_1555_Pohutu_Geyser_in_Whakarewarewa_%28Whaka%29%2C_New_Zealand.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "00 1555 Pohutu Geyser in Whakarewarewa (Whaka), New Zealand",
+                  "author": "W. Bulach",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:00_1555_Pohutu_Geyser_in_Whakarewarewa_(Whaka),_New_Zealand.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Pohutu Geyser in the Whakarewarewa (Whaka) thermal area, New Zealand. The hot water jet reaches a height of up to 30 meters."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7636
+        },
+        {
+          "name": "Waimangu Volcanic Valley",
+          "ai_summary": "A stunning geothermal area with the world's largest hot waterfall and an array of colorful hot springs.",
+          "name_english": "Waimangu Volcanic Valley",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 38",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:30 AM - 5:00 PM",
+            "Tuesday": "8:30 AM - 5:00 PM",
+            "Wednesday": "8:30 AM - 5:00 PM",
+            "Thursday": "8:30 AM - 5:00 PM",
+            "Friday": "8:30 AM - 5:00 PM",
+            "Saturday": "8:30 AM - 5:00 PM",
+            "Sunday": "8:30 AM - 5:00 PM",
+            "notes": "Last entry at 3:30 PM."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Take the self-guided tour for flexibility.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.207,
+            "longitude": 176.2497
+          },
+          "address": "Waimangu Volcanic Valley, Rotorua, New Zealand",
+          "official_website": "https://www.waimangu.co.nz",
+          "tags": [
+            "Geothermal",
+            "Nature",
+            "Hiking"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:00 1555 Pohutu Geyser in Whakarewarewa (Whaka), New Zealand.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/00_1555_Pohutu_Geyser_in_Whakarewarewa_%28Whaka%29%2C_New_Zealand.jpg/960px-00_1555_Pohutu_Geyser_in_Whakarewarewa_%28Whaka%29%2C_New_Zealand.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "00 1555 Pohutu Geyser in Whakarewarewa (Whaka), New Zealand",
+                  "author": "W. Bulach",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:00_1555_Pohutu_Geyser_in_Whakarewarewa_(Whaka),_New_Zealand.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Pohutu Geyser in the Whakarewarewa (Whaka) thermal area, New Zealand. The hot water jet reaches a height of up to 30 meters."
+                }
+              }
+            }
+          },
+          "rank_score": 0.777
+        },
+        {
+          "name": "Rotorua Luge",
+          "ai_summary": "A thrilling downhill ride on a luge cart, offering stunning views and an adrenaline rush.",
+          "name_english": "Rotorua Luge",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:00 PM",
+          "cost": "Ride prices vary",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 8:00 PM",
+            "Tuesday": "9:00 AM - 8:00 PM",
+            "Wednesday": "9:00 AM - 8:00 PM",
+            "Thursday": "9:00 AM - 8:00 PM",
+            "Friday": "9:00 AM - 8:00 PM",
+            "Saturday": "9:00 AM - 8:00 PM",
+            "Sunday": "9:00 AM - 8:00 PM",
+            "notes": "Wear closed-toe shoes for safety."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Try the scenic chairlift for a relaxing return trip.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.1367,
+            "longitude": 176.2494
+          },
+          "address": "Fairy Springs Road, Rotorua, New Zealand",
+          "official_website": "https://www.rotorualuge.co.nz",
+          "tags": [
+            "Adventure",
+            "Family",
+            "Views"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {},
+          "rank_score": 0.76
+        },
+        {
+          "name": "Agrodome",
+          "ai_summary": "An interactive farm experience showcasing New Zealand agriculture, with sheep shearing and dog trials.",
+          "name_english": "Agrodome",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 40",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:30 AM - 5:00 PM",
+            "Tuesday": "8:30 AM - 5:00 PM",
+            "Wednesday": "8:30 AM - 5:00 PM",
+            "Thursday": "8:30 AM - 5:00 PM",
+            "Friday": "8:30 AM - 5:00 PM",
+            "Saturday": "8:30 AM - 5:00 PM",
+            "Sunday": "8:30 AM - 5:00 PM",
+            "notes": "Farm shows at 9:00 AM, 11:00 AM, 1:00 PM, and 3:00 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t forget to visit the farmyard nursery.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.1368,
+            "longitude": 176.2497
+          },
+          "address": "Agrodome Road, Rotorua, New Zealand",
+          "official_website": "https://www.agrodome.co.nz",
+          "tags": [
+            "Farm",
+            "Family",
+            "Education"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2000 New Zealand 19.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2000_New_Zealand_19.jpg/960px-2000_New_Zealand_19.jpg",
+                "width": 800,
+                "height": 545,
+                "attribution": {
+                  "title": "2000 New Zealand 19",
+                  "author": "anoldent",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2000_New_Zealand_19.jpg",
+                  "credit": "Flickr: 2000 New Zealand 19",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "The Bath House. Rotorua government museum &amp; gardens."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7385
+        },
+        {
+          "name": "Tamaki Māori Village",
+          "ai_summary": "An authentic Māori cultural experience with traditional feasting, performances, and storytelling.",
+          "name_english": "Tamaki Māori Village",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:00 PM",
+          "cost": "Tour prices vary",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "6:00 PM - 10:00 PM",
+            "Tuesday": "6:00 PM - 10:00 PM",
+            "Wednesday": "6:00 PM - 10:00 PM",
+            "Thursday": "6:00 PM - 10:00 PM",
+            "Friday": "6:00 PM - 10:00 PM",
+            "Saturday": "6:00 PM - 10:00 PM",
+            "Sunday": "6:00 PM - 10:00 PM",
+            "notes": "Must be booked in advance."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Experience the hangi meal, cooked in an earth oven.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -38.1367,
+            "longitude": 176.2494
+          },
+          "address": "Tamaki Drive, Rotorua, New Zealand",
+          "official_website": "https://www.tamakimaori.co.nz",
+          "tags": [
+            "Culture",
+            "Food",
+            "Experience"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Malfroy Road in Rotorua.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Malfroy_Road_in_Rotorua.jpg/960px-Malfroy_Road_in_Rotorua.jpg",
+                "width": 800,
+                "height": 465,
+                "attribution": {
+                  "title": "Malfroy Road in Rotorua",
+                  "author": "Krzysztof Golik",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Malfroy_Road_in_Rotorua.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Malfroy Road in Rotorua, Bay of Plenty Region, North Island of New Zealand"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7847
+        },
+        {
+          "name": "Velocity Valley Adrenaline Park",
+          "ai_summary": "A thrilling adventure park with activities like bungee jumping, jet boating, and zip lining.",
+          "name_english": "Velocity Valley",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Activity prices vary",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Book activities in advance to avoid disappointment."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Wear comfortable clothing and closed-toe shoes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.1367,
+            "longitude": 176.2494
+          },
+          "address": "State Highway 30, Rotorua, New Zealand",
+          "official_website": "https://www.velocityvalley.co.nz",
+          "tags": [
+            "Adventure",
+            "Thrill-seeking",
+            "Outdoor"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:David face.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png",
+                "width": 140,
+                "height": 127,
+                "attribution": {
+                  "title": "David face",
+                  "author": "Halibutt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:David_face.png",
+                  "credit": "Face of en:Image:Michelangelos David.jpg, created by Halibutt in GIMP for use as an icon with various stubs and tables.",
+                  "usage_terms": "Public domain",
+                  "description": "Face of Michelangelos David"
+                }
+              }
+            }
+          },
+          "rank_score": 0.76
+        },
+        {
+          "name": "McLaren Falls Park",
+          "ai_summary": "A scenic park with walking trails, a waterfall, and a lake, ideal for picnics and nature walks.",
+          "name_english": "McLaren Falls Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:05 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "7:00 AM - 7:00 PM",
+            "Tuesday": "7:00 AM - 7:00 PM",
+            "Wednesday": "7:00 AM - 7:00 PM",
+            "Thursday": "7:00 AM - 7:00 PM",
+            "Friday": "7:00 AM - 7:00 PM",
+            "Saturday": "7:00 AM - 7:00 PM",
+            "Sunday": "7:00 AM - 7:00 PM",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Check out the glowworm cave at the park entrance.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -37.978,
+            "longitude": 176.207
+          },
+          "address": "McLaren Falls Park, Tauranga 3171, New Zealand",
+          "official_website": "https://www.bayofplentynz.com",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Walking"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Alan Bickers MNZM (cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Alan_Bickers_MNZM_%28cropped%29.jpg",
+                "width": 398,
+                "height": 482,
+                "attribution": {
+                  "title": "Alan Bickers MNZM (cropped)",
+                  "author": "Government House, Department of the Prime Minister and Cabinet",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Alan_Bickers_MNZM_(cropped).jpg",
+                  "credit": "https://gg.govt.nz/image-galleries/6699/media?page=8",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Alan Bickers, after his investiture as MNZM, for services to the community, at Government House, Wellington, on 20 May 2015"
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        },
+        {
+          "name": "Agrodome",
+          "ai_summary": "An interactive farm experience showcasing New Zealand agriculture, with sheep shearing and dog trials.",
+          "name_english": "Agrodome",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 40",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:30 AM - 5:00 PM",
+            "Tuesday": "8:30 AM - 5:00 PM",
+            "Wednesday": "8:30 AM - 5:00 PM",
+            "Thursday": "8:30 AM - 5:00 PM",
+            "Friday": "8:30 AM - 5:00 PM",
+            "Saturday": "8:30 AM - 5:00 PM",
+            "Sunday": "8:30 AM - 5:00 PM",
+            "notes": "Farm shows at 9:00 AM, 11:00 AM, 1:00 PM, and 3:00 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t forget to visit the farmyard nursery.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.1368,
+            "longitude": 176.2497
+          },
+          "address": "Agrodome Road, Rotorua, New Zealand",
+          "official_website": "https://www.agrodome.co.nz",
+          "tags": [
+            "Farm",
+            "Family",
+            "Education"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2000 New Zealand 19.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2000_New_Zealand_19.jpg/960px-2000_New_Zealand_19.jpg",
+                "width": 800,
+                "height": 545,
+                "attribution": {
+                  "title": "2000 New Zealand 19",
+                  "author": "anoldent",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2000_New_Zealand_19.jpg",
+                  "credit": "Flickr: 2000 New Zealand 19",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "The Bath House. Rotorua government museum &amp; gardens."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7385
+        },
+        {
+          "name": "Tamaki Māori Village",
+          "ai_summary": "An authentic Māori cultural experience with traditional feasting, performances, and storytelling.",
+          "name_english": "Tamaki Māori Village",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "8:00 PM",
+          "cost": "Tour prices vary",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "6:00 PM - 10:00 PM",
+            "Tuesday": "6:00 PM - 10:00 PM",
+            "Wednesday": "6:00 PM - 10:00 PM",
+            "Thursday": "6:00 PM - 10:00 PM",
+            "Friday": "6:00 PM - 10:00 PM",
+            "Saturday": "6:00 PM - 10:00 PM",
+            "Sunday": "6:00 PM - 10:00 PM",
+            "notes": "Must be booked in advance."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Experience the hangi meal, cooked in an earth oven.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -38.1367,
+            "longitude": 176.2494
+          },
+          "address": "Tamaki Drive, Rotorua, New Zealand",
+          "official_website": "https://www.tamakimaori.co.nz",
+          "tags": [
+            "Culture",
+            "Food",
+            "Experience"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Malfroy Road in Rotorua.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Malfroy_Road_in_Rotorua.jpg/960px-Malfroy_Road_in_Rotorua.jpg",
+                "width": 800,
+                "height": 465,
+                "attribution": {
+                  "title": "Malfroy Road in Rotorua",
+                  "author": "Krzysztof Golik",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Malfroy_Road_in_Rotorua.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Malfroy Road in Rotorua, Bay of Plenty Region, North Island of New Zealand"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7847
+        },
+        {
+          "name": "Velocity Valley Adrenaline Park",
+          "ai_summary": "A thrilling adventure park with activities like bungee jumping, jet boating, and zip lining.",
+          "name_english": "Velocity Valley",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Activity prices vary",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Book activities in advance to avoid disappointment."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Wear comfortable clothing and closed-toe shoes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -38.1367,
+            "longitude": 176.2494
+          },
+          "address": "State Highway 30, Rotorua, New Zealand",
+          "official_website": "https://www.velocityvalley.co.nz",
+          "tags": [
+            "Adventure",
+            "Thrill-seeking",
+            "Outdoor"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:David face.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png",
+                "width": 140,
+                "height": 127,
+                "attribution": {
+                  "title": "David face",
+                  "author": "Halibutt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:David_face.png",
+                  "credit": "Face of en:Image:Michelangelos David.jpg, created by Halibutt in GIMP for use as an icon with various stubs and tables.",
+                  "usage_terms": "Public domain",
+                  "description": "Face of Michelangelos David"
+                }
+              }
+            }
+          },
+          "rank_score": 0.76
+        },
+        {
+          "name": "McLaren Falls Park",
+          "ai_summary": "A scenic park with walking trails, a waterfall, and a lake, ideal for picnics and nature walks.",
+          "name_english": "McLaren Falls Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:05 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "7:00 AM - 7:00 PM",
+            "Tuesday": "7:00 AM - 7:00 PM",
+            "Wednesday": "7:00 AM - 7:00 PM",
+            "Thursday": "7:00 AM - 7:00 PM",
+            "Friday": "7:00 AM - 7:00 PM",
+            "Saturday": "7:00 AM - 7:00 PM",
+            "Sunday": "7:00 AM - 7:00 PM",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Check out the glowworm cave at the park entrance.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -37.978,
+            "longitude": 176.207
+          },
+          "address": "McLaren Falls Park, Tauranga 3171, New Zealand",
+          "official_website": "https://www.bayofplentynz.com",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Walking"
+          ],
+          "state": "Bay Of Plenty",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Alan Bickers MNZM (cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Alan_Bickers_MNZM_%28cropped%29.jpg",
+                "width": 398,
+                "height": 482,
+                "attribution": {
+                  "title": "Alan Bickers MNZM (cropped)",
+                  "author": "Government House, Department of the Prime Minister and Cabinet",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Alan_Bickers_MNZM_(cropped).jpg",
+                  "credit": "https://gg.govt.nz/image-galleries/6699/media?page=8",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Alan Bickers, after his investiture as MNZM, for services to the community, at Government House, Wellington, on 20 May 2015"
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        }
+      ]
+    }
+  ]
+}

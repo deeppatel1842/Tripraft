@@ -1,0 +1,1152 @@
+{
+  "country": "United Kingdom",
+  "state": "York",
+  "cities": [
+    {
+      "city": "York",
+      "nearest_airport": "Leeds Bradford Airport",
+      "places": [
+        {
+          "name": "York Minster",
+          "ai_summary": "A magnificent Gothic cathedral with stunning stained glass windows and a rich history dating back to the 7th century.",
+          "name_english": "York Minster",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20",
+          "sunset_time": "18:50",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 16:30",
+            "Sunday": "12:30 - 15:00",
+            "notes": "Special services may affect opening hours."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Climb the central tower for panoramic views of York.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 53.9624,
+            "longitude": -1.0819
+          },
+          "address": "Deangate, York YO1 7HH, United Kingdom",
+          "official_website": "https://yorkminster.org/",
+          "tags": [
+            "History",
+            "Architecture",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Astronomical Clock (7569108538).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Astronomical_Clock_%287569108538%29.jpg/960px-Astronomical_Clock_%287569108538%29.jpg",
+                "width": 800,
+                "height": 1244,
+                "attribution": {
+                  "title": "Astronomical Clock (7569108538)",
+                  "author": "Tony Hisgett from Birmingham, UK",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Astronomical_Clock_(7569108538).jpg",
+                  "credit": "Astronomical Clock\n\nUploaded by tm",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Astronomical Clock"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "The Shambles",
+          "ai_summary": "A historic street with overhanging timber-framed buildings, now home to shops, cafes, and a vibrant atmosphere.",
+          "name_english": "The Shambles",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Shops and cafes have individual opening hours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit early to avoid crowds and enjoy the unique architecture.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.959,
+            "longitude": -1.0815
+          },
+          "address": "The Shambles, York YO1, United Kingdom",
+          "official_website": "https://www.visityork.org/",
+          "tags": [
+            "History",
+            "Shopping",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Parliament Street (geograph 6440787).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Parliament_Street_%28geograph_6440787%29.jpg/960px-Parliament_Street_%28geograph_6440787%29.jpg",
+                "width": 800,
+                "height": 534,
+                "attribution": {
+                  "title": "Parliament Street (geograph 6440787)",
+                  "author": "DS Pugh",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Parliament_Street_(geograph_6440787).jpg",
+                  "credit": "From geograph.org.uk",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Parliament Street deserted due to the COVID-19 pandemic"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "York City Walls",
+          "ai_summary": "Impressive medieval walls encircling the city, offering scenic walks and views of York's historic architecture.",
+          "name_english": "York City Walls",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:40",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Access may be restricted in certain areas at night."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Walk the walls for a unique perspective of the city.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.962,
+            "longitude": -1.0809
+          },
+          "address": "York City Walls, York, United Kingdom",
+          "official_website": "https://www.york.gov.uk/",
+          "tags": [
+            "History",
+            "Architecture",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:York Minster 1984 schematic.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/York_Minster_1984_schematic.svg/800px-York_Minster_1984_schematic.svg.png",
+                "width": 800,
+                "height": 599,
+                "attribution": {
+                  "title": "York Minster 1984 schematic",
+                  "author": "The joy of all things",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:York_Minster_1984_schematic.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "York Minster 1984 schematic, showing south transept, and position of the crane used after the fire."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "National Railway Museum",
+          "ai_summary": "The world's largest railway museum, featuring iconic locomotives, interactive exhibits, and a rich railway heritage.",
+          "name_english": "National Railway Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Weekdays",
+          "place_tip": "Don't miss the Mallard and the Hogwarts Express exhibits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.959,
+            "longitude": -1.094
+          },
+          "address": "Leeman Rd, York YO26 4XJ, United Kingdom",
+          "official_website": "https://www.railwaymuseum.org.uk/",
+          "tags": [
+            "History",
+            "Museum",
+            "Family"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:089-SFEC-YORK-20070827.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/089-SFEC-YORK-20070827.JPG/960px-089-SFEC-YORK-20070827.JPG",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "089-SFEC-YORK-20070827",
+                  "author": "Steve F-E-Cameron",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:089-SFEC-YORK-20070827.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "In and around York"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Jorvik Viking Centre",
+          "ai_summary": "A unique attraction where you can experience the sights, sounds, and smells of Viking-age York.",
+          "name_english": "Jorvik Viking Centre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Last admission 1 hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Off-peak seasons",
+          "place_tip": "Experience the ride through Viking York.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 53.9594,
+            "longitude": -1.0738
+          },
+          "address": "Coppergate, York YO1 9WT, United Kingdom",
+          "official_website": "https://www.jorvikvikingcentre.co.uk/",
+          "tags": [
+            "History",
+            "Museum",
+            "Interactive"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Church.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Church.svg/800px-Church.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Church",
+                  "author": "Wikiped22",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Church.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "icone pour église"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Clifford’s Tower",
+          "ai_summary": "The largest remaining part of York Castle, offering panoramic views of the city from its summit.",
+          "name_english": "Clifford’s Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "19:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 16:30",
+            "Sunday": "12:30 - 15:00",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Visit at dawn or dusk for stunning light over the city.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.9592,
+            "longitude": -1.0805
+          },
+          "address": "Tower St, York YO1 9SA, United Kingdom",
+          "official_website": "https://www.english-heritage.org.uk/visit/places/cliffords-tower-york/",
+          "tags": [
+            "History",
+            "Architecture",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2 Jubbergate.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2_Jubbergate.jpg/960px-2_Jubbergate.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2 Jubbergate",
+                  "author": "Warofdreams",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2_Jubbergate.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "2, Jubbergate\n.mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding:2px 0.9em 2px 0;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}Wikidata has entry 2 Jubbergate (Q17549851) with data related to this item."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "York Castle Museum",
+          "ai_summary": "A museum that tells the story of York's past, featuring recreated historic streets and a Victorian prison.",
+          "name_english": "York Castle Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Last admission 1 hour before closing."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoons",
+          "place_tip": "Explore the Victorian street and the prison cells.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.9591,
+            "longitude": -1.0801
+          },
+          "address": "Tower St, York YO1 9WD, United Kingdom",
+          "official_website": "https://www.yorkcastlemuseum.org.uk/",
+          "tags": [
+            "History",
+            "Museum",
+            "Family"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Yorkshire.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Flag_of_Yorkshire.svg/800px-Flag_of_Yorkshire.svg.png",
+                "width": 800,
+                "height": 480,
+                "attribution": {
+                  "title": "Flag of Yorkshire",
+                  "author": "The Yorkshire Ridings Society and The Flag Institute",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Yorkshire.svg",
+                  "credit": "https://www.flaginstitute.org/wp/flags/yorkshire/",
+                  "usage_terms": "Public domain",
+                  "description": "Yorkshire flag"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Museum Gardens & St Mary’s Abbey",
+          "ai_summary": "Beautiful gardens surrounding the ruins of St Mary’s Abbey, offering a peaceful retreat in the city.",
+          "name_english": "Museum Gardens & St Mary’s Abbey",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Abbey ruins are accessible at all times; museum hours vary."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Enjoy a picnic in the gardens.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.9593,
+            "longitude": -1.0803
+          },
+          "address": "Museum St, York YO1 7FR, United Kingdom",
+          "official_website": "https://www.yorkmuseumstrust.org.uk/",
+          "tags": [
+            "History",
+            "Nature",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:39 and 40 Shambles.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/39_and_40_Shambles.jpg/960px-39_and_40_Shambles.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "39 and 40 Shambles",
+                  "author": "Warofdreams",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:39_and_40_Shambles.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "39 and 40 Shambles, in York\n.mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding:2px 0.9em 2px 0;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}Wikidata has entry 39, Shambles (Q17549408) with data related to this item."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Barley Hall",
+          "ai_summary": "A medieval townhouse that offers a glimpse into the lives of the York's medieval merchants.",
+          "name_english": "Barley Hall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Last admission 1 hour before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Join a guided tour for detailed insights.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 53.9595,
+            "longitude": -1.0807
+          },
+          "address": "2 Coffee Yard, Off Stonegate, York YO1 8AR, United Kingdom",
+          "official_website": "https://www.barleyhall.co.uk/",
+          "tags": [
+            "History",
+            "Museum",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Yorkshire.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Flag_of_Yorkshire.svg/800px-Flag_of_Yorkshire.svg.png",
+                "width": 800,
+                "height": 480,
+                "attribution": {
+                  "title": "Flag of Yorkshire",
+                  "author": "The Yorkshire Ridings Society and The Flag Institute",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Yorkshire.svg",
+                  "credit": "https://www.flaginstitute.org/wp/flags/yorkshire/",
+                  "usage_terms": "Public domain",
+                  "description": "Yorkshire flag"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Merchant Adventurers’ Hall",
+          "ai_summary": "A stunning medieval guildhall with beautiful architecture and fascinating exhibits on York's merchant history.",
+          "name_english": "Merchant Adventurers’ Hall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Attend a talk or tour for deeper understanding.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.9596,
+            "longitude": -1.0808
+          },
+          "address": "Fossgate, York YO1 9TA, United Kingdom",
+          "official_website": "https://www.merchantadventurershall.co.uk/",
+          "tags": [
+            "History",
+            "Architecture",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:York P1020288 - panoramio.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/York_P1020288_-_panoramio.jpg/960px-York_P1020288_-_panoramio.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "York P1020288 - panoramio",
+                  "author": "Paul Lakin",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:York_P1020288_-_panoramio.jpg",
+                  "credit": "https://web.archive.org/web/20161031051432/http://www.panoramio.com/photo/129039575",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "York P1020288"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Treasurer’s House (NT)",
+          "ai_summary": "A beautiful house with a fascinating collection of art and antiques, set in stunning gardens.",
+          "name_english": "Treasurer’s House (NT)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late spring and summer",
+          "place_tip": "Explore the gardens and enjoy the views.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 53.9597,
+            "longitude": -1.081
+          },
+          "address": "Minster Yard, York YO1 7JL, United Kingdom",
+          "official_website": "https://www.nationaltrust.org.uk/visit/yorkshire-york/treasurers-house-york",
+          "tags": [
+            "History",
+            "Art",
+            "Gardens"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Fairfax House",
+          "ai_summary": "An elegant Georgian townhouse with exquisite interiors and a fascinating history.",
+          "name_english": "Fairfax House",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Weekdays",
+          "place_tip": "Join a guided tour for the full experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 53.9598,
+            "longitude": -1.0811
+          },
+          "address": "6-8 Castlegate, York YO1 9RN, United Kingdom",
+          "official_website": "https://www.fairfaxhouse.co.uk/",
+          "tags": [
+            "History",
+            "Architecture",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Church Street, York.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Church_Street%2C_York.jpg/960px-Church_Street%2C_York.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Church Street, York",
+                  "author": "Warofdreams",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Church_Street,_York.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Church Street in York, looking south-west"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "York Art Gallery",
+          "ai_summary": "A vibrant gallery showcasing an impressive collection of art, including works by local and international artists.",
+          "name_english": "York Art Gallery",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoons",
+          "place_tip": "Check for temporary exhibitions and events.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.9599,
+            "longitude": -1.0812
+          },
+          "address": "Exhibition Sq, York YO24 1GA, United Kingdom",
+          "official_website": "https://www.yorkartgallery.org.uk/",
+          "tags": [
+            "Art",
+            "Culture",
+            "Exhibitions"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "River Ouse City Cruises",
+          "ai_summary": "Enjoy a relaxing cruise on the River Ouse, taking in the sights of York from the water.",
+          "name_english": "River Ouse City Cruises",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Cruises operate every 30 minutes; times may vary."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Sit on the upper deck for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.959,
+            "longitude": -1.0804
+          },
+          "address": "River Ouse, York, United Kingdom",
+          "official_website": "https://www.citycruises.com/york",
+          "tags": [
+            "Scenic",
+            "Relaxation",
+            "Sightseeing"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:All Saints, Pavement (York) (2).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/All_Saints%2C_Pavement_%28York%29_%282%29.jpg/960px-All_Saints%2C_Pavement_%28York%29_%282%29.jpg",
+                "width": 800,
+                "height": 651,
+                "attribution": {
+                  "title": "All Saints, Pavement (York) (2)",
+                  "author": "Chris06",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:All_Saints,_Pavement_(York)_(2).jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "All Saints, Pavement, York"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Micklegate Bar",
+          "ai_summary": "A historic gateway and the only remaining bar of the medieval city walls, offering great views and photo opportunities.",
+          "name_english": "Micklegate Bar",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Great spot for photos of the city walls and gatehouse.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.9594,
+            "longitude": -1.082
+          },
+          "address": "Micklegate, York YO1 6JX, United Kingdom",
+          "official_website": "https://www.york.gov.uk/",
+          "tags": [
+            "History",
+            "Architecture",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2 Jubbergate.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2_Jubbergate.jpg/960px-2_Jubbergate.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2 Jubbergate",
+                  "author": "Warofdreams",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2_Jubbergate.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "2, Jubbergate\n.mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding:2px 0.9em 2px 0;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}Wikidata has entry 2 Jubbergate (Q17549851) with data related to this item."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Shambles Market",
+          "ai_summary": "A bustling market located in the heart of York, offering a variety of goods from local produce to crafts.",
+          "name_english": "Shambles Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Individual stall hours may vary."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Try the local street food and handmade crafts.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.9591,
+            "longitude": -1.0813
+          },
+          "address": "Shambles, York YO1 7LZ, United Kingdom",
+          "official_website": "https://www.visityork.org/explore/shambles-market",
+          "tags": [
+            "Shopping",
+            "Food",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Jubbergate entrance to Shambles Market, York (geograph 5435307).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jubbergate_entrance_to_Shambles_Market%2C_York_%28geograph_5435307%29.jpg/960px-Jubbergate_entrance_to_Shambles_Market%2C_York_%28geograph_5435307%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Jubbergate entrance to Shambles Market, York (geograph 5435307)",
+                  "author": "Richard Vince",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Jubbergate_entrance_to_Shambles_Market,_York_(geograph_5435307).jpg",
+                  "credit": "From geograph.org.uk",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Jubbergate entrance to Shambles Market, York"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "The York Dungeon",
+          "ai_summary": "A thrilling attraction that brings York's dark history to life with live actors and immersive shows.",
+          "name_english": "The York Dungeon",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Last admission 1 hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoons",
+          "place_tip": "Book tickets in advance to avoid long queues.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 53.959,
+            "longitude": -1.0814
+          },
+          "address": "12 Clifford St, York YO1 9RD, United Kingdom",
+          "official_website": "https://www.thedungeons.com/york/en/",
+          "tags": [
+            "History",
+            "Theatre",
+            "Interactive"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2 Jubbergate.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2_Jubbergate.jpg/960px-2_Jubbergate.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2 Jubbergate",
+                  "author": "Warofdreams",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2_Jubbergate.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "2, Jubbergate\n.mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding:2px 0.9em 2px 0;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}Wikidata has entry 2 Jubbergate (Q17549851) with data related to this item."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Rowntree Park",
+          "ai_summary": "A beautiful park along the River Ouse, perfect for a leisurely stroll, picnic, or enjoying nature.",
+          "name_english": "Rowntree Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and summer",
+          "place_tip": "Enjoy the flower gardens and the river views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.9592,
+            "longitude": -1.0865
+          },
+          "address": "Tanner Row, York YO23 1JQ, United Kingdom",
+          "official_website": "https://www.york.gov.uk/",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1 Tanner Row and 39 North Street, York Geograph-2809803-by-Gordon-Hatton.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/1_Tanner_Row_and_39_North_Street%2C_York_Geograph-2809803-by-Gordon-Hatton.jpg/960px-1_Tanner_Row_and_39_North_Street%2C_York_Geograph-2809803-by-Gordon-Hatton.jpg",
+                "width": 800,
+                "height": 936,
+                "attribution": {
+                  "title": "1 Tanner Row and 39 North Street, York Geograph-2809803-by-Gordon-Hatton",
+                  "author": "Gordon Hatton",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1_Tanner_Row_and_39_North_Street,_York_Geograph-2809803-by-Gordon-Hatton.jpg",
+                  "credit": "From geograph.org.uk",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Timber framed house, North Street/Tanner Row"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Holgate Windmill",
+          "ai_summary": "A working windmill and visitor center, offering a glimpse into York's industrial history and beautiful views from the top.",
+          "name_english": "Holgate Windmill",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "19:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "Last admission 30 minutes before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoons",
+          "place_tip": "Check the windmill's schedule for milling demonstrations.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.9589,
+            "longitude": -1.1132
+          },
+          "address": "Windmill Ln, York YO26 4ZQ, United Kingdom",
+          "official_website": "https://www.holgatewindmill.org.uk/",
+          "tags": [
+            "History",
+            "Industry",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Stonegate & Petergate",
+          "ai_summary": "Historic streets in York, known for their medieval architecture, shops, and cafes.",
+          "name_english": "Stonegate & Petergate",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Shops and cafes have individual opening hours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Explore the side streets for unique shops and cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 53.959,
+            "longitude": -1.0825
+          },
+          "address": "Stonegate, York YO1 8AW, United Kingdom",
+          "official_website": "https://www.visityork.org/",
+          "tags": [
+            "History",
+            "Shopping",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cyclone Catarina from the ISS on March 26 2004.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Cyclone_Catarina_from_the_ISS_on_March_26_2004.JPG/960px-Cyclone_Catarina_from_the_ISS_on_March_26_2004.JPG",
+                "width": 800,
+                "height": 529,
+                "attribution": {
+                  "title": "Cyclone Catarina from the ISS on March 26 2004",
+                  "author": "Astronaut photograph ISS008-E-19646 was taken March 7, 2004, with a Kodak DCS760 digital camera equipped with an 50-mm lens, and is provided by the Earth Observations Laboratory, Johnson Space Center.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cyclone_Catarina_from_the_ISS_on_March_26_2004.JPG",
+                  "credit": "NASA \n\n\n\n\n\n\nThis  is a retouched picture, which means that it has been digitally altered from its original version. Modifications: Increased contrast; decreased brightness; adjusted color balance in favor of blues and whites; removed large black splotches in several locations.  Modifications made by Tomf688.",
+                  "usage_terms": "Public domain",
+                  "description": "Before the year 2004, only two tropical cyclones had ever been noted in the South Atlantic Basin, and no hurricane. However, a circulation center well off the coast of southern Brazil developed tropical cyclone characteristics and continued to intensify as it moved westward. The system developed an eye and apparently reached hurricane strength on Friday, March 26, before eventually making landfall late on Saturday, March 27, 2004.\nThe crew of the International Space Station was notified of the cyclone and acquired excellent photographs of the storm just as it made landfall on the southern Brazilian state of Santa Catarina (the storm has been unofficially dubbed “Cyclone Catarina”). Note the clockwise circulation of Southern Hemisphere cyclones, the well-defined banding features, and the eyewall of at least a Category 1 system. The coastline is visible under the clouds in the upper left corner of the image."
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

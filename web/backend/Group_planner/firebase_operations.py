@@ -241,14 +241,27 @@ class GroupPlannerFirebaseOperations:
         """
         Delete group (only creator can delete)
         Also deletes all related data: members, places, polls, invitations
+        Idempotent: returns True if group doesn't exist (already deleted)
         """
         try:
+            # First check if group exists
+            group = self.get_group(group_id)
+            if not group:
+                # Group already deleted - treat as success (idempotent)
+                logger.info(
+                    "Group %s not found, already deleted - returning success",
+                    group_id,
+                )
+                return True
+            
             # Check if user is creator
-            if not self.is_group_creator(group_id, user_id):
+            created_by = group.get("created_by")
+            if created_by != user_id:
                 logger.warning(
-                    "User %s attempted to delete group %s without permission",
+                    "User %s attempted to delete group %s without permission (creator: %s)",
                     user_id,
                     group_id,
+                    created_by,
                 )
                 return False
 

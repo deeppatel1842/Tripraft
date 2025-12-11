@@ -1,0 +1,863 @@
+{
+  "country": "United Arab Emirates",
+  "state": "Abu Dhabi",
+  "cities": [
+    {
+      "city": "Abu Dhabi",
+      "nearest_airport": "Abu Dhabi International Airport",
+      "places": [
+        {
+          "name": "Sheikh Zayed Grand Mosque",
+          "ai_summary": "A stunning architectural masterpiece, the Sheikh Zayed Grand Mosque is one of the largest mosques in the world, featuring 82 domes.",
+          "name_english": "Sheikh Zayed Grand Mosque",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "9:00 AM - 10:00 PM",
+            "Tuesday": "9:00 AM - 10:00 PM",
+            "Wednesday": "9:00 AM - 10:00 PM",
+            "Thursday": "9:00 AM - 10:00 PM",
+            "Friday": "4:30 PM - 10:00 PM",
+            "Saturday": "9:00 AM - 10:00 PM",
+            "Sunday": "9:00 AM - 10:00 PM",
+            "notes": "Closed during prayer times on Fridays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Visit in the evening to see the mosque illuminated.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 24.4129,
+            "longitude": 54.4746
+          },
+          "address": "Sheikh Rashid Bin Saeed St, Abu Dhabi, UAE",
+          "official_website": "https://www.szgmc.gov.ae",
+          "tags": [
+            "Religion",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {},
+          "rank_score": 0.874
+        },
+        {
+          "name": "Louvre Abu Dhabi",
+          "ai_summary": "A world-class art and civilization museum, the Louvre Abu Dhabi features a stunning dome design and exhibits spanning centuries.",
+          "name_english": "Louvre Abu Dhabi",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "63 AED",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:30 PM",
+            "Wednesday": "10:00 AM - 6:30 PM",
+            "Thursday": "10:00 AM - 6:30 PM",
+            "Friday": "10:00 AM - 6:30 PM",
+            "Saturday": "10:00 AM - 6:30 PM",
+            "Sunday": "10:00 AM - 6:30 PM",
+            "notes": "Last entry is 30 minutes before closing."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Book tickets online to skip the queue.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 24.5333,
+            "longitude": 54.3969
+          },
+          "address": "Saadiyat Island, Abu Dhabi, UAE",
+          "official_website": "https://www.louvreabudhabi.ae",
+          "tags": [
+            "Art",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {},
+          "rank_score": 0.888
+        },
+        {
+          "name": "Ferrari World",
+          "ai_summary": "An indoor amusement park on Yas Island, Ferrari World is home to the world’s fastest roller coaster and thrilling attractions.",
+          "name_english": "Ferrari World",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "295 AED",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "12:00 PM - 8:00 PM",
+            "Tuesday": "12:00 PM - 8:00 PM",
+            "Wednesday": "12:00 PM - 8:00 PM",
+            "Thursday": "12:00 PM - 8:00 PM",
+            "Friday": "12:00 PM - 8:00 PM",
+            "Saturday": "12:00 PM - 8:00 PM",
+            "Sunday": "12:00 PM - 8:00 PM",
+            "notes": "Check the website for special events and closures."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Try the Formula Rossa roller coaster for an adrenaline rush.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 24.4839,
+            "longitude": 54.6031
+          },
+          "address": "Yas Island, Abu Dhabi, UAE",
+          "official_website": "https://www.ferrariworldabudhabi.com",
+          "tags": [
+            "Adventure",
+            "Theme Park",
+            "Family"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {},
+          "rank_score": 0.778
+        },
+        {
+          "name": "Warner Bros. World Abu Dhabi",
+          "ai_summary": "A vibrant indoor theme park, Warner Bros. World Abu Dhabi brings your favorite cartoons and superheroes to life with exciting rides and attractions.",
+          "name_english": "Warner Bros. World Abu Dhabi",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "295 AED",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "12:00 PM - 8:00 PM",
+            "Tuesday": "12:00 PM - 8:00 PM",
+            "Wednesday": "12:00 PM - 8:00 PM",
+            "Thursday": "12:00 PM - 8:00 PM",
+            "Friday": "12:00 PM - 8:00 PM",
+            "Saturday": "12:00 PM - 8:00 PM",
+            "Sunday": "12:00 PM - 8:00 PM",
+            "notes": "Check the website for special events and closures."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Don't miss the Batman and Superman rides.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 24.4952,
+            "longitude": 54.6031
+          },
+          "address": "Yas Island, Abu Dhabi, UAE",
+          "official_website": "https://www.wbworldabudhabi.com",
+          "tags": [
+            "Adventure",
+            "Theme Park",
+            "Family"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Yas Marina Circuit (F1 Track)",
+          "ai_summary": "Home to the Abu Dhabi Formula 1 Grand Prix, Yas Marina Circuit offers thrilling motorsport experiences and events throughout the year.",
+          "name_english": "Yas Marina Circuit (F1 Track)",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Check the website for event days and timings."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Autumn",
+          "place_tip": "Visit during the F1 race weekend for an unforgettable experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 24.4672,
+            "longitude": 54.6064
+          },
+          "address": "Yas Island, Abu Dhabi, UAE",
+          "official_website": "https://www.yasmarinacircuit.com",
+          "tags": [
+            "Sports",
+            "Events",
+            "Motorsport"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Heritage Village",
+          "ai_summary": "A glimpse into the UAE's past, Heritage Village is a reconstructed traditional Emirati village showcasing the country's cultural heritage.",
+          "name_english": "Heritage Village",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Join a guided tour to learn about Emirati culture and traditions.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 24.4932,
+            "longitude": 54.4041
+          },
+          "address": "Corniche Rd, Abu Dhabi, UAE",
+          "official_website": "https://www.heritagevillageabudhabi.com",
+          "tags": [
+            "Culture",
+            "History",
+            "Museum"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Saadiyat Public Beach",
+          "ai_summary": "A beautiful natural beach, Saadiyat Public Beach is known for its white sands, clear waters, and as a nesting site for hawksbill turtles.",
+          "name_english": "Saadiyat Public Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "7:00 AM - 7:00 PM",
+            "Tuesday": "7:00 AM - 7:00 PM",
+            "Wednesday": "7:00 AM - 7:00 PM",
+            "Thursday": "7:00 AM - 7:00 PM",
+            "Friday": "7:00 AM - 7:00 PM",
+            "Saturday": "7:00 AM - 7:00 PM",
+            "Sunday": "7:00 AM - 7:00 PM",
+            "notes": "Swimming is not allowed during the night."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit early morning or late afternoon to avoid the heat.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 24.5667,
+            "longitude": 54.4292
+          },
+          "address": "Saadiyat Island, Abu Dhabi, UAE",
+          "official_website": "https://www.saadiyatbeachclub.ae",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Dubai_Skyline_mit_Burj_Khalifa_(18241030269).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dubai_Skyline_mit_Burj_Khalifa_%2818241030269%29.jpg/960px-Dubai_Skyline_mit_Burj_Khalifa_%2818241030269%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Dubai Skyline mit Burj Khalifa (18241030269)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/115225894@N07\">Tim Reckmann</a> from Hamm, Deutschland",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_mit_Burj_Khalifa_(18241030269).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Dubai Skyline mit Burj Khalifa"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Observation Deck at 300",
+          "ai_summary": "Offering panoramic views of Abu Dhabi, the Observation Deck at 300 is located on the 74th floor of the Jumeirah at Etihad Towers.",
+          "name_english": "Observation Deck at 300",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30 AM",
+          "sunset_time": "07:30 PM",
+          "cost": "95 AED",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 7:00 PM",
+            "Tuesday": "10:00 AM - 7:00 PM",
+            "Wednesday": "10:00 AM - 7:00 PM",
+            "Thursday": "10:00 AM - 7:00 PM",
+            "Friday": "10:00 AM - 7:00 PM",
+            "Saturday": "10:00 AM - 7:00 PM",
+            "Sunday": "10:00 AM - 7:00 PM",
+            "notes": "Last entry is one hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit during sunset for breathtaking views of the city and the Arabian Gulf.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 24.4539,
+            "longitude": 54.3121
+          },
+          "address": "Jumeirah at Etihad Towers, Abu Dhabi, UAE",
+          "official_website": "https://www.jumeirah.com/en/article/things-to-do/abu-dhabi/observation-deck-at-300",
+          "tags": [
+            "Viewpoint",
+            "Photography",
+            "Landmark"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Edge_HY.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Edge_HY.jpg/960px-Edge_HY.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Edge HY",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hypnotoad78&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hypnotoad78 (page does not exist)\">Hypnotoad78</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Edge_HY.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "View from The Edge observation deck, at Hudson Yards, looking South."
+                }
+              }
+            }
+          },
+          "rank_score": 0.77
+        },
+        {
+          "name": "Mangrove Kayaking Tour",
+          "ai_summary": "Explore the stunning mangroves of Abu Dhabi on a kayaking tour, where you can see diverse wildlife and enjoy the serene environment.",
+          "name_english": "Mangrove Kayaking Tour",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "07:30 PM",
+          "cost": "150 AED",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Advance booking is required."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Keep an eye out for flamingos and other wildlife.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 24.5333,
+            "longitude": 54.4167
+          },
+          "address": "Eastern Mangroves, Abu Dhabi, UAE",
+          "official_website": "https://www.mangrovekayaking.com",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Wildlife"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:View_of_Al_Thakhira_from_the_beach.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/View_of_Al_Thakhira_from_the_beach.jpg/960px-View_of_Al_Thakhira_from_the_beach.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "View of Al Thakhira from the beach",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/lawrenceyeah/\">Lawrence Wang</a> @ Flickr",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:View_of_Al_Thakhira_from_the_beach.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "View of Al Thakhira, a town in north-east Qatar, from the beach. The historic Al Thakhira Mosque can be seen."
+                }
+              }
+            }
+          },
+          "rank_score": 0.758
+        },
+        {
+          "name": "Qasr Al Hosn Fort",
+          "ai_summary": "The oldest stone building in Abu Dhabi, Qasr Al Hosn Fort is a historical landmark that offers a glimpse into the emirate's past.",
+          "name_english": "Qasr Al Hosn Fort",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:00 PM",
+          "cost": "30 AED",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Visit the fort and the surrounding area for a complete historical experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 24.4972,
+            "longitude": 54.3569
+          },
+          "address": "Qasr Al Hosn, Abu Dhabi, UAE",
+          "official_website": "https://www.qasralhosn.ae",
+          "tags": [
+            "History",
+            "Culture",
+            "Landmark"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Qasr_al_Hosn_in_2019.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Qasr_al_Hosn_in_2019.jpg/960px-Qasr_al_Hosn_in_2019.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Qasr al Hosn in 2019",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peturrunar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Peturrunar (page does not exist)\">Peturrunar</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Qasr_al_Hosn_in_2019.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Qasr al Hosn in Abu Dhabi is an old fortress in the United Arab Emirates."
+                }
+              }
+            }
+          },
+          "rank_score": 0.83
+        },
+        {
+          "name": "Marina Mall & Sky Tower",
+          "ai_summary": "A premier shopping destination, Marina Mall features a wide range of shops, dining options, and entertainment, including the iconic Sky Tower.",
+          "name_english": "Marina Mall & Sky Tower",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Check the website for holiday hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the Sky Tower for panoramic views of the city.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 24.4952,
+            "longitude": 54.3233
+          },
+          "address": "Marina Mall, Abu Dhabi, UAE",
+          "official_website": "https://www.marinamall.ae",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Entertainment"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {},
+          "rank_score": 0.794
+        },
+        {
+          "name": "Al Ain Oasis (UNESCO)",
+          "ai_summary": "A UNESCO World Heritage site, Al Ain Oasis is a vast palm grove with over 147,000 date palms, offering a peaceful retreat in the city.",
+          "name_english": "Al Ain Oasis (UNESCO)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 8:00 PM",
+            "Tuesday": "8:00 AM - 8:00 PM",
+            "Wednesday": "8:00 AM - 8:00 PM",
+            "Thursday": "8:00 AM - 8:00 PM",
+            "Friday": "8:00 AM - 8:00 PM",
+            "Saturday": "8:00 AM - 8:00 PM",
+            "Sunday": "8:00 AM - 8:00 PM",
+            "notes": "Last entry is one hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the shaded pathways and learn about the traditional falaj irrigation system.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 24.2075,
+            "longitude": 55.7447
+          },
+          "address": "Al Ain, Abu Dhabi, UAE",
+          "official_website": "https://www.tcaabudhabi.ae/en/our-projects/al-ain-oasis",
+          "tags": [
+            "Nature",
+            "UNESCO",
+            "Heritage"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Canal_-_panoramio_(17).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Canal_-_panoramio_%2817%29.jpg/960px-Canal_-_panoramio_%2817%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Canal - panoramio (17)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161020144520/http://www.panoramio.com/user/3128211?with_photo_id=64845751\">Xiaotong Gao</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Canal_-_panoramio_(17).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "canal"
+                }
+              }
+            }
+          },
+          "rank_score": 0.906
+        },
+        {
+          "name": "Al Jahili Fort",
+          "ai_summary": "A magnificent example of Islamic architecture, Al Jahili Fort is one of the UAE's most iconic forts, set in a lush date palm oasis.",
+          "name_english": "Al Jahili Fort",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Visit the fort and the surrounding gardens for a complete experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 24.2082,
+            "longitude": 55.7449
+          },
+          "address": "Al Ain, Abu Dhabi, UAE",
+          "official_website": "https://www.tcaabudhabi.ae/en/our-projects/al-jahili-fort",
+          "tags": [
+            "History",
+            "Culture",
+            "Landmark"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Entrance_Up_Close.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Entrance_Up_Close.jpg/960px-Entrance_Up_Close.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Entrance Up Close",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sonans03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sonans03 (page does not exist)\">Ansari M Joshi</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Entrance_Up_Close.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The close up view of the entrance to the Al Jahili fort"
+                }
+              }
+            }
+          },
+          "rank_score": 0.81
+        },
+        {
+          "name": "Desert Dune Safari (Liwa Oasis)",
+          "ai_summary": "An exhilarating adventure in the Liwa Oasis, the Desert Dune Safari offers dune bashing, camel riding, and a chance to experience the desert's tranquility.",
+          "name_english": "Desert Dune Safari (Liwa Oasis)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30 AM",
+          "sunset_time": "07:30 PM",
+          "cost": "250 AED",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "6:00 AM - 9:00 PM",
+            "Tuesday": "6:00 AM - 9:00 PM",
+            "Wednesday": "6:00 AM - 9:00 PM",
+            "Thursday": "6:00 AM - 9:00 PM",
+            "Friday": "6:00 AM - 9:00 PM",
+            "Saturday": "6:00 AM - 9:00 PM",
+            "Sunday": "6:00 AM - 9:00 PM",
+            "notes": "Advance booking is essential."
+          },
+          "suggested_duration": "6-8 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Experience the sunset in the desert - it's breathtaking.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 22.9913,
+            "longitude": 53.9928
+          },
+          "address": "Liwa Oasis, Abu Dhabi, UAE",
+          "official_website": "https://www.desertsafaritours.com",
+          "tags": [
+            "Adventure",
+            "Desert",
+            "Culture"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Satellite_image_of_United_Arab_Emirates_in_October.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Satellite_image_of_United_Arab_Emirates_in_October.jpg/960px-Satellite_image_of_United_Arab_Emirates_in_October.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Satellite image of United Arab Emirates in October",
+                  "author": "Jacques Descloitres, MODIS Rapid Response Team, NASA/GSFC",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Satellite_image_of_United_Arab_Emirates_in_October.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Satellite image of United Arab Emirates. The United Arab Emirates lies along the inside of the Arabian Peninsula’s southern curve, between Oman, Saudi Arabia, and the Persian Gulf. Though comprised mostly of desert, the UAE also has the spectacular Trucial Coast. In order to increase its appeal to tourists and diversify its economic base, a number of projects are occurring, including a massive land-formation project visible in this image. Palm Island, which is located on the upper eastern coast, is entirely constructed, using sand dredged from the approach channel to the Jebel Ali Airport. This island is one of two to be completed by 2006, and will form a resort that will provide approximately 1200 single-family residences with private beach-fronts, 600 multi-family residences, an aquatic theme park, shopping centers, cinemas, and more."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Etihad Towers Viewpoint",
+          "ai_summary": "A stunning viewpoint located at the Etihad Towers, offering panoramic views of Abu Dhabi's skyline, the Corniche, and beyond.",
+          "name_english": "Etihad Towers Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 7:00 PM",
+            "Tuesday": "10:00 AM - 7:00 PM",
+            "Wednesday": "10:00 AM - 7:00 PM",
+            "Thursday": "10:00 AM - 7:00 PM",
+            "Friday": "10:00 AM - 7:00 PM",
+            "Saturday": "10:00 AM - 7:00 PM",
+            "Sunday": "10:00 AM - 7:00 PM",
+            "notes": "Last entry is one hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit during sunset for stunning photos of the skyline.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 24.4539,
+            "longitude": 54.3121
+          },
+          "address": "Etihad Towers, Abu Dhabi, UAE",
+          "official_website": "https://www.jumeirah.com/en/article/things-to-do/abu-dhabi/etihad-towers-observation-deck",
+          "tags": [
+            "Viewpoint",
+            "Photography",
+            "Landmark"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Manchester_Airport_EGCC.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Manchester_Airport_EGCC.jpg/960px-Manchester_Airport_EGCC.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Manchester Airport EGCC",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:320jacko&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:320jacko (page does not exist)\">320jacko</a>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Manchester_Airport_EGCC.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "An air to ground photo of Manchester Airport, looking east towards runways 23L/R"
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "National Aquarium",
+          "ai_summary": "The largest aquarium in the Middle East, the National Aquarium is home to thousands of marine animals and offers immersive underwater experiences.",
+          "name_english": "National Aquarium",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "120 AED",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 8:00 PM",
+            "Tuesday": "10:00 AM - 8:00 PM",
+            "Wednesday": "10:00 AM - 8:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 8:00 PM",
+            "Saturday": "10:00 AM - 8:00 PM",
+            "Sunday": "10:00 AM - 8:00 PM",
+            "notes": "Last entry is one hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don't miss the underwater tunnel for a 360-degree view of marine life.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 24.5333,
+            "longitude": 54.3969
+          },
+          "address": "Al Qana, Abu Dhabi, UAE",
+          "official_website": "https://www.nationalaquarium.ae",
+          "tags": [
+            "Aquarium",
+            "Family",
+            "Education"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BaltimoreNationalAquarium.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/BaltimoreNationalAquarium.JPG/960px-BaltimoreNationalAquarium.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "BaltimoreNationalAquarium",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:AndrewHorne\" title=\"User:AndrewHorne\">AndrewHorne</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BaltimoreNationalAquarium.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "A photo of the Baltimore National Aquarium taken July 3, 2010"
+                }
+              }
+            }
+          },
+          "rank_score": 0.842
+        },
+        {
+          "name": "Al Wathba Fossil Dunes Reserve",
+          "ai_summary": "A unique natural reserve, Al Wathba Fossil Dunes Reserve features ancient marine fossils and stunning desert landscapes.",
+          "name_english": "Al Wathba Fossil Dunes Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Advance booking is required for guided tours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit in the cooler months for a more comfortable experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 24.2925,
+            "longitude": 54.5256
+          },
+          "address": "Al Wathba, Abu Dhabi, UAE",
+          "official_website": "https://www.ead.ae",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Photography"
+          ],
+          "state": "Abu Dhabi",
+          "photos": {},
+          "rank_score": 0.814
+        }
+      ]
+    }
+  ]
+}

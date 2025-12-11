@@ -7,6 +7,7 @@ import apiClient from '../utils/apiClient';
 import apiLogger from '../utils/apiLogger';
 
 const API_BASE = '/v1';
+const API_V2_BASE = '/v2/places';
 
 class PlacesService {
   /**
@@ -144,7 +145,129 @@ class PlacesService {
   }
 
   /**
-   * Search places
+   * Search places by location (city or state) - V2 API
+   * This is the primary search method that returns 20 places in 1 Firebase read
+   */
+  async searchByLocation(query, limit = 20, page = 1) {
+    try {
+      const data = await apiClient.get(`${API_V2_BASE}/location?q=${encodeURIComponent(query)}&limit=${limit}&page=${page}`);
+      
+      if (!data) {
+        throw new Error('No response from server');
+      }
+      
+      if (!data.success) {
+        throw new Error(data.error || data.message || 'Failed to search places');
+      }
+      
+      // Transform all places from V2 format
+      const transformedPlaces = (data.places || []).map(place => this.transformV2PlaceData(place));
+      
+      // For country search, also transform states data
+      const transformedStates = (data.states || []).map(state => ({
+        state_id: state.state_id,
+        state_name: state.state_name,
+        place_count: state.place_count,
+        top_places: (state.top_places || []).map(place => this.transformV2PlaceData(place))
+      }));
+      
+      // Handle both snake_case (from backend) and camelCase (from older code)
+      const matchType = data.match_type || data.matchType;
+      const cacheHit = data.cache_hit || data.cacheHit;
+      const responseTime = data.response_time_ms || data.responseTime;
+      const firebaseReads = data.firebase_reads || data.firebaseReads;
+      
+      apiLogger.logSuccess('Location search results', { 
+        query, 
+        matchType: matchType,
+        count: transformedPlaces.length,
+        cacheHit: cacheHit,
+        responseTime: responseTime
+      });
+      
+      return {
+        places: transformedPlaces,
+        states: transformedStates,
+        matchType: matchType,
+        match_type: matchType, // Also return snake_case for backward compatibility
+        matched: data.matched,
+        count: data.count,
+        cacheHit: cacheHit,
+        cache_hit: cacheHit, // Also return snake_case for backward compatibility
+        responseTime: responseTime,
+        response_time_ms: responseTime, // Also return snake_case for backward compatibility
+        firebaseReads: firebaseReads,
+        firebase_reads: firebaseReads // Also return snake_case for backward compatibility
+      };
+    } catch (error) {
+      // Extract meaningful error message
+      const errorMessage = error.response?.data?.error || error.response?.data?.message || error.message || 'Failed to search places';
+      
+      // Create proper error object
+      const apiError = new Error(errorMessage);
+      if (error.response) {
+        apiError.response = error.response;
+      }
+      
+      throw apiError;
+    }
+  }
+
+  /**
+   * Get country overview with states and top 5 places per state - V2 API
+   */
+  async getCountryOverview(countryName) {
+    try {
+      const data = await apiClient.get(`${API_V2_BASE}/country/${encodeURIComponent(countryName)}`);
+      
+      if (!data.success) {
+        throw new Error(data.error || 'Failed to fetch country overview');
+      }
+      
+      apiLogger.logSuccess('Country overview loaded', { 
+        country: data.country,
+        stateCount: data.state_count,
+        totalPlaces: data.total_places,
+        cacheHit: data.cache_hit
+      });
+      
+      return {
+        country: data.country,
+        stateCount: data.state_count,
+        totalPlaces: data.total_places,
+        states: data.states,
+        cacheHit: data.cache_hit,
+        responseTime: data.response_time_ms
+      };
+    } catch (error) {
+      apiLogger.logWarning('Country overview failed', { countryName, error });
+      throw error;
+    }
+  }
+
+  /**
+   * Get autocomplete suggestions - V2 API
+   */
+  async getAutocompleteSuggestions(query) {
+    try {
+      const data = await apiClient.get(`${API_V2_BASE}/autocomplete?q=${encodeURIComponent(query)}`);
+      
+      if (!data.success) {
+        return { suggestions: [] };
+      }
+      
+      return {
+        suggestions: data.suggestions || [],
+        cacheHit: data.cache_hit
+      };
+    } catch (error) {
+      console.warn('Autocomplete failed:', error);
+      return { suggestions: [] };
+    }
+  }
+
+  /**
+   * Search places (legacy V1 method - kept for backward compatibility)
    */
   async searchPlaces(query, limit = 20, offset = 0) {
     try {
@@ -317,9 +440,107 @@ class PlacesService {
   }
 
   /**
+   * Transform V2 API place data to frontend format
+   * V2 API returns cleaner, more structured data from Firestore
+   */
+  transformV2PlaceData(place) {
+    // V2 API already returns clean coordinates object
+    const coordinates = place.coordinates || null;
+    
+    // Get thumbnail URL from photos
+    const thumbnailUrl = this.getPlaceThumbnail(place.photos || {});
+    
+    // Debug logging for photo issues
+    if (place.name && place.name.includes('Alamo')) {
+      console.log('🖼️ Transform Alamo:', {
+        name: place.name,
+        photos: place.photos,
+        extractedUrl: thumbnailUrl
+      });
+    }
+
+    return {
+      id: place.id,
+      displayName: {
+        text: place.name || 'Unknown Place',
+        languageCode: 'en'
+      },
+      name: place.name,
+      location: coordinates ? {
+        latitude: coordinates.latitude || 0,
+        longitude: coordinates.longitude || 0
+      } : null,
+      types: place.tags || [],
+      tags: place.tags || [],
+      rating: place.rating_tourist_priority || place.rank_score || 0,
+      rank_score: place.rank_score || 0,
+      userRatingCount: 0,
+      thumbnailUrl: thumbnailUrl,
+      formattedAddress: place.address || '',
+      
+      // Summary
+      summary: place.ai_summary || place.description || '',
+      
+      // Opening hours
+      opening_hours: place.opening_hours,
+      
+      // Duration and cost
+      duration: place.suggested_duration || null,
+      cost: place.cost || null,
+      
+      // Website
+      website: place.official_website || null,
+      websiteUri: place.official_website || null,
+      
+      // Best time to visit
+      best_time: place.best_time_to_visit || null,
+      
+      // Booking info
+      advance_booking: place.advanced_booking ? 'Recommended' : 'Not Required',
+      
+      // Tips
+      place_tip: place.place_tip || null,
+      
+      // Special features
+      sunrise_view: place.sunrise_view || false,
+      sunset_view: place.sunset_view || false,
+      sunrise_time: place.sunrise_time || null,
+      sunset_time: place.sunset_time || null,
+      
+      // Location context
+      city_name: place.city || '',
+      state_name: place.state || '',
+      country_name: place.country || '',
+      
+      // Photos object with full structure
+      photos: place.photos || {},
+      
+      // V2 specific fields
+      slug: place.slug,
+      search_text: place.search_text,
+      created_at: place.created_at,
+      updated_at: place.updated_at
+    };
+  }
+
+  /**
    * Get thumbnail URL from photos object
    */
   getPlaceThumbnail(photos) {
+    // Handle null/undefined photos
+    if (!photos || typeof photos !== 'object') {
+      return null;
+    }
+    
+    // V2 API: Direct thumbnail_url field (most common)
+    if (photos.thumbnail_url) {
+      // Only skip if explicitly marked as invalid
+      if (photos.has_valid_photo === false) {
+        return null;
+      }
+      return photos.thumbnail_url;
+    }
+    
     // Try different photo sources
     if (photos.primary?.url) {
       return photos.primary.url;
@@ -342,6 +563,52 @@ class PlacesService {
     }
     
     return null;
+  }
+
+  /**
+   * Get autocomplete suggestions while typing
+   */
+  async getAutocompleteSuggestions(query, limit = 10) {
+    try {
+      if (!query || query.trim().length < 2) {
+        return {
+          success: true,
+          suggestions: []
+        };
+      }
+
+      const data = await apiClient.get(`${API_V2_BASE}/autocomplete?q=${encodeURIComponent(query)}&limit=${limit}`);
+      
+      if (!data || !data.suggestions) {
+        return {
+          success: true,
+          suggestions: []
+        };
+      }
+
+      // Extract suggestion names from objects
+      const suggestionNames = data.suggestions.map(item => {
+        // Handle both string and object formats
+        return typeof item === 'string' ? item : item.name || item;
+      });
+
+      apiLogger.logSuccess('Autocomplete suggestions', { 
+        query, 
+        count: suggestionNames.length
+      });
+
+      return {
+        success: true,
+        suggestions: suggestionNames || []
+      };
+    } catch (error) {
+      apiLogger.logWarning('Failed to fetch autocomplete suggestions', { query, error });
+      return {
+        success: false,
+        suggestions: [],
+        error: error.message
+      };
+    }
   }
 
   /**

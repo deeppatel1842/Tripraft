@@ -1,407 +1,637 @@
 """
-Invitation Management Routes
-Handles group invitation creation, retrieval, acceptance, and rejection
+Invitation Routes - Invitation Management API
+Handles invitation lifecycle (create, accept, decline, revoke)
 """
 
-from flask import Blueprint, request, jsonify, g
+from flask import Blueprint, request, jsonify
 import logging
 
-from ..service import expense_service
-from .route_helpers import require_auth
-from ..performance_monitor import get_performance_monitor
-import time
+from ..services.invitation_service import InvitationService
+from ..services.group_service import GroupService
+from ..middleware.auth import require_auth, get_current_user_id, get_current_user
+from ..exceptions import (
+    ValidationError, NotFoundError, ForbiddenError,
+    InsufficientPermissionsError, DuplicateEntryError
+)
+from ..config import pagination_config
+from ..constants import InvitationStatus
 
 logger = logging.getLogger(__name__)
 
 # Create blueprint
-invitation_bp = Blueprint('invitation', __name__)
-
-# Get performance monitor
-performance_monitor = get_performance_monitor()
+invitation_bp = Blueprint('invitations', __name__, url_prefix='/api/expense/invitations')
 
 
-# =============================================================================
-# INVITATION CRUD ROUTES
-# =============================================================================
-
-@invitation_bp.route('/invitations', methods=['POST'])
+@invitation_bp.route('', methods=['POST'])
 @require_auth
 def create_invitation():
     """
-    Create group invitation
+    Create new invitation
     
-    Creates invitation for new member to join group.
-    Sends email notification asynchronously if email provided.
-    Only group members can send invitations.
+    POST /api/expense/invitations
+    Body: {
+        "group_id": "group123",
+        "invited_email": "user@example.com",
+        "invited_user_id": "user456",  # optional if email is known
+        "message": "Join our expense group!"
+    }
     
-    Request Body:
-        group_id (str): Required. Group ID
-        email (str): Optional. Invitee email
-        username (str): Optional. Invitee username
-        
-    Note: Either email or username must be provided.
-    
-    Returns:
-        201: Invitation created successfully
-        400: Validation error
-        403: User not authorized
-        404: Group not found
-        500: Server error
+    Response: {
+        "success": true,
+        "invitation": {...}
+    }
     """
     try:
+        current_user_id = get_current_user_id()
         data = request.get_json()
         
-        group_id = data.get('group_id')
-        invited_email = data.get('email')
-        invited_username = data.get('username')
+        if not data:
+            raise ValidationError("Request body is required")
         
-        logger.info(f"Creating invitation for group_id={group_id}, email={invited_email}, username={invited_username}")
+        # Validate required fields
+        if 'group_id' not in data:
+            raise ValidationError("group_id is required")
         
-        if not group_id:
-            return jsonify({'error': 'Group ID is required'}), 400
+        # Accept both 'email' and 'invited_email' for backward compatibility
+        invited_email = data.get('invited_email') or data.get('email')
+        invited_user_id = data.get('invited_user_id')
         
-        if not invited_email and not invited_username:
-            return jsonify({'error': 'Email or username is required'}), 400
+        if not invited_email and not invited_user_id:
+            raise ValidationError("Either invited_email or invited_user_id is required")
         
-        # Check if user is admin or member
-        group = expense_service.get_group(group_id)
-        if not group:
-            logger.error(f"Group not found: {group_id}")
-            return jsonify({'error': 'Group not found'}), 404
-            
-        if g.user_id not in group.get('members', []):
-            logger.error(f"User {g.user_id} is not a member of group {group_id}")
-            return jsonify({'error': 'Access denied'}), 403
+        group_id = data['group_id']
         
-        logger.info(f"Group found: {group.get('name')} (ID: {group_id})")
+        # Check group membership and permissions
+        group_service = GroupService()
+        if not group_service.is_member(group_id, current_user_id):
+            raise ForbiddenError("You are not a member of this group")
         
-        # Create invitation
-        invitation = expense_service.create_invitation(
+        if not group_service.has_permission(group_id, current_user_id, 'invite_members'):
+            raise InsufficientPermissionsError("You don't have permission to invite members")
+        
+        # Create invitation using invitation service
+        # Map frontend field names to backend service parameters
+        invitation_service = InvitationService()
+        invitation = invitation_service.create_invitation(
             group_id=group_id,
-            invited_by=g.user_id,
-            invited_email=invited_email,
-            invited_username=invited_username
+            invitee_email=invited_email,  # Use the resolved email
+            invited_by=current_user_id,
+            role=data.get('role', 'member')
         )
         
-        logger.info(f"Invitation created: {invitation.get('invitation_id')} for group {group_id}")
+        # Get invitation_id from result
+        invitation_id = None
+        if isinstance(invitation, dict):
+            invitation_id = invitation.get('invitation_id') or invitation.get('id')
         
-        # Generate invitation link with proper type parameter
-        invitation_link = f"http://localhost:5173/accept-invitation?id={invitation['invitation_id']}&type=expense"
+        # Generate invitation link
+        import os
+        frontend_url = os.getenv('FRONTEND_URL', 'http://localhost:5173')
+        invitation_link = f"{frontend_url}/accept-invitation?id={invitation_id}&type=expense"
         
-        # Send email asynchronously if email provided (non-blocking)
-        email_status = 'not_sent'
-        if invited_email:
-            try:
-                from ..workers import get_email_worker
-                email_worker = get_email_worker()
-                
-                inviter = expense_service.get_user(g.user_id)
-                inviter_name = inviter.get('display_name', inviter.get('username', 'Someone'))
-                
-                # Queue invitation email
-                email_worker.queue_email(
-                    email_type='invitation_sent',
-                    recipients=[invited_email],
-                    data={
-                        'inviter_name': inviter_name,
-                        'group_name': group['name'],
-                        'invitation_link': invitation_link
-                    }
-                )
-                email_status = 'sending'
-                logger.info(f"📧 Invitation email queued for {invited_email}")
-            except Exception as e:
-                email_status = 'error'
-                logger.error(f"❌ Failed to queue invitation email: {e}")
-                logger.info(f"📧 Manual invitation link: {invitation_link}")
+        # NOTE: Email is already sent by InvitationService.create_invitation()
+        # Do NOT send here to avoid duplicate emails (Phase 17 Bug Fix)
+        
+        logger.info("Invitation created for group %s", group_id)
         
         return jsonify({
-            'success': True, 
-            'invitation': invitation,
-            'group_name': group['name'],
-            'group_id': group_id,
+            'success': True,
+            'invitation': invitation if isinstance(invitation, dict) else {},
             'invitation_link': invitation_link,
-            'email_status': email_status  # 'sending', 'not_sent', or 'error'
+            'email_status': 'sent'  # Email already sent by service layer
         }), 201
-    
+        
+    except (ValidationError, ForbiddenError, InsufficientPermissionsError, DuplicateEntryError) as e:
+        logger.warning("Error in create_invitation: %s", e)
+        status_map = {
+            ValidationError: 400,
+            ForbiddenError: 403,
+            InsufficientPermissionsError: 403,
+            DuplicateEntryError: 409
+        }
+        return jsonify({'success': False, 'error': str(e)}), status_map.get(type(e), 400)
     except Exception as e:
-        logger.error(f"Error creating invitation: {e}", exc_info=True)
-        return jsonify({'error': 'Internal server error'}), 500
+        logger.error("Error creating invitation: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to create invitation'}), 500
 
 
-@invitation_bp.route('/invitations', methods=['GET'])
-@require_auth
-def get_user_invitations():
-    """
-    Get pending invitations for current user
-    
-    Returns pending invitations for authenticated user.
-    Supports pagination for better performance.
-    
-    Query Parameters:
-        limit (int): Maximum number of invitations to return (default: 20, max: 100)
-        offset (int): Number of invitations to skip (default: 0)
-    
-    Returns:
-        200: Invitations retrieved successfully
-        500: Server error
-    """
-    start_time = time.time()
-    firestore_reads = 0
-    
-    try:
-        # Get pagination parameters
-        limit = min(int(request.args.get('limit', 20)), 100)
-        offset = int(request.args.get('offset', 0))
-        
-        # Get pending invitations for user with pagination
-        # NOTE: New users with no groups NEED to see invitations!
-        invitations = expense_service.get_user_invitations(
-            g.user_id,
-            limit=limit,
-            offset=offset
-        )
-        firestore_reads = len(invitations)  # Approximate
-        
-        logger.info(f"✅ Fetched {len(invitations)} pending invitations for user {g.user_id} (limit={limit}, offset={offset})")
-        
-        # Track performance
-        duration_ms = (time.time() - start_time) * 1000
-        performance_monitor.track_api_call(
-            endpoint='/invitations',
-            method='GET',
-            duration_ms=duration_ms,
-            status_code=200,
-            user_id=g.user_id,
-            firestore_reads=firestore_reads
-        )
-        
-        return jsonify({
-            'success': True, 
-            'invitations': invitations,
-            'limit': limit,
-            'offset': offset,
-            'has_more': len(invitations) == limit
-        }), 200
-    
-    except Exception as e:
-        logger.error(f"Error getting invitations: {e}")
-        duration_ms = (time.time() - start_time) * 1000
-        performance_monitor.track_api_call(
-            endpoint='/invitations',
-            method='GET',
-            duration_ms=duration_ms,
-            status_code=500,
-            user_id=g.user_id,
-            firestore_reads=firestore_reads
-        )
-        return jsonify({'error': 'Internal server error'}), 500
-
-
-@invitation_bp.route('/invitations/group/<group_id>', methods=['GET'])
-@require_auth
-def get_group_invitations(group_id):
-    """
-    Get pending invitations for a group
-    
-    Returns all pending invitations for specified group.
-    Only accessible to group members.
-    
-    Returns:
-        200: Invitations retrieved successfully
-        403: User not a member
-        500: Server error
-    """
-    try:
-        # Check if user is member of the group
-        group = expense_service.get_group(group_id)
-        if not group or g.user_id not in group.get('members', []):
-            return jsonify({'error': 'Access denied'}), 403
-        
-        invitations = expense_service.get_group_invitations(group_id)
-        return jsonify({'success': True, 'invitations': invitations}), 200
-    
-    except Exception as e:
-        logger.error(f"Error getting group invitations: {e}")
-        return jsonify({'error': 'Internal server error'}), 500
-
-
-@invitation_bp.route('/invitations/<invitation_id>/details', methods=['GET'])
-def get_invitation_details(invitation_id):
+@invitation_bp.route('/<invitation_id>/details', methods=['GET'])
+def get_invitation_details(invitation_id: str):
     """
     Get invitation details (PUBLIC - no auth required)
     
     Returns invitation details for display on invitation acceptance page.
     No authentication required to allow new users to view invitation.
     
-    Returns:
-        200: Invitation details retrieved
-        400: Invitation not valid (already accepted/rejected)
-        404: Invitation not found
-        500: Server error
+    GET /api/expense/invitations/:iid/details
+    
+    Response: {
+        "success": true,
+        "invitation": {
+            "invitation_id": "...",
+            "group_id": "...",
+            "group_name": "...",
+            "invited_email": "...",
+            "invited_by_name": "...",
+            "status": "pending"
+        }
+    }
     """
     try:
-        logger.info(f"Getting details for invitation {invitation_id}")
+        logger.info("Getting details for invitation %s", invitation_id)
         
-        invitation = expense_service.get_invitation_by_id(invitation_id)
+        invitation_service = InvitationService()
+        invitation = invitation_service.get_invitation(invitation_id)
+        
         if not invitation:
-            logger.error(f"Invitation not found: {invitation_id}")
+            logger.error("Invitation not found: %s", invitation_id)
             return jsonify({'success': False, 'error': 'Invitation not found'}), 404
         
+        # Get invitation data
+        inv_data = invitation if isinstance(invitation, dict) else invitation.to_dict()
+        
         # Check if invitation is still valid
-        if invitation.get('status') != 'pending':
-            logger.error(f"Invitation is not pending: {invitation.get('status')}")
+        if inv_data.get('status') != 'pending':
+            logger.warning("Invitation is not pending: %s", inv_data.get('status'))
             return jsonify({'success': False, 'error': 'Invitation is no longer valid'}), 400
         
         # Get group details
-        group = expense_service.get_group(invitation['group_id'])
+        group_service = GroupService()
+        group = group_service.get_group(inv_data.get('group_id'))
         if not group:
-            logger.error(f"Group not found: {invitation['group_id']}")
+            logger.error("Group not found: %s", inv_data.get('group_id'))
             return jsonify({'success': False, 'error': 'Group not found'}), 404
         
         # Get inviter details
-        inviter = expense_service.get_user(invitation['invited_by'])
-        inviter_name = inviter.get('display_name', inviter.get('username', 'Someone')) if inviter else 'Someone'
+        from ..repositories.user_repository import UserRepository
+        user_repo = UserRepository()
+        inviter = user_repo.get_by_id(inv_data.get('invited_by'))
+        inviter_name = 'Someone'
+        if inviter:
+            inviter_name = inviter.get('display_name') or inviter.get('email', 'Someone')
         
         return jsonify({
             'success': True,
             'invitation': {
                 'invitation_id': invitation_id,
-                'group_id': invitation['group_id'],
+                'group_id': inv_data.get('group_id'),
                 'group_name': group.get('name'),
-                'invited_email': invitation.get('invited_email'),
+                'invited_email': inv_data.get('invitee_email') or inv_data.get('email'),
                 'invited_by_name': inviter_name,
-                'status': invitation.get('status')
+                'status': inv_data.get('status')
             }
         }), 200
-    
-    except Exception as e:
-        logger.error(f"Error getting invitation details: {e}", exc_info=True)
-        return jsonify({'error': 'Internal server error'}), 500
-
-
-# =============================================================================
-# INVITATION RESPONSE ROUTES
-# =============================================================================
-
-@invitation_bp.route('/invitations/<invitation_id>/accept', methods=['POST'])
-@require_auth
-def accept_invitation(invitation_id):
-    """
-    Accept group invitation
-    
-    Accepts invitation and adds user to group.
-    Validates invitation is for authenticated user.
-    
-    Returns:
-        200: Invitation accepted, user added to group
-        400: Invitation already responded to
-        403: Invitation not for authenticated user
-        404: Invitation not found
-        500: Server error
         
-    Response includes:
-        - group_details: Group information
-        - redirect_url: Frontend URL to navigate to
+    except Exception as e:
+        logger.error("Error getting invitation details: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to get invitation details'}), 500
+
+
+@invitation_bp.route('/<invitation_id>', methods=['GET'])
+@require_auth
+def get_invitation(invitation_id: str):
+    """
+    Get invitation details
+    
+    GET /api/expense/invitations/:iid
+    
+    Response: {
+        "success": true,
+        "invitation": {...}
+    }
     """
     try:
-        logger.info(f"User {g.user_id} ({g.user_email}) attempting to accept invitation {invitation_id}")
+        current_user_id = get_current_user_id()
         
-        # Get invitation details first
-        invitation = expense_service.get_invitation_by_id(invitation_id)
+        # Get invitation
+        invitation_service = InvitationService()
+        invitation = invitation_service.get_invitation(invitation_id)
+        
         if not invitation:
-            logger.error(f"Invitation not found: {invitation_id}")
-            return jsonify({
-                'success': False,
-                'error': 'Invitation not found',
-                'code': 'INVITATION_NOT_FOUND'
-            }), 404
+            raise NotFoundError("Invitation not found")
         
-        group_id = invitation.get('group_id')
-        logger.info(f"Invitation details: group_id={group_id}, invited_email={invitation.get('invited_email')}, status={invitation.get('status')}")
+        # Check permissions (inviter, invitee, or group member)
+        group_service = GroupService()
+        invited_user_id = invitation.get('invited_user_id') if isinstance(invitation, dict) else invitation.invited_user_id
+        inviter_id = invitation.get('inviter_id') if isinstance(invitation, dict) else invitation.inviter_id
+        group_id = invitation.get('group_id') if isinstance(invitation, dict) else invitation.group_id
         
-        # Check if invitation is for the current user
-        if invitation.get('invited_email') != g.user_email:
-            logger.error(f"Invitation email mismatch: {invitation.get('invited_email')} != {g.user_email}")
-            return jsonify({
-                'success': False,
-                'error': 'This invitation is not for you',
-                'code': 'UNAUTHORIZED'
-            }), 403
+        if (invited_user_id != current_user_id and 
+            inviter_id != current_user_id and
+            not group_service.is_member(group_id, current_user_id)):
+            raise ForbiddenError("You don't have permission to view this invitation")
         
-        # Check if invitation is still pending
-        if invitation.get('status') != 'pending':
-            logger.error(f"Invitation status is not pending: {invitation.get('status')}")
-            return jsonify({
-                'success': False,
-                'error': 'Invitation has already been responded to',
-                'code': 'ALREADY_RESPONDED'
-            }), 400
-        
-        success = expense_service.respond_to_invitation(invitation_id, g.user_id, True)
-        
-        if success:
-            # Get fresh group details after adding member
-            group = expense_service.get_group(group_id)
-            logger.info(f"✅ Invitation accepted successfully. User {g.user_id} added to group {group_id} ({group.get('name') if group else 'Unknown'})")
-            
-            # 🔔 Send real-time notification to group members (for future WebSocket)
-            # For now, client will poll/refetch
-            
-            # Return proper redirect URL for frontend
-            return jsonify({
-                'success': True, 
-                'message': 'Invitation accepted successfully',
-                'group_name': group.get('name') if group else 'Unknown',
-                'group_id': group_id,
-                'redirect_url': f'/expenses?group={group_id}',
-                'group_details': {
-                    'id': group_id,
-                    'name': group.get('name'),
-                    'currency': group.get('currency', 'USD'),
-                    'member_count': len(group.get('members', []))
-                } if group else None,
-                # 🔔 BUG FIX: Signal frontend to immediately refresh all data
-                'refresh_required': True,
-                'clear_invitation_cache': True
-            }), 200
-        else:
-            logger.error(f"Failed to accept invitation {invitation_id}")
-            return jsonify({
-                'success': False,
-                'error': 'Failed to accept invitation',
-                'code': 'ACCEPTANCE_FAILED'
-            }), 500
-    
-    except Exception as e:
-        logger.error(f"Error accepting invitation: {e}", exc_info=True)
         return jsonify({
-            'success': False,
-            'error': 'Internal server error',
-            'code': 'INTERNAL_ERROR'
-        }), 500
+            'success': True,
+            'invitation': invitation.to_dict()
+        })
+        
+    except (NotFoundError, ForbiddenError) as e:
+        logger.warning("Error in get_invitation: %s", e)
+        status = 404 if isinstance(e, NotFoundError) else 403
+        return jsonify({'success': False, 'error': str(e)}), status
+    except Exception as e:
+        logger.error("Error getting invitation: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to get invitation'}), 500
 
 
-@invitation_bp.route('/invitations/<invitation_id>/reject', methods=['POST'])
+@invitation_bp.route('/user', methods=['GET'])
 @require_auth
-def reject_invitation(invitation_id):
+def get_user_invitations():
     """
-    Reject group invitation
+    Get invitations for current user
     
-    Rejects invitation without adding user to group.
+    GET /api/expense/invitations/user?status=pending&page=1&limit=20
     
-    Returns:
-        200: Invitation rejected successfully
-        500: Server error
+    Response: {
+        "success": true,
+        "invitations": [...],
+        "page": 1,
+        "limit": 20,
+        "has_more": true
+    }
     """
     try:
-        success = expense_service.respond_to_invitation(invitation_id, g.user_id, False)
+        current_user = get_current_user()
+        user_email = current_user.get('email', '')
         
-        if success:
-            return jsonify({'success': True, 'message': 'Invitation rejected'}), 200
-        else:
-            return jsonify({'error': 'Failed to reject invitation'}), 500
-    
+        # Get query parameters
+        status = request.args.get('status', InvitationStatus.PENDING.value)
+        page = int(request.args.get('page', 1))
+        limit = int(request.args.get('limit', pagination_config.DEFAULT_PAGE_SIZE))
+        
+        # Validate pagination
+        if page < 1:
+            raise ValidationError("Page must be >= 1")
+        if limit < 1 or limit > pagination_config.MAX_PAGE_SIZE:
+            raise ValidationError(f"Limit must be between 1 and {pagination_config.MAX_PAGE_SIZE}")
+        
+        # Get invitations
+        invitation_service = InvitationService()
+        invitations = invitation_service.get_user_invitations(
+            email=user_email,
+            status=status
+        )
+        
+        return jsonify({
+            'success': True,
+            'invitations': invitations if isinstance(invitations, list) else [],
+            'page': page,
+            'limit': limit,
+            'has_more': len(invitations) == limit if invitations else False
+        })
+        
+    except ValidationError as e:
+        logger.warning("Error in get_user_invitations: %s", e)
+        return jsonify({'success': False, 'error': str(e)}), 400
     except Exception as e:
-        logger.error(f"Error rejecting invitation: {e}")
-        return jsonify({'error': 'Internal server error'}), 500
+        logger.error("Error getting user invitations: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to get invitations'}), 500
+
+
+@invitation_bp.route('/group/<group_id>', methods=['GET'])
+@require_auth
+def get_group_invitations(group_id: str):
+    """
+    Get invitations for a group
+    
+    GET /api/expense/invitations/group/:gid?status=pending&page=1&limit=20
+    
+    Response: {
+        "success": true,
+        "invitations": [...],
+        "page": 1,
+        "limit": 20,
+        "has_more": true
+    }
+    """
+    try:
+        current_user_id = get_current_user_id()
+        
+        # Check group membership
+        group_service = GroupService()
+        if not group_service.is_member(group_id, current_user_id):
+            raise ForbiddenError("You are not a member of this group")
+        
+        # Get query parameters
+        status = request.args.get('status')
+        page = int(request.args.get('page', 1))
+        limit = int(request.args.get('limit', pagination_config.DEFAULT_PAGE_SIZE))
+        
+        # Get invitations
+        invitation_service = InvitationService()
+        invitations = invitation_service.get_group_invitations(
+            group_id=group_id,
+            status=status
+        )
+        
+        return jsonify({
+            'success': True,
+            'invitations': invitations if isinstance(invitations, list) else [],
+            'page': page,
+            'limit': limit,
+            'has_more': len(invitations) == limit if invitations else False
+        })
+        
+    except ForbiddenError as e:
+        logger.warning("Error in get_group_invitations: %s", e)
+        return jsonify({'success': False, 'error': str(e)}), 403
+    except Exception as e:
+        logger.error("Error getting group invitations: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to get group invitations'}), 500
+
+
+@invitation_bp.route('/<invitation_id>/accept', methods=['POST'])
+@require_auth
+def accept_invitation(invitation_id: str):
+    """
+    Accept invitation
+    
+    POST /api/expense/invitations/:iid/accept
+    Body (optional): {
+        "token": "..."  // Phase 20.1: JWT token for zero-read acceptance
+    }
+    
+    Response: {
+        "success": true,
+        "message": "Invitation accepted",
+        "group": {...},
+        "redirect_url": "/expenses?group=xxx"
+    }
+    """
+    try:
+        current_user_id = get_current_user_id()
+        
+        # Phase 20.1: Check for invitation token in request body
+        invitation_token = None
+        data = request.get_json(silent=True)
+        if data:
+            invitation_token = data.get('token')
+        
+        # Accept invitation (this adds user to group)
+        # Phase 20.1: Pass token if available for zero-read acceptance
+        invitation_service = InvitationService()
+        group = invitation_service.accept_invitation(
+            invitation_id=invitation_id,
+            accepted_by_user_id=current_user_id,
+            invitation_token=invitation_token
+        )
+        
+        group_id = group.get('group_id') or group.get('id') if group else None
+        group_name = group.get('name', 'Unknown') if group else 'Unknown'
+        
+        logger.info("Invitation accepted: %s by user %s, added to group %s%s", 
+                    invitation_id, current_user_id, group_id,
+                    " (via token)" if invitation_token else "")
+        
+        return jsonify({
+            'success': True,
+            'message': 'Invitation accepted successfully',
+            'group': group if isinstance(group, dict) else None,
+            'group_id': group_id,
+            'group_name': group_name,
+            'redirect_url': f'/expenses?group={group_id}' if group_id else '/expenses',
+            'refresh_required': True,
+            'clear_invitation_cache': True
+        })
+        
+    except (NotFoundError, ForbiddenError, ValidationError) as e:
+        logger.warning("Error in accept_invitation: %s", e)
+        status_map = {
+            NotFoundError: 404,
+            ForbiddenError: 403,
+            ValidationError: 400
+        }
+        return jsonify({'success': False, 'error': str(e)}), status_map.get(type(e), 400)
+    except Exception as e:
+        logger.error("Error accepting invitation: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to accept invitation'}), 500
+
+
+@invitation_bp.route('/accept-by-token', methods=['POST'])
+@require_auth
+def accept_invitation_by_token():
+    """
+    Accept invitation using JWT token (Phase 20.1)
+    
+    This endpoint eliminates the need to read the invitation document,
+    as all necessary data is encoded in the signed token.
+    
+    POST /api/expense/invitations/accept-by-token
+    Body: {
+        "token": "eyJ..."  // Required: JWT invitation token
+    }
+    
+    Response: {
+        "success": true,
+        "message": "Invitation accepted",
+        "group": {...},
+        "redirect_url": "/expenses?group=xxx"
+    }
+    """
+    try:
+        current_user_id = get_current_user_id()
+        data = request.get_json()
+        
+        if not data or 'token' not in data:
+            raise ValidationError("Invitation token is required")
+        
+        invitation_token = data['token']
+        
+        # Decode token to get invitation_id (for logging and status update)
+        try:
+            from ..utils.invitation_token import decode_invitation_token
+            token_data = decode_invitation_token(invitation_token)
+            invitation_id = token_data['invitation_id']
+        except Exception as decode_err:
+            logger.warning("Token decode failed: %s", decode_err)
+            raise ValidationError(f"Invalid invitation token: {str(decode_err)}")
+        
+        # Accept invitation using token (0 Firestore reads for invitation data)
+        invitation_service = InvitationService()
+        group = invitation_service.accept_invitation(
+            invitation_id=invitation_id,
+            accepted_by_user_id=current_user_id,
+            invitation_token=invitation_token
+        )
+        
+        group_id = group.get('group_id') or group.get('id') if group else None
+        group_name = group.get('name', 'Unknown') if group else 'Unknown'
+        
+        logger.info("Invitation accepted via token: %s by user %s, added to group %s", 
+                    invitation_id, current_user_id, group_id)
+        
+        return jsonify({
+            'success': True,
+            'message': 'Invitation accepted successfully',
+            'group': group if isinstance(group, dict) else None,
+            'group_id': group_id,
+            'group_name': group_name,
+            'redirect_url': f'/expenses?group={group_id}' if group_id else '/expenses',
+            'refresh_required': True,
+            'clear_invitation_cache': True,
+            'accepted_via': 'token'  # Indicates token-based acceptance
+        })
+        
+    except ValidationError as e:
+        logger.warning("Error in accept_invitation_by_token: %s", e)
+        return jsonify({'success': False, 'error': str(e)}), 400
+    except Exception as e:
+        logger.error("Error accepting invitation by token: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to accept invitation'}), 500
+
+
+@invitation_bp.route('/<invitation_id>/decline', methods=['POST'])
+@invitation_bp.route('/<invitation_id>/reject', methods=['POST'])  # Alias for frontend compatibility
+@require_auth
+def decline_invitation(invitation_id: str):
+    """
+    Decline/Reject invitation
+    
+    POST /api/expense/invitations/:iid/decline
+    POST /api/expense/invitations/:iid/reject (alias)
+    Body: {
+        "reason": "Optional decline reason"
+    }
+    
+    Response: {
+        "success": true,
+        "message": "Invitation declined"
+    }
+    """
+    try:
+        current_user_id = get_current_user_id()
+        
+        # Decline invitation
+        invitation_service = InvitationService()
+        invitation_service.decline_invitation(
+            invitation_id=invitation_id,
+            declined_by_user_id=current_user_id
+        )
+        
+        logger.info("Invitation declined: %s by user %s", invitation_id, current_user_id)
+        
+        return jsonify({
+            'success': True,
+            'message': 'Invitation declined'
+        })
+        
+    except (NotFoundError, ForbiddenError) as e:
+        logger.warning("Error in decline_invitation: %s", e)
+        status = 404 if isinstance(e, NotFoundError) else 403
+        return jsonify({'success': False, 'error': str(e)}), status
+    except Exception as e:
+        logger.error("Error declining invitation: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to decline invitation'}), 500
+
+
+@invitation_bp.route('/<invitation_id>/revoke', methods=['POST'])
+@require_auth
+def revoke_invitation(invitation_id: str):
+    """
+    Revoke invitation (admin/inviter only)
+    
+    POST /api/expense/invitations/:iid/revoke
+    
+    Response: {
+        "success": true,
+        "message": "Invitation revoked"
+    }
+    """
+    try:
+        current_user_id = get_current_user_id()
+        
+        # Revoke invitation
+        invitation_service = InvitationService()
+        invitation_service.revoke_invitation(invitation_id, revoked_by_user_id=current_user_id)
+        
+        logger.info("Invitation revoked: %s by user %s", invitation_id, current_user_id)
+        
+        return jsonify({
+            'success': True,
+            'message': 'Invitation revoked'
+        })
+        
+    except (NotFoundError, ForbiddenError, InsufficientPermissionsError) as e:
+        logger.warning("Error in revoke_invitation: %s", e)
+        status_map = {
+            NotFoundError: 404,
+            ForbiddenError: 403,
+            InsufficientPermissionsError: 403
+        }
+        return jsonify({'success': False, 'error': str(e)}), status_map.get(type(e), 404)
+    except Exception as e:
+        logger.error("Error revoking invitation: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to revoke invitation'}), 500
+
+
+@invitation_bp.route('/<invitation_id>/resend', methods=['POST'])
+@require_auth
+def resend_invitation(invitation_id: str):
+    """
+    Resend invitation (extends expiry)
+    
+    POST /api/expense/invitations/:iid/resend
+    
+    Response: {
+        "success": true,
+        "invitation": {...}
+    }
+    """
+    try:
+        current_user_id = get_current_user_id()
+        
+        # Resend invitation
+        invitation_service = InvitationService()
+        invitation = invitation_service.resend_invitation(invitation_id, resent_by_user_id=current_user_id)
+        
+        logger.info("Invitation resent: %s by user %s", invitation_id, current_user_id)
+        
+        return jsonify({
+            'success': True,
+            'invitation': invitation.to_dict()
+        })
+        
+    except (NotFoundError, ForbiddenError, InsufficientPermissionsError) as e:
+        logger.warning("Error in resend_invitation: %s", e)
+        status_map = {
+            NotFoundError: 404,
+            ForbiddenError: 403,
+            InsufficientPermissionsError: 403
+        }
+        return jsonify({'success': False, 'error': str(e)}), status_map.get(type(e), 404)
+    except Exception as e:
+        logger.error("Error resending invitation: %s", e, exc_info=True)
+        return jsonify({'success': False, 'error': 'Failed to resend invitation'}), 500
+
+
+# Error handlers
+@invitation_bp.errorhandler(ValidationError)
+def handle_validation_error(error):
+    return jsonify({'success': False, 'error': str(error)}), 400
+
+
+@invitation_bp.errorhandler(NotFoundError)
+def handle_not_found(error):
+    return jsonify({'success': False, 'error': str(error)}), 404
+
+
+@invitation_bp.errorhandler(ForbiddenError)
+def handle_forbidden(error):
+    return jsonify({'success': False, 'error': str(error)}), 403
+
+
+@invitation_bp.errorhandler(InsufficientPermissionsError)
+def handle_insufficient_permissions(error):
+    return jsonify({'success': False, 'error': str(error)}), 403
+
+
+@invitation_bp.errorhandler(DuplicateEntryError)
+def handle_duplicate_entry(error):
+    return jsonify({'success': False, 'error': str(error)}), 409
+
+
+@invitation_bp.errorhandler(Exception)
+def handle_generic_error(error):
+    logger.error("Unexpected error: %s", error, exc_info=True)
+    return jsonify({'success': False, 'error': 'Internal server error'}), 500

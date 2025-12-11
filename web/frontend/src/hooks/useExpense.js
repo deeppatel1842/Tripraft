@@ -64,17 +64,11 @@ export const useUserExpenses = (personalOnly = true) => {
     try {
       setLoading(true);
       setError(null);
-      const data = await expenseApi.getUserExpenses({ 
-        personal_only: personalOnly 
-      });
       
-      // CRITICAL FIX (Bug #7): Filter out soft-deleted expenses
-      const activeExpenses = (data.expenses || []).filter(e => !e.is_deleted);
-      if (activeExpenses.length !== data.expenses?.length) {
-        console.warn('⚠️ Filtered out', data.expenses.length - activeExpenses.length, 'deleted personal expenses');
-      }
+      // getUserExpenses is deprecated - personal expenses loaded differently now
+      // Just set empty array for personal mode
+      setExpenses([]);
       
-      setExpenses(activeExpenses);
     } catch (err) {
       setError(err.message);
       console.error('Error loading user expenses:', err);

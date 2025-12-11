@@ -1,0 +1,1092 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Palermo Cathedral",
+          "ai_summary": "A magnificent cathedral showcasing a blend of architectural styles, including Norman, Gothic, and Baroque.",
+          "name_english": "Palermo Cathedral",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:30 PM",
+          "cost": "€7 per person",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "9:00 AM - 5:30 PM",
+            "tue": "9:00 AM - 5:30 PM",
+            "wed": "9:00 AM - 5:30 PM",
+            "thu": "9:00 AM - 5:30 PM",
+            "fri": "9:00 AM - 5:30 PM",
+            "sat": "9:00 AM - 5:30 PM",
+            "sun": "9:00 AM - 1:30 PM",
+            "notes": "Rooftop access available for an additional fee."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the panoramic views from the rooftop.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Corso Vittorio Emanuele, Palermo, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Religious"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Angular View of Palermo Cathedral.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Angular_View_of_Palermo_Cathedral.jpg/960px-Angular_View_of_Palermo_Cathedral.jpg",
+                "width": 800,
+                "height": 574,
+                "attribution": {
+                  "title": "Angular View of Palermo Cathedral",
+                  "author": "Julian Lupyan",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Angular_View_of_Palermo_Cathedral.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Palazzo dei Normanni (Norman Palace)",
+          "ai_summary": "A historic palace and former royal residence, featuring the stunning Cappella Palatina.",
+          "name_english": "Norman Palace",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€12 per person",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "8:15 AM - 5:45 PM",
+            "tue": "8:15 AM - 5:45 PM",
+            "wed": "8:15 AM - 5:45 PM",
+            "thu": "8:15 AM - 5:45 PM",
+            "fri": "8:15 AM - 5:45 PM",
+            "sat": "8:15 AM - 5:45 PM",
+            "sun": "8:15 AM - 1:00 PM",
+            "notes": "Cappella Palatina has separate opening hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit early to avoid crowds.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 38.1113,
+            "lng": 13.3526
+          },
+          "address": "Piazza Indipendenza, Palermo, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Cultural",
+            "Architectural"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Chapelle Palatine.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Chapelle_Palatine.jpg",
+                "width": 768,
+                "height": 1024,
+                "attribution": {
+                  "title": "Chapelle Palatine",
+                  "author": "No machine-readable author provided. Urban~commonswiki assumed (based on copyright claims).",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Chapelle_Palatine.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Teatro Massimo",
+          "ai_summary": "Italy’s largest opera house, renowned for its impressive architecture and world-class performances.",
+          "name_english": "Teatro Massimo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€8 per person (guided tour)",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "9:30 AM - 6:00 PM",
+            "tue": "9:30 AM - 6:00 PM",
+            "wed": "9:30 AM - 6:00 PM",
+            "thu": "9:30 AM - 6:00 PM",
+            "fri": "9:30 AM - 6:00 PM",
+            "sat": "9:30 AM - 6:00 PM",
+            "sun": "9:30 AM - 6:00 PM",
+            "notes": "Check for performance schedules."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Take a guided tour to learn about its history.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1199,
+            "lng": 13.3615
+          },
+          "address": "Piazza Verdi, Palermo, Italy",
+          "official_website": "https://www.teatromassimo.it",
+          "tags": [
+            "Cultural",
+            "Architectural",
+            "Performing Arts"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:16. Mai 1897 An diesem Tag wurde die Oper von Palermo eröffnet. 02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/16._Mai_1897_An_diesem_Tag_wurde_die_Oper_von_Palermo_er%C3%B6ffnet._02.jpg/960px-16._Mai_1897_An_diesem_Tag_wurde_die_Oper_von_Palermo_er%C3%B6ffnet._02.jpg",
+                "width": 800,
+                "height": 486,
+                "attribution": {
+                  "title": "16. Mai 1897 An diesem Tag wurde die Oper von Palermo eröffnet. 02",
+                  "author": "Holger Uwe Schmitt",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:16._Mai_1897_An_diesem_Tag_wurde_die_Oper_von_Palermo_eröffnet._02.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Cappella Palatina",
+          "ai_summary": "A stunning chapel known for its exquisite mosaics and unique Arab-Norman architecture.",
+          "name_english": "Palatine Chapel",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€10 per person",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "mon": "8:15 AM - 5:45 PM",
+            "tue": "8:15 AM - 5:45 PM",
+            "wed": "8:15 AM - 5:45 PM",
+            "thu": "8:15 AM - 5:45 PM",
+            "fri": "8:15 AM - 5:45 PM",
+            "sat": "8:15 AM - 5:45 PM",
+            "sun": "8:15 AM - 1:00 PM",
+            "notes": "Part of the Norman Palace complex."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Admire the intricate mosaics and wooden ceiling.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 38.1118,
+            "lng": 13.3522
+          },
+          "address": "Piazza Indipendenza, Palermo, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Religious"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:AC Dom Adlerpult 2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/AC_Dom_Adlerpult_2.jpg/960px-AC_Dom_Adlerpult_2.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "AC Dom Adlerpult 2",
+                  "author": "Geolina163",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:AC_Dom_Adlerpult_2.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Quattro Canti Square",
+          "ai_summary": "A Baroque square at the intersection of two major streets in Palermo, known for its stunning architecture.",
+          "name_english": "Four Corners",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during the day for photography."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Capture the square from different angles.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1156,
+            "lng": 13.3615
+          },
+          "address": "Piazza Vigliena, Palermo, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Public Space"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ancestral Puebloan sites.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Ancestral_Puebloan_sites.png/800px-Ancestral_Puebloan_sites.png",
+                "width": 800,
+                "height": 920,
+                "attribution": {
+                  "title": "Ancestral Puebloan sites",
+                  "author": "National Park Service",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ancestral_Puebloan_sites.png"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ballarò Market",
+          "ai_summary": "Palermo’s oldest market, offering a vibrant atmosphere and a variety of local products.",
+          "name_english": "Ballarò Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free to enter",
+          "rating_tourist_priority": 4.0,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "7:00 AM - 7:00 PM",
+            "tue": "7:00 AM - 7:00 PM",
+            "wed": "7:00 AM - 7:00 PM",
+            "thu": "7:00 AM - 7:00 PM",
+            "fri": "7:00 AM - 7:00 PM",
+            "sat": "7:00 AM - 7:00 PM",
+            "sun": "Closed",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local street food.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1151,
+            "lng": 13.3615
+          },
+          "address": "Via Ballarò, Palermo, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Market",
+            "Food"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Deus Pizza.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Deus_Pizza.png/960px-Deus_Pizza.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Deus Pizza",
+                  "author": "Bruce The Deus",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Deus_Pizza.png"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Vucciria Market",
+          "ai_summary": "A historic market in Palermo, known for its fresh produce, street food, and vibrant atmosphere.",
+          "name_english": "Vucciria Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free to enter",
+          "rating_tourist_priority": 4.0,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "mon": "7:00 AM - 7:00 PM",
+            "tue": "7:00 AM - 7:00 PM",
+            "wed": "7:00 AM - 7:00 PM",
+            "thu": "7:00 AM - 7:00 PM",
+            "fri": "7:00 AM - 7:00 PM",
+            "sat": "7:00 AM - 7:00 PM",
+            "sun": "Closed",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the side streets for hidden gems.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1151,
+            "lng": 13.3615
+          },
+          "address": "Via della Vucciria, Palermo, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Market",
+            "Food"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Insegna Vucciria.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Insegna_Vucciria.JPG/960px-Insegna_Vucciria.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Insegna Vucciria",
+                  "author": "Pmk58",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Insegna_Vucciria.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Catacombs of the Capuchins",
+          "ai_summary": "Famous for its eerie mummified remains and unique burial practices.",
+          "name_english": "Capuchin Catacombs",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€8 per person",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.1,
+          "opening_hours": {
+            "mon": "9:00 AM - 1:00 PM",
+            "tue": "9:00 AM - 1:00 PM",
+            "wed": "9:00 AM - 1:00 PM",
+            "thu": "9:00 AM - 1:00 PM",
+            "fri": "9:00 AM - 1:00 PM",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Last entry at 12:30 PM."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Respect the solemnity of the site.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Piazza Cappuccini, Palermo, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Cultural",
+            "Religious"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Catacombe dei Cappuccini Cappella Bambini.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Catacombe_dei_Cappuccini_Cappella_Bambini.jpg/960px-Catacombe_dei_Cappuccini_Cappella_Bambini.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Catacombe dei Cappuccini Cappella Bambini",
+                  "author": "Gmihail at Serbian Wikipedia",
+                  "license": "CC BY-SA 3.0 rs",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/rs/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catacombe_dei_Cappuccini_Cappella_Bambini.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Church of San Giovanni degli Eremiti",
+          "ai_summary": "Known for its distinctive red domes and serene cloister.",
+          "name_english": "San Giovanni degli Eremiti",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€4 per person",
+          "rating_tourist_priority": 4.0,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "9:00 AM - 1:00 PM",
+            "tue": "9:00 AM - 1:00 PM",
+            "wed": "9:00 AM - 1:00 PM",
+            "thu": "9:00 AM - 1:00 PM",
+            "fri": "9:00 AM - 1:00 PM",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Last entry at 12:30 PM."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Enjoy the tranquility of the cloister.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Via dei Benedettini, Palermo, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Religious"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Church and refectory.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Church_and_refectory.jpg/960px-Church_and_refectory.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Church and refectory",
+                  "author": "Sibeaster",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Church_and_refectory.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Piazza Pretoria Fountain",
+          "ai_summary": "A stunning fountain adorned with numerous statues, located in the heart of Palermo.",
+          "name_english": "Fountain of Shame",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "07:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best viewed in the evening when illuminated."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Take a guided tour to learn about its history.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Piazza Pretoria, Palermo, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Public Space"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Martorana Church",
+          "ai_summary": "Famous for its stunning mosaics and beautiful Baroque architecture.",
+          "name_english": "Martorana Church",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€3 per person",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "9:00 AM - 5:30 PM",
+            "tue": "9:00 AM - 5:30 PM",
+            "wed": "9:00 AM - 5:30 PM",
+            "thu": "9:00 AM - 5:30 PM",
+            "fri": "9:00 AM - 5:30 PM",
+            "sat": "9:00 AM - 5:30 PM",
+            "sun": "9:00 AM - 1:30 PM",
+            "notes": "Check for mass schedules."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Look for the hidden entrance to the bell tower.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Via dei Benedettini, Palermo, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Religious"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:046CupolaSPietro.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "046CupolaSPietro",
+                  "author": "MarkusMark",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Palazzo Abatellis Museum",
+          "ai_summary": "An art museum housed in a stunning Gothic-Catalan palace, featuring works by Antonello da Messina.",
+          "name_english": "Abatellis Palace",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€6 per person",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "9:00 AM - 5:30 PM",
+            "tue": "9:00 AM - 5:30 PM",
+            "wed": "9:00 AM - 5:30 PM",
+            "thu": "9:00 AM - 5:30 PM",
+            "fri": "9:00 AM - 5:30 PM",
+            "sat": "9:00 AM - 5:30 PM",
+            "sun": "Closed",
+            "notes": "Check for special exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the Annunciation by Antonello da Messina.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Via Alloro, 4, 90133 Palermo PA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Architectural",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Antonello da Messina - Virgin Annunciate - Galleria Regionale della Sicilia, Palermo.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Antonello_da_Messina_-_Virgin_Annunciate_-_Galleria_Regionale_della_Sicilia%2C_Palermo.jpg/960px-Antonello_da_Messina_-_Virgin_Annunciate_-_Galleria_Regionale_della_Sicilia%2C_Palermo.jpg",
+                "width": 800,
+                "height": 1068,
+                "attribution": {
+                  "title": "Polish:  Zwiastowanie dziewicy Virgin Annunciatetitle QS:P1476,pl:\"Zwiastowanie dziewicy \"label QS:Lpl,\"Zwiastowanie dziewicy \"label QS:Lit,\"Annunciata di Palermo\"label QS:Lfr,\"La Vierge de l'Annonciation\"label QS:Lde,\"Maria der Verkündigung\"label QS:Lpt,\"Virgem da Anunciação\"label QS:Lfa,\"بشارت مریم مقدس (آنتونلو دا مسینا، پالرمو)\"label QS:Lbg,\"Дева Мария Анунциата\"label QS:Ltr,\"Meryem'e Müjde\"label QS:Lja,\"受胎告知の聖母 (アントネロ・ダ・メッシーナ、パレルモ)\"label QS:Larz,\"اعلان فيرجن\"label QS:Loc,\"La Verge de l'Anonciada\"label QS:Lnl,\"Virgin Annunciate\"label QS:Les,\"La Virgen de la Anunciación\"label QS:Lsl,\"Marija dobi oznanjenje (Antonello da Messina, Palermo)\"label QS:Len,\"Virgin Annunciate\"label QS:Lar,\"بشارة العذراء\"label QS:Leo,\"Virgulino de la Anunciacio\"",
+                  "author": "Antonello da Messina",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Antonello_da_Messina_-_Virgin_Annunciate_-_Galleria_Regionale_della_Sicilia,_Palermo.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Orto Botanico",
+          "ai_summary": "A beautiful botanical garden in Palermo, home to a vast collection of plants and trees.",
+          "name_english": "Botanical Garden",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€5 per person",
+          "rating_tourist_priority": 4.0,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "9:00 AM - 7:00 PM",
+            "tue": "9:00 AM - 7:00 PM",
+            "wed": "9:00 AM - 7:00 PM",
+            "thu": "9:00 AM - 7:00 PM",
+            "fri": "9:00 AM - 7:00 PM",
+            "sat": "9:00 AM - 7:00 PM",
+            "sun": "9:00 AM - 1:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Explore the different themed gardens.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Via Lincoln, 2, 90133 Palermo PA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Natural",
+            "Educational",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aswan, Kitchener's Island, palm alley, Egypt, Oct 2004.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Aswan%2C_Kitchener%27s_Island%2C_palm_alley%2C_Egypt%2C_Oct_2004.jpg/800px-Aswan%2C_Kitchener%27s_Island%2C_palm_alley%2C_Egypt%2C_Oct_2004.jpg",
+                "width": 800,
+                "height": 1275,
+                "attribution": {
+                  "title": "Aswan, Kitchener's Island, palm alley, Egypt, Oct 2004",
+                  "author": "Przemyslaw \"Blueshade\" Idzkiewicz",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aswan,_Kitchener's_Island,_palm_alley,_Egypt,_Oct_2004.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Foro Italico Promenade",
+          "ai_summary": "A scenic promenade in Palermo, ideal for a leisurely stroll or a bike ride.",
+          "name_english": "Foro Italico",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "07:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a bike to explore the area.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Foro Italico, 90133 Palermo PA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Recreational",
+            "Scenic",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mondello Beach",
+          "ai_summary": "A popular beach near Palermo, known for its clear waters and sandy shore.",
+          "name_english": "Mondello Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Try the local seafood at beachside restaurants.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Mondello, 90151 Palermo PA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Natural",
+            "Recreational",
+            "Beach"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Capo Gallo versante Mondello.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Capo_Gallo_versante_Mondello.jpg/960px-Capo_Gallo_versante_Mondello.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Capo Gallo versante Mondello",
+                  "author": "Joefromthebay",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Capo_Gallo_versante_Mondello.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Santa Maria dello Spasimo Church",
+          "ai_summary": "A beautiful church known for its stunning architecture and serene atmosphere.",
+          "name_english": "Santa Maria dello Spasimo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.0,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "mon": "9:00 AM - 1:00 PM",
+            "tue": "9:00 AM - 1:00 PM",
+            "wed": "9:00 AM - 1:00 PM",
+            "thu": "9:00 AM - 1:00 PM",
+            "fri": "9:00 AM - 1:00 PM",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Last entry at 12:30 PM."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Enjoy the peaceful surroundings.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Via dello Spasimo, 90133 Palermo PA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Religious"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Zisa Castle",
+          "ai_summary": "A stunning example of Arab-Norman architecture, surrounded by beautiful gardens.",
+          "name_english": "Zisa Castle",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€6 per person",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "9:00 AM - 5:30 PM",
+            "tue": "9:00 AM - 5:30 PM",
+            "wed": "9:00 AM - 5:30 PM",
+            "thu": "9:00 AM - 5:30 PM",
+            "fri": "9:00 AM - 5:30 PM",
+            "sat": "9:00 AM - 5:30 PM",
+            "sun": "Closed",
+            "notes": "Check for special events in the gardens."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the gardens and enjoy the views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Piazza Zisa, 90137 Palermo PA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Cultural"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:0693 - PA - La Zisa - Portico - Foto G. Dall'Orto.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/0693_-_PA_-_La_Zisa_-_Portico_-_Foto_G._Dall%27Orto.jpg/960px-0693_-_PA_-_La_Zisa_-_Portico_-_Foto_G._Dall%27Orto.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "0693 - PA - La Zisa - Portico - Foto G. Dall'Orto",
+                  "author": "G.dallorto",
+                  "license": "Attribution",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:0693_-_PA_-_La_Zisa_-_Portico_-_Foto_G._Dall'Orto.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Cattedrale di Monreale (Monreale Cathedral)",
+          "ai_summary": "A magnificent cathedral located just outside Palermo, famous for its golden mosaics.",
+          "name_english": "Monreale Cathedral",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "€5 per person",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "9:00 AM - 5:30 PM",
+            "tue": "9:00 AM - 5:30 PM",
+            "wed": "9:00 AM - 5:30 PM",
+            "thu": "9:00 AM - 5:30 PM",
+            "fri": "9:00 AM - 5:30 PM",
+            "sat": "9:00 AM - 5:30 PM",
+            "sun": "9:00 AM - 1:30 PM",
+            "notes": "Rooftop access available for an additional fee."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the panoramic views from the rooftop.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Via Arcivescovado, 90146 Monreale PA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Religious"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:\"Die Kathedrale zeigt in besonders eindrucksvoller Weise den normannisch-arabisch-byzantinischen Baustil\" 02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/%22Die_Kathedrale_zeigt_in_besonders_eindrucksvoller_Weise_den_normannisch-arabisch-byzantinischen_Baustil%22_02.jpg/960px-%22Die_Kathedrale_zeigt_in_besonders_eindrucksvoller_Weise_den_normannisch-arabisch-byzantinischen_Baustil%22_02.jpg",
+                "width": 800,
+                "height": 543,
+                "attribution": {
+                  "title": "\"Die Kathedrale zeigt in besonders eindrucksvoller Weise den normannisch-arabisch-byzantinischen Baustil\" 02",
+                  "author": "Holger Uwe Schmitt",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:\"Die_Kathedrale_zeigt_in_besonders_eindrucksvoller_Weise_den_normannisch-arabisch-byzantinischen_Baustil\"_02.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Piazza Marina",
+          "ai_summary": "A beautiful square in Palermo, known for its palm trees and the nearby Villa Garibaldi.",
+          "name_english": "Marina Square",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.0,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Relax under the palm trees.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Piazza Marina, 90133 Palermo PA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Historical",
+            "Architectural",
+            "Public Space"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Palermo Puppet Theatre Museum",
+          "ai_summary": "A unique museum dedicated to the art of puppetry, showcasing traditional Sicilian puppets.",
+          "name_english": "Puppet Theatre Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "€5 per person",
+          "rating_tourist_priority": 4.0,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "mon": "9:00 AM - 5:30 PM",
+            "tue": "9:00 AM - 5:30 PM",
+            "wed": "9:00 AM - 5:30 PM",
+            "thu": "9:00 AM - 5:30 PM",
+            "fri": "9:00 AM - 5:30 PM",
+            "sat": "Closed",
+            "sun": "Closed",
+            "notes": "Check for puppet show schedules."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Watch a puppet show if available.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 38.1157,
+            "lng": 13.3615
+          },
+          "address": "Via Bara all'Olivella, 90133 Palermo PA, Italy",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Museum",
+            "Performing Arts"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:\"Mrs Garbage\" and \" Mrs Guppy\".jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/%22Mrs_Garbage%22_and_%22_Mrs_Guppy%22.jpg",
+                "width": 800,
+                "height": 495,
+                "attribution": {
+                  "title": "\"Mrs Garbage\" and \" Mrs Guppy\"",
+                  "author": "W.A. Call",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:\"Mrs_Garbage\"_and_\"_Mrs_Guppy\".jpg"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

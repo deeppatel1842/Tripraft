@@ -1,0 +1,1179 @@
+{
+  "country": "Liechtenstein",
+  "state": "Gamprin Bendern",
+  "cities": [
+    {
+      "city": "Gamprin",
+      "nearest_airport": "Zurich Airport (Switzerland)",
+      "places": [
+        {
+          "name": "Bendern Parish Church",
+          "ai_summary": "A historic church in Bendern, known for its serene atmosphere and beautiful architecture, offering a glimpse into the region's heritage.",
+          "name_english": "Bendern Parish Church",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Check for special services and events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Admire the intricate stained glass windows inside the church.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.22,
+            "longitude": 9.51
+          },
+          "address": "Bendern, Liechtenstein",
+          "official_website": "https://example.com/bendern-church",
+          "tags": [
+            "Religion",
+            "History",
+            "Architecture"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bendern_Altar.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Bendern_Altar.jpg/960px-Bendern_Altar.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Bendern Altar",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Plutowiki\" title=\"User:Plutowiki\">Plutowiki</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bendern_Altar.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Benderer Fastentuch (Kopie aus dem Jahr 1983), aufgehängt vor dem Chorbogen der Benderer Pfarrkirche, Liechtenstein"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Gamprin Lakeside Park",
+          "ai_summary": "A tranquil park by the lake in Gamprin, perfect for picnics, leisurely walks, and enjoying the natural beauty of the area.",
+          "name_english": "Gamprin Lakeside Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a picnic basket and enjoy the serene surroundings.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.221,
+            "longitude": 9.511
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/gamprin-park",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Family"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Historical Bridge of Bendern",
+          "ai_summary": "An iconic bridge in Bendern, offering picturesque views of the surrounding landscape and a connection to the region's history.",
+          "name_english": "Historical Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Capture stunning photos during sunset.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.222,
+            "longitude": 9.512
+          },
+          "address": "Bendern, Liechtenstein",
+          "official_website": "https://example.com/historical-bridge",
+          "tags": [
+            "History",
+            "Photography",
+            "Landmark"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {},
+          "rank_score": 0.81
+        },
+        {
+          "name": "Grossabünt Leisure Park & Swimming Lake",
+          "ai_summary": "A popular leisure park in Gamprin, featuring a swimming lake, picnic areas, and recreational facilities for families and tourists.",
+          "name_english": "Grossabünt Leisure Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Lifeguard on duty during swimming hours."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Enjoy a swim in the lake and relax on the beach.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.223,
+            "longitude": 9.513
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/grossabuent-park",
+          "tags": [
+            "Nature",
+            "Family",
+            "Swimming"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Bendern Church of St. Mary",
+          "ai_summary": "An architectural landmark in Bendern, this church is known for its stunning frescoes and peaceful cemetery.",
+          "name_english": "Bendern Church of St. Mary",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Check for special services and events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the chance to see the beautiful frescoes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.224,
+            "longitude": 9.514
+          },
+          "address": "Bendern, Liechtenstein",
+          "official_website": "https://example.com/bendern-church-st-mary",
+          "tags": [
+            "Religion",
+            "History",
+            "Architecture"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {},
+          "rank_score": 0.81
+        },
+        {
+          "name": "Rhine Shore Promenade (Bendern)",
+          "ai_summary": "A scenic riverside promenade in Bendern, ideal for leisurely walks, cycling, and enjoying views of the Rhine.",
+          "name_english": "Rhine Shore Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Take a bike ride along the river for stunning views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.225,
+            "longitude": 9.515
+          },
+          "address": "Bendern, Liechtenstein",
+          "official_website": "https://example.com/rhine-promenade",
+          "tags": [
+            "Nature",
+            "Walking",
+            "Cycling"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Heringsdorf_Seeschloss.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Heringsdorf_Seeschloss.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Heringsdorf Seeschloss",
+                  "author": "<a href=\"https://pl.wikipedia.org/wiki/Wikipedysta:Klapi\" class=\"extiw\" title=\"pl:Wikipedysta:Klapi\">Klapi</a>",
+                  "license": "CC BY 2.5 pl",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5/pl/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Heringsdorf_Seeschloss.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5 pl",
+                  "description": "<a href=\"//commons.wikimedia.org/wiki/Heringsdorf\" title=\"Heringsdorf\">Heringsdorf</a>, <a href=\"//commons.wikimedia.org/wiki/Usedom\" title=\"Usedom\">Usedom</a> Island, Germany - \"Sea Castle\", a distinctive example of German Resort Architecture (\"Bäderarchitektur\"), a sub style of historicism"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Wetland Margins & Birdlife",
+          "ai_summary": "A protected wetland area in Gamprin, home to diverse bird species and unique plant life, offering a peaceful natural retreat.",
+          "name_english": "Wetland Margins & Birdlife",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "06:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring binoculars for birdwatching.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.226,
+            "longitude": 9.516
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/wetland-margins",
+          "tags": [
+            "Nature",
+            "Birdwatching",
+            "Relaxation"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Australasian_Bittern_(Botaurus_poiciloptilus)_in_the_grass.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Australasian_Bittern_%28Botaurus_poiciloptilus%29_in_the_grass.jpg/960px-Australasian_Bittern_%28Botaurus_poiciloptilus%29_in_the_grass.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Australasian Bittern (Botaurus poiciloptilus) in the grass",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/16520061@N08\">David Cook Wildlife Photography</a> from Wamboin, NSW, Australia",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Australasian_Bittern_(Botaurus_poiciloptilus)_in_the_grass.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Australasian Bittern (<i><a href=\"//commons.wikimedia.org/wiki/Botaurus_poiciloptilus\" title=\"Botaurus poiciloptilus\">Botaurus poiciloptilus</a></i>). Leeton, NSW, Australia."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Village Center & Fountain",
+          "ai_summary": "The charming village center of Gamprin, featuring a historic fountain, local shops, and a cozy atmosphere.",
+          "name_english": "Village Center & Fountain",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Check local listings for events and markets."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try the local pastries at the village bakery.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.227,
+            "longitude": 9.517
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/village-center",
+          "tags": [
+            "Culture",
+            "Shopping",
+            "Relaxation"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Fountains_Collage.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Fountains_Collage.jpg/960px-Fountains_Collage.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Fountains Collage",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Eme_Chicano\" title=\"User:Eme Chicano\">Eme Chicano</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Fountains_Collage.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "This image was provided to Wikimedia Commons as a contribution\nfrom an art &amp; design school thanks to a collaboration between <a href=\"//commons.wikimedia.org/wiki/Commons:Llotja\" title=\"Commons:Llotja\"><b>Llotja</b></a> and <b><a href=\"https://meta.wikimedia.org/wiki/Amical_Wikimedia\" class=\"extiw\" title=\"m:Amical Wikimedia\">Amical Wikimedia</a></b>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.718
+        },
+        {
+          "name": "Riverside Cycling Node",
+          "ai_summary": "A key point on the cycling route along the Rhine, offering bike rental services and information for cyclists.",
+          "name_english": "Riverside Cycling Node",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Cycle towards the historical bridge for a scenic route.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.228,
+            "longitude": 9.518
+          },
+          "address": "Bendern, Liechtenstein",
+          "official_website": "https://example.com/riverside-cycling-node",
+          "tags": [
+            "Cycling",
+            "Nature",
+            "Sports"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2009_cycle_friendly_awards_trophies.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2009_cycle_friendly_awards_trophies.jpg/960px-2009_cycle_friendly_awards_trophies.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2009 cycle friendly awards trophies",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Schwede66\" title=\"User:Schwede66\">Schwede66</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2009_cycle_friendly_awards_trophies.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Trophies for the winners of the five categories of the 2009 Cycle Friendly Awards."
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Traditional Farmhouse Row",
+          "ai_summary": "A picturesque row of traditional Liechtenstein farmhouses, showcasing the country's rural architecture and charm.",
+          "name_english": "Traditional Farmhouse Row",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed from the outside; private property."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take photos of the unique architectural details.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.229,
+            "longitude": 9.519
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/traditional-farmhouse-row",
+          "tags": [
+            "Culture",
+            "Photography",
+            "Architecture"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Einsiedeln_IMG_2819.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Einsiedeln_IMG_2819.JPG/960px-Einsiedeln_IMG_2819.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Einsiedeln IMG 2819",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Roland_zh\" title=\"User:Roland zh\">Roland zh</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Einsiedeln_IMG_2819.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<a href=\"//commons.wikimedia.org/wiki/Category:Einsiedeln\" title=\"Category:Einsiedeln\">Einsiedeln (SZ)</a> in <a href=\"//commons.wikimedia.org/wiki/Switzerland\" title=\"Switzerland\">Switzerland</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Picnic Lawns & BBQ Nooks (Grossabünt)",
+          "ai_summary": "Designated areas in Grossabünt for picnicking and barbecuing, set in a scenic landscape.",
+          "name_english": "Picnic Lawns & BBQ Nooks",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:12 AM",
+          "sunset_time": "06:27 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Leave no trace; clean up after use."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Enjoy a barbecue with a view of the lake.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.22,
+            "longitude": 9.51
+          },
+          "address": "Grossabünt, Gamprin, Liechtenstein",
+          "official_website": "https://example.com/picnic-lawns-bbq-nooks",
+          "tags": [
+            "Nature",
+            "Food",
+            "Family"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {},
+          "rank_score": 0.734
+        },
+        {
+          "name": "Bendern Delta Views",
+          "ai_summary": "A viewpoint in Bendern offering panoramic views of the Rhine Delta and the surrounding countryside.",
+          "name_english": "Bendern Delta Views",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:18 AM",
+          "sunset_time": "06:33 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring a camera for stunning landscape photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.221,
+            "longitude": 9.52
+          },
+          "address": "Bendern, Liechtenstein",
+          "official_website": "https://example.com/bendern-delta-views",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Scenic"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Way of the Cross Hill Path",
+          "ai_summary": "A spiritual and scenic walking path in Gamprin, featuring stations of the cross and beautiful views.",
+          "name_english": "Way of the Cross Hill Path",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:07 AM",
+          "sunset_time": "06:22 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited on foot; wear comfortable shoes."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Reflect and enjoy the peaceful surroundings.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.222,
+            "longitude": 9.521
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/way-of-the-cross-hill-path",
+          "tags": [
+            "Religion",
+            "Nature",
+            "Walking"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:SWCP_Minehead_start.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/SWCP_Minehead_start.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "SWCP Minehead start",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Geof_Sheppard\" title=\"User:Geof Sheppard\">Geof Sheppard</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:SWCP_Minehead_start.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Two walkers at the start of the 630-mile South West Coast Path in Minehead, Somerset, England."
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Gamprin Meadow Trails",
+          "ai_summary": "Scenic trails in Gamprin meadows, ideal for walking, cycling, and enjoying the local flora and fauna.",
+          "name_english": "Gamprin Meadow Trails",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:08 AM",
+          "sunset_time": "06:23 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Observe the diverse plant and animal life.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.223,
+            "longitude": 9.522
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/gamprin-meadow-trails",
+          "tags": [
+            "Nature",
+            "Walking",
+            "Cycling"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Playgrounds & Family Park",
+          "ai_summary": "A family-friendly park in Gamprin with playgrounds, sports facilities, and picnic areas.",
+          "name_english": "Playgrounds & Family Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:13 AM",
+          "sunset_time": "06:28 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Ideal for families with children; bring snacks and drinks.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.224,
+            "longitude": 9.523
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/playgrounds-family-park",
+          "tags": [
+            "Family",
+            "Nature",
+            "Sports"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Prince_Constantin_of_Liechtenstein.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Prince_Constantin_of_Liechtenstein.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Prince Constantin of Liechtenstein",
+                  "author": "RTVJ",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Prince_Constantin_of_Liechtenstein.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Prince Constantin of Liechtenstein interviewed in Hrušky of Vyškov District, Czech Republic on 3 May 2022"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Local Bistro Strip",
+          "ai_summary": "A cozy strip of local bistros and cafes in Gamprin, offering a taste of traditional Liechtenstein cuisine.",
+          "name_english": "Local Bistro Strip",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:00 AM - 10:00 PM",
+            "Tuesday": "8:00 AM - 10:00 PM",
+            "Wednesday": "8:00 AM - 10:00 PM",
+            "Thursday": "8:00 AM - 10:00 PM",
+            "Friday": "8:00 AM - 10:00 PM",
+            "Saturday": "8:00 AM - 10:00 PM",
+            "Sunday": "Closed",
+            "notes": "Reservations recommended for dinner."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local specialties and enjoy the cozy atmosphere.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.225,
+            "longitude": 9.524
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/local-bistro-strip",
+          "tags": [
+            "Food",
+            "Culture",
+            "Nightlife"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tao_Downtown_Restaurant_Interior_2024.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Tao_Downtown_Restaurant_Interior_2024.jpg/960px-Tao_Downtown_Restaurant_Interior_2024.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tao Downtown Restaurant Interior 2024",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:InvadingInvader\" class=\"mw-userlink\" title=\"User:InvadingInvader\">InvadingInvader</a>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tao_Downtown_Restaurant_Interior_2024.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "The interior of Tao Downtown in 2024, a New York City-based mini-chain with additional locations in Las Vegas, Los Angeles, Chicago and Mohegan Sun"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Sunset over the Rhine Valley",
+          "ai_summary": "A breathtaking viewpoint in Gamprin to watch the sunset over the Rhine Valley, a perfect romantic spot.",
+          "name_english": "Sunset over the Rhine Valley",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "06:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Arrive early to secure a good spot."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring a camera and a blanket for a cozy sunset view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.226,
+            "longitude": 9.525
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/sunset-rhine-valley",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Scenic"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:117th_Infantry_North_Carolina_NG_at_St._Vith_1945.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/117th_Infantry_North_Carolina_NG_at_St._Vith_1945.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "117th Infantry North Carolina NG at St. Vith 1945",
+                  "author": "U.S. Army",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:117th_Infantry_North_Carolina_NG_at_St._Vith_1945.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Members of the 117th Infantry Regiment, 30th Infantry Division, move past a destroyed American M5 \"Stuart\" tank on their march to capture the town of St. Vith at the close of the Battle of the Bulge. St. Vith was largely destroyed during the ground battle and subsequent air attack. American forces retook the town on 23 January 1945."
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Seasonal Events by the Lake",
+          "ai_summary": "Various seasonal events and festivals held by the lake in Gamprin, celebrating local culture and traditions.",
+          "name_english": "Seasonal Events by the Lake",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Varies",
+            "Tuesday": "Varies",
+            "Wednesday": "Varies",
+            "Thursday": "Varies",
+            "Friday": "Varies",
+            "Saturday": "Varies",
+            "Sunday": "Varies",
+            "notes": "Check local listings for event schedule."
+          },
+          "suggested_duration": "2-5 hours",
+          "best_time_to_visit": "Depends on the event",
+          "place_tip": "Experience the local culture and cuisine at these events.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.227,
+            "longitude": 9.526
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/seasonal-events-lake",
+          "tags": [
+            "Culture",
+            "Events",
+            "Food"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Fitness Parcours Circuit",
+          "ai_summary": "An outdoor fitness circuit in Gamprin, featuring various exercise stations for a full-body workout.",
+          "name_english": "Fitness Parcours Circuit",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:09 AM",
+          "sunset_time": "06:24 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Ideal for fitness enthusiasts; combine with a run in the meadows.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.228,
+            "longitude": 9.527
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/fitness-parcours-circuit",
+          "tags": [
+            "Fitness",
+            "Nature",
+            "Sports"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Fitness_trail_station_north_bay_park.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Fitness_trail_station_north_bay_park.JPG/960px-Fitness_trail_station_north_bay_park.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Fitness trail station north bay park",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Deedeebee\" class=\"mw-redirect\" title=\"User:Deedeebee\">Dwight Burdette</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Fitness_trail_station_north_bay_park.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Fitness trail station, North Bay Park, Ypsilanti Township, Michigan"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Photography Pier (Grossabünt)",
+          "ai_summary": "A popular spot for photographers in Grossabünt, offering unique perspectives of the lake and surrounding landscapes.",
+          "name_english": "Photography Pier",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:11 AM",
+          "sunset_time": "06:26 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit during sunrise or sunset for stunning light.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.229,
+            "longitude": 9.528
+          },
+          "address": "Grossabünt, Gamprin, Liechtenstein",
+          "official_website": "https://example.com/photography-pier",
+          "tags": [
+            "Photography",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {},
+          "rank_score": 0.786
+        },
+        {
+          "name": "Spring Blossom Lanes",
+          "ai_summary": "Scenic lanes in Gamprin lined with blossoming trees, creating a picturesque and fragrant walking route in spring.",
+          "name_english": "Spring Blossom Lanes",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:14 AM",
+          "sunset_time": "06:29 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in spring during the blooming season."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture the beautiful blossoms.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.22,
+            "longitude": 9.529
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/spring-blossom-lanes",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Walking"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Joey_Lawrence_Photo_Op_GalaxyCon_Richmond_2024.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Joey_Lawrence_Photo_Op_GalaxyCon_Richmond_2024.jpg/824px-Joey_Lawrence_Photo_Op_GalaxyCon_Richmond_2024.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Joey Lawrence Photo Op GalaxyCon Richmond 2024",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27238804@N03\">Super Festivals</a> from Ft. Lauderdale, USA",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Joey_Lawrence_Photo_Op_GalaxyCon_Richmond_2024.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Joey Lawrence at GalaxyCon Richmond in 2024"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Cultural Noticeboards",
+          "ai_summary": "Information boards in Gamprin providing insights into the local culture, history, and attractions.",
+          "name_english": "Cultural Noticeboards",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "Not applicable",
+          "sunset_time": "Not applicable",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed on foot; explore the village."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine with a walk around the village to see the sights.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.221,
+            "longitude": 9.51
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/cultural-noticeboards",
+          "tags": [
+            "Culture",
+            "History",
+            "Education"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Newport_ship.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Newport_ship.jpg/960px-Newport_ship.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Newport ship",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Owain\" class=\"extiw\" title=\"wikipedia:User:Owain\">Owain</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Newport_ship.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Newport_ship\" class=\"extiw\" title=\"en:Newport ship\">Newport ship</a> 8 September 2002"
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Bridge to Neighboring Villages",
+          "ai_summary": "A scenic bridge connecting Gamprin to neighboring villages, popular for walks and cycling.",
+          "name_english": "Bridge to Neighboring Villages",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy a walk or bike ride to the neighboring villages.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 47.222,
+            "longitude": 9.511
+          },
+          "address": "Gamprin, Liechtenstein",
+          "official_website": "https://example.com/bridge-neighboring-villages",
+          "tags": [
+            "Nature",
+            "Cycling",
+            "Walking"
+          ],
+          "state": "Gamprin Bendern",
+          "photos": {},
+          "rank_score": 0.77
+        }
+      ]
+    }
+  ]
+}

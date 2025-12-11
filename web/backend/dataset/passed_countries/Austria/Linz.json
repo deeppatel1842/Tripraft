@@ -1,0 +1,954 @@
+{
+  "country": "Austria",
+  "state": "Upper Austria",
+  "cities": [
+    {
+      "city": "Linz",
+      "nearest_airport": "Linz Airport (LNZ)",
+      "places": [
+        {
+          "name": "Ars Electronica Center",
+          "ai_summary": "The Ars Electronica Center, also known as the Museum of the Future, is a hub for technology, art, and science. Visitors can explore interactive exhibits, cutting-edge innovations, and immersive experiences.",
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Hours may vary for special events."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don't miss the Deep Space 8K experience for stunning visuals.",
+          "advanced_booking": "Recommended",
+          "name_english": "Ars Electronica Center",
+          "state": "Linz",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 48.3097,
+            "longitude": 14.2861
+          },
+          "address": "Ars-Electronica-Straße 1, 4040 Linz, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Linz-Ars-Electronica-Center.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Linz-Ars-Electronica-Center.JPG/960px-Linz-Ars-Electronica-Center.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Linz-Ars-Electronica-Center",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Thyes\" class=\"mw-redirect\" title=\"User:Thyes\">Thyes</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Linz-Ars-Electronica-Center.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Linz, Ars Electronica Center\nview from the South"
+                }
+              }
+            }
+          },
+          "name_native": "Ars Electronica Center",
+          "official_website": "https://www.aec.at/",
+          "tags": [
+            "Museum",
+            "Technology",
+            "Science",
+            "Art"
+          ],
+          "rank_score": 0.82
+        },
+        {
+          "name": "Lentos Art Museum",
+          "ai_summary": "The Lentos Art Museum is a modern art gallery located along the Danube River. It features an impressive collection of contemporary art, including works by Austrian and international artists.",
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-21:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Extended hours on Thursdays."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit in the evening to see the museum's illuminated facade.",
+          "advanced_booking": "Not required",
+          "name_english": "Lentos Art Museum",
+          "state": "Linz",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.3064,
+            "longitude": 14.2867
+          },
+          "address": "Ernst-Koref-Promenade 1, 4020 Linz, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Linz_-_Donaulände_-_Lentos-Kunstmuseum.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Linz_-_Donaul%C3%A4nde_-_Lentos-Kunstmuseum.jpg/960px-Linz_-_Donaul%C3%A4nde_-_Lentos-Kunstmuseum.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Linz - Donaulände - Lentos-Kunstmuseum",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Haeferl\" title=\"User:Haeferl\">Haeferl</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Linz_-_Donaul%C3%A4nde_-_Lentos-Kunstmuseum.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Lentos Kunstmuseum Linz"
+                }
+              }
+            }
+          },
+          "name_native": "Lentos Kunstmuseum",
+          "official_website": "https://www.lentos.at/",
+          "tags": [
+            "Museum",
+            "Art",
+            "Modern Art",
+            "Danube"
+          ],
+          "rank_score": 0.66
+        },
+        {
+          "name": "Pöstlingberg Church & Tram",
+          "ai_summary": "Pöstlingberg Church is a pilgrimage site offering stunning views of Linz. Visitors can take the historic Pöstlingbergbahn tram to reach the hilltop church.",
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Tram schedules may vary."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Take the tram for a scenic ride and enjoy the panoramic views from the church.",
+          "advanced_booking": "Not required",
+          "name_english": "Pöstlingberg Church & Tram",
+          "state": "Linz",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Free (tram ride is paid)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 48.3192,
+            "longitude": 14.2711
+          },
+          "address": "Am Pöstlingberg 1, 4040 Linz, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pöstlingbergbahn-Bombardier_Testfahrt.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/P%C3%B6stlingbergbahn-Bombardier_Testfahrt.jpg/960px-P%C3%B6stlingbergbahn-Bombardier_Testfahrt.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pöstlingbergbahn-Bombardier Testfahrt",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Liberaler_Humanist\" title=\"User:Liberaler Humanist\">Liberaler Humanist</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:P%C3%B6stlingbergbahn-Bombardier_Testfahrt.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Tram car 501 of the Pöstlingbergbahn at Hauptplatz, on a test trip before the reopening of the line in May 2009"
+                }
+              }
+            }
+          },
+          "name_native": "Pöstlingbergkirche",
+          "official_website": "https://www.postlingberg.at/",
+          "tags": [
+            "Church",
+            "Tram",
+            "Viewpoint",
+            "Pilgrimage"
+          ],
+          "rank_score": 0.84
+        },
+        {
+          "name": "New Cathedral (Dom zu Linz)",
+          "ai_summary": "The New Cathedral, also known as the Cathedral of the Immaculate Conception, is a stunning example of Gothic Revival architecture. It is the tallest church in Austria and features beautiful stained glass windows.",
+          "opening_hours": {
+            "Monday": "07:00-19:00",
+            "Tuesday": "07:00-19:00",
+            "Wednesday": "07:00-19:00",
+            "Thursday": "07:00-19:00",
+            "Friday": "07:00-19:00",
+            "Saturday": "07:00-19:00",
+            "Sunday": "07:00-19:00",
+            "notes": "Mass times may affect visiting hours."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Climb the tower for a breathtaking view of Linz and the Danube.",
+          "advanced_booking": "Not required",
+          "name_english": "New Cathedral (Dom zu Linz)",
+          "state": "Linz",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 48.3069,
+            "longitude": 14.2882
+          },
+          "address": "Domgasse 3, 4020 Linz, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Linz-cathedrale.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Linz-cathedrale.jpg/960px-Linz-cathedrale.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Linz-cathedrale",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Pierre_Bona\" title=\"User:Pierre Bona\">Pierre Bona</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Linz-cathedrale.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Austria\" class=\"extiw\" title=\"en:Austria\">Austria</a>, <a href=\"https://en.wikipedia.org/wiki/Linz\" class=\"extiw\" title=\"en:Linz\">Linz</a>, <a href=\"https://en.wikipedia.org/wiki/New_Cathedral,_Linz\" class=\"extiw\" title=\"en:New Cathedral, Linz\">New Cathedral</a>"
+                }
+              }
+            }
+          },
+          "name_native": "Neuer Dom",
+          "official_website": "https://www.dioezese-linz.at/",
+          "tags": [
+            "Cathedral",
+            "Gothic Revival",
+            "Architecture",
+            "Religious"
+          ],
+          "rank_score": 0.88
+        },
+        {
+          "name": "Old Cathedral (Alter Dom)",
+          "ai_summary": "The Old Cathedral, or Alter Dom, is a historic church in Linz, known for its beautiful baroque architecture and stunning interior frescoes.",
+          "opening_hours": {
+            "Monday": "07:00-19:00",
+            "Tuesday": "07:00-19:00",
+            "Wednesday": "07:00-19:00",
+            "Thursday": "07:00-19:00",
+            "Friday": "07:00-19:00",
+            "Saturday": "07:00-19:00",
+            "Sunday": "07:00-19:00",
+            "notes": "Mass times may affect visiting hours."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Admire the stunning frescoes and the impressive organ.",
+          "advanced_booking": "Not required",
+          "name_english": "Old Cathedral (Alter Dom)",
+          "state": "Linz",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.3065,
+            "longitude": 14.2872
+          },
+          "address": "Alter Domplatz, 4020 Linz, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Linz_-_Blick_vom_Schloss_zum_Alten_Dom.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Linz_-_Blick_vom_Schloss_zum_Alten_Dom.jpg/960px-Linz_-_Blick_vom_Schloss_zum_Alten_Dom.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Linz - Blick vom Schloss zum Alten Dom",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Haeferl\" title=\"User:Haeferl\">Haeferl</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Linz_-_Blick_vom_Schloss_zum_Alten_Dom.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Blick vom Linzer Schloss zum Alten Dom"
+                }
+              }
+            }
+          },
+          "name_native": "Alter Dom",
+          "official_website": "https://www.dioezese-linz.at/",
+          "tags": [
+            "Cathedral",
+            "Baroque",
+            "Architecture",
+            "Religious"
+          ],
+          "rank_score": 0.66
+        },
+        {
+          "name": "Linz Botanical Garden",
+          "ai_summary": "The Linz Botanical Garden is a beautiful and tranquil place, home to a wide variety of plants and flowers. It's a perfect spot for a leisurely stroll or a picnic.",
+          "opening_hours": {
+            "Monday": "07:00-19:00",
+            "Tuesday": "07:00-19:00",
+            "Wednesday": "07:00-19:00",
+            "Thursday": "07:00-19:00",
+            "Friday": "07:00-19:00",
+            "Saturday": "07:00-19:00",
+            "Sunday": "07:00-19:00",
+            "notes": "Open year-round, free entry."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Check out the tropical house for a glimpse of exotic plants.",
+          "advanced_booking": "Not required",
+          "name_english": "Linz Botanical Garden",
+          "state": "Linz",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.3051,
+            "longitude": 14.2866
+          },
+          "address": "Botanischer Garten, 4040 Linz, Austria",
+          "photos": {},
+          "name_native": "Botanischer Garten Linz",
+          "official_website": "https://www.linz.at/",
+          "tags": [
+            "Garden",
+            "Nature",
+            "Plants",
+            "Flowers"
+          ],
+          "rank_score": 0.64
+        },
+        {
+          "name": "Linz Castle",
+          "ai_summary": "Linz Castle is a historic castle offering panoramic views of the city and the Danube River. The castle complex includes a museum and beautiful gardens.",
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Closed on holidays."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the castle museum and enjoy the views from the tower.",
+          "advanced_booking": "Recommended",
+          "name_english": "Linz Castle",
+          "state": "Linz",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.3039,
+            "longitude": 14.2866
+          },
+          "address": "Schlossberg 1, 4040 Linz, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Burg_Linz.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Burg_Linz.jpg/960px-Burg_Linz.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Burg Linz",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Tohma\" title=\"User:Tohma\">Tohma</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Burg_Linz.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "<a href=\"https://de.wikipedia.org/wiki/Burg_Linz\" class=\"extiw\" title=\"de:Burg Linz\">Burg Linz</a>"
+                }
+              }
+            }
+          },
+          "name_native": "Schloss Linz",
+          "official_website": "https://www.linz.at/",
+          "tags": [
+            "Castle",
+            "Museum",
+            "Viewpoint",
+            "History"
+          ],
+          "rank_score": 0.8
+        },
+        {
+          "name": "Danube Park (Donaupark)",
+          "ai_summary": "Danube Park is a large public park along the Danube River, featuring walking and cycling paths, playgrounds, and picnic areas. It's a great place to relax and enjoy nature.",
+          "opening_hours": {
+            "Monday": "06:00-22:00",
+            "Tuesday": "06:00-22:00",
+            "Wednesday": "06:00-22:00",
+            "Thursday": "06:00-22:00",
+            "Friday": "06:00-22:00",
+            "Saturday": "06:00-22:00",
+            "Sunday": "06:00-22:00",
+            "notes": "Open year-round, free entry."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Enjoy a walk or bike ride along the Danube, and don't miss the flower gardens.",
+          "advanced_booking": "Not required",
+          "name_english": "Danube Park (Donaupark)",
+          "state": "Linz",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.3075,
+            "longitude": 14.2869
+          },
+          "address": "Donaupark, 4020 Linz, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Donau-Auen-Hainburg2_neu.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Donau-Auen-Hainburg2_neu.jpg/960px-Donau-Auen-Hainburg2_neu.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Donau-Auen-Hainburg2 neu",
+                  "author": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/de:User:Friedrich.Kromberg\" class=\"extiw\" title=\"w:de:User:Friedrich.Kromberg\">Friedrich.Kromberg</a> at <a href=\"https://en.wikipedia.org/wiki/de:\" class=\"extiw\" title=\"w:de:\">German Wikipedia</a>.",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Donau-Auen-Hainburg2_neu.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<p>Donau-Auen bei Hainburg\n</p>\n(Nachbearbeitung von <a class=\"external autonumber\" href=\"https://de.wikipedia.org/wiki/Bild:Donau-Auen-Hainburg2.jpg\">[1]</a>)"
+                }
+              }
+            }
+          },
+          "name_native": "Donaupark Linz",
+          "official_website": "https://www.linz.at/",
+          "tags": [
+            "Park",
+            "Nature",
+            "Danube",
+            "Recreation"
+          ],
+          "rank_score": 0.64
+        },
+        {
+          "name": "Brucknerhaus",
+          "ai_summary": "Brucknerhaus is a concert hall and cultural center in Linz, dedicated to the composer Anton Bruckner. It hosts a variety of concerts and events throughout the year.",
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-21:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Check the schedule for event times."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Attend a concert for a memorable cultural experience.",
+          "advanced_booking": "Recommended",
+          "name_english": "Brucknerhaus",
+          "state": "Linz",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Varies (ticket required for events)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.3058,
+            "longitude": 14.2861
+          },
+          "address": "Brucknerstraße 9, 4040 Linz, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Brucknerhaus.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Brucknerhaus.jpg/960px-Brucknerhaus.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Brucknerhaus",
+                  "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/w/index.php?title=User:Koenjo~commonswiki&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Koenjo~commonswiki (page does not exist)\">Koenjo~commonswiki</a> assumed (based on copyright claims).",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Brucknerhaus.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Brucknerhaus, Linzer Klangwolke 2005, Linz, Austria"
+                }
+              }
+            }
+          },
+          "name_native": "Brucknerhaus",
+          "official_website": "https://www.brucknerhaus.at/",
+          "tags": [
+            "Concert Hall",
+            "Culture",
+            "Events",
+            "Music"
+          ],
+          "rank_score": 0.64
+        },
+        {
+          "name": "Tabakfabrik Linz",
+          "ai_summary": "Tabakfabrik Linz is a cultural and creative center located in a former tobacco factory. It hosts various events, exhibitions, and has spaces for artists and startups.",
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Check the schedule for events and exhibitions."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the creative spaces and check out the events calendar.",
+          "advanced_booking": "Not required",
+          "name_english": "Tabakfabrik Linz",
+          "state": "Linz",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Varies (depending on events/exhibitions)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.2931,
+            "longitude": 14.2864
+          },
+          "address": "Peter-Behrens-Platz 1, 4020 Linz, Austria",
+          "photos": {},
+          "name_native": "Tabakfabrik Linz",
+          "official_website": "https://www.tabakfabrik-linz.at/",
+          "tags": [
+            "Cultural Center",
+            "Creative Space",
+            "Events",
+            "Exhibitions"
+          ],
+          "rank_score": 0.64
+        },
+        {
+          "name": "Linz City Park",
+          "ai_summary": "Linz City Park is a large urban park in the heart of Linz, offering green spaces, walking paths, and recreational facilities. It's a popular spot for locals and tourists alike.",
+          "opening_hours": {
+            "Monday": "06:00-22:00",
+            "Tuesday": "06:00-22:00",
+            "Wednesday": "06:00-22:00",
+            "Thursday": "06:00-22:00",
+            "Friday": "06:00-22:00",
+            "Saturday": "06:00-22:00",
+            "Sunday": "06:00-22:00",
+            "notes": "Open year-round, free entry."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Join a guided tour to learn about the park's history and plants.",
+          "advanced_booking": "Not required",
+          "name_english": "Linz City Park",
+          "state": "Linz",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.3067,
+            "longitude": 14.2864
+          },
+          "address": "Stadtpark, 4020 Linz, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Linzcastle20050926.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Linzcastle20050926.jpg/960px-Linzcastle20050926.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Linzcastle20050926",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:NeoUrfahraner\" title=\"User:NeoUrfahraner\">User:NeoUrfahraner</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Linzcastle20050926.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Linz castle, view from the Nibelungenbrücke"
+                }
+              }
+            }
+          },
+          "name_native": "Stadtpark Linz",
+          "official_website": "https://www.linz.at/",
+          "tags": [
+            "Park",
+            "City Park",
+            "Nature",
+            "Recreation"
+          ],
+          "rank_score": 0.66
+        },
+        {
+          "name": "Mozarthaus Linz",
+          "ai_summary": "Mozarthaus Linz is the birthplace of the famous composer Wolfgang Amadeus Mozart. The house is now a museum dedicated to his life and work.",
+          "opening_hours": {
+            "Monday": "10:00-17:00",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Closed on holidays."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Listen to a live concert if available, for an authentic Mozart experience.",
+          "advanced_booking": "Not required",
+          "name_english": "Mozarthaus Linz",
+          "state": "Linz",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.3068,
+            "longitude": 14.2871
+          },
+          "address": "Mozartstraße 8, 4020 Linz, Austria",
+          "photos": {},
+          "name_native": "Mozarthaus",
+          "official_website": "https://www.mozarthaus-linz.at/",
+          "tags": [
+            "Museum",
+            "Music",
+            "Composer",
+            "History"
+          ],
+          "rank_score": 0.74
+        },
+        {
+          "name": "Kunstmuseum Lentos",
+          "ai_summary": "Kunstmuseum Lentos is a modern art museum in Linz, known for its contemporary art collections and striking architectural design.",
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-21:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Extended hours on Thursdays."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don't miss the rooftop terrace for a great view of the Danube.",
+          "advanced_booking": "Not required",
+          "name_english": "Kunstmuseum Lentos",
+          "state": "Linz",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.3064,
+            "longitude": 14.2867
+          },
+          "address": "Ernst-Koref-Promenade 1, 4020 Linz, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Linz_-_Donaulände_-_Lentos-Kunstmuseum.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Linz_-_Donaul%C3%A4nde_-_Lentos-Kunstmuseum.jpg/960px-Linz_-_Donaul%C3%A4nde_-_Lentos-Kunstmuseum.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Linz - Donaulände - Lentos-Kunstmuseum",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Haeferl\" title=\"User:Haeferl\">Haeferl</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Linz_-_Donaul%C3%A4nde_-_Lentos-Kunstmuseum.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Lentos Kunstmuseum Linz"
+                }
+              }
+            }
+          },
+          "name_native": "Kunstmuseum Lentos",
+          "official_website": "https://www.lentos.at/",
+          "tags": [
+            "Museum",
+            "Art",
+            "Modern Art",
+            "Architecture"
+          ],
+          "rank_score": 0.66
+        },
+        {
+          "name": "Postlingbergbahn",
+          "ai_summary": "The Postlingbergbahn is a historic tramway in Linz, taking visitors on a scenic route up the Pöstlingberg mountain. It's a popular attraction for its views and historical significance.",
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Tram schedules may vary."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Ride the tram to the top for stunning views, especially at sunset.",
+          "advanced_booking": "Not required",
+          "name_english": "Postlingbergbahn",
+          "state": "Linz",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.3192,
+            "longitude": 14.2711
+          },
+          "address": "Pöstlingbergbahn, 4040 Linz, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pöstlingbergbahn-Bombardier_Testfahrt.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/P%C3%B6stlingbergbahn-Bombardier_Testfahrt.jpg/960px-P%C3%B6stlingbergbahn-Bombardier_Testfahrt.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pöstlingbergbahn-Bombardier Testfahrt",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Liberaler_Humanist\" title=\"User:Liberaler Humanist\">Liberaler Humanist</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:P%C3%B6stlingbergbahn-Bombardier_Testfahrt.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Tram car 501 of the Pöstlingbergbahn at Hauptplatz, on a test trip before the reopening of the line in May 2009"
+                }
+              }
+            }
+          },
+          "name_native": "Postlingbergbahn",
+          "official_website": "https://www.postlingbergbahn.at/",
+          "tags": [
+            "Tramway",
+            "Scenic Route",
+            "Pöstlingberg",
+            "History"
+          ],
+          "rank_score": 0.68
+        },
+        {
+          "name": "Landesgalerie Linz",
+          "ai_summary": "The Landesgalerie Linz is an art museum showcasing Austrian and international contemporary art. The museum is known for its innovative exhibitions and educational programs.",
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-21:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Extended hours on Thursdays."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Participate in a guided tour to gain insights into the art and artists.",
+          "advanced_booking": "Not required",
+          "name_english": "Landesgalerie Linz",
+          "state": "Linz",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Paid (ticket required)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.3064,
+            "longitude": 14.2867
+          },
+          "address": "Museumstraße 14, 4020 Linz, Austria",
+          "photos": {},
+          "name_native": "Landesgalerie Linz",
+          "official_website": "https://www.landesgalerie-linz.at/",
+          "tags": [
+            "Museum",
+            "Art",
+            "Contemporary Art",
+            "Austrian Art"
+          ],
+          "rank_score": 0.66
+        },
+        {
+          "name": "Design Center Linz",
+          "ai_summary": "The Design Center Linz is a modern conference and event center, known for its innovative design and versatile spaces. It hosts various events, including conferences, exhibitions, and concerts.",
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Events may affect opening hours."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Check the event schedule and book tickets in advance for popular events.",
+          "advanced_booking": "Recommended",
+          "name_english": "Design Center Linz",
+          "state": "Linz",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Varies (depending on events)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 48.3064,
+            "longitude": 14.2867
+          },
+          "address": "Europaplatz 1, 4020 Linz, Austria",
+          "photos": {},
+          "name_native": "Design Center Linz",
+          "official_website": "https://www.designcenter-linz.at/",
+          "tags": [
+            "Event Center",
+            "Conference",
+            "Exhibitions",
+            "Concerts"
+          ],
+          "rank_score": 0.64
+        },
+        {
+          "name": "Hauptplatz Linz",
+          "ai_summary": "Hauptplatz Linz is the main square in Linz, surrounded by historic buildings, shops, and cafes. It's a vibrant area, perfect for experiencing the local culture and architecture.",
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Always open, free entry."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the Trinity Column and the old city hall for a glimpse of Linz's history.",
+          "advanced_booking": "Not required",
+          "name_english": "Hauptplatz Linz",
+          "state": "Linz",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 48.3069,
+            "longitude": 14.2878
+          },
+          "address": "Hauptplatz, 4020 Linz, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cityrunner_017_in_Ebelsberg_2005-08-01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Cityrunner_017_in_Ebelsberg_2005-08-01.jpg/960px-Cityrunner_017_in_Ebelsberg_2005-08-01.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cityrunner 017 in Ebelsberg 2005-08-01",
+                  "author": "<a href=\"https://de.wikipedia.org/wiki/Benutzer:Dralon\" class=\"extiw\" title=\"de:Benutzer:Dralon\">Dralon</a>",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cityrunner_017_in_Ebelsberg_2005-08-01.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "Cityrunner 017 in Linz Ebelsber."
+                }
+              }
+            }
+          },
+          "name_native": "Hauptplatz Linz",
+          "official_website": "https://www.linz.at/",
+          "tags": [
+            "Square",
+            "Historic",
+            "Culture",
+            "Architecture"
+          ],
+          "rank_score": 0.84
+        }
+      ]
+    }
+  ]
+}

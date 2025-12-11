@@ -1,0 +1,1078 @@
+{
+  "country": "Egypt",
+  "state": "Aswan",
+  "cities": [
+    {
+      "city": "Aswan",
+      "nearest_airport": "Aswan International Airport (ASW)",
+      "places": [
+        {
+          "name": "Temple of Philae (Agilkia Island)",
+          "ai_summary": "An ancient temple complex dedicated to the goddess Isis, relocated to Agilkia Island to save it from flooding.",
+          "name_english": "Temple of Philae",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "07:00 - 17:00",
+            "Tuesday": "07:00 - 17:00",
+            "Wednesday": "07:00 - 17:00",
+            "Thursday": "07:00 - 17:00",
+            "Friday": "07:00 - 17:00",
+            "Saturday": "07:00 - 17:00",
+            "Sunday": "07:00 - 17:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take a boat ride to the island and enjoy the scenic views.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 24.021,
+            "longitude": 32.884
+          },
+          "address": "Agilkia Island, Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "Historic",
+            "Island"
+          ],
+          "state": "Aswan",
+          "photos": {},
+          "rank_score": 0.878
+        },
+        {
+          "name": "Unfinished Obelisk",
+          "ai_summary": "A massive obelisk abandoned in the quarry due to cracks, offering insights into ancient stone-cutting techniques.",
+          "name_english": "Unfinished Obelisk",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Bring water and sun protection as the site is exposed."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the quarry to see other smaller artifacts.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 24.09,
+            "longitude": 32.899
+          },
+          "address": "Sheyakhah Oula, Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Archaeological Site",
+            "Quarry"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Obelisco_inacabado,_Asuán,_Egipto,_2022-04-01,_DD_153.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Obelisco_inacabado%2C_Asu%C3%A1n%2C_Egipto%2C_2022-04-01%2C_DD_153.jpg/960px-Obelisco_inacabado%2C_Asu%C3%A1n%2C_Egipto%2C_2022-04-01%2C_DD_153.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Obelisco inacabado, Asuán, Egipto, 2022-04-01, DD 153",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Obelisco_inacabado,_Asu%C3%A1n,_Egipto,_2022-04-01,_DD_153.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Unfinished obelisk, Aswan, Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.83
+        },
+        {
+          "name": "Aswan High Dam",
+          "ai_summary": "A modern engineering marvel that controls the flow of the Nile River, creating Lake Nasser and providing hydroelectric power.",
+          "name_english": "Aswan High Dam",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Best visited in the late afternoon for sunset views."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the nearby Lake Nasser viewpoint for stunning photos.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 23.97,
+            "longitude": 32.877
+          },
+          "address": "Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Dam",
+            "Engineering",
+            "Landmark"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BarragemAssuão.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/BarragemAssu%C3%A3o.jpg/960px-BarragemAssu%C3%A3o.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "BarragemAssuão",
+                  "author": "NASA",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BarragemAssu%C3%A3o.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "NASA satellite image of the <a href=\"//commons.wikimedia.org/wiki/Nile\" title=\"Nile\">Nile</a>, <a href=\"//commons.wikimedia.org/wiki/Category:Aswan_High_Dam\" title=\"Category:Aswan High Dam\">Aswan High Dam</a>, and <a href=\"//commons.wikimedia.org/wiki/Category:Lake_Nasser\" title=\"Category:Lake Nasser\">Lake Nasser</a> - southern <a href=\"//commons.wikimedia.org/wiki/Egypt\" class=\"mw-redirect\" title=\"Egypt\">Egypt</a>.\n<ul><li>The Aswan High Dam was completed in 1970 and is one of the largest earthen embankment dams in the world. It is 364 feet (111 m) tall, 12 565 feet (3830 m) long and nearly 3281 feet (1000 m) wide. When it was built the new reservoir required relocation of nearly 100 000 residents and some archaeological sites. Although the reservoir has benefited Egypt by providing power and controlling floods, it has also had detrimental effects on the Nile system. Before the dam, an estimated 110 million tons of silt was deposited by the annual flood of the Nile, enriching agricultural lands and maintaining the land of the Nile delta. Now this sediment is trapped behind the dam, requiring artificial fertilization of agricultural lands and leading to erosion and saltwater intrusion where the Nile river meets the Mediterranean Sea.</li></ul>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Nubian Museum",
+          "ai_summary": "A museum showcasing the history, art, and culture of Nubia, with artifacts salvaged from the Nile's floods.",
+          "name_english": "Nubian Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Closed on Tuesdays."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the reconstructed tomb and the mummified remains.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 24.088,
+            "longitude": 32.899
+          },
+          "address": "Corniche El Nile, Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Historic",
+            "Cultural"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aswan_Nubian_Museum_entrance.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Aswan_Nubian_Museum_entrance.jpg/960px-Aswan_Nubian_Museum_entrance.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Aswan Nubian Museum entrance",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:MJJR\" title=\"User:MJJR\">Marc Ryckaert</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aswan_Nubian_Museum_entrance.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Aswan (Egypt): Nubia Museum - entrance"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Elephantine Island",
+          "ai_summary": "A large island in the Nile, home to ancient ruins, a museum, and beautiful gardens.",
+          "name_english": "Elephantine Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "07:00 - 17:00",
+            "Tuesday": "07:00 - 17:00",
+            "Wednesday": "07:00 - 17:00",
+            "Thursday": "07:00 - 17:00",
+            "Friday": "07:00 - 17:00",
+            "Saturday": "07:00 - 17:00",
+            "Sunday": "07:00 - 17:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the ancient ruins and enjoy a felucca ride around the island.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 24.083,
+            "longitude": 32.887
+          },
+          "address": "Elephantine Island, Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Island",
+            "Historic",
+            "Museum"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aswan,_Elephantine,_west_bank,_Egypt,_Oct_2004.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Aswan%2C_Elephantine%2C_west_bank%2C_Egypt%2C_Oct_2004.jpg/960px-Aswan%2C_Elephantine%2C_west_bank%2C_Egypt%2C_Oct_2004.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Aswan, Elephantine, west bank, Egypt, Oct 2004",
+                  "author": "Blueshade",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aswan,_Elephantine,_west_bank,_Egypt,_Oct_2004.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.814
+        },
+        {
+          "name": "Kitchener’s Island (Botanical Garden)",
+          "ai_summary": "A peaceful island featuring a botanical garden with a variety of plants, trees, and flowers.",
+          "name_english": "Kitchener’s Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "07:00 - 17:00",
+            "Tuesday": "07:00 - 17:00",
+            "Wednesday": "07:00 - 17:00",
+            "Thursday": "07:00 - 17:00",
+            "Friday": "07:00 - 17:00",
+            "Saturday": "07:00 - 17:00",
+            "Sunday": "07:00 - 17:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Enjoy a peaceful walk among the plants and take a felucca ride around the island.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 24.09,
+            "longitude": 32.883
+          },
+          "address": "Kitchener’s Island, Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Island",
+            "Nature",
+            "Garden"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aswan_Botanical_Garden_09.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Aswan_Botanical_Garden_09.jpg/960px-Aswan_Botanical_Garden_09.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Aswan Botanical Garden 09",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aswan_Botanical_Garden_09.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "View of west bank of the <a href=\"//commons.wikimedia.org/wiki/Nile\" title=\"Nile\">Nile</a> - from the <a href=\"//commons.wikimedia.org/wiki/Category:Aswan_Botanical_Garden\" title=\"Category:Aswan Botanical Garden\">Aswan Botanical Garden</a>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Nubian Village (Gharb Soheil)",
+          "ai_summary": "A traditional village showcasing Nubian culture, with colorful houses, local crafts, and friendly residents.",
+          "name_english": "Nubian Village",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00 - 18:00",
+            "Tuesday": "08:00 - 18:00",
+            "Wednesday": "08:00 - 18:00",
+            "Thursday": "08:00 - 18:00",
+            "Friday": "08:00 - 18:00",
+            "Saturday": "08:00 - 18:00",
+            "Sunday": "08:00 - 18:00",
+            "notes": "Best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Interact with the locals and explore the village's narrow streets.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 24.086,
+            "longitude": 32.883
+          },
+          "address": "Gharb Soheil, Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Village",
+            "Cultural",
+            "Historic"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Nubians_at_Aswan.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Nubians_at_Aswan.jpg/960px-Nubians_at_Aswan.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Nubians at Aswan",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:M_mousa_86\" title=\"User:M mousa 86\">Mohammed Moussa</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Nubians_at_Aswan.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The term Nubian describes an ethnic group that originated in modern-day Sudan and Egypt. Today, people of Nubian descent primarily live in Sudan, and inhabit the region between Wadi Halfa in the north and Al Dabbah in the south"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Aga Khan Mausoleum View",
+          "ai_summary": "The mausoleum of Aga Khan III, an important figure in the Ismaili sect of Shia Islam, offering panoramic views of the Nile and Aswan.",
+          "name_english": "Aga Khan Mausoleum",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Respect the local customs and enjoy the peaceful atmosphere.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 24.021,
+            "longitude": 32.895
+          },
+          "address": "Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Mausoleum",
+            "Historic",
+            "Viewpoint"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Assuan_Mausoleum_Aga_Khan_III._08.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Assuan_Mausoleum_Aga_Khan_III._08.JPG/960px-Assuan_Mausoleum_Aga_Khan_III._08.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Assuan Mausoleum Aga Khan III. 08",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Assuan_Mausoleum_Aga_Khan_III._08.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Mausoleum des Aga Khan III. in Assuan, Ägypten"
+                }
+              }
+            }
+          },
+          "rank_score": 0.738
+        },
+        {
+          "name": "Monastery of St. Simeon",
+          "ai_summary": "An ancient Christian monastery located on the west bank of the Nile, known for its well-preserved ruins and tranquil setting.",
+          "name_english": "Monastery of St. Simeon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the ruins and enjoy the serene views of the Nile.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 24.021,
+            "longitude": 32.884
+          },
+          "address": "Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Monastery",
+            "Historic",
+            "Religious"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Monastery_of_St_Simeon_Stylites_the_Younger_3.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Monastery_of_St_Simeon_Stylites_the_Younger_3.jpg/960px-Monastery_of_St_Simeon_Stylites_the_Younger_3.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Monastery of St Simeon Stylites the Younger 3",
+                  "author": "Maarten Sepp",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Monastery_of_St_Simeon_Stylites_the_Younger_3.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "<p>Ruins of the Monastery of St <a href=\"//commons.wikimedia.org/wiki/Simeon_Stylites_the_Younger\" title=\"Simeon Stylites the Younger\">Simeon Stylites the Younger</a>, with remains of his column (centre).\n<br>\n</p>\nNear <a href=\"//commons.wikimedia.org/wiki/Category:Antakya\" title=\"Category:Antakya\">Antakya</a>, <a href=\"//commons.wikimedia.org/wiki/Category:Hatay_Province\" title=\"Category:Hatay Province\">Hatay province</a>, <a href=\"//commons.wikimedia.org/wiki/Turkey\" class=\"mw-redirect\" title=\"Turkey\">Turkey</a>."
+                }
+              }
+            }
+          },
+          "rank_score": 0.814
+        },
+        {
+          "name": "Tombs of the Nobles (Aswan)",
+          "ai_summary": "Ancient tombs belonging to the nobles of Aswan, featuring well-preserved hieroglyphs and stunning views of the Nile.",
+          "name_english": "Tombs of the Nobles",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a flashlight to explore the tombs' interiors.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 24.021,
+            "longitude": 32.885
+          },
+          "address": "Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Tombs",
+            "Historic",
+            "Archaeological"
+          ],
+          "state": "Aswan",
+          "photos": {},
+          "rank_score": 0.846
+        },
+        {
+          "name": "Kalabsha Temple (Lake Nasser)",
+          "ai_summary": "A large and impressive temple complex on the shores of Lake Nasser, dedicated to the Nubian goddess Maket.",
+          "name_english": "Kalabsha Temple",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "07:00 - 17:00",
+            "Tuesday": "07:00 - 17:00",
+            "Wednesday": "07:00 - 17:00",
+            "Thursday": "07:00 - 17:00",
+            "Friday": "07:00 - 17:00",
+            "Saturday": "07:00 - 17:00",
+            "Sunday": "07:00 - 17:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine your visit with a trip to the nearby Nubian Museum.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 23.999,
+            "longitude": 32.883
+          },
+          "address": "Kalabsha, Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "Historic",
+            "Lake Nasser"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:The_Temple_of_Kalabsha_by_Dennis_G._Jarvis.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/The_Temple_of_Kalabsha_by_Dennis_G._Jarvis.jpg/960px-The_Temple_of_Kalabsha_by_Dennis_G._Jarvis.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "The Temple of Kalabsha by Dennis G. Jarvis",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q122977591\" class=\"extiw\" title=\"d:Q122977591\">Dennis G. Jarvis</a></bdi>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:The_Temple_of_Kalabsha_by_Dennis_G._Jarvis.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "A unique rear facing picture of the Ancient Egyptian temple of Kalabsha in Nubia as seen from the Temple of Beit al-Wali.."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Sehel Island Inscriptions",
+          "ai_summary": "Ancient inscriptions and carvings on Sehel Island, providing insights into the history and culture of the region.",
+          "name_english": "Sehel Island Inscriptions",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine your visit with a trip to the nearby Unfinished Obelisk.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 24.09,
+            "longitude": 32.895
+          },
+          "address": "Sehel Island, Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Inscriptions",
+            "Historic",
+            "Island"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Seheil_Island,_Aswan,_AG,_EGY_(48025429186).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Seheil_Island%2C_Aswan%2C_AG%2C_EGY_%2848025429186%29.jpg/960px-Seheil_Island%2C_Aswan%2C_AG%2C_EGY_%2848025429186%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Seheil Island, Aswan, AG, EGY (48025429186)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/59081381@N03\">Warren LeMay</a> from Cullowhee, NC, United States",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Seheil_Island,_Aswan,_AG,_EGY_(48025429186).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Seheil Island, Aswan, AG, EGY"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Felucca Sail to First Cataract",
+          "ai_summary": "A traditional sailboat ride on the Nile, offering stunning views of the first cataract and the surrounding landscapes.",
+          "name_english": "Felucca Sail to First Cataract",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00 - 18:00",
+            "Tuesday": "06:00 - 18:00",
+            "Wednesday": "06:00 - 18:00",
+            "Thursday": "06:00 - 18:00",
+            "Friday": "06:00 - 18:00",
+            "Saturday": "06:00 - 18:00",
+            "Sunday": "06:00 - 18:00",
+            "notes": "Best experienced at sunrise or sunset."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Sunrise",
+          "place_tip": "Negotiate the price and duration with the boat captain beforehand.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 24.0,
+            "longitude": 32.884
+          },
+          "address": "Nile River, Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Felucca",
+            "Boat Ride",
+            "Cataract"
+          ],
+          "state": "Aswan",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Aswan Souq",
+          "ai_summary": "A vibrant market in Aswan, offering a variety of local products, souvenirs, and traditional foods.",
+          "name_english": "Aswan Souq",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00 - 21:00",
+            "Tuesday": "09:00 - 21:00",
+            "Wednesday": "09:00 - 21:00",
+            "Thursday": "09:00 - 21:00",
+            "Friday": "09:00 - 21:00",
+            "Saturday": "09:00 - 21:00",
+            "Sunday": "09:00 - 21:00",
+            "notes": "Best visited in the evening for a lively atmosphere."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bargain for souvenirs and try the local street food.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 24.088,
+            "longitude": 32.898
+          },
+          "address": "Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Market",
+            "Shopping",
+            "Cultural"
+          ],
+          "state": "Aswan",
+          "photos": {},
+          "rank_score": 0.698
+        },
+        {
+          "name": "Old Cataract Hotel (tea terrace)",
+          "ai_summary": "A historic hotel with a famous tea terrace, offering stunning views of the Nile and the surrounding area.",
+          "name_english": "Old Cataract Hotel",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "07:00 - 22:00",
+            "Tuesday": "07:00 - 22:00",
+            "Wednesday": "07:00 - 22:00",
+            "Thursday": "07:00 - 22:00",
+            "Friday": "07:00 - 22:00",
+            "Saturday": "07:00 - 22:00",
+            "Sunday": "07:00 - 22:00",
+            "notes": "Reservations recommended for the tea terrace."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Enjoy the traditional afternoon tea with a view.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 24.088,
+            "longitude": 32.895
+          },
+          "address": "Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Hotel",
+            "Historic",
+            "Viewpoint"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aswan_Nile_R02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Aswan_Nile_R02.jpg/960px-Aswan_Nile_R02.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Aswan Nile R02",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:MJJR\" title=\"User:MJJR\">Marc Ryckaert</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aswan_Nile_R02.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Aswan (Egypt): the Nile and the Old Cataract Hotel"
+                }
+              }
+            }
+          },
+          "rank_score": 0.85
+        },
+        {
+          "name": "Nile Sunset Cruise",
+          "ai_summary": "A relaxing cruise on the Nile River at sunset, offering stunning views and a peaceful atmosphere.",
+          "name_english": "Nile Sunset Cruise",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "17:00 - 20:00",
+            "Tuesday": "17:00 - 20:00",
+            "Wednesday": "17:00 - 20:00",
+            "Thursday": "17:00 - 20:00",
+            "Friday": "17:00 - 20:00",
+            "Saturday": "17:00 - 20:00",
+            "Sunday": "17:00 - 20:00",
+            "notes": "Advance booking recommended, especially for dinner cruises."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Choose a cruise with dinner included for a special experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 24.0,
+            "longitude": 32.885
+          },
+          "address": "Nile River, Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Cruise",
+            "Sunset",
+            "Dinner"
+          ],
+          "state": "Aswan",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Philae Sound & Light Show",
+          "ai_summary": "An enchanting sound and light show at the Temple of Philae, narrating the history of the temple and the goddess Isis.",
+          "name_english": "Philae Sound & Light Show",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "18:00 - 19:00",
+            "Tuesday": "18:00 - 19:00",
+            "Wednesday": "18:00 - 19:00",
+            "Thursday": "18:00 - 19:00",
+            "Friday": "18:00 - 19:00",
+            "Saturday": "18:00 - 19:00",
+            "Sunday": "18:00 - 19:00",
+            "notes": "Check the schedule for language options."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Arrive early to secure a good viewing spot.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 24.021,
+            "longitude": 32.884
+          },
+          "address": "Agilkia Island, Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Show",
+            "Cultural",
+            "Historic"
+          ],
+          "state": "Aswan",
+          "photos": {},
+          "rank_score": 0.734
+        },
+        {
+          "name": "Qubbet el-Hawa Viewpoint",
+          "ai_summary": "A viewpoint offering panoramic views of the Nile, Aswan, and the surrounding desert.",
+          "name_english": "Qubbet el-Hawa Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring water and wear comfortable shoes for the hike.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 24.021,
+            "longitude": 32.886
+          },
+          "address": "Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Viewpoint",
+            "Hiking",
+            "Nature"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Assuan_12.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Assuan_12.jpg/960px-Assuan_12.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Assuan 12",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Assuan_12.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Westliches Nilufer bei Assuan, Ägypten"
+                }
+              }
+            }
+          },
+          "rank_score": 0.77
+        },
+        {
+          "name": "Desert Hike above the Cataracts",
+          "ai_summary": "A hiking trail offering stunning views of the Nile Cataracts and the surrounding desert landscape.",
+          "name_english": "Desert Hike above the Cataracts",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear sturdy shoes and bring plenty of water.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 24.021,
+            "longitude": 32.887
+          },
+          "address": "Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Desert"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Sahara_real_color.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sahara_real_color.jpg/960px-Sahara_real_color.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Sahara real color",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/136485307@N06\">Project Apollo Archive</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sahara_real_color.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Sahara in real color, calibrated and cropped from the original picture"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Shellal Village Market",
+          "ai_summary": "A local market in Shellal Village, offering a variety of Nubian handicrafts, souvenirs, and traditional foods.",
+          "name_english": "Shellal Village Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00 - 19:00",
+            "Tuesday": "09:00 - 19:00",
+            "Wednesday": "09:00 - 19:00",
+            "Thursday": "09:00 - 19:00",
+            "Friday": "09:00 - 19:00",
+            "Saturday": "09:00 - 19:00",
+            "Sunday": "09:00 - 19:00",
+            "notes": "Best visited in the evening for a lively atmosphere."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local delicacies and buy handmade souvenirs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 24.086,
+            "longitude": 32.885
+          },
+          "address": "Shellal Village, Aswan, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Market",
+            "Shopping",
+            "Cultural"
+          ],
+          "state": "Aswan",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:River_Nile_at_Shellal_in_Egypt,_on_15th_of_February_1891.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/River_Nile_at_Shellal_in_Egypt%2C_on_15th_of_February_1891.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "River Nile at Shellal in Egypt, on 15th of February 1891",
+                  "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Victoria_of_Baden\" class=\"extiw\" title=\"w:en:Victoria of Baden\"><span title=\"Queen consort of Sweden (1907-1930)\">Victoria of Baden</span></a></bdi>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:River_Nile_at_Shellal_in_Egypt,_on_15th_of_February_1891.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Photograph by <a href=\"https://en.wikipedia.org/wiki/Victoria_of_Baden\" class=\"extiw\" title=\"w:Victoria of Baden\">Queen Victoria of Sweden</a> (b. 1862, d. 1930). The river <a href=\"https://en.wikipedia.org/wiki/Nile\" class=\"extiw\" title=\"w:Nile\">Nile</a> at <a href=\"https://en.wikipedia.org/wiki/Shellal\" class=\"extiw\" title=\"w:Shellal\">Shellal</a> in Egypt, late afternoon on 15th of February 1891."
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        }
+      ]
+    }
+  ]
+}

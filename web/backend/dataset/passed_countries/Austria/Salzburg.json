@@ -1,0 +1,968 @@
+{
+  "country": "Austria",
+  "state": "Salzburg",
+  "cities": [
+    {
+      "city": "Salzburg",
+      "nearest_airport": "Salzburg Airport (SZG)",
+      "places": [
+        {
+          "name": "Hohensalzburg Fortress",
+          "ai_summary": "Hohensalzburg Fortress is one of the largest medieval castles in Europe. It offers breathtaking views of Salzburg and the surrounding Alps. Visitors can explore its well-preserved interiors, learn about its history through exhibits, and enjoy cultural events held within its walls. The fortress is a symbol of Salzburg's rich heritage and architectural brilliance.",
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Hours may vary seasonally; verify locally."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Apr–Oct",
+          "place_tip": "Take the funicular for easy access and enjoy the panoramic views from the top. Guided tours are highly recommended.",
+          "advanced_booking": "Recommended during peak seasons",
+          "name_english": "Hohensalzburg Fortress",
+          "state": "Salzburg",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:00",
+          "cost": "Paid (entry fee applies)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 47.7957,
+            "longitude": 13.0433
+          },
+          "address": "Mönchsberg 34, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Salzburg_-_Festung_Hohensalzburg.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Salzburg_-_Festung_Hohensalzburg.JPG/960px-Salzburg_-_Festung_Hohensalzburg.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Salzburg - Festung Hohensalzburg",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Bwag\" title=\"User:Bwag\">C.Stadler/Bwag</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Salzburg_-_Festung_Hohensalzburg.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "South view of Hohensalzburg Fortress."
+                }
+              }
+            }
+          },
+          "name_native": "Festung Hohensalzburg",
+          "official_website": "https://www.salzburg-burgen.at/en/hohensalzburg/",
+          "tags": [
+            "Fortress",
+            "History",
+            "Views",
+            "Landmark"
+          ],
+          "rank_score": 0.98
+        },
+        {
+          "name": "Mirabell Palace & Gardens",
+          "ai_summary": "Mirabell Palace is a stunning baroque landmark in Salzburg, surrounded by beautifully landscaped gardens. The palace is famous for its grand architecture and the Pegasus Fountain, which appeared in The Sound of Music. Visitors can enjoy the serene atmosphere, explore the Dwarf Garden, and attend classical concerts held in the Marble Hall.",
+          "opening_hours": {
+            "Monday": "08:00-18:00",
+            "Tuesday": "08:00-18:00",
+            "Wednesday": "08:00-18:00",
+            "Thursday": "08:00-18:00",
+            "Friday": "08:00-18:00",
+            "Saturday": "08:00-18:00",
+            "Sunday": "08:00-18:00",
+            "notes": "Gardens are open longer during summer."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "May–Sep",
+          "place_tip": "Visit early morning for fewer crowds and take your time exploring the gardens. Don’t miss the Marble Hall concerts.",
+          "advanced_booking": "Not required",
+          "name_english": "Mirabell Palace & Gardens",
+          "state": "Salzburg",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "20:00",
+          "cost": "Free (gardens); Paid (concerts)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 47.8055,
+            "longitude": 13.0417
+          },
+          "address": "Mirabellplatz 4, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Palatul_Mirabell1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Palatul_Mirabell1.jpg/960px-Palatul_Mirabell1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Palatul Mirabell1",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Cezarika1\" title=\"User:Cezarika1\">Cezar Suceveanu</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Palatul_Mirabell1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Mirabell Palace Salzburg, Austria"
+                }
+              }
+            }
+          },
+          "name_native": "Schloss Mirabell",
+          "official_website": "https://www.salzburg.info/en/sights/top10/mirabell-palace-gardens",
+          "tags": [
+            "Palace",
+            "Gardens",
+            "Baroque",
+            "Landmark"
+          ],
+          "rank_score": 0.96
+        },
+        {
+          "name": "Mozart’s Birthplace",
+          "ai_summary": "Mozart’s Birthplace is a museum dedicated to the life and works of Wolfgang Amadeus Mozart. Located in the heart of Salzburg, the museum showcases original manuscripts, family portraits, and personal items of the composer. It provides a deep insight into Mozart’s early life and his musical journey.",
+          "opening_hours": {
+            "Monday": "09:00-17:30",
+            "Tuesday": "09:00-17:30",
+            "Wednesday": "09:00-17:30",
+            "Thursday": "09:00-17:30",
+            "Friday": "09:00-17:30",
+            "Saturday": "09:00-17:30",
+            "Sunday": "09:00-17:30",
+            "notes": "Extended hours during summer."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Book tickets in advance to avoid queues. Take your time exploring the exhibits and enjoy the audio guide.",
+          "advanced_booking": "Recommended",
+          "name_english": "Mozart’s Birthplace",
+          "state": "Salzburg",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid (entry fee applies)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.8009,
+            "longitude": 13.0436
+          },
+          "address": "Getreidegasse 9, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Salzburg,_Getreidegasse_9,_Mozarts_Geburtshaus.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Salzburg%2C_Getreidegasse_9%2C_Mozarts_Geburtshaus.jpg/960px-Salzburg%2C_Getreidegasse_9%2C_Mozarts_Geburtshaus.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Salzburg, Getreidegasse 9, Mozarts Geburtshaus",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:AStiasny\" class=\"mw-userlink\" title=\"User:AStiasny\">Andreas Stiasny</a>",
+                  "license": "CC BY-SA 3.0 at",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Salzburg,_Getreidegasse_9,_Mozarts_Geburtshaus.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 at",
+                  "description": "Mozart's birth place, Salzburg, Austria."
+                }
+              }
+            }
+          },
+          "name_native": "Mozarts Geburtshaus",
+          "official_website": "https://www.mozarteum.at/en/mozarts-birthplace.html",
+          "tags": [
+            "Museum",
+            "History",
+            "Mozart",
+            "Landmark"
+          ],
+          "rank_score": 0.76
+        },
+        {
+          "name": "Salzburg Cathedral",
+          "ai_summary": "Salzburg Cathedral, with its stunning baroque architecture and impressive twin spires, is a must-visit landmark in the city. The cathedral's interior is equally breathtaking, featuring beautiful frescoes, a magnificent organ, and a stunning altar. It is an important religious site and a masterpiece of baroque art.",
+          "opening_hours": {
+            "Monday": "07:00-19:00",
+            "Tuesday": "07:00-19:00",
+            "Wednesday": "07:00-19:00",
+            "Thursday": "07:00-19:00",
+            "Friday": "07:00-19:00",
+            "Saturday": "07:00-19:00",
+            "Sunday": "07:00-19:00",
+            "notes": "Open year-round; may have restricted hours during services."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Attend a concert or service to experience the cathedral's acoustics. The best views of the cathedral are from the Kapitelplatz square.",
+          "advanced_booking": "Not required",
+          "name_english": "Salzburg Cathedral",
+          "state": "Salzburg",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "19:30",
+          "cost": "Free (donations appreciated)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 47.7955,
+            "longitude": 13.0432
+          },
+          "address": "Domplatz 1a, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Salzburg_Cathedral_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Salzburg_Cathedral_1.jpg/960px-Salzburg_Cathedral_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Salzburg Cathedral 1",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Bede735c\" title=\"User:Bede735c\">Bede735c</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Salzburg_Cathedral_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Salzburg Cathedral in Salzburg, Austria"
+                }
+              }
+            }
+          },
+          "name_native": "Salzburger Dom",
+          "official_website": "https://www.salzburger-dom.at/en/",
+          "tags": [
+            "Cathedral",
+            "Architecture",
+            "History",
+            "Landmark"
+          ],
+          "rank_score": 0.9
+        },
+        {
+          "name": "Getreidegasse",
+          "ai_summary": "Getreidegasse is one of the most famous streets in Salzburg, known for its charming medieval architecture and vibrant atmosphere. The street is lined with shops, cafes, and historic buildings, making it a popular destination for both tourists and locals. It's also the birthplace of Mozart, with a museum dedicated to him located at No. 9.",
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Shops may have varying hours; check locally."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the side streets and alleys for hidden gems. Try the local delicacies at the cafes and restaurants along the street.",
+          "advanced_booking": "Not required",
+          "name_english": "Getreidegasse",
+          "state": "Salzburg",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "20:00",
+          "cost": "Free",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 47.8005,
+            "longitude": 13.0432
+          },
+          "address": "Getreidegasse, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Getreidegasse_am_Nachmittag,_Salzburg.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Getreidegasse_am_Nachmittag%2C_Salzburg.jpg/960px-Getreidegasse_am_Nachmittag%2C_Salzburg.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Getreidegasse am Nachmittag, Salzburg",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Snotty\" title=\"User:Snotty\">Snotty</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Getreidegasse_am_Nachmittag,_Salzburg.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Getreidegasse, Salzburg"
+                }
+              }
+            }
+          },
+          "name_native": "Getreidegasse",
+          "official_website": "https://www.salzburg.info/en/sights/top10/getreidegasse",
+          "tags": [
+            "Street",
+            "Shopping",
+            "History",
+            "Landmark"
+          ],
+          "rank_score": 0.92
+        },
+        {
+          "name": "St. Peter's Abbey",
+          "ai_summary": "St. Peter's Abbey is a Benedictine monastery in Salzburg, known for its impressive architecture and rich history. The abbey's church features beautiful baroque interiors, and the complex includes a cemetery and catacombs that are open to visitors. It's a peaceful place to explore and learn about Salzburg's religious heritage.",
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Check for possible service interruptions."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the catacombs for a unique historical experience. The views from the cemetery are also quite stunning.",
+          "advanced_booking": "Not required",
+          "name_english": "St. Peter's Abbey",
+          "state": "Salzburg",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free (donations appreciated)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.7959,
+            "longitude": 13.0436
+          },
+          "address": "Stiftstraße 1, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Stift_St_Peter2.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Stift_St_Peter2.JPG/960px-Stift_St_Peter2.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Stift St Peter2",
+                  "author": "Ich",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Stift_St_Peter2.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<p>Erzabtei Sankt Peter mit Stiftskirche, Salzburg\n</p>\n<div style=\"max-width:600px; text-align:center; color:var(--color-base,#000); background:var(--background-color-neutral,#ddd); border:1px solid var(--border-color-subtle,#bbb); margin:1px;\" class=\"layouttemplate\" lang=\"en\" dir=\"ltr\">\n<table>\n<tbody><tr>\n<td style=\"width:44px; height:22px;\"><span class=\"skin-invert\" typeof=\"mw:File\"><span><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Denkmalschutz-AT.svg/20px-Denkmalschutz-AT.svg.png\" decoding=\"async\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Denkmalschutz-AT.svg/40px-Denkmalschutz-AT.svg.png 1.5x\" data-file-width=\"500\" data-file-height=\"500\"></span></span> <span typeof=\"mw:File\"><span><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Austria_Bundesadler.svg/20px-Austria_Bundesadler.svg.png\" decoding=\"async\" width=\"20\" height=\"21\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Austria_Bundesadler.svg/40px-Austria_Bundesadler.svg.png 1.5x\" data-file-width=\"734\" data-file-height=\"778\"></span></span>\n</td>\n<td style=\"font-size:90%; padding:0.1em; line-height:1.0em;\">This media shows the protected monument with <span title=\"needs migration to HERIS-ID\" class=\"plainlinks\" lang=\"\" dir=\"ltr\" style=\"font-size:smaller;\">ObjektID <a class=\"external text\" href=\"https://denkmalliste.toolforge.org/index.php?action=EinzelID&amp;ID=102225\">102225</a></span> in Austria. <small class=\"plainlinks\" lang=\"\" dir=\"ltr\"><br>(<a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=Special:Search&amp;profile=advanced&amp;search=hastemplate%3A%22Denkmalgesch%C3%BCtztes+Objekt+%C3%96sterreich%22+insource%3A%2F%5C%7B%5C%7B%28%5BDd%5Denkmalgesch%C3%BCtztes+Objekt+%C3%96sterreich%7C%5BDd%5Doo%29+%2A%5C%7C%5Cs%2A%281%3D+%2A%29%2A102225%5C%7D%5C%7D%2F\">Commons</a>, <a class=\"external text\" href=\"https://de.wikipedia.org/wiki/special:search?search=insource%3A%2FObjektID+%2A%3D+%2A102225%2F+intitle%3A%22Liste+der+denkmalgesch%C3%BCtzten+Objekte+in%22&amp;fulltext=Search&amp;ns0=1\">de</a>, <a class=\"external text\" href=\"https://hub.toolforge.org/P2951:102225?site=wikidata\">Wikidata</a>)</small>\n</td>\n<td>\n</td></tr></tbody></table>\n</div>"
+                }
+              }
+            }
+          },
+          "name_native": "Stift Sankt Peter",
+          "official_website": "https://www.stiftstpeter.at/en/",
+          "tags": [
+            "Abbey",
+            "History",
+            "Architecture",
+            "Landmark"
+          ],
+          "rank_score": 0.74
+        },
+        {
+          "name": "Hellbrunn Palace",
+          "ai_summary": "Hellbrunn Palace is a historic villa located just outside Salzburg, famous for its trick fountains and beautiful gardens. The palace was built in the 17th century as a summer residence for the archbishops of Salzburg. Visitors can explore the palace rooms, the unique water features, and the extensive parkland.",
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed in winter; check local listings for exact dates."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "May–Sep",
+          "place_tip": "Don’t miss the guided tour of the trick fountains. The gardens are perfect for a leisurely stroll.",
+          "advanced_booking": "Recommended for palace tours",
+          "name_english": "Hellbrunn Palace",
+          "state": "Salzburg",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "20:00",
+          "cost": "Paid (entry fee applies)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.7951,
+            "longitude": 13.1133
+          },
+          "address": "Fürstenweg 37, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hellbrunn2.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Hellbrunn2.JPG/960px-Hellbrunn2.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Hellbrunn2",
+                  "author": "Nicholas Even (own work)",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hellbrunn2.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Austria\" class=\"extiw\" title=\"en:Austria\">Austria</a>, <a href=\"https://en.wikipedia.org/wiki/Salzburg\" class=\"extiw\" title=\"en:Salzburg\">Salzburg</a>, <a href=\"https://en.wikipedia.org/wiki/Hellbrunn_Palace\" class=\"extiw\" title=\"en:Hellbrunn Palace\">Hellbrunn Palace</a>"
+                }
+              }
+            }
+          },
+          "name_native": "Schloss Hellbrunn",
+          "official_website": "https://www.hellbrunn.at/en/",
+          "tags": [
+            "Palace",
+            "Gardens",
+            "History",
+            "Landmark"
+          ],
+          "rank_score": 0.86
+        },
+        {
+          "name": "Untersberg",
+          "ai_summary": "Untersberg is a majestic mountain located just south of Salzburg, popular for hiking, skiing, and its stunning views. The mountain is often associated with the legend of King Arthur and the Knights of the Round Table. Visitors can take a cable car to the summit or explore the numerous trails that wind through the surrounding area.",
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Cable car operates seasonally; check local listings."
+          },
+          "suggested_duration": "3–4 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Wear sturdy shoes if hiking, and bring water and snacks. The views from the top are breathtaking, so have your camera ready.",
+          "advanced_booking": "Recommended for cable car tickets",
+          "name_english": "Untersberg",
+          "state": "Salzburg",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "20:00",
+          "cost": "Paid (cable car fee applies)",
+          "rating_tourist_priority": 5,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 47.7384,
+            "longitude": 13.0048
+          },
+          "address": "Untersberg, 5083 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Untersberg_salzburg_sunset.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Untersberg_salzburg_sunset.jpg/960px-Untersberg_salzburg_sunset.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Untersberg salzburg sunset",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q78209280\" class=\"extiw\" title=\"d:Q78209280\"><span title=\"Photographer\">Arne Müseler</span></a></bdi>",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Untersberg_salzburg_sunset.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Untersberg, Salzburg, Austria"
+                }
+              }
+            }
+          },
+          "name_native": "Untersberg",
+          "official_website": "https://www.untersberg.at/en/",
+          "tags": [
+            "Mountain",
+            "Hiking",
+            "Skiing",
+            "Nature"
+          ],
+          "rank_score": 0.82
+        },
+        {
+          "name": "Salzburg Museum",
+          "ai_summary": "Salzburg Museum offers a comprehensive overview of the city's history, art, and culture. The museum is located in the historic Old Town and features a wide range of exhibits, including archaeological finds, medieval art, and modern multimedia installations. It's a great place to learn about Salzburg's rich heritage.",
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on certain holidays; check local listings."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don’t miss the rooftop terrace for a panoramic view of the Old Town. Check for temporary exhibitions that might be of interest.",
+          "advanced_booking": "Not required",
+          "name_english": "Salzburg Museum",
+          "state": "Salzburg",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid (entry fee applies)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.7997,
+            "longitude": 13.0436
+          },
+          "address": "Wiener Philharmoniker-Gasse 9, 5020 Salzburg, Austria",
+          "photos": {},
+          "name_native": "Salzburg Museum",
+          "official_website": "https://www.salzburgmuseum.at/en/",
+          "tags": [
+            "Museum",
+            "History",
+            "Art",
+            "Culture"
+          ],
+          "rank_score": 0.68
+        },
+        {
+          "name": "Mozarteum University",
+          "ai_summary": "Mozarteum University is a prestigious institution for the study of music and performing arts in Salzburg. The university offers a wide range of programs and is known for its high academic standards and distinguished faculty. Concerts and events are regularly held at the university, showcasing talented students and renowned artists.",
+          "opening_hours": {
+            "Monday": "08:00-18:00",
+            "Tuesday": "08:00-18:00",
+            "Wednesday": "08:00-18:00",
+            "Thursday": "08:00-18:00",
+            "Friday": "08:00-18:00",
+            "Saturday": "08:00-18:00",
+            "Sunday": "08:00-18:00",
+            "notes": "Access to some areas may be restricted; check in advance."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Attend a student concert for a glimpse of emerging talent. The university's architecture is also worth noting.",
+          "advanced_booking": "Recommended for concerts",
+          "name_english": "Mozarteum University",
+          "state": "Salzburg",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies (depending on events and access)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.7991,
+            "longitude": 13.0424
+          },
+          "address": "Mirabellplatz 1, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Universität_Mozarteum_(5).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Universit%C3%A4t_Mozarteum_%285%29.jpg/960px-Universit%C3%A4t_Mozarteum_%285%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Universität Mozarteum (5)",
+                  "author": "© <a href=\"https://de.wikipedia.org/wiki/Benutzer:1971markus\" class=\"extiw\" title=\"de:Benutzer:1971markus\">1971markus</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Universit%C3%A4t_Mozarteum_(5).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Neubau der <a href=\"https://de.wikipedia.org/wiki/Mozarteum\" class=\"extiw\" title=\"de:Mozarteum\">Universität Mozarteum</a>, Salzburg."
+                }
+              }
+            }
+          },
+          "name_native": "Universität Mozarteum",
+          "official_website": "https://www.mozarteum.at/en/",
+          "tags": [
+            "University",
+            "Music",
+            "Education",
+            "Culture"
+          ],
+          "rank_score": 0.64
+        },
+        {
+          "name": "Kapitelplatz",
+          "ai_summary": "Kapitelplatz is a historic square in Salzburg, known for its impressive architecture and vibrant atmosphere. The square is surrounded by important landmarks, including the Salzburg Cathedral and St. Peter's Abbey. It's a popular gathering place and often hosts events and concerts.",
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Always open; check local listings for events."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Great spot for people-watching and enjoying street performances. The square is beautifully illuminated at night.",
+          "advanced_booking": "Not required",
+          "name_english": "Kapitelplatz",
+          "state": "Salzburg",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.7962,
+            "longitude": 13.0438
+          },
+          "address": "Kapitelplatz, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Salzburg_Cathedral_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Salzburg_Cathedral_1.jpg/960px-Salzburg_Cathedral_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Salzburg Cathedral 1",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Bede735c\" title=\"User:Bede735c\">Bede735c</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Salzburg_Cathedral_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Salzburg Cathedral in Salzburg, Austria"
+                }
+              }
+            }
+          },
+          "name_native": "Kapitelplatz",
+          "official_website": "https://www.salzburg.info/en/sights/top10/kapitelplatz",
+          "tags": [
+            "Square",
+            "History",
+            "Landmark"
+          ],
+          "rank_score": 0.76
+        },
+        {
+          "name": "Augustiner Bräu",
+          "ai_summary": "Augustiner Bräu is a famous brewery and beer hall in Salzburg, known for its traditional atmosphere and high-quality beer. The brewery was founded in 1621 and offers a variety of beers brewed on-site. Visitors can enjoy a tour of the brewery, learn about the brewing process, and taste different beer varieties.",
+          "opening_hours": {
+            "Monday": "10:00-22:00",
+            "Tuesday": "10:00-22:00",
+            "Wednesday": "10:00-22:00",
+            "Thursday": "10:00-22:00",
+            "Friday": "10:00-22:00",
+            "Saturday": "10:00-22:00",
+            "Sunday": "10:00-22:00",
+            "notes": "Closed on certain holidays; check local listings."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Try the local Salzburg beer and enjoy it with traditional Austrian food. The beer garden is a great place to relax, especially in summer.",
+          "advanced_booking": "Not required",
+          "name_english": "Augustiner Bräu",
+          "state": "Salzburg",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies (depending on consumption)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.8057,
+            "longitude": 13.0426
+          },
+          "address": "Augustiner Bräu, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Dorfbeuern_benediktinerabtei_michaelbeuern.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Dorfbeuern_benediktinerabtei_michaelbeuern.jpg/960px-Dorfbeuern_benediktinerabtei_michaelbeuern.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Dorfbeuern benediktinerabtei michaelbeuern",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q78209280\" class=\"extiw\" title=\"d:Q78209280\"><span title=\"Photographer\">Arne Müseler</span></a></bdi>",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Dorfbeuern_benediktinerabtei_michaelbeuern.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Abtei Michaelbeuern, Dorfbeuern, Salzburg, Österreich"
+                }
+              }
+            }
+          },
+          "name_native": "Augustiner Bräu",
+          "official_website": "https://www.augustinerbier.at/en/",
+          "tags": [
+            "Brewery",
+            "Beer",
+            "Food",
+            "Culture"
+          ],
+          "rank_score": 0.72
+        },
+        {
+          "name": "Salzburg Marionette Theatre",
+          "ai_summary": "Salzburg Marionette Theatre is a unique cultural institution in Salzburg, known for its exquisite puppet shows. The theatre was founded in 1913 and has since become famous for its artistic performances that often include classical music and opera. It's a delightful experience for both children and adults.",
+          "opening_hours": {
+            "Monday": "10:00-17:00",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Check the schedule for performance times."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Book tickets in advance for popular shows. The combination of puppetry with classical music is a must-see.",
+          "advanced_booking": "Recommended",
+          "name_english": "Salzburg Marionette Theatre",
+          "state": "Salzburg",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies (depending on the show)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 47.7991,
+            "longitude": 13.0436
+          },
+          "address": "Salzburg Marionette Theatre, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Marionette_-_in_Japan_-_2018_1_21.webm",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Marionette_-_in_Japan_-_2018_1_21.webm/800px--Marionette_-_in_Japan_-_2018_1_21.webm.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Marionette - in Japan - 2018 1 21",
+                  "author": "Nesnad",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Marionette_-_in_Japan_-_2018_1_21.webm",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "マリオネット (marionette)"
+                }
+              }
+            }
+          },
+          "name_native": "Salzburg Marionettentheater",
+          "official_website": "https://www.marionetten.at/en/",
+          "tags": [
+            "Theatre",
+            "Culture",
+            "Music",
+            "Puppetry"
+          ],
+          "rank_score": 0.8
+        },
+        {
+          "name": "Felsenreitschule",
+          "ai_summary": "Felsenreitschule is a historic rock riding school in Salzburg, now used as a concert and event venue. The unique architecture and excellent acoustics make it a sought-after location for performances, especially during the Salzburg Festival. It's a remarkable example of adaptive reuse of historical architecture.",
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Check schedule for event timings."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Attend a concert here for a memorable experience. The venue's history as a riding school adds a unique touch to performances.",
+          "advanced_booking": "Recommended for events",
+          "name_english": "Felsenreitschule",
+          "state": "Salzburg",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies (depending on the event)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 5,
+          "coordinates": {
+            "latitude": 47.7957,
+            "longitude": 13.0433
+          },
+          "address": "Felsenreitschule, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Felsenreitschule_2013_02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Felsenreitschule_2013_02.jpg/960px-Felsenreitschule_2013_02.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Felsenreitschule 2013 02",
+                  "author": "Photo: Andreas Praefcke",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Felsenreitschule_2013_02.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Salzburg, Felsenreitschule"
+                }
+              }
+            }
+          },
+          "name_native": "Felsenreitschule",
+          "official_website": "https://www.felsenreitschule.at/en/",
+          "tags": [
+            "Concert",
+            "Event",
+            "Culture",
+            "History"
+          ],
+          "rank_score": 0.74
+        },
+        {
+          "name": "Schloss Leopoldskron",
+          "ai_summary": "Schloss Leopoldskron is a beautiful palace located on the outskirts of Salzburg, known for its stunning gardens and picturesque lake. The palace is privately owned but can be viewed from the outside. It's a popular spot for photography and enjoying the natural beauty of the area.",
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Always open; respect the privacy of the residents."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "The gardens are especially beautiful in spring and summer. Bring a picnic and enjoy the serene environment.",
+          "advanced_booking": "Not required",
+          "name_english": "Schloss Leopoldskron",
+          "state": "Salzburg",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.8055,
+            "longitude": 12.9887
+          },
+          "address": "Leopoldskronstraße 56-58, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Leopoldskron.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Leopoldskron.jpg/960px-Leopoldskron.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Leopoldskron",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pixelcreatures2&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Pixelcreatures2 (page does not exist)\">Pixelcreatures2</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Leopoldskron.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Richard Schabetsberger Chloss Leopoldskron 2022-021"
+                }
+              }
+            }
+          },
+          "name_native": "Schloss Leopoldskron",
+          "official_website": "https://www.leopoldskron.com/en/",
+          "tags": [
+            "Palace",
+            "Gardens",
+            "Nature",
+            "Landmark"
+          ],
+          "rank_score": 0.66
+        },
+        {
+          "name": "Stiegl's World of Brewing",
+          "ai_summary": "Stiegl's World of Brewing is a fascinating museum and brewery located in Salzburg, dedicated to the art of beer brewing. The museum offers interactive exhibits, beer tastings, and guided tours of the brewery. It's an interesting and educational experience for beer enthusiasts and curious visitors alike.",
+          "opening_hours": {
+            "Monday": "10:00-18:00",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Closed on certain holidays; check local listings."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don’t miss the beer tasting session. The museum shop offers a variety of Stiegl beers and souvenirs.",
+          "advanced_booking": "Recommended for brewery tours",
+          "name_english": "Stiegl's World of Brewing",
+          "state": "Salzburg",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies (depending on consumption and tours)",
+          "rating_tourist_priority": 4,
+          "rating_traveler_experience": 4,
+          "coordinates": {
+            "latitude": 47.7957,
+            "longitude": 13.0433
+          },
+          "address": "Stiegl's World of Brewing, 5020 Salzburg, Austria",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Palazzo_Salimbeni,_Siena,_Headquarters_of_Monte_dei_Paschi_di_Siena,_the_worlds_oldest_surviving_bank.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Palazzo_Salimbeni%2C_Siena%2C_Headquarters_of_Monte_dei_Paschi_di_Siena%2C_the_worlds_oldest_surviving_bank.jpg/960px-Palazzo_Salimbeni%2C_Siena%2C_Headquarters_of_Monte_dei_Paschi_di_Siena%2C_the_worlds_oldest_surviving_bank.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Palazzo Salimbeni, Siena, Headquarters of Monte dei Paschi di Siena, the worlds oldest surviving bank",
+                  "author": ". Ray in Manila",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Palazzo_Salimbeni,_Siena,_Headquarters_of_Monte_dei_Paschi_di_Siena,_the_worlds_oldest_surviving_bank.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Palazzo Salimbeni is a Gothic style urban palace located on the Piazza Salimbeni, just off Via Banchi di Sopra in the Terzo di Camollia of the city of Siena, region of Tuscany, Italy. The building, associated with an ancient mercantile family of Siena, currently houses the main offices of the Banca Monte dei Paschi di Siena.\n<p>It was built in the 14th century, likely above pre-existing 12th-13th century structures. In the 19th century it was remodeled in neo-Gothic style, with detail including the merlons, the Lombard bands under them, the ogival triple mullioned windows, inspired by Siena's Palazzo Pubblico.   It was further renovated by architect Pierluigi Spadolini during the 20th century. It faces a square with a statue of the local religious figure Sallustio Bandini, dating to 1882.\n</p><p>Banca Monte dei Paschi di Siena claims to be the world’s oldest surviving bank dates to its origins in 1472 in the Tuscan city from which it derives its name. At the time, Siena was a republic and the institution was created to offer loans to “poor or miserable or needy persons”.\n</p>\nen.wikipedia.org/wiki/Palazzo_Salimbeni"
+                }
+              }
+            }
+          },
+          "name_native": "Stiegl Erlebniswelt",
+          "official_website": "https://www.stiegl.at/en/",
+          "tags": [
+            "Brewery",
+            "Museum",
+            "Beer",
+            "Culture"
+          ],
+          "rank_score": 0.66
+        }
+      ]
+    }
+  ]
+}

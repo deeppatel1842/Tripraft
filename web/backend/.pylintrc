@@ -1,0 +1,28 @@
+[MASTER]
+# Python files to analyze
+# We ignore venv, tests, and archived files
+ignore-paths=venv,tests,_archived,unwanted_files,node_modules
+jobs=4
+persistent=yes
+suggestion-box=yes
+
+[MESSAGES CONTROL]
+disable=
+    missing-module-docstring,
+    too-many-arguments,
+    too-many-locals,
+    too-many-branches,
+    line-too-long,
+    import-error
+
+[DESIGN]
+max-attributes=10
+max-branches=15
+max-locals=20
+
+[FORMAT]
+max-line-length=100
+indent-string='    '
+
+[LOGGING]
+logging-format-style=old

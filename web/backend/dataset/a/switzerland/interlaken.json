@@ -1,0 +1,1135 @@
+{
+  "country": "Switzerland",
+  "state": "Interlaken",
+  "cities": [
+    {
+      "city": "Interlaken",
+      "nearest_airport": "Bern Airport",
+      "places": [
+        {
+          "name": "Hohematte Park & Paragliders",
+          "ai_summary": "A vast open space in the heart of Interlaken, perfect for relaxing and watching paragliders land.",
+          "name_english": "Hohematte Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a picnic and enjoy the view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.6863,
+            "longitude": 7.8632
+          },
+          "address": "3800 Interlaken, Switzerland",
+          "official_website": "https://www.interlaken.ch/en/hohematte",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2011-07-21-Interlaken (Foto Dietrich Michael Weidmann) 047.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/2011-07-21-Interlaken_%28Foto_Dietrich_Michael_Weidmann%29_047.JPG/960px-2011-07-21-Interlaken_%28Foto_Dietrich_Michael_Weidmann%29_047.JPG",
+                "width": 800,
+                "height": 536,
+                "attribution": {
+                  "title": "2011-07-21-Interlaken (Foto Dietrich Michael Weidmann) 047",
+                  "author": "Dietrich Michael Weidmann",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2011-07-21-Interlaken_(Foto_Dietrich_Michael_Weidmann)_047.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Castle Interlaken, canton of Bern, Switzerland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Harder Kulm Viewpoint",
+          "ai_summary": "A breathtaking viewpoint accessible by funicular, offering panoramic views of Interlaken and the surrounding lakes.",
+          "name_english": "Harder Kulm Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 9:00 PM",
+            "Tuesday": "9:00 AM - 9:00 PM",
+            "Wednesday": "9:00 AM - 9:00 PM",
+            "Thursday": "9:00 AM - 9:00 PM",
+            "Friday": "9:00 AM - 9:00 PM",
+            "Saturday": "9:00 AM - 9:00 PM",
+            "Sunday": "9:00 AM - 9:00 PM",
+            "notes": "Seasonal closures may apply."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take the funicular for a hassle-free trip.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 46.6905,
+            "longitude": 7.8578
+          },
+          "address": "Harderbahn, 3800 Interlaken, Switzerland",
+          "official_website": "https://www.jungfrau.ch/en-gb/harder-kulm/",
+          "tags": [
+            "Viewpoint",
+            "Adventure",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:14 Harder Kulm Lac Thoune Photo by Giles Laurent.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/14_Harder_Kulm_Lac_Thoune_Photo_by_Giles_Laurent.jpg/960px-14_Harder_Kulm_Lac_Thoune_Photo_by_Giles_Laurent.jpg",
+                "width": 800,
+                "height": 450,
+                "attribution": {
+                  "title": "14 Harder Kulm Lac Thoune Photo by Giles Laurent",
+                  "author": "Giles Laurent",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:14_Harder_Kulm_Lac_Thoune_Photo_by_Giles_Laurent.jpg",
+                  "credit": "Own work, from gileslaurent.com",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Harder Kulm and Lake Thun"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lake Thun Boat Cruise",
+          "ai_summary": "A scenic boat cruise on Lake Thun, offering stunning views of the surrounding mountains and villages.",
+          "name_english": "Lake Thun Boat Cruise",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "08:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Check the schedule for seasonal variations."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Book tickets in advance during peak season.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 46.6956,
+            "longitude": 7.6293
+          },
+          "address": "Thun, Switzerland",
+          "official_website": "https://www.bls.ch/en/freizeit-und-ferien/schifffahrt/thunersee",
+          "tags": [
+            "Cruise",
+            "Scenic",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CHE Zwieselberg COA.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/CHE_Zwieselberg_COA.svg/800px-CHE_Zwieselberg_COA.svg.png",
+                "width": 800,
+                "height": 950,
+                "attribution": {
+                  "title": "CHE Zwieselberg COA",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CHE_Zwieselberg_COA.svg",
+                  "credit": "Wappenbuch des Kantons Bern: das Berner Staatswappen sowie die Wappen der Amtsbezirke und Gemeinden / im Auftrag des bernischen Regierungsrates hrsg. von der Direktion der Gemeinden; bearb. vom Berner Staatsarchiv unter Mitwirkung von Hans Jenni. Bern: Staatlicher Lehrmittelverlag, 1981. ISBN 3-292-16100-2, S. 199.",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lake Brienz Boat Cruise",
+          "ai_summary": "A picturesque boat cruise on Lake Brienz, known for its emerald-green waters and stunning mountain backdrop.",
+          "name_english": "Lake Brienz Boat Cruise",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "08:50 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Check the schedule for seasonal variations."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Combine with a visit to Giessbach Falls.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 46.6882,
+            "longitude": 8.5689
+          },
+          "address": "Brienz, Switzerland",
+          "official_website": "https://www.bls.ch/en/freizeit-und-ferien/schifffahrt/brienzersee",
+          "tags": [
+            "Cruise",
+            "Scenic",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Jungfraujoch – Top of Europe (excursion)",
+          "ai_summary": "A popular excursion to the Jungfraujoch, the highest railway station in Europe, offering stunning alpine views.",
+          "name_english": "Jungfraujoch – Top of Europe",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30 AM",
+          "sunset_time": "09:00 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Advance booking is highly recommended."
+          },
+          "suggested_duration": "5-6 hours",
+          "best_time_to_visit": "Early morning",
+          "place_tip": "Dress warmly, even in summer.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 46.6059,
+            "longitude": 8.0201
+          },
+          "address": "Jungfraujoch, 3818 Grindelwald, Switzerland",
+          "official_website": "https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/",
+          "tags": [
+            "Mountain",
+            "Scenic",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Brandegg railway station.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Brandegg_railway_station.jpg/960px-Brandegg_railway_station.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Brandegg railway station",
+                  "author": "Andrewrabbott",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Brandegg_railway_station.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Brandegg railway station"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Schynige Platte Railway & Panorama",
+          "ai_summary": "A cogwheel train journey to Schynige Platte, offering breathtaking views of the Eiger, Mönch, and Jungfrau mountains.",
+          "name_english": "Schynige Platte Railway",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Seasonal operation, check timetable in advance."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a hike for a full-day adventure.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 46.6059,
+            "longitude": 8.0201
+          },
+          "address": "Schynige Platte, 3812 Wilderswil, Switzerland",
+          "official_website": "https://www.jungfrau.ch/en-gb/schynige-platte/",
+          "tags": [
+            "Train Journey",
+            "Scenic",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Brandegg railway station.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Brandegg_railway_station.jpg/960px-Brandegg_railway_station.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Brandegg railway station",
+                  "author": "Andrewrabbott",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Brandegg_railway_station.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Brandegg railway station"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "St. Beatus Caves",
+          "ai_summary": "A fascinating cave system near Interlaken, with impressive stalactites, stalagmites, and an underground lake.",
+          "name_english": "St. Beatus Caves",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Last entrance 1 hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Wear sturdy shoes and a jacket.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.6863,
+            "longitude": 7.8632
+          },
+          "address": "St. Beatus-Höhlen, 3800 Interlaken, Switzerland",
+          "official_website": "https://www.beatushoehlen.ch/en/",
+          "tags": [
+            "Caves",
+            "Nature",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BLS AG logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/BLS_AG_logo.svg/800px-BLS_AG_logo.svg.png",
+                "width": 800,
+                "height": 230,
+                "attribution": {
+                  "title": "BLS AG logo",
+                  "author": "™/®BLS AG",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BLS_AG_logo.svg",
+                  "credit": "Vectorised by Vulphere from https://www.bls.ch/assets/media/bls-logo-en.svg",
+                  "usage_terms": "Public domain",
+                  "description": "The logo of BLS AG – Swiss railway company"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Aare Gorge (Aareschlucht)",
+          "ai_summary": "A stunning gorge with a walkway carved into the rock, offering a unique perspective of the Aare River.",
+          "name_english": "Aare Gorge",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "08:40 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Check weather conditions before visiting."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine with a visit to the nearby town of Meiringen.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.6863,
+            "longitude": 8.1996
+          },
+          "address": "Aareschlucht, 3860 Innertkirchen, Switzerland",
+          "official_website": "https://www.aareschlucht.ch/en/",
+          "tags": [
+            "Gorge",
+            "Nature",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aare - Limmat (Limmatspitz) IMG 6765.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Aare_-_Limmat_%28Limmatspitz%29_IMG_6765.jpg/960px-Aare_-_Limmat_%28Limmatspitz%29_IMG_6765.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Aare - Limmat (Limmatspitz) IMG 6765",
+                  "author": "Roland zh",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aare_-_Limmat_(Limmatspitz)_IMG_6765.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Limmatspitz protected area in Vogelsang (Gebenstorf): confluence of the rivers Aare (to the left) and Limmat within the so-called Wasserschloss."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Giessbach Falls & Historic Funicular",
+          "ai_summary": "A beautiful waterfall located near Brienz, accessible by a historic funicular railway.",
+          "name_english": "Giessbach Falls",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "08:55 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Last funicular ride down at 6:00 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Check the funicular schedule in advance.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.6882,
+            "longitude": 8.5689
+          },
+          "address": "Giessbach, 3855 Brienz, Switzerland",
+          "official_website": "https://www.giessbach.ch/en/",
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Historic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:5551-5553 - Brienz - Brienzersee.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/5551-5553_-_Brienz_-_Brienzersee.jpg/960px-5551-5553_-_Brienz_-_Brienzersee.jpg",
+                "width": 800,
+                "height": 254,
+                "attribution": {
+                  "title": "5551-5553 - Brienz - Brienzersee",
+                  "author": "Andrew Bossi",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:5551-5553_-_Brienz_-_Brienzersee.jpg",
+                  "credit": "Own work  This  panoramic image was created with Autostitch (stitched images may differ from reality).",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "Lake Brienz, Brienz, Switzerland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Iseltwald Lakefront Village",
+          "ai_summary": "A picturesque village on the shores of Lake Brienz, known for its beautiful lakefront and mountain views.",
+          "name_english": "Iseltwald",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "08:55 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Ideal for a leisurely stroll or a picnic."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the local shops and try the Swiss chocolate.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.6882,
+            "longitude": 8.5689
+          },
+          "address": "Iseltwald, 3806 Brienz, Switzerland",
+          "official_website": "https://www.iseltwald.ch/en/",
+          "tags": [
+            "Village",
+            "Lakefront",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:5500 - Iseltwald.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/5500_-_Iseltwald.JPG/960px-5500_-_Iseltwald.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "5500 - Iseltwald",
+                  "author": "Andrew Bossi",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:5500_-_Iseltwald.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "Iseltwald, Switzerland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Brienz Rothorn Steam Railway",
+          "ai_summary": "A historic steam railway offering a scenic ride to the summit of Brienz Rothorn, with panoramic views of the Alps.",
+          "name_english": "Brienz Rothorn Steam Railway",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Advance booking recommended in summer."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Enjoy a meal at the mountaintop restaurant.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 46.7494,
+            "longitude": 8.1956
+          },
+          "address": "Brienz Rothorn, 3855 Brienz, Switzerland",
+          "official_website": "https://www.brienz-rothorn-bahn.ch/en/",
+          "tags": [
+            "Train Journey",
+            "Scenic",
+            "Historic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BNerent.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/BNerent.jpg",
+                "width": 660,
+                "height": 440,
+                "attribution": {
+                  "title": "BNerent",
+                  "author": "PrintempsEnRolle",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BNerent.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The Eberhard Berent House at night."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Niederhorn Ridge Hike",
+          "ai_summary": "A popular hiking trail offering stunning views of the Eiger, Mönch, and Jungfrau mountains, as well as Lake Thun.",
+          "name_english": "Niederhorn Ridge Hike",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best hiked from June to October."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Early morning",
+          "place_tip": "Take the cable car to save time and energy.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.6937,
+            "longitude": 7.7356
+          },
+          "address": "Niederhorn, 3656 Oberried, Switzerland",
+          "official_website": "https://www.niederhorn.ch/en/",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CHE Bern COA.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/CHE_Bern_COA.svg/800px-CHE_Bern_COA.svg.png",
+                "width": 800,
+                "height": 969,
+                "attribution": {
+                  "title": "CHE Bern COA",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CHE_Bern_COA.svg",
+                  "credit": "Schweizer Armee (2007)       Reglement 51.340 d: Der Umgang mit Fahnen, Standarten und Fanions (Fahnenreglement). Archived from the original on 6 November 2011. Retrieved on 12 September 2023. \nDie Wappen der Schweiz, Heft 5, Nr. 12], Feldmeilen ZH: Verlag Kaffee Hag, o.J.",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lauterbrunnen Valley & Waterfalls",
+          "ai_summary": "A stunning valley known for its 72 waterfalls, picturesque villages, and breathtaking mountain scenery.",
+          "name_english": "Lauterbrunnen Valley",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "08:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Ideal for hiking and photography."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the Trümmelbach Falls inside the valley.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5953,
+            "longitude": 7.9074
+          },
+          "address": "Lauterbrunnen, 3822 Lauterbrunnen, Switzerland",
+          "official_website": "https://www.lauterbrunnen.swiss/en/",
+          "tags": [
+            "Valley",
+            "Waterfalls",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Grindelwald First Cliff Walk",
+          "ai_summary": "A thrilling cliff walk in Grindelwald, offering stunning views of the Eiger and the surrounding mountains.",
+          "name_english": "Grindelwald First Cliff Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:45 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Weather permitting, check before you go."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the Bachalpsee.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 46.6184,
+            "longitude": 8.0341
+          },
+          "address": "Grindelwald, 3818 Grindelwald, Switzerland",
+          "official_website": "https://www.jungfrau.ch/en-gb/grindelwald-first/",
+          "tags": [
+            "Cliff Walk",
+            "Scenic",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bahnhof Grindelwald Grund, OSM map 2022.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Bahnhof_Grindelwald_Grund%2C_OSM_map_2022.png/800px-Bahnhof_Grindelwald_Grund%2C_OSM_map_2022.png",
+                "width": 800,
+                "height": 406,
+                "attribution": {
+                  "title": "Bahnhof Grindelwald Grund, OSM map 2022",
+                  "author": "OpenStreetMap contributors",
+                  "license": "ODbL",
+                  "license_url": "http://opendatacommons.org/licenses/odbl/1.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bahnhof_Grindelwald_Grund,_OSM_map_2022.png",
+                  "credit": "OpenStreetMap",
+                  "usage_terms": "Open Database License",
+                  "description": "Grindelwald Grund railway station: map of the reversing station in Grindelwald, canton of Bern, Switzerland. Top of the map is NE. North is at 305°."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mürren & Schilthorn (Piz Gloria)",
+          "ai_summary": "A visit to the car-free village of Mürren and the Schilthorn summit, famous for its revolving restaurant and James Bond film location.",
+          "name_english": "Mürren & Schilthorn",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45 AM",
+          "sunset_time": "09:00 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Revolving restaurant requires reservation."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Early morning",
+          "place_tip": "Take the cable car to Schilthorn for stunning views.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 46.5914,
+            "longitude": 7.8472
+          },
+          "address": "Mürren, 3825 Lauterbrunnen, Switzerland",
+          "official_website": "https://www.schilthorn.ch/en/",
+          "tags": [
+            "Mountain",
+            "Scenic",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1 Mürren 2022.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/1_M%C3%BCrren_2022.jpg/960px-1_M%C3%BCrren_2022.jpg",
+                "width": 800,
+                "height": 515,
+                "attribution": {
+                  "title": "1 Mürren 2022",
+                  "author": "Chensiyuan",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1_Mürren_2022.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Mürren, village Gimmelwald, valley Sefiental and mountain Spitzhoren with Tanzbedeli."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Wengen & Männlichen Hike",
+          "ai_summary": "A scenic hike from Wengen to Männlichen, offering stunning views of the Lauterbrunnen Valley and the Eiger.",
+          "name_english": "Wengen & Männlichen Hike",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best from late spring to early autumn."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take the cable car from Wengen to save time.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.6528,
+            "longitude": 7.9086
+          },
+          "address": "Wengen, 3823 Lauterbrunnen, Switzerland",
+          "official_website": "https://www.wengen.ch/en/",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Paragliding Tandem Flight",
+          "ai_summary": "Experience the thrill of paragliding with a tandem flight, enjoying breathtaking views of the Swiss Alps.",
+          "name_english": "Paragliding Tandem Flight",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Weather dependent, book in advance."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable clothing and closed shoes.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 46.6863,
+            "longitude": 7.8632
+          },
+          "address": "Interlaken, 3800 Interlaken, Switzerland",
+          "official_website": "https://www.paragliding-interlaken.ch/en/",
+          "tags": [
+            "Adventure",
+            "Scenic",
+            "Thrill"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BLS AG logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/BLS_AG_logo.svg/800px-BLS_AG_logo.svg.png",
+                "width": 800,
+                "height": 230,
+                "attribution": {
+                  "title": "BLS AG logo",
+                  "author": "™/®BLS AG",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BLS_AG_logo.svg",
+                  "credit": "Vectorised by Vulphere from https://www.bls.ch/assets/media/bls-logo-en.svg",
+                  "usage_terms": "Public domain",
+                  "description": "The logo of BLS AG – Swiss railway company"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Heimwehfluh Funicular",
+          "ai_summary": "A funicular ride to Heimwehfluh, offering panoramic views of Interlaken and the surrounding mountains.",
+          "name_english": "Heimwehfluh Funicular",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "9:00 AM - 6:00 PM",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Last ride down at 6:00 PM."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Enjoy a meal at the mountaintop restaurant.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.6863,
+            "longitude": 7.8632
+          },
+          "address": "Heimwehfluh, 3800 Interlaken, Switzerland",
+          "official_website": "https://www.heimwehfluh.ch/en/",
+          "tags": [
+            "Funicular",
+            "Viewpoint",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BLS AG logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/BLS_AG_logo.svg/800px-BLS_AG_logo.svg.png",
+                "width": 800,
+                "height": 230,
+                "attribution": {
+                  "title": "BLS AG logo",
+                  "author": "™/®BLS AG",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BLS_AG_logo.svg",
+                  "credit": "Vectorised by Vulphere from https://www.bls.ch/assets/media/bls-logo-en.svg",
+                  "usage_terms": "Public domain",
+                  "description": "The logo of BLS AG – Swiss railway company"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Unspunnen Castle Ruins",
+          "ai_summary": "The ruins of a historic castle offering panoramic views of the surrounding area, including Lake Thun.",
+          "name_english": "Unspunnen Castle Ruins",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Combine with a visit to the nearby town of Unterseen.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.6863,
+            "longitude": 7.8632
+          },
+          "address": "Unspunnen, 3800 Interlaken, Switzerland",
+          "official_website": "https://www.unspunnen.ch/en/",
+          "tags": [
+            "Castle Ruins",
+            "History",
+            "Viewpoint"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2011-07-22 Berna Oberlando (Foto Dietrich Michael Weidmann) 125.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/2011-07-22_Berna_Oberlando_%28Foto_Dietrich_Michael_Weidmann%29_125.JPG/960px-2011-07-22_Berna_Oberlando_%28Foto_Dietrich_Michael_Weidmann%29_125.JPG",
+                "width": 800,
+                "height": 536,
+                "attribution": {
+                  "title": "2011-07-22 Berna Oberlando (Foto Dietrich Michael Weidmann) 125",
+                  "author": "Dietrich Michael Weidmann",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2011-07-22_Berna_Oberlando_(Foto_Dietrich_Michael_Weidmann)_125.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Därligen, Leissigen, Unterseen and Interlaken, canton of Bern, Switzerland"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Unterseen Old Town",
+          "ai_summary": "The charming old town of Unterseen, with its well-preserved medieval buildings and picturesque streets.",
+          "name_english": "Unterseen Old Town",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Ideal for a leisurely stroll."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the local shops and cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.6863,
+            "longitude": 7.8632
+          },
+          "address": "Unterseen, 3800 Interlaken, Switzerland",
+          "official_website": "https://www.unterseen.ch/en/",
+          "tags": [
+            "Old Town",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2011-07-22 Berna Oberlando (Foto Dietrich Michael Weidmann) 125.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/2011-07-22_Berna_Oberlando_%28Foto_Dietrich_Michael_Weidmann%29_125.JPG/960px-2011-07-22_Berna_Oberlando_%28Foto_Dietrich_Michael_Weidmann%29_125.JPG",
+                "width": 800,
+                "height": 536,
+                "attribution": {
+                  "title": "2011-07-22 Berna Oberlando (Foto Dietrich Michael Weidmann) 125",
+                  "author": "Dietrich Michael Weidmann",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2011-07-22_Berna_Oberlando_(Foto_Dietrich_Michael_Weidmann)_125.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Därligen, Leissigen, Unterseen and Interlaken, canton of Bern, Switzerland"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -94,7 +94,7 @@ const SettlementHistory = forwardRef(({ groupId, totalExpenses }, ref) => {
       </div>
 
       {isExpanded && (
-        <div style={{ animation: 'slideDown 0.3s ease-out' }}>
+        <div className="settlement-content">
           {loading ? (
             <div className="loading-state">
               <div className="spinner"></div>

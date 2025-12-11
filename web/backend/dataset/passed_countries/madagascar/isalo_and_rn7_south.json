@@ -1,0 +1,926 @@
+{
+  "country": "Madagascar",
+  "state": "Isalo And Rn7 South",
+  "cities": [
+    {
+      "city": "Ranohira",
+      "nearest_airport": "Toliara Airport",
+      "places": [
+        {
+          "name": "Isalo National Park Visitor Centre",
+          "ai_summary": "A gateway to the stunning Isalo National Park, offering insights into its unique biodiversity and geological formations.",
+          "name_english": "Isalo National Park Visitor Centre",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "April to October",
+          "place_tip": "Start your visit here to plan your park exploration.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.6215,
+            "longitude": 45.4019
+          },
+          "address": "Ranohira, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Education"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Canyon des Makis & Canyon des Rats",
+          "ai_summary": "Explore two breathtaking canyons with unique flora and fauna, perfect for adventurous hikes.",
+          "name_english": "Canyon of Makis and Rats",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "05:45",
+          "sunset_time": null,
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "4 hours",
+          "best_time_to_visit": "May to September",
+          "place_tip": "Wear sturdy shoes for the hike.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -22.6198,
+            "longitude": 45.3921
+          },
+          "address": "Isalo National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Adventure",
+            "Hiking",
+            "Nature"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.818
+        },
+        {
+          "name": "Piscine Naturelle (Natural Pool)",
+          "ai_summary": "A beautiful natural swimming pool in the heart of Isalo National Park, ideal for a refreshing dip.",
+          "name_english": "Natural Pool",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Best visited during the dry season."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Bring your swimsuit and a towel.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.6153,
+            "longitude": 45.3912
+          },
+          "address": "Isalo National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Photography"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Isalo_National_Park_Madagascar.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Isalo_National_Park_Madagascar.jpg/960px-Isalo_National_Park_Madagascar.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Isalo National Park Madagascar",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:JialiangGao\" title=\"User:JialiangGao\">JialiangGao</a> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.peace-on-earth.org\">www.peace-on-earth.org</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Isalo_National_Park_Madagascar.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "A canyon at the Isalo National Park (Parc National d'Isalo), Madagascar"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "La Fenêtre d’Isalo (Window of Isalo)",
+          "ai_summary": "A natural rock formation resembling a window, offering stunning views of the Isalo landscape.",
+          "name_english": "Window of Isalo",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Best viewed at sunrise or sunset."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "April to October",
+          "place_tip": "Carry water and a camera.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.6174,
+            "longitude": 45.3962
+          },
+          "address": "Isalo National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Hiking"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Namaza Circuit (Waterfalls & Oases)",
+          "ai_summary": "A scenic circuit featuring waterfalls and oases, showcasing the diverse ecosystems of Isalo.",
+          "name_english": "Namaza Circuit",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:50",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Guided tours recommended."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "May to September",
+          "place_tip": "Take a picnic to enjoy at one of the oases.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -22.6101,
+            "longitude": 45.3987
+          },
+          "address": "Isalo National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Nature",
+            "Waterfalls",
+            "Hiking"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Tapia Forests & Sapphire Plains",
+          "ai_summary": "Discover the unique Tapia forests and the stunning sapphire plains, a true natural wonder.",
+          "name_english": "Tapia Forests and Sapphire Plains",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "05:50",
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "April to November",
+          "place_tip": "Look out for the unique wildlife in the forests.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.6056,
+            "longitude": 45.4041
+          },
+          "address": "Isalo National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.83
+        },
+        {
+          "name": "Zombitse–Vohibasia National Park (Transit Stop)",
+          "ai_summary": "A transit stop at the Zombitse–Vohibasia National Park, known for its biodiversity and unique landscapes.",
+          "name_english": "Zombitse–Vohibasia National Park",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:10",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "April to October",
+          "place_tip": "A great spot for birdwatching.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -22.3533,
+            "longitude": 46.9497
+          },
+          "address": "Near Isalo National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Borne_routière_Madagascar.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Borne_routi%C3%A8re_Madagascar.jpg/960px-Borne_routi%C3%A8re_Madagascar.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Borne routière Madagascar",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Borne_routi%C3%A8re_Madagascar.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Milestone in Madagascar"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Ilakaka Sapphire Mines (Viewpoint & Shops)",
+          "ai_summary": "Visit the Ilakaka Sapphire Mines to see the mining process and shop for beautiful sapphires.",
+          "name_english": "Ilakaka Sapphire Mines",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Bargain for sapphires at the shops.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.3833,
+            "longitude": 46.9333
+          },
+          "address": "Ilakaka, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Shopping",
+            "Culture",
+            "Nature"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.698
+        },
+        {
+          "name": "Andringitra NP (Pic Boby, via RN7 detour)",
+          "ai_summary": "A detour to Andringitra National Park to see Pic Boby, the second-highest peak in Madagascar.",
+          "name_english": "Andringitra National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:40",
+          "sunset_time": "18:40",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Guided tours recommended."
+          },
+          "suggested_duration": "5-6 hours",
+          "best_time_to_visit": "April to November",
+          "place_tip": "Prepare for a challenging hike to Pic Boby.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -22.3912,
+            "longitude": 46.8253
+          },
+          "address": "Andringitra National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Adventure",
+            "Hiking",
+            "Nature"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.858
+        },
+        {
+          "name": "Anja Community Reserve (Ring-Tailed Lemurs)",
+          "ai_summary": "A community-managed reserve where you can see ring-tailed lemurs in their natural habitat.",
+          "name_english": "Anja Community Reserve",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:20",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "07:00-17:00",
+            "Tuesday": "07:00-17:00",
+            "Wednesday": "07:00-17:00",
+            "Thursday": "07:00-17:00",
+            "Friday": "07:00-17:00",
+            "Saturday": "07:00-17:00",
+            "Sunday": "07:00-17:00",
+            "notes": "Best time to see lemurs is early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Support the local community by purchasing handicrafts.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.4081,
+            "longitude": 46.9653
+          },
+          "address": "Anja, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Wildlife",
+            "Culture",
+            "Nature"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Borne_routière_Madagascar.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Borne_routi%C3%A8re_Madagascar.jpg/960px-Borne_routi%C3%A8re_Madagascar.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Borne routière Madagascar",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Borne_routi%C3%A8re_Madagascar.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Milestone in Madagascar"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Ambalavao Paper Workshops (Antaimoro Paper)",
+          "ai_summary": "Visit the paper workshops in Ambalavao to see the traditional Antaimoro paper-making process.",
+          "name_english": "Ambalavao Paper Workshops",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Purchase some Antaimoro paper as a souvenir.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.1006,
+            "longitude": 46.9908
+          },
+          "address": "Ambalavao, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Culture",
+            "Shopping",
+            "Education"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Town_Centre_Ambalavao_Madagascar.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Town_Centre_Ambalavao_Madagascar.jpg/900px-Town_Centre_Ambalavao_Madagascar.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Town Centre Ambalavao Madagascar",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:JialiangGao\" title=\"User:JialiangGao\">JialiangGao</a> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.peace-on-earth.org\">www.peace-on-earth.org</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Town_Centre_Ambalavao_Madagascar.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The town centre of Ambalavao, Madagascar, as of November 2007."
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Betsileo Highlands Terraces",
+          "ai_summary": "Stunning terraced highlands created by the Betsileo people, offering a glimpse into the agricultural practices of Madagascar.",
+          "name_english": "Betsileo Highlands Terraces",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:35",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best viewed in the morning or late afternoon."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "April to November",
+          "place_tip": "Respect the local customs and traditions.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.2,
+            "longitude": 46.9
+          },
+          "address": "Near Fianarantsoa, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Culture",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Riziere_terrasses.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Riziere_terrasses.JPG/960px-Riziere_terrasses.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Riziere terrasses",
+                  "author": "Marius CONJEAUD",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Riziere_terrasses.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Rizière en terrasses à Madagascar"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Ihosy & Horombe Plateau Lookouts",
+          "ai_summary": "Scenic lookouts offering panoramic views of the Ihosy and Horombe plateaus, showcasing the unique landscapes of Madagascar.",
+          "name_english": "Ihosy and Horombe Plateau Lookouts",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:55",
+          "sunset_time": "18:35",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best visited at sunrise or sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "April to October",
+          "place_tip": "Bring a picnic to enjoy at the lookout.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.45,
+            "longitude": 46.75
+          },
+          "address": "Near Ihosy, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Relaxation"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.77
+        },
+        {
+          "name": "Ranohira Village Sunset Point",
+          "ai_summary": "A popular sunset viewpoint in Ranohira village, offering stunning views of the surrounding landscapes.",
+          "name_english": "Ranohira Village Sunset Point",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:40",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best visited in the evening."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "April to October",
+          "place_tip": "Arrive early to secure a good spot.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.621,
+            "longitude": 45.401
+          },
+          "address": "Ranohira, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Photography",
+            "Relaxation",
+            "Nature"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Ring-Tailed Lemur Troops at Dawn",
+          "ai_summary": "Experience the unique opportunity to see ring-tailed lemurs at dawn in their natural habitat.",
+          "name_english": "Ring-Tailed Lemur Troops at Dawn",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "05:30",
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best time to see lemurs is early morning."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Be quiet and patient for the best viewing experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.62,
+            "longitude": 45.402
+          },
+          "address": "Isalo National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Wildlife",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.798
+        },
+        {
+          "name": "Sandstone Formations Photo Spots",
+          "ai_summary": "Various spots in Isalo National Park offer stunning views of unique sandstone formations, perfect for photography.",
+          "name_english": "Sandstone Formations",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:35",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "April to November",
+          "place_tip": "Explore different angles for unique photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.615,
+            "longitude": 45.399
+          },
+          "address": "Isalo National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Photography",
+            "Nature",
+            "Hiking"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1_tianzishan_wulingyuan_zhangjiajie_2012.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/1_tianzishan_wulingyuan_zhangjiajie_2012.jpg/960px-1_tianzishan_wulingyuan_zhangjiajie_2012.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "1 tianzishan wulingyuan zhangjiajie 2012",
+                  "author": "chensiyuan",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1_tianzishan_wulingyuan_zhangjiajie_2012.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Panoramic view from Mount Tianzi Shan, Wulingyuan Zhangjiajie hunan China tujia miao 2012"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Satra Waterfall Pools",
+          "ai_summary": "Natural pools located at the Satra Waterfall, ideal for a refreshing swim in a picturesque setting.",
+          "name_english": "Satra Waterfall Pools",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Best visited during the dry season."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Bring your swimsuit and a picnic.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.6125,
+            "longitude": 45.3975
+          },
+          "address": "Isalo National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Photography"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Traditional Bara Culture Encounters",
+          "ai_summary": "Experience the traditional culture of the Bara people, including their unique customs and lifestyle.",
+          "name_english": "Traditional Bara Culture Encounters",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:50",
+          "cost": "Donation",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "07:00-17:00",
+            "Tuesday": "07:00-17:00",
+            "Wednesday": "07:00-17:00",
+            "Thursday": "07:00-17:00",
+            "Friday": "07:00-17:00",
+            "Saturday": "07:00-17:00",
+            "Sunday": "07:00-17:00",
+            "notes": "Respect local customs and traditions."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Ask questions and engage with the locals.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.6205,
+            "longitude": 45.4035
+          },
+          "address": "Isalo National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Culture",
+            "Nature",
+            "Education"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "RN7 Roadside Baobabs (South Section)",
+          "ai_summary": "Iconic baobab trees lining the RN7 road, a must-see for visitors traveling through the region.",
+          "name_english": "RN7 Roadside Baobabs",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:40",
+          "sunset_time": "18:55",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best viewed in the morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "April to November",
+          "place_tip": "Take a detour to explore the area around the baobabs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.6,
+            "longitude": 45.4
+          },
+          "address": "Near Isalo National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Hiking"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.862
+        },
+        {
+          "name": "Golden Hour across Isalo Massif",
+          "ai_summary": "Witness the breathtaking golden hour views across the Isalo Massif, a photographer's paradise.",
+          "name_english": "Golden Hour across Isalo Massif",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best experienced at sunrise or sunset."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "April to October",
+          "place_tip": "Bring a camera and a tripod for photography.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -22.615,
+            "longitude": 45.405
+          },
+          "address": "Isalo National Park, Madagascar",
+          "official_website": "https://www.parksmadagascar.com",
+          "tags": [
+            "Photography",
+            "Nature",
+            "Hiking"
+          ],
+          "state": "Isalo And Rn7 South",
+          "photos": {},
+          "rank_score": 0.798
+        }
+      ]
+    }
+  ]
+}

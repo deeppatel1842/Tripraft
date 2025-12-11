@@ -1,0 +1,1212 @@
+{
+  "country": "Belgium",
+  "state": "Namur",
+  "cities": [
+    {
+      "city": "Namur",
+      "nearest_airport": "Brussels South Charleroi Airport (CRL)",
+      "places": [
+        {
+          "name": "Citadel of Namur (Fortress & Viewpoint)",
+          "ai_summary": "The Citadel of Namur is a historic fortress offering panoramic views of the city and the Meuse River. Visitors can explore its tunnels, museums, and enjoy the scenic cable car ride.",
+          "name_english": "Citadel of Namur",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00-18:00",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Hours may vary during winter months."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Take the cable car for a unique perspective of the fortress.",
+          "advanced_booking": "Recommended for guided tours",
+          "coordinates": {
+            "latitude": 50.4619,
+            "longitude": 4.8642
+          },
+          "address": "Route Merveilleuse, 5000 Namur, Belgium",
+          "official_website": "https://www.citadelle.namur.be/",
+          "tags": [
+            "Landmark",
+            "History",
+            "Viewpoint",
+            "Fortress"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:01-Namur-290305 (3).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/01-Namur-290305_%283%29.jpg/960px-01-Namur-290305_%283%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "01-Namur-290305 (3)",
+                  "author": "Jean-Pol GRANDMONT",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:01-Namur-290305_(3).jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Namur (Belgium), the Meuse river, the Jambes' bridge and the citadel."
+                }
+              }
+            }
+          },
+          "rank_score": 0.801
+        },
+        {
+          "name": "Old Town Namur",
+          "ai_summary": "Old Town Namur is a charming area filled with cobblestone streets, historic buildings, and quaint shops. It is the perfect place to explore the city’s rich history and culture.",
+          "name_english": "Old Town Namur",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the local cafes and boutiques for a unique experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.4674,
+            "longitude": 4.871
+          },
+          "address": "Old Town, 5000 Namur, Belgium",
+          "official_website": "https://www.visitnamur.eu/en/old-town",
+          "tags": [
+            "Culture",
+            "History",
+            "Shopping",
+            "Walking"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Namur 1745.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Namur_1745.jpg/960px-Namur_1745.jpg",
+                "width": 800,
+                "height": 671,
+                "attribution": {
+                  "title": "Namur 1745",
+                  "author": "Jean Covens + Corneille Mortier",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Namur_1745.jpg",
+                  "credit": "old hand colored map",
+                  "usage_terms": "Public domain",
+                  "description": "Map of the Namur Fortress in 1745"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7915
+        },
+        {
+          "name": "St. Aubin’s Cathedral",
+          "ai_summary": "St. Aubin’s Cathedral is a stunning example of Gothic architecture, known for its intricate stained glass windows and impressive organ. It’s a peaceful place to admire art and architecture.",
+          "name_english": "St. Aubin’s Cathedral",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Check for mass times and special events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don’t miss the chance to hear the organ concert if available.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.4654,
+            "longitude": 4.8718
+          },
+          "address": "Place de l'Ancienne Barrière, 5000 Namur, Belgium",
+          "official_website": "https://www.cathedralenamur.be/",
+          "tags": [
+            "Religion",
+            "Architecture",
+            "History",
+            "Art"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Belgium provinces regions striped.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Belgium_provinces_regions_striped.svg/960px-Belgium_provinces_regions_striped.svg.png",
+                "width": 800,
+                "height": 655,
+                "attribution": {
+                  "title": "Belgium provinces regions striped",
+                  "author": "Jules Rohault",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Belgium_provinces_regions_striped.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Map of Belgium showing the provinces (black lines), regions and communities (colors). Yellow: Flanders, red &amp; blue: Wallonia, orange: Brussels-Capital region, yellow &amp; orange: dutch-speaking community, red &amp; orange: french-speaking community, blue: german-speaking community. Adapted to svg from File:Belgium provinces regions striped.png"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7697
+        },
+        {
+          "name": "Namur Archaeological Museum",
+          "ai_summary": "The Namur Archaeological Museum showcases artifacts from the region’s rich history, including Roman and medieval times. It’s a great place to learn about the area’s past.",
+          "name_english": "Namur Archaeological Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Free admission on the first Sunday of the month."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Check out the museum shop for unique souvenirs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.4651,
+            "longitude": 4.8722
+          },
+          "address": "Rue des Carmes, 5000 Namur, Belgium",
+          "official_website": "https://www.musee-archeologienamur.be/",
+          "tags": [
+            "Museum",
+            "History",
+            "Archaeology",
+            "Culture"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Belgium provinces regions striped.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Belgium_provinces_regions_striped.svg/960px-Belgium_provinces_regions_striped.svg.png",
+                "width": 800,
+                "height": 655,
+                "attribution": {
+                  "title": "Belgium provinces regions striped",
+                  "author": "Jules Rohault",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Belgium_provinces_regions_striped.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Map of Belgium showing the provinces (black lines), regions and communities (colors). Yellow: Flanders, red &amp; blue: Wallonia, orange: Brussels-Capital region, yellow &amp; orange: dutch-speaking community, red &amp; orange: french-speaking community, blue: german-speaking community. Adapted to svg from File:Belgium provinces regions striped.png"
+                }
+              }
+            }
+          },
+          "rank_score": 0.753
+        },
+        {
+          "name": "Parlement de Wallonie",
+          "ai_summary": "The Parlement de Wallonie is the regional parliament of Wallonia, located in a beautiful historic building. Guided tours are available to learn about the political history and functions.",
+          "name_english": "Parlement de Wallonie",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Advance booking required for guided tours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the hemicycle (chamber) where the parliament meets.",
+          "advanced_booking": "Required for guided tours",
+          "coordinates": {
+            "latitude": 50.4658,
+            "longitude": 4.8711
+          },
+          "address": "Rue de la Loi 1, 5000 Namur, Belgium",
+          "official_website": "https://www.parlement-wallonie.be/",
+          "tags": [
+            "Politics",
+            "History",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7402
+        },
+        {
+          "name": "Musée Félicien Rops",
+          "ai_summary": "This museum is dedicated to the works of Félicien Rops, a Belgian artist known for his provocative and imaginative art. The museum is located in the artist’s former home.",
+          "name_english": "Musée Félicien Rops",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Check for temporary exhibitions."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Join a guided tour for detailed insights into the artworks.",
+          "advanced_booking": "Recommended for guided tours",
+          "coordinates": {
+            "latitude": 50.4652,
+            "longitude": 4.872
+          },
+          "address": "Rue des Brasseurs 8, 5000 Namur, Belgium",
+          "official_website": "https://www.museerops.be/",
+          "tags": [
+            "Museum",
+            "Art",
+            "Culture",
+            "History"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Elysette Namur nuit 2005-03-19.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Elysette_Namur_nuit_2005-03-19.jpg/960px-Elysette_Namur_nuit_2005-03-19.jpg",
+                "width": 800,
+                "height": 595,
+                "attribution": {
+                  "title": "Elysette Namur nuit 2005-03-19",
+                  "author": "Nicnac25",
+                  "license": "CC BY-SA 2.0 be",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/be/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Elysette_Namur_nuit_2005-03-19.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0 be",
+                  "description": "Elysette Namur, Belgium, by night"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7355
+        },
+        {
+          "name": "Meuse River Cruise",
+          "ai_summary": "A cruise on the Meuse River offers a relaxing way to see the sights of Namur from the water. Various cruise options are available, including dinner cruises.",
+          "name_english": "Meuse River Cruise",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:00",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Advance booking recommended, especially for dinner cruises."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Bring a camera to capture the beautiful riverside views.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 50.4671,
+            "longitude": 4.8723
+          },
+          "address": "Quai des Forges, 5000 Namur, Belgium",
+          "official_website": "https://www.cruise-namur.be/",
+          "tags": [
+            "Cruise",
+            "River",
+            "Sightseeing",
+            "Relaxation"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Namur 1745.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Namur_1745.jpg/960px-Namur_1745.jpg",
+                "width": 800,
+                "height": 671,
+                "attribution": {
+                  "title": "Namur 1745",
+                  "author": "Jean Covens + Corneille Mortier",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Namur_1745.jpg",
+                  "credit": "old hand colored map",
+                  "usage_terms": "Public domain",
+                  "description": "Map of the Namur Fortress in 1745"
+                }
+              }
+            }
+          },
+          "rank_score": 0.741
+        },
+        {
+          "name": "Namur Train Station District",
+          "ai_summary": "The area around Namur Train Station is bustling with activity, featuring shops, cafes, and easy access to public transport. It’s a convenient base for exploring the city and beyond.",
+          "name_english": "Namur Train Station District",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Safe and busy area with lots of amenities."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Great place to grab a quick bite or do some shopping.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.465,
+            "longitude": 4.8715
+          },
+          "address": "Gare de Namur, 5000 Namur, Belgium",
+          "official_website": "https://www.namurtrainstation.be/",
+          "tags": [
+            "Transport",
+            "Shopping",
+            "Dining",
+            "Convenience"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Belgium provinces regions striped.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Belgium_provinces_regions_striped.svg/960px-Belgium_provinces_regions_striped.svg.png",
+                "width": 800,
+                "height": 655,
+                "attribution": {
+                  "title": "Belgium provinces regions striped",
+                  "author": "Jules Rohault",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Belgium_provinces_regions_striped.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Map of Belgium showing the provinces (black lines), regions and communities (colors). Yellow: Flanders, red &amp; blue: Wallonia, orange: Brussels-Capital region, yellow &amp; orange: dutch-speaking community, red &amp; orange: french-speaking community, blue: german-speaking community. Adapted to svg from File:Belgium provinces regions striped.png"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7117
+        },
+        {
+          "name": "Eglise Saint-Loup (Baroque Interior)",
+          "ai_summary": "Eglise Saint-Loup is a stunning Baroque church known for its elaborate interior and beautiful altar. It’s a hidden gem in Namur’s religious architecture.",
+          "name_english": "Eglise Saint-Loup",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Best visited during weekdays."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Look out for the detailed sculptures and paintings.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.4656,
+            "longitude": 4.8721
+          },
+          "address": "Rue de l'Eglise, 5000 Namur, Belgium",
+          "official_website": "https://www.saint-loup.be/",
+          "tags": [
+            "Religion",
+            "Architecture",
+            "History",
+            "Art"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Canadian Red Ensign (1868–1921).svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Flag_of_Canada_%281868%E2%80%931921%29.svg/960px-Flag_of_Canada_%281868%E2%80%931921%29.svg.png",
+                "width": 800,
+                "height": 400,
+                "attribution": {
+                  "title": "Flag of Canada (1868–1921)",
+                  "author": "Greentubing~commonswiki",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Canadian_Red_Ensign_(1868–1921).svg",
+                  "credit": "This vector image includes elements that have been taken or adapted from this file:",
+                  "usage_terms": "Public domain",
+                  "description": "The Canadian Red Ensign used between 1868 to 1921."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7443
+        },
+        {
+          "name": "Pont de Jambes Bridge",
+          "ai_summary": "The Pont de Jambes is a historic bridge offering picturesque views of the Meuse River and the city. It’s a great spot for photos and leisurely walks.",
+          "name_english": "Pont de Jambes Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "19:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit at sunset for a stunning view.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.4678,
+            "longitude": 4.8712
+          },
+          "address": "Pont de Jambes, 5000 Namur, Belgium",
+          "official_website": "https://www.visitnamur.eu/en/pont-de-jambes",
+          "tags": [
+            "Bridge",
+            "Viewpoint",
+            "Photography",
+            "Walking"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Canadian Red Ensign (1868–1921).svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Flag_of_Canada_%281868%E2%80%931921%29.svg/960px-Flag_of_Canada_%281868%E2%80%931921%29.svg.png",
+                "width": 800,
+                "height": 400,
+                "attribution": {
+                  "title": "Flag of Canada (1868–1921)",
+                  "author": "Greentubing~commonswiki",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Canadian_Red_Ensign_(1868–1921).svg",
+                  "credit": "This vector image includes elements that have been taken or adapted from this file:",
+                  "usage_terms": "Public domain",
+                  "description": "The Canadian Red Ensign used between 1868 to 1921."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7708
+        },
+        {
+          "name": "Parc Louise-Marie",
+          "ai_summary": "Parc Louise-Marie is a beautiful park in the city center, perfect for a relaxing stroll or a picnic. The park features lovely gardens, fountains, and statues.",
+          "name_english": "Parc Louise-Marie",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "07:00-21:00",
+            "Tuesday": "07:00-21:00",
+            "Wednesday": "07:00-21:00",
+            "Thursday": "07:00-21:00",
+            "Friday": "07:00-21:00",
+            "Saturday": "07:00-21:00",
+            "Sunday": "07:00-21:00",
+            "notes": "Gates close at 21:00, park opens at 07:00."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Bring a book and enjoy the peaceful atmosphere.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.4653,
+            "longitude": 4.8724
+          },
+          "address": "Parc Louise-Marie, 5000 Namur, Belgium",
+          "official_website": "https://www.visitnamur.eu/en/parc-louise-marie",
+          "tags": [
+            "Park",
+            "Nature",
+            "Relaxation",
+            "Walking"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7765
+        },
+        {
+          "name": "Terra Nova Visitor Centre",
+          "ai_summary": "The Terra Nova Visitor Centre offers interactive exhibits and information about the Meuse River and its ecosystem. It’s an educational stop for visitors of all ages.",
+          "name_english": "Terra Nova Visitor Centre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Check for special events and workshops."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Participate in a workshop for a hands-on experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.4675,
+            "longitude": 4.873
+          },
+          "address": "Rue de la Meuse, 5000 Namur, Belgium",
+          "official_website": "https://www.terranova-namur.be/",
+          "tags": [
+            "Education",
+            "Nature",
+            "Interactive",
+            "Family"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Canadian Red Ensign (1868–1921).svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Flag_of_Canada_%281868%E2%80%931921%29.svg/960px-Flag_of_Canada_%281868%E2%80%931921%29.svg.png",
+                "width": 800,
+                "height": 400,
+                "attribution": {
+                  "title": "Flag of Canada (1868–1921)",
+                  "author": "Greentubing~commonswiki",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Canadian_Red_Ensign_(1868–1921).svg",
+                  "credit": "This vector image includes elements that have been taken or adapted from this file:",
+                  "usage_terms": "Public domain",
+                  "description": "The Canadian Red Ensign used between 1868 to 1921."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7162
+        },
+        {
+          "name": "Place d’Armes Square",
+          "ai_summary": "Place d’Armes is a historic square in the heart of Namur, surrounded by impressive buildings and lively cafes. It’s a great place to relax and people-watch.",
+          "name_english": "Place d’Armes Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed at a leisurely pace."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Try the local pastries at a nearby cafe.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.4659,
+            "longitude": 4.872
+          },
+          "address": "Place d'Armes, 5000 Namur, Belgium",
+          "official_website": "https://www.visitnamur.eu/en/place-d-armes",
+          "tags": [
+            "Square",
+            "History",
+            "Culture",
+            "Relaxation"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Canadian Red Ensign (1868–1921).svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Flag_of_Canada_%281868%E2%80%931921%29.svg/960px-Flag_of_Canada_%281868%E2%80%931921%29.svg.png",
+                "width": 800,
+                "height": 400,
+                "attribution": {
+                  "title": "Flag of Canada (1868–1921)",
+                  "author": "Greentubing~commonswiki",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Canadian_Red_Ensign_(1868–1921).svg",
+                  "credit": "This vector image includes elements that have been taken or adapted from this file:",
+                  "usage_terms": "Public domain",
+                  "description": "The Canadian Red Ensign used between 1868 to 1921."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7707
+        },
+        {
+          "name": "Namur Bell Tower (UNESCO)",
+          "ai_summary": "The Namur Bell Tower is a UNESCO-listed belfry, known for its distinctive architecture and historical significance. Visitors can climb the tower for a panoramic view of the city.",
+          "name_english": "Namur Bell Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "19:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00-17:00",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Last admission one hour before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Spring and Autumn",
+          "place_tip": "Visit early in the morning to avoid crowds.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 50.4665,
+            "longitude": 4.8719
+          },
+          "address": "Rue du Beffroi, 5000 Namur, Belgium",
+          "official_website": "https://www.belfriesofbelgium.be/",
+          "tags": [
+            "UNESCO",
+            "Landmark",
+            "History",
+            "Viewpoint"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Belgium location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Belgium_location_map.svg/960px-Belgium_location_map.svg.png",
+                "width": 800,
+                "height": 696,
+                "attribution": {
+                  "title": "Belgium location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Belgium_location_map.svg",
+                  "credit": "Own work (Original text: own work, using United States National Imagery and Mapping Agency data)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Location map of Belgium"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7862
+        },
+        {
+          "name": "Namur Cable Car",
+          "ai_summary": "The Namur Cable Car provides a scenic and leisurely way to reach the Citadel from the city. The ride offers beautiful views of the Meuse River and the surrounding area.",
+          "name_english": "Namur Cable Car",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Weather permitting, check for updates."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Combine with a visit to the Citadel for a full experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 50.4615,
+            "longitude": 4.865
+          },
+          "address": "Avenue de la Citadelle, 5000 Namur, Belgium",
+          "official_website": "https://www.cablecar-namur.be/",
+          "tags": [
+            "Transport",
+            "Viewpoint",
+            "Scenic",
+            "Relaxation"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Belgium provinces regions striped.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Belgium_provinces_regions_striped.svg/960px-Belgium_provinces_regions_striped.svg.png",
+                "width": 800,
+                "height": 655,
+                "attribution": {
+                  "title": "Belgium provinces regions striped",
+                  "author": "Jules Rohault",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Belgium_provinces_regions_striped.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Map of Belgium showing the provinces (black lines), regions and communities (colors). Yellow: Flanders, red &amp; blue: Wallonia, orange: Brussels-Capital region, yellow &amp; orange: dutch-speaking community, red &amp; orange: french-speaking community, blue: german-speaking community. Adapted to svg from File:Belgium provinces regions striped.png"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7358
+        },
+        {
+          "name": "Citadel Tunnels Tour",
+          "ai_summary": "The Citadel Tunnels Tour offers an intriguing glimpse into the underground passages of the Citadel of Namur. The guided tour explains the history and function of these tunnels.",
+          "name_english": "Citadel Tunnels Tour",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Wear comfortable shoes and bring a flashlight."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Combine with the Citadel visit for a complete experience.",
+          "advanced_booking": "Required for guided tours",
+          "coordinates": {
+            "latitude": 50.4617,
+            "longitude": 4.8645
+          },
+          "address": "Route Merveilleuse, 5000 Namur, Belgium",
+          "official_website": "https://www.citadelle.namur.be/",
+          "tags": [
+            "History",
+            "Tour",
+            "Underground",
+            "Fortress"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:01-Namur-290305 (3).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/01-Namur-290305_%283%29.jpg/960px-01-Namur-290305_%283%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "01-Namur-290305 (3)",
+                  "author": "Jean-Pol GRANDMONT",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:01-Namur-290305_(3).jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Namur (Belgium), the Meuse river, the Jambes' bridge and the citadel."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7367
+        },
+        {
+          "name": "Parc Attractif Reine Fabiola",
+          "ai_summary": "Parc Attractif Reine Fabiola is a family-friendly park featuring playgrounds, picnic areas, and walking paths. It’s a great place for a leisurely day outdoors.",
+          "name_english": "Parc Attractif Reine Fabiola",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "07:00-21:00",
+            "Tuesday": "07:00-21:00",
+            "Wednesday": "07:00-21:00",
+            "Thursday": "07:00-21:00",
+            "Friday": "07:00-21:00",
+            "Saturday": "07:00-21:00",
+            "Sunday": "07:00-21:00",
+            "notes": "Gates close at 21:00, park opens at 07:00."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Pack a picnic and enjoy a day in the park.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.466,
+            "longitude": 4.87
+          },
+          "address": "Avenue Reine Fabiola, 5000 Namur, Belgium",
+          "official_website": "https://www.visitnamur.eu/en/parc-attractif-reine-fabiola",
+          "tags": [
+            "Park",
+            "Family",
+            "Nature",
+            "Walking"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7485
+        },
+        {
+          "name": "Namur Provincial Palace",
+          "ai_summary": "The Namur Provincial Palace is an impressive building housing the provincial government. The architecture is a blend of classical and modern styles.",
+          "name_english": "Namur Provincial Palace",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.2,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Check for public access and events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the surrounding area for more historical buildings.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.4657,
+            "longitude": 4.8714
+          },
+          "address": "Place de la Wallonie, 5000 Namur, Belgium",
+          "official_website": "https://www.province.namur.be/",
+          "tags": [
+            "Government",
+            "Architecture",
+            "History",
+            "Culture"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Belgium provinces regions striped.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Belgium_provinces_regions_striped.svg/960px-Belgium_provinces_regions_striped.svg.png",
+                "width": 800,
+                "height": 655,
+                "attribution": {
+                  "title": "Belgium provinces regions striped",
+                  "author": "Jules Rohault",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Belgium_provinces_regions_striped.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Map of Belgium showing the provinces (black lines), regions and communities (colors). Yellow: Flanders, red &amp; blue: Wallonia, orange: Brussels-Capital region, yellow &amp; orange: dutch-speaking community, red &amp; orange: french-speaking community, blue: german-speaking community. Adapted to svg from File:Belgium provinces regions striped.png"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7222
+        },
+        {
+          "name": "Old Arsenal Building",
+          "ai_summary": "The Old Arsenal Building is a historic site that was once used for military purposes. It now serves as a cultural venue for events and exhibitions.",
+          "name_english": "Old Arsenal Building",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.1,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Check for events and exhibitions."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Look out for temporary art exhibitions.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.465,
+            "longitude": 4.8722
+          },
+          "address": "Rue de l'Arsenal, 5000 Namur, Belgium",
+          "official_website": "https://www.oldarsenal-namur.be/",
+          "tags": [
+            "History",
+            "Culture",
+            "Architecture",
+            "Events"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Belgium relief location map.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Belgium_relief_location_map.jpg/960px-Belgium_relief_location_map.jpg",
+                "width": 800,
+                "height": 696,
+                "attribution": {
+                  "title": "Belgium relief location map",
+                  "author": "Eric Gaba (Sting - fr:Sting) and NordNordWest",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Belgium_relief_location_map.jpg",
+                  "credit": "Topographic background map: Own work\n\nSources of data:\nSRTM30 Plus\nNASA SRTM3 &amp; SWBD (public domain)\nNGDC World Data Bank II (public domain)\nPart of the rivers: OpenStreetMap (CC-BY-SA 2.0)\nAll boundaries taken from File:Belgium_location_map.svg created by NordNordWest under GFDL/CC-BY-SA 3.0",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Physical location map of Belgium, for geo-location purposes."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7082
+        },
+        {
+          "name": "Meuse Riverbank Promenade",
+          "ai_summary": "The Meuse Riverbank Promenade is a scenic walkway along the river, perfect for a leisurely stroll, jogging, or cycling. It offers beautiful views and a peaceful atmosphere.",
+          "name_english": "Meuse Riverbank Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "20:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed at a leisurely pace."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit early morning or late afternoon for the best light.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 50.467,
+            "longitude": 4.8735
+          },
+          "address": "Quai de Meuse, 5000 Namur, Belgium",
+          "official_website": "https://www.visitnamur.eu/en/meuse-riverbank-promenade",
+          "tags": [
+            "Walking",
+            "Cycling",
+            "Scenic",
+            "Relaxation"
+          ],
+          "state": "Namur",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Belgium Namur location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Belgium_Namur_location_map.svg/800px-Belgium_Namur_location_map.svg.png",
+                "width": 800,
+                "height": 933,
+                "attribution": {
+                  "title": "Belgium Namur location map",
+                  "author": "Milenioscuro",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Belgium_Namur_location_map.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Location map of Namur province, Belgium"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7865
+        }
+      ]
+    }
+  ]
+}

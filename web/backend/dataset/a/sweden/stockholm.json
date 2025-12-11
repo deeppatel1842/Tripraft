@@ -1,0 +1,1135 @@
+{
+  "country": "Sweden",
+  "state": "Stockholm",
+  "cities": [
+    {
+      "city": "Stockholm",
+      "nearest_airport": "Stockholm Arlanda Airport",
+      "places": [
+        {
+          "name": "Gamla Stan (Old Town)",
+          "ai_summary": "A historic old town with cobblestone streets, colorful buildings, and landmarks like the Royal Palace and Storkyrkan Cathedral.",
+          "name_english": "Old Town",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Shops and restaurants may have specific hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the narrow alleys and visit the Nobel Prize Museum.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.325,
+            "longitude": 18.071
+          },
+          "address": "Gamla Stan, 111 28 Stockholm, Sweden",
+          "official_website": null,
+          "tags": [
+            "Old Town",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Autoroute icone.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Autoroute_icone.svg/800px-Autoroute_icone.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Autoroute icone",
+                  "author": "Dake (talk · contribs), Booyabazooka (talk · contribs), Roulex 45 (talk · contribs), and Doodledoo (talk · contribs)",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Autoroute_icone.svg",
+                  "credit": "SVG version of File:Road stub mini pictogram.png",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "This image was improved or created by the Wikigraphists of the Graphic Lab (fr). You can propose images to clean up, improve, create or translate as well."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Vasa Museum",
+          "ai_summary": "A maritime museum featuring the well-preserved 17th-century warship Vasa, along with exhibits on Swedish naval history.",
+          "name_english": "Vasa Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Extended hours during summer."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Book tickets online to skip the queue.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 59.327,
+            "longitude": 18.091
+          },
+          "address": "Galärvarvsvägen 14, 115 21 Stockholm, Sweden",
+          "official_website": "https://www.vasamuseet.se",
+          "tags": [
+            "Museum",
+            "History",
+            "Maritime"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Royal Palace (Kungliga Slottet)",
+          "ai_summary": "The official residence of the Swedish monarch, featuring opulent rooms, museums, and the Royal Chapel.",
+          "name_english": "Royal Palace",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "19:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on certain holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Don't miss the changing of the guard ceremony.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 59.326,
+            "longitude": 18.071
+          },
+          "address": "Slottsbacken 1, 107 70 Stockholm, Sweden",
+          "official_website": "https://www.kungligaslotten.se",
+          "tags": [
+            "Palace",
+            "History",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OOjs UI icon edit-ltr-progressive.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/800px-OOjs_UI_icon_edit-ltr-progressive.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "OOjs UI icon edit-ltr-progressive",
+                  "author": "https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg",
+                  "credit": "lib/oojs-ui/themes/mediawiki/images/icons/",
+                  "usage_terms": "Public domain",
+                  "description": "An icon from the OOjs UI MediaWiki lib."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "ABBA The Museum",
+          "ai_summary": "An interactive museum dedicated to the iconic Swedish pop group ABBA, featuring exhibits on their music, costumes, and history.",
+          "name_english": "ABBA The Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Last admission one hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Mid-morning",
+          "place_tip": "Try the interactive exhibits for a fun experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 59.327,
+            "longitude": 18.094
+          },
+          "address": "Djurgårdsvägen 68, 115 21 Stockholm, Sweden",
+          "official_website": "https://abbasite.com/museum",
+          "tags": [
+            "Museum",
+            "Music",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Skansen Open-Air Museum",
+          "ai_summary": "The world's first open-air museum, showcasing Swedish history and culture with historic buildings, exhibits, and traditional events.",
+          "name_english": "Skansen",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00",
+          "sunset_time": "20:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Open until 22:00 during summer."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the Nordic animals and historic farmsteads.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.327,
+            "longitude": 18.119
+          },
+          "address": "Djurgårdsslätten 49-51, 115 21 Stockholm, Sweden",
+          "official_website": "https://www.skansen.se",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bellman Djurgården 2009.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Bellman_Djurg%C3%A5rden_2009.jpg/960px-Bellman_Djurg%C3%A5rden_2009.jpg",
+                "width": 800,
+                "height": 614,
+                "attribution": {
+                  "title": "Bellman Djurgården 2009",
+                  "author": "Holger.Ellgaard",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bellman_Djurgården_2009.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Bust of Carl Michael Bellman (1740–1795) by Johan Niclas Byström (1783–1848), erected 1829 in Bellmansro on Djurgården in Stockholm, Sweden"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Djurgården Island",
+          "ai_summary": "A tranquil island in the heart of Stockholm, home to parks, gardens, museums, and the famous Gröna Lund amusement park.",
+          "name_english": "Djurgården",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00",
+          "sunset_time": "20:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Some attractions may have specific hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Stroll through the Rosendals Trädgård gardens.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.329,
+            "longitude": 18.115
+          },
+          "address": "Djurgården, 115 21 Stockholm, Sweden",
+          "official_website": null,
+          "tags": [
+            "Island",
+            "Nature",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Beckholmssundet i Stockholm.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Beckholmssundet_i_Stockholm.jpg/960px-Beckholmssundet_i_Stockholm.jpg",
+                "width": 800,
+                "height": 320,
+                "attribution": {
+                  "title": "Beckholmssundet i Stockholm",
+                  "author": "No machine-readable author provided. Kalle1~commonswiki assumed (based on copyright claims).",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Beckholmssundet_i_Stockholm.jpg",
+                  "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+                  "usage_terms": "Public domain",
+                  "description": "Beckholmssundet mellan Djurgårdstaden, Gröna Lund och Beckholmen i Stockholm. 2006.\n\nBeckholmssundet, a straight in Stockholm outside Gröna Lund."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Stockholm City Hall (Stadshuset)",
+          "ai_summary": "The iconic city hall of Stockholm, known for its stunning architecture, the Blue Hall, and the Golden Hall.",
+          "name_english": "City Hall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "19:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on certain holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Join a guided tour to learn about the building's history.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 59.332,
+            "longitude": 18.064
+          },
+          "address": "Hantverkargatan 1, 112 21 Stockholm, Sweden",
+          "official_website": "https://www.stockholm.se",
+          "tags": [
+            "City Hall",
+            "Architecture",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OOjs UI icon edit-ltr-progressive.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/800px-OOjs_UI_icon_edit-ltr-progressive.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "OOjs UI icon edit-ltr-progressive",
+                  "author": "https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg",
+                  "credit": "lib/oojs-ui/themes/mediawiki/images/icons/",
+                  "usage_terms": "Public domain",
+                  "description": "An icon from the OOjs UI MediaWiki lib."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Fotografiska Museum",
+          "ai_summary": "A contemporary photography museum showcasing international and Swedish photographers, with a popular café and bar.",
+          "name_english": "Fotografiska",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 23:00",
+            "Tuesday": "10:00 - 23:00",
+            "Wednesday": "10:00 - 23:00",
+            "Thursday": "10:00 - 23:00",
+            "Friday": "10:00 - 23:00",
+            "Saturday": "10:00 - 23:00",
+            "Sunday": "10:00 - 23:00",
+            "notes": "Last admission one hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy the view from the museum's terrace.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 59.329,
+            "longitude": 18.065
+          },
+          "address": "Stadsgårdshamnen 22, 116 45 Stockholm, Sweden",
+          "official_website": "https://www.fotografiska.com",
+          "tags": [
+            "Museum",
+            "Photography",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Nobel Prize Museum",
+          "ai_summary": "A museum dedicated to the Nobel Prize, featuring exhibits on the laureates, the history of the prize, and interactive displays.",
+          "name_english": "Nobel Prize Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "11:00 - 17:00",
+            "Tuesday": "11:00 - 17:00",
+            "Wednesday": "11:00 - 17:00",
+            "Thursday": "11:00 - 17:00",
+            "Friday": "11:00 - 17:00",
+            "Saturday": "11:00 - 17:00",
+            "Sunday": "11:00 - 17:00",
+            "notes": "Closed on certain holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Mid-afternoon",
+          "place_tip": "Check out the interactive Nobel Media exhibits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.327,
+            "longitude": 18.071
+          },
+          "address": "Stortorget 2, 111 29 Stockholm, Sweden",
+          "official_website": "https://www.nobelprizemuseum.se",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Moderna Museet",
+          "ai_summary": "A modern art museum featuring works by Swedish and international artists, with a focus on 20th and 21st-century art.",
+          "name_english": "Moderna Museet",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Free admission on Fridays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Visit the museum shop for unique art books and gifts.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.329,
+            "longitude": 18.07
+          },
+          "address": "Skeppsholmen, 111 49 Stockholm, Sweden",
+          "official_website": "https://www.modernamuseet.se",
+          "tags": [
+            "Museum",
+            "Art",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Södermalm District",
+          "ai_summary": "A trendy and bohemian district known for its vibrant nightlife, cultural scene, and historic architecture.",
+          "name_english": "Södermalm",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Some shops and restaurants may have specific hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the trendy shops and enjoy the view from Monteliusvägen.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.315,
+            "longitude": 18.07
+          },
+          "address": "Södermalm, 116 28 Stockholm, Sweden",
+          "official_website": null,
+          "tags": [
+            "District",
+            "Culture",
+            "Nightlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Nana fontaine (Niki de Saint Phalle).JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Nana_fontaine_%28Niki_de_Saint_Phalle%29.JPG/960px-Nana_fontaine_%28Niki_de_Saint_Phalle%29.JPG",
+                "width": 800,
+                "height": 479,
+                "attribution": {
+                  "title": "Nana fontaine (Niki de Saint Phalle)",
+                  "author": "Jssfrk",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Nana_fontaine_(Niki_de_Saint_Phalle).JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Nana, work of Niki de Saint Phalle, Södermalm, Stockholm."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Riddarholmen Church",
+          "ai_summary": "A medieval church on Riddarholmen island, known for its impressive architecture and as the burial site of Swedish monarchs.",
+          "name_english": "Riddarholmen Church",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on certain holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Attend a concert or service for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.326,
+            "longitude": 18.065
+          },
+          "address": "Riddarholmen, 111 28 Stockholm, Sweden",
+          "official_website": null,
+          "tags": [
+            "Church",
+            "History",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Gamla Riddarholmsbron 2009.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Gamla_Riddarholmsbron_2009.jpg/960px-Gamla_Riddarholmsbron_2009.jpg",
+                "width": 800,
+                "height": 566,
+                "attribution": {
+                  "title": "Gamla Riddarholmsbron 2009",
+                  "author": "Holger.Ellgaard",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Gamla_Riddarholmsbron_2009.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Brovalv från gamla Riddarholmsbron vid Stockholms Stadshus"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Kungsträdgården Park",
+          "ai_summary": "A popular park in the city center, known for its beautiful gardens, fountains, and cultural events.",
+          "name_english": "King's Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Some areas may be closed for events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the park's café for a break.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.329,
+            "longitude": 18.073
+          },
+          "address": "Kungsträdgården, 111 47 Stockholm, Sweden",
+          "official_website": null,
+          "tags": [
+            "Park",
+            "Nature",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon TRAM.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BSicon_TRAM.svg/800px-BSicon_TRAM.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon TRAM",
+                  "author": "Seo75",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_TRAM.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "See Wikipedia:Route diagram template"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Drottningholm Palace (UNESCO Site)",
+          "ai_summary": "The private residence of the Swedish royal family, featuring beautiful gardens, a palace theater, and a Chinese pavilion.",
+          "name_english": "Drottningholm Palace",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "19:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on certain holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the extensive gardens and don't miss the palace theater.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 59.332,
+            "longitude": 17.938
+          },
+          "address": "Drottningholm, 178 93 Drottningholm, Sweden",
+          "official_website": "https://www.kungligaslotten.se",
+          "tags": [
+            "Palace",
+            "UNESCO",
+            "Gardens"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bromma kyrka view06.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Bromma_kyrka_view06.jpg/960px-Bromma_kyrka_view06.jpg",
+                "width": 800,
+                "height": 787,
+                "attribution": {
+                  "title": "Bromma kyrka view06",
+                  "author": "Håkan Svensson Xauxa",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bromma_kyrka_view06.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Bromma kyrka/church, Diocese of Stockholm, Sweden."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Archipelago Boat Tour",
+          "ai_summary": "A scenic boat tour through the Stockholm archipelago, showcasing the stunning natural beauty and numerous islands.",
+          "name_english": "Archipelago Boat Tour",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00",
+          "sunset_time": "20:00",
+          "cost": "Varies by tour",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera for stunning photos of the islands.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 59.332,
+            "longitude": 18.07
+          },
+          "address": "Strömkajen, 111 87 Stockholm, Sweden",
+          "official_website": null,
+          "tags": [
+            "Tour",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Autoroute icone.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Autoroute_icone.svg/800px-Autoroute_icone.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Autoroute icone",
+                  "author": "Dake (talk · contribs), Booyabazooka (talk · contribs), Roulex 45 (talk · contribs), and Doodledoo (talk · contribs)",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Autoroute_icone.svg",
+                  "credit": "SVG version of File:Road stub mini pictogram.png",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "This image was improved or created by the Wikigraphists of the Graphic Lab (fr). You can propose images to clean up, improve, create or translate as well."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ostermalm Market Hall",
+          "ai_summary": "A historic market hall in the Ostermalm district, offering a wide range of gourmet foods, delicacies, and souvenirs.",
+          "name_english": "Östermalm Market Hall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies by vendor",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "Closed",
+            "notes": "Some vendors may have different hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Try the Swedish delicacies at the food stalls.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.334,
+            "longitude": 18.071
+          },
+          "address": "Östermalmstorg, 114 39 Stockholm, Sweden",
+          "official_website": null,
+          "tags": [
+            "Market",
+            "Food",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon TRAM.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BSicon_TRAM.svg/800px-BSicon_TRAM.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon TRAM",
+                  "author": "Seo75",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_TRAM.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "See Wikipedia:Route diagram template"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "SkyView at Ericsson Globe",
+          "ai_summary": "An aerial view of Stockholm from the top of the Ericsson Globe, offering a unique perspective of the city.",
+          "name_english": "SkyView",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "19:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Last admission one hour before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Book a time slot in advance for a smoother experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 59.332,
+            "longitude": 18.094
+          },
+          "address": "Globentorget 2, 121 77 Johanneshov, Sweden",
+          "official_website": "https://www.ericssonglobe.se",
+          "tags": [
+            "Viewpoint",
+            "Attraction",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Royal Canal Cruise",
+          "ai_summary": "A relaxing cruise through the royal canals of Stockholm, offering a unique view of the city and its historic buildings.",
+          "name_english": "Royal Canal Cruise",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00",
+          "sunset_time": "20:00",
+          "cost": "Varies by cruise",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a light jacket, it can be windy on the water.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 59.332,
+            "longitude": 18.071
+          },
+          "address": "Strömkajen, 111 87 Stockholm, Sweden",
+          "official_website": null,
+          "tags": [
+            "Cruise",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Coat of arms of the Diocese of Stockholm.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Coat_of_arms_of_the_Diocese_of_Stockholm.svg/800px-Coat_of_arms_of_the_Diocese_of_Stockholm.svg.png",
+                "width": 800,
+                "height": 894,
+                "attribution": {
+                  "title": "Coat of arms of the Diocese of Stockholm",
+                  "author": "SajoR",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Diocese_of_Stockholm.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "Coat of arms of the Diocese of Stockholm (Catholic Church)"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Storkyrkan Cathedral",
+          "ai_summary": "The oldest church in Stockholm, featuring stunning medieval architecture, a famous altar piece, and the tomb of St. George and the Dragon.",
+          "name_english": "Storkyrkan Cathedral",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Closed on certain holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Attend a concert or service for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.326,
+            "longitude": 18.071
+          },
+          "address": "Trångsund 1, 111 29 Stockholm, Sweden",
+          "official_website": null,
+          "tags": [
+            "Cathedral",
+            "History",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Börshuset January 2015.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/B%C3%B6rshuset_January_2015.jpg/960px-B%C3%B6rshuset_January_2015.jpg",
+                "width": 800,
+                "height": 534,
+                "attribution": {
+                  "title": "Börshuset January 2015",
+                  "author": "Arild Vågen",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Börshuset_January_2015.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The Stock Exchange Building (Swedish: Börshuset) is a building on the north side of the square Stortorget in Gamla stan, the old town in central Stockholm. Originally erected for the Stockholm Stock Exchange between 1773-1778 from construction drawings by Erik Palmstedt. Since 1914 it has been the home of the Swedish Academy and the building also houses the Nobel Museum and the Nobel Library."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Monteliusvägen Viewpoint",
+          "ai_summary": "A popular viewpoint in Södermalm, offering a stunning panoramic view of the Stockholm skyline, especially beautiful at sunset.",
+          "name_english": "Monteliusvägen Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Bring a camera for stunning photos of the skyline.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.315,
+            "longitude": 18.071
+          },
+          "address": "Monteliusvägen, 118 27 Stockholm, Sweden",
+          "official_website": null,
+          "tags": [
+            "Viewpoint",
+            "Photography",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:046CupolaSPietro.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "046CupolaSPietro",
+                  "author": "MarkusMark",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Città del Vaticano - Cupola della Basilica di S. Pietro"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

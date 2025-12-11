@@ -1,0 +1,149 @@
+================================================================================
+TRIPRAFT DATASET ANALYSIS REPORT
+================================================================================
+Generated: 2025-12-04T10:29:53.400968
+Dataset: ..\dataset\countries
+
+----------------------------------------
+SUMMARY
+----------------------------------------
+Total Files: 870
+  Complete: 838 (96.3%)
+  Partial: 1 (0.1%)
+  Empty: 30 (3.4%)
+  Error: 0
+
+Total Places: 16885
+  Complete: 16864 (99.9%)
+  Without Coords: 412
+  Without Rank: 0
+  Invalid Photos: 3714
+
+----------------------------------------
+EMPTY FILES (30)
+----------------------------------------
+  - Phnom.json (Cambodia/Phnom)
+  - Alberta.json (Canada/Alberta)
+  - Northwest_Territories.json (Canada/Northwest Territories)
+  - olomouc.json (Czech Republic/Olomouc)
+  - amazonas_tena_and_puyo.json (Ecuador/Amazonas Tena and Puyo)
+  - quito.json (Ecuador/Quito)
+  - gyr.json (Hungary/Gyr)
+  - lake_balaton.json (Hungary/Lake Balaton)
+  - reykjavk.json (Iceland/Reykjavk)
+  - jakarta.json (Indonesia/Jakarta)
+  - semarang.json (Indonesia/Semarang)
+  - nakuru_and_naivasha_rift_valley.json (Kenya/Nakuru and Naivasha Rift Valley)
+  - malacca.json (Malaysia/Malacca)
+  - putrajaya.json (Malaysia/Putrajaya)
+  - trondheim.json (Norway/Trondheim)
+  - torun.json (Poland/Torun)
+  - porto.json (Portugal/Porto)
+  - sintra.json (Portugal/Sintra)
+  - vora.json (Portugal/Vora)
+  - ponce.json (Puerto Rico/Ponce)
+  - medina.json (Saudi Arabia/Medina)
+  - inverness.json (Scotland/Inverness)
+  - kopaonik.json (Serbia/Kopaonik)
+  - subotica.json (Serbia/Subotica)
+  - vrnjaka_banja.json (Serbia/Vrnjaka Banja)
+  - sentosa_island.json (Singapore/Sentosa Island)
+  - ibiza.json (Spain/Ibiza)
+  - izmir_province.json (Turkey/Izmir Province)
+  - bristol.json (United Kingdom/Bristol)
+  - maryland.json (Usa/Maryland)
+
+----------------------------------------
+INCOMPLETE FILES (2)
+----------------------------------------
+  - Wachau_Valley.json: 0/16 complete
+  - dnipro.json: 14/19 complete
+
+----------------------------------------
+BY COUNTRY
+----------------------------------------
+  USA: 50 files, 1498 places
+  India: 45 files, 896 places
+  Spain: 20 files, 380 places (1 empty)
+  United Kingdom: 20 files, 379 places (1 empty)
+  Canada: 19 files, 340 places (2 empty)
+  New Zealand: 16 files, 284 places
+  Greece: 12 files, 206 places
+  Argentina: 10 files, 200 places
+  Finland: 10 files, 200 places
+  Germany: 10 files, 200 places
+  Ireland: 10 files, 200 places
+  Italy: 10 files, 200 places
+  Japan: 10 files, 200 places
+  Slovenia: 10 files, 200 places
+  South Africa: 10 files, 200 places
+  South Korea: 10 files, 200 places
+  Switzerland: 10 files, 200 places
+  Taiwan: 10 files, 200 places
+  Thailand: 10 files, 200 places
+  Vietnam: 10 files, 200 places
+  Belgium: 10 files, 199 places
+  Costa Rica: 10 files, 199 places
+  Liechtenstein: 10 files, 199 places
+  Russia: 10 files, 199 places
+  Sweden: 10 files, 199 places
+  Mexico: 10 files, 198 places
+  Madagascar: 10 files, 197 places
+  Brazil: 10 files, 196 places
+  Colombia: 10 files, 196 places
+  France: 10 files, 196 places
+  Latvia: 9 files, 196 places
+  Tunisia: 10 files, 195 places
+  Chile: 10 files, 194 places
+  Egypt: 10 files, 194 places
+  Philippines: 10 files, 194 places
+  Georgia: 10 files, 193 places
+  Cuba: 10 files, 192 places
+  Wales: 10 files, 192 places
+  Israel: 10 files, 191 places
+  Netherlands: 10 files, 189 places
+  China: 10 files, 188 places
+  Sri Lanka: 9 files, 182 places
+  Croatia: 10 files, 180 places
+  Puerto Rico: 10 files, 180 places (1 empty)
+  Saudi Arabia: 10 files, 180 places (1 empty)
+  Singapore: 10 files, 180 places (1 empty)
+  Tanzania: 9 files, 180 places
+  Czech Republic: 10 files, 179 places (1 empty)
+  Romania: 9 files, 179 places
+  Norway: 10 files, 176 places (1 empty)
+  Jordan: 8 files, 175 places
+  Scotland: 10 files, 173 places (1 empty)
+  Ukraine: 9 files, 173 places
+  Denmark: 10 files, 171 places
+  Kenya: 10 files, 171 places (1 empty)
+  Peru: 9 files, 169 places
+  Poland: 10 files, 169 places (1 empty)
+  Malaysia: 10 files, 159 places (2 empty)
+  Malta: 8 files, 159 places
+  Australia: 8 files, 158 places
+  Bulgaria: 8 files, 158 places
+  Austria: 10 files, 152 places
+  Hungary: 10 files, 150 places (2 empty)
+  Iceland: 10 files, 143 places (1 empty)
+  Indonesia: 10 files, 143 places (2 empty)
+  Dominican Republic: 7 files, 140 places
+  Lithuania: 7 files, 140 places
+  Portugal: 10 files, 140 places (3 empty)
+  Serbia: 10 files, 140 places (3 empty)
+  Turkey: 8 files, 139 places (1 empty)
+  Maldives: 7 files, 137 places
+  Nepal: 7 files, 137 places
+  United Arab Emirates: 7 files, 136 places
+  Cyprus: 7 files, 134 places
+  Estonia: 7 files, 121 places
+  Ecuador: 8 files, 120 places (2 empty)
+  Jamaica: 6 files, 120 places
+  Mauritius: 6 files, 120 places
+  Cambodia: 7 files, 118 places (1 empty)
+  Laos: 6 files, 118 places
+  Fiji: 6 files, 116 places
+  Monaco: 5 files, 91 places
+  Usa: 1 files, 0 places (1 empty)
+
+================================================================================

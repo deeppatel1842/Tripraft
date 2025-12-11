@@ -1,0 +1,1084 @@
+{
+  "country": "Kenya",
+  "state": "Nairobi",
+  "cities": [
+    {
+      "city": "Nairobi",
+      "nearest_airport": "Jomo Kenyatta International Airport",
+      "places": [
+        {
+          "name": "Nairobi National Park",
+          "ai_summary": "A unique wildlife park located near the city center, offering a chance to see lions, rhinos, and giraffes in their natural habitat.",
+          "name_english": "Nairobi National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Advance booking recommended for game drives."
+          },
+          "suggested_duration": "4-6 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Carry binoculars for better wildlife viewing.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -1.373,
+            "longitude": 36.858
+          },
+          "address": "Nairobi, Kenya",
+          "official_website": "https://example.com/nairobi-national-park",
+          "tags": [
+            "Wildlife",
+            "Nature",
+            "Safari"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A lone giraffe in Nairobi National Park.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/A_lone_giraffe_in_Nairobi_National_Park.jpg",
+                "width": 768,
+                "height": 576,
+                "attribution": {
+                  "title": "A lone giraffe in Nairobi National Park",
+                  "author": "The original uploader was Mkimemia at English Wikipedia.",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A_lone_giraffe_in_Nairobi_National_Park.jpg",
+                  "credit": "Transferred from en.wikipedia to Commons.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A lone giraffe in Nairobi National Park."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Karen Blixen Museum",
+          "ai_summary": "The former home of Karen Blixen, author of 'Out of Africa', now a museum showcasing her life and work.",
+          "name_english": "Karen Blixen Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:25 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:30 AM - 6:00 PM",
+            "Tuesday": "9:30 AM - 6:00 PM",
+            "Wednesday": "9:30 AM - 6:00 PM",
+            "Thursday": "9:30 AM - 6:00 PM",
+            "Friday": "9:30 AM - 6:00 PM",
+            "Saturday": "9:30 AM - 6:00 PM",
+            "Sunday": "9:30 AM - 6:00 PM",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the gardens and enjoy the serene environment.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.373,
+            "longitude": 36.721
+          },
+          "address": "Karen, Nairobi, Kenya",
+          "official_website": "https://example.com/karen-blixen-museum",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Giraffe Centre",
+          "ai_summary": "A conservation center for the endangered Rothschild giraffe, offering visitors a chance to feed and interact with these majestic animals.",
+          "name_english": "Giraffe Centre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:20 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Best time to visit is in the morning."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture moments with the giraffes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.373,
+            "longitude": 36.802
+          },
+          "address": "Langata, Nairobi, Kenya",
+          "official_website": "https://example.com/giraffe-centre",
+          "tags": [
+            "Wildlife",
+            "Conservation",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "David Sheldrick Elephant Orphanage",
+          "ai_summary": "A sanctuary for orphaned elephants, where visitors can learn about elephant conservation and even adopt an elephant.",
+          "name_english": "David Sheldrick Elephant Orphanage",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "06:15 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "11:00 AM - 12:00 PM",
+            "Tuesday": "11:00 AM - 12:00 PM",
+            "Wednesday": "11:00 AM - 12:00 PM",
+            "Thursday": "11:00 AM - 12:00 PM",
+            "Friday": "11:00 AM - 12:00 PM",
+            "Saturday": "11:00 AM - 12:00 PM",
+            "Sunday": "11:00 AM - 12:00 PM",
+            "notes": "Visits are by appointment only."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Consider adopting an elephant to support conservation efforts.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -1.386,
+            "longitude": 36.817
+          },
+          "address": "Lang'ata, Nairobi, Kenya",
+          "official_website": "https://example.com/sheldrick-elephant-orphanage",
+          "tags": [
+            "Wildlife",
+            "Conservation",
+            "Family"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Bomas of Kenya Cultural Village",
+          "ai_summary": "A cultural center showcasing traditional Kenyan music, dance, and crafts, offering a glimpse into the diverse cultures of Kenya.",
+          "name_english": "Bomas of Kenya Cultural Village",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Cultural performances in the afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don't miss the traditional dance performances.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.362,
+            "longitude": 36.821
+          },
+          "address": "Lang'ata, Nairobi, Kenya",
+          "official_website": "https://example.com/bomas-of-kenya",
+          "tags": [
+            "Culture",
+            "Music",
+            "Dance"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Nairobi National Museum",
+          "ai_summary": "The premier museum in Nairobi, showcasing Kenya's rich cultural and natural heritage, including art, archaeology, and paleontology.",
+          "name_english": "Nairobi National Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the adjacent Nairobi Snake Park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.292,
+            "longitude": 36.821
+          },
+          "address": "Museum Hill, Nairobi, Kenya",
+          "official_website": "https://example.com/nairobi-national-museum",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:3020 in the Workshop for maintenance.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/3020_in_the_Workshop_for_maintenance.jpg/960px-3020_in_the_Workshop_for_maintenance.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "3020 in the Workshop for maintenance",
+                  "author": "Ronnie Robert",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:3020_in_the_Workshop_for_maintenance.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The 3020 Steam locomotive relocated to the secure Railway Workshop further to FORM's insistence. This has allowed for regular upkeep and maintenance and capped the vandalism of train parts."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "KICC Helipad City View",
+          "ai_summary": "The helipad atop the Kenyatta International Conference Centre offers a panoramic view of Nairobi's skyline and surrounding areas.",
+          "name_english": "KICC Helipad City View",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Security clearance required."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Arrive early to secure a good spot for photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.286,
+            "longitude": 36.827
+          },
+          "address": "Kenyatta Avenue, Nairobi, Kenya",
+          "official_website": "https://example.com/kicc-helipad-city-view",
+          "tags": [
+            "Viewpoint",
+            "Photography",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OOjs UI icon edit-ltr-progressive.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/800px-OOjs_UI_icon_edit-ltr-progressive.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "OOjs UI icon edit-ltr-progressive",
+                  "author": "https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg",
+                  "credit": "lib/oojs-ui/themes/mediawiki/images/icons/",
+                  "usage_terms": "Public domain",
+                  "description": "An icon from the OOjs UI MediaWiki lib."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Karura Forest Trails & Waterfall",
+          "ai_summary": "An urban forest offering a network of walking and cycling trails, picnic sites, and a waterfall, providing a natural escape within the city.",
+          "name_english": "Karura Forest Trails & Waterfall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Bring your own picnic supplies."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Watch out for monkeys and birds.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.292,
+            "longitude": 36.835
+          },
+          "address": "Karura, Nairobi, Kenya",
+          "official_website": "https://example.com/karura-forest-trails-waterfall",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Picnic"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Nairobi Arboretum",
+          "ai_summary": "A botanical garden and arboretum with a wide variety of indigenous and exotic trees, shrubs, and flowers, offering a peaceful retreat for nature lovers.",
+          "name_english": "Nairobi Arboretum",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Guided nature walks available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Ideal for bird watching and photography.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.292,
+            "longitude": 36.821
+          },
+          "address": "Karura, Nairobi, Kenya",
+          "official_website": "https://example.com/nairobi-arboretum",
+          "tags": [
+            "Nature",
+            "Botanical Garden",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:3020 in the Workshop for maintenance.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/3020_in_the_Workshop_for_maintenance.jpg/960px-3020_in_the_Workshop_for_maintenance.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "3020 in the Workshop for maintenance",
+                  "author": "Ronnie Robert",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:3020_in_the_Workshop_for_maintenance.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The 3020 Steam locomotive relocated to the secure Railway Workshop further to FORM's insistence. This has allowed for regular upkeep and maintenance and capped the vandalism of train parts."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Uhuru Gardens National Monument",
+          "ai_summary": "A national monument and park commemorating Kenya's independence, featuring gardens, sculptures, and a museum.",
+          "name_english": "Uhuru Gardens National Monument",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Learn about Kenya's struggle for independence.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.292,
+            "longitude": 36.821
+          },
+          "address": "Nairobi, Kenya",
+          "official_website": "https://example.com/uhuru-gardens-national-monument",
+          "tags": [
+            "History",
+            "Monument",
+            "Park"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:City view from Uhuru Park, Nairobi.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/City_view_from_Uhuru_Park%2C_Nairobi.jpg/960px-City_view_from_Uhuru_Park%2C_Nairobi.jpg",
+                "width": 800,
+                "height": 494,
+                "attribution": {
+                  "title": "City view from Uhuru Park, Nairobi",
+                  "author": "DEMOSH",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:City_view_from_Uhuru_Park,_Nairobi.jpg",
+                  "credit": "https://www.flickr.com/photos/44222307@N00/949940005/",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "City view from Uhuru Park, Nairobi"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Railway Museum",
+          "ai_summary": "A museum showcasing the history of the railway in Kenya, with a collection of vintage locomotives, carriages, and other railway memorabilia.",
+          "name_english": "Railway Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "8:30 AM - 5:00 PM",
+            "Tuesday": "8:30 AM - 5:00 PM",
+            "Wednesday": "8:30 AM - 5:00 PM",
+            "Thursday": "8:30 AM - 5:00 PM",
+            "Friday": "8:30 AM - 5:00 PM",
+            "Saturday": "8:30 AM - 5:00 PM",
+            "Sunday": "8:30 AM - 5:00 PM",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check out the interactive exhibits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.286,
+            "longitude": 36.846
+          },
+          "address": "Nairobi, Kenya",
+          "official_website": "https://example.com/railway-museum",
+          "tags": [
+            "History",
+            "Museum",
+            "Transport"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag map of Kenya.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_map_of_Kenya.svg/800px-Flag_map_of_Kenya.svg.png",
+                "width": 800,
+                "height": 1018,
+                "attribution": {
+                  "title": "Flag map of Kenya",
+                  "author": "Darwinek",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_map_of_Kenya.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Flag-map of Kenya"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Kazuri Beads Women’s Cooperative",
+          "ai_summary": "A workshop and store where visitors can learn about and purchase handmade ceramic beads and pottery, supporting local women artisans.",
+          "name_english": "Kazuri Beads Women’s Cooperative",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Workshops available on request."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Purchase unique souvenirs and support a good cause.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.292,
+            "longitude": 36.821
+          },
+          "address": "Nairobi, Kenya",
+          "official_website": "https://example.com/kazuri-beads-womens-cooperative",
+          "tags": [
+            "Shopping",
+            "Culture",
+            "Artisan"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:3020 in the Workshop for maintenance.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/3020_in_the_Workshop_for_maintenance.jpg/960px-3020_in_the_Workshop_for_maintenance.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "3020 in the Workshop for maintenance",
+                  "author": "Ronnie Robert",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:3020_in_the_Workshop_for_maintenance.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The 3020 Steam locomotive relocated to the secure Railway Workshop further to FORM's insistence. This has allowed for regular upkeep and maintenance and capped the vandalism of train parts."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Village Market & Two Rivers Mall",
+          "ai_summary": "Popular shopping and entertainment destinations in Nairobi, offering a variety of shops, restaurants, and recreational activities.",
+          "name_english": "Village Market & Two Rivers Mall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "8:00 AM - 9:00 PM",
+            "Tuesday": "8:00 AM - 9:00 PM",
+            "Wednesday": "8:00 AM - 9:00 PM",
+            "Thursday": "8:00 AM - 9:00 PM",
+            "Friday": "8:00 AM - 9:00 PM",
+            "Saturday": "8:00 AM - 9:00 PM",
+            "Sunday": "8:00 AM - 9:00 PM",
+            "notes": "Check individual store hours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Afternoon or evening",
+          "place_tip": "Enjoy a meal at one of the many restaurants.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.223,
+            "longitude": 36.823
+          },
+          "address": "Nairobi, Kenya",
+          "official_website": "https://example.com/village-market-two-rivers-mall",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Entertainment"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A coloured voting box.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/A_coloured_voting_box.svg/800px-A_coloured_voting_box.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "A coloured voting box",
+                  "author": "Resizia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A_coloured_voting_box.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A yellow coloured voting box."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Maasai Market (Souvenirs)",
+          "ai_summary": "A vibrant open-air market where visitors can buy traditional Maasai crafts, jewelry, and souvenirs directly from the artisans.",
+          "name_english": "Maasai Market (Souvenirs)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Bargaining is part of the shopping experience."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Look for unique handmade items.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.292,
+            "longitude": 36.821
+          },
+          "address": "Nairobi, Kenya",
+          "official_website": "https://example.com/maasai-market-souvenirs",
+          "tags": [
+            "Shopping",
+            "Culture",
+            "Souvenirs"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Kenya.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/800px-Flag_of_Kenya.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Kenya",
+                  "author": "User:Pumbaa80",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg",
+                  "credit": "http://www.kenyarchives.go.ke/flag_specifications.htm",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Kenya"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ngong Hills Hike",
+          "ai_summary": "A popular hiking destination offering stunning views of the Great Rift Valley and Nairobi skyline, with well-marked trails and picnic spots.",
+          "name_english": "Ngong Hills Hike",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Carry water and snacks."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Enjoy a picnic with a view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.333,
+            "longitude": 36.735
+          },
+          "address": "Ngong, Kenya",
+          "official_website": "https://example.com/ngong-hills-hike",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Paradise Lost Caves & Falls",
+          "ai_summary": "A scenic spot featuring limestone caves, a waterfall, and picnic sites, located just outside Nairobi.",
+          "name_english": "Paradise Lost Caves & Falls",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the caves and enjoy the waterfall.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.205,
+            "longitude": 36.933
+          },
+          "address": "Kiambu, Kenya",
+          "official_website": "https://example.com/paradise-lost-caves-falls",
+          "tags": [
+            "Nature",
+            "Caves",
+            "Waterfall"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A hunter's wanderings in Africa, being a narrative of nine years spent amongst the game of the far interior of South Africa, containing accounts of explorations beyond the Zambesi, on the river Chobe, (14587268088).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/A_hunter%27s_wanderings_in_Africa%2C_being_a_narrative_of_nine_years_spent_amongst_the_game_of_the_far_interior_of_South_Africa%2C_containing_accounts_of_explorations_beyond_the_Zambesi%2C_on_the_river_Chobe%2C_%2814587268088%29.jpg/960px-thumbnail.jpg",
+                "width": 800,
+                "height": 498,
+                "attribution": {
+                  "title": "A hunter's wanderings in Africa, being a narrative of nine years spent amongst the game of the far interior of South Africa, containing accounts of explorations beyond the Zambesi, on the river Chobe, (14587268088)",
+                  "author": "Internet Archive Book Images",
+                  "license": "No restrictions",
+                  "license_url": "https://www.flickr.com/commons/usage/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A_hunter's_wanderings_in_Africa,_being_a_narrative_of_nine_years_spent_amongst_the_game_of_the_far_interior_of_South_Africa,_containing_accounts_of_explorations_beyond_the_Zambesi,_on_the_river_Chobe,_(14587268088).jpg",
+                  "credit": "https://www.flickr.com/photos/internetarchivebookimages/14587268088/\n\nSource book page: https://archive.org/stream/hunterswandering00selo/hunterswandering00selo#page/n343/mode/1up",
+                  "usage_terms": "No known copyright restrictions",
+                  "description": "Identifier: hunterswandering00selo (find matches)\nTitle: A hunter's wanderings in Africa, being a narrative of nine years spent amongst the game of the far interior of South Africa, containing accounts of explorations beyond the Zambesi, on the river Chobe, and in the Matabele and Mashuna countries, with full notes upon the natural history and present distribution of all the large M__a_m_m_a_i_a\nYear: 1907 (1900s)\nAuthors:  Selous, Frederick Courteney, 1851-1917\nSubjects:  Hunting Mammals\nPublisher:  London, Macmillan and co., limited New York, The Macmillan company\nContributing Library:  American Museum of Natural History Library\nDigitizing Sponsor:  Biodiversity Heritage Library\n\nView Book Page: Book Viewer\nAbout This Book: Catalog Entry\nView All Images: All Images From Book\nClick here to view book online to see this illustration in context in a browseable online version of this book.\n\nText Appearing Before Image:\nto a charge. However, a secondlater I fired, bringing him on to his head with his tailin the air, roaring tremendously. I then reloadedand mounted my good horse, that had stood motion-less beside me all this time, unmoved either by thereport of the rifle or the hoarse growling of the lion.His race was, however, run, for, after pushing him-self along the ground for about twenty yarcis by aseries of kicks from his hind legs, he rolled over onhis side, a sure sign with a lion that he is dead ordying. Riding alongside of him, I dismounted andadmired at my leisure one of the noblest prizes thathave as yet fallen to my rifle. In dying this lion madea most terrific noise. He kept filling his lungs withair, and then emitting roars which might have beenheard (and which the Kafirs did hear) miles away.He was an enormous brute—the largest I have yetkilled, and had a beautiful sleek coat and a lovelymane, long and flowing, black on the shoulders,and bright yellow on the cheeks. The measurements\nText Appearing After Image:\n&gt;_^&lt;&lt;^ i\\ &lt;f^ 1 ^, ^1^ %^ U&lt;- i, Kez^: 1. 3^. X, XIII LOOK AT THE LIONS ! 283 of his skin and carcase I have given in another place,I now halloed for the Kafirs, and at last saw tworunning towards me. Great was their surprise uponfinding me standing over the body of a magnificentlion, instead of, as they had expected, a wretchedtsessebe antelope, I was stooping over my prize,toying with the mane, when one of the boys, seizingme by the shoulder, cried excitedly, Look, look,sir ! look at the lions ! Hastily raising my eyes,and following the direction of his outstretched hand,a sight met my eyes that made my heart jump. Ata distance of not more than 250 yards from wherewe stood, three great lionesses were stalking slowlyacross a little open glade, walking in single file, onebehind another. At the heels of the hindmost ranthree little cubs, not much bigger than cats. As thegrass had been burnt off just here, 1 had a splendidview of their massive thick-set forms, but wasted\n\nNote About Images\n\nPlease note that these images are extracted from scanned page images that may have been digitally enhanced for readability - coloration and appearance of these illustrations may not perfectly resemble the original work."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Kitengela Glass & Bridge",
+          "ai_summary": "A unique attraction featuring a glass bridge and sculptures, located in the Kitengela area, known for its artistic glass creations.",
+          "name_english": "Kitengela Glass & Bridge",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Workshops available on request."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Watch out for glass art demonstrations.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.333,
+            "longitude": 36.866
+          },
+          "address": "Kitengela, Kenya",
+          "official_website": "https://example.com/kitengela-glass-bridge",
+          "tags": [
+            "Art",
+            "Sculpture",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "City Market & Biashara Street",
+          "ai_summary": "A bustling market area in Nairobi offering a wide range of goods, from fresh produce to crafts and souvenirs.",
+          "name_english": "City Market & Biashara Street",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Bargaining is common in the market."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try some local street food.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.292,
+            "longitude": 36.821
+          },
+          "address": "Nairobi, Kenya",
+          "official_website": "https://example.com/city-market-biashara-street",
+          "tags": [
+            "Shopping",
+            "Food",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Kenya.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/800px-Flag_of_Kenya.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Kenya",
+                  "author": "User:Pumbaa80",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg",
+                  "credit": "http://www.kenyarchives.go.ke/flag_specifications.htm",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Kenya"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Uhuru Park & Central Business District Walk",
+          "ai_summary": "A popular recreational park in Nairobi, ideal for picnics, walks, and relaxation, located near the Central Business District.",
+          "name_english": "Uhuru Park & Central Business District Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "Free entry",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "6:00 AM - 6:00 PM",
+            "Tuesday": "6:00 AM - 6:00 PM",
+            "Wednesday": "6:00 AM - 6:00 PM",
+            "Thursday": "6:00 AM - 6:00 PM",
+            "Friday": "6:00 AM - 6:00 PM",
+            "Saturday": "6:00 AM - 6:00 PM",
+            "Sunday": "6:00 AM - 6:00 PM",
+            "notes": "Security checks at the entrance."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Enjoy a boat ride on the park's lake.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.292,
+            "longitude": 36.821
+          },
+          "address": "Nairobi, Kenya",
+          "official_website": "https://example.com/uhuru-park-central-business-district-walk",
+          "tags": [
+            "Park",
+            "Recreation",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:City view from Uhuru Park, Nairobi.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/City_view_from_Uhuru_Park%2C_Nairobi.jpg/960px-City_view_from_Uhuru_Park%2C_Nairobi.jpg",
+                "width": 800,
+                "height": 494,
+                "attribution": {
+                  "title": "City view from Uhuru Park, Nairobi",
+                  "author": "DEMOSH",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:City_view_from_Uhuru_Park,_Nairobi.jpg",
+                  "credit": "https://www.flickr.com/photos/44222307@N00/949940005/",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "City view from Uhuru Park, Nairobi"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Carnivore Restaurant Experience",
+          "ai_summary": "A famous restaurant in Nairobi known for its 'beast of a feast' - a variety of meats cooked on a skewer and served until you say 'stop'.",
+          "name_english": "Carnivore Restaurant Experience",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Price per person",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "12:00 PM - 10:00 PM",
+            "Tuesday": "12:00 PM - 10:00 PM",
+            "Wednesday": "12:00 PM - 10:00 PM",
+            "Thursday": "12:00 PM - 10:00 PM",
+            "Friday": "12:00 PM - 10:00 PM",
+            "Saturday": "12:00 PM - 10:00 PM",
+            "Sunday": "12:00 PM - 10:00 PM",
+            "notes": "Reservation recommended."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Lunch or dinner",
+          "place_tip": "Come hungry and ready to try various meats.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -1.292,
+            "longitude": 36.821
+          },
+          "address": "Nairobi, Kenya",
+          "official_website": "https://example.com/carnivore-restaurant-experience",
+          "tags": [
+            "Dining",
+            "Experience",
+            "Meat"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Kenya.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/800px-Flag_of_Kenya.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Kenya",
+                  "author": "User:Pumbaa80",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg",
+                  "credit": "http://www.kenyarchives.go.ke/flag_specifications.htm",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Kenya"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

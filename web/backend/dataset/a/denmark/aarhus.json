@@ -1,0 +1,282 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "ARoS Aarhus Art Museum (Your Rainbow Panorama)",
+          "ai_summary": "A modern art museum featuring the iconic 'Your Rainbow Panorama' installation, offering stunning views of the city.",
+          "name_english": "ARoS Aarhus Art Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00 - 17:00",
+            "wed": "10:00 - 22:00",
+            "thu": "10:00 - 17:00",
+            "fri": "10:00 - 17:00",
+            "sat": "10:00 - 17:00",
+            "sun": "10:00 - 17:00",
+            "notes": "Extended hours on Wednesdays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the rooftop installation for the best views.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 56.153,
+            "lng": 10.203
+          },
+          "address": "Aros Allé 2, 8000 Aarhus, Denmark",
+          "official_website": "https://www.aros.dk/",
+          "tags": [
+            "Art Museum",
+            "Modern Art",
+            "Panoramic Views"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ARoS.Aarhus.2.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/ARoS.Aarhus.2.JPG/960px-ARoS.Aarhus.2.JPG",
+                "width": 800,
+                "height": 536,
+                "attribution": {
+                  "title": "ARoS.Aarhus.2",
+                  "author": "Erik Christensen",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ARoS.Aarhus.2.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Den Gamle By (The Old Town Museum)",
+          "ai_summary": "An open-air museum showcasing Danish urban history with reconstructed buildings and interactive exhibits.",
+          "name_english": "The Old Town Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "10:00 - 17:00",
+            "tue": "10:00 - 17:00",
+            "wed": "10:00 - 17:00",
+            "thu": "10:00 - 17:00",
+            "fri": "10:00 - 17:00",
+            "sat": "10:00 - 17:00",
+            "sun": "10:00 - 17:00",
+            "notes": "Special events may extend hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for walking.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 56.162,
+            "lng": 10.203
+          },
+          "address": "Viborgvej 2, 8000 Aarhus, Denmark",
+          "official_website": "https://www.dengamleby.dk/",
+          "tags": [
+            "Open-Air Museum",
+            "History",
+            "Interactive"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aarhus Den Gamle By 16.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Aarhus_Den_Gamle_By_16.JPG/960px-Aarhus_Den_Gamle_By_16.JPG",
+                "width": 800,
+                "height": 389,
+                "attribution": {
+                  "title": "Aarhus Den Gamle By 16",
+                  "author": "Zairon",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aarhus_Den_Gamle_By_16.JPG"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Moesgaard Museum",
+          "ai_summary": "A museum dedicated to archaeology and ethnography, featuring the famous Grauballe Man and Viking exhibits.",
+          "name_english": "Moesgaard Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "10:00 - 17:00",
+            "wed": "10:00 - 21:00",
+            "thu": "10:00 - 17:00",
+            "fri": "10:00 - 17:00",
+            "sat": "10:00 - 17:00",
+            "sun": "10:00 - 17:00",
+            "notes": "Late hours on Wednesdays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the outdoor areas for scenic views.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 56.103,
+            "lng": 10.211
+          },
+          "address": "Moesgård Allé 15, 8270 Højbjerg, Denmark",
+          "official_website": "https://www.moesgaardmuseum.dk/",
+          "tags": [
+            "Archaeology",
+            "Ethnography",
+            "Vikings"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Alle Moesgård.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Alle_Moesg%C3%A5rd.jpg/960px-Alle_Moesg%C3%A5rd.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Alle Moesgård",
+                  "author": "Mikkel Houmøller",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Alle_Moesgård.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Marselisborg Palace & Memorial Park",
+          "ai_summary": "The summer residence of the Danish royal family, surrounded by beautiful gardens and a memorial park.",
+          "name_english": "Marselisborg Palace",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Palace grounds are closed when the royal family is in residence."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check the schedule for changing of the guard.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 56.123,
+            "lng": 10.203
+          },
+          "address": "Kongevejen 100, 8000 Aarhus, Denmark",
+          "official_website": "N/A",
+          "tags": [
+            "Royal Residence",
+            "Gardens",
+            "Memorial Park"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aarhus city seal, stylized.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Aarhus_city_seal%2C_stylized.png/960px-Aarhus_city_seal%2C_stylized.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Aarhus city seal, stylized",
+                  "author": "Gardar Rurak",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aarhus_city_seal,_stylized.png"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Aarhus Cathedral",
+          "ai_summary": "A historic cathedral with stunning Gothic architecture and beautiful frescoes.",
+          "name_english": "Aarhus Cathedral",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "09:00 - 16:00",
+            "tue": "09:00 - 16:00",
+            "wed": "09:00 - 16:00",
+            "thu": "09:00 - 16:00",
+            "fri": "09:00 - 16:00",
+            "sat": "09:00 - 16:00",
+            "sun": "09:00 - 16:00",
+            "notes": "Hours may vary during services."
+          },
+          "suggested_duration": "30-60 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the view from the tower.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 56.156,
+            "lng": 10.21
+          },
+          "address": "Store Torv, 8000 Aarhus, Denmark",
+          "official_website": "N/A",
+          "tags": [
+            "Cathedral",
+            "Gothic Architecture",
+            "Frescoes"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aarhus Cathedral altar back.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Aarhus_Cathedral_altar_back.jpg/960px-Aarhus_Cathedral_altar_back.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Aarhus Cathedral altar back",
+                  "author": "Schwarz Weiss",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aarhus_Cathedral_altar_back.jpg"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

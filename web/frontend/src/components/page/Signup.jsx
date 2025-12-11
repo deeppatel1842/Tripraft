@@ -46,7 +46,15 @@ const Signup = ({ onSwitchToLogin }) => {
       // Store invitation ID for after signup
       localStorage.setItem('pendingInvitation', invitationId);
       
-      // Fetch invitation details to pre-fill email
+      // Phase 17.5 Fix: Check localStorage first to avoid duplicate API calls
+      const cachedEmail = localStorage.getItem('invitationEmail');
+      if (cachedEmail) {
+        setInvitationEmail(cachedEmail);
+        setFormData(prev => ({ ...prev, email: cachedEmail }));
+        return; // Skip API call - email already cached from InvitationAccept
+      }
+      
+      // Only fetch if not cached (fallback for direct navigation)
       const fetchInvitationEmail = async () => {
         try {
           const expenseApi = (await import('../../services/expenseApi')).default;
@@ -55,7 +63,7 @@ const Signup = ({ onSwitchToLogin }) => {
             const invitedEmail = response.invitation.invited_email;
             localStorage.setItem('invitationEmail', invitedEmail);
             setInvitationEmail(invitedEmail);
-            setFormData(prev => ({ ...prev, email: invitedEmail })); // Pre-fill the email
+            setFormData(prev => ({ ...prev, email: invitedEmail }));
           }
         } catch (error) {
           console.error('Error fetching invitation details:', error);

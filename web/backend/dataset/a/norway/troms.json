@@ -1,0 +1,1152 @@
+{
+  "country": "Norway",
+  "state": "Troms og Finnmark",
+  "cities": [
+    {
+      "city": "Tromsø",
+      "nearest_airport": "Tromsø Airport, Langnes",
+      "places": [
+        {
+          "name": "Arctic Cathedral",
+          "ai_summary": "A modern architectural masterpiece and iconic landmark of Tromsø, known for its striking design and stained glass windows.",
+          "name_english": "Arctic Cathedral",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 50",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "1:00 PM - 6:00 PM",
+            "Tuesday": "1:00 PM - 6:00 PM",
+            "Wednesday": "1:00 PM - 6:00 PM",
+            "Thursday": "1:00 PM - 6:00 PM",
+            "Friday": "1:00 PM - 6:00 PM",
+            "Saturday": "1:00 PM - 6:00 PM",
+            "Sunday": "1:00 PM - 6:00 PM",
+            "notes": "Opening hours may vary during events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Attend a midnight sun or northern lights concert.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 69.6489,
+            "longitude": 18.9564
+          },
+          "address": "Hans Nilsens veg 41, Tromsø, Norway",
+          "official_website": "https://www.ishavskatedralen.no",
+          "tags": [
+            "Architecture",
+            "Culture",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg/960px-Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg",
+                "width": 800,
+                "height": 496,
+                "attribution": {
+                  "title": "Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catedral,_Tromsø,_Noruega,_2019-09-04,_DD_61-63_HDR.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cathedral, Tromsø, Norway"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Polaria",
+          "ai_summary": "An Arctic experience center featuring an aquarium, educational exhibits, and a panoramic cinema showcasing the northern lights.",
+          "name_english": "Polaria",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 140",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Open year-round."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the bearded seal feeding session.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 69.646,
+            "longitude": 18.9553
+          },
+          "address": "Hjalmar Johansens gate 12, Tromsø, Norway",
+          "official_website": "https://www.polaria.no",
+          "tags": [
+            "Education",
+            "Family",
+            "Interactive"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Polaria Tromsø.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Polaria_Troms%C3%B8.jpg",
+                "width": 800,
+                "height": 550,
+                "attribution": {
+                  "title": "Polaria Tromsø",
+                  "author": "No machine-readable author provided. Kjetil r assumed (based on copyright claims).",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Polaria_Tromsø.jpg",
+                  "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "View of the Museum Polaria in Tromso, taken by User:Bo-deh."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Fjellheisen",
+          "ai_summary": "A cable car that takes you up to Mount Storsteinen, offering panoramic views of Tromsø, the surrounding islands, and the fjords.",
+          "name_english": "Fjellheisen Cable Car",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 210",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Closed for maintenance from mid-April to mid-May."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Late afternoon for sunset views",
+          "place_tip": "Hike the trail to the top for a more rewarding experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Fjellheisen, Tromsø, Norway",
+          "official_website": "https://www.fjellheisen.no",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg/960px-Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg",
+                "width": 800,
+                "height": 496,
+                "attribution": {
+                  "title": "Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catedral,_Tromsø,_Noruega,_2019-09-04,_DD_61-63_HDR.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cathedral, Tromsø, Norway"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Polar Museum",
+          "ai_summary": "A museum dedicated to Arctic hunting history, featuring exhibits on seal hunting, polar expeditions, and the indigenous Sami people.",
+          "name_english": "Polar Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 100",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Closed on May 17th (Norwegian Constitution Day)."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Combine with a visit to the Arctic Cathedral.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Batteriet, Tromsø, Norway",
+          "official_website": "https://www.polarmuseum.no",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Balke fra nordkapp.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Balke_fra_nordkapp.jpg/960px-Balke_fra_nordkapp.jpg",
+                "width": 800,
+                "height": 1112,
+                "attribution": {
+                  "title": "North Capelabel QS:Lnb,\"Nordkapp\"label QS:Len,\"North Cape\"",
+                  "author": "Peder Balke",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Balke_fra_nordkapp.jpg",
+                  "credit": "Northern Norway Art Museum",
+                  "usage_terms": "Public domain",
+                  "description": "Peder Balke's painting «From North Cape», painted in the 1860s."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Tromsø Bridge",
+          "ai_summary": "A cantilever road bridge that connects Tromsøya island to the mainland, offering stunning views of the city and the surrounding fjords.",
+          "name_english": "Tromsø Bridge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed during the midnight sun or northern lights seasons."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Walk or cycle for an up-close experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Tromsø, Norway",
+          "official_website": "https://www.visittromso.no",
+          "tags": [
+            "Engineering",
+            "Scenic",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg/960px-Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg",
+                "width": 800,
+                "height": 496,
+                "attribution": {
+                  "title": "Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catedral,_Tromsø,_Noruega,_2019-09-04,_DD_61-63_HDR.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cathedral, Tromsø, Norway"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Tromsø University Museum",
+          "ai_summary": "The largest museum in Northern Norway, featuring exhibits on Sami culture, natural history, and the northern lights.",
+          "name_english": "Tromsø University Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 120",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 4:00 PM",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "Closed",
+            "notes": "Open year-round, but hours may vary in winter."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the planetarium shows.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Bredalsvikvegen 60, Tromsø, Norway",
+          "official_website": "https://www.uit.no/museum",
+          "tags": [
+            "Education",
+            "Culture",
+            "Science"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg/960px-Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg",
+                "width": 800,
+                "height": 496,
+                "attribution": {
+                  "title": "Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catedral,_Tromsø,_Noruega,_2019-09-04,_DD_61-63_HDR.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cathedral, Tromsø, Norway"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Arctic-Alpine Botanic Garden",
+          "ai_summary": "The world's northernmost botanic garden, showcasing Arctic and alpine plants in a stunning natural setting.",
+          "name_english": "Arctic-Alpine Botanic Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the flowering season (June to August)."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Late evening for midnight sun views",
+          "place_tip": "Bring a camera and a picnic.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Botanisk hage, Tromsø, Norway",
+          "official_website": "https://www.uit.no/botaniskhage",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg/960px-Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg",
+                "width": 800,
+                "height": 496,
+                "attribution": {
+                  "title": "Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catedral,_Tromsø,_Noruega,_2019-09-04,_DD_61-63_HDR.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cathedral, Tromsø, Norway"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Tromsø Cathedral",
+          "ai_summary": "A beautiful wooden cathedral in Tromsø, known for its distinctive architecture and serene interior.",
+          "name_english": "Tromsø Cathedral",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 4:00 PM",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "Closed",
+            "notes": "Open for concerts and special events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Attend a concert for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Sjøgata 2, Tromsø, Norway",
+          "official_website": "https://www.tromso.kirken.no",
+          "tags": [
+            "Architecture",
+            "Culture",
+            "Religion"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg/960px-Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg",
+                "width": 800,
+                "height": 496,
+                "attribution": {
+                  "title": "Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catedral,_Tromsø,_Noruega,_2019-09-04,_DD_61-63_HDR.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cathedral, Tromsø, Norway"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Northern Lights Tours",
+          "ai_summary": "Guided tours that take you to the best spots around Tromsø to experience the magical northern lights.",
+          "name_english": "Northern Lights Tours",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 1500",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "6:00 PM - 1:00 AM",
+            "Tuesday": "6:00 PM - 1:00 AM",
+            "Wednesday": "6:00 PM - 1:00 AM",
+            "Thursday": "6:00 PM - 1:00 AM",
+            "Friday": "6:00 PM - 1:00 AM",
+            "Saturday": "6:00 PM - 1:00 AM",
+            "Sunday": "6:00 PM - 1:00 AM",
+            "notes": "Available from September to April."
+          },
+          "suggested_duration": "4-6 hours",
+          "best_time_to_visit": "Evening, during the northern lights season",
+          "place_tip": "Dress warmly and bring a camera.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Tromsø, Norway",
+          "official_website": "https://www.visittromso.no",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Coat of arms of Norway.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Coat_of_arms_of_Norway.svg/800px-Coat_of_arms_of_Norway.svg.png",
+                "width": 800,
+                "height": 1420,
+                "attribution": {
+                  "title": "Coat of arms of Norway",
+                  "author": "Emblazonment by Sverre Morken (1992), redrawn by Jonas Madsen Rogne (2023) on behalf of the Norwegian Government Design Programme.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Norway.svg",
+                  "credit": "Current version based upon original file received from the Norwegian Government Design Programme. Versions from 2008–2021 used the previous vectorization from the same source. See the file history and original upload log for information about older versions.",
+                  "usage_terms": "Public domain",
+                  "description": "Coat of Arms of Norway"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Sami Culture Experience",
+          "ai_summary": "Immerse yourself in the traditional Sami culture, including reindeer herding, Sami cuisine, and handicrafts.",
+          "name_english": "Sami Culture Experience",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 1200",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Advance booking is required."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "Morning or early afternoon",
+          "place_tip": "Try the traditional Sami dish, bidos (reindeer stew).",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Tromsø, Norway",
+          "official_website": "https://www.visittromso.no",
+          "tags": [
+            "Culture",
+            "Food",
+            "Experience"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:046CupolaSPietro.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "046CupolaSPietro",
+                  "author": "MarkusMark",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Città del Vaticano - Cupola della Basilica di S. Pietro"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Dog Sledding Adventure",
+          "ai_summary": "An exhilarating experience where you can drive your own dog sled team through the Arctic wilderness.",
+          "name_english": "Dog Sledding Adventure",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 2500",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Available from December to April."
+          },
+          "suggested_duration": "4 hours",
+          "best_time_to_visit": "Morning, for the best snow conditions",
+          "place_tip": "Wear warm clothing and sturdy boots.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Tromsø, Norway",
+          "official_website": "https://www.visittromso.no",
+          "tags": [
+            "Adventure",
+            "Nature",
+            "Wildlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:961A1051.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/961A1051.jpg/960px-961A1051.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "961A1051",
+                  "author": "Evgenii Salganik",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:961A1051.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Interiors of a building of Perspektivet Museum in Storgata 95, Tromsø"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Whale Watching Cruise",
+          "ai_summary": "A boat tour that takes you out into the fjords to see whales in their natural habitat.",
+          "name_english": "Whale Watching Cruise",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 1800",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 8:00 PM",
+            "Tuesday": "10:00 AM - 8:00 PM",
+            "Wednesday": "10:00 AM - 8:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 8:00 PM",
+            "Saturday": "10:00 AM - 8:00 PM",
+            "Sunday": "10:00 AM - 8:00 PM",
+            "notes": "Best time for whale watching is from November to January."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Afternoon, for the best light conditions",
+          "place_tip": "Bring warm clothing and a camera.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Tromsø, Norway",
+          "official_website": "https://www.visittromso.no",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Wildlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg/960px-Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg",
+                "width": 800,
+                "height": 496,
+                "attribution": {
+                  "title": "Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catedral,_Tromsø,_Noruega,_2019-09-04,_DD_61-63_HDR.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cathedral, Tromsø, Norway"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Midnight Sun Viewpoint",
+          "ai_summary": "A popular viewpoint to experience the midnight sun, where the sun never sets below the horizon during summer.",
+          "name_english": "Midnight Sun Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited from late May to mid-July."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late evening",
+          "place_tip": "Bring a blanket and enjoy a picnic.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Tromsø, Norway",
+          "official_website": "https://www.visittromso.no",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Coat of arms of Norway.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Coat_of_arms_of_Norway.svg/800px-Coat_of_arms_of_Norway.svg.png",
+                "width": 800,
+                "height": 1420,
+                "attribution": {
+                  "title": "Coat of arms of Norway",
+                  "author": "Emblazonment by Sverre Morken (1992), redrawn by Jonas Madsen Rogne (2023) on behalf of the Norwegian Government Design Programme.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Norway.svg",
+                  "credit": "Current version based upon original file received from the Norwegian Government Design Programme. Versions from 2008–2021 used the previous vectorization from the same source. See the file history and original upload log for information about older versions.",
+                  "usage_terms": "Public domain",
+                  "description": "Coat of Arms of Norway"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mack Brewery Tour",
+          "ai_summary": "A tour of the world's northernmost brewery, where you can learn about the beer-making process and taste local brews.",
+          "name_english": "Mack Brewery Tour",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 250",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "1:00 PM - 6:00 PM",
+            "Tuesday": "1:00 PM - 6:00 PM",
+            "Wednesday": "1:00 PM - 6:00 PM",
+            "Thursday": "1:00 PM - 6:00 PM",
+            "Friday": "1:00 PM - 6:00 PM",
+            "Saturday": "1:00 PM - 6:00 PM",
+            "Sunday": "1:00 PM - 6:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try the Arctic Beer and the beer tasting platter.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Storgata 32, Tromsø, Norway",
+          "official_website": "https://www.mack.no",
+          "tags": [
+            "Food & Drink",
+            "Culture",
+            "Experience"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:M S Polstjerna.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/M_S_Polstjerna.JPG/960px-M_S_Polstjerna.JPG",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "M S Polstjerna",
+                  "author": "Per Helge Nylund",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:M_S_Polstjerna.JPG",
+                  "credit": "Tromsø Museum - Universitesmuseet",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "MS Polstjerna, Tromsø"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Prestvannet Lake Walk",
+          "ai_summary": "A scenic walk around a picturesque lake located on Tromsøya island, popular for birdwatching and enjoying the midnight sun.",
+          "name_english": "Prestvannet Lake Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited from late May to mid-July."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring binoculars for birdwatching.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Tromsø, Norway",
+          "official_website": "https://www.visittromso.no",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Wildlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg/960px-Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg",
+                "width": 800,
+                "height": 496,
+                "attribution": {
+                  "title": "Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catedral,_Tromsø,_Noruega,_2019-09-04,_DD_61-63_HDR.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cathedral, Tromsø, Norway"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Tromsø Wilderness Centre",
+          "ai_summary": "A center offering a range of outdoor activities and experiences in the Arctic wilderness, including hiking, fishing, and wildlife safaris.",
+          "name_english": "Tromsø Wilderness Centre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 1800",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Advance booking is recommended."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Varies by activity",
+          "place_tip": "Inquire about seasonal activities.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Tromsø, Norway",
+          "official_website": "https://www.visittromso.no",
+          "tags": [
+            "Adventure",
+            "Nature",
+            "Wildlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg/960px-Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg",
+                "width": 800,
+                "height": 496,
+                "attribution": {
+                  "title": "Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catedral,_Tromsø,_Noruega,_2019-09-04,_DD_61-63_HDR.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cathedral, Tromsø, Norway"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Tromsø Ice Domes",
+          "ai_summary": "A unique hotel and attraction made entirely of ice and snow, featuring ice sculptures, an ice bar, and snow hotel rooms.",
+          "name_english": "Tromsø Ice Domes",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 1200",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Open from December to April."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Book a guided tour for the best experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Tromsø, Norway",
+          "official_website": "https://www.tromsoicedomes.com",
+          "tags": [
+            "Unique",
+            "Experience",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Troms våpen.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Troms_v%C3%A5pen.svg/800px-Troms_v%C3%A5pen.svg.png",
+                "width": 800,
+                "height": 952,
+                "attribution": {
+                  "title": "Troms våpen",
+                  "author": "Own work \n\n This W3C-unspecified vector image was created with Inkscape .",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Troms_våpen.svg",
+                  "credit": "Logo at the county's official site.",
+                  "usage_terms": "Public domain",
+                  "description": "Coat of arms for the norwegian county of Troms."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Telegrafbukta Beach",
+          "ai_summary": "A scenic beach located a short drive from Tromsø, popular for swimming, sunbathing, and picnicking.",
+          "name_english": "Telegrafbukta Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the summer months."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a picnic and enjoy the view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Tromsø, Norway",
+          "official_website": "https://www.visittromso.no",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg/960px-Catedral%2C_Troms%C3%B8%2C_Noruega%2C_2019-09-04%2C_DD_61-63_HDR.jpg",
+                "width": 800,
+                "height": 496,
+                "attribution": {
+                  "title": "Catedral, Tromsø, Noruega, 2019-09-04, DD 61-63 HDR",
+                  "author": "Diego Delso",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catedral,_Tromsø,_Noruega,_2019-09-04,_DD_61-63_HDR.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cathedral, Tromsø, Norway"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Reindeer Feeding Experience",
+          "ai_summary": "An interactive experience where you can feed and learn about reindeer, a significant part of Sami culture.",
+          "name_english": "Reindeer Feeding Experience",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 600",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 4:00 PM",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Available from November to April."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Combine with a visit to a Sami camp.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Tromsø, Norway",
+          "official_website": "https://www.visittromso.no",
+          "tags": [
+            "Culture",
+            "Wildlife",
+            "Experience"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:961A1051.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/961A1051.jpg/960px-961A1051.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "961A1051",
+                  "author": "Evgenii Salganik",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:961A1051.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Interiors of a building of Perspektivet Museum in Storgata 95, Tromsø"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Aurora Sky Station",
+          "ai_summary": "A viewing platform located in the mountains, offering a spectacular vantage point for observing the northern lights.",
+          "name_english": "Aurora Sky Station",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "NOK 300",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "5:00 PM - 1:00 AM",
+            "Tuesday": "5:00 PM - 1:00 AM",
+            "Wednesday": "5:00 PM - 1:00 AM",
+            "Thursday": "5:00 PM - 1:00 AM",
+            "Friday": "5:00 PM - 1:00 AM",
+            "Saturday": "5:00 PM - 1:00 AM",
+            "Sunday": "5:00 PM - 1:00 AM",
+            "notes": "Access by guided tour only, from September to April."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "Evening, during the northern lights season",
+          "place_tip": "Dress warmly and bring a camera.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 69.6496,
+            "longitude": 18.956
+          },
+          "address": "Tromsø, Norway",
+          "official_website": "https://www.visittromso.no",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:M S Polstjerna.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/M_S_Polstjerna.JPG/960px-M_S_Polstjerna.JPG",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "M S Polstjerna",
+                  "author": "Per Helge Nylund",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:M_S_Polstjerna.JPG",
+                  "credit": "Tromsø Museum - Universitesmuseet",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "MS Polstjerna, Tromsø"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

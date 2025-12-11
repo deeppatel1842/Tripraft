@@ -1,0 +1,1154 @@
+{
+  "country": "Puerto Rico",
+  "state": "Vieques Island",
+  "cities": [
+    {
+      "city": "Vieques",
+      "nearest_airport": "Antonio Rivera Rodríguez Airport",
+      "places": [
+        {
+          "name": "Mosquito Bay Bioluminescent Lagoon",
+          "ai_summary": "Mosquito Bay is the brightest bioluminescent bay in the world, offering a magical nighttime kayaking experience.",
+          "name_english": "Mosquito Bay",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$50",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "7:00 PM - 10:00 PM",
+            "Tuesday": "7:00 PM - 10:00 PM",
+            "Wednesday": "7:00 PM - 10:00 PM",
+            "Thursday": "7:00 PM - 10:00 PM",
+            "Friday": "7:00 PM - 10:00 PM",
+            "Saturday": "7:00 PM - 10:00 PM",
+            "Sunday": "7:00 PM - 10:00 PM",
+            "notes": "Tours depend on moon phases."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Night",
+          "place_tip": "Book a guided tour for the best experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 18.0975,
+            "longitude": -65.4838
+          },
+          "address": "Mosquito Bay, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Bioluminescence",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vieques_Bio_Bay_NR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vieques_Bio_Bay_NR.jpg/960px-Vieques_Bio_Bay_NR.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vieques Bio Bay NR",
+                  "author": "USDA, DRNA PR",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vieques_Bio_Bay_NR.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Vieques Bio Bay NR"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Sun Bay Beach",
+          "ai_summary": "Sun Bay Beach is a pristine stretch of white sand, perfect for swimming, picnicking, and enjoying the Caribbean sun.",
+          "name_english": "Sun Bay Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:45 PM",
+          "cost": "$2",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Lifeguards on duty during peak hours."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring your own beach umbrella for shade.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.0978,
+            "longitude": -65.4659
+          },
+          "address": "Sun Bay Beach, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Beach",
+            "Relaxation",
+            "Swimming"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Navy_vehicles_in_Vieques_beach.JPEG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Navy_vehicles_in_Vieques_beach.JPEG/960px-Navy_vehicles_in_Vieques_beach.JPEG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Navy vehicles in Vieques beach",
+                  "author": "PH1 Jim Hampshire, USN",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Navy_vehicles_in_Vieques_beach.JPEG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "A view of military vehicles parked along the beach at <a href=\"https://en.wikipedia.org/wiki/United_States_Navy_in_Vieques,_Puerto_Rico\" class=\"extiw\" title=\"w:United States Navy in Vieques, Puerto Rico\">Camp Garcia on Vieques Island</a>, Puerto Rico, as US Military and Department of Justice agents reclaimed the federal property on which protesters were residing for over a year. (Released to Public)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Playa Negra (Black Sand Beach)",
+          "ai_summary": "Playa Negra is known for its unique black sand and stunning coastal views, ideal for a quiet day at the beach.",
+          "name_english": "Playa Negra",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:45 PM",
+          "cost": "$2",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Access may be limited during rainy weather."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Wear sunscreen and bring water.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.1501,
+            "longitude": -65.4375
+          },
+          "address": "Playa Negra, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vieques_Bio_Bay_NR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vieques_Bio_Bay_NR.jpg/960px-Vieques_Bio_Bay_NR.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vieques Bio Bay NR",
+                  "author": "USDA, DRNA PR",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vieques_Bio_Bay_NR.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Vieques Bio Bay NR"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Fortín Conde de Mirasol Museum",
+          "ai_summary": "This museum offers a glimpse into the history of Vieques through its well-preserved artifacts and exhibits.",
+          "name_english": "Fortín Conde de Mirasol Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$5",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check for local events or exhibits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.0972,
+            "longitude": -65.4658
+          },
+          "address": "Fortín Conde de Mirasol, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vieques_pevnosť_Isabel_II.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Vieques_pevnos%C5%A5_Isabel_II.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vieques pevnosť Isabel II",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"http://nemcok.sk/?contact=3\">Jaro Nemčok</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vieques_pevnos%C5%A5_Isabel_II.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Fuerte_de_Vieques\" class=\"extiw\" title=\"en:Fuerte de Vieques\">Fort Conde de Mirasol</a> above the town of Isabel Segunda, Vieques, Puerto Rico"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Esperanza Malecon",
+          "ai_summary": "A beautiful boardwalk in Esperanza, perfect for a leisurely stroll, dining, and enjoying the sunset.",
+          "name_english": "Esperanza Malecon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try local food at nearby kiosks.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.0976,
+            "longitude": -65.4657
+          },
+          "address": "Esperanza Malecon, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Boardwalk",
+            "Dining",
+            "Sunset"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Calle_Flamboyant,_Esperanza,_Vieques,_Puerto_Rico_-_panoramio_-_David_Broad_(4).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Calle_Flamboyant%2C_Esperanza%2C_Vieques%2C_Puerto_Rico_-_panoramio_-_David_Broad_%284%29.jpg/960px-Calle_Flamboyant%2C_Esperanza%2C_Vieques%2C_Puerto_Rico_-_panoramio_-_David_Broad_%284%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Calle Flamboyant, Esperanza, Vieques, Puerto Rico - panoramio - David Broad (4)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161015084010/http://www.panoramio.com/user/2134453?with_photo_id=31409920\">David Broad</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Calle_Flamboyant,_Esperanza,_Vieques,_Puerto_Rico_-_panoramio_-_David_Broad_(4).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Calle Flamboyant, Esperanza, Vieques, Puerto Rico"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Caracas Beach",
+          "ai_summary": "Caracas Beach, also known as Red Beach, is famous for its reddish sand and clear waters, great for snorkeling.",
+          "name_english": "Caracas Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:45 PM",
+          "cost": "$2",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Bring your own snorkeling gear."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the nearby natural pool.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.1503,
+            "longitude": -65.4378
+          },
+          "address": "Caracas Beach, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Beach",
+            "Snorkeling",
+            "Nature"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vieques_National_Wildlife_Refuge_Caracas_Beach.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Vieques_National_Wildlife_Refuge_Caracas_Beach.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vieques National Wildlife Refuge Caracas Beach",
+                  "author": "Susan Morse/USFWS",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vieques_National_Wildlife_Refuge_Caracas_Beach.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Caracas Beach, Vieques National Wildlife Refuge, Puerto Rico"
+                }
+              }
+            }
+          },
+          "rank_score": 0.842
+        },
+        {
+          "name": "Playa La Chiva (Blue Beach)",
+          "ai_summary": "Playa La Chiva is renowned for its stunning blue waters and vibrant marine life, ideal for snorkeling and swimming.",
+          "name_english": "Playa La Chiva",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:45 PM",
+          "cost": "$2",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Limited facilities available."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring your own food and drinks.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.1505,
+            "longitude": -65.4379
+          },
+          "address": "Playa La Chiva, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Beach",
+            "Snorkeling",
+            "Nature"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Playa_La_Chiva_Vieques_Puerto_Rico_2021-08-05_12-11-26_1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Playa_La_Chiva_Vieques_Puerto_Rico_2021-08-05_12-11-26_1.jpg/960px-Playa_La_Chiva_Vieques_Puerto_Rico_2021-08-05_12-11-26_1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Playa La Chiva Vieques Puerto Rico 2021-08-05 12-11-26 1",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Lorax\" class=\"mw-userlink\" title=\"User:Lorax\">G. Edward Johnson</a>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Playa_La_Chiva_Vieques_Puerto_Rico_2021-08-05_12-11-26_1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Playa La Chiva is a white sand beach with blue-green waters on the island of Vieques, Puerto Rico"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Punta Arenas Beach",
+          "ai_summary": "Punta Arenas Beach is a secluded beach known for its natural beauty and tranquility, perfect for a peaceful retreat.",
+          "name_english": "Punta Arenas Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:45 PM",
+          "cost": "$2",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Access road may be rough."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Take your trash with you.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.1507,
+            "longitude": -65.438
+          },
+          "address": "Punta Arenas Beach, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Beach",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Navy_vehicles_in_Vieques_beach.JPEG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Navy_vehicles_in_Vieques_beach.JPEG/960px-Navy_vehicles_in_Vieques_beach.JPEG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Navy vehicles in Vieques beach",
+                  "author": "PH1 Jim Hampshire, USN",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Navy_vehicles_in_Vieques_beach.JPEG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "A view of military vehicles parked along the beach at <a href=\"https://en.wikipedia.org/wiki/United_States_Navy_in_Vieques,_Puerto_Rico\" class=\"extiw\" title=\"w:United States Navy in Vieques, Puerto Rico\">Camp Garcia on Vieques Island</a>, Puerto Rico, as US Military and Department of Justice agents reclaimed the federal property on which protesters were residing for over a year. (Released to Public)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Vieques Wildlife Refuge",
+          "ai_summary": "A must-visit for nature lovers, this refuge is home to diverse wildlife and offers stunning natural landscapes.",
+          "name_english": "Vieques Wildlife Refuge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "7:00 AM - 5:00 PM",
+            "Tuesday": "7:00 AM - 5:00 PM",
+            "Wednesday": "7:00 AM - 5:00 PM",
+            "Thursday": "7:00 AM - 5:00 PM",
+            "Friday": "7:00 AM - 5:00 PM",
+            "Saturday": "7:00 AM - 5:00 PM",
+            "Sunday": "7:00 AM - 5:00 PM",
+            "notes": "Bring binoculars for bird watching."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Stay on marked trails.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.1509,
+            "longitude": -65.4381
+          },
+          "address": "Vieques Wildlife Refuge, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vieques_Bio_Bay_NR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vieques_Bio_Bay_NR.jpg/960px-Vieques_Bio_Bay_NR.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vieques Bio Bay NR",
+                  "author": "USDA, DRNA PR",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vieques_Bio_Bay_NR.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Vieques Bio Bay NR"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Navío Beach",
+          "ai_summary": "Navío Beach is a picturesque beach known for its clear waters and vibrant coral reefs, ideal for snorkeling.",
+          "name_english": "Navío Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:45 PM",
+          "cost": "$2",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Best snorkeling at the eastern end."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring your own snorkeling gear.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.1511,
+            "longitude": -65.4382
+          },
+          "address": "Navío Beach, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Beach",
+            "Snorkeling",
+            "Nature"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vieques_Bio_Bay_NR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vieques_Bio_Bay_NR.jpg/960px-Vieques_Bio_Bay_NR.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vieques Bio Bay NR",
+                  "author": "USDA, DRNA PR",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vieques_Bio_Bay_NR.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Vieques Bio Bay NR"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Media Luna Beach",
+          "ai_summary": "Media Luna Beach is a tranquil beach with a crescent shape, perfect for swimming and relaxing in a beautiful setting.",
+          "name_english": "Media Luna Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:45 PM",
+          "cost": "$2",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Ideal for families with children."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring beach games and a picnic.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.1513,
+            "longitude": -65.4383
+          },
+          "address": "Media Luna Beach, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Beach",
+            "Swimming",
+            "Relaxation"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ISS-55_Puerto_Rico,_United_States_island_territory_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/ISS-55_Puerto_Rico%2C_United_States_island_territory_%28cropped%29.jpg/960px-ISS-55_Puerto_Rico%2C_United_States_island_territory_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "ISS-55 Puerto Rico, United States island territory (cropped)",
+                  "author": "NASA",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ISS-55_Puerto_Rico,_United_States_island_territory_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "The United States island territory of Puerto Rico and the surrounding blue waters of the Caribbean Sea on its southern coast and the Atlantic Ocean on its northern coast were pictured by an Expedition 55 crew member aboard the International Space Station."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Isabel Segunda Town Walk",
+          "ai_summary": "A charming walk through the historic Isabel Segunda, featuring colorful buildings, local shops, and cultural sites.",
+          "name_english": "Isabel Segunda Town Walk",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored on foot."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit local art galleries.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.0974,
+            "longitude": -65.4656
+          },
+          "address": "Isabel Segunda, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Walking Tour",
+            "Culture",
+            "Shopping"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2013_Old_San_Juan_01.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/2013_Old_San_Juan_01.JPG/960px-2013_Old_San_Juan_01.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2013 Old San Juan 01",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Farragutful\" title=\"User:Farragutful\">Farragutful</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2013_Old_San_Juan_01.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Old San Juan, Puerto Rico from San Juan Bay."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Vieques Ferry Terminal",
+          "ai_summary": "The main ferry terminal connecting Vieques to the mainland, offering regular passenger and vehicle ferry services.",
+          "name_english": "Vieques Ferry Terminal",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$2 - $10",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "6:00 AM - 10:00 PM",
+            "Tuesday": "6:00 AM - 10:00 PM",
+            "Wednesday": "6:00 AM - 10:00 PM",
+            "Thursday": "6:00 AM - 10:00 PM",
+            "Friday": "6:00 AM - 10:00 PM",
+            "Saturday": "6:00 AM - 10:00 PM",
+            "Sunday": "6:00 AM - 10:00 PM",
+            "notes": "Advance booking recommended for vehicles."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Arrive early to secure parking.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 18.0971,
+            "longitude": -65.4655
+          },
+          "address": "Vieques Ferry Terminal, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Transportation",
+            "Ferry",
+            "Travel"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lancha_de_Cataño_(01).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Lancha_de_Cata%C3%B1o_%2801%29.jpg/960px-Lancha_de_Cata%C3%B1o_%2801%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lancha de Cataño (01)",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Moebiusuibeom-en\" class=\"mw-userlink\" title=\"User:Moebiusuibeom-en\">Moebiusuibeom-en</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lancha_de_Cata%C3%B1o_(01).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Cataño Ferry"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Ceiba Tree (El Ceibo)",
+          "ai_summary": "A famous landmark in Vieques, this giant Ceiba tree is over a century old and is a symbol of the island's natural beauty.",
+          "name_english": "Ceiba Tree",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Daytime",
+          "place_tip": "Bring a camera for photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.0973,
+            "longitude": -65.4654
+          },
+          "address": "Ceiba Tree, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Nature",
+            "Landmark",
+            "Photography"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vieques_Bio_Bay_NR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vieques_Bio_Bay_NR.jpg/960px-Vieques_Bio_Bay_NR.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vieques Bio Bay NR",
+                  "author": "USDA, DRNA PR",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vieques_Bio_Bay_NR.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Vieques Bio Bay NR"
+                }
+              }
+            }
+          },
+          "rank_score": 0.906
+        },
+        {
+          "name": "Vieques Artisanal Market",
+          "ai_summary": "A local market in Vieques offering a variety of artisanal products, souvenirs, and local delicacies.",
+          "name_english": "Vieques Artisanal Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Check for local artisan schedules."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring cash for purchases.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.097,
+            "longitude": -65.4653
+          },
+          "address": "Vieques Artisanal Market, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Shopping",
+            "Local Culture",
+            "Artisan"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vieques_Bio_Bay_NR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vieques_Bio_Bay_NR.jpg/960px-Vieques_Bio_Bay_NR.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vieques Bio Bay NR",
+                  "author": "USDA, DRNA PR",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vieques_Bio_Bay_NR.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Vieques Bio Bay NR"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Vieques Adventure Tours",
+          "ai_summary": "Offers a variety of adventure tours in Vieques, including snorkeling, kayaking, and hiking excursions.",
+          "name_english": "Vieques Adventure Tours",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$75",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Wear comfortable clothing and shoes.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 18.0979,
+            "longitude": -65.4652
+          },
+          "address": "Vieques Adventure Tours, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Adventure",
+            "Tours",
+            "Nature"
+          ],
+          "state": "Vieques Island",
+          "photos": {},
+          "rank_score": 0.778
+        },
+        {
+          "name": "Snorkeling at Mosquito Pier",
+          "ai_summary": "A popular spot for snorkeling, Mosquito Pier offers a chance to see colorful fish and coral reefs.",
+          "name_english": "Snorkeling at Mosquito Pier",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:45 PM",
+          "cost": "$10",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Best visited during high tide."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring your own snorkeling gear.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.0977,
+            "longitude": -65.4651
+          },
+          "address": "Mosquito Pier, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Snorkeling",
+            "Marine Life",
+            "Photography"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Vieques_Bio_Bay_NR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Vieques_Bio_Bay_NR.jpg/960px-Vieques_Bio_Bay_NR.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Vieques Bio Bay NR",
+                  "author": "USDA, DRNA PR",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Vieques_Bio_Bay_NR.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Vieques Bio Bay NR"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Local Horseback Riding Trail",
+          "ai_summary": "Explore Vieques on horseback through scenic trails that offer a unique view of the island's landscape.",
+          "name_english": "Local Horseback Riding Trail",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$60",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8:00 AM - 5:00 PM",
+            "Tuesday": "8:00 AM - 5:00 PM",
+            "Wednesday": "8:00 AM - 5:00 PM",
+            "Thursday": "8:00 AM - 5:00 PM",
+            "Friday": "8:00 AM - 5:00 PM",
+            "Saturday": "8:00 AM - 5:00 PM",
+            "Sunday": "8:00 AM - 5:00 PM",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Wear long pants and closed shoes.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 18.0978,
+            "longitude": -65.465
+          },
+          "address": "Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Horseback Riding",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ebnit06061.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ebnit06061.JPG/960px-Ebnit06061.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ebnit06061",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:B%C3%B6hringer\" title=\"User:Böhringer\">böhringer friedrich</a>",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ebnit06061.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "Reiten im <a href=\"https://de.wikipedia.org/wiki/Ebnit\" class=\"extiw\" title=\"de:Ebnit\">Enbit</a>, <a href=\"//commons.wikimedia.org/wiki/Dornbirn\" title=\"Dornbirn\">Dornbirn</a> im Hintergrund die Ilgenwald Alpe"
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Vieques Lighthouse",
+          "ai_summary": "The historic lighthouse offers panoramic views of the island and the ocean, a great spot for photography.",
+          "name_english": "Vieques Lighthouse",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "6:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited at sunrise or sunset."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Bring a flashlight for the trail.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 18.0979,
+            "longitude": -65.4649
+          },
+          "address": "Vieques Lighthouse, Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Lighthouse",
+            "Viewpoint",
+            "Photography"
+          ],
+          "state": "Vieques Island",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Punta_Mulas_(Vieques,_Puerto_Rico).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Punta_Mulas_%28Vieques%2C_Puerto_Rico%29.jpg/960px-Punta_Mulas_%28Vieques%2C_Puerto_Rico%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Punta Mulas (Vieques, Puerto Rico)",
+                  "author": "Jjankechu",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Punta_Mulas_(Vieques,_Puerto_Rico).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Punta Mulas Lighthouse (Vieques, Puerto Rico)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.822
+        },
+        {
+          "name": "Island Jeep Safari",
+          "ai_summary": "An adventurous tour that takes you around the island's best spots in a rugged Jeep, led by a local guide.",
+          "name_english": "Island Jeep Safari",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$85",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "8:00 AM - 6:00 PM",
+            "notes": "Book in advance to secure a spot."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Bring a camera and wear comfortable clothes.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 18.0977,
+            "longitude": -65.4648
+          },
+          "address": "Vieques, Puerto Rico",
+          "official_website": "https://www.discoverpuertorico.com",
+          "tags": [
+            "Jeep Tour",
+            "Adventure",
+            "Sightseeing"
+          ],
+          "state": "Vieques Island",
+          "photos": {},
+          "rank_score": 0.778
+        }
+      ]
+    }
+  ]
+}

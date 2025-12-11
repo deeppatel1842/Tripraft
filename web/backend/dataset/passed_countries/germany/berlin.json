@@ -1,0 +1,1192 @@
+{
+  "country": "Germany",
+  "state": "Berlin",
+  "cities": [
+    {
+      "city": "Berlin",
+      "nearest_airport": "Berlin Brandenburg Airport (BER)",
+      "places": [
+        {
+          "name": "Brandenburg Gate",
+          "ai_summary": "An iconic 18th-century neoclassical monument symbolizing peace and unity.",
+          "name_english": "Brandenburg Gate",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Illuminated at night for a spectacular view."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit during the evening to see it beautifully lit up.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 52.516,
+            "longitude": 13.377
+          },
+          "address": "Brandenburg Gate, Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Monument",
+            "Historic",
+            "Landmark"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Brandenburger_Tor_abends.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brandenburger_Tor_abends.jpg/960px-Brandenburger_Tor_abends.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Brandenburger Tor abends",
+                  "author": "<b><a href=\"//commons.wikimedia.org/wiki/User:Der_Wolf_im_Wald\" title=\"User:Der Wolf im Wald\">Thomas Wolf</a></b>, <small><a rel=\"nofollow\" class=\"external text\" href=\"http://www.foto-tw.de\">www.foto-tw.de</a></small>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_abends.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The <a href=\"https://en.wikipedia.org/wiki/Brandenburg_Gate\" class=\"extiw\" title=\"en:Brandenburg Gate\">Brandenburg Gate</a> in <a href=\"https://en.wikipedia.org/wiki/Berlin\" class=\"extiw\" title=\"en:Berlin\">Berlin</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.974
+        },
+        {
+          "name": "Reichstag Building",
+          "ai_summary": "The seat of the German Parliament, featuring a glass dome with panoramic views of Berlin.",
+          "name_english": "Reichstag Building",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Free (registration required)",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "08:00 - 24:00",
+            "Tuesday": "08:00 - 24:00",
+            "Wednesday": "08:00 - 24:00",
+            "Thursday": "08:00 - 24:00",
+            "Friday": "08:00 - 24:00",
+            "Saturday": "08:00 - 24:00",
+            "Sunday": "08:00 - 24:00",
+            "notes": "Last admission at 22:00."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Book your visit to the dome in advance online.",
+          "advanced_booking": "Highly recommended",
+          "coordinates": {
+            "latitude": 52.518,
+            "longitude": 13.376
+          },
+          "address": "Reichstag Building, Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Government",
+            "Architecture",
+            "Landmark"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Berlin_reichstag_west_panorama_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Berlin_reichstag_west_panorama_2.jpg/960px-Berlin_reichstag_west_panorama_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Berlin reichstag west panorama 2",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Mfield\" title=\"User:Mfield\">Mfield</a>, Matthew Field, <a rel=\"nofollow\" class=\"external free\" href=\"http://www.photography.mattfield.com\">http://www.photography.mattfield.com</a>; edit by <a href=\"//commons.wikimedia.org/wiki/User:Waugsberg\" title=\"User:Waugsberg\">Waugsberg</a> (rotation 0,4°)",
+                  "license": "GFDL 1.2",
+                  "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Berlin_reichstag_west_panorama_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "GNU Free Documentation License 1.2",
+                  "description": "The <a href=\"https://en.wikipedia.org/wiki/Reichstag_building\" class=\"extiw\" title=\"en:Reichstag building\">Reichstag</a> building seen from the west. Inscription translates to \"For/To the German People\""
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Museum Island",
+          "ai_summary": "A UNESCO World Heritage Site housing five world-renowned museums on the Spree River.",
+          "name_english": "Museum Island",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 20:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Extended hours on Thursdays."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Purchase a day pass to explore all the museums.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 52.516,
+            "longitude": 13.401
+          },
+          "address": "Museum Island, Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "UNESCO",
+            "Cultural"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Berlin_Museumsinsel_Fernsehturm.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Berlin_Museumsinsel_Fernsehturm.jpg/960px-Berlin_Museumsinsel_Fernsehturm.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Berlin Museumsinsel Fernsehturm",
+                  "author": "<b><a href=\"//commons.wikimedia.org/wiki/User:Der_Wolf_im_Wald\" title=\"User:Der Wolf im Wald\">Thomas Wolf</a></b>, <small><a rel=\"nofollow\" class=\"external text\" href=\"http://www.foto-tw.de\">www.foto-tw.de</a></small>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Berlin_Museumsinsel_Fernsehturm.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Berlin\" class=\"extiw\" title=\"en:Berlin\">Berlin</a> <a href=\"https://en.wikipedia.org/wiki/Museum_Island\" class=\"extiw\" title=\"en:Museum Island\">Museum Island</a> with <a href=\"https://en.wikipedia.org/wiki/Fernsehturm_Berlin\" class=\"extiw\" title=\"en:Fernsehturm Berlin\">Fernsehturm</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.942
+        },
+        {
+          "name": "Berlin Wall Memorial",
+          "ai_summary": "A preserved section of the Berlin Wall with a documentation center and open-air exhibition.",
+          "name_english": "Berlin Wall Memorial",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00 - 22:00",
+            "Tuesday": "08:00 - 22:00",
+            "Wednesday": "08:00 - 22:00",
+            "Thursday": "08:00 - 22:00",
+            "Friday": "08:00 - 22:00",
+            "Saturday": "08:00 - 22:00",
+            "Sunday": "08:00 - 22:00",
+            "notes": "Illuminated at night."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Don't miss the visitor center for detailed exhibits.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 52.532,
+            "longitude": 13.384
+          },
+          "address": "Bernauer Str. 119, 13355 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Memorial",
+            "UNESCO"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Berlinermauer.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/960px-Berlinermauer.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Berlinermauer",
+                  "author": "<a href=\"https://de.wikipedia.org/wiki/Benutzer:Noir\" class=\"extiw\" title=\"de:Benutzer:Noir\">Noir</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Berlinermauer.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "This image of the Berlin Wall was taken in 1986 by Thierry Noir at Bethaniendamm in Berlin-Kreuzberg."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Checkpoint Charlie",
+          "ai_summary": "Famous crossing point between East and West Berlin during the Cold War, now a tourist attraction.",
+          "name_english": "Checkpoint Charlie",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 - 22:00",
+            "Tuesday": "09:00 - 22:00",
+            "Wednesday": "09:00 - 22:00",
+            "Thursday": "09:00 - 22:00",
+            "Friday": "09:00 - 22:00",
+            "Saturday": "09:00 - 22:00",
+            "Sunday": "09:00 - 22:00",
+            "notes": "Check for guided tour availability."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the museum nearby for in-depth history.",
+          "advanced_booking": "Optional",
+          "coordinates": {
+            "latitude": 52.507,
+            "longitude": 13.39
+          },
+          "address": "Friedrichstraße 43-45, 10117 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Tourist Attraction",
+            "Cold War"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Berlin_-_Checkpoint_Charlie_1963.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Berlin_-_Checkpoint_Charlie_1963.jpg/900px-Berlin_-_Checkpoint_Charlie_1963.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Berlin - Checkpoint Charlie 1963",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24736216@N07\">Roger Wollstadt</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Berlin_-_Checkpoint_Charlie_1963.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Checkpoint Charlie was on Friedrichstrasse, near Kochstrasse.  It was the only crossing between West Berlin and East Berlin that could be used by Americans and other foreigners, and by members of the Allied Forces.  The other six checkpoints were for residents of West Berlin or West Germany."
+                }
+              }
+            }
+          },
+          "rank_score": 0.814
+        },
+        {
+          "name": "East Side Gallery",
+          "ai_summary": "Open-air gallery featuring murals painted on the Berlin Wall's longest remaining section.",
+          "name_english": "East Side Gallery",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day for full mural visibility."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a camera to capture the vibrant artwork.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 52.506,
+            "longitude": 13.439
+          },
+          "address": "Mühlenstraße 3-100, 10243 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Art",
+            "Historic",
+            "Open-air Gallery"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Segment_with_Graffiti_of_the_Berlin_Wall_(3_of_4)_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Segment_with_Graffiti_of_the_Berlin_Wall_%283_of_4%29_%28cropped%29.jpg/960px-Segment_with_Graffiti_of_the_Berlin_Wall_%283_of_4%29_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Segment with Graffiti of the Berlin Wall (3 of 4) (cropped)",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Lklundin\" title=\"User:Lklundin\">Lklundin</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Segment_with_Graffiti_of_the_Berlin_Wall_(3_of_4)_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A segment of the Berlin Wall with the graffiti painting <a href=\"https://en.wikipedia.org/wiki/My_God,_Help_Me_to_Survive_This_Deadly_Love\" class=\"extiw\" title=\"en:My God, Help Me to Survive This Deadly Love\">My God, Help Me to Survive This Deadly Love</a>. (3 of 4)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Berlin Cathedral",
+          "ai_summary": "A magnificent Protestant cathedral known for its stunning architecture and dome.",
+          "name_english": "Berlin Cathedral",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:45",
+          "cost": "Free (donations appreciated)",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 20:00",
+            "Tuesday": "09:00 - 20:00",
+            "Wednesday": "09:00 - 20:00",
+            "Thursday": "09:00 - 20:00",
+            "Friday": "09:00 - 20:00",
+            "Saturday": "09:00 - 20:00",
+            "Sunday": "09:00 - 20:00",
+            "notes": "Climb the dome for a panoramic view of the city."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Check the schedule for organ concerts.",
+          "advanced_booking": "Optional",
+          "coordinates": {
+            "latitude": 52.519,
+            "longitude": 13.401
+          },
+          "address": "Am Lustgarten, 10178 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Religious",
+            "Architecture",
+            "Landmark"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:141227_Berliner_Dom.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/141227_Berliner_Dom.jpg/960px-141227_Berliner_Dom.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "141227 Berliner Dom",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Code\" title=\"User:Code\">Ansgar Koreng</a>",
+                  "license": "CC BY 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:141227_Berliner_Dom.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0 de",
+                  "description": "The west front of the <a href=\"https://en.wikipedia.org/wiki/Berlin_Cathedral\" class=\"extiw\" title=\"en:Berlin Cathedral\">Berlin Cathedral</a> in the early morning at the blue hour."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Alexanderplatz & TV Tower",
+          "ai_summary": "A central square with a famous TV tower offering panoramic city views.",
+          "name_english": "Alexanderplatz & TV Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Fee for TV Tower observation deck",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Buy tickets online to avoid long queues."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the observation deck at sunset for a stunning view.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 52.521,
+            "longitude": 13.413
+          },
+          "address": "Panoramastraße 1A, 10178 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Viewpoint",
+            "Landmark",
+            "Modern Architecture"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Alexanderplatz_by_the_night_-_ProtoplasmaKid.webm",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Alexanderplatz_by_the_night_-_ProtoplasmaKid.webm/800px--Alexanderplatz_by_the_night_-_ProtoplasmaKid.webm.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Alexanderplatz by the night - ProtoplasmaKid",
+                  "author": "ProtoplasmaKid, shoots and edition / music by <a rel=\"nofollow\" class=\"external text\" href=\"http://chriszabriskie.com\">Chris Zabriskie</a>, “<a rel=\"nofollow\" class=\"external text\" href=\"https://freemusicarchive.org/music/Chris_Zabriskie/Undercover_Vampire_Policeman/01_-_The_Temperature_of_the_Air_on_the_Bow_of_the_Kaleetan_1165\">The Temperature of the Air on the Bow of the Kaleetan</a>” CC: Attribution 4.0",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Alexanderplatz_by_the_night_-_ProtoplasmaKid.webm",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Alexanderplatz by the night."
+                }
+              }
+            }
+          },
+          "rank_score": 0.85
+        },
+        {
+          "name": "Potsdamer Platz",
+          "ai_summary": "A vibrant square known for its modern architecture, shopping, and entertainment.",
+          "name_english": "Potsdamer Platz",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 - 20:00",
+            "Tuesday": "10:00 - 20:00",
+            "Wednesday": "10:00 - 20:00",
+            "Thursday": "10:00 - 20:00",
+            "Friday": "10:00 - 20:00",
+            "Saturday": "10:00 - 20:00",
+            "Sunday": "10:00 - 20:00",
+            "notes": "Check for events and exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the Sony Center for dining and entertainment.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 52.509,
+            "longitude": 13.375
+          },
+          "address": "Potsdamer Platz, 10785 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Square",
+            "Shopping",
+            "Entertainment"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Berlin_-_Potsdamer_Platz_-_2016.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Berlin_-_Potsdamer_Platz_-_2016.jpg/960px-Berlin_-_Potsdamer_Platz_-_2016.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Berlin - Potsdamer Platz - 2016",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Avda\" title=\"User:Avda\">Avda</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Berlin_-_Potsdamer_Platz_-_2016.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Aerial view of Potsdamer Platz, Berlin 2016"
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Holocaust Memorial",
+          "ai_summary": "A somber memorial dedicated to the Jewish victims of the Holocaust.",
+          "name_english": "Holocaust Memorial",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visit the underground information center for more context."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Approach with respect and take time to reflect.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 52.513,
+            "longitude": 13.392
+          },
+          "address": "Viktor-Klemperer-Platz, 10117 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Memorial",
+            "Historic Site",
+            "UNESCO"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Berlin_Holocaust_memorial,_25_August_2006.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Berlin_Holocaust_memorial%2C_25_August_2006.jpg/960px-Berlin_Holocaust_memorial%2C_25_August_2006.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Berlin Holocaust memorial, 25 August 2006",
+                  "author": "Anders Thirsgaard Rasmussen",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Berlin_Holocaust_memorial,_25_August_2006.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "<i>Denkmal für die ermordeten Juden Europas</i>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Charlottenburg Palace",
+          "ai_summary": "A stunning baroque palace with beautiful gardens, showcasing Prussian history.",
+          "name_english": "Charlottenburg Palace",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Stroll through the gardens for a peaceful escape.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 52.508,
+            "longitude": 13.292
+          },
+          "address": "Spandauer Damm 20-24, 14059 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Palace",
+            "Museum",
+            "Gardens"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Charlottenburg_Hohenzollern_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Charlottenburg_Hohenzollern_2.jpg/960px-Charlottenburg_Hohenzollern_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Charlottenburg Hohenzollern 2",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Ernstol\" class=\"mw-redirect\" title=\"User:Ernstol\">ernstol</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Charlottenburg_Hohenzollern_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Schloss Charlottenburg Berlin, April 2014"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Pergamon Museum",
+          "ai_summary": "One of the world's most important archaeological museums, located on Museum Island.",
+          "name_english": "Pergamon Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 20:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Closed on Mondays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the Ishtar Gate and the Pergamon Altar.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 52.528,
+            "longitude": 13.396
+          },
+          "address": "Bodestraße 1-3, 10178 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Archaeology",
+            "UNESCO"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pergamonmuseum_Front.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Pergamonmuseum_Front.jpg/960px-Pergamonmuseum_Front.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pergamonmuseum Front",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pergamonmuseum_Front.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "<a href=\"//commons.wikimedia.org/wiki/Berlin\" title=\"Berlin\">Berlin</a> - Entrance area to the <a href=\"//commons.wikimedia.org/wiki/Pergamon_Museum\" class=\"mw-redirect\" title=\"Pergamon Museum\">Pergamon Museum</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Unter den Linden Boulevard",
+          "ai_summary": "A historic boulevard lined with linden trees, leading to Brandenburg Gate.",
+          "name_english": "Unter den Linden Boulevard",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best walked in the morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Enjoy a coffee at one of the cafes along the boulevard.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 52.516,
+            "longitude": 13.384
+          },
+          "address": "Unter den Linden, 10117 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Boulevard",
+            "Historic",
+            "Landmark"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Unter_den_Linden_von_oben_cropped.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Unter_den_Linden_von_oben_cropped.jpg/960px-Unter_den_Linden_von_oben_cropped.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Unter den Linden von oben cropped",
+                  "author": "Original version: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/nathelbiya/\">Nath el Biya/Niels</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Unter_den_Linden_von_oben_cropped.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Berlin, <a href=\"//commons.wikimedia.org/wiki/Unter_den_Linden\" title=\"Unter den Linden\">Unter den Linden</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.754
+        },
+        {
+          "name": "Tempelhofer Feld",
+          "ai_summary": "A former airport turned into a large public park, great for cycling and picnics.",
+          "name_english": "Tempelhofer Feld",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Popular for jogging, cycling, and kite flying."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a picnic and enjoy the vast open space.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 52.475,
+            "longitude": 13.405
+          },
+          "address": "Tempelhofer Damm, 12101 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Recreation",
+            "Historic Site"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tempelhofer_Feld_May_2021.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Tempelhofer_Feld_May_2021.jpg/960px-Tempelhofer_Feld_May_2021.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tempelhofer Feld May 2021",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Coooohen\" title=\"User:Coooohen\">Coooohen</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tempelhofer_Feld_May_2021.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "View of one of the runways at Tempelhofer Feld, a park in Berlin"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Berlin Zoo",
+          "ai_summary": "One of the oldest and most famous zoos in the world, located in Tiergarten.",
+          "name_english": "Berlin Zoo",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Last entry 1 hour before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the panda enclosure and the aquarium.",
+          "advanced_booking": "Optional",
+          "coordinates": {
+            "latitude": 52.507,
+            "longitude": 13.351
+          },
+          "address": "Budapester Str. 32, 10787 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Zoo",
+            "Family",
+            "Attraction"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Berlin_Elefantentor_09-2017.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Berlin_Elefantentor_09-2017.jpg/960px-Berlin_Elefantentor_09-2017.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Berlin Elefantentor 09-2017",
+                  "author": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+                  "license": "FAL",
+                  "license_url": "http://artlibre.org/licence/lal/en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Berlin_Elefantentor_09-2017.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Free Art License",
+                  "description": "Elephant Gate to the Zoo in Berlin, Germany"
+                }
+              }
+            }
+          },
+          "rank_score": 0.826
+        },
+        {
+          "name": "Tiergarten Park",
+          "ai_summary": "A large and popular park in the center of Berlin, perfect for a leisurely stroll or a boat ride.",
+          "name_english": "Tiergarten Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Great for jogging, cycling, and picnicking."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Rent a bike to explore the park's many paths.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 52.508,
+            "longitude": 13.351
+          },
+          "address": "Str. des 17. Juni, 10785 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Recreation",
+            "Nature"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:B-Tiergarten_skyline_Mrz13.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/B-Tiergarten_skyline_Mrz13.jpg/960px-B-Tiergarten_skyline_Mrz13.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "B-Tiergarten skyline Mrz13",
+                  "author": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:B-Tiergarten_skyline_Mrz13.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "View of a part of Berlin-Tiergarten, Germany"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Kaiser Wilhelm Memorial Church",
+          "ai_summary": "A famous landmark and memorial church, partially destroyed in WWII and left in ruins.",
+          "name_english": "Kaiser Wilhelm Memorial Church",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Visit the nearby museum for more history."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Take a moment to reflect in the peaceful memorial garden.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 52.504,
+            "longitude": 13.381
+          },
+          "address": "Breitscheidplatz, 10789 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Church",
+            "Memorial",
+            "Landmark"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Gedächtniskirche1.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ged%C3%A4chtniskirche1.JPG/960px-Ged%C3%A4chtniskirche1.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Gedächtniskirche1",
+                  "author": "<a href=\"https://nl.wikipedia.org/wiki/User:GerardM\" class=\"extiw\" title=\"nl:User:GerardM\">nl:User:GerardM</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ged%C3%A4chtniskirche1.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The <a href=\"//commons.wikimedia.org/wiki/Kaiser-Wilhelm-Ged%C3%A4chtniskirche\" title=\"Kaiser-Wilhelm-Gedächtniskirche\">Kaiser Wilhelm Memorial Church</a> in <a href=\"//commons.wikimedia.org/wiki/Berlin\" title=\"Berlin\">Berlin</a>-Charlottenburg, Germany."
+                }
+              }
+            }
+          },
+          "rank_score": 0.874
+        },
+        {
+          "name": "Gendarmenmarkt Square",
+          "ai_summary": "A beautiful square featuring the German and French Cathedrals and the Concert Hall.",
+          "name_english": "Gendarmenmarkt Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 20:00",
+            "Tuesday": "10:00 - 20:00",
+            "Wednesday": "10:00 - 20:00",
+            "Thursday": "10:00 - 20:00",
+            "Friday": "10:00 - 20:00",
+            "Saturday": "10:00 - 20:00",
+            "Sunday": "10:00 - 20:00",
+            "notes": "Check for concert and event schedules."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy a coffee at one of the square's cafes.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 52.513,
+            "longitude": 13.392
+          },
+          "address": "Gendarmenmarkt, 10117 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Square",
+            "Historic",
+            "Cultural"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:View_of_the_Gendarmenmarkt_and_Deutscher_Dom_(German_Cathedral)_from_the_Top_of_Französischer_Dom_(French_Cathedral).JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/View_of_the_Gendarmenmarkt_and_Deutscher_Dom_%28German_Cathedral%29_from_the_Top_of_Franz%C3%B6sischer_Dom_%28French_Cathedral%29.JPG/960px-View_of_the_Gendarmenmarkt_and_Deutscher_Dom_%28German_Cathedral%29_from_the_Top_of_Franz%C3%B6sischer_Dom_%28French_Cathedral%29.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "View of the Gendarmenmarkt and Deutscher Dom (German Cathedral) from the Top of Französischer Dom (French Cathedral)",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:%D0%92%D0%B2%D0%BB%D0%B0%D1%81%D0%B5%D0%BD%D0%BA%D0%BE\" class=\"mw-redirect\" title=\"User:Ввласенко\">Ввласенко</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:View_of_the_Gendarmenmarkt_and_Deutscher_Dom_(German_Cathedral)_from_the_Top_of_Franz%C3%B6sischer_Dom_(French_Cathedral).JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "View of the Gendarmenmarkt and Deutscher Dom (German Cathedral) from the Top of Französischer Dom (French Cathedral). 2011"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Victory Column (Siegessäule)",
+          "ai_summary": "A monumental column commemorating the victories of Prussia, with a golden angel on top.",
+          "name_english": "Victory Column (Siegessäule)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "09:00 - 18:00",
+            "Sunday": "09:00 - 18:00",
+            "notes": "Climb the 285 steps for a fantastic view."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "The column is located in the middle of a roundabout, be careful when crossing.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 52.514,
+            "longitude": 13.35
+          },
+          "address": "Großer Stern, 10557 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Monument",
+            "Historic",
+            "Viewpoint"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Berlin_Siegessäule_8245.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Berlin_Siegess%C3%A4ule_8245.jpg/960px-Berlin_Siegess%C3%A4ule_8245.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Berlin Siegessäule 8245",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Ailura\" title=\"User:Ailura\">Ailura</a>",
+                  "license": "CC BY-SA 3.0 at",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Berlin_Siegess%C3%A4ule_8245.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 at",
+                  "description": "<p>Berlin: Siegessäule\n</p>\n<div lang=\"en\" dir=\"ltr\" style=\"text-align:unset; color: var(--color-emphasized, #000); max-width:300px; background: var(--background-color-neutral, #ddd); border:1px solid #bbb; margin:1px; font-size:11px; line-height:130%; padding:3px 3px 0;\" class=\"layouttemplate\">This is a photograph of an architectural monument.<br>It is on the list of cultural monuments of Berlin, no. 09050419.</div>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "German Historical Museum",
+          "ai_summary": "A comprehensive museum showcasing German history from antiquity to the present.",
+          "name_english": "German Historical Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 20:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Closed on Mondays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Check out the impressive medieval armory collection.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 52.506,
+            "longitude": 13.39
+          },
+          "address": "Unter den Linden 2, 10117 Berlin, Germany",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "History",
+            "Cultural"
+          ],
+          "state": "Berlin",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Zeughaus_Berlin_2012.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Zeughaus_Berlin_2012.jpg/960px-Zeughaus_Berlin_2012.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Zeughaus Berlin 2012",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Avda\" title=\"User:Avda\">Avda</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Zeughaus_Berlin_2012.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Zeughaus Berlin 2012"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        }
+      ]
+    }
+  ]
+}

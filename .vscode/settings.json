@@ -1,5 +1,28 @@
 {
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--rcfile=${workspaceFolder}/web/backend/.pylintrc"
+    ],
     "python.analysis.extraPaths": [
-        "./web/backend/places"
+        "${workspaceFolder}/web/backend"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "python.analysis.include": [
+        "${workspaceFolder}/web/backend/places_engine"
+    ],
+    "python.analysis.exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        ".pytest_cache",
+        "unwanted_files",
+        "_archived"
     ]
 }

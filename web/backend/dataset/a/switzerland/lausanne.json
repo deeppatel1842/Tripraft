@@ -1,0 +1,1152 @@
+{
+  "country": "Switzerland",
+  "state": "Lausanne",
+  "cities": [
+    {
+      "city": "Lausanne",
+      "nearest_airport": "Geneva Airport",
+      "places": [
+        {
+          "name": "Olympic Museum",
+          "ai_summary": "A world-class museum dedicated to the history and spirit of the Olympic Games, featuring interactive exhibits and memorabilia.",
+          "name_english": "Olympic Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 6:00 PM",
+            "Wednesday": "9:00 AM - 6:00 PM",
+            "Thursday": "9:00 AM - 6:00 PM",
+            "Friday": "9:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 6:00 PM",
+            "Sunday": "9:00 AM - 6:00 PM",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the interactive exhibits on the top floor.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 46.5081,
+            "longitude": 6.6368
+          },
+          "address": "Quai d’Ouchy 1, 1006 Lausanne, Switzerland",
+          "official_website": "https://www.olympic.org/museum",
+          "tags": [
+            "Sports",
+            "History",
+            "Interactive"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Citius Altius Fortius Berrocal.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Citius_Altius_Fortius_Berrocal.jpg/960px-Citius_Altius_Fortius_Berrocal.jpg",
+                "width": 800,
+                "height": 1027,
+                "attribution": {
+                  "title": "Citius Altius Fortius Berrocal",
+                  "author": "Gzzz",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Citius_Altius_Fortius_Berrocal.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "\"Citius, Altius, Fortius\" by spanish sculptor Miguel Berrocal, in front of the Olympic Museum in Lausanne (Switzerland)"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lausanne Cathedral",
+          "ai_summary": "A stunning Gothic cathedral with intricate architecture and a tower offering panoramic views of the city.",
+          "name_english": "Lausanne Cathedral",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "08:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Tower access may have separate hours."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Climb the tower for the best views of Lausanne.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5221,
+            "longitude": 6.6357
+          },
+          "address": "Place de la Cathédrale, 1005 Lausanne, Switzerland",
+          "official_website": "https://www.cathedrale-lausanne.ch",
+          "tags": [
+            "History",
+            "Architecture",
+            "Viewpoint"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cathédrale, Lausanne.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Cath%C3%A9drale%2C_Lausanne.jpg/960px-Cath%C3%A9drale%2C_Lausanne.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cathédrale, Lausanne",
+                  "author": "Maicomaico",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cathédrale,_Lausanne.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Vue de la Cathédrale de Lausanne depuis le Grand-Pont"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ouchy Promenade & Port",
+          "ai_summary": "A picturesque lakeside promenade with stunning views of the Alps, ideal for a leisurely stroll or a boat cruise.",
+          "name_english": "Ouchy Promenade & Port",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "08:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Take a boat cruise for a different perspective of the city.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5055,
+            "longitude": 6.6289
+          },
+          "address": "Quai d’Ouchy, 1006 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/ouchy",
+          "tags": [
+            "Scenic",
+            "Walking",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Logo Métro Lausanne.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Logo_M%C3%A9tro_Lausanne.svg/800px-Logo_M%C3%A9tro_Lausanne.svg.png",
+                "width": 800,
+                "height": 1026,
+                "attribution": {
+                  "title": "Logo Métro Lausanne",
+                  "author": "Unknown authorUnknown author",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Métro_Lausanne.svg",
+                  "credit": "PDF; SVG erzeugt mit Inkscape von Sa-se",
+                  "usage_terms": "Public domain",
+                  "description": "Official Logo of Lausanne Metro"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Collection de l’Art Brut",
+          "ai_summary": "An intriguing museum dedicated to outsider art, featuring works by self-taught artists from around the world.",
+          "name_english": "Collection de l’Art Brut",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "11:00 AM - 5:00 PM",
+            "Wednesday": "11:00 AM - 5:00 PM",
+            "Thursday": "11:00 AM - 5:00 PM",
+            "Friday": "11:00 AM - 5:00 PM",
+            "Saturday": "11:00 AM - 5:00 PM",
+            "Sunday": "11:00 AM - 5:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the museum shop for unique art pieces.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5197,
+            "longitude": 6.6323
+          },
+          "address": "Chemin des Moulins 4, 1000 Lausanne, Switzerland",
+          "official_website": "https://www.artbrut.ch",
+          "tags": [
+            "Art",
+            "Museum",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Question book-new.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Question_book-new.svg/800px-Question_book-new.svg.png",
+                "width": 800,
+                "height": 623,
+                "attribution": {
+                  "title": "Question book-new",
+                  "author": "en:User:Saranphat.cha",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Question_book-new.svg",
+                  "credit": "Transferred from en.wikipedia to Commons. Created from scratch in Adobe Illustrator. Based on Image:Question book.png created by User:Equazcion",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "no original description"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Esplanade de Montbenon",
+          "ai_summary": "A beautiful park and garden area with stunning views of the lake and mountains, perfect for a relaxing walk or a picnic.",
+          "name_english": "Esplanade de Montbenon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "08:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the park's rose garden, especially in spring.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5204,
+            "longitude": 6.6321
+          },
+          "address": "Esplanade de Montbenon, 1000 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/montbenon",
+          "tags": [
+            "Park",
+            "Scenic",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Albert-chavannes-portrait-tn1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Albert-chavannes-portrait-tn1.jpg",
+                "width": 377,
+                "height": 532,
+                "attribution": {
+                  "title": "Albert-chavannes-portrait-tn1",
+                  "author": "Unknown photographer",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Albert-chavannes-portrait-tn1.jpg",
+                  "credit": "Albert Chavannes, The Complete Works of Albert Chavannes (Knoxville, Tenn.: 1903), frontispiece.",
+                  "usage_terms": "Public domain",
+                  "description": "Swiss-American philosopher and author Albert Chavannes (1836–1903)."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Place de la Palud & Town Hall",
+          "ai_summary": "The vibrant heart of Lausanne, featuring a historic town hall and a lively square with shops and cafes.",
+          "name_english": "Place de la Palud & Town Hall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "8:00 AM - 6:00 PM",
+            "Sunday": "Closed",
+            "notes": "Town Hall may have restricted access during events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Try the local pastries at the nearby bakery.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5192,
+            "longitude": 6.6326
+          },
+          "address": "Place de la Palud, 1003 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/palud",
+          "tags": [
+            "History",
+            "Culture",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lausanne Place de la Palud 1800.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Lausanne_Place_de_la_Palud_1800.jpg/960px-Lausanne_Place_de_la_Palud_1800.jpg",
+                "width": 800,
+                "height": 1151,
+                "attribution": {
+                  "title": "Lausanne Place de la Palud 1800",
+                  "author": "Abraham-Louis-Rodolphe Ducros",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lausanne_Place_de_la_Palud_1800.jpg",
+                  "credit": "Peter Dürrenmatt: Schweizer Geschichte, Zürich 1963, neben S. 400.",
+                  "usage_terms": "Public domain",
+                  "description": "Brunnen auf der Place de la Palud in Lausanne, um 1800."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Sauvabelin Tower & Lake",
+          "ai_summary": "A scenic area featuring a wooden tower with panoramic views and a tranquil lake, ideal for nature walks.",
+          "name_english": "Sauvabelin Tower & Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "08:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring binoculars for birdwatching at the lake.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5333,
+            "longitude": 6.6333
+          },
+          "address": "Avenue de la Sallaz 8, 1018 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/sauvabelin",
+          "tags": [
+            "Nature",
+            "Viewpoint",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Logo Métro Lausanne.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Logo_M%C3%A9tro_Lausanne.svg/800px-Logo_M%C3%A9tro_Lausanne.svg.png",
+                "width": 800,
+                "height": 1026,
+                "attribution": {
+                  "title": "Logo Métro Lausanne",
+                  "author": "Unknown authorUnknown author",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Métro_Lausanne.svg",
+                  "credit": "PDF; SVG erzeugt mit Inkscape von Sa-se",
+                  "usage_terms": "Public domain",
+                  "description": "Official Logo of Lausanne Metro"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Hermitage Foundation Museum",
+          "ai_summary": "An art museum set in a beautiful park, featuring a collection of Swiss art and temporary exhibitions.",
+          "name_english": "Hermitage Foundation Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "11:00 AM - 5:00 PM",
+            "Wednesday": "11:00 AM - 5:00 PM",
+            "Thursday": "11:00 AM - 5:00 PM",
+            "Friday": "11:00 AM - 5:00 PM",
+            "Saturday": "11:00 AM - 5:00 PM",
+            "Sunday": "11:00 AM - 5:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the park surrounding the museum.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5167,
+            "longitude": 6.6328
+          },
+          "address": "Rue du Pré-Jardin 3, 1000 Lausanne, Switzerland",
+          "official_website": "https://www.fondationhermitage.ch",
+          "tags": [
+            "Art",
+            "Museum",
+            "Park"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Logo Métro Lausanne.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Logo_M%C3%A9tro_Lausanne.svg/800px-Logo_M%C3%A9tro_Lausanne.svg.png",
+                "width": 800,
+                "height": 1026,
+                "attribution": {
+                  "title": "Logo Métro Lausanne",
+                  "author": "Unknown authorUnknown author",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Métro_Lausanne.svg",
+                  "credit": "PDF; SVG erzeugt mit Inkscape von Sa-se",
+                  "usage_terms": "Public domain",
+                  "description": "Official Logo of Lausanne Metro"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Rolex Learning Center (EPFL)",
+          "ai_summary": "An architectural landmark and learning space at the École Polytechnique Fédérale de Lausanne, with a library and study areas.",
+          "name_english": "Rolex Learning Center (EPFL)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "8:00 AM - 10:00 PM",
+            "Tuesday": "8:00 AM - 10:00 PM",
+            "Wednesday": "8:00 AM - 10:00 PM",
+            "Thursday": "8:00 AM - 10:00 PM",
+            "Friday": "8:00 AM - 10:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Access may be restricted during exams."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the rooftop for a unique view of the campus.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5194,
+            "longitude": 6.5665
+          },
+          "address": "66, bvd. de la Vigne, 1015 Lausanne, Switzerland",
+          "official_website": "https://www.epfl.ch/en/campus/rolex-learning-center/",
+          "tags": [
+            "Architecture",
+            "Education",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Parc de Milan & Botanical Garden",
+          "ai_summary": "A serene park and botanical garden with a diverse collection of plants, trees, and flowers, perfect for a peaceful retreat.",
+          "name_english": "Parc de Milan & Botanical Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "7:00 AM - 8:00 PM",
+            "Tuesday": "7:00 AM - 8:00 PM",
+            "Wednesday": "7:00 AM - 8:00 PM",
+            "Thursday": "7:00 AM - 8:00 PM",
+            "Friday": "7:00 AM - 8:00 PM",
+            "Saturday": "7:00 AM - 8:00 PM",
+            "Sunday": "7:00 AM - 8:00 PM",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Join a guided tour to learn about the plant species.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5161,
+            "longitude": 6.6287
+          },
+          "address": "Chemin de la Hulpe 2, 1000 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/parc-milan",
+          "tags": [
+            "Nature",
+            "Botanical Garden",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Logo Métro Lausanne.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Logo_M%C3%A9tro_Lausanne.svg/800px-Logo_M%C3%A9tro_Lausanne.svg.png",
+                "width": 800,
+                "height": 1026,
+                "attribution": {
+                  "title": "Logo Métro Lausanne",
+                  "author": "Unknown authorUnknown author",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Métro_Lausanne.svg",
+                  "credit": "PDF; SVG erzeugt mit Inkscape von Sa-se",
+                  "usage_terms": "Public domain",
+                  "description": "Official Logo of Lausanne Metro"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Plateforme 10 Arts District (MCBA, Photo Elysée, mudac)",
+          "ai_summary": "A cultural complex housing three major museums of contemporary art, photography, and design.",
+          "name_english": "Plateforme 10 Arts District (MCBA, Photo Elysée, mudac)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "11:00 AM - 6:00 PM",
+            "Wednesday": "11:00 AM - 6:00 PM",
+            "Thursday": "11:00 AM - 6:00 PM",
+            "Friday": "11:00 AM - 6:00 PM",
+            "Saturday": "11:00 AM - 6:00 PM",
+            "Sunday": "11:00 AM - 6:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check the schedule for temporary exhibitions and events.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5168,
+            "longitude": 6.6281
+          },
+          "address": "Place de la Gare 2, 1003 Lausanne, Switzerland",
+          "official_website": "https://plateforme10.ch",
+          "tags": [
+            "Art",
+            "Culture",
+            "Museums"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bocion In Ouchy 1874.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Bocion_In_Ouchy_1874.jpg/960px-Bocion_In_Ouchy_1874.jpg",
+                "width": 800,
+                "height": 436,
+                "attribution": {
+                  "title": "Bocion In Ouchy 1874",
+                  "author": "François Bocion",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bocion_In_Ouchy_1874.jpg",
+                  "credit": "\"Von Anker bis Zünd, Die Kunst im jungen Bundesstaat 1848 - 1900\", Kunsthaus Zürich, 1998; upload by Adrian Michael",
+                  "usage_terms": "Public domain",
+                  "description": "In Ouchy 1874, Gemälde von François Bocion,  1874, 34  x 61 cm, Musée Cantonal des Beaux-Arts, Lausanne"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Flon District Urban Hub",
+          "ai_summary": "A dynamic urban area known for its modern architecture, shops, restaurants, and vibrant nightlife.",
+          "name_english": "Flon District Urban Hub",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "08:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 AM - 8:00 PM",
+            "Tuesday": "10:00 AM - 8:00 PM",
+            "Wednesday": "10:00 AM - 8:00 PM",
+            "Thursday": "10:00 AM - 8:00 PM",
+            "Friday": "10:00 AM - 8:00 PM",
+            "Saturday": "10:00 AM - 8:00 PM",
+            "Sunday": "Closed",
+            "notes": "Hours may vary for individual shops and restaurants."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the area’s street art and murals.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5196,
+            "longitude": 6.6324
+          },
+          "address": "Flon, 1003 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/flon",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Nightlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Audio a.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Audio_a.svg/800px-Audio_a.svg.png",
+                "width": 800,
+                "height": 460,
+                "attribution": {
+                  "title": "Audio a",
+                  "author": "Original:  Pearson Scott Foresman Vector:  McSush",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Audio_a.svg",
+                  "credit": "Own work based on: 'A' (PSF).png",
+                  "usage_terms": "Public domain",
+                  "description": "Line art drawing of the A note"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Avenue de Cour & Belle Epoque Buildings",
+          "ai_summary": "A charming street lined with historic Belle Époque buildings, offering a glimpse into Lausanne's architectural past.",
+          "name_english": "Avenue de Cour & Belle Epoque Buildings",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Look for the intricate details on the building facades.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5164,
+            "longitude": 6.6322
+          },
+          "address": "Avenue de Cour, 1007 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/avenue-de-cour",
+          "tags": [
+            "History",
+            "Architecture",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:All-currency-symbol.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/All-currency-symbol.svg/800px-All-currency-symbol.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "All-currency-symbol",
+                  "author": "StalkerAT",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:All-currency-symbol.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "vector version of All-currency-symbol.gif"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Esplanade du Musée Romain (Vidy)",
+          "ai_summary": "The site of the ancient Roman settlement of Lausanne, featuring ruins, a museum, and beautiful lake views.",
+          "name_english": "Esplanade du Musée Romain (Vidy)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:35 AM",
+          "sunset_time": "08:25 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "Closed",
+            "notes": "Museum and site may have separate hours."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Visit the museum for detailed insights into the Roman history of Lausanne.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5111,
+            "longitude": 6.6283
+          },
+          "address": "Chemin du Musée Romain 1, 1007 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/musee-romain",
+          "tags": [
+            "History",
+            "Archaeology",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Logo Métro Lausanne.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Logo_M%C3%A9tro_Lausanne.svg/800px-Logo_M%C3%A9tro_Lausanne.svg.png",
+                "width": 800,
+                "height": 1026,
+                "attribution": {
+                  "title": "Logo Métro Lausanne",
+                  "author": "Unknown authorUnknown author",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Métro_Lausanne.svg",
+                  "credit": "PDF; SVG erzeugt mit Inkscape von Sa-se",
+                  "usage_terms": "Public domain",
+                  "description": "Official Logo of Lausanne Metro"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Pully Old Town & Vineyards",
+          "ai_summary": "A charming area with narrow streets, historic buildings, and nearby vineyards, offering a taste of the Lavaux wine region.",
+          "name_english": "Pully Old Town & Vineyards",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "08:20 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit a local vineyard for a wine tasting experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5089,
+            "longitude": 6.6613
+          },
+          "address": "Pully, 1009 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/pully",
+          "tags": [
+            "Wine",
+            "History",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Cruise to Montreux/Vevey",
+          "ai_summary": "A scenic boat cruise on Lake Geneva, offering stunning views of the shoreline, vineyards, and mountains.",
+          "name_english": "Cruise to Montreux/Vevey",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Varies",
+            "Tuesday": "Varies",
+            "Wednesday": "Varies",
+            "Thursday": "Varies",
+            "Friday": "Varies",
+            "Saturday": "Varies",
+            "Sunday": "Varies",
+            "notes": "Check the schedule for departure times."
+          },
+          "suggested_duration": "3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Book tickets in advance, especially during peak season.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 46.4316,
+            "longitude": 6.9108
+          },
+          "address": "Gare CFF, 1003 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/cruise-montreux-vevey",
+          "tags": [
+            "Scenic",
+            "Cruise",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2m2c Logo Général.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/2m2c_Logo_G%C3%A9n%C3%A9ral.jpg/960px-2m2c_Logo_G%C3%A9n%C3%A9ral.jpg",
+                "width": 800,
+                "height": 710,
+                "attribution": {
+                  "title": "2m2c Logo Général",
+                  "author": "Lemairem2m2c",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2m2c_Logo_Général.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Logo 2m2c"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Escaliers du Marché Stairs",
+          "ai_summary": "A historic staircase in the old town, offering a picturesque and slightly challenging walk between the streets.",
+          "name_english": "Escaliers du Marché Stairs",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:50 AM",
+          "sunset_time": "08:10 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take your time and enjoy the views from the top.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5198,
+            "longitude": 6.6321
+          },
+          "address": "Escaliers du Marché, 1003 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/escaliers-marche",
+          "tags": [
+            "History",
+            "Walking",
+            "Viewpoint"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:All-currency-symbol.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/All-currency-symbol.svg/800px-All-currency-symbol.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "All-currency-symbol",
+                  "author": "StalkerAT",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:All-currency-symbol.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "vector version of All-currency-symbol.gif"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mon-Repos Park",
+          "ai_summary": "A peaceful park with beautiful gardens, a pond, and walking paths, perfect for a relaxing break.",
+          "name_english": "Mon-Repos Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "08:05 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "7:00 AM - 9:00 PM",
+            "Tuesday": "7:00 AM - 9:00 PM",
+            "Wednesday": "7:00 AM - 9:00 PM",
+            "Thursday": "7:00 AM - 9:00 PM",
+            "Friday": "7:00 AM - 9:00 PM",
+            "Saturday": "7:00 AM - 9:00 PM",
+            "Sunday": "7:00 AM - 9:00 PM",
+            "notes": "Closed on major public holidays."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a book and enjoy the tranquility by the pond.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5169,
+            "longitude": 6.6285
+          },
+          "address": "Chemin de Mon-Repos 1, 1000 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/mon-repos",
+          "tags": [
+            "Park",
+            "Nature",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Casino de Montbenon, Lausanne.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Casino_de_Montbenon%2C_Lausanne.jpg/960px-Casino_de_Montbenon%2C_Lausanne.jpg",
+                "width": 800,
+                "height": 594,
+                "attribution": {
+                  "title": "Casino de Montbenon, Lausanne",
+                  "author": "Maicomaico",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Casino_de_Montbenon,_Lausanne.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Casino de Montbenon, Lausanne"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Parc de l’Hermitage View",
+          "ai_summary": "A scenic viewpoint in the Hermitage Park, offering panoramic views of Lausanne and Lake Geneva.",
+          "name_english": "Parc de l’Hermitage View",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Bring a picnic and enjoy the view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5162,
+            "longitude": 6.6281
+          },
+          "address": "Chemin de l'Hermitage 1, 1000 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/hermitage-view",
+          "tags": [
+            "Viewpoint",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Bel-Air Tower & Belvedere",
+          "ai_summary": "A historic tower offering stunning views of Lausanne, Lake Geneva, and the Alps, accessible by a short hike.",
+          "name_english": "Bel-Air Tower & Belvedere",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:55 AM",
+          "sunset_time": "08:05 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1.5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "The hike is steep but offers rewarding views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 46.5163,
+            "longitude": 6.6283
+          },
+          "address": "Chemin du Bel-Air 1, 1000 Lausanne, Switzerland",
+          "official_website": "https://www.lausanne.ch/bel-air-tower",
+          "tags": [
+            "Hiking",
+            "Viewpoint",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Audio a.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Audio_a.svg/800px-Audio_a.svg.png",
+                "width": 800,
+                "height": 460,
+                "attribution": {
+                  "title": "Audio a",
+                  "author": "Original:  Pearson Scott Foresman Vector:  McSush",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Audio_a.svg",
+                  "credit": "Own work based on: 'A' (PSF).png",
+                  "usage_terms": "Public domain",
+                  "description": "Line art drawing of the A note"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

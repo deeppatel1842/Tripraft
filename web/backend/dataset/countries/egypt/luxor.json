@@ -1,0 +1,1135 @@
+{
+  "country": "Egypt",
+  "state": "Luxor",
+  "cities": [
+    {
+      "city": "Luxor",
+      "nearest_airport": "Luxor International Airport (LXR)",
+      "places": [
+        {
+          "name": "Karnak Temple Complex",
+          "ai_summary": "A vast open-air museum and the largest ancient religious site in the world, dedicated to the Theban triad.",
+          "name_english": "Karnak Temple",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "06:00 - 17:00",
+            "Tuesday": "06:00 - 17:00",
+            "Wednesday": "06:00 - 17:00",
+            "Thursday": "06:00 - 17:00",
+            "Friday": "06:00 - 17:00",
+            "Saturday": "06:00 - 17:00",
+            "Sunday": "06:00 - 17:00",
+            "notes": "Best visited early morning to avoid crowds."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the Hypostyle Hall with its massive columns.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.719,
+            "longitude": 32.657
+          },
+          "address": "Karnak, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "History",
+            "UNESCO World Heritage"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Alabaster chapel of Amenhotep I (Karnak).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Alabaster_chapel_of_Amenhotep_I_%28Karnak%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Alabaster chapel of Amenhotep I (Karnak)",
+                  "author": "Kingtut at Hungarian Wikipedia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Alabaster_chapel_of_Amenhotep_I_(Karnak).jpg",
+                  "credit": "Transferred from hu.wikipedia to Commons by Leoboudv.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Alabaster chapel of Amenhotep I (Karnak temple, open air museum)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.816
+        },
+        {
+          "name": "Luxor Temple",
+          "ai_summary": "A stunning temple complex located on the east bank of the Nile, known for its grand colonnades and statues.",
+          "name_english": "Luxor Temple",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00 - 22:00",
+            "Tuesday": "06:00 - 22:00",
+            "Wednesday": "06:00 - 22:00",
+            "Thursday": "06:00 - 22:00",
+            "Friday": "06:00 - 22:00",
+            "Saturday": "06:00 - 22:00",
+            "Sunday": "06:00 - 22:00",
+            "notes": "Illuminated at night for a magical experience."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit at night to see the temple beautifully lit.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.699,
+            "longitude": 32.639
+          },
+          "address": "Luxor Temple, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "History",
+            "Landmark"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Abu el-Haggag R01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Abu_el-Haggag_R01.jpg/960px-Abu_el-Haggag_R01.jpg",
+                "width": 800,
+                "height": 536,
+                "attribution": {
+                  "title": "Abu el-Haggag R01",
+                  "author": "Marc Ryckaert",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Abu_el-Haggag_R01.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Luxor, Egypt: Abu el-Haggag Mosque and pylon of Luxor Temple"
+                }
+              }
+            }
+          },
+          "rank_score": 0.817
+        },
+        {
+          "name": "Valley of the Kings",
+          "ai_summary": "A royal burial ground for pharaohs and nobles, featuring elaborately decorated tombs.",
+          "name_english": "Valley of the Kings",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "06:00 - 17:00",
+            "Tuesday": "06:00 - 17:00",
+            "Wednesday": "06:00 - 17:00",
+            "Thursday": "06:00 - 17:00",
+            "Friday": "06:00 - 17:00",
+            "Saturday": "06:00 - 17:00",
+            "Sunday": "06:00 - 17:00",
+            "notes": "Photography inside tombs may require an additional fee."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes as there’s a lot of walking involved.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.74,
+            "longitude": 32.601
+          },
+          "address": "Valley of the Kings, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Tombs",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Egypt adm location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Egypt_adm_location_map.svg/960px-Egypt_adm_location_map.svg.png",
+                "width": 800,
+                "height": 738,
+                "attribution": {
+                  "title": "Egypt adm location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Egypt_adm_location_map.svg",
+                  "credit": "Own work using:\n\nUnited States National Imagery and Mapping Agency data\nWorld Data Base II data",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8085
+        },
+        {
+          "name": "Valley of the Queens",
+          "ai_summary": "The burial site of royal wives, featuring beautiful tombs with intricate decorations.",
+          "name_english": "Valley of the Queens",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00 - 17:00",
+            "Tuesday": "06:00 - 17:00",
+            "Wednesday": "06:00 - 17:00",
+            "Thursday": "06:00 - 17:00",
+            "Friday": "06:00 - 17:00",
+            "Saturday": "06:00 - 17:00",
+            "Sunday": "06:00 - 17:00",
+            "notes": "Less crowded than the Valley of the Kings, offering a more peaceful visit."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Look out for the tomb of Queen Nefertari, one of the most beautiful in Egypt.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.735,
+            "longitude": 32.601
+          },
+          "address": "Valley of the Queens, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Tombs",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Egypt adm location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Egypt_adm_location_map.svg/960px-Egypt_adm_location_map.svg.png",
+                "width": 800,
+                "height": 738,
+                "attribution": {
+                  "title": "Egypt adm location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Egypt_adm_location_map.svg",
+                  "credit": "Own work using:\n\nUnited States National Imagery and Mapping Agency data\nWorld Data Base II data",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7805
+        },
+        {
+          "name": "Temple of Hatshepsut (Deir el-Bahari)",
+          "ai_summary": "A mortuary temple dedicated to Queen Hatshepsut, known for its stunning architecture and terraces.",
+          "name_english": "Temple of Hatshepsut",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00 - 17:00",
+            "Tuesday": "06:00 - 17:00",
+            "Wednesday": "06:00 - 17:00",
+            "Thursday": "06:00 - 17:00",
+            "Friday": "06:00 - 17:00",
+            "Saturday": "06:00 - 17:00",
+            "Sunday": "06:00 - 17:00",
+            "notes": "The temple is best viewed in the morning light."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the beautiful reliefs and the statue of Hatshepsut.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.735,
+            "longitude": 32.601
+          },
+          "address": "Deir el-Bahari, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "History",
+            "Architecture"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Archaeological site icon (red).svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Archaeological_site_icon_%28red%29.svg/800px-Archaeological_site_icon_%28red%29.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Archaeological site icon (red)",
+                  "author": "Edgars2007",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Archaeological_site_icon_(red).svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Archaeological site icon"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8095
+        },
+        {
+          "name": "Colossi of Memnon",
+          "ai_summary": "Two massive stone statues of Pharaoh Amenhotep III, standing guard at the entrance of his mortuary temple.",
+          "name_english": "Colossi of Memnon",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00 - 17:00",
+            "Tuesday": "06:00 - 17:00",
+            "Wednesday": "06:00 - 17:00",
+            "Thursday": "06:00 - 17:00",
+            "Friday": "06:00 - 17:00",
+            "Saturday": "06:00 - 17:00",
+            "Sunday": "06:00 - 17:00",
+            "notes": "Best viewed at sunrise when the statues are illuminated."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Sunrise",
+          "place_tip": "Climb up the hill for a better view and fewer crowds.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.733,
+            "longitude": 32.601
+          },
+          "address": "West Bank, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Statues",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:TT21.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/TT21.jpg",
+                "width": 647,
+                "height": 1020,
+                "attribution": {
+                  "title": "TT21",
+                  "author": "Hotepibre",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:TT21.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Planimetria schematica della tomba TT21"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7403
+        },
+        {
+          "name": "Medinet Habu (Ramses III Temple)",
+          "ai_summary": "A well-preserved temple complex from the reign of Ramses III, featuring impressive reliefs and hieroglyphs.",
+          "name_english": "Medinet Habu",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00 - 17:00",
+            "Tuesday": "06:00 - 17:00",
+            "Wednesday": "06:00 - 17:00",
+            "Thursday": "06:00 - 17:00",
+            "Friday": "06:00 - 17:00",
+            "Saturday": "06:00 - 17:00",
+            "Sunday": "06:00 - 17:00",
+            "notes": "Less crowded than other temples, offering a more intimate experience."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the temple's interior for detailed reliefs and the impressive mortuary temple of Ramses III.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.735,
+            "longitude": 32.585
+          },
+          "address": "Medinet Habu, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Egypt adm location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Egypt_adm_location_map.svg/960px-Egypt_adm_location_map.svg.png",
+                "width": 800,
+                "height": 738,
+                "attribution": {
+                  "title": "Egypt adm location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Egypt_adm_location_map.svg",
+                  "credit": "Own work using:\n\nUnited States National Imagery and Mapping Agency data\nWorld Data Base II data",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.784
+        },
+        {
+          "name": "Ramesseum",
+          "ai_summary": "The mortuary temple of Pharaoh Ramses II, known for its massive statues and impressive architecture.",
+          "name_english": "Ramesseum",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00 - 17:00",
+            "Tuesday": "06:00 - 17:00",
+            "Wednesday": "06:00 - 17:00",
+            "Thursday": "06:00 - 17:00",
+            "Friday": "06:00 - 17:00",
+            "Saturday": "06:00 - 17:00",
+            "Sunday": "06:00 - 17:00",
+            "notes": "Look out for the fallen statue of Ramses II, one of the largest in Egypt."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the site of the famous Colossi of Memnon nearby.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.733,
+            "longitude": 32.601
+          },
+          "address": "Ramesseum, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:TT21.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/TT21.jpg",
+                "width": 647,
+                "height": 1020,
+                "attribution": {
+                  "title": "TT21",
+                  "author": "Hotepibre",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:TT21.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Planimetria schematica della tomba TT21"
+                }
+              }
+            }
+          },
+          "rank_score": 0.77
+        },
+        {
+          "name": "Luxor Museum",
+          "ai_summary": "A modern museum showcasing artifacts from ancient Thebes, including mummies, statues, and jewelry.",
+          "name_english": "Luxor Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00 - 21:00",
+            "Tuesday": "09:00 - 21:00",
+            "Wednesday": "09:00 - 21:00",
+            "Thursday": "09:00 - 21:00",
+            "Friday": "09:00 - 21:00",
+            "Saturday": "09:00 - 21:00",
+            "Sunday": "09:00 - 21:00",
+            "notes": "Plan at least 2 hours for your visit to see all exhibits."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the mummified remains of ancient Egyptians and the impressive collection of artifacts.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.688,
+            "longitude": 32.639
+          },
+          "address": "Corniche El Nile, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "History",
+            "Artifacts"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Coat of Arms of Luxor Governorate.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Coat_of_Arms_of_Luxor_Governorate.jpg/960px-Coat_of_Arms_of_Luxor_Governorate.jpg",
+                "width": 800,
+                "height": 1259,
+                "attribution": {
+                  "title": "Coat of Arms of Luxor Governorate",
+                  "author": "Luxor Governorate",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Luxor_Governorate.jpg",
+                  "credit": "Luxor Governorate",
+                  "usage_terms": "Public domain",
+                  "description": "شعار محافظة الأقصر، مصر"
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        },
+        {
+          "name": "Mummification Museum",
+          "ai_summary": "A unique museum dedicated to the ancient Egyptian art of mummification, with exhibits and demonstrations.",
+          "name_english": "Mummification Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Combine your visit with the Luxor Museum as they are close to each other."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Watch out for the interactive exhibits that explain the mummification process.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.688,
+            "longitude": 32.637
+          },
+          "address": "Corniche El Nile, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "History",
+            "Mummification"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Coat of Arms of Luxor Governorate.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Coat_of_Arms_of_Luxor_Governorate.jpg/960px-Coat_of_Arms_of_Luxor_Governorate.jpg",
+                "width": 800,
+                "height": 1259,
+                "attribution": {
+                  "title": "Coat of Arms of Luxor Governorate",
+                  "author": "Luxor Governorate",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Luxor_Governorate.jpg",
+                  "credit": "Luxor Governorate",
+                  "usage_terms": "Public domain",
+                  "description": "شعار محافظة الأقصر، مصر"
+                }
+              }
+            }
+          },
+          "rank_score": 0.773
+        },
+        {
+          "name": "Deir el-Medina (Artisans’ Village)",
+          "ai_summary": "The ancient village of the artisans who worked on the tombs in the Valley of the Kings, with well-preserved ruins.",
+          "name_english": "Deir el-Medina",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00 - 17:00",
+            "Tuesday": "06:00 - 17:00",
+            "Wednesday": "06:00 - 17:00",
+            "Thursday": "06:00 - 17:00",
+            "Friday": "06:00 - 17:00",
+            "Saturday": "06:00 - 17:00",
+            "Sunday": "06:00 - 17:00",
+            "notes": "A guided tour is recommended to fully appreciate the site."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the remains of the houses, streets, and the communal bakery.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.74,
+            "longitude": 32.601
+          },
+          "address": "Deir el-Medina, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Archaeological Site",
+            "History",
+            "Village"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Egypt adm location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Egypt_adm_location_map.svg/960px-Egypt_adm_location_map.svg.png",
+                "width": 800,
+                "height": 738,
+                "attribution": {
+                  "title": "Egypt adm location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Egypt_adm_location_map.svg",
+                  "credit": "Own work using:\n\nUnited States National Imagery and Mapping Agency data\nWorld Data Base II data",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7485
+        },
+        {
+          "name": "Tombs of the Nobles (Sheikh Abd el-Qurna)",
+          "ai_summary": "The burial site of nobles and high officials, featuring beautifully decorated tombs.",
+          "name_english": "Tombs of the Nobles",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "06:00 - 17:00",
+            "Tuesday": "06:00 - 17:00",
+            "Wednesday": "06:00 - 17:00",
+            "Thursday": "06:00 - 17:00",
+            "Friday": "06:00 - 17:00",
+            "Saturday": "06:00 - 17:00",
+            "Sunday": "06:00 - 17:00",
+            "notes": "Less crowded than the Valley of the Kings, offering a more intimate experience."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Look out for the tomb of Iriney, known for its vibrant colors and intricate carvings.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.74,
+            "longitude": 32.601
+          },
+          "address": "Sheikh Abd el-Qurna, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Tombs",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Egypt adm location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Egypt_adm_location_map.svg/960px-Egypt_adm_location_map.svg.png",
+                "width": 800,
+                "height": 738,
+                "attribution": {
+                  "title": "Egypt adm location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Egypt_adm_location_map.svg",
+                  "credit": "Own work using:\n\nUnited States National Imagery and Mapping Agency data\nWorld Data Base II data",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7345
+        },
+        {
+          "name": "Hot-Air Balloon over West Bank",
+          "ai_summary": "A popular activity offering a bird's-eye view of Luxor's ancient sites and the Nile River.",
+          "name_english": "Hot-Air Balloon",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "05:00",
+          "sunset_time": "N/A",
+          "cost": "Price varies",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "05:00 - 07:00",
+            "Tuesday": "05:00 - 07:00",
+            "Wednesday": "05:00 - 07:00",
+            "Thursday": "05:00 - 07:00",
+            "Friday": "05:00 - 07:00",
+            "Saturday": "05:00 - 07:00",
+            "Sunday": "05:00 - 07:00",
+            "notes": "Weather permitting. Book in advance as it’s a popular activity."
+          },
+          "suggested_duration": "30 minutes - 1 hour",
+          "best_time_to_visit": "Sunrise",
+          "place_tip": "Bring a camera to capture the stunning views from above.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 25.74,
+            "longitude": 32.601
+          },
+          "address": "West Bank, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Activity",
+            "Sightseeing",
+            "Adventure"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Egypt adm location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Egypt_adm_location_map.svg/960px-Egypt_adm_location_map.svg.png",
+                "width": 800,
+                "height": 738,
+                "attribution": {
+                  "title": "Egypt adm location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Egypt_adm_location_map.svg",
+                  "credit": "Own work using:\n\nUnited States National Imagery and Mapping Agency data\nWorld Data Base II data",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7797
+        },
+        {
+          "name": "Howard Carter House",
+          "ai_summary": "The former home of the famous archaeologist Howard Carter, who discovered the tomb of Tutankhamun.",
+          "name_english": "Howard Carter House",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "A small but interesting museum, combine with a visit to the nearby Valley of the Kings."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "See the original artifacts found in Tutankhamun's tomb and learn about Howard Carter's life.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.74,
+            "longitude": 32.601
+          },
+          "address": "Howard Carter House, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "History",
+            "Archaeology"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Egypt adm location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Egypt_adm_location_map.svg/960px-Egypt_adm_location_map.svg.png",
+                "width": 800,
+                "height": 738,
+                "attribution": {
+                  "title": "Egypt adm location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Egypt_adm_location_map.svg",
+                  "credit": "Own work using:\n\nUnited States National Imagery and Mapping Agency data\nWorld Data Base II data",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Egypt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7202
+        },
+        {
+          "name": "Felucca to Banana Island",
+          "ai_summary": "A relaxing boat trip on the Nile to Banana Island, known for its lush vegetation and banana plantations.",
+          "name_english": "Felucca to Banana Island",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:00",
+          "cost": "Price varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Best enjoyed in the late afternoon to catch the sunset."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Take a stroll on Banana Island and enjoy the contrast of greenery with the desert landscape.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.688,
+            "longitude": 32.639
+          },
+          "address": "Banana Island, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Activity",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Luxor",
+          "photos": {},
+          "rank_score": 0.7515
+        },
+        {
+          "name": "Avenue of Sphinxes Walk",
+          "ai_summary": "A historic walkway lined with sphinx statues, connecting Karnak Temple and Luxor Temple.",
+          "name_english": "Avenue of Sphinxes",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00 - 17:00",
+            "Tuesday": "06:00 - 17:00",
+            "Wednesday": "06:00 - 17:00",
+            "Thursday": "06:00 - 17:00",
+            "Friday": "06:00 - 17:00",
+            "Saturday": "06:00 - 17:00",
+            "Sunday": "06:00 - 17:00",
+            "notes": "Best walked in the early morning or late afternoon to avoid the heat."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Look for the hieroglyphs and carvings on the sphinxes and nearby walls.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.718,
+            "longitude": 32.644
+          },
+          "address": "Avenue of Sphinxes, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Historical Site",
+            "Walking",
+            "Sphinxes"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7725
+        },
+        {
+          "name": "Abydos Temple (day trip)",
+          "ai_summary": "The temple complex of Abydos, one of the oldest and most important religious sites in ancient Egypt.",
+          "name_english": "Abydos Temple",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00 - 17:00",
+            "Tuesday": "06:00 - 17:00",
+            "Wednesday": "06:00 - 17:00",
+            "Thursday": "06:00 - 17:00",
+            "Friday": "06:00 - 17:00",
+            "Saturday": "06:00 - 17:00",
+            "Sunday": "06:00 - 17:00",
+            "notes": "A guided tour is recommended due to the site's historical significance."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the Osireion, a mysterious and ancient structure within the temple complex.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 26.183,
+            "longitude": 31.127
+          },
+          "address": "Abydos, Sohag, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "History",
+            "UNESCO World Heritage"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OOjs UI icon edit-ltr-progressive.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/800px-OOjs_UI_icon_edit-ltr-progressive.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "OOjs UI icon edit-ltr-progressive",
+                  "author": "https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg",
+                  "credit": "lib/oojs-ui/themes/mediawiki/images/icons/",
+                  "usage_terms": "Public domain",
+                  "description": "An icon from the OOjs UI MediaWiki lib."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7912
+        },
+        {
+          "name": "Dendera Temple (day trip)",
+          "ai_summary": "The well-preserved temple complex of Dendera, dedicated to the goddess Hathor.",
+          "name_english": "Dendera Temple",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00 - 17:00",
+            "Tuesday": "06:00 - 17:00",
+            "Wednesday": "06:00 - 17:00",
+            "Thursday": "06:00 - 17:00",
+            "Friday": "06:00 - 17:00",
+            "Saturday": "06:00 - 17:00",
+            "Sunday": "06:00 - 17:00",
+            "notes": "The temple is famous for its astronomical ceiling and well-preserved reliefs."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take your time to explore the hypostyle hall and the sacred lake.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.703,
+            "longitude": 32.628
+          },
+          "address": "Dendera, Qena, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Temple",
+            "History",
+            "Astronomy"
+          ],
+          "state": "Luxor",
+          "photos": {},
+          "rank_score": 0.7772
+        },
+        {
+          "name": "Karnak Sound & Light Show",
+          "ai_summary": "An evening sound and light show at the Karnak Temple, depicting the history of Thebes.",
+          "name_english": "Karnak Sound & Light Show",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:00",
+          "cost": "Ticket required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "18:00 - 19:30",
+            "Tuesday": "18:00 - 19:30",
+            "Wednesday": "18:00 - 19:30",
+            "Thursday": "18:00 - 19:30",
+            "Friday": "18:00 - 19:30",
+            "Saturday": "18:00 - 19:30",
+            "Sunday": "18:00 - 19:30",
+            "notes": "The show is available in multiple languages, check schedule in advance."
+          },
+          "suggested_duration": "1-1.5 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Arrive early to find a good seat and enjoy the temple illuminated at night.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 25.719,
+            "longitude": 32.657
+          },
+          "address": "Karnak, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Show",
+            "History",
+            "Temple"
+          ],
+          "state": "Luxor",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Alabaster chapel of Amenhotep I (Karnak).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Alabaster_chapel_of_Amenhotep_I_%28Karnak%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Alabaster chapel of Amenhotep I (Karnak)",
+                  "author": "Kingtut at Hungarian Wikipedia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Alabaster_chapel_of_Amenhotep_I_(Karnak).jpg",
+                  "credit": "Transferred from hu.wikipedia to Commons by Leoboudv.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Alabaster chapel of Amenhotep I (Karnak temple, open air museum)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7746
+        },
+        {
+          "name": "Nile Corniche Promenade",
+          "ai_summary": "A scenic waterfront promenade along the Nile River, perfect for a leisurely stroll or felucca ride.",
+          "name_english": "Nile Corniche",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "24 hours",
+            "Tuesday": "24 hours",
+            "Wednesday": "24 hours",
+            "Thursday": "24 hours",
+            "Friday": "24 hours",
+            "Saturday": "24 hours",
+            "Sunday": "24 hours",
+            "notes": "Best enjoyed in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Enjoy a felucca ride on the Nile for a different perspective of Luxor.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 25.688,
+            "longitude": 32.639
+          },
+          "address": "Corniche El Nile, Luxor, Egypt",
+          "official_website": "N/A",
+          "tags": [
+            "Promenade",
+            "Walking",
+            "Nile River"
+          ],
+          "state": "Luxor",
+          "photos": {},
+          "rank_score": 0.7585
+        }
+      ]
+    }
+  ]
+}

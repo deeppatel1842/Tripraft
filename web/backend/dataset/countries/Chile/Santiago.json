@@ -1,0 +1,1192 @@
+{
+  "country": "Chile",
+  "state": "Santiago",
+  "cities": [
+    {
+      "city": "Santiago",
+      "nearest_airport": "",
+      "places": [
+        {
+          "name": "Plaza de Armas",
+          "ai_summary": "The historic Plaza de Armas is the heart of Santiago, surrounded by iconic buildings and a vibrant atmosphere.",
+          "name_english": "Plaza de Armas",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for a lively atmosphere."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the nearby Cathedral and enjoy street performances.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4378,
+            "longitude": -70.6505
+          },
+          "address": "Plaza de Armas, Santiago, Chile",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Cultural",
+            "Landmark"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Estación Plaza de Armas.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Estaci%C3%B3n_Plaza_de_Armas.png/800px-Estaci%C3%B3n_Plaza_de_Armas.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Estación Plaza de Armas",
+                  "author": "Metro",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Estación_Plaza_de_Armas.png",
+                  "credit": "Own work, based on [1]",
+                  "usage_terms": "Public domain",
+                  "description": "Pictograma de la estación Plaza de Armas del Metro de Santiago"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8145
+        },
+        {
+          "name": "Cerro San Cristóbal (Viewpoint)",
+          "ai_summary": "Cerro San Cristóbal offers panoramic views of Santiago and features a large statue of the Virgin Mary at its summit.",
+          "name_english": "San Cristóbal Hill",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40",
+          "sunset_time": "19:15",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00",
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Sunday": "08:00 - 20:00",
+            "notes": "Cable car rides are available during operating hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take the cable car for a unique experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.417,
+            "longitude": -70.635
+          },
+          "address": "Cerro San Cristóbal, Santiago, Chile",
+          "official_website": "N/A",
+          "tags": [
+            "Viewpoint",
+            "Nature",
+            "Landmark"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8545
+        },
+        {
+          "name": "La Moneda Palace",
+          "ai_summary": "La Moneda Palace is the seat of the President of Chile and a symbol of the country's history and governance.",
+          "name_english": "La Moneda Palace",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:20",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 18:00",
+            "Tuesday": "09:00 - 18:00",
+            "Wednesday": "09:00 - 18:00",
+            "Thursday": "09:00 - 18:00",
+            "Friday": "09:00 - 18:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Guided tours are available with prior booking."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Watch the changing of the guard ceremony.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -33.441,
+            "longitude": -70.653
+          },
+          "address": "La Moneda, Santiago, Chile",
+          "official_website": "https://www.gob.cl",
+          "tags": [
+            "Historic",
+            "Government",
+            "Landmark"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2017 Santiago de Chile - Intendencia de Santiago - Plaza de la Constitución.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2017_Santiago_de_Chile_-_Intendencia_de_Santiago_-_Plaza_de_la_Constituci%C3%B3n.jpg/960px-2017_Santiago_de_Chile_-_Intendencia_de_Santiago_-_Plaza_de_la_Constituci%C3%B3n.jpg",
+                "width": 800,
+                "height": 1000,
+                "attribution": {
+                  "title": "2017 Santiago de Chile - Intendencia de Santiago - Plaza de la Constitución",
+                  "author": "Felipe Restrepo Acosta",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2017_Santiago_de_Chile_-_Intendencia_de_Santiago_-_Plaza_de_la_Constitución.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "2017 in Santiago de Chile"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8005
+        },
+        {
+          "name": "Barrio Bellavista",
+          "ai_summary": "Barrio Bellavista is a vibrant neighborhood known for its bohemian culture, street art, and nightlife.",
+          "name_english": "Bellavista Neighborhood",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 22:00",
+            "Tuesday": "10:00 - 22:00",
+            "Wednesday": "10:00 - 22:00",
+            "Thursday": "10:00 - 22:00",
+            "Friday": "10:00 - 02:00",
+            "Saturday": "10:00 - 02:00",
+            "Sunday": "10:00 - 22:00",
+            "notes": "Best explored on foot; be cautious at night."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy the local cuisine and vibrant street performances.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4422,
+            "longitude": -70.6483
+          },
+          "address": "Barrio Bellavista, Santiago, Chile",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Nightlife",
+            "Art"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:231a.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/231a.JPG/960px-231a.JPG",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "231a",
+                  "author": "Fjvamicn",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:231a.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "This is a photo of a national monument in Chile:"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7667
+        },
+        {
+          "name": "Sky Costanera Observation Deck",
+          "ai_summary": "The Sky Costanera is the highest observation deck in Latin America, offering breathtaking views of Santiago and the Andes.",
+          "name_english": "Sky Costanera",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:45",
+          "cost": "15,000 CLP",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 - 20:00",
+            "Tuesday": "10:00 - 20:00",
+            "Wednesday": "10:00 - 20:00",
+            "Thursday": "10:00 - 20:00",
+            "Friday": "10:00 - 22:00",
+            "Saturday": "10:00 - 22:00",
+            "Sunday": "10:00 - 20:00",
+            "notes": "Book tickets online to avoid queues."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Visit during sunset for a magical view of the city lights.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -33.4167,
+            "longitude": -70.6056
+          },
+          "address": "Avenida Andrés Bello 2425, Santiago, Chile",
+          "official_website": "https://www.skycostanera.cl",
+          "tags": [
+            "Viewpoint",
+            "Modern",
+            "Landmark"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CostaneraCenter2016.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/CostaneraCenter2016.jpg/960px-CostaneraCenter2016.jpg",
+                "width": 800,
+                "height": 593,
+                "attribution": {
+                  "title": "CostaneraCenter2016",
+                  "author": "Bjørn Christian Tørrissen",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CostaneraCenter2016.jpg",
+                  "credit": "Own work by uploader, http://bjornfree.com/",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Costanera Center in the financial district of Santiago de Chile."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8092
+        },
+        {
+          "name": "Museo Chileno de Arte Precolombino",
+          "ai_summary": "This museum houses an extensive collection of pre-Columbian art and artifacts from Chile and other South American cultures.",
+          "name_english": "Chilean Museum of Pre-Columbian Art",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:00",
+          "cost": "8,000 CLP",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "09:00 - 18:30",
+            "Wednesday": "09:00 - 18:30",
+            "Thursday": "09:00 - 18:30",
+            "Friday": "09:00 - 18:30",
+            "Saturday": "09:00 - 18:30",
+            "Sunday": "09:00 - 18:30",
+            "notes": "Guided tours available in multiple languages."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don't miss the mummies and the gold artifacts.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -33.4565,
+            "longitude": -70.6483
+          },
+          "address": "Bandera 361, Santiago, Chile",
+          "official_website": "https://www.precolombino.cl",
+          "tags": [
+            "Museum",
+            "Cultural",
+            "Historic"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Basílica Corazón de María Altar Mayor V2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bas%C3%ADlica_Coraz%C3%B3n_de_Mar%C3%ADa_Altar_Mayor_V2.jpg/960px-Bas%C3%ADlica_Coraz%C3%B3n_de_Mar%C3%ADa_Altar_Mayor_V2.jpg",
+                "width": 800,
+                "height": 531,
+                "attribution": {
+                  "title": "Basílica Corazón de María Altar Mayor V2",
+                  "author": "Perronegro",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Basílica_Corazón_de_María_Altar_Mayor_V2.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "This is a photo of a national monument in Chile:"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8
+        },
+        {
+          "name": "Parque Metropolitano de Santiago",
+          "ai_summary": "A large urban park in the center of Santiago, ideal for walking, cycling, and enjoying nature.",
+          "name_english": "Metropolitan Park of Santiago",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Entry to the park is free; some attractions may have a fee."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the zoo and the botanical garden within the park.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4691,
+            "longitude": -70.6417
+          },
+          "address": "Parque Metropolitano, Santiago, Chile",
+          "official_website": "https://www.parquemetropolitano.cl",
+          "tags": [
+            "Park",
+            "Nature",
+            "Recreation"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Estación Matta.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Estaci%C3%B3n_Matta.jpg/960px-Estaci%C3%B3n_Matta.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Estación Matta",
+                  "author": "Ojo de Sauron",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Estación_Matta.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Estación Matta"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7837
+        },
+        {
+          "name": "Cerro Santa Lucía",
+          "ai_summary": "A historic hill in the center of Santiago, offering beautiful gardens, fountains, and panoramic views.",
+          "name_english": "Santa Lucía Hill",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 - 19:00",
+            "Tuesday": "09:00 - 19:00",
+            "Wednesday": "09:00 - 19:00",
+            "Thursday": "09:00 - 19:00",
+            "Friday": "09:00 - 19:00",
+            "Saturday": "09:00 - 19:00",
+            "Sunday": "09:00 - 19:00",
+            "notes": "Last entrance at 18:30."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Climb to the top for the best views of the city.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4372,
+            "longitude": -70.6417
+          },
+          "address": "Cerro Santa Lucía, Santiago, Chile",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Nature",
+            "Viewpoint"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7785
+        },
+        {
+          "name": "Museo Nacional de Bellas Artes",
+          "ai_summary": "The National Museum of Fine Arts in Santiago is home to an extensive collection of Chilean and international art.",
+          "name_english": "National Museum of Fine Arts",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 18:30",
+            "Wednesday": "10:00 - 18:30",
+            "Thursday": "10:00 - 18:30",
+            "Friday": "10:00 - 18:30",
+            "Saturday": "10:00 - 18:30",
+            "Sunday": "10:00 - 18:30",
+            "notes": "Check for temporary exhibitions and events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the beautiful park surrounding the museum.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4565,
+            "longitude": -70.6352
+          },
+          "address": "Museo Nacional de Bellas Artes, Santiago, Chile",
+          "official_website": "https://www.mnba.cl",
+          "tags": [
+            "Museum",
+            "Art",
+            "Culture"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Estación Irarrázaval.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Estaci%C3%B3n_Irarr%C3%A1zaval.svg/960px-Estaci%C3%B3n_Irarr%C3%A1zaval.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Estación Irarrázaval",
+                  "author": "Fantasticus",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Estación_Irarrázaval.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Pictograma original de la estación Irarrázaval."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7925
+        },
+        {
+          "name": "Lastarria District",
+          "ai_summary": "Lastarria is a charming neighborhood known for its historic architecture, cultural events, and vibrant street life.",
+          "name_english": "Lastarria District",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 - 22:00",
+            "Tuesday": "10:00 - 22:00",
+            "Wednesday": "10:00 - 22:00",
+            "Thursday": "10:00 - 22:00",
+            "Friday": "10:00 - 02:00",
+            "Saturday": "10:00 - 02:00",
+            "Sunday": "10:00 - 22:00",
+            "notes": "Explore the area on foot; be cautious of traffic."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit the local shops and enjoy the street performances.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4428,
+            "longitude": -70.6447
+          },
+          "address": "Lastarria, Santiago, Chile",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Historic",
+            "Neighborhood"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2017 Santiago de Chile - Ladera del Cerro de Santa Lucía.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/2017_Santiago_de_Chile_-_Ladera_del_Cerro_de_Santa_Luc%C3%ADa.jpg/960px-2017_Santiago_de_Chile_-_Ladera_del_Cerro_de_Santa_Luc%C3%ADa.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2017 Santiago de Chile - Ladera del Cerro de Santa Lucía",
+                  "author": "Felipe Restrepo Acosta",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2017_Santiago_de_Chile_-_Ladera_del_Cerro_de_Santa_Lucía.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "2017 in Santiago de Chile"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7575
+        },
+        {
+          "name": "Mercado Central",
+          "ai_summary": "Mercado Central is a bustling market known for its fresh seafood, local produce, and traditional Chilean cuisine.",
+          "name_english": "Central Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:30",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "07:00 - 17:00",
+            "Tuesday": "07:00 - 17:00",
+            "Wednesday": "07:00 - 17:00",
+            "Thursday": "07:00 - 17:00",
+            "Friday": "07:00 - 17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Best visited in the morning for fresh produce."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local seafood dishes at the market stalls.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4372,
+            "longitude": -70.645
+          },
+          "address": "Mercado Central, Santiago, Chile",
+          "official_website": "N/A",
+          "tags": [
+            "Market",
+            "Food",
+            "Cultural"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.729
+        },
+        {
+          "name": "Parque Bicentenario",
+          "ai_summary": "A modern park in the Vitacura district, featuring beautiful gardens, walking paths, and a pond.",
+          "name_english": "Bicentennial Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "19:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Great for picnics and outdoor activities."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Rent a bike to explore the park comfortably.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4068,
+            "longitude": -70.6056
+          },
+          "address": "Parque Bicentenario, Santiago, Chile",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Modern",
+            "Recreation"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OOjs UI icon edit-ltr-progressive.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/800px-OOjs_UI_icon_edit-ltr-progressive.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "OOjs UI icon edit-ltr-progressive",
+                  "author": "https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg",
+                  "credit": "lib/oojs-ui/themes/mediawiki/images/icons/",
+                  "usage_terms": "Public domain",
+                  "description": "An icon from the OOjs UI MediaWiki lib."
+                }
+              }
+            }
+          },
+          "rank_score": 0.77
+        },
+        {
+          "name": "Museo de la Memoria y los Derechos Humanos",
+          "ai_summary": "A museum dedicated to the memory of the victims of human rights violations during the Pinochet era in Chile.",
+          "name_english": "Museum of Memory and Human Rights",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:00",
+          "cost": "3,000 CLP",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Guided tours available; check schedule."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "A powerful and moving experience; suitable for older children and adults.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -33.4695,
+            "longitude": -70.6342
+          },
+          "address": "Museo de la Memoria y los Derechos Humanos, Santiago, Chile",
+          "official_website": "https://www.museodelamemoria.cl",
+          "tags": [
+            "Museum",
+            "Historic",
+            "Cultural"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Estación Ñuble.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Estaci%C3%B3n_%C3%91uble.png",
+                "width": 200,
+                "height": 200,
+                "attribution": {
+                  "title": "Estación Ñuble",
+                  "author": "Metro",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Estación_Ñuble.png",
+                  "credit": "Own work, based on http://www.metro.cl/minisitio/linea-3-y-6/estaciones",
+                  "usage_terms": "Public domain",
+                  "description": "Símbolo que tendrá la estación Ñuble de la Línea 6 del Metro de Santiago de Chile"
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Central Market Seafood Stalls",
+          "ai_summary": "The seafood stalls at Central Market offer a wide variety of fresh seafood, a must-visit for food lovers.",
+          "name_english": "Central Market Seafood Stalls",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:30",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "07:00 - 17:00",
+            "Tuesday": "07:00 - 17:00",
+            "Wednesday": "07:00 - 17:00",
+            "Thursday": "07:00 - 17:00",
+            "Friday": "07:00 - 17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Best visited in the morning for fresh catches."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the ceviche and other local seafood dishes.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4372,
+            "longitude": -70.645
+          },
+          "address": "Mercado Central, Santiago, Chile",
+          "official_website": "N/A",
+          "tags": [
+            "Food",
+            "Market",
+            "Cultural"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.743
+        },
+        {
+          "name": "Santiago Cathedral",
+          "ai_summary": "The Santiago Cathedral is a beautiful example of neoclassical architecture and an important religious site in Chile.",
+          "name_english": "Santiago Cathedral",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 18:45",
+            "Tuesday": "09:00 - 18:45",
+            "Wednesday": "09:00 - 18:45",
+            "Thursday": "09:00 - 18:45",
+            "Friday": "09:00 - 18:45",
+            "Saturday": "09:00 - 18:45",
+            "Sunday": "09:00 - 18:45",
+            "notes": "Attend the mass for a unique experience."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Respect the religious practices and dress modestly.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4372,
+            "longitude": -70.6483
+          },
+          "address": "Santiago Cathedral, Santiago, Chile",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Religious",
+            "Architecture"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Av-Isidora-Goyenechea-STGO.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Av-Isidora-Goyenechea-STGO.jpg",
+                "width": 640,
+                "height": 480,
+                "attribution": {
+                  "title": "Av-Isidora-Goyenechea-STGO",
+                  "author": null,
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Av-Isidora-Goyenechea-STGO.jpg",
+                  "credit": null,
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": null
+                }
+              }
+            }
+          },
+          "rank_score": 0.7742
+        },
+        {
+          "name": "Vega Central Market",
+          "ai_summary": "Vega Central is a large market in Santiago, known for its fresh produce, flowers, and traditional Chilean products.",
+          "name_english": "Vega Central Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:30",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "07:00 - 17:00",
+            "Tuesday": "07:00 - 17:00",
+            "Wednesday": "07:00 - 17:00",
+            "Thursday": "07:00 - 17:00",
+            "Friday": "07:00 - 17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Best visited in the morning for the freshest products."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the various stalls and try the local delicacies.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4565,
+            "longitude": -70.645
+          },
+          "address": "Vega Central, Santiago, Chile",
+          "official_website": "N/A",
+          "tags": [
+            "Market",
+            "Food",
+            "Cultural"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Estación Matta.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Estaci%C3%B3n_Matta.jpg/960px-Estaci%C3%B3n_Matta.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Estación Matta",
+                  "author": "Ojo de Sauron",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Estación_Matta.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Estación Matta"
+                }
+              }
+            }
+          },
+          "rank_score": 0.729
+        },
+        {
+          "name": "Chile Experience Museum",
+          "ai_summary": "An interactive museum offering insights into Chile's history, culture, and natural wonders.",
+          "name_english": "Chile Experience Museum",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:00",
+          "cost": "5,000 CLP",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Check for special exhibitions and events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Engage with the interactive exhibits for a fun learning experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4565,
+            "longitude": -70.6342
+          },
+          "address": "Museo de la Experiencia Chile, Santiago, Chile",
+          "official_website": "https://www.chileexperience.cl",
+          "tags": [
+            "Museum",
+            "Interactive",
+            "Cultural"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Iglesia Dulce Nombre de Maria Santiago Chile 002.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Iglesia_Dulce_Nombre_de_Maria_Santiago_Chile_002.jpg/960px-Iglesia_Dulce_Nombre_de_Maria_Santiago_Chile_002.jpg",
+                "width": 800,
+                "height": 1422,
+                "attribution": {
+                  "title": "Iglesia Dulce Nombre de Maria Santiago Chile 002",
+                  "author": "Marco Antonio Correa Flores",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Iglesia_Dulce_Nombre_de_Maria_Santiago_Chile_002.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Frontis Iglesia Dulce Nombre de Maria"
+                }
+              }
+            }
+          },
+          "rank_score": 0.749
+        },
+        {
+          "name": "Barrio Italia Art Walk",
+          "ai_summary": "A cultural route in the Italia neighborhood, featuring art galleries, design shops, and local cuisine.",
+          "name_english": "Italia Neighborhood Art Walk",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 20:00",
+            "Tuesday": "10:00 - 20:00",
+            "Wednesday": "10:00 - 20:00",
+            "Thursday": "10:00 - 20:00",
+            "Friday": "10:00 - 20:00",
+            "Saturday": "10:00 - 20:00",
+            "Sunday": "10:00 - 20:00",
+            "notes": "Explore the area on foot; be cautious of traffic."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the local galleries and enjoy a coffee at a sidewalk café.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.4428,
+            "longitude": -70.6461
+          },
+          "address": "Barrio Italia, Santiago, Chile",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Art",
+            "Neighborhood"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:231a.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/231a.JPG/960px-231a.JPG",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "231a",
+                  "author": "Fjvamicn",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:231a.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "This is a photo of a national monument in Chile:"
+                }
+              }
+            }
+          },
+          "rank_score": 0.773
+        },
+        {
+          "name": "Wine Tasting at Concha y Toro Winery",
+          "ai_summary": "Experience wine tasting at one of Chile's most famous wineries, located just outside Santiago.",
+          "name_english": "Concha y Toro Winery",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "19:00",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:30",
+            "Wednesday": "10:00 - 17:30",
+            "Thursday": "10:00 - 17:30",
+            "Friday": "10:00 - 17:30",
+            "Saturday": "10:00 - 17:30",
+            "Sunday": "10:00 - 17:30",
+            "notes": "Advance booking recommended for tastings."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the beautiful vineyard and learn about the winemaking process.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -33.6692,
+            "longitude": -70.5822
+          },
+          "address": "Concha y Toro, Pirque, Santiago, Chile",
+          "official_website": "https://www.conchaytoro.com",
+          "tags": [
+            "Wine",
+            "Cultural",
+            "Tour"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Casillero del Diablo wine.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Casillero_del_Diablo_wine.jpg/960px-Casillero_del_Diablo_wine.jpg",
+                "width": 800,
+                "height": 1204,
+                "attribution": {
+                  "title": "Casillero del Diablo wine",
+                  "author": "No machine-readable author provided. Jorgebarrios assumed (based on copyright claims).",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Casillero_del_Diablo_wine.jpg",
+                  "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+                  "usage_terms": "Public domain",
+                  "description": "A bottle of red wine Casillero del Diablo Cabernet Sauvignon, 2008 vintage. Produce of Concha y Toro."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7482
+        },
+        {
+          "name": "Cable Car to Cerro San Cristóbal",
+          "ai_summary": "The cable car ride to Cerro San Cristóbal offers a unique and scenic view of Santiago.",
+          "name_english": "Cerro San Cristóbal Cable Car",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40",
+          "sunset_time": "19:15",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00",
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Sunday": "08:00 - 20:00",
+            "notes": "Check weather conditions before your visit."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the zoo or the hilltop statue.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.417,
+            "longitude": -70.635
+          },
+          "address": "Cerro San Cristóbal, Santiago, Chile",
+          "official_website": "N/A",
+          "tags": [
+            "Transport",
+            "Viewpoint",
+            "Experience"
+          ],
+          "state": "Santiago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aiga railtransportation 25.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Aiga_railtransportation_25.svg/800px-Aiga_railtransportation_25.svg.png",
+                "width": 800,
+                "height": 1203,
+                "attribution": {
+                  "title": "Aiga railtransportation 25",
+                  "author": "AIGA",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aiga_railtransportation_25.svg",
+                  "credit": "This image is from a collection commissioned by the United States Department of Transportation and designed by AIGA. It is copyright-free, and is available here.",
+                  "usage_terms": "Public domain",
+                  "description": "SVG version from aiga rail transportation .svg archive copy at the Wayback Machine."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7835
+        }
+      ]
+    }
+  ]
+}

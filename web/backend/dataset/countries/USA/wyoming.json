@@ -1,0 +1,1184 @@
+{
+  "country": "USA",
+  "state": "Wyoming",
+  "cities": [
+    {
+      "city": "Wyoming",
+      "nearest_airport": "Jackson Hole Airport",
+      "places": [
+        {
+          "name": "Yellowstone National Park",
+          "ai_summary": "The first national park in the world, known for its geothermal features and diverse wildlife.",
+          "name_english": "Yellowstone National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "$35 per vehicle",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Don't miss the Grand Prismatic Spring and Old Faithful.",
+          "advanced_booking": "Recommended for lodging and tours",
+          "coordinates": {
+            "latitude": 44.428,
+            "longitude": -110.5885
+          },
+          "address": "Yellowstone National Park, Wyoming, USA",
+          "official_website": "https://www.nps.gov/yell/",
+          "tags": [
+            "Nature",
+            "Geothermal",
+            "Wildlife"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Abronia ammophila.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Abronia_ammophila.jpg/960px-Abronia_ammophila.jpg",
+                "width": 800,
+                "height": 511,
+                "attribution": {
+                  "title": "Abronia ammophila",
+                  "author": "National Park Service",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Abronia_ammophila.jpg",
+                  "credit": "Yellowstone sand verbena from National Park Service.",
+                  "usage_terms": "Public domain",
+                  "description": "Yellowstone sand verbena (Abronia ammophila) at Yellowstone National Park"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8125
+        },
+        {
+          "name": "Grand Teton National Park",
+          "ai_summary": "A stunning park featuring the Teton mountain range, pristine lakes, and abundant wildlife.",
+          "name_english": "Grand Teton National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:35 AM",
+          "sunset_time": "06:05 PM",
+          "cost": "$35 per vehicle",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor centers have specific hours."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Fall",
+          "place_tip": "Hike the Jenny Lake Trail for breathtaking views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.7904,
+            "longitude": -110.6818
+          },
+          "address": "Grand Teton National Park, Wyoming, USA",
+          "official_website": "https://www.nps.gov/grte/",
+          "tags": [
+            "Nature",
+            "Mountains",
+            "Hiking"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Barns grand tetons.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Barns_grand_tetons.jpg/960px-Barns_grand_tetons.jpg",
+                "width": 800,
+                "height": 598,
+                "attribution": {
+                  "title": "Barns grand tetons",
+                  "author": "Jon Sullivan, PD Photo.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Barns_grand_tetons.jpg",
+                  "credit": "PD Photo",
+                  "usage_terms": "Public domain",
+                  "description": "The John Moulton Barn on Mormon Row at the base of the Grand Tetons, Wyoming."
+                }
+              }
+            }
+          },
+          "rank_score": 0.805
+        },
+        {
+          "name": "Jackson Hole",
+          "ai_summary": "A popular destination for skiing, outdoor activities, and a gateway to nearby national parks.",
+          "name_english": "Jackson Hole",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "06:10 PM",
+          "cost": "Varies by activity",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Hours may vary by attraction."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Visit the Jackson Town Square and enjoy the ski resorts.",
+          "advanced_booking": "Recommended for ski passes",
+          "coordinates": {
+            "latitude": 43.4799,
+            "longitude": -110.7624
+          },
+          "address": "Jackson Hole, Wyoming, USA",
+          "official_website": "https://www.jacksonhole.com/",
+          "tags": [
+            "Skiing",
+            "Outdoor Activities",
+            "Resort"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Jackson Legion Hall WY1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Jackson_Legion_Hall_WY1.jpg/960px-Jackson_Legion_Hall_WY1.jpg",
+                "width": 800,
+                "height": 440,
+                "attribution": {
+                  "title": "Jackson Legion Hall WY1",
+                  "author": "Acroterion",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Jackson_Legion_Hall_WY1.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "American Legion Hall, Jackson, Wyoming, USA.  Listed on the National Register of Historic Places."
+                }
+              }
+            }
+          },
+          "rank_score": 0.773
+        },
+        {
+          "name": "Devils Tower National Monument",
+          "ai_summary": "A striking geological feature and the first national monument in the USA, sacred to Native Americans.",
+          "name_english": "Devils Tower National Monument",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:20 AM",
+          "sunset_time": "06:40 PM",
+          "cost": "$25 per vehicle",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor center open 9 AM - 4 PM, closed on Thanksgiving and Christmas."
+          },
+          "suggested_duration": "1 day",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Attend a ranger program to learn about the tower's geology and history.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.5902,
+            "longitude": -104.714
+          },
+          "address": "Devils Tower, Wyoming, USA",
+          "official_website": "https://www.nps.gov/deto/",
+          "tags": [
+            "Geology",
+            "History",
+            "Nature"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2003-08-16 Devils Tower advisory.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2003-08-16_Devils_Tower_advisory.jpg/960px-2003-08-16_Devils_Tower_advisory.jpg",
+                "width": 800,
+                "height": 393,
+                "attribution": {
+                  "title": "2003-08-16 Devils Tower advisory",
+                  "author": "Ildar Sagdejev (Specious)",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2003-08-16_Devils_Tower_advisory.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Sign advising people to stay on the trails at the Devils Tower National Monument in Wyoming.  The text reads, \"The tower is held sacred by many American Indians and highly regarded by other peoples.  Respect this place by staying on trails\"."
+                }
+              }
+            }
+          },
+          "rank_score": 0.791
+        },
+        {
+          "name": "Grand Prismatic Spring",
+          "ai_summary": "The largest hot spring in the USA, known for its vibrant colors and stunning microbial mats.",
+          "name_english": "Grand Prismatic Spring",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed in the morning for steam and color contrast."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Walk the boardwalk for different perspectives of the spring.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.5251,
+            "longitude": -110.838
+          },
+          "address": "Yellowstone National Park, Wyoming, USA",
+          "official_website": "https://www.nps.gov/yell/planyourvisit/grandprismatic.htm",
+          "tags": [
+            "Geothermal",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aerial image of Grand Prismatic Spring (view from the south).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Aerial_image_of_Grand_Prismatic_Spring_%28view_from_the_south%29.jpg/960px-Aerial_image_of_Grand_Prismatic_Spring_%28view_from_the_south%29.jpg",
+                "width": 800,
+                "height": 567,
+                "attribution": {
+                  "title": "Aerial image of Grand Prismatic Spring (view from the south)",
+                  "author": "Carsten Steger",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Grand_Prismatic_Spring_(view_from_the_south).jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Aerial image of Grand Prismatic Spring in Yellowstone National Park (view from the south)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.821
+        },
+        {
+          "name": "Old Faithful Geyser",
+          "ai_summary": "Famous for its predictable eruptions, this geyser is a must-see in Yellowstone National Park.",
+          "name_english": "Old Faithful Geyser",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check the predicted eruption times at the visitor center."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Stay at least 100 yards away from the geyser and follow park regulations.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.4605,
+            "longitude": -110.8281
+          },
+          "address": "Yellowstone National Park, Wyoming, USA",
+          "official_website": "https://www.nps.gov/yell/planyourvisit/oldfaithful.htm",
+          "tags": [
+            "Geothermal",
+            "Nature",
+            "Landmark"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.816
+        },
+        {
+          "name": "National Museum of Wildlife Art",
+          "ai_summary": "Features art and artifacts celebrating the wildlife of North America, set in a stunning location.",
+          "name_english": "National Museum of Wildlife Art",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "$15 adults, $5 children",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10 AM - 5 PM",
+            "Wednesday": "10 AM - 5 PM",
+            "Thursday": "10 AM - 5 PM",
+            "Friday": "10 AM - 5 PM",
+            "Saturday": "10 AM - 5 PM",
+            "Sunday": "10 AM - 5 PM",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Check for special exhibits and events during your visit.",
+          "advanced_booking": "Recommended for groups",
+          "coordinates": {
+            "latitude": 43.5866,
+            "longitude": -110.4072
+          },
+          "address": "2820 Rungius Rd, Jackson, WY 83001, USA",
+          "official_website": "https://www.wildlifeart.org/",
+          "tags": [
+            "Art",
+            "Wildlife",
+            "Culture"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:3c Wyoming Statehood 50th anniversary, 1940 issue.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/3c_Wyoming_Statehood_50th_anniversary%2C_1940_issue.jpg/960px-3c_Wyoming_Statehood_50th_anniversary%2C_1940_issue.jpg",
+                "width": 800,
+                "height": 1228,
+                "attribution": {
+                  "title": "3c Wyoming Statehood 50th anniversary, 1940 issue",
+                  "author": "U.S. Post Office -- U.S. Bureau of Engraving and Printing",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:3c_Wyoming_Statehood_50th_anniversary,_1940_issue.jpg",
+                  "credit": "Smithsonian National Postal Museum",
+                  "usage_terms": "Public domain",
+                  "description": "3c Wyoming Statehood 50th anniversary, 1940 issue"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7935
+        },
+        {
+          "name": "Buffalo Bill Center of the West",
+          "ai_summary": "A complex of five museums in Cody, dedicated to the history and culture of the American West.",
+          "name_english": "Buffalo Bill Center of the West",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "$19.50 adults, $10 children",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10 AM - 5 PM",
+            "Tuesday": "10 AM - 5 PM",
+            "Wednesday": "10 AM - 5 PM",
+            "Thursday": "10 AM - 5 PM",
+            "Friday": "10 AM - 5 PM",
+            "Saturday": "10 AM - 5 PM",
+            "Sunday": "10 AM - 5 PM",
+            "notes": "Closed on Thanksgiving and Christmas."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Allow time to explore all five museums and the surrounding gardens.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.522,
+            "longitude": -109.0552
+          },
+          "address": "720 Sheridan Ave, Cody, WY 82414, USA",
+          "official_website": "https://centerofthewest.org/",
+          "tags": [
+            "History",
+            "Culture",
+            "Museums"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Buffalo Bill Museum in Cody.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Buffalo_Bill_Museum_in_Cody.jpg/960px-Buffalo_Bill_Museum_in_Cody.jpg",
+                "width": 800,
+                "height": 549,
+                "attribution": {
+                  "title": "Buffalo Bill Museum in Cody",
+                  "author": "Levimeyer1",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Buffalo_Bill_Museum_in_Cody.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Inside the Buffalo Bill Museum, a space filled with objects and stories from the life and times of William F. Cody."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7787
+        },
+        {
+          "name": "Fort Laramie National Historic Site",
+          "ai_summary": "Preserved ruins of a 19th-century military fort, offering a glimpse into Wyoming's frontier history.",
+          "name_english": "Fort Laramie National Historic Site",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "06:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8 AM - 4 PM",
+            "Tuesday": "8 AM - 4 PM",
+            "Wednesday": "8 AM - 4 PM",
+            "Thursday": "8 AM - 4 PM",
+            "Friday": "8 AM - 4 PM",
+            "Saturday": "8 AM - 4 PM",
+            "Sunday": "8 AM - 4 PM",
+            "notes": "Closed on Thanksgiving and Christmas."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Join a guided tour for detailed historical insights.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 42.1785,
+            "longitude": -104.5281
+          },
+          "address": "965 Fort Laramie Rd, Fort Laramie, WY 82212, USA",
+          "official_website": "https://www.nps.gov/fola/",
+          "tags": [
+            "History",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Alfred Jacob Miller - Fort Laramie - Walters 37194049.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Alfred_Jacob_Miller_-_Fort_Laramie_-_Walters_37194049.jpg/960px-Alfred_Jacob_Miller_-_Fort_Laramie_-_Walters_37194049.jpg",
+                "width": 800,
+                "height": 582,
+                "attribution": {
+                  "title": "Fort Laramie",
+                  "author": "Alfred Jacob Miller",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Alfred_Jacob_Miller_-_Fort_Laramie_-_Walters_37194049.jpg",
+                  "credit": "Walters Art Museum:  Home page  Info about artwork",
+                  "usage_terms": "Public domain",
+                  "description": "Founded by William Sublette and Robert Campbell, Fort Laramie lay at the crossroads of an old north-south Indian trail and what became known as the Oregon Trail. Called Fort Laramie because of the nearby Laramie Mountains and the Laramie Fork of the North Platte River, the post was approximately 150 feet square, according to Miller, with bastions at the diagonal corners. Miller's paintings are the only known visual records of the fort, because the original fort was torn down in 1840 before any other artist had traveled the Oregon Trail; it was replaced with another structure, located perhaps on the same site in 1841."
+                }
+              }
+            }
+          },
+          "rank_score": 0.779
+        },
+        {
+          "name": "Hot Springs State Park",
+          "ai_summary": "Known for its therapeutic hot springs, this park offers a relaxing retreat in nature.",
+          "name_english": "Hot Springs State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:25 AM",
+          "sunset_time": "06:55 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "6 AM - 10 PM",
+            "Tuesday": "6 AM - 10 PM",
+            "Wednesday": "6 AM - 10 PM",
+            "Thursday": "6 AM - 10 PM",
+            "Friday": "6 AM - 10 PM",
+            "Saturday": "6 AM - 10 PM",
+            "Sunday": "6 AM - 10 PM",
+            "notes": "Pool hours may vary, check the website for details."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Try the bathhouse for a unique hot springs experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.9737,
+            "longitude": -108.4348
+          },
+          "address": "220 Park Ave, Thermopolis, WY 82443, USA",
+          "official_website": "https://www.thermopolis.com/hot-springs-state-park",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Hot Springs"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2014-06-04 12 18 32 View across the Elko Hot Hole.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/2014-06-04_12_18_32_View_across_the_Elko_Hot_Hole.JPG/960px-2014-06-04_12_18_32_View_across_the_Elko_Hot_Hole.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2014-06-04 12 18 32 View across the Elko Hot Hole",
+                  "author": "Famartin",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2014-06-04_12_18_32_View_across_the_Elko_Hot_Hole.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "View across the Elko Hot Hole"
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        },
+        {
+          "name": "Flaming Gorge National Recreation Area",
+          "ai_summary": "A scenic area known for its stunning reservoir, red rock canyons, and diverse wildlife.",
+          "name_english": "Flaming Gorge National Recreation Area",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor center open 9 AM - 5 PM, closed on Thanksgiving and Christmas."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Explore the area by boat or hike the many trails for stunning views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 40.743,
+            "longitude": -109.452
+          },
+          "address": "Flaming Gorge, Wyoming, USA",
+          "official_website": "https://www.fs.usda.gov/recarea/ashley/recarea/?recid=7038",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Wildlife"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8085
+        },
+        {
+          "name": "Wind River Range",
+          "ai_summary": "A mountain range offering stunning scenery, hiking, climbing, and fishing opportunities.",
+          "name_english": "Wind River Range",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:10 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best accessed from late spring to early fall."
+          },
+          "suggested_duration": "3-5 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit the Cirque of the Towers for breathtaking views and photography.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.0915,
+            "longitude": -109.6276
+          },
+          "address": "Wind River Range, Wyoming, USA",
+          "official_website": "https://www.fs.usda.gov/recarea/bridger-teton/recarea/?recid=7039",
+          "tags": [
+            "Mountains",
+            "Hiking",
+            "Fishing"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bonneville Basin Mount Bonneville.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Bonneville_Basin_Mount_Bonneville.jpg",
+                "width": 800,
+                "height": 536,
+                "attribution": {
+                  "title": "Bonneville Basin Mount Bonneville",
+                  "author": "Philthy54 (talk · contribs)",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bonneville_Basin_Mount_Bonneville.jpg",
+                  "credit": "Transferred from en.wikipedia to Commons by Hike395 using CommonsHelper.",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Mount Bonneville, Wind River Range. Taken while hiking in the Bonneville Basin."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8045
+        },
+        {
+          "name": "Cheyenne Frontier Days Old West Museum",
+          "ai_summary": "Showcases the history of Cheyenne Frontier Days and the culture of the American West.",
+          "name_english": "Cheyenne Frontier Days Old West Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "$10 adults, $5 children",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9 AM - 5 PM",
+            "Tuesday": "9 AM - 5 PM",
+            "Wednesday": "9 AM - 5 PM",
+            "Thursday": "9 AM - 5 PM",
+            "Friday": "9 AM - 5 PM",
+            "Saturday": "9 AM - 5 PM",
+            "Sunday": "Closed",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Plan your visit during the Cheyenne Frontier Days festival for special events.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 41.1399,
+            "longitude": -104.8202
+          },
+          "address": "4610 N College Dr, Cheyenne, WY 82007, USA",
+          "official_website": "https://www.oldwestmuseum.org/",
+          "tags": [
+            "History",
+            "Culture",
+            "Museums"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20210604 Campus014-ms.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/20210604_Campus014-ms.jpg/960px-20210604_Campus014-ms.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "20210604 Campus014-ms",
+                  "author": "FutabaSak",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20210604_Campus014-ms.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Clay Pathfinder Building at the LCCC Campus"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7615
+        },
+        {
+          "name": "Wyoming State Museum",
+          "ai_summary": "Presents the history, art, and culture of Wyoming through engaging exhibits.",
+          "name_english": "Wyoming State Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9 AM - 4 PM",
+            "Wednesday": "9 AM - 4 PM",
+            "Thursday": "9 AM - 4 PM",
+            "Friday": "9 AM - 4 PM",
+            "Saturday": "10 AM - 2 PM",
+            "Sunday": "Closed",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Check for special events and exhibits during your visit.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 41.3272,
+            "longitude": -104.8202
+          },
+          "address": "2301 Central Ave, Cheyenne, WY 82001, USA",
+          "official_website": "https://www.wyomingstatemuseum.org/",
+          "tags": [
+            "History",
+            "Art",
+            "Culture"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:20210604 Campus014-ms.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/20210604_Campus014-ms.jpg/960px-20210604_Campus014-ms.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "20210604 Campus014-ms",
+                  "author": "FutabaSak",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:20210604_Campus014-ms.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Clay Pathfinder Building at the LCCC Campus"
+                }
+              }
+            }
+          },
+          "rank_score": 0.796
+        },
+        {
+          "name": "Jackson Town Square",
+          "ai_summary": "The heart of Jackson, featuring shops, restaurants, and the iconic elk antler arch.",
+          "name_english": "Jackson Town Square",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "06:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Visit the local shops and art galleries, and enjoy the public art displays.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.4799,
+            "longitude": -110.7619
+          },
+          "address": "Jackson, WY 83001, USA",
+          "official_website": "https://www.jacksonwy.gov/",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Sightseeing"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Jackson Legion Hall WY1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Jackson_Legion_Hall_WY1.jpg/960px-Jackson_Legion_Hall_WY1.jpg",
+                "width": 800,
+                "height": 440,
+                "attribution": {
+                  "title": "Jackson Legion Hall WY1",
+                  "author": "Acroterion",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Jackson_Legion_Hall_WY1.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "American Legion Hall, Jackson, Wyoming, USA.  Listed on the National Register of Historic Places."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7825
+        },
+        {
+          "name": "Fossil Butte National Monument",
+          "ai_summary": "Preserves an ancient lakebed with exceptionally well-preserved fossils, offering a glimpse into the past.",
+          "name_english": "Fossil Butte National Monument",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:05 AM",
+          "sunset_time": "06:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "8 AM - 4 PM",
+            "Tuesday": "8 AM - 4 PM",
+            "Wednesday": "8 AM - 4 PM",
+            "Thursday": "8 AM - 4 PM",
+            "Friday": "8 AM - 4 PM",
+            "Saturday": "8 AM - 4 PM",
+            "Sunday": "8 AM - 4 PM",
+            "notes": "Closed on Thanksgiving and Christmas."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Visit the Fossil Butte Visitor Center for educational exhibits and information.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 42.0344,
+            "longitude": -106.0175
+          },
+          "address": "8644 Fossil Butte Rd, Kemmerer, WY 83101, USA",
+          "official_website": "https://www.nps.gov/fobu/",
+          "tags": [
+            "Paleontology",
+            "Nature",
+            "Education"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2003-08-16 Devils Tower advisory.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2003-08-16_Devils_Tower_advisory.jpg/960px-2003-08-16_Devils_Tower_advisory.jpg",
+                "width": 800,
+                "height": 393,
+                "attribution": {
+                  "title": "2003-08-16 Devils Tower advisory",
+                  "author": "Ildar Sagdejev (Specious)",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2003-08-16_Devils_Tower_advisory.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Sign advising people to stay on the trails at the Devils Tower National Monument in Wyoming.  The text reads, \"The tower is held sacred by many American Indians and highly regarded by other peoples.  Respect this place by staying on trails\"."
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        },
+        {
+          "name": "Bighorn Canyon National Recreation Area",
+          "ai_summary": "A stunning canyon offering boating, fishing, hiking, and breathtaking views.",
+          "name_english": "Bighorn Canyon National Recreation Area",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor center open 9 AM - 5 PM, closed on Thanksgiving and Christmas."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Take a boat tour for a unique perspective of the canyon.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.7551,
+            "longitude": -108.4334
+          },
+          "address": "Bighorn Canyon, Wyoming, USA",
+          "official_website": "https://www.nps.gov/bica/",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Wildlife"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Bighorn Canyon North District Snow.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Bighorn_Canyon_North_District_Snow.jpg",
+                "width": 640,
+                "height": 480,
+                "attribution": {
+                  "title": "Bighorn Canyon North District Snow",
+                  "author": "National Park Service, Bighorn Canyon National Recreation Area",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Bighorn_Canyon_North_District_Snow.jpg",
+                  "credit": "http://www.nps.gov/bica/photosmultimedia/index.htm",
+                  "usage_terms": "Public domain",
+                  "description": "Snow on the Bighorn Canyon in the North District of Bighorn Canyon National Recreation Area, Montana"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8085
+        },
+        {
+          "name": "Jenny Lake",
+          "ai_summary": "A picturesque lake in Grand Teton National Park, popular for hiking, boating, and photography.",
+          "name_english": "Jenny Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:35 AM",
+          "sunset_time": "06:05 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed in the morning for calm waters and reflections."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Take the ferry across the lake to access hiking trails on the other side.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 43.7857,
+            "longitude": -110.7038
+          },
+          "address": "Jenny Lake, Wyoming, USA",
+          "official_website": "https://www.nps.gov/grte/planyourvisit/jenny_lake.htm",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Hiking"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hidden falls teton 20190713 093013 1 crop.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Hidden_falls_teton_20190713_093013_1_crop.jpg/960px-Hidden_falls_teton_20190713_093013_1_crop.jpg",
+                "width": 800,
+                "height": 1200,
+                "attribution": {
+                  "title": "Hidden falls teton 20190713 093013 1 crop",
+                  "author": "G. Edward Johnson",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hidden_falls_teton_20190713_093013_1_crop.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Hidden Falls is 100 foot tall waterfall on Cascade Creek in Grand Teton National Park, WY."
+                }
+              }
+            }
+          },
+          "rank_score": 0.821
+        },
+        {
+          "name": "Snow King Mountain Resort",
+          "ai_summary": "A year-round resort in Jackson, offering skiing, snowboarding, hiking, and stunning views.",
+          "name_english": "Snow King Mountain Resort",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:40 AM",
+          "sunset_time": "06:10 PM",
+          "cost": "Varies by activity",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Hours vary by season, check the website for details."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Try the alpine slide and scenic chairlift rides in summer.",
+          "advanced_booking": "Recommended for ski passes and accommodations",
+          "coordinates": {
+            "latitude": 43.4747,
+            "longitude": -110.7624
+          },
+          "address": "400 E Snow King Ave, Jackson, WY 83001, USA",
+          "official_website": "https://www.snowkingmountain.com/",
+          "tags": [
+            "Skiing",
+            "Snowboarding",
+            "Hiking"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:OOjs UI icon edit-ltr-progressive.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/800px-OOjs_UI_icon_edit-ltr-progressive.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "OOjs UI icon edit-ltr-progressive",
+                  "author": "https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg",
+                  "credit": "lib/oojs-ui/themes/mediawiki/images/icons/",
+                  "usage_terms": "Public domain",
+                  "description": "An icon from the OOjs UI MediaWiki lib."
+                }
+              }
+            }
+          },
+          "rank_score": 0.759
+        },
+        {
+          "name": "Sinks Canyon State Park",
+          "ai_summary": "A beautiful canyon with a unique sinkhole, offering hiking, fishing, and picnicking.",
+          "name_english": "Sinks Canyon State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10 AM",
+          "sunset_time": "07:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the hiking trails and look for the unique geological features.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 42.3043,
+            "longitude": -108.5436
+          },
+          "address": "Sinks Canyon State Park, Wyoming, USA",
+          "official_website": "https://www.wyoparks.state.wy.us/index.php/parks/sinks-canyon",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Fishing"
+          ],
+          "state": "Wyoming",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Avg temp air monthly TC1989-2016.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Avg_temp_air_monthly_TC1989-2016.jpg/960px-Avg_temp_air_monthly_TC1989-2016.jpg",
+                "width": 800,
+                "height": 398,
+                "attribution": {
+                  "title": "Avg temp air monthly TC1989-2016",
+                  "author": "Chiffre01",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Avg_temp_air_monthly_TC1989-2016.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The average monthly air temperature recorded at the Townsend Creek Snotel site from 1989 to 2016"
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        }
+      ]
+    }
+  ]
+}

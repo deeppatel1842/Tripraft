@@ -1,0 +1,996 @@
+{
+  "country": "Peru",
+  "state": "Lima",
+  "cities": [
+    {
+      "city": "Lima",
+      "nearest_airport": "Jorge Chávez International Airport",
+      "places": [
+        {
+          "name": "Historic Centre of Lima",
+          "ai_summary": "A UNESCO World Heritage site featuring colonial architecture, historic landmarks, and vibrant plazas.",
+          "name_english": "Historic Centre of Lima",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Join a guided walking tour to learn about its history.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.0464,
+            "longitude": -77.0428
+          },
+          "address": "Historic Centre, Lima, Peru",
+          "official_website": "https://www.peru.travel",
+          "tags": [
+            "History",
+            "Culture",
+            "Architecture"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Plaza_de_Armas,_Lima.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Plaza_de_Armas%2C_Lima.jpg/960px-Plaza_de_Armas%2C_Lima.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Plaza de Armas, Lima",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26589989@N02\">Art DiNo</a> from Lima, Perú",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Plaza_de_Armas,_Lima.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Plaza de Armas, Lima"
+                }
+              }
+            }
+          },
+          "rank_score": 0.942
+        },
+        {
+          "name": "Barranco District",
+          "ai_summary": "A bohemian neighborhood known for its colorful streets, art galleries, and vibrant nightlife.",
+          "name_english": "Barranco District",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "6:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for its lively atmosphere."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Visit the Bridge of Sighs and enjoy local street art.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.1527,
+            "longitude": -77.0209
+          },
+          "address": "Barranco, Lima, Peru",
+          "official_website": "https://www.peru.travel",
+          "tags": [
+            "Culture",
+            "Art",
+            "Nightlife"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Barranco_District_Lima_Peru.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Barranco_District_Lima_Peru.jpg/960px-Barranco_District_Lima_Peru.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Barranco District Lima Peru",
+                  "author": "tadekk",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Barranco_District_Lima_Peru.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Barranco is one of 43 districts in Lima, Peru."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Miraflores Boardwalk",
+          "ai_summary": "A scenic boardwalk along the cliffs of Miraflores, offering stunning views of the Pacific Ocean.",
+          "name_english": "Miraflores Boardwalk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:45 AM",
+          "sunset_time": "6:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Popular for jogging, cycling, and leisurely walks."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Don't miss the view from the Love Park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.1309,
+            "longitude": -77.0215
+          },
+          "address": "Malecón de la Reserva, Miraflores, Lima, Peru",
+          "official_website": "https://www.peru.travel",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Recreation"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lima,_Peru_Miraflores_Skyline.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Lima%2C_Peru_Miraflores_Skyline.jpg/960px-Lima%2C_Peru_Miraflores_Skyline.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lima, Peru Miraflores Skyline",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Quado678&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Quado678 (page does not exist)\">Quado678</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lima,_Peru_Miraflores_Skyline.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "District of Miraflores, Lima, Peru. Park name: Parque del Amor."
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Huaca Pucllana Pyramid",
+          "ai_summary": "An ancient pyramid and archaeological site in the Miraflores district, dating back to the Lima culture.",
+          "name_english": "Huaca Pucllana Pyramid",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "6:30 PM",
+          "cost": "S/. 15.00",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Guided tours are available and recommended."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Wear comfortable shoes for walking on uneven surfaces.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -12.0965,
+            "longitude": -77.0353
+          },
+          "address": "Calle General Borgoño cuadra 8, Miraflores, Lima, Peru",
+          "official_website": "https://www.huacapucllana.com",
+          "tags": [
+            "History",
+            "Archaeology",
+            "Culture"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Huaca_Pucllana_Miraflores.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Huaca_Pucllana_Miraflores.jpg/960px-Huaca_Pucllana_Miraflores.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Huaca Pucllana Miraflores",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/56796376@N00\">McKay Savage</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Huaca_Pucllana_Miraflores.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Huaca Pucllana en Miraflores, Perú"
+                }
+              }
+            }
+          },
+          "rank_score": 0.81
+        },
+        {
+          "name": "Larcomar Shopping Center",
+          "ai_summary": "A modern shopping center built into the cliffs of Miraflores, offering shops, restaurants, and ocean views.",
+          "name_english": "Larcomar Shopping Center",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "6:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 9:00 PM",
+            "Tuesday": "10:00 AM - 9:00 PM",
+            "Wednesday": "10:00 AM - 9:00 PM",
+            "Thursday": "10:00 AM - 9:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 9:00 PM",
+            "notes": "Check for individual store hours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Afternoon to Evening",
+          "place_tip": "Enjoy a meal at one of the cliffside restaurants.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.13,
+            "longitude": -77.0282
+          },
+          "address": "Av. José Larco, Miraflores, Lima, Peru",
+          "official_website": "https://www.larcomar.com.pe",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Entertainment"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Larcomar_-_Miraflores,_Lima_-_Peru_-_panoramio_(1).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Larcomar_-_Miraflores%2C_Lima_-_Peru_-_panoramio_%281%29.jpg/960px-Larcomar_-_Miraflores%2C_Lima_-_Peru_-_panoramio_%281%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Larcomar - Miraflores, Lima - Peru - panoramio (1)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031120259/http://www.panoramio.com/user/2445474?with_photo_id=113226384\">Paulo JC Nogueira</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Larcomar_-_Miraflores,_Lima_-_Peru_-_panoramio_(1).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Larcomar - Miraflores, Lima - Peru"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Love Park",
+          "ai_summary": "A romantic park in Miraflores, known for its sculptures, gardens, and views of the ocean.",
+          "name_english": "Love Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:45 AM",
+          "sunset_time": "6:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited at sunrise or sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Take a walk along the cliffs for stunning views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.1307,
+            "longitude": -77.0219
+          },
+          "address": "Malecón Cisneros, Miraflores, Lima, Peru",
+          "official_website": "https://www.peru.travel",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Recreation"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lima,_Peru_Miraflores_Skyline.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Lima%2C_Peru_Miraflores_Skyline.jpg/960px-Lima%2C_Peru_Miraflores_Skyline.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lima, Peru Miraflores Skyline",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Quado678&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Quado678 (page does not exist)\">Quado678</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lima,_Peru_Miraflores_Skyline.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "District of Miraflores, Lima, Peru. Park name: Parque del Amor."
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Magic Water Circuit",
+          "ai_summary": "A popular park featuring a series of illuminated fountains, offering a magical evening show.",
+          "name_english": "Magic Water Circuit",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "6:30 PM",
+          "cost": "S/. 4.00",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "3:00 PM - 10:30 PM",
+            "Tuesday": "3:00 PM - 10:30 PM",
+            "Wednesday": "3:00 PM - 10:30 PM",
+            "Thursday": "3:00 PM - 10:30 PM",
+            "Friday": "3:00 PM - 10:30 PM",
+            "Saturday": "3:00 PM - 10:30 PM",
+            "Sunday": "3:00 PM - 10:30 PM",
+            "notes": "Evening shows are every hour, last show at 10:30 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring a jacket, it can get chilly at night.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.0977,
+            "longitude": -77.0349
+          },
+          "address": "Parque de la Reserva, Lima, Peru",
+          "official_website": "https://www.magicwaterlima.com",
+          "tags": [
+            "Entertainment",
+            "Family",
+            "Nightlife"
+          ],
+          "state": "Lima",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Museo Larco",
+          "ai_summary": "A museum showcasing pre-Columbian art and artifacts, set in a vice regal building.",
+          "name_english": "Larco Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "S/. 35.00",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 10:00 PM",
+            "Tuesday": "9:00 AM - 10:00 PM",
+            "Wednesday": "9:00 AM - 10:00 PM",
+            "Thursday": "9:00 AM - 10:00 PM",
+            "Friday": "9:00 AM - 10:00 PM",
+            "Saturday": "9:00 AM - 10:00 PM",
+            "Sunday": "9:00 AM - 10:00 PM",
+            "notes": "Last admission at 9:00 PM."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Check out the museum's café for a break.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -12.0215,
+            "longitude": -77.0421
+          },
+          "address": "Av. Bolívar 651, Pueblo Libre 21, Lima, Peru",
+          "official_website": "https://www.museolarco.org",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lima_museo_larco.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Lima_museo_larco.jpg/960px-Lima_museo_larco.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lima museo larco",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Velvet\" title=\"User:Velvet\">Velvet</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lima_museo_larco.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Le Museo Arqueológico Rafael Larco Herrera à Lima, vu du jardin."
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Kennedy Park",
+          "ai_summary": "A central park in Miraflores, famous for its cat population and vibrant atmosphere.",
+          "name_english": "Kennedy Park",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Popular spot for locals and tourists alike."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the nearby artisan market for souvenirs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.1217,
+            "longitude": -77.0282
+          },
+          "address": "Calle Alcanfores, Miraflores, Lima, Peru",
+          "official_website": "https://www.peru.travel",
+          "tags": [
+            "Nature",
+            "Culture",
+            "Recreation"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Parque_Kennedy,_Lima,_2017-02-28.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Parque_Kennedy%2C_Lima%2C_2017-02-28.jpg/960px-Parque_Kennedy%2C_Lima%2C_2017-02-28.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Parque Kennedy, Lima, 2017-02-28",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Carlos_yo\" title=\"User:Carlos yo\">Carlos Figueroa</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Parque_Kennedy,_Lima,_2017-02-28.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Vista del Parque Kennedy, Miraflores, Lima"
+                }
+              }
+            }
+          },
+          "rank_score": 0.794
+        },
+        {
+          "name": "Bridge of Sighs",
+          "ai_summary": "A picturesque bridge in Barranco, offering views of the surrounding area and the ocean.",
+          "name_english": "Bridge of Sighs",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "6:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Take a moment to enjoy the view and the sound of the ocean.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.1477,
+            "longitude": -77.0205
+          },
+          "address": "Barranco, Lima, Peru",
+          "official_website": "https://www.peru.travel",
+          "tags": [
+            "Scenic",
+            "Photography",
+            "Culture"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Puente_de_los_Suspiros,_Barranco.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Puente_de_los_Suspiros%2C_Barranco.jpg/960px-Puente_de_los_Suspiros%2C_Barranco.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Puente de los Suspiros, Barranco",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Ibrehaut\" title=\"User:Ibrehaut\">Ibrehaut (Ivan Brehaut L.)</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Puente_de_los_Suspiros,_Barranco.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Puente de los Suspiros, Barranco"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Parque Reducto No. 2",
+          "ai_summary": "A historical park in Miraflores, featuring monuments and green spaces.",
+          "name_english": "Parque Reducto No. 2",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "A peaceful place for a walk or a picnic."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Look for the historical plaques and monuments.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.0962,
+            "longitude": -77.0369
+          },
+          "address": "Calle José de la Riva Agüero, Miraflores, Lima, Peru",
+          "official_website": "https://www.peru.travel",
+          "tags": [
+            "History",
+            "Culture",
+            "Nature"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Parque_Reducto.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Parque_Reducto.jpg/960px-Parque_Reducto.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Parque Reducto",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/62785589@N03\">Municipalidad de Miraflores</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Parque_Reducto.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Miraflores, Perú"
+                }
+              }
+            }
+          },
+          "rank_score": 0.718
+        },
+        {
+          "name": "Costa Verde Beach Walk",
+          "ai_summary": "A scenic coastal walk in the Miraflores district, with views of the beach and the Pacific Ocean.",
+          "name_english": "Costa Verde Beach Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:45 AM",
+          "sunset_time": "6:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Popular for jogging, cycling, and walking."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or Late Afternoon",
+          "place_tip": "Watch out for the surfers and paragliders.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.13,
+            "longitude": -77.0282
+          },
+          "address": "Malecón de la Reserva, Miraflores, Lima, Peru",
+          "official_website": "https://www.peru.travel",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Recreation"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Circuito_BMX_-_Lima_2019.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Circuito_BMX_-_Lima_2019.jpg/960px-Circuito_BMX_-_Lima_2019.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Circuito BMX - Lima 2019",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dieter_xD&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dieter xD (page does not exist)\">Dieter xD</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Circuito_BMX_-_Lima_2019.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Sede de los Juegos Panamericanos y Parapanamericanos de 2019"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Lima Art Museum (MALI)",
+          "ai_summary": "A museum dedicated to modern and contemporary art, featuring works by Peruvian and international artists.",
+          "name_english": "Lima Art Museum (MALI)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "S/. 15.00",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 7:00 PM",
+            "Wednesday": "10:00 AM - 7:00 PM",
+            "Thursday": "10:00 AM - 7:00 PM",
+            "Friday": "10:00 AM - 7:00 PM",
+            "Saturday": "10:00 AM - 7:00 PM",
+            "Sunday": "10:00 AM - 7:00 PM",
+            "notes": "Check for special exhibitions and events."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the museum shop for unique art souvenirs.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -12.0464,
+            "longitude": -77.0428
+          },
+          "address": "Paseo Colón 125, Lima, Peru",
+          "official_website": "https://www.mali.pe",
+          "tags": [
+            "Art",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Inauguración_Fachada_MALI_HM_7198_F.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Inauguraci%C3%B3n_Fachada_MALI_HM_7198_F.jpg/960px-Inauguraci%C3%B3n_Fachada_MALI_HM_7198_F.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Inauguración Fachada MALI HM 7198 F",
+                  "author": "UE en Perú",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Inauguraci%C3%B3n_Fachada_MALI_HM_7198_F.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Inauguración Fachada MALI"
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        },
+        {
+          "name": "Peruvian Paso Horse Show",
+          "ai_summary": "A cultural show featuring the Peruvian Paso horse, known for its unique gait and elegance.",
+          "name_english": "Peruvian Paso Horse Show",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "S/. 60.00",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "5:00 PM - 8:00 PM",
+            "Sunday": "5:00 PM - 8:00 PM",
+            "notes": "Reservations recommended due to limited seating."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Arrive early for the best seats and enjoy the ambiance.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -12.1889,
+            "longitude": -77.0209
+          },
+          "address": "Av. Los Incas 600, Chorrillos 15063, Lima, Peru",
+          "official_website": "https://www.peruvianpaso.com",
+          "tags": [
+            "Culture",
+            "Equestrian",
+            "Show"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Peruvian_Paso3.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Peruvian_Paso3.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Peruvian Paso3",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/7326810@N08\">Just chaos</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Peruvian_Paso3.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Peruvian Paso"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Lighthouse of Miraflores",
+          "ai_summary": "A historic lighthouse located on the cliffs of Miraflores, offering panoramic views of the coastline.",
+          "name_english": "Lighthouse of Miraflores",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "5:30 AM",
+          "sunset_time": "6:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Bring binoculars for birdwatching and whale spotting (in season).",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.13,
+            "longitude": -77.0282
+          },
+          "address": "Malecón de la Reserva, Miraflores, Lima, Peru",
+          "official_website": "https://www.peru.travel",
+          "tags": [
+            "Scenic",
+            "Photography",
+            "History"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Faro_La_Marina,_Miraflores_(6905145089).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Faro_La_Marina%2C_Miraflores_%286905145089%29.jpg/960px-Faro_La_Marina%2C_Miraflores_%286905145089%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Faro La Marina, Miraflores (6905145089)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/34120957@N04\">Alex Proimos</a> from Sydney, Australia",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Faro_La_Marina,_Miraflores_(6905145089).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Faro La Marina, Miraflores"
+                }
+              }
+            }
+          },
+          "rank_score": 0.77
+        },
+        {
+          "name": "Museum of the Nation",
+          "ai_summary": "A museum dedicated to Peru's history, featuring exhibits from pre-Columbian to modern times.",
+          "name_english": "Museum of the Nation",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "S/. 10.00",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Last admission at 4:30 PM."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or Early Afternoon",
+          "place_tip": "Check out the museum's bookstore for unique gifts.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.0464,
+            "longitude": -77.0428
+          },
+          "address": "Av. Javier Prado Este 2465, San Isidro 15073, Lima, Peru",
+          "official_website": "https://www.museodelanacion.gob.pe",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Museum_of_the_Nation,_Lima,_Peru.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Museum_of_the_Nation%2C_Lima%2C_Peru.jpg/960px-Museum_of_the_Nation%2C_Lima%2C_Peru.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Museum of the Nation, Lima, Peru",
+                  "author": "Roger Haro (<a href=\"https://en.wikipedia.org/wiki/User:Dodger1972\" class=\"extiw\" title=\"en:User:Dodger1972\">Dodger1972</a> at <a class=\"external text\" href=\"https://en.wikipedia.org\">en.wikipedia</a>)",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Nation,_Lima,_Peru.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Museum_of_the_Nation\" class=\"extiw\" title=\"en:Museum of the Nation\">Museum of the Nation</a>, Lima, Peru"
+                }
+              }
+            }
+          },
+          "rank_score": 0.718
+        },
+        {
+          "name": "Sunset View from Miraflores Cliffs",
+          "ai_summary": "A popular spot to watch the sunset over the Pacific Ocean, from the cliffs of Miraflores.",
+          "name_english": "Sunset View from Miraflores Cliffs",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "6:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Arrive early to secure a good spot."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Bring a camera and a light jacket.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -12.13,
+            "longitude": -77.0282
+          },
+          "address": "Malecón de la Reserva, Miraflores, Lima, Peru",
+          "official_website": "https://www.peru.travel",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Photography"
+          ],
+          "state": "Lima",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Santa_Barbara_Downtown_(may_2012)_(2)_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Santa_Barbara_Downtown_%28may_2012%29_%282%29_%28cropped%29.jpg/960px-Santa_Barbara_Downtown_%28may_2012%29_%282%29_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Santa Barbara Downtown (may 2012) (2) (cropped)",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:PIERRE_ANDRE_LECLERCQ\" class=\"mw-redirect\" title=\"User:PIERRE ANDRE LECLERCQ\">Pierre André</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Santa_Barbara_Downtown_(may_2012)_(2)_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "<b>Santa Barbara</b> city in <a href=\"https://en.wikipedia.org/wiki/Santa_Barbara_County,_California\" class=\"extiw\" title=\"en:Santa Barbara County, California\">Santa Barbara County</a>, California, United States."
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1101 @@
+{
+  "country": "Scotland",
+  "state": "Edinburgh",
+  "cities": [
+    {
+      "city": "Edinburgh",
+      "nearest_airport": "Edinburgh Airport",
+      "places": [
+        {
+          "name": "Edinburgh Castle",
+          "ai_summary": "A historic fortress dominating the skyline of Edinburgh, offering panoramic views and a glimpse into Scotland's past.",
+          "name_english": "Edinburgh Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:30 AM - 05:00 PM",
+            "Tuesday": "09:30 AM - 05:00 PM",
+            "Wednesday": "09:30 AM - 05:00 PM",
+            "Thursday": "09:30 AM - 05:00 PM",
+            "Friday": "09:30 AM - 05:00 PM",
+            "Saturday": "09:30 AM - 05:00 PM",
+            "Sunday": "09:30 AM - 05:00 PM",
+            "notes": "Last entry at 04:00 PM."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Wear comfortable shoes for exploring the castle grounds.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 55.9486,
+            "longitude": -3.1999
+          },
+          "address": "Castlehill, Edinburgh EH1 2NG, United Kingdom",
+          "official_website": "https://www.edinburghcastle.scot/",
+          "tags": [
+            "History",
+            "Culture",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "The Royal Mile",
+          "ai_summary": "A historic street in the heart of Edinburgh, connecting the castle to Holyrood Palace, lined with shops and attractions.",
+          "name_english": "The Royal Mile",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "08:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Shops and attractions along the street have varying hours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the closes and alleys for hidden gems.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.9508,
+            "longitude": -3.1875
+          },
+          "address": "The Royal Mile, Edinburgh, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "History",
+            "Shopping",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:EdinburghTramsGeneric.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/EdinburghTramsGeneric.png/960px-EdinburghTramsGeneric.png",
+                "width": 800,
+                "height": 727,
+                "attribution": {
+                  "title": "EdinburghTramsGeneric",
+                  "author": "G-13114",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:EdinburghTramsGeneric.png",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "A symbol intended to represent Edinburgh Trams, for use on maps &amp; diagrams etc - it's loosely based on the shape and colours of the graphical portion of the system's official logo."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Arthur’s Seat",
+          "ai_summary": "An ancient volcano and the main peak in the group of hills in Edinburgh, offering stunning views of the city and beyond.",
+          "name_english": "Arthur’s Seat",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best climbed in daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Bring water and wear sturdy shoes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.9442,
+            "longitude": -3.1652
+          },
+          "address": "Arthur's Seat, Edinburgh, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Views"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Arthur's Seat, Edinburgh.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Arthur%27s_Seat%2C_Edinburgh.JPG/960px-Arthur%27s_Seat%2C_Edinburgh.JPG",
+                "width": 800,
+                "height": 291,
+                "attribution": {
+                  "title": "Arthur's Seat, Edinburgh",
+                  "author": "Kim Traynor",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Arthur's_Seat,_Edinburgh.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Arthur's Seat, Edinburgh, February 2012"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Holyrood Palace",
+          "ai_summary": "The official residence of the monarch in Scotland, this palace is rich in history and set against the stunning backdrop of Arthur’s Seat.",
+          "name_english": "Holyrood Palace",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 AM - 05:30 PM",
+            "Tuesday": "09:00 AM - 05:30 PM",
+            "Wednesday": "09:00 AM - 05:30 PM",
+            "Thursday": "09:00 AM - 05:30 PM",
+            "Friday": "09:00 AM - 05:30 PM",
+            "Saturday": "09:00 AM - 05:30 PM",
+            "Sunday": "09:00 AM - 05:30 PM",
+            "notes": "Last entry at 04:30 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Check for official ceremonies or events that may be taking place.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 55.9441,
+            "longitude": -3.1725
+          },
+          "address": "Canongate, Edinburgh EH8 8DX, United Kingdom",
+          "official_website": "https://www.royal.uk/holyrood-palace",
+          "tags": [
+            "History",
+            "Royalty",
+            "Architecture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Holyrood Distillery (geograph 6418456).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Holyrood_Distillery_%28geograph_6418456%29.jpg/960px-Holyrood_Distillery_%28geograph_6418456%29.jpg",
+                "width": 800,
+                "height": 534,
+                "attribution": {
+                  "title": "Holyrood Distillery (geograph 6418456)",
+                  "author": "Richard Webb",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Holyrood_Distillery_(geograph_6418456).jpg",
+                  "credit": "From geograph.org.uk",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Holyrood DistilleryGin distillery in former railway buildings. This was the site of Edinburgh's first railway terminus, coal being brought in from the Midlothian coalfield."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Calton Hill",
+          "ai_summary": "A hill in Edinburgh, which is the site of several iconic monuments and offers one of the best views of the city skyline.",
+          "name_english": "Calton Hill",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Monuments may have restricted access."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Sunrise or sunset",
+          "place_tip": "Visit the National Monument and the Dugald Stewart Monument.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.9541,
+            "longitude": -3.1865
+          },
+          "address": "Calton Hill, Edinburgh, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Views",
+            "Monuments",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "National Museum of Scotland",
+          "ai_summary": "A museum that showcases Scotland's history, culture, and achievements, housed in a stunning Victorian and modern building.",
+          "name_english": "National Museum of Scotland",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "05:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 05:00 PM",
+            "Tuesday": "10:00 AM - 05:00 PM",
+            "Wednesday": "10:00 AM - 05:00 PM",
+            "Thursday": "10:00 AM - 05:00 PM",
+            "Friday": "10:00 AM - 05:00 PM",
+            "Saturday": "10:00 AM - 05:00 PM",
+            "Sunday": "10:00 AM - 05:00 PM",
+            "notes": "Last entry at 04:30 PM."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don't miss the rooftop terrace for great city views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.947,
+            "longitude": -3.1902
+          },
+          "address": "Chambers St, Edinburgh EH1 1JF, United Kingdom",
+          "official_website": "https://www.nms.ac.uk/",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Animals (5986846359).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Animals_%285986846359%29.jpg/960px-Animals_%285986846359%29.jpg",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Animals (5986846359)",
+                  "author": "subberculture",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Animals_(5986846359).jpg",
+                  "credit": "Animals",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "The reopening of the National Museum of Scotland."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "St Giles’ Cathedral",
+          "ai_summary": "An iconic and historic church in Edinburgh, known for its stunning architecture and beautiful stained glass windows.",
+          "name_english": "St Giles’ Cathedral",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 AM - 05:00 PM",
+            "Tuesday": "09:00 AM - 05:00 PM",
+            "Wednesday": "09:00 AM - 05:00 PM",
+            "Thursday": "09:00 AM - 05:00 PM",
+            "Friday": "09:00 AM - 05:00 PM",
+            "Saturday": "09:00 AM - 05:00 PM",
+            "Sunday": "09:00 AM - 05:00 PM",
+            "notes": "Check for service times and possible closures."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Attend a service for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.9521,
+            "longitude": -3.1965
+          },
+          "address": "High St, Edinburgh EH1 1RE, United Kingdom",
+          "official_website": "https://www.stgilescathedral.org.uk/",
+          "tags": [
+            "History",
+            "Architecture",
+            "Religion"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Romanes & Paterson, Princes Street (geograph 1949541).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Romanes_%26_Paterson%2C_Princes_Street_%28geograph_1949541%29.jpg",
+                "width": 460,
+                "height": 640,
+                "attribution": {
+                  "title": "Romanes & Paterson, Princes Street (geograph 1949541)",
+                  "author": "kim traynor",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Romanes_&_Paterson,_Princes_Street_(geograph_1949541).jpg",
+                  "credit": "From geograph.org.uk",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Romanes &amp; Paterson, Princes Street"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Scott Monument",
+          "ai_summary": "A Victorian Gothic monument to Scottish author Sir Walter Scott, offering panoramic views of the city from its summit.",
+          "name_english": "Scott Monument",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:30 AM - 07:00 PM",
+            "Tuesday": "09:30 AM - 07:00 PM",
+            "Wednesday": "09:30 AM - 07:00 PM",
+            "Thursday": "09:30 AM - 07:00 PM",
+            "Friday": "09:30 AM - 07:00 PM",
+            "Saturday": "09:30 AM - 07:00 PM",
+            "Sunday": "09:30 AM - 07:00 PM",
+            "notes": "Last entry at 06:00 PM."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Climb the 287 steps to the top for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.9486,
+            "longitude": -3.1962
+          },
+          "address": "East Princes St Gardens, Edinburgh EH2 4BH, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Monument",
+            "Views",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Princes Street Gardens",
+          "ai_summary": "A beautiful public park in the heart of Edinburgh, offering stunning views of the castle and the city skyline.",
+          "name_english": "Princes Street Gardens",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Well-lit and safe at night."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Picnic in the park during the day",
+          "place_tip": "Visit the Ross Fountain and the floral clock.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.9521,
+            "longitude": -3.1962
+          },
+          "address": "Princes St Gardens, Edinburgh, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Park",
+            "Views",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Royal Botanic Garden Edinburgh",
+          "ai_summary": "A beautiful and diverse collection of plants from around the world, set in stunning gardens and glasshouses.",
+          "name_english": "Royal Botanic Garden Edinburgh",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 AM - 05:00 PM",
+            "Tuesday": "10:00 AM - 05:00 PM",
+            "Wednesday": "10:00 AM - 05:00 PM",
+            "Thursday": "10:00 AM - 05:00 PM",
+            "Friday": "10:00 AM - 05:00 PM",
+            "Saturday": "10:00 AM - 05:00 PM",
+            "Sunday": "10:00 AM - 05:00 PM",
+            "notes": "Last entry at 04:30 PM."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Check out the Victorian Palm House and the Rock Garden.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.9651,
+            "longitude": -3.1925
+          },
+          "address": "20A Inverleith Row, Edinburgh EH3 5LR, United Kingdom",
+          "official_website": "https://www.rbge.org.uk/",
+          "tags": [
+            "Nature",
+            "Gardens",
+            "Education"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon BUS.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BSicon_BUS.svg/800px-BSicon_BUS.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon BUS",
+                  "author": "Jake the Editor Man",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_BUS.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "British Rail-style bus symbol"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Camera Obscura & World of Illusions",
+          "ai_summary": "A unique attraction offering a fascinating insight into the world of illusions, with interactive exhibits and a rooftop terrace.",
+          "name_english": "Camera Obscura & World of Illusions",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "08:45 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 AM - 08:00 PM",
+            "Tuesday": "09:00 AM - 08:00 PM",
+            "Wednesday": "09:00 AM - 08:00 PM",
+            "Thursday": "09:00 AM - 08:00 PM",
+            "Friday": "09:00 AM - 08:00 PM",
+            "Saturday": "09:00 AM - 08:00 PM",
+            "Sunday": "09:00 AM - 08:00 PM",
+            "notes": "Last entry at 07:00 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon for sunset views",
+          "place_tip": "Don't miss the mirror maze and the rooftop view.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 55.9502,
+            "longitude": -3.1969
+          },
+          "address": "Castlehill, Edinburgh EH1 2NE, United Kingdom",
+          "official_website": "https://www.camera-obscura.co.uk/",
+          "tags": [
+            "Attraction",
+            "Interactive",
+            "Views"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Dean Village",
+          "ai_summary": "A picturesque village on the Water of Leith, located just a short walk from the city center, offering a peaceful escape.",
+          "name_english": "Dean Village",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Walk along the Water of Leith walkway.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.9486,
+            "longitude": -3.218
+          },
+          "address": "Dean Village, Edinburgh, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "Village",
+            "Nature",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Scottish National Gallery",
+          "ai_summary": "The national art gallery of Scotland, featuring an extensive collection of fine art from the Renaissance to the 20th century.",
+          "name_english": "Scottish National Gallery",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "05:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 AM - 05:00 PM",
+            "Tuesday": "10:00 AM - 05:00 PM",
+            "Wednesday": "10:00 AM - 05:00 PM",
+            "Thursday": "10:00 AM - 05:00 PM",
+            "Friday": "10:00 AM - 05:00 PM",
+            "Saturday": "10:00 AM - 05:00 PM",
+            "Sunday": "10:00 AM - 05:00 PM",
+            "notes": "Last entry at 04:30 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Look out for works by Van Gogh, Monet, and Turner.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.9486,
+            "longitude": -3.1924
+          },
+          "address": "The Mound, Edinburgh EH2 2EL, United Kingdom",
+          "official_website": "https://www.nationalgalleries.org/",
+          "tags": [
+            "Art",
+            "Culture",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Andrew Carnegie bust, Edinburgh Central Library.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Andrew_Carnegie_bust%2C_Edinburgh_Central_Library.JPG/960px-Andrew_Carnegie_bust%2C_Edinburgh_Central_Library.JPG",
+                "width": 800,
+                "height": 1264,
+                "attribution": {
+                  "title": "Andrew Carnegie bust, Edinburgh Central Library",
+                  "author": "Kim Traynor",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Andrew_Carnegie_bust,_Edinburgh_Central_Library.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Andrew Carnegie bust, Edinburgh Central Library"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Greyfriars Kirkyard",
+          "ai_summary": "A historic graveyard in Edinburgh, known for its beautiful tombstones and as the burial place of many notable Scots.",
+          "name_english": "Greyfriars Kirkyard",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 AM - 05:00 PM",
+            "Tuesday": "09:00 AM - 05:00 PM",
+            "Wednesday": "09:00 AM - 05:00 PM",
+            "Thursday": "09:00 AM - 05:00 PM",
+            "Friday": "09:00 AM - 05:00 PM",
+            "Saturday": "09:00 AM - 05:00 PM",
+            "Sunday": "09:00 AM - 05:00 PM",
+            "notes": "Check for guided tour times."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the grave of Greyfriars Bobby, the loyal dog.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.948,
+            "longitude": -3.1967
+          },
+          "address": "Candlemaker Row, Edinburgh EH1 2QE, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "History",
+            "Culture",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "The Scotch Whisky Experience",
+          "ai_summary": "A visitor attraction and museum in Edinburgh, dedicated to the history and production of Scotch whisky.",
+          "name_english": "The Scotch Whisky Experience",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "08:30 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 06:00 PM",
+            "Tuesday": "10:00 AM - 06:00 PM",
+            "Wednesday": "10:00 AM - 06:00 PM",
+            "Thursday": "10:00 AM - 06:00 PM",
+            "Friday": "10:00 AM - 06:00 PM",
+            "Saturday": "10:00 AM - 06:00 PM",
+            "Sunday": "10:00 AM - 06:00 PM",
+            "notes": "Last entry at 05:00 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Join a guided tour for a complete experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 55.9486,
+            "longitude": -3.1934
+          },
+          "address": "354 Castlehill, Edinburgh EH1 2NE, United Kingdom",
+          "official_website": "https://www.scotchwhiskyexperience.co.uk/",
+          "tags": [
+            "Food & Drink",
+            "Culture",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Edinburgh Grassmarket01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Edinburgh_Grassmarket01.jpg/960px-Edinburgh_Grassmarket01.jpg",
+                "width": 800,
+                "height": 1066,
+                "attribution": {
+                  "title": "Edinburgh Grassmarket01",
+                  "author": null,
+                  "license": "CC BY-SA 2.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Edinburgh_Grassmarket01.jpg",
+                  "credit": null,
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0 de",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Dynamic Earth",
+          "ai_summary": "A science museum in Edinburgh, offering an interactive journey through the Earth's climate history and future.",
+          "name_english": "Dynamic Earth",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "05:30 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 05:30 PM",
+            "Tuesday": "10:00 AM - 05:30 PM",
+            "Wednesday": "10:00 AM - 05:30 PM",
+            "Thursday": "10:00 AM - 05:30 PM",
+            "Friday": "10:00 AM - 05:30 PM",
+            "Saturday": "10:00 AM - 05:30 PM",
+            "Sunday": "10:00 AM - 05:30 PM",
+            "notes": "Last entry at 04:30 PM."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Allow extra time for the 4D cinema experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.9496,
+            "longitude": -3.171
+          },
+          "address": "Holyrood Rd, Edinburgh EH8 8AS, United Kingdom",
+          "official_website": "https://www.dynamicearth.co.uk/",
+          "tags": [
+            "Science",
+            "Education",
+            "Family"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Royal Yacht Britannia (Leith)",
+          "ai_summary": "The former floating palace of the British monarch, now a museum ship in Edinburgh, offering a glimpse into royal life at sea.",
+          "name_english": "Royal Yacht Britannia (Leith)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:00 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 AM - 04:30 PM",
+            "Tuesday": "10:00 AM - 04:30 PM",
+            "Wednesday": "10:00 AM - 04:30 PM",
+            "Thursday": "10:00 AM - 04:30 PM",
+            "Friday": "10:00 AM - 04:30 PM",
+            "Saturday": "10:00 AM - 04:30 PM",
+            "Sunday": "10:00 AM - 04:30 PM",
+            "notes": "Last entry at 03:30 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Explore the royal apartments and the engine room.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 55.9772,
+            "longitude": -3.1827
+          },
+          "address": "Ocean Dr, Edinburgh EH6 6JJ, United Kingdom",
+          "official_website": "https://www.royalyachtbritannia.co.uk/",
+          "tags": [
+            "History",
+            "Royalty",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Leith North railway station (site), Edinburgh (geograph 4544292).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Leith_North_railway_station_%28site%29%2C_Edinburgh_%28geograph_4544292%29.jpg/960px-Leith_North_railway_station_%28site%29%2C_Edinburgh_%28geograph_4544292%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Leith North railway station (site), Edinburgh (geograph 4544292)",
+                  "author": "Nigel Thompson",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Leith_North_railway_station_(site),_Edinburgh_(geograph_4544292).jpg",
+                  "credit": "From geograph.org.uk",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Leith North railway station (site), EdinburghOpened in 1879 by the Caledonian Railway as the terminus of its line from Princes Street, this station closed in 1962\nView west. The station was alongside Lindsay Road, where the left-most blocks of flats now are, terminating roughly where the trees are. The site has been completely redeveloped and no trace apparently now remains."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Grassmarket",
+          "ai_summary": "A historic market place in the Old Town of Edinburgh, now a vibrant area with shops, pubs, and restaurants.",
+          "name_english": "Grassmarket",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "08:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Shops and restaurants have varying hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening for a lively atmosphere",
+          "place_tip": "Try the local pubs and restaurants.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.9484,
+            "longitude": -3.1968
+          },
+          "address": "Grassmarket, Edinburgh, United Kingdom",
+          "official_website": null,
+          "tags": [
+            "History",
+            "Shopping",
+            "Dining"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Surgeons’ Hall Museums",
+          "ai_summary": "A fascinating museum in Edinburgh, showcasing the history of surgery and medicine in Scotland.",
+          "name_english": "Surgeons’ Hall Museums",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "05:00 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 05:00 PM",
+            "Tuesday": "10:00 AM - 05:00 PM",
+            "Wednesday": "10:00 AM - 05:00 PM",
+            "Thursday": "10:00 AM - 05:00 PM",
+            "Friday": "10:00 AM - 05:00 PM",
+            "Saturday": "10:00 AM - 05:00 PM",
+            "Sunday": "Closed",
+            "notes": "Last entry at 04:30 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check out the fascinating medical exhibits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 55.9481,
+            "longitude": -3.1883
+          },
+          "address": "Surgeons' Hall, 54 Nicolson St, Edinburgh EH8 9DW, United Kingdom",
+          "official_website": "https://www.surgeonshall.com/",
+          "tags": [
+            "Museum",
+            "History",
+            "Science"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Adam House (8205738611).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Adam_House_%288205738611%29.jpg/960px-Adam_House_%288205738611%29.jpg",
+                "width": 800,
+                "height": 1225,
+                "attribution": {
+                  "title": "Adam House (8205738611)",
+                  "author": "John Lord from Edinburgh, Scotland",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Adam_House_(8205738611).jpg",
+                  "credit": "Adam House",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "William Kininmonth, 1953"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Mary King’s Close",
+          "ai_summary": "A historic close (alley) in Edinburgh, offering a glimpse into the city's past through its preserved 17th-century street.",
+          "name_english": "Mary King’s Close",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "08:30 PM",
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 08:00 PM",
+            "Tuesday": "10:00 AM - 08:00 PM",
+            "Wednesday": "10:00 AM - 08:00 PM",
+            "Thursday": "10:00 AM - 08:00 PM",
+            "Friday": "10:00 AM - 08:00 PM",
+            "Saturday": "10:00 AM - 08:00 PM",
+            "Sunday": "10:00 AM - 08:00 PM",
+            "notes": "Last entry at 07:00 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Join a guided tour for the best experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 55.9484,
+            "longitude": -3.1968
+          },
+          "address": "Mary King's Close, Edinburgh EH1 2PB, United Kingdom",
+          "official_website": "https://www.marykingsclose.com/",
+          "tags": [
+            "History",
+            "Culture",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Camera obscura 5814-michelides.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Camera_obscura_5814-michelides.jpg/960px-Camera_obscura_5814-michelides.jpg",
+                "width": 800,
+                "height": 534,
+                "attribution": {
+                  "title": "Camera obscura 5814-michelides",
+                  "author": "Christian Michelides",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Camera_obscura_5814-michelides.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "\"Camera Obscura\", Edinburgh"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

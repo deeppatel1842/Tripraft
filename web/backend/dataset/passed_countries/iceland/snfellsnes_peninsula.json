@@ -1,0 +1,924 @@
+{
+  "country": "Iceland",
+  "state": "Snfellsnes Peninsula",
+  "cities": [
+    {
+      "city": "Snæfellsnes Peninsula",
+      "nearest_airport": "Reykjavík Airport (RKV)",
+      "places": [
+        {
+          "name": "Kirkjufell Mountain",
+          "ai_summary": "A picturesque mountain often called 'Church Mountain,' known for its unique shape and stunning views, especially during sunset.",
+          "name_english": "Kirkjufell Mountain",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:50",
+          "sunset_time": "16:20",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Photograph the mountain with the nearby waterfall for iconic shots.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.927,
+            "longitude": -23.312
+          },
+          "address": "Kirkjufell, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Mountain",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kirkjufell_in_Iceland.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Kirkjufell_in_Iceland.jpg/960px-Kirkjufell_in_Iceland.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kirkjufell in Iceland",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Anjalikiggal&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Anjalikiggal (page does not exist)\">Anjali Kiggal</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kirkjufell_in_Iceland.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The Kirkjufell mountain in Iceland on a cloudy day."
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Snæfellsjökull National Park",
+          "ai_summary": "A stunning national park featuring the Snæfellsjökull glacier, lava fields, and dramatic coastal cliffs.",
+          "name_english": "Snæfellsjökull National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:45",
+          "sunset_time": "16:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Explore the hiking trails for the best views of the glacier.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.8,
+            "longitude": -23.783
+          },
+          "address": "Snæfellsjökull National Park, Iceland",
+          "official_website": "https://www.snaefellsjokull.is/",
+          "tags": [
+            "National Park",
+            "Glacier",
+            "Nature"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Snæfellsjökull_in_the_Morning_(7622876302)_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Sn%C3%A6fellsj%C3%B6kull_in_the_Morning_%287622876302%29_%28cropped%29.jpg/960px-Sn%C3%A6fellsj%C3%B6kull_in_the_Morning_%287622876302%29_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Snæfellsjökull in the Morning (7622876302) (cropped)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/57605412@N00\">Axel Kristinsson</a> from Reykjavík, Iceland",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sn%C3%A6fellsj%C3%B6kull_in_the_Morning_(7622876302)_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Snæfellsjökull in the Morning"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Arnarstapi",
+          "ai_summary": "A charming fishing village with dramatic coastal cliffs, basalt columns, and rich birdlife.",
+          "name_english": "Arnarstapi",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:40",
+          "sunset_time": "16:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Walk along the coastal path for stunning views of the cliffs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.773,
+            "longitude": -23.622
+          },
+          "address": "Arnarstapi, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Village",
+            "Nature",
+            "Birdlife"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Arnarstapi_2024_(0754).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Arnarstapi_2024_%280754%29.jpg/960px-Arnarstapi_2024_%280754%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Arnarstapi 2024 (0754)",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Steinninn\" class=\"mw-userlink\" title=\"User:Steinninn\">Steinninn</a>",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Arnarstapi_2024_(0754).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Arnarstapi"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Búðir Black Church",
+          "ai_summary": "A historic black wooden church set against a dramatic landscape of lava fields and mountains.",
+          "name_english": "Budir Black Church",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:50",
+          "sunset_time": "16:20",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Capture the church with the surrounding lava fields for stunning photos.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.82,
+            "longitude": -23.383
+          },
+          "address": "Búðir, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Church",
+            "History",
+            "Photography"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Lóndrangar",
+          "ai_summary": "Two towering basalt rock pinnacles on the coast, remnants of a volcanic crater, offering dramatic views and rich birdlife.",
+          "name_english": "Londrangar",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:45",
+          "sunset_time": "16:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring binoculars to spot seabirds nesting on the cliffs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.737,
+            "longitude": -23.783
+          },
+          "address": "Lóndrangar, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Rock Formation",
+            "Nature",
+            "Birdlife"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Djupalónssandur Beach",
+          "ai_summary": "A black pebble beach with stunning rock formations and remnants of a shipwreck, set in a dramatic coastal landscape.",
+          "name_english": "Djupalónssandur Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:55",
+          "sunset_time": "16:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late Afternoon",
+          "place_tip": "Visit the rock formations at both ends of the beach for unique photos.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.748,
+            "longitude": -23.883
+          },
+          "address": "Djupalónssandur, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Beach",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Vatnshellir Lava Cave",
+          "ai_summary": "A fascinating lava cave offering guided tours to explore its unique rock formations and learn about volcanic activity.",
+          "name_english": "Vatnshellir Lava Cave",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Guided tours: 4,000 ISK",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00-16:00",
+            "Tuesday": "10:00-16:00",
+            "Wednesday": "10:00-16:00",
+            "Thursday": "10:00-16:00",
+            "Friday": "10:00-16:00",
+            "Saturday": "10:00-16:00",
+            "Sunday": "10:00-16:00",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Wear warm clothing and sturdy shoes for the cave tour.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 64.756,
+            "longitude": -23.665
+          },
+          "address": "Vatnshellir, Snæfellsnes Peninsula, Iceland",
+          "official_website": "https://www.vatnshellir.is/",
+          "tags": [
+            "Lava Cave",
+            "Volcano",
+            "Guided Tour"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Hellnar Coastal Trail",
+          "ai_summary": "A scenic hiking trail between Hellnar and Arnarstapi, offering stunning coastal views, birdwatching, and unique rock formations.",
+          "name_english": "Hellnar Coastal Trail",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:40",
+          "sunset_time": "16:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning or Afternoon",
+          "place_tip": "Look out for puffins and other seabirds along the trail.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.77,
+            "longitude": -23.623
+          },
+          "address": "Hellnar, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Birdwatching"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.802
+        },
+        {
+          "name": "Stykkishólmur Town & Harbor",
+          "ai_summary": "A picturesque town with a charming harbor, colorful houses, and access to nearby islands and whale watching tours.",
+          "name_english": "Stykkishólmur Town & Harbor",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:55",
+          "sunset_time": "16:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the local museum and take a walk around the harbor.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.083,
+            "longitude": -22.725
+          },
+          "address": "Stykkishólmur, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Town",
+            "Harbor",
+            "Whale Watching"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Eldborg Crater Hike",
+          "ai_summary": "A rewarding hike to a volcanic crater with a beautiful lake at its center, offering panoramic views of the surrounding area.",
+          "name_english": "Eldborg Crater",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:55",
+          "sunset_time": "16:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring water and snacks, and wear sturdy hiking boots.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.825,
+            "longitude": -23.354
+          },
+          "address": "Eldborg, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Hiking",
+            "Volcano",
+            "Nature"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Geitahlíd-StóraEldborg.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Geitahl%C3%ADd-St%C3%B3raEldborg.jpg/960px-Geitahl%C3%ADd-St%C3%B3raEldborg.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Geitahlíd-StóraEldborg",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Reykholt\" title=\"User:Reykholt\">Reykholt</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Geitahl%C3%ADd-St%C3%B3raEldborg.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Near Krýsuvík, Iceland"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Bjarnarfoss Waterfall",
+          "ai_summary": "A beautiful waterfall located near the town of Grundarfjörður, easily accessible and perfect for a quick visit.",
+          "name_english": "Bjarnarfoss Waterfall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:50",
+          "sunset_time": "16:20",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine your visit with a trip to the nearby town of Grundarfjörður.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.927,
+            "longitude": -23.26
+          },
+          "address": "Bjarnarfoss, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Rauðfeldsgjá Gorge",
+          "ai_summary": "A stunning gorge with steep cliffs and a narrow ravine, offering a unique hiking experience and beautiful views.",
+          "name_english": "Rauðfeldsgjá Gorge",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:55",
+          "sunset_time": "16:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Be cautious of loose rocks and steep drops in the gorge.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.774,
+            "longitude": -23.623
+          },
+          "address": "Rauðfeldsgjá, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Gorge",
+            "Hiking",
+            "Nature"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Berserkjahraun Lava Field",
+          "ai_summary": "A vast lava field with unique rock formations and moss-covered lava, offering a surreal landscape to explore.",
+          "name_english": "Berserkjahraun Lava Field",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:45",
+          "sunset_time": "16:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Stay on marked paths to protect the delicate moss.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.774,
+            "longitude": -23.688
+          },
+          "address": "Berserkjahraun, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Lava Field",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Ólafsvík Whale Watching",
+          "ai_summary": "Join a whale watching tour from Ólafsvík to see humpback whales, orcas, and other marine life in their natural habitat.",
+          "name_english": "Ólafsvík Whale Watching",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:55",
+          "sunset_time": "16:25",
+          "cost": "From 10,000 ISK",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Dress warmly and bring binoculars for a better view of the whales.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 64.895,
+            "longitude": -23.711
+          },
+          "address": "Ólafsvík, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Whale Watching",
+            "Marine Life",
+            "Nature"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ballenafranca+alvina.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ballenafranca%2Balvina.jpg/960px-Ballenafranca%2Balvina.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ballenafranca+alvina",
+                  "author": "Leonardo Lanza",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ballenafranca%2Balvina.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Fotografia ballena Franca Austral"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Ingjaldshóll Church",
+          "ai_summary": "A picturesque church located on a hill, offering beautiful views of the surrounding countryside and coastline.",
+          "name_english": "Ingjaldshóll Church",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:50",
+          "sunset_time": "16:20",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Enjoy the view from the hilltop and explore the surrounding area.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.895,
+            "longitude": -23.711
+          },
+          "address": "Ingjaldshóll, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Church",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Snæfellsjökull Glacier Summit View",
+          "ai_summary": "The summit of Snæfellsjökull glacier offers breathtaking views of the surrounding mountains, valleys, and coastline.",
+          "name_english": "Snæfellsjökull Glacier Summit View",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:45",
+          "sunset_time": "16:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "The summit can be reached by a challenging hike; proper gear is essential.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.8,
+            "longitude": -23.783
+          },
+          "address": "Snæfellsjökull, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Glacier",
+            "Viewpoint",
+            "Hiking"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Snæfellsjökull_in_the_Morning_(7622876302)_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Sn%C3%A6fellsj%C3%B6kull_in_the_Morning_%287622876302%29_%28cropped%29.jpg/960px-Sn%C3%A6fellsj%C3%B6kull_in_the_Morning_%287622876302%29_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Snæfellsjökull in the Morning (7622876302) (cropped)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/57605412@N00\">Axel Kristinsson</a> from Reykjavík, Iceland",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sn%C3%A6fellsj%C3%B6kull_in_the_Morning_(7622876302)_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Snæfellsjökull in the Morning"
+                }
+              }
+            }
+          },
+          "rank_score": 0.818
+        },
+        {
+          "name": "Hellissandur Mural Village",
+          "ai_summary": "A unique village known for its colorful murals and artistic community, offering a different side of Icelandic culture.",
+          "name_english": "Hellissandur Mural Village",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:55",
+          "sunset_time": "16:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Take your time to explore the murals and the stories behind them.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.9,
+            "longitude": -23.2
+          },
+          "address": "Hellissandur, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Village",
+            "Art",
+            "Culture"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Saxhóll Crater Stairs",
+          "ai_summary": "A staircase leading up to the rim of Saxhóll crater, offering panoramic views of the surrounding lava fields and coastline.",
+          "name_english": "Saxhóll Crater Stairs",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:50",
+          "sunset_time": "16:20",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "The stairs can be steep; take your time and enjoy the view from the top.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.737,
+            "longitude": -23.663
+          },
+          "address": "Saxhóll, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Crater",
+            "Viewpoint",
+            "Photography"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.786
+        },
+        {
+          "name": "Kolgrafafjörður Bridge Stop",
+          "ai_summary": "A scenic stop by the bridge over Kolgrafafjörður fjord, offering beautiful views of the water and surrounding mountains.",
+          "name_english": "Kolgrafafjörður Bridge Stop",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:55",
+          "sunset_time": "16:25",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "15 minutes",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "A great spot for photography, especially with the reflections in the water.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.915,
+            "longitude": -23.2
+          },
+          "address": "Kolgrafafjörður, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Scenic Stop",
+            "Photography",
+            "Nature"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.734
+        },
+        {
+          "name": "Grundarfjörður Fishing Village",
+          "ai_summary": "A picturesque fishing village with a charming harbor, surrounded by mountains and offering access to nearby attractions.",
+          "name_english": "Grundarfjörður Fishing Village",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "08:50",
+          "sunset_time": "16:20",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the local church and take a walk around the harbor.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.927,
+            "longitude": -23.26
+          },
+          "address": "Grundarfjörður, Snæfellsnes Peninsula, Iceland",
+          "official_website": null,
+          "tags": [
+            "Village",
+            "Harbor",
+            "Photography"
+          ],
+          "state": "Snfellsnes Peninsula",
+          "photos": {},
+          "rank_score": 0.746
+        }
+      ]
+    }
+  ]
+}

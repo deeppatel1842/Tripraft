@@ -1,0 +1,1212 @@
+{
+  "country": "Australia",
+  "state": "Western Australia",
+  "cities": [
+    {
+      "city": "Perth",
+      "nearest_airport": "Perth Airport (PER)",
+      "places": [
+        {
+          "name": "Rottnest Island",
+          "ai_summary": "Rottnest Island is a picturesque island near Perth, famous for its stunning beaches, crystal-clear waters, and the adorable quokkas. It's a popular destination for day trips and outdoor activities.",
+          "name_english": "Rottnest Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Ferry schedules may vary."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Spring and Summer",
+          "place_tip": "Rent a bike to explore the island at your own pace.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -31.9952,
+            "longitude": 115.5404
+          },
+          "address": "Rottnest Island, Western Australia, Australia",
+          "official_website": "https://www.rottnestisland.com/",
+          "tags": [
+            "Nature",
+            "Beaches",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Airplane silhouette.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Airplane_silhouette.svg/800px-Airplane_silhouette.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Airplane silhouette",
+                  "author": "Original:  Jussi Paju Vector:  McSush",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Airplane_silhouette.svg",
+                  "credit": "Own work based on: Airplane silhouette.png",
+                  "usage_terms": "Public domain",
+                  "description": "Icon-type silhouette of an airplane. (Mainly to be used in Userboxes)\n\nUsed on WIkipedia as an airport location icon."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8135
+        },
+        {
+          "name": "Margaret River Wine Region",
+          "ai_summary": "The Margaret River Wine Region is renowned for its premium wineries, gourmet food, and stunning coastal scenery. It's a must-visit destination for wine enthusiasts and food lovers.",
+          "name_english": "Margaret River Wine Region",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Hours may vary by winery."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Autumn",
+          "place_tip": "Join a guided wine tour to discover the best wineries in the region.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": -33.9535,
+            "longitude": 115.0739
+          },
+          "address": "Margaret River, Western Australia, Australia",
+          "official_website": "https://www.margaretriver.com/",
+          "tags": [
+            "Wine",
+            "Food",
+            "Scenic",
+            "Culture"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A bottle and glass of wine.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/A_bottle_and_glass_of_wine.svg/800px-A_bottle_and_glass_of_wine.svg.png",
+                "width": 800,
+                "height": 1481,
+                "attribution": {
+                  "title": "A bottle and glass of wine",
+                  "author": "francesco_rollandin",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A_bottle_and_glass_of_wine.svg",
+                  "credit": "Openclipart",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "A bottle and glass of wine clipart."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7905
+        },
+        {
+          "name": "Kings Park and Botanic Garden (Perth)",
+          "ai_summary": "Kings Park and Botanic Garden is one of the world's largest and most beautiful inner-city parks, offering stunning views of the Perth skyline and the Swan River. It's a perfect spot for picnics, walks, and enjoying nature.",
+          "name_english": "Kings Park and Botanic Garden",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor Information Centre hours vary."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Spring",
+          "place_tip": "Don't miss the Lotterywest Federation Walkway for a treetop view.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -31.9505,
+            "longitude": 115.8605
+          },
+          "address": "Fraser Avenue, Perth WA 6005, Australia",
+          "official_website": "https://www.bgpa.wa.gov.au/kings-park",
+          "tags": [
+            "Nature",
+            "Parks",
+            "Photography",
+            "Walking"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.793
+        },
+        {
+          "name": "Ningaloo Reef Marine Park",
+          "ai_summary": "Ningaloo Reef Marine Park is a UNESCO World Heritage site, known for its stunning coral reef and diverse marine life. It's an excellent destination for snorkeling, diving, and whale shark swimming.",
+          "name_english": "Ningaloo Reef Marine Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor Centre hours vary."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "March to August",
+          "place_tip": "Book a tour to swim with whale sharks for a memorable experience.",
+          "advanced_booking": "Essential for tours",
+          "coordinates": {
+            "latitude": -22.2516,
+            "longitude": 113.8958
+          },
+          "address": "Ningaloo Reef Marine Park, Exmouth WA 6707, Australia",
+          "official_website": "https://www.parkstay.wa.gov.au/ningaloo-reef",
+          "tags": [
+            "Marine Life",
+            "Snorkeling",
+            "Diving",
+            "Adventure"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aegopodium podagraria1 ies.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Aegopodium_podagraria1_ies.jpg",
+                "width": 800,
+                "height": 700,
+                "attribution": {
+                  "title": "Aegopodium podagraria1 ies",
+                  "author": "Frank Vincentz",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aegopodium_podagraria1_ies.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Aegopodium podagraria"
+                }
+              }
+            }
+          },
+          "rank_score": 0.797
+        },
+        {
+          "name": "The Pinnacles Desert",
+          "ai_summary": "The Pinnacles Desert is a unique landscape within Nambung National Park, featuring thousands of limestone pillars. It's a fascinating place to explore, with walking trails and a scenic drive.",
+          "name_english": "The Pinnacles Desert",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Take the time to walk among the Pinnacles for a closer look.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -30.5695,
+            "longitude": 115.1582
+          },
+          "address": "Nambung National Park, Cervantes WA 6511, Australia",
+          "official_website": "https://www.parks.dpaw.wa.gov.au/park/nambung",
+          "tags": [
+            "Nature",
+            "Landmarks",
+            "Photography",
+            "Walking"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A200, Nambung National Park, Western Australia, pinnacles and the Indian Ocean, 2007.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/A200%2C_Nambung_National_Park%2C_Western_Australia%2C_pinnacles_and_the_Indian_Ocean%2C_2007.JPG/960px-A200%2C_Nambung_National_Park%2C_Western_Australia%2C_pinnacles_and_the_Indian_Ocean%2C_2007.JPG",
+                "width": 800,
+                "height": 534,
+                "attribution": {
+                  "title": "A200, Nambung National Park, Western Australia, pinnacles and the Indian Ocean, 2007",
+                  "author": "Brian W. Schaller",
+                  "license": "FAL",
+                  "license_url": "http://artlibre.org/licence/lal/en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A200,_Nambung_National_Park,_Western_Australia,_pinnacles_and_the_Indian_Ocean,_2007.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Free Art License",
+                  "description": "Nambung National Park, Western Australia, pinnacles and the Indian Ocean"
+                }
+              }
+            }
+          },
+          "rank_score": 0.764
+        },
+        {
+          "name": "Cable Beach (Broome)",
+          "ai_summary": "Cable Beach is a famous beach in Broome, known for its stunning sunsets, white sand, and crystal-clear waters. It's a popular spot for swimming, sunbathing, and camel rides.",
+          "name_english": "Cable Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Camel rides are available at specific times."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Enjoy a camel ride along the beach at sunset for a memorable experience.",
+          "advanced_booking": "Recommended for camel rides",
+          "coordinates": {
+            "latitude": -17.9613,
+            "longitude": 122.2055
+          },
+          "address": "Cable Beach, Broome WA 6725, Australia",
+          "official_website": "https://www.broome.com.au/cable-beach",
+          "tags": [
+            "Beaches",
+            "Sunsets",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Australia Western Australia location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Australia_Western_Australia_location_map.svg/960px-Australia_Western_Australia_location_map.svg.png",
+                "width": 800,
+                "height": 1154,
+                "attribution": {
+                  "title": "Australia Western Australia location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Australia_Western_Australia_location_map.svg",
+                  "credit": "Own work, using \n\nUnited States National Imagery and Mapping Agency data\nAustralian Government, Department of Infrastructure, Transport, Regional Development and Local Government",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Western Australia, Australia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.804
+        },
+        {
+          "name": "Karijini National Park",
+          "ai_summary": "Karijini National Park is a stunning natural area in the Pilbara region, known for its dramatic gorges, waterfalls, and unique rock formations. It's a paradise for hikers and nature lovers.",
+          "name_english": "Karijini National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor Centre hours vary."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "April to October",
+          "place_tip": "Take plenty of water and explore the many walking trails.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -23.2028,
+            "longitude": 117.7616
+          },
+          "address": "Karijini National Park, Tom Price WA 6751, Australia",
+          "official_website": "https://www.parks.dpaw.wa.gov.au/park/karijini",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Photography",
+            "Adventure"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Australia Western Australia relief location map.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Australia_Western_Australia_relief_location_map.jpg/960px-Australia_Western_Australia_relief_location_map.jpg",
+                "width": 800,
+                "height": 1156,
+                "attribution": {
+                  "title": "Australia Western Australia relief location map",
+                  "author": "Betterkeks",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Australia_Western_Australia_relief_location_map.jpg",
+                  "credit": "Own work, using:\n\nTopography and bathymetry: GEBCO global relief grid (made available under the GEBCO 2018 Licence) provided as a remote data set by the Generic Mapping Tools (GMT), and rendered by GMT using an adoption of the public domain wiki-2.0 colour table by Eric Gaba.\nLakes and rivers rendered by GMT from OpenStreetMap data available under the Open Database License.\nLimits of map:\n\nWest: 112.5\nEast: 129.5\nNorth: -13.2\nSouth: -35.5",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Blank physical map of Western Australia for geo-location purposes."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8135
+        },
+        {
+          "name": "Fremantle",
+          "ai_summary": "Fremantle is a vibrant, historic area known for its well-preserved 19th-century architecture, bustling markets, and lively arts scene. It's a great place to explore on foot.",
+          "name_english": "Fremantle",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Some attractions may have extended hours."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Spring and Autumn",
+          "place_tip": "Visit the Fremantle Markets for local produce and crafts.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -32.0563,
+            "longitude": 115.7482
+          },
+          "address": "Fremantle, Western Australia, Australia",
+          "official_website": "https://www.fremantlestory.com.au/",
+          "tags": [
+            "History",
+            "Culture",
+            "Markets",
+            "Photography"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Fremantle Technical School 01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Fremantle_Technical_School_01.jpg/960px-Fremantle_Technical_School_01.jpg",
+                "width": 800,
+                "height": 598,
+                "attribution": {
+                  "title": "Fremantle Technical School 01",
+                  "author": "Hughesdarren",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Fremantle_Technical_School_01.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Fremantle Technical School"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7635
+        },
+        {
+          "name": "Horizontal Falls",
+          "ai_summary": "Horizontal Falls, located in the Kimberley region, is a natural phenomenon where tidal waters rush through narrow gorges, creating a waterfall effect. It's best experienced by boat or seaplane.",
+          "name_english": "Horizontal Falls",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Access is tidal and weather dependent."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Tidal changes",
+          "place_tip": "Check the tide times and book a tour for the best experience.",
+          "advanced_booking": "Essential",
+          "coordinates": {
+            "latitude": -16.2,
+            "longitude": 123.7
+          },
+          "address": "Horizontal Falls, Western Australia, Australia",
+          "official_website": "https://www.horizontalfalls.com.au/",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Photography",
+            "Waterfalls"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Australia Western Australia relief location map.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Australia_Western_Australia_relief_location_map.jpg/960px-Australia_Western_Australia_relief_location_map.jpg",
+                "width": 800,
+                "height": 1156,
+                "attribution": {
+                  "title": "Australia Western Australia relief location map",
+                  "author": "Betterkeks",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Australia_Western_Australia_relief_location_map.jpg",
+                  "credit": "Own work, using:\n\nTopography and bathymetry: GEBCO global relief grid (made available under the GEBCO 2018 Licence) provided as a remote data set by the Generic Mapping Tools (GMT), and rendered by GMT using an adoption of the public domain wiki-2.0 colour table by Eric Gaba.\nLakes and rivers rendered by GMT from OpenStreetMap data available under the Open Database License.\nLimits of map:\n\nWest: 112.5\nEast: 129.5\nNorth: -13.2\nSouth: -35.5",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Blank physical map of Western Australia for geo-location purposes."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7995
+        },
+        {
+          "name": "Bungle Bungle Range (Purnululu National Park)",
+          "ai_summary": "The Bungle Bungles are a unique sandstone formation in Purnululu National Park, known for their beehive-shaped domes. The area is rich in Aboriginal culture and offers stunning hiking trails.",
+          "name_english": "Bungle Bungle Range",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Access is via guided tours only."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "May to September",
+          "place_tip": "Take a guided tour to learn about the geology and Aboriginal culture.",
+          "advanced_booking": "Essential",
+          "coordinates": {
+            "latitude": -24.25,
+            "longitude": 127.5833
+          },
+          "address": "Purnululu National Park, Western Australia, Australia",
+          "official_website": "https://www.parks.dpaw.wa.gov.au/park/purnululu",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Culture",
+            "Photography"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A202, Purnululu National Park, Western Australia, Bungle Bungles, from plane, 2007.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/A202%2C_Purnululu_National_Park%2C_Western_Australia%2C_Bungle_Bungles%2C_from_plane%2C_2007.JPG",
+                "width": 800,
+                "height": 534,
+                "attribution": {
+                  "title": "A202, Purnululu National Park, Western Australia, Bungle Bungles, from plane, 2007",
+                  "author": "Brian W. Schaller",
+                  "license": "FAL",
+                  "license_url": "http://artlibre.org/licence/lal/en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A202,_Purnululu_National_Park,_Western_Australia,_Bungle_Bungles,_from_plane,_2007.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Free Art License",
+                  "description": "Purnululu National Park, Western Australia, Bungle Bungles, from plane"
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        },
+        {
+          "name": "Valley of the Giants Tree Top Walk",
+          "ai_summary": "The Valley of the Giants Tree Top Walk is a suspended walkway in the treetops of the ancient tingle forest, offering a unique perspective of the forest ecosystem. It's an easy walk suitable for all ages.",
+          "name_english": "Valley of the Giants Tree Top Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "All year",
+          "place_tip": "Visit the Ancient Empire walk for a close-up view of the giant tingle trees.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -34.335,
+            "longitude": 116.065
+          },
+          "address": "Valley of the Giants, Denmark WA 6333, Australia",
+          "official_website": "https://www.valleyofthegiants.com.au/",
+          "tags": [
+            "Nature",
+            "Walking",
+            "Photography",
+            "Family"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Australia Western Australia location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Australia_Western_Australia_location_map.svg/960px-Australia_Western_Australia_location_map.svg.png",
+                "width": 800,
+                "height": 1154,
+                "attribution": {
+                  "title": "Australia Western Australia location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Australia_Western_Australia_location_map.svg",
+                  "credit": "Own work, using \n\nUnited States National Imagery and Mapping Agency data\nAustralian Government, Department of Infrastructure, Transport, Regional Development and Local Government",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Western Australia, Australia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.764
+        },
+        {
+          "name": "Wave Rock",
+          "ai_summary": "Wave Rock is a natural rock formation that resembles a giant wave, located in Hyden. It's a popular stop for tourists, with walking trails and a nearby wildlife park.",
+          "name_english": "Wave Rock",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Sunrise or Sunset",
+          "place_tip": "Explore the nearby Hyden Wildlife Park to see native animals.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.6342,
+            "longitude": 118.8955
+          },
+          "address": "Wave Rock, Hyden WA 6359, Australia",
+          "official_website": "https://www.waverock.com.au/",
+          "tags": [
+            "Nature",
+            "Landmarks",
+            "Photography",
+            "Walking"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:A198, Hyden, Western Australia, Wave Rock, 2007.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/A198%2C_Hyden%2C_Western_Australia%2C_Wave_Rock%2C_2007.JPG/960px-A198%2C_Hyden%2C_Western_Australia%2C_Wave_Rock%2C_2007.JPG",
+                "width": 800,
+                "height": 534,
+                "attribution": {
+                  "title": "A198, Hyden, Western Australia, Wave Rock, 2007",
+                  "author": "Brian W. Schaller",
+                  "license": "FAL",
+                  "license_url": "http://artlibre.org/licence/lal/en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:A198,_Hyden,_Western_Australia,_Wave_Rock,_2007.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Free Art License",
+                  "description": "Hyden, Western Australia, Wave Rock - view from the top"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Swan River (Perth)",
+          "ai_summary": "The Swan River is an iconic river in Western Australia, flowing through the heart of Perth. It's popular for boating, fishing, and riverside walks.",
+          "name_english": "Swan River",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "18:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed from the many parks and walkways along the river."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "All year",
+          "place_tip": "Take a river cruise for a different perspective of the city.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -31.9505,
+            "longitude": 115.8605
+          },
+          "address": "Swan River, Perth WA 6004, Australia",
+          "official_website": "https://www.perthwa.com/explore/swan-river",
+          "tags": [
+            "Nature",
+            "Water Activities",
+            "Photography",
+            "Walking"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.779
+        },
+        {
+          "name": "Esperance",
+          "ai_summary": "Esperance is a coastal town known for its stunning beaches, clear waters, and the nearby Cape Le Grand National Park. It's a great destination for relaxation and outdoor activities.",
+          "name_english": "Esperance",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed at a leisurely pace."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit the nearby Cape Le Grand National Park for stunning coastal scenery.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.8615,
+            "longitude": 121.8945
+          },
+          "address": "Esperance, Western Australia, Australia",
+          "official_website": "https://www.visitesperance.com.au/",
+          "tags": [
+            "Beaches",
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Andrew Street, Esperance, 2012.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Andrew_Street%2C_Esperance%2C_2012.JPG/960px-Andrew_Street%2C_Esperance%2C_2012.JPG",
+                "width": 800,
+                "height": 530,
+                "attribution": {
+                  "title": "Andrew Street, Esperance, 2012",
+                  "author": "Bahnfrend",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Andrew_Street,_Esperance,_2012.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "View of Andrew Street, Esperance, Western Australia.  In the foreground is the roundabout marking the crossroads between Andrew Street and Dempster Street.  In the background is the waterfront facing the Great Australian Bight."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8005
+        },
+        {
+          "name": "Cape Le Grand National Park",
+          "ai_summary": "Cape Le Grand National Park is a stunning coastal park known for its white sand beaches, crystal-clear waters, and granite peaks. It's a paradise for nature lovers and outdoor enthusiasts.",
+          "name_english": "Cape Le Grand National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor Centre hours vary."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "All year",
+          "place_tip": "Explore the many walking trails and enjoy the stunning beaches.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -33.8661,
+            "longitude": 121.8926
+          },
+          "address": "Cape Le Grand National Park, Esperance WA 6450, Australia",
+          "official_website": "https://www.parks.dpaw.wa.gov.au/park/cape-le-grand",
+          "tags": [
+            "Nature",
+            "Beaches",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Australia Western Australia location map.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Australia_Western_Australia_location_map.svg/960px-Australia_Western_Australia_location_map.svg.png",
+                "width": 800,
+                "height": 1154,
+                "attribution": {
+                  "title": "Australia Western Australia location map",
+                  "author": "NordNordWest",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Australia_Western_Australia_location_map.svg",
+                  "credit": "Own work, using \n\nUnited States National Imagery and Mapping Agency data\nAustralian Government, Department of Infrastructure, Transport, Regional Development and Local Government",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Location map of Western Australia, Australia"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8135
+        },
+        {
+          "name": "Monkey Mia (Dolphin feeding)",
+          "ai_summary": "Monkey Mia is famous for its friendly wild dolphins that visit the beach daily. It's a unique opportunity to see these amazing creatures up close in their natural habitat.",
+          "name_english": "Monkey Mia",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "18:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Dolphin feeding times vary."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "All year",
+          "place_tip": "Observe the dolphins from the beach and follow the guidelines for a safe interaction.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -25.7567,
+            "longitude": 113.6832
+          },
+          "address": "Monkey Mia, Shark Bay WA 6537, Australia",
+          "official_website": "https://www.sharkbay.org/monkey-mia",
+          "tags": [
+            "Wildlife",
+            "Nature",
+            "Photography",
+            "Beaches"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aegopodium podagraria1 ies.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Aegopodium_podagraria1_ies.jpg",
+                "width": 800,
+                "height": 700,
+                "attribution": {
+                  "title": "Aegopodium podagraria1 ies",
+                  "author": "Frank Vincentz",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aegopodium_podagraria1_ies.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Aegopodium podagraria"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7995
+        },
+        {
+          "name": "Kalbarri National Park",
+          "ai_summary": "Kalbarri National Park is known for its stunning river gorge, coastal cliffs, and diverse wildlife. It's a great destination for hiking, birdwatching, and enjoying the natural beauty of Western Australia.",
+          "name_english": "Kalbarri National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor Centre hours vary."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "All year",
+          "place_tip": "Visit the Z Bend and Nature's Window for stunning views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -27.7038,
+            "longitude": 114.1672
+          },
+          "address": "Kalbarri National Park, Kalbarri WA 6536, Australia",
+          "official_website": "https://www.parks.dpaw.wa.gov.au/park/kalbarri",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Photography",
+            "Wildlife"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox current red.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ambox_current_red.svg/800px-Ambox_current_red.svg.png",
+                "width": 800,
+                "height": 644,
+                "attribution": {
+                  "title": "Ambox current red",
+                  "author": "ViperSnake151, penubag, Tkg. d2007 (clock)",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_current_red.svg",
+                  "credit": "self-made, inspired by Gnome globe current event.svg, using Information icon3.svg and Earth clip art.svg",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "A current event icon in the Ambox style. This image is used to show Outdated topics in various Wiki articles."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7855
+        },
+        {
+          "name": "Perth Mint",
+          "ai_summary": "The Perth Mint is an iconic Australian attraction, known for its gold bullion and historic significance. Visitors can explore the mint's museum, see gold pouring demonstrations, and learn about the history of gold in Australia.",
+          "name_english": "Perth Mint",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "17:00",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Don't miss the gold pouring demonstration.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -31.9505,
+            "longitude": 115.8605
+          },
+          "address": "Perth Mint, 310 Hay St, East Perth WA 6004, Australia",
+          "official_website": "https://www.perthmint.com.au/",
+          "tags": [
+            "History",
+            "Gold",
+            "Museum",
+            "Tourist Attraction"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.744
+        },
+        {
+          "name": "Cottesloe Beach",
+          "ai_summary": "Cottesloe Beach is one of Perth's most iconic beaches, known for its clear waters, white sand, and vibrant sunset views. It's a popular spot for swimming, picnicking, and enjoying the beach lifestyle.",
+          "name_english": "Cottesloe Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed at a leisurely pace."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Visit the nearby Cottesloe Hotel for a drink with a view.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -32.0059,
+            "longitude": 115.759
+          },
+          "address": "Cottesloe Beach, Cottesloe WA 6011, Australia",
+          "official_website": "https://www.cottesloebeachhotel.com.au/",
+          "tags": [
+            "Beaches",
+            "Sunsets",
+            "Swimming",
+            "Photography"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7825
+        },
+        {
+          "name": "Bell Tower (Perth)",
+          "ai_summary": "The Bell Tower is a historic landmark in Perth, known for its distinctive architecture and the twelve bells that were gifted by the Queen. Visitors can enjoy panoramic views of the city and the Swan River from the tower.",
+          "name_english": "Bell Tower",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "18:30",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Last entry at 16:30."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Visit during the day for a guided tour and enjoy the views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": -31.9505,
+            "longitude": 115.8605
+          },
+          "address": "Bell Tower, Barrack Square, Perth WA 6000, Australia",
+          "official_website": "https://www.perthbelltower.com.au/",
+          "tags": [
+            "History",
+            "Landmarks",
+            "Photography",
+            "Tourist Attraction"
+          ],
+          "state": "Western Australia",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Art Gallery of WA.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Art_Gallery_of_WA.jpg/960px-Art_Gallery_of_WA.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Art Gallery of WA",
+                  "author": "The Logical Positivist",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Art_Gallery_of_WA.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "A view of the Art Gallery of Western Australia with its new external lift and rooftop venue."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7255
+        }
+      ]
+    }
+  ]
+}

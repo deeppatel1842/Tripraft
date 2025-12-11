@@ -1,0 +1,863 @@
+{
+  "country": "Iceland",
+  "state": "East Fjords",
+  "cities": [
+    {
+      "city": "East Fjords",
+      "nearest_airport": "Egilsstaðir Airport (EGS)",
+      "places": [
+        {
+          "name": "Seyðisfjörður",
+          "ai_summary": "A picturesque town surrounded by mountains, known for its colorful houses, art scene, and stunning fjord views.",
+          "name_english": "Seydisfjordur",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:45",
+          "sunset_time": "16:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Explore the Blue Church and local art galleries.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.264,
+            "longitude": -14.008
+          },
+          "address": "Seyðisfjörður, Iceland",
+          "official_website": "https://www.visitseydisfjordur.com/",
+          "tags": [
+            "Town",
+            "Art",
+            "Nature"
+          ],
+          "state": "East Fjords",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CMV Magellan Seyðisfjörður Sept 2019 1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/CMV_Magellan_Sey%C3%B0isfj%C3%B6r%C3%B0ur_Sept_2019_1.jpg/960px-CMV_Magellan_Sey%C3%B0isfj%C3%B6r%C3%B0ur_Sept_2019_1.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "CMV Magellan Seyðisfjörður Sept 2019 1",
+                  "author": "Kasa Fue",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CMV_Magellan_Seyðisfjörður_Sept_2019_1.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Kreuzfahrtschiff CMV Magellan in Seyðisfjörður, Sept. 2019"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8115
+        },
+        {
+          "name": "Hengifoss Waterfall",
+          "ai_summary": "One of Iceland's tallest waterfalls, featuring striking red clay and basalt rock layers, accessible via a scenic hike.",
+          "name_english": "Hengifoss Waterfall",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "07:50",
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Wear sturdy hiking boots for the trail.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.095,
+            "longitude": -14.892
+          },
+          "address": "Hengifoss, Iceland",
+          "official_website": "https://www.hengifoss.is/",
+          "tags": [
+            "Waterfall",
+            "Hiking",
+            "Nature"
+          ],
+          "state": "East Fjords",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8132
+        },
+        {
+          "name": "Petra’s Stone Collection",
+          "ai_summary": "A unique museum showcasing an extensive collection of Icelandic minerals and stones, gathered over decades by Petra Sveinsdóttir.",
+          "name_english": "Petra’s Stone Collection",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$10",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00-18:00",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "10:00-18:00",
+            "Sunday": "10:00-18:00",
+            "notes": "Open seasonally."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Don’t miss the garden area with outdoor displays.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 64.933,
+            "longitude": -14.017
+          },
+          "address": "Stöðvarfjörður, Iceland",
+          "official_website": "https://www.petrastones.is/",
+          "tags": [
+            "Museum",
+            "Culture",
+            "Minerals"
+          ],
+          "state": "East Fjords",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Coat of arms of Iceland.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Coat_of_arms_of_Iceland.svg/800px-Coat_of_arms_of_Iceland.svg.png",
+                "width": 800,
+                "height": 825,
+                "attribution": {
+                  "title": "Coat of arms of Iceland",
+                  "author": "Rkt2312",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Iceland.svg",
+                  "credit": "https://www.stjornarradid.is/verkefni/stjornskipan-og-thjodartakn/thjodartakn/skjaldarmerki/skjaldarmerkid-fyrir-prent-og-skjamidla/",
+                  "usage_terms": "Public domain",
+                  "description": "Coat of arms of Iceland"
+                }
+              }
+            }
+          },
+          "rank_score": 0.772
+        },
+        {
+          "name": "Vök Baths",
+          "ai_summary": "A geothermal spa featuring floating pools on Lake Urriðavatn, offering relaxation and stunning views of the surrounding nature.",
+          "name_english": "Vök Baths",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "16:45",
+          "cost": "$40",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "11:00-22:00",
+            "Tuesday": "11:00-22:00",
+            "Wednesday": "11:00-22:00",
+            "Thursday": "11:00-22:00",
+            "Friday": "11:00-22:00",
+            "Saturday": "11:00-22:00",
+            "Sunday": "11:00-22:00",
+            "notes": "Open year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book in advance to secure your spot.",
+          "advanced_booking": "Required",
+          "coordinates": {
+            "latitude": 65.267,
+            "longitude": -14.394
+          },
+          "address": "Vök Baths, Egilsstaðir, Iceland",
+          "official_website": "https://www.vokbaths.is/",
+          "tags": [
+            "Spa",
+            "Relaxation",
+            "Geothermal"
+          ],
+          "state": "East Fjords",
+          "photos": {},
+          "rank_score": 0.7905
+        },
+        {
+          "name": "Stórurð (The Giant Boulders)",
+          "ai_summary": "A breathtaking natural wonder featuring massive boulders, turquoise ponds, and lush greenery, accessible via a challenging hike.",
+          "name_english": "Stórurð",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:40",
+          "sunset_time": "16:35",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible during summer months."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Bring plenty of water and snacks for the hike.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.2,
+            "longitude": -14.3
+          },
+          "address": "Stórurð, Iceland",
+          "official_website": null,
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "East Fjords",
+          "photos": {},
+          "rank_score": 0.7969
+        },
+        {
+          "name": "Borgarfjörður Eystri Puffins",
+          "ai_summary": "A prime location for birdwatching, especially puffins, with stunning coastal views and hiking trails.",
+          "name_english": "Borgarfjörður Eystri Puffins",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:30",
+          "sunset_time": "16:40",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited from May to August."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit the puffin colonies and enjoy the scenic hikes.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.2,
+            "longitude": -13.8
+          },
+          "address": "Borgarfjörður Eystri, Iceland",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Birdwatching",
+            "Hiking"
+          ],
+          "state": "East Fjords",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.787
+        },
+        {
+          "name": "Lagarfljót Monster Legend Spot",
+          "ai_summary": "A scenic area by Lagarfljót lake, famous for the legend of a monster living in its depths, and for its beautiful surroundings.",
+          "name_english": "Lagarfljót Monster Legend Spot",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:35",
+          "sunset_time": "16:50",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Enjoy a walk by the lake and look out for the monster!",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.3,
+            "longitude": -14.7
+          },
+          "address": "Lagarfljót, Iceland",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Legend",
+            "Scenic"
+          ],
+          "state": "East Fjords",
+          "photos": {},
+          "rank_score": 0.759
+        },
+        {
+          "name": "Stafdalur Ski Area",
+          "ai_summary": "A popular ski resort in the East Fjords, offering a range of slopes for all levels and stunning mountain views.",
+          "name_english": "Stafdalur Ski Area",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "07:55",
+          "sunset_time": null,
+          "cost": "$50",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-16:00",
+            "Tuesday": "09:00-16:00",
+            "Wednesday": "09:00-16:00",
+            "Thursday": "09:00-16:00",
+            "Friday": "09:00-16:00",
+            "Saturday": "09:00-16:00",
+            "Sunday": "09:00-16:00",
+            "notes": "Open during the winter season."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Check the snow conditions before you go.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.1,
+            "longitude": -14.9
+          },
+          "address": "Stafdalur, Iceland",
+          "official_website": null,
+          "tags": [
+            "Skiing",
+            "Snowboarding",
+            "Winter Sports"
+          ],
+          "state": "East Fjords",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7557
+        },
+        {
+          "name": "East Iceland Heritage Museum",
+          "ai_summary": "A museum dedicated to preserving and showcasing the cultural heritage and history of East Iceland.",
+          "name_english": "East Iceland Heritage Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$15",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00-17:00",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Closed during winter months."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Explore the exhibitions on local history and culture.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.266,
+            "longitude": -14.394
+          },
+          "address": "Egilsstaðir, Iceland",
+          "official_website": null,
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "state": "East Fjords",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Eiðar01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Ei%C3%B0ar01.jpg/960px-Ei%C3%B0ar01.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Eiðar01",
+                  "author": "Christian Bickel",
+                  "license": "CC BY-SA 2.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Eiðar01.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0 de",
+                  "description": "Hamlet Eiðar in Iceland, a school hamlet."
+                }
+              }
+            }
+          },
+          "rank_score": 0.744
+        },
+        {
+          "name": "Hafnarnes Lighthouse",
+          "ai_summary": "A historic lighthouse located on the easternmost point of the East Fjords, offering panoramic views of the ocean and coastline.",
+          "name_english": "Hafnarnes Lighthouse",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:25",
+          "sunset_time": "17:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Visit the nearby bird cliffs and enjoy the view from the lighthouse.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.55,
+            "longitude": -14.95
+          },
+          "address": "Hafnarnes, Iceland",
+          "official_website": null,
+          "tags": [
+            "Lighthouse",
+            "Scenic",
+            "Nature"
+          ],
+          "state": "East Fjords",
+          "photos": {},
+          "rank_score": 0.7622
+        },
+        {
+          "name": "Streiti Coastal Hike",
+          "ai_summary": "A scenic hiking trail along the coast, offering stunning views of the ocean, cliffs, and wildlife.",
+          "name_english": "Streiti Coastal Hike",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:30",
+          "sunset_time": "17:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed during daylight hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Bring binoculars for birdwatching and enjoy the dramatic scenery.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.55,
+            "longitude": -14.8
+          },
+          "address": "Streiti, Iceland",
+          "official_website": null,
+          "tags": [
+            "Hiking",
+            "Coastal",
+            "Nature"
+          ],
+          "state": "East Fjords",
+          "photos": {},
+          "rank_score": 0.801
+        },
+        {
+          "name": "Mjóifjörður Hidden Waterfalls",
+          "ai_summary": "A secluded fjord known for its stunning hidden waterfalls, accessible by a scenic drive and short hikes.",
+          "name_english": "Mjóifjörður Hidden Waterfalls",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:40",
+          "sunset_time": "17:20",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in summer when the waterfalls are most visible."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Drive carefully and look for the waterfalls along the fjord.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.3,
+            "longitude": -14.5
+          },
+          "address": "Mjóifjörður, Iceland",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Waterfalls",
+            "Scenic"
+          ],
+          "state": "East Fjords",
+          "photos": {},
+          "rank_score": 0.787
+        },
+        {
+          "name": "Breiðdalsvík Fishing Town",
+          "ai_summary": "A charming fishing town with a picturesque harbor, offering insights into the local fishing industry and beautiful coastal views.",
+          "name_english": "Breiðdalsvík Fishing Town",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:20",
+          "sunset_time": "17:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Explore the town and harbor area."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Try the local seafood and visit the fishing museum.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.1,
+            "longitude": -14.5
+          },
+          "address": "Breiðdalsvík, Iceland",
+          "official_website": null,
+          "tags": [
+            "Town",
+            "Fishing",
+            "Scenic"
+          ],
+          "state": "East Fjords",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7485
+        },
+        {
+          "name": "Eskifjörður Maritime Museum",
+          "ai_summary": "A museum dedicated to the maritime history of Eskifjörður and the surrounding region, featuring exhibits and artifacts.",
+          "name_english": "Eskifjörður Maritime Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$12",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "10:00-17:00",
+            "Tuesday": "10:00-17:00",
+            "Wednesday": "10:00-17:00",
+            "Thursday": "10:00-17:00",
+            "Friday": "10:00-17:00",
+            "Saturday": "10:00-17:00",
+            "Sunday": "10:00-17:00",
+            "notes": "Closed during winter months."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Learn about the local maritime history and explore the exhibits.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.05,
+            "longitude": -14.3
+          },
+          "address": "Eskifjörður, Iceland",
+          "official_website": null,
+          "tags": [
+            "Museum",
+            "Maritime",
+            "History"
+          ],
+          "state": "East Fjords",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Coat of arms of Iceland.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Coat_of_arms_of_Iceland.svg/800px-Coat_of_arms_of_Iceland.svg.png",
+                "width": 800,
+                "height": 825,
+                "attribution": {
+                  "title": "Coat of arms of Iceland",
+                  "author": "Rkt2312",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Iceland.svg",
+                  "credit": "https://www.stjornarradid.is/verkefni/stjornskipan-og-thjodartakn/thjodartakn/skjaldarmerki/skjaldarmerkid-fyrir-prent-og-skjamidla/",
+                  "usage_terms": "Public domain",
+                  "description": "Coat of arms of Iceland"
+                }
+              }
+            }
+          },
+          "rank_score": 0.721
+        },
+        {
+          "name": "Vattarnes Peninsula Loop Drive",
+          "ai_summary": "A scenic drive around Vattarnes Peninsula, offering breathtaking views of the coastline, mountains, and sea.",
+          "name_english": "Vattarnes Peninsula Loop Drive",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:15",
+          "sunset_time": "17:40",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Stop at the viewpoints along the way for stunning photos.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.2,
+            "longitude": -14.7
+          },
+          "address": "Vattarnes, Iceland",
+          "official_website": null,
+          "tags": [
+            "Scenic Drive",
+            "Nature",
+            "Photography"
+          ],
+          "state": "East Fjords",
+          "photos": {},
+          "rank_score": 0.807
+        },
+        {
+          "name": "Rjúkandi Falls",
+          "ai_summary": "A beautiful waterfall located near the town of Seyðisfjörður, known for its picturesque setting and accessibility.",
+          "name_english": "Rjúkandi Falls",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:30",
+          "sunset_time": "17:50",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed after rainfall."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Follow the signs from the main road for easy access.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.25,
+            "longitude": -14.9
+          },
+          "address": "Rjúkandi, Iceland",
+          "official_website": null,
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "East Fjords",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2014-04-27 15-23-33 Iceland - Blönduósi Blönduós.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/2014-04-27_15-23-33_Iceland_-_Bl%C3%B6ndu%C3%B3si_Bl%C3%B6ndu%C3%B3s.JPG/960px-2014-04-27_15-23-33_Iceland_-_Bl%C3%B6ndu%C3%B3si_Bl%C3%B6ndu%C3%B3s.JPG",
+                "width": 800,
+                "height": 359,
+                "attribution": {
+                  "title": "2014-04-27 15-23-33 Iceland - Blönduósi Blönduós",
+                  "author": "Hansueli Krapf  This   file was uploaded  with Commonist.",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2014-04-27_15-23-33_Iceland_-_Blönduósi_Blönduós.JPG",
+                  "credit": "Own work: Hansueli Krapf (User Simisa (talk · contribs))",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Iceland, impressions on road 1 (Hringvegur) between Hvammstangi and Varmahlíð"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7712
+        },
+        {
+          "name": "Snaefell Mountain Viewpoint",
+          "ai_summary": "A viewpoint offering panoramic views of the Snaefell mountain and the surrounding landscapes, accessible by a short hike.",
+          "name_english": "Snaefell Mountain Viewpoint",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "07:10",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Enjoy the 360-degree views from the top.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 65.3,
+            "longitude": -14.8
+          },
+          "address": "Snaefell, Iceland",
+          "official_website": null,
+          "tags": [
+            "Viewpoint",
+            "Hiking",
+            "Nature"
+          ],
+          "state": "East Fjords",
+          "photos": {},
+          "rank_score": 0.7975
+        }
+      ]
+    }
+  ]
+}

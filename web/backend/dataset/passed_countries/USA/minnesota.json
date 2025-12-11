@@ -1,0 +1,1154 @@
+{
+  "country": "USA",
+  "state": "Minnesota",
+  "cities": [
+    {
+      "city": "Minnesota",
+      "nearest_airport": "Minneapolis-Saint Paul International Airport (MSP)",
+      "places": [
+        {
+          "name": "Mall of America",
+          "ai_summary": "The largest shopping mall in the United States, featuring hundreds of stores, an indoor amusement park, and an aquarium.",
+          "name_english": "Mall of America",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free to enter, shopping and attractions extra",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 21:00",
+            "Tuesday": "10:00 - 21:00",
+            "Wednesday": "10:00 - 21:00",
+            "Thursday": "10:00 - 21:00",
+            "Friday": "10:00 - 21:00",
+            "Saturday": "10:00 - 21:00",
+            "Sunday": "11:00 - 19:00",
+            "notes": "Hours may vary during holidays."
+          },
+          "suggested_duration": "4-6 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Check out Nickelodeon Universe and SEA LIFE Aquarium inside the mall.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.854,
+            "longitude": -93.242
+          },
+          "address": "Mall of America, Bloomington, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Shopping",
+            "Entertainment",
+            "Family"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2018_Mall_of_America_01.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/2018_Mall_of_America_01.jpg/960px-2018_Mall_of_America_01.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "2018 Mall of America 01",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Farragutful\" title=\"User:Farragutful\">Farragutful</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2018_Mall_of_America_01.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The Mall of America in Bloomington, Minnesota."
+                }
+              }
+            }
+          },
+          "rank_score": 0.842
+        },
+        {
+          "name": "Boundary Waters Canoe Area Wilderness",
+          "ai_summary": "A pristine wilderness area offering canoeing, fishing, and camping opportunities in a serene natural setting.",
+          "name_english": "Boundary Waters Canoe Area Wilderness",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45 AM",
+          "sunset_time": "08:30 PM",
+          "cost": "Permit required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Permits are required for overnight stays."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Plan your route in advance and bring all necessary camping gear.",
+          "advanced_booking": "Highly recommended",
+          "coordinates": {
+            "latitude": 48.0,
+            "longitude": -91.5
+          },
+          "address": "Boundary Waters Canoe Area Wilderness, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Camping"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pose_lake_Minnesota.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pose_lake_Minnesota.jpg/960px-Pose_lake_Minnesota.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pose lake Minnesota",
+                  "author": "<p><a href=\"https://en.wikipedia.org/wiki/User:R27182818\" class=\"extiw\" title=\"wikipedia:User:R27182818\">R27182818</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a><br>\n</p>\n(<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">Reid Priedhorsky (<a href=\"https://en.wikipedia.org/wiki/User:R27182818\" class=\"extiw\" title=\"en:User:R27182818\">R27182818</a>)</bdi></i></span>)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pose_lake_Minnesota.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A photograph of a lake with trees."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Minneapolis Institute of Art",
+          "ai_summary": "A world-class art museum featuring over 90,000 works spanning 5,000 years of history.",
+          "name_english": "Minneapolis Institute of Art",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 21:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "11:00 - 17:00",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don’t miss the Asian art collection and the rotating special exhibits.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.958,
+            "longitude": -93.274
+          },
+          "address": "2400 3rd Ave S, Minneapolis, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Art",
+            "Cultural"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Minneapolis_Skyline_looking_south.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Minneapolis_Skyline_looking_south.jpg/960px-Minneapolis_Skyline_looking_south.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Minneapolis Skyline looking south",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:BpA9543&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:BpA9543 (page does not exist)\">BpA9543</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Minneapolis_Skyline_looking_south.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "View of the Minneapolis Skyline and the Mississippi River from North Minneapolis"
+                }
+              }
+            }
+          },
+          "rank_score": 0.862
+        },
+        {
+          "name": "Voyageurs National Park",
+          "ai_summary": "A water-based national park known for its beautiful lakes, canoeing, and diverse wildlife.",
+          "name_english": "Voyageurs National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30 AM",
+          "sunset_time": "08:45 PM",
+          "cost": "Entrance fee required",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor center hours vary by season."
+          },
+          "suggested_duration": "2-4 days",
+          "best_time_to_visit": "Summer and Fall",
+          "place_tip": "Explore the park by canoe for a true wilderness experience.",
+          "advanced_booking": "Recommended for campsites",
+          "coordinates": {
+            "latitude": 48.3,
+            "longitude": -92.5
+          },
+          "address": "Voyageurs National Park, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "National Park",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Voyageurs_National_Park.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Voyageurs_National_Park.jpg/820px-Voyageurs_National_Park.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Voyageurs National Park",
+                  "author": "MONGO",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Voyageurs_National_Park.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Minnehaha Park",
+          "ai_summary": "A historic park featuring the stunning Minnehaha Falls, walking trails, and picnic areas.",
+          "name_english": "Minnehaha Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "08:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00 - 22:00",
+            "Tuesday": "06:00 - 22:00",
+            "Wednesday": "06:00 - 22:00",
+            "Thursday": "06:00 - 22:00",
+            "Friday": "06:00 - 22:00",
+            "Saturday": "06:00 - 22:00",
+            "Sunday": "06:00 - 22:00",
+            "notes": "Waterfall viewing is best in the spring and after heavy rains."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Visit the park's visitor center to learn about the area's history.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.903,
+            "longitude": -93.21
+          },
+          "address": "Minnehaha Park, Minneapolis, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Nature",
+            "Historic"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Minnehaha_Falls,_Minneapolis.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Minnehaha_Falls%2C_Minneapolis.jpg/960px-Minnehaha_Falls%2C_Minneapolis.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Minnehaha Falls, Minneapolis",
+                  "author": "<figure typeof=\"mw:File/Thumb\"><a href=\"//commons.wikimedia.org/wiki/File:Mikael_H%C3%A4ggstr%C3%B6m_at_pathology_in_2019_(crop).jpg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Mikael_H%C3%A4ggstr%C3%B6m_at_pathology_in_2019_%28crop%29.jpg/250px-Mikael_H%C3%A4ggstr%C3%B6m_at_pathology_in_2019_%28crop%29.jpg\" decoding=\"async\" width=\"135\" height=\"159\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Mikael_H%C3%A4ggstr%C3%B6m_at_pathology_in_2019_%28crop%29.jpg/330px-Mikael_H%C3%A4ggstr%C3%B6m_at_pathology_in_2019_%28crop%29.jpg 2x\" data-file-width=\"1439\" data-file-height=\"1697\"></a><figcaption><a href=\"//commons.wikimedia.org/wiki/User:Mikael_H%C3%A4ggstr%C3%B6m\" title=\"User:Mikael Häggström\">Mikael Häggström</a>, <a href=\"https://en.wikipedia.org/wiki/Medical_Doctor\" class=\"extiw\" title=\"en:Medical Doctor\">M.D.</a> <a href=\"//commons.wikimedia.org/wiki/Mikael_H%C3%A4ggstr%C3%B6m\" class=\"mw-redirect\" title=\"Mikael Häggström\">Author info</a><br> - <a href=\"//commons.wikimedia.org/wiki/User:Mikael_H%C3%A4ggstr%C3%B6m#Reusing_images\" title=\"User:Mikael Häggström\">Reusing images</a><br>- Conflicts of interest:<br>  None</figcaption></figure>\n<a href=\"//commons.wikimedia.org/wiki/User:Mikael_H%C3%A4ggstr%C3%B6m\" title=\"User:Mikael Häggström\">Mikael Häggström</a>, <a href=\"https://en.wikipedia.org/wiki/Medical_Doctor\" class=\"extiw\" title=\"en:Medical Doctor\">M.D.</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Minnehaha_Falls,_Minneapolis.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Minnehaha Falls, <a href=\"https://en.wikipedia.org/wiki/Minnehaha_Park_(Minneapolis)\" class=\"extiw\" title=\"en:Minnehaha Park (Minneapolis)\">Minnehaha Park, Minneapolis</a>, United States."
+                }
+              }
+            }
+          },
+          "rank_score": 0.786
+        },
+        {
+          "name": "Split Rock Lighthouse State Park",
+          "ai_summary": "Home to the iconic Split Rock Lighthouse, this park offers stunning views of Lake Superior and the North Shore.",
+          "name_english": "Split Rock Lighthouse State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:50 AM",
+          "sunset_time": "08:40 PM",
+          "cost": "Vehicle permit required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00 - 18:00",
+            "Tuesday": "08:00 - 18:00",
+            "Wednesday": "08:00 - 18:00",
+            "Thursday": "08:00 - 18:00",
+            "Friday": "08:00 - 18:00",
+            "Saturday": "08:00 - 18:00",
+            "Sunday": "08:00 - 18:00",
+            "notes": "Lighthouse tours available from mid-May to mid-October."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Climb the lighthouse for a breathtaking view of Lake Superior.",
+          "advanced_booking": "Recommended for lighthouse tours",
+          "coordinates": {
+            "latitude": 47.665,
+            "longitude": -92.685
+          },
+          "address": "Split Rock Lighthouse State Park, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Historic",
+            "Scenic"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Spit_Rock_Lighthouse_2012.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Spit_Rock_Lighthouse_2012.jpg/960px-Spit_Rock_Lighthouse_2012.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Spit Rock Lighthouse 2012",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:JMLAX101&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:JMLAX101 (page does not exist)\">JMLAX101</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Spit_Rock_Lighthouse_2012.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Split Rock Lighthouse photographed in June 2012"
+                }
+              }
+            }
+          },
+          "rank_score": 0.862
+        },
+        {
+          "name": "Itasca State Park",
+          "ai_summary": "Minnesota's oldest state park, known for its beautiful landscapes, hiking trails, and the headwaters of the Mississippi River.",
+          "name_english": "Itasca State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15 AM",
+          "sunset_time": "08:10 PM",
+          "cost": "Vehicle permit required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "07:00 - 19:00",
+            "Tuesday": "07:00 - 19:00",
+            "Wednesday": "07:00 - 19:00",
+            "Thursday": "07:00 - 19:00",
+            "Friday": "07:00 - 19:00",
+            "Saturday": "07:00 - 19:00",
+            "Sunday": "07:00 - 19:00",
+            "notes": "Visitor center open year-round, hours vary by season."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Walk across the headwaters of the Mississippi River at Itasca State Park.",
+          "advanced_booking": "Recommended for lodging and campsites",
+          "coordinates": {
+            "latitude": 47.2,
+            "longitude": -95.0
+          },
+          "address": "Itasca State Park, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "State Park",
+            "Nature",
+            "Historic"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Mississippi_River_at_Itasca.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Mississippi_River_at_Itasca.jpg/960px-Mississippi_River_at_Itasca.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Mississippi River at Itasca",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8641421@N07\">Mark Evans</a> from Orange City, USA",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mississippi_River_at_Itasca.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Headwaters of the Mississippi River in Itasca State Park"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Walker Art Center",
+          "ai_summary": "A contemporary art museum in Minneapolis, known for its innovative exhibits and collections.",
+          "name_english": "Walker Art Center",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "General admission fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "11:00 - 17:00",
+            "Wednesday": "11:00 - 17:00",
+            "Thursday": "11:00 - 21:00",
+            "Friday": "11:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "11:00 - 17:00",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Check out the sculpture garden and the latest contemporary art exhibitions.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.952,
+            "longitude": -93.29
+          },
+          "address": "Walker Art Center, Minneapolis, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Art",
+            "Cultural"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Walker_Art_Center_03.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Walker_Art_Center_03.jpg/960px-Walker_Art_Center_03.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Walker Art Center 03",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:McGhiever\" title=\"User:McGhiever\">McGhiever</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Walker_Art_Center_03.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Walker Art Center, 1750 Hennepin Ave, Minneapolis, Minnesota, USA. Viewed from the northeast."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Cathedral of Saint Paul",
+          "ai_summary": "A stunning example of Beaux-Arts architecture, this cathedral is a prominent landmark in Saint Paul.",
+          "name_english": "Cathedral of Saint Paul",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "07:00 - 18:00",
+            "Tuesday": "07:00 - 18:00",
+            "Wednesday": "07:00 - 18:00",
+            "Thursday": "07:00 - 18:00",
+            "Friday": "07:00 - 18:00",
+            "Saturday": "08:00 - 18:00",
+            "Sunday": "08:00 - 18:00",
+            "notes": "Hours may vary for services and events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Attend a service or concert for a unique experience.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.944,
+            "longitude": -93.093
+          },
+          "address": "Cathedral of Saint Paul, Saint Paul, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Architecture",
+            "Religious"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:St_Paul_Cathedral_2012.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/St_Paul_Cathedral_2012.jpg/960px-St_Paul_Cathedral_2012.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "St Paul Cathedral 2012",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:McGhiever\" class=\"mw-userlink\" title=\"User:McGhiever\">McGhiever</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:St_Paul_Cathedral_2012.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Cathedral_of_Saint_Paul_in_Saint_Paul\" class=\"extiw\" title=\"en:Cathedral of Saint Paul in Saint Paul\">Saint Paul Cathedral</a>, St Paul, Minnesota, USA"
+                }
+              }
+            }
+          },
+          "rank_score": 0.846
+        },
+        {
+          "name": "North Shore Scenic Drive",
+          "ai_summary": "A picturesque drive along Lake Superior's shore, offering stunning views, especially in the fall.",
+          "name_english": "North Shore Scenic Drive",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:40 AM",
+          "sunset_time": "08:35 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed at a leisurely pace, stopping at various overlooks."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Fall for foliage, Summer for full access",
+          "place_tip": "Visit the numerous state parks along the way for hiking and exploration.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 47.65,
+            "longitude": -91.5
+          },
+          "address": "North Shore Scenic Drive, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic Drive",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Split_Rock_Lighthouse_-_North_Shore_of_Lake_Superior.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Split_Rock_Lighthouse_-_North_Shore_of_Lake_Superior.jpg/960px-Split_Rock_Lighthouse_-_North_Shore_of_Lake_Superior.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Split Rock Lighthouse - North Shore of Lake Superior",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/29946195@N07\">kkmarais</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Split_Rock_Lighthouse_-_North_Shore_of_Lake_Superior.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "<p><b><a href=\"//commons.wikimedia.org/wiki/Category:Split_Rock_Lighthouse\" title=\"Category:Split Rock Lighthouse\">Split Rock Lighthouse</a></b> — located along the North Shore of Lake Superior, near Two Harbors, Minnesota.\n</p>\n<ul><li>Shipwrecks from a mighty 1905 November gale prompted this rugged landmark’s construction. Completed by the U.S. Lighthouse Service in 1910, Split Rock Light Station was soon one of Minnesota’s best known landmarks.</li>\n<li>Restored to its 1920s appearance, the lighthouse offers a glimpse of lighthouse life in this remote and spectacular setting.</li></ul>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Como Park Zoo & Conservatory",
+          "ai_summary": "A family-friendly attraction in Saint Paul, featuring a zoo, conservatory, and beautiful gardens.",
+          "name_english": "Como Park Zoo & Conservatory",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free, donations suggested",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 16:00",
+            "Tuesday": "10:00 - 16:00",
+            "Wednesday": "10:00 - 16:00",
+            "Thursday": "10:00 - 16:00",
+            "Friday": "10:00 - 16:00",
+            "Saturday": "10:00 - 16:00",
+            "Sunday": "10:00 - 16:00",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Check out the Japanese Garden and the conservatory's seasonal flower shows.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.977,
+            "longitude": -93.134
+          },
+          "address": "Como Park Zoo & Conservatory, Saint Paul, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Zoo",
+            "Conservatory",
+            "Family"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Como_Park_Zoo_and_Conservatory-2006.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Como_Park_Zoo_and_Conservatory-2006.jpg/960px-Como_Park_Zoo_and_Conservatory-2006.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Como Park Zoo and Conservatory-2006",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:RxS\" class=\"extiw\" title=\"wikipedia:User:RxS\">RxS</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Como_Park_Zoo_and_Conservatory-2006.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "The Como Park Conservatory in St Paul, MN, USA."
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Guthrie Theater",
+          "ai_summary": "A renowned theater in Minneapolis, known for its innovative productions and stunning riverfront views.",
+          "name_english": "Guthrie Theater",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Ticket prices vary",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "19:00 - 22:00",
+            "Wednesday": "19:00 - 22:00",
+            "Thursday": "19:00 - 22:00",
+            "Friday": "19:00 - 22:00",
+            "Saturday": "14:00 - 22:00",
+            "Sunday": "14:00 - 22:00",
+            "notes": "Check schedule for specific showtimes."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Enjoy a meal at the theater's restaurant for a complete night out.",
+          "advanced_booking": "Recommended for popular shows",
+          "coordinates": {
+            "latitude": 44.944,
+            "longitude": -93.258
+          },
+          "address": "Guthrie Theater, Minneapolis, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Theater",
+            "Culture",
+            "Entertainment"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Guthrie_Theater-night-2007-03-12.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Guthrie_Theater-night-2007-03-12.jpg/960px-Guthrie_Theater-night-2007-03-12.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Guthrie Theater-night-2007-03-12",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/chicanerii/\">Steve Lyon</a>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Guthrie_Theater-night-2007-03-12.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Guthrie_Theater\" class=\"extiw\" title=\"w:Guthrie Theater\">w:Guthrie Theater</a>, <a href=\"//commons.wikimedia.org/wiki/Minneapolis,_Minnesota\" class=\"mw-redirect\" title=\"Minneapolis, Minnesota\">Minneapolis, Minnesota</a><br>Guthrie Theater"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Mississippi National River and Recreation Area",
+          "ai_summary": "A scenic area along the Mississippi River, offering recreational activities and beautiful views of the river and wildlife.",
+          "name_english": "Mississippi National River and Recreation Area",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:35 AM",
+          "sunset_time": "08:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Visitor center hours vary by season."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Spring and Fall",
+          "place_tip": "Explore the river by kayak or canoe for a unique perspective.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.949,
+            "longitude": -93.09
+          },
+          "address": "Mississippi National River and Recreation Area, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "National Park",
+            "Nature",
+            "Recreation"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Mississippi_National_River_and_Recreation_Area.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Mississippi_National_River_and_Recreation_Area.jpg/960px-Mississippi_National_River_and_Recreation_Area.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Mississippi National River and Recreation Area",
+                  "author": "NPS/Gordon Dietzman",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mississippi_National_River_and_Recreation_Area.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "\"The Mississippi River above Minneapolis is a wide and often shallow river.\""
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "Mill City Museum",
+          "ai_summary": "A museum in Minneapolis built into the ruins of a historic flour mill, telling the story of the city's milling history.",
+          "name_english": "Mill City Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Admission fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 21:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "11:00 - 17:00",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don’t miss the Flour Tower exhibit and the rooftop terrace views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.982,
+            "longitude": -93.258
+          },
+          "address": "Mill City Museum, Minneapolis, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "History",
+            "Cultural"
+          ],
+          "state": "Minnesota",
+          "photos": {},
+          "rank_score": 0.754
+        },
+        {
+          "name": "Lake Superior Maritime Visitor Center",
+          "ai_summary": "A visitor center in Duluth, offering exhibits on the maritime history of the Great Lakes and the shipping industry.",
+          "name_english": "Lake Superior Maritime Visitor Center",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "11:00 - 17:00",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the nearby Canal Park and the Aerial Lift Bridge.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 46.786,
+            "longitude": -92.106
+          },
+          "address": "Lake Superior Maritime Visitor Center, Duluth, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "History",
+            "Maritime"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lake_Superior_Maritime_Visitor_Center.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Lake_Superior_Maritime_Visitor_Center.jpg/960px-Lake_Superior_Maritime_Visitor_Center.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lake Superior Maritime Visitor Center",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:McGhiever\" title=\"User:McGhiever\">McGhiever</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lake_Superior_Maritime_Visitor_Center.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Lake Superior Maritime Visitor Center, 600 S Lake Ave, Duluth, Minnesota, USA.  Viewed from the east."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Minnesota State Capitol",
+          "ai_summary": "The seat of the government of the State of Minnesota, featuring stunning architecture and beautiful grounds.",
+          "name_english": "Minnesota State Capitol",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "10:00 - 16:00",
+            "Sunday": "Closed",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Join a guided tour to learn about the building's history and architecture.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.955,
+            "longitude": -93.102
+          },
+          "address": "Minnesota State Capitol, Saint Paul, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Government",
+            "Historic",
+            "Architecture"
+          ],
+          "state": "Minnesota",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Science Museum of Minnesota",
+          "ai_summary": "A major science museum in Saint Paul, featuring interactive exhibits, a planetarium, and an IMAX theater.",
+          "name_english": "Science Museum of Minnesota",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Admission fee required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 21:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "11:00 - 17:00",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Don’t miss the dinosaur exhibit and the interactive science displays.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.944,
+            "longitude": -93.093
+          },
+          "address": "Science Museum of Minnesota, Saint Paul, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Science",
+            "Education"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Science_Museum_of_Minnesota_front.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Science_Museum_of_Minnesota_front.jpg/960px-Science_Museum_of_Minnesota_front.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Science Museum of Minnesota front",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:McGhiever\" title=\"User:McGhiever\">McGhiever</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Science_Museum_of_Minnesota_front.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Science Museum of Minnesota, 120 W Kellogg Blvd, St Paul, Minnesota, USA.  Viewed from the third floor of the George Latimer Central Library."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Weisman Art Museum",
+          "ai_summary": "An art museum on the University of Minnesota campus, known for its modern and contemporary art collections.",
+          "name_english": "Weisman Art Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 21:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "11:00 - 17:00",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the museum's unique architecture and the outdoor sculpture garden.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.973,
+            "longitude": -93.227
+          },
+          "address": "Weisman Art Museum, Minneapolis, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Art",
+            "Education"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Frederick_R._Weisman_Art_Museum.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Frederick_R._Weisman_Art_Museum.jpg/960px-Frederick_R._Weisman_Art_Museum.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Frederick R. Weisman Art Museum",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Slaphapy&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Slaphapy (page does not exist)\">Slaphapy</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Frederick_R._Weisman_Art_Museum.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The art museum at dusk prior to an on-coming storm. On the campus of the University of Minnesota/Minneapolis."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Gooseberry Falls State Park",
+          "ai_summary": "A scenic state park on the North Shore, known for its beautiful waterfalls, hiking trails, and picnic areas.",
+          "name_english": "Gooseberry Falls State Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:55 AM",
+          "sunset_time": "08:35 PM",
+          "cost": "Vehicle permit required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00",
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Sunday": "08:00 - 20:00",
+            "notes": "Visitor center open year-round, hours vary by season."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Summer and Fall",
+          "place_tip": "Hike the trails for stunning views of the waterfalls and Lake Superior.",
+          "advanced_booking": "Recommended for campsites",
+          "coordinates": {
+            "latitude": 47.688,
+            "longitude": -90.585
+          },
+          "address": "Gooseberry Falls State Park, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "State Park",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:GooseberryFalls_Oct2005.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/GooseberryFalls_Oct2005.JPG/960px-GooseberryFalls_Oct2005.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "GooseberryFalls Oct2005",
+                  "author": "Chuck Kochmann",
+                  "license": "Copyrighted free use",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:GooseberryFalls_Oct2005.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Copyrighted free use",
+                  "description": "Gooseberry Falls, <a href=\"https://en.wikipedia.org/wiki/Gooseberry_Falls_State_Park\" class=\"extiw\" title=\"w:Gooseberry Falls State Park\">w:Gooseberry Falls State Park</a>, <a href=\"https://en.wikipedia.org/wiki/Two_Harbors,_Minnesota\" class=\"extiw\" title=\"w:Two Harbors, Minnesota\">w:Two Harbors, Minnesota</a>, USA"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "American Swedish Institute",
+          "ai_summary": "A museum and cultural center in Minneapolis, dedicated to Swedish-American history and culture.",
+          "name_english": "American Swedish Institute",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Admission fee required",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 21:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "11:00 - 17:00",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Explore the museum's exhibits on Swedish history, art, and culture.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 44.965,
+            "longitude": -93.285
+          },
+          "address": "American Swedish Institute, Minneapolis, Minnesota, USA",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Culture",
+            "History"
+          ],
+          "state": "Minnesota",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:American_Swedish_Institute_2015.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/American_Swedish_Institute_2015.jpg/960px-American_Swedish_Institute_2015.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "American Swedish Institute 2015",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:McGhiever\" title=\"User:McGhiever\">McGhiever</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:American_Swedish_Institute_2015.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The American Swedish Institute, with the Nelson Cultural Center on the left and the Swan Turnblad Mansion on the right, 2600 Park Ave, Minneapolis, Minnesota, USA. Viewed from the southeast."
+                }
+              }
+            }
+          },
+          "rank_score": 0.734
+        }
+      ]
+    }
+  ]
+}

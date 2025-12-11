@@ -1,0 +1,1080 @@
+{
+  "country": "Sweden",
+  "state": "Kiruna",
+  "cities": [
+    {
+      "city": "Kiruna",
+      "nearest_airport": "Kiruna Airport",
+      "places": [
+        {
+          "name": "Icehotel Jukkasjärvi",
+          "ai_summary": "A world-famous hotel built entirely of ice and snow, offering unique accommodations and art exhibitions.",
+          "name_english": "Icehotel Jukkasjärvi",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:30",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Hours may vary during special events."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Book a guided tour to learn about the ice sculpting process.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.8502,
+            "longitude": 20.6336
+          },
+          "address": "Marknadsvägen 63, 981 91 Jukkasjärvi, Sweden",
+          "official_website": "https://www.icehotel.com",
+          "tags": [
+            "Hotel",
+            "Art",
+            "Unique Experience"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ICEHOTEL_Main_Hall_(2014)_by_Alessandro_Falca_&_AnnaSofia_Mååg.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/ICEHOTEL_Main_Hall_%282014%29_by_Alessandro_Falca_%26_AnnaSofia_M%C3%A5%C3%A5g.jpg/960px-ICEHOTEL_Main_Hall_%282014%29_by_Alessandro_Falca_%26_AnnaSofia_M%C3%A5%C3%A5g.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "ICEHOTEL Main Hall (2014) by Alessandro Falca & AnnaSofia Mååg",
+                  "author": "Lars Thulin",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ICEHOTEL_Main_Hall_(2014)_by_Alessandro_Falca_%26_AnnaSofia_M%C3%A5%C3%A5g.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "ICEHOTEL Main Hall (2014) by Alessandro Falca &amp; AnnaSofia Mååg"
+                }
+              }
+            }
+          },
+          "rank_score": 0.862
+        },
+        {
+          "name": "Kiruna Church",
+          "ai_summary": "A stunning wooden church known for its unique architecture and serene atmosphere.",
+          "name_english": "Kiruna Church",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "10:00 - 15:00",
+            "Sunday": "10:00 - 15:00",
+            "notes": "Closed for renovations on Wednesdays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Attend a concert or service for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Hjalmar Lundbohmsvägen 1, 981 36 Kiruna, Sweden",
+          "official_website": "https://www.svenskakyrkan.se/kiruna",
+          "tags": [
+            "Church",
+            "Architecture",
+            "History"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Church_of_Kiruna_2011.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Church_of_Kiruna_2011.jpg/960px-Church_of_Kiruna_2011.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Church of Kiruna 2011",
+                  "author": "Heinz-Josef Lücking",
+                  "license": "CC BY-SA 3.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Church_of_Kiruna_2011.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 de",
+                  "description": "Church of <a href=\"https://en.wikipedia.org/wiki/Kiruna\" class=\"extiw\" title=\"en:Kiruna\">Kiruna</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Abisko National Park",
+          "ai_summary": "A breathtaking national park known for its stunning natural beauty, hiking trails, and the Northern Lights.",
+          "name_english": "Abisko National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00",
+          "sunset_time": "22:00",
+          "cost": "Park entrance fee",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Visitor center hours may vary."
+          },
+          "suggested_duration": "Half-day to full-day",
+          "best_time_to_visit": "Winter for Northern Lights, Summer for hiking",
+          "place_tip": "Visit the Abisko Turiststation for guided tours and information.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 68.3587,
+            "longitude": 18.7833
+          },
+          "address": "Abisko, 981 07 Kiruna, Sweden",
+          "official_website": "https://www.sverigesnationalparker.se/parks/abisko-national-park/",
+          "tags": [
+            "National Park",
+            "Nature",
+            "Hiking",
+            "Northern Lights"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Abisko_overview.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Abisko_overview.JPG/960px-Abisko_overview.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Abisko overview",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Ojan\" title=\"User:Ojan\">Ojan</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Abisko_overview.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Picture of Abisko in northern Sweden, taken from the mountain Nuolja. In the foreground, Abisko Turiststation and the bottom part of the Abisko canyon can be seen. Further away is the village Abisko Östra. To the left in the picture, the lake Torneträsk can be seen."
+                }
+              }
+            }
+          },
+          "rank_score": 0.818
+        },
+        {
+          "name": "Aurora Sky Station",
+          "ai_summary": "An observation deck offering panoramic views of the Northern Lights and surrounding landscapes.",
+          "name_english": "Aurora Sky Station",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "Ticket required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 17:00",
+            "Tuesday": "10:00 - 17:00",
+            "Wednesday": "10:00 - 17:00",
+            "Thursday": "10:00 - 17:00",
+            "Friday": "10:00 - 17:00",
+            "Saturday": "10:00 - 17:00",
+            "Sunday": "10:00 - 17:00",
+            "notes": "Open in winter season, closed during summer."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Winter, especially from December to March",
+          "place_tip": "Dress warmly and bring a camera with a tripod.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 68.3558,
+            "longitude": 18.7833
+          },
+          "address": "Abisko, 981 07 Kiruna, Sweden",
+          "official_website": "https://www.auroraskystation.se",
+          "tags": [
+            "Observation Deck",
+            "Northern Lights",
+            "Photography"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aurora_borealis_over_Eielson_Air_Force_Base,_Alaska.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Aurora_borealis_over_Eielson_Air_Force_Base%2C_Alaska.jpg/960px-Aurora_borealis_over_Eielson_Air_Force_Base%2C_Alaska.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Aurora borealis over Eielson Air Force Base, Alaska",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/United_States_Air_Force\" title=\"United States Air Force\">United States Air Force</a> photo by Senior Airman Joshua Strang",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aurora_borealis_over_Eielson_Air_Force_Base,_Alaska.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Eielson_Air_Force_Base\" class=\"extiw\" title=\"en:Eielson Air Force Base\">Eielson Air Force Base</a>, <a href=\"//commons.wikimedia.org/wiki/Alaska\" title=\"Alaska\">Alaska</a> — The <a href=\"//commons.wikimedia.org/wiki/Aurora_Borealis\" class=\"mw-redirect\" title=\"Aurora Borealis\">Aurora Borealis</a>, or Northern Lights, shines above Bear Lake"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Dog Sledding Tour",
+          "ai_summary": "An adventurous tour where you can experience dog sledding through the beautiful snowy landscapes of Lapland.",
+          "name_english": "Dog Sledding Tour",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "17:00",
+          "cost": "Tour price varies",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Advance booking is essential."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Wear warm clothing and boots, and follow the guide's instructions.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Kiruna, Sweden",
+          "official_website": "https://www.kirunalapland.se/en/dog-sledding",
+          "tags": [
+            "Adventure",
+            "Winter Sports",
+            "Unique Experience"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Saltoloukta_1998.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Saltoloukta_1998.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Saltoloukta 1998",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peranders&amp;action=edit&amp;redlink=1\" class=\"new mw-userlink\" title=\"User:Peranders (page does not exist)\">Peranders</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Saltoloukta_1998.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Saltoloukta mountain cabin (please correct me, I'm not sure what fjällstation is in english). Picture taken July 1998. Photo: Per-Anders Sjöström"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Snowmobile Safari",
+          "ai_summary": "A thrilling snowmobile tour through the Arctic wilderness, suitable for both beginners and experienced riders.",
+          "name_english": "Snowmobile Safari",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "17:00",
+          "cost": "Tour price varies",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Advance booking is essential."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Dress warmly and listen to the safety briefing before the tour.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Kiruna, Sweden",
+          "official_website": "https://www.kirunalapland.se/en/snowmobile-safari",
+          "tags": [
+            "Adventure",
+            "Winter Sports",
+            "Nature"
+          ],
+          "state": "Kiruna",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Midnight Sun Observation Point",
+          "ai_summary": "A scenic viewpoint to experience the Midnight Sun, where the sun never sets during summer.",
+          "name_english": "Midnight Sun Observation Point",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "00:00",
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Best visited late at night or early morning."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Bring a blanket and enjoy a picnic while watching the sun circle the sky.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Kiruna, Sweden",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Scenic View",
+            "Photography"
+          ],
+          "state": "Kiruna",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Mount Nuolja Trail",
+          "ai_summary": "A popular hiking trail offering stunning views of Abisko National Park and the surrounding mountains.",
+          "name_english": "Mount Nuolja Trail",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00",
+          "sunset_time": "22:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Best hiked in summer, trail may be snowy in winter."
+          },
+          "suggested_duration": "4-6 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Start early to avoid crowds and enjoy the tranquility of nature.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 68.3587,
+            "longitude": 18.7833
+          },
+          "address": "Abisko, 981 07 Kiruna, Sweden",
+          "official_website": null,
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Scenic View"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lapporten_2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Lapporten_2.jpg/960px-Lapporten_2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lapporten 2",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Lapplaender\" class=\"mw-redirect\" title=\"User:Lapplaender\">Lapplaender</a>",
+                  "license": "CC BY-SA 2.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lapporten_2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0 de",
+                  "description": "View from Björkliden over the national park until Lapporten <i>(the Gate to Lappland)</i>, a distinctive U-shaped valley"
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "LKAB Iron Ore Mine Tour",
+          "ai_summary": "A guided tour of the world's largest underground iron ore mine, offering a unique insight into mining operations.",
+          "name_english": "LKAB Iron Ore Mine Tour",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "17:00",
+          "cost": "Tour price varies",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Advance booking is essential."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Wear warm clothing, the mine is cold year-round.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Kiruna, Sweden",
+          "official_website": "https://www.lkab.com/en/visit-lkab/",
+          "tags": [
+            "Mining Tour",
+            "History",
+            "Education"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kiruna_iron_mine_ISS.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Kiruna_iron_mine_ISS.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kiruna iron mine ISS",
+                  "author": "NASA International Space Station Program",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kiruna_iron_mine_ISS.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Kiruna, the largest underground iron ore mine in the world, has been in operation since 1900. But recent years have brought change for the residents of the nearby town. In coming decade, the 23,000 people and their homes and businesses will move three kilometers (nearly two miles) away.\n<p>Resource extraction is crucial for the town’s existence and economic wellbeing. But the steady development of mine shafts continues to weaken the ground there. In 2004, the mine’s operator, the Luossavaara-Kiirunavaara Company, announced that development of the mine has threatened the structural integrity of the town’s buildings. Some of them, including Kiruna’s historic red church, will be taken apart and reassembled at the new location.\n</p><p>The Operational Land Imager (OLI) on the Landsat 8 satellite captured this image of the Kiruna mine, town, and nearby airport on October 10, 2016. The green vegetation is marbled with yellow, likely the result of birch forests and deciduous shrubs changing color. A dusting of snow whitens some hilltops in the image. The Sun’s low angle on the southern horizon casts long shadows on the north sides of the hills.\n</p>\nThe Kiruna orebody is one of the world’s largest magnetite-apatite deposits. Sweden, the biggest iron producer in Europe, owes its reserves to volcanic activity at least 1.8 billion years ago, according to a paper in Economic Geology."
+                }
+              }
+            }
+          },
+          "rank_score": 0.83
+        },
+        {
+          "name": "Jukkasjärvi Sami Village",
+          "ai_summary": "A traditional Sami village offering cultural experiences, handicraft shopping, and reindeer encounters.",
+          "name_english": "Jukkasjärvi Sami Village",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free to enter, activities at a cost",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "10:00 - 15:00",
+            "Sunday": "10:00 - 15:00",
+            "notes": "Closed for activities in May."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Winter for snow activities, Summer for hiking",
+          "place_tip": "Try the local cuisine and buy handmade Sami handicrafts.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Jukkasjärvi, 981 91 Kiruna, Sweden",
+          "official_website": "https://www.jukkasjarvi.se",
+          "tags": [
+            "Cultural Experience",
+            "Sami Culture",
+            "Shopping"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Jukkasjärvi,_Sweden.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Jukkasj%C3%A4rvi%2C_Sweden.jpg/960px-Jukkasj%C3%A4rvi%2C_Sweden.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Jukkasjärvi, Sweden",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Beetle_enthusiast&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Beetle enthusiast (page does not exist)\">Beetle enthusiast</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Jukkasj%C3%A4rvi,_Sweden.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Jukkasjärvi village, Sweden. 2002-07-31"
+                }
+              }
+            }
+          },
+          "rank_score": 0.714
+        },
+        {
+          "name": "Trollsjön (Troll Lake) Hike",
+          "ai_summary": "A hiking trail leading to a picturesque lake, known for its clear waters and surrounding birch forests.",
+          "name_english": "Trollsjön (Troll Lake) Hike",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00",
+          "sunset_time": "22:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Best visited in summer, trail may be snowy in winter."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Bring water and snacks, and enjoy the peaceful surroundings.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 68.3587,
+            "longitude": 18.7833
+          },
+          "address": "Abisko, 981 07 Kiruna, Sweden",
+          "official_website": null,
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Scenic View"
+          ],
+          "state": "Kiruna",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Northern Lights Photography Tour",
+          "ai_summary": "A guided tour to the best spots for photographing the Northern Lights, with tips from a professional photographer.",
+          "name_english": "Northern Lights Photography Tour",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "Tour price varies",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "18:00 - 23:00",
+            "Tuesday": "18:00 - 23:00",
+            "Wednesday": "18:00 - 23:00",
+            "Thursday": "18:00 - 23:00",
+            "Friday": "18:00 - 23:00",
+            "Saturday": "18:00 - 23:00",
+            "Sunday": "18:00 - 23:00",
+            "notes": "Available from late September to early April."
+          },
+          "suggested_duration": "4-6 hours",
+          "best_time_to_visit": "Winter, especially from December to March",
+          "place_tip": "Dress warmly and bring a camera with manual settings.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Kiruna, Sweden",
+          "official_website": "https://www.kirunalapland.se/en/northern-lights-photography-tour",
+          "tags": [
+            "Photography Tour",
+            "Northern Lights",
+            "Adventure"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:78°_55'_N_-_Ny-Ålesund_-_panoramio.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/78%C2%B0_55%27_N_-_Ny-%C3%85lesund_-_panoramio.jpg/960px-78%C2%B0_55%27_N_-_Ny-%C3%85lesund_-_panoramio.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "78° 55' N - Ny-Ålesund - panoramio",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031073059/http://www.panoramio.com/user/2433337?with_photo_id=115948927\">patano</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:78%C2%B0_55%27_N_-_Ny-%C3%85lesund_-_panoramio.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "78° 55' N - Ny-Ålesund"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Camp Ripan Aurora Spa",
+          "ai_summary": "A relaxing spa experience with a focus on wellness and Northern Lights viewing.",
+          "name_english": "Camp Ripan Aurora Spa",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "Spa access fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Advance booking recommended for treatments."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Try the sauna and outdoor hot tubs for a unique experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Kiruna, Sweden",
+          "official_website": "https://www.campripan.se/en/aurora-spa",
+          "tags": [
+            "Spa",
+            "Wellness",
+            "Northern Lights"
+          ],
+          "state": "Kiruna",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Abisko Canyon Trail",
+          "ai_summary": "A scenic trail following the Abisko River, with opportunities to see wildlife and the Northern Lights.",
+          "name_english": "Abisko Canyon Trail",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:00",
+          "sunset_time": "22:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Best visited in winter for Northern Lights viewing."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Bring a flashlight and warm clothing for evening hikes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 68.3587,
+            "longitude": 18.7833
+          },
+          "address": "Abisko, 981 07 Kiruna, Sweden",
+          "official_website": null,
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Wildlife",
+            "Northern Lights"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Abisko_overview.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Abisko_overview.JPG/960px-Abisko_overview.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Abisko overview",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Ojan\" title=\"User:Ojan\">Ojan</a>",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Abisko_overview.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Picture of Abisko in northern Sweden, taken from the mountain Nuolja. In the foreground, Abisko Turiststation and the bottom part of the Abisko canyon can be seen. Further away is the village Abisko Östra. To the left in the picture, the lake Torneträsk can be seen."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Nikkaluokta Mountain Village",
+          "ai_summary": "A small village offering access to Kebnekaise, Sweden's highest mountain, and other hiking trails.",
+          "name_english": "Nikkaluokta Mountain Village",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "10:00 - 15:00",
+            "Sunday": "10:00 - 15:00",
+            "notes": "Limited services in winter, check ahead."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer for hiking, Winter for Northern Lights",
+          "place_tip": "Visit the local handicraft shop for unique souvenirs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Nikkaluokta, 981 91 Kiruna, Sweden",
+          "official_website": "https://www.nikkaluokta.se",
+          "tags": [
+            "Village",
+            "Hiking",
+            "Nature"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Nikkaluokta_fjällstation_July_2012.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Nikkaluokta_fj%C3%A4llstation_July_2012.jpg/960px-Nikkaluokta_fj%C3%A4llstation_July_2012.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Nikkaluokta fjällstation July 2012",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Njaelkies_Lea\" title=\"User:Njaelkies Lea\">Lars Falkdalen Lindahl</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Nikkaluokta_fj%C3%A4llstation_July_2012.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Nikkaluokta mountain lodge in Nikkaluokta, Norrbotten county, Sweden."
+                }
+              }
+            }
+          },
+          "rank_score": 0.794
+        },
+        {
+          "name": "Kebnekaise Base Camp",
+          "ai_summary": "The starting point for expeditions to Kebnekaise, Sweden's highest peak, offering basic accommodations and a restaurant.",
+          "name_english": "Kebnekaise Base Camp",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Accommodation and meal prices vary",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00 - 20:00",
+            "Tuesday": "08:00 - 20:00",
+            "Wednesday": "08:00 - 20:00",
+            "Thursday": "08:00 - 20:00",
+            "Friday": "08:00 - 20:00",
+            "Saturday": "08:00 - 20:00",
+            "Sunday": "08:00 - 20:00",
+            "notes": "Advance booking recommended, especially in summer."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Summer for hiking, Winter for Northern Lights",
+          "place_tip": "Check the weather conditions before planning your visit.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Kebnekaise, 981 91 Kiruna, Sweden",
+          "official_website": "https://www.kebnekaise.se",
+          "tags": [
+            "Base Camp",
+            "Hiking",
+            "Nature"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kebnekaise_fjällstation.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Kebnekaise_fj%C3%A4llstation.JPG/960px-Kebnekaise_fj%C3%A4llstation.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kebnekaise fjällstation",
+                  "author": "Dag Lindgren",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kebnekaise_fj%C3%A4llstation.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Kebnekaise mountain lodge"
+                }
+              }
+            }
+          },
+          "rank_score": 0.81
+        },
+        {
+          "name": "Reindeer Experience Tour",
+          "ai_summary": "A unique tour offering close encounters with reindeer and insights into Sami culture.",
+          "name_english": "Reindeer Experience Tour",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "17:00",
+          "cost": "Tour price varies",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Advance booking is essential."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Wear warm clothing and be respectful of the animals.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Kiruna, Sweden",
+          "official_website": "https://www.kirunalapland.se/en/reindeer-experience-tour",
+          "tags": [
+            "Cultural Experience",
+            "Wildlife",
+            "Sami Culture"
+          ],
+          "state": "Kiruna",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Lapland Train Journey",
+          "ai_summary": "A scenic train journey through the Swedish Lapland, offering stunning views of the landscape and wildlife.",
+          "name_english": "Lapland Train Journey",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:30",
+          "cost": "Train ticket required",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Check the train schedule for exact times."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Sit on the right side of the train for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Kiruna, Sweden",
+          "official_website": "https://www.sj.se/en/home.html",
+          "tags": [
+            "Train Journey",
+            "Scenic View",
+            "Wildlife"
+          ],
+          "state": "Kiruna",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Kiruna Ice Dome Bar",
+          "ai_summary": "A unique bar made entirely of ice, offering a selection of drinks in an unforgettable setting.",
+          "name_english": "Kiruna Ice Dome Bar",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:00",
+          "cost": "Entry fee required",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 - 18:00",
+            "Tuesday": "10:00 - 18:00",
+            "Wednesday": "10:00 - 18:00",
+            "Thursday": "10:00 - 18:00",
+            "Friday": "10:00 - 18:00",
+            "Saturday": "10:00 - 18:00",
+            "Sunday": "10:00 - 18:00",
+            "notes": "Hours may vary, check ahead."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Try the local vodka served in an ice glass.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Kiruna, Sweden",
+          "official_website": "https://www.icehotel.com",
+          "tags": [
+            "Bar",
+            "Ice Experience",
+            "Drinks"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Icehotel_entre_ms.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Icehotel_entre_ms.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Icehotel entre ms",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Laplandish&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Laplandish (page does not exist)\">Laplandish</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Icehotel_entre_ms.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "ICEHOTEL in Jukkasjärvi, Sweden, 2007."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Frozen River Snow Walk",
+          "ai_summary": "A guided walk on the frozen Torne River, experiencing the unique winter landscape up close.",
+          "name_english": "Frozen River Snow Walk",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "17:00",
+          "cost": "Tour price varies",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Available from December to April, weather permitting."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Wear warm, waterproof boots and clothing.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 67.8558,
+            "longitude": 20.2253
+          },
+          "address": "Kiruna, Sweden",
+          "official_website": "https://www.kirunalapland.se/en/frozen-river-snow-walk",
+          "tags": [
+            "Guided Tour",
+            "Winter Landscape",
+            "Photography"
+          ],
+          "state": "Kiruna",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Rudolf_Koivu_-_Lumikuningatar.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Rudolf_Koivu_-_Lumikuningatar.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Rudolf Koivu - Lumikuningatar",
+                  "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Rudolf_Koivu\" class=\"extiw\" title=\"w:en:Rudolf Koivu\"><span title=\"Finnish painter, illustrator and writer (1890–1946)\">Rudolf Koivu</span></a></bdi>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Rudolf_Koivu_-_Lumikuningatar.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Rudolf Koivu's illustration for H. C. Andersen's fairy tale <i>The Snow Queen</i>. Published in 1992 as part of the collection <i>Rudolf Koivu's Fairy Tales and Stories</i>, where this was also the cover image."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        }
+      ]
+    }
+  ]
+}

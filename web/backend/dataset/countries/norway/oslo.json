@@ -1,0 +1,1173 @@
+{
+  "country": "Norway",
+  "state": "Oslo",
+  "cities": [
+    {
+      "city": "Oslo",
+      "nearest_airport": "Oslo Gardermoen Airport",
+      "places": [
+        {
+          "name": "Vigeland Park",
+          "ai_summary": "The world's largest sculpture park by a single artist, featuring over 200 sculptures by Gustav Vigeland.",
+          "name_english": "Vigeland Park",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring a camera to capture the unique sculptures.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.927,
+            "longitude": 10.7007
+          },
+          "address": "Nobels gate 32, Oslo, Norway",
+          "official_website": "https://www.vigeland.museum.no",
+          "tags": [
+            "Art",
+            "Culture",
+            "Park"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8175
+        },
+        {
+          "name": "Akershus Fortress",
+          "ai_summary": "A medieval castle and fortress offering a glimpse into Oslo's history and stunning views of the Oslofjord.",
+          "name_english": "Akershus Fortress",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "9:00 AM",
+          "sunset_time": "3:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "6:00 AM - 9:00 PM",
+            "Tuesday": "6:00 AM - 9:00 PM",
+            "Wednesday": "6:00 AM - 9:00 PM",
+            "Thursday": "6:00 AM - 9:00 PM",
+            "Friday": "6:00 AM - 9:00 PM",
+            "Saturday": "6:00 AM - 9:00 PM",
+            "Sunday": "6:00 AM - 9:00 PM",
+            "notes": "Guided tours available during summer."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for walking around the grounds.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9076,
+            "longitude": 10.7394
+          },
+          "address": "Akershus Festning, Oslo, Norway",
+          "official_website": "https://www.akershusfestning.no",
+          "tags": [
+            "History",
+            "Culture",
+            "Scenic"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Christiania theater.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Christiania_theater.jpg/960px-Christiania_theater.jpg",
+                "width": 800,
+                "height": 495,
+                "attribution": {
+                  "title": "Christiania Theater (1837-1899) in Oslo, Norway",
+                  "author": "Christian Grosch (1801-1865)",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Christiania_theater.jpg",
+                  "credit": "https://digitaltmuseum.no/021045471606/christiania-i-aar-1838-se-utf-oppl-litografi",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          },
+          "rank_score": 0.7855
+        },
+        {
+          "name": "Oslo Opera House",
+          "ai_summary": "An architectural masterpiece and cultural center, home to the Norwegian National Opera and Ballet.",
+          "name_english": "Oslo Opera House",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "10:00 PM",
+          "cost": "Varies by performance",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "12:00 PM - 6:00 PM",
+            "Wednesday": "12:00 PM - 6:00 PM",
+            "Thursday": "12:00 PM - 6:00 PM",
+            "Friday": "12:00 PM - 6:00 PM",
+            "Saturday": "12:00 PM - 6:00 PM",
+            "Sunday": "12:00 PM - 6:00 PM",
+            "notes": "Check schedule for performance times."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book tickets in advance for performances.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 59.9029,
+            "longitude": 10.7576
+          },
+          "address": "Kirsten Flagstads Plass 1, 0150 Oslo, Norway",
+          "official_website": "https://www.operaen.no",
+          "tags": [
+            "Art",
+            "Culture",
+            "Architecture"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Norway.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/800px-Flag_of_Norway.svg.png",
+                "width": 800,
+                "height": 581,
+                "attribution": {
+                  "title": "Flag of Norway",
+                  "author": "Gutten på Hemsen",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Norway.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Norway. The colors approximately correspond to Pantone 200 C (deep red) and 281 C (dark blue)."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7612
+        },
+        {
+          "name": "Royal Palace",
+          "ai_summary": "The official residence of the Norwegian monarch, offering guided tours and beautiful surrounding gardens.",
+          "name_english": "Royal Palace",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "8:00 AM",
+          "sunset_time": "4:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Closed during winter months."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Witness the changing of the guard ceremony.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9405,
+            "longitude": 10.7211
+          },
+          "address": "Slottsplassen 1, 0010 Oslo, Norway",
+          "official_website": "https://www.kongehuset.no",
+          "tags": [
+            "History",
+            "Culture",
+            "Architecture"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Meteorologisk institutt.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Meteorologisk_institutt.png",
+                "width": 131,
+                "height": 129,
+                "attribution": {
+                  "title": "Meteorologisk institutt",
+                  "author": "Norwegian Meteorological Institute (met.no)",
+                  "license": "Attribution",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Meteorologisk_institutt.png",
+                  "credit": "Norwegian Meteorological Institute (met.no)",
+                  "usage_terms": null,
+                  "description": "The Norwegian Meteorological Institutes new logo as of May 2013"
+                }
+              }
+            }
+          },
+          "rank_score": 0.765
+        },
+        {
+          "name": "Karl Johans Gate",
+          "ai_summary": "Oslo's main street, bustling with shops, restaurants, and landmarks, stretching from the Royal Palace to Oslo Central Station.",
+          "name_english": "Karl Johans Gate",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "10:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored on foot."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the shops and cafes along the street.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9138,
+            "longitude": 10.7387
+          },
+          "address": "Karl Johans gate, Oslo, Norway",
+          "official_website": "https://www.visitoslo.com",
+          "tags": [
+            "Shopping",
+            "Dining",
+            "Culture"
+          ],
+          "state": "Oslo",
+          "photos": {},
+          "rank_score": 0.7495
+        },
+        {
+          "name": "Fram Polar Ship Museum",
+          "ai_summary": "Dedicated to Norway's polar exploration history, featuring the polar ship Fram and interactive exhibits.",
+          "name_english": "Fram Polar Ship Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "150 NOK",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Last admission one hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Join a guided tour for detailed insights.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9028,
+            "longitude": 10.7276
+          },
+          "address": "Bygdøynesveien 39, 0286 Oslo, Norway",
+          "official_website": "https://www.frammuseum.no",
+          "tags": [
+            "History",
+            "Museum",
+            "Culture"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Oslo, sculpture (44).JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Oslo%2C_sculpture_%2844%29.JPG/960px-Oslo%2C_sculpture_%2844%29.JPG",
+                "width": 800,
+                "height": 527,
+                "attribution": {
+                  "title": "Oslo, sculpture (44)",
+                  "author": "Michal Klajban",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Oslo,_sculpture_(44).JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Sculpture. Oslo, Norway"
+                }
+              }
+            }
+          },
+          "rank_score": 0.772
+        },
+        {
+          "name": "Nobel Peace Center",
+          "ai_summary": "A museum dedicated to the Nobel Peace Prize, featuring exhibits on peace efforts and the Nobel laureates.",
+          "name_english": "Nobel Peace Center",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "9:00 PM",
+          "cost": "130 NOK",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "11:00 AM - 5:00 PM",
+            "Tuesday": "11:00 AM - 5:00 PM",
+            "Wednesday": "11:00 AM - 5:00 PM",
+            "Thursday": "11:00 AM - 5:00 PM",
+            "Friday": "11:00 AM - 5:00 PM",
+            "Saturday": "11:00 AM - 5:00 PM",
+            "Sunday": "11:00 AM - 5:00 PM",
+            "notes": "Closed on December 24th and 25th."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check for special exhibitions and events.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.913,
+            "longitude": 10.7389
+          },
+          "address": "Brynjulf Bulls plass 1, 0250 Oslo, Norway",
+          "official_website": "https://www.nobelpeacecenter.org",
+          "tags": [
+            "History",
+            "Museum",
+            "Culture"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.758
+        },
+        {
+          "name": "National Museum of Norway",
+          "ai_summary": "The largest museum for art, design, and architecture in the Nordic countries, featuring a vast collection of artworks.",
+          "name_english": "National Museum of Norway",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "120 NOK",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Free admission every Friday from 5 PM to 10 PM."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Don't miss the Munch Museum section.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9138,
+            "longitude": 10.7339
+          },
+          "address": "Universitetsgata 13, 0164 Oslo, Norway",
+          "official_website": "https://www.nasjonalmuseet.no",
+          "tags": [
+            "Art",
+            "Museum",
+            "Culture"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:\"Streifzug\" mit der Kamera durch Oslo. 03.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/%22Streifzug%22_mit_der_Kamera_durch_Oslo._03.jpg/960px-%22Streifzug%22_mit_der_Kamera_durch_Oslo._03.jpg",
+                "width": 800,
+                "height": 413,
+                "attribution": {
+                  "title": "\"Streifzug\" mit der Kamera durch Oslo. 03",
+                  "author": "Holger Uwe Schmitt",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:\"Streifzug\"_mit_der_Kamera_durch_Oslo._03.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Special places in Oslo."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7965
+        },
+        {
+          "name": "Aker Brygge Waterfront",
+          "ai_summary": "A popular area by the waterfront with shops, restaurants, and a great view of the Oslofjord.",
+          "name_english": "Aker Brygge Waterfront",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "10:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for sunset views."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the seafood at one of the waterfront restaurants.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9069,
+            "longitude": 10.7332
+          },
+          "address": "Stranden 1, 0250 Oslo, Norway",
+          "official_website": "https://www.akerbrygge.no",
+          "tags": [
+            "Dining",
+            "Shopping",
+            "Scenic"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:14-09-02-oslo-RalfR-370.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/14-09-02-oslo-RalfR-370.jpg/960px-14-09-02-oslo-RalfR-370.jpg",
+                "width": 800,
+                "height": 531,
+                "attribution": {
+                  "title": "14-09-02-oslo-RalfR-370",
+                  "author": "Ralf Roletschek",
+                  "license": "GFDL 1.2",
+                  "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:14-09-02-oslo-RalfR-370.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "GNU Free Documentation License 1.2",
+                  "description": "Oslo, castle Akershus slott"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7545
+        },
+        {
+          "name": "Munch Museum",
+          "ai_summary": "Dedicated to the life and works of Edvard Munch, featuring the iconic painting 'The Scream'.",
+          "name_english": "Munch Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "120 NOK",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Free admission every Thursday from 5 PM to 8 PM."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the museum shop for unique souvenirs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9232,
+            "longitude": 10.7461
+          },
+          "address": "Edvard Munchs Plass 1, 0165 Oslo, Norway",
+          "official_website": "https://www.munchmuseet.no",
+          "tags": [
+            "Art",
+            "Museum",
+            "Culture"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7825
+        },
+        {
+          "name": "Holmenkollen Ski Jump & Museum",
+          "ai_summary": "A famous ski jump and museum dedicated to skiing history, offering panoramic views of Oslo.",
+          "name_english": "Holmenkollen Ski Jump & Museum",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "8:00 AM",
+          "sunset_time": "4:00 PM",
+          "cost": "210 NOK",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Check for ski jumping events."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the ski simulator for a fun experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9885,
+            "longitude": 10.7289
+          },
+          "address": "Holmenkollveien 140, 0791 Oslo, Norway",
+          "official_website": "https://www.holmenkollen.com",
+          "tags": [
+            "Sports",
+            "History",
+            "Scenic"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Drinking water.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Drinking_water.jpg",
+                "width": 300,
+                "height": 450,
+                "attribution": {
+                  "title": "Drinking water",
+                  "author": "Photo taken by de:Benutzer:Alex Anlicker using a Nikon Coolpix 950.",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Drinking_water.jpg",
+                  "credit": "Own workSource: [1]",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Drinking water"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7385
+        },
+        {
+          "name": "Ekebergparken Sculpture Park",
+          "ai_summary": "A beautiful park featuring sculptures, walking trails, and stunning views of the city and fjord.",
+          "name_english": "Ekebergparken Sculpture Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "10:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Explore the park's trails for different perspectives of the sculptures.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9117,
+            "longitude": 10.7484
+          },
+          "address": "Kongsveien 23, 0193 Oslo, Norway",
+          "official_website": "https://www.ekebergparken.com",
+          "tags": [
+            "Art",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Akershus castle Oslo.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Akershus_castle_Oslo.jpg",
+                "width": 400,
+                "height": 600,
+                "attribution": {
+                  "title": "Akershus castle Oslo",
+                  "author": "Samuli Lintula",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Akershus_castle_Oslo.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "Forteresse d'Akershus"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7835
+        },
+        {
+          "name": "Akerselva River Walk",
+          "ai_summary": "A scenic walk along the Akerselva River, passing by waterfalls, parks, and historic buildings.",
+          "name_english": "Akerselva River Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "10:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored on foot or by bike."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Start at the waterfall and walk upstream for the best views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9345,
+            "longitude": 10.7589
+          },
+          "address": "Akerselva, Oslo, Norway",
+          "official_website": "https://www.visitoslo.com",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Walking"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon BLl.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/BSicon_BLl.svg/800px-BSicon_BLl.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon BLl",
+                  "author": "Useddenim",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_BLl.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Black Line icon for walkways"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7762
+        },
+        {
+          "name": "Kon-Tiki Museum",
+          "ai_summary": "A museum dedicated to Thor Heyerdahl's Kon-Tiki expedition, featuring the original raft and other exhibits.",
+          "name_english": "Kon-Tiki Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "120 NOK",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Last admission one hour before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine with a visit to the Fram Museum, located nearby.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9068,
+            "longitude": 10.727
+          },
+          "address": "Bygdøynesveien 36, 0286 Oslo, Norway",
+          "official_website": "https://www.kon-tiki.no",
+          "tags": [
+            "History",
+            "Museum",
+            "Culture"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aker Brygge map 1917.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Aker_Brygge_map_1917.jpg",
+                "width": 447,
+                "height": 552,
+                "attribution": {
+                  "title": "Aker Brygge map 1917",
+                  "author": "Kristiania Opmaalingsvesen",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aker_Brygge_map_1917.jpg",
+                  "credit": "Kart over Kristiania, udarbeidet av Byens Opmaalingsvæsen",
+                  "usage_terms": "Public domain",
+                  "description": "Kart over Aker Brygge og Tjuvholmen, 1917."
+                }
+              }
+            }
+          },
+          "rank_score": 0.744
+        },
+        {
+          "name": "Bygdøy Peninsula",
+          "ai_summary": "A scenic peninsula with several museums, beaches, and hiking trails, easily accessible by ferry from the city.",
+          "name_english": "Bygdøy Peninsula",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "10:00 PM",
+          "cost": "Varies by museum",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Check individual museum hours."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take the ferry from the city for a scenic route.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9069,
+            "longitude": 10.7045
+          },
+          "address": "Bygdøy, Oslo, Norway",
+          "official_website": "https://www.visitoslo.com",
+          "tags": [
+            "Nature",
+            "Museums",
+            "Scenic"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Anchor.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Anchor.svg/800px-Anchor.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Anchor",
+                  "author": null,
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Anchor.svg",
+                  "credit": "Own work using: http://openclipart.org/clipart//transportation/anchor.svg",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": null
+                }
+              }
+            }
+          },
+          "rank_score": 0.7695
+        },
+        {
+          "name": "Oslo City Hall",
+          "ai_summary": "An iconic building known for its unique architecture and as the venue for the Nobel Peace Prize ceremony.",
+          "name_english": "Oslo City Hall",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "8:00 AM - 4:00 PM",
+            "Tuesday": "8:00 AM - 4:00 PM",
+            "Wednesday": "8:00 AM - 4:00 PM",
+            "Thursday": "8:00 AM - 4:00 PM",
+            "Friday": "8:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Guided tours available."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Visit the tower for a panoramic view of the city.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9138,
+            "longitude": 10.7389
+          },
+          "address": "Fridtjof Nansens plass 7, 0160 Oslo, Norway",
+          "official_website": "https://www.oslo.kommune.no",
+          "tags": [
+            "History",
+            "Architecture",
+            "Culture"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7542
+        },
+        {
+          "name": "Botanical Garden Oslo",
+          "ai_summary": "A beautiful garden featuring a vast collection of plants, flowers, and trees, with walking paths and a greenhouse.",
+          "name_english": "Botanical Garden Oslo",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "10:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the spring and summer."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Check out the tropical greenhouse.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9415,
+            "longitude": 10.7528
+          },
+          "address": "Sars gate 1, 0562 Oslo, Norway",
+          "official_website": "https://www.botaniskmuseum.no",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Walking"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:14-09-02-oslo-RalfR-236.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/14-09-02-oslo-RalfR-236.jpg/960px-14-09-02-oslo-RalfR-236.jpg",
+                "width": 800,
+                "height": 531,
+                "attribution": {
+                  "title": "14-09-02-oslo-RalfR-236",
+                  "author": "Ralf Roletschek",
+                  "license": "GFDL 1.2",
+                  "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:14-09-02-oslo-RalfR-236.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "GNU Free Documentation License 1.2",
+                  "description": "Oslo"
+                }
+              }
+            }
+          },
+          "rank_score": 0.773
+        },
+        {
+          "name": "Vippa Food Hall",
+          "ai_summary": "A vibrant food hall offering a variety of international cuisines, located by the waterfront.",
+          "name_english": "Vippa Food Hall",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "10:00 PM",
+          "cost": "Varies by vendor",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "10:00 AM - 10:00 PM",
+            "Tuesday": "10:00 AM - 10:00 PM",
+            "Wednesday": "10:00 AM - 10:00 PM",
+            "Thursday": "10:00 AM - 10:00 PM",
+            "Friday": "10:00 AM - 10:00 PM",
+            "Saturday": "10:00 AM - 10:00 PM",
+            "Sunday": "10:00 AM - 10:00 PM",
+            "notes": "Check for special events and markets."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the seafood and local delicacies.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9056,
+            "longitude": 10.7332
+          },
+          "address": "Vippa, Akershusstranda 1, 0150 Oslo, Norway",
+          "official_website": "https://www.vippa.no",
+          "tags": [
+            "Dining",
+            "Scenic",
+            "Culture"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.74
+        },
+        {
+          "name": "Tjuvholmen Art District",
+          "ai_summary": "A modern waterfront area known for its contemporary art galleries, museums, and the Astrup Fearnley Museum.",
+          "name_english": "Tjuvholmen Art District",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "10:00 PM",
+          "cost": "Varies by museum",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Check individual museum hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the Astrup Fearnley Museum for contemporary art.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.9022,
+            "longitude": 10.7278
+          },
+          "address": "Tjuvholmen, Oslo, Norway",
+          "official_website": "https://www.visitoslo.com",
+          "tags": [
+            "Art",
+            "Culture",
+            "Scenic"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Oslo, sculpture (44).JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Oslo%2C_sculpture_%2844%29.JPG/960px-Oslo%2C_sculpture_%2844%29.JPG",
+                "width": 800,
+                "height": 527,
+                "attribution": {
+                  "title": "Oslo, sculpture (44)",
+                  "author": "Michal Klajban",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Oslo,_sculpture_(44).JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Sculpture. Oslo, Norway"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7645
+        },
+        {
+          "name": "Frogner Park",
+          "ai_summary": "A large park featuring the famous Vigeland installation with over 200 sculptures, walking paths, and a pond.",
+          "name_english": "Frogner Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "10:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the spring and summer."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Explore the park's many trails and sculptures.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 59.927,
+            "longitude": 10.7017
+          },
+          "address": "Kirkeveien 166, 0364 Oslo, Norway",
+          "official_website": "https://www.vigeland.museum.no",
+          "tags": [
+            "Art",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Oslo",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Benjamin Wegner 2 (cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Benjamin_Wegner_2_%28cropped%29.jpg/960px-Benjamin_Wegner_2_%28cropped%29.jpg",
+                "width": 800,
+                "height": 1103,
+                "attribution": {
+                  "title": "Benjamin Wegner 2 (cropped)",
+                  "author": "Unknown authorUnknown author",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Benjamin_Wegner_2_(cropped).jpg",
+                  "credit": "Probably daguerreotype by O.F. Knudsen, ca. 1840s. Photograph owned by Joakim Lystad.",
+                  "usage_terms": "Public domain",
+                  "description": "Benjamin Wegner, Norwegian industrialist"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7975
+        }
+      ]
+    }
+  ]
+}

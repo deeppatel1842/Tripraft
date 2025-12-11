@@ -1,0 +1,908 @@
+{
+  "country": "Maldives",
+  "state": "South Mal Atoll",
+  "cities": [
+    {
+      "city": "South Malé Atoll",
+      "nearest_airport": "Velana International Airport",
+      "places": [
+        {
+          "name": "Maafushi Island (Guesthouses & Water Sports)",
+          "ai_summary": "A popular island offering affordable guesthouses, vibrant local culture, and a variety of water sports activities.",
+          "name_english": "Maafushi Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try snorkeling or a dolphin-watching tour.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 3.9426,
+            "longitude": 73.4895
+          },
+          "address": "Maafushi Island, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Local Life",
+            "Water Sports",
+            "Affordable"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Guraidhoo Island (Local Life)",
+          "ai_summary": "A charming local island known for its traditional Maldivian lifestyle, colorful houses, and friendly community.",
+          "name_english": "Guraidhoo Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the local market to buy handmade souvenirs.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 3.9,
+            "longitude": 73.47
+          },
+          "address": "Guraidhoo Island, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Culture",
+            "Local Life",
+            "Shopping"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Thaa_Guraidhoo.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Thaa_Guraidhoo.jpg/960px-Thaa_Guraidhoo.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Thaa Guraidhoo",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Depperter&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Depperter (page does not exist)\">Depperter</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Thaa_Guraidhoo.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Photo was taken by a Maldivian Air Taxi pilot going over Thaa Guraidhoo"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Fihalhohi Island Resort",
+          "ai_summary": "A serene resort island offering overwater bungalows, white sandy beaches, and excellent snorkeling opportunities.",
+          "name_english": "Fihalhohi Island Resort",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:15",
+          "cost": "Entry fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible to resort guests only."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Book an overwater bungalow for a luxurious stay.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.85,
+            "longitude": 73.45
+          },
+          "address": "Fihalhohi Island, South Malé Atoll, Maldives",
+          "official_website": "https://www.fihalhohi.com",
+          "tags": [
+            "Luxury",
+            "Relaxation",
+            "Snorkeling"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Biyadhoo Island Diving Spot",
+          "ai_summary": "A top diving destination featuring vibrant coral reefs, diverse marine life, and crystal-clear waters.",
+          "name_english": "Biyadhoo Island",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00 - 18:00",
+            "Tuesday": "06:00 - 18:00",
+            "Wednesday": "06:00 - 18:00",
+            "Thursday": "06:00 - 18:00",
+            "Friday": "06:00 - 18:00",
+            "Saturday": "06:00 - 18:00",
+            "Sunday": "06:00 - 18:00",
+            "notes": "Night dives available upon request."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring your own diving gear for convenience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.85,
+            "longitude": 73.46
+          },
+          "address": "Biyadhoo Island, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Diving",
+            "Marine Life",
+            "Adventure"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Maldives.visibleearth.nasa.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Maldives.visibleearth.nasa.jpg/960px-Maldives.visibleearth.nasa.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Maldives.visibleearth.nasa",
+                  "author": "Electionworld",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Maldives.visibleearth.nasa.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Olhuveli Beach & Spa",
+          "ai_summary": "A luxurious resort offering stunning beaches, a world-class spa, and a range of water sports.",
+          "name_english": "Olhuveli Beach & Spa",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:15",
+          "cost": "Entry fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Spa treatments available from 10:00 to 20:00."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Indulge in a spa treatment for ultimate relaxation.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.85,
+            "longitude": 73.45
+          },
+          "address": "Olhuveli Beach & Spa, South Malé Atoll, Maldives",
+          "official_website": "https://www.olhuvelibeach.com",
+          "tags": [
+            "Luxury",
+            "Relaxation",
+            "Spa",
+            "Water Sports"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.826
+        },
+        {
+          "name": "Fun Island & Embudu Village",
+          "ai_summary": "A vibrant area offering a fun-filled island experience with water sports, local culture, and relaxation.",
+          "name_english": "Fun Island & Embudu Village",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the sunset view from Embudu Village.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 3.9,
+            "longitude": 73.45
+          },
+          "address": "Fun Island & Embudu Village, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Local Life",
+            "Water Sports",
+            "Relaxation"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Adaaran Club Rannalhi",
+          "ai_summary": "A luxurious resort with stunning ocean views, offering a range of water sports and relaxation options.",
+          "name_english": "Adaaran Club Rannalhi",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:15",
+          "cost": "Entry fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible to resort guests only."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Enjoy a romantic dinner on the beach.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.9,
+            "longitude": 73.46
+          },
+          "address": "Adaaran Club Rannalhi, South Malé Atoll, Maldives",
+          "official_website": "https://www.adaaran.com",
+          "tags": [
+            "Luxury",
+            "Relaxation",
+            "Water Sports"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kaafu_Atoll.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kaafu_Atoll.jpg/960px-Kaafu_Atoll.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kaafu Atoll",
+                  "author": "Rotatebot",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kaafu_Atoll.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": ""
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Snorkeling at Cocoa Thila",
+          "ai_summary": "An exciting snorkeling destination known for its rich marine life and beautiful coral reefs.",
+          "name_english": "Cocoa Thila",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies by tour operator",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00 - 18:00",
+            "Tuesday": "06:00 - 18:00",
+            "Wednesday": "06:00 - 18:00",
+            "Thursday": "06:00 - 18:00",
+            "Friday": "06:00 - 18:00",
+            "Saturday": "06:00 - 18:00",
+            "Sunday": "06:00 - 18:00",
+            "notes": "Best visited with a guided tour."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Book a guided snorkeling tour for the best experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.85,
+            "longitude": 73.47
+          },
+          "address": "Cocoa Thila, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Snorkeling",
+            "Marine Life",
+            "Adventure"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Gulhi Island Beach",
+          "ai_summary": "A picturesque beach destination known for its clear waters, white sandy beaches, and vibrant local culture.",
+          "name_english": "Gulhi Island Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the local shops and try the street food.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 3.9,
+            "longitude": 73.46
+          },
+          "address": "Gulhi Island Beach, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Beach",
+            "Local Life",
+            "Shopping"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Vaadhoo Island (Sea of Stars Phenomenon)",
+          "ai_summary": "A magical destination famous for the bioluminescent plankton that lights up the beach at night.",
+          "name_english": "Vaadhoo Island",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed at night during the new moon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Night",
+          "place_tip": "Visit during the new moon for the best experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 3.4,
+            "longitude": 73.45
+          },
+          "address": "Vaadhoo Island, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Natural Phenomenon",
+            "Beach",
+            "Photography"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.842
+        },
+        {
+          "name": "Surfing at Guraidhoo Corner",
+          "ai_summary": "A popular surfing spot known for its consistent waves and beautiful coral reefs.",
+          "name_english": "Guraidhoo Corner",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the surfing season."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Check the surf report before you go.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 3.9,
+            "longitude": 73.47
+          },
+          "address": "Guraidhoo Corner, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Surfing",
+            "Adventure",
+            "Water Sports"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Sandbank Tours by Dhoni Boat",
+          "ai_summary": "A unique experience exploring the beautiful sandbanks of the Maldives on a traditional Dhoni boat.",
+          "name_english": "Sandbank Tours",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:15",
+          "cost": "Varies by tour operator",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00 - 18:00",
+            "Tuesday": "06:00 - 18:00",
+            "Wednesday": "06:00 - 18:00",
+            "Thursday": "06:00 - 18:00",
+            "Friday": "06:00 - 18:00",
+            "Saturday": "06:00 - 18:00",
+            "Sunday": "06:00 - 18:00",
+            "notes": "Best experienced with a guided tour."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring your camera to capture the stunning views.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.85,
+            "longitude": 73.46
+          },
+          "address": "Sandbank Tours, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Boat Tours",
+            "Photography",
+            "Adventure"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:House_Boat_DSW.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/House_Boat_DSW.jpg/960px-House_Boat_DSW.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "House Boat DSW",
+                  "author": "<b><a href=\"https://en.wikipedia.org/wiki/User:Mydreamsparrow\" class=\"extiw\" title=\"w:User:Mydreamsparrow\">Augustus Binu</a> : <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/134573731@N04\">flickr</a></b>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:House_Boat_DSW.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "A house Boat View from Vembanad Lake"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Night Fishing Excursion",
+          "ai_summary": "An exciting night out fishing in the bountiful waters of the Maldives, followed by a beach BBQ.",
+          "name_english": "Night Fishing Excursion",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies by tour operator",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "18:00 - 22:00",
+            "Tuesday": "18:00 - 22:00",
+            "Wednesday": "18:00 - 22:00",
+            "Thursday": "18:00 - 22:00",
+            "Friday": "18:00 - 22:00",
+            "Saturday": "18:00 - 22:00",
+            "Sunday": "18:00 - 22:00",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the fresh catch of the day at the beach BBQ.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.85,
+            "longitude": 73.46
+          },
+          "address": "Night Fishing Excursion, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Fishing",
+            "BBQ",
+            "Nightlife"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Local Café Stroll at Maafushi Harbor",
+          "ai_summary": "A delightful stroll around Maafushi Harbor, exploring local cafes and enjoying the vibrant atmosphere.",
+          "name_english": "Maafushi Harbor",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local coffee and snacks at the cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 3.9426,
+            "longitude": 73.4895
+          },
+          "address": "Maafushi Harbor, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Local Life",
+            "Food",
+            "Shopping"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Water Villas at Rihiveli Resort",
+          "ai_summary": "A luxurious stay in water villas offering direct access to the lagoon, stunning views, and top-notch amenities.",
+          "name_english": "Rihiveli Resort",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:15",
+          "cost": "Varies by season",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "1-2 days",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Enjoy a private dinner on your villa deck.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.85,
+            "longitude": 73.45
+          },
+          "address": "Rihiveli Resort, South Malé Atoll, Maldives",
+          "official_website": "https://www.rihiveli.com",
+          "tags": [
+            "Luxury",
+            "Relaxation",
+            "Water Sports"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.778
+        },
+        {
+          "name": "Kandooma Thila (Shark Point)",
+          "ai_summary": "A famous dive site known for its shark sightings, vibrant coral gardens, and clear blue waters.",
+          "name_english": "Kandooma Thila",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00 - 18:00",
+            "Tuesday": "06:00 - 18:00",
+            "Wednesday": "06:00 - 18:00",
+            "Thursday": "06:00 - 18:00",
+            "Friday": "06:00 - 18:00",
+            "Saturday": "06:00 - 18:00",
+            "Sunday": "06:00 - 18:00",
+            "notes": "Best visited with a guided dive tour."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Keep an eye out for manta rays and turtles.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.85,
+            "longitude": 73.46
+          },
+          "address": "Kandooma Thila, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Diving",
+            "Marine Life",
+            "Adventure"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Biyadhoo-Maldives.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Biyadhoo-Maldives.jpg/960px-Biyadhoo-Maldives.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Biyadhoo-Maldives",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Niceley&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Niceley (page does not exist)\">Nicolai Edgar Andersen</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Biyadhoo-Maldives.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The shoreline of Biyadhoo Island."
+                }
+              }
+            }
+          },
+          "rank_score": 0.842
+        },
+        {
+          "name": "Resort Hopping Boat Tour",
+          "ai_summary": "An exciting boat tour exploring multiple resorts in the Maldives, experiencing luxury and hospitality.",
+          "name_english": "Resort Hopping",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:10",
+          "sunset_time": "18:15",
+          "cost": "Varies by resort",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00 - 17:00",
+            "Tuesday": "09:00 - 17:00",
+            "Wednesday": "09:00 - 17:00",
+            "Thursday": "09:00 - 17:00",
+            "Friday": "09:00 - 17:00",
+            "Saturday": "09:00 - 17:00",
+            "Sunday": "09:00 - 17:00",
+            "notes": "Advance booking required."
+          },
+          "suggested_duration": "Full-day",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Experience the hospitality of different resorts.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.85,
+            "longitude": 73.45
+          },
+          "address": "Resort Hopping, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Boat Tours",
+            "Luxury",
+            "Adventure"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.778
+        },
+        {
+          "name": "Underwater Scooter Rides",
+          "ai_summary": "A unique underwater adventure riding a scooter while exploring the marine life and coral reefs.",
+          "name_english": "Underwater Scooter Rides",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies by tour operator",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00 - 17:00",
+            "Tuesday": "08:00 - 17:00",
+            "Wednesday": "08:00 - 17:00",
+            "Thursday": "08:00 - 17:00",
+            "Friday": "08:00 - 17:00",
+            "Saturday": "08:00 - 17:00",
+            "Sunday": "08:00 - 17:00",
+            "notes": "Best experienced with a guided tour."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear a swimsuit and bring a towel.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.85,
+            "longitude": 73.46
+          },
+          "address": "Underwater Scooter Rides, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Adventure",
+            "Marine Life",
+            "Water Sports"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Sunset BBQ on the Beach",
+          "ai_summary": "A romantic experience enjoying a BBQ dinner on the beach while watching the sunset.",
+          "name_english": "Sunset BBQ",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:15",
+          "cost": "Varies by tour operator",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "18:00 - 22:00",
+            "Tuesday": "18:00 - 22:00",
+            "Wednesday": "18:00 - 22:00",
+            "Thursday": "18:00 - 22:00",
+            "Friday": "18:00 - 22:00",
+            "Saturday": "18:00 - 22:00",
+            "Sunday": "18:00 - 22:00",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy fresh seafood at the BBQ.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.85,
+            "longitude": 73.46
+          },
+          "address": "Sunset BBQ, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Food",
+            "Romantic",
+            "Beach"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Romantic Dinner on Sandbank",
+          "ai_summary": "An exclusive dining experience on a private sandbank, surrounded by the turquoise waters of the Maldives.",
+          "name_english": "Romantic Dinner",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:15",
+          "cost": "Varies by tour operator",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "18:00 - 22:00",
+            "Tuesday": "18:00 - 22:00",
+            "Wednesday": "18:00 - 22:00",
+            "Thursday": "18:00 - 22:00",
+            "Friday": "18:00 - 22:00",
+            "Saturday": "18:00 - 22:00",
+            "Sunday": "18:00 - 22:00",
+            "notes": "Advance booking required."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "A perfect surprise for a honeymoon or special occasion.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 3.85,
+            "longitude": 73.46
+          },
+          "address": "Sandbank, South Malé Atoll, Maldives",
+          "official_website": "https://www.visitmaldives.com",
+          "tags": [
+            "Food",
+            "Romantic",
+            "Private"
+          ],
+          "state": "South Mal Atoll",
+          "photos": {},
+          "rank_score": 0.778
+        }
+      ]
+    }
+  ]
+}

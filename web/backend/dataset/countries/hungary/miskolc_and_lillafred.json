@@ -1,0 +1,897 @@
+{
+  "country": "Hungary",
+  "state": "Miskolc And Lillafred",
+  "cities": [
+    {
+      "city": "Miskolc",
+      "nearest_airport": "Debrecen International Airport (DEB)",
+      "places": [
+        {
+          "name": "Diósgyőr Castle",
+          "ai_summary": "A medieval castle with a rich history, offering guided tours and reenactments of historical events.",
+          "name_english": "Diósgyőr Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "17:45",
+          "cost": "$10",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on national holidays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes as the castle grounds are extensive.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 48.104,
+            "longitude": 20.71
+          },
+          "address": "Diósgyőr Castle, Miskolc, Hungary",
+          "official_website": "https://www.diosgyorivar.hu/",
+          "tags": [
+            "Castle",
+            "History",
+            "Landmark"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon BUS2.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/BSicon_BUS2.svg/800px-BSicon_BUS2.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon BUS2",
+                  "author": "Jake the Editor Man",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_BUS2.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "British Rail-style bus symbol (facing right)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8045
+        },
+        {
+          "name": "Lillafüred Palace Hotel & Gardens",
+          "ai_summary": "A luxurious hotel surrounded by beautifully landscaped gardens, offering stunning views and a serene atmosphere.",
+          "name_english": "Lillafüred Palace Hotel",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "17:30",
+          "cost": "Free (gardens)",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "00:00-24:00",
+            "Tuesday": "00:00-24:00",
+            "Wednesday": "00:00-24:00",
+            "Thursday": "00:00-24:00",
+            "Friday": "00:00-24:00",
+            "Saturday": "00:00-24:00",
+            "Sunday": "00:00-24:00",
+            "notes": "Hotel access restricted to guests."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the hanging gardens for the best views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 48.103,
+            "longitude": 20.62
+          },
+          "address": "Lillafüred Palace Hotel, Lillafüred, Hungary",
+          "official_website": "https://www.palacehotel.hu/",
+          "tags": [
+            "Hotel",
+            "Gardens",
+            "Luxury"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8045
+        },
+        {
+          "name": "Miskolctapolca Cave Bath",
+          "ai_summary": "A unique thermal bath located inside natural caves, offering a relaxing and rejuvenating experience.",
+          "name_english": "Miskolctapolca Cave Bath",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$15",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-20:00",
+            "Tuesday": "09:00-20:00",
+            "Wednesday": "09:00-20:00",
+            "Thursday": "09:00-20:00",
+            "Friday": "09:00-20:00",
+            "Saturday": "09:00-20:00",
+            "Sunday": "09:00-20:00",
+            "notes": "Open year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Bring your own towel and swimwear to save on rental costs.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 48.07,
+            "longitude": 20.78
+          },
+          "address": "Cave Bath, Miskolctapolca, Hungary",
+          "official_website": "https://www.cavebath.hu/",
+          "tags": [
+            "Thermal Bath",
+            "Wellness",
+            "Relaxation"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Miskolci.kisterseg.PNG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Miskolci.kisterseg.PNG",
+                "width": 780,
+                "height": 490,
+                "attribution": {
+                  "title": "Miskolci.kisterseg",
+                  "author": "Villy at Hungarian Wikipedia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Miskolci.kisterseg.PNG",
+                  "credit": "Transferred from hu.wikipedia to Commons.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Miskolci kistérség"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7805
+        },
+        {
+          "name": "Szinva Waterfall",
+          "ai_summary": "A picturesque waterfall located near Lillafüred, surrounded by lush greenery and hiking trails.",
+          "name_english": "Szinva Waterfall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "17:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "00:00-24:00",
+            "Tuesday": "00:00-24:00",
+            "Wednesday": "00:00-24:00",
+            "Thursday": "00:00-24:00",
+            "Friday": "00:00-24:00",
+            "Saturday": "00:00-24:00",
+            "Sunday": "00:00-24:00",
+            "notes": "Best visited during spring or after rainfall."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear sturdy shoes for the hiking trails.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 48.103,
+            "longitude": 20.62
+          },
+          "address": "Szinva Waterfall, Lillafüred, Hungary",
+          "official_website": "https://www.lillafured.hu/",
+          "tags": [
+            "Waterfall",
+            "Nature",
+            "Hiking"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lillafured Palacehotel.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Lillafured_Palacehotel.jpg/960px-Lillafured_Palacehotel.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lillafured Palacehotel",
+                  "author": "József Dudás .Edited by Rodrigo",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lillafured_Palacehotel.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "The western corner of the Palota hotel in Lillafüred, Hungary. Photo by József Dudás (Miskolc, 2006)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7852
+        },
+        {
+          "name": "Lillafüred Forest Railway",
+          "ai_summary": "A scenic narrow-gauge railway offering breathtaking views of the Bükk Mountains and surrounding forests.",
+          "name_english": "Lillafüred Forest Railway",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$8",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Seasonal schedules may apply."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Sit on the left side for the best views.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 48.103,
+            "longitude": 20.62
+          },
+          "address": "Forest Railway, Lillafüred, Hungary",
+          "official_website": "https://www.forestrailway.hu/",
+          "tags": [
+            "Railway",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.763
+        },
+        {
+          "name": "Anna Cave & István Cave",
+          "ai_summary": "Fascinating caves offering guided tours to explore their unique geological formations.",
+          "name_english": "Anna Cave & István Cave",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$12",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on national holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Wear a jacket, it can be chilly inside the caves.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 48.103,
+            "longitude": 20.62
+          },
+          "address": "Anna Cave, Lillafüred, Hungary",
+          "official_website": "https://www.caves.hu/",
+          "tags": [
+            "Cave",
+            "Nature",
+            "Geology"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lillafured Palacehotel.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Lillafured_Palacehotel.jpg/960px-Lillafured_Palacehotel.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lillafured Palacehotel",
+                  "author": "József Dudás .Edited by Rodrigo",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lillafured_Palacehotel.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "The western corner of the Palota hotel in Lillafüred, Hungary. Photo by József Dudás (Miskolc, 2006)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7845
+        },
+        {
+          "name": "Lillafüred Hanging Gardens",
+          "ai_summary": "Beautifully landscaped terraces with a variety of plants, offering a peaceful retreat and great photo opportunities.",
+          "name_english": "Lillafüred Hanging Gardens",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "17:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "00:00-24:00",
+            "Tuesday": "00:00-24:00",
+            "Wednesday": "00:00-24:00",
+            "Thursday": "00:00-24:00",
+            "Friday": "00:00-24:00",
+            "Saturday": "00:00-24:00",
+            "Sunday": "00:00-24:00",
+            "notes": "Best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don't miss the view from the top terrace.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 48.103,
+            "longitude": 20.62
+          },
+          "address": "Hanging Gardens, Lillafüred, Hungary",
+          "official_website": "https://www.lillafured.hu/",
+          "tags": [
+            "Gardens",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7822
+        },
+        {
+          "name": "Miskolc National Theatre",
+          "ai_summary": "A historic theatre building hosting a variety of performances, including opera, ballet, and drama.",
+          "name_english": "Miskolc National Theatre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$20",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "19:00-21:00",
+            "Wednesday": "19:00-21:00",
+            "Thursday": "19:00-21:00",
+            "Friday": "19:00-21:00",
+            "Saturday": "15:00-17:00",
+            "Sunday": "15:00-17:00",
+            "notes": "Check schedule for performance times."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Book tickets in advance for popular shows.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 48.103,
+            "longitude": 20.71
+          },
+          "address": "Miskolc National Theatre, Miskolc, Hungary",
+          "official_website": "https://www.miskolcimezotthaz.hu/",
+          "tags": [
+            "Theatre",
+            "Culture",
+            "Performance"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon BUS2.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/BSicon_BUS2.svg/800px-BSicon_BUS2.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon BUS2",
+                  "author": "Jake the Editor Man",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_BUS2.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "British Rail-style bus symbol (facing right)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7615
+        },
+        {
+          "name": "Mindszent Church",
+          "ai_summary": "A beautiful Protestant church known for its unique architecture and peaceful surroundings.",
+          "name_english": "Mindszent Church",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "17:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on national holidays."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Respect the quiet atmosphere, it's a place of worship.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 48.103,
+            "longitude": 20.71
+          },
+          "address": "Mindszent Church, Miskolc, Hungary",
+          "official_website": "https://www.mindszent.hu/",
+          "tags": [
+            "Church",
+            "Architecture",
+            "History"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon BUS2.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/BSicon_BUS2.svg/800px-BSicon_BUS2.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon BUS2",
+                  "author": "Jake the Editor Man",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_BUS2.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "British Rail-style bus symbol (facing right)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7378
+        },
+        {
+          "name": "Ottó Herman Memorial House",
+          "ai_summary": "The former home of Ottó Herman, now a museum dedicated to his life and work, showcasing historical artifacts and documents.",
+          "name_english": "Ottó Herman Memorial House",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$5",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "10:00-18:00",
+            "Tuesday": "10:00-18:00",
+            "Wednesday": "10:00-18:00",
+            "Thursday": "10:00-18:00",
+            "Friday": "10:00-18:00",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Closed on national holidays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine with a visit to the nearby Avas Lookout Tower.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 48.103,
+            "longitude": 20.71
+          },
+          "address": "Ottó Herman Memorial House, Miskolc, Hungary",
+          "official_website": "https://www.ottos.hu/",
+          "tags": [
+            "Museum",
+            "History",
+            "Culture"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon BUS2.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/BSicon_BUS2.svg/800px-BSicon_BUS2.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon BUS2",
+                  "author": "Jake the Editor Man",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_BUS2.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "British Rail-style bus symbol (facing right)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7332
+        },
+        {
+          "name": "Wooden Church of Avas",
+          "ai_summary": "A historic wooden church located on the Avas Hill, known for its unique architecture and beautiful views.",
+          "name_english": "Wooden Church of Avas",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:30",
+          "sunset_time": "17:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Closed on national holidays."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Climb the tower for a panoramic view of Miskolc.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 48.103,
+            "longitude": 20.71
+          },
+          "address": "Wooden Church of Avas, Miskolc, Hungary",
+          "official_website": "https://www.avasifalva.hu/",
+          "tags": [
+            "Church",
+            "Architecture",
+            "Viewpoint"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BSicon BUS2.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/BSicon_BUS2.svg/800px-BSicon_BUS2.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "BSicon BUS2",
+                  "author": "Jake the Editor Man",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BSicon_BUS2.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "British Rail-style bus symbol (facing right)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7623
+        },
+        {
+          "name": "Avalon Park (Miskolctapolca)",
+          "ai_summary": "A family-friendly park with a variety of outdoor activities, including a petting zoo, mini-golf, and hiking trails.",
+          "name_english": "Avalon Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "$10",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Open year-round."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Pack a picnic to enjoy in the park.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 48.07,
+            "longitude": 20.78
+          },
+          "address": "Avalon Park, Miskolctapolca, Hungary",
+          "official_website": "https://www.avalonpark.hu/",
+          "tags": [
+            "Park",
+            "Family",
+            "Outdoor Activities"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Miskolci.kisterseg.PNG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Miskolci.kisterseg.PNG",
+                "width": 780,
+                "height": 490,
+                "attribution": {
+                  "title": "Miskolci.kisterseg",
+                  "author": "Villy at Hungarian Wikipedia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Miskolci.kisterseg.PNG",
+                  "credit": "Transferred from hu.wikipedia to Commons.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Miskolci kistérség"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7352
+        },
+        {
+          "name": "Szeleta Cave Area Trails",
+          "ai_summary": "Scenic hiking trails in the Szeleta Cave area, known for its natural beauty and archaeological significance.",
+          "name_english": "Szeleta Cave Area Trails",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "00:00-24:00",
+            "Tuesday": "00:00-24:00",
+            "Wednesday": "00:00-24:00",
+            "Thursday": "00:00-24:00",
+            "Friday": "00:00-24:00",
+            "Saturday": "00:00-24:00",
+            "Sunday": "00:00-24:00",
+            "notes": "Best visited in the cooler hours of the day."
+          },
+          "suggested_duration": "1-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring water and wear sturdy shoes.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 48.07,
+            "longitude": 20.78
+          },
+          "address": "Szeleta Cave Area, Miskolctapolca, Hungary",
+          "official_website": "https://www.szeletacave.hu/",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Archaeology"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Egyetemvaros E6.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Egyetemvaros_E6.jpg/960px-Egyetemvaros_E6.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Egyetemvaros E6",
+                  "author": null,
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Egyetemvaros_E6.jpg",
+                  "credit": null,
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": null
+                }
+              }
+            }
+          },
+          "rank_score": 0.773
+        },
+        {
+          "name": "Majláth Promenade",
+          "ai_summary": "A scenic promenade in Lillafüred, perfect for a leisurely walk with beautiful views of the surrounding area.",
+          "name_english": "Majláth Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:15",
+          "sunset_time": "17:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "00:00-24:00",
+            "Tuesday": "00:00-24:00",
+            "Wednesday": "00:00-24:00",
+            "Thursday": "00:00-24:00",
+            "Friday": "00:00-24:00",
+            "Saturday": "00:00-24:00",
+            "Sunday": "00:00-24:00",
+            "notes": "Best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Combine with a visit to the nearby Szinva Waterfall.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 48.103,
+            "longitude": 20.62
+          },
+          "address": "Majláth Promenade, Lillafüred, Hungary",
+          "official_website": "https://www.lillafured.hu/",
+          "tags": [
+            "Promenade",
+            "Scenic",
+            "Walking"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7377
+        },
+        {
+          "name": "Diósgyőr Adventure Park",
+          "ai_summary": "An adventure park offering a variety of outdoor activities, including zip-lining, climbing, and hiking.",
+          "name_english": "Diósgyőr Adventure Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00",
+          "sunset_time": "18:00",
+          "cost": "$25",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "09:00-18:00",
+            "Tuesday": "09:00-18:00",
+            "Wednesday": "09:00-18:00",
+            "Thursday": "09:00-18:00",
+            "Friday": "09:00-18:00",
+            "Saturday": "09:00-18:00",
+            "Sunday": "09:00-18:00",
+            "notes": "Open year-round, weather permitting."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable clothing and closed-toe shoes.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 48.104,
+            "longitude": 20.71
+          },
+          "address": "Diósgyőr Adventure Park, Miskolc, Hungary",
+          "official_website": "https://www.dioadventurepark.hu/",
+          "tags": [
+            "Adventure Park",
+            "Outdoor Activities",
+            "Family"
+          ],
+          "state": "Miskolc And Lillafred",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Diósgyőri Gimnázium.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Di%C3%B3sgy%C5%91ri_Gimn%C3%A1zium.jpg",
+                "width": 640,
+                "height": 480,
+                "attribution": {
+                  "title": "Diósgyőri Gimnázium",
+                  "author": "Oprienko",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Diósgyőri_Gimnázium.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Diósgyőri Gimnázium, Miskolc"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7557
+        }
+      ]
+    }
+  ]
+}

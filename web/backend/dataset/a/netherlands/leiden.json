@@ -1,0 +1,810 @@
+{
+  "country": "Netherlands",
+  "state": "South Holland",
+  "cities": [
+    {
+      "city": "Leiden",
+      "nearest_airport": "Amsterdam Airport Schiphol",
+      "places": [
+        {
+          "name": "Rijksmuseum van Oudheden",
+          "ai_summary": "A national museum showcasing ancient artifacts, including Egyptian mummies, Greek sculptures, and Roman relics.",
+          "name_english": "National Museum of Antiquities",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €12",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Special exhibits may have extended hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Don’t miss the Egyptian gallery with its impressive mummies.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1571,
+            "longitude": 4.4892
+          },
+          "address": "Rapenburg 28, 2311 EW Leiden, Netherlands",
+          "official_website": "https://www.rmo.nl",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Caesar van Everdingen Count Willem II of Holland Granting Privileges.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Caesar_van_Everdingen_Count_Willem_II_of_Holland_Granting_Privileges.jpg/800px-Caesar_van_Everdingen_Count_Willem_II_of_Holland_Granting_Privileges.jpg",
+                "width": 800,
+                "height": 804,
+                "attribution": {
+                  "title": "Count Willem II of Holland Granting Privileges in 1255 to the local Dike-wardens of Spaarndam, who later became known as 'Hoogheemraadschap Rijnland', the Dutch Water Board agency of  Holland based in Leiden. (Historical allegory)",
+                  "author": "Caesar van Everdingen / Pieter Post",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Caesar_van_Everdingen_Count_Willem_II_of_Holland_Granting_Privileges.jpg",
+                  "credit": "Hoogheemraadschap Rijnland",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Hortus Botanicus Leiden",
+          "ai_summary": "One of the oldest botanical gardens in the world, featuring exotic plants, greenhouses, and a tranquil atmosphere.",
+          "name_english": "Leiden Botanical Garden",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €8",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 6:00 PM",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Guided tours available on request."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the Japanese garden for a unique experience.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1578,
+            "longitude": 4.4828
+          },
+          "address": "Rapenburg 73, 2311 GJ Leiden, Netherlands",
+          "official_website": "https://www.hortusleiden.nl",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Education"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Naturalis Biodiversity Center",
+          "ai_summary": "A modern museum dedicated to the natural world, featuring dinosaur skeletons, interactive exhibits, and biodiversity research.",
+          "name_english": "Naturalis Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €16",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Family-friendly exhibits available."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Perfect for families; kids will love the dinosaur exhibits.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 52.1601,
+            "longitude": 4.497
+          },
+          "address": "Darwinweg 2, 2333 CR Leiden, Netherlands",
+          "official_website": "https://www.naturalis.nl",
+          "tags": [
+            "Science",
+            "Education",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ErfgoedLeiden LEI001016821 Hooglandse Kerk.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/ErfgoedLeiden_LEI001016821_Hooglandse_Kerk.jpg/960px-ErfgoedLeiden_LEI001016821_Hooglandse_Kerk.jpg",
+                "width": 800,
+                "height": 629,
+                "attribution": {
+                  "title": "Hooglandse Kerk",
+                  "author": "Jan Goedeljee",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ErfgoedLeiden_LEI001016821_Hooglandse_Kerk.jpg",
+                  "credit": "View this work on the website of Erfgoed Leiden en Omstreken",
+                  "usage_terms": "Public domain",
+                  "description": "Noordertransept oostzijde. Detail van het muurwerk en de ramen."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Museum Boerhaave",
+          "ai_summary": "A museum of the history of science and medicine in the Netherlands, with collections of scientific instruments, models, and paintings.",
+          "name_english": "Boerhaave Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €15",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Check for special events and exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Look out for the interactive science exhibits.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1575,
+            "longitude": 4.49
+          },
+          "address": "Lange St. Agnietenstraat 10, 2312 WC Leiden, Netherlands",
+          "official_website": "https://www.museumboerhaave.nl",
+          "tags": [
+            "Science",
+            "History",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Molen de Valk",
+          "ai_summary": "A historic windmill and museum in Leiden, offering panoramic views of the city and surrounding areas.",
+          "name_english": "Windmill Museum de Valk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Entry fee: €5",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Windmill operation depends on weather conditions."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Late afternoon for sunset views",
+          "place_tip": "Climb to the top for the best views of Leiden.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1583,
+            "longitude": 4.4908
+          },
+          "address": "Molen de Valk, 2312 WG Leiden, Netherlands",
+          "official_website": "https://www.molendevalk.nl",
+          "tags": [
+            "History",
+            "Architecture",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Caesar van Everdingen Count Willem II of Holland Granting Privileges.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Caesar_van_Everdingen_Count_Willem_II_of_Holland_Granting_Privileges.jpg/800px-Caesar_van_Everdingen_Count_Willem_II_of_Holland_Granting_Privileges.jpg",
+                "width": 800,
+                "height": 804,
+                "attribution": {
+                  "title": "Count Willem II of Holland Granting Privileges in 1255 to the local Dike-wardens of Spaarndam, who later became known as 'Hoogheemraadschap Rijnland', the Dutch Water Board agency of  Holland based in Leiden. (Historical allegory)",
+                  "author": "Caesar van Everdingen / Pieter Post",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Caesar_van_Everdingen_Count_Willem_II_of_Holland_Granting_Privileges.jpg",
+                  "credit": "Hoogheemraadschap Rijnland",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Leiden Canals",
+          "ai_summary": "A picturesque canal system in Leiden, ideal for boating, walking, and enjoying the historic cityscape.",
+          "name_english": "Leiden Canal Tour",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Boat tour: €15",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 7:00 PM",
+            "Tuesday": "9:00 AM - 7:00 PM",
+            "Wednesday": "9:00 AM - 7:00 PM",
+            "Thursday": "9:00 AM - 7:00 PM",
+            "Friday": "9:00 AM - 7:00 PM",
+            "Saturday": "9:00 AM - 7:00 PM",
+            "Sunday": "9:00 AM - 7:00 PM",
+            "notes": "Check weather conditions before planning your visit."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "A boat tour offers a unique perspective of the city.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 52.1587,
+            "longitude": 4.4915
+          },
+          "address": "Leiden Canals, 2312 Leiden, Netherlands",
+          "official_website": "https://www.leidencanals.nl",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Alfons Groenendijk (2017).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Alfons_Groenendijk_%282017%29.jpg",
+                "width": 400,
+                "height": 488,
+                "attribution": {
+                  "title": "Alfons Groenendijk (2017)",
+                  "author": "Richard Mulder",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Alfons_Groenendijk_(2017).jpg",
+                  "credit": "groengeelhart.nl (cropped)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Alfons Groenendijk"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Pieterskerk",
+          "ai_summary": "A historic church in Leiden, known for its impressive architecture, stained glass windows, and peaceful garden.",
+          "name_english": "St. Peter’s Church",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Check for concerts and special events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the garden for a quiet retreat in the city.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.158,
+            "longitude": 4.4902
+          },
+          "address": "Pieterskerkhof 1, 2311 SR Leiden, Netherlands",
+          "official_website": "https://www.pieterskerk-leiden.nl",
+          "tags": [
+            "History",
+            "Architecture",
+            "Religion"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Caesar van Everdingen Count Willem II of Holland Granting Privileges.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Caesar_van_Everdingen_Count_Willem_II_of_Holland_Granting_Privileges.jpg/800px-Caesar_van_Everdingen_Count_Willem_II_of_Holland_Granting_Privileges.jpg",
+                "width": 800,
+                "height": 804,
+                "attribution": {
+                  "title": "Count Willem II of Holland Granting Privileges in 1255 to the local Dike-wardens of Spaarndam, who later became known as 'Hoogheemraadschap Rijnland', the Dutch Water Board agency of  Holland based in Leiden. (Historical allegory)",
+                  "author": "Caesar van Everdingen / Pieter Post",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Caesar_van_Everdingen_Count_Willem_II_of_Holland_Granting_Privileges.jpg",
+                  "credit": "Hoogheemraadschap Rijnland",
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Museum Volkenkunde",
+          "ai_summary": "An ethnology museum in Leiden, featuring collections of artifacts and exhibits on world cultures and societies.",
+          "name_english": "Museum of Ethnology",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €10",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Group tours available on request."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning",
+          "place_tip": "Check out the Pacific Islands collection.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1586,
+            "longitude": 4.491
+          },
+          "address": "Steenschuur 27, 2311 ES Leiden, Netherlands",
+          "official_website": "https://www.volkenkunde.nl",
+          "tags": [
+            "Culture",
+            "History",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ErfgoedLeiden LEI001013139 Gezicht op de Waag aan de Aalmarkt.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/ErfgoedLeiden_LEI001013139_Gezicht_op_de_Waag_aan_de_Aalmarkt.jpg/960px-ErfgoedLeiden_LEI001013139_Gezicht_op_de_Waag_aan_de_Aalmarkt.jpg",
+                "width": 800,
+                "height": 571,
+                "attribution": {
+                  "title": "Gezicht op de Waag aan de Aalmarkt",
+                  "author": "Jan Goedeljee",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ErfgoedLeiden_LEI001013139_Gezicht_op_de_Waag_aan_de_Aalmarkt.jpg",
+                  "credit": "View this work on the website of Erfgoed Leiden en Omstreken",
+                  "usage_terms": "Public domain",
+                  "description": "Gezicht op de Waag aan de Aalmarkt"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Old Observatory Leiden",
+          "ai_summary": "The oldest university observatory still in operation, offering insights into the history of astronomy and science.",
+          "name_english": "Old Observatory",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "1:00 PM - 5:00 PM",
+            "Wednesday": "1:00 PM - 5:00 PM",
+            "Thursday": "1:00 PM - 5:00 PM",
+            "Friday": "1:00 PM - 5:00 PM",
+            "Saturday": "1:00 PM - 5:00 PM",
+            "Sunday": "1:00 PM - 5:00 PM",
+            "notes": "Guided tours available; check schedule."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the library for rare astronomical books.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1592,
+            "longitude": 4.492
+          },
+          "address": "Witte Singel 26, 2316 XC Leiden, Netherlands",
+          "official_website": "https://www.observatory.leiden.edu",
+          "tags": [
+            "Science",
+            "Education",
+            "History"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aanzicht - Leiden - 20135401 - RCE.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Aanzicht_-_Leiden_-_20135401_-_RCE.jpg/960px-Aanzicht_-_Leiden_-_20135401_-_RCE.jpg",
+                "width": 800,
+                "height": 1096,
+                "attribution": {
+                  "title": "Aanzicht - Leiden - 20135401 - RCE",
+                  "author": "Hoogendijk, C. (Fotograaf)",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aanzicht_-_Leiden_-_20135401_-_RCE.jpg",
+                  "credit": "Rijksdienst voor het Cultureel Erfgoed",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Weeshuis: aanzicht"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Rapenburg Canal Walk",
+          "ai_summary": "A scenic walking route along the Rapenburg canal, known for its beautiful views and historic buildings.",
+          "name_english": "Rapenburg Canal",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Best enjoyed on foot or by bike."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a camera for stunning photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1589,
+            "longitude": 4.493
+          },
+          "address": "Rapenburg, 2311 Leiden, Netherlands",
+          "official_website": "https://www.rapenburgcanal.nl",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aanzicht - Leiden - 20135401 - RCE.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Aanzicht_-_Leiden_-_20135401_-_RCE.jpg/960px-Aanzicht_-_Leiden_-_20135401_-_RCE.jpg",
+                "width": 800,
+                "height": 1096,
+                "attribution": {
+                  "title": "Aanzicht - Leiden - 20135401 - RCE",
+                  "author": "Hoogendijk, C. (Fotograaf)",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aanzicht_-_Leiden_-_20135401_-_RCE.jpg",
+                  "credit": "Rijksdienst voor het Cultureel Erfgoed",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Weeshuis: aanzicht"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Van der Werf Park",
+          "ai_summary": "A public park in Leiden, featuring walking paths, a playground, and open green spaces for relaxation and recreation.",
+          "name_english": "Van der Werf Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Well-maintained paths for walking and cycling."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Great spot for a picnic or a leisurely walk.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1595,
+            "longitude": 4.494
+          },
+          "address": "Van der Werf Park, 2312 Leiden, Netherlands",
+          "official_website": "https://www.vanderwerfpark.nl",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Leiden American Pilgrim Museum",
+          "ai_summary": "A museum dedicated to the history of the Pilgrims who sailed to America on the Mayflower, featuring exhibits and artifacts.",
+          "name_english": "Pilgrim Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €10",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Guided tours available; check schedule."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late morning or early afternoon",
+          "place_tip": "Learn about the Pilgrims' journey and settlement in America.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.16,
+            "longitude": 4.495
+          },
+          "address": "Witte Singel 26, 2316 XC Leiden, Netherlands",
+          "official_website": "https://www.pilgrimmuseum.nl",
+          "tags": [
+            "History",
+            "Culture",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Aanzicht - Leiden - 20135401 - RCE.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Aanzicht_-_Leiden_-_20135401_-_RCE.jpg/960px-Aanzicht_-_Leiden_-_20135401_-_RCE.jpg",
+                "width": 800,
+                "height": 1096,
+                "attribution": {
+                  "title": "Aanzicht - Leiden - 20135401 - RCE",
+                  "author": "Hoogendijk, C. (Fotograaf)",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Aanzicht_-_Leiden_-_20135401_-_RCE.jpg",
+                  "credit": "Rijksdienst voor het Cultureel Erfgoed",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Weeshuis: aanzicht"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Vlietland Lake Park",
+          "ai_summary": "A recreational area around a lake in Leiden, offering opportunities for swimming, sailing, and picnicking.",
+          "name_english": "Vlietland Lake",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open all day",
+            "Tuesday": "Open all day",
+            "Wednesday": "Open all day",
+            "Thursday": "Open all day",
+            "Friday": "Open all day",
+            "Saturday": "Open all day",
+            "Sunday": "Open all day",
+            "notes": "Swimming area monitored during summer months."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Summer",
+          "place_tip": "Bring a picnic and enjoy a day by the water.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.161,
+            "longitude": 4.496
+          },
+          "address": "Vlietland, 2316 Leiden, Netherlands",
+          "official_website": "https://www.vlietland.nl",
+          "tags": [
+            "Nature",
+            "Recreation",
+            "Relaxation"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Rembrandt Statue & Birthplace",
+          "ai_summary": "A statue and museum dedicated to the famous painter Rembrandt van Rijn, located at his birthplace in Leiden.",
+          "name_english": "Rembrandt Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: €8",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Check for special exhibitions and events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Explore the surrounding area for more historical context.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 52.1605,
+            "longitude": 4.4975
+          },
+          "address": "Oude Singel 28, 2312 RA Leiden, Netherlands",
+          "official_website": "https://www.rembrandtmuseum.nl",
+          "tags": [
+            "Art",
+            "History",
+            "Museum"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:ErfgoedLeiden LEI001016821 Hooglandse Kerk.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/ErfgoedLeiden_LEI001016821_Hooglandse_Kerk.jpg/960px-ErfgoedLeiden_LEI001016821_Hooglandse_Kerk.jpg",
+                "width": 800,
+                "height": 629,
+                "attribution": {
+                  "title": "Hooglandse Kerk",
+                  "author": "Jan Goedeljee",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:ErfgoedLeiden_LEI001016821_Hooglandse_Kerk.jpg",
+                  "credit": "View this work on the website of Erfgoed Leiden en Omstreken",
+                  "usage_terms": "Public domain",
+                  "description": "Noordertransept oostzijde. Detail van het muurwerk en de ramen."
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

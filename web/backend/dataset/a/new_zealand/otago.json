@@ -1,0 +1,1038 @@
+{
+  "country": "New Zealand",
+  "state": "Otago",
+  "cities": [
+    {
+      "city": "Queenstown",
+      "nearest_airport": "Queenstown Airport",
+      "places": [
+        {
+          "name": "Skyline Queenstown",
+          "ai_summary": "A popular attraction featuring a gondola ride, luge tracks, and panoramic views of Queenstown and Lake Wakatipu.",
+          "name_english": "Skyline Queenstown",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:15 AM",
+          "sunset_time": "8:45 PM",
+          "cost": "Entry fee: NZD 44",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 9:00 PM",
+            "Tuesday": "9:00 AM - 9:00 PM",
+            "Wednesday": "9:00 AM - 9:00 PM",
+            "Thursday": "9:00 AM - 9:00 PM",
+            "Friday": "9:00 AM - 9:00 PM",
+            "Saturday": "9:00 AM - 9:00 PM",
+            "Sunday": "9:00 AM - 9:00 PM",
+            "notes": "Open year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Book tickets in advance to avoid queues.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -45.0302,
+            "longitude": 168.6626
+          },
+          "address": "Brecon St, Queenstown, New Zealand",
+          "official_website": "https://www.skyline.co.nz",
+          "tags": [
+            "Adventure",
+            "Scenic",
+            "Family"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:SkyCity Casino Queenstown.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/SkyCity_Casino_Queenstown.jpg/960px-SkyCity_Casino_Queenstown.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "SkyCity Casino Queenstown",
+                  "author": "Orangesclub",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:SkyCity_Casino_Queenstown.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "SkyCity Casino in Queenstown July 2025"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Lake Wakatipu",
+          "ai_summary": "A stunning lake surrounded by mountains, perfect for cruises, kayaking, and scenic walks.",
+          "name_english": "Lake Wakatipu",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:10 AM",
+          "sunset_time": "8:40 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take a scenic cruise to enjoy the lake’s beauty.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -45.08,
+            "longitude": 168.66
+          },
+          "address": "Lake Wakatipu, Queenstown, New Zealand",
+          "official_website": "https://www.queenstownnz.co.nz",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hidden Island in Lake Wakatipu.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Hidden_Island_in_Lake_Wakatipu.jpg/960px-Hidden_Island_in_Lake_Wakatipu.jpg",
+                "width": 800,
+                "height": 493,
+                "attribution": {
+                  "title": "Hidden Island in Lake Wakatipu",
+                  "author": "André Richard Chalmers",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hidden_Island_in_Lake_Wakatipu.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Hidden Island as viewed from Cecil Peak beach with Sunshine Bay and Fernhill in the background"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Shotover Jet",
+          "ai_summary": "An exhilarating jet boat ride through the Shotover River canyons, offering thrills and stunning scenery.",
+          "name_english": "Shotover Jet",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Entry fee: NZD 129",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on public holidays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Wear waterproof clothing for the ride.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -45.02,
+            "longitude": 168.7
+          },
+          "address": "Shotover Jet, Queenstown, New Zealand",
+          "official_website": "https://www.shotoverjet.com",
+          "tags": [
+            "Adventure",
+            "Thrill",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:New Zealand (relief map).png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/New_Zealand_%28relief_map%29.png/960px-New_Zealand_%28relief_map%29.png",
+                "width": 800,
+                "height": 1146,
+                "attribution": {
+                  "title": "New Zealand (relief map)",
+                  "author": "M.Bitton",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:New_Zealand_(relief_map).png",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Relief map of New Zealand"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Milford Sound",
+          "ai_summary": "A breathtaking fjord in Fiordland National Park, known for its stunning scenery, waterfalls, and wildlife.",
+          "name_english": "Milford Sound",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Cruise fee: NZD 90",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "6:00 AM - 8:00 PM",
+            "Tuesday": "6:00 AM - 8:00 PM",
+            "Wednesday": "6:00 AM - 8:00 PM",
+            "Thursday": "6:00 AM - 8:00 PM",
+            "Friday": "6:00 AM - 8:00 PM",
+            "Saturday": "6:00 AM - 8:00 PM",
+            "Sunday": "6:00 AM - 8:00 PM",
+            "notes": "Best visited during the day for sightseeing."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Consider an overnight stay to fully experience the area.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -45.4109,
+            "longitude": 167.7163
+          },
+          "address": "Milford Sound, Fiordland National Park, New Zealand",
+          "official_website": "https://www.milford-sound.co.nz",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Wildlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:School.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/School.svg/800px-School.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "School",
+                  "author": "Vladsinger",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:School.svg",
+                  "credit": "Own work based on: File:Goschool.png",
+                  "usage_terms": "Public domain",
+                  "description": "This is an improvement to a previous image. This image was created from scratch."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Fiordland National Park",
+          "ai_summary": "A UNESCO World Heritage site, known for its stunning fiords, mountains, and rainforests.",
+          "name_english": "Fiordland National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Accessible year-round, but best visited during the day."
+          },
+          "suggested_duration": "Full day",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Take a guided tour for the best experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -45.4162,
+            "longitude": 167.7161
+          },
+          "address": "Fiordland National Park, New Zealand",
+          "official_website": "https://www.fiordland.org.nz",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Boardwalk up near Okaka hut looking to Lake Poteriteri.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Boardwalk_up_near_Okaka_hut_looking_to_Lake_Poteriteri.jpg/960px-Boardwalk_up_near_Okaka_hut_looking_to_Lake_Poteriteri.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Boardwalk up near Okaka hut looking to Lake Poteriteri",
+                  "author": "Thorney¿? at English Wikipedia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Boardwalk_up_near_Okaka_hut_looking_to_Lake_Poteriteri.jpg",
+                  "credit": "Transferred from en.wikipedia to Commons by Fredlyfish4 using CommonsHelper.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "I took this photo, near Okaka hut on the Hump Ridge track."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Arrowtown",
+          "ai_summary": "A charming historic town, known for its well-preserved 19th-century architecture and gold mining history.",
+          "name_english": "Arrowtown",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:20 AM",
+          "sunset_time": "8:50 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Open year-round, but some attractions may close in winter."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the Arrowtown Museum to learn about the gold rush history.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -44.951,
+            "longitude": 168.79
+          },
+          "address": "Arrowtown, New Zealand",
+          "official_website": "https://www.arrowtown.com",
+          "tags": [
+            "History",
+            "Scenic",
+            "Shopping"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Crown Range.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Crown_Range.jpg/960px-Crown_Range.jpg",
+                "width": 800,
+                "height": 213,
+                "attribution": {
+                  "title": "Crown Range",
+                  "author": "Donovan Govan.",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Crown_Range.jpg",
+                  "credit": "Image was created by me using a Canon PowerShot G3 (reference, Panorama 1082-1093; shutter 1/400 s, aperture F4.0, and ISO Auto (maybe 50)).",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "This is a panorama of the view from Crown Range road near Lake Hayes and Queenstown, in New Zealand. The end of the Remarkables mountain range can bee seen on the left."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Otago Peninsula",
+          "ai_summary": "A scenic peninsula known for its wildlife, including albatrosses, seals, and penguins.",
+          "name_english": "Otago Peninsula",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day for wildlife viewing."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the Royal Albatross Centre for guided tours.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -45.7595,
+            "longitude": 170.593
+          },
+          "address": "Otago Peninsula, Dunedin, New Zealand",
+          "official_website": "https://www.tepapa.govt.nz",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Orokonui EcoBurst.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Orokonui_EcoBurst.jpg/960px-Orokonui_EcoBurst.jpg",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Orokonui EcoBurst",
+                  "author": "Ecosanctuary Orokonui",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Orokonui_EcoBurst.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Orokonui Ecosanctuary logo featured in a 'starburst' of green colour, intermingled with native New Zealand flora and fauna."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Larnach Castle",
+          "ai_summary": "New Zealand's only castle, set in beautiful gardens with stunning views over the Otago Harbour.",
+          "name_english": "Larnach Castle",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:05 AM",
+          "sunset_time": "8:55 PM",
+          "cost": "Entry fee: NZD 50",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:30 PM",
+            "Tuesday": "9:00 AM - 5:30 PM",
+            "Wednesday": "9:00 AM - 5:30 PM",
+            "Thursday": "9:00 AM - 5:30 PM",
+            "Friday": "9:00 AM - 5:30 PM",
+            "Saturday": "9:00 AM - 5:30 PM",
+            "Sunday": "9:00 AM - 5:30 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Explore the gardens and enjoy the view from the tower.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -45.8788,
+            "longitude": 170.6285
+          },
+          "address": "Larnach Castle, Dunedin, New Zealand",
+          "official_website": "https://www.larnachcastle.co.nz",
+          "tags": [
+            "History",
+            "Architecture",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Position of Otago.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Position_of_Otago.png",
+                "width": 405,
+                "height": 590,
+                "attribution": {
+                  "title": "Position of Otago",
+                  "author": null,
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Position_of_Otago.png",
+                  "credit": null,
+                  "usage_terms": "Public domain",
+                  "description": null
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Moeraki Boulders",
+          "ai_summary": "Famous spherical boulders scattered along Koekohe Beach, a geological wonder and popular photography spot.",
+          "name_english": "Moeraki Boulders",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited at low tide for optimal viewing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Early morning or late afternoon",
+          "place_tip": "Check the tide times before your visit.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -45.3234,
+            "longitude": 170.8105
+          },
+          "address": "Moeraki Boulders, Otago, New Zealand",
+          "official_website": "https://www.doc.govt.nz",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hampden Presbyterian Church 27.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hampden_Presbyterian_Church_27.jpg/960px-Hampden_Presbyterian_Church_27.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Hampden Presbyterian Church 27",
+                  "author": "Wildman NZ",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hampden_Presbyterian_Church_27.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Hampden Presbyterian Church"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Dunedin Railway Station",
+          "ai_summary": "An architectural landmark in Dunedin, known for its beautiful facade and historic significance.",
+          "name_english": "Dunedin Railway Station",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "8:00 AM - 6:00 PM",
+            "Tuesday": "8:00 AM - 6:00 PM",
+            "Wednesday": "8:00 AM - 6:00 PM",
+            "Thursday": "8:00 AM - 6:00 PM",
+            "Friday": "8:00 AM - 6:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Don’t miss the beautiful stained glass windows.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -45.8742,
+            "longitude": 170.5036
+          },
+          "address": "Dunedin Railway Station, Dunedin, New Zealand",
+          "official_website": "https://www.dunedinrailways.co.nz",
+          "tags": [
+            "History",
+            "Architecture",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:'Chief Ngairo Rakaihikuroa in Wairarapa, New Zealand', oil on canvas painting by Gottfried Lindauer, Dunedin Public Art Gallery.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/%27Chief_Ngairo_Rakaihikuroa_in_Wairarapa%2C_New_Zealand%27%2C_oil_on_canvas_painting_by_Gottfried_Lindauer%2C_Dunedin_Public_Art_Gallery.JPG",
+                "width": 608,
+                "height": 713,
+                "attribution": {
+                  "title": "Chief Ngairo Rakaihikuroa in Wairarapa, New Zealand title QS:P1476,en:\"Chief Ngairo Rakaihikuroa in Wairarapa, New Zealand \"label QS:Len,\"Chief Ngairo Rakaihikuroa in Wairarapa, New Zealand \"",
+                  "author": "Gottfried Lindauer",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:'Chief_Ngairo_Rakaihikuroa_in_Wairarapa,_New_Zealand',_oil_on_canvas_painting_by_Gottfried_Lindauer,_Dunedin_Public_Art_Gallery.JPG",
+                  "credit": "Dunedin Public Art Gallery",
+                  "usage_terms": "Public domain",
+                  "description": "Chief Ngairo Rakaihikuroa in Wairarapa, New Zealand, oil on canvas painting by Gottfried Lindauer, Dunedin Public Art Gallery"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Taiaroa Head",
+          "ai_summary": "A scenic headland at the entrance of the Otago Harbour, known for the Royal Albatross Centre and stunning views.",
+          "name_english": "Taiaroa Head",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Take a guided tour to learn about the albatrosses.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -45.7595,
+            "longitude": 170.793
+          },
+          "address": "Taiaroa Head, Dunedin, New Zealand",
+          "official_website": "https://www.tepapa.govt.nz",
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Damaged fence Saint Kilda, 25 October 2025.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Damaged_fence_Saint_Kilda%2C_25_October_2025.jpg/960px-Damaged_fence_Saint_Kilda%2C_25_October_2025.jpg",
+                "width": 800,
+                "height": 451,
+                "attribution": {
+                  "title": "Damaged fence Saint Kilda, 25 October 2025",
+                  "author": "Andykatib",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Damaged_fence_Saint_Kilda,_25_October_2025.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "Damaged fence outside Saint Kilda Brass following the October 2025 storm in Dunedin"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Cardrona Alpine Resort",
+          "ai_summary": "A popular ski resort offering a range of winter sports and activities, as well as stunning mountain views.",
+          "name_english": "Cardrona Alpine Resort",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Ski pass: NZD 109",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "9:00 AM - 4:00 PM",
+            "Tuesday": "9:00 AM - 4:00 PM",
+            "Wednesday": "9:00 AM - 4:00 PM",
+            "Thursday": "9:00 AM - 4:00 PM",
+            "Friday": "9:00 AM - 4:00 PM",
+            "Saturday": "9:00 AM - 4:00 PM",
+            "Sunday": "9:00 AM - 4:00 PM",
+            "notes": "Open during the winter season, check website for details."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Book ski passes and rentals in advance.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -44.9521,
+            "longitude": 168.6626
+          },
+          "address": "Cardrona Alpine Resort, Wanaka, New Zealand",
+          "official_website": "https://www.cardrona.com",
+          "tags": [
+            "Skiing",
+            "Snowboarding",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cadrona (261408228).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cadrona_%28261408228%29.jpg/960px-Cadrona_%28261408228%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cadrona (261408228)",
+                  "author": "Phil Whitehouse from London, United Kingdom",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cadrona_(261408228).jpg",
+                  "credit": "Cadrona",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "Cadrona"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Treble Cone Ski Area",
+          "ai_summary": "A premier ski destination known for its challenging slopes and stunning views of Lake Wanaka and the Southern Alps.",
+          "name_english": "Treble Cone Ski Area",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Ski pass: NZD 119",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "9:00 AM - 4:00 PM",
+            "Tuesday": "9:00 AM - 4:00 PM",
+            "Wednesday": "9:00 AM - 4:00 PM",
+            "Thursday": "9:00 AM - 4:00 PM",
+            "Friday": "9:00 AM - 4:00 PM",
+            "Saturday": "9:00 AM - 4:00 PM",
+            "Sunday": "9:00 AM - 4:00 PM",
+            "notes": "Open during the winter season, check website for details."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Winter",
+          "place_tip": "Ideal for experienced skiers and snowboarders.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -44.7351,
+            "longitude": 168.7342
+          },
+          "address": "Treble Cone Ski Area, Wanaka, New Zealand",
+          "official_website": "https://www.treblecone.com",
+          "tags": [
+            "Skiing",
+            "Snowboarding",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Otago Central Rail Trail",
+          "ai_summary": "A popular cycling and walking trail, following the path of the historic Otago Central Railway.",
+          "name_english": "Otago Central Rail Trail",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Trail pass: NZD 50",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best enjoyed over multiple days, bike rentals available."
+          },
+          "suggested_duration": "2-3 days",
+          "best_time_to_visit": "Spring or Autumn",
+          "place_tip": "Book accommodation and bike rentals in advance.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -45.0972,
+            "longitude": 169.1868
+          },
+          "address": "Otago Central Rail Trail, New Zealand",
+          "official_website": "https://www.otagocentralrailtrail.co.nz",
+          "tags": [
+            "Cycling",
+            "Walking",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Commons-logo.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/960px-Commons-logo.svg.png",
+                "width": 800,
+                "height": 1075,
+                "attribution": {
+                  "title": "Commons-logo",
+                  "author": "Reidab, Grunt, 3247, Pumbaa",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Commons-logo.svg",
+                  "credit": "Original created by Reidab (PNG version)\nSVG version was created by Grunt and cleaned up by 3247.\nRe-creation with SVG geometry features by Pumbaa, using a proper partial circle and SVG geometry features. (Former versions used to be slightly warped.)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The Wikimedia Commons logo, SVG version."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Glenorchy",
+          "ai_summary": "A small town at the northern end of Lake Wakatipu, known for its stunning scenery and as a gateway to the Routeburn Track.",
+          "name_english": "Glenorchy",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "Half day",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Visit the Glenorchy Wharf for stunning lake and mountain views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -45.0311,
+            "longitude": 168.6626
+          },
+          "address": "Glenorchy, New Zealand",
+          "official_website": "https://www.glenorchy.nz",
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Hiking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Exterior-hulbert-house-in-queenstown-2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Exterior-hulbert-house-in-queenstown-2.jpg/960px-Exterior-hulbert-house-in-queenstown-2.jpg",
+                "width": 800,
+                "height": 455,
+                "attribution": {
+                  "title": "Exterior-hulbert-house-in-queenstown-2",
+                  "author": "Yoshi Watanabe",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Exterior-hulbert-house-in-queenstown-2.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Hulbert House architecture"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Toitū Otago Settlers Museum",
+          "ai_summary": "A museum in Dunedin, showcasing the history and heritage of the Otago region.",
+          "name_english": "Toitū Otago Settlers Museum",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Entry fee: NZD 15",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 5:00 PM",
+            "Tuesday": "10:00 AM - 5:00 PM",
+            "Wednesday": "10:00 AM - 5:00 PM",
+            "Thursday": "10:00 AM - 5:00 PM",
+            "Friday": "10:00 AM - 5:00 PM",
+            "Saturday": "10:00 AM - 5:00 PM",
+            "Sunday": "10:00 AM - 5:00 PM",
+            "notes": "Closed on Christmas Day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Anytime",
+          "place_tip": "Check out the interactive exhibits and the historic buildings.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -45.8742,
+            "longitude": 170.5036
+          },
+          "address": "Toitū Otago Settlers Museum, Dunedin, New Zealand",
+          "official_website": "https://www.toituosm.com",
+          "tags": [
+            "History",
+            "Museum",
+            "Culture"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BurnsStatueDunedin.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/BurnsStatueDunedin.jpg",
+                "width": 567,
+                "height": 639,
+                "attribution": {
+                  "title": "BurnsStatueDunedin",
+                  "author": "Grutness at English Wikipedia",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BurnsStatueDunedin.jpg",
+                  "credit": "photographed by James Dignan (User:Grutness), May 3, 2009.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "The statue of Robert Burns in The Octagon, Dunedin, New Zealand."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Speight's Brewery Tour",
+          "ai_summary": "A tour of the famous Speight's Brewery in Dunedin, including tastings of their iconic beers.",
+          "name_english": "Speight's Brewery Tour",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "Tour fee: NZD 25",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "10:00 AM - 4:00 PM",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "10:00 AM - 4:00 PM",
+            "Sunday": "10:00 AM - 4:00 PM",
+            "notes": "Closed on Christmas Day and Good Friday."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Don’t miss the tasting session at the end of the tour.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -45.8788,
+            "longitude": 170.5036
+          },
+          "address": "Speight's Brewery, Dunedin, New Zealand",
+          "official_website": "https://www.speights.co.nz",
+          "tags": [
+            "Brewery",
+            "Tour",
+            "Tasting"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cenotaph, Dunedin, New Zealand1.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Cenotaph%2C_Dunedin%2C_New_Zealand1.JPG/960px-Cenotaph%2C_Dunedin%2C_New_Zealand1.JPG",
+                "width": 800,
+                "height": 1067,
+                "attribution": {
+                  "title": "Cenotaph, Dunedin, New Zealand1",
+                  "author": "Benchill",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cenotaph,_Dunedin,_New_Zealand1.JPG",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Cenotaph in Queens Gardens, Dunedin, New Zealand. Otago Settlers Museum in the background"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Blue Pools Walk",
+          "ai_summary": "A scenic walk in Mount Aspiring National Park, leading to stunning blue glacial pools.",
+          "name_english": "Blue Pools Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "9:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Midday",
+          "place_tip": "Bring your camera for stunning photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -44.6833,
+            "longitude": 168.3833
+          },
+          "address": "Blue Pools Walk, Mount Aspiring National Park, New Zealand",
+          "official_website": "https://www.doc.govt.nz",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Scenic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:2023 NZ Census Population Density - Dunedin City.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/2023_NZ_Census_Population_Density_-_Dunedin_City.png/960px-2023_NZ_Census_Population_Density_-_Dunedin_City.png",
+                "width": 800,
+                "height": 870,
+                "attribution": {
+                  "title": "2023 NZ Census Population Density - Dunedin City",
+                  "author": "Vardion",
+                  "license": "CC BY 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:2023_NZ_Census_Population_Density_-_Dunedin_City.png",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution 4.0",
+                  "description": "Density of usually resident population per Statistical Area 3 according to the 2023 New Zealand Census; made using Stats NZ data/shapefiles and QGIS.\n  Less than 1 person per square km\n  1 person per square km and above\n  5 people per square km and above\n  10 people per square km and above\n  50 people per square km and above\n  100 people per square km and above\n  250 people per square km and above\n  500 people per square km and above\n  750 people per square km and above\n  1000 people per square km and above\n  2000 people per square km and above\n  3000 people per square km and above\n  4000 people per square km and above"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

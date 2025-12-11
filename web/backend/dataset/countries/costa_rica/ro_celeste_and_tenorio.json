@@ -1,0 +1,867 @@
+{
+  "country": "Costa Rica",
+  "state": "Ro Celeste And Tenorio",
+  "cities": [
+    {
+      "city": "Río Celeste and Tenorio",
+      "nearest_airport": "Daniel Oduber Quirós International Airport (LIR)",
+      "places": [
+        {
+          "name": "Río Celeste Waterfall",
+          "ai_summary": "Río Celeste Waterfall is a breathtaking natural wonder known for its vibrant turquoise waters, surrounded by lush rainforest. It's a must-visit spot for nature lovers and photographers.",
+          "name_english": "Río Celeste Waterfall",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "08:00-16:00",
+            "Tuesday": "08:00-16:00",
+            "Wednesday": "08:00-16:00",
+            "Thursday": "08:00-16:00",
+            "Friday": "08:00-16:00",
+            "Saturday": "08:00-16:00",
+            "Sunday": "08:00-16:00",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Dry season (December to April)",
+          "place_tip": "Wear sturdy shoes for the hike and bring a raincoat during the wet season.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 10.7041,
+            "longitude": -84.9847
+          },
+          "address": "Tenorio Volcano National Park, Alajuela Province, Costa Rica",
+          "official_website": "https://www.sinac.go.cr/",
+          "tags": [
+            "Nature",
+            "Waterfall",
+            "Hiking",
+            "Photography"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CascadaRioPacuareCostaRica.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/CascadaRioPacuareCostaRica.jpg",
+                "width": 574,
+                "height": 861,
+                "attribution": {
+                  "title": "CascadaRioPacuareCostaRica",
+                  "author": "The original uploader was Gengiskanhg at Spanish Wikipedia.",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CascadaRioPacuareCostaRica.jpg",
+                  "credit": "Transferred from es.wikipedia to Commons.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Una de las 20 cascadas del río Pacuare de Costa Rica\nEsta imagen ha sido tomada por mi en una expedición a Costa Rica y cedo totalmente los derechos.--gengiskanhg 01:26 4 feb, 2005 (CET)\n\nes:Categoría:Geografía (imagen)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.815
+        },
+        {
+          "name": "Blue Lagoon (Laguna Azul)",
+          "ai_summary": "The Blue Lagoon, or Laguna Azul, is a serene pool of turquoise water within the Río Celeste area. It's a peaceful spot for relaxation and enjoying the natural beauty of the region.",
+          "name_english": "Blue Lagoon (Laguna Azul)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-16:00",
+            "Tuesday": "08:00-16:00",
+            "Wednesday": "08:00-16:00",
+            "Thursday": "08:00-16:00",
+            "Friday": "08:00-16:00",
+            "Saturday": "08:00-16:00",
+            "Sunday": "08:00-16:00",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a camera to capture the vivid blue waters.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 10.7083,
+            "longitude": -84.99
+          },
+          "address": "Tenorio Volcano National Park, Alajuela Province, Costa Rica",
+          "official_website": "https://www.sinac.go.cr/",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Photography",
+            "Hiking"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.792
+        },
+        {
+          "name": "Los Teñideros (Color Merge Point)",
+          "ai_summary": "Los Teñideros is the point where two clear rivers merge, creating the vibrant blue color of Río Celeste. It's a fascinating natural phenomenon and a highlight of the park.",
+          "name_english": "Los Teñideros (Color Merge Point)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-16:00",
+            "Tuesday": "08:00-16:00",
+            "Wednesday": "08:00-16:00",
+            "Thursday": "08:00-16:00",
+            "Friday": "08:00-16:00",
+            "Saturday": "08:00-16:00",
+            "Sunday": "08:00-16:00",
+            "notes": "Best visited during daylight hours."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit during the dry season for the clearest blue waters.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 10.71,
+            "longitude": -84.995
+          },
+          "address": "Tenorio Volcano National Park, Alajuela Province, Costa Rica",
+          "official_website": "https://www.sinac.go.cr/",
+          "tags": [
+            "Nature",
+            "Phenomenon",
+            "Hiking",
+            "Photography"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.792
+        },
+        {
+          "name": "Tenorio Volcano National Park Trail",
+          "ai_summary": "The Tenorio Volcano National Park Trail is a scenic hiking route offering stunning views of the volcano, rainforest, and diverse wildlife. It's a great way to explore the natural beauty of the park.",
+          "name_english": "Tenorio Volcano National Park Trail",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-16:00",
+            "Tuesday": "08:00-16:00",
+            "Wednesday": "08:00-16:00",
+            "Thursday": "08:00-16:00",
+            "Friday": "08:00-16:00",
+            "Saturday": "08:00-16:00",
+            "Sunday": "08:00-16:00",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "3–4 hours",
+          "best_time_to_visit": "Dry season (December to April)",
+          "place_tip": "Start early to avoid the heat and enjoy birdwatching.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 10.735,
+            "longitude": -84.973
+          },
+          "address": "Tenorio Volcano National Park, Alajuela Province, Costa Rica",
+          "official_website": "https://www.sinac.go.cr/",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Volcano",
+            "Wildlife"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CascadaRioPacuareCostaRica.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/CascadaRioPacuareCostaRica.jpg",
+                "width": 574,
+                "height": 861,
+                "attribution": {
+                  "title": "CascadaRioPacuareCostaRica",
+                  "author": "The original uploader was Gengiskanhg at Spanish Wikipedia.",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CascadaRioPacuareCostaRica.jpg",
+                  "credit": "Transferred from es.wikipedia to Commons.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Una de las 20 cascadas del río Pacuare de Costa Rica\nEsta imagen ha sido tomada por mi en una expedición a Costa Rica y cedo totalmente los derechos.--gengiskanhg 01:26 4 feb, 2005 (CET)\n\nes:Categoría:Geografía (imagen)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7777
+        },
+        {
+          "name": "Heliconias Rainforest Night Walk",
+          "ai_summary": "The Heliconias Rainforest Night Walk offers a unique opportunity to explore the rainforest after dark. Guided tours reveal the fascinating nocturnal wildlife and the enchanting sounds of the rainforest at night.",
+          "name_english": "Heliconias Rainforest Night Walk",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "18:00-22:00",
+            "Tuesday": "18:00-22:00",
+            "Wednesday": "18:00-22:00",
+            "Thursday": "18:00-22:00",
+            "Friday": "18:00-22:00",
+            "Saturday": "18:00-22:00",
+            "Sunday": "18:00-22:00",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Bring a flashlight and be prepared for a magical experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 10.736,
+            "longitude": -84.97
+          },
+          "address": "Heliconias Lodge, Bijagua, Alajuela Province, Costa Rica",
+          "official_website": "https://www.heliconiaslodge.com/",
+          "tags": [
+            "Night Walk",
+            "Wildlife",
+            "Rainforest",
+            "Photography"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.761
+        },
+        {
+          "name": "Bijagua Hanging Bridges",
+          "ai_summary": "The Bijagua Hanging Bridges are a series of suspension bridges offering a unique perspective of the rainforest canopy. It's an exciting and scenic walk high above the ground.",
+          "name_english": "Bijagua Hanging Bridges",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "07:00-17:00",
+            "Tuesday": "07:00-17:00",
+            "Wednesday": "07:00-17:00",
+            "Thursday": "07:00-17:00",
+            "Friday": "07:00-17:00",
+            "Saturday": "07:00-17:00",
+            "Sunday": "07:00-17:00",
+            "notes": "Wear comfortable shoes and be prepared for a workout."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Don't forget your camera for stunning photos.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 10.7365,
+            "longitude": -84.965
+          },
+          "address": "Bijagua, Alajuela Province, Costa Rica",
+          "official_website": "https://www.bijuaguhangingbridges.com/",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Photography",
+            "Hiking"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.7855
+        },
+        {
+          "name": "Sloth Trail Bijagua",
+          "ai_summary": "The Sloth Trail in Bijagua is a fantastic place to see sloths in their natural habitat. The trail is well-maintained and offers a chance to see other wildlife as well.",
+          "name_english": "Sloth Trail Bijagua",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Dry season (December to April)",
+          "place_tip": "Be quiet and patient for the best chance to see sloths.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 10.7355,
+            "longitude": -84.96
+          },
+          "address": "Bijagua, Alajuela Province, Costa Rica",
+          "official_website": "https://www.slothtrailbijagua.com/",
+          "tags": [
+            "Wildlife",
+            "Hiking",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.7865
+        },
+        {
+          "name": "Tenorio River Tubing",
+          "ai_summary": "Experience the thrill of tubing down the Tenorio River. This activity is perfect for adventure seekers and offers a unique view of the rainforest and wildlife.",
+          "name_english": "Tenorio River Tubing",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00-16:00",
+            "Tuesday": "08:00-16:00",
+            "Wednesday": "08:00-16:00",
+            "Thursday": "08:00-16:00",
+            "Friday": "08:00-16:00",
+            "Saturday": "08:00-16:00",
+            "Sunday": "08:00-16:00",
+            "notes": "Not recommended during heavy rain."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Dry season (December to April)",
+          "place_tip": "Listen to your guide and enjoy the ride.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 10.74,
+            "longitude": -84.95
+          },
+          "address": "Tenorio River, Alajuela Province, Costa Rica",
+          "official_website": "https://www.tenoriorivertubing.com/",
+          "tags": [
+            "Adventure",
+            "Water Activity",
+            "Nature",
+            "Wildlife"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.759
+        },
+        {
+          "name": "Catarata Llanos de Cortés (Nearby)",
+          "ai_summary": "Catarata Llanos de Cortés is a beautiful waterfall located a short drive from Tenorio Volcano National Park. It's a great spot for a refreshing swim and a picnic.",
+          "name_english": "Catarata Llanos de Cortés",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-16:00",
+            "Tuesday": "08:00-16:00",
+            "Wednesday": "08:00-16:00",
+            "Thursday": "08:00-16:00",
+            "Friday": "08:00-16:00",
+            "Saturday": "08:00-16:00",
+            "Sunday": "08:00-16:00",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Dry season (December to April)",
+          "place_tip": "Bring a swimsuit and enjoy a picnic by the waterfall.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 10.7333,
+            "longitude": -84.9833
+          },
+          "address": "Catarata Llanos de Cortés, Bagaces, Guanacaste Province, Costa Rica",
+          "official_website": "https://www.sinac.go.cr/",
+          "tags": [
+            "Nature",
+            "Waterfall",
+            "Swimming",
+            "Picnic"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.796
+        },
+        {
+          "name": "Heliconias Lodge Canopy Walk",
+          "ai_summary": "The Heliconias Lodge Canopy Walk is an elevated walkway that takes you through the rainforest canopy. It's a unique way to experience the biodiversity of the area.",
+          "name_english": "Heliconias Lodge Canopy Walk",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "07:00-17:00",
+            "Tuesday": "07:00-17:00",
+            "Wednesday": "07:00-17:00",
+            "Thursday": "07:00-17:00",
+            "Friday": "07:00-17:00",
+            "Saturday": "07:00-17:00",
+            "Sunday": "07:00-17:00",
+            "notes": "Wear comfortable shoes and be prepared for a unique experience."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Look out for birds and other wildlife in the canopy.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 10.736,
+            "longitude": -84.965
+          },
+          "address": "Heliconias Lodge, Bijagua, Alajuela Province, Costa Rica",
+          "official_website": "https://www.heliconiaslodge.com/",
+          "tags": [
+            "Nature",
+            "Canopy Walk",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.7715
+        },
+        {
+          "name": "Hot Springs in Bijagua",
+          "ai_summary": "The Hot Springs in Bijagua are natural thermal springs located in a beautiful rainforest setting. It's a perfect place to relax and unwind after a day of exploring.",
+          "name_english": "Hot Springs in Bijagua",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Bring your own towel and swimsuit."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Afternoon or early evening",
+          "place_tip": "Enjoy the natural surroundings and relax in the warm waters.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 10.735,
+            "longitude": -84.95
+          },
+          "address": "Bijagua, Alajuela Province, Costa Rica",
+          "official_website": "https://www.bijuaguhotsprings.com/",
+          "tags": [
+            "Relaxation",
+            "Nature",
+            "Hot Springs",
+            "Photography"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.778
+        },
+        {
+          "name": "Tenorio Cloud Forest Hike",
+          "ai_summary": "The Tenorio Cloud Forest Hike is a guided tour through the mystical cloud forest surrounding the Tenorio Volcano. It's an otherworldly experience with unique flora and fauna.",
+          "name_english": "Tenorio Cloud Forest Hike",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-16:00",
+            "Tuesday": "08:00-16:00",
+            "Wednesday": "08:00-16:00",
+            "Thursday": "08:00-16:00",
+            "Friday": "08:00-16:00",
+            "Saturday": "08:00-16:00",
+            "Sunday": "08:00-16:00",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "3–4 hours",
+          "best_time_to_visit": "Dry season (December to April)",
+          "place_tip": "Dress in layers and be prepared for changing weather conditions.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 10.74,
+            "longitude": -84.95
+          },
+          "address": "Tenorio Volcano National Park, Alajuela Province, Costa Rica",
+          "official_website": "https://www.sinac.go.cr/",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Cloud Forest",
+            "Wildlife"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Arenallong.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Arenallong.jpg/960px-Arenallong.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Arenallong",
+                  "author": "Flickr: Matthew Landry\nWikipedia Matthew.landry at en.wikipedia",
+                  "license": "CC BY-SA 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Arenallong.jpg",
+                  "credit": "Own work - also on https://www.flickr.com/photos/75653214@N00/297589488",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.5",
+                  "description": "Matthew G. Landry, 2006.  https://www.flickr.com/photo_zoom.gne?id=297589488&amp;context=set-72157594376579278&amp;size=o"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7827
+        },
+        {
+          "name": "Birdwatching Tours",
+          "ai_summary": "Birdwatching Tours in the Río Celeste and Tenorio area offer a chance to see a wide variety of bird species in their natural habitat. Expert guides help you spot and identify the birds.",
+          "name_english": "Birdwatching Tours",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best during the early morning or late afternoon."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Year-round",
+          "place_tip": "Bring binoculars and a bird guidebook for the best experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 10.74,
+            "longitude": -84.95
+          },
+          "address": "Río Celeste and Tenorio area, Alajuela Province, Costa Rica",
+          "official_website": "https://www.birdwatchingcostarica.com/",
+          "tags": [
+            "Birdwatching",
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.811
+        },
+        {
+          "name": "Tapir Valley Nature Reserve",
+          "ai_summary": "Tapir Valley Nature Reserve is a protected area that is home to a variety of wildlife, including the endangered Baird's tapir. The reserve offers guided tours for wildlife viewing.",
+          "name_english": "Tapir Valley Nature Reserve",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-16:00",
+            "Tuesday": "08:00-16:00",
+            "Wednesday": "08:00-16:00",
+            "Thursday": "08:00-16:00",
+            "Friday": "08:00-16:00",
+            "Saturday": "08:00-16:00",
+            "Sunday": "08:00-16:00",
+            "notes": "Closed on major holidays."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Dry season (December to April)",
+          "place_tip": "Be quiet and patient for the best chance to see wildlife.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 10.74,
+            "longitude": -84.95
+          },
+          "address": "Tapir Valley Nature Reserve, Alajuela Province, Costa Rica",
+          "official_website": "https://www.tapirvalleynaturereserve.com/",
+          "tags": [
+            "Wildlife",
+            "Nature",
+            "Conservation",
+            "Photography"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:CascadaRioPacuareCostaRica.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/CascadaRioPacuareCostaRica.jpg",
+                "width": 574,
+                "height": 861,
+                "attribution": {
+                  "title": "CascadaRioPacuareCostaRica",
+                  "author": "The original uploader was Gengiskanhg at Spanish Wikipedia.",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:CascadaRioPacuareCostaRica.jpg",
+                  "credit": "Transferred from es.wikipedia to Commons.",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Una de las 20 cascadas del río Pacuare de Costa Rica\nEsta imagen ha sido tomada por mi en una expedición a Costa Rica y cedo totalmente los derechos.--gengiskanhg 01:26 4 feb, 2005 (CET)\n\nes:Categoría:Geografía (imagen)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7995
+        },
+        {
+          "name": "Bijagua Town Market",
+          "ai_summary": "The Bijagua Town Market is a local market where you can experience the culture and flavors of the region. It's a great place to buy fresh produce, souvenirs, and local handicrafts.",
+          "name_english": "Bijagua Town Market",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local fruits and buy some souvenirs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 10.736,
+            "longitude": -84.96
+          },
+          "address": "Bijagua, Alajuela Province, Costa Rica",
+          "official_website": "https://www.bijaguamarket.com/",
+          "tags": [
+            "Culture",
+            "Shopping",
+            "Food",
+            "Souvenirs"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.7695
+        },
+        {
+          "name": "Eco Termales Rainforest Spa",
+          "ai_summary": "Eco Termales Rainforest Spa offers a unique wellness experience in the rainforest. Enjoy natural hot springs, spa treatments, and the tranquility of the forest.",
+          "name_english": "Eco Termales Rainforest Spa",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine a spa treatment with a soak in the hot springs.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 10.74,
+            "longitude": -84.95
+          },
+          "address": "Eco Termales, Alajuela Province, Costa Rica",
+          "official_website": "https://www.ecotermales.com/",
+          "tags": [
+            "Wellness",
+            "Spa",
+            "Hot Springs",
+            "Nature"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.786
+        },
+        {
+          "name": "Río Celeste Canoe Trip",
+          "ai_summary": "The Río Celeste Canoe Trip is a guided tour that takes you along the beautiful Río Celeste. Enjoy the stunning scenery and keep an eye out for wildlife along the riverbanks.",
+          "name_english": "Río Celeste Canoe Trip",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Paid",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-16:00",
+            "Tuesday": "08:00-16:00",
+            "Wednesday": "08:00-16:00",
+            "Thursday": "08:00-16:00",
+            "Friday": "08:00-16:00",
+            "Saturday": "08:00-16:00",
+            "Sunday": "08:00-16:00",
+            "notes": "Not recommended during heavy rain."
+          },
+          "suggested_duration": "2–3 hours",
+          "best_time_to_visit": "Dry season (December to April)",
+          "place_tip": "Wear a swimsuit and be prepared to get wet.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 10.74,
+            "longitude": -84.95
+          },
+          "address": "Río Celeste, Alajuela Province, Costa Rica",
+          "official_website": "https://www.riocelestecanoetrip.com/",
+          "tags": [
+            "Adventure",
+            "Water Activity",
+            "Nature",
+            "Wildlife"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.787
+        },
+        {
+          "name": "Blue Water River Photography Point",
+          "ai_summary": "The Blue Water River Photography Point is a scenic spot along the Río Celeste, known for its stunning blue waters and picturesque surroundings. It's a popular spot for photographers.",
+          "name_english": "Blue Water River Photography Point",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30",
+          "sunset_time": "17:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best visited in the morning."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring a tripod for the best photography results.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 10.74,
+            "longitude": -84.95
+          },
+          "address": "Río Celeste, Alajuela Province, Costa Rica",
+          "official_website": "https://www.riocelestebluewater.com/",
+          "tags": [
+            "Photography",
+            "Nature",
+            "Scenic Spot",
+            "Hiking"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.779
+        },
+        {
+          "name": "Sunset Over Miravalles Volcano",
+          "ai_summary": "The Sunset Over Miravalles Volcano is a breathtaking sight as the sun sets behind the majestic volcano, casting a warm glow over the landscape. It's a perfect way to end a day of exploration.",
+          "name_english": "Sunset Over Miravalles Volcano",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "17:45",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best viewed from a high vantage point."
+          },
+          "suggested_duration": "1–2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Bring a blanket and enjoy the view.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 10.74,
+            "longitude": -84.95
+          },
+          "address": "Miravalles Volcano, Guanacaste Province, Costa Rica",
+          "official_website": "https://www.sinac.go.cr/",
+          "tags": [
+            "Nature",
+            "Volcano",
+            "Sunset",
+            "Photography"
+          ],
+          "state": "Ro Celeste And Tenorio",
+          "photos": {},
+          "rank_score": 0.83
+        }
+      ]
+    }
+  ]
+}

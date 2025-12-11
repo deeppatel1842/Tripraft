@@ -1,0 +1,981 @@
+{
+  "country": "Madagascar",
+  "state": "Nosy Be Archipelago",
+  "cities": [
+    {
+      "city": "Hell-Ville (Andoany)",
+      "nearest_airport": "Fascene Airport",
+      "places": [
+        {
+          "name": "Mount Passot Sunset View",
+          "ai_summary": "A panoramic viewpoint offering breathtaking sunset vistas over the Nosy Be archipelago and surrounding waters.",
+          "name_english": "Mount Passot Sunset View",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:20",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during clear weather."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "May to October",
+          "place_tip": "Bring a camera to capture the stunning views.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.3122,
+            "longitude": 48.2203
+          },
+          "address": "Nosy Be, Madagascar",
+          "official_website": "https://www.nosybetourism.com",
+          "tags": [
+            "Viewpoint",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {},
+          "rank_score": 0.838
+        },
+        {
+          "name": "Lokobe Strict Reserve",
+          "ai_summary": "A protected rainforest reserve home to the rare black lemurs and diverse endemic wildlife.",
+          "name_english": "Lokobe Strict Reserve",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Guided tours are mandatory."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "June to September",
+          "place_tip": "Wear comfortable shoes and insect repellent.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -13.3925,
+            "longitude": 48.3147
+          },
+          "address": "Lokobe, Nosy Be, Madagascar",
+          "official_website": "https://www.lokobereserve.com",
+          "tags": [
+            "Wildlife",
+            "Nature",
+            "Adventure"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Panther_chameleon_(Furcifer_pardalis)_male_Nosy_Be.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Panther_chameleon_%28Furcifer_pardalis%29_male_Nosy_Be.jpg/960px-Panther_chameleon_%28Furcifer_pardalis%29_male_Nosy_Be.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Panther chameleon (Furcifer pardalis) male Nosy Be",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Panther_chameleon_(Furcifer_pardalis)_male_Nosy_Be.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Panther chameleon (<i>Furcifer pardalis</i>) male, Lokobe Strict Reserve, Nosy Be, Madagascar"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Andilana Beach",
+          "ai_summary": "A beautiful beach known for its white sand, clear waters, and vibrant marine life, perfect for snorkeling and relaxation.",
+          "name_english": "Andilana Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "07:00-19:00",
+            "Tuesday": "07:00-19:00",
+            "Wednesday": "07:00-19:00",
+            "Thursday": "07:00-19:00",
+            "Friday": "07:00-19:00",
+            "Saturday": "07:00-19:00",
+            "Sunday": "07:00-19:00",
+            "notes": "Best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Bring snorkeling gear and sunscreen.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.2904,
+            "longitude": 48.261
+          },
+          "address": "Nosy Be, Madagascar",
+          "official_website": "https://www.nosybe.com",
+          "tags": [
+            "Beach",
+            "Snorkeling",
+            "Relaxation"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {},
+          "rank_score": 0.746
+        },
+        {
+          "name": "Nosy Komba",
+          "ai_summary": "An island known for its lemur population, beautiful beaches, and local crafts, offering a glimpse into the traditional Malagasy lifestyle.",
+          "name_english": "Nosy Komba",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:50",
+          "sunset_time": "18:10",
+          "cost": "Boat fare",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Accessed by boat from Nosy Be."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "May to October",
+          "place_tip": "Visit a local craft market and try the lemur spotting tour.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.3333,
+            "longitude": 48.3833
+          },
+          "address": "Nosy Komba, Madagascar",
+          "official_website": "https://www.nosykomba.com",
+          "tags": [
+            "Island",
+            "Lemurs",
+            "Culture"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Madagascar21.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Madagascar21.jpg/960px-Madagascar21.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Madagascar21",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Susi4\" title=\"User:Susi4\">Susi4</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Madagascar21.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Platja a Nosy Komba (Madagascar)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Nosy Tanikely Marine Reserve",
+          "ai_summary": "A protected marine area ideal for snorkeling and diving, featuring coral reefs, tropical fish, and other marine life.",
+          "name_english": "Nosy Tanikely Marine Reserve",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Snorkeling gear can be rented on-site."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "March to December",
+          "place_tip": "Join a guided snorkeling tour to explore the best spots.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -13.3094,
+            "longitude": 48.2356
+          },
+          "address": "Nosy Tanikely, Madagascar",
+          "official_website": "https://www.nosytanikelyreserve.com",
+          "tags": [
+            "Marine Reserve",
+            "Snorkeling",
+            "Diving"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Nosy_Tanikely_130.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Nosy_Tanikely_130.jpg/960px-Nosy_Tanikely_130.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Nosy Tanikely 130",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Esculapio\" class=\"mw-userlink mw-redirect\" title=\"User:Esculapio\">tato grasso</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Nosy_Tanikely_130.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Nosy Tanikely, Madagascar"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Nosy Sakatia",
+          "ai_summary": "A tranquil island famous for its turtle population and beautiful beaches, offering a peaceful retreat for visitors.",
+          "name_english": "Nosy Sakatia",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:55",
+          "sunset_time": "18:05",
+          "cost": "Boat fare",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Accessed by boat from Nosy Be."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "April to November",
+          "place_tip": "Look out for the giant tortoises and enjoy a beach picnic.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.2931,
+            "longitude": 48.2288
+          },
+          "address": "Nosy Sakatia, Madagascar",
+          "official_website": "https://www.nosysakatia.com",
+          "tags": [
+            "Island",
+            "Turtles",
+            "Beach"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {},
+          "rank_score": 0.794
+        },
+        {
+          "name": "Whale Shark Excursions",
+          "ai_summary": "Seasonal tours offering the chance to swim with whale sharks, the world's largest fish, in their natural habitat.",
+          "name_english": "Whale Shark Excursions",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Tour price",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best time to see whale sharks is from October to December."
+          },
+          "suggested_duration": "Full-day",
+          "best_time_to_visit": "October to December",
+          "place_tip": "Book in advance and bring underwater camera gear.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -13.3,
+            "longitude": 48.25
+          },
+          "address": "Nosy Be, Madagascar",
+          "official_website": "https://www.whalesharkexcursions.com",
+          "tags": [
+            "Wildlife",
+            "Marine Life",
+            "Adventure"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Sharks_outside_cage.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Sharks_outside_cage.jpg/960px-Sharks_outside_cage.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Sharks outside cage",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/22373329@N03\">kalanz</a> from Honolulu, Hawaii",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sharks_outside_cage.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "People inside shark proof cage, with sharks swimming outside."
+                }
+              }
+            }
+          },
+          "rank_score": 0.858
+        },
+        {
+          "name": "Ylang-Ylang Plantations & Distilleries",
+          "ai_summary": "Tours of fragrant ylang-ylang plantations and distilleries, where the essential oil used in perfumes is extracted.",
+          "name_english": "Ylang-Ylang Plantations & Distilleries",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Tour price",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Essential oil distillation demonstrations available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Purchase ylang-ylang oil and other local products.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.285,
+            "longitude": 48.2275
+          },
+          "address": "Nosy Be, Madagascar",
+          "official_website": "https://www.ylangylangplantation.com",
+          "tags": [
+            "Plantation",
+            "Distillery",
+            "Shopping"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Cananga_odorata_01.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Cananga_odorata_01.JPG/960px-Cananga_odorata_01.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Cananga odorata 01",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Vinayaraj\" title=\"User:Vinayaraj\">Vinayaraj</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Cananga_odorata_01.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Cananga odorata"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Scuba Diving Coral Gardens",
+          "ai_summary": "Diving tours to vibrant coral gardens teeming with marine life, suitable for divers of all levels.",
+          "name_english": "Scuba Diving Coral Gardens",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Dive package price",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Advance booking recommended for dive tours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "March to December",
+          "place_tip": "Bring your own diving equipment or rent on-site.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -13.31,
+            "longitude": 48.24
+          },
+          "address": "Nosy Be, Madagascar",
+          "official_website": "https://www.scubadivingcoralgardens.com",
+          "tags": [
+            "Diving",
+            "Marine Life",
+            "Adventure"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Diving_cylinders.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Diving_cylinders.jpg/960px-Diving_cylinders.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Diving cylinders",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Mark.murphy\" class=\"extiw\" title=\"en:User:Mark.murphy\">Mark.murphy</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Mark.murphy\" class=\"extiw\" title=\"en:User talk:Mark.murphy\">talk</a>)",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Diving_cylinders.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Diving cylinders at a <a href=\"https://en.wikipedia.org/wiki/diving_air_compressor\" class=\"extiw\" title=\"en:diving air compressor\">diving air compressor</a> station at <a href=\"https://en.wikipedia.org/wiki/Mount_Batten\" class=\"extiw\" title=\"en:Mount Batten\">Mount Batten</a>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Sailing between the Islands",
+          "ai_summary": "Boat tours sailing between the islands of the Nosy Be archipelago, offering a unique perspective of the coastline and marine life.",
+          "name_english": "Sailing between the Islands",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Tour price",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Private and group tours available."
+          },
+          "suggested_duration": "Half-day to Full-day",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Pack snacks and drinks for the trip.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.3,
+            "longitude": 48.25
+          },
+          "address": "Nosy Be, Madagascar",
+          "official_website": "https://www.sailingnosybe.com",
+          "tags": [
+            "Sailing",
+            "Island Hopping",
+            "Marine Life"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Antilles_divided_with_red_lines.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Antilles_divided_with_red_lines.jpg/881px-Antilles_divided_with_red_lines.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Antilles divided with red lines",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kmusser\" title=\"User:Kmusser\">User:Kmusser</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Antilles_divided_with_red_lines.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "Antilles divided with red lines"
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Sacred Tree of Mahatsinjo",
+          "ai_summary": "A revered and ancient tree located in a traditional Sakalava village, offering insight into the local culture and spirituality.",
+          "name_english": "Sacred Tree of Mahatsinjo",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Donation",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Respect local customs and ask for permission before taking photos."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "All year",
+          "place_tip": "Combine with a visit to a nearby village.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.35,
+            "longitude": 48.3
+          },
+          "address": "Mahatsinjo, Nosy Be, Madagascar",
+          "official_website": "https://www.sacredtreeofmahatsinjo.com",
+          "tags": [
+            "Cultural",
+            "Spiritual",
+            "Nature"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {},
+          "rank_score": 0.794
+        },
+        {
+          "name": "Madirokely Beach & Nightlife",
+          "ai_summary": "A lively beach area with a vibrant nightlife scene, offering a variety of bars, restaurants, and entertainment options.",
+          "name_english": "Madirokely Beach & Nightlife",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:50",
+          "sunset_time": "18:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "07:00-23:00",
+            "Tuesday": "07:00-23:00",
+            "Wednesday": "07:00-23:00",
+            "Thursday": "07:00-23:00",
+            "Friday": "07:00-23:00",
+            "Saturday": "07:00-23:00",
+            "Sunday": "07:00-23:00",
+            "notes": "Nightlife options are more vibrant on weekends."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Try the local seafood and enjoy a beachside cocktail.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.29,
+            "longitude": 48.22
+          },
+          "address": "Madirokely, Nosy Be, Madagascar",
+          "official_website": "https://www.madirokelybeach.com",
+          "tags": [
+            "Beach",
+            "Nightlife",
+            "Dining"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {},
+          "rank_score": 0.698
+        },
+        {
+          "name": "Lemuria Land Museum",
+          "ai_summary": "A museum dedicated to the history, culture, and biodiversity of the Lemurs and the islands of Nosy Be.",
+          "name_english": "Lemuria Land Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Guided tours available in multiple languages."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Combine with a visit to Lokobe Reserve for a full day of exploration.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.3922,
+            "longitude": 48.3142
+          },
+          "address": "Nosy Be, Madagascar",
+          "official_website": "https://www.lemurialandmuseum.com",
+          "tags": [
+            "Museum",
+            "Culture",
+            "Education"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Theatrum_Orbis_Terrarum,_by_Abraham_Ortelius,_World,_1572.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Theatrum_Orbis_Terrarum%2C_by_Abraham_Ortelius%2C_World%2C_1572.jpg/960px-Theatrum_Orbis_Terrarum%2C_by_Abraham_Ortelius%2C_World%2C_1572.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Theatrum Orbis Terrarum, by Abraham Ortelius, World, 1572",
+                  "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Abraham_Ortelius\" class=\"extiw\" title=\"w:en:Abraham Ortelius\"><span title=\"Flemish cartographer, geographer and cosmographer (1527–1598)\">Abraham Ortelius</span></a></bdi>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Theatrum_Orbis_Terrarum,_by_Abraham_Ortelius,_World,_1572.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "<i>Theatrum Orbis Terrarum</i>, by Abraham Ortelius, <i>Typus Orbis Terrarum</i>, 1572."
+                }
+              }
+            }
+          },
+          "rank_score": 0.75
+        },
+        {
+          "name": "Lokobe Canoe (Pirogue) Access",
+          "ai_summary": "Canoe access to Lokobe Reserve, offering a unique and eco-friendly way to reach the reserve while enjoying the scenery.",
+          "name_english": "Lokobe Canoe (Pirogue) Access",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Canoe rental fee",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Life jackets are provided."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Combine with a guided tour of Lokobe Reserve.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.3925,
+            "longitude": 48.3147
+          },
+          "address": "Lokobe, Nosy Be, Madagascar",
+          "official_website": "https://www.lokobecanoeaccess.com",
+          "tags": [
+            "Canoeing",
+            "Eco-Tourism",
+            "Adventure"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {},
+          "rank_score": 0.734
+        },
+        {
+          "name": "Traditional Sakalava Villages",
+          "ai_summary": "Visit to traditional Sakalava villages to learn about the local culture, crafts, and way of life.",
+          "name_english": "Traditional Sakalava Villages",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Donation",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Respect local customs and traditions."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Engage with the locals and purchase handmade crafts.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.35,
+            "longitude": 48.3
+          },
+          "address": "Nosy Be, Madagascar",
+          "official_website": "https://www.traditionalsakalavavillages.com",
+          "tags": [
+            "Cultural",
+            "Village Tour",
+            "Crafts"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Sakalava_16.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sakalava_16.JPG/960px-Sakalava_16.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Sakalava 16",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Heinonlein\" title=\"User:Heinonlein\">Heinonlein</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Sakalava_16.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Sakalava"
+                }
+              }
+            }
+          },
+          "rank_score": 0.698
+        },
+        {
+          "name": "Nosy Iranja Day Trip",
+          "ai_summary": "A day trip to the stunning Nosy Iranja, known for its twin beaches, crystal-clear waters, and rich marine life.",
+          "name_english": "Nosy Iranja Day Trip",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:40",
+          "sunset_time": "18:20",
+          "cost": "Tour price",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Bring your own food and drinks or purchase from local vendors."
+          },
+          "suggested_duration": "Full-day",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Explore both beaches and enjoy snorkeling in the area.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -13.25,
+            "longitude": 48.3667
+          },
+          "address": "Nosy Iranja, Madagascar",
+          "official_website": "https://www.nosyiranjadaytrip.com",
+          "tags": [
+            "Beach",
+            "Snorkeling",
+            "Island Hopping"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {},
+          "rank_score": 0.762
+        },
+        {
+          "name": "Deep-Sea Fishing",
+          "ai_summary": "Fishing tours in the deep waters around Nosy Be, targeting species like tuna, marlin, and sailfish.",
+          "name_english": "Deep-Sea Fishing",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Charter price",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best time for fishing is from October to December."
+          },
+          "suggested_duration": "Full-day",
+          "best_time_to_visit": "October to December",
+          "place_tip": "Bring your own fishing gear or rent from the charter.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -13.3,
+            "longitude": 48.25
+          },
+          "address": "Nosy Be, Madagascar",
+          "official_website": "https://www.deepseafishingnosybe.com",
+          "tags": [
+            "Fishing",
+            "Adventure",
+            "Marine Life"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Stilts_fishermen_Sri_Lanka_02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Stilts_fishermen_Sri_Lanka_02.jpg/960px-Stilts_fishermen_Sri_Lanka_02.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Stilts fishermen Sri Lanka 02",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Stilts_fishermen_Sri_Lanka_02.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Stilts fishermen near Unawatuna, Sri Lanka"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Rum Tasting & Island Cuisine",
+          "ai_summary": "Experience the local cuisine and rum tasting sessions, featuring traditional Malagasy dishes and locally produced rum.",
+          "name_english": "Rum Tasting & Island Cuisine",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Tasting fee",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00-20:00",
+            "Tuesday": "08:00-20:00",
+            "Wednesday": "08:00-20:00",
+            "Thursday": "08:00-20:00",
+            "Friday": "08:00-20:00",
+            "Saturday": "08:00-20:00",
+            "Sunday": "08:00-20:00",
+            "notes": "Reservations recommended for tastings."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "All year",
+          "place_tip": "Try the local specialty, Ravitoto, and the various rum flavors.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.29,
+            "longitude": 48.22
+          },
+          "address": "Nosy Be, Madagascar",
+          "official_website": "https://www.rumtastingislandcuisine.com",
+          "tags": [
+            "Food",
+            "Drink",
+            "Cultural Experience"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Achards_de_mangue_et_citron_lemon_mango_achar_Madagascar.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Achards_de_mangue_et_citron_lemon_mango_achar_Madagascar.jpg/960px-Achards_de_mangue_et_citron_lemon_mango_achar_Madagascar.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Achards de mangue et citron lemon mango achar Madagascar",
+                  "author": "Jean-Louis Vandevivère",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Achards_de_mangue_et_citron_lemon_mango_achar_Madagascar.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "Lemon and mango achar (condiment) for sale in Madagascar"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Starry Sky at Andilana",
+          "ai_summary": "Andilana Beach is renowned for its clear skies and stunning starry nights, ideal for stargazing and night photography.",
+          "name_english": "Starry Sky at Andilana",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best viewed away from city lights and during a new moon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "May to October",
+          "place_tip": "Bring a telescope or binoculars for better viewing.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -13.2904,
+            "longitude": 48.261
+          },
+          "address": "Andilana Beach, Nosy Be, Madagascar",
+          "official_website": "https://www.andilanabeach.com",
+          "tags": [
+            "Stargazing",
+            "Photography",
+            "Beach"
+          ],
+          "state": "Nosy Be Archipelago",
+          "photos": {},
+          "rank_score": 0.762
+        }
+      ]
+    }
+  ]
+}

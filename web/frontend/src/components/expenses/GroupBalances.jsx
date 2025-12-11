@@ -7,6 +7,7 @@ const GroupBalances = ({
   group, 
   balances, 
   members, 
+  allMembersMap = {},  // Phase 17 Bug Fix: Include removed members for display
   onBalanceUpdate, 
   totalExpenses = 0, 
   totalExpensesAmount = 0,
@@ -17,7 +18,6 @@ const GroupBalances = ({
   const [selectedSettlement, setSelectedSettlement] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isHistoryModalOpen, setIsHistoryModalOpen] = useState(false);
-
   // PHASE 2: Removed local settlement loading - now centralized in ExpenseManager
   // This eliminates 3 redundant API calls (75% reduction)
 
@@ -49,21 +49,34 @@ const GroupBalances = ({
   };
 
   // Helper function to get member display name
-  const getMemberName = (userId) => {
-    if (!members || !userId) return 'Unknown User';
+  // Phase 17 Bug Fix: Also check allMembersMap for removed members
+  // Accepts optional balance object which may already have display_name from backend
+  const getMemberName = (userId, balanceObj = null) => {
+    // First: Use display_name from balance object if available (backend already provides this)
+    if (balanceObj?.display_name && balanceObj.display_name !== 'Unknown') {
+      return balanceObj.display_name;
+    }
     
-    const member = members.find(m => 
-      (m.user_id || m.id) === userId
-    );
+    // Second: Check active members array
+    if (members && userId) {
+      const member = members.find(m => 
+        (m.user_id || m.id) === userId
+      );
+      
+      if (member) {
+        return member.user?.display_name || 
+               member.user?.username || 
+               member.user?.email ||
+               member.display_name ||
+               member.username || 
+               member.email ||
+               'Unknown User';
+      }
+    }
     
-    if (member) {
-      return member.user?.display_name || 
-             member.user?.username || 
-             member.user?.email ||
-             member.display_name ||
-             member.username || 
-             member.email ||
-             'Unknown User';
+    // Third: Check allMembersMap (includes removed members)
+    if (allMembersMap && userId && allMembersMap[userId]) {
+      return allMembersMap[userId].display_name || `Former Member (${userId.slice(0, 8)})`;
     }
     
     return 'Unknown User';
@@ -71,20 +84,10 @@ const GroupBalances = ({
 
   const currency = group?.currency || 'USD';
 
-  // DEBUG: Log balance data
-  console.log('💰 [GroupBalances] Received balances:', balances);
-  console.log('💰 [GroupBalances] Balance count:', balances?.length);
-  if (balances && balances.length > 0) {
-    console.log('💰 [GroupBalances] First balance:', balances[0]);
-    console.log('💰 [GroupBalances] Balance structure:', Object.keys(balances[0]));
-  }
-
   // Filter out settled balances (very close to zero)
   const significantBalances = (balances || []).filter(balance => 
     balance && Math.abs(balance.net_balance || 0) > 0.01
   );
-  
-  console.log('💰 [GroupBalances] Significant balances:', significantBalances.length);
 
   // Calculate who owes whom for simplified display
   const calculateSettlements = () => {
@@ -134,22 +137,22 @@ const GroupBalances = ({
     return sum + Math.abs(b.net_balance || 0);
   }, 0) / 2; // Divide by 2 because each debt is counted twice (once positive, once negative)
 
-  if (!balances || significantBalances.length === 0) {
+  // Show all members even when balanced
+  const hasNoBalances = !balances || balances.length === 0;
+  const allSettled = balances && balances.length > 0 && significantBalances.length === 0;
+  
+  if (hasNoBalances) {
     return (
       <div className="card group-balances">
         <h2>Group Balances</h2>
         
         <div style={{ textAlign: 'center', padding: '2rem 1rem' }}>
-          <p style={{ fontSize: '3rem', margin: '0 0 1rem 0' }}>🎉</p>
-          <p style={{ color: '#27ae60', fontSize: '1.25rem', fontWeight: '600', marginBottom: '0.5rem' }}>
-            Everyone is settled up!
+          <p style={{ fontSize: '2rem', margin: '0 0 1rem 0' }}>👥</p>
+          <p style={{ color: '#666', fontSize: '1rem', marginBottom: '0.5rem' }}>
+            No balance information available
           </p>
-          <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
-            All balances are zero. Great job keeping things square!
-          </p>
-          
-          <p style={{ color: '#999', fontSize: '0.85rem', fontStyle: 'italic' }}>
-            Use "Settle Up" buttons when you have new expenses to settle.
+          <p style={{ color: '#999', fontSize: '0.85rem' }}>
+            Add expenses to see balances
           </p>
         </div>
 
@@ -181,13 +184,15 @@ const GroupBalances = ({
       
       {/* Individual Balances */}
       <div style={{ marginBottom: '1.5rem' }}>
-        <h3 style={{ fontSize: '0.9rem', color: '#666', marginBottom: '0.75rem' }}>Member Balances</h3>
+        <h3 style={{ fontSize: '0.9rem', color: '#666', marginBottom: '0.75rem' }}>
+          Member Balances ({balances.length})
+        </h3>
         <div className="balances-list">
-          {significantBalances.map((balance, idx) => {
+          {balances.map((balance, idx) => {
             const netBalance = balance.net_balance || 0;
-            const userName = getMemberName(balance.user_id);
+            const userName = getMemberName(balance.user_id, balance);
             const isOwed = netBalance >= 0;
-            const absoluteBalance = Math.abs(netBalance);
+            const isSettled = Math.abs(netBalance) < 0.01;
             
            return (
               <div key={idx} className="balance-item" style={{ 
@@ -195,21 +200,49 @@ const GroupBalances = ({
                 justifyContent: 'space-between', 
                 alignItems: 'center',
                 padding: '0.75rem',
-                borderBottom: '1px solid #f0f0f0'
+                borderBottom: '1px solid #f0f0f0',
+                opacity: isSettled ? 0.6 : 1
               }}>
-                <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                   <span style={{ fontWeight: '500' }}>{userName}</span>
+                  {isSettled && (
+                    <span style={{ 
+                      fontSize: '0.75rem', 
+                      color: '#27ae60',
+                      background: '#e8f5e9',
+                      padding: '2px 6px',
+                      borderRadius: '4px'
+                    }}>
+                      ✓ Settled
+                    </span>
+                  )}
                 </div>
                 <span style={{ 
-                  color: netBalance >= 0 ? '#27ae60' : '#e74c3c',
-                  fontWeight: '600'
+                  color: isSettled ? '#666' : (netBalance >= 0 ? '#27ae60' : '#e74c3c'),
+                  fontWeight: isSettled ? '400' : '600'
                 }}>
-                  {netBalance >= 0 ? '+' : '-'}{formatCurrency(netBalance, currency)}
+                  {isSettled ? formatCurrency(0, currency) : (
+                    `${netBalance >= 0 ? '+' : '-'}${formatCurrency(netBalance, currency)}`
+                  )}
                 </span>
               </div>
             );
           })}
         </div>
+        
+        {allSettled && (
+          <div style={{ 
+            textAlign: 'center', 
+            padding: '1rem', 
+            background: '#e8f5e9',
+            borderRadius: '6px',
+            marginTop: '0.75rem'
+          }}>
+            <p style={{ color: '#27ae60', fontSize: '0.9rem', fontWeight: '500', margin: 0 }}>
+              🎉 All members are settled up!
+            </p>
+          </div>
+        )}
       </div>
 
       {/* Settlement Suggestions */}

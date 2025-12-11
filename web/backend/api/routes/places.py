@@ -227,3 +227,44 @@ def search_places():
             message="Search failed",
             status_code=500
         )
+
+
+@places_bp.route('/data/all', methods=['GET'])
+def get_all_places_data():
+    """
+    Get all places, cities, countries data in a single JSON payload.
+    This is for client-side searching - download once, search 0 times.
+    
+    Returns:
+        200: Complete dataset with countries, cities, and places
+        500: Internal server error
+    """
+    import json
+    from pathlib import Path
+    
+    try:
+        # Path to the generated JSON file
+        data_file = Path(__file__).parent.parent.parent / 'places_autocomplete_data.json'
+        
+        if not data_file.exists():
+            return error_response(
+                message="Places data not available. Run generate_autocomplete_data.py first.",
+                status_code=503
+            )
+        
+        # Read and return the JSON file
+        with open(data_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        return {
+            'success': True,
+            'data': data,
+            'message': f"Loaded {len(data.get('countries', []))} countries, {len(data.get('cities', []))} cities, {len(data.get('places', []))} places"
+        }, 200
+        
+    except Exception as e:
+        logger.error(f"Error loading places data: {e}", exc_info=True)
+        return error_response(
+            message="Failed to load places data",
+            status_code=500
+        )

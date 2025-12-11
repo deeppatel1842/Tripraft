@@ -1,0 +1,943 @@
+{
+  "country": "Madagascar",
+  "state": "Morondava And West Coast",
+  "cities": [
+    {
+      "city": "Morondava",
+      "nearest_airport": "Morondava Airport",
+      "places": [
+        {
+          "name": "Avenue of the Baobabs",
+          "ai_summary": "A world-famous avenue lined with majestic baobab trees, offering breathtaking views at sunrise and sunset.",
+          "name_english": "Avenue of the Baobabs",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:10",
+          "cost": "Free",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during golden hours."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "May to October",
+          "place_tip": "Arrive early to avoid crowds and capture stunning photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.0667,
+            "longitude": 44.4167
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": "https://www.baobabmadagascar.com",
+          "tags": [
+            "Nature",
+            "Photography",
+            "Iconic"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Adansonia_grandidieri_Pat_Hooper.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Adansonia_grandidieri_Pat_Hooper.jpg/960px-Adansonia_grandidieri_Pat_Hooper.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Adansonia grandidieri Pat Hooper",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/60423415@N00\">Pat Hooper</a> from Chicago, IL, USA",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Adansonia_grandidieri_Pat_Hooper.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "This is the avenue of the baobabs (<i>Adansonia grandidieri</i>) near Morondava, Madagascar."
+                }
+              }
+            }
+          },
+          "rank_score": 0.894
+        },
+        {
+          "name": "Kirindy Forest Reserve",
+          "ai_summary": "A dry deciduous forest home to unique wildlife, including the elusive fossa and various lemur species.",
+          "name_english": "Kirindy Forest Reserve",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Night walks available with guides."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "June to September",
+          "place_tip": "Hire a local guide for the best wildlife spotting experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -20.066,
+            "longitude": 44.65
+          },
+          "address": "Kirindy, Madagascar",
+          "official_website": "https://www.kirindyforest.com",
+          "tags": [
+            "Wildlife",
+            "Adventure",
+            "Nature"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Verreauxs_Sifika_Kirindy_Madagascar.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Verreauxs_Sifika_Kirindy_Madagascar.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Verreauxs Sifika Kirindy Madagascar",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:JialiangGao\" title=\"User:JialiangGao\">JialiangGao</a> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.peace-on-earth.org\">www.peace-on-earth.org</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Verreauxs_Sifika_Kirindy_Madagascar.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Verreaux's sifakas (<i><a href=\"//commons.wikimedia.org/wiki/Propithecus_verreauxi\" title=\"Propithecus verreauxi\">Propithecus verreauxi</a></i>) at the Kirindy Forest Reserve, Madagascar"
+                }
+              }
+            }
+          },
+          "rank_score": 0.782
+        },
+        {
+          "name": "Morondava Beachfront Promenade",
+          "ai_summary": "A scenic walkway along the beach in Morondava, perfect for leisurely strolls and enjoying the coastal views.",
+          "name_english": "Morondava Beachfront Promenade",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:50",
+          "sunset_time": "18:05",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Try the local street food available along the promenade.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.284,
+            "longitude": 44.415
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Leisure",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {},
+          "rank_score": 0.766
+        },
+        {
+          "name": "Belo-sur-Mer",
+          "ai_summary": "A coastal village known for its beautiful beaches and traditional dhow builders.",
+          "name_english": "Belo-sur-Mer",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:40",
+          "sunset_time": "18:15",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "May to October",
+          "place_tip": "Visit a local dhow builder to learn about traditional boat making.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -19.8833,
+            "longitude": 44.35
+          },
+          "address": "Belo-sur-Mer, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Beach",
+            "Photography"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Rue_principale_de_Belo_sur_Mer_-_Madagascar.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Rue_principale_de_Belo_sur_Mer_-_Madagascar.jpg/960px-Rue_principale_de_Belo_sur_Mer_-_Madagascar.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Rue principale de Belo sur Mer - Madagascar",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Terpsichores\" title=\"User:Terpsichores\">Terpsichores</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Rue_principale_de_Belo_sur_Mer_-_Madagascar.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Rue principale de Belo sur Mer - Madagascar"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Local Fishers’ Pirogues at Dawn",
+          "ai_summary": "Experience the local fishing culture by observing or joining fishers on their pirogues at dawn.",
+          "name_english": "Local Fishers’ Pirogues at Dawn",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "05:30",
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "05:00-09:00",
+            "Tuesday": "05:00-09:00",
+            "Wednesday": "05:00-09:00",
+            "Thursday": "05:00-09:00",
+            "Friday": "05:00-09:00",
+            "Saturday": "05:00-09:00",
+            "Sunday": "05:00-09:00",
+            "notes": "Best experienced at sunrise."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Bring a camera to capture the vibrant fishing activities.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.2845,
+            "longitude": 44.4155
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Adventure",
+            "Photography"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {},
+          "rank_score": 0.714
+        },
+        {
+          "name": "Mangrove Boat Trip (Betania)",
+          "ai_summary": "A boat trip through the mangroves of Betania, offering a chance to see unique flora and fauna.",
+          "name_english": "Mangrove Boat Trip (Betania)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Tour Fee",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "08:00-17:00",
+            "notes": "Advance booking recommended."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "March to November",
+          "place_tip": "Don't forget binoculars for bird watching.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -20.2833,
+            "longitude": 44.4167
+          },
+          "address": "Betania, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Photography"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:HaraForestQeshm.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/HaraForestQeshm.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "HaraForestQeshm",
+                  "author": "<a href=\"https://en.wikipedia.org/wiki/User:Fariborz\" class=\"extiw\" title=\"wikipedia:User:Fariborz\">Fariborz</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:HaraForestQeshm.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "<a href=\"https://en.wikipedia.org/wiki/Hara_Forests\" class=\"extiw\" title=\"en:Hara Forests\">Hara Forests</a> of mangroves - Qeshm Island, Iran"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Morondava Cathedral & Town Walk",
+          "ai_summary": "Visit the historic Morondava Cathedral and explore the town's local markets and streets.",
+          "name_english": "Morondava Cathedral & Town Walk",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Try to learn a few words of Malagasy to engage with locals.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.284,
+            "longitude": 44.4165
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "History",
+            "Photography"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {},
+          "rank_score": 0.718
+        },
+        {
+          "name": "Saline Flats & Flamingos (Seasonal)",
+          "ai_summary": "A visit to the saline flats where you can see flamingos and other bird species, best during the wet season.",
+          "name_english": "Saline Flats & Flamingos (Seasonal)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:55",
+          "sunset_time": "18:00",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "November to April",
+          "place_tip": "Bring binoculars and a camera for bird watching and photography.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.2833,
+            "longitude": 44.4167
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Wildlife",
+            "Photography"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Andohahela_NP.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Andohahela_NP.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Andohahela NP",
+                  "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/w/index.php?title=User:Masindrano~commonswiki&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Masindrano~commonswiki (page does not exist)\">Masindrano~commonswiki</a> assumed (based on copyright claims).",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Andohahela_NP.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Landscape view of Andohahela National Park, Madagascar"
+                }
+              }
+            }
+          },
+          "rank_score": 0.73
+        },
+        {
+          "name": "Tsingy Access Planning Hub (Gateway West)",
+          "ai_summary": "The planning hub for accessing the Tsingy de Bemaraha, a UNESCO World Heritage site.",
+          "name_english": "Tsingy Access Planning Hub (Gateway West)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Check for local guides and tour availability."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "April to November",
+          "place_tip": "Plan your visit with a local guide for the best experience.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -20.0667,
+            "longitude": 44.4167
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Adventure",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {},
+          "rank_score": 0.886
+        },
+        {
+          "name": "Sand Dune Photo Stops",
+          "ai_summary": "Scenic stops at sand dunes along the coast, ideal for photography and enjoying the landscape.",
+          "name_english": "Sand Dune Photo Stops",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the golden hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "May to October",
+          "place_tip": "Bring water and sunscreen, and wear a hat.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.0667,
+            "longitude": 44.4167
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Photography",
+            "Scenic"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Sakana Seafood Market",
+          "ai_summary": "A local market in Morondava offering a variety of fresh seafood and other local products.",
+          "name_english": "Sakana Seafood Market",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "06:00-12:00",
+            "Tuesday": "06:00-12:00",
+            "Wednesday": "06:00-12:00",
+            "Thursday": "06:00-12:00",
+            "Friday": "06:00-12:00",
+            "Saturday": "06:00-12:00",
+            "Sunday": "Closed",
+            "notes": "Best visited in the morning for fresh catches."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Try the local delicacies and engage with the friendly vendors.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.284,
+            "longitude": 44.4165
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "Food",
+            "Market"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tokkuri_sake_and_takowasa.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Tokkuri_sake_and_takowasa.JPG/960px-Tokkuri_sake_and_takowasa.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tokkuri sake and takowasa",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kentin\" title=\"User:Kentin\">User:Kentin</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tokkuri_sake_and_takowasa.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Japanese sake bottle(tokkuri) and takowasa(octpus with wasabi paste,a side dish of Japanese cuisine.）"
+                }
+              }
+            }
+          },
+          "rank_score": 0.682
+        },
+        {
+          "name": "Baobab Alley Star Photography",
+          "ai_summary": "A less crowded spot for photographing the iconic baobab trees, especially stunning at night with the stars.",
+          "name_english": "Baobab Alley Star Photography",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited at sunset and during the night."
+          },
+          "suggested_duration": "2 hours",
+          "best_time_to_visit": "May to October",
+          "place_tip": "Bring a tripod and camera with manual settings for astrophotography.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.0667,
+            "longitude": 44.4167
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Photography",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {},
+          "rank_score": 0.842
+        },
+        {
+          "name": "Kirindy Night Walk (Nocturnal Wildlife)",
+          "ai_summary": "A guided night walk in Kirindy Forest to see nocturnal animals like the fossa, lemurs, and various birds.",
+          "name_english": "Kirindy Night Walk (Nocturnal Wildlife)",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Tour Fee",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "18:00-22:00",
+            "Tuesday": "18:00-22:00",
+            "Wednesday": "18:00-22:00",
+            "Thursday": "18:00-22:00",
+            "Friday": "18:00-22:00",
+            "Saturday": "18:00-22:00",
+            "Sunday": "18:00-22:00",
+            "notes": "Advance booking required."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "June to September",
+          "place_tip": "Wear dark clothing and be quiet to avoid scaring the animals.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -20.066,
+            "longitude": 44.65
+          },
+          "address": "Kirindy, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Wildlife",
+            "Adventure",
+            "Nature"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Verreauxs_Sifika_Kirindy_Madagascar.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Verreauxs_Sifika_Kirindy_Madagascar.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Verreauxs Sifika Kirindy Madagascar",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:JialiangGao\" title=\"User:JialiangGao\">JialiangGao</a> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.peace-on-earth.org\">www.peace-on-earth.org</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Verreauxs_Sifika_Kirindy_Madagascar.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Verreaux's sifakas (<i><a href=\"//commons.wikimedia.org/wiki/Propithecus_verreauxi\" title=\"Propithecus verreauxi\">Propithecus verreauxi</a></i>) at the Kirindy Forest Reserve, Madagascar"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Sifaka & Red-Fronted Brown Lemurs",
+          "ai_summary": "See the famous sifaka and red-fronted brown lemurs in their natural habitat in Kirindy Forest.",
+          "name_english": "Sifaka & Red-Fronted Brown Lemurs",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Entry Fee",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "06:00-18:00",
+            "Tuesday": "06:00-18:00",
+            "Wednesday": "06:00-18:00",
+            "Thursday": "06:00-18:00",
+            "Friday": "06:00-18:00",
+            "Saturday": "06:00-18:00",
+            "Sunday": "06:00-18:00",
+            "notes": "Best time to see lemurs is early morning or late afternoon."
+          },
+          "suggested_duration": "Half-day",
+          "best_time_to_visit": "June to September",
+          "place_tip": "Be patient and quiet for the best chance to see and photograph lemurs.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": -20.066,
+            "longitude": 44.65
+          },
+          "address": "Kirindy, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Wildlife",
+            "Nature",
+            "Photography"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ring-tailed_lemur_(Lemur_catta).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ring-tailed_lemur_%28Lemur_catta%29.jpg/960px-Ring-tailed_lemur_%28Lemur_catta%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Ring-tailed lemur (Lemur catta)",
+                  "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ring-tailed_lemur_(Lemur_catta).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Ring-tailed lemur (<i>Lemur catta</i>), Andasibe, Madagascar"
+                }
+              }
+            }
+          },
+          "rank_score": 0.842
+        },
+        {
+          "name": "Seafood Restaurants on the Lagoon",
+          "ai_summary": "Enjoy fresh seafood at local restaurants situated along the lagoon in Morondava.",
+          "name_english": "Seafood Restaurants on the Lagoon",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:10",
+          "cost": "Varies",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00-22:00",
+            "Tuesday": "10:00-22:00",
+            "Wednesday": "10:00-22:00",
+            "Thursday": "10:00-22:00",
+            "Friday": "10:00-22:00",
+            "Saturday": "10:00-22:00",
+            "Sunday": "10:00-22:00",
+            "notes": "Best visited at sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Try the grilled seafood, a local specialty.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.284,
+            "longitude": 44.4165
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Food",
+            "Culture",
+            "Scenic"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {},
+          "rank_score": 0.726
+        },
+        {
+          "name": "Morondava Craft & Ebony Shops",
+          "ai_summary": "Explore local craft shops in Morondava, known for handmade goods and ebony wood products.",
+          "name_english": "Morondava Craft & Ebony Shops",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Look for unique souvenirs and support local artisans.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.284,
+            "longitude": 44.4165
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Shopping",
+            "Culture",
+            "Artisan"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {},
+          "rank_score": 0.698
+        },
+        {
+          "name": "Coastal Baobab Groves Drive",
+          "ai_summary": "A scenic drive through coastal baobab groves, offering stunning views and photo opportunities.",
+          "name_english": "Coastal Baobab Groves Drive",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:45",
+          "sunset_time": "18:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the golden hours."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "May to October",
+          "place_tip": "Drive slowly and stop frequently for photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.0667,
+            "longitude": 44.4167
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Photography"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {},
+          "rank_score": 0.75
+        },
+        {
+          "name": "Saint-Jean Baptist Church",
+          "ai_summary": "A historic church in Morondava, known for its unique architecture and cultural significance.",
+          "name_english": "Saint-Jean Baptist Church",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "08:00-17:00",
+            "Tuesday": "08:00-17:00",
+            "Wednesday": "08:00-17:00",
+            "Thursday": "08:00-17:00",
+            "Friday": "08:00-17:00",
+            "Saturday": "08:00-17:00",
+            "Sunday": "Closed",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Respect the local customs and dress modestly.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.284,
+            "longitude": 44.4165
+          },
+          "address": "Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Culture",
+            "History",
+            "Architecture"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Lake_Anosy,_Central_Antananarivo,_Capital_of_Madagascar,_Photo_by_Sascha_Grabow.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Lake_Anosy%2C_Central_Antananarivo%2C_Capital_of_Madagascar%2C_Photo_by_Sascha_Grabow.jpg/857px-Lake_Anosy%2C_Central_Antananarivo%2C_Capital_of_Madagascar%2C_Photo_by_Sascha_Grabow.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Lake Anosy, Central Antananarivo, Capital of Madagascar, Photo by Sascha Grabow",
+                  "author": "Sascha Grabow <a rel=\"nofollow\" class=\"external text\" href=\"http://www.saschagrabow.com\">www.saschagrabow.com</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Lake_Anosy,_Central_Antananarivo,_Capital_of_Madagascar,_Photo_by_Sascha_Grabow.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Lake Anosy in Central Antananarivo, Capital of Madagascar."
+                }
+              }
+            }
+          },
+          "rank_score": 0.722
+        },
+        {
+          "name": "Sunset on Nosy Kely Beach",
+          "ai_summary": "Enjoy a beautiful sunset view on Nosy Kely Beach, a tranquil spot in Morondava.",
+          "name_english": "Sunset on Nosy Kely Beach",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "18:10",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited at sunset."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "April to December",
+          "place_tip": "Bring a blanket and enjoy a picnic while watching the sunset.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": -20.284,
+            "longitude": 44.4165
+          },
+          "address": "Nosy Kely Beach, Morondava, Madagascar",
+          "official_website": null,
+          "tags": [
+            "Nature",
+            "Scenic",
+            "Relaxation"
+          ],
+          "state": "Morondava And West Coast",
+          "photos": {},
+          "rank_score": 0.746
+        }
+      ]
+    }
+  ]
+}

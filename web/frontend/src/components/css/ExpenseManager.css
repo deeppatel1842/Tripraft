@@ -615,6 +615,82 @@ td {
   color: #dc2626;
 }
 
+/* Deleted Transaction Styles */
+.transaction-deleted {
+  opacity: 0.5;
+  background-color: #fef2f2 !important;
+}
+
+.transaction-deleted:hover {
+  background-color: #fee2e2 !important;
+}
+
+.deleted-text {
+  text-decoration: line-through;
+  color: #9ca3af !important;
+}
+
+.deleted-amount {
+  opacity: 0.6;
+}
+
+.deleted-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+  padding: 2px 8px;
+  background: #fee2e2;
+  color: #991b1b;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none !important;
+}
+
+/* Phase 17.5: Syncing badge for optimistic updates */
+.syncing-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+  padding: 2px 8px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.syncing-badge .spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.transaction-syncing {
+  background-color: #f0f9ff !important;
+}
+
+.deleted-indicator {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #dc2626;
+  opacity: 0.6;
+}
+
 .hide-mobile {
   display: none;
 }

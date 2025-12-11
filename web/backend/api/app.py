@@ -2,23 +2,26 @@
 Main Flask Application
 Initializes and configures the Flask app with all routes and middleware.
 Integrates:
-- Places API (countries, states, cities, places)
+- Master Locations API (unified, single source of truth)
 - Expense Management System (with Firebase authentication)
 """
-from flask import Flask, jsonify, request, g
-from flask_cors import CORS
-from flask_compress import Compress
+import importlib.util
 import logging
-import sys
 import os
+import sys
 from pathlib import Path
+
 import firebase_admin
-from firebase_admin import credentials, auth as firebase_auth
+from firebase_admin import auth as firebase_auth
+from firebase_admin import credentials
+from flask import Flask, g, jsonify, request
+from flask_compress import Compress
+from flask_cors import CORS
 
 from .config import get_config
-from .utils import init_database, error_response
-from .routes import countries_bp, states_bp, cities_bp, places_bp
 from .middleware import init_request_logger
+from .routes import master_locations_bp
+from .utils import error_response, init_database
 
 
 def create_app(config_name=None):
@@ -58,20 +61,37 @@ def create_app(config_name=None):
         from cache.redis_client import get_redis_client
         redis_connection = get_redis_client()
         
-        # Initialize rate limiter from expense_engine security module
-        from expense_engine.security.rate_limiter import init_limiter
+        # Initialize rate limiter from expense_engine middleware
+        from expense_engine.middleware.rate_limiter import init_limiter
         init_limiter(app, redis_connection)
         
         app.logger.info("✅ Rate limiting enabled with Redis storage")
+        
+        # Test and log Redis cache manager status for expense_engine
+        try:
+            from expense_engine.utils.cache_manager import get_cache_manager
+            cache = get_cache_manager()
+            if cache and cache.is_available():
+                app.logger.info("✅ Redis cache manager connected and available")
+                # Log cache stats endpoint
+                app.logger.info("   Cache stats: GET /api/expense/performance/cache")
+            else:
+                app.logger.warning("⚠️  Redis cache manager initialized but NOT connected")
+        except Exception as cache_err:
+            app.logger.warning("⚠️  Redis cache manager not available: %s", cache_err)
+            
     except Exception as e:
         app.logger.warning(f"⚠️  Rate limiting not available: {e}")
     
     # Initialize CORS with proper configuration
+    # Phase 17.8: Added max_age=86400 (24 hours) for CORS preflight caching
+    # This reduces OPTIONS preflight requests by allowing browsers to cache CORS approval
     CORS(app, 
          resources={r"/api/*": {"origins": config.CORS_ORIGINS}},
          supports_credentials=True,
          allow_headers=["Content-Type", "Authorization"],
-         methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"])
+         methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+         max_age=86400)  # 24 hours - cache CORS preflight responses
     
     # Enable response compression (gzip)
     # Compresses responses > 500 bytes by 60-80%
@@ -259,6 +279,24 @@ def create_app(config_name=None):
             'endpoints': {
                 'health': '/health',
                 'routes': '/api/routes',
+                'locations': {
+                    'description': '✅ PREFERRED API - Unified hierarchical location endpoints',
+                    'countries': '/api/locations/countries',
+                    'countries_search': '/api/locations/countries/search?q=india',
+                    'country_detail': '/api/locations/countries/<country_id>',
+                    'states': '/api/locations/countries/<country_id>/states',
+                    'cities': '/api/locations/countries/<country_id>/cities',
+                    'cities_search': '/api/locations/cities/search?q=delhi',
+                    'places': '/api/locations/cities/<city_id>/places',
+                    'places_search': '/api/locations/places/search?q=taj'
+                },
+                'locations_deprecated': {
+                    'description': '🔴 DEPRECATED - Use /api/locations instead',
+                    'countries': '/api/countries',
+                    'states': '/api/states',
+                    'cities': '/api/cities',
+                    'places': '/api/places'
+                },
                 'expense_api': {
                     'users': '/api/expense/user',
                     'groups': '/api/expense/groups',
@@ -380,7 +418,8 @@ def register_middleware(app):
         
         # Log Firestore operations if available
         try:
-            from expense_engine.firestore_counter import log_firestore_operations
+            from expense_engine.firestore_counter import \
+                log_firestore_operations
             log_firestore_operations()
         except ImportError:
             pass
@@ -390,6 +429,11 @@ def register_middleware(app):
 
 def register_blueprints(app, api_prefix):
     """Register all API blueprints"""
+    # Ensure places_engine is in path for all places_engine imports
+    places_engine_path = str(Path(__file__).parent.parent / 'places_engine')
+    if places_engine_path not in sys.path:
+        sys.path.insert(0, places_engine_path)
+    
     # Health & Performance Monitoring (global)
     try:
         from .health import health_bp
@@ -400,25 +444,113 @@ def register_blueprints(app, api_prefix):
     except Exception as e:
         app.logger.error(f"Failed to register health monitoring: {e}")
     
-    # Places API blueprints
-    app.register_blueprint(countries_bp, url_prefix=f'{api_prefix}/countries')
-    app.register_blueprint(states_bp, url_prefix=f'{api_prefix}/states')
-    app.register_blueprint(cities_bp, url_prefix=f'{api_prefix}/cities')
-    app.register_blueprint(places_bp, url_prefix=f'{api_prefix}/places')
+    # ✅ MASTER LOCATIONS API - SINGLE SOURCE OF TRUTH
+    # Unified, hierarchical REST API for all location queries
+    # Automatically uses Firebase (places_engine) or falls back to SQLite
+    app.register_blueprint(master_locations_bp, url_prefix=f'{api_prefix}/locations')
+    app.logger.info(f"✅ MASTER Locations API registered (Single Source of Truth)")
+    app.logger.info(f"   Endpoint: {api_prefix}/locations")
+    app.logger.info(f"   Countries: /countries, /countries/search?q=...")
+    app.logger.info(f"   States: /countries/<id>/states, /states/<id>")
+    app.logger.info(f"   Cities: /countries/<id>/cities, /states/<id>/cities, /cities/search?q=...")
+    app.logger.info(f"   Places: /cities/<id>/places, /places/search?q=...")
     
-    app.logger.info(f"Places API blueprints registered with prefix: {api_prefix}")
+    # Register Autocomplete API (Phase 0) - BEFORE Expense Engine which adds parent to sys.path
+    try:
+        # Data file in places_engine
+        data_file = Path(places_engine_path) / 'places_autocomplete_data_cleaned.json'
+        app.logger.info(f"Looking for autocomplete data at: {data_file} (exists: {data_file.exists()})")
+        
+        if not data_file.exists():
+            # Try backup
+            data_file = Path(places_engine_path) / 'places_autocomplete_data.json'
+            app.logger.info(f"Trying backup: {data_file} (exists: {data_file.exists()})")
+        
+        if data_file.exists():
+            app.logger.info(f"Loading autocomplete from: {data_file}")
+            # Import required autocomplete modules
+            # Note: Using full path to avoid conflicts with parent backend cache module
+            import importlib.util
+
+            from services.autocomplete_service import AutocompleteService
+            cache_module_path = str(Path(places_engine_path) / 'cache' / 'autocomplete_cache.py')
+            spec = importlib.util.spec_from_file_location("autocomplete_cache", cache_module_path)
+            cache_module = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(cache_module)
+            AutocompleteCacheManager = cache_module.AutocompleteCacheManager
+            
+            # Import routes module similarly
+            routes_module_path = str(Path(places_engine_path) / 'api' / 'routes' / 'autocomplete.py')
+            spec = importlib.util.spec_from_file_location("autocomplete_routes", routes_module_path)
+            routes_module = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(routes_module)
+            register_autocomplete_routes = routes_module.register_autocomplete_routes
+            
+            app.logger.info("Autocomplete imports successful")
+            
+            # Get Redis client for caching - get it from backend cache
+            from cache.redis_client import \
+                get_redis_client as get_backend_redis
+            redis_client = get_backend_redis()
+            app.logger.info("Got Redis client")
+            
+            # Initialize autocomplete service
+            service = AutocompleteService(str(data_file))
+            
+            # Initialize cache manager
+            cache = AutocompleteCacheManager(redis_client, cache_ttl_seconds=300)
+            
+            # Register routes with Flask
+            register_autocomplete_routes(app, service, cache)
+            
+            app.logger.info("Autocomplete API registered (Phase 0):")
+            app.logger.info("   - Autocomplete:  /api/v1/autocomplete")
+            app.logger.info("   - Statistics:    /api/v1/autocomplete/stats")
+            app.logger.info("   - Data loaded:   15,886 entries (countries, cities, places)")
+        else:
+            app.logger.warning("Autocomplete data file not found - autocomplete endpoints unavailable")
+    except ImportError as e:
+        app.logger.warning(f"Autocomplete not available: {e}")
+    except Exception as e:
+        app.logger.error(f"Failed to register Autocomplete API: {e}", exc_info=True)
     
-    # Register Expense Management System blueprint
+    # Register Expense Management System blueprints (Phase 6: Complete API)
     try:
         # Import from parent directory
         sys.path.insert(0, str(Path(__file__).parent.parent))
-        from expense_engine.routes import expense_bp
+        from expense_engine.routes import (bootstrap_bp, expense_bp,
+                                           expense_flat_bp, extreme_bp,
+                                           group_bp, invitation_bp,
+                                           performance_bp, settlement_bp,
+                                           settlement_standalone_bp, user_bp)
+
+        # Register all blueprints (each has its own URL prefix already)
+        app.register_blueprint(group_bp)
         app.register_blueprint(expense_bp)
-        app.logger.info("Expense Management System blueprint registered at /api/expense")
+        app.register_blueprint(expense_flat_bp)  # Flat routes for frontend compatibility
+        app.register_blueprint(settlement_bp)
+        app.register_blueprint(settlement_standalone_bp)  # Backward compatibility
+        app.register_blueprint(invitation_bp)
+        app.register_blueprint(user_bp)
+        app.register_blueprint(performance_bp)  # Phase 5: Performance monitoring
+        app.register_blueprint(bootstrap_bp)     # Phase 7: Bootstrap endpoint
+        app.register_blueprint(extreme_bp)       # Phase 21: Extreme optimization
+        
+        app.logger.info("Expense Engine API registered (Phase 21):")
+        app.logger.info("   - Groups:      /api/expense/groups")
+        app.logger.info("   - Expenses:    /api/expense/expenses (flat)")
+        app.logger.info("   - Expenses:    /api/expense/groups/<gid>/expenses (nested)")
+        app.logger.info("   - Settlements: /api/expense/settlements")
+        app.logger.info("   - Invitations: /api/expense/invitations")
+        app.logger.info("   - User:        /api/expense/user")
+        app.logger.info("   - Performance: /api/expense/performance")
+        app.logger.info("   - Bootstrap:   /api/expense/bootstrap")
+        app.logger.info("   - Extreme:     /api/expense/extreme (10-op target)")
     except ImportError as e:
-        app.logger.warning(f"Expense Management System not available: {e}")
+        # Expected in Phase 1-5: Routes not yet implemented
+        app.logger.info(f"ℹ️  Expense Engine routes not yet available: {e}")
     except Exception as e:
-        app.logger.error(f"Failed to register Expense Management System: {e}")
+        app.logger.error(f"Failed to register Expense Engine API: {e}")
     
     # Register Group Planner blueprint
     try:
@@ -429,6 +561,23 @@ def register_blueprints(app, api_prefix):
         app.logger.warning(f"Group Planner not available: {e}")
     except Exception as e:
         app.logger.error(f"Failed to register Group Planner: {e}")
+    
+    # Register Admin routes (Dataset Management)
+    try:
+        from .admin_routes import admin_bp
+        app.register_blueprint(admin_bp)
+        app.logger.info("✅ Admin routes registered at /api/admin")
+        app.logger.info("   - Dataset Analysis: /api/admin/dataset/analysis")
+        app.logger.info("   - Empty Files:      /api/admin/dataset/empty-files")
+        app.logger.info("   - Stats:            /api/admin/dataset/stats")
+    except ImportError as e:
+        app.logger.warning(f"Admin routes not available: {e}")
+    except Exception as e:
+        app.logger.error(f"Failed to register Admin routes: {e}")
+    
+    # NOTE: Places Engine V2 (/api/v2/places) is now consolidated into master_locations_bp
+    # All location queries are now served through /api/locations with automatic backend selection
+    app.logger.info("ℹ️  Places Engine V2 consolidated into Master Locations API (/api/locations)")
 
 
 def register_error_handlers(app):

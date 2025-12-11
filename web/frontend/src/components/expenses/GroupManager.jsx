@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Users, Plus, Mail, Trash2, Clock, X } from 'lucide-react';
 import expenseApi from '../../services/expenseApi';
 import { currencies } from '../../hooks/useExpense';
+import { usePrefetchGroups, useSendInvitationMutation } from '../../hooks/useExpenseQuery';
 
 const GroupManager = ({ 
   groups, 
@@ -15,8 +16,17 @@ const GroupManager = ({
   onMemberAdd,
   onMemberRemove,
   showAlert,
-  currentUser
+  currentUser,
+  pendingInvitationsFromParent,  // 🚀 PHASE 16: Invitations from mega-bootstrap
+  onRefreshInvitations,  // 🚀 PHASE 16: Callback to refresh mega-bootstrap
+  usingMegaBootstrap = false  // 🚀 PHASE 16: Whether mega-bootstrap is active/loading
 }) => {
+  // 🚀 PHASE 17 Week 3: Prefetch top 3 groups for instant navigation
+  const { prefetchOnHover } = usePrefetchGroups(groups, 3);
+  
+  // 🚀 PHASE 17 FIX: Use mutation hook for proper cache invalidation
+  const sendInvitationMutation = useSendInvitationMutation();
+  
   const [newGroupName, setNewGroupName] = useState('');
   const [newGroupCurrency, setNewGroupCurrency] = useState('USD');
   const [newMemberEmail, setNewMemberEmail] = useState('');
@@ -26,48 +36,74 @@ const GroupManager = ({
   const [loadingInvitations, setLoadingInvitations] = useState(false);
   const [activeTab, setActiveTab] = useState('members'); // 'members' or 'pending'
 
-  // Load pending invitations when active group changes
+  // 🚀 PHASE 16: Use invitations from parent (mega-bootstrap) if available
   useEffect(() => {
+    if (pendingInvitationsFromParent !== undefined) {
+      // PHASE 17 FIX: Filter for only pending invitations
+      // Accepted/declined invitations should not show in the pending list
+      const onlyPending = (pendingInvitationsFromParent || []).filter(
+        inv => inv.status === 'pending' || inv.status === 'PENDING'
+      );
+      // PHASE 19 FIX: Deduplicate by invitation_id to prevent React key warnings
+      const uniquePending = onlyPending.filter((inv, index, self) => 
+        index === self.findIndex(i => i.invitation_id === inv.invitation_id)
+      );
+      console.log('📨 Using invitations from mega-bootstrap:', uniquePending.length, 'pending out of', pendingInvitationsFromParent?.length || 0);
+      setPendingInvitations(uniquePending);
+    }
+  }, [pendingInvitationsFromParent]);
+
+  // Load pending invitations when active group changes (fallback ONLY if not using mega-bootstrap)
+  useEffect(() => {
+    // 🚀 PHASE 16: Skip fallback API call if mega-bootstrap is active/loading
+    if (usingMegaBootstrap) {
+      console.log('📨 Skipping fallback - using mega-bootstrap');
+      return;
+    }
+    
     if (activeGroupId) {
       loadPendingInvitations();
     } else {
       setPendingInvitations([]);
     }
-  }, [activeGroupId]);
+  }, [activeGroupId, usingMegaBootstrap]);
 
   // 🔄 Auto-refresh pending invitations every 10 seconds when viewing "Pending" tab
-  // This ensures User A sees when User B accepts an invitation
+  // 🚀 PHASE 16: Uses mega-bootstrap refresh, no direct API calls
   useEffect(() => {
     let intervalId = null;
     
     if (activeGroupId && activeTab === 'pending') {
-      // Initial load
-      loadPendingInvitations();
-      
-      // Set up polling every 10 seconds
+      // Set up polling every 10 seconds - always use mega-bootstrap refresh when available
       intervalId = setInterval(() => {
         console.log('🔄 Auto-refreshing pending invitations...');
-        loadPendingInvitations();
+        if (onRefreshInvitations) {
+          // Use mega-bootstrap refresh
+          onRefreshInvitations();
+        } else if (!usingMegaBootstrap) {
+          // Only fallback to direct API if not using mega-bootstrap
+          loadPendingInvitations();
+        }
       }, 10000); // 10 seconds
     }
     
     return () => {
       if (intervalId) {
         clearInterval(intervalId);
-        console.log('🛑 Stopped auto-refresh for pending invitations');
+        // Cleanup - no need to log this
       }
     };
-  }, [activeGroupId, activeTab]);
+  }, [activeGroupId, activeTab, usingMegaBootstrap, onRefreshInvitations]);
 
   // 🔔 Listen for global invitation acceptance events
   useEffect(() => {
     const handleInvitationAccepted = () => {
       console.log('🔔 Invitation accepted event received, refreshing pending list...');
       if (activeGroupId) {
-        loadPendingInvitations();
-        // Also refresh groups to show new member
-        if (onGroupUpdate) {
-          onGroupUpdate();
+        if (onRefreshInvitations) {
+          onRefreshInvitations();
+        } else if (!usingMegaBootstrap) {
+          loadPendingInvitations();
         }
       }
     };
@@ -77,7 +113,7 @@ const GroupManager = ({
     return () => {
       window.removeEventListener('invitationAccepted', handleInvitationAccepted);
     };
-  }, [activeGroupId]);
+  }, [activeGroupId, onRefreshInvitations, usingMegaBootstrap]);
 
   const loadPendingInvitations = async () => {
     if (!activeGroupId) return;
@@ -86,11 +122,20 @@ const GroupManager = ({
     setLoadingInvitations(true);
     try {
       // CRITICAL FIX: Add cache-busting timestamp to force fresh API call
+      // includeAll=true to show declined invitations to owner
       const timestamp = Date.now();
-      const response = await expenseApi.getGroupInvitations(activeGroupId, timestamp);
+      const response = await expenseApi.getGroupInvitations(activeGroupId, true, timestamp);
       console.log('📨 Invitations response:', response);
-      setPendingInvitations(response.invitations || []);
-      console.log('📨 Set pending invitations:', response.invitations?.length || 0);
+      // PHASE 17 FIX: Filter for only pending invitations
+      const onlyPending = (response.invitations || []).filter(
+        inv => inv.status === 'pending' || inv.status === 'PENDING'
+      );
+      // PHASE 19 FIX: Deduplicate by invitation_id
+      const uniquePending = onlyPending.filter((inv, index, self) => 
+        index === self.findIndex(i => i.invitation_id === inv.invitation_id)
+      );
+      setPendingInvitations(uniquePending);
+      console.log('📨 Set pending invitations:', uniquePending.length, 'pending out of', response.invitations?.length || 0);
     } catch (error) {
       console.error('❌ Error loading invitations:', error);
       setPendingInvitations([]);
@@ -111,7 +156,10 @@ const GroupManager = ({
       await onGroupCreate({
         name: newGroupName.trim(),
         description: `Created by ${currentUser.displayName || currentUser.email}`,
-        currency: newGroupCurrency
+        currency: newGroupCurrency,
+        // Phase 21: Pass user info for extreme API
+        user_email: currentUser.email,
+        user_display_name: currentUser.displayName || currentUser.email?.split('@')[0] || 'Unknown'
       });
       setNewGroupName('');
       setNewGroupCurrency('USD');
@@ -126,6 +174,13 @@ const GroupManager = ({
 
   const handleInviteMember = async (e) => {
     e.preventDefault();
+    
+    // Prevent double submission - check if already inviting
+    if (inviting || sendInvitationMutation.isPending) {
+      console.log('⚠️ Invitation already in progress, ignoring duplicate request');
+      return;
+    }
+    
     if (!newMemberEmail.trim()) {
       showAlert('Please enter an email address');
       return;
@@ -136,31 +191,32 @@ const GroupManager = ({
       return;
     }
 
-    console.log('Sending invitation:', {
+    const invitedEmail = newMemberEmail.trim();
+    
+    // Immediately clear the email to prevent duplicate submissions
+    setNewMemberEmail('');
+    
+    console.log('🚀 PHASE 17: Sending invitation with mutation hook:', {
       group_id: activeGroupId,
-      email: newMemberEmail.trim(),
+      invited_email: invitedEmail,
       group_name: activeGroup?.name
     });
 
     setInviting(true);
     try {
-      const response = await expenseApi.sendInvitation({
+      // 🚀 PHASE 17 FIX: Use mutation hook for proper cache invalidation
+      const response = await sendInvitationMutation.mutateAsync({
         group_id: activeGroupId,
-        email: newMemberEmail.trim()
+        invited_email: invitedEmail
       });
       
       console.log('Invitation created:', response);
       
-      setNewMemberEmail('');
-      
-      // Check email status: 'sending', 'disabled', or 'not_sent'
-      if (response.email_status === 'sending') {
-        showAlert(`✅ Invitation email sent to ${newMemberEmail.trim()}!\n\nThey'll receive an email with a link to join the group.`);
+      // Check email status: 'sending', 'sent', 'disabled', or 'not_sent'
+      if (response.email_status === 'sending' || response.email_status === 'sent') {
+        showAlert(`✅ Invitation email sent to ${invitedEmail}!\n\nThey'll receive an email with a link to join the group.`);
       } else if (response.email_status === 'disabled') {
         // Email service disabled - show link to copy
-        const invitedEmail = newMemberEmail.trim();
-        
-        // Try to copy to clipboard
         if (navigator.clipboard) {
           try {
             await navigator.clipboard.writeText(response.invitation_link);
@@ -173,11 +229,16 @@ const GroupManager = ({
         }
       } else {
         // Fallback for 'not_sent' or other cases
-        showAlert(`✅ Invitation created for ${newMemberEmail.trim()}!`);
+        showAlert(`✅ Invitation created for ${invitedEmail}!`);
       }
       
       if (onMemberAdd) await onMemberAdd();
-      await loadPendingInvitations(); // Refresh pending invitations
+      
+      // 🚀 PHASE 17 FIX: Mutation hook already invalidates caches
+      // But still call onRefreshInvitations for parent state sync if needed
+      if (onRefreshInvitations) {
+        onRefreshInvitations();
+      }
     } catch (error) {
       console.error('Error sending invitation:', error);
       showAlert(`Failed to send invitation: ${error.message}`);
@@ -240,6 +301,10 @@ const GroupManager = ({
             className="group-select"
             value={activeGroupId || ''}
             onChange={handleGroupSelect}
+            onFocus={() => {
+              // 🚀 PHASE 17 Week 3: Prefetch all groups when dropdown opens
+              groups.forEach(group => prefetchOnHover(group.id || group.group_id));
+            }}
           >
             <option key="select-placeholder" value="">Select a group</option>
             {groups.map(group => (
@@ -425,11 +490,11 @@ const GroupManager = ({
                     value={newMemberEmail}
                     onChange={(e) => setNewMemberEmail(e.target.value)}
                     required
-                    disabled={inviting}
+                    disabled={inviting || sendInvitationMutation.isPending}
                   />
-                  <button type="submit" disabled={inviting}>
+                  <button type="submit" disabled={inviting || sendInvitationMutation.isPending}>
                     <Mail size={16} />
-                    {inviting ? 'Inviting...' : 'Invite Member'}
+                    {(inviting || sendInvitationMutation.isPending) ? 'Inviting...' : 'Invite Member'}
                   </button>
                 </form>
               </>
@@ -476,3 +541,4 @@ const GroupManager = ({
 };
 
 export default GroupManager;
+

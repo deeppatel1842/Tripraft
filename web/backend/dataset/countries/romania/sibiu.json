@@ -1,0 +1,1133 @@
+{
+  "country": "Romania",
+  "state": "Sibiu",
+  "cities": [
+    {
+      "city": "Sibiu",
+      "nearest_airport": "Sibiu International Airport",
+      "places": [
+        {
+          "name": "Piata Mare (Main Square)",
+          "ai_summary": "Piata Mare is the heart of Sibiu, surrounded by historic buildings, cafes, and cultural landmarks.",
+          "name_english": "Main Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "6:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Enjoy a coffee at one of the nearby cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7965,
+            "longitude": 24.1514
+          },
+          "address": "Piata Mare, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Historic",
+            "Culture",
+            "Relaxation"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1Kanzel der Stadtpfarrkirche in Hermannstadt.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/1Kanzel_der_Stadtpfarrkirche_in_Hermannstadt.jpg",
+                "width": 591,
+                "height": 886,
+                "attribution": {
+                  "title": "1Kanzel der Stadtpfarrkirche in Hermannstadt",
+                  "author": "Otto Schemmel",
+                  "license": "CC BY-SA 2.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1Kanzel_der_Stadtpfarrkirche_in_Hermannstadt.jpg",
+                  "credit": "own work (transferred from de:Bild:1Kanzel der Stadtpfarrkirche in Hermannstadt.jpg)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0 de",
+                  "description": "Kanzel der Stadtpfarrkirche in Hermannstadt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8085
+        },
+        {
+          "name": "Brukenthal National Museum",
+          "ai_summary": "Brukenthal National Museum is one of Romania’s oldest museums, housing an impressive collection of European art.",
+          "name_english": "Brukenthal Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$5",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "10:00 AM - 6:00 PM",
+            "notes": "Closed on Mondays."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Book tickets online to avoid queues.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 45.7971,
+            "longitude": 24.1517
+          },
+          "address": "Brukenthal Museum, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Museum",
+            "Art",
+            "History"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Brukenthal-sibiu.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Brukenthal-sibiu.jpg/960px-Brukenthal-sibiu.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Brukenthal-sibiu",
+                  "author": "7castle",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Brukenthal-sibiu.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Brukenthal National Museum, Sibiu."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7875
+        },
+        {
+          "name": "Council Tower (Turnul Sfatului)",
+          "ai_summary": "The Council Tower offers a panoramic view of Sibiu and is a symbol of the city’s medieval history.",
+          "name_english": "Council Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:00 PM",
+          "cost": "$2",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Last entry one hour before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Climb the tower for the best views of the city.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7982,
+            "longitude": 24.1511
+          },
+          "address": "Turnul Sfatului, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Historic",
+            "Viewpoint",
+            "Photography"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Romania.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/800px-Flag_of_Romania.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Romania",
+                  "author": "AdiJapan",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Romania.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Romania from 1867 until 1947 and since 1989."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7672
+        },
+        {
+          "name": "Liars’ Bridge (Podul Minciunilor)",
+          "ai_summary": "Liars’ Bridge is a famous landmark in Sibiu, known for its unique architecture and the legends associated with it.",
+          "name_english": "Liars’ Bridge",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "7:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited at sunset."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Sunset",
+          "place_tip": "Listen to the legends of the bridge from local guides.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7989,
+            "longitude": 24.1519
+          },
+          "address": "Podul Minciunilor, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Historic",
+            "Architecture",
+            "Photography"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Biserica Iezuiților din Sibiu - Jesuit Church of Sibiu (MAR 2023) exterior - IMG 02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Biserica_Iezui%C8%9Bilor_din_Sibiu_-_Jesuit_Church_of_Sibiu_%28MAR_2023%29_exterior_-_IMG_02.jpg/960px-Biserica_Iezui%C8%9Bilor_din_Sibiu_-_Jesuit_Church_of_Sibiu_%28MAR_2023%29_exterior_-_IMG_02.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Biserica Iezuiților din Sibiu - Jesuit Church of Sibiu (MAR 2023) exterior - IMG 02",
+                  "author": "Chainwit.",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Biserica_Iezuiților_din_Sibiu_-_Jesuit_Church_of_Sibiu_(MAR_2023)_exterior_-_IMG_02.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Jesuit Church, Sibiu"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7528
+        },
+        {
+          "name": "Sibiu Lutheran Cathedral",
+          "ai_summary": "Sibiu Lutheran Cathedral is a stunning example of Gothic architecture and an important religious site in the city.",
+          "name_english": "Lutheran Cathedral",
+          "sunrise_view": true,
+          "sunset_view": false,
+          "sunrise_time": "6:15 AM",
+          "sunset_time": null,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "10:00 AM - 4:00 PM",
+            "Tuesday": "10:00 AM - 4:00 PM",
+            "Wednesday": "10:00 AM - 4:00 PM",
+            "Thursday": "10:00 AM - 4:00 PM",
+            "Friday": "10:00 AM - 4:00 PM",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "notes": "Check for service times if you wish to attend a service."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Climb the tower for a panoramic view of Sibiu.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7984,
+            "longitude": 24.1507
+          },
+          "address": "Strada Mitropoliei 30, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Historic",
+            "Architecture",
+            "Religion"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Romania.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/800px-Flag_of_Romania.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Romania",
+                  "author": "AdiJapan",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Romania.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Romania from 1867 until 1947 and since 1989."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7822
+        },
+        {
+          "name": "Piata Mica (Small Square)",
+          "ai_summary": "Piata Mica is a charming square in Sibiu, known for its colorful buildings and vibrant atmosphere.",
+          "name_english": "Small Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "7:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for the atmosphere."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local street food from vendors in the square.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7968,
+            "longitude": 24.1502
+          },
+          "address": "Piata Mica, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Historic",
+            "Culture",
+            "Food"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Brukenthal-sibiu.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Brukenthal-sibiu.jpg/960px-Brukenthal-sibiu.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Brukenthal-sibiu",
+                  "author": "7castle",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Brukenthal-sibiu.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Brukenthal National Museum, Sibiu."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7717
+        },
+        {
+          "name": "Passage of Stairs",
+          "ai_summary": "The Passage of Stairs is a picturesque alley in Sibiu, famous for its colorful staircases and artistic vibe.",
+          "name_english": "Passage of Stairs",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "7:15 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the late afternoon."
+          },
+          "suggested_duration": "30 minutes",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Bring your camera for stunning photos.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7975,
+            "longitude": 24.1505
+          },
+          "address": "Strada Scarilor, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Historic",
+            "Photography",
+            "Art"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Romania.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/800px-Flag_of_Romania.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Romania",
+                  "author": "AdiJapan",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Romania.svg",
+                  "credit": "Own work",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Romania from 1867 until 1947 and since 1989."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7518
+        },
+        {
+          "name": "ASTRA Folk Museum (Open Air)",
+          "ai_summary": "ASTRA Folk Museum is an open-air museum near Sibiu, showcasing traditional Romanian village life.",
+          "name_english": "ASTRA Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$10",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Closed on Mondays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for walking.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 45.7917,
+            "longitude": 24.1579
+          },
+          "address": "Strada Pajiștei, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Museum",
+            "Culture",
+            "History"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:BucharestSkyline.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/BucharestSkyline.png/960px-BucharestSkyline.png",
+                "width": 800,
+                "height": 261,
+                "attribution": {
+                  "title": "BucharestSkyline",
+                  "author": "Octav208",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:BucharestSkyline.png",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Panoramă asupra Floreasca-Pipera, districtul de afaceri a Bucureștiului"
+                }
+              }
+            }
+          },
+          "rank_score": 0.8
+        },
+        {
+          "name": "Dumbrava Forest Trails",
+          "ai_summary": "Dumbrava Forest offers scenic trails for hiking and biking, perfect for nature enthusiasts.",
+          "name_english": "Dumbrava Forest",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:30 AM",
+          "sunset_time": "8:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the early morning or late afternoon."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring water and snacks for the trail.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7922,
+            "longitude": 24.1645
+          },
+          "address": "Dumbrava Forest, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Biking"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Gara Sibiu.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gara_Sibiu.jpg/960px-Gara_Sibiu.jpg",
+                "width": 800,
+                "height": 536,
+                "attribution": {
+                  "title": "Gara Sibiu",
+                  "author": "Razvanus at Romanian Wikipedia",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Gara_Sibiu.jpg",
+                  "credit": "Transferred from ro.wikipedia to Commons.; transfer was made by User:Gikü.",
+                  "usage_terms": "Public domain",
+                  "description": "Gara Sibiu situată pe magistrala 200. Peronul Gării Sibiu."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7862
+        },
+        {
+          "name": "Evangelical Cathedral Belfry",
+          "ai_summary": "The Evangelical Cathedral Belfry is a historic bell tower in Sibiu, offering great views of the city.",
+          "name_english": "Belfry",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:00 PM",
+          "cost": "$3",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Last entry one hour before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit the cathedral before or after climbing the belfry.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.798,
+            "longitude": 24.1503
+          },
+          "address": "Strada Mitropoliei 30, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Historic",
+            "Viewpoint",
+            "Photography"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Detaliu.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Detaliu.jpg",
+                "width": 267,
+                "height": 200,
+                "attribution": {
+                  "title": "Detaliu",
+                  "author": "Catalin gafton at Romanian Wikipedia",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Detaliu.jpg",
+                  "credit": "Transferred from ro.wikipedia to Commons by Zeugma_fr using CommonsHelper.",
+                  "usage_terms": "Public domain",
+                  "description": ".mw-parser-output .monument-istoric{width:400px;max-width:100%;margin:1px;padding:2px;background-color:#800000;color:#fff;text-align:initial;font-size:0.75em;line-height:1.1em}.mw-parser-output .monument-istoric td:first-child{width:26px;height:26px}.mw-parser-output .monument-istoric a{color:yellow}.mw-parser-output .monument-istoric-code a{color:inherit}\n\n\n\n\nThis is a photo of a historic monument in județul Sibiu, classified with number SB-II-m-A-12107."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7532
+        },
+        {
+          "name": "House of Arts (Casa Artelor)",
+          "ai_summary": "The House of Arts is a cultural institution in Sibiu, hosting various art exhibitions and events.",
+          "name_english": "House of Arts",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "Varies",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "Closed",
+            "notes": "Check the schedule for current exhibitions."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Attend a workshop or event if available.",
+          "advanced_booking": true,
+          "coordinates": {
+            "latitude": 45.7973,
+            "longitude": 24.1512
+          },
+          "address": "Strada Nicolae Balcescu 17, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Art",
+            "Culture",
+            "Exhibitions"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Catedrala mitropolitana din Sibiu11.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Catedrala_mitropolitana_din_Sibiu11.jpg/960px-Catedrala_mitropolitana_din_Sibiu11.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Catedrala mitropolitana din Sibiu11",
+                  "author": "Cezar Suceveanu",
+                  "license": "CC BY-SA 3.0 ro",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Catedrala_mitropolitana_din_Sibiu11.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 ro",
+                  "description": "Catedrala mitropolitana din Sibiu"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7365
+        },
+        {
+          "name": "Historic Walls & Defense Towers",
+          "ai_summary": "The Historic Walls and Defense Towers are remnants of Sibiu’s medieval fortifications, offering a glimpse into the past.",
+          "name_english": "Defense Towers",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "7:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the area around the towers for more history.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7978,
+            "longitude": 24.1498
+          },
+          "address": "Strada Cetatii, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Historic",
+            "Architecture",
+            "Photography"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Biserica Iezuiților din Sibiu - Jesuit Church of Sibiu (MAR 2023) exterior - IMG 02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Biserica_Iezui%C8%9Bilor_din_Sibiu_-_Jesuit_Church_of_Sibiu_%28MAR_2023%29_exterior_-_IMG_02.jpg/960px-Biserica_Iezui%C8%9Bilor_din_Sibiu_-_Jesuit_Church_of_Sibiu_%28MAR_2023%29_exterior_-_IMG_02.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Biserica Iezuiților din Sibiu - Jesuit Church of Sibiu (MAR 2023) exterior - IMG 02",
+                  "author": "Chainwit.",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Biserica_Iezuiților_din_Sibiu_-_Jesuit_Church_of_Sibiu_(MAR_2023)_exterior_-_IMG_02.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Jesuit Church, Sibiu"
+                }
+              }
+            }
+          },
+          "rank_score": 0.785
+        },
+        {
+          "name": "Huet Square",
+          "ai_summary": "Huet Square is a vibrant public space in Sibiu, often hosting events, markets, and concerts.",
+          "name_english": "Huet Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "7:30 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening for events."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Check the local schedule for events during your visit.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7983,
+            "longitude": 24.151
+          },
+          "address": "Piata Huet, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Culture",
+            "Events",
+            "Relaxation"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:1Kanzel der Stadtpfarrkirche in Hermannstadt.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/1Kanzel_der_Stadtpfarrkirche_in_Hermannstadt.jpg",
+                "width": 591,
+                "height": 886,
+                "attribution": {
+                  "title": "1Kanzel der Stadtpfarrkirche in Hermannstadt",
+                  "author": "Otto Schemmel",
+                  "license": "CC BY-SA 2.0 de",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:1Kanzel_der_Stadtpfarrkirche_in_Hermannstadt.jpg",
+                  "credit": "own work (transferred from de:Bild:1Kanzel der Stadtpfarrkirche in Hermannstadt.jpg)",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0 de",
+                  "description": "Kanzel der Stadtpfarrkirche in Hermannstadt"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7567
+        },
+        {
+          "name": "Carpenters’ Tower",
+          "ai_summary": "Carpenters’ Tower is a medieval tower in Sibiu, part of the old city fortifications, offering great views.",
+          "name_english": "Carpenters’ Tower",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:15 AM",
+          "sunset_time": "8:15 PM",
+          "cost": "$2",
+          "rating_tourist_priority": 4.4,
+          "rating_traveler_experience": 4.3,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Last entry one hour before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit early to avoid crowds.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7981,
+            "longitude": 24.1495
+          },
+          "address": "Strada Cetatii, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Historic",
+            "Viewpoint",
+            "Photography"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Colegiul National von Brukenthal.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Colegiul_National_von_Brukenthal.jpg",
+                "width": 800,
+                "height": 460,
+                "attribution": {
+                  "title": "Colegiul National von Brukenthal",
+                  "author": "Karin1992",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Colegiul_National_von_Brukenthal.jpg",
+                  "credit": "Déjà dans Commons, domaine public. Auteur: Karin1992.",
+                  "usage_terms": "Public domain",
+                  "description": "Collège von Brukenthal à Sibiu, sur la place Huet. Statue de l'évêque Georg Daniel Teutsch. A gauche,clocher de l'église réformée."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7392
+        },
+        {
+          "name": "Pharmacy Museum",
+          "ai_summary": "The Pharmacy Museum in Sibiu offers a glimpse into the history of medicine and pharmacy in the region.",
+          "name_english": "Pharmacy Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": null,
+          "sunset_time": null,
+          "cost": "$4",
+          "rating_tourist_priority": 4.3,
+          "rating_traveler_experience": 4.2,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "10:00 AM - 6:00 PM",
+            "Wednesday": "10:00 AM - 6:00 PM",
+            "Thursday": "10:00 AM - 6:00 PM",
+            "Friday": "10:00 AM - 6:00 PM",
+            "Saturday": "10:00 AM - 6:00 PM",
+            "Sunday": "Closed",
+            "notes": "Closed on Mondays."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Combine your visit with the nearby Brukenthal Museum.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.797,
+            "longitude": 24.1515
+          },
+          "address": "Strada Nicolae Balcescu 4, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Museum",
+            "History",
+            "Medicine"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Biserica Iezuiților din Sibiu - Jesuit Church of Sibiu (MAR 2023) exterior - IMG 02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Biserica_Iezui%C8%9Bilor_din_Sibiu_-_Jesuit_Church_of_Sibiu_%28MAR_2023%29_exterior_-_IMG_02.jpg/960px-Biserica_Iezui%C8%9Bilor_din_Sibiu_-_Jesuit_Church_of_Sibiu_%28MAR_2023%29_exterior_-_IMG_02.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Biserica Iezuiților din Sibiu - Jesuit Church of Sibiu (MAR 2023) exterior - IMG 02",
+                  "author": "Chainwit.",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Biserica_Iezuiților_din_Sibiu_-_Jesuit_Church_of_Sibiu_(MAR_2023)_exterior_-_IMG_02.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Jesuit Church, Sibiu"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7102
+        },
+        {
+          "name": "Union Square (Piata Unirii)",
+          "ai_summary": "Union Square is a central square in Sibiu, known for its impressive buildings and vibrant atmosphere.",
+          "name_english": "Union Square",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "7:45 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the evening."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Explore the nearby streets for local shops and cafes.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.796,
+            "longitude": 24.149
+          },
+          "address": "Piata Unirii, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Historic",
+            "Culture",
+            "Relaxation"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Anton Freiherr von Puchner Litho.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Anton_Freiherr_von_Puchner_Litho.jpg/960px-Anton_Freiherr_von_Puchner_Litho.jpg",
+                "width": 800,
+                "height": 1208,
+                "attribution": {
+                  "title": "Anton Freiherr von Puchner Litho",
+                  "author": "Johann Stadler (1804-1859)",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Anton_Freiherr_von_Puchner_Litho.jpg",
+                  "credit": "Johann Stadler (1804-1859)",
+                  "usage_terms": "Public domain",
+                  "description": "Anton Freiherr von Puchner (1779-1852), k. k. Feldzeugmeister. Ritter des Maria-Theresien Ordens. Lithographie von Johann Stadler, 1849"
+                }
+              }
+            }
+          },
+          "rank_score": 0.7697
+        },
+        {
+          "name": "Citadel Park",
+          "ai_summary": "Citadel Park is a large public park in Sibiu, perfect for a leisurely stroll or a picnic.",
+          "name_english": "Citadel Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited in the morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Bring a book and relax in the park.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7955,
+            "longitude": 24.1485
+          },
+          "address": "Parcul Cetatii, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Nature",
+            "Relaxation",
+            "Walking"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Biserica Iezuiților din Sibiu - Jesuit Church of Sibiu (MAR 2023) exterior - IMG 02.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Biserica_Iezui%C8%9Bilor_din_Sibiu_-_Jesuit_Church_of_Sibiu_%28MAR_2023%29_exterior_-_IMG_02.jpg/960px-Biserica_Iezui%C8%9Bilor_din_Sibiu_-_Jesuit_Church_of_Sibiu_%28MAR_2023%29_exterior_-_IMG_02.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Biserica Iezuiților din Sibiu - Jesuit Church of Sibiu (MAR 2023) exterior - IMG 02",
+                  "author": "Chainwit.",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Biserica_Iezuiților_din_Sibiu_-_Jesuit_Church_of_Sibiu_(MAR_2023)_exterior_-_IMG_02.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Jesuit Church, Sibiu"
+                }
+              }
+            }
+          },
+          "rank_score": 0.769
+        },
+        {
+          "name": "Sibiu Christmas Market (Winter)",
+          "ai_summary": "The Sibiu Christmas Market is a festive market held in the winter, offering local crafts, food, and drinks.",
+          "name_english": "Christmas Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": null,
+          "sunset_time": "7:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Closed",
+            "Tuesday": "Closed",
+            "Wednesday": "Closed",
+            "Thursday": "Closed",
+            "Friday": "Closed",
+            "Saturday": "10:00 AM - 7:00 PM",
+            "Sunday": "10:00 AM - 7:00 PM",
+            "notes": "Open from late November to late December."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local mulled wine and gingerbread.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7962,
+            "longitude": 24.151
+          },
+          "address": "Piata Mare, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Festival",
+            "Food",
+            "Culture"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Colegiul National von Brukenthal.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Colegiul_National_von_Brukenthal.jpg",
+                "width": 800,
+                "height": 460,
+                "attribution": {
+                  "title": "Colegiul National von Brukenthal",
+                  "author": "Karin1992",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Colegiul_National_von_Brukenthal.jpg",
+                  "credit": "Déjà dans Commons, domaine public. Auteur: Karin1992.",
+                  "usage_terms": "Public domain",
+                  "description": "Collège von Brukenthal à Sibiu, sur la place Huet. Statue de l'évêque Georg Daniel Teutsch. A gauche,clocher de l'église réformée."
+                }
+              }
+            }
+          },
+          "rank_score": 0.8255
+        },
+        {
+          "name": "Panorama View from Council Tower",
+          "ai_summary": "The panorama view from the Council Tower is breathtaking, offering a bird’s eye view of Sibiu and the surrounding areas.",
+          "name_english": "Panorama View",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "6:00 AM",
+          "sunset_time": "8:00 PM",
+          "cost": "$2",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "9:00 AM - 5:00 PM",
+            "Tuesday": "9:00 AM - 5:00 PM",
+            "Wednesday": "9:00 AM - 5:00 PM",
+            "Thursday": "9:00 AM - 5:00 PM",
+            "Friday": "9:00 AM - 5:00 PM",
+            "Saturday": "9:00 AM - 5:00 PM",
+            "Sunday": "9:00 AM - 5:00 PM",
+            "notes": "Last entry one hour before closing."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Morning or late afternoon",
+          "place_tip": "Visit during sunset for a magical view.",
+          "advanced_booking": false,
+          "coordinates": {
+            "latitude": 45.7982,
+            "longitude": 24.1511
+          },
+          "address": "Turnul Sfatului, Sibiu, Romania",
+          "official_website": "https://www.sibiutourism.ro",
+          "tags": [
+            "Viewpoint",
+            "Photography",
+            "Historic"
+          ],
+          "state": "Sibiu",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Detaliu.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Detaliu.jpg",
+                "width": 267,
+                "height": 200,
+                "attribution": {
+                  "title": "Detaliu",
+                  "author": "Catalin gafton at Romanian Wikipedia",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Detaliu.jpg",
+                  "credit": "Transferred from ro.wikipedia to Commons by Zeugma_fr using CommonsHelper.",
+                  "usage_terms": "Public domain",
+                  "description": ".mw-parser-output .monument-istoric{width:400px;max-width:100%;margin:1px;padding:2px;background-color:#800000;color:#fff;text-align:initial;font-size:0.75em;line-height:1.1em}.mw-parser-output .monument-istoric td:first-child{width:26px;height:26px}.mw-parser-output .monument-istoric a{color:yellow}.mw-parser-output .monument-istoric-code a{color:inherit}\n\n\n\n\nThis is a photo of a historic monument in județul Sibiu, classified with number SB-II-m-A-12107."
+                }
+              }
+            }
+          },
+          "rank_score": 0.7812
+        }
+      ]
+    }
+  ]
+}

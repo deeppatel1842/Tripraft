@@ -1,0 +1,936 @@
+{
+  "country": "Croatia",
+  "state": "Dubrovnik",
+  "cities": [
+    {
+      "city": "Dubrovnik",
+      "nearest_airport": "Dubrovnik Airport (DBV)",
+      "places": [
+        {
+          "name": "Popayán Historic White City Center",
+          "ai_summary": "A charming colonial city center known for its whitewashed buildings and rich history.",
+          "name_english": "Popayán Historic Center",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Take a guided walking tour to learn about the city's history.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.4448,
+            "lng": -76.6147
+          },
+          "address": "Popayán, Cauca, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Cultural",
+            "Walking"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Museo de Arte Religioso de Popayán.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Museo_de_Arte_Religioso_de_Popay%C3%A1n.jpg/960px-Museo_de_Arte_Religioso_de_Popay%C3%A1n.jpg",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Museo de Arte Religioso de Popayán",
+                  "author": "Roarboleda",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Museo_de_Arte_Religioso_de_Popayán.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Casa Arboleda Arroyo - Museo Arquidiocesano de Arte Religioso de Popayán"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Puente del Humilladero",
+          "ai_summary": "A historic stone bridge offering picturesque views and a glimpse into colonial engineering.",
+          "name_english": "Humilladero Bridge",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during the evening for a romantic atmosphere."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Capture photos of the bridge at sunset.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.4425,
+            "lng": -76.6069
+          },
+          "address": "Puente del Humilladero, Popayán, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Scenic",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Airplane silhouette.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Airplane_silhouette.svg/800px-Airplane_silhouette.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Airplane silhouette",
+                  "author": "Original:  Jussi Paju Vector:  McSush",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Airplane_silhouette.svg",
+                  "credit": "Own work based on: Airplane silhouette.png",
+                  "usage_terms": "Public domain",
+                  "description": "Icon-type silhouette of an airplane. (Mainly to be used in Userboxes)\n\nUsed on WIkipedia as an airport location icon."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Morro del Tulcán Pyramid",
+          "ai_summary": "An ancient pyramid-shaped mound offering panoramic views of Popayán.",
+          "name_english": "Morro del Tulcán",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited early morning or late afternoon."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear comfortable shoes for the climb.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.4442,
+            "lng": -76.6097
+          },
+          "address": "Morro del Tulcán, Popayán, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Historic",
+            "Scenic",
+            "Adventure"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:El Morro de Tulcán, Popayán.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/El_Morro_de_Tulc%C3%A1n%2C_Popay%C3%A1n.jpg/960px-El_Morro_de_Tulc%C3%A1n%2C_Popay%C3%A1n.jpg",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "El Morro de Tulcán, Popayán",
+                  "author": "Bernard Gagnon",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:El_Morro_de_Tulcán,_Popayán.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "El Morro de Tulcán, Popayán, Colombia"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Museo Nacional Guillermo Valencia",
+          "ai_summary": "A museum dedicated to the life and works of Colombian poet Guillermo Valencia, housed in a historic mansion.",
+          "name_english": "Guillermo Valencia Museum",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "sunrise_time": "N/A",
+          "sunset_time": "N/A",
+          "cost": "COP 5,000 per person",
+          "rating_tourist_priority": 4.5,
+          "rating_traveler_experience": 4.4,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "9:00 AM - 5:00 PM",
+            "wed": "9:00 AM - 5:00 PM",
+            "thu": "9:00 AM - 5:00 PM",
+            "fri": "9:00 AM - 5:00 PM",
+            "sat": "9:00 AM - 5:00 PM",
+            "sun": "9:00 AM - 5:00 PM",
+            "notes": "Guided tours are available."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Learn about the poet's influence on Colombian literature.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.4428,
+            "lng": -76.6103
+          },
+          "address": "Museo Guillermo Valencia, Popayán, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Museum",
+            "Cultural",
+            "Historic"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Airplane silhouette.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Airplane_silhouette.svg/800px-Airplane_silhouette.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Airplane silhouette",
+                  "author": "Original:  Jussi Paju Vector:  McSush",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Airplane_silhouette.svg",
+                  "credit": "Own work based on: Airplane silhouette.png",
+                  "usage_terms": "Public domain",
+                  "description": "Icon-type silhouette of an airplane. (Mainly to be used in Userboxes)\n\nUsed on WIkipedia as an airport location icon."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Caldas Park & Cathedral",
+          "ai_summary": "The central park of Popayán, surrounded by historic buildings, including the iconic cathedral.",
+          "name_english": "Caldas Park & Cathedral",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during the evening for a lively atmosphere."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Relax on a bench and enjoy the local ambiance.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.4435,
+            "lng": -76.6123
+          },
+          "address": "Caldas Park, Popayán, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Park",
+            "Cultural",
+            "Landmark"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Carta Corográfica Del Estado Del Cauca.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Carta_Corogr%C3%A1fica_Del_Estado_Del_Cauca.jpg/960px-Carta_Corogr%C3%A1fica_Del_Estado_Del_Cauca.jpg",
+                "width": 800,
+                "height": 1458,
+                "attribution": {
+                  "title": "Carta Corográfica Del Estado Del Cauca",
+                  "author": "Thierry, [?] ; Schieble, Erhard ; Paz, Manuel Maria ; Ponce de León, Manuel",
+                  "license": "CC0",
+                  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Carta_Corográfica_Del_Estado_Del_Cauca.jpg",
+                  "credit": "Leibniz-Institut für Länderkunde e.V., Leipzig",
+                  "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+                  "description": "1 Kt. : teilw. kolor. (60 x 115 cm). Maßstab 1 : 810 000. Koordinaten W 79°10'00\"-W 74°52'00\"/N 8°57'00\"-N 0°41'00\". Maßstab in graph. Form (miriámetros, antiguas leguas granadinas). Titel Mitte links. - Maßstab unten rechts. Relief: Schraffen. - Auf Leinen aufgezogen. Mit handschriftl. Reiserouten und Anmerkungen"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Puracé National Natural Park (Condor Viewpoint)",
+          "ai_summary": "A stunning national park known for its diverse ecosystems and the chance to see Andean condors.",
+          "name_english": "Puracé National Natural Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "05:30 AM",
+          "sunset_time": "06:30 PM",
+          "cost": "COP 10,000 per person",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "6:00 AM - 5:00 PM",
+            "tue": "6:00 AM - 5:00 PM",
+            "wed": "6:00 AM - 5:00 PM",
+            "thu": "6:00 AM - 5:00 PM",
+            "fri": "6:00 AM - 5:00 PM",
+            "sat": "6:00 AM - 5:00 PM",
+            "sun": "6:00 AM - 5:00 PM",
+            "notes": "Best visited early morning for wildlife viewing."
+          },
+          "suggested_duration": "4-5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring binoculars for bird watching.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.4667,
+            "lng": -76.6333
+          },
+          "address": "Puracé National Natural Park, Cauca, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Adventure",
+            "Wildlife"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "San Agustín Archaeological Park (UNESCO)",
+          "ai_summary": "A UNESCO World Heritage site featuring ancient tombs and ceremonial structures.",
+          "name_english": "San Agustín Archaeological Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "COP 20,000 per person",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "8:00 AM - 5:00 PM",
+            "tue": "8:00 AM - 5:00 PM",
+            "wed": "8:00 AM - 5:00 PM",
+            "thu": "8:00 AM - 5:00 PM",
+            "fri": "8:00 AM - 5:00 PM",
+            "sat": "8:00 AM - 5:00 PM",
+            "sun": "8:00 AM - 5:00 PM",
+            "notes": "Guided tours are recommended."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the main tombs and the archaeological museum.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 1.8667,
+            "lng": -76.25
+          },
+          "address": "San Agustín, Huila, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "UNESCO",
+            "Historic",
+            "Cultural"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Afghanistan (2002–2004).svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Flag_of_Afghanistan_%282002%E2%80%932004%29.svg/960px-Flag_of_Afghanistan_%282002%E2%80%932004%29.svg.png",
+                "width": 800,
+                "height": 400,
+                "attribution": {
+                  "title": "Flag of Afghanistan (2002–2004)",
+                  "author": "Various",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Afghanistan_(2002–2004).svg",
+                  "credit": "This SVG coat of arms includes elements that have been taken or adapted from this coat of arms:",
+                  "usage_terms": "Public domain",
+                  "description": "Flag of Afghanistan from 2002 to 2004"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Alto de los Ídolos & Alto de las Piedras",
+          "ai_summary": "Archaeological sites featuring impressive stone statues and tombs from the San Agustín culture.",
+          "name_english": "Alto de los Ídolos & Alto de las Piedras",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "COP 15,000 per person",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "8:00 AM - 5:00 PM",
+            "tue": "8:00 AM - 5:00 PM",
+            "wed": "8:00 AM - 5:00 PM",
+            "thu": "8:00 AM - 5:00 PM",
+            "fri": "8:00 AM - 5:00 PM",
+            "sat": "8:00 AM - 5:00 PM",
+            "sun": "8:00 AM - 5:00 PM",
+            "notes": "Part of the San Agustín Archaeological Park."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore both the Alto de los Ídolos and Alto de las Piedras.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 1.8667,
+            "lng": -76.25
+          },
+          "address": "San Agustín, Huila, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Archaeological",
+            "Historic",
+            "Cultural"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Magdalena River Strait (Estrecho del Magdalena)",
+          "ai_summary": "A natural wonder where the Magdalena River narrows dramatically, offering stunning views.",
+          "name_english": "Magdalena River Strait",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best viewed from the nearby viewpoints."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Visit the viewpoints for the best photos.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 1.8333,
+            "lng": -76.25
+          },
+          "address": "San Agustín, Huila, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Natural Wonder",
+            "Scenic",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Antrim arms.png",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Antrim_arms.png",
+                "width": 307,
+                "height": 282,
+                "attribution": {
+                  "title": "Antrim arms",
+                  "author": "Lozleader",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Antrim_arms.png",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Coat of arms of Antrim County Council"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Tierradentro Hypogea (UNESCO)",
+          "ai_summary": "An archaeological site with underground tombs and impressive rock art, part of the UNESCO World Heritage.",
+          "name_english": "Tierradentro Hypogea",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "COP 10,000 per person",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "8:00 AM - 5:00 PM",
+            "tue": "8:00 AM - 5:00 PM",
+            "wed": "8:00 AM - 5:00 PM",
+            "thu": "8:00 AM - 5:00 PM",
+            "fri": "8:00 AM - 5:00 PM",
+            "sat": "8:00 AM - 5:00 PM",
+            "sun": "8:00 AM - 5:00 PM",
+            "notes": "Guided tours are recommended."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the main hypogea and the rock art.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.0833,
+            "lng": -76.25
+          },
+          "address": "Inza, Cauca, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "UNESCO",
+            "Archaeological",
+            "Cultural"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "San Andrés de Pisimbalá Church",
+          "ai_summary": "A beautiful colonial church known for its impressive altar and religious art.",
+          "name_english": "San Andrés de Pisimbalá Church",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "9:00 AM - 5:00 PM",
+            "wed": "9:00 AM - 5:00 PM",
+            "thu": "9:00 AM - 5:00 PM",
+            "fri": "9:00 AM - 5:00 PM",
+            "sat": "9:00 AM - 5:00 PM",
+            "sun": "9:00 AM - 5:00 PM",
+            "notes": "Check for mass times if you wish to attend."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Admire the altar and the religious paintings.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.0833,
+            "lng": -76.25
+          },
+          "address": "Pisimbalá, Cauca, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Religious",
+            "Historic",
+            "Cultural"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Coconuco Thermal Baths",
+          "ai_summary": "Natural hot springs offering a relaxing experience in a beautiful setting.",
+          "name_english": "Coconuco Thermal Baths",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "COP 15,000 per person",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "6:00 AM - 10:00 PM",
+            "tue": "6:00 AM - 10:00 PM",
+            "wed": "6:00 AM - 10:00 PM",
+            "thu": "6:00 AM - 10:00 PM",
+            "fri": "6:00 AM - 10:00 PM",
+            "sat": "6:00 AM - 10:00 PM",
+            "sun": "6:00 AM - 10:00 PM",
+            "notes": "Bring your own towel and toiletries."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try to visit during the week to avoid crowds.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.0833,
+            "lng": -76.25
+          },
+          "address": "Coconuco, Cauca, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Relaxation",
+            "Nature",
+            "Wellness"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "La Plata Waterfalls Route",
+          "ai_summary": "A scenic route leading to stunning waterfalls, perfect for hiking and nature photography.",
+          "name_english": "La Plata Waterfalls Route",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "COP 10,000 per person",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited during the dry season."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Carry water and snacks for the hike.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.0833,
+            "lng": -76.25
+          },
+          "address": "La Plata, Huila, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Photography"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Ambox important.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/800px-Ambox_important.svg.png",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Ambox important",
+                  "author": "Dsmurat, penubag",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Ambox_important.svg",
+                  "credit": "Own work based on: Ambox scales.svg",
+                  "usage_terms": "Public domain",
+                  "description": "Exclamation mark for ambox use"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Handicrafts & Macetas (Popayán tradition)",
+          "ai_summary": "Explore the traditional handicrafts of Popayán, including the famous macetas (clay pots).",
+          "name_english": "Popayán Handicrafts",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best visited in the morning for fresh handicrafts."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the local markets for the best selection.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.4448,
+            "lng": -76.6147
+          },
+          "address": "Popayán, Cauca, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Shopping",
+            "Cultural",
+            "Artisan"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Flag of Colombia.svg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/800px-Flag_of_Colombia.svg.png",
+                "width": 800,
+                "height": 533,
+                "attribution": {
+                  "title": "Flag of Colombia",
+                  "author": "See File history below for details.",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Colombia.svg",
+                  "credit": "Drawn by User:SKopp",
+                  "usage_terms": "Public domain",
+                  "description": "The flag of Colombia."
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Silvia Indigenous Market (Guambiano)",
+          "ai_summary": "A vibrant indigenous market in Silvia, showcasing the culture and traditions of the Guambiano people.",
+          "name_english": "Silvia Indigenous Market",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "mon": "Closed",
+            "tue": "6:00 AM - 5:00 PM",
+            "wed": "6:00 AM - 5:00 PM",
+            "thu": "6:00 AM - 5:00 PM",
+            "fri": "6:00 AM - 5:00 PM",
+            "sat": "6:00 AM - 5:00 PM",
+            "sun": "6:00 AM - 5:00 PM",
+            "notes": "Best visited on Tuesdays and Saturdays."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Try the local food and buy handmade souvenirs.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.5833,
+            "lng": -76.1667
+          },
+          "address": "Silvia, Cauca, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Market",
+            "Cultural",
+            "Food"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "Huila Coffee Route (Isnos)",
+          "ai_summary": "A scenic route through the coffee-growing region of Huila, with opportunities for tastings and tours.",
+          "name_english": "Huila Coffee Route",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:00 AM",
+          "sunset_time": "06:00 PM",
+          "cost": "COP 10,000 per person",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "8:00 AM - 5:00 PM",
+            "tue": "8:00 AM - 5:00 PM",
+            "wed": "8:00 AM - 5:00 PM",
+            "thu": "8:00 AM - 5:00 PM",
+            "fri": "8:00 AM - 5:00 PM",
+            "sat": "8:00 AM - 5:00 PM",
+            "sun": "8:00 AM - 5:00 PM",
+            "notes": "Best visited during the coffee harvest season (October to December)."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit a coffee farm for a guided tour and tasting.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.5833,
+            "lng": -76.1667
+          },
+          "address": "Isnos, Huila, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Cultural",
+            "Food"
+          ],
+          "photos": {
+            "wikimedia_commons": {}
+          }
+        },
+        {
+          "name": "White City Holy Week Processions (Seasonal)",
+          "ai_summary": "Experience the vibrant and religiously significant processions during Holy Week in Popayán.",
+          "name_english": "Popayán Holy Week Processions",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "mon": "Varies",
+            "tue": "Varies",
+            "wed": "Varies",
+            "thu": "Varies",
+            "fri": "Varies",
+            "sat": "Varies",
+            "sun": "Varies",
+            "notes": "Check the schedule for specific procession times."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Join a local tour for the best experience.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "lat": 2.4448,
+            "lng": -76.6147
+          },
+          "address": "Popayán, Cauca, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Cultural",
+            "Religious",
+            "Seasonal"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Museo de Arte Religioso de Popayán.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Museo_de_Arte_Religioso_de_Popay%C3%A1n.jpg/960px-Museo_de_Arte_Religioso_de_Popay%C3%A1n.jpg",
+                "width": 800,
+                "height": 800,
+                "attribution": {
+                  "title": "Museo de Arte Religioso de Popayán",
+                  "author": "Roarboleda",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Museo_de_Arte_Religioso_de_Popayán.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Casa Arboleda Arroyo - Museo Arquidiocesano de Arte Religioso de Popayán"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Sunset at El Morro de Tulcán",
+          "ai_summary": "Enjoy a breathtaking sunset view from the El Morro de Tulcán, a must-see in Popayán.",
+          "name_english": "Sunset at El Morro de Tulcán",
+          "sunrise_view": false,
+          "sunset_view": true,
+          "sunrise_time": "N/A",
+          "sunset_time": "06:00 PM",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "mon": "Open 24 hours",
+            "tue": "Open 24 hours",
+            "wed": "Open 24 hours",
+            "thu": "Open 24 hours",
+            "fri": "Open 24 hours",
+            "sat": "Open 24 hours",
+            "sun": "Open 24 hours",
+            "notes": "Best viewed from the designated viewpoint."
+          },
+          "suggested_duration": "1 hour",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Arrive early to secure a good spot at the viewpoint.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "lat": 2.4442,
+            "lng": -76.6097
+          },
+          "address": "El Morro de Tulcán, Popayán, Colombia",
+          "official_website": "N/A",
+          "tags": [
+            "Scenic",
+            "Photography",
+            "Nature"
+          ],
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:046CupolaSPietro.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/046CupolaSPietro.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "046CupolaSPietro",
+                  "author": "MarkusMark",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:046CupolaSPietro.jpg",
+                  "credit": "Own work",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Città del Vaticano - Cupola della Basilica di S. Pietro"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

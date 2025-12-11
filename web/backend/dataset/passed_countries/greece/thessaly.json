@@ -1,0 +1,1203 @@
+{
+  "country": "Greece",
+  "state": "Thessaly",
+  "cities": [
+    {
+      "city": "Meteora",
+      "nearest_airport": "Thessaloniki International Airport (SKG)",
+      "places": [
+        {
+          "name": "Monasteries of Meteora",
+          "ai_summary": "A UNESCO World Heritage Site, the Meteora monasteries are perched atop towering rock formations, offering breathtaking views and spiritual serenity.",
+          "name_english": "Monasteries of Meteora",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "$5 per monastery",
+          "rating_tourist_priority": 5.0,
+          "rating_traveler_experience": 4.9,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Each monastery may have different opening days."
+          },
+          "suggested_duration": "3-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear modest clothing as it is a religious site, and bring a camera for the views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.721,
+            "longitude": 21.631
+          },
+          "address": "Meteora, Thessaly, Greece",
+          "official_website": "https://www.visitmeteora.gr/",
+          "tags": [
+            "Monastery",
+            "UNESCO",
+            "Viewpoint"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Meteora_Agios_Triadas_IMG_7632.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Meteora_Agios_Triadas_IMG_7632.jpg/960px-Meteora_Agios_Triadas_IMG_7632.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Meteora Agios Triadas IMG 7632",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dido3&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dido3 (page does not exist)\">Dido3</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Meteora_Agios_Triadas_IMG_7632.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Moni Agios Triadas, <a href=\"https://en.wikipedia.org/wiki/Meteora\" class=\"extiw\" title=\"en:Meteora\">Meteora</a>, Greece"
+                }
+              }
+            }
+          },
+          "rank_score": 0.99
+        },
+        {
+          "name": "Pelion Peninsula",
+          "ai_summary": "A lush peninsula with picturesque villages, hiking trails, and stunning beaches, perfect for nature lovers and adventure seekers.",
+          "name_english": "Pelion Peninsula",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "4-6 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring hiking gear and a swimsuit to enjoy both the trails and the beaches.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.391,
+            "longitude": 23.123
+          },
+          "address": "Pelion Peninsula, Thessaly, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Nature",
+            "Hiking",
+            "Beaches"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pilion_with_monastery_pau.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Pilion_with_monastery_pau.JPG/960px-Pilion_with_monastery_pau.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pilion with monastery pau",
+                  "author": "Heidi B",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pilion_with_monastery_pau.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "Southern half of the Greek peninsula pelion with the monastery Pau (or Poau) in the foreground."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Lake Plastira",
+          "ai_summary": "A serene artificial lake surrounded by mountains, offering opportunities for boating, hiking, and enjoying the tranquil scenery.",
+          "name_english": "Lake Plastira",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during daylight hours for safety."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Rent a boat to explore the lake and enjoy the surrounding nature trails.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.364,
+            "longitude": 21.751
+          },
+          "address": "Lake Plastira, Thessaly, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Lake",
+            "Nature",
+            "Relaxation"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:LakePlastirasGreece_(cropped).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/LakePlastirasGreece_%28cropped%29.jpg/960px-LakePlastirasGreece_%28cropped%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "LakePlastirasGreece (cropped)",
+                  "author": "European Union, Copernicus Sentinel-2 imagery",
+                  "license": "Attribution",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:LakePlastirasGreece_(cropped).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "This image, acquired by one of the Copernicus Sentinel-2 satellites on 19 March 2023, shows Lake Plastira in the Greek Thessaly region"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Mount Pelion",
+          "ai_summary": "A mountain offering stunning views, traditional villages, and beautiful beaches, ideal for hiking, skiing, and relaxation.",
+          "name_english": "Mount Pelion",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "4-8 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the traditional villages and try local delicacies.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.368,
+            "longitude": 23.098
+          },
+          "address": "Mount Pelion, Thessaly, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Mountain",
+            "Hiking",
+            "Skiing"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pilion_with_monastery_pau.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Pilion_with_monastery_pau.JPG/960px-Pilion_with_monastery_pau.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pilion with monastery pau",
+                  "author": "Heidi B",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pilion_with_monastery_pau.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "Southern half of the Greek peninsula pelion with the monastery Pau (or Poau) in the foreground."
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Larissa Ancient Theatre",
+          "ai_summary": "An ancient Greek theatre in Larissa, offering a glimpse into the region's rich history and impressive ancient architecture.",
+          "name_english": "Larissa Ancient Theatre",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-20:00",
+            "Tuesday": "08:00-20:00",
+            "Wednesday": "08:00-20:00",
+            "Thursday": "08:00-20:00",
+            "Friday": "08:00-20:00",
+            "Saturday": "08:00-20:00",
+            "Sunday": "08:00-20:00",
+            "notes": "Last entrance 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Combine with a visit to the nearby Larissa Fortress.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.639,
+            "longitude": 22.419
+          },
+          "address": "Larissa, Thessaly, Greece",
+          "official_website": "https://www.larissa-dimos.gr/en/",
+          "tags": [
+            "Ancient Theatre",
+            "History",
+            "Architecture"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Λάρισα,_αρχαίο_Θέατρο_Α_4.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%CE%9B%CE%AC%CF%81%CE%B9%CF%83%CE%B1%2C_%CE%B1%CF%81%CF%87%CE%B1%CE%AF%CE%BF_%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF_%CE%91_4.jpg/960px-%CE%9B%CE%AC%CF%81%CE%B9%CF%83%CE%B1%2C_%CE%B1%CF%81%CF%87%CE%B1%CE%AF%CE%BF_%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF_%CE%91_4.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Λάρισα, αρχαίο Θέατρο Α 4",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Geniusloci1979&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Geniusloci1979 (page does not exist)\">Δημήτρης Πλαστήρας</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%CE%9B%CE%AC%CF%81%CE%B9%CF%83%CE%B1,_%CE%B1%CF%81%CF%87%CE%B1%CE%AF%CE%BF_%CE%98%CE%AD%CE%B1%CF%84%CF%81%CE%BF_%CE%91_4.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Δεξιό παρασκήνιο, σκηνή, ορχήστρα και κεντρικές κερκίδες κοίλου"
+                }
+              }
+            }
+          },
+          "rank_score": 0.826
+        },
+        {
+          "name": "Volos",
+          "ai_summary": "A coastal city known for its beautiful waterfront, vibrant nightlife, and as a gateway to Mount Pelion and the Pelion Peninsula.",
+          "name_english": "Volos",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Evening",
+          "place_tip": "Try the local seafood and enjoy a walk along the waterfront promenade.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.366,
+            "longitude": 22.944
+          },
+          "address": "Volos, Thessaly, Greece",
+          "official_website": "https://www.volos-city.gr/en/",
+          "tags": [
+            "City",
+            "Coast",
+            "Nightlife"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:VOLOS-GREECE_-_panoramio_(1).jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/VOLOS-GREECE_-_panoramio_%281%29.jpg/960px-VOLOS-GREECE_-_panoramio_%281%29.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "VOLOS-GREECE - panoramio (1)",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161020114726/http://www.panoramio.com/user/6636137?with_photo_id=65865568\">konstantinos kolimpa…</a>",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:VOLOS-GREECE_-_panoramio_(1).jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 3.0",
+                  "description": "VOLOS-GREECE"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Tsagarada",
+          "ai_summary": "A picturesque village on the Pelion Peninsula, known for its stunning beaches, lush greenery, and traditional architecture.",
+          "name_english": "Tsagarada",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the famous 100-year-old plane tree and the nearby beaches.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.37,
+            "longitude": 23.202
+          },
+          "address": "Tsagarada, Pelion, Thessaly, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Village",
+            "Beaches",
+            "Nature"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Tsagkarada_6_-_Agia_Paraskevi.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Tsagkarada_6_-_Agia_Paraskevi.JPG/960px-Tsagkarada_6_-_Agia_Paraskevi.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Tsagkarada 6 - Agia Paraskevi",
+                  "author": "Konstantinos Stampoulis (<a href=\"//commons.wikimedia.org/wiki/User:Geraki\" class=\"mw-userlink\" title=\"User:Geraki\">Geraki</a>",
+                  "license": "CC BY-SA 3.0 gr",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/gr/deed.en",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Tsagkarada_6_-_Agia_Paraskevi.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0 gr",
+                  "description": "Ο ναός Αγίας Παρασκευής, στην Τσαγκαράδα"
+                }
+              }
+            }
+          },
+          "rank_score": 0.778
+        },
+        {
+          "name": "Karditsa",
+          "ai_summary": "A city near Lake Plastira, known for its natural beauty, outdoor activities, and as a gateway to the Pindus mountain range.",
+          "name_english": "Karditsa",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "2-4 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Explore the nearby Meteora monasteries and Lake Plastira.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.366,
+            "longitude": 21.771
+          },
+          "address": "Karditsa, Thessaly, Greece",
+          "official_website": "https://www.karditsa.gr/en/",
+          "tags": [
+            "City",
+            "Nature",
+            "Lake"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Karditsa_City_Montage.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Karditsa_City_Montage.jpg/960px-Karditsa_City_Montage.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Karditsa City Montage",
+                  "author": "Self made based upon work by the authors shown above",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Karditsa_City_Montage.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Montage of images in Karditsa City, Greece"
+                }
+              }
+            }
+          },
+          "rank_score": 0.746
+        },
+        {
+          "name": "Kastraki",
+          "ai_summary": "A village near Meteora, known for its traditional stone houses and as a starting point for hiking to the Meteora monasteries.",
+          "name_english": "Kastraki",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the Meteora monasteries and enjoy the local cuisine.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.722,
+            "longitude": 21.634
+          },
+          "address": "Kastraki, Thessaly, Greece",
+          "official_website": "https://www.visitmeteora.gr/",
+          "tags": [
+            "Village",
+            "Hiking",
+            "Monastery"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Kastraki1.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Kastraki1.jpg/960px-Kastraki1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Kastraki1",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Mzmona\" title=\"User:Mzmona\">Mzmona</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Kastraki1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Kastraki"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Anavra Environmental Park",
+          "ai_summary": "A beautiful park in Thessaly, offering a variety of outdoor activities and a chance to experience the local flora and fauna.",
+          "name_english": "Anavra Environmental Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00-20:00",
+            "Tuesday": "08:00-20:00",
+            "Wednesday": "08:00-20:00",
+            "Thursday": "08:00-20:00",
+            "Friday": "08:00-20:00",
+            "Saturday": "08:00-20:00",
+            "Sunday": "08:00-20:00",
+            "notes": "Last entrance 30 minutes before closing."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Bring binoculars for bird watching and a camera for the scenic views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.36,
+            "longitude": 22.785
+          },
+          "address": "Anavra, Thessaly, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Park",
+            "Nature",
+            "Outdoor Activities"
+          ],
+          "state": "Thessaly",
+          "photos": {},
+          "rank_score": 0.73
+        },
+        {
+          "name": "Mount Ossa",
+          "ai_summary": "A mountain offering stunning views and challenging hikes, located near the town of Katerini in Thessaly.",
+          "name_english": "Mount Ossa",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "4-6 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the ancient ruins on the mountain and enjoy the panoramic views.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.722,
+            "longitude": 22.5
+          },
+          "address": "Mount Ossa, Thessaly, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Mountain",
+            "Hiking",
+            "Nature"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Distant_view_of_Kissavos.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Distant_view_of_Kissavos.jpg/960px-Distant_view_of_Kissavos.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Distant view of Kissavos",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/76544271@N00\">stg_gr1</a>",
+                  "license": "CC BY 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Distant_view_of_Kissavos.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.0",
+                  "description": "A distance view of the west side of Kissavos otherwise known as <a href=\"https://en.wikipedia.org/wiki/Mount_Ossa_(Greece)\" class=\"extiw\" title=\"en:Mount Ossa (Greece)\">Ossa Mountain</a> under the sunset from a village road in Thessaly"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Agios Ioannis Beach",
+          "ai_summary": "A popular beach on the Pelion Peninsula, known for its clear waters, sandy shore, and vibrant beach bars.",
+          "name_english": "Agios Ioannis Beach",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best visited during the day."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Afternoon",
+          "place_tip": "Try the local tavernas for fresh seafood and traditional dishes.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.37,
+            "longitude": 23.223
+          },
+          "address": "Agios Ioannis, Pelion, Thessaly, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Beach",
+            "Sea",
+            "Relaxation"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pilion-agios-ioannis.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Pilion-agios-ioannis.JPG/960px-Pilion-agios-ioannis.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pilion-agios-ioannis",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Mboesch\" title=\"User:Mboesch\">Mboesch</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pilion-agios-ioannis.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Pilion - Ostküste: Agios Ioannis"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Centaur's Path",
+          "ai_summary": "A scenic hiking trail on Mount Pelion, offering stunning views and a chance to explore the rich flora and fauna of the region.",
+          "name_english": "Centaur's Path",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Wear sturdy shoes and bring water and snacks.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.368,
+            "longitude": 23.098
+          },
+          "address": "Centaur's Path, Mount Pelion, Thessaly, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Hiking",
+            "Nature",
+            "Scenic"
+          ],
+          "state": "Thessaly",
+          "photos": {},
+          "rank_score": 0.782
+        },
+        {
+          "name": "Trikala Old Town",
+          "ai_summary": "The historic old town of Trikala, featuring traditional architecture, quaint streets, and the Asclepius Sanctuary.",
+          "name_english": "Trikala Old Town",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-20:00",
+            "Tuesday": "08:00-20:00",
+            "Wednesday": "08:00-20:00",
+            "Thursday": "08:00-20:00",
+            "Friday": "08:00-20:00",
+            "Saturday": "08:00-20:00",
+            "Sunday": "08:00-20:00",
+            "notes": "Last entrance 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the Koursoum Mosque and the Trikala Fortress.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.555,
+            "longitude": 21.765
+          },
+          "address": "Trikala, Thessaly, Greece",
+          "official_website": "https://www.trikalacity.gr/en/",
+          "tags": [
+            "Old Town",
+            "History",
+            "Architecture"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Κεντρική_γέφυρα_Τρικάλων_3886-HDR.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/%CE%9A%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CE%AE_%CE%B3%CE%AD%CF%86%CF%85%CF%81%CE%B1_%CE%A4%CF%81%CE%B9%CE%BA%CE%AC%CE%BB%CF%89%CE%BD_3886-HDR.jpg/960px-%CE%9A%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CE%AE_%CE%B3%CE%AD%CF%86%CF%85%CF%81%CE%B1_%CE%A4%CF%81%CE%B9%CE%BA%CE%AC%CE%BB%CF%89%CE%BD_3886-HDR.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Κεντρική γέφυρα Τρικάλων 3886-HDR",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:C_messier\" title=\"User:C messier\">C messier</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%CE%9A%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CE%AE_%CE%B3%CE%AD%CF%86%CF%85%CF%81%CE%B1_%CE%A4%CF%81%CE%B9%CE%BA%CE%AC%CE%BB%CF%89%CE%BD_3886-HDR.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The Central Brigde of Trikala, an iron arch bridge built in 1886 over Litheos river."
+                }
+              }
+            }
+          },
+          "rank_score": 0.766
+        },
+        {
+          "name": "Trikala Koursoum Mosque",
+          "ai_summary": "A historic mosque in Trikala, known for its impressive architecture and as a symbol of the city's multicultural past.",
+          "name_english": "Trikala Koursoum Mosque",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00-20:00",
+            "Tuesday": "08:00-20:00",
+            "Wednesday": "08:00-20:00",
+            "Thursday": "08:00-20:00",
+            "Friday": "08:00-20:00",
+            "Saturday": "08:00-20:00",
+            "Sunday": "08:00-20:00",
+            "notes": "Last entrance 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Combine with a visit to the Trikala Old Town.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.555,
+            "longitude": 21.765
+          },
+          "address": "Trikala, Thessaly, Greece",
+          "official_website": "https://www.trikalacity.gr/en/",
+          "tags": [
+            "Mosque",
+            "History",
+            "Architecture"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Trikala_Greece_Kursum_Mosque_3.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Trikala_Greece_Kursum_Mosque_3.jpg/960px-Trikala_Greece_Kursum_Mosque_3.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Trikala Greece Kursum Mosque 3",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ababili&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ababili (page does not exist)\">Ava Babili</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Trikala_Greece_Kursum_Mosque_3.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Kursum Mosque or Osman Shah Mosque in Trikala, Thessaly, Greece"
+                }
+              }
+            }
+          },
+          "rank_score": 0.83
+        },
+        {
+          "name": "Tempi Valley",
+          "ai_summary": "A scenic valley in Thessaly, known for its natural beauty, hiking trails, and the historic Dionysiou Monastery.",
+          "name_english": "Tempi Valley",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "3-5 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the ancient ruins of Dion and the nearby waterfalls.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.586,
+            "longitude": 22.407
+          },
+          "address": "Tempi Valley, Thessaly, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Valley",
+            "Nature",
+            "Hiking"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Hellas_Sprinter_120-022.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Hellas_Sprinter_120-022.jpg/960px-Hellas_Sprinter_120-022.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Hellas Sprinter 120-022",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:NikolasSkevis1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:NikolasSkevis1 (page does not exist)\">NikolasSkevis1</a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Hellas_Sprinter_120-022.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "The Hellas Sprinter locomotive seen in Athens Central Station (Larisa Station)"
+                }
+              }
+            }
+          },
+          "rank_score": 0.802
+        },
+        {
+          "name": "Pilio Train (Moutzouris)",
+          "ai_summary": "A scenic train ride on the Pelion Railway, offering stunning views of the Pelion Peninsula and the Aegean Sea.",
+          "name_english": "Pilio Train (Moutzouris)",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "$10-20",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "09:00-17:00",
+            "Tuesday": "09:00-17:00",
+            "Wednesday": "09:00-17:00",
+            "Thursday": "09:00-17:00",
+            "Friday": "09:00-17:00",
+            "Saturday": "09:00-17:00",
+            "Sunday": "09:00-17:00",
+            "notes": "Advance booking recommended during peak season."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Enjoy the ride and the breathtaking views of the mountains and the sea.",
+          "advanced_booking": "Recommended",
+          "coordinates": {
+            "latitude": 39.368,
+            "longitude": 23.098
+          },
+          "address": "Pelion Railway, Thessaly, Greece",
+          "official_website": "https://www.peliontrain.gr/",
+          "tags": [
+            "Train",
+            "Scenic",
+            "History"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Pilion_with_monastery_pau.JPG",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Pilion_with_monastery_pau.JPG/960px-Pilion_with_monastery_pau.JPG",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Pilion with monastery pau",
+                  "author": "Heidi B",
+                  "license": "CC BY 2.5",
+                  "license_url": "https://creativecommons.org/licenses/by/2.5",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Pilion_with_monastery_pau.JPG",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution 2.5",
+                  "description": "Southern half of the Greek peninsula pelion with the monastery Pau (or Poau) in the foreground."
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        },
+        {
+          "name": "Makrinitsa",
+          "ai_summary": "A traditional village on the slopes of Mount Pelion, known for its stunning views, cobblestone streets, and rich history.",
+          "name_english": "Makrinitsa",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.8,
+          "rating_traveler_experience": 4.7,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "2-3 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the local museums and enjoy the traditional Pelion architecture.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.366,
+            "longitude": 22.944
+          },
+          "address": "Makrinitsa, Pelion, Thessaly, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Village",
+            "History",
+            "Architecture"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Μακρυνίτσα.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/%CE%9C%CE%B1%CE%BA%CF%81%CF%85%CE%BD%CE%AF%CF%84%CF%83%CE%B1.jpg/960px-%CE%9C%CE%B1%CE%BA%CF%81%CF%85%CE%BD%CE%AF%CF%84%CF%83%CE%B1.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Μακρυνίτσα",
+                  "author": "<a href=\"//commons.wikimedia.org/wiki/User:Apaleutos25\" title=\"User:Apaleutos25\">Apaleutos25 (Giorgos Voudouris) </a>",
+                  "license": "CC BY-SA 4.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:%CE%9C%CE%B1%CE%BA%CF%81%CF%85%CE%BD%CE%AF%CF%84%CF%83%CE%B1.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+                  "description": "Μακρυνίτσα"
+                }
+              }
+            }
+          },
+          "rank_score": 0.762
+        },
+        {
+          "name": "Farsala Archaeological Site",
+          "ai_summary": "An important archaeological site in Thessaly, featuring ancient ruins and artifacts from the Hellenistic and Roman periods.",
+          "name_english": "Farsala Archaeological Site",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Free",
+          "rating_tourist_priority": 4.7,
+          "rating_traveler_experience": 4.6,
+          "opening_hours": {
+            "Monday": "08:00-20:00",
+            "Tuesday": "08:00-20:00",
+            "Wednesday": "08:00-20:00",
+            "Thursday": "08:00-20:00",
+            "Friday": "08:00-20:00",
+            "Saturday": "08:00-20:00",
+            "Sunday": "08:00-20:00",
+            "notes": "Last entrance 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Combine with a visit to the nearby town of Farsala.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.41,
+            "longitude": 22.4
+          },
+          "address": "Farsala, Thessaly, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Archaeological Site",
+            "History",
+            "Culture"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:View_of_the_Thessalian_plain_from_the_acropolis_of_ancient_Pharsalos.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/View_of_the_Thessalian_plain_from_the_acropolis_of_ancient_Pharsalos.jpg/960px-View_of_the_Thessalian_plain_from_the_acropolis_of_ancient_Pharsalos.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "View of the Thessalian plain from the acropolis of ancient Pharsalos",
+                  "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/sarah_c_murray/\">Panegyrics of Granovetter</a> <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:View_of_the_Thessalian_plain_from_the_acropolis_of_ancient_Pharsalos.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "license": "CC BY-SA 2.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:View_of_the_Thessalian_plain_from_the_acropolis_of_ancient_Pharsalos.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 2.0",
+                  "description": "view of the Thessalian plain from the acropolis of ancient Pharsalos <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:View_of_the_Thessalian_plain_from_the_acropolis_of_ancient_Pharsalos.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>"
+                }
+              }
+            }
+          },
+          "rank_score": 0.826
+        },
+        {
+          "name": "Nea Anchialos Archaeological Site",
+          "ai_summary": "An archaeological site near Volos, featuring ancient ruins and a museum with artifacts from the region.",
+          "name_english": "Nea Anchialos Archaeological Site",
+          "sunrise_view": false,
+          "sunset_view": false,
+          "cost": "Free",
+          "rating_tourist_priority": 4.6,
+          "rating_traveler_experience": 4.5,
+          "opening_hours": {
+            "Monday": "08:00-20:00",
+            "Tuesday": "08:00-20:00",
+            "Wednesday": "08:00-20:00",
+            "Thursday": "08:00-20:00",
+            "Friday": "08:00-20:00",
+            "Saturday": "08:00-20:00",
+            "Sunday": "08:00-20:00",
+            "notes": "Last entrance 30 minutes before closing."
+          },
+          "suggested_duration": "1-2 hours",
+          "best_time_to_visit": "Late afternoon",
+          "place_tip": "Visit the nearby beaches and the town of Nea Anchialos.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 39.37,
+            "longitude": 22.8
+          },
+          "address": "Nea Anchialos, Thessaly, Greece",
+          "official_website": "https://www.visitgreece.gr/",
+          "tags": [
+            "Archaeological Site",
+            "History",
+            "Culture"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Nea_Anchialos_Panoramic_View_from_the_hills.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Nea_Anchialos_Panoramic_View_from_the_hills.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Nea Anchialos Panoramic View from the hills",
+                  "author": "User: (WT-shared) Vassilis69 at  wts wikivoyage",
+                  "license": "Public domain",
+                  "license_url": null,
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Nea_Anchialos_Panoramic_View_from_the_hills.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Public domain",
+                  "description": "Nea Anchialos Panoramic View from the hills."
+                }
+              }
+            }
+          },
+          "rank_score": 0.81
+        },
+        {
+          "name": "Parnassos National Park",
+          "ai_summary": "A national park in central Greece, known for its stunning mountain scenery, hiking trails, and winter sports.",
+          "name_english": "Parnassos National Park",
+          "sunrise_view": true,
+          "sunset_view": true,
+          "sunrise_time": "06:45",
+          "sunset_time": "18:30",
+          "cost": "Free",
+          "rating_tourist_priority": 4.9,
+          "rating_traveler_experience": 4.8,
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "notes": "Best explored during daylight hours."
+          },
+          "suggested_duration": "4-8 hours",
+          "best_time_to_visit": "Morning",
+          "place_tip": "Visit the ancient ruins of Delphi and the picturesque village of Arachova.",
+          "advanced_booking": "Not required",
+          "coordinates": {
+            "latitude": 38.482,
+            "longitude": 22.303
+          },
+          "address": "Parnassos, Central Greece",
+          "official_website": "https://www.parnassos-ski.gr/",
+          "tags": [
+            "National Park",
+            "Mountain",
+            "Skiing"
+          ],
+          "state": "Thessaly",
+          "photos": {
+            "wikimedia_commons": {
+              "source_file": "File:Parnassos2.jpg",
+              "thumbnail": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Parnassos2.jpg/960px-Parnassos2.jpg",
+                "width": 800,
+                "height": 600,
+                "attribution": {
+                  "title": "Parnassos2",
+                  "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Electron08&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Electron08 (page does not exist)\">Electron08</a>",
+                  "license": "CC BY-SA 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Parnassos2.jpg",
+                  "credit": "Wikimedia Commons",
+                  "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+                  "description": "Parnassos Mountain"
+                }
+              }
+            }
+          },
+          "rank_score": 0.798
+        }
+      ]
+    }
+  ]
+}
