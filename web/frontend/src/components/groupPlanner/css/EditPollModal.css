@@ -1,0 +1,260 @@
+/* EditPollModal - Scoped CSS (epm- prefix) */
+
+.epm-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: epmFadeIn 0.2s ease-out;
+  pointer-events: auto;
+}
+
+@keyframes epmFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.epm-modal {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  width: 100%;
+  max-width: 480px;
+  animation: epmSlideIn 0.2s ease-out;
+}
+
+@keyframes epmSlideIn {
+  from { opacity: 0; transform: scale(0.95) translateY(-10px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.epm-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.epm-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.epm-close-btn {
+  background: none;
+  border: none;
+  color: #6b7280;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.epm-close-btn:hover {
+  color: #111827;
+  background-color: #f3f4f6;
+}
+
+.epm-body {
+  padding: 20px;
+}
+
+.epm-field {
+  margin-bottom: 20px;
+}
+
+.epm-field:last-child {
+  margin-bottom: 0;
+}
+
+.epm-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.epm-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #111827;
+  background-color: #ffffff;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+}
+
+.epm-input:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.epm-input::placeholder {
+  color: #9ca3af;
+}
+
+.epm-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.epm-option-row {
+  display: flex;
+  gap: 8px;
+}
+
+.epm-option-input {
+  flex: 1;
+}
+
+.epm-remove-btn {
+  background: none;
+  border: 1px solid #e5e7eb;
+  color: #9ca3af;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.epm-remove-btn:hover {
+  color: #ef4444;
+  border-color: #fecaca;
+  background-color: #fef2f2;
+}
+
+.epm-add-option-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  border: 1px dashed #d1d5db;
+  border-radius: 8px;
+  background: none;
+  color: #6b7280;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.epm-add-option-btn:hover {
+  border-color: #4f46e5;
+  color: #4f46e5;
+  background-color: #f5f3ff;
+}
+
+.epm-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 16px 20px;
+  border-top: 1px solid #e5e7eb;
+  background-color: #f9fafb;
+  border-radius: 0 0 12px 12px;
+}
+
+.epm-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  border: none;
+}
+
+.epm-btn-cancel {
+  background-color: #ffffff;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.epm-btn-cancel:hover {
+  background-color: #f3f4f6;
+}
+
+.epm-btn-save {
+  background-color: #4f46e5;
+  color: #ffffff;
+}
+
+.epm-btn-save:hover {
+  background-color: #4338ca;
+}
+
+.epm-btn-save:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+  .epm-overlay {
+    padding: 16px;
+    align-items: flex-end;
+  }
+
+  .epm-modal {
+    max-width: 100%;
+    max-height: 90dvh;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .epm-header {
+    padding: 14px 16px;
+  }
+
+  .epm-title {
+    font-size: 15px;
+  }
+
+  .epm-body {
+    padding: 16px;
+  }
+
+  .epm-input {
+    padding: 12px;
+    font-size: 16px; /* Prevent iOS zoom */
+  }
+}
+
+@media (max-width: 374px) {
+  .epm-overlay {
+    padding: 8px;
+  }
+
+  .epm-header {
+    padding: 12px;
+  }
+
+  .epm-body {
+    padding: 12px;
+  }
+
+  .epm-label {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,307 @@
+/* GroupPlannerPage - Scoped CSS (gpp- prefix) */
+
+.gpp-container {
+  height: calc(100vh - 72px);
+  margin-top: 72px;
+  display: flex;
+  overflow: hidden;
+  background-color: #f8fafc;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1f2937;
+  position: relative;
+  isolation: isolate;
+  z-index: 0;
+}
+
+/* External layout mode - when used with Header/Footer wrapper */
+.gpp-container.gpp-external-layout {
+  height: calc(100vh - 130px);
+  min-height: 600px;
+  margin: 0;
+  border-radius: 0;
+}
+
+.gpp-main-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 0;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.gpp-content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  background-color: #f8fafc;
+}
+
+.gpp-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.gpp-empty-state {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fafb;
+  color: #6b7280;
+}
+
+.gpp-empty-state h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #374151;
+  margin: 0 0 8px 0;
+}
+
+.gpp-empty-state p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Custom scrollbar for all children */
+.gpp-container ::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.gpp-container ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.gpp-container ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.gpp-container ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Loading state */
+.gpp-loader {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #e5e7eb;
+  border-top-color: #4f46e5;
+  border-radius: 50%;
+  animation: gppSpin 0.8s linear infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes gppSpin {
+  to { transform: rotate(360deg); }
+}
+
+/* Create first button */
+.gpp-create-first-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.gpp-create-first-btn:hover {
+  background: linear-gradient(135deg, #4338ca, #4f46e5);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
+}
+
+/* Animation utilities */
+.gpp-fade-in {
+  animation: gppFadeIn 0.3s ease-out;
+}
+
+@keyframes gppFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Floating Invite Dropdown */
+.gpp-invite-card {
+  position: absolute;
+  top: 56px;
+  right: 20px;
+  width: 400px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  padding: 16px;
+  z-index: 40;
+  animation: gppFadeIn 0.15s ease-out;
+}
+
+.gpp-invite-card-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gpp-invite-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  margin: 0;
+}
+
+.gpp-invite-hint {
+  font-size: 11px;
+  color: #9ca3af;
+  margin: -6px 0 0 0;
+}
+
+.gpp-invite-input-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gpp-invite-input {
+  flex: 1;
+  padding: 9px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.gpp-invite-input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.12);
+}
+
+.gpp-invite-send-btn {
+  padding: 9px 16px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.gpp-invite-send-btn:hover {
+  background: #4338ca;
+}
+
+.gpp-invite-send-btn:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.gpp-invite-close-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #9ca3af;
+  cursor: pointer;
+  padding: 4px 8px;
+  line-height: 1;
+}
+
+.gpp-invite-close-btn:hover {
+  color: #6b7280;
+}
+
+.gpp-invite-msg {
+  font-size: 12px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.gpp-invite-success {
+  color: #059669;
+}
+
+.gpp-invite-error {
+  color: #dc2626;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1600px) {
+  .gpp-content > aside:first-of-type {
+    width: 280px;
+  }
+  
+  .gpp-content > aside:last-of-type {
+    width: 340px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .gpp-content > aside:first-of-type {
+    width: 260px;
+  }
+  
+  .gpp-content > aside:last-of-type {
+    width: 320px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .gpp-container {
+    flex-direction: column;
+  }
+  
+  .gpp-container.gpp-external-layout {
+    height: auto;
+    min-height: calc(100vh - 160px);
+  }
+  
+  .gpp-container > .sc-sidebar {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 8px;
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .gpp-content {
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .gpp-content > aside {
+    width: 100% !important;
+    min-height: 200px;
+    max-height: 400px;
+    flex-shrink: 0;
+  }
+  
+  .gpp-center {
+    height: 350px;
+    flex: none;
+    flex-shrink: 0;
+  }
+}

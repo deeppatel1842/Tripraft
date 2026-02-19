@@ -1,0 +1,154 @@
+/**
+ * SearchSuggestions Styles - White background with black text
+ */
+
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  max-height: 400px;
+  overflow-y: auto;
+  z-index: 1000;
+  border: 1px solid #e5e7eb;
+  margin-top: 4px;
+}
+
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid #f3f4f6;
+  background: #ffffff;
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.suggestion-item:hover {
+  background-color: #f9fafb;
+}
+
+.suggestion-item.selected {
+  background-color: #faf5ff;
+}
+
+.suggestion-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  color: #374151;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.suggestion-item:hover .suggestion-icon {
+  background: #e5e7eb;
+  color: #1f2937;
+}
+
+.suggestion-item.selected .suggestion-icon {
+  background: #f3e8ff;
+  color: #a855f7;
+}
+
+/* Country items get special styling */
+.suggestion-item.is-country .suggestion-icon {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.suggestion-content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.suggestion-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.suggestion-parent {
+  font-size: 13px;
+  color: #4b5563;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Only country tag is shown */
+.suggestion-type.country-tag {
+  font-size: 11px;
+  font-weight: 600;
+  color: #16a34a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 5px 10px;
+  background: #dcfce7;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+/* Scrollbar Styling */
+.search-suggestions::-webkit-scrollbar {
+  width: 6px;
+}
+
+.search-suggestions::-webkit-scrollbar-track {
+  background: #f8fafc;
+  border-radius: 0 12px 12px 0;
+}
+
+.search-suggestions::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.search-suggestions::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Mobile Responsive */
+@media (max-width: 640px) {
+  .search-suggestions {
+    max-height: 300px;
+    border-radius: 8px;
+  }
+
+  .suggestion-item {
+    padding: 10px 12px;
+    gap: 10px;
+  }
+
+  .suggestion-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+  }
+
+  .suggestion-name {
+    font-size: 13px;
+  }
+
+  .suggestion-type.country-tag {
+    font-size: 10px;
+    padding: 3px 6px;
+  }
+}

@@ -1,0 +1,613 @@
+/**
+ * Expense Analytics CSS
+ * Unique namespace: exp-analytics-*
+ * Advanced analytics dashboard styles matching the app theme
+ */
+
+/* Main Container */
+.exp-analytics {
+  width: 100%;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  min-height: 100vh;
+}
+
+/* Header */
+.exp-analytics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.exp-analytics-header-left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.exp-analytics-back-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  color: #374151;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.exp-analytics-back-btn:hover {
+  background: #f9fafb;
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.exp-analytics-title h1 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.exp-analytics-title h1 svg {
+  color: #667eea;
+}
+
+.exp-analytics-title p {
+  color: #6b7280;
+  margin: 0.25rem 0 0;
+  font-size: 0.875rem;
+}
+
+.exp-analytics-header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.exp-analytics-time-select {
+  padding: 0.625rem 1rem;
+  padding-right: 2.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236b7280'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+}
+
+.exp-analytics-time-select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.exp-analytics-export-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 6px -1px rgba(102, 126, 234, 0.3);
+}
+
+.exp-analytics-export-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 10px -1px rgba(102, 126, 234, 0.4);
+}
+
+/* Summary Cards */
+.exp-analytics-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .exp-analytics-summary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .exp-analytics-summary {
+    grid-template-columns: 1fr;
+  }
+}
+
+.exp-analytics-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.exp-analytics-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: #d1d5db;
+}
+
+.exp-analytics-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exp-analytics-card-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #9ca3af;
+}
+
+.exp-analytics-card-icon-simple {
+  width: 24px;
+  height: 24px;
+  color: #d1d5db;
+  flex-shrink: 0;
+}
+
+.exp-analytics-card-value-large {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1;
+}
+
+.exp-analytics-card-metric {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.metric-positive {
+  color: #10b981;
+}
+
+.metric-negative {
+  color: #ef4444;
+}
+
+.metric-info {
+  color: #6b7280;
+}
+
+.metric-label {
+  color: #9ca3af;
+  font-size: 0.75rem;
+  display: block;
+  margin-top: 0.25rem;
+  font-weight: 400;
+}
+
+.exp-analytics-card-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.exp-analytics-card-total .exp-analytics-card-icon {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.exp-analytics-card-avg .exp-analytics-card-icon {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+}
+
+.exp-analytics-card-count .exp-analytics-card-icon {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  color: white;
+}
+
+.exp-analytics-card-up .exp-analytics-card-icon {
+  background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+  color: white;
+}
+
+.exp-analytics-card-down .exp-analytics-card-icon {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  color: white;
+}
+
+.exp-analytics-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.exp-analytics-card-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* Charts Section */
+.exp-analytics-charts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .exp-analytics-charts {
+    grid-template-columns: 1fr;
+  }
+}
+
+.exp-analytics-chart-container {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+}
+
+.exp-analytics-chart-large {
+  grid-column: span 2;
+}
+
+@media (max-width: 1024px) {
+  .exp-analytics-chart-large {
+    grid-column: span 1;
+  }
+}
+
+.exp-analytics-chart-container h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 1.25rem 0;
+}
+
+.exp-analytics-chart-container h3 svg {
+  color: #667eea;
+}
+
+.exp-analytics-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+/* Tooltip */
+.exp-analytics-tooltip {
+  background: #1f2937;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.exp-analytics-tooltip-label {
+  color: #9ca3af;
+  font-size: 0.75rem;
+  margin: 0 0 0.25rem 0;
+}
+
+.exp-analytics-tooltip-value {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Category Legend */
+.exp-analytics-category-legend {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  margin-bottom: 2rem;
+}
+
+.exp-analytics-category-legend h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 1.25rem 0;
+}
+
+.exp-analytics-category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.exp-analytics-category-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: #f9fafb;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.exp-analytics-category-item:hover {
+  background: #f3f4f6;
+}
+
+.exp-analytics-category-color {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.exp-analytics-category-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.exp-analytics-category-name {
+  font-weight: 500;
+  color: #374151;
+  font-size: 0.875rem;
+}
+
+.exp-analytics-category-amount {
+  color: #6b7280;
+  font-size: 0.75rem;
+}
+
+.exp-analytics-category-percent {
+  font-weight: 600;
+  color: #667eea;
+  font-size: 0.875rem;
+}
+
+/* Top Expenses */
+.exp-analytics-top-expenses {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  margin-bottom: 2rem;
+}
+
+.exp-analytics-top-expenses h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 1.25rem 0;
+}
+
+.exp-analytics-top-expenses h3 svg {
+  color: #667eea;
+}
+
+.exp-analytics-top-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.exp-analytics-top-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 0.75rem;
+  transition: all 0.2s;
+}
+
+.exp-analytics-top-item:hover {
+  background: #f3f4f6;
+}
+
+.exp-analytics-top-rank {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.exp-analytics-top-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.exp-analytics-top-desc {
+  display: block;
+  font-weight: 500;
+  color: #111827;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.exp-analytics-top-date {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.exp-analytics-top-category {
+  flex-shrink: 0;
+}
+
+.exp-analytics-category-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: white;
+}
+
+.exp-analytics-top-amount {
+  font-weight: 700;
+  color: #111827;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+/* Balance Summary */
+.exp-analytics-balances {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+}
+
+.exp-analytics-balances h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 1.25rem 0;
+}
+
+.exp-analytics-balances h3 svg {
+  color: #667eea;
+}
+
+.exp-analytics-balance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.exp-analytics-balance-item {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.exp-analytics-balance-item.positive {
+  background: linear-gradient(135deg, rgba(67, 233, 123, 0.1) 0%, rgba(56, 249, 215, 0.1) 100%);
+  border: 1px solid rgba(67, 233, 123, 0.3);
+}
+
+.exp-analytics-balance-item.negative {
+  background: linear-gradient(135deg, rgba(245, 87, 108, 0.1) 0%, rgba(240, 147, 251, 0.1) 100%);
+  border: 1px solid rgba(245, 87, 108, 0.3);
+}
+
+.exp-analytics-balance-name {
+  display: block;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.exp-analytics-balance-amount {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.exp-analytics-balance-amount.positive {
+  color: #059669;
+}
+
+.exp-analytics-balance-amount.negative {
+  color: #dc2626;
+}
+
+.exp-analytics-balance-status {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .exp-analytics {
+    padding: 1rem;
+  }
+
+  .exp-analytics-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .exp-analytics-header-left {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .exp-analytics-header-right {
+    flex-wrap: wrap;
+  }
+
+  .exp-analytics-title h1 {
+    font-size: 1.25rem;
+  }
+
+  .exp-analytics-top-item {
+    flex-wrap: wrap;
+  }
+
+  .exp-analytics-top-info {
+    order: 1;
+    width: calc(100% - 3rem);
+  }
+
+  .exp-analytics-top-category {
+    order: 2;
+  }
+
+  .exp-analytics-top-amount {
+    order: 3;
+    margin-left: auto;
+  }
+}

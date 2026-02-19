@@ -1,0 +1,179 @@
+/* EditBudgetModal — Phase 0 */
+
+.ebm-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: ebm-fadeIn 0.15s ease;
+}
+
+@keyframes ebm-fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.ebm-modal {
+  background: #fff;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 420px;
+  padding: 28px 24px 24px;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.18);
+  position: relative;
+}
+
+.ebm-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.ebm-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ebm-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #94a3b8;
+  padding: 4px;
+  border-radius: 6px;
+  transition: color 0.15s, background 0.15s;
+}
+
+.ebm-close:hover {
+  color: #475569;
+  background: #f1f5f9;
+}
+
+.ebm-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ebm-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ebm-label {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: #475569;
+}
+
+.ebm-input-wrap {
+  position: relative;
+}
+
+.ebm-currency {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #94a3b8;
+  font-size: 0.95rem;
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.ebm-input {
+  width: 100%;
+  padding: 10px 12px 10px 36px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #1e293b;
+  outline: none;
+  transition: border-color 0.15s;
+  box-sizing: border-box;
+}
+
+.ebm-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.ebm-select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #1e293b;
+  outline: none;
+  background: #fff;
+  cursor: pointer;
+  transition: border-color 0.15s;
+  box-sizing: border-box;
+}
+
+.ebm-select:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.ebm-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.ebm-btn {
+  flex: 1;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.ebm-btn:active {
+  transform: scale(0.98);
+}
+
+.ebm-btn-cancel {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.ebm-btn-cancel:hover {
+  background: #e2e8f0;
+}
+
+.ebm-btn-save {
+  background: #6366f1;
+  color: #fff;
+}
+
+.ebm-btn-save:hover {
+  background: #4f46e5;
+}
+
+.ebm-btn-save:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.ebm-error {
+  color: #ef4444;
+  font-size: 0.82rem;
+  padding: 8px 12px;
+  background: #fef2f2;
+  border-radius: 8px;
+}

@@ -1,0 +1,156 @@
+/**
+ * PlaceSearchPage Styles
+ * 
+ * All classes prefixed with ps- to avoid conflicts with other pages.
+ */
+
+/* Page Container */
+.ps-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding-top: 70px;
+}
+
+.ps-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero Section */
+.ps-hero {
+  background: #ffffff;
+  padding: 32px 24px;
+}
+
+.ps-hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ps-hero-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 4px;
+  line-height: 1.2;
+}
+
+.ps-hero-subtitle {
+  font-size: 1rem;
+  color: #374151;
+  margin: 0 0 24px;
+}
+
+/* Results Section */
+.ps-results-section {
+  flex: 1;
+  padding: 32px 24px;
+  background: #ffffff;
+}
+
+.ps-results-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Results Controls */
+.ps-results-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.ps-results-info {
+  text-align: center;
+}
+
+.ps-results-count {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+/* Loading State */
+.ps-loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  color: #6b7280;
+}
+
+.ps-loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #e5e7eb;
+  border-top-color: #a855f7;
+  border-radius: 50%;
+  animation: ps-spin 0.8s linear infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes ps-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Empty and Welcome States */
+.ps-empty-state,
+.ps-welcome-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.ps-empty-state i,
+.ps-welcome-state i {
+  font-size: 3rem;
+  color: #9ca3af;
+  margin-bottom: 16px;
+}
+
+.ps-empty-state h3,
+.ps-welcome-state h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 8px;
+}
+
+.ps-empty-state p,
+.ps-welcome-state p {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ps-hero {
+    padding: 24px 16px;
+  }
+
+  .ps-hero-title {
+    font-size: 1.75rem;
+  }
+
+  .ps-results-section {
+    padding: 24px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ps-hero-title {
+    font-size: 1.5rem;
+  }
+}

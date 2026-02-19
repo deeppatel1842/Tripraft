@@ -1,0 +1,377 @@
+/* TripPlannerHeader - Scoped CSS (tph- prefix) */
+
+.tph-header {
+  height: auto;
+  min-height: 48px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d1d5db;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 30px;
+  flex-shrink: 0;
+  z-index: 30;
+  position: relative;
+  color: #1f2937;
+  padding-top: 30px;
+}
+
+.tph-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.tph-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #4f46e5;
+}
+
+.tph-brand-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.tph-brand-name {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: -0.025em;
+  color: #111827;
+}
+
+.tph-divider {
+  height: 24px;
+  width: 1px;
+  background-color: #d1d5db;
+  margin: 0 8px;
+}
+
+.tph-trip-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tph-trip-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0;
+}
+
+.tph-trip-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.tph-trip-destination {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #4f46e5;
+  font-weight: 500;
+}
+
+.tph-trip-destination svg {
+  color: #4f46e5;
+}
+
+.tph-trip-dates {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.tph-trip-dates svg {
+  color: #9ca3af;
+}
+
+.tph-trip-created {
+  font-size: 11px;
+  color: #9ca3af;
+  font-style: italic;
+}
+
+.tph-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tph-pending-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff7ed;
+  color: #c2410c;
+  padding: 5px 10px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 700;
+  border: 1px solid #fed7aa;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tph-pending-btn:hover {
+  background-color: #ffedd5;
+  border-color: #fdba74;
+}
+
+.tph-pending-pulse {
+  position: relative;
+  display: flex;
+  height: 8px;
+  width: 8px;
+}
+
+.tph-pending-ping {
+  position: absolute;
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+  border-radius: 9999px;
+  background-color: #fb923c;
+  opacity: 0.75;
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.tph-pending-dot {
+  position: relative;
+  display: inline-flex;
+  border-radius: 9999px;
+  height: 8px;
+  width: 8px;
+  background-color: #f97316;
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.tph-divider-small {
+  height: 20px;
+  width: 1px;
+  background-color: #e5e7eb;
+}
+
+.tph-members {
+  display: flex;
+  margin-left: -8px;
+}
+
+.tph-member-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 9999px;
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  margin-left: -6px;
+  overflow: visible;
+  background-color: #e5e7eb;
+  color: #374151;
+  position: relative;
+}
+
+.tph-member-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+
+.tph-member-owner {
+  background-color: #fef3c7;
+  color: #92400e;
+  border-color: #fbbf24;
+}
+
+.tph-owner-badge {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background-color: #f59e0b;
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.tph-owner-badge svg {
+  width: 8px;
+  height: 8px;
+}
+
+.tph-member-more {
+  background-color: #f3f4f6;
+  color: #6b7280;
+  font-size: 10px;
+}
+
+.tph-invite-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tph-invite-btn:hover {
+  background-color: #4338ca;
+}
+
+.tph-invite-icon {
+  width: 12px;
+  height: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 1023px) {
+  .tph-header {
+    height: 70px;
+    padding: 0 16px;
+  }
+
+  .tph-divider {
+    display: none;
+  }
+
+  .tph-brand-name {
+    font-size: 16px;
+  }
+
+  .tph-trip-name {
+    font-size: 14px;
+  }
+
+  .tph-trip-created {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .tph-header {
+    height: auto;
+    min-height: 60px;
+    padding: 12px 16px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .tph-left {
+    flex: 1;
+    min-width: 0;
+    gap: 12px;
+  }
+
+  .tph-brand {
+    gap: 6px;
+  }
+
+  .tph-brand-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .tph-brand-name {
+    font-size: 14px;
+  }
+
+  .tph-trip-info {
+    gap: 2px;
+  }
+
+  .tph-trip-name {
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+  }
+
+  .tph-trip-meta {
+    gap: 8px;
+  }
+
+  .tph-right {
+    gap: 8px;
+  }
+
+  .tph-pending-btn,
+  .tph-invite-btn {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .tph-header {
+    padding: 10px 12px;
+  }
+
+  .tph-trip-destination,
+  .tph-trip-dates {
+    font-size: 10px;
+  }
+
+  .tph-pending-btn span,
+  .tph-invite-btn span {
+    display: none;
+  }
+
+  .tph-pending-btn,
+  .tph-invite-btn {
+    padding: 8px;
+    border-radius: 50%;
+  }
+
+  .tph-pending-btn svg,
+  .tph-invite-btn svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 374px) {
+  .tph-trip-name {
+    max-width: 100px;
+    font-size: 12px;
+  }
+
+  .tph-trip-meta {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .tph-brand-name {
+    display: none;
+  }
+}
