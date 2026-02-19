@@ -1,3 +1,0 @@
-"""
-Expense Engine Database Migrations
-"""

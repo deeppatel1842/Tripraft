@@ -1,16 +1,56 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
 env/
 venv/
 .venv/
+wayfinder/
+*.egg-info/
+
+# Environment files (secrets)
 .env
 .env.local
+
 # Node
 node_modules/
 dist/
 
+# Database files (too large for Git)
+web/database/*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # OS
 .DS_Store
 Thumbs.db
-wayfinder/
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+build/
+*.rar
+
+# LLM context files
+.llm
+**/.llm
+
+# Folders NOT needed in repo
+future_plan/
+new_future_plan/
+new/
+updated/
+tripraft/
+web/backend/unwanted/
+web/backend/.llm
+web/frontend/.llm
+web/frontend/src.rar
+web/backend/.pytest_cache/
+web/backend/tests/
