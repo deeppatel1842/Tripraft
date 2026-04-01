@@ -10,6 +10,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from app.domain.group_planner.models import (GroupActivity, Poll, PollVote,
                                              TravelGroup, TripMember)
 from app.infrastructure.db.connection import get_db_session
+from sqlalchemy.orm import joinedload
 
 logger = logging.getLogger(__name__)
 
@@ -19,8 +20,8 @@ class PollService:
     
     @staticmethod
     def create_poll(
-        group_id: int,
-        user_id: int,
+        group_id: str,
+        user_id: str,
         name: str,
         options: List[str],
         is_multiple_choice: bool = False,
@@ -41,6 +42,18 @@ class PollService:
             Tuple of (success, poll_data/error)
         """
         try:
+            from app.core.config import Config
+            from app.core.sanitize import sanitize_text
+
+            name = sanitize_text(name)
+            options = [sanitize_text(o) for o in options if o and o.strip()]
+
+            if len(options) > Config.MAX_POLL_OPTIONS:
+                return False, {'error': f'Maximum {Config.MAX_POLL_OPTIONS} options allowed'}
+            for opt in options:
+                if len(opt) > Config.MAX_POLL_OPTION_LENGTH:
+                    return False, {'error': f'Option text exceeds {Config.MAX_POLL_OPTION_LENGTH} characters'}
+
             with get_db_session() as session:
                 # Check membership
                 member = session.query(TripMember).filter(
@@ -97,6 +110,27 @@ class PollService:
                 
                 logger.info(f"Poll created: {poll.id} in group {group_id}")
                 
+                # Notify group members
+                try:
+                    from app.services.notification_service import \
+                        notification_service
+                    notification_service.notify_group_members(
+                        group_id=group_id,
+                        exclude_user_id=user_id,
+                        type='poll_created',
+                        title=f'New poll: {name}',
+                        data={'poll_id': poll.id, 'poll_name': name}
+                    )
+                except Exception:
+                    pass
+                
+                # Real-time broadcast
+                try:
+                    from app.infrastructure.realtime.events import emit_to_group
+                    emit_to_group(group_id, 'poll:created', {'poll': poll.to_dict(), 'user_id': user_id})
+                except Exception:
+                    pass
+                
                 return True, {'poll': poll.to_dict()}
                 
         except Exception as e:
@@ -104,16 +138,10 @@ class PollService:
             return False, {'error': 'Failed to create poll'}
     
     @staticmethod
-    def get_polls(group_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_polls(group_id: str, user_id: str, page: int = 1, per_page: int = 20,
+                  active: Optional[bool] = None) -> Tuple[bool, Dict[str, Any]]:
         """
-        Get all polls for a group
-        
-        Args:
-            group_id: Group ID
-            user_id: Requesting user ID
-            
-        Returns:
-            Tuple of (success, polls_list/error)
+        Get polls for a group (paginated, filterable)
         """
         try:
             with get_db_session() as session:
@@ -127,12 +155,39 @@ class PollService:
                 if not member:
                     return False, {'error': 'Not a member of this group'}
                 
-                polls = session.query(Poll).filter(
+                base_query = session.query(Poll).filter(
                     Poll.group_id == group_id,
                     Poll.is_deleted == False
-                ).order_by(Poll.created_at.desc()).all()
+                )
                 
-                return True, {'polls': [p.to_dict() for p in polls]}
+                # Filter active polls (not expired)
+                if active is True:
+                    base_query = base_query.filter(
+                        (Poll.expires_at.is_(None)) | (Poll.expires_at > datetime.now(timezone.utc))
+                    )
+                elif active is False:
+                    base_query = base_query.filter(
+                        Poll.expires_at.isnot(None),
+                        Poll.expires_at <= datetime.now(timezone.utc)
+                    )
+                
+                total = base_query.count()
+                polls = base_query.options(
+                    joinedload(Poll.votes),
+                    joinedload(Poll.creator)
+                ).order_by(
+                    Poll.created_at.desc()
+                ).offset((page - 1) * per_page).limit(per_page).all()
+                
+                return True, {
+                    'polls': [p.to_dict() for p in polls],
+                    'pagination': {
+                        'page': page,
+                        'per_page': per_page,
+                        'total': total,
+                        'total_pages': max(1, -(-total // per_page))
+                    }
+                }
                 
         except Exception as e:
             logger.error(f"Get polls error: {str(e)}")
@@ -140,9 +195,9 @@ class PollService:
     
     @staticmethod
     def vote_poll(
-        group_id: int,
-        poll_id: int,
-        user_id: int,
+        group_id: str,
+        poll_id: str,
+        user_id: str,
         option: str = None,
         option_index: int = None
     ) -> Tuple[bool, Dict[str, Any]]:
@@ -252,6 +307,16 @@ class PollService:
                 
                 logger.info(f"Vote recorded for poll {poll_id} by user {user_id}")
                 
+                # Real-time broadcast
+                try:
+                    from app.infrastructure.realtime.events import emit_to_group
+                    emit_to_group(group_id, 'poll:voted', {
+                        'poll_id': poll_id, 'votes': poll_data['votes'],
+                        'user_id': user_id, 'option': option
+                    })
+                except Exception:
+                    pass
+                
                 return True, {
                     'poll_id': str(poll_id),
                     'votes': poll_data['votes'],
@@ -264,9 +329,9 @@ class PollService:
     
     @staticmethod
     def delete_poll(
-        group_id: int,
-        poll_id: int,
-        user_id: int
+        group_id: str,
+        poll_id: str,
+        user_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Delete a poll (creator only, soft delete)
@@ -336,4 +401,6 @@ class PollService:
 
 
 # Singleton instance
+poll_service = PollService()
+poll_service = PollService()
 poll_service = PollService()

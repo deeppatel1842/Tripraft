@@ -8,9 +8,11 @@ from datetime import datetime, timezone
 from decimal import Decimal
 from typing import Any, Dict, List, Optional, Tuple
 
+from app.core.config import Config
+from app.domain.expenses.models import (Group, GroupBalance, GroupMember,
+                                        Settlement, User)
 from app.infrastructure.db.connection import get_db_session
-from app.domain.expenses.models import (Group, GroupBalance, GroupMember, Settlement,
-                               User)
+from sqlalchemy.orm import joinedload
 
 logger = logging.getLogger(__name__)
 
@@ -20,10 +22,10 @@ class SettlementServiceSQL:
     
     @staticmethod
     def create_settlement(
-        user_id: int,
-        group_id: int,
-        from_user_id: int,
-        to_user_id: int,
+        user_id: str,
+        group_id: str,
+        from_user_id: str,
+        to_user_id: str,
         amount: float,
         method: str = 'cash',
         notes: Optional[str] = None
@@ -118,11 +120,16 @@ class SettlementServiceSQL:
     
     @staticmethod
     def _get_settlement_dict(session, settlement: Settlement) -> Dict[str, Any]:
-        """Get settlement as dictionary with user info"""
+        """
+        Get settlement as dictionary with user info.
+        
+        Expects settlement.from_user and settlement.to_user to be eager-loaded.
+        Falls back to individual queries if not loaded.
+        """
         data = settlement.to_dict()
         
-        from_user = session.query(User).get(settlement.from_user_id)
-        to_user = session.query(User).get(settlement.to_user_id)
+        from_user = settlement.from_user or session.query(User).get(settlement.from_user_id)
+        to_user = settlement.to_user or session.query(User).get(settlement.to_user_id)
         
         if from_user:
             data['from_user'] = {
@@ -130,7 +137,6 @@ class SettlementServiceSQL:
                 'display_name': from_user.display_name,
                 'email': from_user.email
             }
-            # Also add at top level for frontend compatibility
             data['from_display_name'] = from_user.display_name
         
         if to_user:
@@ -139,13 +145,12 @@ class SettlementServiceSQL:
                 'display_name': to_user.display_name,
                 'email': to_user.email
             }
-            # Also add at top level for frontend compatibility
             data['to_display_name'] = to_user.display_name
         
         return data
     
     @staticmethod
-    def get_settlement(settlement_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_settlement(settlement_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Get settlement details
         
@@ -158,7 +163,10 @@ class SettlementServiceSQL:
         """
         try:
             with get_db_session() as session:
-                settlement = session.query(Settlement).get(settlement_id)
+                settlement = session.query(Settlement).options(
+                    joinedload(Settlement.from_user),
+                    joinedload(Settlement.to_user),
+                ).get(settlement_id)
                 
                 if not settlement or settlement.is_deleted:
                     return False, {'error': 'Settlement not found'}
@@ -181,9 +189,9 @@ class SettlementServiceSQL:
     
     @staticmethod
     def get_group_settlements(
-        group_id: int,
-        user_id: int,
-        limit: int = 50,
+        group_id: str,
+        user_id: str,
+        limit: int = Config.EXPENSE_DEFAULT_LIMIT,
         offset: int = 0
     ) -> Tuple[bool, Dict[str, Any]]:
         """
@@ -210,7 +218,10 @@ class SettlementServiceSQL:
                 if not member:
                     return False, {'error': 'Not a member of this group'}
                 
-                settlements = session.query(Settlement).filter(
+                settlements = session.query(Settlement).options(
+                    joinedload(Settlement.from_user),
+                    joinedload(Settlement.to_user),
+                ).filter(
                     Settlement.group_id == group_id,
                     Settlement.is_deleted == False
                 ).order_by(Settlement.created_at.desc()).offset(offset).limit(limit).all()
@@ -237,7 +248,7 @@ class SettlementServiceSQL:
             return False, {'error': 'Failed to get settlements'}
     
     @staticmethod
-    def delete_settlement(settlement_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def delete_settlement(settlement_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Delete a settlement (soft delete and reverse balances)
         
@@ -299,7 +310,7 @@ class SettlementServiceSQL:
             return False, {'error': 'Failed to delete settlement'}
     
     @staticmethod
-    def get_group_balances(group_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_group_balances(group_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Get all balances for a group
         
@@ -350,7 +361,7 @@ class SettlementServiceSQL:
             return False, {'error': 'Failed to get balances'}
     
     @staticmethod
-    def get_simplified_debts(group_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_simplified_debts(group_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Get simplified debts (who owes whom)
         Uses balance simplification algorithm
@@ -385,14 +396,14 @@ class SettlementServiceSQL:
                 debtors = []    # People who owe money
                 
                 for balance, user in balances:
-                    if balance.balance > 0.01:
+                    if balance.balance > Config.BALANCE_THRESHOLD:
                         creditors.append({
                             'user_id': user.id,
                             'display_name': user.display_name,
                             'email': user.email,
                             'amount': balance.balance
                         })
-                    elif balance.balance < -0.01:
+                    elif balance.balance < -Config.BALANCE_THRESHOLD:
                         debtors.append({
                             'user_id': user.id,
                             'display_name': user.display_name,
@@ -414,7 +425,7 @@ class SettlementServiceSQL:
                     
                     settle_amount = min(creditor['amount'], debtor['amount'])
                     
-                    if settle_amount > 0.01:
+                    if settle_amount > Config.BALANCE_THRESHOLD:
                         debts.append({
                             'from_user': {
                                 'id': debtor['user_id'],
@@ -432,9 +443,9 @@ class SettlementServiceSQL:
                     creditor['amount'] -= settle_amount
                     debtor['amount'] -= settle_amount
                     
-                    if creditor['amount'] < 0.01:
+                    if creditor['amount'] < Config.BALANCE_THRESHOLD:
                         i += 1
-                    if debtor['amount'] < 0.01:
+                    if debtor['amount'] < Config.BALANCE_THRESHOLD:
                         j += 1
                 
                 return True, {'debts': debts}
@@ -444,7 +455,7 @@ class SettlementServiceSQL:
             return False, {'error': 'Failed to get simplified debts'}
     
     @staticmethod
-    def get_user_total_balance(user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_user_total_balance(user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Get user's total balance across all groups
         

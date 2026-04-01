@@ -8,6 +8,7 @@ import os
 from datetime import datetime, timedelta
 from typing import Dict, Tuple
 
+from app.core.config import Config
 from app.domain.expenses.models import (Group, GroupBalance, GroupMember,
                                         Invitation, User)
 from app.infrastructure.db.connection import get_db, get_db_session
@@ -20,15 +21,16 @@ class InvitationServiceSQL:
     """Service for managing group invitations"""
     
     # Invitation expiry in days
-    INVITATION_EXPIRY_DAYS = 7  # Changed from 30 to 7 days
+    INVITATION_EXPIRY_DAYS = Config.INVITATION_EXPIRY_DAYS
     
     @staticmethod
-    def _send_invitation_email(invitee_email: str, inviter_name: str, group_name: str, invitation_id: int) -> str:
+    def _send_invitation_email(invitee_email: str, inviter_name: str, group_name: str, invitation_id: str) -> str:
         """
-        Send invitation email to invitee
+        Dispatch invitation email via Celery for async delivery.
+        Falls back to synchronous send if Celery is unavailable.
         
         Returns:
-            Email status: 'sent', 'disabled', or 'failed'
+            Email status: 'queued', 'sent', 'disabled', or 'failed'
         """
         try:
             from .email_service import email_service
@@ -37,7 +39,18 @@ class InvitationServiceSQL:
                 logger.info(f"Email service disabled - skipping invitation email to {invitee_email}")
                 return 'disabled'
             
-            # Send the invitation email
+            # Dispatch via Celery (non-blocking)
+            try:
+                from app.workers.tasks.email_tasks import send_invitation_email
+                send_invitation_email.delay(
+                    invitee_email, inviter_name, group_name, invitation_id
+                )
+                logger.info(f"Invitation email queued for {invitee_email}")
+                return 'queued'
+            except Exception as celery_err:
+                logger.warning(f"Celery dispatch failed, sending synchronously: {celery_err}")
+            
+            # Fallback: synchronous send
             success = email_service.send_group_invitation(
                 to_email=invitee_email,
                 inviter_name=inviter_name,
@@ -57,7 +70,7 @@ class InvitationServiceSQL:
             return 'failed'
     
     @staticmethod
-    def send_invitation(group_id: int, invitee_email: str, invited_by_user_id: int) -> Tuple[bool, Dict]:
+    def send_invitation(group_id: str, invitee_email: str, invited_by_user_id: str) -> Tuple[bool, Dict]:
         """
         Send invitation to join a group
         
@@ -234,7 +247,7 @@ class InvitationServiceSQL:
             )
             
             # Build invitation link
-            frontend_url = os.getenv('FRONTEND_URL', 'http://localhost:3000')
+            frontend_url = Config.FRONTEND_URL
             invitation_link = f"{frontend_url}/expenses?invitation={invitation.id}"
             
             # Return formatted invitation data (same as what invitee would see in pending list)
@@ -265,7 +278,7 @@ class InvitationServiceSQL:
             return False, {'error': f'Failed to send invitation: {str(e)}'}
     
     @staticmethod
-    def get_invitations(user_id: int, group_id: int = None) -> Tuple[bool, Dict]:
+    def get_invitations(user_id: str, group_id: str = None) -> Tuple[bool, Dict]:
         """
         Get invitations for a user or group
         
@@ -298,7 +311,7 @@ class InvitationServiceSQL:
             session.close()
     
     @staticmethod
-    def get_pending_invitations_for_user(user_id: int) -> Tuple[bool, Dict]:
+    def get_pending_invitations_for_user(user_id: str) -> Tuple[bool, Dict]:
         """
         Get pending invitations for the current user (for homepage popup)
         
@@ -315,10 +328,7 @@ class InvitationServiceSQL:
         logger.info(f"GET_PENDING_INVITATIONS_FOR_USER called with user_id={user_id}")
         
         try:
-            # Get user email - important: user_id might be string or int
-            if isinstance(user_id, str):
-                user_id = int(user_id)
-            
+            # Get user email
             user = session.query(User).filter(User.id == user_id).first()
             if not user:
                 logger.error(f"User not found: user_id={user_id}")
@@ -346,7 +356,7 @@ class InvitationServiceSQL:
                     'invitation_id': inv.id,
                     'group_id': inv.group_id,
                     'group_name': group.name if group else 'Unknown Group',
-                    'group_currency': group.currency if group else 'USD',
+                    'group_currency': group.currency if group else Config.DEFAULT_CURRENCY,
                     'invited_by': inv.invited_by,
                     'invited_by_name': inviter.display_name if inviter else 'Unknown',
                     'status': inv.status,
@@ -365,7 +375,7 @@ class InvitationServiceSQL:
             session.close()
     
     @staticmethod
-    def accept_invitation(invitation_id: int, user_id: int) -> Tuple[bool, Dict]:
+    def accept_invitation(invitation_id: str, user_id: str) -> Tuple[bool, Dict]:
         """
         Accept group invitation
         
@@ -388,6 +398,8 @@ class InvitationServiceSQL:
                 return False, {'error': f'Invitation is {invitation.status}'}
             
             if invitation.expires_at and invitation.expires_at < datetime.utcnow():
+                invitation.status = 'expired'
+                session.commit()
                 return False, {'error': 'Invitation has expired'}
             
             # Get the user
@@ -496,7 +508,7 @@ class InvitationServiceSQL:
             session.close()
     
     @staticmethod
-    def decline_invitation(invitation_id: int, user_id: int) -> Tuple[bool, Dict]:
+    def decline_invitation(invitation_id: str, user_id: str) -> Tuple[bool, Dict]:
         """
         Decline group invitation
         
@@ -549,7 +561,7 @@ class InvitationServiceSQL:
             session.close()
     
     @staticmethod
-    def get_group_invitations(group_id: int, user_id: int) -> Tuple[bool, Dict]:
+    def get_group_invitations(group_id: str, user_id: str) -> Tuple[bool, Dict]:
         """
         Get all invitations for a group (admin only)
         

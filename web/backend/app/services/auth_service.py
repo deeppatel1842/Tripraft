@@ -1,25 +1,34 @@
 """
 Authentication Service
-Handles user registration, login, logout, and token management
+Handles user registration, login, logout, and token management.
+
+Profile operations (get_current_user, update_profile, change_password)
+are delegated to UserService — single source of truth for user data.
 """
 
 import logging
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, Optional, Tuple
 
+from app.core.config import Config
 from app.domain.expenses.models import User, UserSession
 from app.infrastructure.auth.jwt import (create_access_token,
+                                         create_email_verification_token,
                                          create_refresh_token, decode_token,
                                          verify_token)
 from app.infrastructure.auth.password import (hash_password,
                                               is_password_strong,
                                               verify_password)
+from app.infrastructure.cache.redis import (check_lockout, clear_lockout,
+                                            record_failed_login)
 from app.infrastructure.db.connection import get_db_session
+from app.infrastructure.email.smtp import email_service
 
 logger = logging.getLogger(__name__)
 
-# Refresh token expiration (should match jwt_handler.py)
-REFRESH_TOKEN_EXPIRES_DAYS = 30
+# Refresh token expiration — derived from Config (seconds → days)
+_REFRESH_TOKEN_EXPIRES_SECONDS = Config.JWT_REFRESH_TOKEN_EXPIRES
+REFRESH_TOKEN_EXPIRES_DAYS = _REFRESH_TOKEN_EXPIRES_SECONDS // 86400
 
 
 class AuthService:
@@ -92,6 +101,13 @@ class AuthService:
                 session.add(user_session)
                 session.commit()
                 
+                # Send verification email (best-effort, don't block signup)
+                try:
+                    vtoken = create_email_verification_token(user.id, user.email)
+                    email_service.send_verification(user.email, vtoken)
+                except Exception as ve:
+                    logger.warning("Failed to send verification email: %s", ve)
+                
                 logger.info(f"New user registered: {user.email}")
                 
                 return True, {
@@ -109,7 +125,8 @@ class AuthService:
     def login(
         email: str,
         password: str,
-        device_info: str = 'Web'
+        device_info: str = 'Web',
+        client_ip: Optional[str] = None,
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Authenticate user and return tokens
@@ -118,11 +135,22 @@ class AuthService:
             email: User's email
             password: Plain text password
             device_info: Device/client information
+            client_ip: Client IP address for lockout tracking
             
         Returns:
             Tuple of (success, data/error)
         """
         try:
+            # Check lockout before hitting the database
+            remaining = check_lockout(email, ip=client_ip)
+            if remaining is not None:
+                minutes = max(1, remaining // 60)
+                return False, {
+                    'error': f'Account locked. Try again in {minutes} minute(s).',
+                    'locked': True,
+                    'retry_after': remaining,
+                }
+
             with get_db_session() as session:
                 # Find user by email
                 user = session.query(User).filter(
@@ -130,6 +158,7 @@ class AuthService:
                 ).first()
                 
                 if not user:
+                    record_failed_login(email, ip=client_ip)
                     return False, {'error': 'Invalid email or password'}
                 
                 # Check if user is active
@@ -138,7 +167,12 @@ class AuthService:
                 
                 # Verify password
                 if not verify_password(password, user.password_hash):
+                    count = record_failed_login(email, ip=client_ip)
+                    logger.warning("Failed login for %s (attempt %d)", email, count)
                     return False, {'error': 'Invalid email or password'}
+                
+                # Successful authentication — clear any lockout counter
+                clear_lockout(email)
                 
                 # Generate tokens
                 access_token = create_access_token(
@@ -148,12 +182,38 @@ class AuthService:
                 )
                 refresh_token = create_refresh_token(user_id=user.id)
                 
+                # ── Session limit enforcement (FIFO eviction) ──────────
+                now = datetime.now(timezone.utc)
+                max_sessions = Config.MAX_SESSIONS_PER_USER
+
+                active_sessions = (
+                    session.query(UserSession)
+                    .filter(
+                        UserSession.user_id == user.id,
+                        UserSession.expires_at > now,
+                    )
+                    .order_by(UserSession.last_used.asc().nullsfirst(), UserSession.created_at.asc())
+                    .all()
+                )
+
+                # Evict oldest sessions to make room (keep max_sessions - 1)
+                overflow = len(active_sessions) - (max_sessions - 1)
+                if overflow > 0:
+                    for stale in active_sessions[:overflow]:
+                        logger.info(
+                            "Evicting oldest session %d for user %d (device=%s)",
+                            stale.id, user.id, stale.device_info,
+                        )
+                        session.delete(stale)
+
                 # Store refresh token session
                 user_session = UserSession(
                     user_id=user.id,
                     refresh_token=refresh_token,
                     device_info=device_info,
-                    expires_at=datetime.now(timezone.utc) + timedelta(days=REFRESH_TOKEN_EXPIRES_DAYS)
+                    ip_address=client_ip,
+                    last_used=now,
+                    expires_at=now + timedelta(days=REFRESH_TOKEN_EXPIRES_DAYS),
                 )
                 session.add(user_session)
                 
@@ -176,7 +236,7 @@ class AuthService:
             return False, {'error': 'Login failed. Please try again.'}
     
     @staticmethod
-    def logout(user_id: int, refresh_token: str) -> Tuple[bool, Dict[str, Any]]:
+    def logout(user_id: str, refresh_token: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Logout user by invalidating refresh token
         
@@ -207,7 +267,7 @@ class AuthService:
             return False, {'error': 'Logout failed'}
     
     @staticmethod
-    def logout_all_devices(user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def logout_all_devices(user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Logout user from all devices by invalidating all refresh tokens
         
@@ -251,8 +311,8 @@ class AuthService:
             if not payload:
                 return False, {'error': 'Invalid token'}
             
-            # Get user_id from payload (handle both old integer and new string format)
-            user_id = payload.get('user_id') or int(payload.get('sub'))
+            # Get user_id from payload
+            user_id = payload.get('sub')
             
             with get_db_session() as session:
                 # Verify session exists
@@ -290,7 +350,7 @@ class AuthService:
                 
                 # Update session with new refresh token
                 user_session.refresh_token = new_refresh_token
-                user_session.updated_at = datetime.now(timezone.utc)
+                user_session.last_used = datetime.now(timezone.utc)
                 
                 session.commit()
                 
@@ -303,143 +363,134 @@ class AuthService:
         except Exception as e:
             logger.error(f"Token refresh error: {str(e)}")
             return False, {'error': 'Token refresh failed'}
-    
+
     @staticmethod
-    def get_current_user(user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def verify_email(token: str) -> Tuple[bool, Dict[str, Any]]:
         """
-        Get current authenticated user's profile
-        
+        Verify a user's email using the verification token.
+
         Args:
-            user_id: User ID from token
-            
+            token: JWT verification token (type=email_verify)
+
+        Returns:
+            Tuple of (success, data/error)
+        """
+        payload = decode_token(token)
+        if not payload or payload.get('type') != 'email_verify':
+            return False, {'error': 'Invalid or expired verification link'}
+
+        user_id = payload.get('sub')
+        if not user_id:
+            return False, {'error': 'Invalid token payload'}
+
+        try:
+            with get_db_session() as session:
+                user = session.query(User).get(user_id)
+                if not user:
+                    return False, {'error': 'User not found'}
+
+                if user.email_verified:
+                    return True, {'message': 'Email already verified'}
+
+                user.email_verified = True
+                user.email_verified_at = datetime.now(timezone.utc)
+                session.commit()
+
+                logger.info("Email verified for user %s", user.email)
+                return True, {'message': 'Email verified successfully'}
+        except Exception as e:
+            logger.error("Email verification error: %s", e)
+            return False, {'error': 'Verification failed'}
+
+    @staticmethod
+    def resend_verification(user_id: str) -> Tuple[bool, Dict[str, Any]]:
+        """
+        Resend the verification email for the given user.
+
+        Args:
+            user_id: Authenticated user's ID
+
         Returns:
             Tuple of (success, data/error)
         """
         try:
             with get_db_session() as session:
                 user = session.query(User).get(user_id)
-                
                 if not user:
                     return False, {'error': 'User not found'}
-                
-                if not user.is_active:
-                    return False, {'error': 'Account is deactivated'}
-                
-                return True, {'user': user.to_dict()}
-                
+
+                if user.email_verified:
+                    return True, {'message': 'Email already verified'}
+
+                vtoken = create_email_verification_token(user.id, user.email)
+                sent = email_service.send_verification(user.email, vtoken)
+                if not sent:
+                    return False, {'error': 'Failed to send verification email'}
+
+                return True, {'message': 'Verification email sent'}
+        except Exception as e:
+            logger.error("Resend verification error: %s", e)
+            return False, {'error': 'Failed to resend verification email'}
+    
+    # ------------------------------------------------------------------
+    # Profile operations — delegated to UserService (single source of truth)
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def get_current_user(user_id: str) -> Tuple[bool, Dict[str, Any]]:
+        """Get current authenticated user's profile."""
+        try:
+            from app.services.user_service import user_service
+            user_data = user_service.get_user(user_id)
+            return True, {'user': user_data}
         except Exception as e:
             logger.error(f"Get user error: {str(e)}")
-            return False, {'error': 'Failed to get user'}
-    
+            return False, {'error': str(e) if 'not found' in str(e).lower() else 'Failed to get user'}
+
     @staticmethod
     def update_profile(
-        user_id: int,
+        user_id: str,
         display_name: Optional[str] = None,
         phone: Optional[str] = None,
         photo_url: Optional[str] = None,
         default_currency: Optional[str] = None
     ) -> Tuple[bool, Dict[str, Any]]:
-        """
-        Update user profile
-        
-        Args:
-            user_id: User ID
-            display_name: New display name
-            phone: New phone number
-            photo_url: New photo URL
-            default_currency: New default currency
-            
-        Returns:
-            Tuple of (success, data/error)
-        """
+        """Update user profile."""
         try:
-            with get_db_session() as session:
-                user = session.query(User).get(user_id)
-                
-                if not user:
-                    return False, {'error': 'User not found'}
-                
-                if display_name:
-                    user.display_name = display_name.strip()
-                if phone is not None:
-                    user.phone = phone.strip() if phone else None
-                if photo_url is not None:
-                    user.photo_url = photo_url
-                if default_currency:
-                    user.default_currency = default_currency.upper()
-                
-                user.updated_at = datetime.now(timezone.utc)
-                session.commit()
-                session.refresh(user)
-                
-                return True, {'user': user.to_dict()}
-                
+            from app.services.user_service import user_service
+            kwargs = {}
+            if display_name is not None:
+                kwargs['display_name'] = display_name.strip()
+            if phone is not None:
+                kwargs['phone'] = phone.strip() if phone else None
+            if photo_url is not None:
+                kwargs['photo_url'] = photo_url
+            if default_currency is not None:
+                kwargs['default_currency'] = default_currency.upper()
+            user_data = user_service.update_profile(user_id, **kwargs)
+            return True, {'user': user_data}
         except Exception as e:
             logger.error(f"Update profile error: {str(e)}")
             return False, {'error': 'Failed to update profile'}
-    
+
     @staticmethod
     def change_password(
-        user_id: int,
+        user_id: str,
         current_password: str,
         new_password: str
     ) -> Tuple[bool, Dict[str, Any]]:
-        """
-        Change user password
-        
-        Args:
-            user_id: User ID
-            current_password: Current password for verification
-            new_password: New password
-            
-        Returns:
-            Tuple of (success, data/error)
-        """
+        """Change user password."""
         try:
-            with get_db_session() as session:
-                user = session.query(User).get(user_id)
-                
-                if not user:
-                    return False, {'error': 'User not found'}
-                
-                # Verify current password
-                if not verify_password(current_password, user.password_hash):
-                    return False, {'error': 'Current password is incorrect'}
-                
-                # Validate new password strength
-                is_strong, message = is_password_strong(new_password)
-                if not is_strong:
-                    return False, {'error': message}
-                
-                # Update password
-                user.password_hash = hash_password(new_password)
-                user.updated_at = datetime.now(timezone.utc)
-                
-                # Invalidate all other sessions (security)
-                session.query(UserSession).filter(
-                    UserSession.user_id == user_id
-                ).delete()
-                
-                session.commit()
-                
-                logger.info(f"Password changed for user: {user.email}")
-                return True, {'message': 'Password changed successfully. Please login again.'}
-                
+            from app.services.user_service import user_service
+            user_service.change_password(user_id, current_password, new_password)
+            return True, {'message': 'Password changed successfully. Please login again.'}
         except Exception as e:
             logger.error(f"Change password error: {str(e)}")
-            return False, {'error': 'Failed to change password'}
-    
+            return False, {'error': str(e) if 'incorrect' in str(e).lower() or 'weak' in str(e).lower() else 'Failed to change password'}
+
     @staticmethod
     def get_user_by_email(email: str) -> Optional[User]:
-        """
-        Get user by email address
-        
-        Args:
-            email: User's email
-            
-        Returns:
-            User object or None
-        """
+        """Get user by email address."""
         try:
             with get_db_session() as session:
                 return session.query(User).filter(
@@ -448,24 +499,15 @@ class AuthService:
         except Exception as e:
             logger.error(f"Get user by email error: {str(e)}")
             return None
-    
+
     @staticmethod
     def check_email_exists(email: str) -> bool:
-        """
-        Check if email is already registered
-        
-        Args:
-            email: Email to check
-            
-        Returns:
-            True if email exists
-        """
+        """Check if email is already registered."""
         try:
             with get_db_session() as session:
-                exists = session.query(User).filter(
+                return session.query(User).filter(
                     User.email == email.lower()
                 ).first() is not None
-                return exists
         except Exception as e:
             logger.error(f"Check email error: {str(e)}")
             return False
