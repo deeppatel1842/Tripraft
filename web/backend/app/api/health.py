@@ -1,7 +1,7 @@
 """
 Health Check Endpoint
 ======================
-Simple health and readiness checks.
+Liveness and readiness probes for Kubernetes / load balancers.
 """
 import logging
 from datetime import datetime, timezone
@@ -32,9 +32,11 @@ def readiness():
     checks = {
         'database': _check_database(),
         'cache': _check_cache(),
+        'celery': _check_celery(),
     }
     
-    all_healthy = all(c['status'] == 'healthy' for c in checks.values())
+    # Database is the hard requirement; cache and celery are soft
+    all_healthy = checks['database']['status'] == 'healthy'
     status_code = 200 if all_healthy else 503
     
     return jsonify({
@@ -64,5 +66,18 @@ def _check_cache() -> dict:
         if redis_client.available:
             return {'status': 'healthy'}
         return {'status': 'unavailable', 'note': 'Cache disabled'}
+    except Exception as e:
+        return {'status': 'unavailable', 'error': str(e)}
+
+
+def _check_celery() -> dict:
+    """Check Celery worker availability."""
+    try:
+        from app.workers.celery_app import celery_app
+        inspector = celery_app.control.inspect(timeout=2)
+        active = inspector.active()
+        if active:
+            return {'status': 'healthy', 'workers': len(active)}
+        return {'status': 'unavailable', 'note': 'No active workers'}
     except Exception as e:
         return {'status': 'unavailable', 'error': str(e)}

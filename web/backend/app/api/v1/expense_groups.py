@@ -5,28 +5,45 @@ API endpoints for group operations using local SQL database
 
 import logging
 
+from app.api.utils.responses import (created_response, error_response,
+                                     success_response,
+                                     validation_error_response)
+from app.api.utils.validators import validate_schema
+from app.core.config import Config
+from app.core.rate_limiter import limit_api
 from app.infrastructure.auth.decorators import (get_current_user_id,
                                                 require_auth)
+from app.infrastructure.cache.redis import cache_response, invalidate_cache
 from app.schemas.common import (CreateExpenseGroupSchema, InviteMemberSchema,
                                 validate_request)
+from app.schemas.expense_groups import (JoinGroupSchema,
+                                        UpdateExpenseGroupSchema)
 from app.services.expense_group_service import group_service_sql
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, g, request
 
 logger = logging.getLogger(__name__)
 
 # Use /api/expense/groups to match frontend expectations
-groups_sql_bp = Blueprint('groups_sql', __name__, url_prefix='/api/expense/groups')
+groups_sql_bp = Blueprint('groups_sql', __name__, url_prefix='/api/v1/expenses/groups')
 
 
 def parse_group_id(group_id):
-    """Parse group ID - handles both int and string"""
-    try:
-        return int(group_id)
-    except (ValueError, TypeError):
-        return None
+    """Parse group ID - validates non-empty string"""
+    if group_id:
+        return str(group_id)
+    return None
+
+
+def _invalidate_group_caches():
+    """Invalidate all expense-group-related caches."""
+    invalidate_cache('exp_groups:*')
+    invalidate_cache('expenses:*')
+    invalidate_cache('settlements:*')
+    invalidate_cache('auth:bootstrap:*')
 
 
 @groups_sql_bp.route('', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['create'])
 @require_auth
 def create_group():
     """
@@ -43,11 +60,11 @@ def create_group():
     data = request.get_json()
     
     if not data:
-        return jsonify({'success': False, 'error': 'Request body required'}), 400
+        return error_response('Request body required')
     
     validated, errors = validate_request(CreateExpenseGroupSchema, data)
     if errors:
-        return jsonify({'success': False, 'error': 'Validation failed', 'details': errors}), 400
+        return validation_error_response(errors)
     
     user_id = get_current_user_id()
     
@@ -55,7 +72,7 @@ def create_group():
         user_id=user_id,
         name=validated['name'],
         description=validated.get('description'),
-        currency=validated.get('currency', 'INR'),
+        currency=validated.get('currency', Config.DEFAULT_CURRENCY),
         category=validated.get('category')
     )
     
@@ -63,22 +80,24 @@ def create_group():
         # Get all user groups to return the complete updated list
         all_groups_success, all_groups_result = group_service_sql.get_user_groups(user_id)
         
-        response = {
-            'success': True,
-            'group': result.get('group'),  # The newly created group
-            'groups': all_groups_result.get('groups', []) if all_groups_success else []  # All groups
+        data_payload = {
+            'group': result.get('group'),
+            'groups': all_groups_result.get('groups', []) if all_groups_success else []
         }
         
         if 'group' in result and 'id' in result['group']:
-            response['group_id'] = result['group']['id']
+            data_payload['group_id'] = result['group']['id']
             
-        return jsonify(response), 201
+        _invalidate_group_caches()
+        return created_response(data=data_payload)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to create group'))
 
 
 @groups_sql_bp.route('', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='exp_groups:list', ttl=Config.CACHE_TTLS['expense_list'], vary_on_user=True)
 def get_my_groups():
     """Get all groups for the current user"""
     user_id = get_current_user_id()
@@ -86,34 +105,35 @@ def get_my_groups():
     success, result = group_service_sql.get_user_groups(user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to get groups'))
 
 
 @groups_sql_bp.route('/<group_id>', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='exp_groups:detail', ttl=Config.CACHE_TTLS['expense_list'], vary_on_user=True)
 def get_group(group_id):
     """Get group details"""
     user_id = get_current_user_id()
     gid = parse_group_id(group_id)
     
     if gid is None:
-        return jsonify({
-            'success': False, 
-            'error': 'Invalid group ID'
-        }), 400
+        return error_response('Invalid group ID')
     
     success, result = group_service_sql.get_group(gid, user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 404
+        return error_response(result.get('error', 'Group not found'), 404)
 
 
 @groups_sql_bp.route('/<group_id>/full', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_heavy'])
 @require_auth
+@cache_response(key_prefix='exp_groups:full', ttl=Config.CACHE_TTLS['expense_list'], vary_on_user=True)
 def get_group_full(group_id):
     """
     Get complete group details including members, expenses, balances, and invitations
@@ -127,15 +147,12 @@ def get_group_full(group_id):
     gid = parse_group_id(group_id)
     
     if gid is None:
-        return jsonify({
-            'success': False, 
-            'error': 'Invalid group ID'
-        }), 400
+        return error_response('Invalid group ID')
     
     # Get group details
     success, result = group_service_sql.get_group(gid, user_id)
     if not success:
-        return jsonify({'success': False, **result}), 404
+        return error_response(result.get('error', 'Group not found'), 404)
     
     group_data = result.get('group', {})
     
@@ -169,11 +186,13 @@ def get_group_full(group_id):
     if invitations_success:
         group_data['invitations'] = invitations_result.get('invitations', [])
     
-    return jsonify({'success': True, 'group': group_data}), 200
+    return success_response(data={'group': group_data})
 
 
 @groups_sql_bp.route('/<group_id>', methods=['PUT'])
+@limit_api(Config.RATE_LIMITS['update'])
 @require_auth
+@validate_schema(UpdateExpenseGroupSchema)
 def update_group(group_id):
     """
     Update group details (admin only)
@@ -188,9 +207,9 @@ def update_group(group_id):
     """
     gid = parse_group_id(group_id)
     if gid is None:
-        return jsonify({'success': False, 'error': 'Invalid group ID'}), 400
+        return error_response('Invalid group ID')
     
-    data = request.get_json() or {}
+    data = g.validated_data
     user_id = get_current_user_id()
     
     success, result = group_service_sql.update_group(
@@ -203,52 +222,57 @@ def update_group(group_id):
     )
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        _invalidate_group_caches()
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to update group'))
 
 
 @groups_sql_bp.route('/<group_id>', methods=['DELETE'])
+@limit_api(Config.RATE_LIMITS['delete'])
 @require_auth
 def delete_group(group_id):
     """Delete a group (admin only)"""
     gid = parse_group_id(group_id)
     if gid is None:
-        return jsonify({'success': False, 'error': 'Invalid group ID'}), 400
+        return error_response('Invalid group ID')
     
     user_id = get_current_user_id()
     
     success, result = group_service_sql.delete_group(gid, user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        _invalidate_group_caches()
+        return success_response(data=result)
     else:
-        # Return 403 for permission errors
         error_msg = result.get('error', '')
         if 'only' in error_msg.lower() or 'permission' in error_msg.lower() or 'not authorized' in error_msg.lower() or 'admin' in error_msg.lower():
-            return jsonify({'success': False, **result}), 403
-        return jsonify({'success': False, **result}), 400
+            return error_response(error_msg, 403)
+        return error_response(error_msg or 'Failed to delete group')
 
 
 @groups_sql_bp.route('/<group_id>/members', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='exp_groups:members', ttl=Config.CACHE_TTLS['members'], vary_on_user=True)
 def get_group_members(group_id):
     """Get all members of a group"""
     gid = parse_group_id(group_id)
     if gid is None:
-        return jsonify({'success': False, 'error': 'Invalid group ID'}), 400
+        return error_response('Invalid group ID')
     
     user_id = get_current_user_id()
     
     success, result = group_service_sql.get_group_members(gid, user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to get members'))
 
 
 @groups_sql_bp.route('/<group_id>/members', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['create'])
 @require_auth
 def add_member(group_id):
     """
@@ -262,16 +286,16 @@ def add_member(group_id):
     """
     gid = parse_group_id(group_id)
     if gid is None:
-        return jsonify({'success': False, 'error': 'Invalid group ID'}), 400
+        return error_response('Invalid group ID')
     
     data = request.get_json()
     
     if not data:
-        return jsonify({'success': False, 'error': 'Email is required'}), 400
+        return error_response('Email is required')
     
     validated, errors = validate_request(InviteMemberSchema, data)
     if errors:
-        return jsonify({'success': False, 'error': 'Valid email is required'}), 400
+        return error_response('Valid email is required')
     
     user_id = get_current_user_id()
     
@@ -283,53 +307,56 @@ def add_member(group_id):
     )
     
     if success:
-        return jsonify({'success': True, **result}), 201
+        return created_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to add member'))
 
 
-@groups_sql_bp.route('/<group_id>/members/<int:member_id>', methods=['DELETE'])
+@groups_sql_bp.route('/<group_id>/members/<member_id>', methods=['DELETE'])
+@limit_api(Config.RATE_LIMITS['delete'])
 @require_auth
 def remove_member(group_id, member_id):
     """Remove a member from the group"""
     gid = parse_group_id(group_id)
     if gid is None:
-        return jsonify({'success': False, 'error': 'Invalid group ID'}), 400
+        return error_response('Invalid group ID')
     
     user_id = get_current_user_id()
     
     success, result = group_service_sql.remove_member(gid, user_id, member_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        # Return 403 for permission errors
         error_msg = result.get('error', '')
         if 'only' in error_msg.lower() or 'permission' in error_msg.lower() or 'not authorized' in error_msg.lower() or 'admin' in error_msg.lower():
-            return jsonify({'success': False, **result}), 403
-        return jsonify({'success': False, **result}), 400
+            return error_response(error_msg, 403)
+        return error_response(error_msg or 'Failed to remove member')
 
 
 @groups_sql_bp.route('/<group_id>/leave', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['create'])
 @require_auth
 def leave_group(group_id):
     """Leave a group"""
     gid = parse_group_id(group_id)
     if gid is None:
-        return jsonify({'success': False, 'error': 'Invalid group ID'}), 400
+        return error_response('Invalid group ID')
     
     user_id = get_current_user_id()
     
     success, result = group_service_sql.remove_member(gid, user_id, user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to leave group'))
 
 
 @groups_sql_bp.route('/join', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['create'])
 @require_auth
+@validate_schema(JoinGroupSchema)
 def join_group():
     """
     Join a group using invitation code
@@ -339,21 +366,23 @@ def join_group():
         "code": "ABC12345"
     }
     """
-    data = request.get_json()
-    
-    if not data or not data.get('code'):
-        return jsonify({'success': False, 'error': 'Group code is required'}), 400
-    
+    data = g.validated_data
     user_id = get_current_user_id()
     
     success, result = group_service_sql.join_by_code(user_id, data['code'])
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to join group'))
 
 
 # Route for invitations by group (for frontend compatibility)
 # Note: This is under /api/expense/groups but we need /api/expense/invitations/group/<id>
+# We'll add a separate route in auth_routes for this
+# We'll add a separate route in auth_routes for this
+# We'll add a separate route in auth_routes for this
+# We'll add a separate route in auth_routes for this
+# We'll add a separate route in auth_routes for this
+# We'll add a separate route in auth_routes for this
 # We'll add a separate route in auth_routes for this

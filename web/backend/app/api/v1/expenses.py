@@ -5,20 +5,29 @@ API endpoints for expense operations using local SQL database
 
 import logging
 
+from app.api.utils.responses import (created_response, error_response,
+                                     success_response)
+from app.api.utils.validators import validate_schema
+from app.core.config import Config
+from app.core.rate_limiter import limit_api
 from app.infrastructure.auth.decorators import (get_current_user_id,
                                                 require_auth)
+from app.infrastructure.cache.redis import cache_response, invalidate_cache
 from app.schemas.common import CreateExpenseSchema, validate_request
+from app.schemas.expenses import UpdateExpenseSchema
 from app.services.expense_service import expense_service_sql
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, g, request
 
 logger = logging.getLogger(__name__)
 
 # Use /api/expense/expenses to match frontend expectations  
-expenses_sql_bp = Blueprint('expenses_sql', __name__, url_prefix='/api/expense/expenses')
+expenses_sql_bp = Blueprint('expenses_sql', __name__, url_prefix='/api/v1/expenses')
 
 
 @expenses_sql_bp.route('', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='expenses:list', ttl=Config.CACHE_TTLS['expense_list'], vary_on_user=True)
 def list_expenses():
     """
     List all expenses for the current user
@@ -31,7 +40,7 @@ def list_expenses():
     """
     user_id = get_current_user_id()
     group_id = request.args.get('group_id', type=int)
-    limit = request.args.get('limit', 50, type=int)
+    limit = request.args.get('limit', Config.EXPENSE_DEFAULT_LIMIT, type=int)
     offset = request.args.get('offset', 0, type=int)
     
     if group_id:
@@ -51,12 +60,13 @@ def list_expenses():
         )
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to fetch expenses'))
 
 
 @expenses_sql_bp.route('', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['create'])
 @require_auth
 def create_expense():
     """
@@ -87,11 +97,11 @@ def create_expense():
     data = request.get_json()
     
     if not data:
-        return jsonify({'success': False, 'error': 'Request body required'}), 400
+        return error_response('Request body required')
     
     validated, errors = validate_request(CreateExpenseSchema, data)
     if errors:
-        return jsonify({'success': False, 'error': 'Validation failed', 'details': errors}), 400
+        return error_response('Validation failed', 400, errors={'details': errors})
     
     user_id = get_current_user_id()
     group_id = validated.get('group_id')  # Can be None for personal expenses
@@ -134,8 +144,7 @@ def create_expense():
             offset=0
         )
         
-        response = {
-            'success': True,
+        response_data = {
             'expense': result.get('expense'),
             'expenses': all_expenses_result.get('expenses', []) if all_expenses_success else [],
             'group_id': group_id
@@ -143,15 +152,25 @@ def create_expense():
         
         # If group expense, include updated balances
         if group_id and 'balances' in result:
-            response['group_balances'] = result.get('balances', [])
+            response_data['group_balances'] = result.get('balances', [])
         
-        return jsonify(response), 201
+        _invalidate_expense_caches()
+        return created_response(data=response_data, message='Expense created')
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to create expense'))
 
 
-@expenses_sql_bp.route('/<int:expense_id>', methods=['GET'])
+def _invalidate_expense_caches():
+    """Invalidate all expense-related caches."""
+    invalidate_cache('expenses:*')
+    invalidate_cache('settlements:*')
+    invalidate_cache('auth:bootstrap:*')
+
+
+@expenses_sql_bp.route('/<expense_id>', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='expenses:detail', ttl=Config.CACHE_TTLS['expense_list'], vary_on_user=True)
 def get_expense(expense_id):
     """Get expense details"""
     user_id = get_current_user_id()
@@ -159,13 +178,15 @@ def get_expense(expense_id):
     success, result = expense_service_sql.get_expense(expense_id, user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 404
+        return error_response(result.get('error', 'Expense not found'), 404)
 
 
-@expenses_sql_bp.route('/<int:expense_id>', methods=['PUT'])
+@expenses_sql_bp.route('/<expense_id>', methods=['PUT'])
+@limit_api(Config.RATE_LIMITS['update'])
 @require_auth
+@validate_schema(UpdateExpenseSchema)
 def update_expense(expense_id):
     """
     Update an expense (TripRaft Model - returns complete state)
@@ -187,7 +208,7 @@ def update_expense(expense_id):
     - expenses: ALL user's expenses
     - group_balances: updated balances if group expense
     """
-    data = request.get_json() or {}
+    data = g.validated_data
     user_id = get_current_user_id()
     
     logger.info("UPDATE EXPENSE %s - Request data: %s", expense_id, data)
@@ -216,26 +237,27 @@ def update_expense(expense_id):
             offset=0
         )
         
-        response = {
-            'success': True,
+        response_data = {
             'expense': result.get('expense'),
             'expenses': all_expenses_result.get('expenses', []) if all_expenses_success else []
         }
         
         # Include updated balances if available
         if 'balances' in result:
-            response['group_balances'] = result.get('balances', [])
+            response_data['group_balances'] = result.get('balances', [])
         
-        return jsonify(response), 200
+        _invalidate_expense_caches()
+        return success_response(data=response_data, message='Expense updated')
     else:
         # Return 403 for permission errors
         error_msg = result.get('error', '')
         if 'only edit' in error_msg.lower() or 'permission' in error_msg.lower() or 'not authorized' in error_msg.lower():
-            return jsonify({'success': False, **result}), 403
-        return jsonify({'success': False, **result}), 400
+            return error_response(error_msg, 403)
+        return error_response(error_msg or 'Failed to update expense')
 
 
-@expenses_sql_bp.route('/<int:expense_id>', methods=['DELETE'])
+@expenses_sql_bp.route('/<expense_id>', methods=['DELETE'])
+@limit_api(Config.RATE_LIMITS['delete'])
 @require_auth
 def delete_expense(expense_id):
     """
@@ -258,27 +280,28 @@ def delete_expense(expense_id):
             offset=0
         )
         
-        response = {
-            'success': True,
-            'message': result.get('message', 'Expense deleted successfully'),
+        response_data = {
             'expenses': all_expenses_result.get('expenses', []) if all_expenses_success else []
         }
         
         # Include updated balances if available
         if 'balances' in result:
-            response['group_balances'] = result.get('balances', [])
+            response_data['group_balances'] = result.get('balances', [])
         
-        return jsonify(response), 200
+        _invalidate_expense_caches()
+        return success_response(data=response_data, message=result.get('message', 'Expense deleted'))
     else:
         # Return 403 for permission errors
         error_msg = result.get('error', '')
         if 'only delete' in error_msg.lower() or 'permission' in error_msg.lower() or 'not authorized' in error_msg.lower():
-            return jsonify({'success': False, **result}), 403
-        return jsonify({'success': False, **result}), 400
+            return error_response(error_msg, 403)
+        return error_response(error_msg or 'Failed to delete expense')
 
 
-@expenses_sql_bp.route('/group/<int:group_id>', methods=['GET'])
+@expenses_sql_bp.route('/group/<group_id>', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='expenses:group', ttl=Config.CACHE_TTLS['expense_list'], vary_on_user=True)
 def get_group_expenses(group_id):
     """
     Get expenses for a group
@@ -289,7 +312,7 @@ def get_group_expenses(group_id):
     - include_deleted: Include deleted expenses (default false)
     """
     user_id = get_current_user_id()
-    limit = request.args.get('limit', 50, type=int)
+    limit = request.args.get('limit', Config.EXPENSE_DEFAULT_LIMIT, type=int)
     offset = request.args.get('offset', 0, type=int)
     include_deleted = request.args.get('include_deleted', 'false').lower() == 'true'
     
@@ -302,13 +325,15 @@ def get_group_expenses(group_id):
     )
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to get group expenses'))
 
 
 @expenses_sql_bp.route('/personal', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='expenses:personal', ttl=Config.CACHE_TTLS['expense_list'], vary_on_user=True)
 def get_personal_expenses():
     """
     Get personal expenses (not associated with any group)
@@ -318,7 +343,7 @@ def get_personal_expenses():
     - offset: Pagination offset (default 0)
     """
     user_id = get_current_user_id()
-    limit = request.args.get('limit', 50, type=int)
+    limit = request.args.get('limit', Config.EXPENSE_DEFAULT_LIMIT, type=int)
     offset = request.args.get('offset', 0, type=int)
     
     success, result = expense_service_sql.get_user_expenses(
@@ -329,13 +354,15 @@ def get_personal_expenses():
     )
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to get personal expenses'))
 
 
 @expenses_sql_bp.route('/user', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='expenses:user', ttl=Config.CACHE_TTLS['expense_list'], vary_on_user=True)
 def get_user_expenses_flexible():
     """
     Get user expenses with flexible filtering
@@ -347,7 +374,7 @@ def get_user_expenses_flexible():
     """
     user_id = get_current_user_id()
     personal_only = request.args.get('personal_only', 'false').lower() == 'true'
-    limit = request.args.get('limit', 50, type=int)
+    limit = request.args.get('limit', Config.EXPENSE_DEFAULT_LIMIT, type=int)
     offset = request.args.get('offset', 0, type=int)
     
     success, result = expense_service_sql.get_user_expenses(
@@ -358,13 +385,15 @@ def get_user_expenses_flexible():
     )
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to get user expenses'))
 
 
-@expenses_sql_bp.route('/<int:expense_id>/history', methods=['GET'])
+@expenses_sql_bp.route('/<expense_id>/history', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='expenses:history', ttl=Config.CACHE_TTLS['expense_summary'], vary_on_user=True)
 def get_expense_history(expense_id):
     """
     Get expense edit history
@@ -376,13 +405,15 @@ def get_expense_history(expense_id):
     success, result = expense_service_sql.get_expense_history(expense_id, user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 404
+        return error_response(result.get('error', 'Failed to get expense history'), 404)
 
 
 @expenses_sql_bp.route('/me', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='expenses:me', ttl=Config.CACHE_TTLS['expense_list'], vary_on_user=True)
 def get_my_expenses():
     """
     Get all expenses involving the current user (personal + group)
@@ -392,7 +423,7 @@ def get_my_expenses():
     - offset: Pagination offset (default 0)
     """
     user_id = get_current_user_id()
-    limit = request.args.get('limit', 50, type=int)
+    limit = request.args.get('limit', Config.EXPENSE_DEFAULT_LIMIT, type=int)
     offset = request.args.get('offset', 0, type=int)
     
     success, result = expense_service_sql.get_user_expenses(
@@ -402,6 +433,6 @@ def get_my_expenses():
     )
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to get expenses'))

@@ -4,16 +4,21 @@ Place Search API Routes
 Flask blueprint for place search endpoints.
 """
 
+import hashlib
 import logging
 
-from app.core.config import config
+from app.api.utils.responses import success_response
+from app.core.config import Config, config
+from app.core.exceptions import NotFoundError, ValidationError
+from app.core.rate_limiter import limit_api
+from app.infrastructure.cache.redis import cache_response
 from app.services.place_search_service import PlaceSearchService
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, make_response, request
 
 logger = logging.getLogger(__name__)
 
 # Create blueprint
-place_search_bp = Blueprint('place_search', __name__, url_prefix='/api/v1/place-search')
+place_search_bp = Blueprint('place_search', __name__, url_prefix='/api/v1/places')
 
 # Service instance
 _service: PlaceSearchService = None
@@ -27,7 +32,31 @@ def get_service() -> PlaceSearchService:
     return _service
 
 
+def _add_pagination_headers(response, total_count, limit, offset):
+    """Add standard pagination headers to a response."""
+    page = (offset // limit) + 1 if limit > 0 else 1
+    response.headers['X-Total-Count'] = str(total_count)
+    response.headers['X-Page'] = str(page)
+    response.headers['X-Per-Page'] = str(limit)
+    return response
+
+
+def _add_etag(response):
+    """Add ETag header based on response body for conditional caching."""
+    data = response.get_data(as_text=True)
+    etag = hashlib.md5(data.encode()).hexdigest()[:16]
+    response.headers['ETag'] = f'"{etag}"'
+
+    # Check If-None-Match from client
+    client_etag = request.headers.get('If-None-Match')
+    if client_etag and client_etag.strip('"') == etag:
+        return make_response('', 304)
+    return response
+
+
 @place_search_bp.route('/search', methods=['GET'])
+@cache_response(key_prefix='place_search:search', ttl=Config.CACHE_TTLS['search'], vary_on_query=True)
+@limit_api(Config.RATE_LIMITS['search'])
 def search():
     """
     Search for places.
@@ -44,77 +73,69 @@ def search():
     Returns:
         JSON response with search results
     """
+    # Get query parameter
+    query = request.args.get('q', '').strip()
+
+    if not query:
+        return success_response(
+            data=[],
+            message='Success',
+            meta={'query': '', 'match_type': None, 'total_count': 0}
+        )
+
+    if len(query) < config.MIN_QUERY_LENGTH:
+        raise ValidationError(
+            f'Query must be at least {config.MIN_QUERY_LENGTH} characters'
+        )
+
+    if len(query) > config.MAX_QUERY_LENGTH:
+        raise ValidationError(
+            f'Query must not exceed {config.MAX_QUERY_LENGTH} characters'
+        )
+
+    # Parse optional parameters
     try:
-        # Get query parameter
-        query = request.args.get('q', '').strip()
-        
-        if not query:
-            return jsonify({
-                'success': True,
-                'query': '',
-                'match_type': None,
-                'total_count': 0,
-                'places': [],
-            }), 200
-        
-        if len(query) < config.MIN_QUERY_LENGTH:
-            return jsonify({
-                'success': False,
-                'error': f'Query must be at least {config.MIN_QUERY_LENGTH} characters',
-            }), 400
-        
-        if len(query) > config.MAX_QUERY_LENGTH:
-            return jsonify({
-                'success': False,
-                'error': f'Query must not exceed {config.MAX_QUERY_LENGTH} characters',
-            }), 400
-        
-        # Parse optional parameters
         limit = min(
             int(request.args.get('limit', config.DEFAULT_LIMIT)),
             config.MAX_LIMIT
         )
         offset = int(request.args.get('offset', 0))
-        sort_by = request.args.get('sort_by', config.DEFAULT_SORT_BY)
-        sort_order = request.args.get('sort_order', config.DEFAULT_SORT_ORDER)
-        
-        # Parse filters
-        cost_param = request.args.get('cost', '')
-        cost_filter = [c.strip() for c in cost_param.split(',') if c.strip()] or None
-        
-        rating_param = request.args.get('rating')
+    except ValueError:
+        raise ValidationError('limit and offset must be integers')
+
+    sort_by = request.args.get('sort_by', config.DEFAULT_SORT_BY)
+    sort_order = request.args.get('sort_order', config.DEFAULT_SORT_ORDER)
+
+    # Parse filters
+    cost_param = request.args.get('cost', '')
+    cost_filter = [c.strip() for c in cost_param.split(',') if c.strip()] or None
+
+    rating_param = request.args.get('rating')
+    try:
         rating_filter = int(rating_param) if rating_param else None
-        
-        # Execute search
-        service = get_service()
-        result = service.search(
-            query=query,
-            limit=limit,
-            offset=offset,
-            sort_by=sort_by,
-            sort_order=sort_order,
-            cost_filter=cost_filter,
-            rating_filter=rating_filter,
-        )
-        
-        return jsonify(result.to_dict())
-        
-    except ValueError as e:
-        logger.warning(f"Invalid parameter: {e}")
-        return jsonify({
-            'success': False,
-            'error': 'Invalid parameter value',
-        }), 400
-        
-    except Exception as e:
-        logger.error(f"Search error: {e}")
-        return jsonify({
-            'success': False,
-            'error': 'An error occurred while searching',
-        }), 500
+    except ValueError:
+        raise ValidationError('rating must be an integer')
+
+    # Execute search
+    service = get_service()
+    result = service.search(
+        query=query,
+        limit=limit,
+        offset=offset,
+        sort_by=sort_by,
+        sort_order=sort_order,
+        cost_filter=cost_filter,
+        rating_filter=rating_filter,
+    )
+
+    response = jsonify(result.to_dict())
+    _add_pagination_headers(response, result.total_count, limit, offset)
+    return _add_etag(response)
 
 
 @place_search_bp.route('/autocomplete', methods=['GET'])
+@cache_response(key_prefix='place_search:autocomplete', ttl=Config.CACHE_TTLS['autocomplete'], vary_on_query=True)
+@limit_api(Config.RATE_LIMITS['read_light'])
 def autocomplete():
     """
     Get autocomplete suggestions.
@@ -126,38 +147,28 @@ def autocomplete():
     Returns:
         JSON response with suggestions
     """
-    try:
-        query = request.args.get('q', '').strip()
-        
-        if len(query) < config.AUTOCOMPLETE_MIN_LENGTH:
-            return jsonify({
-                'success': True,
-                'suggestions': [],
-            })
-        
-        limit = min(
-            int(request.args.get('limit', config.AUTOCOMPLETE_MAX_RESULTS)),
-            config.AUTOCOMPLETE_MAX_RESULTS
-        )
-        
-        service = get_service()
-        suggestions = service.get_autocomplete(query, limit)
-        
-        return jsonify({
-            'success': True,
-            'query': query,
-            'suggestions': [s.to_dict() for s in suggestions],
-        })
-        
-    except Exception as e:
-        logger.error(f"Autocomplete error: {e}")
-        return jsonify({
-            'success': False,
-            'error': 'An error occurred while fetching suggestions',
-        }), 500
+    query = request.args.get('q', '').strip()
+
+    if len(query) < config.AUTOCOMPLETE_MIN_LENGTH:
+        return success_response(data=[], message='Success')
+
+    limit = min(
+        int(request.args.get('limit', config.AUTOCOMPLETE_MAX_RESULTS)),
+        config.AUTOCOMPLETE_MAX_RESULTS
+    )
+
+    service = get_service()
+    suggestions = service.get_autocomplete(query, limit)
+
+    return success_response(
+        data=[s.to_dict() for s in suggestions],
+        meta={'query': query}
+    )
 
 
 @place_search_bp.route('/place/<int:place_id>', methods=['GET'])
+@cache_response(key_prefix='place_search:place', ttl=Config.CACHE_TTLS['place_detail'], vary_on_query=False)
+@limit_api(Config.RATE_LIMITS['read_light'])
 def get_place(place_id: int):
     """
     Get place details by ID.
@@ -168,30 +179,22 @@ def get_place(place_id: int):
     Returns:
         JSON response with place details
     """
-    try:
-        service = get_service()
-        place = service.get_place_by_id(place_id)
-        
-        if not place:
-            return jsonify({
-                'success': False,
-                'error': 'Place not found',
-            }), 404
-        
-        return jsonify({
-            'success': True,
-            'place': place.to_dict(),
-        })
-        
-    except Exception as e:
-        logger.error(f"Get place error: {e}")
-        return jsonify({
-            'success': False,
-            'error': 'An error occurred while fetching place details',
-        }), 500
+    service = get_service()
+    place = service.get_place_by_id(place_id)
+
+    if not place:
+        raise NotFoundError(f'Place {place_id} not found')
+
+    response = jsonify({
+        'success': True,
+        'message': 'Success',
+        'data': place.to_dict(),
+    })
+    return _add_etag(response)
 
 
 @place_search_bp.route('/stats', methods=['GET'])
+@cache_response(key_prefix='place_search:stats', ttl=Config.CACHE_TTLS['stats'], vary_on_query=False)
 def get_stats():
     """
     Get database statistics.
@@ -199,27 +202,16 @@ def get_stats():
     Returns:
         JSON response with counts
     """
-    try:
-        service = get_service()
-        db = service.db
-        
-        stats = {
-            'countries': db.execute_single("SELECT COUNT(*) as count FROM countries")['count'],
-            'states': db.execute_single("SELECT COUNT(*) as count FROM states")['count'],
-            'cities': db.execute_single("SELECT COUNT(*) as count FROM cities")['count'],
-            'places': db.execute_single("SELECT COUNT(*) as count FROM places")['count'],
-            'photos': db.execute_single("SELECT COUNT(*) as count FROM photos")['count'],
-            'tags': db.execute_single("SELECT COUNT(*) as count FROM tags")['count'],
-        }
-        
-        return jsonify({
-            'success': True,
-            'stats': stats,
-        })
-        
-    except Exception as e:
-        logger.error(f"Stats error: {e}")
-        return jsonify({
-            'success': False,
-            'error': 'An error occurred while fetching statistics',
-        }), 500
+    service = get_service()
+    db = service.db
+
+    stats = {
+        'countries': db.execute_single("SELECT COUNT(*) as count FROM countries")['count'],
+        'states': db.execute_single("SELECT COUNT(*) as count FROM states")['count'],
+        'cities': db.execute_single("SELECT COUNT(*) as count FROM cities")['count'],
+        'places': db.execute_single("SELECT COUNT(*) as count FROM places")['count'],
+        'photos': db.execute_single("SELECT COUNT(*) as count FROM photos")['count'],
+        'tags': db.execute_single("SELECT COUNT(*) as count FROM tags")['count'],
+    }
+
+    return success_response(data=stats, message='Success')

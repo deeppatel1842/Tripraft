@@ -6,10 +6,19 @@ Uses unified database - same users as expense_engine
 
 import logging
 
-from app.infrastructure.auth.decorators import require_auth
+from app.api.utils.responses import (created_response, error_response,
+                                     success_response,
+                                     validation_error_response)
+from app.api.utils.validators import validate_schema
+from app.core.config import Config
+from app.core.rate_limiter import limit_api
+from app.infrastructure.auth.decorators import require_auth, require_group_role
+from app.infrastructure.cache.redis import cache_response, invalidate_cache
 from app.schemas.common import (CreateTravelGroupSchema, UpdateBudgetSchema,
                                 validate_request)
-from flask import Blueprint, g, jsonify, request
+from app.schemas.group_planner import (UpdateItineraryDocumentSchema,
+                                       UpdateTravelGroupSchema)
+from flask import Blueprint, g, request
 
 logger = logging.getLogger(__name__)
 
@@ -17,7 +26,7 @@ logger = logging.getLogger(__name__)
 groups_bp = Blueprint(
     'gp_groups',  # Unique name to avoid conflict with expense_engine
     __name__,
-    url_prefix='/api/v2/group-planner'
+    url_prefix='/api/v1/group-planner'
 )
 
 
@@ -25,7 +34,17 @@ groups_bp = Blueprint(
 # GROUP ENDPOINTS
 # =========================================================================
 
+def _invalidate_gp_caches():
+    """Invalidate all group-planner caches."""
+    invalidate_cache('gp_groups:*')
+    invalidate_cache('gp_places:*')
+    invalidate_cache('gp_polls:*')
+    invalidate_cache('gp_checklist:*')
+    invalidate_cache('gp_invitations:*')
+
+
 @groups_bp.route('/groups', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['create'])
 @require_auth
 def create_group():
     """
@@ -49,18 +68,11 @@ def create_group():
         data = request.get_json()
         
         if not data:
-            return jsonify({
-                'success': False,
-                'error': 'Request body required'
-            }), 400
+            return error_response('Request body required')
         
         validated, errors = validate_request(CreateTravelGroupSchema, data)
         if errors:
-            return jsonify({
-                'success': False,
-                'error': 'Validation failed',
-                'details': errors
-            }), 400
+            return validation_error_response(errors)
         
         success, result = group_service.create_group(
             user_id=g.user_id,
@@ -79,50 +91,59 @@ def create_group():
         
         if success:
             logger.info("Group created by user %s", g.user_id)
+            _invalidate_gp_caches()
             group_data = result.get('group') if isinstance(result, dict) else None
-            return jsonify({'success': True, 'data': group_data}), 201
+            return created_response(data=group_data)
         else:
             error_msg = result.get('error') if isinstance(result, dict) else str(result)
-            return jsonify({'success': False, 'error': error_msg}), 400
+            return error_response(error_msg)
             
     except Exception as e:
         logger.error("Create group error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to create group'
-        }), 500
+        return error_response('Failed to create group', 500)
 
 
 @groups_bp.route('/user/groups', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='gp_groups:user_list', ttl=Config.CACHE_TTLS['group_list'], vary_on_user=True)
 def get_user_groups():
     """
-    Get all groups for current user
+    Get all groups for current user (paginated)
     
     Request:
-        GET /api/v2/group-planner/user/groups
+        GET /api/v2/group-planner/user/groups?page=1&per_page=20
         Headers: Authorization: Bearer <token>
     """
     try:
         from app.services.travel_group_service import group_service
         
-        success, result = group_service.get_user_groups(user_id=g.user_id)
+        page = request.args.get('page', 1, type=int)
+        per_page = min(request.args.get('per_page', Config.GP_DEFAULT_LIMIT, type=int), 100)
+        
+        success, result = group_service.get_user_groups(
+            user_id=g.user_id,
+            page=page,
+            per_page=per_page
+        )
         
         if success:
-            return jsonify({'success': True, 'data': result.get('groups', [])}), 200
+            return success_response(
+                data=result.get('groups', []),
+                pagination=result.get('pagination')
+            )
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error("Get user groups error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to get groups'
-        }), 500
+        return error_response('Failed to get groups', 500)
 
 
-@groups_bp.route('/groups/<int:group_id>', methods=['GET'])
+@groups_bp.route('/groups/<group_id>', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_heavy'])
 @require_auth
+@cache_response(key_prefix='gp_groups:detail', ttl=Config.CACHE_TTLS['group_detail'], vary_on_user=True)
 def get_group(group_id):
     """
     Get a specific group with all details
@@ -141,21 +162,21 @@ def get_group(group_id):
         )
         
         if success:
-            return jsonify({'success': True, 'data': result.get('group')}), 200
+            return success_response(data=result.get('group'))
         else:
             status = 403 if 'member' in result.get('error', '').lower() else 404
-            return jsonify({'success': False, 'error': result.get('error')}), status
+            return error_response(result.get('error'), status)
             
     except Exception as e:
         logger.error("Get group error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to get group'
-        }), 500
+        return error_response('Failed to get group', 500)
 
 
-@groups_bp.route('/groups/<int:group_id>', methods=['PUT'])
+@groups_bp.route('/groups/<group_id>', methods=['PUT'])
+@limit_api(Config.RATE_LIMITS['update'])
 @require_auth
+@require_group_role('admin')
+@validate_schema(UpdateTravelGroupSchema)
 def update_group(group_id):
     """
     Update group details
@@ -171,36 +192,30 @@ def update_group(group_id):
     try:
         from app.services.travel_group_service import group_service
         
-        data = request.get_json() or {}
-        
-        # Only pass supported fields to avoid unexpected keyword arguments
-        allowed_fields = {
-            'name', 'description', 'destination', 'start_date', 'end_date',
-            'estimated_budget', 'budget_currency'
-        }
-        filtered_data = {k: v for k, v in data.items() if k in allowed_fields}
+        data = g.validated_data
         
         success, result = group_service.update_group(
             group_id=group_id,
             user_id=g.user_id,
-            **filtered_data
+            **data
         )
         
         if success:
-            return jsonify({'success': True, 'data': result.get('group')}), 200
+            _invalidate_gp_caches()
+            return success_response(data=result.get('group'))
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            status = result.get('status', 400)
+            return error_response(result.get('error'), status)
             
     except Exception as e:
         logger.error("Update group error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to update group'
-        }), 500
+        return error_response('Failed to update group', 500)
 
 
-@groups_bp.route('/groups/<int:group_id>', methods=['DELETE'])
+@groups_bp.route('/groups/<group_id>', methods=['DELETE'])
+@limit_api(Config.RATE_LIMITS['delete'])
 @require_auth
+@require_group_role('creator')
 def delete_group(group_id):
     """
     Delete a group (creator only)
@@ -218,22 +233,22 @@ def delete_group(group_id):
         )
         
         if success:
-            return jsonify({'success': True, 'message': result.get('message')}), 200
+            _invalidate_gp_caches()
+            return success_response(message=result.get('message'))
         else:
             status = 403 if 'creator' in result.get('error', '').lower() else 404
-            return jsonify({'success': False, 'error': result.get('error')}), status
+            return error_response(result.get('error'), status)
             
     except Exception as e:
         logger.error("Delete group error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to delete group'
-        }), 500
+        return error_response('Failed to delete group', 500)
 
 
-@groups_bp.route('/groups/<int:group_id>/itinerary-document', methods=['PUT'])
-@groups_bp.route('/groups/<int:group_id>/itinerary', methods=['PUT'])
+@groups_bp.route('/groups/<group_id>/itinerary-document', methods=['PUT'])
+@groups_bp.route('/groups/<group_id>/itinerary', methods=['PUT'])
+@limit_api(Config.RATE_LIMITS['update'])
 @require_auth
+@validate_schema(UpdateItineraryDocumentSchema)
 def update_itinerary_document(group_id):
     """
     Update itinerary document content
@@ -248,30 +263,32 @@ def update_itinerary_document(group_id):
     try:
         from app.services.travel_group_service import group_service
         
-        data = request.get_json() or {}
-        content = data.get('content', data.get('itinerary_document', ''))
+        data = g.validated_data
+        content = data.get('content') or data.get('itinerary_document') or ''
         
         success, result = group_service.update_itinerary_document(
             group_id=group_id,
             user_id=g.user_id,
-            content=content
+            content=content,
+            expected_version=data.get('expected_version')
         )
         
         if success:
-            return jsonify({'success': True, 'data': result}), 200
+            _invalidate_gp_caches()
+            return success_response(data=result)
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            status = result.get('status', 400)
+            return error_response(result.get('error'), status)
             
     except Exception as e:
         logger.error("Update itinerary document error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to update itinerary document'
-        }), 500
+        return error_response('Failed to update itinerary document', 500)
 
 
-@groups_bp.route('/groups/<int:group_id>/members/<int:member_id>', methods=['DELETE'])
+@groups_bp.route('/groups/<group_id>/members/<member_id>', methods=['DELETE'])
+@limit_api(Config.RATE_LIMITS['delete'])
 @require_auth
+@require_group_role('admin')
 def remove_member(group_id, member_id):
     """
     Remove a member from group (creator only)
@@ -290,23 +307,60 @@ def remove_member(group_id, member_id):
         )
         
         if success:
-            return jsonify({'success': True, 'message': result.get('message')}), 200
+            _invalidate_gp_caches()
+            return success_response(message=result.get('message'))
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error("Remove member error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to remove member'
-        }), 500
+        return error_response('Failed to remove member', 500)
 
 
-
-
-
-@groups_bp.route('/groups/<int:group_id>/budget', methods=['PUT', 'PATCH'])
+@groups_bp.route('/groups/<group_id>/members/<member_id>/role', methods=['PATCH'])
+@limit_api(Config.RATE_LIMITS['update'])
 @require_auth
+@require_group_role('admin')
+def update_member_role(group_id, member_id):
+    """
+    Update a member's role
+
+    Request:
+        PATCH /api/v2/group-planner/groups/<group_id>/members/<member_id>/role
+        Headers: Authorization: Bearer <token>
+        Body: { "role": "admin" | "member" | "viewer" }
+    """
+    try:
+        from app.services.travel_group_service import group_service
+
+        data = request.get_json(silent=True) or {}
+        new_role = data.get('role', '').strip().lower()
+        if not new_role:
+            return error_response('role is required', 400)
+
+        success, result = group_service.update_member_role(
+            group_id=group_id,
+            member_id=member_id,
+            new_role=new_role,
+            requester_id=g.user_id
+        )
+
+        if success:
+            _invalidate_gp_caches()
+            return success_response(data=result.get('member'))
+        else:
+            return error_response(result.get('error'), 400)
+
+    except Exception as e:
+        logger.error("Update member role error: %s", e)
+        return error_response('Failed to update member role', 500)
+
+
+
+@groups_bp.route('/groups/<group_id>/budget', methods=['PUT', 'PATCH'])
+@limit_api(Config.RATE_LIMITS['update'])
+@require_auth
+@require_group_role('admin')
 def update_budget(group_id):
     """
     Update group budget
@@ -325,11 +379,7 @@ def update_budget(group_id):
         
         validated, errors = validate_request(UpdateBudgetSchema, data)
         if errors:
-            return jsonify({
-                'success': False,
-                'error': 'Validation failed',
-                'details': errors
-            }), 400
+            return validation_error_response(errors)
         
         success, result = group_service.update_budget(
             group_id=group_id,
@@ -339,20 +389,20 @@ def update_budget(group_id):
         )
         
         if success:
-            return jsonify({'success': True, 'data': result}), 200
+            _invalidate_gp_caches()
+            return success_response(data=result)
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error("Update budget error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to update budget'
-        }), 500
+        return error_response('Failed to update budget', 500)
 
 
-@groups_bp.route('/groups/<int:group_id>/expense-summary', methods=['GET'])
+@groups_bp.route('/groups/<group_id>/expense-summary', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='gp_groups:expense_summary', ttl=Config.CACHE_TTLS['expense_summary'], vary_on_user=True)
 def get_expense_summary(group_id):
     """
     Get expense summary for a linked expense group
@@ -381,19 +431,17 @@ def get_expense_summary(group_id):
         )
         
         if success:
-            return jsonify({'success': True, 'data': result}), 200
+            return success_response(data=result)
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error("Get expense summary error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to get expense summary'
-        }), 500
+        return error_response('Failed to get expense summary', 500)
 
 
-@groups_bp.route('/groups/<int:group_id>/link-expense', methods=['POST'])
+@groups_bp.route('/groups/<group_id>/link-expense', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['create'])
 @require_auth
 def link_expense_group(group_id):
     """
@@ -419,29 +467,28 @@ def link_expense_group(group_id):
         )
         
         if not success:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
         
         group_data = result.get('group', {})
         
         # Check if already linked
         if group_data.get('expense_group_id'):
-            return jsonify({
-                'success': True,
-                'data': {'expense_group_id': group_data['expense_group_id']},
-                'message': 'Already linked'
-            }), 200
+            return success_response(
+                data={'expense_group_id': group_data['expense_group_id']},
+                message='Already linked'
+            )
         
         # Create expense group
         expense_success, expense_result = expense_group_service.create_group(
             user_id=g.user_id,
             name=group_data.get('name'),
             description=f"Linked from Group Planner - {group_data.get('destination', 'Trip')}",
-            currency='USD'
+            currency=Config.DEFAULT_CURRENCY
         )
         
         if not expense_success:
             logger.error("Failed to create expense group: %s", expense_result)
-            return jsonify({'success': False, 'error': 'Failed to create expense group'}), 500
+            return error_response('Failed to create expense group', 500)
         
         expense_group_id = expense_result.get('group', {}).get('id')
         logger.info("Created expense group %s for travel group %s", expense_group_id, group_id)
@@ -480,25 +527,21 @@ def link_expense_group(group_id):
         )
         
         if link_success:
-            return jsonify({
-                'success': True,
-                'data': {
-                    'expense_group_id': expense_group_id,
-                    'members_added': added_count
-                }
-            }), 200
+            _invalidate_gp_caches()
+            return success_response(data={
+                'expense_group_id': expense_group_id,
+                'members_added': added_count
+            })
         else:
-            return jsonify({'success': False, 'error': link_result.get('error')}), 400
+            return error_response(link_result.get('error'))
             
     except Exception as e:
         logger.error("Link expense group error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to link expense group'
-        }), 500
+        return error_response('Failed to link expense group', 500)
 
 
-@groups_bp.route('/groups/<int:group_id>/unlink-expense', methods=['POST'])
+@groups_bp.route('/groups/<group_id>/unlink-expense', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['create'])
 @require_auth
 def unlink_expense_group(group_id):
     """
@@ -517,59 +560,63 @@ def unlink_expense_group(group_id):
         )
         
         if success:
-            return jsonify({'success': True, 'message': result.get('message')}), 200
+            _invalidate_gp_caches()
+            return success_response(message=result.get('message'))
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error("Unlink expense group error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to unlink expense group'
-        }), 500
+        return error_response('Failed to unlink expense group', 500)
 
 
-@groups_bp.route('/groups/<int:group_id>/activities', methods=['GET'])
+@groups_bp.route('/groups/<group_id>/activities', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='gp_groups:activities', ttl=Config.CACHE_TTLS['activities'], vary_on_user=True)
 def get_group_activities(group_id):
     """
-    Get recent group activities (for real-time updates)
+    Get group activities (paginated)
     
     Request:
-        GET /api/v2/group-planner/groups/<group_id>/activities
+        GET /api/v2/group-planner/groups/<group_id>/activities?page=1&per_page=50
         Headers: Authorization: Bearer <token>
     """
     try:
         from app.services.travel_group_service import group_service
         
-        limit = request.args.get('limit', 50, type=int)
+        page = request.args.get('page', 1, type=int)
+        per_page = min(request.args.get('per_page', Config.GP_DEFAULT_LIMIT, type=int), 100)
         
         success, result = group_service.get_group_activities(
             group_id=group_id,
             user_id=g.user_id,
-            limit=limit
+            page=page,
+            per_page=per_page
         )
         
         if success:
-            return jsonify({'success': True, 'data': result.get('activities', [])}), 200
+            return success_response(
+                data=result.get('activities', []),
+                pagination=result.get('pagination')
+            )
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error("Get activities error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to get activities'
-        }), 500
+        return error_response('Failed to get activities', 500)
 
 
 # =========================================================================
 # MEMBER MANAGEMENT  
 # =========================================================================
 
-@groups_bp.route('/groups/<int:group_id>/members', methods=['GET'])
+@groups_bp.route('/groups/<group_id>/members', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
-def get_group_members(group_id: int):
+@cache_response(key_prefix='gp_groups:members', ttl=Config.CACHE_TTLS['members'], vary_on_user=True)
+def get_group_members(group_id: str):
     """
     Get detailed member list with owner indicator
     
@@ -586,27 +633,19 @@ def get_group_members(group_id: int):
         )
         
         if not success:
-            return jsonify({
-                'success': False,
-                'error': result.get('error', 'Failed to get members')
-            }), 400
+            return error_response(result.get('error', 'Failed to get members'))
         
-        return jsonify({
-            'success': True,
-            'data': result
-        }), 200
+        return success_response(data=result)
         
     except Exception as e:
         logger.error("Get group members error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to get group members'
-        }), 500
+        return error_response('Failed to get group members', 500)
 
 
-@groups_bp.route('/groups/<int:group_id>/leave', methods=['POST'])
+@groups_bp.route('/groups/<group_id>/leave', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['create'])
 @require_auth
-def leave_group(group_id: int):
+def leave_group(group_id: str):
     """
     Leave a group (non-owner members only)
 
@@ -624,16 +663,14 @@ def leave_group(group_id: int):
 
         if not success:
             status = 403 if 'owner' in result.get('error', '').lower() else 400
-            return jsonify({'success': False, 'error': result.get('error')}), status
+            return error_response(result.get('error'), status)
 
-        return jsonify({'success': True, 'message': result.get('message')}), 200
+        _invalidate_gp_caches()
+        return success_response(message=result.get('message'))
 
     except Exception as e:
         logger.error("Leave group error: %s", e)
-        return jsonify({
-            'success': False,
-            'error': 'Failed to leave group'
-        }), 500
+        return error_response('Failed to leave group', 500)
 
 
 # =========================================================================
@@ -641,6 +678,7 @@ def leave_group(group_id: int):
 # =========================================================================
 
 @groups_bp.route('/auth/verify', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['read_heavy'])
 @require_auth
 def verify_auth():
     """
@@ -650,10 +688,9 @@ def verify_auth():
         POST /api/v2/group-planner/auth/verify
         Headers: Authorization: Bearer <token>
     """
-    return jsonify({
-        'success': True,
-        'message': 'Authentication verified',
-        'data': {
+    return success_response(
+        message='Authentication verified',
+        data={
             'user': {
                 'uid': g.user_id,
                 'email': g.user_email
@@ -663,17 +700,17 @@ def verify_auth():
                 'present': True
             }
         }
-    }), 200
+    )
 
 
 @groups_bp.route('/health', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 def health_check():
     """
     Health check endpoint (no auth required)
     """
-    return jsonify({
-        'success': True,
+    return success_response(data={
         'service': 'Group Planner API (SQL)',
         'version': '2.0.0',
         'status': 'healthy'
-    }), 200
+    })
