@@ -6,13 +6,14 @@ Pydantic models for request/response validation.
 from datetime import datetime
 from typing import Optional
 
+from app.core.config import Config
 from pydantic import BaseModel, EmailStr, Field, field_validator
 
 
 class UserRegisterRequest(BaseModel):
     """Request schema for user registration."""
     email: EmailStr
-    password: str = Field(..., min_length=8, max_length=128)
+    password: str = Field(..., min_length=Config.PASSWORD_MIN_LENGTH, max_length=Config.PASSWORD_MAX_LENGTH)
     display_name: Optional[str] = Field(None, max_length=100)
     phone: Optional[str] = Field(None, max_length=20)
 
@@ -34,7 +35,7 @@ class UserUpdateRequest(BaseModel):
 class PasswordChangeRequest(BaseModel):
     """Request schema for password change."""
     current_password: str
-    new_password: str = Field(..., min_length=8, max_length=128)
+    new_password: str = Field(..., min_length=Config.PASSWORD_MIN_LENGTH, max_length=Config.PASSWORD_MAX_LENGTH)
 
 
 class RefreshTokenRequest(BaseModel):
@@ -49,7 +50,7 @@ class UserResponse(BaseModel):
     display_name: Optional[str] = None
     photo_url: Optional[str] = None
     phone: Optional[str] = None
-    default_currency: str = 'USD'
+    default_currency: str = Config.DEFAULT_CURRENCY
     is_active: bool = True
     email_verified: bool = False
     created_at: Optional[datetime] = None

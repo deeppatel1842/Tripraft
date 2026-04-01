@@ -2,18 +2,10 @@
 Group planner domain models for collaborative travel planning.
 """
 
-from .models import (
-    ChecklistItem,
-    GroupActivity,
-    ItineraryDocument,
-    Place,
-    PlaceVote,
-    Poll,
-    PollVote,
-    TravelGroup,
-    TripInvitation,
-    TripMember,
-)
+from .models import (ChatMessage, ChatSummary, ChecklistItem, GroupActivity,
+                     ItineraryDocument, MessageRead, Notification, Place,
+                     PlaceVote, Poll, PollVote, TravelGroup, TripInvitation,
+                     TripMember, VaultDocument)
 
 __all__ = [
     "TravelGroup",
@@ -26,4 +18,9 @@ __all__ = [
     "ChecklistItem",
     "ItineraryDocument",
     "GroupActivity",
+    "Notification",
+    "VaultDocument",
+    "ChatMessage",
+    "ChatSummary",
+    "MessageRead",
 ]

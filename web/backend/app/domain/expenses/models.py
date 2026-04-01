@@ -7,9 +7,11 @@ All expense-specific models (Group, Expense, Settlement, etc.) are defined here.
 
 from datetime import date
 
+from app.domain.users.models import User, UserSession
 # Import shared Base, User, UserSession — single source of truth
 from app.infrastructure.db.base import Base
-from app.domain.users.models import User, UserSession
+from app.infrastructure.db.uuid7 import CoercingUuid as Uuid
+from app.infrastructure.db.uuid7 import uuid7
 from sqlalchemy import (JSON, Boolean, Column, Date, DateTime, ForeignKey,
                         Index, Integer, Numeric, String, Text,
                         UniqueConstraint)
@@ -21,11 +23,11 @@ class Group(Base):
     """Expense group model"""
     __tablename__ = 'groups'
     
-    id = Column(Integer, primary_key=True, autoincrement=True)
+    id = Column(Uuid, primary_key=True, default=uuid7)
     name = Column(String(100), nullable=False)
     description = Column(Text)
     currency = Column(String(3), default='USD')
-    created_by = Column(Integer, ForeignKey('users.id'), nullable=False)
+    created_by = Column(Uuid, ForeignKey('users.id'), nullable=False)
     group_code = Column(String(20), unique=True)
     category = Column(String(50))  # trip, home, couple, friends, etc.
     image_url = Column(Text)
@@ -44,12 +46,12 @@ class Group(Base):
     def to_dict(self, include_members=False):
         """Convert to dictionary"""
         data = {
-            'id': self.id,
-            'group_id': self.id,  # Frontend expects group_id as well
+            'id': str(self.id),
+            'group_id': str(self.id),  # Frontend expects group_id as well
             'name': self.name,
             'description': self.description,
             'currency': self.currency,
-            'created_by': self.created_by,
+            'created_by': str(self.created_by),
             'created_by_name': self.owner.display_name if self.owner else None,  # Include owner name
             'group_code': self.group_code,
             'category': self.category,
@@ -73,14 +75,14 @@ class GroupMember(Base):
         Index('idx_group_members_group', 'group_id', 'is_active'),
     )
     
-    id = Column(Integer, primary_key=True, autoincrement=True)
-    group_id = Column(Integer, ForeignKey('groups.id', ondelete='CASCADE'), nullable=False)
-    user_id = Column(Integer, ForeignKey('users.id'), nullable=False)
+    id = Column(Uuid, primary_key=True, default=uuid7)
+    group_id = Column(Uuid, ForeignKey('groups.id', ondelete='CASCADE'), nullable=False)
+    user_id = Column(Uuid, ForeignKey('users.id'), nullable=False)
     role = Column(String(20), default='member')  # owner, admin, member
     is_active = Column(Boolean, default=True)
     joined_at = Column(DateTime, default=func.now())  # pyright: ignore
     removed_at = Column(DateTime)
-    removed_by = Column(Integer, ForeignKey('users.id'))
+    removed_by = Column(Uuid, ForeignKey('users.id'))
     
     # Relationships
     group = relationship('Group', back_populates='members')
@@ -89,9 +91,9 @@ class GroupMember(Base):
     def to_dict(self):
         """Convert to dictionary"""
         return {
-            'id': self.id,
-            'group_id': self.group_id,
-            'user_id': self.user_id,
+            'id': str(self.id),
+            'group_id': str(self.group_id),
+            'user_id': str(self.user_id),
             'role': self.role,
             'is_active': self.is_active,
             'joined_at': self.joined_at.isoformat() if self.joined_at is not None else None,  # type: ignore
@@ -107,12 +109,12 @@ class Expense(Base):
         Index('idx_expenses_paid_by', 'paid_by'),
     )
     
-    id = Column(Integer, primary_key=True, autoincrement=True)
-    group_id = Column(Integer, ForeignKey('groups.id', ondelete='CASCADE'), nullable=True)  # Nullable for personal expenses
+    id = Column(Uuid, primary_key=True, default=uuid7)
+    group_id = Column(Uuid, ForeignKey('groups.id', ondelete='CASCADE'), nullable=True)  # Nullable for personal expenses
     description = Column(String(500), nullable=False)
     amount = Column(Numeric(12, 2), nullable=False)
     currency = Column(String(3), default='USD')
-    paid_by = Column(Integer, ForeignKey('users.id'), nullable=False)
+    paid_by = Column(Uuid, ForeignKey('users.id'), nullable=False)
     split_type = Column(String(20), default='equal')  # equal, exact, percentage, shares, none
     category = Column(String(50))
     notes = Column(Text)
@@ -120,11 +122,11 @@ class Expense(Base):
     receipt_url = Column(Text)
     is_deleted = Column(Boolean, default=False)
     is_edited = Column(Boolean, default=False)
-    created_by = Column(Integer, ForeignKey('users.id'), nullable=False)
+    created_by = Column(Uuid, ForeignKey('users.id'), nullable=False)
     created_at = Column(DateTime, default=func.now())  # pyright: ignore
     updated_at = Column(DateTime, default=func.now(), onupdate=func.now())  # pyright: ignore
     deleted_at = Column(DateTime)
-    deleted_by = Column(Integer, ForeignKey('users.id'), nullable=True)  # User who deleted the expense
+    deleted_by = Column(Uuid, ForeignKey('users.id'), nullable=True)  # User who deleted the expense
     
     # Relationships
     group = relationship('Group', back_populates='expenses')
@@ -136,12 +138,12 @@ class Expense(Base):
     def to_dict(self, include_splits=True):
         """Convert to dictionary"""
         data = {
-            'id': self.id,
-            'group_id': self.group_id,
+            'id': str(self.id),
+            'group_id': str(self.group_id) if self.group_id else None,
             'description': self.description,
             'amount': float(self.amount),  # type: ignore
             'currency': self.currency,
-            'paid_by': self.paid_by,
+            'paid_by': str(self.paid_by),
             'paid_by_name': self.payer.display_name if self.payer else None,
             'split_type': self.split_type,
             'category': self.category,
@@ -150,7 +152,7 @@ class Expense(Base):
             'receipt_url': self.receipt_url,
             'is_deleted': self.is_deleted,
             'is_edited': self.is_edited,
-            'created_by': self.created_by,
+            'created_by': str(self.created_by),
             'created_at': self.created_at.isoformat() if self.created_at is not None else None,  # type: ignore
             'updated_at': self.updated_at.isoformat() if self.updated_at is not None else None  # type: ignore
         }
@@ -167,9 +169,9 @@ class ExpenseSplit(Base):
         Index('idx_expense_splits_user', 'user_id'),
     )
     
-    id = Column(Integer, primary_key=True, autoincrement=True)
-    expense_id = Column(Integer, ForeignKey('expenses.id', ondelete='CASCADE'), nullable=False)
-    user_id = Column(Integer, ForeignKey('users.id'), nullable=False)
+    id = Column(Uuid, primary_key=True, default=uuid7)
+    expense_id = Column(Uuid, ForeignKey('expenses.id', ondelete='CASCADE'), nullable=False)
+    user_id = Column(Uuid, ForeignKey('users.id'), nullable=False)
     amount = Column(Numeric(12, 2), nullable=False)
     percentage = Column(Numeric(5, 2))
     shares = Column(Integer)
@@ -181,9 +183,9 @@ class ExpenseSplit(Base):
     def to_dict(self):
         """Convert to dictionary"""
         return {
-            'id': self.id,
-            'expense_id': self.expense_id,
-            'user_id': self.user_id,
+            'id': str(self.id),
+            'expense_id': str(self.expense_id),
+            'user_id': str(self.user_id),
             'user_name': self.user.display_name if self.user else None,
             'amount': float(self.amount),  # type: ignore
             'percentage': float(self.percentage) if self.percentage is not None else None,  # type: ignore
@@ -199,16 +201,16 @@ class Settlement(Base):
         Index('idx_settlements_users', 'from_user_id', 'to_user_id'),
     )
     
-    id = Column(Integer, primary_key=True, autoincrement=True)
-    group_id = Column(Integer, ForeignKey('groups.id', ondelete='CASCADE'), nullable=False)
-    from_user_id = Column(Integer, ForeignKey('users.id'), nullable=False)
-    to_user_id = Column(Integer, ForeignKey('users.id'), nullable=False)
+    id = Column(Uuid, primary_key=True, default=uuid7)
+    group_id = Column(Uuid, ForeignKey('groups.id', ondelete='CASCADE'), nullable=False)
+    from_user_id = Column(Uuid, ForeignKey('users.id'), nullable=False)
+    to_user_id = Column(Uuid, ForeignKey('users.id'), nullable=False)
     amount = Column(Numeric(12, 2), nullable=False)
     currency = Column(String(3), default='USD')
     method = Column(String(50), default='cash')
     notes = Column(Text)
     proof_url = Column(Text)
-    recorded_by = Column(Integer, ForeignKey('users.id'), nullable=False)
+    recorded_by = Column(Uuid, ForeignKey('users.id'), nullable=False)
     settlement_date = Column(Date, default=date.today)
     is_deleted = Column(Boolean, default=False)
     created_at = Column(DateTime, default=func.now())  # pyright: ignore
@@ -222,18 +224,18 @@ class Settlement(Base):
     def to_dict(self):
         """Convert to dictionary"""
         return {
-            'id': self.id,
-            'group_id': self.group_id,
-            'from_user_id': self.from_user_id,
+            'id': str(self.id),
+            'group_id': str(self.group_id),
+            'from_user_id': str(self.from_user_id),
             'from_user_name': self.from_user.display_name if self.from_user else None,
-            'to_user_id': self.to_user_id,
+            'to_user_id': str(self.to_user_id),
             'to_user_name': self.to_user.display_name if self.to_user else None,
             'amount': float(self.amount),  # type: ignore
             'currency': self.currency,
             'method': self.method,
             'notes': self.notes,
             'proof_url': self.proof_url,
-            'recorded_by': self.recorded_by,
+            'recorded_by': str(self.recorded_by),
             'settlement_date': self.settlement_date.isoformat() if self.settlement_date is not None else None,  # type: ignore
             'is_deleted': self.is_deleted,
             'created_at': self.created_at.isoformat() if self.created_at is not None else None  # type: ignore
@@ -249,9 +251,9 @@ class GroupBalance(Base):
         Index('idx_balances_user', 'user_id'),
     )
     
-    id = Column(Integer, primary_key=True, autoincrement=True)
-    group_id = Column(Integer, ForeignKey('groups.id', ondelete='CASCADE'), nullable=False)
-    user_id = Column(Integer, ForeignKey('users.id'), nullable=False)
+    id = Column(Uuid, primary_key=True, default=uuid7)
+    group_id = Column(Uuid, ForeignKey('groups.id', ondelete='CASCADE'), nullable=False)
+    user_id = Column(Uuid, ForeignKey('users.id'), nullable=False)
     balance = Column(Numeric(12, 2), default=0)
     updated_at = Column(DateTime, default=func.now(), onupdate=func.now())  # pyright: ignore
     
@@ -262,7 +264,7 @@ class GroupBalance(Base):
     def to_dict(self):
         """Convert to dictionary"""
         return {
-            'user_id': self.user_id,
+            'user_id': str(self.user_id),
             'user_name': self.user.display_name if self.user else None,
             'balance': float(self.balance),  # type: ignore
             'updated_at': self.updated_at.isoformat() if self.updated_at is not None else None  # type: ignore
@@ -278,11 +280,11 @@ class Invitation(Base):
         Index('idx_invitations_group', 'group_id', 'status'),
     )
     
-    id = Column(Integer, primary_key=True, autoincrement=True)
-    group_id = Column(Integer, ForeignKey('groups.id', ondelete='CASCADE'), nullable=False)
+    id = Column(Uuid, primary_key=True, default=uuid7)
+    group_id = Column(Uuid, ForeignKey('groups.id', ondelete='CASCADE'), nullable=False)
     invitee_email = Column(String(255), nullable=False)
-    invitee_user_id = Column(Integer, ForeignKey('users.id'))
-    invited_by = Column(Integer, ForeignKey('users.id'), nullable=False)
+    invitee_user_id = Column(Uuid, ForeignKey('users.id'))
+    invited_by = Column(Uuid, ForeignKey('users.id'), nullable=False)
     status = Column(String(20), default='pending')  # pending, accepted, declined, expired
     expires_at = Column(DateTime)
     created_at = Column(DateTime, default=func.now())  # pyright: ignore
@@ -296,14 +298,14 @@ class Invitation(Base):
     def to_dict(self):
         """Convert to dictionary"""
         return {
-            'id': self.id,
-            'invitation_id': self.id,  # Frontend expects invitation_id
-            'group_id': self.group_id,
+            'id': str(self.id),
+            'invitation_id': str(self.id),  # Frontend expects invitation_id
+            'group_id': str(self.group_id),
             'group_name': self.group.name if self.group else None,
             'invitee_email': self.invitee_email,
             'invited_email': self.invitee_email,  # Also include as invited_email for compatibility
-            'invitee_user_id': self.invitee_user_id,
-            'invited_by': self.invited_by,
+            'invitee_user_id': str(self.invitee_user_id) if self.invitee_user_id else None,
+            'invited_by': str(self.invited_by),
             'invited_by_name': self.inviter.display_name if self.inviter else None,
             'status': self.status,
             'expires_at': self.expires_at.isoformat() if self.expires_at is not None else None,  # type: ignore
@@ -315,11 +317,11 @@ class ExpenseHistory(Base):
     """Expense edit history for audit trail"""
     __tablename__ = 'expense_history'
     
-    id = Column(Integer, primary_key=True, autoincrement=True)
-    expense_id = Column(Integer, ForeignKey('expenses.id', ondelete='CASCADE'), nullable=False)
-    group_id = Column(Integer, ForeignKey('groups.id'), nullable=True)  # Nullable for personal expenses
+    id = Column(Uuid, primary_key=True, default=uuid7)
+    expense_id = Column(Uuid, ForeignKey('expenses.id', ondelete='CASCADE'), nullable=False)
+    group_id = Column(Uuid, ForeignKey('groups.id'), nullable=True)  # Nullable for personal expenses
     action = Column(String(20), nullable=False)  # created, updated, deleted, restored
-    changed_by = Column(Integer, ForeignKey('users.id'), nullable=False)
+    changed_by = Column(Uuid, ForeignKey('users.id'), nullable=False)
     changes_json = Column(JSON)  # Field changes
     before_snapshot = Column(JSON)  # Expense before change
     after_snapshot = Column(JSON)  # Expense after change
@@ -341,11 +343,11 @@ class ExpenseHistory(Base):
                 changes = []
         
         return {
-            'id': self.id,
-            'expense_id': self.expense_id,
-            'group_id': self.group_id,
+            'id': str(self.id),
+            'expense_id': str(self.expense_id),
+            'group_id': str(self.group_id) if self.group_id else None,
             'action': self.action,
-            'changed_by': self.changed_by,
+            'changed_by': str(self.changed_by),
             'changed_by_name': self.changer.display_name if self.changer else None,
             'changes': changes,
             'before_snapshot': self.before_snapshot,
@@ -354,4 +356,7 @@ class ExpenseHistory(Base):
             'changed_at': self.created_at.isoformat() if self.created_at is not None else None  # type: ignore
         }
 
+# UserSession is imported from shared_db.models (see top of file)
+# UserSession is imported from shared_db.models (see top of file)
+# UserSession is imported from shared_db.models (see top of file)
 # UserSession is imported from shared_db.models (see top of file)
