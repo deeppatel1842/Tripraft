@@ -5,7 +5,7 @@
 
 .ps-place-grid {
   display: grid;
-  gap: 24px;
+  gap: 28px;
   grid-template-columns: repeat(4, 1fr);
 }
 

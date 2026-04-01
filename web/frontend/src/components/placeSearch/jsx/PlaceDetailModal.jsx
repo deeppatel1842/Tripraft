@@ -5,10 +5,14 @@
  * Shows all place information including photos, hours, tips, etc.
  */
 
-import React, { useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
+import { getPlaceDetails } from '../../../services/placeSearchService';
+import placeholderSvg from '../../../assets/placeholder-place.svg';
 import '../css/PlaceDetailModal.css';
 
 const PlaceDetailModal = ({ place, onClose }) => {
+  const [fullPlace, setFullPlace] = useState(place);
+  const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
   /**
    * Handle escape key to close modal
    */
@@ -30,6 +34,33 @@ const PlaceDetailModal = ({ place, onClose }) => {
       document.removeEventListener('keydown', handleKeyDown);
     };
   }, [handleKeyDown]);
+
+  // Fetch full place details (with all photos) when modal opens
+  useEffect(() => {
+    if (!place?.id) return;
+    let cancelled = false;
+    getPlaceDetails(place.id).then(data => {
+      if (!cancelled && data) setFullPlace(data);
+    }).catch(() => {}); // keep showing search-result data on failure
+    return () => { cancelled = true; };
+  }, [place?.id]);
+
+  const photos = fullPlace.photos && fullPlace.photos.length > 0 ? fullPlace.photos : [];
+  const hasGallery = photos.length > 1;
+
+  const nextPhoto = () => setCurrentPhotoIndex(i => (i + 1) % photos.length);
+  const prevPhoto = () => setCurrentPhotoIndex(i => (i - 1 + photos.length) % photos.length);
+
+  const handleShare = async () => {
+    const url = window.location.origin + '/places?q=' + encodeURIComponent(fullPlace.name || fullPlace.place_name || '');
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: fullPlace.name, url });
+      } catch {}
+    } else {
+      await navigator.clipboard.writeText(url);
+    }
+  };
 
   /**
    * Handle backdrop click
@@ -74,14 +105,14 @@ const PlaceDetailModal = ({ place, onClose }) => {
    * Get Google Maps URL
    */
   const getGoogleMapsUrl = () => {
-    if (place.latitude && place.longitude) {
-      return `https://www.google.com/maps/search/?api=1&query=${place.latitude},${place.longitude}`;
+    if (fullPlace.latitude && fullPlace.longitude) {
+      return `https://www.google.com/maps/search/?api=1&query=${fullPlace.latitude},${fullPlace.longitude}`;
     }
-    const searchQuery = encodeURIComponent(`${place.name || place.place_name}, ${place.city_name || ''}`);
+    const searchQuery = encodeURIComponent(`${fullPlace.name || fullPlace.place_name}, ${fullPlace.city_name || ''}`);
     return `https://www.google.com/maps/search/?api=1&query=${searchQuery}`;
   };
 
-  const costInfo = formatCost(place.cost);
+  const costInfo = formatCost(fullPlace.cost);
 
   return (
     <div className="place-modal-overlay" onClick={handleBackdropClick}>
@@ -95,20 +126,37 @@ const PlaceDetailModal = ({ place, onClose }) => {
           <i className="fas fa-times"></i>
         </button>
 
-        {/* Hero Image */}
+        {/* Hero Image / Gallery */}
         <div className="modal-hero">
           <img
-            src={place.photo_url || place.thumbnail_url || 'https://placehold.co/1200x600/94a3b8/ffffff?text=No+Image'}
-            alt={place.name}
+            src={
+              hasGallery
+                ? (photos[currentPhotoIndex]?.url || placeholderSvg)
+                : (fullPlace.photo_url || fullPlace.thumbnail_url || placeholderSvg)
+            }
+            alt={hasGallery ? (photos[currentPhotoIndex]?.title || fullPlace.name) : fullPlace.name}
           />
+          {hasGallery && (
+            <>
+              <button className="gallery-nav gallery-prev" onClick={prevPhoto} aria-label="Previous photo">
+                <i className="fas fa-chevron-left"></i>
+              </button>
+              <button className="gallery-nav gallery-next" onClick={nextPhoto} aria-label="Next photo">
+                <i className="fas fa-chevron-right"></i>
+              </button>
+              <div className="gallery-counter">
+                {currentPhotoIndex + 1} / {photos.length}
+              </div>
+            </>
+          )}
           <div className="modal-hero-overlay">
-            <h1 className="modal-title">{place.name}</h1>
+            <h1 className="modal-title">{fullPlace.name}</h1>
             <div className="modal-location">
               <i className="fas fa-map-marker-alt"></i>
               <span>
-                {place.city_name}
-                {place.state_name && `, ${place.state_name}`}
-                {place.country_name && `, ${place.country_name}`}
+                {fullPlace.city_name}
+                {fullPlace.state_name && `, ${fullPlace.state_name}`}
+                {fullPlace.country_name && `, ${fullPlace.country_name}`}
               </span>
             </div>
           </div>
@@ -118,16 +166,16 @@ const PlaceDetailModal = ({ place, onClose }) => {
         <div className="modal-content">
           {/* Quick Info Row */}
           <div className="modal-quick-info">
-            {place.rating_tourist_priority && (
+            {fullPlace.rating_tourist_priority && (
               <div className="info-item">
                 <div className="stars">
-                  {getRatingStars(place.rating_tourist_priority)}
+                  {getRatingStars(fullPlace.rating_tourist_priority)}
                 </div>
                 <span className="label">Tourist Rating</span>
               </div>
             )}
             
-            {place.cost && (
+            {fullPlace.cost && (
               <div className="info-item">
                 <span className={`cost-badge ${costInfo.class}`}>
                   {costInfo.text}
@@ -135,26 +183,26 @@ const PlaceDetailModal = ({ place, onClose }) => {
               </div>
             )}
 
-            {place.suggested_duration && (
+            {fullPlace.suggested_duration && (
               <div className="info-item">
                 <i className="fas fa-clock"></i>
-                <span>{place.suggested_duration}</span>
+                <span>{fullPlace.suggested_duration}</span>
               </div>
             )}
 
-            {place.best_time_to_visit && (
+            {fullPlace.best_time_to_visit && (
               <div className="info-item">
                 <i className="fas fa-calendar-alt"></i>
-                <span>{place.best_time_to_visit}</span>
+                <span>{fullPlace.best_time_to_visit}</span>
               </div>
             )}
           </div>
 
           {/* Description */}
-          {place.ai_summary && (
+          {fullPlace.ai_summary && (
             <section className="modal-section">
               <h2>About</h2>
-              <p className="description">{place.ai_summary}</p>
+              <p className="description">{fullPlace.ai_summary}</p>
             </section>
           )}
 
@@ -162,15 +210,15 @@ const PlaceDetailModal = ({ place, onClose }) => {
           <section className="modal-section">
             <h2>Features</h2>
             <div className="features-grid">
-              <div className={`feature ${place.sunrise_view ? 'active' : 'inactive'}`}>
+              <div className={`feature ${fullPlace.sunrise_view ? 'active' : 'inactive'}`}>
                 <i className="fas fa-sun"></i>
                 <span>Sunrise View</span>
               </div>
-              <div className={`feature ${place.sunset_view ? 'active' : 'inactive'}`}>
+              <div className={`feature ${fullPlace.sunset_view ? 'active' : 'inactive'}`}>
                 <i className="fas fa-moon"></i>
                 <span>Sunset View</span>
               </div>
-              <div className={`feature ${place.advanced_booking === 'recommended' ? 'active' : 'inactive'}`}>
+              <div className={`feature ${fullPlace.advanced_booking === 'recommended' ? 'active' : 'inactive'}`}>
                 <i className="fas fa-ticket-alt"></i>
                 <span>Advance Booking</span>
               </div>
@@ -178,26 +226,26 @@ const PlaceDetailModal = ({ place, onClose }) => {
           </section>
 
           {/* Tip */}
-          {place.place_tip && (
+          {fullPlace.place_tip && (
             <section className="modal-section">
               <h2>Traveler Tip</h2>
               <div className="tip-box">
                 <i className="fas fa-lightbulb"></i>
-                <p>{place.place_tip}</p>
+                <p>{fullPlace.place_tip}</p>
               </div>
             </section>
           )}
 
           {/* Opening Hours */}
-          {place.opening_hours && (
+          {fullPlace.opening_hours && (
             <section className="modal-section">
               <h2>Opening Hours</h2>
               <div className="hours-grid">
                 {['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'].map(day => (
-                  place.opening_hours[day] && (
+                  fullPlace.opening_hours[day] && (
                     <div key={day} className="hour-item">
                       <span className="day">{day.charAt(0).toUpperCase() + day.slice(1)}</span>
-                      <span className="time">{place.opening_hours[day]}</span>
+                      <span className="time">{fullPlace.opening_hours[day]}</span>
                     </div>
                   )
                 ))}
@@ -206,11 +254,11 @@ const PlaceDetailModal = ({ place, onClose }) => {
           )}
 
           {/* Tags */}
-          {place.tags && place.tags.length > 0 && (
+          {fullPlace.tags && fullPlace.tags.length > 0 && (
             <section className="modal-section">
               <h2>Tags</h2>
               <div className="tags-list">
-                {place.tags.map((tag, index) => (
+                {fullPlace.tags.map((tag, index) => (
                   <span key={index} className="tag">
                     {tag.replace(/_/g, ' ')}
                   </span>
@@ -223,21 +271,21 @@ const PlaceDetailModal = ({ place, onClose }) => {
           <section className="modal-section">
             <h2>Information</h2>
             <div className="info-grid">
-              {place.address && (
+              {fullPlace.address && (
                 <div className="info-row">
                   <i className="fas fa-map-marker-alt"></i>
-                  <span>{place.address}</span>
+                  <span>{fullPlace.address}</span>
                 </div>
               )}
-              {place.official_website && (
+              {fullPlace.official_website && (
                 <div className="info-row">
                   <i className="fas fa-globe"></i>
-                  <a href={place.official_website} target="_blank" rel="noopener noreferrer">
+                  <a href={fullPlace.official_website} target="_blank" rel="noopener noreferrer">
                     Visit Website
                   </a>
                 </div>
               )}
-              {place.latitude && place.longitude && (
+              {fullPlace.latitude && fullPlace.longitude && (
                 <div className="info-row">
                   <i className="fas fa-location-arrow"></i>
                   <a 
@@ -257,6 +305,10 @@ const PlaceDetailModal = ({ place, onClose }) => {
         <div className="modal-footer">
           <button className="btn-secondary" onClick={onClose}>
             Close
+          </button>
+          <button className="btn-secondary" onClick={handleShare}>
+            <i className="fas fa-share-alt"></i>
+            Share
           </button>
           <button className="btn-primary">
             <i className="fas fa-plus"></i>

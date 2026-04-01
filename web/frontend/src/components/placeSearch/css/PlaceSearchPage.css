@@ -60,8 +60,9 @@
 /* Results Controls */
 .ps-results-controls {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  gap: 12px;
   margin-bottom: 24px;
 }
 
@@ -73,6 +74,78 @@
   font-size: 0.875rem;
   font-weight: 500;
   color: #374151;
+}
+
+/* Filter bar */
+.ps-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ps-filter-select {
+  padding: 6px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.813rem;
+  color: #374151;
+  background: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.ps-filter-select:focus {
+  border-color: #a855f7;
+}
+
+.ps-filter-group {
+  display: flex;
+  gap: 6px;
+}
+
+.ps-filter-chip {
+  padding: 5px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: #6b7280;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ps-filter-chip:hover {
+  border-color: #a855f7;
+  color: #a855f7;
+}
+
+.ps-filter-chip.active {
+  background: #a855f7;
+  border-color: #a855f7;
+  color: #fff;
+}
+
+.ps-filter-clear {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: #ef4444;
+  background: #fef2f2;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: background 0.2s;
+}
+
+.ps-filter-clear:hover {
+  background: #fee2e2;
 }
 
 /* Loading State */

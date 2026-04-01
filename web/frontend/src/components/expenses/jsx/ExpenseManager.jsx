@@ -10,7 +10,7 @@
  */
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { useSearchParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import ExpenseSummary from './ExpenseSummary';
 import TransactionList from './TransactionList';
 import TransactionModal from './TransactionModal';
@@ -38,9 +38,12 @@ import {
 } from '../../../hooks/useExpenseQuery';
 import '../css/ExpenseManager.css';
 
+/** Unwrap backend response envelope { success, data, meta } -> inner data */
+const unwrapEnvelope = (r) => (r && typeof r === 'object' && 'success' in r && 'data' in r) ? r.data : r;
+
 const ExpenseManager = () => {
   const navigate = useNavigate();
-  const [searchParams, setSearchParams] = useSearchParams();
+  const { userId: routeUserId, mode: routeMode } = useParams();
   
   // Auth state
   const { isAuthenticated, currentUser, loading: authLoading } = useAuth();
@@ -107,14 +110,23 @@ const ExpenseManager = () => {
   const [isHistoryModalOpen, setIsHistoryModalOpen] = useState(false);
   const [mutationLoading, setMutationLoading] = useState(false);
 
-  // Check URL params for group view (from invitation acceptance)
+  // Initialize mode from URL path on mount
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
-    const viewParam = searchParams.get('view');
-    if (viewParam === 'group' && state.mode !== 'group') {
+    if (routeMode === 'group') {
       setState(prev => ({ ...prev, mode: 'group' }));
-      setSearchParams({});
+    } else if (routeMode === 'personal') {
+      setState(prev => ({ ...prev, mode: 'personal' }));
     }
-  }, [searchParams, state.mode, setSearchParams]);
+  }, []); // run once on mount
+
+  // Keep URL path in sync: /expenses/<userId>/<mode>
+  useEffect(() => {
+    if (authLoading || !currentUser) return;
+    const userId = currentUser?.uid || currentUser?.user_id || '';
+    if (!userId) return;
+    navigate(`/expenses/${userId}/${state.mode}`, { replace: true });
+  }, [state.mode, currentUser, authLoading, navigate]);
 
   // Auto-select first group if in group mode and no group selected
   useEffect(() => {
@@ -257,7 +269,7 @@ const ExpenseManager = () => {
     try {
       setMutationLoading(true);
       
-      const result = await expenseApi.createGroup(groupData);
+      const result = unwrapEnvelope(await expenseApi.createGroup(groupData));
       
       showToast('Group created successfully!', 'success');
       
@@ -364,10 +376,10 @@ const ExpenseManager = () => {
 
         let result;
         if (state.editingTransactionId) {
-          result = await expenseApi.updateExpense(state.editingTransactionId, expensePayload);
+          result = unwrapEnvelope(await expenseApi.updateExpense(state.editingTransactionId, expensePayload));
           showToast('Transaction updated!', 'success');
         } else {
-          result = await expenseApi.createExpense(expensePayload);
+          result = unwrapEnvelope(await expenseApi.createExpense(expensePayload));
           showToast('Transaction created!', 'success');
         }
         
@@ -421,7 +433,7 @@ const ExpenseManager = () => {
         markPersonalAsDeleted(id);
       }
       
-      const result = await expenseApi.deleteExpense(id);
+      const result = unwrapEnvelope(await expenseApi.deleteExpense(id));
       
       // INSTANT UPDATE: Use returned data if available
       if (state.mode === 'group' && (result?.expenses || result?.group_balances)) {
@@ -449,7 +461,7 @@ const ExpenseManager = () => {
       setMutationLoading(true);
       showToast('Creating settlement...', 'info');
       
-      const result = await expenseApi.createSettlement(settlementData);
+      const result = unwrapEnvelope(await expenseApi.createSettlement(settlementData));
       
       // INSTANT UPDATE: Use returned settlements and balances from API response
       if (result?.settlements || result?.balances) {

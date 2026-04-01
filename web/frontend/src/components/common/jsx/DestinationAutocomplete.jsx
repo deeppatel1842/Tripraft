@@ -59,7 +59,7 @@ export default function DestinationAutocomplete({
     setIsLoading(true);
     try {
       const response = await fetch(
-        `${GlobalConfig.API_BASE_URL}/v1/locations/autocomplete?q=${encodeURIComponent(query)}&limit=15`,
+        `${GlobalConfig.API_BASE_URL}${GlobalConfig.ENDPOINTS.PLACE_SEARCH}/autocomplete?q=${encodeURIComponent(query)}&limit=15`,
         { credentials: 'include' }
       );
 

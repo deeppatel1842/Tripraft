@@ -5,8 +5,9 @@
 
 import apiClient from '../utils/apiClient';
 import apiLogger from '../utils/apiLogger';
+import GlobalConfig from '../config/globalConfig';
 
-const API_BASE = '/trip-planner';
+const API_BASE = GlobalConfig.ENDPOINTS.TRIP_PLANNER;
 
 /**
  * TripPlannerService
@@ -30,8 +31,8 @@ class TripPlannerService {
     try {
       const response = await apiClient.post(`${API_BASE}/generate`, {
         city: params.city,
-        days: params.days || 3,
-        pacing: params.pacing || 'M',
+        days: params.days || GlobalConfig.TRIP_DEFAULT_DAYS,
+        pacing: params.pacing || GlobalConfig.TRIP_DEFAULT_PACING,
         exclude: params.exclude || '',
         require: params.require || '',
         places: params.places || ''
@@ -66,7 +67,7 @@ class TripPlannerService {
    * @param {number} limit - Max results (default 10)
    * @returns {Promise<Array>} Matching cities
    */
-  async searchCities(query, limit = 10) {
+  async searchCities(query, limit = GlobalConfig.CITY_SEARCH_LIMIT) {
     try {
       const response = await apiClient.get(
         `${API_BASE}/cities/search?q=${encodeURIComponent(query)}&limit=${limit}`

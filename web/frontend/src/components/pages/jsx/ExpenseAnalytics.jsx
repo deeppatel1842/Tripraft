@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../../context/AuthContext';
+import GlobalConfig from '../../../config/globalConfig';
 import '../css/ExpenseAnalytics.css';
 
 const ExpenseAnalytics = () => {
@@ -28,7 +29,7 @@ const ExpenseAnalytics = () => {
       // Backend analytics dashboard URL
       // Uses auto_auth parameter to bypass manual token entry
       // Backend will automatically use TOKEN_ADMIN from .env
-      const url = `http://localhost:5000/api/expense/analytics/dashboard?auto_auth=true`;
+      const url = `${GlobalConfig.API_BASE_URL}${GlobalConfig.ENDPOINTS.EXPENSE}/analytics/dashboard?auto_auth=true`;
       setDashboardUrl(url);
       setLoading(false);
     }

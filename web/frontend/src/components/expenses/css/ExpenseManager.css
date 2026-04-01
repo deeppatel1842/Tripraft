@@ -543,12 +543,14 @@ input:checked + .slider:before {
 .table-container {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  margin: 0;
+  padding: 0;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 600px;
+  min-width: 900px;
 }
 
 thead {
@@ -566,7 +568,8 @@ th {
 
 th:last-child {
   text-align: center;
-  width: 100px;
+  width: 120px;
+  padding-right: 0.5rem;
 }
 
 tbody tr {
@@ -581,6 +584,16 @@ tbody tr:hover {
 td {
   padding: 1rem;
   color: #374151;
+  vertical-align: middle;
+}
+
+td.actions {
+  text-align: center;
+  width: 120px;
+  white-space: nowrap;
+  display: table-cell;
+  padding: 1rem 0.5rem;
+  text-align: center;
 }
 
 .description {
@@ -620,58 +633,58 @@ td {
   font-weight: 600;
 }
 
-.actions {
-  text-align: center;
-  width: 100px;
-  white-space: nowrap;
-  display: flex;
-  gap: 0.5rem;
-  justify-content: flex-end;
-}
-
 .btn-icon {
-  padding: 0.5rem;
+  padding: 0.25rem;
   border: none;
-  background: none;
+  background: transparent;
   cursor: pointer;
-  transition: all 0.2s;
-  display: flex;
+  transition: all 0.2s ease;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 32px;
-  min-height: 32px;
+  min-width: 25px;
+  min-height: 25px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  z-index: 10;
+  margin: 0 2px;
 }
 
 .btn-edit {
-  color: #6b7280;
-  display: flex;
+  color: #6b7280 !important;
+  display: inline-flex !important;
   align-items: center;
   justify-content: center;
+  background: #f3f4f6 !important;
+  border: 1px solid #e5e7eb !important;
+  padding: 0.25rem !important;
+  min-width: 22px !important;
+  min-height: 22px !important;
 }
 
 .btn-edit:hover {
-  color: #2563eb;
-  background-color: rgba(37, 99, 235, 0.1);
-  border-radius: 4px;
+  color: #2563eb !important;
+  background-color: #dbeafe !important;
+  border-color: #2563eb !important;
 }
 
 /* Delete Button - High Visibility */
 button.btn-icon.btn-delete {
   color: #dc2626 !important;
-  background-color: #fecaca !important;
+  background-color: #fee2e2 !important;
   border: 1px solid #fca5a5 !important;
-  padding: 0.4rem 0.6rem !important;
-  border-radius: 6px !important;
-  min-width: 36px !important;
-  min-height: 36px !important;
+  padding: 0.25rem !important;
+  border-radius: 4px !important;
+  min-width: 22px !important;
+  min-height: 22px !important;
   transition: all 0.2s ease !important;
+  flex-shrink: 0 !important;
 }
 
 button.btn-icon.btn-delete:hover {
   color: #7f1d1d !important;
   background-color: #fca5a5 !important;
   border-color: #dc2626 !important;
-  transform: scale(1.1);
 }
 
 button.btn-icon.btn-delete:active {

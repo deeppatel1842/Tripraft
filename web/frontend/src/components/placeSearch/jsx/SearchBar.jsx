@@ -7,7 +7,7 @@
 
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import SearchSuggestions from './SearchSuggestions';
-import { getAutocompleteSuggestions } from '../placeSearchService';
+import { getAutocompleteSuggestions } from '../../../services/placeSearchService';
 import { MOCK_SUGGESTIONS } from '../mockData';
 import '../css/SearchBar.css';
 
@@ -29,20 +29,30 @@ const SearchBar = ({
   const inputRef = useRef(null);
   const containerRef = useRef(null);
   const debounceTimer = useRef(null);
+  const abortControllerRef = useRef(null);
 
   /**
-   * Generate suggestions from API or mock data
+   * Generate suggestions from API or mock data.
+   * Cancels any in-flight request before starting a new one.
    */
   const generateSuggestions = useCallback(async (query) => {
+    // Cancel previous in-flight request
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+    }
+
     if (!query || query.length < minQueryLength) {
       setSuggestions([]);
       setShowSuggestions(false);
       return;
     }
 
+    const controller = new AbortController();
+    abortControllerRef.current = controller;
+
     try {
       // Try backend API first
-      const apiSuggestions = await getAutocompleteSuggestions(query, 10);
+      const apiSuggestions = await getAutocompleteSuggestions(query, 10, { signal: controller.signal });
       
       if (apiSuggestions && apiSuggestions.length > 0) {
         setSuggestions(apiSuggestions);
@@ -50,6 +60,8 @@ const SearchBar = ({
         return;
       }
     } catch (error) {
+      // If aborted, don't update state — a newer request supersedes this one
+      if (error.name === 'AbortError') return;
     }
 
     // Fallback to mock suggestions
@@ -163,6 +175,9 @@ const SearchBar = ({
     return () => {
       if (debounceTimer.current) {
         clearTimeout(debounceTimer.current);
+      }
+      if (abortControllerRef.current) {
+        abortControllerRef.current.abort();
       }
     };
   }, []);

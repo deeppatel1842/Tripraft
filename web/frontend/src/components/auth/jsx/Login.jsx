@@ -8,7 +8,7 @@ import '../css/Login.css';
 const Login = ({ onSwitchToSignup }) => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { signIn, currentUser } = useAuth();
+  const { signIn, currentUser, inactivityMessage, clearInactivityMessage } = useAuth();
   
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -370,6 +370,23 @@ const Login = ({ onSwitchToSignup }) => {
                   textAlign: 'center'
                 }}>
                   <strong>Group Invitation:</strong> Please log in with {invitationEmail}
+                </div>
+              )}
+
+              {inactivityMessage && (
+                <div style={{
+                  padding: '0.75rem',
+                  background: '#fef9c3',
+                  border: '1px solid #fde68a',
+                  borderRadius: '8px',
+                  marginBottom: '1rem',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  color: '#92400e'
+                }}>
+                  <Shield size={18} />
+                  <span style={{ fontSize: '0.9rem' }}>{inactivityMessage}</span>
                 </div>
               )}
 

@@ -242,32 +242,28 @@ const TransactionList = ({
 
   // Check if current user can edit/delete this expense
   // Role-based permissions:
+  // - Personal mode: always allow (expenses are already filtered to the current user)
   // - Group owner can edit/delete ANY expense
   // - Members can edit/delete expenses they CREATED or PAID FOR
   const canUserEditDelete = (transaction) => {
-    // Convert ALL IDs to numbers to handle type mismatches (string vs number)
-    const transactionCreatedBy = Number(transaction.created_by);
-    const transactionPaidBy = Number(transaction.paid_by);
-    const userId = Number(currentUserId);
-    
     if (mode !== 'group') {
-      // Personal mode: user can edit/delete their own expenses
-      const canEdit = transactionPaidBy === userId || transactionCreatedBy === userId;
-      return canEdit;
-    }
-    
-    // Group mode: Check if user is group owner
-    const groupOwnerId = Number(activeGroup?.created_by);
-    const isGroupOwner = groupOwnerId === userId;
-    if (isGroupOwner) {
-      // Group owner can edit/delete ANY expense
+      // Personal mode: all fetched expenses belong to the current user
       return true;
     }
-    
+
+    // Group mode: normalize IDs to strings for safe UUID comparison
+    const transactionCreatedBy = String(transaction.created_by || '');
+    const transactionPaidBy = String(transaction.paid_by || '');
+    const userId = String(currentUserId || '');
+
+    if (!userId) return false;
+
+    // Group owner can edit/delete ANY expense
+    const groupOwnerId = String(activeGroup?.created_by || '');
+    if (groupOwnerId && groupOwnerId === userId) return true;
+
     // Members can edit/delete expenses they created OR paid for
-    const isCreator = transactionCreatedBy === userId;
-    const isPayer = transactionPaidBy === userId;
-    return isCreator || isPayer;
+    return transactionCreatedBy === userId || transactionPaidBy === userId;
   };
 
   const formatDate = (dateString) => {
@@ -416,7 +412,7 @@ const TransactionList = ({
                   {mode === 'group' && <th>Added By</th>}
                   {mode === 'group' && <th className="hide-mobile">Split With</th>}
                   <th>Amount</th>
-                  <th style={{ textAlign: 'center', width: '80px' }}>Actions</th>
+                  <th style={{ textAlign: 'center', width: '120px' }}>Actions</th>
                 </tr>
               </thead>
               <tbody>
@@ -538,13 +534,13 @@ const TransactionList = ({
                           <Trash2 size={14} />
                         </span>
                       ) : canEditDelete ? (
-                        <>
+                        <div style={{ display: 'flex', gap: '4px', justifyContent: 'center', alignItems: 'center' }}>
                           <button 
                             className="btn-icon btn-edit"
                             onClick={() => onEdit(t)}
                             title="Edit transaction"
                           >
-                            <Edit2 size={16} />
+                            <Edit2 size={12} />
                           </button>
                           <button 
                             className="btn-icon btn-delete"
@@ -556,9 +552,9 @@ const TransactionList = ({
                             }}
                             title="Delete transaction"
                           >
-                            <Trash2 size={16} />
+                            <Trash2 size={12} />
                           </button>
-                        </>
+                        </div>
                       ) : mode === 'group' ? (
                         <span style={{ fontSize: '0.75rem', color: '#999' }}>
                           View only
