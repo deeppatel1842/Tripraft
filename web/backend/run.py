@@ -3,6 +3,12 @@ TripRaft Backend -- Main Entry Point
 Run this file to start the Flask server.
 """
 
+# Monkey-patch stdlib for gevent BEFORE any other imports.
+# Prevents TypeError in logging._removeHandlerRef during shutdown.
+from gevent import monkey as _monkey  # noqa: E402
+
+_monkey.patch_all()
+
 import logging
 import os
 import sys
@@ -36,6 +42,10 @@ def main():
     )
 
     try:
+        # Use SocketIO runner if available (enables WebSocket transport)
+        from app.infrastructure.realtime.socketio_ext import socketio
+        socketio.run(app, host=config.HOST, port=config.PORT, debug=config.DEBUG)
+    except ImportError:
         app.run(host=config.HOST, port=config.PORT, debug=config.DEBUG)
     except Exception as exc:
         logger.critical("Failed to start server: %s", exc)
@@ -43,4 +53,7 @@ def main():
 
 
 if __name__ == "__main__":
+    main()
+    main()
+    main()
     main()
