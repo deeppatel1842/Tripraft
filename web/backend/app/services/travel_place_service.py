@@ -13,6 +13,7 @@ from app.domain.group_planner.models import (GroupActivity, Place, PlaceVote,
                                              TravelGroup, TripMember)
 from app.domain.users.models import User
 from app.infrastructure.db.connection import get_db_session
+from sqlalchemy.orm import joinedload
 
 logger = logging.getLogger(__name__)
 
@@ -22,8 +23,8 @@ class PlaceService:
     
     @staticmethod
     def add_place(
-        group_id: int,
-        user_id: int,
+        group_id: str,
+        user_id: str,
         name: str,
         description: Optional[str] = None,
         address: Optional[str] = None,
@@ -58,6 +59,13 @@ class PlaceService:
             Tuple of (success, place_data/error)
         """
         try:
+            from app.core.sanitize import sanitize_text
+            name = sanitize_text(name)
+            if description:
+                description = sanitize_text(description)
+            if address:
+                address = sanitize_text(address)
+
             with get_db_session() as session:
                 # Check membership
                 member = session.query(TripMember).filter(
@@ -130,6 +138,28 @@ class PlaceService:
                 
                 logger.info(f"Place added: {place.id} to group {group_id}")
                 
+                # Notify group members
+                try:
+                    from app.services.notification_service import \
+                        notification_service
+                    notification_service.notify_group_members(
+                        group_id=group_id,
+                        exclude_user_id=user_id,
+                        type='place_added',
+                        title=f'New place added: {name}',
+                        data={'place_id': place.id, 'place_name': name}
+                    )
+                except Exception:
+                    pass
+                
+                # Real-time broadcast
+                try:
+                    from app.infrastructure.realtime.events import \
+                        emit_to_group
+                    emit_to_group(group_id, 'place:added', {'place': place.to_dict(), 'user_id': user_id})
+                except Exception:
+                    pass
+                
                 return True, {'place': place.to_dict()}
                 
         except Exception as e:
@@ -137,16 +167,12 @@ class PlaceService:
             return False, {'error': 'Failed to add place'}
     
     @staticmethod
-    def get_places(group_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_places(group_id: str, user_id: str, page: int = 1, per_page: int = 20,
+                   q: Optional[str] = None, category: Optional[str] = None,
+                   visit_date_from: Optional[str] = None, visit_date_to: Optional[str] = None,
+                   sort_by: str = 'created_at', sort_order: str = 'desc') -> Tuple[bool, Dict[str, Any]]:
         """
-        Get all places for a group
-        
-        Args:
-            group_id: Group ID
-            user_id: Requesting user ID
-            
-        Returns:
-            Tuple of (success, places_list/error)
+        Get places for a group (paginated, filterable, sortable)
         """
         try:
             with get_db_session() as session:
@@ -160,12 +186,60 @@ class PlaceService:
                 if not member:
                     return False, {'error': 'Not a member of this group'}
                 
-                places = session.query(Place).filter(
+                base_query = session.query(Place).filter(
                     Place.group_id == group_id,
                     Place.is_deleted == False
-                ).order_by(Place.created_at.desc()).all()
+                )
                 
-                return True, {'places': [p.to_dict() for p in places]}
+                # Apply filters
+                if q:
+                    search_term = f"%{q}%"
+                    base_query = base_query.filter(
+                        (Place.name.ilike(search_term)) |
+                        (Place.description.ilike(search_term)) |
+                        (Place.address.ilike(search_term))
+                    )
+                if category:
+                    base_query = base_query.filter(Place.category == category)
+                if visit_date_from:
+                    try:
+                        base_query = base_query.filter(Place.visit_date >= visit_date_from)
+                    except (ValueError, AttributeError):
+                        pass
+                if visit_date_to:
+                    try:
+                        base_query = base_query.filter(Place.visit_date <= visit_date_to)
+                    except (ValueError, AttributeError):
+                        pass
+                
+                total = base_query.count()
+                
+                # Apply sorting
+                sort_col = {
+                    'name': Place.name,
+                    'visit_date': Place.visit_date,
+                    'created_at': Place.created_at,
+                    'rating': Place.rating,
+                }.get(sort_by, Place.created_at)
+                
+                order_fn = sort_col.asc() if sort_order == 'asc' else sort_col.desc()
+                
+                places = base_query.options(
+                    joinedload(Place.votes),
+                    joinedload(Place.adder)
+                ).order_by(
+                    order_fn
+                ).offset((page - 1) * per_page).limit(per_page).all()
+                
+                return True, {
+                    'places': [p.to_dict() for p in places],
+                    'pagination': {
+                        'page': page,
+                        'per_page': per_page,
+                        'total': total,
+                        'total_pages': max(1, -(-total // per_page))
+                    }
+                }
                 
         except Exception as e:
             logger.error(f"Get places error: {str(e)}")
@@ -173,9 +247,9 @@ class PlaceService:
     
     @staticmethod
     def vote_place(
-        group_id: int,
-        place_id: int,
-        user_id: int
+        group_id: str,
+        place_id: str,
+        user_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Toggle vote on a place
@@ -244,6 +318,17 @@ class PlaceService:
                 
                 logger.info(f"Vote {action} for place {place_id} by user {user_id}")
                 
+                # Real-time broadcast
+                try:
+                    from app.infrastructure.realtime.events import \
+                        emit_to_group
+                    emit_to_group(group_id, 'place:voted', {
+                        'place_id': place_id, 'votes': votes,
+                        'user_id': user_id, 'action': action
+                    })
+                except Exception:
+                    pass
+                
                 return True, {
                     'place_id': str(place_id),
                     'votes': votes,
@@ -256,16 +341,17 @@ class PlaceService:
     
     @staticmethod
     def update_place(
-        group_id: int,
-        place_id: int,
-        user_id: int,
+        group_id: str,
+        place_id: str,
+        user_id: str,
         visit_date: Optional[str] = None,
         suggested_duration: Optional[str] = None,
         remarks: Optional[str] = None,
+        expected_updated_at: Optional[str] = None,
         **kwargs
     ) -> Tuple[bool, Dict[str, Any]]:
         """
-        Update place details
+        Update place details with optimistic locking.
         
         Args:
             group_id: Group ID
@@ -274,6 +360,7 @@ class PlaceService:
             visit_date: Optional new visit date
             suggested_duration: Optional new duration
             remarks: Optional new remarks
+            expected_updated_at: If provided, ISO timestamp to check against (409 on mismatch)
             
         Returns:
             Tuple of (success, place_data/error)
@@ -300,6 +387,19 @@ class PlaceService:
                 if not place:
                     return False, {'error': 'Place not found'}
                 
+                # Optimistic locking: reject if updated_at mismatch
+                if expected_updated_at is not None and place.updated_at:
+                    try:
+                        expected_dt = datetime.fromisoformat(expected_updated_at.replace('Z', '+00:00'))
+                        if place.updated_at.replace(tzinfo=None) != expected_dt.replace(tzinfo=None):
+                            return False, {
+                                'error': 'Conflict: place was modified by another user',
+                                'status': 409,
+                                'current_updated_at': place.updated_at.isoformat()
+                            }
+                    except (ValueError, AttributeError):
+                        pass
+                
                 # Update fields
                 if visit_date is not None:
                     try:
@@ -312,6 +412,11 @@ class PlaceService:
                 
                 if remarks is not None:
                     place.remarks = remarks
+                
+                # Handle suggested_time from kwargs
+                suggested_time = kwargs.get('suggested_time')
+                if suggested_time is not None:
+                    place.suggested_time = suggested_time or None
                 
                 place.updated_at = datetime.now(timezone.utc)
                 
@@ -333,9 +438,9 @@ class PlaceService:
     
     @staticmethod
     def update_remarks(
-        group_id: int,
-        place_id: int,
-        user_id: int,
+        group_id: str,
+        place_id: str,
+        user_id: str,
         remarks: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
@@ -359,9 +464,9 @@ class PlaceService:
     
     @staticmethod
     def delete_place(
-        group_id: int,
-        place_id: int,
-        user_id: int
+        group_id: str,
+        place_id: str,
+        user_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Delete a place (soft delete)
@@ -428,4 +533,12 @@ class PlaceService:
 
 
 # Singleton instance
+place_service = PlaceService()
+place_service = PlaceService()
+place_service = PlaceService()
+place_service = PlaceService()
+place_service = PlaceService()
+place_service = PlaceService()
+place_service = PlaceService()
+place_service = PlaceService()
 place_service = PlaceService()
