@@ -10,6 +10,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from app.domain.group_planner.models import (ChecklistItem, GroupActivity,
                                              TravelGroup, TripMember)
 from app.infrastructure.db.connection import get_db_session
+from sqlalchemy.orm import joinedload
 
 logger = logging.getLogger(__name__)
 
@@ -19,13 +20,13 @@ class ChecklistService:
     
     @staticmethod
     def add_item(
-        group_id: int,
+        group_id: str,
         text: str,
-        created_by_id: int,
+        created_by_id: str,
         category: str = None,
         priority: str = 'medium',
         due_date: str = None,
-        assigned_to_id: int = None
+        assigned_to_id: str = None
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Add a checklist item
@@ -57,6 +58,12 @@ class ChecklistService:
                 # Validate item text
                 if not text or not text.strip():
                     return False, {'error': 'Item text is required'}
+                
+                from app.core.config import Config
+                from app.core.sanitize import sanitize_text
+                text = sanitize_text(text)
+                if len(text) > Config.MAX_CHECKLIST_ITEM_LENGTH:
+                    return False, {'error': f'Item text exceeds {Config.MAX_CHECKLIST_ITEM_LENGTH} characters'}
                 
                 # Create checklist item (only use fields that exist in model)
                 checklist_item = ChecklistItem(
@@ -96,16 +103,11 @@ class ChecklistService:
             return False, {'error': 'Failed to add checklist item'}
     
     @staticmethod
-    def get_checklist(group_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_checklist(group_id: str, user_id: str, page: int = 1, per_page: int = 50,
+                      completed: Optional[bool] = None, q: Optional[str] = None,
+                      sort_by: str = 'created_at', sort_order: str = 'asc') -> Tuple[bool, Dict[str, Any]]:
         """
-        Get all checklist items for a group
-        
-        Args:
-            group_id: Group ID
-            user_id: Requesting user ID
-            
-        Returns:
-            Tuple of (success, items_list/error)
+        Get checklist items for a group (paginated, filterable, sortable)
         """
         try:
             with get_db_session() as session:
@@ -119,12 +121,43 @@ class ChecklistService:
                 if not member:
                     return False, {'error': 'Not a member of this group'}
                 
-                items = session.query(ChecklistItem).filter(
+                base_query = session.query(ChecklistItem).filter(
                     ChecklistItem.group_id == group_id,
                     ChecklistItem.is_deleted == False
-                ).order_by(ChecklistItem.created_at.asc()).all()
+                )
                 
-                return True, {'checklist': [i.to_dict() for i in items]}
+                # Apply filters
+                if completed is not None:
+                    base_query = base_query.filter(ChecklistItem.completed == completed)
+                if q:
+                    base_query = base_query.filter(ChecklistItem.item.ilike(f"%{q}%"))
+                
+                total = base_query.count()
+                
+                # Apply sorting
+                sort_col = {
+                    'created_at': ChecklistItem.created_at,
+                    'completed': ChecklistItem.completed,
+                }.get(sort_by, ChecklistItem.created_at)
+                
+                order_fn = sort_col.asc() if sort_order == 'asc' else sort_col.desc()
+                
+                items = base_query.options(
+                    joinedload(ChecklistItem.author),
+                    joinedload(ChecklistItem.completer)
+                ).order_by(
+                    order_fn
+                ).offset((page - 1) * per_page).limit(per_page).all()
+                
+                return True, {
+                    'checklist': [i.to_dict() for i in items],
+                    'pagination': {
+                        'page': page,
+                        'per_page': per_page,
+                        'total': total,
+                        'total_pages': max(1, -(-total // per_page))
+                    }
+                }
                 
         except Exception as e:
             logger.error(f"Get checklist error: {str(e)}")
@@ -132,9 +165,9 @@ class ChecklistService:
     
     @staticmethod
     def toggle_item(
-        group_id: int,
-        item_id: int,
-        user_id: int
+        group_id: str,
+        item_id: str,
+        user_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Toggle checklist item completion
@@ -188,6 +221,15 @@ class ChecklistService:
                 
                 logger.info(f"Checklist item toggled: {item_id} to {item.completed}")
                 
+                # Real-time broadcast
+                try:
+                    from app.infrastructure.realtime.events import emit_to_group
+                    emit_to_group(group_id, 'checklist:toggled', {
+                        'item_id': item_id, 'completed': item.completed, 'user_id': user_id
+                    })
+                except Exception:
+                    pass
+                
                 return True, {
                     'id': str(item_id),
                     'completed': item.completed
@@ -199,13 +241,13 @@ class ChecklistService:
     
     @staticmethod
     def update_item(
-        item_id: int,
-        user_id: int,
+        item_id: str,
+        user_id: str,
         text: str = None,
         category: str = None,
         priority: str = None,
         due_date: str = None,
-        assigned_to_id: int = None,
+        assigned_to_id: str = None,
         completed: bool = None
     ) -> Tuple[bool, Dict[str, Any]]:
         """
@@ -278,9 +320,9 @@ class ChecklistService:
     
     @staticmethod
     def delete_item(
-        group_id: int,
-        item_id: int,
-        user_id: int
+        group_id: str,
+        item_id: str,
+        user_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Delete a checklist item (soft delete)
