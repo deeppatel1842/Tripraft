@@ -17,8 +17,9 @@ wayfinder/
 node_modules/
 dist/
 
-# Database files (too large for Git)
+# Database files
 web/database/*.db
+!web/database/travel_data_complete.db
 
 # IDE
 .vscode/
