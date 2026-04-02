@@ -8,7 +8,7 @@ import GlobalConfig from '../config/globalConfig';
 
 class SQLAuthService {
   constructor() {
-    this.baseUrl = `${GlobalConfig.API_BASE_URL}/expense`;
+    this.baseUrl = `${GlobalConfig.API_BASE_URL}${GlobalConfig.ENDPOINTS.AUTH}`;
     this.accessToken = null;
     this.refreshToken = null;
     this.currentUser = null;
@@ -23,18 +23,20 @@ class SQLAuthService {
   }
 
   /**
-   * Load stored authentication from localStorage
+   * Load stored user profile from localStorage.
+   * Tokens are handled by httpOnly cookies -- never stored in localStorage.
    */
   _loadStoredAuth() {
-    const accessToken = localStorage.getItem('accessToken');
-    const refreshToken = localStorage.getItem('refreshToken');
-    const userData = localStorage.getItem('currentUser');
+    // Migrate: remove any tokens previously stored in localStorage
+    localStorage.removeItem(GlobalConfig.STORAGE_KEYS.ACCESS_TOKEN);
+    localStorage.removeItem(GlobalConfig.STORAGE_KEYS.REFRESH_TOKEN);
 
-    if (accessToken && refreshToken && userData) {
-      this.accessToken = accessToken;
-      this.refreshToken = refreshToken;
+    const userData = localStorage.getItem(GlobalConfig.STORAGE_KEYS.CURRENT_USER);
+    if (userData) {
       try {
         this.currentUser = JSON.parse(userData);
+        // Tokens are now in httpOnly cookies; set flag so we attempt validation
+        this.accessToken = '__cookie__';
       } catch (e) {
         this.currentUser = null;
       }
@@ -42,32 +44,27 @@ class SQLAuthService {
   }
 
   /**
-   * Save authentication to localStorage
+   * Save user profile to localStorage.
+   * Tokens live in httpOnly cookies set by the backend -- never in localStorage.
    */
   _saveAuth(accessToken, refreshToken, user) {
     this.accessToken = accessToken;
     this.refreshToken = refreshToken;
     this.currentUser = user;
 
-    localStorage.setItem('accessToken', accessToken);
-    localStorage.setItem('refreshToken', refreshToken);
-    localStorage.setItem('currentUser', JSON.stringify(user));
-    // Keep legacy 'token' key for compatibility with existing code
-    localStorage.setItem('token', accessToken);
+    // Only store non-sensitive user profile data
+    localStorage.setItem(GlobalConfig.STORAGE_KEYS.CURRENT_USER, JSON.stringify(user));
   }
 
   /**
-   * Clear authentication from localStorage
+   * Clear authentication state
    */
   _clearAuth() {
     this.accessToken = null;
     this.refreshToken = null;
     this.currentUser = null;
 
-    localStorage.removeItem('accessToken');
-    localStorage.removeItem('refreshToken');
-    localStorage.removeItem('currentUser');
-    localStorage.removeItem('token');
+    localStorage.removeItem(GlobalConfig.STORAGE_KEYS.CURRENT_USER);
   }
 
   /**
@@ -111,14 +108,16 @@ class SQLAuthService {
         };
       }
 
+      const payload = data.data || data;
+
       // Save auth and notify listeners
-      this._saveAuth(data.access_token, data.refresh_token, data.user);
-      this._notifyAuthStateChange(this._createUserObject(data.user, data.access_token));
+      this._saveAuth(payload.access_token, payload.refresh_token, payload.user);
+      this._notifyAuthStateChange(this._createUserObject(payload.user, payload.access_token));
 
       return {
         success: true,
-        user: this._createUserObject(data.user, data.access_token),
-        token: data.access_token
+        user: this._createUserObject(payload.user, payload.access_token),
+        token: payload.access_token
       };
     } catch (error) {
       return {
@@ -153,14 +152,16 @@ class SQLAuthService {
         };
       }
 
+      const payload = data.data || data;
+
       // Save auth and notify listeners
-      this._saveAuth(data.access_token, data.refresh_token, data.user);
-      this._notifyAuthStateChange(this._createUserObject(data.user, data.access_token));
+      this._saveAuth(payload.access_token, payload.refresh_token, payload.user);
+      this._notifyAuthStateChange(this._createUserObject(payload.user, payload.access_token));
 
       return {
         success: true,
-        user: this._createUserObject(data.user, data.access_token),
-        token: data.access_token
+        user: this._createUserObject(payload.user, payload.access_token),
+        token: payload.access_token
       };
     } catch (error) {
       return {
@@ -176,12 +177,19 @@ class SQLAuthService {
    */
   async signOut() {
     try {
-      // Clear local auth
+      // Call backend to clear httpOnly auth cookies
+      await fetch(`${this.baseUrl}/logout`, {
+        method: 'POST',
+        credentials: 'include',
+        headers: { 'Content-Type': 'application/json' },
+      }).catch(() => {});
+
       this._clearAuth();
       this._notifyAuthStateChange(null);
-
       return { success: true };
     } catch (error) {
+      this._clearAuth();
+      this._notifyAuthStateChange(null);
       return {
         success: false,
         error: 'signout_error',
@@ -195,7 +203,8 @@ class SQLAuthService {
    * Uses a lock to prevent concurrent refresh attempts (race condition fix)
    */
   async refreshAccessToken() {
-    if (!this.refreshToken) {
+    // In cookie mode, refresh token is in httpOnly cookie -- allow the request
+    if (!this.refreshToken && this.accessToken !== '__cookie__') {
       return { success: false, error: 'no_refresh_token' };
     }
 
@@ -234,20 +243,17 @@ class SQLAuthService {
           };
         }
         
-        // Update tokens
-        this.accessToken = data.access_token;
-        localStorage.setItem('accessToken', data.access_token);
-        localStorage.setItem('token', data.access_token);
+        // Update in-memory token reference (actual tokens in httpOnly cookies)
+        const payload = data.data || data;
+        this.accessToken = payload.access_token;
         
-        // Update refresh token if a new one was provided
-        if (data.refresh_token) {
-          this.refreshToken = data.refresh_token;
-          localStorage.setItem('refreshToken', data.refresh_token);
+        if (payload.refresh_token) {
+          this.refreshToken = payload.refresh_token;
         }
 
         return {
           success: true,
-          token: data.access_token
+          token: payload.access_token
         };
       } catch (error) {
         return {
@@ -274,13 +280,15 @@ class SQLAuthService {
     }
 
     try {
+      const headers = { 'Content-Type': 'application/json' };
+      if (this.accessToken && this.accessToken !== '__cookie__') {
+        headers['Authorization'] = `Bearer ${this.accessToken}`;
+      }
+
       const response = await fetch(`${this.baseUrl}/me`, {
         method: 'GET',
         credentials: 'include',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${this.accessToken}`
-        },
+        headers,
       });
 
       if (!response.ok) {
@@ -289,17 +297,19 @@ class SQLAuthService {
           const refreshResult = await this.refreshAccessToken();
           if (refreshResult.success) {
             // Retry with new token
+            const retryHeaders = { 'Content-Type': 'application/json' };
+            if (this.accessToken && this.accessToken !== '__cookie__') {
+              retryHeaders['Authorization'] = `Bearer ${this.accessToken}`;
+            }
             const retryResponse = await fetch(`${this.baseUrl}/me`, {
               method: 'GET',
               credentials: 'include',
-              headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${this.accessToken}`
-              },
+              headers: retryHeaders,
             });
             if (retryResponse.ok) {
-              const data = await retryResponse.json();
-              return this._createUserObject(data.user, this.accessToken);
+              const retryData = await retryResponse.json();
+              const retryPayload = retryData.data || retryData;
+              return this._createUserObject(retryPayload.user, this.accessToken);
             }
           }
         }
@@ -307,7 +317,8 @@ class SQLAuthService {
       }
 
       const data = await response.json();
-      return this._createUserObject(data.user, this.accessToken);
+      const payload = data.data || data;
+      return this._createUserObject(payload.user, this.accessToken);
     } catch (error) {
       return null;
     }
@@ -327,26 +338,23 @@ class SQLAuthService {
    * Get current ID token (access token)
    */
   async getIdToken() {
-    // Check if token might be expired (JWT tokens expire)
-    if (this.accessToken) {
-      try {
-        // Try to decode token and check expiry
-        const payload = JSON.parse(atob(this.accessToken.split('.')[1]));
-        const now = Math.floor(Date.now() / 1000);
-        
-        // If token expires in less than 60 seconds, refresh it
-        if (payload.exp && payload.exp - now < 60) {
-          const result = await this.refreshAccessToken();
-          if (result.success) {
-            return result.token;
-          }
-        }
-      } catch (e) {
-        // If we can't decode token, just return it
-      }
-      return this.accessToken;
+    // Cookie-mode: real token is in httpOnly cookie, not accessible to JS
+    if (!this.accessToken || this.accessToken === '__cookie__') {
+      return null;
     }
-    return null;
+    try {
+      const payload = JSON.parse(atob(this.accessToken.split('.')[1]));
+      const now = Math.floor(Date.now() / 1000);
+      if (payload.exp && payload.exp - now < 60) {
+        const result = await this.refreshAccessToken();
+        if (result.success) {
+          return result.token;
+        }
+      }
+    } catch (e) {
+      // If we can't decode token, just return it
+    }
+    return this.accessToken;
   }
 
   /**
@@ -400,8 +408,9 @@ class SQLAuthService {
       getIdToken: async (forceRefresh = false) => {
         if (forceRefresh) {
           const result = await this.refreshAccessToken();
-          return result.success ? result.token : this.accessToken;
+          if (result.success) return result.token;
         }
+        if (!this.accessToken || this.accessToken === '__cookie__') return null;
         return this.accessToken;
       }
     };
@@ -411,15 +420,15 @@ class SQLAuthService {
    * Verify token with backend (no-op for SQL auth since token is already from backend)
    */
   async verifyWithBackend(idToken) {
-    // For SQL auth, the token IS from the backend, so just verify it's valid
     try {
+      const headers = { 'Content-Type': 'application/json' };
+      if (idToken && idToken !== '__cookie__') {
+        headers['Authorization'] = `Bearer ${idToken}`;
+      }
       const response = await fetch(`${this.baseUrl}/me`, {
         method: 'GET',
         credentials: 'include',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${idToken}`
-        },
+        headers,
       });
 
       if (response.ok) {
