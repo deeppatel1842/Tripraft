@@ -2,20 +2,15 @@
 Unified Authentication Decorators
 Single source of truth for route-protection across the entire backend.
 
-Supports:
-  * SQL JWT tokens  (primary)
-  * Firebase ID tokens  (fallback for legacy clients)
-
 Every decorator sets a consistent set of Flask `g` attributes:
-    g.current_user   dict  {'id': int, 'email': str, 'name': str}
-    g.user_id         int   convenience alias
+    g.current_user   dict  {'id': str, 'email': str, 'name': str}
+    g.user_id         str   convenience alias (UUIDv7)
     g.user_email      str   convenience alias
-    g.token_payload   dict  raw JWT payload (None for Firebase tokens)
-
-Moved from shared_db/auth.py — now lives in infrastructure/auth/.
+    g.token_payload   dict  raw JWT payload
 """
 
 import logging
+import uuid as _uuid
 from functools import wraps
 from typing import Any, Dict, Optional
 
@@ -73,44 +68,20 @@ def _decode_jwt(token: str) -> Optional[Dict]:
         return None
 
 
-def _verify_firebase_token(token: str) -> Optional[Dict]:
-    """Verify a Firebase ID token and return normalised user info."""
-    try:
-        from firebase_admin import auth as firebase_auth
-        decoded = firebase_auth.verify_id_token(token)
-        return {
-            'id': decoded.get('uid'),
-            'email': decoded.get('email'),
-            'name': decoded.get('name', decoded.get('email', 'User')),
-        }
-    except Exception as e:
-        logger.debug("Not a Firebase token: %s", e)
-        return None
-
-
-def _ensure_user_exists(user_id: int, email: str, name: Optional[str] = None) -> bool:
-    """Make sure a User row exists in the shared database."""
+def _ensure_user_exists(user_id: str, email: str, name: Optional[str] = None) -> bool:
+    """Verify that a User row exists in the shared database. Returns False (401) if not found."""
     try:
         from app.domain.users.models import User
         from app.infrastructure.db.connection import get_db_session
 
+        uid = _uuid.UUID(user_id) if isinstance(user_id, str) else user_id
         session = get_db_session()
         try:
-            user = session.query(User).get(user_id)
+            user = session.query(User).get(uid)
             if user:
                 return True
-
-            logger.warning("User %s not in DB, creating...", user_id)
-            session.add(User(
-                id=user_id,
-                email=email,
-                display_name=name or email.split('@')[0],
-                password_hash='',
-                is_active=True,
-                email_verified=True,
-            ))
-            session.commit()
-            return True
+            logger.warning("User %s not found in DB -- rejecting request", user_id)
+            return False
         finally:
             session.close()
     except Exception as e:
@@ -124,13 +95,13 @@ def _ensure_user_exists(user_id: int, email: str, name: Optional[str] = None) ->
 
 def require_auth(f):
     """
-    Require a valid JWT (or Firebase) token.
+    Require a valid JWT token.
 
     On success the decorated route will have access to:
         g.current_user   {'id', 'email', 'name'}
-        g.user_id        int
+        g.user_id        str
         g.user_email     str
-        g.token_payload  dict | None
+        g.token_payload  dict
     """
     @wraps(f)
     def decorated(*args, **kwargs):
@@ -146,22 +117,15 @@ def require_auth(f):
 
         user_info = None
 
-        # 1. SQL JWT (primary path)
         payload = _decode_jwt(token)
         if payload and payload.get('type') == 'access':
-            uid = payload.get('user_id', int(payload.get('sub', 0)))
+            uid = payload.get('sub')
             user_info = {
                 'id': uid,
                 'email': payload.get('email'),
                 'name': payload.get('name', payload.get('display_name', '')),
             }
             g.token_payload = payload
-        else:
-            # 2. Firebase fallback
-            fb_user = _verify_firebase_token(token)
-            if fb_user:
-                user_info = fb_user
-                g.token_payload = None
 
         if not user_info:
             logger.warning("Token verification failed: %s...", token[:20])
@@ -183,7 +147,7 @@ def require_auth(f):
 
         # Set standardised g attributes
         g.current_user = user_info
-        g.user_id = user_info['id']
+        g.user_id = _uuid.UUID(user_info['id']) if isinstance(user_info['id'], str) else user_info['id']
         g.user_email = user_info.get('email', '')
 
         return f(*args, **kwargs)
@@ -224,7 +188,7 @@ def require_refresh_token(f):
 
         uid = payload.get('sub')
         g.current_user = {'id': uid}
-        g.user_id = uid
+        g.user_id = _uuid.UUID(uid) if isinstance(uid, str) else uid
         g.user_email = payload.get('email', '')
         g.token_payload = payload
         g.refresh_token = token
@@ -241,13 +205,13 @@ def optional_auth(f):
         if token:
             payload = _decode_jwt(token)
             if payload and payload.get('type') == 'access':
-                uid = payload.get('user_id', int(payload.get('sub', 0)))
+                uid = payload.get('sub')
                 g.current_user = {
                     'id': uid,
                     'email': payload.get('email'),
                     'name': payload.get('name', ''),
                 }
-                g.user_id = uid
+                g.user_id = _uuid.UUID(uid) if isinstance(uid, str) else uid
                 g.user_email = payload.get('email', '')
                 g.token_payload = payload
         return f(*args, **kwargs)
@@ -263,7 +227,81 @@ def get_current_user() -> Optional[Dict[str, Any]]:
     return getattr(g, 'current_user', None)
 
 
-def get_current_user_id() -> Optional[int]:
-    """Return the current authenticated user's numeric ID, or None."""
-    user = get_current_user()
-    return user.get('id') if user else None
+def get_current_user_id():
+    """Return the current authenticated user's UUID, or None."""
+    return getattr(g, 'user_id', None)
+
+
+# ---------------------------------------------------------------------------
+# Admin role enforcement
+# ---------------------------------------------------------------------------
+
+def require_admin(f):
+    """
+    Decorator that must be stacked AFTER require_auth.
+    Checks that the authenticated user's email is in ADMIN_EMAILS.
+    """
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        from app.core.config import Config
+        email = getattr(g, 'user_email', '')
+        if not email or email not in Config.ADMIN_EMAILS:
+            return jsonify({'success': False, 'error': 'Admin access required'}), 403
+        return f(*args, **kwargs)
+    return decorated
+
+
+# ---------------------------------------------------------------------------
+# Group-level RBAC
+# ---------------------------------------------------------------------------
+
+# Role hierarchy (higher index = more privilege)
+_ROLE_RANK = {'viewer': 0, 'member': 1, 'admin': 2, 'creator': 3}
+
+
+def require_group_role(min_role='member'):
+    """
+    Decorator that must be stacked AFTER require_auth.
+    Checks that the authenticated user has at least *min_role* in the group
+    identified by the ``group_id`` URL parameter.
+
+    Sets ``g.member_role`` for downstream use.
+    """
+    def decorator(f):
+        @wraps(f)
+        def decorated(*args, **kwargs):
+            from app.domain.group_planner.models import TripMember
+            from app.infrastructure.db.connection import get_db_session
+
+            group_id = kwargs.get('group_id')
+            if group_id is None:
+                return jsonify({'success': False, 'error': 'group_id required'}), 400
+
+            user_id = getattr(g, 'user_id', None)
+            if user_id is None:
+                return jsonify({'success': False, 'error': 'Authentication required'}), 401
+
+            with get_db_session() as session:
+                member = session.query(TripMember).filter(
+                    TripMember.group_id == group_id,
+                    TripMember.user_id == user_id,
+                    TripMember.is_active == True
+                ).first()
+
+                if not member:
+                    return jsonify({'success': False, 'error': 'Not a member of this group'}), 403
+
+                actual_rank = _ROLE_RANK.get(member.role, 0)
+                required_rank = _ROLE_RANK.get(min_role, 1)
+
+                if actual_rank < required_rank:
+                    return jsonify({
+                        'success': False,
+                        'error': f'{min_role} role or higher required'
+                    }), 403
+
+                g.member_role = member.role
+
+            return f(*args, **kwargs)
+        return decorated
+    return decorator
