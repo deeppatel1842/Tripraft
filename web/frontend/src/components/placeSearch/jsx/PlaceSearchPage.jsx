@@ -20,7 +20,7 @@ import SearchBar from './SearchBar';
 import PlaceGrid from './PlaceGrid';
 import GroupedPlaceGrid from './GroupedPlaceGrid';
 import PlaceDetailModal from './PlaceDetailModal';
-import { searchPlaces, getStats } from '../placeSearchService';
+import { searchPlaces, getStats } from '../../../services/placeSearchService';
 import { MOCK_PLACES } from '../mockData';
 import '../css/PlaceSearchPage.css';
 
@@ -206,9 +206,14 @@ const PlaceSearchPage = () => {
       results = results.filter(p => p.city_name === selectedCity.name);
     }
 
-    // Apply cost filter
+    // Apply cost filter (normalize: null/empty => paid, 'Free' => free)
     if (filters.costRange.length > 0) {
-      results = results.filter(p => filters.costRange.includes(p.cost));
+      results = results.filter(p => {
+        const isFree = (p.cost || '').toLowerCase() === 'free';
+        if (filters.costRange.includes('free') && isFree) return true;
+        if (filters.costRange.includes('paid') && !isFree) return true;
+        return false;
+      });
     }
 
     // Apply rating filter
@@ -298,6 +303,72 @@ const PlaceSearchPage = () => {
                     {sortedAndFilteredResults.length} places found
                     {searchQuery && ` for "${searchQuery}"`}
                   </span>
+                </div>
+
+                {/* Filter & Sort Bar */}
+                <div className="ps-filter-bar">
+                  {/* Sort */}
+                  <select
+                    className="ps-filter-select"
+                    value={`${sortBy}-${sortOrder}`}
+                    onChange={(e) => {
+                      const [s, o] = e.target.value.split('-');
+                      handleSortChange(s, o);
+                    }}
+                  >
+                    <option value="rank_score-desc">Best Match</option>
+                    <option value="rating-desc">Highest Rated</option>
+                    <option value="rating-asc">Lowest Rated</option>
+                    <option value="name-asc">Name A-Z</option>
+                    <option value="name-desc">Name Z-A</option>
+                  </select>
+
+                  {/* Cost filter */}
+                  <div className="ps-filter-group">
+                    {['Free', 'Paid'].map(cost => (
+                      <button
+                        key={cost}
+                        className={`ps-filter-chip ${filters.costRange.includes(cost.toLowerCase()) ? 'active' : ''}`}
+                        onClick={() => {
+                          const val = cost.toLowerCase();
+                          const newCost = filters.costRange.includes(val)
+                            ? filters.costRange.filter(c => c !== val)
+                            : [...filters.costRange, val];
+                          handleFilterChange({ ...filters, costRange: newCost });
+                        }}
+                      >
+                        {cost}
+                      </button>
+                    ))}
+                  </div>
+
+                  {/* Feature toggles */}
+                  <div className="ps-filter-group">
+                    {[
+                      { key: 'sunrise', icon: 'fa-sun', label: 'Sunrise' },
+                      { key: 'sunset', icon: 'fa-moon', label: 'Sunset' },
+                    ].map(f => (
+                      <button
+                        key={f.key}
+                        className={`ps-filter-chip ${filters.features.includes(f.key) ? 'active' : ''}`}
+                        onClick={() => {
+                          const newFeatures = filters.features.includes(f.key)
+                            ? filters.features.filter(x => x !== f.key)
+                            : [...filters.features, f.key];
+                          handleFilterChange({ ...filters, features: newFeatures });
+                        }}
+                      >
+                        <i className={`fas ${f.icon}`}></i> {f.label}
+                      </button>
+                    ))}
+                  </div>
+
+                  {/* Clear all */}
+                  {(filters.costRange.length > 0 || filters.features.length > 0) && (
+                    <button className="ps-filter-clear" onClick={handleClearFilters}>
+                      <i className="fas fa-times"></i> Clear
+                    </button>
+                  )}
                 </div>
               </div>
             )}
