@@ -6,21 +6,19 @@ Ticketmaster Discovery API: https://developer.ticketmaster.com/products-and-docs
 """
 
 import logging
-import os
 from datetime import datetime, timedelta
 from typing import Any, Dict, List, Optional, Tuple
 
+import pybreaker
 import requests
+from app.core.config import Config
+from app.core.resilience import ticketmaster_breaker
 
 logger = logging.getLogger(__name__)
 
 # Ticketmaster API Configuration
-# Get API key from environment variables
-TICKETMASTER_API_KEY = os.environ.get(
-    'TICKETMASTER_CONSUMER_API_KEY',
-    os.environ.get('TICKETMASTER_API_KEY', '')
-)
-TICKETMASTER_BASE_URL = 'https://app.ticketmaster.com/discovery/v2'
+TICKETMASTER_API_KEY = Config.TICKETMASTER_API_KEY
+TICKETMASTER_BASE_URL = Config.TICKETMASTER_BASE_URL
 
 
 class EventsService:
@@ -32,7 +30,7 @@ class EventsService:
         start_date: Optional[str] = None,
         end_date: Optional[str] = None,
         category: Optional[str] = None,
-        limit: int = 20
+        limit: int = Config.SEARCH_DEFAULT_LIMIT
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Get events for a destination from Ticketmaster API
@@ -95,23 +93,17 @@ class EventsService:
             
             # Add category/segment filter
             if category:
-                segment_mapping = {
-                    'music': 'KZFzniwnSyZfZ7v7nJ',
-                    'sports': 'KZFzniwnSyZfZ7v7nE',
-                    'arts': 'KZFzniwnSyZfZ7v7na',
-                    'family': 'KZFzniwnSyZfZ7v7n1',
-                    'film': 'KZFzniwnSyZfZ7v7nn',
-                    'miscellaneous': 'KZFzniwnSyZfZ7v7n1'
-                }
+                segment_mapping = Config.TICKETMASTER_SEGMENT_IDS
                 if category.lower() in segment_mapping:
                     params['segmentId'] = segment_mapping[category.lower()]
             
             # Make API request
             logger.info(f"Fetching events for: {destination} (city: {city}, country: {country_code or 'US'})")
-            response = requests.get(
+            response = ticketmaster_breaker.call(
+                requests.get,
                 f'{TICKETMASTER_BASE_URL}/events.json',
                 params=params,
-                timeout=10
+                timeout=Config.TICKETMASTER_TIMEOUT
             )
             
             if response.status_code == 401:
@@ -153,6 +145,13 @@ class EventsService:
                 'total': 0,
                 'message': 'Request timed out. Try again.'
             }
+        except pybreaker.CircuitBreakerError:
+            logger.warning("Ticketmaster circuit breaker is open")
+            return True, {
+                'events': [],
+                'total': 0,
+                'message': 'Events service temporarily unavailable. Try again later.'
+            }
         except requests.exceptions.RequestException as e:
             logger.error(f"Ticketmaster API error: {str(e)}")
             return True, {
@@ -169,29 +168,8 @@ class EventsService:
         """Extract city name and country code from destination string"""
         destination_lower = destination.lower()
         
-        # Define country mappings
-        country_mappings = {
-            'japan': 'JP',
-            'jp': 'JP', 
-            'france': 'FR',
-            'fr': 'FR',
-            'uk': 'GB',
-            'united kingdom': 'GB',
-            'gb': 'GB',
-            'usa': 'US',
-            'united states': 'US',
-            'us': 'US',
-            'canada': 'CA',
-            'ca': 'CA',
-            'australia': 'AU',
-            'au': 'AU',
-            'germany': 'DE',
-            'de': 'DE',
-            'italy': 'IT',
-            'it': 'IT',
-            'spain': 'ES',
-            'es': 'ES'
-        }
+        # Country mappings from centralized config
+        country_mappings = Config.COUNTRY_MAPPINGS
         
         # Extract city (first part before comma)
         city = destination.split(',')[0].strip()
