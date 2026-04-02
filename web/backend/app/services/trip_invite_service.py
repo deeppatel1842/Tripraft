@@ -26,9 +26,9 @@ class InvitationService:
     
     @staticmethod
     def create_invitation(
-        group_id: int,
+        group_id: str,
         invited_email: str,
-        inviter_id: int,
+        inviter_id: str,
         inviter_email: str = None,
         expires_days: int = DEFAULT_EXPIRY_DAYS
     ) -> Tuple[bool, Dict[str, Any]]:
@@ -143,7 +143,7 @@ class InvitationService:
             return False, {'error': 'Failed to create invitation'}
     
     @staticmethod
-    def get_invitation(invitation_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_invitation(invitation_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Get invitation details (public - for viewing invitation link)
         
@@ -168,8 +168,8 @@ class InvitationService:
     
     @staticmethod
     def accept_invitation(
-        invitation_id: int,
-        user_id: int,
+        invitation_id: str,
+        user_id: str,
         user_email: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
@@ -194,13 +194,13 @@ class InvitationService:
                     return False, {'error': f'Invitation is {invitation.status}'}
                 
                 # Check expiration
-                if invitation.expires_at and invitation.expires_at < datetime.utcnow():
+                if invitation.expires_at and invitation.expires_at < datetime.now(timezone.utc):
                     invitation.status = 'expired'
                     session.commit()
                     return False, {'error': 'Invitation has expired'}
                 
                 # Verify email matches (case-insensitive)
-                if invitation.invitee_email.lower() != user_email.lower():
+                if not invitation.invitee_email or invitation.invitee_email.lower() != user_email.lower():
                     return False, {'error': 'This invitation is for a different email address'}
                 
                 # Check if already a member
@@ -255,6 +255,28 @@ class InvitationService:
                 
                 logger.info(f"Invitation accepted: {invitation_id} by user {user_id}")
                 
+                # Notify group members about new member
+                try:
+                    from app.services.notification_service import \
+                        notification_service
+                    notification_service.notify_group_members(
+                        group_id=invitation.group_id,
+                        exclude_user_id=user_id,
+                        type='member_joined',
+                        title='A new member joined the group',
+                        data={'user_id': user_id}
+                    )
+                except Exception:
+                    pass
+                
+                # Real-time broadcast
+                try:
+                    from app.infrastructure.realtime.events import \
+                        emit_to_group
+                    emit_to_group(invitation.group_id, 'member:joined', {'user_id': user_id})
+                except Exception:
+                    pass
+                
                 return True, {
                     'group_id': str(invitation.group_id),
                     'invitation_id': str(invitation_id)
@@ -266,8 +288,8 @@ class InvitationService:
     
     @staticmethod
     def decline_invitation(
-        invitation_id: int,
-        user_id: int
+        invitation_id: str,
+        user_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Decline a group invitation
@@ -305,7 +327,7 @@ class InvitationService:
     @staticmethod
     def get_user_invitations(
         user_email: str,
-        user_id: int
+        user_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Get all invitations for a user (both received and sent)
@@ -358,8 +380,8 @@ class InvitationService:
     
     @staticmethod
     def resend_invitation(
-        invitation_id: int,
-        user_id: int
+        invitation_id: str,
+        user_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Resend an invitation (update timestamps)
@@ -415,8 +437,8 @@ class InvitationService:
     
     @staticmethod
     def cancel_invitation(
-        invitation_id: int,
-        user_id: int
+        invitation_id: str,
+        user_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Cancel a pending invitation
@@ -463,7 +485,7 @@ class InvitationService:
             return False, {'error': 'Failed to cancel invitation'}
 
     @staticmethod
-    def get_group_pending_invitations(group_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_group_pending_invitations(group_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Get all pending invitations for a specific group
         
@@ -497,4 +519,7 @@ class InvitationService:
 
 
 # Singleton instance
+invitation_service = InvitationService()
+invitation_service = InvitationService()
+invitation_service = InvitationService()
 invitation_service = InvitationService()
