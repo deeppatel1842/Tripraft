@@ -5,8 +5,12 @@ Flask API routes for Ticketmaster events integration
 
 import logging
 
+from app.api.utils.responses import error_response, success_response
+from app.core.config import Config
+from app.core.rate_limiter import limit_api
 from app.infrastructure.auth.decorators import require_auth
-from flask import Blueprint, g, jsonify, request
+from app.infrastructure.cache.redis import cache_response
+from flask import Blueprint, g, request
 
 logger = logging.getLogger(__name__)
 
@@ -14,7 +18,7 @@ logger = logging.getLogger(__name__)
 events_bp = Blueprint(
     'gp_events',  # Unique name for Group Planner Events
     __name__,
-    url_prefix='/api/v2/group-planner'
+    url_prefix='/api/v1/group-planner'
 )
 
 
@@ -23,8 +27,10 @@ events_bp = Blueprint(
 # =========================================================================
 
 @events_bp.route('/events', methods=['GET'])
-@events_bp.route('/groups/<int:group_id>/events', methods=['GET'])
+@events_bp.route('/groups/<group_id>/events', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['events'])
 @require_auth
+@cache_response(key_prefix='gp_events:list', ttl=Config.CACHE_TTLS['events'])
 def get_events(group_id=None):
     """
     Get events for a destination from Ticketmaster API
@@ -77,16 +83,13 @@ def get_events(group_id=None):
             except Exception:
                 pass
         if not destination:
-            return jsonify({
-                'success': False,
-                'error': 'destination parameter is required'
-            }), 400
+            return error_response('destination parameter is required')
         
         # Get optional parameters
         start_date = request.args.get('start_date')
         end_date = request.args.get('end_date')
         category = request.args.get('category')
-        limit = request.args.get('limit', 20, type=int)
+        limit = request.args.get('limit', Config.SEARCH_DEFAULT_LIMIT, type=int)
         
         # Fetch events
         success, result = events_service.get_destination_events(
@@ -98,29 +101,24 @@ def get_events(group_id=None):
         )
         
         if success:
-            return jsonify({
-                'success': True,
-                'data': result.get('events', []),
+            return success_response(data={
+                'events': result.get('events', []),
                 'total': result.get('total', 0),
                 'destination': result.get('destination', destination),
                 'message': result.get('message')
-            }), 200
+            })
         else:
-            return jsonify({
-                'success': False,
-                'error': result.get('error', 'Failed to fetch events')
-            }), 400
+            return error_response(result.get('error', 'Failed to fetch events'))
             
     except Exception as e:
         logger.error(f"Get events error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to fetch events'
-        }), 500
+        return error_response('Failed to fetch events', 500)
 
 
 @events_bp.route('/events/categories', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='gp_events:categories', ttl=Config.CACHE_TTLS['categories'])
 def get_event_categories():
     """
     Get available event categories
@@ -146,7 +144,4 @@ def get_event_categories():
         {'id': 'film', 'name': 'Film', 'icon': 'film'}
     ]
     
-    return jsonify({
-        'success': True,
-        'data': categories
-    }), 200
+    return success_response(data=categories)
