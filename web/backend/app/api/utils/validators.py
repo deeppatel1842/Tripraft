@@ -3,8 +3,38 @@ Input validation utilities
 Provides validation and sanitization for API inputs.
 """
 import re
-from typing import Tuple, Any
-from flask import request
+from functools import wraps
+from typing import Any, Tuple
+
+from flask import g, request
+from marshmallow import ValidationError
+
+
+def validate_schema(schema_class):
+    """Decorator that validates request JSON body against a Marshmallow schema.
+
+    On success, stores the validated dict in ``g.validated_data`` and calls
+    the wrapped view.  On failure, returns a 422 response with field errors.
+    """
+    def decorator(f):
+        @wraps(f)
+        def wrapper(*args, **kwargs):
+            from app.api.utils.responses import validation_error_response
+
+            data = request.get_json(silent=True)
+            if data is None:
+                return validation_error_response(
+                    {'_body': ['Request body is required']},
+                    'Invalid request body',
+                )
+            schema = schema_class()
+            try:
+                g.validated_data = schema.load(data)
+            except ValidationError as err:
+                return validation_error_response(err.messages)
+            return f(*args, **kwargs)
+        return wrapper
+    return decorator
 
 
 def validate_pagination(max_limit: int = 100) -> Tuple[int, int]:
@@ -149,7 +179,32 @@ def validate_filters(allowed_filters: dict) -> dict:
             try:
                 filters[param] = validator(value)
             except (ValueError, TypeError):
-                # Skip invalid filters
                 continue
     
     return filters
+
+
+def validate_page_pagination(
+    default_per_page: int = 20,
+    max_per_page: int = 100,
+) -> Tuple[int, int, int, int]:
+    """
+    Validate page-based pagination parameters.
+    
+    Accepts: page, per_page query params.
+    Returns: (page, per_page, limit, offset) for SQL queries.
+    """
+    try:
+        page = int(request.args.get('page', 1))
+    except (ValueError, TypeError):
+        page = 1
+    try:
+        per_page = int(request.args.get('per_page', default_per_page))
+    except (ValueError, TypeError):
+        per_page = default_per_page
+
+    page = max(1, page)
+    per_page = max(1, min(per_page, max_per_page))
+    offset = (page - 1) * per_page
+
+    return page, per_page, per_page, offset
