@@ -10,9 +10,10 @@ from datetime import datetime, timezone
 from decimal import ROUND_HALF_UP, Decimal
 from typing import Any, Dict, List, Optional, Tuple
 
+from app.domain.expenses.models import (Expense, ExpenseHistory, ExpenseSplit,
+                                        Group, GroupBalance, GroupMember, User)
 from app.infrastructure.db.connection import get_db_session
-from app.domain.expenses.models import (Expense, ExpenseHistory, ExpenseSplit, Group,
-                               GroupBalance, GroupMember, User)
+from sqlalchemy.orm import joinedload, selectinload
 
 logger = logging.getLogger(__name__)
 
@@ -22,7 +23,7 @@ class ExpenseServiceSQL:
     
     @staticmethod
     def create_expense(
-        user_id: int,
+        user_id: str,
         group_id: Optional[int],
         description: str,
         amount: float,
@@ -187,7 +188,7 @@ class ExpenseServiceSQL:
     @staticmethod
     def _create_personal_expense(
         session,
-        user_id: int,
+        user_id: str,
         description: str,
         amount: float,
         paid_by: int,
@@ -258,8 +259,8 @@ class ExpenseServiceSQL:
     @staticmethod
     def _calculate_splits(
         session,
-        group_id: int,
-        expense_id: int,
+        group_id: str,
+        expense_id: str,
         amount: float,
         paid_by: int,
         split_type: str,
@@ -379,7 +380,7 @@ class ExpenseServiceSQL:
     @staticmethod
     def _update_balances(
         session,
-        group_id: int,
+        group_id: str,
         splits: List[ExpenseSplit],
         paid_by: int,
         total_amount: float
@@ -414,11 +415,18 @@ class ExpenseServiceSQL:
     
     @staticmethod
     def _get_expense_dict(session, expense: Expense) -> Dict[str, Any]:
-        """Get expense as dictionary with splits"""
+        """
+        Get expense as dictionary with splits.
+        
+        Expects expense.payer and expense.splits[].user to be eager-loaded.
+        Falls back to individual queries if not loaded.
+        """
         data = expense.to_dict()
         
-        # Add payer info
-        payer = session.query(User).get(expense.paid_by)
+        # Payer info (prefer eager-loaded relationship)
+        payer = expense.payer
+        if not payer:
+            payer = session.query(User).get(expense.paid_by)
         if payer:
             data['paid_by_user'] = {
                 'id': payer.id,
@@ -426,30 +434,29 @@ class ExpenseServiceSQL:
                 'email': payer.email
             }
         
-        # Add splits with user info
-        splits = session.query(ExpenseSplit, User).join(
-            User, ExpenseSplit.user_id == User.id
-        ).filter(ExpenseSplit.expense_id == expense.id).all()
-        
-        data['splits'] = [
-            {
-                'user_id': split.user_id,
-                'amount': split.amount,
-                'percentage': split.percentage,
-                'shares': split.shares,
-                'user': {
-                    'id': user.id,
-                    'display_name': user.display_name,
-                    'email': user.email
+        # Splits with user info (prefer eager-loaded relationship)
+        if expense.splits:
+            data['splits'] = [
+                {
+                    'user_id': split.user_id,
+                    'amount': split.amount,
+                    'percentage': split.percentage,
+                    'shares': split.shares,
+                    'user': {
+                        'id': split.user.id,
+                        'display_name': split.user.display_name,
+                        'email': split.user.email
+                    } if split.user else None
                 }
-            }
-            for split, user in splits
-        ]
+                for split in expense.splits
+            ]
+        else:
+            data['splits'] = []
         
         return data
     
     @staticmethod
-    def get_expense(expense_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_expense(expense_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Get expense details
         
@@ -462,7 +469,10 @@ class ExpenseServiceSQL:
         """
         try:
             with get_db_session() as session:
-                expense = session.query(Expense).get(expense_id)
+                expense = session.query(Expense).options(
+                    joinedload(Expense.payer),
+                    selectinload(Expense.splits).joinedload(ExpenseSplit.user),
+                ).get(expense_id)
                 
                 if not expense or expense.is_deleted:
                     return False, {'error': 'Expense not found'}
@@ -491,8 +501,8 @@ class ExpenseServiceSQL:
     
     @staticmethod
     def get_group_expenses(
-        group_id: int,
-        user_id: int,
+        group_id: str,
+        user_id: str,
         limit: int = 50,
         offset: int = 0,
         include_deleted: bool = False
@@ -522,8 +532,11 @@ class ExpenseServiceSQL:
                 if not member:
                     return False, {'error': 'Not a member of this group'}
                 
-                # Build query
-                query = session.query(Expense).filter(
+                # Build query with eager loading
+                query = session.query(Expense).options(
+                    joinedload(Expense.payer),
+                    selectinload(Expense.splits).joinedload(ExpenseSplit.user),
+                ).filter(
                     Expense.group_id == group_id
                 )
                 
@@ -559,8 +572,8 @@ class ExpenseServiceSQL:
     
     @staticmethod
     def update_expense(
-        expense_id: int,
-        user_id: int,
+        expense_id: str,
+        user_id: str,
         description: Optional[str] = None,
         amount: Optional[float] = None,
         paid_by: Optional[int] = None,
@@ -862,7 +875,7 @@ class ExpenseServiceSQL:
     @staticmethod
     def _reverse_balances(
         session,
-        group_id: int,
+        group_id: str,
         splits: List[ExpenseSplit],
         paid_by: int,
         total_amount: float
@@ -883,7 +896,7 @@ class ExpenseServiceSQL:
                 balance.updated_at = datetime.now(timezone.utc)
     
     @staticmethod
-    def delete_expense(expense_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def delete_expense(expense_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Delete an expense (soft delete) - personal or group
         
@@ -974,7 +987,7 @@ class ExpenseServiceSQL:
     
     @staticmethod
     def get_user_expenses(
-        user_id: int,
+        user_id: str,
         limit: int = 50,
         offset: int = 0,
         personal_only: bool = False
@@ -1049,8 +1062,8 @@ class ExpenseServiceSQL:
     
     @staticmethod
     def get_expense_history(
-        expense_id: int,
-        user_id: int
+        expense_id: str,
+        user_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Get expense edit history
