@@ -4,9 +4,12 @@
  * Provides secure access to user data across the app
  */
 
-import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
+import React, { createContext, useContext, useState, useEffect, useRef, useCallback } from 'react';
+import { useQueryClient } from '@tanstack/react-query';
 import authService from '../services/sqlAuthService';
 import expenseApi from '../services/expenseApi';
+
+const INACTIVITY_TIMEOUT_MS = 15 * 60 * 1000; // 15 minutes
 
 const AuthContext = createContext(null);
 
@@ -20,10 +23,13 @@ export const useAuth = () => {
 };
 
 export const AuthProvider = ({ children }) => {
+  const queryClient = useQueryClient();
   const [currentUser, setCurrentUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const userCreationAttempted = useRef(new Set());
+  const inactivityTimerRef = useRef(null);
+  const [inactivityMessage, setInactivityMessage] = useState(null);
 
   useEffect(() => {
     let unsubscribe;
@@ -34,9 +40,6 @@ export const AuthProvider = ({ children }) => {
         if (user) {
           // User is signed in
           const token = await user.getIdToken();
-          
-          // Set token for expense API
-          expenseApi.setAuthToken(token);
           
           // Create user object with profile data
           const userData = {
@@ -50,17 +53,9 @@ export const AuthProvider = ({ children }) => {
             _sqlUser: user
           };
           
-          // CRITICAL: Save token to localStorage for API requests
-          localStorage.setItem('token', token);
-          
-          // User is already created in SQL database during signup/login
-          // No need for separate user creation call
-          
           setCurrentUser(userData);
         } else {
           // User is signed out
-          localStorage.removeItem('token');
-          expenseApi.setAuthToken(null);
           setCurrentUser(null);
         }
       } catch (err) {
@@ -73,6 +68,48 @@ export const AuthProvider = ({ children }) => {
     return () => unsubscribe();
   }, []);
 
+  // Inactivity auto-logout: sign out after 15 minutes of no activity
+  useEffect(() => {
+    if (!currentUser) {
+      clearTimeout(inactivityTimerRef.current);
+      return;
+    }
+
+    const resetTimer = () => {
+      clearTimeout(inactivityTimerRef.current);
+      inactivityTimerRef.current = setTimeout(async () => {
+        await authService.signOut();
+        queryClient.clear();
+        try {
+          if (window.indexedDB) {
+            window.indexedDB.deleteDatabase('react-query-offline-cache');
+          }
+        } catch (_) {}
+        setCurrentUser(null);
+        setInactivityMessage('For your security, you were logged out due to 15 minutes of inactivity.');
+      }, INACTIVITY_TIMEOUT_MS);
+    };
+
+    // Throttle activity resets to once per 30s to avoid excessive timer clears
+    let lastReset = Date.now();
+    const onActivity = () => {
+      const now = Date.now();
+      if (now - lastReset > 30000) {
+        lastReset = now;
+        resetTimer();
+      }
+    };
+
+    const events = ['mousemove', 'keydown', 'click', 'touchstart', 'scroll'];
+    events.forEach((e) => window.addEventListener(e, onActivity, { passive: true }));
+    resetTimer();
+
+    return () => {
+      clearTimeout(inactivityTimerRef.current);
+      events.forEach((e) => window.removeEventListener(e, onActivity));
+    };
+  }, [currentUser, queryClient]);
+
   // Sign in with email and password
   const signIn = async (email, password) => {
     try {
@@ -83,6 +120,21 @@ export const AuthProvider = ({ children }) => {
       
       if (!result.success) {
         throw new Error(result.message || 'Failed to sign in');
+      }
+
+      // Set currentUser directly so it's available before navigate() fires.
+      // The async onAuthStateChanged listener would set it too late.
+      if (result.user) {
+        const token = await result.user.getIdToken();
+        setCurrentUser({
+          uid: result.user.uid,
+          email: result.user.email,
+          displayName: result.user.displayName || '',
+          photoURL: result.user.photoURL || '',
+          emailVerified: result.user.emailVerified,
+          token,
+          _sqlUser: result.user,
+        });
       }
       
       return { success: true, user: result.user };
@@ -118,22 +170,19 @@ export const AuthProvider = ({ children }) => {
   const signOut = async () => {
     try {
       setError(null);
-      
-      // Clear all caches to prevent data leaks between users
-      try {
-        const groupPlannerApi = (await import('../services/groupPlannerApi')).default;
-        groupPlannerApi.clearAllCache();
-      } catch (cacheError) {
-        // Silently fail cache clear
-      }
-      
       await authService.signOut();
+    } finally {
+      // Clear ALL cached server state (in-memory React Query cache)
+      queryClient.clear();
+
+      // Clear IndexedDB persisted cache to prevent data leaks between users
+      try {
+        if (window.indexedDB) {
+          window.indexedDB.deleteDatabase('react-query-offline-cache');
+        }
+      } catch (_) { /* IndexedDB may be unavailable */ }
+
       setCurrentUser(null);
-      expenseApi.setAuthToken(null);
-      return { success: true };
-    } catch (err) {
-      setError(err.message);
-      return { success: false, error: err.message };
     }
   };
 
@@ -190,7 +239,9 @@ export const AuthProvider = ({ children }) => {
     signOut,
     updateProfile,
     getUserInitials,
-    isAuthenticated: !!currentUser
+    isAuthenticated: !!currentUser,
+    inactivityMessage,
+    clearInactivityMessage: () => setInactivityMessage(null),
   };
 
   return (
