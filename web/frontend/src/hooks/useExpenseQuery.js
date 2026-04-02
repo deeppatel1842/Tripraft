@@ -2,6 +2,19 @@ import { useQuery, useMutation, useQueryClient, keepPreviousData, useInfiniteQue
 import { useCallback, useEffect, useState, useRef } from 'react';
 import expenseApi from '../services/expenseApi';
 import authService from '../services/sqlAuthService';
+import GlobalConfig from '../config/globalConfig';
+
+/**
+ * Unwrap the standard backend response envelope.
+ * Backend returns { success, data, meta } — hooks expect the inner `data` object.
+ * Safe for both envelope and pre-unwrapped (manual cache set) formats.
+ */
+function unwrapEnvelope(response) {
+  if (response && typeof response === 'object' && 'success' in response && 'data' in response) {
+    return response.data;
+  }
+  return response;
+}
 
 // Query keys for cache management
 export const queryKeys = {
@@ -49,8 +62,8 @@ export function useBackgroundSync(groupId, options = {}) {
 
   const {
     enabled = true,
-    baseInterval = 60000,
-    maxInterval = 300000,
+    baseInterval = GlobalConfig.BACKGROUND_SYNC_BASE_INTERVAL,
+    maxInterval = GlobalConfig.BACKGROUND_SYNC_MAX_INTERVAL,
   } = options;
 
   const currentInterval = Math.min(
@@ -124,7 +137,7 @@ export function useGroupsQuery() {
 
   return useQuery({
     queryKey: queryKeys.groups,
-    queryFn: () => expenseApi.getUserGroups(1, 20),
+    queryFn: async () => unwrapEnvelope(await expenseApi.getUserGroups(1, 20)),
     staleTime: 10 * 60 * 1000,
     gcTime: 30 * 60 * 1000,
     refetchOnWindowFocus: false,
@@ -146,7 +159,7 @@ export function useGroupQuery(groupId, options = {}) {
 
   return useQuery({
     queryKey: queryKeys.group(groupId),
-    queryFn: () => expenseApi.getGroupFull(groupId, false),
+    queryFn: async () => unwrapEnvelope(await expenseApi.getGroupFull(groupId, false)),
     enabled: !!groupId && (options.enabled !== false),
     staleTime: 5 * 60 * 1000,
     gcTime: 5 * 60 * 1000,
@@ -170,7 +183,7 @@ export function usePrefetchGroups(groups, prefetchCount = 3) {
     if (cached) return;
     queryClient.prefetchQuery({
       queryKey: queryKeys.group(groupId),
-      queryFn: () => expenseApi.getGroupFull(groupId, false),
+      queryFn: async () => unwrapEnvelope(await expenseApi.getGroupFull(groupId, false)),
       staleTime: 5 * 60 * 1000,
     });
   }, [queryClient]);
@@ -181,7 +194,7 @@ export function usePrefetchGroups(groups, prefetchCount = 3) {
 export function useFetchGroups() {
   return useQuery({
     queryKey: queryKeys.groups,
-    queryFn: () => expenseApi.getUserGroups(),
+    queryFn: async () => unwrapEnvelope(await expenseApi.getUserGroups()),
     staleTime: 2 * 60 * 1000,
     gcTime: 10 * 60 * 1000,
   });
@@ -190,7 +203,7 @@ export function useFetchGroups() {
 export function useExpensesQuery(groupId) {
   return useQuery({
     queryKey: queryKeys.expenses(groupId),
-    queryFn: () => expenseApi.getGroupExpenses(groupId),
+    queryFn: async () => unwrapEnvelope(await expenseApi.getGroupExpenses(groupId)),
     enabled: !!groupId,
     staleTime: 1 * 60 * 1000,
   });
@@ -200,10 +213,10 @@ export function useInfiniteExpensesQuery(groupId, pageSize = 10) {
   return useInfiniteQuery({
     queryKey: queryKeys.expensesInfinite(groupId),
     queryFn: async ({ pageParam = 0 }) => {
-      const result = await expenseApi.getGroupExpenses(groupId, {
+      const result = unwrapEnvelope(await expenseApi.getGroupExpenses(groupId, {
         limit: pageSize,
         offset: pageParam,
-      });
+      }));
       return {
         expenses: result?.expenses || [],
         has_more: result?.has_more || (result?.expenses?.length === pageSize),
@@ -227,11 +240,11 @@ export function useInfiniteExpensesQuery(groupId, pageSize = 10) {
 export function useSettlementsQuery(groupId) {
   return useQuery({
     queryKey: queryKeys.settlements(groupId),
-    queryFn: () => expenseApi.getGroupSettlements(groupId),
+    queryFn: async () => unwrapEnvelope(await expenseApi.getGroupSettlements(groupId)),
     enabled: !!groupId,
-    staleTime: 30 * 1000,
+    staleTime: 60 * 1000,
     refetchOnWindowFocus: true,
-    refetchInterval: 30 * 1000,
+    refetchInterval: 60 * 1000,
   });
 }
 
@@ -338,12 +351,12 @@ export function useMegaBootstrap(activeGroupId, options = {}) {
 
       return result;
     },
-    staleTime: 30 * 1000,
+    staleTime: 60 * 1000,
     gcTime: 5 * 60 * 1000,
     refetchOnWindowFocus: true,
     refetchOnMount: false,
     refetchOnReconnect: true,
-    refetchInterval: 30 * 1000,
+    refetchInterval: 120 * 1000,
     placeholderData: keepPreviousData,
     enabled: options.enabled !== false,
   });
@@ -359,7 +372,7 @@ export function useInvitationsQuery(options = {}) {
 
   return useQuery({
     queryKey: queryKeys.invitations,
-    queryFn: () => expenseApi.getPendingInvitations('pending', 1, 20),
+    queryFn: async () => unwrapEnvelope(await expenseApi.getPendingInvitations('pending', 1, 20)),
     staleTime: 5 * 60 * 1000,
     gcTime: 30 * 60 * 1000,
     refetchOnWindowFocus: false,
@@ -406,8 +419,8 @@ export function useExpenseEditHistory(expenseId) {
     queryKey: queryKeys.expenseEditHistory(expenseId),
     queryFn: async () => {
       const response = await expenseApi.getExpenseHistory(expenseId);
-      if (!response.success) throw new Error(response.error || 'Failed to load history');
-      return response;
+      if (response && response.success === false) throw new Error(response.error || 'Failed to load history');
+      return unwrapEnvelope(response);
     },
     enabled: !!expenseId,
     staleTime: 0,
@@ -502,9 +515,9 @@ export function useCreateExpenseMutation() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: (expenseData) => {
-      if (expenseApi.extremeMode) return expenseApi.createExpenseExtreme(expenseData);
-      return expenseApi.createExpense(expenseData);
+    mutationFn: async (expenseData) => {
+      if (expenseApi.extremeMode) return unwrapEnvelope(await expenseApi.createExpenseExtreme(expenseData));
+      return unwrapEnvelope(await expenseApi.createExpense(expenseData));
     },
 
     onMutate: async (expenseData) => {
@@ -611,9 +624,9 @@ export function useUpdateExpenseMutation() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: ({ expenseId, data }) => {
-      if (expenseApi.extremeMode) return expenseApi.updateExpenseExtreme(expenseId, data);
-      return expenseApi.updateExpense(expenseId, data);
+    mutationFn: async ({ expenseId, data }) => {
+      if (expenseApi.extremeMode) return unwrapEnvelope(await expenseApi.updateExpenseExtreme(expenseId, data));
+      return unwrapEnvelope(await expenseApi.updateExpense(expenseId, data));
     },
 
     onMutate: async ({ expenseId, data }) => {
@@ -720,9 +733,9 @@ export function useDeleteExpenseMutation() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: ({ expenseId, groupId }) => {
-      if (expenseApi.extremeMode) return expenseApi.deleteExpenseExtreme(expenseId, groupId);
-      return expenseApi.deleteExpense(expenseId);
+    mutationFn: async ({ expenseId, groupId }) => {
+      if (expenseApi.extremeMode) return unwrapEnvelope(await expenseApi.deleteExpenseExtreme(expenseId, groupId));
+      return unwrapEnvelope(await expenseApi.deleteExpense(expenseId));
     },
 
     onMutate: async ({ expenseId, groupId }) => {
@@ -790,9 +803,9 @@ export function useCreateSettlementMutation() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: (settlementData) => {
-      if (expenseApi.extremeMode) return expenseApi.createSettlementExtreme(settlementData);
-      return expenseApi.createSettlement(settlementData);
+    mutationFn: async (settlementData) => {
+      if (expenseApi.extremeMode) return unwrapEnvelope(await expenseApi.createSettlementExtreme(settlementData));
+      return unwrapEnvelope(await expenseApi.createSettlement(settlementData));
     },
 
     onMutate: async (settlement) => {
@@ -890,9 +903,9 @@ export function useCreateGroupMutation() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: (groupData) => {
-      if (expenseApi.extremeMode) return expenseApi.createGroupExtreme(groupData);
-      return expenseApi.createGroup(groupData);
+    mutationFn: async (groupData) => {
+      if (expenseApi.extremeMode) return unwrapEnvelope(await expenseApi.createGroupExtreme(groupData));
+      return unwrapEnvelope(await expenseApi.createGroup(groupData));
     },
     onSuccess: async (result) => {
       const newGroupId = result?.group?.group_id || result?.group_id;
@@ -946,7 +959,7 @@ export function useDeleteGroupMutation() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: (groupId) => expenseApi.deleteGroup(groupId),
+    mutationFn: async (groupId) => unwrapEnvelope(await expenseApi.deleteGroup(groupId)),
     onSuccess: async (data, groupId) => {
       queryClient.removeQueries({ queryKey: queryKeys.group(groupId) });
       queryClient.removeQueries({ queryKey: queryKeys.megaBootstrap(groupId) });
@@ -966,9 +979,9 @@ export function useAcceptInvitationMutation() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: (invitationId) => {
-      if (expenseApi.extremeMode) return expenseApi.acceptInvitationExtreme(invitationId);
-      return expenseApi.acceptInvitation(invitationId);
+    mutationFn: async (invitationId) => {
+      if (expenseApi.extremeMode) return unwrapEnvelope(await expenseApi.acceptInvitationExtreme(invitationId));
+      return unwrapEnvelope(await expenseApi.acceptInvitation(invitationId));
     },
 
     onMutate: async (invitationId) => {
@@ -1007,7 +1020,7 @@ export function useDeclineInvitationMutation() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: (invitationId) => expenseApi.declineInvitation(invitationId),
+    mutationFn: async (invitationId) => unwrapEnvelope(await expenseApi.declineInvitation(invitationId)),
 
     onMutate: async (invitationId) => {
       await queryClient.cancelQueries({ queryKey: queryKeys.invitations });
@@ -1038,11 +1051,11 @@ export function useSendInvitationMutation() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: (invitationData) => {
+    mutationFn: async (invitationData) => {
       if (expenseApi.extremeMode) {
-        return expenseApi.addMemberExtreme(invitationData.group_id, { email: invitationData.invited_email });
+        return unwrapEnvelope(await expenseApi.addMemberExtreme(invitationData.group_id, { email: invitationData.invited_email }));
       }
-      return expenseApi.sendInvitation(invitationData);
+      return unwrapEnvelope(await expenseApi.sendInvitation(invitationData));
     },
 
     onMutate: async (invitationData) => {
@@ -1129,14 +1142,9 @@ export function useAuth() {
   useEffect(() => {
     const unsubscribe = authService.onAuthStateChanged(async (user) => {
       if (user) {
-        const token = await user.getIdToken();
-        expenseApi.setAuthToken(token);
-        expenseApi.setCurrentUser(user);
         setCurrentUser(user);
         setIsAuthenticated(true);
       } else {
-        expenseApi.setAuthToken(null);
-        expenseApi.setCurrentUser(null);
         setCurrentUser(null);
         setIsAuthenticated(false);
       }
@@ -1320,7 +1328,7 @@ export function usePersonalExpenses() {
 
   const { data, isLoading, error, refetch } = useQuery({
     queryKey: personalKey,
-    queryFn: () => expenseApi.getUserExpenses({ personal_only: true }),
+    queryFn: async () => unwrapEnvelope(await expenseApi.getUserExpenses({ personal_only: true })),
     staleTime: 30 * 1000,
     gcTime: 5 * 60 * 1000,
   });
