@@ -1,37 +1,49 @@
 """
-Locations API routes (Unified)
+Locations API routes (Unified) — DEPRECATED
 Consolidated endpoints for countries, states, cities, and places.
-Replaces fragmented location endpoints with a clean, hierarchical structure.
+
+DEPRECATION NOTICE: These endpoints are deprecated in favor of /api/v1/place-search/*.
+They will be removed after September 2026.
 """
 import logging
+from functools import wraps
 
 from app.api.utils import error_response, not_found_response, success_response
+from app.core.config import Config
+from app.core.rate_limiter import limit_api
 from app.domain.places.location_models import (CitiesModel, CountriesModel,
                                                PlacesModel, StatesModel)
 from app.infrastructure.cache.redis import cache_response as cached
-from flask import Blueprint, request
+from flask import Blueprint, after_this_request, request
 
 logger = logging.getLogger(__name__)
 
 locations_bp = Blueprint('locations', __name__)
 
 
+def _add_deprecation_headers(response):
+    """Add standard deprecation headers per RFC 8594."""
+    response.headers['Deprecation'] = 'true'
+    response.headers['Sunset'] = Config.API_SUNSET_DATE
+    response.headers['Link'] = '</api/v1/place-search/search>; rel="successor-version"'
+    return response
+
+
 # ============================================================================
-# UNIFIED SEARCH ENDPOINT
+# UNIFIED SEARCH ENDPOINT (DEPRECATED — use /api/v1/place-search/search)
 # ============================================================================
 
 @locations_bp.route('/search', methods=['GET'])
-@cached('locations:search', ttl=300)
+@limit_api(Config.RATE_LIMITS['search'])
+@cached('locations:search', ttl=Config.CACHE_TTLS['search'])
 def unified_search():
     """
-    Unified search across countries, states, cities and places
+    DEPRECATED — Use /api/v1/place-search/search instead.
+
+    Unified search across countries, states, cities and places.
     Query: ?q=<search_term>&limit=20&page=1
-    
-    Returns:
-        - For country match: match_type='country' with sections containing states and their top places
-        - For state match: match_type='state' with places array
-        - For city match: match_type='city' with places array
     """
+    after_this_request(_add_deprecation_headers)
     try:
         query = request.args.get('q', '').strip()
         if not query:
@@ -325,7 +337,8 @@ def unified_search():
 # ============================================================================
 
 @locations_bp.route('/countries', methods=['GET'])
-@cached('locations:countries', ttl=3600)
+@limit_api(Config.RATE_LIMITS['read_light'])
+@cached('locations:countries', ttl=Config.CACHE_TTLS['countries'])
 def get_countries():
     """
     Get all countries
@@ -349,7 +362,8 @@ def get_countries():
 
 
 @locations_bp.route('/countries/<country_id>', methods=['GET'])
-@cached('locations:country', ttl=3600)
+@limit_api(Config.RATE_LIMITS['read_light'])
+@cached('locations:country', ttl=Config.CACHE_TTLS['countries'])
 def get_country(country_id: str):
     """
     Get a specific country by ID
@@ -381,6 +395,8 @@ def get_country(country_id: str):
 
 
 @locations_bp.route('/countries/search', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['search'])
+@cached('locations:country_search', ttl=Config.CACHE_TTLS['city_search'])
 def search_countries():
     """
     Search countries by name
@@ -424,7 +440,8 @@ def search_countries():
 # ============================================================================
 
 @locations_bp.route('/countries/<country_id>/states', methods=['GET'])
-@cached('locations:states', ttl=3600)
+@limit_api(Config.RATE_LIMITS['read_light'])
+@cached('locations:states', ttl=Config.CACHE_TTLS['countries'])
 def get_states_by_country(country_id: str):
     """
     Get all states/provinces in a country
@@ -458,6 +475,8 @@ def get_states_by_country(country_id: str):
 
 
 @locations_bp.route('/states/<state_id>', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
+@cached('locations:state', ttl=Config.CACHE_TTLS['countries'])
 def get_state(state_id: str):
     """
     Get a specific state by ID
@@ -493,6 +512,8 @@ def get_state(state_id: str):
 # ============================================================================
 
 @locations_bp.route('/countries/<country_id>/cities', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
+@cached('locations:country_cities', ttl=Config.CACHE_TTLS['location_detail'])
 def get_cities_by_country(country_id: str):
     """
     Get all cities in a country
@@ -525,6 +546,8 @@ def get_cities_by_country(country_id: str):
 
 
 @locations_bp.route('/states/<state_id>/cities', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
+@cached('locations:state_cities', ttl=Config.CACHE_TTLS['location_detail'])
 def get_cities_by_state(state_id: str):
     """
     Get all cities in a state
@@ -557,7 +580,8 @@ def get_cities_by_state(state_id: str):
 
 
 @locations_bp.route('/cities/<city_id>', methods=['GET'])
-@cached('locations:city', ttl=1800)
+@limit_api(Config.RATE_LIMITS['read_light'])
+@cached('locations:city', ttl=Config.CACHE_TTLS['location_detail'])
 def get_city(city_id: str):
     """
     Get a specific city by ID
@@ -589,16 +613,11 @@ def get_city(city_id: str):
 
 
 @locations_bp.route('/cities/search', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['search'])
+@cached('locations:city_search', ttl=Config.CACHE_TTLS['city_search'])
 def search_cities():
-    """
-    Search cities by name
-    Query: ?q=<search_term>&country=<country_id>&state=<state_id>
-    
-    Returns:
-        200: List of matching cities
-        400: Missing search query
-        500: Internal server error
-    """
+    """DEPRECATED — Use /api/v1/place-search/search instead."""
+    after_this_request(_add_deprecation_headers)
     try:
         query = request.args.get('q', '').strip()
         if not query:
@@ -641,7 +660,8 @@ def search_cities():
 # ============================================================================
 
 @locations_bp.route('/cities/<city_id>/places', methods=['GET'])
-@cached('locations:city_places', ttl=300)
+@limit_api(Config.RATE_LIMITS['read_light'])
+@cached('locations:city_places', ttl=Config.CACHE_TTLS['search'])
 def get_places_by_city(city_id: str):
     """
     Get all places in a city
@@ -689,6 +709,8 @@ def get_places_by_city(city_id: str):
 
 
 @locations_bp.route('/places/<place_id>', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
+@cached('locations:place', ttl=Config.CACHE_TTLS['place_detail'])
 def get_place(place_id: str):
     """
     Get a specific place by ID
@@ -720,16 +742,11 @@ def get_place(place_id: str):
 
 
 @locations_bp.route('/places/search', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['search'])
+@cached('locations:place_search', ttl=Config.CACHE_TTLS['search'])
 def search_places():
-    """
-    Search places by name
-    Query: ?q=<search_term>&city=<city_id>&country=<country_id>
-    
-    Returns:
-        200: List of matching places
-        400: Missing search query
-        500: Internal server error
-    """
+    """DEPRECATED — Use /api/v1/place-search/search instead."""
+    after_this_request(_add_deprecation_headers)
     try:
         query = request.args.get('q', '').strip()
         if not query:
@@ -771,19 +788,11 @@ def search_places():
 # ============================================================================
 
 @locations_bp.route('/autocomplete', methods=['GET'])
-@cached('locations:autocomplete', ttl=300)
+@limit_api(Config.RATE_LIMITS['search'])
+@cached('locations:autocomplete', ttl=Config.CACHE_TTLS['search'])
 def autocomplete_destinations():
-    """
-    Autocomplete search across countries, states, and cities
-    Returns a unified list of destinations with coordinates for map centering
-    
-    Query: ?q=<search_term>&limit=10
-    
-    Returns:
-        200: List of matching destinations with type, name, coordinates
-        400: Missing search query
-        500: Internal server error
-    """
+    """DEPRECATED — Use /api/v1/place-search/search instead."""
+    after_this_request(_add_deprecation_headers)
     try:
         query = request.args.get('q', '').strip()
         if not query:
@@ -970,7 +979,8 @@ def autocomplete_destinations():
 
 
 @locations_bp.route('/suggested-places', methods=['GET'])
-@cached('locations:suggested', ttl=300)
+@limit_api(Config.RATE_LIMITS['read_light'])
+@cached('locations:suggested', ttl=Config.CACHE_TTLS['search'])
 def get_suggested_places():
     """
     Get suggested places for a destination (country, state, or city)
