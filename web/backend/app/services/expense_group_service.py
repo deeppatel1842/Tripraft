@@ -9,15 +9,17 @@ import string
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional, Tuple
 
+from app.core.config import Config
 from app.domain.expenses.models import Group, GroupBalance, GroupMember, User
 from app.infrastructure.db.connection import get_db_session
+from sqlalchemy.orm import joinedload, selectinload
 
 logger = logging.getLogger(__name__)
 
 
-def generate_group_code(length: int = 8) -> str:
+def generate_group_code(length: int = Config.GROUP_CODE_LENGTH) -> str:
     """Generate a unique group invitation code"""
-    chars = string.ascii_uppercase + string.digits
+    chars = Config.GROUP_CODE_CHARSET
     return ''.join(random.choices(chars, k=length))
 
 
@@ -26,10 +28,10 @@ class GroupServiceSQL:
     
     @staticmethod
     def create_group(
-        user_id: int,
+        user_id: str,
         name: str,
         description: Optional[str] = None,
-        currency: str = 'INR',
+        currency: str = Config.DEFAULT_CURRENCY,
         category: Optional[str] = None
     ) -> Tuple[bool, Dict[str, Any]]:
         """
@@ -132,7 +134,7 @@ class GroupServiceSQL:
             return False, {'error': 'Failed to create group'}
     
     @staticmethod
-    def get_group(group_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_group(group_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Get group details
         
@@ -155,39 +157,29 @@ class GroupServiceSQL:
                 if not member:
                     return False, {'error': 'Not a member of this group'}
                 
-                group = session.query(Group).get(group_id)
+                group = session.query(Group).options(
+                    selectinload(Group.members).joinedload(GroupMember.user),
+                    selectinload(Group.balances),
+                ).get(group_id)
                 if not group or not group.is_active:
                     return False, {'error': 'Group not found'}
                 
                 group_data = group.to_dict()
                 
-                # Add members list
-                members = session.query(GroupMember, User).join(
-                    User, GroupMember.user_id == User.id
-                ).filter(
-                    GroupMember.group_id == group_id,
-                    GroupMember.is_active == True
-                ).all()
-                
                 group_data['members'] = [
                     {
-                        'id': user.id,
-                        'email': user.email,
-                        'display_name': user.display_name,
-                        'photo_url': user.photo_url,
+                        'id': gm.user.id,
+                        'email': gm.user.email,
+                        'display_name': gm.user.display_name,
+                        'photo_url': gm.user.photo_url,
                         'role': gm.role,
                         'joined_at': gm.joined_at.isoformat() if gm.joined_at else None
                     }
-                    for gm, user in members
+                    for gm in group.members if gm.is_active and gm.user
                 ]
                 
-                # Add balances
-                balances = session.query(GroupBalance).filter(
-                    GroupBalance.group_id == group_id
-                ).all()
-                
                 group_data['balances'] = {
-                    str(b.user_id): b.balance for b in balances
+                    str(b.user_id): b.balance for b in group.balances
                 }
                 
                 return True, {'group': group_data}
@@ -197,7 +189,7 @@ class GroupServiceSQL:
             return False, {'error': 'Failed to get group'}
     
     @staticmethod
-    def get_user_groups(user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_user_groups(user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Get all groups for a user
         
@@ -211,47 +203,62 @@ class GroupServiceSQL:
             with get_db_session() as session:
                 memberships = session.query(GroupMember, Group).join(
                     Group, GroupMember.group_id == Group.id
+                ).options(
+                    joinedload(GroupMember.user),
                 ).filter(
                     GroupMember.user_id == user_id,
                     GroupMember.is_active == True,
                     Group.is_active == True
                 ).order_by(Group.updated_at.desc()).all()
                 
+                # Collect all group IDs to batch-load members and balances
+                group_ids = [g.id for _, g in memberships]
+
+                # Batch load all members with their users for these groups
+                all_members = (
+                    session.query(GroupMember)
+                    .options(joinedload(GroupMember.user))
+                    .filter(
+                        GroupMember.group_id.in_(group_ids),
+                        GroupMember.is_active == True,
+                    )
+                    .all()
+                ) if group_ids else []
+
+                members_by_group = {}
+                for gm in all_members:
+                    members_by_group.setdefault(gm.group_id, []).append(gm)
+
+                # Batch load all balances for user across these groups
+                user_balances = {
+                    b.group_id: b.balance
+                    for b in session.query(GroupBalance).filter(
+                        GroupBalance.group_id.in_(group_ids),
+                        GroupBalance.user_id == user_id,
+                    ).all()
+                } if group_ids else {}
+
                 groups = []
                 for membership, group in memberships:
                     group_data = group.to_dict()
                     
-                    # Get all members for this group
-                    members_query = session.query(GroupMember, User).join(
-                        User, GroupMember.user_id == User.id
-                    ).filter(
-                        GroupMember.group_id == group.id,
-                        GroupMember.is_active == True
-                    ).all()
-                    
+                    group_members = members_by_group.get(group.id, [])
                     group_data['members'] = [
                         {
-                            'id': u.id,
-                            'user_id': u.id,
-                            'email': u.email,
-                            'display_name': u.display_name,
-                            'photo_url': u.photo_url,
+                            'id': gm.user.id,
+                            'user_id': gm.user.id,
+                            'email': gm.user.email,
+                            'display_name': gm.user.display_name,
+                            'photo_url': gm.user.photo_url,
                             'role': gm.role,
                             'joined_at': gm.joined_at.isoformat() if gm.joined_at else None
                         }
-                        for gm, u in members_query
+                        for gm in group_members if gm.user
                     ]
                     
-                    group_data['member_count'] = len(members_query)
+                    group_data['member_count'] = len(group_members)
                     group_data['my_role'] = membership.role
-                    
-                    # Get user's balance in this group
-                    balance = session.query(GroupBalance).filter(
-                        GroupBalance.group_id == group.id,
-                        GroupBalance.user_id == user_id
-                    ).first()
-                    
-                    group_data['my_balance'] = balance.balance if balance else 0.0
+                    group_data['my_balance'] = user_balances.get(group.id, 0.0)
                     
                     groups.append(group_data)
                 
@@ -263,8 +270,8 @@ class GroupServiceSQL:
     
     @staticmethod
     def update_group(
-        group_id: int,
-        user_id: int,
+        group_id: str,
+        user_id: str,
         name: Optional[str] = None,
         description: Optional[str] = None,
         currency: Optional[str] = None,
@@ -320,7 +327,7 @@ class GroupServiceSQL:
             return False, {'error': 'Failed to update group'}
     
     @staticmethod
-    def delete_group(group_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def delete_group(group_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Delete/archive a group (owner only)
         
@@ -347,7 +354,7 @@ class GroupServiceSQL:
                 ).all()
                 
                 for balance in balances:
-                    if abs(balance.balance) > 0.01:
+                    if abs(balance.balance) > Config.BALANCE_THRESHOLD:
                         return False, {'error': 'Cannot delete group with unsettled balances. Please settle all debts first.'}
                 
                 # Soft delete
@@ -364,8 +371,8 @@ class GroupServiceSQL:
     
     @staticmethod
     def add_member(
-        group_id: int,
-        user_id: int,
+        group_id: str,
+        user_id: str,
         member_email: str,
         role: str = 'member'
     ) -> Tuple[bool, Dict[str, Any]]:
@@ -460,9 +467,9 @@ class GroupServiceSQL:
     
     @staticmethod
     def remove_member(
-        group_id: int,
-        user_id: int,
-        member_id: int
+        group_id: str,
+        user_id: str,
+        member_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Remove a member from the group (owner only, or member leaving themselves)
@@ -509,7 +516,7 @@ class GroupServiceSQL:
                     GroupBalance.user_id == member_id
                 ).first()
                 
-                if balance and abs(balance.balance) > 0.01:
+                if balance and abs(balance.balance) > Config.BALANCE_THRESHOLD:
                     return False, {'error': 'Cannot remove member with unsettled balance'}
                 
                 # Remove membership
@@ -532,7 +539,7 @@ class GroupServiceSQL:
             return False, {'error': 'Failed to remove member'}
     
     @staticmethod
-    def join_by_code(user_id: int, group_code: str) -> Tuple[bool, Dict[str, Any]]:
+    def join_by_code(user_id: str, group_code: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Join a group using invitation code
         
@@ -599,7 +606,7 @@ class GroupServiceSQL:
             return False, {'error': 'Failed to join group'}
     
     @staticmethod
-    def get_group_balances(group_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_group_balances(group_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Get all member balances for a group
         
@@ -648,7 +655,7 @@ class GroupServiceSQL:
             return False, {'error': 'Failed to get balances'}
     
     @staticmethod
-    def get_group_members(group_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_group_members(group_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Get all members of a group
         
