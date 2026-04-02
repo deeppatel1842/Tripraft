@@ -1,12 +1,19 @@
-﻿"""
+"""
 Invitation Routes for Group Planner
 Flask API routes for invitation operations
 """
 
 import logging
 
+from app.api.utils.responses import (created_response, error_response,
+                                     not_found_response, success_response)
+from app.api.utils.validators import validate_schema
+from app.core.config import Config
+from app.core.rate_limiter import limit_api
 from app.infrastructure.auth.decorators import require_auth
-from flask import Blueprint, g, jsonify, request
+from app.infrastructure.cache.redis import cache_response, invalidate_cache
+from app.schemas.invitations import CreateGPInvitationSchema
+from flask import Blueprint, g, request
 
 logger = logging.getLogger(__name__)
 
@@ -14,7 +21,7 @@ logger = logging.getLogger(__name__)
 invitations_bp = Blueprint(
     'gp_invitations',  # Unique name to avoid conflict with expense_engine
     __name__,
-    url_prefix='/api/v2/group-planner'
+    url_prefix='/api/v1/group-planner'
 )
 
 
@@ -23,7 +30,9 @@ invitations_bp = Blueprint(
 # =========================================================================
 
 @invitations_bp.route('/invitations', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['invitation'])
 @require_auth
+@validate_schema(CreateGPInvitationSchema)
 def create_invitation():
     """
     Create a group invitation
@@ -39,24 +48,12 @@ def create_invitation():
     try:
         from app.services.trip_invite_service import invitation_service
         
-        data = request.get_json()
-        group_id = data.get('group_id')
-        email = data.get('email')
-        
-        if not group_id:
-            return jsonify({
-                'success': False,
-                'error': 'group_id is required'
-            }), 400
-        
-        if not email:
-            return jsonify({
-                'success': False,
-                'error': 'email is required'
-            }), 400
+        data = g.validated_data
+        group_id = data['group_id']
+        email = data['email']
         
         success, result = invitation_service.create_invitation(
-            group_id=int(group_id),
+            group_id=group_id,
             invited_email=email,
             inviter_id=g.user_id,
             inviter_email=g.user_email
@@ -64,6 +61,7 @@ def create_invitation():
         
         if success:
             logger.info(f"Invitation created for {email}")
+            invalidate_cache('gp_invitations:*')
             
             # Send email notification (optional)
             try:
@@ -78,26 +76,23 @@ def create_invitation():
             except Exception as email_error:
                 logger.warning(f"Failed to send invitation email: {email_error}")
             
-            return jsonify({
-                'success': True,
-                'data': result.get('invitation', result)
-            }), 201
+            return created_response(data=result.get('invitation', result))
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Create invitation error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to create invitation'
-        }), 500
+        return error_response('Failed to create invitation', 500)
 
 
-@invitations_bp.route('/invitations/<int:invitation_id>', methods=['GET'])
+@invitations_bp.route('/invitations/<invitation_id>', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
+@require_auth
+@cache_response(key_prefix='gp_invitations:detail', ttl=Config.CACHE_TTLS['invitations'], vary_on_user=True)
 def get_invitation(invitation_id):
     """
-    Get invitation details (public - no auth required)
-    Used when user clicks invitation link
+    Get invitation details.
+    Requires authentication to prevent enumeration of invitation data.
     
     Request:
         GET /api/v2/group-planner/invitations/<invitation_id>
@@ -109,8 +104,7 @@ def get_invitation(invitation_id):
         
         if success:
             invitation = result.get('invitation', {})
-            return jsonify({
-                'success': True,
+            return success_response(data={
                 'invitation_id': str(invitation_id),
                 'group_id': invitation.get('group_id'),
                 'group_name': invitation.get('group_name'),
@@ -119,23 +113,22 @@ def get_invitation(invitation_id):
                 'status': invitation.get('status'),
                 'expires_at': invitation.get('expires_at'),
                 'created_at': invitation.get('created_at')
-            }), 200
+            })
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 404
+            return not_found_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Get invitation error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to get invitation'
-        }), 500
+        return error_response('Failed to get invitation', 500)
 
 
-@invitations_bp.route('/invitations/<int:invitation_id>/accept', methods=['POST'])
+@invitations_bp.route('/invitations/<invitation_id>/accept', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['invitation'])
 @require_auth
 def accept_invitation(invitation_id):
     """
-    Accept a group invitation
+    Accept a group invitation.
+    Only the invitation recipient (matching email) can accept.
     
     Request:
         POST /api/v2/group-planner/invitations/<invitation_id>/accept
@@ -143,7 +136,8 @@ def accept_invitation(invitation_id):
     """
     try:
         from app.services.trip_invite_service import invitation_service
-        
+
+        # The service validates that g.user_email matches invitation.invitee_email
         success, result = invitation_service.accept_invitation(
             invitation_id=invitation_id,
             user_id=g.user_id,
@@ -152,24 +146,20 @@ def accept_invitation(invitation_id):
         
         if success:
             logger.info(f"Invitation {invitation_id} accepted by user {g.user_id}")
-            return jsonify({
-                'success': True,
-                'message': 'Invitation accepted',
-                'data': result
-            }), 200
+            invalidate_cache('gp_invitations:*')
+            invalidate_cache('gp_groups:*')
+            return success_response(data=result, message='Invitation accepted')
         else:
             status = 404 if 'not found' in result.get('error', '').lower() else 400
-            return jsonify({'success': False, 'error': result.get('error')}), status
+            return error_response(result.get('error'), status)
             
     except Exception as e:
         logger.error(f"Accept invitation error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to accept invitation'
-        }), 500
+        return error_response('Failed to accept invitation', 500)
 
 
-@invitations_bp.route('/invitations/<int:invitation_id>/decline', methods=['POST'])
+@invitations_bp.route('/invitations/<invitation_id>/decline', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['invitation'])
 @require_auth
 def decline_invitation(invitation_id):
     """
@@ -188,20 +178,20 @@ def decline_invitation(invitation_id):
         )
         
         if success:
-            return jsonify({'success': True, 'message': result.get('message')}), 200
+            invalidate_cache('gp_invitations:*')
+            return success_response(message=result.get('message'))
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Decline invitation error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to decline invitation'
-        }), 500
+        return error_response('Failed to decline invitation', 500)
 
 
 @invitations_bp.route('/user/invitations', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='gp_invitations:user', ttl=Config.CACHE_TTLS['invitations'], vary_on_user=True)
 def get_user_invitations():
     """
     Get all invitations for current user
@@ -219,20 +209,19 @@ def get_user_invitations():
         )
         
         if success:
-            return jsonify({'success': True, 'data': result.get('invitations', [])}), 200
+            return success_response(data=result.get('invitations', []))
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Get user invitations error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to get invitations'
-        }), 500
+        return error_response('Failed to get invitations', 500)
 
 
-@invitations_bp.route('/groups/<int:group_id>/invitations', methods=['GET'])
+@invitations_bp.route('/groups/<group_id>/invitations', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='gp_invitations:group', ttl=Config.CACHE_TTLS['invitations'], vary_on_user=True)
 def get_group_invitations(group_id):
     """
     Get all pending invitations for a specific group
@@ -249,25 +238,23 @@ def get_group_invitations(group_id):
         # Check if user is group member
         success, group_data = group_service.get_group(group_id, g.user_id)
         if not success:
-            return jsonify({'success': False, 'error': 'Group not found or access denied'}), 404
+            return not_found_response('Group not found or access denied')
         
         # Get pending invitations for this group
         success, result = invitation_service.get_group_pending_invitations(group_id)
         
         if success:
-            return jsonify({'success': True, 'data': result.get('invitations', [])}), 200
+            return success_response(data=result.get('invitations', []))
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Get group invitations error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to get group invitations'
-        }), 500
+        return error_response('Failed to get group invitations', 500)
 
 
-@invitations_bp.route('/invitations/<int:invitation_id>/resend', methods=['POST'])
+@invitations_bp.route('/invitations/<invitation_id>/resend', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['invitation'])
 @require_auth
 def resend_invitation(invitation_id):
     """
@@ -299,22 +286,17 @@ def resend_invitation(invitation_id):
             except Exception as email_error:
                 logger.warning(f"Failed to send invitation email: {email_error}")
             
-            return jsonify({
-                'success': True,
-                'data': result.get('invitation', result)
-            }), 200
+            return success_response(data=result.get('invitation', result))
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Resend invitation error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to resend invitation'
-        }), 500
+        return error_response('Failed to resend invitation', 500)
 
 
-@invitations_bp.route('/invitations/<int:invitation_id>', methods=['DELETE'])
+@invitations_bp.route('/invitations/<invitation_id>', methods=['DELETE'])
+@limit_api(Config.RATE_LIMITS['delete'])
 @require_auth
 def cancel_invitation(invitation_id):
     """
@@ -333,13 +315,11 @@ def cancel_invitation(invitation_id):
         )
         
         if success:
-            return jsonify({'success': True, 'message': result.get('message')}), 200
+            invalidate_cache('gp_invitations:*')
+            return success_response(message=result.get('message'))
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Cancel invitation error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to cancel invitation'
-        }), 500
+        return error_response('Failed to cancel invitation', 500)
