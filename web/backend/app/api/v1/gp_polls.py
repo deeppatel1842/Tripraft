@@ -1,4 +1,4 @@
-﻿"""
+"""
 Poll Routes for Group Planner
 Flask API routes for poll operations
 """
@@ -6,10 +6,16 @@ Flask API routes for poll operations
 import logging
 import traceback
 
-from flask import Blueprint, g, jsonify, request
-from app.infrastructure.auth.decorators import require_auth
+from app.api.utils.responses import (created_response, error_response,
+                                     success_response,
+                                     validation_error_response)
+from app.core.config import Config
+from app.core.rate_limiter import limit_api
+from app.infrastructure.auth.decorators import require_auth, require_group_role
+from app.infrastructure.cache.redis import cache_response, invalidate_cache
 from app.schemas.common import (CreatePollSchema, VotePollSchema,
-                               validate_request)
+                                validate_request)
+from flask import Blueprint, g, request
 
 logger = logging.getLogger(__name__)
 
@@ -17,7 +23,7 @@ logger = logging.getLogger(__name__)
 polls_bp = Blueprint(
     'gp_polls',  # Unique name for Group Planner
     __name__,
-    url_prefix='/api/v2/group-planner'
+    url_prefix='/api/v1/group-planner'
 )
 
 
@@ -25,8 +31,10 @@ polls_bp = Blueprint(
 # POLL ENDPOINTS
 # =========================================================================
 
-@polls_bp.route('/groups/<int:group_id>/polls', methods=['POST'])
+@polls_bp.route('/groups/<group_id>/polls', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['create'])
 @require_auth
+@require_group_role('member')
 def create_poll(group_id):
     """
     Create a poll in a group
@@ -45,27 +53,17 @@ def create_poll(group_id):
         data = request.get_json()
         
         if not data:
-            return jsonify({
-                'success': False,
-                'error': 'Request body required'
-            }), 400
+            return error_response('Request body required')
         
         validated, errors = validate_request(CreatePollSchema, data)
         if errors:
-            return jsonify({
-                'success': False,
-                'error': 'Validation failed',
-                'details': errors
-            }), 400
+            return validation_error_response(errors)
         
         # Accept either 'name' or 'question' for the poll title
         poll_name = validated.get('name') or validated.get('question')
         
         if not poll_name:
-            return jsonify({
-                'success': False,
-                'error': 'Poll name or question is required'
-            }), 400
+            return error_response('Poll name or question is required')
         
         success, result = poll_service.create_poll(
             group_id=group_id,
@@ -78,50 +76,62 @@ def create_poll(group_id):
         
         if success:
             logger.info(f"Poll created in group {group_id}")
-            return jsonify({'success': True, 'data': result.get('poll')}), 201
+            invalidate_cache('gp_polls:*')
+            invalidate_cache('gp_groups:*')
+            return created_response(data=result.get('poll'))
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Create poll error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to create poll'
-        }), 500
+        return error_response('Failed to create poll', 500)
 
 
-@polls_bp.route('/groups/<int:group_id>/polls', methods=['GET'])
+@polls_bp.route('/groups/<group_id>/polls', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='gp_polls:list', ttl=Config.CACHE_TTLS['group_list'], vary_on_user=True)
 def get_polls(group_id):
     """
-    Get all polls for a group
+    Get polls for a group (paginated)
     
     Request:
-        GET /api/v2/group-planner/groups/<group_id>/polls
+        GET /api/v2/group-planner/groups/<group_id>/polls?page=1&per_page=20
         Headers: Authorization: Bearer <token>
     """
     try:
         from app.services.poll_service import poll_service
         
+        page = request.args.get('page', 1, type=int)
+        per_page = min(request.args.get('per_page', Config.GP_DEFAULT_LIMIT, type=int), 100)
+        active_param = request.args.get('active')
+        active = None
+        if active_param is not None:
+            active = active_param.lower() in ('true', '1', 'yes')
+        
         success, result = poll_service.get_polls(
             group_id=group_id,
-            user_id=g.user_id
+            user_id=g.user_id,
+            page=page,
+            per_page=per_page,
+            active=active
         )
         
         if success:
-            return jsonify({'success': True, 'data': result.get('polls', [])}), 200
+            return success_response(
+                data=result.get('polls', []),
+                pagination=result.get('pagination')
+            )
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Get polls error: {str(e)}\n{traceback.format_exc()}")
-        return jsonify({
-            'success': True,
-            'data': []
-        }), 200
+        return success_response(data=[])
 
 
-@polls_bp.route('/groups/<int:group_id>/polls/<int:poll_id>/vote', methods=['POST'])
+@polls_bp.route('/groups/<group_id>/polls/<poll_id>/vote', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['update'])
 @require_auth
 def vote_poll(group_id, poll_id):
     """
@@ -140,20 +150,13 @@ def vote_poll(group_id, poll_id):
         data = request.get_json() or {}
         validated, errors = validate_request(VotePollSchema, data)
         if errors:
-            return jsonify({
-                'success': False,
-                'error': 'Validation failed',
-                'details': errors
-            }), 400
+            return validation_error_response(errors)
         
         option = validated.get('option')
         option_index = validated.get('option_index')
         
         if option is None and option_index is None:
-            return jsonify({
-                'success': False,
-                'error': 'Option or option_index is required'
-            }), 400
+            return error_response('Option or option_index is required')
         
         success, result = poll_service.vote_poll(
             group_id=group_id,
@@ -164,20 +167,20 @@ def vote_poll(group_id, poll_id):
         )
         
         if success:
-            return jsonify({'success': True, 'data': result}), 200
+            invalidate_cache('gp_polls:*')
+            return success_response(data=result)
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Vote poll error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to vote on poll'
-        }), 500
+        return error_response('Failed to vote on poll', 500)
 
 
-@polls_bp.route('/groups/<int:group_id>/polls/<int:poll_id>', methods=['DELETE'])
+@polls_bp.route('/groups/<group_id>/polls/<poll_id>', methods=['DELETE'])
+@limit_api(Config.RATE_LIMITS['delete'])
 @require_auth
+@require_group_role('admin')
 def delete_poll(group_id, poll_id):
     """
     Delete a poll (creator only)
@@ -196,14 +199,13 @@ def delete_poll(group_id, poll_id):
         )
         
         if success:
-            return jsonify({'success': True, 'message': result.get('message')}), 200
+            invalidate_cache('gp_polls:*')
+            invalidate_cache('gp_groups:*')
+            return success_response(message=result.get('message'))
         else:
             status = 403 if 'creator' in result.get('error', '').lower() else 400
-            return jsonify({'success': False, 'error': result.get('error')}), status
+            return error_response(result.get('error'), status)
             
     except Exception as e:
         logger.error(f"Delete poll error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to delete poll'
-        }), 500
+        return error_response('Failed to delete poll', 500)
