@@ -1,32 +1,38 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { AuthProvider } from './context/AuthContext';
-import { GroupPlannerProvider } from './context/GroupPlannerContext';
 import ProtectedRoute from './components/auth/jsx/ProtectedRoute';
-import HomePage from './components/pages/jsx/HomePage';
-import TripPlanner from './components/pages/jsx/TripPlanner';
-import ExpensePage from './components/pages/jsx/ExpensePage';
-import Analytics from './components/pages/jsx/Analytics';
-import ExpenseAnalytics from './components/pages/jsx/ExpenseAnalytics';
-import About from './components/pages/jsx/About';
-import Contact from './components/pages/jsx/Contact';
-import Pricing from './components/pages/jsx/Pricing';
-import Login from './components/auth/jsx/Login';
-import Signup from './components/auth/jsx/Signup';
-import AuthPage from './components/auth/jsx/AuthPage';
-import SmartInvitationHandler from './components/pages/jsx/SmartInvitationHandler';
-import { GroupPlannerDashboard, GroupPlanner } from './components/groupPlanner';
-import InactivityTracker from './components/auth/jsx/InactivityTracker';
-import { PlaceSearchPage } from './components/placeSearch';
 
+// Lazy-loaded route components
+const HomePage = lazy(() => import('./components/pages/jsx/HomePage'));
+const TripPlanner = lazy(() => import('./components/pages/jsx/TripPlanner'));
+const ExpensePage = lazy(() => import('./components/pages/jsx/ExpensePage'));
+const Analytics = lazy(() => import('./components/pages/jsx/Analytics'));
+const ExpenseAnalytics = lazy(() => import('./components/pages/jsx/ExpenseAnalytics'));
+const About = lazy(() => import('./components/pages/jsx/About'));
+const Contact = lazy(() => import('./components/pages/jsx/Contact'));
+const Pricing = lazy(() => import('./components/pages/jsx/Pricing'));
+const Login = lazy(() => import('./components/auth/jsx/Login'));
+const Signup = lazy(() => import('./components/auth/jsx/Signup'));
+const AuthPage = lazy(() => import('./components/auth/jsx/AuthPage'));
+const SmartInvitationHandler = lazy(() => import('./components/pages/jsx/SmartInvitationHandler'));
+const PlaceSearchPage = lazy(() => import('./components/placeSearch/jsx/PlaceSearchPage'));
+
+// These are lightweight wrappers, loaded eagerly
+import InactivityTracker from './components/auth/jsx/InactivityTracker';
+import FeatureErrorBoundary from './components/common/jsx/FeatureErrorBoundary';
+import PageSkeleton from './components/common/jsx/PageSkeleton';
+
+// Lazy import for group planner (single reference for both routes)
+const GroupPlannerPage = lazy(() => import('./components/groupPlanner/jsx/GroupPlannerPage'));
 
 export default function App() {
   return (
     <AuthProvider>
-      <GroupPlannerProvider>
         {/* Inactivity tracker for security - logs out after 15 min inactive */}
         <InactivityTracker />
+        <Suspense fallback={<PageSkeleton />}>
         <Routes>
         {/* Public routes */}
         <Route path="/" element={<HomePage />} />
@@ -38,27 +44,40 @@ export default function App() {
         <Route path="/auth" element={<AuthPage />} />
 
         {/* Public: Place Search & Trip Planner (read-only, no auth) */}
-        <Route path="/places" element={<PlaceSearchPage />} />
-        <Route path="/place-search" element={<PlaceSearchPage />} />
-        <Route path="/trip-planner" element={<TripPlanner />} />
+        <Route path="/places" element={
+          <FeatureErrorBoundary featureName="Place Search"><PlaceSearchPage /></FeatureErrorBoundary>
+        } />
+        <Route path="/place-search" element={
+          <FeatureErrorBoundary featureName="Place Search"><PlaceSearchPage /></FeatureErrorBoundary>
+        } />
+        <Route path="/trip-planner" element={
+          <FeatureErrorBoundary featureName="Trip Planner"><TripPlanner /></FeatureErrorBoundary>
+        } />
 
-        {/* Invitation handler — works both logged-in and logged-out */}
+        {/* Invitation handler */}
         <Route path="/invitation/:invitationId" element={<SmartInvitationHandler />} />
         <Route path="/invitations/:invitationId" element={<SmartInvitationHandler />} />
         <Route path="/accept-invitation" element={<SmartInvitationHandler />} />
 
-        {/* Protected routes — require authentication */}
+        {/* Protected routes */}
         <Route path="/analytics" element={<ProtectedRoute><Analytics /></ProtectedRoute>} />
-        <Route path="/expenses" element={<ProtectedRoute><ExpensePage /></ProtectedRoute>} />
+        <Route path="/expenses/:userId?/:mode?" element={
+          <ProtectedRoute>
+            <FeatureErrorBoundary featureName="Expenses"><ExpensePage /></FeatureErrorBoundary>
+          </ProtectedRoute>
+        } />
         <Route path="/admin/analysis" element={<ProtectedRoute><ExpenseAnalytics /></ProtectedRoute>} />
-        <Route path="/group-planner" element={<ProtectedRoute><GroupPlannerDashboard /></ProtectedRoute>} />
-        <Route path="/group-planner/:groupId" element={<ProtectedRoute><GroupPlanner /></ProtectedRoute>} />
+        <Route path="/group-planner/:groupId?" element={
+          <ProtectedRoute>
+            <FeatureErrorBoundary featureName="Group Planner"><GroupPlannerPage /></FeatureErrorBoundary>
+          </ProtectedRoute>
+        } />
       </Routes>
+      </Suspense>
       {/* React Query DevTools - disabled in production for cleaner UI */}
       {import.meta.env.DEV && import.meta.env.VITE_SHOW_DEVTOOLS === 'true' && (
         <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
       )}
-      </GroupPlannerProvider>
     </AuthProvider>
   );
 }
