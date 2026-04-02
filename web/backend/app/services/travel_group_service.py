@@ -12,11 +12,13 @@ import string
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional, Tuple
 
+from app.core.config import Config
 from app.domain.group_planner.models import (GroupActivity, ItineraryDocument,
                                              TravelGroup, TripMember)
 from app.domain.users.models import User
 from app.infrastructure.db.connection import get_db_session
 from sqlalchemy import func
+from sqlalchemy.orm import joinedload
 
 # Import expense-engine models for cross-module queries
 try:
@@ -27,9 +29,9 @@ except ImportError:
 logger = logging.getLogger(__name__)
 
 
-def generate_group_code(length: int = 8) -> str:
+def generate_group_code(length: int = Config.GROUP_CODE_LENGTH) -> str:
     """Generate a unique group invitation code"""
-    chars = string.ascii_uppercase + string.digits
+    chars = Config.GROUP_CODE_CHARSET
     return ''.join(random.choices(chars, k=length))
 
 
@@ -38,7 +40,7 @@ class GroupService:
     
     @staticmethod
     def create_group(
-        user_id: int,
+        user_id: str,
         name: str,
         description: Optional[str] = None,
         destination: Optional[str] = None,
@@ -49,7 +51,7 @@ class GroupService:
         start_date: Optional[str] = None,
         end_date: Optional[str] = None,
         estimated_budget: Optional[float] = None,
-        budget_currency: str = 'USD'
+        budget_currency: str = Config.DEFAULT_CURRENCY
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Create a new travel group
@@ -85,12 +87,12 @@ class GroupService:
                 if start_date:
                     try:
                         parsed_start_date = datetime.fromisoformat(start_date.replace('Z', '+00:00')).date()
-                    except:
+                    except (ValueError, TypeError):
                         pass
                 if end_date:
                     try:
                         parsed_end_date = datetime.fromisoformat(end_date.replace('Z', '+00:00')).date()
-                    except:
+                    except (ValueError, TypeError):
                         pass
                 
                 # Create group
@@ -155,7 +157,7 @@ class GroupService:
             return False, {'error': 'Failed to create group'}
     
     @staticmethod
-    def get_group(group_id: int, user_id: int, include_all: bool = True) -> Tuple[bool, Dict[str, Any]]:
+    def get_group(group_id: str, user_id: str, include_all: bool = True) -> Tuple[bool, Dict[str, Any]]:
         """
         Get group details
         
@@ -207,25 +209,33 @@ class GroupService:
             return False, {'error': 'Failed to get group'}
     
     @staticmethod
-    def get_user_groups(user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def get_user_groups(user_id: str, page: int = 1, per_page: int = 20) -> Tuple[bool, Dict[str, Any]]:
         """
-        Get all groups for a user
+        Get all groups for a user (paginated)
         
         Args:
             user_id: User ID
+            page: Page number (1-indexed)
+            per_page: Items per page
             
         Returns:
-            Tuple of (success, groups_list/error)
+            Tuple of (success, groups_list with pagination/error)
         """
         try:
             with get_db_session() as session:
-                memberships = session.query(TripMember, TravelGroup).join(
+                base_query = session.query(TripMember, TravelGroup).join(
                     TravelGroup, TripMember.group_id == TravelGroup.id
                 ).filter(
                     TripMember.user_id == user_id,
                     TripMember.is_active == True,
                     TravelGroup.is_active == True
-                ).order_by(TravelGroup.updated_at.desc()).all()
+                )
+                total = base_query.count()
+                memberships = base_query.options(
+                    joinedload(TravelGroup.members).joinedload(TripMember.user)
+                ).order_by(
+                    TravelGroup.updated_at.desc()
+                ).offset((page - 1) * per_page).limit(per_page).all()
                 
                 groups = []
                 for membership, group in memberships:
@@ -233,7 +243,15 @@ class GroupService:
                     group_data['my_role'] = membership.role
                     groups.append(group_data)
                 
-                return True, {'groups': groups}
+                return True, {
+                    'groups': groups,
+                    'pagination': {
+                        'page': page,
+                        'per_page': per_page,
+                        'total': total,
+                        'total_pages': max(1, -(-total // per_page))
+                    }
+                }
                 
         except Exception as e:
             logger.error(f"Get user groups error: {str(e)}")
@@ -241,32 +259,24 @@ class GroupService:
     
     @staticmethod
     def update_group(
-        group_id: int,
-        user_id: int,
+        group_id: str,
+        user_id: str,
         name: Optional[str] = None,
         description: Optional[str] = None,
         destination: Optional[str] = None,
         start_date: Optional[str] = None,
         end_date: Optional[str] = None,
         estimated_budget: Optional[float] = None,
-        budget_currency: Optional[str] = None
+        budget_currency: Optional[str] = None,
+        expected_updated_at: Optional[str] = None
     ) -> Tuple[bool, Dict[str, Any]]:
         """
-        Update group details
+        Update group details with optimistic locking.
         
         Args:
             group_id: Group ID
             user_id: Requesting user ID
-            name: New name
-            description: New description
-            destination: New destination
-            start_date: New start date
-            end_date: New end date
-            estimated_budget: New budget
-            budget_currency: New currency
-            
-        Returns:
-            Tuple of (success, group_data/error)
+            expected_updated_at: If provided, ISO timestamp to check against (409 on mismatch)
         """
         try:
             with get_db_session() as session:
@@ -283,6 +293,19 @@ class GroupService:
                 group = session.query(TravelGroup).get(group_id)
                 if not group or not group.is_active:
                     return False, {'error': 'Group not found'}
+                
+                # Optimistic locking: reject if updated_at mismatch
+                if expected_updated_at is not None and group.updated_at:
+                    try:
+                        expected_dt = datetime.fromisoformat(expected_updated_at.replace('Z', '+00:00'))
+                        if group.updated_at.replace(tzinfo=None) != expected_dt.replace(tzinfo=None):
+                            return False, {
+                                'error': 'Conflict: group was modified by another user',
+                                'status': 409,
+                                'current_updated_at': group.updated_at.isoformat()
+                            }
+                    except (ValueError, AttributeError):
+                        pass
                 
                 # Update fields
                 if name is not None:
@@ -320,7 +343,7 @@ class GroupService:
             return False, {'error': 'Failed to update group'}
     
     @staticmethod
-    def delete_group(group_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def delete_group(group_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Delete a group (soft delete, creator only)
         
@@ -357,8 +380,8 @@ class GroupService:
     
     @staticmethod
     def update_itinerary(
-        group_id: int,
-        user_id: int,
+        group_id: str,
+        user_id: str,
         content: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
@@ -419,8 +442,8 @@ class GroupService:
     
     @staticmethod
     def update_budget(
-        group_id: int,
-        user_id: int,
+        group_id: str,
+        user_id: str,
         estimated_budget: float,
         budget_currency: str = None
     ) -> Tuple[bool, Dict[str, Any]]:
@@ -467,7 +490,7 @@ class GroupService:
             return False, {'error': 'Failed to update budget'}
 
     @staticmethod
-    def is_member(group_id: int, user_id: int) -> bool:
+    def is_member(group_id: str, user_id: str) -> bool:
         """Check if user is a member of the group"""
         try:
             with get_db_session() as session:
@@ -482,9 +505,9 @@ class GroupService:
     
     @staticmethod
     def link_expense_group(
-        group_id: int,
-        user_id: int,
-        expense_group_id: int
+        group_id: str,
+        user_id: str,
+        expense_group_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """Link travel group to expense engine group"""
         try:
@@ -510,8 +533,8 @@ class GroupService:
     
     @staticmethod
     def unlink_expense_group(
-        group_id: int,
-        user_id: int
+        group_id: str,
+        user_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """Unlink travel group from expense engine group"""
         try:
@@ -537,23 +560,36 @@ class GroupService:
     
     @staticmethod
     def get_group_activities(
-        group_id: int,
-        user_id: int,
-        limit: int = 50
+        group_id: str,
+        user_id: str,
+        page: int = 1,
+        per_page: int = 50
     ) -> Tuple[bool, Dict[str, Any]]:
-        """Get recent group activities for real-time updates"""
+        """Get recent group activities (paginated)"""
         try:
             with get_db_session() as session:
                 # Check membership
                 if not GroupService.is_member(group_id, user_id):
                     return False, {'error': 'Not a member of this group'}
                 
-                activities = session.query(GroupActivity).filter(
+                base_query = session.query(GroupActivity).filter(
                     GroupActivity.group_id == group_id
-                ).order_by(GroupActivity.created_at.desc()).limit(limit).all()
+                )
+                total = base_query.count()
+                activities = base_query.options(
+                    joinedload(GroupActivity.user)
+                ).order_by(
+                    GroupActivity.created_at.desc()
+                ).offset((page - 1) * per_page).limit(per_page).all()
                 
                 return True, {
-                    'activities': [a.to_dict() for a in activities]
+                    'activities': [a.to_dict() for a in activities],
+                    'pagination': {
+                        'page': page,
+                        'per_page': per_page,
+                        'total': total,
+                        'total_pages': max(1, -(-total // per_page))
+                    }
                 }
                 
         except Exception as e:
@@ -562,23 +598,34 @@ class GroupService:
 
     @staticmethod
     def update_itinerary_document(
-        group_id: int,
-        user_id: int,
-        content
+        group_id: str,
+        user_id: str,
+        content,
+        expected_version: Optional[int] = None
     ) -> Tuple[bool, Dict[str, Any]]:
         """
-        Update itinerary document content
+        Update itinerary document content with optimistic locking.
         
         Args:
             group_id: Group ID
             user_id: User updating
             content: New document content (str or dict)
+            expected_version: If provided, check version matches before updating (409 on mismatch)
             
         Returns:
             Tuple of (success, data/error)
         """
         try:
             import json as _json
+
+            # Sanitize and enforce size limit
+            from app.core.config import Config as _Cfg
+            from app.core.sanitize import sanitize_rich_text
+            if isinstance(content, str):
+                content = sanitize_rich_text(content)
+            raw = _json.dumps(content) if isinstance(content, (dict, list)) else content
+            if len(raw.encode('utf-8')) > _Cfg.MAX_ITINERARY_SIZE:
+                return False, {'error': f'Itinerary content exceeds {_Cfg.MAX_ITINERARY_SIZE // 1024}KB limit'}
 
             # Serialize dict/list content to JSON string for SQLite storage
             if isinstance(content, (dict, list)):
@@ -606,6 +653,13 @@ class GroupService:
                     )
                     session.add(itinerary)
                 else:
+                    # Optimistic locking: reject if version mismatch
+                    if expected_version is not None and itinerary.version != expected_version:
+                        return False, {
+                            'error': 'Conflict: itinerary was modified by another user',
+                            'status': 409,
+                            'current_version': itinerary.version
+                        }
                     itinerary.content = content
                     itinerary.last_edited_by = user_id
                     itinerary.version = (itinerary.version or 0) + 1
@@ -618,6 +672,16 @@ class GroupService:
                 
                 logger.info(f"Itinerary document updated for group {group_id}")
                 
+                # Real-time broadcast
+                try:
+                    from app.infrastructure.realtime.events import \
+                        emit_to_group
+                    emit_to_group(group_id, 'itinerary:updated', {
+                        'version': itinerary.version, 'user_id': user_id
+                    })
+                except Exception:
+                    pass
+                
                 return True, {'content': content, 'version': itinerary.version}
                 
         except Exception as e:
@@ -626,8 +690,8 @@ class GroupService:
 
     @staticmethod
     def get_expense_summary(
-        group_id: int,
-        user_id: int
+        group_id: str,
+        user_id: str
     ) -> Tuple[bool, Dict[str, Any]]:
         """
         Get expense summary for a linked expense group
@@ -669,13 +733,17 @@ class GroupService:
                         get_db_session as get_expense_session
                     
                     with get_expense_session() as expense_session:
-                        # Get total spent from expense group
-                        total_spent = expense_session.query(
-                            func.sum(Expense.amount)
+                        # Aggregate totals in a single query
+                        summary = expense_session.query(
+                            func.sum(Expense.amount).label('total_spent'),
+                            func.count(Expense.id).label('expense_count'),
                         ).filter(
                             Expense.group_id == group.expense_group_id,
                             Expense.is_deleted == False
-                        ).scalar() or 0
+                        ).one()
+                        
+                        total_spent = float(summary.total_spent or 0)
+                        expense_count = summary.expense_count or 0
                         
                         # Get member count
                         member_count = expense_session.query(ExpenseGroupMember).filter(
@@ -683,43 +751,33 @@ class GroupService:
                             ExpenseGroupMember.is_active == True
                         ).count()
                         
-                        # Get expense count
-                        expense_count = expense_session.query(Expense).filter(
-                            Expense.group_id == group.expense_group_id,
-                            Expense.is_deleted == False
-                        ).count()
+                        per_person = total_spent / max(1, member_count)
                         
-                        per_person = float(total_spent) / max(1, member_count)
-                        
-                        # Calculate each member's share of expenses
-                        member_expenses = []
-                        members = expense_session.query(
-                            ExpenseGroupMember.user_id
+                        # Per-member spend via SQL GROUP BY instead of N+1 loop
+                        member_totals = expense_session.query(
+                            Expense.paid_by,
+                            func.sum(Expense.amount).label('total'),
                         ).filter(
-                            ExpenseGroupMember.group_id == group.expense_group_id,
-                            ExpenseGroupMember.is_active == True
-                        ).all()
-                        
-                        for member in members:
-                            # Get user email from shared users table
-                            user = expense_session.query(User).get(member.user_id)
-                            if not user:
-                                continue
-                            
-                            # Get sum of amounts for this member
-                            member_total = expense_session.query(
-                                func.sum(Expense.amount)
-                            ).filter(
-                                Expense.group_id == group.expense_group_id,
-                                Expense.paid_by == member.user_id,
-                                Expense.is_deleted == False
-                            ).scalar() or 0
-                            
-                            member_expenses.append({
-                                'user_id': member.user_id,
-                                'email': user.email,
-                                'total_spent': float(member_total)
-                            })
+                            Expense.group_id == group.expense_group_id,
+                            Expense.is_deleted == False,
+                        ).group_by(Expense.paid_by).all()
+
+                        payer_ids = [row.paid_by for row in member_totals]
+                        users_map = {}
+                        if payer_ids:
+                            users_list = expense_session.query(
+                                User.id, User.email
+                            ).filter(User.id.in_(payer_ids)).all()
+                            users_map = {u.id: u.email for u in users_list}
+
+                        member_expenses = [
+                            {
+                                'user_id': row.paid_by,
+                                'email': users_map.get(row.paid_by, ''),
+                                'total_spent': float(row.total),
+                            }
+                            for row in member_totals
+                        ]
                         
                         # Get user's balance/share from expense group
                         user_balance = 0.0
@@ -767,7 +825,7 @@ class GroupService:
             return False, {'error': 'Failed to get expense summary'}
     
     @staticmethod
-    def remove_member(group_id: int, member_id: int, requester_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def remove_member(group_id: str, member_id: str, requester_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Remove a member from the group (only owner can remove others)
         Also removes them from linked expense group
@@ -837,7 +895,38 @@ class GroupService:
             return False, {'error': 'Failed to remove member'}
     
     @staticmethod
-    def get_group_members_detailed(group_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def update_member_role(group_id: str, member_id: str, new_role: str, requester_id: str) -> Tuple[bool, Dict[str, Any]]:
+        """Update a member's role within the group (admin only, cannot change creator)"""
+        VALID_ROLES = ('admin', 'member', 'viewer')
+        if new_role not in VALID_ROLES:
+            return False, {'error': f'Invalid role. Must be one of: {", ".join(VALID_ROLES)}'}
+
+        try:
+            with get_db_session() as session:
+                member = session.query(TripMember).filter(
+                    TripMember.group_id == group_id,
+                    TripMember.user_id == member_id,
+                    TripMember.is_active == True
+                ).first()
+
+                if not member:
+                    return False, {'error': 'Member not found in group'}
+
+                if member.role == 'creator':
+                    return False, {'error': 'Cannot change the creator role'}
+
+                member.role = new_role
+                session.commit()
+
+                logger.info(f"Member {member_id} role updated to {new_role} in group {group_id} by {requester_id}")
+                return True, {'member': member.to_dict()}
+
+        except Exception as e:
+            logger.error(f"Update member role error: {str(e)}")
+            return False, {'error': 'Failed to update member role'}
+
+    @staticmethod
+    def get_group_members_detailed(group_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Get detailed member list with owner indicator and permissions
         """
@@ -870,12 +959,16 @@ class GroupService:
                     
                     members.append({
                         'id': user.id,
+                        'user_id': user.id,
                         'name': user.display_name or user.email.split('@')[0],
+                        'display_name': user.display_name or user.email.split('@')[0],
                         'email': user.email,
+                        'photo_url': getattr(user, 'photo_url', None),
                         'is_owner': is_owner,
+                        'is_creator': member.role == 'creator',
                         'can_remove': can_remove,
                         'joined_at': member.joined_at.isoformat() if member.joined_at else None,
-                        'role': 'Owner' if is_owner else 'Member'
+                        'role': member.role
                     })
                 
                 # Sort with owner first
@@ -893,7 +986,7 @@ class GroupService:
             return False, {'error': 'Failed to get member details'}
 
     @staticmethod
-    def leave_group(group_id: int, user_id: int) -> Tuple[bool, Dict[str, Any]]:
+    def leave_group(group_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
         """
         Allow a non-owner member to leave a group.
 
@@ -948,7 +1041,164 @@ class GroupService:
             logger.error("Leave group error: %s", e)
             return False, {'error': 'Failed to leave group'}
 
+    # ------------------------------------------------------------------
+    # C7.3 — Trip Cloning
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def clone_group(group_id: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
+        """
+        Clone a group as a new template.
+        Copies places, checklist items, and poll structure (not votes).
+        Resets dates, clears members (only creator).
+        """
+        from app.domain.group_planner.models import ChecklistItem, Place, Poll
+        try:
+            with get_db_session() as session:
+                original = session.query(TravelGroup).get(group_id)
+                if not original or not original.is_active:
+                    return False, {'error': 'Group not found'}
+
+                # Verify membership
+                if not GroupService.is_member(group_id, user_id):
+                    return False, {'error': 'Not a member of this group'}
+
+                # Generate unique code
+                code = generate_group_code()
+                while session.query(TravelGroup).filter_by(group_code=code).first():
+                    code = generate_group_code()
+
+                clone = TravelGroup(
+                    name=f'{original.name} (Copy)',
+                    description=original.description,
+                    destination=original.destination,
+                    destination_lat=original.destination_lat,
+                    destination_lng=original.destination_lng,
+                    destination_type=original.destination_type,
+                    destination_id=original.destination_id,
+                    group_code=code,
+                    created_by=user_id,
+                    estimated_budget=original.estimated_budget,
+                    budget_currency=original.budget_currency,
+                )
+                session.add(clone)
+                session.flush()
+
+                # Add creator as member
+                session.add(TripMember(
+                    group_id=clone.id,
+                    user_id=user_id,
+                    role='creator',
+                ))
+
+                # Copy places (no votes)
+                places = session.query(Place).filter(
+                    Place.group_id == group_id, Place.is_deleted == False
+                ).all()
+                for p in places:
+                    session.add(Place(
+                        group_id=clone.id, name=p.name, description=p.description,
+                        address=p.address, latitude=p.latitude, longitude=p.longitude,
+                        category=p.category, suggested_duration=p.suggested_duration,
+                        photo_url=p.photo_url, website=p.website, rating=p.rating,
+                        added_by=user_id,
+                    ))
+
+                # Copy checklist items (unchecked)
+                items = session.query(ChecklistItem).filter(
+                    ChecklistItem.group_id == group_id, ChecklistItem.is_deleted == False
+                ).all()
+                for item in items:
+                    session.add(ChecklistItem(
+                        group_id=clone.id, item=item.item, completed=False, author_id=user_id,
+                    ))
+
+                # Copy poll structure (no votes)
+                polls = session.query(Poll).filter(
+                    Poll.group_id == group_id, Poll.is_deleted == False
+                ).all()
+                for poll in polls:
+                    session.add(Poll(
+                        group_id=clone.id, name=poll.name, options=poll.options,
+                        is_multiple_choice=poll.is_multiple_choice, created_by=user_id,
+                    ))
+
+                # Activity log
+                session.add(GroupActivity(
+                    group_id=clone.id, user_id=user_id,
+                    action='group_created', details={'cloned_from': group_id},
+                ))
+
+                session.commit()
+                session.refresh(clone)
+                logger.info('Group %s cloned to %s by user %s', group_id, clone.id, user_id)
+                return True, {'group': clone.to_dict()}
+
+        except Exception as e:
+            logger.error('Clone group error: %s', e)
+            return False, {'error': 'Failed to clone group'}
+
+    # ------------------------------------------------------------------
+    # C7.4 — Join by Code
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def join_by_code(code: str, user_id: str) -> Tuple[bool, Dict[str, Any]]:
+        """Join a group using its group_code."""
+        try:
+            with get_db_session() as session:
+                group = session.query(TravelGroup).filter(
+                    TravelGroup.group_code == code,
+                    TravelGroup.is_active == True,
+                ).first()
+                if not group:
+                    return False, {'error': 'Invalid group code'}
+
+                # Check if already a member
+                existing = session.query(TripMember).filter(
+                    TripMember.group_id == group.id,
+                    TripMember.user_id == user_id,
+                ).first()
+                if existing:
+                    if existing.is_active:
+                        return False, {'error': 'Already a member of this group'}
+                    existing.is_active = True
+                else:
+                    session.add(TripMember(
+                        group_id=group.id, user_id=user_id, role='member',
+                    ))
+
+                session.add(GroupActivity(
+                    group_id=group.id, user_id=user_id,
+                    action='member_joined', details={'via': 'group_code'},
+                ))
+                session.commit()
+
+                # Notify + real-time
+                try:
+                    from app.services.notification_service import \
+                        notification_service
+                    notification_service.notify_group_members(
+                        group_id=group.id, exclude_user_id=user_id,
+                        type='member_joined', title='A new member joined via invite code',
+                        data={'user_id': user_id},
+                    )
+                except Exception:
+                    pass
+                try:
+                    from app.infrastructure.realtime.events import \
+                        emit_to_group
+                    emit_to_group(group.id, 'member:joined', {'user_id': user_id})
+                except Exception:
+                    pass
+
+                logger.info('User %s joined group %s via code', user_id, group.id)
+                return True, {'group_id': group.id, 'group_name': group.name}
+
+        except Exception as e:
+            logger.error('Join by code error: %s', e)
+            return False, {'error': 'Failed to join group'}
+
 
 # Singleton instance
-group_service = GroupService()
 group_service = GroupService()
