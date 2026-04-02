@@ -5,7 +5,8 @@
  * Shows place image, name, location, rating, and tags.
  */
 
-import React, { useState, memo } from 'react';
+import React, { useState, memo, useRef, useEffect } from 'react';
+import placeholderSvg from '../../../assets/placeholder-place.svg';
 import '../css/PlaceCard.css';
 
 const PlaceCard = memo(({ 
@@ -15,6 +16,25 @@ const PlaceCard = memo(({
 }) => {
   const [imageError, setImageError] = useState(false);
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+  const cardRef = useRef(null);
+
+  // Intersection Observer for true lazy loading
+  useEffect(() => {
+    const el = cardRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(el);
+        }
+      },
+      { rootMargin: '200px' }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
   /**
    * Handle image load error
@@ -31,12 +51,7 @@ const PlaceCard = memo(({
     setImageLoaded(true);
   };
 
-  /**
-   * Get placeholder image URL
-   */
-  const getPlaceholderImage = () => {
-    return 'https://placehold.co/600x400/94a3b8/ffffff?text=No+Image';
-  };
+  const getPlaceholderImage = () => placeholderSvg;
 
   /**
    * Get display image URL
@@ -115,6 +130,7 @@ const PlaceCard = memo(({
 
   return (
     <article
+      ref={cardRef}
       className="place-card"
       style={{ animationDelay }}
       onClick={onClick}
@@ -130,11 +146,10 @@ const PlaceCard = memo(({
           </div>
         )}
         <img
-          src={imageError ? getPlaceholderImage() : (imageUrl || getPlaceholderImage())}
+          src={!isVisible ? placeholderSvg : (imageError ? getPlaceholderImage() : (imageUrl || getPlaceholderImage()))}
           alt={place.name}
           onError={handleImageError}
           onLoad={handleImageLoad}
-          loading="lazy"
           className={imageLoaded ? 'loaded' : ''}
         />
         
@@ -154,6 +169,19 @@ const PlaceCard = memo(({
             <span className="badge badge-sunset">
               <i className="fas fa-moon"></i>
             </span>
+          )}
+        </div>
+
+        {/* Hover preview overlay */}
+        <div className="place-card-hover-overlay">
+          {place.rating_tourist_priority && (
+            <span><i className="fas fa-star"></i> {place.rating_tourist_priority.toFixed(1)}</span>
+          )}
+          {place.suggested_duration && (
+            <span><i className="fas fa-clock"></i> {place.suggested_duration}</span>
+          )}
+          {costInfo && (
+            <span><i className="fas fa-tag"></i> {costInfo.text}</span>
           )}
         </div>
       </div>
