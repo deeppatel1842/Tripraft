@@ -5,17 +5,18 @@
 
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
+import GlobalConfig from '../config/globalConfig';
 
 // Color theme matching Tripraft brand
 const THEME = {
-  primary: '#667eea',
-  secondary: '#764ba2',
-  success: '#059669',
-  danger: '#dc2626',
-  text: '#111827',
-  textLight: '#6b7280',
-  border: '#e5e7eb',
-  tripraftPurple: '#667eea'
+  primary: GlobalConfig.PDF_THEME.PRIMARY,
+  secondary: GlobalConfig.PDF_THEME.SECONDARY,
+  success: GlobalConfig.PDF_THEME.SUCCESS,
+  danger: GlobalConfig.PDF_THEME.DANGER,
+  text: GlobalConfig.PDF_THEME.TEXT,
+  textLight: GlobalConfig.PDF_THEME.TEXT_LIGHT,
+  border: GlobalConfig.PDF_THEME.BORDER,
+  tripraftPurple: GlobalConfig.PDF_THEME.PRIMARY
 };
 
 /**
