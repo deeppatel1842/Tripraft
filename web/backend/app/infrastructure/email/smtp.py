@@ -10,7 +10,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from typing import Optional
 
+import pybreaker
 from app.core.config import Config
+from app.core.resilience import smtp_breaker
 
 logger = logging.getLogger(__name__)
 
@@ -66,14 +68,20 @@ class EmailService:
                 msg.attach(MIMEText(text_body, 'plain'))
             msg.attach(MIMEText(html_body, 'html'))
 
-            with smtplib.SMTP(self._smtp_host, self._smtp_port) as server:
-                server.starttls()
-                server.login(self._smtp_user, self._smtp_password)
-                server.send_message(msg)
+            def _send():
+                with smtplib.SMTP(self._smtp_host, self._smtp_port, timeout=Config.SMTP_TIMEOUT) as server:
+                    server.starttls()
+                    server.login(self._smtp_user, self._smtp_password)
+                    server.send_message(msg)
+
+            smtp_breaker.call(_send)
 
             logger.info('Email sent to %s: %s', to_email, subject)
             return True
 
+        except pybreaker.CircuitBreakerError:
+            logger.warning('SMTP circuit breaker open, email to %s not sent', to_email)
+            return False
         except smtplib.SMTPException as exc:
             logger.error('SMTP error sending to %s: %s', to_email, exc)
             return False
