@@ -1,14 +1,14 @@
 """
 User Domain Models
 ===================
-User and UserSession models for authentication and user management.
+User, UserSession, and AuditLog models for authentication, session management,
+and security audit trail.
 """
-from datetime import datetime
-from typing import Optional
-
 from app.infrastructure.db.base import Base
-from sqlalchemy import (Boolean, Column, DateTime, ForeignKey, Index, Integer,
-                        String, Text)
+from app.infrastructure.db.uuid7 import CoercingUuid as Uuid
+from app.infrastructure.db.uuid7 import uuid7
+from sqlalchemy import (JSON, Boolean, Column, DateTime, ForeignKey, Index,
+                        Integer, String, Text)
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 
@@ -20,7 +20,7 @@ class User(Base):
     """
     __tablename__ = 'users'
 
-    id = Column(Integer, primary_key=True, autoincrement=True)
+    id = Column(Uuid, primary_key=True, default=uuid7)
     email = Column(String(255), unique=True, nullable=False, index=True)
     password_hash = Column(String(255), nullable=False)
     display_name = Column(String(100))
@@ -63,8 +63,8 @@ class User(Base):
     def to_dict(self, include_sensitive: bool = False) -> dict:
         """Convert to dictionary for API responses."""
         data = {
-            'id': self.id,
-            'user_id': self.id,
+            'id': str(self.id),
+            'user_id': str(self.id),
             'email': self.email,
             'display_name': self.display_name,
             'photo_url': self.photo_url,
@@ -92,8 +92,8 @@ class UserSession(Base):
         Index('idx_user_sessions_user', 'user_id'),
     )
 
-    id = Column(Integer, primary_key=True, autoincrement=True)
-    user_id = Column(Integer, ForeignKey('users.id', ondelete='CASCADE'), nullable=False)
+    id = Column(Uuid, primary_key=True, default=uuid7)
+    user_id = Column(Uuid, ForeignKey('users.id', ondelete='CASCADE'), nullable=False)
     refresh_token = Column(String(500), nullable=False, index=True)
     device_info = Column(Text)
     ip_address = Column(String(45))
@@ -107,8 +107,8 @@ class UserSession(Base):
     def to_dict(self) -> dict:
         """Convert to dictionary."""
         return {
-            'id': self.id,
-            'user_id': self.user_id,
+            'id': str(self.id),
+            'user_id': str(self.user_id),
             'device_info': self.device_info,
             'ip_address': self.ip_address,
             'expires_at': self.expires_at.isoformat() if self.expires_at else None,
@@ -118,3 +118,48 @@ class UserSession(Base):
 
     def __repr__(self) -> str:
         return f'<UserSession user_id={self.user_id}>'
+
+
+class AuditLog(Base):
+    """
+    Security audit trail for destructive and sensitive operations.
+
+    Every delete, password change, login failure, and admin action is recorded
+    with the full before-state snapshot, IP address, and user agent.
+    """
+    __tablename__ = 'audit_log'
+    __table_args__ = (
+        Index('idx_audit_user_time', 'user_id', 'created_at'),
+        Index('idx_audit_resource', 'resource_type', 'resource_id'),
+        Index('idx_audit_action', 'action', 'created_at'),
+    )
+
+    id = Column(Uuid, primary_key=True, default=uuid7)
+    user_id = Column(Uuid, ForeignKey('users.id'), nullable=False)
+    action = Column(String(50), nullable=False)
+    resource_type = Column(String(50), nullable=False)
+    resource_id = Column(Uuid)
+    old_data = Column(JSON)
+    ip_address = Column(String(45))
+    user_agent = Column(Text)
+    created_at = Column(DateTime, default=func.now())
+
+    user = relationship('User')
+
+    def to_dict(self) -> dict:
+        return {
+            'id': str(self.id),
+            'user_id': str(self.user_id),
+            'action': self.action,
+            'resource_type': self.resource_type,
+            'resource_id': str(self.resource_id) if self.resource_id else None,
+            'old_data': self.old_data,
+            'ip_address': self.ip_address,
+            'created_at': self.created_at.isoformat() if self.created_at else None,
+        }
+
+    def __repr__(self) -> str:
+        return f'<AuditLog {self.action} {self.resource_type}:{self.resource_id}>'
+        return f'<AuditLog {self.action} {self.resource_type}:{self.resource_id}>'
+        return f'<AuditLog {self.action} {self.resource_type}:{self.resource_id}>'
+        return f'<AuditLog {self.action} {self.resource_type}:{self.resource_id}>'
