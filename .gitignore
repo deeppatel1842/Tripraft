@@ -54,3 +54,9 @@ web/frontend/.llm
 web/frontend/src.rar
 web/backend/.pytest_cache/
 web/backend/tests/
+
+# Uploaded user files (binary, user-generated)
+web/backend/uploads/
+
+# Scripts database (generated, not source)
+web/backend/scripts/database/
