@@ -11,6 +11,7 @@
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  height: 100%;
   animation: fadeInUp 0.4s ease forwards;
   opacity: 0;
 }
@@ -58,6 +59,38 @@
 
 .place-card:hover .place-card-image img {
   transform: scale(1.05);
+}
+
+/* Hover overlay with quick info */
+.place-card-hover-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px 12px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  display: flex;
+  gap: 12px;
+  color: #fff;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  z-index: 1;
+}
+
+.place-card:hover .place-card-hover-overlay {
+  opacity: 1;
+}
+
+.place-card-hover-overlay span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.place-card-hover-overlay i {
+  font-size: 11px;
+  color: #fbbf24;
 }
 
 .place-card-image-skeleton {
@@ -224,7 +257,14 @@
   padding: 10px 12px;
   border-top: 1px solid #f1f5f9;
   display: flex;
+  flex-wrap: wrap;
   gap: 6px;
+}
+
+.place-card-footer .maps-link,
+.place-card-footer .explore-btn {
+  min-width: 0;
+  flex: 1 1 40%;
 }
 
 .place-card-footer .maps-link {
@@ -241,7 +281,6 @@
   font-weight: 500;
   text-decoration: none;
   transition: all 0.2s ease;
-  white-space: nowrap;
 }
 
 .place-card-footer .maps-link:hover {
@@ -255,7 +294,6 @@
 }
 
 .place-card-footer .explore-btn {
-  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
