@@ -4,13 +4,11 @@ Creates and configures the Flask application with all routes and middleware.
 """
 
 import logging
-import sys
-from pathlib import Path
 
 from app.core.config import get_config
 from app.core.logging import setup_logging
-from app.core.security import add_security_headers
-from flask import Flask, jsonify, request
+from app.core.security import add_security_headers, validate_csrf
+from flask import Flask, g, jsonify, redirect, request
 from flask_compress import Compress
 from flask_cors import CORS
 
@@ -28,6 +26,7 @@ def create_app():
 
     # Load configuration
     config = get_config()
+    config.validate_production()
     app.config.from_object(config)
 
     # Setup structured logging
@@ -42,14 +41,19 @@ def create_app():
         app,
         resources={r"/api/*": {"origins": cors_origins}},
         supports_credentials=True,
-        allow_headers=["Content-Type", "Authorization", "Accept", "Origin", "X-Requested-With"],
+        allow_headers=["Content-Type", "Authorization", "Accept", "Origin",
+                      "X-Requested-With", "X-CSRF-Token", "Idempotency-Key",
+                      "If-None-Match"],
+        expose_headers=["X-Total-Count", "X-Page", "X-Per-Page", "ETag", "Content-Type",
+                        "X-RateLimit-Limit", "X-RateLimit-Remaining", "X-RateLimit-Reset",
+                        "X-Request-ID", "X-Cache", "Deprecation", "Sunset", "Link"],
         methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
         max_age=86400,
     )
 
     # Explicit OPTIONS handler
     @app.route("/api/<path:path>", methods=["OPTIONS"])
-    def handle_options(_path):
+    def handle_options(path):
         response = app.make_default_options_response()
         origin = request.headers.get("Origin", "")
         allowed_origins = app.config.get("CORS_ORIGINS", [])
@@ -85,11 +89,21 @@ def create_app():
     # Security middleware
     _register_middleware(app)
 
+    # Idempotency support
+    try:
+        from app.core.idempotency import init_idempotency
+        init_idempotency(app)
+    except Exception as exc:
+        logger.warning("Idempotency middleware not available: %s", exc)
+
     # Error handlers
     _register_error_handlers(app)
 
     # Root endpoints
     _register_root_endpoints(app)
+
+    # Real-time WebSockets
+    _init_socketio(app)
 
     # Log registered routes
     _log_routes(app)
@@ -154,6 +168,20 @@ def _init_request_logger(app):
         init_request_logger(app)
     except Exception as exc:
         logger.debug("Request logger not available: %s", exc)
+
+
+def _init_socketio(app):
+    """Initialize Flask-SocketIO and register event handlers."""
+    try:
+        from app.infrastructure.realtime.socketio_ext import init_socketio
+        init_socketio(app)
+
+        # Import event handlers so they get registered with the socketio instance
+        import app.infrastructure.realtime.events  # noqa: F401
+
+        logger.info("WebSocket event handlers registered")
+    except Exception as exc:
+        logger.warning("SocketIO not available, running without WebSockets: %s", exc)
 
 
 # ---------------------------------------------------------------------------
@@ -251,10 +279,50 @@ def _register_blueprints(app):
         logger.warning("GP events blueprint not available: %s", exc)
 
     try:
+        from app.api.v1.gp_notifications import notifications_bp
+        app.register_blueprint(notifications_bp)
+    except Exception as exc:
+        logger.warning("GP notifications blueprint not available: %s", exc)
+
+    try:
         from app.api.v1.gp_destinations import group_planner_v2
         app.register_blueprint(group_planner_v2)
     except Exception as exc:
         logger.warning("GP destinations blueprint not available: %s", exc)
+
+    try:
+        from app.api.v1.gp_export import export_bp
+        app.register_blueprint(export_bp)
+    except Exception as exc:
+        logger.warning("GP export blueprint not available: %s", exc)
+
+    # --- Group Planner Vault ---
+    try:
+        from app.api.v1.gp_vault import vault_bp
+        app.register_blueprint(vault_bp)
+    except Exception as exc:
+        logger.warning("GP vault blueprint not available: %s", exc)
+
+    # --- Group Planner Chat ---
+    try:
+        from app.api.v1.gp_chat import chat_bp
+        app.register_blueprint(chat_bp)
+    except Exception as exc:
+        logger.warning("GP chat blueprint not available: %s", exc)
+
+    # --- AI Consent ---
+    try:
+        from app.api.v1.ai_consent import ai_consent_bp
+        app.register_blueprint(ai_consent_bp)
+    except Exception as exc:
+        logger.warning("AI consent blueprint not available: %s", exc)
+
+    # --- AI Crew Confirm ---
+    try:
+        from app.api.v1.ai_confirm import ai_confirm_bp
+        app.register_blueprint(ai_confirm_bp)
+    except Exception as exc:
+        logger.warning("AI confirm blueprint not available: %s", exc)
 
     # --- Locations ---
     try:
@@ -270,6 +338,13 @@ def _register_blueprints(app):
     except Exception as exc:
         logger.warning("Place search blueprint not available: %s", exc)
 
+    # --- Admin Places ---
+    try:
+        from app.api.v1.admin_places import admin_places_bp
+        app.register_blueprint(admin_places_bp)
+    except Exception as exc:
+        logger.warning("Admin places blueprint not available: %s", exc)
+
     # --- Trip Planner ---
     try:
         from app.api.v1.trips import trip_planner_bp
@@ -284,6 +359,76 @@ def _register_blueprints(app):
     except Exception as exc:
         logger.warning("Route viewer not available: %s", exc)
 
+    # --- Deprecated aliases (backward compatibility for 6 months) ---
+    _register_deprecated_aliases(app)
+
+
+# ---------------------------------------------------------------------------
+# Deprecated route aliases (RFC 8594)
+# ---------------------------------------------------------------------------
+
+_DEPRECATED_PREFIX_MAP = {
+    # Old prefix -> (new prefix, successor link)
+    '/api/expense/signup': '/api/v1/auth/signup',
+    '/api/expense/login': '/api/v1/auth/login',
+    '/api/expense/refresh': '/api/v1/auth/refresh',
+    '/api/expense/logout': '/api/v1/auth/logout',
+    '/api/expense/verify-email': '/api/v1/auth/verify-email',
+    '/api/expense/resend-verification': '/api/v1/auth/resend-verification',
+    '/api/expense/groups': '/api/v1/expenses/groups',
+    '/api/expense/expenses': '/api/v1/expenses',
+    '/api/expense/settlements': '/api/v1/expenses/settlements',
+    '/api/expense/invitations': '/api/v1/expenses/invitations',
+    '/api/v2/group-planner': '/api/v1/group-planner',
+    '/api/v1/place-search': '/api/v1/places',
+    '/api/trip-planner': '/api/v1/trip-planner',
+}
+
+
+def _register_deprecated_aliases(app):
+    """Register deprecated route aliases that proxy to new /api/v1/ endpoints."""
+    from app.core.config import Config
+
+    def _make_proxy(old_prefix, new_prefix):
+        """Create a redirect view that 308-redirects to the new endpoint with deprecation headers."""
+        def proxy_view(**kwargs):
+            path_suffix = request.path[len(old_prefix):]
+            new_path = new_prefix + path_suffix
+            if request.query_string:
+                new_path += '?' + request.query_string.decode()
+            # 308 Permanent Redirect preserves the HTTP method (unlike 301)
+            response = redirect(new_path, code=308)
+            response.headers['Deprecation'] = 'true'
+            response.headers['Sunset'] = Config.API_SUNSET_DATE
+            successor = new_prefix + path_suffix
+            response.headers['Link'] = f'<{successor}>; rel="successor-version"'
+            return response
+        return proxy_view
+
+    methods = ['GET', 'POST', 'PUT', 'PATCH', 'DELETE']
+
+    for old_prefix, new_prefix in _DEPRECATED_PREFIX_MAP.items():
+        # Register catch-all for the old prefix
+        rule_base = old_prefix.rstrip('/')
+        endpoint_name = f"deprecated_{old_prefix.replace('/', '_').strip('_')}"
+
+        # Exact match (e.g., /api/expense/groups)
+        app.add_url_rule(
+            rule_base,
+            endpoint=endpoint_name,
+            view_func=_make_proxy(old_prefix, new_prefix),
+            methods=methods,
+        )
+        # Sub-path match (e.g., /api/expense/groups/123/full)
+        app.add_url_rule(
+            f'{rule_base}/<path:_subpath>',
+            endpoint=f'{endpoint_name}_sub',
+            view_func=_make_proxy(old_prefix, new_prefix),
+            methods=methods,
+        )
+
+    logger.info("Registered %d deprecated route aliases", len(_DEPRECATED_PREFIX_MAP))
+
 
 # ---------------------------------------------------------------------------
 # Middleware
@@ -294,8 +439,7 @@ def _register_middleware(app):
 
     @app.before_request
     def before_request():
-        if request.method != "OPTIONS":
-            app.logger.debug("Request: %s %s", request.method, request.path)
+        validate_csrf()
 
     @app.after_request
     def after_request(response):
@@ -308,8 +452,8 @@ def _register_middleware(app):
             response.headers["Access-Control-Allow-Origin"] = origin
             response.headers["Access-Control-Allow-Credentials"] = "true"
             response.headers["Access-Control-Allow-Methods"] = "GET, POST, PUT, PATCH, DELETE, OPTIONS"
-            response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization, Accept, Origin"
-            response.headers["Access-Control-Expose-Headers"] = "Content-Type"
+            response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization, Accept, Origin, X-CSRF-Token"
+            response.headers["Access-Control-Expose-Headers"] = "Content-Type, X-Total-Count, X-Page, X-Per-Page, ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Request-ID, X-Cache, Deprecation, Sunset, Link"
         return response
 
 
@@ -320,27 +464,69 @@ def _register_middleware(app):
 def _register_error_handlers(app):
     """Register custom error handlers."""
 
+    from app.core.exceptions import AppError
+
+    def _error_envelope(code, message, status_code):
+        """Build standard error response envelope with meta."""
+        from datetime import datetime, timezone
+        body = {
+            "success": False,
+            "data": None,
+            "error": {"code": code, "message": message},
+            "meta": {
+                "request_id": getattr(g, 'request_id', None),
+                "timestamp": datetime.now(timezone.utc).isoformat(),
+                "version": "v1",
+            },
+        }
+        return jsonify(body), status_code
+
+    @app.errorhandler(AppError)
+    def handle_app_error(error):
+        resp = error.to_dict()
+        from datetime import datetime, timezone
+        resp["meta"] = {
+            "request_id": getattr(g, 'request_id', None),
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "version": "v1",
+        }
+        return jsonify(resp), error.status_code
+
+    @app.errorhandler(400)
+    def bad_request(error):
+        msg = getattr(error, 'description', 'Bad request')
+        return _error_envelope("BAD_REQUEST", msg, 400)
+
+    @app.errorhandler(401)
+    def unauthorized(_error):
+        return _error_envelope("UNAUTHORIZED", "Authentication required", 401)
+
+    @app.errorhandler(403)
+    def forbidden(error):
+        msg = getattr(error, 'description', 'Forbidden')
+        return _error_envelope("FORBIDDEN", msg, 403)
+
     @app.errorhandler(404)
     def not_found(_error):
-        return jsonify({"success": False, "error": "Endpoint not found"}), 404
+        return _error_envelope("NOT_FOUND", "Endpoint not found", 404)
 
     @app.errorhandler(405)
     def method_not_allowed(_error):
-        return jsonify({"success": False, "error": "Method not allowed"}), 405
+        return _error_envelope("METHOD_NOT_ALLOWED", "Method not allowed", 405)
 
     @app.errorhandler(429)
     def rate_limited(_error):
-        return jsonify({"success": False, "error": "Rate limit exceeded"}), 429
+        return _error_envelope("RATE_LIMITED", "Rate limit exceeded", 429)
 
     @app.errorhandler(500)
     def internal_error(error):
         app.logger.error("Internal server error: %s", error, exc_info=True)
-        return jsonify({"success": False, "error": "Internal server error"}), 500
+        return _error_envelope("INTERNAL_ERROR", "Internal server error", 500)
 
     @app.errorhandler(Exception)
     def handle_exception(error):
         app.logger.error("Unhandled exception: %s", error, exc_info=True)
-        return jsonify({"success": False, "error": "An unexpected error occurred"}), 500
+        return _error_envelope("INTERNAL_ERROR", "An unexpected error occurred", 500)
 
 
 # ---------------------------------------------------------------------------
@@ -367,12 +553,12 @@ def _register_root_endpoints(app):
             "endpoints": {
                 "health": "/health",
                 "routes": "/api/routes",
-                "auth": "/api/expense",
-                "expenses": "/api/expense/groups",
-                "group_planner": "/api/v2/group-planner",
+                "auth": "/api/v1/auth",
+                "expenses": "/api/v1/expenses",
+                "group_planner": "/api/v1/group-planner",
                 "locations": "/api/v1/locations",
-                "place_search": "/api/v1/place-search",
-                "trip_planner": "/api/trip-planner",
+                "places": "/api/v1/places",
+                "trip_planner": "/api/v1/trip-planner",
             },
         }), 200
 
