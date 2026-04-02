@@ -103,6 +103,7 @@ class Place:
     city_name: Optional[str] = None
     country_name: Optional[str] = None
     photo: Optional[Photo] = None
+    photos: List[Photo] = field(default_factory=list)
     opening_hours: Optional[OpeningHours] = None
     tags: List[str] = field(default_factory=list)
 
@@ -138,6 +139,16 @@ class Place:
             'official_website': self.official_website,
             'rank_score': self.rank_score,
             'photo_url': self.photo.thumbnail_url if self.photo else None,
+            'photos': [
+                {
+                    'url': p.thumbnail_url,
+                    'title': p.photo_title,
+                    'author': p.photo_author,
+                    'width': p.thumbnail_width,
+                    'height': p.thumbnail_height,
+                }
+                for p in self.photos if p.thumbnail_url
+            ],
             'tags': self.tags,
             'opening_hours': {
                 'monday': self.opening_hours.monday,
