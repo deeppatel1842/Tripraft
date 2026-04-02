@@ -7,12 +7,12 @@ Handles search, autocomplete, and data retrieval.
 
 import logging
 import time
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 
-from app.core.config import config
+from app.core.config import Config, config
+from app.domain.places.models import (AutocompleteSuggestion, OpeningHours,
+                                      Photo, Place, SearchResult)
 from app.domain.places.repository import DatabaseConnection, get_database
-from app.domain.places.models import (AutocompleteSuggestion, OpeningHours, Photo,
-                                 Place, SearchResult)
 
 logger = logging.getLogger(__name__)
 
@@ -111,10 +111,50 @@ class PlaceSearchService:
         Note: City is checked BEFORE state to handle cases like "Jaipur"
         which exists as both a city and state.
         
+        Handles comma-separated destination strings like "Seattle, Washington, USA"
+        by trying the full query first, then individual components.
+        
         Returns:
             Tuple of (match_type, matched_location, places)
         """
-        # Try matching country first
+        # Comma-separated destinations (e.g. "Seattle, Washington, USA"):
+        # split and try each component through the full cascade.
+        # The first part is typically the most specific (city name).
+        if ',' in query:
+            parts = [p.strip() for p in query.split(',') if p.strip()]
+            for part in parts:
+                result = self._try_search(
+                    part, limit, offset, sort_by, sort_order, cost_filter, rating_filter
+                )
+                if result:
+                    return result
+
+        # Single-term query or comma-split found nothing - try the raw query
+        result = self._try_search(
+            query, limit, offset, sort_by, sort_order, cost_filter, rating_filter
+        )
+        if result:
+            return result
+
+        # Nothing matched anywhere - return empty
+        return 'place', None, []
+
+    def _try_search(
+        self,
+        query: str,
+        limit: int,
+        offset: int,
+        sort_by: str,
+        sort_order: str,
+        cost_filter: Optional[List[str]],
+        rating_filter: Optional[int],
+    ) -> Optional[Tuple[str, Optional[Dict], List[Place]]]:
+        """
+        Attempt a single search pass against the cascade:
+        country -> city -> state -> place name.
+        
+        Returns the match tuple if something is found, None otherwise.
+        """
         country = self._find_country(query)
         if country:
             places = self._get_places_by_country(
@@ -128,16 +168,16 @@ class PlaceSearchService:
         if city:
             # Check count first
             count = self._count_places_by_city(city['id'])
-            if count > 30:
-                # More than 30 places: show top 30 ranked
+            if count > Config.PLACES_COUNT_THRESHOLD:
+                # More than threshold: show top ranked
                 places = self._get_places_by_city(
-                    city['id'], 30, 0, sort_by, sort_order,
+                    city['id'], Config.PLACES_COUNT_THRESHOLD, 0, sort_by, sort_order,
                     cost_filter, rating_filter
                 )
             else:
-                # 30 or fewer: show all places
+                # Under threshold: show all places
                 places = self._get_places_by_city(
-                    city['id'], 500, offset, sort_by, sort_order,
+                    city['id'], Config.PLACES_CITY_LIMIT, offset, sort_by, sort_order,
                     cost_filter, rating_filter
                 )
             return 'city', city, places
@@ -147,7 +187,7 @@ class PlaceSearchService:
         if state:
             # Check count first
             count = self._count_places_by_state(state['id'])
-            if count > 30:
+            if count > Config.PLACES_COUNT_THRESHOLD:
                 # More than 30 places: show top 5 per city (like country)
                 places = self._get_places_by_state(
                     state['id'], limit, offset, sort_by, sort_order,
@@ -166,37 +206,40 @@ class PlaceSearchService:
             query, limit, offset, sort_by, sort_order,
             cost_filter, rating_filter
         )
-        return 'place', None, places
+        if places:
+            return 'place', None, places
+        
+        return None
     
     def _find_country(self, query: str) -> Optional[Dict]:
-        """Find country by name"""
+        """Find country by name using NOCASE index."""
         sql = """
             SELECT id, country_name 
             FROM countries 
-            WHERE LOWER(country_name) LIKE ?
+            WHERE country_name LIKE ? COLLATE NOCASE
             LIMIT 1
         """
         return self.db.execute_single(sql, (f'%{query}%',))
     
     def _find_state(self, query: str) -> Optional[Dict]:
-        """Find state by name"""
+        """Find state by name using NOCASE index."""
         sql = """
             SELECT s.id, s.state_name, c.country_name
             FROM states s
             JOIN countries c ON s.country_id = c.id
-            WHERE LOWER(s.state_name) LIKE ?
+            WHERE s.state_name LIKE ? COLLATE NOCASE
             LIMIT 1
         """
         return self.db.execute_single(sql, (f'%{query}%',))
     
     def _find_city(self, query: str) -> Optional[Dict]:
-        """Find city by name"""
+        """Find city by name using NOCASE index."""
         sql = """
             SELECT ci.id, ci.city_name, s.state_name, c.country_name
             FROM cities ci
             JOIN states s ON ci.state_id = s.id
             JOIN countries c ON s.country_id = c.id
-            WHERE LOWER(ci.city_name) LIKE ?
+            WHERE ci.city_name LIKE ? COLLATE NOCASE
             LIMIT 1
         """
         return self.db.execute_single(sql, (f'%{query}%',))
@@ -271,12 +314,23 @@ class PlaceSearchService:
         """
         Get top 5 places per state for a country.
         Groups results by state and returns top 5 places from each.
-        No limit applied - returns all states for the country.
+        Filters are pushed into the CTE to avoid ranking discarded rows.
         """
         order_dir = "DESC" if sort_order.lower() == 'desc' else "ASC"
-        
-        # Get top 5 places per state using ROW_NUMBER() window function
-        # No LIMIT to ensure all states are returned
+
+        filters = ["c.id = ?"]
+        params: list = [country_id]
+
+        if cost_filter:
+            placeholders = ','.join('?' * len(cost_filter))
+            filters.append(f"p.cost IN ({placeholders})")
+            params.extend(cost_filter)
+        if rating_filter:
+            filters.append("p.rating_tourist_priority >= ?")
+            params.append(rating_filter)
+
+        where_clause = " AND ".join(filters)
+
         sql = f"""
             WITH RankedPlaces AS (
                 SELECT 
@@ -294,13 +348,13 @@ class PlaceSearchService:
                 JOIN states s ON ci.state_id = s.id
                 JOIN countries c ON s.country_id = c.id
                 LEFT JOIN photos ph ON p.id = ph.place_id
-                WHERE c.id = ?
+                WHERE {where_clause}
             )
             SELECT * FROM RankedPlaces 
             WHERE state_rank <= 5
             ORDER BY state_name, rank_score {order_dir}
         """
-        return self._fetch_places(sql, (country_id,))
+        return self._fetch_places(sql, tuple(params))
     
     def _get_places_by_state(
         self, state_id: int, limit: int, offset: int,
@@ -310,12 +364,23 @@ class PlaceSearchService:
         """
         Get top 5 places per city for a state.
         Groups results by city and returns top 5 places from each.
-        No limit applied - returns all cities for the state.
+        Filters are pushed into the CTE to avoid ranking discarded rows.
         """
         order_dir = "DESC" if sort_order.lower() == 'desc' else "ASC"
-        
-        # Get top 5 places per city using ROW_NUMBER() window function
-        # No LIMIT to ensure all cities are returned
+
+        filters = ["s.id = ?"]
+        params: list = [state_id]
+
+        if cost_filter:
+            placeholders = ','.join('?' * len(cost_filter))
+            filters.append(f"p.cost IN ({placeholders})")
+            params.extend(cost_filter)
+        if rating_filter:
+            filters.append("p.rating_tourist_priority >= ?")
+            params.append(rating_filter)
+
+        where_clause = " AND ".join(filters)
+
         sql = f"""
             WITH RankedPlaces AS (
                 SELECT 
@@ -333,13 +398,13 @@ class PlaceSearchService:
                 JOIN states s ON ci.state_id = s.id
                 JOIN countries c ON s.country_id = c.id
                 LEFT JOIN photos ph ON p.id = ph.place_id
-                WHERE s.id = ?
+                WHERE {where_clause}
             )
             SELECT * FROM RankedPlaces 
             WHERE city_rank <= 5
             ORDER BY city_name, rank_score {order_dir}
         """
-        return self._fetch_places(sql, (state_id,))
+        return self._fetch_places(sql, tuple(params))
     
     def _get_places_by_city(
         self, city_id: int, limit: int, offset: int,
@@ -390,25 +455,63 @@ class PlaceSearchService:
         sort_by: str, sort_order: str,
         cost_filter: Optional[List[str]], rating_filter: Optional[int]
     ) -> List[Place]:
-        """Search places by name"""
-        filters = []
-        params = []
-        
-        filters.append("LOWER(p.place_name) LIKE ?")
-        params.append(f'%{query}%')
-        
+        """Search places by name using FTS5 with LIKE fallback."""
+        order_dir = "DESC" if sort_order.lower() == 'desc' else "ASC"
+
+        # Build FTS5 match term (prefix search)
+        # Strip quotes and commas — commas cause FTS5 syntax errors
+        fts_term = query.replace('"', '').replace("'", '').replace(',', ' ')
+        fts_term = ' '.join(fts_term.split())  # collapse whitespace
+        fts_match = f'"{fts_term}" OR {fts_term}*' if len(fts_term) >= 2 else f'"{fts_term}"'
+
+        # Extra filters for cost/rating
+        extra_filters = []
+        extra_params = []
         if cost_filter:
             placeholders = ','.join('?' * len(cost_filter))
-            filters.append(f"p.cost IN ({placeholders})")
-            params.extend(cost_filter)
-        
+            extra_filters.append(f"p.cost IN ({placeholders})")
+            extra_params.extend(cost_filter)
         if rating_filter:
-            filters.append("p.rating_tourist_priority >= ?")
-            params.append(rating_filter)
-        
+            extra_filters.append("p.rating_tourist_priority >= ?")
+            extra_params.append(rating_filter)
+
+        extra_where = (" AND " + " AND ".join(extra_filters)) if extra_filters else ""
+
+        # FTS5 query — search across place_name and name_english columns
+        sql = f"""
+            SELECT 
+                p.*,
+                ci.city_name,
+                s.state_name,
+                c.country_name,
+                ph.thumbnail_url as photo_url
+            FROM places_fts fts
+            JOIN places p ON p.id = fts.rowid
+            JOIN cities ci ON p.city_id = ci.id
+            JOIN states s ON ci.state_id = s.id
+            JOIN countries c ON s.country_id = c.id
+            LEFT JOIN photos ph ON p.id = ph.place_id
+            WHERE places_fts MATCH ?{extra_where}
+            ORDER BY p.{sort_by} {order_dir}
+            LIMIT ? OFFSET ?
+        """
+        params = [fts_match] + extra_params + [limit, offset]
+
+        try:
+            results = self._fetch_places(sql, tuple(params))
+            if results:
+                return results
+        except Exception:
+            logger.debug("FTS5 search failed for '%s', falling back to LIKE", query)
+
+        # Fallback to LIKE if FTS5 returns nothing or errors
+        filters = ["p.place_name LIKE ? COLLATE NOCASE"]
+        params = [f'%{query}%']
+        params.extend(extra_params)
+        if extra_filters:
+            filters.extend(extra_filters)
+
         where_clause = " AND ".join(filters)
-        order_dir = "DESC" if sort_order.lower() == 'desc' else "ASC"
-        
         sql = f"""
             SELECT 
                 p.*,
@@ -426,7 +529,6 @@ class PlaceSearchService:
             LIMIT ? OFFSET ?
         """
         params.extend([limit, offset])
-        
         return self._fetch_places(sql, tuple(params))
     
     def _build_places_query(
@@ -463,6 +565,7 @@ class PlaceSearchService:
             SELECT 
                 p.*,
                 ci.city_name,
+                s.state_name,
                 c.country_name,
                 ph.thumbnail_url as photo_url
             FROM places p
@@ -479,10 +582,14 @@ class PlaceSearchService:
         return sql, tuple(params)
     
     def _fetch_places(self, sql: str, params: tuple) -> List[Place]:
-        """Fetch and convert places from database"""
+        """Fetch and convert places from database (batched tags + hours)."""
         rows = self.db.execute_query(sql, params)
+        if not rows:
+            return []
+
         places = []
-        
+        place_ids = []
+
         for row in rows:
             place = Place(
                 id=row['id'],
@@ -510,200 +617,156 @@ class PlaceSearchService:
                 city_name=row.get('city_name'),
                 country_name=row.get('country_name'),
             )
-            
-            # Add photo if available
+
             if row.get('photo_url'):
                 place.photo = Photo(
                     id=0,
                     place_id=place.id,
                     thumbnail_url=row['photo_url']
                 )
-            
-            # Fetch tags
-            place.tags = self._get_place_tags(place.id)
-            
-            # Fetch opening hours
-            place.opening_hours = self._get_opening_hours(place.id)
-            
+
             places.append(place)
-        
+            place_ids.append(place.id)
+
+        # Batch fetch tags for all places (single query instead of N)
+        tags_by_place = self._get_tags_batch(place_ids)
+        hours_by_place = self._get_hours_batch(place_ids)
+
+        for place in places:
+            place.tags = tags_by_place.get(place.id, [])
+            place.opening_hours = hours_by_place.get(place.id)
+
         return places
-    
-    def _get_opening_hours(self, place_id: int) -> Optional[OpeningHours]:
-        """Get opening hours for a place"""
-        sql = """
-            SELECT *
-            FROM opening_hours
-            WHERE place_id = ?
-            LIMIT 1
-        """
-        row = self.db.execute_single(sql, (place_id,))
-        if row:
-            return OpeningHours(
-                id=row.get('id', 0),
-                place_id=place_id,
-                monday=row.get('monday'),
-                tuesday=row.get('tuesday'),
-                wednesday=row.get('wednesday'),
-                thursday=row.get('thursday'),
-                friday=row.get('friday'),
-                saturday=row.get('saturday'),
-                sunday=row.get('sunday'),
-                notes=row.get('notes'),
-            )
-        return None
-    
-    def _get_place_tags(self, place_id: int) -> List[str]:
-        """Get tags for a place"""
-        sql = """
-            SELECT t.tag_name
+
+    def _get_tags_batch(self, place_ids: List[int]) -> Dict[int, List[str]]:
+        """Batch fetch tags for multiple places in a single query."""
+        if not place_ids:
+            return {}
+        placeholders = ','.join('?' * len(place_ids))
+        sql = f"""
+            SELECT pt.place_id, t.tag_name
             FROM tags t
             JOIN place_tags pt ON t.id = pt.tag_id
-            WHERE pt.place_id = ?
-            LIMIT 10
+            WHERE pt.place_id IN ({placeholders})
         """
-        rows = self.db.execute_query(sql, (place_id,))
-        return [row['tag_name'] for row in rows]
+        rows = self.db.execute_query(sql, tuple(place_ids))
+        result: Dict[int, List[str]] = {}
+        for row in rows:
+            result.setdefault(row['place_id'], []).append(row['tag_name'])
+        return result
+
+    def _get_hours_batch(self, place_ids: List[int]) -> Dict[int, OpeningHours]:
+        """Batch fetch opening hours for multiple places in a single query."""
+        if not place_ids:
+            return {}
+        placeholders = ','.join('?' * len(place_ids))
+        sql = f"""
+            SELECT *
+            FROM opening_hours
+            WHERE place_id IN ({placeholders})
+        """
+        rows = self.db.execute_query(sql, tuple(place_ids))
+        result: Dict[int, OpeningHours] = {}
+        for row in rows:
+            pid = row['place_id']
+            if pid not in result:  # keep first row per place
+                result[pid] = OpeningHours(
+                    id=row.get('id', 0),
+                    place_id=pid,
+                    monday=row.get('monday'),
+                    tuesday=row.get('tuesday'),
+                    wednesday=row.get('wednesday'),
+                    thursday=row.get('thursday'),
+                    friday=row.get('friday'),
+                    saturday=row.get('saturday'),
+                    sunday=row.get('sunday'),
+                    notes=row.get('notes'),
+                )
+        return result
     
     def get_autocomplete(
         self, 
         query: str, 
         limit: int = config.AUTOCOMPLETE_MAX_RESULTS
     ) -> List[AutocompleteSuggestion]:
-        """
-        Get autocomplete suggestions.
-        
-        Args:
-            query: Partial search query
-            limit: Maximum number of suggestions
-            
-        Returns:
-            List of autocomplete suggestions
-        """
+        """Get autocomplete suggestions using a single UNION query."""
         if len(query) < config.AUTOCOMPLETE_MIN_LENGTH:
             return []
         
         query = query.strip().lower()
-        all_suggestions = []
+        like_pattern = f'%{query}%'
         
-        # Get country suggestions
-        country_suggestions = self._get_country_suggestions(query, 3)
-        all_suggestions.extend(country_suggestions)
+        # Single UNION query replaces 4 separate full-table scans
+        sql = """
+            SELECT * FROM (
+                SELECT 'country' as type, 'c' || id as suggestion_id,
+                       country_name as name, NULL as parent, 0 as score
+                FROM countries
+                WHERE country_name LIKE ? COLLATE NOCASE
+                LIMIT 3
+            )
+
+            UNION ALL
+
+            SELECT * FROM (
+                SELECT 'city' as type, 'city' || ci.id as suggestion_id,
+                       ci.city_name as name,
+                       s.state_name || ', ' || c.country_name as parent, 1 as score
+                FROM cities ci
+                JOIN states s ON ci.state_id = s.id
+                JOIN countries c ON s.country_id = c.id
+                WHERE ci.city_name LIKE ? COLLATE NOCASE
+                LIMIT 5
+            )
+
+            UNION ALL
+
+            SELECT * FROM (
+                SELECT 'state' as type, 's' || s.id as suggestion_id,
+                       s.state_name as name,
+                       c.country_name as parent, 2 as score
+                FROM states s
+                JOIN countries c ON s.country_id = c.id
+                WHERE s.state_name LIKE ? COLLATE NOCASE
+                LIMIT 3
+            )
+
+            UNION ALL
+
+            SELECT * FROM (
+                SELECT 'place' as type, 'p' || p.id as suggestion_id,
+                       p.place_name as name,
+                       ci.city_name || ', ' || c.country_name as parent,
+                       3 as score
+                FROM places p
+                JOIN cities ci ON p.city_id = ci.id
+                JOIN states s ON ci.state_id = s.id
+                JOIN countries c ON s.country_id = c.id
+                WHERE p.place_name LIKE ? COLLATE NOCASE
+                ORDER BY p.rank_score DESC
+                LIMIT 5
+            )
+        """
         
-        # Get city suggestions (prioritize over state)
-        city_suggestions = self._get_city_suggestions(query, 5)
-        all_suggestions.extend(city_suggestions)
+        rows = self.db.execute_query(
+            sql, (like_pattern, like_pattern, like_pattern, like_pattern)
+        )
         
-        # Get state suggestions
-        state_suggestions = self._get_state_suggestions(query, 3)
-        all_suggestions.extend(state_suggestions)
-        
-        # Get place suggestions
-        place_suggestions = self._get_place_suggestions(query, 5)
-        all_suggestions.extend(place_suggestions)
-        
-        # Deduplicate by name (case-insensitive)
-        # Priority: city > state > country > place (city added first)
+        # Deduplicate by name, preserve priority order (country/city first)
         seen_names = set()
-        unique_suggestions = []
-        for s in all_suggestions:
-            name_key = s.name.lower().strip()
+        suggestions = []
+        for row in rows:
+            name_key = row['name'].lower().strip()
             if name_key not in seen_names:
                 seen_names.add(name_key)
-                unique_suggestions.append(s)
+                suggestions.append(AutocompleteSuggestion(
+                    id=row['suggestion_id'],
+                    name=row['name'],
+                    type=row['type'],
+                    parent=row['parent'],
+                ))
         
-        return unique_suggestions[:limit]
-    
-    def _get_country_suggestions(
-        self, query: str, limit: int
-    ) -> List[AutocompleteSuggestion]:
-        """Get country autocomplete suggestions"""
-        sql = """
-            SELECT id, country_name 
-            FROM countries 
-            WHERE LOWER(country_name) LIKE ?
-            LIMIT ?
-        """
-        rows = self.db.execute_query(sql, (f'%{query}%', limit))
-        return [
-            AutocompleteSuggestion(
-                id=f"c{row['id']}",
-                name=row['country_name'],
-                type='country',
-                parent=None
-            )
-            for row in rows
-        ]
-    
-    def _get_state_suggestions(
-        self, query: str, limit: int
-    ) -> List[AutocompleteSuggestion]:
-        """Get state autocomplete suggestions"""
-        sql = """
-            SELECT s.id, s.state_name, c.country_name
-            FROM states s
-            JOIN countries c ON s.country_id = c.id
-            WHERE LOWER(s.state_name) LIKE ?
-            LIMIT ?
-        """
-        rows = self.db.execute_query(sql, (f'%{query}%', limit))
-        return [
-            AutocompleteSuggestion(
-                id=f"s{row['id']}",
-                name=row['state_name'],
-                type='state',
-                parent=row['country_name']
-            )
-            for row in rows
-        ]
-    
-    def _get_city_suggestions(
-        self, query: str, limit: int
-    ) -> List[AutocompleteSuggestion]:
-        """Get city autocomplete suggestions"""
-        sql = """
-            SELECT ci.id, ci.city_name, s.state_name, c.country_name
-            FROM cities ci
-            JOIN states s ON ci.state_id = s.id
-            JOIN countries c ON s.country_id = c.id
-            WHERE LOWER(ci.city_name) LIKE ?
-            LIMIT ?
-        """
-        rows = self.db.execute_query(sql, (f'%{query}%', limit))
-        return [
-            AutocompleteSuggestion(
-                id=f"city{row['id']}",
-                name=row['city_name'],
-                type='city',
-                parent=f"{row['state_name']}, {row['country_name']}"
-            )
-            for row in rows
-        ]
-    
-    def _get_place_suggestions(
-        self, query: str, limit: int
-    ) -> List[AutocompleteSuggestion]:
-        """Get place autocomplete suggestions"""
-        sql = """
-            SELECT p.id, p.place_name, ci.city_name, c.country_name
-            FROM places p
-            JOIN cities ci ON p.city_id = ci.id
-            JOIN states s ON ci.state_id = s.id
-            JOIN countries c ON s.country_id = c.id
-            WHERE LOWER(p.place_name) LIKE ?
-            ORDER BY p.rank_score DESC
-            LIMIT ?
-        """
-        rows = self.db.execute_query(sql, (f'%{query}%', limit))
-        return [
-            AutocompleteSuggestion(
-                id=f"p{row['id']}",
-                name=row['place_name'],
-                type='place',
-                parent=f"{row['city_name']}, {row['country_name']}"
-            )
-            for row in rows
-        ]
+        return suggestions[:limit]
     
     def get_place_by_id(self, place_id: int) -> Optional[Place]:
         """
@@ -735,6 +798,13 @@ class PlaceSearchService:
         
         place = places[0]
         
+        # Fetch all photos for the gallery
+        photos_sql = """
+            SELECT * FROM photos WHERE place_id = ?
+        """
+        photo_rows = self.db.execute_query(photos_sql, (place_id,))
+        place.photos = [Photo(**row) for row in photo_rows]
+
         # Fetch opening hours
         hours_sql = """
             SELECT * FROM opening_hours WHERE place_id = ?
