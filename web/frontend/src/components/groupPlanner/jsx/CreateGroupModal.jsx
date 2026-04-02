@@ -3,6 +3,7 @@
  * Features city autocomplete for destination
  */
 import React, { useState, useCallback, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { X, MapPin, Users, Calendar, Loader2 } from 'lucide-react';
 import GlobalConfig from '../../../config/globalConfig';
 import '../css/CreateGroupModal.css';
@@ -28,6 +29,7 @@ export default function CreateGroupModal({
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [searchLoading, setSearchLoading] = useState(false);
   const [errors, setErrors] = useState({});
+  const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0, width: 0 });
   
   const debounceRef = useRef(null);
   const destinationInputRef = useRef(null);
@@ -50,30 +52,65 @@ export default function CreateGroupModal({
     }
   }, [isOpen]);
 
+  const suggestionsRef = useRef(null);
+
+  // Track input position for dropdown portal positioning
+  useEffect(() => {
+    const updatePosition = () => {
+      if (destinationInputRef.current) {
+        const rect = destinationInputRef.current.getBoundingClientRect();
+        setDropdownPosition({
+          top: rect.bottom + 4,
+          left: rect.left,
+          width: rect.width,
+        });
+      }
+    };
+
+    if (showSuggestions) {
+      updatePosition();
+      window.addEventListener('scroll', updatePosition);
+      window.addEventListener('resize', updatePosition);
+      
+      // Close dropdown when clicking outside (but not on suggestions portal)
+      const handleClickOutside = (e) => {
+        if (
+          destinationInputRef.current && !destinationInputRef.current.contains(e.target) &&
+          suggestionsRef.current && !suggestionsRef.current.contains(e.target)
+        ) {
+          setShowSuggestions(false);
+        }
+      };
+      document.addEventListener('mousedown', handleClickOutside);
+      
+      return () => {
+        window.removeEventListener('scroll', updatePosition);
+        window.removeEventListener('resize', updatePosition);
+        document.removeEventListener('mousedown', handleClickOutside);
+      };
+    }
+  }, [showSuggestions]);
+
   // Fetch city autocomplete suggestions
   const fetchSuggestions = useCallback(async (query) => {
     if (!query || query.length < 2) {
       setSuggestions([]);
+      setShowSuggestions(false);
       return;
     }
 
     setSearchLoading(true);
     try {
-      // API_BASE_URL is http://localhost:5000/api, endpoint is /group-planner/destinations/autocomplete
-      const response = await fetch(
-        `${GlobalConfig.API_BASE_URL}/group-planner/destinations/autocomplete?q=${encodeURIComponent(query)}&limit=10`,
-        { credentials: 'include' }
+      const { default: apiClient } = await import('../../../utils/apiClient');
+      const data = await apiClient.get(
+        `${GlobalConfig.ENDPOINTS.GROUP_PLANNER}/destinations/autocomplete?q=${encodeURIComponent(query)}&limit=10`
       );
-      
-      if (response.ok) {
-        const data = await response.json();
-        setSuggestions(data.data || data.suggestions || []);
-        setShowSuggestions(true);
-      } else {
-        setSuggestions([]);
-      }
+      const results = data.data || data.suggestions || [];
+      setSuggestions(results);
+      setShowSuggestions(results.length > 0);
     } catch (error) {
       setSuggestions([]);
+      setShowSuggestions(false);
     } finally {
       setSearchLoading(false);
     }
@@ -191,7 +228,7 @@ export default function CreateGroupModal({
                 value={formData.destination}
                 onChange={handleDestinationChange}
                 onFocus={() => suggestions.length > 0 && setShowSuggestions(true)}
-                onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
+                autoComplete="off"
               />
               {searchLoading && (
                 <Loader2 className="cgm-input-loader" size={16} />
@@ -199,9 +236,19 @@ export default function CreateGroupModal({
             </div>
             {errors.destination && <span className="cgm-error">{errors.destination}</span>}
             
-            {/* Suggestions Dropdown */}
-            {showSuggestions && suggestions.length > 0 && (
-              <div className="cgm-suggestions">
+            {/* Suggestions Dropdown - Rendered via Portal to avoid modal overflow clipping */}
+            {showSuggestions && suggestions.length > 0 && createPortal(
+              <div 
+                ref={suggestionsRef}
+                className="cgm-suggestions"
+                style={{
+                  position: 'fixed',
+                  top: `${dropdownPosition.top}px`,
+                  left: `${dropdownPosition.left}px`,
+                  width: `${dropdownPosition.width}px`,
+                  zIndex: 9999,
+                }}
+              >
                 {suggestions.map((suggestion, index) => (
                   <div
                     key={index}
@@ -221,7 +268,8 @@ export default function CreateGroupModal({
                     </div>
                   </div>
                 ))}
-              </div>
+              </div>,
+              document.body
             )}
           </div>
 
