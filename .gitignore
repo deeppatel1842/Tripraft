@@ -39,6 +39,10 @@ logs/
 build/
 *.rar
 
+# Temporary planning files
+COMMIT_PLAN.md
+commit_all.ps1
+
 # LLM context files
 .llm
 **/.llm
