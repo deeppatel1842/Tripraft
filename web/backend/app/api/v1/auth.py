@@ -5,19 +5,25 @@ API endpoints for user authentication
 
 import logging
 
+from app.api.utils.responses import (error_response, success_response,
+                                     validation_error_response)
+from app.api.utils.validators import validate_schema
+from app.core.config import Config
 from app.core.rate_limiter import limit_auth
 from app.infrastructure.auth.decorators import (get_current_user_id,
                                                 require_auth,
                                                 require_refresh_token)
 from app.infrastructure.auth.jwt import clear_auth_cookies, set_auth_cookies
-from app.schemas.common import (CheckEmailSchema, LoginSchema, SignupSchema,
+from app.infrastructure.cache.redis import cache_response, invalidate_cache
+from app.schemas.common import (ChangePasswordSchema, CheckEmailSchema,
+                                LoginSchema, SignupSchema, UpdateProfileSchema,
                                 validate_request)
 from app.services.auth_service import auth_service
-from flask import Blueprint, jsonify, make_response, request
+from flask import Blueprint, g, jsonify, make_response, request
 
 logger = logging.getLogger(__name__)
 
-auth_bp = Blueprint('auth', __name__, url_prefix='/api/expense')
+auth_bp = Blueprint('auth', __name__, url_prefix='/api/v1/auth')
 
 
 @auth_bp.route('/signup', methods=['POST', 'OPTIONS'])
@@ -46,31 +52,31 @@ def signup():
     """
     # Handle OPTIONS preflight
     if request.method == 'OPTIONS':
-        return jsonify({'success': True}), 200
+        return success_response(message='OK')
     
     data = request.get_json()
     if not data:
-        return jsonify({'success': False, 'error': 'Request body required'}), 400
+        return error_response('Request body required')
 
     validated, errors = validate_request(SignupSchema, data)
     if errors:
-        return jsonify({'success': False, 'error': 'Validation failed', 'details': errors}), 400
+        return validation_error_response(errors)
 
     success, result = auth_service.signup(
         email=validated['email'],
         password=validated['password'],
         display_name=validated.get('display_name') or validated['email'].split('@')[0],
         phone=data.get('phone'),
-        default_currency=data.get('default_currency', 'INR')
+        default_currency=data.get('default_currency', Config.DEFAULT_CURRENCY)
     )
     
     if success:
-        resp = make_response(jsonify({'success': True, **result}), 201)
+        resp = make_response(jsonify({'success': True, 'message': 'Signup successful', 'data': result}), 201)
         if result.get('access_token') and result.get('refresh_token'):
             set_auth_cookies(resp, result['access_token'], result['refresh_token'])
         return resp
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Signup failed'))
 
 
 @auth_bp.route('/login', methods=['POST', 'OPTIONS'])
@@ -96,31 +102,33 @@ def login():
     """
     # Handle OPTIONS preflight
     if request.method == 'OPTIONS':
-        return jsonify({'success': True}), 200
+        return success_response({}, message='OK')
     
     data = request.get_json()
     if not data:
-        return jsonify({'success': False, 'error': 'Request body required'}), 400
+        return error_response('Request body required')
 
     validated, errors = validate_request(LoginSchema, data)
     if errors:
-        return jsonify({'success': False, 'error': 'Invalid credentials'}), 401
+        return error_response('Invalid credentials', 401)
 
     device_info = request.headers.get('User-Agent', 'Unknown')
 
     success, result = auth_service.login(
         email=validated['email'],
         password=validated['password'],
-        device_info=device_info
+        device_info=device_info,
+        client_ip=request.remote_addr,
     )
     
     if success:
-        resp = make_response(jsonify({'success': True, **result}), 200)
+        resp = make_response(jsonify({'success': True, 'message': 'Login successful', 'data': result}), 200)
         if result.get('access_token') and result.get('refresh_token'):
             set_auth_cookies(resp, result['access_token'], result['refresh_token'])
         return resp
     else:
-        return jsonify({'success': False, **result}), 401
+        status = 429 if result.get('locked') else 401
+        return error_response(result.get('error', 'Login failed'), status)
 
 
 @auth_bp.route('/logout', methods=['POST'])
@@ -145,11 +153,11 @@ def logout():
     success, result = auth_service.logout(user_id, current_refresh_token)
     
     if success:
-        resp = make_response(jsonify({'success': True, **result}), 200)
+        resp = make_response(jsonify({'success': True, 'message': 'Logged out successfully', 'data': result}), 200)
         clear_auth_cookies(resp)
         return resp
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Logout failed'))
 
 
 @auth_bp.route('/logout-all', methods=['POST'])
@@ -171,11 +179,11 @@ def logout_all():
     success, result = auth_service.logout_all_devices(user_id)
     
     if success:
-        resp = make_response(jsonify({'success': True, **result}), 200)
+        resp = make_response(jsonify({'success': True, 'message': 'Logged out from all devices', 'data': result}), 200)
         clear_auth_cookies(resp)
         return resp
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Logout failed'))
 
 
 @auth_bp.route('/refresh', methods=['POST'])
@@ -201,24 +209,22 @@ def refresh_token():
     # Accept refresh token from body, cookie, or header (in priority order)
     refresh = data.get('refresh_token') or request.cookies.get('refresh_token')
     if not refresh:
-        return jsonify({
-            'success': False,
-            'error': 'Refresh token required'
-        }), 400
+        return error_response('Refresh token required')
     
     success, result = auth_service.refresh_tokens(refresh)
     
     if success:
-        resp = make_response(jsonify({'success': True, **result}), 200)
+        resp = make_response(jsonify({'success': True, 'message': 'Token refreshed', 'data': result}), 200)
         if result.get('access_token') and result.get('refresh_token'):
             set_auth_cookies(resp, result['access_token'], result['refresh_token'])
         return resp
     else:
-        return jsonify({'success': False, **result}), 401
+        return error_response(result.get('error', 'Token refresh failed'), 401)
 
 
 @auth_bp.route('/me', methods=['GET'])
 @require_auth
+@cache_response(key_prefix='auth:me', ttl=Config.CACHE_TTLS['user_detail'], vary_on_user=True)
 def get_me():
     """
     Get current user profile
@@ -236,13 +242,14 @@ def get_me():
     success, result = auth_service.get_current_user(user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 404
+        return error_response(result.get('error', 'User not found'), 404)
 
 
 @auth_bp.route('/me', methods=['PUT'])
 @require_auth
+@validate_schema(UpdateProfileSchema)
 def update_me():
     """
     Update current user profile
@@ -263,7 +270,7 @@ def update_me():
         "user": {...}
     }
     """
-    data = request.get_json() or {}
+    data = g.validated_data
     user_id = get_current_user_id()
     
     success, result = auth_service.update_profile(
@@ -275,13 +282,17 @@ def update_me():
     )
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        invalidate_cache('auth:me:*')
+        invalidate_cache('auth:profile:*')
+        invalidate_cache('auth:bootstrap:*')
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to update profile'))
 
 
 @auth_bp.route('/change-password', methods=['POST'])
 @require_auth
+@validate_schema(ChangePasswordSchema)
 def change_password():
     """
     Change user password
@@ -300,32 +311,19 @@ def change_password():
         "message": "Password changed successfully. Please login again."
     }
     """
-    data = request.get_json()
-    
-    if not data:
-        return jsonify({'success': False, 'error': 'Request body required'}), 400
-    
-    current_password = data.get('current_password')
-    new_password = data.get('new_password')
-    
-    if not current_password or not new_password:
-        return jsonify({
-            'success': False,
-            'error': 'Current password and new password are required'
-        }), 400
-    
+    data = g.validated_data
     user_id = get_current_user_id()
     
     success, result = auth_service.change_password(
         user_id=user_id,
-        current_password=current_password,
-        new_password=new_password
+        current_password=data['current_password'],
+        new_password=data['new_password']
     )
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to change password'))
 
 
 @auth_bp.route('/check-email', methods=['POST'])
@@ -347,19 +345,20 @@ def check_email():
     """
     data = request.get_json()
     if not data:
-        return jsonify({'success': False, 'error': 'Email is required'}), 400
+        return error_response('Email is required')
 
     validated, errors = validate_request(CheckEmailSchema, data)
     if errors:
-        return jsonify({'success': False, 'error': 'Valid email is required'}), 400
+        return error_response('Valid email is required')
 
-    # Prevent email enumeration — always return same response shape + timing
+    # Prevent email enumeration -- always return same response shape + timing
     auth_service.check_email_exists(validated['email'])
-    return jsonify({'success': True, 'message': 'Check complete'}), 200
+    return success_response(message='Check complete')
 
 
 @auth_bp.route('/user/profile', methods=['GET'])
 @require_auth
+@cache_response(key_prefix='auth:profile', ttl=Config.CACHE_TTLS['user_detail'], vary_on_user=True)
 def get_user_profile():
     """
     Get user profile (alias for /me)
@@ -370,19 +369,20 @@ def get_user_profile():
     success, result = auth_service.get_current_user(user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 404
+        return error_response(result.get('error', 'User not found'), 404)
 
 
 @auth_bp.route('/user/profile', methods=['PUT'])
 @require_auth
+@validate_schema(UpdateProfileSchema)
 def update_user_profile():
     """
     Update user profile (alias for PUT /me)
     For frontend compatibility
     """
-    data = request.get_json() or {}
+    data = g.validated_data
     user_id = get_current_user_id()
     
     success, result = auth_service.update_profile(
@@ -394,13 +394,17 @@ def update_user_profile():
     )
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        invalidate_cache('auth:me:*')
+        invalidate_cache('auth:profile:*')
+        invalidate_cache('auth:bootstrap:*')
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to update profile'))
 
 
 @auth_bp.route('/mega-bootstrap', methods=['GET'])
 @require_auth
+@cache_response(key_prefix='auth:bootstrap', ttl=Config.CACHE_TTLS['dashboard'], vary_on_user=True)
 def mega_bootstrap():
     """
     Get all user data in a single call (for quick app loading)
@@ -434,12 +438,12 @@ def mega_bootstrap():
     
     user_id = get_current_user_id()
     active_group_id = request.args.get('active_group_id')
-    expenses_limit = int(request.args.get('recent_expenses_limit', 20))
+    expenses_limit = int(request.args.get('recent_expenses_limit', Config.SEARCH_DEFAULT_LIMIT))
     
     # Get user profile
     user_success, _user_result = auth_service.get_current_user(user_id)
     if not user_success:
-        return jsonify({'success': False, 'error': 'User not found'}), 404
+        return error_response('User not found', 404)
     
     # Get user groups
     groups_success, groups_result = group_service_sql.get_user_groups(user_id)
@@ -464,7 +468,7 @@ def mega_bootstrap():
     # Get active group details if provided
     if active_group_id:
         try:
-            group_id = int(active_group_id)
+            group_id = active_group_id
             group_success, group_result = group_service_sql.get_group(group_id, user_id)
             if group_success:
                 group_info = group_result.get('group', {})
@@ -513,17 +517,47 @@ def mega_bootstrap():
         except (ValueError, TypeError) as e:
             logger.error("Error processing active group %s: %s", active_group_id, e)
     
-    return jsonify({
-        'success': True,
-        'data': response_data,
-        'meta': {
-            'source': 'sql_database',
-            'fetch_time_ms': 0
-        }
-    }), 200
+    return success_response(
+        data=response_data,
+        meta={'source': 'sql_database'}
+    )
 
 
 # NOTE: Invitations endpoint is in invitations_sql_routes.py
 # These placeholder routes have been removed to avoid conflict
 # NOTE: Invitations endpoint is in invitations_sql_routes.py
+
+
+# ---------------------------------------------------------------------------
+# Email verification
+# ---------------------------------------------------------------------------
+
+@auth_bp.route('/verify-email', methods=['GET'])
+def verify_email():
+    """
+    Verify user email via token (sent in verification email link).
+
+    Query params:
+        token: JWT verification token
+    """
+    token = request.args.get('token')
+    if not token:
+        return error_response('Verification token required', 400)
+
+    success, result = auth_service.verify_email(token)
+    if success:
+        return success_response(data=result, message=result.get('message'))
+    return error_response(result.get('error', 'Verification failed'), 400)
+
+
+@auth_bp.route('/resend-verification', methods=['POST'])
+@require_auth
+@limit_auth()
+def resend_verification():
+    """Resend verification email for the current authenticated user."""
+    user_id = get_current_user_id()
+    success, result = auth_service.resend_verification(user_id)
+    if success:
+        return success_response(data=result, message=result.get('message'))
+    return error_response(result.get('error', 'Failed to resend verification'), 400)
 # These placeholder routes have been removed to avoid conflict
