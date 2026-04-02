@@ -68,8 +68,8 @@ export const createQueryClient = () => {
         // Refetch on window focus for real-time data
         refetchOnWindowFocus: true,
         
-        // Don't refetch on mount if data is fresh
-        refetchOnMount: false,
+        // Refetch on mount if data is stale
+        refetchOnMount: true,
         
         // Enable request deduplication
         refetchOnReconnect: true,
