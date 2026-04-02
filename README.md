@@ -1,6 +1,6 @@
 # TripRaft
 
-An AI-powered group travel planning and expense management platform. Search 16,830+ places across 82 countries, plan trips collaboratively with polls and checklists, split expenses with smart balance tracking, and generate day-by-day itineraries.
+An AI-powered group travel planning and expense management platform. Search 16,830+ places across 82 countries, plan trips collaboratively with real-time chat and polls, split expenses with smart balance tracking, and generate day-by-day itineraries with AI agents.
 
 **Live Landing Page:** [tripraft.vercel.app](https://tripraft.vercel.app)
 
@@ -13,11 +13,14 @@ An AI-powered group travel planning and expense management platform. Search 16,8
 | Frontend | React 18, Vite 5, React Router 7, React Query 5 |
 | Backend | Python 3.11, Flask (factory pattern) |
 | Databases | SQLite (app data) + SQLite (16,830 places read-only) |
-| Cache | Redis Cloud (response caching, rate limiter state) |
-| Auth | JWT (httpOnly cookies + Bearer), bcrypt 12 rounds |
+| Cache | Redis (response caching, rate limiter state, Celery broker) |
+| Real-time | Flask-SocketIO (gevent), Socket.IO Client |
+| AI | Ollama (self-hosted LLM), circuit breaker pattern |
+| Background | Celery 5.4 + Redis broker |
+| Auth | JWT (httpOnly cookies + CSRF double-submit), bcrypt 12 rounds |
 | Maps | Leaflet + OpenStreetMap |
 | Charts | Recharts |
-| Validation | Marshmallow + Pydantic (backend), custom (frontend) |
+| Validation | Marshmallow schemas (backend), custom (frontend) |
 | Email | SMTP (Gmail) for invitations |
 
 ---
@@ -54,6 +57,24 @@ An AI-powered group travel planning and expense management platform. Search 16,8
 - Map visualization with numbered markers
 - PDF export for offline use
 
+### AI Agents
+- **Scout Agent**: @scout mention in chat triggers place recommendations from travel DB + web search
+- **Crew Agent**: @crew mention for multi-turn conversations (itinerary suggestions, poll creation, budget optimization)
+- Explicit user consent required before any AI interaction
+- Circuit breaker pattern for LLM resilience (auto-fallback on failure)
+- Ollama-based (self-hosted, zero API costs, full data control)
+
+### Real-Time Chat
+- WebSocket-based group chat via Flask-SocketIO
+- Message reactions, read receipts, typing indicators
+- @mention AI agents directly in conversation
+- AI responses rendered as interactive cards (place cards, itineraries)
+
+### Document Vault
+- Per-group file uploads (images, PDFs, documents)
+- Secure file storage with access control
+- Download and preview
+
 ### Authentication
 - JWT with dual delivery (httpOnly cookies + Bearer header fallback)
 - Access tokens (1hr) + refresh tokens (30d)
@@ -67,44 +88,48 @@ An AI-powered group travel planning and expense management platform. Search 16,8
 
 ```
 web/
-├── backend/             Python/Flask REST API
+├── backend/                 Python/Flask REST API (5-layer architecture)
 │   ├── app/
-│   │   ├── api/         Flask app factory, blueprints, middleware
-│   │   ├── core/        Shared DB layer (SQLAlchemy engine, auth decorators)
-│   │   ├── domain/      Domain modules (expenses, groups, places)
-│   │   ├── infrastructure/  Redis cache, rate limiter
-│   │   ├── schemas/     Marshmallow validation schemas
-│   │   ├── services/    Business logic layer
-│   │   └── workers/     Background tasks
-│   ├── run.py           Entry point
+│   │   ├── api/v1/          25 route blueprints, ~135 endpoints
+│   │   ├── core/            Config, DB engine, auth decorators, error handlers
+│   │   ├── domain/          4 bounded contexts (users, expenses, groups, ai)
+│   │   ├── infrastructure/  auth, cache, db, email, llm, realtime, search
+│   │   ├── schemas/         15 Marshmallow validation modules
+│   │   ├── services/        25 stateless service classes
+│   │   └── workers/         Celery tasks (email, AI, chat, cleanup)
+│   ├── alembic/             Database migrations
+│   ├── scripts/             DB seeding and migration scripts
+│   ├── tests/               Pytest test suite
+│   ├── run.py               Entry point
 │   └── requirements.txt
 │
-├── frontend/            React SPA (Vite)
+├── frontend/                React SPA (Vite, code-split routes)
 │   └── src/
-│       ├── components/  UI organized by feature domain
-│       ├── context/     React contexts (Auth, GroupPlanner)
-│       ├── hooks/       Custom React hooks
-│       ├── services/    API client modules
-│       ├── config/      Environment config
-│       ├── styles/      Global CSS
-│       └── utils/       Shared helpers
+│       ├── components/      UI organized by feature domain
+│       ├── context/         AuthContext (JWT + CSRF + refresh)
+│       ├── hooks/           Custom hooks (expense, chat, group, AI)
+│       ├── services/        API client modules (axios interceptors)
+│       ├── lib/             TanStack Query + IndexedDB persister
+│       ├── config/          Environment config
+│       ├── styles/          Global CSS
+│       └── utils/           Shared helpers
 │
 ├── database/
-│   ├── tripraft.db              App data (users, expenses, groups, polls)
-│   └── travel_data_complete.db  Read-only reference (16,830 places)
+│   └── travel_data_complete.db  Read-only reference (16,830 places, FTS5)
 │
-Docs/                    Full product documentation
-├── 01_PRODUCT_OVERVIEW.md
-├── 02_SYSTEM_ARCHITECTURE.md
-├── 03_BACKEND_DEEP_DIVE.md
-├── 04_FRONTEND_DEEP_DIVE.md
-├── 05_DATABASE_AND_DATA.md
-├── 06_PLACES_ENGINE.md
-├── 07_EXPENSE_ENGINE.md
-├── 08_GROUP_PLANNER.md
-├── 09_WHAT_WE_COMPLETED.md
-├── B2C/                 Consumer product roadmap
-└── B2B/                 Enterprise/white-label roadmap
+docs/                        Technical documentation
+├── PROJECT_OVERVIEW.md
+├── ARCHITECTURE.md
+├── HLD.md                   High-Level Design with system diagrams
+└── features/
+    ├── 01_AUTHENTICATION.md
+    ├── 02_PLACE_DISCOVERY.md
+    ├── 03_AI_TRIP_PLANNER.md
+    ├── 04_GROUP_PLANNER.md
+    ├── 05_EXPENSE_ENGINE.md
+    ├── 06_AI_AGENTS.md
+    ├── 07_REALTIME_AND_BACKGROUND.md
+    └── 08_CACHING_AND_PERFORMANCE.md
 ```
 
 ---
@@ -115,6 +140,9 @@ Docs/                    Full product documentation
 |--------|--------|------|-------------|
 | `/api/expense/*` | Expense Engine | JWT | Auth, expense/group/settlement CRUD |
 | `/api/groups/*` | Group Planner | JWT | Trip groups, places, polls, checklist |
+| `/api/v1/chat/*` | Chat | JWT | Real-time messaging, reactions, read receipts |
+| `/api/v1/ai/*` | AI Agents | JWT | Scout/Crew agents, consent management |
+| `/api/v1/vault/*` | Vault | JWT | File uploads and document management |
 | `/api/v2/group-planner/*` | Group Planner | JWT | Dashboard, destination search |
 | `/api/v1/locations/*` | Locations | None | Hierarchical place browsing (cached) |
 | `/api/v1/place-search/*` | Place Search | None | Full-text place search, autocomplete |
@@ -197,43 +225,47 @@ The frontend starts at `http://localhost:5173`.
 
 ## Documentation
 
-Full technical documentation is in the [Docs/](Docs/) folder:
+Full technical documentation is in the [docs/](docs/) folder:
 
 | Document | What It Covers |
 |----------|---------------|
-| [Product Overview](Docs/01_PRODUCT_OVERVIEW.md) | Feature-by-feature walkthrough with backend/frontend/DB/cache flows |
-| [System Architecture](Docs/02_SYSTEM_ARCHITECTURE.md) | 4-layer stack, request lifecycle, blueprints, route map |
-| [Backend Deep Dive](Docs/03_BACKEND_DEEP_DIVE.md) | Factory pattern, dual-DB, JWT auth, Redis, rate limiting, validation |
-| [Frontend Deep Dive](Docs/04_FRONTEND_DEEP_DIVE.md) | React 18 architecture, routing, AuthContext, service layer, component tree |
-| [Database and Data](Docs/05_DATABASE_AND_DATA.md) | 19 tables across 3 domains, travel DB schema, cache TTLs |
-| [Places Engine](Docs/06_PLACES_ENGINE.md) | Search, autocomplete, place details, statistics, trip generation |
-| [Expense Engine](Docs/07_EXPENSE_ENGINE.md) | CRUD, settlements, balances, simplified debts, analytics |
-| [Group Planner](Docs/08_GROUP_PLANNER.md) | Groups, places, voting, polls, checklist, invitations, events |
-| [What We Completed](Docs/09_WHAT_WE_COMPLETED.md) | Phase 0/1A/1B changelog with code-level detail |
+| [Project Overview](docs/PROJECT_OVERVIEW.md) | Feature walkthrough with backend/frontend/DB/cache flows |
+| [Architecture](docs/ARCHITECTURE.md) | 5-layer stack, request lifecycle, blueprints, route map |
+| [High-Level Design](docs/HLD.md) | System diagrams, data flow, component interactions, deployment |
+| [Auth System](docs/features/01_AUTHENTICATION.md) | JWT + CSRF double-submit, token refresh, session management |
+| [Place Discovery](docs/features/02_PLACE_DISCOVERY.md) | FTS5 search, autocomplete, place details, statistics |
+| [AI Trip Planner](docs/features/03_AI_TRIP_PLANNER.md) | Itinerary generation, pacing modes, PDF export |
+| [Group Planner](docs/features/04_GROUP_PLANNER.md) | 6-tab architecture, polls, checklist, map, invitations |
+| [Expense Engine](docs/features/05_EXPENSE_ENGINE.md) | 4 split types, settlements, simplified debts, analytics |
+| [AI Agents](docs/features/06_AI_AGENTS.md) | Scout and Crew agents, consent architecture, circuit breaker |
+| [Realtime & Background](docs/features/07_REALTIME_AND_BACKGROUND.md) | WebSocket events, Celery tasks, beat schedule |
+| [Caching & Performance](docs/features/08_CACHING_AND_PERFORMANCE.md) | Redis + IndexedDB dual-layer caching, ETag strategy |
 
 ---
 
 ## Project Status
 
-**Current state:** MVP complete, security hardened, production-ready.
+**Current state:** Feature-complete, security hardened, production-ready.
 
 | Module | Status |
 |--------|--------|
-| Place Search | Working (16,830 places, 82 countries) |
-| Trip Planner | Working (rule-based, 3 pacing modes) |
-| Expense Engine | Working (4 split types, settlements, analytics) |
-| Group Planner | Working (polls, checklist, map, invitations) |
-| Auth System | Working (JWT, httpOnly cookies, auto-refresh) |
-| Redis Cache | Working (response caching, rate limiter) |
+| Place Search | Complete (16,830 places, FTS5, 82 countries) |
+| Trip Planner | Complete (rule-based + AI, 3 pacing modes, PDF export) |
+| Expense Engine | Complete (4 split types, settlements, analytics, PDF) |
+| Group Planner | Complete (6 tabs: places, polls, checklist, chat, vault, events) |
+| AI Agents | Complete (Scout + Crew, consent-gated, Ollama, circuit breaker) |
+| Real-Time Chat | Complete (SocketIO, reactions, read receipts, AI mentions) |
+| Auth System | Complete (JWT + CSRF, httpOnly cookies, auto-refresh) |
+| Redis Cache | Complete (dual-layer caching, rate limiter, Celery broker) |
+| Background Jobs | Complete (Celery workers + beat scheduler) |
 
 ### Roadmap
 
-- Agentic AI integration (smart itinerary generation, chat)
-- Real-time collaboration (WebSocket)
 - Booking engine (flights, hotels)
 - Payment integration (Stripe)
-- Mobile app
+- Mobile app (React Native)
 - Multi-currency support
+- Collaborative real-time editing
 
 ---
 
@@ -241,11 +273,11 @@ Full technical documentation is in the [Docs/](Docs/) folder:
 
 ```
 .
-├── Docs/           Product and technical documentation
+├── docs/           Technical documentation + HLD
 ├── web/
-│   ├── backend/    Flask REST API (Python)
-│   ├── frontend/   React SPA (Vite)
-│   └── database/   SQLite database files
+│   ├── backend/    Flask REST API (Python, 5-layer architecture)
+│   ├── frontend/   React SPA (Vite, code-split routes)
+│   └── database/   Travel reference database (SQLite, read-only)
 └── README.md
 ```
 
