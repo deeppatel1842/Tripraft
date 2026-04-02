@@ -5,19 +5,28 @@ API endpoints for managing group invitations
 
 import logging
 
+from app.api.utils.responses import (created_response, error_response,
+                                     success_response)
+from app.api.utils.validators import validate_schema
+from app.core.config import Config
+from app.core.rate_limiter import limit_api
 from app.infrastructure.auth.decorators import (get_current_user_id,
                                                 require_auth)
+from app.infrastructure.cache.redis import cache_response, invalidate_cache
+from app.schemas.invitations import CreateExpenseInvitationSchema
 from app.services.expense_invite_service import invitation_service_sql
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, g, request
 
 logger = logging.getLogger(__name__)
 
 # Use /api/expense/invitations to match frontend expectations
-invitations_sql_bp = Blueprint('invitations_sql', __name__, url_prefix='/api/expense/invitations')
+invitations_sql_bp = Blueprint('invitations_sql', __name__, url_prefix='/api/v1/expenses/invitations')
 
 
 @invitations_sql_bp.route('', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['invitation'])
 @require_auth
+@validate_schema(CreateExpenseInvitationSchema)
 def send_invitation():
     """
     Send invitation to join a group (TripRaft Model - returns complete state)
@@ -32,24 +41,15 @@ def send_invitation():
     - invitation: the created invitation
     - invitations: ALL pending invitations sent by this user
     """
-    data = request.get_json()
+    data = g.validated_data
     
-    if not data:
-        return jsonify({'success': False, 'error': 'Request body required'}), 400
-    
-    group_id = data.get('group_id')
-    # Accept both 'invitee_email' and 'invited_email' for compatibility
+    group_id = data['group_id']
     invitee_email = data.get('invitee_email') or data.get('invited_email') or data.get('email')
-    
-    if not group_id:
-        return jsonify({'success': False, 'error': 'group_id is required'}), 400
-    if not invitee_email:
-        return jsonify({'success': False, 'error': 'invitee_email is required'}), 400
     
     user_id = get_current_user_id()
     
     success, result = invitation_service_sql.send_invitation(
-        group_id=int(group_id),
+        group_id=group_id,
         invitee_email=invitee_email,
         invited_by_user_id=user_id
     )
@@ -57,22 +57,25 @@ def send_invitation():
     if success:
         # TripRaft Model: Get all invitations for this group after sending
         all_invitations_success, all_invitations_result = invitation_service_sql.get_group_invitations(
-            group_id=int(group_id),
+            group_id=group_id,
             user_id=user_id
         )
         
         response = {
-            'success': True,
             **result,
             'invitations': all_invitations_result.get('invitations', []) if all_invitations_success else []
         }
-        return jsonify(response), 201
+        invalidate_cache('exp_invitations:*')
+        invalidate_cache('auth:bootstrap:*')
+        return created_response(data=response)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to send invitation'))
 
 
 @invitations_sql_bp.route('', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='exp_invitations:list', ttl=Config.CACHE_TTLS['invitations'], vary_on_user=True)
 def get_user_invitations():
     """Get pending invitations for the current user (for homepage popup)"""
     from flask import g
@@ -83,45 +86,36 @@ def get_user_invitations():
     success, result = invitation_service_sql.get_pending_invitations_for_user(user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
-
-
-@invitations_sql_bp.route('/my', methods=['GET'])
-@require_auth
-def get_my_invitations():
+        return error_response(result.get('error', 'Failed to get invitations'))
     """Get all invitations for the current user"""
     user_id = get_current_user_id()
     
     success, result = invitation_service_sql.get_invitations(user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
-
-
-@invitations_sql_bp.route('/group/<group_id>', methods=['GET'])
-@require_auth
-def get_group_invitations(group_id):
+        return error_response(result.get('error', 'Failed to get invitations'))
     """Get all invitations for a specific group"""
     user_id = get_current_user_id()
     
     try:
-        gid = int(group_id)
+        gid = group_id
     except (ValueError, TypeError):
-        return jsonify({'success': False, 'error': 'Invalid group ID'}), 400
+        return error_response('Invalid group ID')
     
     success, result = invitation_service_sql.get_group_invitations(gid, user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 403
+        return error_response(result.get('error', 'Access denied'), 403)
 
 
 @invitations_sql_bp.route('/<invitation_id>/accept', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['invitation'])
 @require_auth
 def accept_invitation(invitation_id):
     """Accept a group invitation and return full group details"""
@@ -130,9 +124,9 @@ def accept_invitation(invitation_id):
     user_id = get_current_user_id()
     
     try:
-        iid = int(invitation_id)
+        iid = invitation_id
     except (ValueError, TypeError):
-        return jsonify({'success': False, 'error': 'Invalid invitation ID'}), 400
+        return error_response('Invalid invitation ID')
     
     success, result = invitation_service_sql.accept_invitation(iid, user_id)
     
@@ -140,31 +134,36 @@ def accept_invitation(invitation_id):
         # Get all user groups to return the complete updated list
         all_groups_success, all_groups_result = group_service_sql.get_user_groups(user_id)
         
-        response = {
-            'success': True,
-            **result,  # Includes 'group' (full details), 'message', 'invitation'
+        response_data = {
+            **result,
             'groups': all_groups_result.get('groups', []) if all_groups_success else []
         }
         
-        return jsonify(response), 200
+        invalidate_cache('exp_invitations:*')
+        invalidate_cache('exp_groups:*')
+        invalidate_cache('auth:bootstrap:*')
+        return success_response(data=response_data)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to accept invitation'))
 
 
 @invitations_sql_bp.route('/<invitation_id>/decline', methods=['POST'])
+@limit_api(Config.RATE_LIMITS['invitation'])
 @require_auth
 def decline_invitation(invitation_id):
     """Decline a group invitation"""
     user_id = get_current_user_id()
     
     try:
-        iid = int(invitation_id)
+        iid = invitation_id
     except (ValueError, TypeError):
-        return jsonify({'success': False, 'error': 'Invalid invitation ID'}), 400
+        return error_response('Invalid invitation ID')
     
     success, result = invitation_service_sql.decline_invitation(iid, user_id)
     
     if success:
-        return jsonify({'success': True, **result}), 200
+        invalidate_cache('exp_invitations:*')
+        invalidate_cache('auth:bootstrap:*')
+        return success_response(data=result)
     else:
-        return jsonify({'success': False, **result}), 400
+        return error_response(result.get('error', 'Failed to decline invitation'))
