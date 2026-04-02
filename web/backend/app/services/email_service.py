@@ -10,6 +10,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from typing import Optional
 
+import pybreaker
+from app.core.config import Config
+from app.core.resilience import smtp_breaker
 # Load environment variables at module import
 from dotenv import load_dotenv
 
@@ -24,12 +27,12 @@ class EmailService:
     def __init__(self):
         """Initialize email service with configuration"""
         self.enabled = os.getenv('EMAIL_ENABLED', 'false').lower() == 'true'
-        self.smtp_host = os.getenv('SMTP_HOST', 'smtp.gmail.com')
-        self.smtp_port = int(os.getenv('SMTP_PORT', '587'))
-        self.smtp_user = os.getenv('SMTP_USER', '')
-        self.smtp_password = os.getenv('SMTP_PASSWORD', '')
-        self.from_email = os.getenv('FROM_EMAIL', self.smtp_user)
-        self.from_name = os.getenv('FROM_NAME', 'TripRaft')
+        self.smtp_host = Config.SMTP_HOST
+        self.smtp_port = Config.SMTP_PORT
+        self.smtp_user = Config.SMTP_USER
+        self.smtp_password = Config.SMTP_PASSWORD
+        self.from_email = Config.FROM_EMAIL or self.smtp_user
+        self.from_name = Config.APP_NAME
         
         if not self.enabled:
             logger.info("Email service is disabled")
@@ -77,14 +80,20 @@ class EmailService:
             msg.attach(part2)
             
             # Send email
-            with smtplib.SMTP(self.smtp_host, self.smtp_port) as server:
-                server.starttls()
-                server.login(self.smtp_user, self.smtp_password)
-                server.send_message(msg)
+            def _send():
+                with smtplib.SMTP(self.smtp_host, self.smtp_port, timeout=Config.SMTP_TIMEOUT) as server:
+                    server.starttls()
+                    server.login(self.smtp_user, self.smtp_password)
+                    server.send_message(msg)
+
+            smtp_breaker.call(_send)
             
             logger.info(f"Email sent to {to_email}: {subject}")
             return True
-            
+
+        except pybreaker.CircuitBreakerError:
+            logger.warning(f"SMTP circuit breaker open, email to {to_email} not sent")
+            return False            
         except Exception as e:
             logger.error(f"Failed to send email to {to_email}: {str(e)}")
             return False
@@ -108,7 +117,7 @@ class EmailService:
         Returns:
             True if sent successfully, False otherwise
         """
-        frontend_url = os.getenv('FRONTEND_URL', 'http://localhost:5173')
+        frontend_url = Config.FRONTEND_URL
         invitation_link = f"{frontend_url}/invitations?id={invitation_id}"
         
         subject = f"{inviter_name} invited you to join '{group_name}'"
@@ -132,7 +141,7 @@ class EmailService:
                 </p>
                 <hr style="border: none; border-top: 1px solid #e5e7eb; margin: 30px 0;">
                 <p style="color: #9ca3af; font-size: 12px;">
-                    This invitation was sent from TripRaft. If you didn't expect this invitation, you can safely ignore this email.
+                    This invitation was sent from {Config.APP_NAME}. If you didn't expect this invitation, you can safely ignore this email.
                 </p>
             </div>
         </body>
@@ -149,7 +158,7 @@ class EmailService:
         Accept invitation: {invitation_link}
         
         ---
-        This invitation was sent from TripRaft. If you didn't expect this invitation, you can safely ignore this email.
+        This invitation was sent from {Config.APP_NAME}. If you didn't expect this invitation, you can safely ignore this email.
         """
         
         return self.send_email(to_email, subject, html_body, text_body)
