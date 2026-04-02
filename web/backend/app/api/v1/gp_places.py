@@ -1,13 +1,22 @@
-﻿"""
+"""
 Place Routes for Group Planner
 Flask API routes for place operations
 """
 
 import logging
 
-from flask import Blueprint, g, jsonify, request
-from app.infrastructure.auth.decorators import require_auth
+from app.api.utils.responses import (created_response, error_response,
+                                     not_found_response, success_response,
+                                     validation_error_response)
+from app.api.utils.validators import validate_schema
+from app.core.config import Config
+from app.core.rate_limiter import limit_api
+from app.infrastructure.auth.decorators import require_auth, require_group_role
+from app.infrastructure.cache.redis import cache_response, invalidate_cache
 from app.schemas.common import AddPlaceSchema, validate_request
+from app.schemas.gp_places import (GeocodeSchema, UpdatePlaceRemarksSchema,
+                                   UpdatePlaceSchema)
+from flask import Blueprint, g, request
 
 logger = logging.getLogger(__name__)
 
@@ -15,7 +24,7 @@ logger = logging.getLogger(__name__)
 places_bp = Blueprint(
     'gp_places',  # Unique name for Group Planner
     __name__,
-    url_prefix='/api/v2/group-planner'
+    url_prefix='/api/v1/group-planner'
 )
 
 
@@ -23,8 +32,10 @@ places_bp = Blueprint(
 # PLACE ENDPOINTS
 # =========================================================================
 
-@places_bp.route('/groups/<int:group_id>/places', methods=['POST', 'OPTIONS'])
+@places_bp.route('/groups/<group_id>/places', methods=['POST', 'OPTIONS'])
+@limit_api(Config.RATE_LIMITS['create'])
 @require_auth
+@require_group_role('member')
 def add_place(group_id):
     """
     Add a place to the group
@@ -40,7 +51,7 @@ def add_place(group_id):
         }
     """
     if request.method == 'OPTIONS':
-        return jsonify({'success': True}), 200
+        return success_response()
     
     try:
         from app.services.travel_place_service import place_service
@@ -48,18 +59,11 @@ def add_place(group_id):
         data = request.get_json()
         
         if not data:
-            return jsonify({
-                'success': False,
-                'error': 'Request body required'
-            }), 400
+            return error_response('Request body required')
         
         validated, errors = validate_request(AddPlaceSchema, data)
         if errors:
-            return jsonify({
-                'success': False,
-                'error': 'Validation failed',
-                'details': errors
-            }), 400
+            return validation_error_response(errors)
         
         success, result = place_service.add_place(
             group_id=group_id,
@@ -79,51 +83,64 @@ def add_place(group_id):
         
         if success:
             logger.info(f"Place added to group {group_id}")
-            return jsonify({'success': True, 'data': result.get('place')}), 201
+            invalidate_cache('gp_places:*')
+            invalidate_cache('gp_groups:*')
+            return created_response(data=result.get('place'))
         else:
             status = 409 if result.get('code') == 'PLACE_ALREADY_EXISTS' else 400
-            return jsonify({'success': False, 'error': result.get('error'), 'code': result.get('code')}), status
+            return error_response(result.get('error'), status)
             
     except Exception as e:
         logger.error(f"Add place error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to add place'
-        }), 500
+        return error_response('Failed to add place', 500)
 
 
-@places_bp.route('/groups/<int:group_id>/places', methods=['GET'])
+@places_bp.route('/groups/<group_id>/places', methods=['GET'])
+@limit_api(Config.RATE_LIMITS['read_light'])
 @require_auth
+@cache_response(key_prefix='gp_places:list', ttl=Config.CACHE_TTLS['group_list'], vary_on_user=True)
 def get_places(group_id):
     """
-    Get all places for a group
+    Get places for a group (paginated)
     
     Request:
-        GET /api/v2/group-planner/groups/<group_id>/places
+        GET /api/v2/group-planner/groups/<group_id>/places?page=1&per_page=20
         Headers: Authorization: Bearer <token>
     """
     try:
         from app.services.travel_place_service import place_service
         
+        page = request.args.get('page', 1, type=int)
+        per_page = min(request.args.get('per_page', Config.GP_DEFAULT_LIMIT, type=int), 100)
+        
         success, result = place_service.get_places(
             group_id=group_id,
-            user_id=g.user_id
+            user_id=g.user_id,
+            page=page,
+            per_page=per_page,
+            q=request.args.get('q'),
+            category=request.args.get('category'),
+            visit_date_from=request.args.get('visit_date_from'),
+            visit_date_to=request.args.get('visit_date_to'),
+            sort_by=request.args.get('sort_by', 'created_at'),
+            sort_order=request.args.get('sort_order', 'desc')
         )
         
         if success:
-            return jsonify({'success': True, 'data': result.get('places', [])}), 200
+            return success_response(
+                data=result.get('places', []),
+                pagination=result.get('pagination')
+            )
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Get places error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to get places'
-        }), 500
+        return error_response('Failed to get places', 500)
 
 
-@places_bp.route('/groups/<int:group_id>/places/<int:place_id>/vote', methods=['POST', 'OPTIONS'])
+@places_bp.route('/groups/<group_id>/places/<place_id>/vote', methods=['POST', 'OPTIONS'])
+@limit_api(Config.RATE_LIMITS['update'])
 @require_auth
 def vote_place(group_id, place_id):
     """
@@ -134,7 +151,7 @@ def vote_place(group_id, place_id):
         Headers: Authorization: Bearer <token>
     """
     if request.method == 'OPTIONS':
-        return jsonify({'success': True}), 200
+        return success_response()
     
     try:
         from app.services.travel_place_service import place_service
@@ -146,20 +163,20 @@ def vote_place(group_id, place_id):
         )
         
         if success:
-            return jsonify({'success': True, 'data': result}), 200
+            invalidate_cache('gp_places:*')
+            return success_response(data=result)
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Vote place error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to vote on place'
-        }), 500
+        return error_response('Failed to vote on place', 500)
 
 
-@places_bp.route('/groups/<int:group_id>/places/<int:place_id>', methods=['PATCH', 'OPTIONS'])
+@places_bp.route('/groups/<group_id>/places/<place_id>', methods=['PATCH', 'OPTIONS'])
+@limit_api(Config.RATE_LIMITS['update'])
 @require_auth
+@validate_schema(UpdatePlaceSchema)
 def update_place(group_id, place_id):
     """
     Update place details
@@ -178,26 +195,19 @@ def update_place(group_id, place_id):
         }
     """
     if request.method == 'OPTIONS':
-        return jsonify({'success': True}), 200
+        return success_response()
     
     try:
         from app.services.travel_place_service import place_service
         
-        data = request.get_json()
+        data = g.validated_data
         
         # Support both backend and frontend field names
-        visit_date = data.get('visit_date') or data.get('date')
-        suggested_duration = data.get('suggested_duration') or data.get('duration')
-        remarks = data.get('remarks') or data.get('notes')
-        visit_time = data.get('time')  # Optional time field
-        
-        # Combine date and time if both provided
-        if visit_date and visit_time:
-            remarks_prefix = f"Time: {visit_time}"
-            if remarks:
-                remarks = f"{remarks_prefix}\n{remarks}"
-            else:
-                remarks = remarks_prefix
+        # Use 'in' checks so empty strings (field clearing) are not swallowed by 'or'
+        visit_date = data['visit_date'] if 'visit_date' in data else data.get('date')
+        suggested_duration = data['suggested_duration'] if 'suggested_duration' in data else data.get('duration')
+        remarks = data['remarks'] if 'remarks' in data else data.get('notes')
+        suggested_time = data['suggested_time'] if 'suggested_time' in data else data.get('time')
         
         success, result = place_service.update_place(
             group_id=group_id,
@@ -205,24 +215,27 @@ def update_place(group_id, place_id):
             user_id=g.user_id,
             visit_date=visit_date,
             suggested_duration=suggested_duration,
-            remarks=remarks
+            remarks=remarks,
+            suggested_time=suggested_time,
+            expected_updated_at=data.get('expected_updated_at')
         )
         
         if success:
-            return jsonify({'success': True, 'data': result.get('place')}), 200
+            invalidate_cache('gp_places:*')
+            return success_response(data=result.get('place'))
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            status = result.get('status', 400)
+            return error_response(result.get('error'), status)
             
     except Exception as e:
         logger.error(f"Update place error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to update place'
-        }), 500
+        return error_response('Failed to update place', 500)
 
 
-@places_bp.route('/groups/<int:group_id>/places/<int:place_id>/remarks', methods=['PUT', 'OPTIONS'])
+@places_bp.route('/groups/<group_id>/places/<place_id>/remarks', methods=['PUT', 'OPTIONS'])
+@limit_api(Config.RATE_LIMITS['update'])
 @require_auth
+@validate_schema(UpdatePlaceRemarksSchema)
 def update_remarks(group_id, place_id):
     """
     Update place remarks
@@ -235,12 +248,12 @@ def update_remarks(group_id, place_id):
         }
     """
     if request.method == 'OPTIONS':
-        return jsonify({'success': True}), 200
+        return success_response()
     
     try:
         from app.services.travel_place_service import place_service
         
-        data = request.get_json()
+        data = g.validated_data
         remarks = data.get('remarks', '')
         
         success, result = place_service.update_remarks(
@@ -251,26 +264,23 @@ def update_remarks(group_id, place_id):
         )
         
         if success:
-            return jsonify({
-                'success': True,
-                'data': {
-                    'place_id': str(place_id),
-                    'remarks': remarks
-                }
-            }), 200
+            invalidate_cache('gp_places:*')
+            return success_response(data={
+                'place_id': str(place_id),
+                'remarks': remarks
+            })
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Update remarks error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to update remarks'
-        }), 500
+        return error_response('Failed to update remarks', 500)
 
 
-@places_bp.route('/groups/<int:group_id>/places/<int:place_id>', methods=['DELETE', 'OPTIONS'])
+@places_bp.route('/groups/<group_id>/places/<place_id>', methods=['DELETE', 'OPTIONS'])
+@limit_api(Config.RATE_LIMITS['delete'])
 @require_auth
+@require_group_role('member')
 def delete_place(group_id, place_id):
     """
     Delete a place
@@ -280,7 +290,7 @@ def delete_place(group_id, place_id):
         Headers: Authorization: Bearer <token>
     """
     if request.method == 'OPTIONS':
-        return jsonify({'success': True}), 200
+        return success_response()
     
     try:
         from app.services.travel_place_service import place_service
@@ -292,16 +302,15 @@ def delete_place(group_id, place_id):
         )
         
         if success:
-            return jsonify({'success': True, 'message': result.get('message')}), 200
+            invalidate_cache('gp_places:*')
+            invalidate_cache('gp_groups:*')
+            return success_response(message=result.get('message'))
         else:
-            return jsonify({'success': False, 'error': result.get('error')}), 400
+            return error_response(result.get('error'))
             
     except Exception as e:
         logger.error(f"Delete place error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Failed to delete place'
-        }), 500
+        return error_response('Failed to delete place', 500)
 
 
 # =========================================================================
@@ -309,6 +318,9 @@ def delete_place(group_id, place_id):
 # =========================================================================
 
 @places_bp.route('/geocode', methods=['POST', 'OPTIONS'])
+@limit_api(Config.RATE_LIMITS['geocode'])
+@require_auth
+@validate_schema(GeocodeSchema)
 def geocode_place():
     """
     Proxy geocoding requests to Nominatim
@@ -318,22 +330,19 @@ def geocode_place():
         Body: {"place_name": "Tokyo Tower"}
     """
     if request.method == 'OPTIONS':
-        return jsonify({'success': True}), 200
+        return success_response()
     
     try:
+        import pybreaker
         import requests
+        from app.core.resilience import nominatim_breaker
         
-        data = request.get_json()
-        place_name = data.get('place_name', '').strip()
+        data = g.validated_data
+        place_name = data['place_name'].strip()
         
-        if not place_name:
-            return jsonify({
-                'success': False,
-                'error': 'Place name is required'
-            }), 400
-        
-        response = requests.get(
-            'https://nominatim.openstreetmap.org/search',
+        response = nominatim_breaker.call(
+            requests.get,
+            Config.NOMINATIM_BASE_URL,
             params={
                 'format': 'json',
                 'q': place_name,
@@ -341,37 +350,28 @@ def geocode_place():
                 'accept-language': 'en'
             },
             headers={
-                'User-Agent': 'TripRaft/1.0 (contact@tripraft.com)'
+                'User-Agent': Config.NOMINATIM_USER_AGENT
             },
-            timeout=5
+            timeout=Config.NOMINATIM_TIMEOUT
         )
         
         if response.status_code == 200:
             results = response.json()
             if results:
                 result = results[0]
-                return jsonify({
-                    'success': True,
-                    'data': {
-                        'lat': float(result['lat']),
-                        'lon': float(result['lon']),
-                        'display_name': result['display_name']
-                    }
-                }), 200
+                return success_response(data={
+                    'lat': float(result['lat']),
+                    'lon': float(result['lon']),
+                    'display_name': result['display_name']
+                })
             else:
-                return jsonify({
-                    'success': False,
-                    'error': 'No results found'
-                }), 404
+                return not_found_response('No results found')
         else:
-            return jsonify({
-                'success': False,
-                'error': f'Geocoding service error'
-            }), 500
+            return error_response('Geocoding service error', 500)
             
+    except pybreaker.CircuitBreakerError:
+        logger.warning("Nominatim circuit breaker is open")
+        return error_response('Geocoding service temporarily unavailable', 503)
     except Exception as e:
         logger.error(f"Geocode error: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': 'Geocoding failed'
-        }), 500
+        return error_response('Geocoding failed', 500)
