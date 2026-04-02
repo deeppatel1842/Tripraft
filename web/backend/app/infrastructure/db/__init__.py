@@ -6,15 +6,22 @@ Database Infrastructure Package
 - travel_db.py   — sqlite3 manager for travel_data_complete.db (read-only)
 """
 from .base import Base
-from .connection import (DATABASE_URL, SessionLocal, db, engine, get_db,
-                         get_db_session, init_db, reset_db)
+from .connection import (DATABASE_URL, TRAVEL_DATA_TABLES, TRAVEL_DATA_URL,
+                         RoutingSession, RoutingSessionLocal, SessionLocal, db,
+                         engine, get_db, get_db_session, init_db, reset_db,
+                         travel_engine)
 
 __all__ = [
     'Base',
     'DATABASE_URL',
+    'TRAVEL_DATA_URL',
+    'TRAVEL_DATA_TABLES',
     'SessionLocal',
+    'RoutingSession',
+    'RoutingSessionLocal',
     'db',
     'engine',
+    'travel_engine',
     'get_db',
     'get_db_session',
     'init_db',
