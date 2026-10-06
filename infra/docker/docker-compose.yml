@@ -1,0 +1,63 @@
+# Purpose: Runs local PostgreSQL, Redis, API, and optional worker with persistent database/catalog/upload volumes.
+name: tripraft
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: tripraft
+      POSTGRES_USER: tripraft
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-local-development-only}
+    ports: ["127.0.0.1:5432:5432"]
+    volumes: ["postgres-data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tripraft -d tripraft"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  redis:
+    image: redis:7-alpine
+    ports: ["127.0.0.1:6379:6379"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  api:
+    build:
+      context: ../../services/api
+    ports: ["127.0.0.1:5000:5000"]
+    environment:
+      FLASK_ENV: development
+      SECRET_KEY: ${SECRET_KEY:-local-development-only-change-before-deployment}
+      DATABASE_URL: postgresql://tripraft:${POSTGRES_PASSWORD:-local-development-only}@postgres:5432/tripraft
+      REDIS_URL: redis://redis:6379/0
+      TRAVEL_DATABASE_DIR: /app/catalog
+      CATALOG_SEED_PATH: /data/catalog/travel_data_complete.db
+      CORS_ORIGINS: http://localhost:5173,http://localhost:5174
+      ADMIN_EMAILS: ${ADMIN_EMAILS:-}
+      GUNICORN_WORKERS: "1"
+    volumes:
+      - ../../data/catalog:/data/catalog:ro
+      - catalog-data:/app/catalog
+      - uploads:/app/uploads
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+  worker:
+    profiles: ["workers"]
+    build:
+      context: ../../services/api
+    environment:
+      FLASK_ENV: development
+      SECRET_KEY: ${SECRET_KEY:-local-development-only-change-before-deployment}
+      DATABASE_URL: postgresql://tripraft:${POSTGRES_PASSWORD:-local-development-only}@postgres:5432/tripraft
+      REDIS_URL: redis://redis:6379/0
+      TRAVEL_DATABASE_DIR: /app/catalog
+    volumes: ["catalog-data:/app/catalog"]
+    depends_on:
+      api: { condition: service_healthy }
+    command: ["celery", "-A", "app.core.workers.celery_app:celery_app", "worker", "--loglevel=info"]
+volumes:
+  postgres-data:
+  catalog-data:
+  uploads:

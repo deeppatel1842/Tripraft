@@ -1,0 +1,37 @@
+# Purpose: Canonical CI: install locked dependencies, check source, run tests/builds, and verify generated API declarations.
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: services/api/requirements*.txt
+      - run: pnpm install --frozen-lockfile
+      - run: pip install -r services/api/requirements.txt -r services/api/requirements-dev.txt
+      - run: pnpm verify
+      - name: Verify generated API declarations
+        run: |
+          python infra/tools/export_openapi.py
+          pnpm api:generate
+          git diff --exit-code services/api/openapi.json packages/api-client/src/generated/schema.d.ts
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tripraft-frontends
+          path: |
+            apps/web/dist
+            apps/admin/dist

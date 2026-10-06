@@ -1,67 +1,29 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-env/
-venv/
-.venv/
-wayfinder/
-*.egg-info/
-
-# Environment files (secrets)
-.env
-.env.local
-
-# Node
+# Purpose: Excludes local settings, secrets, data, dependencies, build output, and archived extras from publication.
 node_modules/
 dist/
-
-# Database files
-web/database/*.db
-!web/database/travel_data_complete.db
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
+.turbo/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+.tripraft/
+.env
+.env.*
+!.env.example
 *.log
 logs/
-
-# Build artifacts
-build/
+data/runtime/
+services/api/uploads/
+extra/
 *.rar
-
-# Temporary planning files
-COMMIT_PLAN.md
-commit_all.ps1
-
-# LLM context files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
 .llm
 **/.llm
-
-# Folders NOT needed in repo
-future_plan/
-new_future_plan/
-new/
-updated/
-tripraft/
-web/backend/unwanted/
-web/backend/.llm
-web/frontend/.llm
-web/frontend/src.rar
-web/backend/.pytest_cache/
-web/backend/tests/
-
-# Uploaded user files (binary, user-generated)
-web/backend/uploads/
-
-# Scripts database (generated, not source)
-web/backend/scripts/database/

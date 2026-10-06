@@ -1,0 +1,8 @@
+# Purpose: Declares application, API, and shared-package workspace membership and permitted dependency build scripts.
+packages:
+  - apps/*
+  - services/api
+  - packages/*
+onlyBuiltDependencies:
+  - esbuild
+  - unrs-resolver

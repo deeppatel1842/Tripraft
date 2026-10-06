@@ -1,0 +1,46 @@
+# Purpose: Canonical release workflow: verify source, then call the configured staging or production deployment hook.
+name: Deploy
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pnpm install --frozen-lockfile
+      - run: pip install -r services/api/requirements.txt -r services/api/requirements-dev.txt
+      - run: pnpm verify
+  deploy:
+    if: ${{ vars.DEPLOY_HOOKS_ENABLED == 'true' }}
+    needs: verify
+    runs-on: ubuntu-latest
+    environment: ${{ startsWith(github.ref, 'refs/tags/v') && 'production' || 'staging' }}
+    steps:
+      - name: Trigger configured hosting provider
+        env:
+          PRODUCTION_DEPLOY_HOOK: ${{ secrets.PRODUCTION_DEPLOY_HOOK }}
+          STAGING_DEPLOY_HOOK: ${{ secrets.STAGING_DEPLOY_HOOK }}
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then
+            DEPLOY_HOOK="$PRODUCTION_DEPLOY_HOOK"
+          else
+            DEPLOY_HOOK="$STAGING_DEPLOY_HOOK"
+          fi
+          if [ -z "$DEPLOY_HOOK" ]; then
+            echo 'Configure the environment deployment hook before enabling releases.'
+            exit 1
+          fi
+          curl --fail --silent --show-error --request POST "$DEPLOY_HOOK" --output /dev/null

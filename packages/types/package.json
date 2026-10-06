@@ -1,0 +1,6 @@
+{
+  "name": "@tripraft/types", "version": "0.1.0", "private": true, "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "devDependencies": { "@tripraft/config": "workspace:*" },
+  "scripts": { "typecheck": "tsc -p tsconfig.json", "lint": "eslint src" }
+}

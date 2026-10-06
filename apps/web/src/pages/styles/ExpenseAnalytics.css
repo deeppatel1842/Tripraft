@@ -1,0 +1,198 @@
+/* Purpose: Styles the Expense Analytics interface, including its layout and interaction states. */
+/* Expense Analytics Dashboard Styles */
+
+.expense-analytics-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.analytics-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.analytics-header h1 {
+  margin: 0;
+  color: #667eea;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.analytics-header h1 i {
+  font-size: 1.5rem;
+}
+
+.back-button,
+.refresh-button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover,
+.refresh-button:hover {
+  background: #5568d3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.analytics-info {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 15px 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.analytics-info p {
+  margin: 0;
+  color: #666;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.analytics-info i {
+  color: #667eea;
+  font-size: 1.2rem;
+}
+
+.analytics-frame-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: calc(100vh - 200px);
+}
+
+.analytics-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Loading State */
+.expense-analytics-loading {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.expense-analytics-loading p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Error State */
+.expense-analytics-error,
+.expense-analytics-denied {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.expense-analytics-error i,
+.expense-analytics-denied i {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.expense-analytics-error h2,
+.expense-analytics-denied h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.expense-analytics-error p,
+.expense-analytics-denied p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.expense-analytics-error button,
+.expense-analytics-denied button {
+  background: white;
+  color: #667eea;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.expense-analytics-error button:hover,
+.expense-analytics-denied button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .analytics-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .analytics-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .back-button,
+  .refresh-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .analytics-frame-container {
+    height: calc(100vh - 280px);
+  }
+}

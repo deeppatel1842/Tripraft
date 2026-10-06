@@ -1,0 +1,139 @@
+/* Purpose: Fetches autocomplete suggestions and ignores cancelled or stale responses. */
+/**
+ * SearchBar Styles
+ */
+
+.search-bar {
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+  z-index: 100;
+}
+
+.search-bar-form {
+  position: relative;
+}
+
+.search-bar-input-wrapper {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 4px;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.search-bar-input-wrapper.focused {
+  border-color: #a855f7;
+  box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.1);
+}
+
+.search-bar-icon {
+  padding: 0 16px;
+  color: #6b7280;
+  font-size: 18px;
+}
+
+.search-bar-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 14px 8px;
+  font-size: 16px;
+  font-family: inherit;
+  background: transparent;
+  color: #1f2937;
+}
+
+.search-bar-input::placeholder {
+  color: #9ca3af;
+}
+
+.search-bar-loader {
+  padding: 0 12px;
+}
+
+.loader-spinner {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #e5e7eb;
+  border-top-color: #a855f7;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+.search-bar-clear {
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.search-bar-clear:hover {
+  color: #6b7280;
+}
+
+.search-bar-submit {
+  padding: 14px 28px;
+  background: #a855f7;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.search-bar-submit:hover:not(:disabled) {
+  background: #9333ea;
+  transform: translateY(-1px);
+}
+
+.search-bar-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 640px) {
+  .search-bar-input-wrapper {
+    flex-wrap: wrap;
+    padding: 8px;
+  }
+
+  .search-bar-icon {
+    padding: 0 12px;
+    font-size: 16px;
+  }
+
+  .search-bar-input {
+    flex: 1 1 100%;
+    padding: 12px 8px;
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+
+  .search-bar-submit {
+    flex: 1 1 100%;
+    margin-top: 8px;
+    padding: 12px 24px;
+  }
+
+  .search-bar-clear {
+    position: absolute;
+    right: 8px;
+    top: 20px;
+  }
+}

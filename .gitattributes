@@ -1,0 +1,5 @@
+# Purpose: Keeps shell/workflow line endings portable and treats SQLite catalogs as binary data.
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.db binary

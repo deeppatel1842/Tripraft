@@ -1,0 +1,4054 @@
+{
+  "components": {
+    "schemas": {
+      "AuditData": {
+        "properties": {
+          "logs": {
+            "items": {
+              "$ref": "#/components/schemas/AuditRecord"
+            },
+            "type": "array"
+          },
+          "total": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "total",
+          "logs"
+        ],
+        "type": "object"
+      },
+      "AuditRecord": {
+        "properties": {
+          "action": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "entity_type": {
+            "type": "string"
+          },
+          "id": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "ingested_by": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "AuditResponse": {
+        "properties": {
+          "data": {
+            "$ref": "#/components/schemas/AuditData"
+          },
+          "message": {
+            "type": "string"
+          },
+          "success": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "success",
+          "data"
+        ],
+        "type": "object"
+      },
+      "Health": {
+        "properties": {
+          "checks": {
+            "additionalProperties": {
+              "properties": {
+                "error": {
+                  "type": "string"
+                },
+                "note": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "status"
+              ],
+              "type": "object"
+            },
+            "type": "object"
+          },
+          "service": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "timestamp": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "status",
+          "timestamp"
+        ],
+        "type": "object"
+      },
+      "MeResponse": {
+        "properties": {
+          "data": {
+            "properties": {
+              "user": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "required": [
+              "user"
+            ],
+            "type": "object"
+          },
+          "message": {
+            "type": "string"
+          },
+          "success": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "success",
+          "data"
+        ],
+        "type": "object"
+      },
+      "User": {
+        "properties": {
+          "display_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "email": {
+            "type": "string"
+          },
+          "id": {
+            "format": "uuid",
+            "type": "string"
+          },
+          "is_admin": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "email",
+          "is_admin"
+        ],
+        "type": "object"
+      }
+    },
+    "securitySchemes": {
+      "cookieAuth": {
+        "in": "cookie",
+        "name": "access_token",
+        "type": "apiKey"
+      }
+    }
+  },
+  "info": {
+    "description": "Route inventory with explicit operations schemas for the admin client. Unspecified payloads remain unknown.",
+    "title": "TripRaft API",
+    "version": "2.0.0"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/api/health/": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "health_liveness_get_api_health",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            },
+            "description": "Response"
+          },
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/health/live": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "health_liveness_get_api_health_live",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            },
+            "description": "Response"
+          },
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/health/ready": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "health_readiness_get_api_health_ready",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            },
+            "description": "Response"
+          },
+          "503": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            },
+            "description": "Response"
+          },
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/admin/audit": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "admin_places_get_audit_log_get_api_v1_admin_audit",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "limit",
+            "schema": {
+              "minimum": 0,
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "offset",
+            "schema": {
+              "minimum": 0,
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuditResponse"
+                }
+              }
+            },
+            "description": "Response"
+          },
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        },
+        "security": [
+          {
+            "cookieAuth": []
+          }
+        ]
+      }
+    },
+    "/api/v1/admin/cities": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "admin_places_create_city_post_api_v1_admin_cities",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/admin/countries": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "admin_places_create_country_post_api_v1_admin_countries",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/admin/photos": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "admin_places_create_photo_post_api_v1_admin_photos",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/admin/places": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "admin_places_create_place_post_api_v1_admin_places",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/admin/places/bulk": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "admin_places_bulk_ingest_places_post_api_v1_admin_places_bulk",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/admin/places/import": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "admin_places_import_places_post_api_v1_admin_places_import",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/admin/places/validate": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "admin_places_validate_places_post_api_v1_admin_places_validate",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/admin/places/{place_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "admin_places_delete_place_delete_api_v1_admin_places_place_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "place_id",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "put": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "admin_places_update_place_put_api_v1_admin_places_place_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "place_id",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/admin/states": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "admin_places_create_state_post_api_v1_admin_states",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/admin/tags": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "admin_places_create_tag_post_api_v1_admin_tags",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/change-password": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_change_password_post_api_v1_auth_change_password",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/check-email": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_check_email_post_api_v1_auth_check_email",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/login": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_login_post_api_v1_auth_login",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/logout": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_logout_post_api_v1_auth_logout",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/logout-all": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_logout_all_post_api_v1_auth_logout_all",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/me": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_get_me_get_api_v1_auth_me",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MeResponse"
+                }
+              }
+            },
+            "description": "Response"
+          },
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        },
+        "security": [
+          {
+            "cookieAuth": []
+          }
+        ]
+      },
+      "put": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_update_me_put_api_v1_auth_me",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/mega-bootstrap": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_mega_bootstrap_get_api_v1_auth_mega_bootstrap",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/refresh": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_refresh_token_post_api_v1_auth_refresh",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/resend-verification": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_resend_verification_post_api_v1_auth_resend_verification",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/signup": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_signup_post_api_v1_auth_signup",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/user/profile": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_get_user_profile_get_api_v1_auth_user_profile",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "put": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_update_user_profile_put_api_v1_auth_user_profile",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/auth/verify-email": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "auth_verify_email_get_api_v1_auth_verify_email",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "expenses_sql_list_expenses_get_api_v1_expenses",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "expenses_sql_create_expense_post_api_v1_expenses",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/group/{group_id}": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "expenses_sql_get_group_expenses_get_api_v1_expenses_group_group_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/groups": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "groups_sql_get_my_groups_get_api_v1_expenses_groups",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "groups_sql_create_group_post_api_v1_expenses_groups",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/groups/join": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "groups_sql_join_group_post_api_v1_expenses_groups_join",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/groups/{group_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "groups_sql_delete_group_delete_api_v1_expenses_groups_group_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "groups_sql_get_group_get_api_v1_expenses_groups_group_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "put": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "groups_sql_update_group_put_api_v1_expenses_groups_group_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/groups/{group_id}/full": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "groups_sql_get_group_full_get_api_v1_expenses_groups_group_id_full",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/groups/{group_id}/leave": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "groups_sql_leave_group_post_api_v1_expenses_groups_group_id_leave",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/groups/{group_id}/members": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "groups_sql_get_group_members_get_api_v1_expenses_groups_group_id_members",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "groups_sql_add_member_post_api_v1_expenses_groups_group_id_members",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/groups/{group_id}/members/{member_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "groups_sql_remove_member_delete_api_v1_expenses_groups_group_id_members_member_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "member_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/invitations": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "invitations_sql_get_user_invitations_get_api_v1_expenses_invitations",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "invitations_sql_send_invitation_post_api_v1_expenses_invitations",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/invitations/groups/{group_id}": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "invitations_sql_get_group_invitations_get_api_v1_expenses_invitations_groups_group_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/invitations/{invitation_id}/accept": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "invitations_sql_accept_invitation_post_api_v1_expenses_invitations_invitation_id_accept",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "invitation_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/invitations/{invitation_id}/decline": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "invitations_sql_decline_invitation_post_api_v1_expenses_invitations_invitation_id_decline",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "invitation_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/me": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "expenses_sql_get_my_expenses_get_api_v1_expenses_me",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/personal": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "expenses_sql_get_personal_expenses_get_api_v1_expenses_personal",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/settlements": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "settlements_sql_create_settlement_post_api_v1_expenses_settlements",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/settlements/group/{group_id}": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "settlements_sql_get_group_settlements_get_api_v1_expenses_settlements_group_group_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/settlements/group/{group_id}/balances": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "settlements_sql_get_group_balances_get_api_v1_expenses_settlements_group_group_id_balances",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/settlements/group/{group_id}/simplified": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "settlements_sql_get_simplified_debts_get_api_v1_expenses_settlements_group_group_id_simplified",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/settlements/me/balance": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "settlements_sql_get_my_balance_get_api_v1_expenses_settlements_me_balance",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/settlements/{settlement_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "settlements_sql_delete_settlement_delete_api_v1_expenses_settlements_settlement_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "settlement_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "settlements_sql_get_settlement_get_api_v1_expenses_settlements_settlement_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "settlement_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/user": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "expenses_sql_get_user_expenses_flexible_get_api_v1_expenses_user",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/{expense_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "expenses_sql_delete_expense_delete_api_v1_expenses_expense_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "expense_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "expenses_sql_get_expense_get_api_v1_expenses_expense_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "expense_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "put": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "expenses_sql_update_expense_put_api_v1_expenses_expense_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "expense_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/expenses/{expense_id}/history": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "expenses_sql_get_expense_history_get_api_v1_expenses_expense_id_history",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "expense_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/activities/{group_id}": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "group_planner_v2_get_group_activities_get_api_v1_group_planner_activities_group_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/auth/verify": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "group_planner_v2_verify_auth_post_api_v1_group_planner_auth_verify",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/checklist/{item_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_checklist_delete_checklist_item_delete_api_v1_group_planner_checklist_item_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "item_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "patch": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_checklist_update_checklist_item_patch_api_v1_group_planner_checklist_item_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "item_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "put": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_checklist_update_checklist_item_put_api_v1_group_planner_checklist_item_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "item_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/checklist/{item_id}/assign": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_checklist_assign_checklist_item_post_api_v1_group_planner_checklist_item_id_assign",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "item_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/checklist/{item_id}/toggle": {
+      "patch": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_checklist_toggle_checklist_item_patch_api_v1_group_planner_checklist_item_id_toggle",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "item_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_checklist_toggle_checklist_item_post_api_v1_group_planner_checklist_item_id_toggle",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "item_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/dashboard": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "group_planner_v2_get_dashboard_get_api_v1_group_planner_dashboard",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/destinations/autocomplete": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "group_planner_v2_autocomplete_destinations_get_api_v1_group_planner_destinations_autocomplete",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/destinations/{destination}/places": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "group_planner_v2_get_destination_places_get_api_v1_group_planner_destinations_destination_places",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "destination",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/destinations/{destination}/top-places": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "group_planner_v2_get_top_places_get_api_v1_group_planner_destinations_destination_top_places",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "destination",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/events": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_events_get_events_get_api_v1_group_planner_events",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/events/categories": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_events_get_event_categories_get_api_v1_group_planner_events_categories",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/geocode": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_places_geocode_place_post_api_v1_group_planner_geocode",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_create_group_post_api_v1_group_planner_groups",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/join": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_export_join_by_code_post_api_v1_group_planner_groups_join",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_delete_group_delete_api_v1_group_planner_groups_group_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_get_group_get_api_v1_group_planner_groups_group_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "put": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_update_group_put_api_v1_group_planner_groups_group_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/activities": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_get_group_activities_get_api_v1_group_planner_groups_group_id_activities",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/ai/confirm": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "ai_confirm_confirm_crew_action_post_api_v1_group_planner_groups_group_id_ai_confirm",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/ai/consent": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "ai_consent_revoke_consent_delete_api_v1_group_planner_groups_group_id_ai_consent",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "ai_consent_get_consent_status_get_api_v1_group_planner_groups_group_id_ai_consent",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "ai_consent_update_consent_post_api_v1_group_planner_groups_group_id_ai_consent",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/budget": {
+      "patch": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_update_budget_patch_api_v1_group_planner_groups_group_id_budget",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "put": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_update_budget_put_api_v1_group_planner_groups_group_id_budget",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/calendar.ics": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_export_export_ical_get_api_v1_group_planner_groups_group_id_calendar_ics",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/checklist": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_checklist_get_group_checklist_get_api_v1_group_planner_groups_group_id_checklist",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_checklist_add_checklist_item_post_api_v1_group_planner_groups_group_id_checklist",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/checklist/stats": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_checklist_get_checklist_stats_get_api_v1_group_planner_groups_group_id_checklist_stats",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/checklist/{item_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_checklist_delete_checklist_item_delete_api_v1_group_planner_groups_group_id_checklist_item_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "item_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/checklist/{item_id}/toggle": {
+      "patch": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_checklist_toggle_checklist_item_patch_api_v1_group_planner_groups_group_id_checklist_item_id_toggle",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "item_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_checklist_toggle_checklist_item_post_api_v1_group_planner_groups_group_id_checklist_item_id_toggle",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "item_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/clone": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_export_clone_group_post_api_v1_group_planner_groups_group_id_clone",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/events": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_events_get_events_get_api_v1_group_planner_groups_group_id_events",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/expense-summary": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_get_expense_summary_get_api_v1_group_planner_groups_group_id_expense_summary",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/export/pdf": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_export_export_pdf_get_api_v1_group_planner_groups_group_id_export_pdf",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/invitations": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_invitations_get_group_invitations_get_api_v1_group_planner_groups_group_id_invitations",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/itinerary": {
+      "put": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_update_itinerary_document_put_api_v1_group_planner_groups_group_id_itinerary",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/itinerary-document": {
+      "put": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_update_itinerary_document_put_api_v1_group_planner_groups_group_id_itinerary_document",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/leave": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_leave_group_post_api_v1_group_planner_groups_group_id_leave",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/link-expense": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_link_expense_group_post_api_v1_group_planner_groups_group_id_link_expense",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/members": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_get_group_members_get_api_v1_group_planner_groups_group_id_members",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/members/{member_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_remove_member_delete_api_v1_group_planner_groups_group_id_members_member_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "member_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/members/{member_id}/role": {
+      "patch": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_update_member_role_patch_api_v1_group_planner_groups_group_id_members_member_id_role",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "member_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/messages": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_chat_get_messages_get_api_v1_group_planner_groups_group_id_messages",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_chat_send_message_post_api_v1_group_planner_groups_group_id_messages",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/messages/read": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_chat_mark_read_post_api_v1_group_planner_groups_group_id_messages_read",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/places": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_places_get_places_get_api_v1_group_planner_groups_group_id_places",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_places_add_place_post_api_v1_group_planner_groups_group_id_places",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/places/{place_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_places_delete_place_delete_api_v1_group_planner_groups_group_id_places_place_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "place_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "patch": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_places_update_place_patch_api_v1_group_planner_groups_group_id_places_place_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "place_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/places/{place_id}/remarks": {
+      "put": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_places_update_remarks_put_api_v1_group_planner_groups_group_id_places_place_id_remarks",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "place_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/places/{place_id}/vote": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_places_vote_place_post_api_v1_group_planner_groups_group_id_places_place_id_vote",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "place_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/polls": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_polls_get_polls_get_api_v1_group_planner_groups_group_id_polls",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_polls_create_poll_post_api_v1_group_planner_groups_group_id_polls",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/polls/{poll_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_polls_delete_poll_delete_api_v1_group_planner_groups_group_id_polls_poll_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "poll_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/polls/{poll_id}/vote": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_polls_vote_poll_post_api_v1_group_planner_groups_group_id_polls_poll_id_vote",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "poll_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/unlink-expense": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_unlink_expense_group_post_api_v1_group_planner_groups_group_id_unlink_expense",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/unread-count": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_chat_get_unread_count_get_api_v1_group_planner_groups_group_id_unread_count",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/vault": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_vault_list_vault_files_get_api_v1_group_planner_groups_group_id_vault",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_vault_upload_vault_file_post_api_v1_group_planner_groups_group_id_vault",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/groups/{group_id}/vault/{doc_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_vault_delete_vault_file_delete_api_v1_group_planner_groups_group_id_vault_doc_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "doc_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_vault_download_vault_file_get_api_v1_group_planner_groups_group_id_vault_doc_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "doc_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "group_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/health": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "group_planner_v2_health_check_get_api_v1_group_planner_health",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/invitations": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_invitations_create_invitation_post_api_v1_group_planner_invitations",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/invitations/{invitation_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_invitations_cancel_invitation_delete_api_v1_group_planner_invitations_invitation_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "invitation_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_invitations_get_invitation_get_api_v1_group_planner_invitations_invitation_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "invitation_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/invitations/{invitation_id}/accept": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_invitations_accept_invitation_post_api_v1_group_planner_invitations_invitation_id_accept",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "invitation_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/invitations/{invitation_id}/decline": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_invitations_decline_invitation_post_api_v1_group_planner_invitations_invitation_id_decline",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "invitation_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/invitations/{invitation_id}/resend": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_invitations_resend_invitation_post_api_v1_group_planner_invitations_invitation_id_resend",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "invitation_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/messages/{message_id}": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_chat_delete_message_delete_api_v1_group_planner_messages_message_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "message_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/metrics": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "group_planner_v2_get_metrics_get_api_v1_group_planner_metrics",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/notifications": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_notifications_get_notifications_get_api_v1_group_planner_notifications",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/notifications/read-all": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_notifications_mark_all_notifications_read_post_api_v1_group_planner_notifications_read_all",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/notifications/{notification_id}/read": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_notifications_mark_notification_read_post_api_v1_group_planner_notifications_notification_id_read",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "notification_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/user/groups": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_groups_get_user_groups_get_api_v1_group_planner_user_groups",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/group-planner/user/invitations": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "gp_invitations_get_user_invitations_get_api_v1_group_planner_user_invitations",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/autocomplete": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_autocomplete_destinations_get_api_v1_locations_autocomplete",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/cities/search": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_search_cities_get_api_v1_locations_cities_search",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/cities/{city_id}": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_get_city_get_api_v1_locations_cities_city_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "city_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/cities/{city_id}/places": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_get_places_by_city_get_api_v1_locations_cities_city_id_places",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "city_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/countries": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_get_countries_get_api_v1_locations_countries",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/countries/search": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_search_countries_get_api_v1_locations_countries_search",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/countries/{country_id}": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_get_country_get_api_v1_locations_countries_country_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "country_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/countries/{country_id}/cities": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_get_cities_by_country_get_api_v1_locations_countries_country_id_cities",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "country_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/countries/{country_id}/states": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_get_states_by_country_get_api_v1_locations_countries_country_id_states",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "country_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/places/search": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_search_places_get_api_v1_locations_places_search",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/places/{place_id}": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_get_place_get_api_v1_locations_places_place_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "place_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/search": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_unified_search_get_api_v1_locations_search",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/states/{state_id}": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_get_state_get_api_v1_locations_states_state_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "state_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/states/{state_id}/cities": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_get_cities_by_state_get_api_v1_locations_states_state_id_cities",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "state_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/locations/suggested-places": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "locations_get_suggested_places_get_api_v1_locations_suggested_places",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/place-search": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "deprecated_api_v1_place-search_get_api_v1_place_search",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/place-search/{_subpath}": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "deprecated_api_v1_place-search_sub_get_api_v1_place_search_subpath",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "_subpath",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/places/autocomplete": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "place_search_autocomplete_get_api_v1_places_autocomplete",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/places/place/{place_id}": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "place_search_get_place_get_api_v1_places_place_place_id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "place_id",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/places/search": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "place_search_search_get_api_v1_places_search",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/places/stats": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "place_search_get_stats_get_api_v1_places_stats",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/trip-planner/cities": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "trip_planner_list_cities_get_api_v1_trip_planner_cities",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/trip-planner/cities/search": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "trip_planner_search_cities_get_api_v1_trip_planner_cities_search",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/trip-planner/generate": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "trip_planner_generate_trip_post_api_v1_trip_planner_generate",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/users/login": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "users_login_post_api_v1_users_login",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/users/logout": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "users_logout_post_api_v1_users_logout",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/users/me": {
+      "get": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "users_get_current_user_get_api_v1_users_me",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      },
+      "patch": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "users_update_profile_patch_api_v1_users_me",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/users/me/password": {
+      "put": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "users_change_password_put_api_v1_users_me_password",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/users/me/sessions": {
+      "delete": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "users_logout_all_sessions_delete_api_v1_users_me_sessions",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/users/refresh": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "users_refresh_token_post_api_v1_users_refresh",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    },
+    "/api/v1/users/register": {
+      "post": {
+        "description": "Registered route. Response payload is unspecified unless an explicit schema is attached.",
+        "operationId": "users_register_post_api_v1_users_register",
+        "responses": {
+          "default": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Response"
+          }
+        }
+      }
+    }
+  }
+}

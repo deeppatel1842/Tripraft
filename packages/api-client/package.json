@@ -1,0 +1,11 @@
+{
+  "name": "@tripraft/api-client", "version": "0.1.0", "private": true, "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "dependencies": { "openapi-fetch": "^0.14.0", "@tripraft/types": "workspace:*" },
+  "devDependencies": { "openapi-typescript": "7.13.0", "@tripraft/config": "workspace:*" },
+  "scripts": {
+    "generate": "openapi-typescript ../../services/api/openapi.json -o src/generated/schema.d.ts",
+    "typecheck": "tsc -p tsconfig.json",
+    "lint": "eslint src"
+  }
+}

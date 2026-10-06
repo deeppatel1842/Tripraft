@@ -1,0 +1,10 @@
+# Purpose: Configures dockerignore for services\api.
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+logs
+uploads
+.env
+tests
+*.db

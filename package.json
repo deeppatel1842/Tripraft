@@ -1,0 +1,29 @@
+{
+  "name": "tripraft",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.34.6",
+  "engines": { "node": ">=22", "pnpm": ">=10 <11" },
+  "scripts": {
+    "dev": "turbo run dev --filter=@tripraft/web --filter=@tripraft/admin",
+    "build": "turbo run build",
+    "test": "python -m unittest discover -s infra/tests -v && turbo run test",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "format:check": "prettier --check infra/github/workflows/*.yml pnpm-workspace.yaml turbo.json packages/config/*.json",
+    "api:generate": "pnpm --filter @tripraft/api-client generate",
+    "structure:check": "python infra/tools/check_structure.py && python infra/tools/validate_infra.py",
+    "files:document": "python infra/tools/document_files.py",
+    "workflows:sync": "node infra/tools/sync-workflows.mjs",
+    "verify": "pnpm structure:check && pnpm lint && pnpm typecheck && pnpm test && pnpm build"
+  },
+  "devDependencies": {
+    "turbo": "2.11.7",
+    "typescript": "^5.9.3",
+    "eslint": "^9.39.0",
+    "typescript-eslint": "^8.46.0",
+    "prettier": "^3.6.2",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7"
+  }
+}

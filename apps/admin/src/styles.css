@@ -1,0 +1,65 @@
+/* Purpose: Styles the styles interface, including its layout and interaction states. */
+:root {
+  font-family: system-ui, sans-serif;
+  color: #152b32;
+  background: #f4f7f6;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+.eyebrow {
+  color: #167568;
+  font-weight: 700;
+}
+h1 {
+  font-size: 36px;
+}
+section {
+  background: white;
+  border: 1px solid #dbe5e2;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 24px;
+}
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+button {
+  border: 0;
+  background: #146958;
+  color: white;
+  border-radius: 6px;
+  padding: 10px 18px;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+a {
+  color: #146958;
+}
+[role='alert'] {
+  color: #92342d;
+}
+.scroll {
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  text-align: left;
+  padding: 12px 8px;
+  border-bottom: 1px solid #e1e9e6;
+}

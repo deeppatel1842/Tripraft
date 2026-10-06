@@ -1,0 +1,6 @@
+{
+  "name": "@tripraft/admin", "version": "0.1.0", "private": true, "type": "module",
+  "scripts": { "dev": "vite --host", "build": "vite build", "lint": "eslint src tests", "typecheck": "tsc --noEmit", "test": "jest --runInBand" },
+  "dependencies": { "@tripraft/api-client": "workspace:*", "@tripraft/types": "workspace:*", "react": "^18.2.0", "react-dom": "^18.2.0" },
+  "devDependencies": { "@tripraft/config": "workspace:*", "@vitejs/plugin-react": "^5.0.2", "vite": "^5.0.0", "@babel/preset-env": "^7.28.5", "@babel/preset-react": "^7.28.5", "@babel/preset-typescript": "^7.28.5", "babel-jest": "^29.7.0", "jest": "^29.7.0", "jest-environment-jsdom": "^29.7.0", "@testing-library/react": "^16.3.0", "@testing-library/jest-dom": "^6.9.1" }
+}

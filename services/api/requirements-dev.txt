@@ -1,0 +1,12 @@
+# =============================================================
+# TripRaft Backend — Development / test dependencies
+# Install: pip install -r requirements.txt -r requirements-dev.txt
+#
+# Kept out of requirements.txt so the production image does not ship
+# the test toolchain.
+# =============================================================
+
+pytest==8.3.4
+pytest-cov==6.0.0
+ruff==0.14.0
+PyYAML==6.0.3

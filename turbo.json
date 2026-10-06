@@ -1,0 +1,12 @@
+{
+  "globalPassThroughEnv": ["PYTHONPATH", "PYTEST_DISABLE_PLUGIN_AUTOLOAD", "TEMP", "TMP"],
+  "$schema": "https://turborepo.dev/schema.json",
+  "globalEnv": ["VITE_API_BASE_URL", "VITE_SUPPORT_EMAIL", "VITE_WEB_URL"],
+  "tasks": {
+    "build": { "dependsOn": ["^build"], "outputs": ["dist/**"] },
+    "lint": { "outputs": [] },
+    "typecheck": { "dependsOn": ["^typecheck"], "outputs": [] },
+    "test": { "dependsOn": ["^build"], "outputs": [], "cache": false },
+    "dev": { "cache": false, "persistent": true }
+  }
+}

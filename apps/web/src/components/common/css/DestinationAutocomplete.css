@@ -1,0 +1,375 @@
+/* Purpose: Styles the Destination Autocomplete interface, including its layout and interaction states. */
+.destination-autocomplete {
+  position: relative;
+  width: 100%;
+}
+
+.autocomplete-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.autocomplete-input-wrapper .input-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6366f1;
+  pointer-events: none;
+  flex-shrink: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+.autocomplete-input {
+  width: 100%;
+  padding: 12px 14px 12px 44px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #1f2937;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+@media (min-width: 640px) {
+  .autocomplete-input {
+    padding: 12px 14px 12px 50px;
+    font-size: 15px;
+  }
+}
+
+.autocomplete-input::placeholder {
+  color: #9ca3af;
+}
+
+.autocomplete-input:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+  background: #fafbff;
+}
+
+.autocomplete-input:disabled {
+  background: #f3f4f6;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.loading-indicator {
+  position: absolute;
+  right: 14px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #e5e7eb;
+  border-top-color: #6366f1;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  z-index: 3;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Suggestions dropdown */
+.suggestions-list {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  list-style: none;
+  max-height: 50vh;
+  overflow-y: auto;
+  margin: 0;
+  padding: 6px 0;
+}
+
+@media (min-width: 640px) {
+  .suggestions-list {
+    max-height: 360px;
+  }
+}
+
+/* Custom scrollbar */
+.suggestions-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.suggestions-list::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 10px;
+}
+
+.suggestions-list::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+.suggestions-list::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Individual suggestion item */
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  border-left: 4px solid transparent;
+  background: #ffffff;
+  color: #1f2937;
+}
+
+.suggestion-item:hover,
+.suggestion-item.highlighted {
+  background: #f0f4ff;
+  border-left-color: #6366f1;
+  transform: translateX(3px);
+}
+
+.suggestion-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-width: 0;
+}
+
+.suggestion-icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggestion-icon.country {
+  color: #10b981;
+}
+
+.suggestion-icon.state {
+  color: #3b82f6;
+}
+
+.suggestion-icon.city {
+  color: #f59e0b;
+}
+
+.suggestion-icon.place {
+  color: #8b5cf6;
+}
+
+.suggestion-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  flex: 1;
+}
+
+.suggestion-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f2937;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+}
+
+.suggestion-type {
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.suggestion-badge {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.suggestion-badge.country {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+/* No results message */
+.no-suggestions {
+  padding: 16px 14px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  margin-top: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+}
+
+/* Trip planner variant - White theme with clean UI */
+.trip-planner-variant .autocomplete-input-wrapper .input-icon {
+  color: #6b7280;
+}
+
+.trip-planner-variant .autocomplete-input {
+  padding: 14px 14px 14px 48px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #111827;
+}
+
+.trip-planner-variant .autocomplete-input::placeholder {
+  color: #9ca3af;
+}
+
+.trip-planner-variant .autocomplete-input:focus {
+  outline: none;
+  border-color: #9ca3af;
+  box-shadow: 0 0 0 3px rgba(156, 163, 175, 0.15);
+  background: #ffffff;
+}
+
+.trip-planner-variant .suggestions-list {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 4px 0;
+}
+
+.trip-planner-variant .suggestion-item {
+  padding: 12px 16px;
+  border-left: none;
+  background: #ffffff;
+}
+
+.trip-planner-variant .suggestion-item:hover,
+.trip-planner-variant .suggestion-item.highlighted {
+  background: #f3f4f6;
+  border-left: none;
+  transform: none;
+}
+
+.trip-planner-variant .suggestion-content {
+  gap: 0;
+}
+
+.trip-planner-variant .suggestion-text {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.trip-planner-variant .suggestion-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+  line-height: 1.5;
+}
+
+.trip-planner-variant .no-suggestions {
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .autocomplete-input {
+    background: #1f2937;
+    border-color: #374151;
+    color: #f9fafb;
+  }
+
+  .autocomplete-input::placeholder {
+    color: #6b7280;
+  }
+
+  .autocomplete-input:focus {
+    background: #111827;
+    border-color: #818cf8;
+    box-shadow: 0 0 0 4px rgba(129, 140, 248, 0.15);
+  }
+
+  .suggestions-list {
+    background: #1f2937;
+    border-color: #374151;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  }
+
+  .suggestion-item {
+    background: #1f2937;
+    color: #f9fafb;
+  }
+
+  .suggestion-item:hover,
+  .suggestion-item.highlighted {
+    background: #2d3748;
+    border-left-color: #818cf8;
+  }
+
+  .suggestion-name {
+    color: #f9fafb;
+  }
+
+  .suggestion-type {
+    color: #9ca3af;
+  }
+
+  .no-suggestions {
+    background: #1f2937;
+    border-color: #374151;
+    color: #d1d5db;
+  }
+
+  /* Trip planner variant keeps light theme in dark mode */
+  .trip-planner-variant .autocomplete-input {
+    background: #ffffff;
+    border-color: #d1d5db;
+    color: #111827;
+  }
+
+  .trip-planner-variant .suggestions-list {
+    background: #ffffff;
+    border-color: #e5e7eb;
+  }
+
+  .trip-planner-variant .suggestion-item {
+    background: #ffffff;
+    color: #111827;
+  }
+
+  .trip-planner-variant .suggestion-item:hover,
+  .trip-planner-variant .suggestion-item.highlighted {
+    background: #f3f4f6;
+  }
+
+  .trip-planner-variant .suggestion-name {
+    color: #111827;
+  }
+}
